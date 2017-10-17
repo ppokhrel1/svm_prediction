@@ -1,0 +1,1622 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1DPU
+
+Length=16
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+emb|CAH18195.1|  hypothetical protein [Homo sapiens]                  35.0    0.14 
+ref|NP_001124571.1|  uracil-DNA glycosylase [Pongo abelii] >emb|C...  35.0    0.32 
+dbj|BAG61398.1|  unnamed protein product [Homo sapiens]               35.0    0.34 
+gb|EFB19769.1|  hypothetical protein PANDA_010173 [Ailuropoda mel...  35.0    0.34 
+ref|XP_003503574.1|  PREDICTED: uracil-DNA glycosylase-like [Cric...  35.0    0.35 
+ref|XP_004017666.1|  PREDICTED: uracil-DNA glycosylase [Ovis aries]   35.0    0.35 
+ref|XP_004053909.1|  PREDICTED: uracil-DNA glycosylase [Gorilla g...  35.0    0.35 
+ref|NP_001068981.1|  uracil-DNA glycosylase [Bos taurus] >gb|AAI1...  35.0    0.37 
+emb|CAG46474.1|  UNG [Homo sapiens]                                   35.0    0.37 
+dbj|BAK62301.1|  uracil-DNA glycosylase [Pan troglodytes]             35.0    0.37 
+ref|NP_003353.1|  uracil-DNA glycosylase isoform UNG1 precursor [...  35.0    0.37 
+gb|AAV38447.1|  uracil-DNA glycosylase [synthetic construct] >gb|...  35.0    0.37 
+ref|XP_005217852.1|  PREDICTED: uracil-DNA glycosylase isoform X1...  35.0    0.37 
+ref|XP_005909606.1|  PREDICTED: uracil-DNA glycosylase [Bos mutus...  35.0    0.37 
+ref|NP_550433.1|  uracil-DNA glycosylase isoform UNG2 [Homo sapie...  35.0    0.37 
+ref|XP_003832558.1|  PREDICTED: uracil-DNA glycosylase [Pan panis...  35.0    0.37 
+ref|XP_003279729.1|  PREDICTED: uracil-DNA glycosylase [Nomascus ...  35.0    0.37 
+ref|NP_001270246.1|  uncharacterized protein LOC101926436 [Macaca...  35.0    0.37 
+ref|XP_004429930.1|  PREDICTED: uracil-DNA glycosylase [Ceratothe...  35.0    0.38 
+ref|XP_003278500.1|  PREDICTED: uracil-DNA glycosylase-like [Noma...  35.0    0.38 
+ref|XP_002723223.1|  PREDICTED: uracil-DNA glycosylase [Oryctolag...  35.0    0.38 
+ref|XP_004470244.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  35.0    0.39 
+ref|XP_006176223.1|  PREDICTED: uracil-DNA glycosylase [Camelus f...  35.0    0.42 
+ref|XP_005078993.1|  PREDICTED: uracil-DNA glycosylase [Mesocrice...  35.0    0.42 
+ref|XP_003132973.1|  PREDICTED: uracil-DNA glycosylase [Sus scrofa]   35.0    0.43 
+ref|XP_003789937.1|  PREDICTED: uracil-DNA glycosylase [Otolemur ...  35.0    0.44 
+ref|XP_002921276.1|  PREDICTED: uracil-DNA glycosylase-like [Ailu...  35.0    0.44 
+ref|XP_005344310.1|  PREDICTED: uracil-DNA glycosylase [Microtus ...  34.7    0.46 
+ref|XP_006204818.1|  PREDICTED: uracil-DNA glycosylase [Vicugna p...  34.7    0.46 
+ref|XP_005340162.1|  PREDICTED: uracil-DNA glycosylase isoform X1...  34.7    0.46 
+gb|EHH21156.1|  hypothetical protein EGK_04159 [Macaca mulatta]       34.7    0.48 
+ref|XP_004691012.1|  PREDICTED: uracil-DNA glycosylase [Condylura...  34.7    0.49 
+ref|XP_005614833.1|  PREDICTED: LOW QUALITY PROTEIN: uracil-DNA g...  34.7    0.50 
+ref|XP_006151552.1|  PREDICTED: uracil-DNA glycosylase [Tupaia ch...  34.7    0.54 
+ref|XP_001104341.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  34.7    0.55 
+ref|XP_003907171.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  34.7    0.57 
+emb|CAA70168.1|  uracil-DNA gylcosylase [Mus musculus]                34.3    0.62 
+ref|NP_001035781.1|  uracil-DNA glycosylase isoform a [Mus muscul...  34.3    0.63 
+gb|ELK03902.1|  Uracil-DNA glycosylase [Pteropus alecto]              34.3    0.64 
+ref|XP_004470245.1|  PREDICTED: uracil-DNA glycosylase isoform 2 ...  34.3    0.68 
+ref|XP_543441.2|  PREDICTED: uracil-DNA glycosylase [Canis lupus ...  34.3    0.77 
+ref|XP_005396540.1|  PREDICTED: uracil-DNA glycosylase [Chinchill...  34.3    0.80 
+ref|XP_002753024.1|  PREDICTED: uracil-DNA glycosylase [Callithri...  33.9    0.87 
+ref|XP_003932325.1|  PREDICTED: uracil-DNA glycosylase [Saimiri b...  33.9    0.93 
+gb|ELW63815.1|  Uracil-DNA glycosylase [Tupaia chinensis]             33.5    1.0  
+gb|EDM13948.1|  uracil-DNA glycosylase, isoform CRA_a [Rattus nor...  33.9    1.0  
+ref|XP_005340163.1|  PREDICTED: uracil-DNA glycosylase isoform X2...  33.9    1.1  
+gb|EGW10622.1|  Uracil-DNA glycosylase [Cricetulus griseus]           33.5    1.4  
+ref|XP_004779159.1|  PREDICTED: uracil-DNA glycosylase [Mustela p...  33.5    1.5  
+gb|AAB39511.1|  uracil-DNA glycosylase, partial [Mus musculus]        30.8    2.3  
+ref|XP_004615654.1|  PREDICTED: uracil-DNA glycosylase [Sorex ara...  32.7    2.8  
+ref|NP_001013142.1|  uracil-DNA glycosylase [Rattus norvegicus] >...  32.0    3.9  
+emb|CAA67489.1|  uracil-DNA glycosylase [Mus musculus] >gb|AAH528...  31.6    5.1  
+ref|NP_035807.2|  uracil-DNA glycosylase isoform b [Mus musculus]...  31.6    5.1  
+pdb|1DPU|B  Chain B, Solution Structure Of The C-Terminal Domain ...  30.0    5.3  
+
+
+>emb|CAH18195.1| hypothetical protein [Homo sapiens]
+Length=141
+
+ Score = 35.0 bits (79),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|NP_001124571.1| uracil-DNA glycosylase [Pongo abelii]
+ emb|CAH89365.1| hypothetical protein [Pongo abelii]
+Length=258
+
+ Score = 35.0 bits (79),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>dbj|BAG61398.1| unnamed protein product [Homo sapiens]
+Length=270
+
+ Score = 35.0 bits (79),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  30  RIQRNKAAALLRLAAR  45
+
+
+>gb|EFB19769.1| hypothetical protein PANDA_010173 [Ailuropoda melanoleuca]
+Length=269
+
+ Score = 35.0 bits (79),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  29  RIQRNKAAALLRLAAR  44
+
+
+>ref|XP_003503574.1| PREDICTED: uracil-DNA glycosylase-like [Cricetulus griseus]
+Length=288
+
+ Score = 35.0 bits (79),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  48  RIQRNKAAALLRLAAR  63
+
+
+>ref|XP_004017666.1| PREDICTED: uracil-DNA glycosylase [Ovis aries]
+Length=289
+
+ Score = 35.0 bits (79),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  49  RIQRNKAAALLRLAAR  64
+
+
+>ref|XP_004053909.1| PREDICTED: uracil-DNA glycosylase [Gorilla gorilla gorilla]
+Length=290
+
+ Score = 35.0 bits (79),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    RIQRNKAAALLRLAAR  16
+            RIQRNKAAALLRLAAR
+Sbjct  108  RIQRNKAAALLRLAAR  123
+
+
+>ref|NP_001068981.1| uracil-DNA glycosylase [Bos taurus]
+ gb|AAI18448.1| Uracil-DNA glycosylase [Bos taurus]
+ tpg|DAA20607.1| TPA: uracil-DNA glycosylase [Bos taurus]
+Length=304
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>emb|CAG46474.1| UNG [Homo sapiens]
+Length=304
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>dbj|BAK62301.1| uracil-DNA glycosylase [Pan troglodytes]
+Length=304
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|NP_003353.1| uracil-DNA glycosylase isoform UNG1 precursor [Homo sapiens]
+ emb|CAA33679.1| unnamed protein product [Homo sapiens]
+ emb|CAA61579.1| uracil-DNA-glycosylase, UNG1 [Homo sapiens]
+ gb|AAH15205.1| Uracil-DNA glycosylase [Homo sapiens]
+ gb|AAH50634.1| Uracil-DNA glycosylase [Homo sapiens]
+ gb|EAW97846.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ gb|EAW97848.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ gb|EAW97850.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ dbj|BAF84030.1| unnamed protein product [Homo sapiens]
+ gb|ACT64522.1| uracil-DNA glycosylase protein [synthetic construct]
+ gb|ACT64523.1| uracil-DNA glycosylase protein [synthetic construct]
+ gb|ADP92135.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92137.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92139.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92141.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92143.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92145.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92147.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92149.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92151.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92153.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92155.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92157.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92159.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92161.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92163.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92165.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92167.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92169.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92171.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92173.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92175.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92177.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92179.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92181.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92183.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92185.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92187.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92189.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92191.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92193.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92195.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92197.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92199.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92201.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92203.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92205.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92207.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92209.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92211.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92213.1| uracil-DNA glycosylase [Homo sapiens]
+Length=304
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|AAV38447.1| uracil-DNA glycosylase [synthetic construct]
+ gb|AAX42728.1| uracil-DNA glycosylase [synthetic construct]
+Length=305
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_005217852.1| PREDICTED: uracil-DNA glycosylase isoform X1 [Bos taurus]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005909606.1| PREDICTED: uracil-DNA glycosylase [Bos mutus]
+ gb|ELR46235.1| Uracil-DNA glycosylase [Bos mutus]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|NP_550433.1| uracil-DNA glycosylase isoform UNG2 [Homo sapiens]
+ ref|NP_001233452.1| uracil-DNA glycosylase [Pan troglodytes]
+ sp|P13051.2|UNG_HUMAN RecName: Full=Uracil-DNA glycosylase; Short=UDG
+ gb|AAM77695.1|AF526277_1 uracil-DNA glycosylase [Homo sapiens]
+ emb|CAA61578.1| uracil-DNA-glycosylase, UNG2 [Homo sapiens]
+ emb|CAA70211.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|EAW97847.1| uracil-DNA glycosylase, isoform CRA_b [Homo sapiens]
+ gb|EAW97849.1| uracil-DNA glycosylase, isoform CRA_b [Homo sapiens]
+ dbj|BAG36328.1| unnamed protein product [Homo sapiens]
+ gb|ADP92134.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92136.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92138.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92140.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92142.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92144.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92146.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92148.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92150.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92152.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92154.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92156.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92158.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92160.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92162.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92164.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92166.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92168.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92170.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92172.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92174.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92176.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92178.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92180.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92182.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92184.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92186.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92188.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92190.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92192.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92194.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92196.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92198.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92200.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92202.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92204.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92206.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92208.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92210.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92212.1| uracil-DNA glycosylase [Homo sapiens]
+ dbj|BAK62126.1| uracil-DNA glycosylase [Pan troglodytes]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003832558.1| PREDICTED: uracil-DNA glycosylase [Pan paniscus]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003279729.1| PREDICTED: uracil-DNA glycosylase [Nomascus leucogenys]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|NP_001270246.1| uncharacterized protein LOC101926436 [Macaca fascicularis]
+ dbj|BAE01855.1| unnamed protein product [Macaca fascicularis]
+Length=304
+
+ Score = 35.0 bits (79),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_004429930.1| PREDICTED: uracil-DNA glycosylase [Ceratotherium simum simum]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003278500.1| PREDICTED: uracil-DNA glycosylase-like [Nomascus leucogenys]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002723223.1| PREDICTED: uracil-DNA glycosylase [Oryctolagus cuniculus]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_004470244.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Dasypus novemcinctus]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_006176223.1| PREDICTED: uracil-DNA glycosylase [Camelus ferus]
+Length=290
+
+ Score = 35.0 bits (79),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  50  RIQRNKAAALLRLAAR  65
+
+
+>ref|XP_005078993.1| PREDICTED: uracil-DNA glycosylase [Mesocricetus auratus]
+Length=309
+
+ Score = 35.0 bits (79),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  69  RIQRNKAAALLRLAAR  84
+
+
+>ref|XP_003132973.1| PREDICTED: uracil-DNA glycosylase [Sus scrofa]
+Length=312
+
+ Score = 35.0 bits (79),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  72  RIQRNKAAALLRLAAR  87
+
+
+>ref|XP_003789937.1| PREDICTED: uracil-DNA glycosylase [Otolemur garnettii]
+Length=313
+
+ Score = 35.0 bits (79),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002921276.1| PREDICTED: uracil-DNA glycosylase-like [Ailuropoda melanoleuca]
+Length=314
+
+ Score = 35.0 bits (79),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  74  RIQRNKAAALLRLAAR  89
+
+
+>ref|XP_005344310.1| PREDICTED: uracil-DNA glycosylase [Microtus ochrogaster]
+Length=309
+
+ Score = 34.7 bits (78),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  69  RIQRNKAAALLRLAAR  84
+
+
+>ref|XP_006204818.1| PREDICTED: uracil-DNA glycosylase [Vicugna pacos]
+Length=312
+
+ Score = 34.7 bits (78),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  72  RIQRNKAAALLRLAAR  87
+
+
+>ref|XP_005340162.1| PREDICTED: uracil-DNA glycosylase isoform X1 [Ictidomys tridecemlineatus]
+Length=313
+
+ Score = 34.7 bits (78),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>gb|EHH21156.1| hypothetical protein EGK_04159 [Macaca mulatta]
+Length=272
+
+ Score = 34.7 bits (78),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_004691012.1| PREDICTED: uracil-DNA glycosylase [Condylura cristata]
+Length=310
+
+ Score = 34.7 bits (78),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>ref|XP_005614833.1| PREDICTED: LOW QUALITY PROTEIN: uracil-DNA glycosylase [Equus 
+caballus]
+Length=313
+
+ Score = 34.7 bits (78),  Expect = 0.50, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_006151552.1| PREDICTED: uracil-DNA glycosylase [Tupaia chinensis]
+Length=304
+
+ Score = 34.7 bits (78),  Expect = 0.54, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_001104341.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Macaca mulatta]
+Length=313
+
+ Score = 34.7 bits (78),  Expect = 0.55, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003907171.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Papio anubis]
+ ref|XP_003907172.1| PREDICTED: uracil-DNA glycosylase isoform 2 [Papio anubis]
+Length=313
+
+ Score = 34.7 bits (78),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>emb|CAA70168.1| uracil-DNA gylcosylase [Mus musculus]
+Length=306
+
+ Score = 34.3 bits (77),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  66  RIQRNKAAALLRLAAR  81
+
+
+>ref|NP_001035781.1| uracil-DNA glycosylase isoform a [Mus musculus]
+ sp|P97931.3|UNG_MOUSE RecName: Full=Uracil-DNA glycosylase; Short=UDG
+ gb|AAF76936.1|AF174485_1 uracil-DNA glycosylase nuclear isoform [Mus musculus]
+ gb|AAH11039.1| Ung protein [Mus musculus]
+ dbj|BAE26956.1| unnamed protein product [Mus musculus]
+ gb|EDL19920.1| uracil DNA glycosylase, isoform CRA_a [Mus musculus]
+Length=306
+
+ Score = 34.3 bits (77),  Expect = 0.63, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  66  RIQRNKAAALLRLAAR  81
+
+
+>gb|ELK03902.1| Uracil-DNA glycosylase [Pteropus alecto]
+Length=313
+
+ Score = 34.3 bits (77),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_004470245.1| PREDICTED: uracil-DNA glycosylase isoform 2 [Dasypus novemcinctus]
+Length=252
+
+ Score = 34.3 bits (77),  Expect = 0.68, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_543441.2| PREDICTED: uracil-DNA glycosylase [Canis lupus familiaris]
+Length=297
+
+ Score = 34.3 bits (77),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  57  RIQRNKAAALLRLAAR  72
+
+
+>ref|XP_005396540.1| PREDICTED: uracil-DNA glycosylase [Chinchilla lanigera]
+Length=313
+
+ Score = 34.3 bits (77),  Expect = 0.80, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002753024.1| PREDICTED: uracil-DNA glycosylase [Callithrix jacchus]
+Length=313
+
+ Score = 33.9 bits (76),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003932325.1| PREDICTED: uracil-DNA glycosylase [Saimiri boliviensis boliviensis]
+Length=313
+
+ Score = 33.9 bits (76),  Expect = 0.93, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>gb|ELW63815.1| Uracil-DNA glycosylase [Tupaia chinensis]
+Length=272
+
+ Score = 33.5 bits (75),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|EDM13948.1| uracil-DNA glycosylase, isoform CRA_a [Rattus norvegicus]
+Length=310
+
+ Score = 33.9 bits (76),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>ref|XP_005340163.1| PREDICTED: uracil-DNA glycosylase isoform X2 [Ictidomys tridecemlineatus]
+Length=304
+
+ Score = 33.9 bits (76),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|EGW10622.1| Uracil-DNA glycosylase [Cricetulus griseus]
+Length=274
+
+ Score = 33.5 bits (75),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  34  RIQRNKAAALLRLAAR  49
+
+
+>ref|XP_004779159.1| PREDICTED: uracil-DNA glycosylase [Mustela putorius furo]
+Length=398
+
+ Score = 33.5 bits (75),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    RIQRNKAAALLRLAAR  16
+            RIQRNKAAALLRLAAR
+Sbjct  158  RIQRNKAAALLRLAAR  173
+
+
+>gb|AAB39511.1| uracil-DNA glycosylase, partial [Mus musculus]
+Length=95
+
+ Score = 30.8 bits (68),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  55  RIQRNKAAALLRLAAR  70
+
+
+>ref|XP_004615654.1| PREDICTED: uracil-DNA glycosylase [Sorex araneus]
+Length=310
+
+ Score = 32.7 bits (73),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>ref|NP_001013142.1| uracil-DNA glycosylase [Rattus norvegicus]
+ gb|AAH91211.1| Uracil-DNA glycosylase [Rattus norvegicus]
+ gb|EDM13949.1| uracil-DNA glycosylase, isoform CRA_b [Rattus norvegicus]
+Length=303
+
+ Score = 32.0 bits (71),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  63  RIQRNKAAALLRLAAR  78
+
+
+>emb|CAA67489.1| uracil-DNA glycosylase [Mus musculus]
+ gb|AAH52853.1| Ung protein [Mus musculus]
+Length=295
+
+ Score = 31.6 bits (70),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  55  RIQRNKAAALLRLAAR  70
+
+
+>ref|NP_035807.2| uracil-DNA glycosylase isoform b [Mus musculus]
+ gb|AAF76937.1|AF174485_2 uracil-DNA glycosylase mitochondrial isoform [Mus musculus]
+ gb|AAC53197.1| uracil-DNA glycosylase [Mus musculus]
+ dbj|BAE40551.1| unnamed protein product [Mus musculus]
+ dbj|BAE40619.1| unnamed protein product [Mus musculus]
+ gb|EDL19921.1| uracil DNA glycosylase, isoform CRA_b [Mus musculus]
+Length=295
+
+ Score = 31.6 bits (70),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  55  RIQRNKAAALLRLAAR  70
+
+
+>pdb|1DPU|B Chain B, Solution Structure Of The C-Terminal Domain Of Human 
+Rpa32 Complexed With Ung2(73-88)
+Length=16
+
+ Score = 30.0 bits (66),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  1   RIQRNKAAALLRLAAR  16
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.133    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 197677507440
+Results from round 2
+
+
+Query= 1DPU
+
+Length=16
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+emb|CAH18195.1|  hypothetical protein [Homo sapiens]                  33.5    0.47 
+ref|XP_004470245.1|  PREDICTED: uracil-DNA glycosylase isoform 2 ...  33.5    0.98 
+ref|NP_001124571.1|  uracil-DNA glycosylase [Pongo abelii] >emb|C...  33.5    0.99 
+gb|EFB19769.1|  hypothetical protein PANDA_010173 [Ailuropoda mel...  33.5    1.0  
+dbj|BAG61398.1|  unnamed protein product [Homo sapiens]               33.5    1.0  
+gb|EHH21156.1|  hypothetical protein EGK_04159 [Macaca mulatta]       33.5    1.0  
+ref|XP_003503574.1|  PREDICTED: uracil-DNA glycosylase-like [Cric...  33.5    1.1  
+ref|XP_004017666.1|  PREDICTED: uracil-DNA glycosylase [Ovis aries]   33.5    1.1  
+ref|XP_006176223.1|  PREDICTED: uracil-DNA glycosylase [Camelus f...  33.5    1.1  
+ref|XP_004053909.1|  PREDICTED: uracil-DNA glycosylase [Gorilla g...  33.5    1.1  
+ref|XP_543441.2|  PREDICTED: uracil-DNA glycosylase [Canis lupus ...  33.5    1.1  
+ref|XP_006151552.1|  PREDICTED: uracil-DNA glycosylase [Tupaia ch...  33.5    1.1  
+ref|NP_001068981.1|  uracil-DNA glycosylase [Bos taurus] >gb|AAI1...  33.5    1.1  
+emb|CAG46474.1|  UNG [Homo sapiens]                                   33.5    1.1  
+dbj|BAK62301.1|  uracil-DNA glycosylase [Pan troglodytes]             33.5    1.1  
+ref|NP_001270246.1|  uncharacterized protein LOC101926436 [Macaca...  33.5    1.1  
+ref|NP_003353.1|  uracil-DNA glycosylase isoform UNG1 precursor [...  33.5    1.1  
+gb|AAV38447.1|  uracil-DNA glycosylase [synthetic construct] >gb|...  33.5    1.1  
+emb|CAA70168.1|  uracil-DNA gylcosylase [Mus musculus]                33.5    1.1  
+ref|NP_001035781.1|  uracil-DNA glycosylase isoform a [Mus muscul...  33.5    1.1  
+ref|XP_005344310.1|  PREDICTED: uracil-DNA glycosylase [Microtus ...  33.5    1.1  
+ref|XP_005078993.1|  PREDICTED: uracil-DNA glycosylase [Mesocrice...  33.5    1.1  
+ref|XP_004691012.1|  PREDICTED: uracil-DNA glycosylase [Condylura...  33.5    1.1  
+ref|XP_006204818.1|  PREDICTED: uracil-DNA glycosylase [Vicugna p...  33.5    1.1  
+ref|XP_003132973.1|  PREDICTED: uracil-DNA glycosylase [Sus scrofa]   33.5    1.1  
+ref|XP_005614833.1|  PREDICTED: LOW QUALITY PROTEIN: uracil-DNA g...  33.5    1.1  
+ref|XP_005396540.1|  PREDICTED: uracil-DNA glycosylase [Chinchill...  33.5    1.1  
+ref|XP_005340162.1|  PREDICTED: uracil-DNA glycosylase isoform X1...  33.5    1.1  
+ref|XP_005217852.1|  PREDICTED: uracil-DNA glycosylase isoform X1...  33.5    1.1  
+ref|XP_004470244.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  33.5    1.1  
+ref|XP_004429930.1|  PREDICTED: uracil-DNA glycosylase [Ceratothe...  33.5    1.1  
+ref|XP_005909606.1|  PREDICTED: uracil-DNA glycosylase [Bos mutus...  33.5    1.1  
+gb|ELK03902.1|  Uracil-DNA glycosylase [Pteropus alecto]              33.5    1.1  
+ref|NP_550433.1|  uracil-DNA glycosylase isoform UNG2 [Homo sapie...  33.5    1.1  
+ref|XP_003907171.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  33.5    1.1  
+ref|XP_003832558.1|  PREDICTED: uracil-DNA glycosylase [Pan panis...  33.5    1.1  
+ref|XP_003789937.1|  PREDICTED: uracil-DNA glycosylase [Otolemur ...  33.5    1.1  
+ref|XP_003279729.1|  PREDICTED: uracil-DNA glycosylase [Nomascus ...  33.5    1.1  
+ref|XP_003278500.1|  PREDICTED: uracil-DNA glycosylase-like [Noma...  33.5    1.1  
+ref|XP_002753024.1|  PREDICTED: uracil-DNA glycosylase [Callithri...  33.5    1.1  
+ref|XP_002723223.1|  PREDICTED: uracil-DNA glycosylase [Oryctolag...  33.5    1.1  
+ref|XP_001104341.1|  PREDICTED: uracil-DNA glycosylase isoform 1 ...  33.5    1.1  
+ref|XP_002921276.1|  PREDICTED: uracil-DNA glycosylase-like [Ailu...  33.5    1.1  
+ref|XP_003932325.1|  PREDICTED: uracil-DNA glycosylase [Saimiri b...  33.5    1.3  
+ref|XP_005340163.1|  PREDICTED: uracil-DNA glycosylase isoform X2...  33.5    1.5  
+gb|EDM13948.1|  uracil-DNA glycosylase, isoform CRA_a [Rattus nor...  33.5    1.5  
+gb|ELW63815.1|  Uracil-DNA glycosylase [Tupaia chinensis]             33.1    1.5  
+gb|EGW10622.1|  Uracil-DNA glycosylase [Cricetulus griseus]           32.7    2.0  
+ref|XP_004779159.1|  PREDICTED: uracil-DNA glycosylase [Mustela p...  33.1    2.1  
+ref|XP_004615654.1|  PREDICTED: uracil-DNA glycosylase [Sorex ara...  32.3    3.8  
+ref|NP_001013142.1|  uracil-DNA glycosylase [Rattus norvegicus] >...  31.6    5.1  
+emb|CAA67489.1|  uracil-DNA glycosylase [Mus musculus] >gb|AAH528...  31.2    6.9  
+ref|NP_035807.2|  uracil-DNA glycosylase isoform b [Mus musculus]...  31.2    6.9  
+
+
+>emb|CAH18195.1| hypothetical protein [Homo sapiens]
+Length=141
+
+ Score = 33.5 bits (75),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_004470245.1| PREDICTED: uracil-DNA glycosylase isoform 2 [Dasypus novemcinctus]
+Length=252
+
+ Score = 33.5 bits (75),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|NP_001124571.1| uracil-DNA glycosylase [Pongo abelii]
+ emb|CAH89365.1| hypothetical protein [Pongo abelii]
+Length=258
+
+ Score = 33.5 bits (75),  Expect = 0.99, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|EFB19769.1| hypothetical protein PANDA_010173 [Ailuropoda melanoleuca]
+Length=269
+
+ Score = 33.5 bits (75),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  29  RIQRNKAAALLRLAAR  44
+
+
+>dbj|BAG61398.1| unnamed protein product [Homo sapiens]
+Length=270
+
+ Score = 33.5 bits (75),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  30  RIQRNKAAALLRLAAR  45
+
+
+>gb|EHH21156.1| hypothetical protein EGK_04159 [Macaca mulatta]
+Length=272
+
+ Score = 33.5 bits (75),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|XP_003503574.1| PREDICTED: uracil-DNA glycosylase-like [Cricetulus griseus]
+Length=288
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  48  RIQRNKAAALLRLAAR  63
+
+
+>ref|XP_004017666.1| PREDICTED: uracil-DNA glycosylase [Ovis aries]
+Length=289
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  49  RIQRNKAAALLRLAAR  64
+
+
+>ref|XP_006176223.1| PREDICTED: uracil-DNA glycosylase [Camelus ferus]
+Length=290
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  50  RIQRNKAAALLRLAAR  65
+
+
+>ref|XP_004053909.1| PREDICTED: uracil-DNA glycosylase [Gorilla gorilla gorilla]
+Length=290
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    RIQRNKAAALLRLAAR  16
+            RIQRNKAAALLRLAAR
+Sbjct  108  RIQRNKAAALLRLAAR  123
+
+
+>ref|XP_543441.2| PREDICTED: uracil-DNA glycosylase [Canis lupus familiaris]
+Length=297
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  57  RIQRNKAAALLRLAAR  72
+
+
+>ref|XP_006151552.1| PREDICTED: uracil-DNA glycosylase [Tupaia chinensis]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|NP_001068981.1| uracil-DNA glycosylase [Bos taurus]
+ gb|AAI18448.1| Uracil-DNA glycosylase [Bos taurus]
+ tpg|DAA20607.1| TPA: uracil-DNA glycosylase [Bos taurus]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>emb|CAG46474.1| UNG [Homo sapiens]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>dbj|BAK62301.1| uracil-DNA glycosylase [Pan troglodytes]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|NP_001270246.1| uncharacterized protein LOC101926436 [Macaca fascicularis]
+ dbj|BAE01855.1| unnamed protein product [Macaca fascicularis]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>ref|NP_003353.1| uracil-DNA glycosylase isoform UNG1 precursor [Homo sapiens]
+ emb|CAA33679.1| unnamed protein product [Homo sapiens]
+ emb|CAA61579.1| uracil-DNA-glycosylase, UNG1 [Homo sapiens]
+ gb|AAH15205.1| Uracil-DNA glycosylase [Homo sapiens]
+ gb|AAH50634.1| Uracil-DNA glycosylase [Homo sapiens]
+ gb|EAW97846.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ gb|EAW97848.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ gb|EAW97850.1| uracil-DNA glycosylase, isoform CRA_a [Homo sapiens]
+ dbj|BAF84030.1| unnamed protein product [Homo sapiens]
+ gb|ACT64522.1| uracil-DNA glycosylase protein [synthetic construct]
+ gb|ACT64523.1| uracil-DNA glycosylase protein [synthetic construct]
+ gb|ADP92135.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92137.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92139.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92141.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92143.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92145.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92147.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92149.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92151.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92153.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92155.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92157.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92159.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92161.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92163.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92165.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92167.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92169.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92171.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92173.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92175.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92177.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92179.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92181.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92183.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92185.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92187.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92189.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92191.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92193.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92195.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92197.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92199.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92201.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92203.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92205.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92207.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92209.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92211.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92213.1| uracil-DNA glycosylase [Homo sapiens]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|AAV38447.1| uracil-DNA glycosylase [synthetic construct]
+ gb|AAX42728.1| uracil-DNA glycosylase [synthetic construct]
+Length=305
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>emb|CAA70168.1| uracil-DNA gylcosylase [Mus musculus]
+Length=306
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  66  RIQRNKAAALLRLAAR  81
+
+
+>ref|NP_001035781.1| uracil-DNA glycosylase isoform a [Mus musculus]
+ sp|P97931.3|UNG_MOUSE RecName: Full=Uracil-DNA glycosylase; Short=UDG
+ gb|AAF76936.1|AF174485_1 uracil-DNA glycosylase nuclear isoform [Mus musculus]
+ gb|AAH11039.1| Ung protein [Mus musculus]
+ dbj|BAE26956.1| unnamed protein product [Mus musculus]
+ gb|EDL19920.1| uracil DNA glycosylase, isoform CRA_a [Mus musculus]
+Length=306
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  66  RIQRNKAAALLRLAAR  81
+
+
+>ref|XP_005344310.1| PREDICTED: uracil-DNA glycosylase [Microtus ochrogaster]
+Length=309
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  69  RIQRNKAAALLRLAAR  84
+
+
+>ref|XP_005078993.1| PREDICTED: uracil-DNA glycosylase [Mesocricetus auratus]
+Length=309
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  69  RIQRNKAAALLRLAAR  84
+
+
+>ref|XP_004691012.1| PREDICTED: uracil-DNA glycosylase [Condylura cristata]
+Length=310
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>ref|XP_006204818.1| PREDICTED: uracil-DNA glycosylase [Vicugna pacos]
+Length=312
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  72  RIQRNKAAALLRLAAR  87
+
+
+>ref|XP_003132973.1| PREDICTED: uracil-DNA glycosylase [Sus scrofa]
+Length=312
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  72  RIQRNKAAALLRLAAR  87
+
+
+>ref|XP_005614833.1| PREDICTED: LOW QUALITY PROTEIN: uracil-DNA glycosylase [Equus 
+caballus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005396540.1| PREDICTED: uracil-DNA glycosylase [Chinchilla lanigera]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005340162.1| PREDICTED: uracil-DNA glycosylase isoform X1 [Ictidomys tridecemlineatus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005217852.1| PREDICTED: uracil-DNA glycosylase isoform X1 [Bos taurus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_004470244.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Dasypus novemcinctus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_004429930.1| PREDICTED: uracil-DNA glycosylase [Ceratotherium simum simum]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005909606.1| PREDICTED: uracil-DNA glycosylase [Bos mutus]
+ gb|ELR46235.1| Uracil-DNA glycosylase [Bos mutus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>gb|ELK03902.1| Uracil-DNA glycosylase [Pteropus alecto]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|NP_550433.1| uracil-DNA glycosylase isoform UNG2 [Homo sapiens]
+ ref|NP_001233452.1| uracil-DNA glycosylase [Pan troglodytes]
+ sp|P13051.2|UNG_HUMAN RecName: Full=Uracil-DNA glycosylase; Short=UDG
+ gb|AAM77695.1|AF526277_1 uracil-DNA glycosylase [Homo sapiens]
+ emb|CAA61578.1| uracil-DNA-glycosylase, UNG2 [Homo sapiens]
+ emb|CAA70211.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|EAW97847.1| uracil-DNA glycosylase, isoform CRA_b [Homo sapiens]
+ gb|EAW97849.1| uracil-DNA glycosylase, isoform CRA_b [Homo sapiens]
+ dbj|BAG36328.1| unnamed protein product [Homo sapiens]
+ gb|ADP92134.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92136.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92138.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92140.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92142.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92144.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92146.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92148.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92150.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92152.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92154.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92156.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92158.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92160.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92162.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92164.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92166.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92168.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92170.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92172.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92174.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92176.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92178.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92180.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92182.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92184.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92186.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92188.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92190.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92192.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92194.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92196.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92198.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92200.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92202.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92204.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92206.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92208.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92210.1| uracil-DNA glycosylase [Homo sapiens]
+ gb|ADP92212.1| uracil-DNA glycosylase [Homo sapiens]
+ dbj|BAK62126.1| uracil-DNA glycosylase [Pan troglodytes]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003907171.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Papio anubis]
+ ref|XP_003907172.1| PREDICTED: uracil-DNA glycosylase isoform 2 [Papio anubis]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003832558.1| PREDICTED: uracil-DNA glycosylase [Pan paniscus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003789937.1| PREDICTED: uracil-DNA glycosylase [Otolemur garnettii]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003279729.1| PREDICTED: uracil-DNA glycosylase [Nomascus leucogenys]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_003278500.1| PREDICTED: uracil-DNA glycosylase-like [Nomascus leucogenys]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002753024.1| PREDICTED: uracil-DNA glycosylase [Callithrix jacchus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002723223.1| PREDICTED: uracil-DNA glycosylase [Oryctolagus cuniculus]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_001104341.1| PREDICTED: uracil-DNA glycosylase isoform 1 [Macaca mulatta]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_002921276.1| PREDICTED: uracil-DNA glycosylase-like [Ailuropoda melanoleuca]
+Length=314
+
+ Score = 33.5 bits (75),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  74  RIQRNKAAALLRLAAR  89
+
+
+>ref|XP_003932325.1| PREDICTED: uracil-DNA glycosylase [Saimiri boliviensis boliviensis]
+Length=313
+
+ Score = 33.5 bits (75),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  73  RIQRNKAAALLRLAAR  88
+
+
+>ref|XP_005340163.1| PREDICTED: uracil-DNA glycosylase isoform X2 [Ictidomys tridecemlineatus]
+Length=304
+
+ Score = 33.5 bits (75),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|EDM13948.1| uracil-DNA glycosylase, isoform CRA_a [Rattus norvegicus]
+Length=310
+
+ Score = 33.5 bits (75),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>gb|ELW63815.1| Uracil-DNA glycosylase [Tupaia chinensis]
+Length=272
+
+ Score = 33.1 bits (74),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  64  RIQRNKAAALLRLAAR  79
+
+
+>gb|EGW10622.1| Uracil-DNA glycosylase [Cricetulus griseus]
+Length=274
+
+ Score = 32.7 bits (73),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  34  RIQRNKAAALLRLAAR  49
+
+
+>ref|XP_004779159.1| PREDICTED: uracil-DNA glycosylase [Mustela putorius furo]
+Length=398
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    RIQRNKAAALLRLAAR  16
+            RIQRNKAAALLRLAAR
+Sbjct  158  RIQRNKAAALLRLAAR  173
+
+
+>ref|XP_004615654.1| PREDICTED: uracil-DNA glycosylase [Sorex araneus]
+Length=310
+
+ Score = 32.3 bits (72),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  70  RIQRNKAAALLRLAAR  85
+
+
+>ref|NP_001013142.1| uracil-DNA glycosylase [Rattus norvegicus]
+ gb|AAH91211.1| Uracil-DNA glycosylase [Rattus norvegicus]
+ gb|EDM13949.1| uracil-DNA glycosylase, isoform CRA_b [Rattus norvegicus]
+Length=303
+
+ Score = 31.6 bits (70),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  63  RIQRNKAAALLRLAAR  78
+
+
+>emb|CAA67489.1| uracil-DNA glycosylase [Mus musculus]
+ gb|AAH52853.1| Ung protein [Mus musculus]
+Length=295
+
+ Score = 31.2 bits (69),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  55  RIQRNKAAALLRLAAR  70
+
+
+>ref|NP_035807.2| uracil-DNA glycosylase isoform b [Mus musculus]
+ gb|AAF76937.1|AF174485_2 uracil-DNA glycosylase mitochondrial isoform [Mus musculus]
+ gb|AAC53197.1| uracil-DNA glycosylase [Mus musculus]
+ dbj|BAE40551.1| unnamed protein product [Mus musculus]
+ dbj|BAE40619.1| unnamed protein product [Mus musculus]
+ gb|EDL19921.1| uracil DNA glycosylase, isoform CRA_b [Mus musculus]
+Length=295
+
+ Score = 31.2 bits (69),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1   RIQRNKAAALLRLAAR  16
+           RIQRNKAAALLRLAAR
+Sbjct  55  RIQRNKAAALLRLAAR  70
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.133    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 197677507440
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

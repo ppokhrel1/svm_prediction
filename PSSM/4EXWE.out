@@ -1,0 +1,1686 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4EXWE
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|4EXW|A  Chain A, The Structure Of Ddrb From Deinococcus: A Ne...   369    5e-128
+ref|YP_603767.1|  hypothetical protein Dgeo_0295 [Deinococcus geo...   365    2e-126
+ref|WP_019587404.1|  single-stranded DNA-binding protein [Deinoco...   304    1e-102
+ref|WP_022800578.1|  single-stranded DNA-binding protein [Deinoco...   283    2e-94 
+ref|YP_002784872.1|  radiation-induced protein [Deinococcus deser...   283    2e-94 
+ref|WP_017870768.1|  single-stranded DNA-binding protein [Deinoco...   273    4e-90 
+ref|WP_019009593.1|  single-stranded DNA-binding protein [Deinoco...   270    4e-89 
+ref|YP_006259735.1|  DdrB, radiation induced single-stranded DNA ...   270    7e-89 
+pdb|4HQB|A  Chain A, Crystal Structure Of Ddrb From Deinococcus R...   268    9e-89 
+ref|NP_293796.1|  hypothetical protein DR_0070 [Deinococcus radio...   261    1e-85 
+sp|Q9RY80.2|DDRB_DEIRA  RecName: Full=Single-stranded DNA-binding...   261    1e-85 
+ref|YP_004256837.1|  hypothetical protein Deipr_2350 [Deinococcus...   260    2e-85 
+ref|YP_004256358.1|  putative radiation-induced protein [Deinococ...   260    4e-85 
+ref|YP_006258929.1|  hypothetical protein DGo_PC0273 [Deinococcus...   234    3e-75 
+ref|YP_007181585.1|  hypothetical protein Deipe_2341 [Deinococcus...   214    2e-67 
+ref|YP_007180781.1|  hypothetical protein Deipe_1474 [Deinococcus...   158    1e-44 
+ref|YP_004172068.1|  hypothetical protein [Deinococcus maricopens...   152    4e-43 
+ref|WP_019008520.1|  hypothetical protein [Deinococcus aquatilis]      151    9e-43 
+ref|WP_017870032.1|  hypothetical protein [Deinococcus wulumuqien...   145    6e-40 
+ref|YP_006262411.1|  hypothetical protein DGo_PB0067 [Deinococcus...   128    9e-34 
+ref|YP_001527724.1|  hypothetical protein Dgeo_2983 [Deinococcus ...  83.6    8e-18 
+ref|YP_004049665.1|  hypothetical protein Ocepr_2297 [Oceanitherm...  77.0    1e-14 
+ref|YP_003686810.1|  hypothetical protein Mesil_3499 [Meiothermus...  60.1    8e-09 
+ref|YP_008154391.1|  hypothetical protein SCE1572_40140 [Sorangiu...  37.7    2.2   
+ref|WP_004116401.1|  DNA mismatch repair protein MutT [Gardnerell...  37.7    2.2   
+ref|WP_009994241.1|  DNA mismatch repair protein MutT [Gardnerell...  37.7    2.3   
+ref|YP_003985195.1|  MutT/NUDIX family protein [Gardnerella vagin...  37.7    2.3   
+ref|YP_005838668.1|  NUDIX family hydrolase [Gardnerella vaginali...  37.7    2.5   
+ref|WP_004137712.1|  DNA mismatch repair protein MutT [Gardnerell...  37.7    2.5   
+ref|WP_004573618.1|  DNA mismatch repair protein MutT [Gardnerell...  36.2    8.4   
+
+
+>pdb|4EXW|A Chain A, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|B Chain B, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|C Chain C, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|D Chain D, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|E Chain E, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+Length=184
+
+ Score =  369 bits (947),  Expect = 5e-128, Method: Compositional matrix adjust.
+ Identities = 181/184 (98%), Positives = 181/184 (98%), Gaps = 0/184 (0%)
+
+Query  1    GIDPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP  60
+            GIDPFT LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP
+Sbjct  1    GIDPFTXLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP  60
+
+Query  61   DFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEH  120
+            DFDWSLIGARKWTNPEGEE ILHRGHAYRRRELEAVDSRK KLPAAVKYSRGAKNTDPEH
+Sbjct  61   DFDWSLIGARKWTNPEGEEXILHRGHAYRRRELEAVDSRKXKLPAAVKYSRGAKNTDPEH  120
+
+Query  121  VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE  180
+            VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE
+Sbjct  121  VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE  180
+
+Query  181  ETPF  184
+            ETPF
+Sbjct  181  ETPF  184
+
+
+>ref|YP_603767.1| hypothetical protein Dgeo_0295 [Deinococcus geothermalis DSM 
+11300]
+ ref|WP_011529443.1| single-stranded DNA-binding protein [Deinococcus geothermalis]
+ sp|Q1J1N6.1|DDRB_DEIGD RecName: Full=Single-stranded DNA-binding protein DdrB; AltName: 
+Full=DNA damage response protein B
+ gb|ABF44598.1| single-stranded DNA-binding protein DdrB [Deinococcus geothermalis 
+DSM 11300]
+Length=178
+
+ Score =  365 bits (936),  Expect = 2e-126, Method: Compositional matrix adjust.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL
+Sbjct  1    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD
+Sbjct  61   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  184
+            GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  178
+
+
+>ref|WP_019587404.1| single-stranded DNA-binding protein [Deinococcus apachensis]
+Length=184
+
+ Score =  304 bits (779),  Expect = 1e-102, Method: Compositional matrix adjust.
+ Identities = 150/183 (82%), Positives = 162/183 (89%), Gaps = 5/183 (3%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGA+VTVDVESADKLLDVQRQYGRLGWTSG++PVGGYQFPLENEPDFDW+L
+Sbjct  2    MLHIEFITDLGARVTVDVESADKLLDVQRQYGRLGWTSGDIPVGGYQFPLENEPDFDWTL  61
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGE+MILH+GHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDP+HVREKAD
+Sbjct  62   IGARKWTNPEGEDMILHKGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPDHVREKAD  121
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAP-----ARSAATRAQGARPGAVAVQDEE  181
+            GEFEYVTLAIFRGGKRQERYA+PG +RP A        A++    A   R   VAV +EE
+Sbjct  122  GEFEYVTLAIFRGGKRQERYAIPGGSRPAAQTSAAARPAQARPQPAPATRSAPVAVAEEE  181
+
+Query  182  TPF  184
+            TPF
+Sbjct  182  TPF  184
+
+
+>ref|WP_022800578.1| single-stranded DNA-binding protein [Deinococcus sp. 2009]
+Length=182
+
+ Score =  283 bits (725),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 142/182 (78%), Positives = 159/182 (87%), Gaps = 4/182 (2%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF+TDLGAKVTVDV+SADKLLDVQRQYGRLGWTSG+VPVGGYQFPL+NE DFDW+L
+Sbjct  1    MLHIEFLTDLGAKVTVDVDSADKLLDVQRQYGRLGWTSGQVPVGGYQFPLDNEHDFDWTL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGEEM++H+GHAYRRRELEAVDSRKMKLPAAVKYSRGAK+TDP+H+REK+D
+Sbjct  61   IGARKWTNPEGEEMVIHKGHAYRRRELEAVDSRKMKLPAAVKYSRGAKSTDPDHLREKSD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAG----APARSAATRAQGARPGAVAVQDEET  182
+            GEFEYVTLAIFRGGKRQERYA+PG  + Q      + A+  A   + A   A A QDEE 
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAIPGGAQGQGSRSAPSAAQRPAPAPRPAPRPAAAPQDEEA  180
+
+Query  183  PF  184
+            PF
+Sbjct  181  PF  182
+
+
+>ref|YP_002784872.1| radiation-induced protein [Deinococcus deserti VCD115]
+ ref|WP_012692241.1| single-stranded DNA-binding protein [Deinococcus deserti]
+ gb|ACO45118.1| putative Single-stranded DNA-binding protein DdrB (DNA damage 
+response protein B) [Deinococcus deserti VCD115]
+Length=178
+
+ Score =  283 bits (724),  Expect = 2e-94, Method: Compositional matrix adjust.
+ Identities = 142/178 (80%), Positives = 157/178 (88%), Gaps = 0/178 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF+TDLGAKVTVDVE  ++LLDVQR YGRLGWTSG VP GGYQFPL+NEPDFDWSL
+Sbjct  1    MLHIEFLTDLGAKVTVDVEHENQLLDVQRHYGRLGWTSGAVPTGGYQFPLDNEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWT+P+GEE+++H+GHAYRRRELEAVDSRKMKLPAAVK+SRGAK+TDPEH+REKAD
+Sbjct  61   IGARKWTSPDGEELVIHKGHAYRRRELEAVDSRKMKLPAAVKFSRGAKSTDPEHLREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  184
+            GEFEYVTLAIFRGGKRQERYAVPG  RP A +   + A     ARP  VAV DEETPF
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAVPGGARPAAQSARPAPARAQAAARPAPVAVVDEETPF  178
+
+
+>ref|WP_017870768.1| single-stranded DNA-binding protein [Deinococcus wulumuqiensis]
+Length=186
+
+ Score =  273 bits (697),  Expect = 4e-90, Method: Compositional matrix adjust.
+ Identities = 133/186 (72%), Positives = 151/186 (81%), Gaps = 8/186 (4%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEF+TDLGA+VTV VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENEPDFDWSL
+Sbjct  1    MLQIEFLTDLGARVTVSVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  61   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPA---RSAATRAQGARPGA-----VAVQ  178
+            G+ EYV+LAIFRGGKRQERYAVPG      G PA   +   TR Q ARP +        Q
+Sbjct  121  GDIEYVSLAIFRGGKRQERYAVPGGAAASQGRPAPQGQPTQTRPQAARPASRPPAQQPAQ  180
+
+Query  179  DEETPF  184
+            +EE PF
+Sbjct  181  EEEAPF  186
+
+
+>ref|WP_019009593.1| single-stranded DNA-binding protein [Deinococcus aquatilis]
+Length=189
+
+ Score =  270 bits (691),  Expect = 4e-89, Method: Compositional matrix adjust.
+ Identities = 128/153 (84%), Positives = 143/153 (93%), Gaps = 2/153 (1%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGA+VTVDVESADKLL+VQRQYGRLGWTSGE+P GGYQFP +NEPDFDW+L
+Sbjct  1    MLHIEFITDLGARVTVDVESADKLLEVQRQYGRLGWTSGELPSGGYQFPFDNEPDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            +GARK+T PEGEE++ H+GHAYRRRELE VDSRKMKLPAAVKYSRGAKN+DPEHVREKAD
+Sbjct  61   LGARKYTTPEGEELVYHKGHAYRRRELEPVDSRKMKLPAAVKYSRGAKNSDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAP  159
+            GEFEYVTLAIFRGG+RQ+RYA+PG     +GAP
+Sbjct  121  GEFEYVTLAIFRGGRRQDRYALPGGA--PSGAP  151
+
+
+>ref|YP_006259735.1| DdrB, radiation induced single-stranded DNA binding protein [Deinococcus 
+gobiensis I-0]
+ ref|WP_014683760.1| single-stranded DNA-binding protein [Deinococcus gobiensis]
+ gb|AFD24277.1| DdrB, radiation induced single-stranded DNA binding protein [Deinococcus 
+gobiensis I-0]
+Length=194
+
+ Score =  270 bits (690),  Expect = 7e-89, Method: Compositional matrix adjust.
+ Identities = 133/169 (79%), Positives = 148/169 (88%), Gaps = 1/169 (1%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEF+TDLGA+V+V+VESADKLL+VQRQYGRLGWTSGEVP GGY FPL+NE DFDWSL
+Sbjct  1    MLRIEFVTDLGARVSVEVESADKLLEVQRQYGRLGWTSGEVPQGGYLFPLDNEQDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARK+TN EGE+M++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAKNTDPEHVREKAD
+Sbjct  61   IGARKFTNNEGEDMVMHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKNTDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAV  175
+            GEFEYVTLAIFRGGKRQER+A P + R Q    +R AA    G RP A 
+Sbjct  121  GEFEYVTLAIFRGGKRQERFAQP-AGRSQPAQGSRPAAPAGNGPRPQAA  168
+
+
+>pdb|4HQB|A Chain A, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|B Chain B, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|C Chain C, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|D Chain D, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|E Chain E, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+Length=148
+
+ Score =  268 bits (684),  Expect = 9e-89, Method: Compositional matrix adjust.
+ Identities = 123/148 (83%), Positives = 138/148 (93%), Gaps = 0/148 (0%)
+
+Query  3    DPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDF  62
+            DPFTML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DF
+Sbjct  1    DPFTMLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADF  60
+
+Query  63   DWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVR  122
+            DWSLIGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVR
+Sbjct  61   DWSLIGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVR  120
+
+Query  123  EKADGEFEYVTLAIFRGGKRQERYAVPG  150
+            EKADG+ EYV+LAIFRGGKRQERYAVPG
+Sbjct  121  EKADGDIEYVSLAIFRGGKRQERYAVPG  148
+
+
+>ref|NP_293796.1| hypothetical protein DR_0070 [Deinococcus radiodurans R1]
+ ref|WP_010886718.1| single-stranded DNA-binding protein [Deinococcus radiodurans]
+ gb|AAF09667.1|AE001870_6 hypothetical protein DR_0070 [Deinococcus radiodurans R1]
+Length=199
+
+ Score =  261 bits (668),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 131/188 (70%), Positives = 149/188 (79%), Gaps = 10/188 (5%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DFDWSL
+Sbjct  12   MLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADFDWSL  71
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  72   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  131
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVP------GSNRPQ-AGAPARSAATRAQGARPGAVAV--  177
+            G+ EYV+LAIFRGGKRQERYAVP      G  RP   G PA++              V  
+Sbjct  132  GDIEYVSLAIFRGGKRQERYAVPGGAAGNGQGRPAPQGQPAQARPQATAARPAARPPVQP  191
+
+Query  178  -QDEETPF  184
+             Q+EETPF
+Sbjct  192  GQEEETPF  199
+
+
+>sp|Q9RY80.2|DDRB_DEIRA RecName: Full=Single-stranded DNA-binding protein DdrB; AltName: 
+Full=DNA damage response protein B
+ tpg|DAA06535.1| TPA_exp: single-stranded DNA-binding protein [Deinococcus radiodurans 
+R1]
+Length=188
+
+ Score =  261 bits (667),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 131/188 (70%), Positives = 149/188 (79%), Gaps = 10/188 (5%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DFDWSL
+Sbjct  1    MLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  61   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVP------GSNRPQ-AGAPARSAATRAQGARPGAVAV--  177
+            G+ EYV+LAIFRGGKRQERYAVP      G  RP   G PA++              V  
+Sbjct  121  GDIEYVSLAIFRGGKRQERYAVPGGAAGNGQGRPAPQGQPAQARPQATAARPAARPPVQP  180
+
+Query  178  -QDEETPF  184
+             Q+EETPF
+Sbjct  181  GQEEETPF  188
+
+
+>ref|YP_004256837.1| hypothetical protein Deipr_2350 [Deinococcus proteolyticus MRP]
+ ref|WP_013615828.1| single-stranded DNA-binding protein [Deinococcus proteolyticus]
+ gb|ADY27474.1| hypothetical protein Deipr_2350 [Deinococcus proteolyticus MRP]
+Length=177
+
+ Score =  260 bits (665),  Expect = 2e-85, Method: Compositional matrix adjust.
+ Identities = 125/172 (73%), Positives = 139/172 (81%), Gaps = 0/172 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M+HIEF TDLGAKVTVDVE  +++LD+QR YGRLGWTSGEVP GGYQFPL+N  DFDW+L
+Sbjct  1    MIHIEFTTDLGAKVTVDVERPEQVLDIQRHYGRLGWTSGEVPAGGYQFPLDNSDDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR+WTNPEGE MILHRGHAYRRRELEAVDSRK+KLP AVKYSRGAK TDPEH+REK D
+Sbjct  61   IGAREWTNPEGETMILHRGHAYRRRELEAVDSRKLKLPKAVKYSRGAKPTDPEHLREKGD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQ  178
+            GE EYVTLA+FRGGKRQER+A P   +     PAR     AQ      V +Q
+Sbjct  121  GEIEYVTLAMFRGGKRQERFAKPAQTQSTQQNPARRDERAAQAPSRQGVPMQ  172
+
+
+>ref|YP_004256358.1| putative radiation-induced protein [Deinococcus proteolyticus 
+MRP]
+ ref|WP_013615349.1| single-stranded DNA-binding protein [Deinococcus proteolyticus]
+ gb|ADY26741.1| putative radiation-induced protein [Deinococcus proteolyticus 
+MRP]
+Length=195
+
+ Score =  260 bits (665),  Expect = 4e-85, Method: Compositional matrix adjust.
+ Identities = 127/157 (81%), Positives = 138/157 (88%), Gaps = 1/157 (1%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGAKVTVDVE  +++LDVQR YGRLGWTSGEVP GG+ FPL+NEPDFDW+L
+Sbjct  1    MLHIEFITDLGAKVTVDVERPEQVLDVQRHYGRLGWTSGEVPAGGFVFPLDNEPDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR WTNPEGE MILHRGHAYRRRELEAVDSRK+KLP AVKYSRGAK TDPEH+REKAD
+Sbjct  61   IGARAWTNPEGEVMILHRGHAYRRRELEAVDSRKLKLPKAVKYSRGAKPTDPEHLREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSA  163
+            GE EYVTLAIFRGGKRQ+R+AVP      +G  AR A
+Sbjct  121  GEIEYVTLAIFRGGKRQDRFAVPQGQTAASGG-AREA  156
+
+
+>ref|YP_006258929.1| hypothetical protein DGo_PC0273 [Deinococcus gobiensis I-0]
+ ref|WP_014682975.1| single-stranded DNA-binding protein [Deinococcus gobiensis]
+ gb|AFD28065.1| hypothetical protein DGo_PC0273 [Deinococcus gobiensis I-0]
+Length=156
+
+ Score =  234 bits (596),  Expect = 3e-75, Method: Compositional matrix adjust.
+ Identities = 112/141 (79%), Positives = 124/141 (88%), Gaps = 0/141 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML +   TDLGA VTV+V S DKLL+VQ  YG  GWTSGEVP GGYQFP +NE DF+W+L
+Sbjct  1    MLLLRLRTDLGADVTVEVPSPDKLLEVQAYYGARGWTSGEVPSGGYQFPYDNEVDFNWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARK+TN EGEEMI+HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAKNTDP HVREKAD
+Sbjct  61   IGARKFTNSEGEEMIMHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKNTDPPHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYA  147
+             EFEYV+LA+FRGGKRQERYA
+Sbjct  121  AEFEYVSLAMFRGGKRQERYA  141
+
+
+>ref|YP_007181585.1| hypothetical protein Deipe_2341 [Deinococcus peraridilitoris 
+DSM 19664]
+ ref|WP_015236121.1| hypothetical protein [Deinococcus peraridilitoris]
+ gb|AFZ67819.1| hypothetical protein Deipe_2341 [Deinococcus peraridilitoris 
+DSM 19664]
+Length=160
+
+ Score =  214 bits (545),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 103/158 (65%), Positives = 125/158 (79%), Gaps = 4/158 (3%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF TDLGAKVTVDVE  + LLDVQR+YG+ GW SG+VP GG+QFPL+NE DFDWSL
+Sbjct  1    MLHIEFTTDLGAKVTVDVEGPETLLDVQRRYGKQGWYSGDVPAGGFQFPLDNEADFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            +G RK+   +GEE +  RG  ++RREL AVD+RK++LPAAVKYSRGA+ TDPEH+REK+D
+Sbjct  61   LGGRKFVLEDGEEAVYCRGSVWKRRELAAVDTRKLRLPAAVKYSRGARPTDPEHLREKSD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAA  164
+            G+ EYVTLAIFR G+R   YA+PG    +A  P R A 
+Sbjct  121  GDIEYVTLAIFRSGRRNPNYALPG----EASLPVRGAG  154
+
+
+>ref|YP_007180781.1| hypothetical protein Deipe_1474 [Deinococcus peraridilitoris 
+DSM 19664]
+ ref|WP_015235323.1| hypothetical protein [Deinococcus peraridilitoris]
+ gb|AFZ67015.1| hypothetical protein Deipe_1474 [Deinococcus peraridilitoris 
+DSM 19664]
+Length=239
+
+ Score =  158 bits (399),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 74/142 (52%), Positives = 101/142 (71%), Gaps = 1/142 (1%)
+
+Query  9    HIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIG  68
+             +     LG ++TV  E   +   +  Q+G  G+ SGE+P GG+Q PLENE DF W+L+G
+Sbjct  4    QLHLTGPLGEQITVAFEEGGQFRALA-QWGAQGYHSGEIPAGGFQLPLENESDFHWALLG  62
+
+Query  69   ARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGE  128
+             RK+T+ +G+  +  RGH ++RREL AVD+RKM+LPAAVKYSRGAK TDP H+ E  +G+
+Sbjct  63   GRKFTSDDGDACVWCRGHVWKRRELAAVDTRKMRLPAAVKYSRGAKPTDPPHLVETGEGD  122
+
+Query  129  FEYVTLAIFRGGKRQERYAVPG  150
+              YV LA+FRGG+R ER+A+PG
+Sbjct  123  IGYVALAVFRGGRRDERFALPG  144
+
+
+>ref|YP_004172068.1| hypothetical protein [Deinococcus maricopensis DSM 21211]
+ ref|WP_013557907.1| hypothetical protein [Deinococcus maricopensis]
+ gb|ADV68403.1| hypothetical protein Deima_2774 [Deinococcus maricopensis DSM 
+21211]
+Length=169
+
+ Score =  152 bits (384),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 73/157 (46%), Positives = 105/157 (67%), Gaps = 3/157 (2%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M  +     LG  ++VDV+    +L+  R+YG+ GWTSG++P GG   PL    +FDW+L
+Sbjct  1    MPTLHLTGPLGTSISVDVQDDRDILNTLRKYGKGGWTSGDIPAGGLSLPLAMADNFDWTL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR +TN +GE+ ++++G +Y+RREL+ VD++K+KLP  VKYSRGA+ TDP H++E  +
+Sbjct  61   IGARPYTNADGEQAVMYKGQSYKRRELDEVDTKKLKLPKIVKYSRGARPTDPPHLKEGEE  120
+
+Query  127  GEFEYVTLAIFRG-GKRQERYAVPGSNRPQAGAPARS  162
+            G  +YVTL  FRG GK  E Y  P  N+   G  AR+
+Sbjct  121  GGVQYVTLISFRGNGKVIEAYVDP--NKATVGTGARN  155
+
+
+>ref|WP_019008520.1| hypothetical protein [Deinococcus aquatilis]
+Length=162
+
+ Score =  151 bits (381),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 75/143 (52%), Positives = 100/143 (70%), Gaps = 2/143 (1%)
+
+Query  13   ITDLGAKVTVDVESADKLLDVQRQYGRLGWT-SGEVPVGGYQFPLENEPDFDWSLIGARK  71
+            + ++G  +TV      +L  +QR+YG  G+  +G VP GGYQ P +    FDWSLIGAR 
+Sbjct  4    VDEIGTHITVSAADLTELRVLQRRYGAQGYRPAGNVPAGGYQLPYDLHDTFDWSLIGARP  63
+
+Query  72   WTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGEFEY  131
+            W +PEG++ + H GH Y++R LE VDSRKMKLPAA+KYSRGAKNTD + V+EKA+GEFEY
+Sbjct  64   WISPEGDKGVFHDGHFYKQRLLEPVDSRKMKLPAAIKYSRGAKNTDADDVKEKAEGEFEY  123
+
+Query  132  VTLAIFRG-GKRQERYAVPGSNR  153
+             +L +FRG G  +  + +PG  R
+Sbjct  124  RSLIVFRGRGLVRPEFQLPGRRR  146
+
+
+>ref|WP_017870032.1| hypothetical protein [Deinococcus wulumuqiensis]
+Length=230
+
+ Score =  145 bits (367),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 96/143 (67%), Gaps = 6/143 (4%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M  +     LG +++V+       L   R++G  G+ SGE+P GGYQ P      FDW+L
+Sbjct  1    MNQLHLTGPLGQRISVECTDYADSLSKMREWGAKGFVSGEIPAGGYQLPYSMADTFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWT PEGE+++LH G +Y+RR+LEA   + M  PA +KYSRGAK++DPEH++E  D
+Sbjct  61   IGARKWTTPEGEDVVLHGGKSYKRRDLEANPRKSM--PAVIKYSRGAKSSDPEHLKEGED  118
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVP  149
+            G F+YVTLA+FRG    +R ++P
+Sbjct  119  GGFQYVTLAVFRG----DRQSIP  137
+
+
+>ref|YP_006262411.1| hypothetical protein DGo_PB0067 [Deinococcus gobiensis I-0]
+ ref|WP_014686432.1| hypothetical protein [Deinococcus gobiensis]
+ gb|AFD27336.1| hypothetical protein DGo_PB0067 [Deinococcus gobiensis I-0]
+Length=170
+
+ Score =  128 bits (321),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 69/146 (47%), Positives = 94/146 (64%), Gaps = 2/146 (1%)
+
+Query  10   IEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSG-EVPVGGYQFPLENEPDFDWSLIG  68
+            I  +  L  + TV + +  ++L   R++   G+    +VP GG Q P      FD++L+G
+Sbjct  9    IVLLNALNIEHTVYLSNPGEVLSTIREWVGKGYRPKIDVPAGGIQLPYAQHDLFDFTLLG  68
+
+Query  69   ARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGE  128
+            AR   + EGE  + H GH Y++R LEAVDSRK+KLP A+KYSRGAK TDP H+REK+DGE
+Sbjct  69   ARPAVSHEGEMGVWHDGHFYKKRVLEAVDSRKLKLPPAIKYSRGAKTTDPAHLREKSDGE  128
+
+Query  129  FEYVTLAIFRG-GKRQERYAVPGSNR  153
+            FEYVTL IFRG G+ Q+   + G  +
+Sbjct  129  FEYVTLVIFRGRGRIQDDLNILGGGK  154
+
+
+>ref|YP_001527724.1| hypothetical protein Dgeo_2983 [Deinococcus geothermalis DSM 
+11300]
+ ref|WP_012173356.1| hypothetical protein [Deinococcus geothermalis]
+ gb|ABW35026.1| conserved hypothetical protein [Deinococcus geothermalis DSM 
+11300]
+Length=80
+
+ Score = 83.6 bits (205),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 41/65 (63%), Positives = 47/65 (72%), Gaps = 0/65 (0%)
+
+Query  101  MKLPAAVKYSRGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPA  160
+            MKLPAA+K SRGAKNTDP HVRE+A+ EFEYVT  IFRG KRQER+   G+  P    P 
+Sbjct  1    MKLPAAIKISRGAKNTDPAHVREQAEEEFEYVTRCIFRGSKRQERFRGSGTPNPALSRPN  60
+
+Query  161  RSAAT  165
+            RS  +
+Sbjct  61   RSGVS  65
+
+
+>ref|YP_004049665.1| hypothetical protein Ocepr_2297 [Oceanithermus profundus DSM 
+14977]
+ ref|WP_013449725.1| hypothetical protein [Oceanithermus profundus]
+ gb|ADR37745.1| hypothetical protein Ocepr_2297 [Oceanithermus profundus DSM 
+14977]
+Length=141
+
+ Score = 77.0 bits (188),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/132 (36%), Positives = 69/132 (52%), Gaps = 5/132 (4%)
+
+Query  8    LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLI  67
+            L + F T +G  V  ++E  + L  V R+ G  GWT+  +   G   PL  E  FDW L+
+Sbjct  3    LKVRFETPIGVPVEAELEDGEDLYAVLRERGAAGWTAVRLRYQGIVLPLACERCFDWRLL  62
+
+Query  68   GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG  127
+            GA+   +    E +   G  Y+RR+L    + +  LP  +KYSRGA+  DP H+ E ++ 
+Sbjct  63   GAKVVESGGFVEAVTLGGAVYKRRDL----AERRDLPRVIKYSRGAREGDPPHLVEGSNQ  118
+
+Query  128  EFEYVTLAIFRG  139
+            +  YVTL  F G
+Sbjct  119  D-RYVTLVRFVG  129
+
+
+>ref|YP_003686810.1| hypothetical protein Mesil_3499 [Meiothermus silvanus DSM 9946]
+ ref|WP_013159780.1| hypothetical protein [Meiothermus silvanus]
+ gb|ADH65302.1| hypothetical protein Mesil_3499 [Meiothermus silvanus DSM 9946]
+Length=129
+
+ Score = 60.1 bits (144),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 48/135 (36%), Positives = 64/135 (47%), Gaps = 13/135 (10%)
+
+Query  8    LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLI  67
+            + +   T LG  V ++      L D+ R +G  G+     P GG+  PLE    FDW+ +
+Sbjct  1    MRLVLQTPLGHTVVLETTPQTWLEDL-RTWGAKGFRPAAPPPGGFVLPLECHRCFDWAFL  59
+
+Query  68   GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG  127
+            GA      EG E +   G+ ++RR L A    +  LP  VKYSRGA   + E V  K  G
+Sbjct  60   GA----TAEG-EYVQAFGYRWKRRHLPA----RQGLPEQVKYSRGAWQYEEEGVEGKRQG  110
+
+Query  128  EFEYVTLAIFRGGKR  142
+               YVTL  F G  R
+Sbjct  111  ---YVTLIRFEGPGR  122
+
+
+>ref|YP_008154391.1| hypothetical protein SCE1572_40140 [Sorangium cellulosum So0157-2]
+ ref|WP_020739903.1| hypothetical protein [Sorangium cellulosum]
+ gb|AGP40175.1| hypothetical protein SCE1572_40140 [Sorangium cellulosum So0157-2]
+Length=358
+
+ Score = 37.7 bits (86),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 26/56 (46%), Gaps = 1/56 (2%)
+
+Query  40   LGWTSGEVPVGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEA  95
+            L W  G V   G    L N P+FDW+L G      P  E + +H GH Y   E +A
+Sbjct  152  LSWAVGRVRAQG-GVALINHPNFDWALTGGDLLGAPAAELLEIHSGHPYVHTEGDA  206
+
+
+>ref|WP_004116401.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+ gb|EIK77995.1| MutT1 protein [Gardnerella vaginalis 0288E]
+ gb|EPI53719.1| hydrolase, NUDIX family [Gardnerella vaginalis JCP7672]
+Length=387
+
+ Score = 37.7 bits (86),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ R H +  RE++  ++  MK   A  
+Sbjct  94   IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKRIHYWMMREID--ENAAMKRLPAFG  151
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  152  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  211
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  212  SRKSWQGSEATRPITPLGSAASYALG  237
+
+
+>ref|WP_009994241.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+Length=387
+
+ Score = 37.7 bits (86),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ R H +  RE++  ++  MK   A  
+Sbjct  94   IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKRIHYWMMREID--ENAAMKRLPAFG  151
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  152  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  211
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  212  SRKSWQGSEATRPITPLGSAASYALG  237
+
+
+>ref|YP_003985195.1| MutT/NUDIX family protein [Gardnerella vaginalis ATCC 14019]
+ ref|WP_013399349.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+ gb|ADP38172.1| hydrolase, NUDIX family [Gardnerella vaginalis ATCC 14019]
+Length=389
+
+ Score = 37.7 bits (86),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ R H +  RE++  ++  MK   A  
+Sbjct  96   IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKRIHYWMMREID--ENAAMKRLPAFG  153
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  154  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  213
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  214  SRKSWQGSEATRPITPLGSAASYALG  239
+
+
+>ref|YP_005838668.1| NUDIX family hydrolase [Gardnerella vaginalis HMP9231]
+ ref|WP_014554861.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+ gb|AEF31006.1| hydrolase, NUDIX family [Gardnerella vaginalis HMP9231]
+Length=397
+
+ Score = 37.7 bits (86),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ R H +  RE++  ++  MK   A  
+Sbjct  104  IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKRIHYWMMREID--ENAAMKRLPAFG  161
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  162  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  221
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  222  SRKSWQGSEATRPITPLGSAASYALG  247
+
+
+>ref|WP_004137712.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+ gb|EGL14764.1| hydrolase, NUDIX family [Gardnerella vaginalis 315-A]
+Length=397
+
+ Score = 37.7 bits (86),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 39/146 (27%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ R H +  RE++  ++  MK   A  
+Sbjct  104  IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKRIHYWMMREID--ENAAMKRLPAFG  161
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  162  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  221
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  222  SRKSWQGSEATRPITPLGSAASYALG  247
+
+
+>ref|WP_004573618.1| DNA mismatch repair protein MutT [Gardnerella vaginalis]
+ gb|EIK74062.1| MutT1 protein [Gardnerella vaginalis 284V]
+Length=387
+
+ Score = 36.2 bits (82),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 38/146 (26%), Positives = 61/146 (42%), Gaps = 27/146 (18%)
+
+Query  49   VGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVK  108
+            +   ++PLENE     S  GA+  +    +  ++ + H +  RE++  ++  MK   A  
+Sbjct  94   IAQIEYPLENEGKKSISKSGAKNSSQNNNKTEVVKQIHYWMMREID--ENAAMKRLPAFG  151
+
+Query  109  YSRGAKNTD--------PEHVREKA-----------------DGEFEYVTLAIFRGGKRQ  143
+              + AK T+        P   R+K                  DG+ EY TL + R GK +
+Sbjct  152  PIKPAKPTEIGNVIWLTPSKARKKLTHDSDRKVLDAFLEKLHDGQTEYKTLILVRHGKAE  211
+
+Query  144  ERYAVPGSNRPQAGAPARSAATRAQG  169
+             R +  GS   +   P  SAA+ A G
+Sbjct  212  SRKSWQGSEATRPITPLGSAASYALG  237
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 363902535888
+Results from round 2
+
+
+Query= 4EXWE
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|4EXW|A  Chain A, The Structure Of Ddrb From Deinococcus: A Ne...   289    2e-96
+ref|YP_603767.1|  hypothetical protein Dgeo_0295 [Deinococcus geo...   285    7e-95
+ref|WP_019587404.1|  single-stranded DNA-binding protein [Deinoco...   270    4e-89
+ref|YP_002784872.1|  radiation-induced protein [Deinococcus deser...   263    1e-86
+ref|WP_022800578.1|  single-stranded DNA-binding protein [Deinoco...   260    6e-85
+ref|YP_004256837.1|  hypothetical protein Deipr_2350 [Deinococcus...   256    6e-84
+pdb|4HQB|A  Chain A, Crystal Structure Of Ddrb From Deinococcus R...   255    1e-83
+ref|WP_017870768.1|  single-stranded DNA-binding protein [Deinoco...   250    4e-81
+ref|NP_293796.1|  hypothetical protein DR_0070 [Deinococcus radio...   250    6e-81
+sp|Q9RY80.2|DDRB_DEIRA  RecName: Full=Single-stranded DNA-binding...   246    2e-79
+ref|YP_004256358.1|  putative radiation-induced protein [Deinococ...   245    5e-79
+ref|YP_006259735.1|  DdrB, radiation induced single-stranded DNA ...   244    1e-78
+ref|WP_019009593.1|  single-stranded DNA-binding protein [Deinoco...   240    5e-77
+ref|YP_006258929.1|  hypothetical protein DGo_PC0273 [Deinococcus...   228    3e-73
+ref|YP_007181585.1|  hypothetical protein Deipe_2341 [Deinococcus...   226    5e-72
+ref|YP_004172068.1|  hypothetical protein [Deinococcus maricopens...   208    6e-65
+ref|YP_007180781.1|  hypothetical protein Deipe_1474 [Deinococcus...   207    1e-63
+ref|YP_006262411.1|  hypothetical protein DGo_PB0067 [Deinococcus...   196    2e-60
+ref|WP_017870032.1|  hypothetical protein [Deinococcus wulumuqien...   197    1e-59
+ref|WP_019008520.1|  hypothetical protein [Deinococcus aquatilis]      193    2e-59
+ref|YP_004049665.1|  hypothetical protein Ocepr_2297 [Oceanitherm...   150    1e-42
+ref|YP_003686810.1|  hypothetical protein Mesil_3499 [Meiothermus...   141    2e-39
+ref|YP_001527724.1|  hypothetical protein Dgeo_2983 [Deinococcus ...  86.3    9e-19
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_002380969.1|  hypothetical protein PCC7424_5672 [Cyanothec...  43.6    0.011
+ref|YP_002380859.1|  hypothetical protein PCC7424_5469 [Cyanothec...  43.6    0.011
+ref|YP_008154391.1|  hypothetical protein SCE1572_40140 [Sorangiu...  39.7    0.49 
+ref|WP_003666754.1|  16S rRNA methyltransferase [Lactobacillus re...  39.3    0.62 
+ref|YP_007174868.1|  50S ribosomal protein L3 [Caldisphaera lagun...  39.3    0.70 
+ref|YP_003194787.1|  tail-specific proteinase [Robiginitalea bifo...  39.3    0.73 
+ref|YP_004650327.1|  S-adenosyl-L-methionine-dependent methyltran...  38.9    0.91 
+ref|YP_003096909.1|  hypothetical protein FIC_02414 [Flavobacteri...  38.2    1.3  
+ref|XP_004941407.1|  PREDICTED: trichohyalin-like [Gallus gallus]     38.2    1.8  
+gb|EJF63296.1|  hypothetical protein DICSQDRAFT_160507 [Dichomitu...  38.2    2.3  
+ref|YP_876011.1|  thiamine monophosphate kinase [Cenarchaeum symb...  37.4    2.8  
+ref|YP_001275192.1|  single-strand binding protein [Roseiflexus s...  36.6    3.3  
+emb|CBQ68111.1|  related to LTV1-low-temperature viability protei...  37.4    3.8  
+ref|WP_007769113.1|  membrane protein [Mycobacterium colombiense]...  37.0    4.9  
+ref|YP_008788635.1|  hypothetical protein M271_10840 [Streptomyce...  36.6    5.2  
+ref|WP_017313874.1|  hypothetical protein [Mastigocladopsis repens]   35.5    5.7  
+ref|WP_009713814.1|  hypothetical protein [Streptomyces himastati...  36.2    6.7  
+ref|XP_001916516.1|  PREDICTED: polyserase-2-like [Equus caballus]    36.2    8.8  
+ref|WP_020408365.1|  hypothetical protein [Hahella ganghwensis]       35.9    8.8  
+ref|YP_004914706.1|  hypothetical protein SCAT_5215 [Streptomyces...  35.9    9.7  
+
+
+>pdb|4EXW|A Chain A, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|B Chain B, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|C Chain C, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|D Chain D, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+ pdb|4EXW|E Chain E, The Structure Of Ddrb From Deinococcus: A New Fold For 
+Single-Stranded Dna Binding Proteins.
+Length=184
+
+ Score =  289 bits (739),  Expect = 2e-96, Method: Composition-based stats.
+ Identities = 181/184 (98%), Positives = 181/184 (98%), Gaps = 0/184 (0%)
+
+Query  1    GIDPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP  60
+            GIDPFT LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP
+Sbjct  1    GIDPFTXLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEP  60
+
+Query  61   DFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEH  120
+            DFDWSLIGARKWTNPEGEE ILHRGHAYRRRELEAVDSRK KLPAAVKYSRGAKNTDPEH
+Sbjct  61   DFDWSLIGARKWTNPEGEEXILHRGHAYRRRELEAVDSRKXKLPAAVKYSRGAKNTDPEH  120
+
+Query  121  VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE  180
+            VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE
+Sbjct  121  VREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE  180
+
+Query  181  ETPF  184
+            ETPF
+Sbjct  181  ETPF  184
+
+
+>ref|YP_603767.1| hypothetical protein Dgeo_0295 [Deinococcus geothermalis DSM 
+11300]
+ ref|WP_011529443.1| single-stranded DNA-binding protein [Deinococcus geothermalis]
+ sp|Q1J1N6.1|DDRB_DEIGD RecName: Full=Single-stranded DNA-binding protein DdrB; AltName: 
+Full=DNA damage response protein B
+ gb|ABF44598.1| single-stranded DNA-binding protein DdrB [Deinococcus geothermalis 
+DSM 11300]
+Length=178
+
+ Score =  285 bits (728),  Expect = 7e-95, Method: Composition-based stats.
+ Identities = 178/178 (100%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL
+Sbjct  1    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD
+Sbjct  61   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  184
+            GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  178
+
+
+>ref|WP_019587404.1| single-stranded DNA-binding protein [Deinococcus apachensis]
+Length=184
+
+ Score =  270 bits (690),  Expect = 4e-89, Method: Composition-based stats.
+ Identities = 150/183 (82%), Positives = 162/183 (89%), Gaps = 5/183 (3%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGA+VTVDVESADKLLDVQRQYGRLGWTSG++PVGGYQFPLENEPDFDW+L
+Sbjct  2    MLHIEFITDLGARVTVDVESADKLLDVQRQYGRLGWTSGDIPVGGYQFPLENEPDFDWTL  61
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGE+MILH+GHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDP+HVREKAD
+Sbjct  62   IGARKWTNPEGEDMILHKGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPDHVREKAD  121
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAP-----ARSAATRAQGARPGAVAVQDEE  181
+            GEFEYVTLAIFRGGKRQERYA+PG +RP A        A++    A   R   VAV +EE
+Sbjct  122  GEFEYVTLAIFRGGKRQERYAIPGGSRPAAQTSAAARPAQARPQPAPATRSAPVAVAEEE  181
+
+Query  182  TPF  184
+            TPF
+Sbjct  182  TPF  184
+
+
+>ref|YP_002784872.1| radiation-induced protein [Deinococcus deserti VCD115]
+ ref|WP_012692241.1| single-stranded DNA-binding protein [Deinococcus deserti]
+ gb|ACO45118.1| putative Single-stranded DNA-binding protein DdrB (DNA damage 
+response protein B) [Deinococcus deserti VCD115]
+Length=178
+
+ Score =  263 bits (673),  Expect = 1e-86, Method: Composition-based stats.
+ Identities = 142/178 (80%), Positives = 157/178 (88%), Gaps = 0/178 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF+TDLGAKVTVDVE  ++LLDVQR YGRLGWTSG VP GGYQFPL+NEPDFDWSL
+Sbjct  1    MLHIEFLTDLGAKVTVDVEHENQLLDVQRHYGRLGWTSGAVPTGGYQFPLDNEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWT+P+GEE+++H+GHAYRRRELEAVDSRKMKLPAAVK+SRGAK+TDPEH+REKAD
+Sbjct  61   IGARKWTSPDGEELVIHKGHAYRRRELEAVDSRKMKLPAAVKFSRGAKSTDPEHLREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEETPF  184
+            GEFEYVTLAIFRGGKRQERYAVPG  RP A +   + A     ARP  VAV DEETPF
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAVPGGARPAAQSARPAPARAQAAARPAPVAVVDEETPF  178
+
+
+>ref|WP_022800578.1| single-stranded DNA-binding protein [Deinococcus sp. 2009]
+Length=182
+
+ Score =  260 bits (663),  Expect = 6e-85, Method: Composition-based stats.
+ Identities = 142/182 (78%), Positives = 158/182 (87%), Gaps = 4/182 (2%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF+TDLGAKVTVDV+SADKLLDVQRQYGRLGWTSG+VPVGGYQFPL+NE DFDW+L
+Sbjct  1    MLHIEFLTDLGAKVTVDVDSADKLLDVQRQYGRLGWTSGQVPVGGYQFPLDNEHDFDWTL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWTNPEGEEM++H+GHAYRRRELEAVDSRKMKLPAAVKYSRGAK+TDP+H+REK+D
+Sbjct  61   IGARKWTNPEGEEMVIHKGHAYRRRELEAVDSRKMKLPAAVKYSRGAKSTDPDHLREKSD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAP----ARSAATRAQGARPGAVAVQDEET  182
+            GEFEYVTLAIFRGGKRQERYA+PG  + Q        A+  A   + A   A A QDEE 
+Sbjct  121  GEFEYVTLAIFRGGKRQERYAIPGGAQGQGSRSAPSAAQRPAPAPRPAPRPAAAPQDEEA  180
+
+Query  183  PF  184
+            PF
+Sbjct  181  PF  182
+
+
+>ref|YP_004256837.1| hypothetical protein Deipr_2350 [Deinococcus proteolyticus MRP]
+ ref|WP_013615828.1| single-stranded DNA-binding protein [Deinococcus proteolyticus]
+ gb|ADY27474.1| hypothetical protein Deipr_2350 [Deinococcus proteolyticus MRP]
+Length=177
+
+ Score =  256 bits (655),  Expect = 6e-84, Method: Composition-based stats.
+ Identities = 125/172 (73%), Positives = 139/172 (81%), Gaps = 0/172 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M+HIEF TDLGAKVTVDVE  +++LD+QR YGRLGWTSGEVP GGYQFPL+N  DFDW+L
+Sbjct  1    MIHIEFTTDLGAKVTVDVERPEQVLDIQRHYGRLGWTSGEVPAGGYQFPLDNSDDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR+WTNPEGE MILHRGHAYRRRELEAVDSRK+KLP AVKYSRGAK TDPEH+REK D
+Sbjct  61   IGAREWTNPEGETMILHRGHAYRRRELEAVDSRKLKLPKAVKYSRGAKPTDPEHLREKGD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQ  178
+            GE EYVTLA+FRGGKRQER+A P   +     PAR     AQ      V +Q
+Sbjct  121  GEIEYVTLAMFRGGKRQERFAKPAQTQSTQQNPARRDERAAQAPSRQGVPMQ  172
+
+
+>pdb|4HQB|A Chain A, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|B Chain B, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|C Chain C, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|D Chain D, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+ pdb|4HQB|E Chain E, Crystal Structure Of Ddrb From Deinococcus Radiodurans 
+Bound To Ssdna
+Length=148
+
+ Score =  255 bits (650),  Expect = 1e-83, Method: Composition-based stats.
+ Identities = 123/148 (83%), Positives = 138/148 (93%), Gaps = 0/148 (0%)
+
+Query  3    DPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDF  62
+            DPFTML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DF
+Sbjct  1    DPFTMLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADF  60
+
+Query  63   DWSLIGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVR  122
+            DWSLIGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVR
+Sbjct  61   DWSLIGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVR  120
+
+Query  123  EKADGEFEYVTLAIFRGGKRQERYAVPG  150
+            EKADG+ EYV+LAIFRGGKRQERYAVPG
+Sbjct  121  EKADGDIEYVSLAIFRGGKRQERYAVPG  148
+
+
+>ref|WP_017870768.1| single-stranded DNA-binding protein [Deinococcus wulumuqiensis]
+Length=186
+
+ Score =  250 bits (638),  Expect = 4e-81, Method: Composition-based stats.
+ Identities = 131/186 (70%), Positives = 147/186 (79%), Gaps = 8/186 (4%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEF+TDLGA+VTV VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENEPDFDWSL
+Sbjct  1    MLQIEFLTDLGARVTVSVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEPDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  61   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPA--------RSAATRAQGARPGAVAVQ  178
+            G+ EYV+LAIFRGGKRQERYAVPG      G PA        R  A R     P     Q
+Sbjct  121  GDIEYVSLAIFRGGKRQERYAVPGGAAASQGRPAPQGQPTQTRPQAARPASRPPAQQPAQ  180
+
+Query  179  DEETPF  184
+            +EE PF
+Sbjct  181  EEEAPF  186
+
+
+>ref|NP_293796.1| hypothetical protein DR_0070 [Deinococcus radiodurans R1]
+ ref|WP_010886718.1| single-stranded DNA-binding protein [Deinococcus radiodurans]
+ gb|AAF09667.1|AE001870_6 hypothetical protein DR_0070 [Deinococcus radiodurans R1]
+Length=199
+
+ Score =  250 bits (637),  Expect = 6e-81, Method: Composition-based stats.
+ Identities = 131/188 (70%), Positives = 147/188 (78%), Gaps = 10/188 (5%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DFDWSL
+Sbjct  12   MLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADFDWSL  71
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  72   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  131
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQ-AGAPARSAATRAQ---------GARPGAVA  176
+            G+ EYV+LAIFRGGKRQERYAVPG       G PA                  ARP    
+Sbjct  132  GDIEYVSLAIFRGGKRQERYAVPGGAAGNGQGRPAPQGQPAQARPQATAARPAARPPVQP  191
+
+Query  177  VQDEETPF  184
+             Q+EETPF
+Sbjct  192  GQEEETPF  199
+
+
+>sp|Q9RY80.2|DDRB_DEIRA RecName: Full=Single-stranded DNA-binding protein DdrB; AltName: 
+Full=DNA damage response protein B
+ tpg|DAA06535.1| TPA_exp: single-stranded DNA-binding protein [Deinococcus radiodurans 
+R1]
+Length=188
+
+ Score =  246 bits (627),  Expect = 2e-79, Method: Composition-based stats.
+ Identities = 131/188 (70%), Positives = 147/188 (78%), Gaps = 10/188 (5%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEFITDLGA+VTV+VE   +LLDVQR YGRLGWTSGE+P GGYQFP+ENE DFDWSL
+Sbjct  1    MLQIEFITDLGARVTVNVEHESRLLDVQRHYGRLGWTSGEIPSGGYQFPIENEADFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKW +PEGEE+++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAK +DP+HVREKAD
+Sbjct  61   IGARKWKSPEGEELVIHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKVSDPQHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQ-AGAPARSAATRAQ---------GARPGAVA  176
+            G+ EYV+LAIFRGGKRQERYAVPG       G PA                  ARP    
+Sbjct  121  GDIEYVSLAIFRGGKRQERYAVPGGAAGNGQGRPAPQGQPAQARPQATAARPAARPPVQP  180
+
+Query  177  VQDEETPF  184
+             Q+EETPF
+Sbjct  181  GQEEETPF  188
+
+
+>ref|YP_004256358.1| putative radiation-induced protein [Deinococcus proteolyticus 
+MRP]
+ ref|WP_013615349.1| single-stranded DNA-binding protein [Deinococcus proteolyticus]
+ gb|ADY26741.1| putative radiation-induced protein [Deinococcus proteolyticus 
+MRP]
+Length=195
+
+ Score =  245 bits (624),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 124/157 (79%), Positives = 136/157 (87%), Gaps = 0/157 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGAKVTVDVE  +++LDVQR YGRLGWTSGEVP GG+ FPL+NEPDFDW+L
+Sbjct  1    MLHIEFITDLGAKVTVDVERPEQVLDVQRHYGRLGWTSGEVPAGGFVFPLDNEPDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR WTNPEGE MILHRGHAYRRRELEAVDSRK+KLP AVKYSRGAK TDPEH+REKAD
+Sbjct  61   IGARAWTNPEGEVMILHRGHAYRRRELEAVDSRKLKLPKAVKYSRGAKPTDPEHLREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSA  163
+            GE EYVTLAIFRGGKRQ+R+AVP      +G    + 
+Sbjct  121  GEIEYVTLAIFRGGKRQDRFAVPQGQTAASGGAREAR  157
+
+
+>ref|YP_006259735.1| DdrB, radiation induced single-stranded DNA binding protein [Deinococcus 
+gobiensis I-0]
+ ref|WP_014683760.1| single-stranded DNA-binding protein [Deinococcus gobiensis]
+ gb|AFD24277.1| DdrB, radiation induced single-stranded DNA binding protein [Deinococcus 
+gobiensis I-0]
+Length=194
+
+ Score =  244 bits (622),  Expect = 1e-78, Method: Composition-based stats.
+ Identities = 133/171 (78%), Positives = 147/171 (86%), Gaps = 1/171 (1%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML IEF+TDLGA+V+V+VESADKLL+VQRQYGRLGWTSGEVP GGY FPL+NE DFDWSL
+Sbjct  1    MLRIEFVTDLGARVSVEVESADKLLEVQRQYGRLGWTSGEVPQGGYLFPLDNEQDFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARK+TN EGE+M++HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAKNTDPEHVREKAD
+Sbjct  61   IGARKFTNNEGEDMVMHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKNTDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAV  177
+            GEFEYVTLAIFRGGKRQER+A P   R Q    +R AA    G RP A   
+Sbjct  121  GEFEYVTLAIFRGGKRQERFAQPAG-RSQPAQGSRPAAPAGNGPRPQAAPA  170
+
+
+>ref|WP_019009593.1| single-stranded DNA-binding protein [Deinococcus aquatilis]
+Length=189
+
+ Score =  240 bits (611),  Expect = 5e-77, Method: Composition-based stats.
+ Identities = 137/189 (72%), Positives = 152/189 (80%), Gaps = 11/189 (6%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEFITDLGA+VTVDVESADKLL+VQRQYGRLGWTSGE+P GGYQFP +NEPDFDW+L
+Sbjct  1    MLHIEFITDLGARVTVDVESADKLLEVQRQYGRLGWTSGELPSGGYQFPFDNEPDFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            +GARK+T PEGEE++ H+GHAYRRRELE VDSRKMKLPAAVKYSRGAKN+DPEHVREKAD
+Sbjct  61   LGARKYTTPEGEELVYHKGHAYRRRELEPVDSRKMKLPAAVKYSRGAKNSDPEHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGA-----------PARSAATRAQGARPGAV  175
+            GEFEYVTLAIFRGG+RQ+RYA+PG     A                  A  A   R  AV
+Sbjct  121  GEFEYVTLAIFRGGRRQDRYALPGGAPSGAPRTAAPAQAQPAPQRPRPAAAAVAPRAAAV  180
+
+Query  176  AVQDEETPF  184
+             V +EETPF
+Sbjct  181  GVVEEETPF  189
+
+
+>ref|YP_006258929.1| hypothetical protein DGo_PC0273 [Deinococcus gobiensis I-0]
+ ref|WP_014682975.1| single-stranded DNA-binding protein [Deinococcus gobiensis]
+ gb|AFD28065.1| hypothetical protein DGo_PC0273 [Deinococcus gobiensis I-0]
+Length=156
+
+ Score =  228 bits (582),  Expect = 3e-73, Method: Composition-based stats.
+ Identities = 114/154 (74%), Positives = 127/154 (82%), Gaps = 0/154 (0%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            ML +   TDLGA VTV+V S DKLL+VQ  YG  GWTSGEVP GGYQFP +NE DF+W+L
+Sbjct  1    MLLLRLRTDLGADVTVEVPSPDKLLEVQAYYGARGWTSGEVPSGGYQFPYDNEVDFNWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARK+TN EGEEMI+HRGHAYRRRELEAVDSRK+KLPAA+KYSRGAKNTDP HVREKAD
+Sbjct  61   IGARKFTNSEGEEMIMHRGHAYRRRELEAVDSRKLKLPAAIKYSRGAKNTDPPHVREKAD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPA  160
+             EFEYV+LA+FRGGKRQERYA   +   Q    A
+Sbjct  121  AEFEYVSLAMFRGGKRQERYAKKSAPNAQIQPNA  154
+
+
+>ref|YP_007181585.1| hypothetical protein Deipe_2341 [Deinococcus peraridilitoris 
+DSM 19664]
+ ref|WP_015236121.1| hypothetical protein [Deinococcus peraridilitoris]
+ gb|AFZ67819.1| hypothetical protein Deipe_2341 [Deinococcus peraridilitoris 
+DSM 19664]
+Length=160
+
+ Score =  226 bits (575),  Expect = 5e-72, Method: Composition-based stats.
+ Identities = 103/162 (64%), Positives = 126/162 (78%), Gaps = 4/162 (2%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            MLHIEF TDLGAKVTVDVE  + LLDVQR+YG+ GW SG+VP GG+QFPL+NE DFDWSL
+Sbjct  1    MLHIEFTTDLGAKVTVDVEGPETLLDVQRRYGKQGWYSGDVPAGGFQFPLDNEADFDWSL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            +G RK+   +GEE +  RG  ++RREL AVD+RK++LPAAVKYSRGA+ TDPEH+REK+D
+Sbjct  61   LGGRKFVLEDGEEAVYCRGSVWKRRELAAVDTRKLRLPAAVKYSRGARPTDPEHLREKSD  120
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQ  168
+            G+ EYVTLAIFR G+R   YA+PG    +A  P R A    +
+Sbjct  121  GDIEYVTLAIFRSGRRNPNYALPG----EASLPVRGAGQPVR  158
+
+
+>ref|YP_004172068.1| hypothetical protein [Deinococcus maricopensis DSM 21211]
+ ref|WP_013557907.1| hypothetical protein [Deinococcus maricopensis]
+ gb|ADV68403.1| hypothetical protein Deima_2774 [Deinococcus maricopensis DSM 
+21211]
+Length=169
+
+ Score =  208 bits (529),  Expect = 6e-65, Method: Composition-based stats.
+ Identities = 75/170 (44%), Positives = 108/170 (64%), Gaps = 3/170 (2%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M  +     LG  ++VDV+    +L+  R+YG+ GWTSG++P GG   PL    +FDW+L
+Sbjct  1    MPTLHLTGPLGTSISVDVQDDRDILNTLRKYGKGGWTSGDIPAGGLSLPLAMADNFDWTL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGAR +TN +GE+ ++++G +Y+RREL+ VD++K+KLP  VKYSRGA+ TDP H++E  +
+Sbjct  61   IGARPYTNADGEQAVMYKGQSYKRRELDEVDTKKLKLPKIVKYSRGARPTDPPHLKEGEE  120
+
+Query  127  GEFEYVTLAIFRG-GKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAV  175
+            G  +YVTL  FRG GK  E Y  P  N+   G  AR+     + A   A 
+Sbjct  121  GGVQYVTLISFRGNGKVIEAYVDP--NKATVGTGARNNDRAQERATAEAP  168
+
+
+>ref|YP_007180781.1| hypothetical protein Deipe_1474 [Deinococcus peraridilitoris 
+DSM 19664]
+ ref|WP_015235323.1| hypothetical protein [Deinococcus peraridilitoris]
+ gb|AFZ67015.1| hypothetical protein Deipe_1474 [Deinococcus peraridilitoris 
+DSM 19664]
+Length=239
+
+ Score =  207 bits (526),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 78/172 (45%), Positives = 108/172 (63%), Gaps = 3/172 (2%)
+
+Query  9    HIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIG  68
+             +     LG ++TV  E   +   +  Q+G  G+ SGE+P GG+Q PLENE DF W+L+G
+Sbjct  4    QLHLTGPLGEQITVAFEEGGQFRALA-QWGAQGYHSGEIPAGGFQLPLENESDFHWALLG  62
+
+Query  69   ARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGE  128
+             RK+T+ +G+  +  RGH ++RREL AVD+RKM+LPAAVKYSRGAK TDP H+ E  +G+
+Sbjct  63   GRKFTSDDGDACVWCRGHVWKRRELAAVDTRKMRLPAAVKYSRGAKPTDPPHLVETGEGD  122
+
+Query  129  FEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDE  180
+              YV LA+FRGG+R ER+A+PG  R    AP     +         +   +E
+Sbjct  123  IGYVALAVFRGGRRDERFALPG--RASQKAPPVEPPSIPSARPVPHLNHVEE  172
+
+
+>ref|YP_006262411.1| hypothetical protein DGo_PB0067 [Deinococcus gobiensis I-0]
+ ref|WP_014686432.1| hypothetical protein [Deinococcus gobiensis]
+ gb|AFD27336.1| hypothetical protein DGo_PB0067 [Deinococcus gobiensis I-0]
+Length=170
+
+ Score =  196 bits (499),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 69/146 (47%), Positives = 94/146 (64%), Gaps = 2/146 (1%)
+
+Query  10   IEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSG-EVPVGGYQFPLENEPDFDWSLIG  68
+            I  +  L  + TV + +  ++L   R++   G+    +VP GG Q P      FD++L+G
+Sbjct  9    IVLLNALNIEHTVYLSNPGEVLSTIREWVGKGYRPKIDVPAGGIQLPYAQHDLFDFTLLG  68
+
+Query  69   ARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGE  128
+            AR   + EGE  + H GH Y++R LEAVDSRK+KLP A+KYSRGAK TDP H+REK+DGE
+Sbjct  69   ARPAVSHEGEMGVWHDGHFYKKRVLEAVDSRKLKLPPAIKYSRGAKTTDPAHLREKSDGE  128
+
+Query  129  FEYVTLAIFRG-GKRQERYAVPGSNR  153
+            FEYVTL IFRG G+ Q+   + G  +
+Sbjct  129  FEYVTLVIFRGRGRIQDDLNILGGGK  154
+
+
+>ref|WP_017870032.1| hypothetical protein [Deinococcus wulumuqiensis]
+Length=230
+
+ Score =  197 bits (500),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 72/165 (44%), Positives = 100/165 (61%), Gaps = 6/165 (4%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            M  +     LG +++V+       L   R++G  G+ SGE+P GGYQ P      FDW+L
+Sbjct  1    MNQLHLTGPLGQRISVECTDYADSLSKMREWGAKGFVSGEIPAGGYQLPYSMADTFDWAL  60
+
+Query  67   IGARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKAD  126
+            IGARKWT PEGE+++LH G +Y+RR+LEA   + M  PA +KYSRGAK++DPEH++E  D
+Sbjct  61   IGARKWTTPEGEDVVLHGGKSYKRRDLEANPRKSM--PAVIKYSRGAKSSDPEHLKEGED  118
+
+Query  127  GEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGAR  171
+            G F+YVTLA+FRG    +R ++P    P      +  A   Q   
+Sbjct  119  GGFQYVTLAVFRG----DRQSIPDYEVPAQRRQPQQRAQSHQEPP  159
+
+
+>ref|WP_019008520.1| hypothetical protein [Deinococcus aquatilis]
+Length=162
+
+ Score =  193 bits (491),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 75/150 (50%), Positives = 100/150 (67%), Gaps = 2/150 (1%)
+
+Query  10   IEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTS-GEVPVGGYQFPLENEPDFDWSLIG  68
+            +  + ++G  +TV      +L  +QR+YG  G+   G VP GGYQ P +    FDWSLIG
+Sbjct  1    MVVVDEIGTHITVSAADLTELRVLQRRYGAQGYRPAGNVPAGGYQLPYDLHDTFDWSLIG  60
+
+Query  69   ARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGE  128
+            AR W +PEG++ + H GH Y++R LE VDSRKMKLPAA+KYSRGAKNTD + V+EKA+GE
+Sbjct  61   ARPWISPEGDKGVFHDGHFYKQRLLEPVDSRKMKLPAAIKYSRGAKNTDADDVKEKAEGE  120
+
+Query  129  FEYVTLAIFRG-GKRQERYAVPGSNRPQAG  157
+            FEY +L +FRG G  +  + +PG  R    
+Sbjct  121  FEYRSLIVFRGRGLVRPEFQLPGRRRHTLA  150
+
+
+>ref|YP_004049665.1| hypothetical protein Ocepr_2297 [Oceanithermus profundus DSM 
+14977]
+ ref|WP_013449725.1| hypothetical protein [Oceanithermus profundus]
+ gb|ADR37745.1| hypothetical protein Ocepr_2297 [Oceanithermus profundus DSM 
+14977]
+Length=141
+
+ Score =  150 bits (378),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 47/132 (36%), Positives = 69/132 (52%), Gaps = 5/132 (4%)
+
+Query  8    LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLI  67
+            L + F T +G  V  ++E  + L  V R+ G  GWT+  +   G   PL  E  FDW L+
+Sbjct  3    LKVRFETPIGVPVEAELEDGEDLYAVLRERGAAGWTAVRLRYQGIVLPLACERCFDWRLL  62
+
+Query  68   GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG  127
+            GA+   +    E +   G  Y+RR+L    + +  LP  +KYSRGA+  DP H+ E ++ 
+Sbjct  63   GAKVVESGGFVEAVTLGGAVYKRRDL----AERRDLPRVIKYSRGAREGDPPHLVEGSNQ  118
+
+Query  128  EFEYVTLAIFRG  139
+            +  YVTL  F G
+Sbjct  119  D-RYVTLVRFVG  129
+
+
+>ref|YP_003686810.1| hypothetical protein Mesil_3499 [Meiothermus silvanus DSM 9946]
+ ref|WP_013159780.1| hypothetical protein [Meiothermus silvanus]
+ gb|ADH65302.1| hypothetical protein Mesil_3499 [Meiothermus silvanus DSM 9946]
+Length=129
+
+ Score =  141 bits (356),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 48/135 (36%), Positives = 64/135 (47%), Gaps = 13/135 (10%)
+
+Query  8    LHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLI  67
+            + +   T LG  V ++      L D+ R +G  G+     P GG+  PLE    FDW+ +
+Sbjct  1    MRLVLQTPLGHTVVLETTPQTWLEDL-RTWGAKGFRPAAPPPGGFVLPLECHRCFDWAFL  59
+
+Query  68   GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG  127
+            GA      EGE  +   G+ ++RR L A    +  LP  VKYSRGA   + E V  K  G
+Sbjct  60   GA----TAEGE-YVQAFGYRWKRRHLPA----RQGLPEQVKYSRGAWQYEEEGVEGKRQG  110
+
+Query  128  EFEYVTLAIFRGGKR  142
+               YVTL  F G  R
+Sbjct  111  ---YVTLIRFEGPGR  122
+
+
+>ref|YP_001527724.1| hypothetical protein Dgeo_2983 [Deinococcus geothermalis DSM 
+11300]
+ ref|WP_012173356.1| hypothetical protein [Deinococcus geothermalis]
+ gb|ABW35026.1| conserved hypothetical protein [Deinococcus geothermalis DSM 
+11300]
+Length=80
+
+ Score = 86.3 bits (212),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 41/66 (62%), Positives = 47/66 (71%), Gaps = 0/66 (0%)
+
+Query  101  MKLPAAVKYSRGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPA  160
+            MKLPAA+K SRGAKNTDP HVRE+A+ EFEYVT  IFRG KRQER+   G+  P    P 
+Sbjct  1    MKLPAAIKISRGAKNTDPAHVREQAEEEFEYVTRCIFRGSKRQERFRGSGTPNPALSRPN  60
+
+Query  161  RSAATR  166
+            RS  + 
+Sbjct  61   RSGVSP  66
+
+
+>ref|YP_002380969.1| hypothetical protein PCC7424_5672 [Cyanothece sp. PCC 7424]
+ ref|WP_012599652.1| hypothetical protein [Cyanothece sp. PCC 7424]
+ gb|ACK73739.1| hypothetical protein PCC7424_5672 [Cyanothece sp. PCC 7424]
+Length=164
+
+ Score = 43.6 bits (101),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 24/84 (29%), Positives = 37/84 (44%), Gaps = 14/84 (17%)
+
+Query  56   LENEPDFDWSLIGARKWTN-PEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAK  114
+            L    +FDW  I AR  ++  EG  ++ +RG  + RR     D +     AA+ +S   K
+Sbjct  77   LNEYKNFDWDTIEARVISSDGEGVTVVQYRGKVFERRRSSVDDVKG----AAIWFSSATK  132
+
+Query  115  NTDPEHVREKADGEFEYVTLAIFR  138
+              D         G+ +Y+ L  FR
+Sbjct  133  TPD---------GKVKYLKLITFR  147
+
+
+>ref|YP_002380859.1| hypothetical protein PCC7424_5469 [Cyanothece sp. PCC 7424]
+ ref|WP_012599547.1| hypothetical protein [Cyanothece sp. PCC 7424]
+ gb|ACK74040.1| hypothetical protein PCC7424_5469 [Cyanothece sp. PCC 7424]
+Length=164
+
+ Score = 43.6 bits (101),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 24/84 (29%), Positives = 37/84 (44%), Gaps = 14/84 (17%)
+
+Query  56   LENEPDFDWSLIGARKWTN-PEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAK  114
+            L    +FDW  I AR  ++  EG  ++ +RG  + RR     D +     AA+ +S   K
+Sbjct  77   LNEYKNFDWDTIEARVISSDGEGVTVVQYRGKVFERRRSSVDDVKG----AAIWFSSATK  132
+
+Query  115  NTDPEHVREKADGEFEYVTLAIFR  138
+              D         G+ +Y+ L  FR
+Sbjct  133  TPD---------GKVKYLKLITFR  147
+
+
+>ref|YP_008154391.1| hypothetical protein SCE1572_40140 [Sorangium cellulosum So0157-2]
+ ref|WP_020739903.1| hypothetical protein [Sorangium cellulosum]
+ gb|AGP40175.1| hypothetical protein SCE1572_40140 [Sorangium cellulosum So0157-2]
+Length=358
+
+ Score = 39.7 bits (91),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 26/57 (46%), Gaps = 1/57 (2%)
+
+Query  39   RLGWTSGEVPVGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHAYRRRELEA  95
+             L W  G V   G    L N P+FDW+L G      P  E + +H GH Y   E +A
+Sbjct  151  ALSWAVGRVRAQGGV-ALINHPNFDWALTGGDLLGAPAAELLEIHSGHPYVHTEGDA  206
+
+
+>ref|WP_003666754.1| 16S rRNA methyltransferase [Lactobacillus reuteri]
+ gb|EDX42126.1| S-adenosyl-methyltransferase MraW [Lactobacillus reuteri 100-23]
+Length=318
+
+ Score = 39.3 bits (90),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 23/86 (27%), Positives = 38/86 (44%), Gaps = 2/86 (2%)
+
+Query  15   DLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIGARKWTN  74
+            D+G +++V    + +   V+  +      SG+VP G    P   EPDF   LI  +    
+Sbjct  235  DVGGRISVITFQSLEDRLVKTMFREKTSLSGDVPQGLPVIPAGMEPDF--KLINKKPIVA  292
+
+Query  75   PEGEEMILHRGHAYRRRELEAVDSRK  100
+             + E    HR H+ + R +E +   K
+Sbjct  293  SDEELAANHRAHSAKLRIIEKIREGK  318
+
+
+>ref|YP_007174868.1| 50S ribosomal protein L3 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015232317.1| 50S ribosomal protein L3 [Caldisphaera lagunensis]
+ gb|AFZ70419.1| archaeal ribosomal protein L3 [Caldisphaera lagunensis DSM 15908]
+Length=345
+
+ Score = 39.3 bits (90),  Expect = 0.70, Method: Composition-based stats.
+ Identities = 30/100 (30%), Positives = 39/100 (39%), Gaps = 7/100 (7%)
+
+Query  13   ITDLGAKVTV-DVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIGARK  71
+            I  LG +VTV DV    +++DV       GW       G  Q P   +       IGAR 
+Sbjct  185  INKLGQQVTVKDVFQPGQVIDVLAVSKGKGWQGVIKRAGAKQLPRWTKHRKGSRKIGARS  244
+
+Query  72   ------WTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPA  105
+                  W NP   ++  HR   Y +R L+  D      PA
+Sbjct  245  HGLGTWWENPSPGQLGFHRRTDYNKRILDIGDEGYKVTPA  284
+
+
+>ref|YP_003194787.1| tail-specific proteinase [Robiginitalea biformata HTCC2501]
+ ref|WP_015753764.1| peptidase S41 [Robiginitalea biformata]
+ gb|EAR17008.1| periplasmic tail-specific proteinase [Robiginitalea biformata 
+HTCC2501]
+Length=707
+
+ Score = 39.3 bits (90),  Expect = 0.73, Method: Composition-based stats.
+ Identities = 33/111 (30%), Positives = 46/111 (41%), Gaps = 23/111 (21%)
+
+Query  48   PVGGYQFPLENEPDFDWSL------IGARKWTNPEGEEMI--LHRGHAYRRRELE-----  94
+            P   Y  P + E  FD S+      IGAR    PEG +++  +  G  +R + LE     
+Sbjct  232  PHTYYFAPEDKER-FDVSMSGKFEGIGARLQQKPEGAKIVEIISGGPVWRDQRLEVGDEI  290
+
+Query  95   ---------AVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGEFEYVTLAI  136
+                      V+   M+L  A+K  +G K T+      K DG  E VTL  
+Sbjct  291  LKVGQKDEPPVNIVGMRLDDAIKLIKGPKGTEVVLTVRKVDGTVEEVTLVR  341
+
+
+>ref|YP_004650327.1| S-adenosyl-L-methionine-dependent methyltransferase MraW [Lactobacillus 
+reuteri SD2112]
+ ref|WP_003671812.1| 16S rRNA methyltransferase [Lactobacillus reuteri]
+ gb|ABS84215.1| S-adenosyl-methyltransferase MraW [Lactobacillus reuteri]
+ gb|EEI65225.1| S-adenosyl-methyltransferase MraW [Lactobacillus reuteri CF48-3A]
+ gb|AEI58037.1| S-adenosyl-methyltransferase MraW [Lactobacillus reuteri SD2112]
+Length=318
+
+ Score = 38.9 bits (89),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 23/86 (27%), Positives = 38/86 (44%), Gaps = 2/86 (2%)
+
+Query  15   DLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIGARKWTN  74
+            D+G +++V    + +   V+  +      SG+VP G    P   EP+F   LI  +    
+Sbjct  235  DVGGRISVITFQSLEDRLVKTMFREKTSLSGDVPQGLPVIPAGMEPNF--KLINKKPIVA  292
+
+Query  75   PEGEEMILHRGHAYRRRELEAVDSRK  100
+             E E    HR H+ + R +E +   K
+Sbjct  293  SEEELAANHRAHSAKLRIIEKIREGK  318
+
+
+>ref|YP_003096909.1| hypothetical protein FIC_02414 [Flavobacteriaceae bacterium 3519-10]
+ ref|WP_015807131.1| quinol:cytochrome C oxidoreductase [Flavobacteriaceae bacterium 
+3519-10]
+ gb|ACU08847.1| hypothetical protein FIC_02414 [Flavobacteriaceae bacterium 3519-10]
+Length=256
+
+ Score = 38.2 bits (87),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 41/111 (37%), Gaps = 10/111 (9%)
+
+Query  73   TNPEGEEMILHRGH-----AYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG  127
+            T  +G+  ++  G      AY+ REL     +       +K+ R A  +    ++     
+Sbjct  139  TGGDGQGPVVASGAYAGVPAYKDRELTVASVK-----YVIKHGRNAMGSYAGQLKPGDQW  193
+
+Query  128  EFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQ  178
+                  ++ F+GG      A PGS     GA A    T A  A    V+ Q
+Sbjct  194  RVAMYVMSEFKGGVSPAASATPGSTTSVPGAAAALTETPAPAAGTPPVSTQ  244
+
+
+>ref|XP_004941407.1| PREDICTED: trichohyalin-like [Gallus gallus]
+Length=846
+
+ Score = 38.2 bits (87),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 27/109 (25%), Positives = 42/109 (39%), Gaps = 13/109 (12%)
+
+Query  82   LHRGHAYRRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADGEFEYVTLAI-----  136
+            L R H  +RREL+ V  R++      +Y  G+    P+HV  +A    +    A+     
+Sbjct  56   LLRCHTAKRRELQEVAQRRL----FSQYIVGSWEGKPQHVESRAMSCSQDRERALGHHCA  111
+
+Query  137  ----FRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAVQDEE  181
+                 R   +     VP + +   G P    +     A+P    VQ EE
+Sbjct  112  EQGSSRPAVKDAHVQVPETAKEDLGLPGSRPSPHRGLAQPPICPVQREE  160
+
+
+>gb|EJF63296.1| hypothetical protein DICSQDRAFT_160507 [Dichomitus squalens LYAD-421 
+SS1]
+Length=1189
+
+ Score = 38.2 bits (87),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 21/91 (23%), Positives = 34/91 (37%), Gaps = 1/91 (1%)
+
+Query  89    RRRELEAVDSRKMKLPAAVKYSRGAKNTDPEHVREKADG-EFEYVTLAIFRGGKRQERYA  147
+             RRR     +S  ++ P A   S     +    V  +     F+ V + +F+G KR+   A
+Sbjct  924   RRRLSPPTESPTVRPPEASAESSKRGPSAATSVASRRSKWRFDGVEVEMFKGPKRRTSTA  983
+
+Query  148   VPGSNRPQAGAPARSAATRAQGARPGAVAVQ  178
+                + +P     AR  +         A AV 
+Sbjct  984   GSSTPKPSKDTGARIPSPEVPSPADAARAVA  1014
+
+
+>ref|YP_876011.1| thiamine monophosphate kinase [Cenarchaeum symbiosum A]
+ ref|WP_013482333.1| thiamine monophosphate kinase [Cenarchaeum symbiosum]
+ gb|ABK77707.1| thiamine monophosphate kinase [Cenarchaeum symbiosum A]
+Length=400
+
+ Score = 37.4 bits (85),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 33/163 (20%), Positives = 54/163 (33%), Gaps = 13/163 (8%)
+
+Query  28   DKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSLIGARKWTNPEGEEMILHRGHA  87
+              L ++ RQ G   +T   +P G       ++   D             GEE  L     
+Sbjct  210  STLHEMARQSGTR-YTLYRLPAGAGIMGFASDNGLD-----GDSLVLDGGEEFELVFTAH  263
+
+Query  88   YRRRELEAVDSRKMKLPAA----VKYSRGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQ  143
+             R R+     +RK+ +P      V+  RG      + +R   DG + +++   F   KR 
+Sbjct  264  PRNRKRIEKTARKLGVPMQEIGRVEQGRGVWLASGDGMRRIKDGGWRHLSGQSFLNPKRP  323
+
+Query  144  ERYAVPGSNRPQ---AGAPARSAATRAQGARPGAVAVQDEETP  183
+             R        P      +P +   ++ Q     A   Q    P
+Sbjct  324  CRRCPVQKLAPASRRQKSPPKRRPSQKQVPPMQAPPRQVHPRP  366
+
+
+>ref|YP_001275192.1| single-strand binding protein [Roseiflexus sp. RS-1]
+ ref|WP_011955596.1| single-stranded DNA-binding protein [Roseiflexus sp. RS-1]
+ gb|ABQ89242.1| single-strand binding protein [Roseiflexus sp. RS-1]
+Length=176
+
+ Score = 36.6 bits (83),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 35/194 (18%), Positives = 61/194 (31%), Gaps = 38/194 (20%)
+
+Query  7    MLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVPVGGYQFPLENEPDFDWSL  66
+            +  +     LGA   +        +   R      W SG+    G Q       D +W  
+Sbjct  5    LNKVMLTGHLGADPEMRFTPQGSAVTTFRVASNRSWKSGD----GVQ-----HDDTEWFR  55
+
+Query  67   I----------------GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYS  110
+            I                G R +     +       +   +R +  V ++ M +       
+Sbjct  56   IVAWDKLAEICNEYLKKGTRVYIEGRLQTRSWDDRNTGEKRYITEVVAQDMIILTPKGDR  115
+
+Query  111  RGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGA  170
+              A +T+   VRE                 +R    + P    P +  PAR++ATRA   
+Sbjct  116  MPAVDTEETDVREVGSA------------PRRAPAPSAPDMPAPVSNGPARASATRAPA-  162
+
+Query  171  RPGAVAVQDEETPF  184
+            R     +++++ PF
+Sbjct  163  RNTPQPIEEDDIPF  176
+
+
+>emb|CBQ68111.1| related to LTV1-low-temperature viability protein [Sporisorium 
+reilianum SRZ2]
+Length=720
+
+ Score = 37.4 bits (85),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 29/110 (26%), Positives = 38/110 (35%), Gaps = 13/110 (12%)
+
+Query  75   PEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKY-------SRGAKNTDPEHVREKADG  127
+            PEG+E I     A  + ELE      M L A V         +R AK    +   +  D 
+Sbjct  240  PEGDEAIWADPAARAQTELEQHGEENMSLEARVALFKKQQAQARTAKPASDDGAEDDEDR  299
+
+Query  128  EFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGARPGAVAV  177
+            +     LA  RGG R       G      G   R  A   + A   A ++
+Sbjct  300  D----QLASLRGGSRAGTMYTAGG--SAIGKKGRPGALARRAASTKAPSI  343
+
+
+>ref|WP_007769113.1| membrane protein [Mycobacterium colombiense]
+ gb|EJO91073.1| hypothetical protein MCOL_V202550 [Mycobacterium colombiense 
+CECT 3035]
+Length=953
+
+ Score = 37.0 bits (84),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  104  PAAVKYSRGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSA  163
+            P A++ SR A+ TDP   +E A                +  R+A PG +RP    PA SA
+Sbjct  799  PGALEPSRPARPTDPRPAQEPAASTTRIPARPSQPTEAKTTRFAAPGRDRPAEPRPANSA  858
+
+Query  164  AT  165
+              
+Sbjct  859  PQ  860
+
+
+>ref|YP_008788635.1| hypothetical protein M271_10840 [Streptomyces rapamycinicus NRRL 
+5491]
+ ref|WP_020867171.1| hypothetical protein [Streptomyces rapamycinicus]
+ gb|AGP53769.1| hypothetical protein M271_10840 [Streptomyces rapamycinicus NRRL 
+5491]
+Length=410
+
+ Score = 36.6 bits (83),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 22/48 (46%), Gaps = 0/48 (0%)
+
+Query  1    GIDPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVP  48
+            GI PF +   E    LG+  T  V++ D L    R + R GW    VP
+Sbjct  260  GISPFGVWRNEATDPLGSATTAGVQTYDDLYADTRGWVRRGWLDYVVP  307
+
+
+>ref|WP_017313874.1| hypothetical protein [Mastigocladopsis repens]
+Length=139
+
+ Score = 35.5 bits (80),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 30/104 (29%), Positives = 39/104 (38%), Gaps = 15/104 (14%)
+
+Query  52   YQFPLENEPDFDWSLIGARKWTNPE-GEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYS  110
+            YQ+PL +   FDWS IGA      + G  ++   G  Y RR      S   K   A+ +S
+Sbjct  45   YQYPLSSFKTFDWSSIGATVERKDQHGAAIVSWNGQQYIRR------SPSNKFDPAIWFS  98
+
+Query  111  RGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRP  154
+            R     +        DG   Y  L  F+     E   VP   R 
+Sbjct  99   RCTGKAE--------DGSNAYERLITFKPISAAEVEPVPEKVRG  134
+
+
+>ref|WP_009713814.1| hypothetical protein [Streptomyces himastatinicus]
+ gb|EFL21993.1| FenI protein [Streptomyces himastatinicus ATCC 53653]
+Length=415
+
+ Score = 36.2 bits (82),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 21/48 (44%), Gaps = 0/48 (0%)
+
+Query  1    GIDPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGWTSGEVP  48
+            GI PF +        LG+     V++ D L    R++ R GW    VP
+Sbjct  265  GISPFAVWRNRATDPLGSDTRAGVQTYDDLYADTRRWVREGWIDYIVP  312
+
+
+>ref|XP_001916516.1| PREDICTED: polyserase-2-like [Equus caballus]
+Length=439
+
+ Score = 36.2 bits (82),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 23/130 (18%), Positives = 41/130 (32%), Gaps = 15/130 (12%)
+
+Query  68   GARKWTNPEGEEMILHRGHAYRRRELEAVDSRKMKLPAAVKYSR---GAKNTDPEHVREK  124
+            GA+ W +       +     + R++ E    R +   A  ++S    G   + P   R +
+Sbjct  281  GAQPWGSKGFAGGNVEGAQRWERKDPEPSPGRVLWGHAWERWSEERPGPWRSAPAGSRGR  340
+
+Query  125  ADGEFEYVTLAIFRGGK-----------RQERYAVPGSNRPQAGAPARSAATRAQGARPG  173
+              G+ +       RG             R  R ++ GS     G PAR   +        
+Sbjct  341  GPGKNQQGVQDASRGSGSNGPRGGGVLSRGPR-SLAGSLPTVWGPPARPQVSPGNAPPSV  399
+
+Query  174  AVAVQDEETP  183
+                 ++  P
+Sbjct  400  NAPSSEDSQP  409
+
+
+>ref|WP_020408365.1| hypothetical protein [Hahella ganghwensis]
+Length=250
+
+ Score = 35.9 bits (81),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 21/73 (29%), Positives = 29/73 (40%), Gaps = 0/73 (0%)
+
+Query  111  RGAKNTDPEHVREKADGEFEYVTLAIFRGGKRQERYAVPGSNRPQAGAPARSAATRAQGA  170
+            RGA+++D E V +      +  TLA    G  Q   A  G  R   GA A + + R    
+Sbjct  28   RGAQSSDVEVVSQNTTSSKQSGTLAANSQGSSQPSPAAAGQFRAPPGASAAATSRRPHDE  87
+
+Query  171  RPGAVAVQDEETP  183
+             P    +  E  P
+Sbjct  88   LPVPDPIPRELAP  100
+
+
+>ref|YP_004914706.1| hypothetical protein SCAT_5215 [Streptomyces cattleya NRRL 8057 
+= DSM 46488]
+ ref|WP_014145918.1| hypothetical protein [Streptomyces cattleya]
+ emb|CCB77903.1| putative secreted protein [Streptomyces cattleya NRRL 8057 = 
+DSM 46488]
+Length=415
+
+ Score = 35.9 bits (81),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 19/42 (45%), Gaps = 0/42 (0%)
+
+Query  1    GIDPFTMLHIEFITDLGAKVTVDVESADKLLDVQRQYGRLGW  42
+            GI PF +        LG+  T  V+S D L    R + R GW
+Sbjct  268  GISPFGVWRNRSSDPLGSATTAGVQSYDDLYADTRTWVRQGW  309
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.130    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 363902535888
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

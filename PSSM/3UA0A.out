@@ -1,0 +1,1121 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3UA0A
+
+Length=134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_001106733.1|  fibroin heavy chain precursor [Bombyx mori] ...   348    8e-108
+sp|Q99050.2|FIBH_BOMMA  RecName: Full=Fibroin heavy chain; Short=...   259    8e-86 
+emb|CAA23432.1|  putative reading frame (fibroin) [Bombyx mori]        256    9e-85 
+emb|CAA27612.1|  fibroin [Bombyx mandarina]                            256    2e-84 
+pdb|3UA0|A  Chain A, N-Terminal Domain Of Bombyx Mori Fibroin Med...   248    5e-82 
+gb|ABY59717.1|  fibroin heavy chain Fib-h [Bombyx mori]                227    2e-73 
+gb|AAP79133.1|  fibroin heavy chain, partial [Ephestia kuehniella]    84.0    4e-16 
+gb|AAP79132.1|  fibroin heavy chain, partial [Plodia interpunctella]  78.2    3e-14 
+gb|ACX50394.1|  fibroin heavy chain, partial [Corcyra cephalonica]    67.8    4e-12 
+gb|AAG10393.1|  heavy-chain fibroin [Galleria mellonella]             70.5    2e-11 
+dbj|BAE97695.1|  heavy-chain fibroin [Yponomeuta evonymellus]         63.9    1e-09 
+dbj|BAG84270.1|  fibroin [Rhodinia fugax]                             63.9    3e-09 
+gb|ADA59934.1|  fibroin heavy chain [Actias selene]                   56.2    3e-07 
+gb|AAN28165.1|  fibroin [Antheraea mylitta]                           54.3    3e-06 
+gb|AAC32606.1|  fibroin [Antheraea pernyi]                            53.1    1e-05 
+dbj|BAH02016.1|  fibroin [Saturnia japonica]                          52.4    2e-05 
+gb|AAK83145.1|AF325500_2  fibroin [Antheraea yamamai]                 52.4    2e-05 
+dbj|BAJ11925.1|  fibroin [Antheraea yamamai]                          52.4    2e-05 
+gb|AEC46903.1|  fibroin [Cricula trifenestrata]                       50.4    3e-05 
+ref|YP_001782251.1|  ATPase P [Clostridium botulinum B1 str. Okra...  37.7    0.88  
+ref|YP_002805138.1|  calcium-translocating P-type ATPase [Clostri...  37.7    0.90  
+ref|YP_001391935.1|  ATPase P [Clostridium botulinum F str. Lange...  37.7    0.91  
+gb|ABI93804.1|  fibroin heavy chain Fib-H [Bombyx mori]               34.7    1.5   
+ref|WP_003495181.1|  ATPase [Clostridium sporogenes] >gb|EHN14020...  37.4    1.5   
+ref|YP_003410638.1|  NAD-binding D-isomer specific 2-hydroxyacid ...  36.2    3.1   
+ref|YP_001787955.1|  ATPase P [Clostridium botulinum A3 str. Loch...  36.2    3.8   
+ref|YP_003502815.1|  LysR family transcriptional regulator [Denit...  35.8    4.4   
+ref|WP_003484520.1|  ATPase [Clostridium sporogenes] >gb|EDU36202...  35.4    6.8   
+gb|AAF78030.1|AF242774_1  fibroin [Antheraea pernyi]                  32.3    9.6   
+
+
+>ref|NP_001106733.1| fibroin heavy chain precursor [Bombyx mori]
+ sp|P05790.4|FIBH_BOMMO RecName: Full=Fibroin heavy chain; Short=Fib-H; AltName: Full=H-fibroin; 
+Flags: Precursor
+ gb|AAF76983.1|AF226688_1 fibroin heavy chain Fib-H [Bombyx mori]
+Length=5263
+
+ Score =  348 bits (894),  Expect = 8e-108, Method: Compositional matrix adjust.
+ Identities = 126/126 (100%), Positives = 126/126 (100%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT
+Sbjct  1    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>sp|Q99050.2|FIBH_BOMMA RecName: Full=Fibroin heavy chain; Short=Fib-H; AltName: Full=H-fibroin; 
+Flags: Precursor
+Length=178
+
+ Score =  259 bits (662),  Expect = 8e-86, Method: Compositional matrix adjust.
+ Identities = 125/126 (99%), Positives = 126/126 (100%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEE+IT
+Sbjct  1    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEEIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>emb|CAA23432.1| putative reading frame (fibroin) [Bombyx mori]
+Length=168
+
+ Score =  256 bits (654),  Expect = 9e-85, Method: Compositional matrix adjust.
+ Identities = 125/126 (99%), Positives = 125/126 (99%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVIL CALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT
+Sbjct  1    MRVKTFVILVCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>emb|CAA27612.1| fibroin [Bombyx mandarina]
+Length=178
+
+ Score =  256 bits (653),  Expect = 2e-84, Method: Compositional matrix adjust.
+ Identities = 124/126 (98%), Positives = 125/126 (99%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVIL CALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEE+IT
+Sbjct  1    MRVKTFVILVCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEEIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>pdb|3UA0|A Chain A, N-Terminal Domain Of Bombyx Mori Fibroin Mediates The 
+Assembly Of Silk In Response To Ph Decrease
+ pdb|3UA0|B Chain B, N-Terminal Domain Of Bombyx Mori Fibroin Mediates The 
+Assembly Of Silk In Response To Ph Decrease
+Length=134
+
+ Score =  248 bits (633),  Expect = 5e-82, Method: Compositional matrix adjust.
+ Identities = 129/133 (97%), Positives = 129/133 (97%), Gaps = 0/133 (0%)
+
+Query  2    GHHHHHHMRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGA  61
+            GHHHHHH RVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGA
+Sbjct  2    GHHHHHHXRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGA  61
+
+Query  62   VIEEQITTKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQ  121
+            VIEEQITTKK QRKNKNHGILGKNEK IKTFVITTDSDGNESIVEEDVL KTLSDGTVAQ
+Sbjct  62   VIEEQITTKKXQRKNKNHGILGKNEKXIKTFVITTDSDGNESIVEEDVLXKTLSDGTVAQ  121
+
+Query  122  SYVAADAGAYSQS  134
+            SYVAADAGAYSQS
+Sbjct  122  SYVAADAGAYSQS  134
+
+
+>gb|ABY59717.1| fibroin heavy chain Fib-h [Bombyx mori]
+Length=154
+
+ Score =  227 bits (578),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 111/112 (99%), Positives = 111/112 (99%), Gaps = 0/112 (0%)
+
+Query  23   YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL  82
+            YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL
+Sbjct  1    YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL  60
+
+Query  83   GKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADAGAYSQS  134
+            GKNEKMIKTFVITTDSDGNESIVEED LMKTLSDGTVAQSYVAADAGAYSQS
+Sbjct  61   GKNEKMIKTFVITTDSDGNESIVEEDALMKTLSDGTVAQSYVAADAGAYSQS  112
+
+
+>gb|AAP79133.1| fibroin heavy chain, partial [Ephestia kuehniella]
+Length=735
+
+ Score = 84.0 bits (206),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 44/103 (43%), Positives = 62/103 (60%), Gaps = 4/103 (4%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYVA  +      +    G +V   S +TTD    D +G V E + T
+Sbjct  1    MRVTTFVILCCALQYVAAADI----LETGILGGNVREVSESTTDNFTTDGNGNVTEVKTT  56
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             K+ +R+ +    +   +K+++TFVI TD+ GNE I EEDV++
+Sbjct  57   HKEFRRQGEVPNNISGEDKLVRTFVIETDASGNEVIYEEDVVI  99
+
+
+>gb|AAP79132.1| fibroin heavy chain, partial [Plodia interpunctella]
+Length=509
+
+ Score = 78.2 bits (191),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 43/103 (42%), Positives = 60/103 (58%), Gaps = 5/103 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQY A   A++  F +     +    S +TTD    D +G V E + T
+Sbjct  1    MRVTTFVILCCALQYAA---ADL--FGDSLLAGNAREVSESTTDNFTTDGNGNVTEVKTT  55
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             K+ +R       +   +K+++TFVI TD+ GNE I EEDV++
+Sbjct  56   HKEYRRHGDVPNNISGEDKLVRTFVIETDASGNEVIYEEDVVI  98
+
+
+>gb|ACX50394.1| fibroin heavy chain, partial [Corcyra cephalonica]
+Length=98
+
+ Score = 67.8 bits (164),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 60/103 (58%), Gaps = 5/103 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYV     + N  +    G+  T  S  TT+E+  D     + +  T
+Sbjct  1    MRVTTFVILCCALQYVTADAIDDNIIN---IGNAFTELSETTTNEV--DVENGTVYKSTT  55
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             KK +R+      +   +K+++TFVI TD+ G+E+I EEDV++
+Sbjct  56   RKKFEREGDFTPNISGEDKIVRTFVIETDASGHETIYEEDVVI  98
+
+
+>gb|AAG10393.1| heavy-chain fibroin [Galleria mellonella]
+Length=1468
+
+ Score = 70.5 bits (171),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 41/104 (39%), Positives = 64/104 (62%), Gaps = 3/104 (3%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYV  T   I+D   ++   +      +TT E+  + +G ++E + T
+Sbjct  1    MRVTTFVILCCALQYV--TADAIDDSLLNFNNENFIEIGESTTAEVDVE-NGTLVERETT  57
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMK  112
+             KK +R       +   +K+++TFVI TD+ G+E++ EEDV++K
+Sbjct  58   RKKYERDGDITPNISGEDKIVRTFVIETDASGHETVYEEDVVIK  101
+
+
+>dbj|BAE97695.1| heavy-chain fibroin [Yponomeuta evonymellus]
+Length=412
+
+ Score = 63.9 bits (154),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 43/105 (41%), Positives = 62/105 (59%), Gaps = 5/105 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQYVA   AN  +  +    S++       T +  +D +G + E+ +T
+Sbjct  1    MRVAAFVILCCALQYVA---ANGYNDIQGVNTSNMRETDIEQTTDFEKDTNGTLFEKTLT  57
+
+Query  69   TKKMQ-RKNKNHG-ILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             KK +   N   G  L  N+K+I+TFVI +D+ G E+I EEDV++
+Sbjct  58   RKKFEGHLNVGSGPKLSGNDKIIRTFVIESDASGQETIYEEDVVI  102
+
+
+>dbj|BAG84270.1| fibroin [Rhodinia fugax]
+Length=1221
+
+ Score = 63.9 bits (154),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 42/113 (37%), Positives = 61/113 (54%), Gaps = 9/113 (8%)
+
+Query  9    MRVKTFVILCCALQYVA--YTNANINDFDEDYFGSDVTVQSSNT-TDEIIRDASGAVIEE  65
+            MRV TFVILCCALQY+   Y + +I      Y       ++SNT +DE   D  G + E 
+Sbjct  1    MRVTTFVILCCALQYITAQYIDDDIYRLKRTYG------ETSNTRSDEYDVDKFGRLYER  54
+
+Query  66   QITTKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGT  118
+              T KK +  +K    +  +EK+++T V   +  G  +I EEDV++K + D T
+Sbjct  55   TTTRKKFEGNSKVSPYISGDEKVVETIVYENNPVGRGTIYEEDVVIKKVPDET  107
+
+
+>gb|ADA59934.1| fibroin heavy chain [Actias selene]
+Length=273
+
+ Score = 56.2 bits (134),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 34/106 (32%), Positives = 54/106 (51%), Gaps = 14/106 (13%)
+
+Query  11   VKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTK  70
+            V  FVI CCALQY   +  NIN  D            +   DE + D SG + E   T +
+Sbjct  1    VTAFVIFCCALQYA--SAKNINRLD-----------GNTRFDEYV-DNSGQLYERYTTRE  46
+
+Query  71   KMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSD  116
+            + +R       +  NE++++T ++  D  G+E I +EDV++K ++D
+Sbjct  47   EYERNAATLPRISGNERLVETIILEEDPFGHEKIYKEDVIIKKVAD  92
+
+
+>gb|AAN28165.1| fibroin [Antheraea mylitta]
+Length=507
+
+ Score = 54.3 bits (129),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 34/104 (33%), Positives = 50/104 (48%), Gaps = 21/104 (20%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY    N + +++                      D+ G ++E   T
+Sbjct  1    MRVIAFVILCCALQYATAKNIHHDEY---------------------VDSHGQLVERFTT  39
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMK  112
+             K  +R       L  NE++++T V+  D  G+E I EEDV++K
+Sbjct  40   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVIK  83
+
+
+>gb|AAC32606.1| fibroin [Antheraea pernyi]
+Length=2639
+
+ Score = 53.1 bits (126),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 37/104 (36%), Positives = 49/104 (47%), Gaps = 20/104 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY   T  N+   DE                    D  G ++E   T
+Sbjct  1    MRVIAFVILCCALQYA--TAKNLRHHDE------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMK  112
+             K  +R       L  NE++++T V+  D  G+E I EEDV++K
+Sbjct  41   RKHFERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVIK  84
+
+
+>dbj|BAH02016.1| fibroin [Saturnia japonica]
+Length=991
+
+ Score = 52.4 bits (124),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 33/104 (32%), Positives = 55/104 (53%), Gaps = 11/104 (11%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVI+CC LQY +    N       + G  +  + +   DE + D +G + E   T
+Sbjct  1    MRV-AFVIVCCVLQYASAKTLN-------HIG--LHPKGNTRIDEYV-DKTGQLYERYTT  49
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMK  112
+             ++ +R       L +NE++++T +I  D  G+E I +EDV++K
+Sbjct  50   REEFERNAATLPHLSRNERLLETIIIEEDPSGHEKIYKEDVVLK  93
+
+
+>gb|AAK83145.1|AF325500_2 fibroin [Antheraea yamamai]
+Length=2655
+
+ Score = 52.4 bits (124),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 36/103 (35%), Positives = 49/103 (48%), Gaps = 20/103 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY   T  N++  DE                    D  G ++E   T
+Sbjct  1    MRVTAFVILCCALQYA--TANNLHHHDE------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             K  +R       L  NE++++T V+  D  G+E I EEDV++
+Sbjct  41   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVI  83
+
+
+>dbj|BAJ11925.1| fibroin [Antheraea yamamai]
+Length=2856
+
+ Score = 52.4 bits (124),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 36/103 (35%), Positives = 49/103 (48%), Gaps = 20/103 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY   T  N++  DE                    D  G ++E   T
+Sbjct  1    MRVTAFVILCCALQYA--TANNLHHHDE------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             K  +R       L  NE++++T V+  D  G+E I EEDV++
+Sbjct  41   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVI  83
+
+
+>gb|AEC46903.1| fibroin [Cricula trifenestrata]
+Length=291
+
+ Score = 50.4 bits (119),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 50/106 (47%), Gaps = 19/106 (18%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCC LQY   T  NI     +Y G++                 G + +   T
+Sbjct  1    MRVTAFVILCCVLQYA--TAKNIGLGRNEYVGNN-----------------GELYQRYST  41
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTL  114
+             K+ +R       L  +E++++T V+  D  G+E I EED ++K +
+Sbjct  42   HKQYERNAGVSPNLSGDERLVRTIVVEEDPTGHERIFEEDDIIKRV  87
+
+
+>ref|YP_001782251.1| ATPase P [Clostridium botulinum B1 str. Okra]
+ ref|WP_003401390.1| ATPase [Clostridium botulinum]
+ gb|ACA45395.1| calcium-translocating P-type ATPase, PMCA-type [Clostridium botulinum 
+B1 str. Okra]
+ gb|EKX80071.1| ATPase P [Clostridium botulinum CFSAN001628]
+Length=848
+
+ Score = 37.7 bits (86),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KKM   NK H +  KN  E +I   + T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKMYYDNKIHNLGNKNFPENLILKKIFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>ref|YP_002805138.1| calcium-translocating P-type ATPase [Clostridium botulinum A2 
+str. Kyoto]
+ ref|YP_005679267.1| cation-transporting ATPase [Clostridium botulinum H04402 065]
+ ref|WP_003359279.1| ATPase [Clostridium botulinum]
+ gb|EDT80318.1| putative calcium-translocating P-type ATPase, PMCA-type [Clostridium 
+botulinum NCTC 2916]
+ gb|ACO85391.1| calcium-translocating P-type ATPase, PMCA-type [Clostridium botulinum 
+A2 str. Kyoto]
+ emb|CBZ04534.1| cation-transporting ATPase [Clostridium botulinum H04402 065]
+Length=848
+
+ Score = 37.7 bits (86),  Expect = 0.90, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KKM   NK H +  KN  E +I   + T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKMYYDNKIHNLGNKNFPENLILKKIFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>ref|YP_001391935.1| ATPase P [Clostridium botulinum F str. Langeland]
+ ref|YP_005675533.1| calcium-translocating P-type ATPase [Clostridium botulinum F 
+str. 230613]
+ ref|WP_012100507.1| ATPase [Clostridium botulinum]
+ gb|ABS40087.1| calcium-translocating P-type ATPase, PMCA-type [Clostridium botulinum 
+F str. Langeland]
+ gb|ADG00333.1| calcium-translocating P-type ATPase, PMCA-type [Clostridium botulinum 
+F str. 230613]
+Length=848
+
+ Score = 37.7 bits (86),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KKM   NK H +  KN  E +I   + T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKMYYDNKIHNLGNKNFPENLILKKIFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>gb|ABI93804.1| fibroin heavy chain Fib-H [Bombyx mori]
+Length=14
+
+ Score = 34.7 bits (78),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  9   MRVKTFVILCCALQ  22
+           MRVKTFVILCCALQ
+Sbjct  1   MRVKTFVILCCALQ  14
+
+
+>ref|WP_003495181.1| ATPase [Clostridium sporogenes]
+ gb|EHN14020.1| putative calcium-translocating P-type ATPase, PMCA-type [Clostridium 
+sporogenes PA 3679]
+Length=848
+
+ Score = 37.4 bits (85),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 25/76 (33%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KKM   N+ H +  KN  E +I   V T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKMYYDNRIHNLDNKNFPENLILKKVFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>ref|YP_003410638.1| NAD-binding D-isomer specific 2-hydroxyacid dehydrogenase protein 
+[Geodermatophilus obscurus DSM 43160]
+ ref|WP_012949692.1| 2-hydroxyacid dehydrogenase [Geodermatophilus obscurus]
+ gb|ADB76267.1| D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein 
+[Geodermatophilus obscurus DSM 43160]
+Length=318
+
+ Score = 36.2 bits (82),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 25/95 (26%), Positives = 46/95 (48%), Gaps = 11/95 (12%)
+
+Query  39   FGSDVTVQSSNTTDEIIRDASGAVIEEQ-------ITTKKMQRKNKNHGILGKNE--KMI  89
+            FG DV   S N T E   +A    +E         + T  +   ++  G++G++E  +M 
+Sbjct  166  FGMDVVAWSQNLTAERATEAGVRRVERDDLFATADVVTVHLVLSDRTRGLVGRDELARMK  225
+
+Query  90   KTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYV  124
+             + ++   S G   IV+E  L++ LS+G +A + +
+Sbjct  226  PSAILVNTSRG--PIVDEAALLRALSEGRIAGAGI  258
+
+
+>ref|YP_001787955.1| ATPase P [Clostridium botulinum A3 str. Loch Maree]
+ ref|WP_012342681.1| ATPase [Clostridium botulinum]
+ gb|ACA54598.1| calcium-translocating P-type ATPase, PMCA-type [Clostridium botulinum 
+A3 str. Loch Maree]
+Length=848
+
+ Score = 36.2 bits (82),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 24/76 (32%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KK+   NK H +  KN  E +I   + T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKIYYDNKIHNLDNKNFPENLILKKIFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>ref|YP_003502815.1| LysR family transcriptional regulator [Denitrovibrio acetiphilus 
+DSM 12809]
+ ref|WP_013009407.1| LysR family transcriptional regulator [Denitrovibrio acetiphilus]
+ gb|ADD66859.1| transcriptional regulator, LysR family [Denitrovibrio acetiphilus 
+DSM 12809]
+Length=296
+
+ Score = 35.8 bits (81),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 51/96 (53%), Gaps = 9/96 (9%)
+
+Query  31   INDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKNEKMI-  89
+            I  F EDY+ +  T+ + NT + +I+  S  +++  I  +K+ +K+  + +L K++ ++ 
+Sbjct  110  IKKFKEDYYKTFFTLDNGNTQN-VIQRLSDGILDLAIVARKIPKKDLEYKVLTKDKIVLI  168
+
+Query  90   -----KTFVITTDSDGNESIVEEDVLMKTLSDGTVA  120
+                 K F  T DS   E I+ E+ + + +  GT A
+Sbjct  169  VHKNHKFF--TRDSVFIEEILGEEFITREVGSGTRA  202
+
+
+>ref|WP_003484520.1| ATPase [Clostridium sporogenes]
+ gb|EDU36202.1| putative calcium-translocating P-type ATPase, PMCA-type [Clostridium 
+sporogenes ATCC 15579]
+Length=848
+
+ Score = 35.4 bits (80),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 24/76 (32%), Positives = 37/76 (49%), Gaps = 2/76 (3%)
+
+Query  45   VQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGKN--EKMIKTFVITTDSDGNE  102
+            V++   T  I  D +G + E  +T KKM   NK + +  KN  E +I   + T  +D N 
+Sbjct  293  VETLGCTSIICSDKTGTLTENNMTVKKMYYDNKIYNLDNKNFPENLILKKIFTYCNDFNL  352
+
+Query  103  SIVEEDVLMKTLSDGT  118
+             + E+D+    L D T
+Sbjct  353  DMKEKDINKSVLGDPT  368
+
+
+>gb|AAF78030.1|AF242774_1 fibroin [Antheraea pernyi]
+Length=30
+
+ Score = 32.3 bits (72),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 17/28 (61%), Positives = 18/28 (64%), Gaps = 2/28 (7%)
+
+Query  9   MRVKTFVILCCALQYVAYTNANINDFDE  36
+           MRV  FVILCCALQY   T  N+   DE
+Sbjct  1   MRVIAFVILCCALQYA--TAKNLRHHDE  26
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.128    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310799540940
+Results from round 2
+
+
+Query= 3UA0A
+
+Length=134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_001106733.1|  fibroin heavy chain precursor [Bombyx mori] ...   198    3e-55
+sp|Q99050.2|FIBH_BOMMA  RecName: Full=Fibroin heavy chain; Short=...   177    2e-53
+emb|CAA27612.1|  fibroin [Bombyx mandarina]                            172    1e-51
+emb|CAA23432.1|  putative reading frame (fibroin) [Bombyx mori]        171    4e-51
+pdb|3UA0|A  Chain A, N-Terminal Domain Of Bombyx Mori Fibroin Med...   163    1e-48
+gb|AAP79133.1|  fibroin heavy chain, partial [Ephestia kuehniella]     151    5e-40
+gb|ABY59717.1|  fibroin heavy chain Fib-h [Bombyx mori]                141    8e-40
+gb|AAP79132.1|  fibroin heavy chain, partial [Plodia interpunctella]   147    3e-39
+gb|AAG10393.1|  heavy-chain fibroin [Galleria mellonella]              142    3e-36
+dbj|BAG84270.1|  fibroin [Rhodinia fugax]                              139    4e-35
+dbj|BAE97695.1|  heavy-chain fibroin [Yponomeuta evonymellus]          125    1e-31
+gb|ACX50394.1|  fibroin heavy chain, partial [Corcyra cephalonica]     117    2e-31
+dbj|BAH02016.1|  fibroin [Saturnia japonica]                           126    7e-31
+gb|ADA59934.1|  fibroin heavy chain [Actias selene]                    119    3e-30
+gb|AAN28165.1|  fibroin [Antheraea mylitta]                            120    1e-29
+gb|AEC46903.1|  fibroin [Cricula trifenestrata]                        117    2e-29
+gb|AAK83145.1|AF325500_2  fibroin [Antheraea yamamai]                  117    2e-27
+dbj|BAJ11925.1|  fibroin [Antheraea yamamai]                           117    2e-27
+gb|AAC32606.1|  fibroin [Antheraea pernyi]                             117    2e-27
+
+Sequences not found previously or not previously below threshold:
+
+gb|AAF78030.1|AF242774_1  fibroin [Antheraea pernyi]                  42.0    0.002
+dbj|BAF62092.2|  fibroin heavy chain [Hydropsyche angustipennis]      42.0    0.038
+dbj|BAH80181.1|  fibroin heavy chain [Hydropsyche angustipennis]      40.9    0.070
+gb|ABI93804.1|  fibroin heavy chain Fib-H [Bombyx mori]               37.4    0.16 
+ref|YP_001437097.1|  hypothetical protein ESA_00992 [Cronobacter ...  37.0    1.3  
+ref|WP_008939321.1|  nitric oxide reductase large subunit [Marino...  37.0    1.8  
+ref|WP_017599882.1|  hypothetical protein [Nocardiopsis lucentensis]  36.2    2.9  
+gb|EJY79656.1|  hypothetical protein OXYTRI_23064 [Oxytricha trif...  35.9    3.9  
+ref|WP_007769576.1|  Exodeoxyribonuclease encoded by cryptic prop...  35.1    5.2  
+ref|WP_004386820.1|  hypothetical protein, partial [Cronobacter s...  34.7    7.3  
+ref|YP_007906217.1|  ZPR1-related zinc finger protein [Archaeoglo...  34.7    7.6  
+
+
+>ref|NP_001106733.1| fibroin heavy chain precursor [Bombyx mori]
+ sp|P05790.4|FIBH_BOMMO RecName: Full=Fibroin heavy chain; Short=Fib-H; AltName: Full=H-fibroin; 
+Flags: Precursor
+ gb|AAF76983.1|AF226688_1 fibroin heavy chain Fib-H [Bombyx mori]
+Length=5263
+
+ Score =  198 bits (502),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 126/126 (100%), Positives = 126/126 (100%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT
+Sbjct  1    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>sp|Q99050.2|FIBH_BOMMA RecName: Full=Fibroin heavy chain; Short=Fib-H; AltName: Full=H-fibroin; 
+Flags: Precursor
+Length=178
+
+ Score =  177 bits (449),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 125/126 (99%), Positives = 126/126 (100%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEE+IT
+Sbjct  1    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEEIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>emb|CAA27612.1| fibroin [Bombyx mandarina]
+Length=178
+
+ Score =  172 bits (437),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 124/126 (98%), Positives = 125/126 (99%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVIL CALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEE+IT
+Sbjct  1    MRVKTFVILVCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEEIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>emb|CAA23432.1| putative reading frame (fibroin) [Bombyx mori]
+Length=168
+
+ Score =  171 bits (432),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 125/126 (99%), Positives = 125/126 (99%), Gaps = 0/126 (0%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRVKTFVIL CALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT
+Sbjct  1    MRVKTFVILVCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  60
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  128
+            TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA
+Sbjct  61   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADA  120
+
+Query  129  GAYSQS  134
+            GAYSQS
+Sbjct  121  GAYSQS  126
+
+
+>pdb|3UA0|A Chain A, N-Terminal Domain Of Bombyx Mori Fibroin Mediates The 
+Assembly Of Silk In Response To Ph Decrease
+ pdb|3UA0|B Chain B, N-Terminal Domain Of Bombyx Mori Fibroin Mediates The 
+Assembly Of Silk In Response To Ph Decrease
+Length=134
+
+ Score =  163 bits (412),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 122/125 (98%), Positives = 122/125 (98%), Gaps = 0/125 (0%)
+
+Query  10   RVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITT  69
+            RVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITT
+Sbjct  10   RVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITT  69
+
+Query  70   KKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADAG  129
+            KK QRKNKNHGILGKNEK IKTFVITTDSDGNESIVEEDVL KTLSDGTVAQSYVAADAG
+Sbjct  70   KKXQRKNKNHGILGKNEKXIKTFVITTDSDGNESIVEEDVLXKTLSDGTVAQSYVAADAG  129
+
+Query  130  AYSQS  134
+            AYSQS
+Sbjct  130  AYSQS  134
+
+
+>gb|AAP79133.1| fibroin heavy chain, partial [Ephestia kuehniella]
+Length=735
+
+ Score =  151 bits (381),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 44/107 (41%), Positives = 63/107 (59%), Gaps = 4/107 (4%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYVA  +      +    G +V   S +TTD    D +G V E + T
+Sbjct  1    MRVTTFVILCCALQYVAAADI----LETGILGGNVREVSESTTDNFTTDGNGNVTEVKTT  56
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K+ +R+ +    +   +K+++TFVI TD+ GNE I EEDV++  + 
+Sbjct  57   HKEFRRQGEVPNNISGEDKLVRTFVIETDASGNEVIYEEDVVIHKVP  103
+
+
+>gb|ABY59717.1| fibroin heavy chain Fib-h [Bombyx mori]
+Length=154
+
+ Score =  141 bits (355),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 111/112 (99%), Positives = 111/112 (99%), Gaps = 0/112 (0%)
+
+Query  23   YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL  82
+            YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL
+Sbjct  1    YVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGIL  60
+
+Query  83   GKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQSYVAADAGAYSQS  134
+            GKNEKMIKTFVITTDSDGNESIVEED LMKTLSDGTVAQSYVAADAGAYSQS
+Sbjct  61   GKNEKMIKTFVITTDSDGNESIVEEDALMKTLSDGTVAQSYVAADAGAYSQS  112
+
+
+>gb|AAP79132.1| fibroin heavy chain, partial [Plodia interpunctella]
+Length=509
+
+ Score =  147 bits (372),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 42/107 (39%), Positives = 59/107 (55%), Gaps = 5/107 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQY A      + F +     +    S +TTD    D +G V E + T
+Sbjct  1    MRVTTFVILCCALQYAAA-----DLFGDSLLAGNAREVSESTTDNFTTDGNGNVTEVKTT  55
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K+ +R       +   +K+++TFVI TD+ GNE I EEDV++  + 
+Sbjct  56   HKEYRRHGDVPNNISGEDKLVRTFVIETDASGNEVIYEEDVVIHKVP  102
+
+
+>gb|AAG10393.1| heavy-chain fibroin [Galleria mellonella]
+Length=1468
+
+ Score =  142 bits (358),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 40/107 (37%), Positives = 63/107 (59%), Gaps = 3/107 (3%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYV      I+D   ++   +      +TT E+  + +G ++E + T
+Sbjct  1    MRVTTFVILCCALQYVTADA--IDDSLLNFNNENFIEIGESTTAEVDVE-NGTLVERETT  57
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             KK +R       +   +K+++TFVI TD+ G+E++ EEDV++K   
+Sbjct  58   RKKYERDGDITPNISGEDKIVRTFVIETDASGHETVYEEDVVIKRKP  104
+
+
+>dbj|BAG84270.1| fibroin [Rhodinia fugax]
+Length=1221
+
+ Score =  139 bits (349),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 40/112 (36%), Positives = 58/112 (52%), Gaps = 7/112 (6%)
+
+Query  9    MRVKTFVILCCALQYVA--YTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQ  66
+            MRV TFVILCCALQY+   Y + +I      Y        S+  +DE   D  G + E  
+Sbjct  1    MRVTTFVILCCALQYITAQYIDDDIYRLKRTYG-----ETSNTRSDEYDVDKFGRLYERT  55
+
+Query  67   ITTKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGT  118
+             T KK +  +K    +  +EK+++T V   +  G  +I EEDV++K + D T
+Sbjct  56   TTRKKFEGNSKVSPYISGDEKVVETIVYENNPVGRGTIYEEDVVIKKVPDET  107
+
+
+>dbj|BAE97695.1| heavy-chain fibroin [Yponomeuta evonymellus]
+Length=412
+
+ Score =  125 bits (314),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 41/109 (38%), Positives = 62/109 (57%), Gaps = 5/109 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQYVA   AN  +  +    S++       T +  +D +G + E+ +T
+Sbjct  1    MRVAAFVILCCALQYVA---ANGYNDIQGVNTSNMRETDIEQTTDFEKDTNGTLFEKTLT  57
+
+Query  69   TKKMQR--KNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             KK +      +   L  N+K+I+TFVI +D+ G E+I EEDV++  + 
+Sbjct  58   RKKFEGHLNVGSGPKLSGNDKIIRTFVIESDASGQETIYEEDVVIHQVP  106
+
+
+>gb|ACX50394.1| fibroin heavy chain, partial [Corcyra cephalonica]
+Length=98
+
+ Score =  117 bits (294),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 41/103 (40%), Positives = 59/103 (57%), Gaps = 5/103 (5%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV TFVILCCALQYV     + N  +    G+  T  S  TT+E   D     + +  T
+Sbjct  1    MRVTTFVILCCALQYVTADAIDDNIIN---IGNAFTELSETTTNE--VDVENGTVYKSTT  55
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLM  111
+             KK +R+      +   +K+++TFVI TD+ G+E+I EEDV++
+Sbjct  56   RKKFEREGDFTPNISGEDKIVRTFVIETDASGHETIYEEDVVI  98
+
+
+>dbj|BAH02016.1| fibroin [Saturnia japonica]
+Length=991
+
+ Score =  126 bits (317),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 53/107 (50%), Gaps = 11/107 (10%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVI+CC LQY +    N            +  + +   DE   D +G + E   T
+Sbjct  1    MRV-AFVIVCCVLQYASAKTLNH---------IGLHPKGNTRIDEY-VDKTGQLYERYTT  49
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             ++ +R       L +NE++++T +I  D  G+E I +EDV++K + 
+Sbjct  50   REEFERNAATLPHLSRNERLLETIIIEEDPSGHEKIYKEDVVLKRVP  96
+
+
+>gb|ADA59934.1| fibroin heavy chain [Actias selene]
+Length=273
+
+ Score =  119 bits (299),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 32/106 (30%), Positives = 52/106 (49%), Gaps = 14/106 (13%)
+
+Query  11   VKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTK  70
+            V  FVI CCALQY +  N N              +  +   DE   D SG + E   T +
+Sbjct  1    VTAFVIFCCALQYASAKNIN-------------RLDGNTRFDEY-VDNSGQLYERYTTRE  46
+
+Query  71   KMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSD  116
+            + +R       +  NE++++T ++  D  G+E I +EDV++K ++D
+Sbjct  47   EYERNAATLPRISGNERLVETIILEEDPFGHEKIYKEDVIIKKVAD  92
+
+
+>gb|AAN28165.1| fibroin [Antheraea mylitta]
+Length=507
+
+ Score =  120 bits (302),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 51/107 (48%), Gaps = 21/107 (20%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY    N + +++                      D+ G ++E   T
+Sbjct  1    MRVIAFVILCCALQYATAKNIHHDEY---------------------VDSHGQLVERFTT  39
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K  +R       L  NE++++T V+  D  G+E I EEDV++K + 
+Sbjct  40   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVIKRVP  86
+
+
+>gb|AEC46903.1| fibroin [Cricula trifenestrata]
+Length=291
+
+ Score =  117 bits (294),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 33/106 (31%), Positives = 50/106 (47%), Gaps = 19/106 (18%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCC LQY   T  NI     +Y G++                 G + +   T
+Sbjct  1    MRVTAFVILCCVLQYA--TAKNIGLGRNEYVGNN-----------------GELYQRYST  41
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTL  114
+             K+ +R       L  +E++++T V+  D  G+E I EED ++K +
+Sbjct  42   HKQYERNAGVSPNLSGDERLVRTIVVEEDPTGHERIFEEDDIIKRV  87
+
+
+>gb|AAK83145.1|AF325500_2 fibroin [Antheraea yamamai]
+Length=2655
+
+ Score =  117 bits (294),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 48/107 (45%), Gaps = 20/107 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY    N + +D                       D  G ++E   T
+Sbjct  1    MRVTAFVILCCALQYATANNLHHHDE--------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K  +R       L  NE++++T V+  D  G+E I EEDV++  + 
+Sbjct  41   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVINRVP  87
+
+
+>dbj|BAJ11925.1| fibroin [Antheraea yamamai]
+Length=2856
+
+ Score =  117 bits (293),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 48/107 (45%), Gaps = 20/107 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY    N + +D                       D  G ++E   T
+Sbjct  1    MRVTAFVILCCALQYATANNLHHHDE--------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K  +R       L  NE++++T V+  D  G+E I EEDV++  + 
+Sbjct  41   RKHYERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVINRVP  87
+
+
+>gb|AAC32606.1| fibroin [Antheraea pernyi]
+Length=2639
+
+ Score =  117 bits (293),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 35/107 (33%), Positives = 48/107 (45%), Gaps = 20/107 (19%)
+
+Query  9    MRVKTFVILCCALQYVAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQIT  68
+            MRV  FVILCCALQY    N   +D                       D  G ++E   T
+Sbjct  1    MRVIAFVILCCALQYATAKNLRHHDE--------------------YVDNHGQLVERFTT  40
+
+Query  69   TKKMQRKNKNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLS  115
+             K  +R       L  NE++++T V+  D  G+E I EEDV++K + 
+Sbjct  41   RKHFERNAATRPHLSGNERLVETIVLEEDPYGHEDIYEEDVVIKRVP  87
+
+
+>gb|AAF78030.1|AF242774_1 fibroin [Antheraea pernyi]
+Length=30
+
+ Score = 42.0 bits (97),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/25 (60%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  9   MRVKTFVILCCALQYVAYTNANIND  33
+           MRV  FVILCCALQY    N   +D
+Sbjct  1   MRVIAFVILCCALQYATAKNLRHHD  25
+
+
+>dbj|BAF62092.2| fibroin heavy chain [Hydropsyche angustipennis]
+Length=640
+
+ Score = 42.0 bits (97),  Expect = 0.038, Method: Composition-based stats.
+ Identities = 28/133 (21%), Positives = 50/133 (38%), Gaps = 24/133 (18%)
+
+Query  9    MRVKTFVILCCALQY---VAYTNANINDFDEDYFGSD------VTVQSSNTTDEIIRDAS  59
+            MR    +IL C+LQ     A    N     +D+ G           +     D I  +A 
+Sbjct  1    MRAAILLILFCSLQIHLTGAKIGHNAQKGIDDFLGGAHISKCGKHERILQGEDIIETNAK  60
+
+Query  60   GAVIEEQITTKKMQRKNKNHGILGK-------NEKMIKTFVITTDSDGN--------ESI  104
+            G +IE+ ++ K++   + +              E ++KT  I  +   +        E I
+Sbjct  61   GELIEKIVSRKEILTDDDSESFSVSYSSEDDSTETIVKTITIVQEIPKHGKGKGHAKEKI  120
+
+Query  105  VEEDVLMKTLSDG  117
+             EE+ ++K +  G
+Sbjct  121  FEEETVIKKIGKG  133
+
+
+>dbj|BAH80181.1| fibroin heavy chain [Hydropsyche angustipennis]
+Length=458
+
+ Score = 40.9 bits (94),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 28/133 (21%), Positives = 50/133 (38%), Gaps = 24/133 (18%)
+
+Query  9    MRVKTFVILCCALQY---VAYTNANINDFDEDYFGSD------VTVQSSNTTDEIIRDAS  59
+            MR    +IL C+LQ     A    N     +D+ G           +     D I  +A 
+Sbjct  1    MRAAILLILFCSLQIHLTGAKIGHNAQKGIDDFLGGAHISKCGKHERILQGEDIIETNAK  60
+
+Query  60   GAVIEEQITTKKMQRKNKNHGILG-------KNEKMIKTFVITTDSDGN--------ESI  104
+            G +IE+ ++ K++   + +              E ++KT  I  +   +        E I
+Sbjct  61   GELIEKIVSRKEILTDDDSESFSVSYSSEDDSTETIVKTITIVQEIPKHGKGKGHAKEKI  120
+
+Query  105  VEEDVLMKTLSDG  117
+             EE+ ++K +  G
+Sbjct  121  FEEETVIKKIGKG  133
+
+
+>gb|ABI93804.1| fibroin heavy chain Fib-H [Bombyx mori]
+Length=14
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  9   MRVKTFVILCCALQ  22
+           MRVKTFVILCCALQ
+Sbjct  1   MRVKTFVILCCALQ  14
+
+
+>ref|YP_001437097.1| hypothetical protein ESA_00992 [Cronobacter sakazakii ATCC BAA-894]
+ ref|WP_012124197.1| hypothetical protein [Cronobacter sakazakii]
+ gb|ABU76261.1| hypothetical protein ESA_00992 [Cronobacter sakazakii ATCC BAA-894]
+Length=200
+
+ Score = 37.0 bits (84),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 36/105 (34%), Gaps = 3/105 (3%)
+
+Query  25   AYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILGK  84
+            A T+ N         G    ++ +     +    +GA  +  I     +R         +
+Sbjct  83   AITSDNRVHITNALGGLIRLIEDNCEPKSLQVWGNGATFDNVIIRATFERHGFYCPWQFR  142
+
+Query  85   NEKMIKTFVITTDSDGNESIVE---EDVLMKTLSDGTVAQSYVAA  126
+            N++ ++T V    + G     E   E  L   L+D      YV+A
+Sbjct  143  NDRDVRTIVEMGHAAGFNQRYEIPFEGDLHNALADAKHQVKYVSA  187
+
+
+>ref|WP_008939321.1| nitric oxide reductase large subunit [Marinobacter santoriniensis]
+ gb|EMP56376.1| nitric oxide reductase large subunit [Marinobacter santoriniensis 
+NKSG1]
+Length=760
+
+ Score = 37.0 bits (84),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 20/93 (22%), Positives = 34/93 (37%), Gaps = 8/93 (9%)
+
+Query  21   LQYVAYTNANINDFDEDYFG---SDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNK  77
+            LQY   T    N +D +      SD  +Q+   T +          E + T +    K  
+Sbjct  119  LQYRLKTAYRTNTYDPETGTLTLSDRRIQAIRETADYYSRLFSDAPELRSTREHYAMKED  178
+
+Query  78   NHGILGKNEKMIKTFVIT-----TDSDGNESIV  105
+                + + E++ + F  T     TD  G+E+  
+Sbjct  179  TLPNVKRRERLTEFFFWTAWAASTDRPGSEATY  211
+
+
+>ref|WP_017599882.1| hypothetical protein [Nocardiopsis lucentensis]
+Length=696
+
+ Score = 36.2 bits (82),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 18/75 (24%), Positives = 32/75 (43%), Gaps = 10/75 (13%)
+
+Query  67   ITTKKMQRKNKNHGI-----LGKNEKM-----IKTFVITTDSDGNESIVEEDVLMKTLSD  116
+               +   R++++        +   + +      +T  +  D   N  I E DVL+ T++ 
+Sbjct  518  TLRRPRAREDESLPTAEARVITGEDVLQGGTGSRTGTVDADPMRNPPIQEGDVLIPTVAR  577
+
+Query  117  GTVAQSYVAADAGAY  131
+               A+   AADAGAY
+Sbjct  578  RLTARVATAADAGAY  592
+
+
+>gb|EJY79656.1| hypothetical protein OXYTRI_23064 [Oxytricha trifallax]
+Length=860
+
+ Score = 35.9 bits (81),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 24/111 (22%), Positives = 42/111 (38%), Gaps = 9/111 (8%)
+
+Query  21   LQYVAYTNANINDFDEDYFGSDVTVQ----SSNTTDEIIRDASGAVIEEQITTKKMQRKN  76
+              Y  Y  +N+ D+   +F  +         ++   E ++D      E  I   + +   
+Sbjct  167  FHYQLYQTSNLKDYIMQFFNLNNLEVFLTHGNSQRFEFLQDLKSK-YERLIDQSQDEEDL  225
+
+Query  77   KNHGILGKNEKMIKTF----VITTDSDGNESIVEEDVLMKTLSDGTVAQSY  123
+            +N G    +E M +TF    +I  DS  N ++ EE        D    +SY
+Sbjct  226  QNQGQDSGDEVMQETFSDSMMIQEDSSKNNNLEEETDFFDCNDDEEELKSY  276
+
+
+>ref|WP_007769576.1| Exodeoxyribonuclease encoded by cryptic prophage CP-933P [Cronobacter 
+turicensis]
+ emb|CCJ92238.1| Exodeoxyribonuclease encoded by cryptic prophage CP-933P [Cronobacter 
+turicensis 564]
+Length=189
+
+ Score = 35.1 bits (79),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 35/106 (33%), Gaps = 3/106 (3%)
+
+Query  24   VAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILG  83
+             A T+ N         G    ++ +     +    +GA  +  I     +R         
+Sbjct  71   AAITSDNRVHITNALGGLIKLIEDNCEPKSLQVWGNGATFDNVIIRATFERHGFYCPWQF  130
+
+Query  84   KNEKMIKTFVITTDSDGNESIVE---EDVLMKTLSDGTVAQSYVAA  126
+             N++ ++T V    + G     E   E  L   L+D      YV+A
+Sbjct  131  WNDRDVRTIVEMGRAAGFYPRYEIPFEGDLHNALADAKHQVKYVSA  176
+
+
+>ref|WP_004386820.1| hypothetical protein, partial [Cronobacter sakazakii]
+ gb|EGL72666.1| hypothetical protein CSE899_10572 [Cronobacter sakazakii E899]
+Length=183
+
+ Score = 34.7 bits (78),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 22/107 (21%), Positives = 37/107 (35%), Gaps = 5/107 (5%)
+
+Query  24   VAYTNANINDFDEDYFGSDVTVQSSNTTDEIIRDASGAVIEEQITTKKMQRKNKNHGILG  83
+             A T+ N         G    ++ +     +    +GA  +  I     +R         
+Sbjct  75   AAITSDNRVHITNALGGLIKLIEDNCEPKSLQVWGNGATFDNVIIRATFERHGFYCPWQF  134
+
+Query  84   KNEKMIKTFVITTDSDG----NESIVEEDVLMKTLSDGTVAQSYVAA  126
+             N++ ++T V    + G    NE   E D L   L+D      YV+A
+Sbjct  135  WNDRDVRTIVEMGRAAGFYPRNEIPFEGD-LHNALADAKHQVKYVSA  180
+
+
+>ref|YP_007906217.1| ZPR1-related zinc finger protein [Archaeoglobus sulfaticallidus 
+PM70-1]
+ ref|WP_015589823.1| ZPR1-related zinc finger protein [Archaeoglobus sulfaticallidus]
+ gb|AGK60224.1| ZPR1-related zinc finger protein [Archaeoglobus sulfaticallidus 
+PM70-1]
+Length=192
+
+ Score = 34.7 bits (78),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 26/45 (58%), Gaps = 3/45 (7%)
+
+Query  77   KNHGILGKNEKMIKTFVITTDSDGNESIVEEDVLMKTLSDGTVAQ  121
+            K    +  +E++  T +I  D  GN +IV +DV ++ +S+  VA+
+Sbjct  130  KISNTINGDEEL--TIIIE-DPYGNSAIVSDDVFVEKMSEHEVAK  171
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.130    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0397    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310799540940
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

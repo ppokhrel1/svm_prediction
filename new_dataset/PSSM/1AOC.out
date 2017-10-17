@@ -1,0 +1,1206 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1AOC
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+emb|CAA27780.1|  coagulogen type II [Tachypleus tridentatus] >prf...   360    2e-124
+sp|P02681.2|COAG_TACTR  RecName: Full=Coagulogen; Contains: RecNa...   359    3e-124
+pdb|1AOC|A  Chain A, Japanese Horseshoe Crab Coagulogen >pdb|1AOC...   358    4e-124
+prf||1005221A  coagulogen B                                            356    4e-123
+sp|P03997.1|COAG_CARRO  RecName: Full=Coagulogen; Contains: RecNa...   335    5e-115
+sp|P15566.1|COAG_TACGI  RecName: Full=Coagulogen; Contains: RecNa...   321    2e-109
+prf||790004A  coagulogen B                                             264    9e-88 
+sp|P03998.2|COAG_LIMPO  RecName: Full=Coagulogen; Contains: RecNa...   254    8e-83 
+prf||0808726A  coagulogen                                              251    4e-82 
+prf||1004218A  coagulogen B                                            196    4e-61 
+ref|WP_019617521.1|  hypothetical protein [Pseudoclavibacter faec...  39.3    0.61  
+gb|EFX85728.1|  hypothetical protein DAPPUDRAFT_237176 [Daphnia p...  36.6    3.7   
+ref|XP_002414355.1|  hypothetical protein IscW_ISCW022035 [Ixodes...  36.6    5.5   
+
+
+>emb|CAA27780.1| coagulogen type II [Tachypleus tridentatus]
+ prf||1208319A coagulogen
+Length=195
+
+ Score =  360 bits (923),  Expect = 2e-124, Method: Compositional matrix adjust.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  21   ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPF HFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  81   GKYECRTVRPEHSRCYNFPPFIHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  140
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  141  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  195
+
+
+>sp|P02681.2|COAG_TACTR RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B; Flags: Precursor
+Length=195
+
+ Score =  359 bits (922),  Expect = 3e-124, Method: Compositional matrix adjust.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  21   ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  81   GKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  140
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  141  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  195
+
+
+>pdb|1AOC|A Chain A, Japanese Horseshoe Crab Coagulogen
+ pdb|1AOC|B Chain B, Japanese Horseshoe Crab Coagulogen
+Length=175
+
+ Score =  358 bits (919),  Expect = 4e-124, Method: Compositional matrix adjust.
+ Identities = 175/175 (100%), Positives = 175/175 (100%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+
+
+>prf||1005221A coagulogen B
+Length=175
+
+ Score =  356 bits (913),  Expect = 4e-123, Method: Compositional matrix adjust.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+
+
+>sp|P03997.1|COAG_CARRO RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B
+ prf||1108234A coagulogen
+Length=175
+
+ Score =  335 bits (859),  Expect = 5e-115, Method: Compositional matrix adjust.
+ Identities = 157/175 (90%), Positives = 171/175 (98%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAP+CLCDEPG+LGR Q+VT E+K+KIEKAVEAVA+ESGVSGRGFS+FSHHPVFREC
+Sbjct  1    ADTNAPLCLCDEPGILGRNQLVTPEVKEKIEKAVEAVAEESGVSGRGFSLFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEH+RCYNFPPF HF SECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHTRCYNFPPFVHFTSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCR+GSN+CG++GRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCR++
+Sbjct  121  CVWQHKCRYGSNNCGFSGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRNY  175
+
+
+>sp|P15566.1|COAG_TACGI RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B
+ prf||1006236A coagulogen
+Length=175
+
+ Score =  321 bits (822),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 151/174 (87%), Positives = 163/174 (94%), Gaps = 0/174 (0%)
+
+Query  2    DTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECG  61
+            DTNAP+CLCDEPG+LGR + V+   K  IEKAVE VA+E GVSGRGFS+FSHHPVFRECG
+Sbjct  2    DTNAPLCLCDEPGILGRKEFVSDATKTIIEKAVEEVAKEGGVSGRGFSLFSHHPVFRECG  61
+
+Query  62   KYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQC  121
+            KYECRTVRPEHSRCYNFPPF HFKSECPVSTRDCEPVFGYT AGEFRVIVQAPRAGFRQC
+Sbjct  62   KYECRTVRPEHSRCYNFPPFIHFKSECPVSTRDCEPVFGYTAAGEFRVIVQAPRAGFRQC  121
+
+Query  122  VWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            VWQHKCR+GSN+CG+NGRCTQQRSVVRLVT+NLEK+GFLCE+FRTCCGCPCRSF
+Sbjct  122  VWQHKCRYGSNNCGFNGRCTQQRSVVRLVTFNLEKNGFLCETFRTCCGCPCRSF  175
+
+
+>prf||790004A coagulogen B
+Length=129
+
+ Score =  264 bits (675),  Expect = 9e-88, Method: Compositional matrix adjust.
+ Identities = 128/129 (99%), Positives = 128/129 (99%), Gaps = 0/129 (0%)
+
+Query  47   GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGE  106
+            GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGE
+Sbjct  1    GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGE  60
+
+Query  107  FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT  166
+            FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT
+Sbjct  61   FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT  120
+
+Query  167  CCGCPCRSF  175
+            CCGCPCRSF
+Sbjct  121  CCGCPCRSF  129
+
+
+>sp|P03998.2|COAG_LIMPO RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B; Flags: Precursor
+ emb|CAA28020.1| coagulogen [Limulus polyphemus]
+Length=195
+
+ Score =  254 bits (649),  Expect = 8e-83, Method: Compositional matrix adjust.
+ Identities = 122/175 (70%), Positives = 137/175 (78%), Gaps = 1/175 (1%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+             D N P CLC+EP +LGR  IV+ E KDKIE+AV+A+  +  +SGRGFSIF  HP F+EC
+Sbjct  21   GDPNVPTCLCEEPTLLGRKVIVSQETKDKIEEAVQAITDKDEISGRGFSIFGGHPAFKEC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTV  E SRCYNF PF HF SECPVS   CEP FGYT + E R+IVQAP+AGFRQ
+Sbjct  81   GKYECRTVTSEDSRCYNFFPFHHFPSECPVSVSACEPTFGYTTSNELRIIVQAPKAGFRQ  140
+
+Query  121  CVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRS  174
+            CVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ RTCCGCPCRS
+Sbjct  141  CVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVRTCCGCPCRS  195
+
+
+>prf||0808726A coagulogen
+Length=175
+
+ Score =  251 bits (642),  Expect = 4e-82, Method: Compositional matrix adjust.
+ Identities = 121/175 (69%), Positives = 137/175 (78%), Gaps = 1/175 (1%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+             D N P CLC+EP +LGR  IV+ E KDKIE+AV+A+  +  +SGRGFSIF  HP F+EC
+Sbjct  1    GDPNVPTCLCEEPTLLGRKVIVSQETKDKIEEAVQAITBKDEISGRGFSIFGGHPAFKEC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTV  E SRCYNF PF+HF  ECPVS   CEP FGYT + E R+IVQAP+AGFRQ
+Sbjct  61   GKYECRTVTSEDSRCYNFFPFSHFHPECPVSVSACEPTFGYTTSNELRIIVQAPKAGFRQ  120
+
+Query  121  CVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRS  174
+            CVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ RTCCGCPCRS
+Sbjct  121  CVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVRTCCGCPCRS  175
+
+
+>prf||1004218A coagulogen B
+Length=129
+
+ Score =  196 bits (499),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 96/129 (74%), Positives = 104/129 (81%), Gaps = 1/129 (1%)
+
+Query  47   GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGE  106
+            GFSIF  HP F+ECGKYECRTV  E SRCYNF PF+HF  ECPVS   CEP FGYT + E
+Sbjct  1    GFSIFGGHPAFKECGKYECRTVTSEDSRCYNFFPFSHFHPECPVSVSACEPTFGYTTSNE  60
+
+Query  107  FRVIVQAPRAGFRQCVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFR  165
+             R+IVQAP+AGFRQCVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ R
+Sbjct  61   LRIIVQAPKAGFRQCVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVR  120
+
+Query  166  TCCGCPCRS  174
+            TCCGCPCRS
+Sbjct  121  TCCGCPCRS  129
+
+
+>ref|WP_019617521.1| hypothetical protein [Pseudoclavibacter faecalis]
+Length=258
+
+ Score = 39.3 bits (90),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 36/71 (51%), Gaps = 10/71 (14%)
+
+Query  16   LGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHP-VFRECG-KY--------EC  65
+            LG T +V     ++ ++A+EA A+  GV+ R  + F  HP +F E   +Y        E 
+Sbjct  158  LGMTVLVEAHTVEEFDRALEADARVLGVNARDLTTFEMHPELFGELAPRYPAGVIKVAES  217
+
+Query  66   RTVRPEHSRCY  76
+              +RPEH R Y
+Sbjct  218  AVLRPEHVRAY  228
+
+
+>gb|EFX85728.1| hypothetical protein DAPPUDRAFT_237176 [Daphnia pulex]
+Length=262
+
+ Score = 36.6 bits (83),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 30/105 (29%), Positives = 47/105 (45%), Gaps = 13/105 (12%)
+
+Query  81   FTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQ-----APRAGFRQCVW-----QHKCRFG  130
+            F +  S+CP  +   +P+    + G++RVIVQ       R     C       ++   FG
+Sbjct  153  FENRDSKCPYRSLVIKPIRARNIDGQWRVIVQNVDDILQRERIVLCNGLDEYCENLGHFG  212
+
+Query  131  SNSCGYNGRCTQQRSVVRLVTYN--LEKDGFLCESFRTCCGCPCR  173
+               C Y+ RC+QQ  V +L+ Y+      G   +SF+    C CR
+Sbjct  213  PVHC-YSSRCSQQYLVRKLLAYDPCNSNRGAFVDSFKLQSACSCR  256
+
+
+>ref|XP_002414355.1| hypothetical protein IscW_ISCW022035 [Ixodes scapularis]
+ gb|EEC17663.1| hypothetical protein IscW_ISCW022035 [Ixodes scapularis]
+Length=596
+
+ Score = 36.6 bits (83),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 37/87 (43%), Gaps = 4/87 (5%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRF-GSNSCGYNGR-CTQQRS  145
+            CP  T+  +P+    V GE+RVI+    AG  Q +    C   GS   G   R CTQ   
+Sbjct  507  CPSFTKALKPLKARDVLGEWRVIINT--AGLEQEIILDICSSQGSQCSGKPPRTCTQSYG  564
+
+Query  146  VVRLVTYNLEKDGFLCESFRTCCGCPC  172
+            V +L  Y+          FR   GC C
+Sbjct  565  VRKLGVYDTGTRRLSSGDFRVPTGCTC  591
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304656096000
+Results from round 2
+
+
+Query= 1AOC
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+emb|CAA27780.1|  coagulogen type II [Tachypleus tridentatus] >prf...   320    6e-109
+sp|P02681.2|COAG_TACTR  RecName: Full=Coagulogen; Contains: RecNa...   320    1e-108
+pdb|1AOC|A  Chain A, Japanese Horseshoe Crab Coagulogen >pdb|1AOC...   310    3e-105
+prf||1005221A  coagulogen B                                            310    3e-105
+sp|P03997.1|COAG_CARRO  RecName: Full=Coagulogen; Contains: RecNa...   307    7e-104
+sp|P15566.1|COAG_TACGI  RecName: Full=Coagulogen; Contains: RecNa...   302    4e-102
+sp|P03998.2|COAG_LIMPO  RecName: Full=Coagulogen; Contains: RecNa...   290    5e-97 
+prf||0808726A  coagulogen                                              279    7e-93 
+prf||790004A  coagulogen B                                             233    2e-75 
+prf||1004218A  coagulogen B                                            211    7e-67 
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002425296.1|  conserved hypothetical protein [Pediculus hu...  40.4    0.30 
+gb|ABM68624.1|  AAEL007897-PA [Aedes aegypti]                         39.6    0.52 
+ref|NP_001153592.1|  spaetzle 4 precursor [Acyrthosiphon pisum]       38.8    0.76 
+ref|XP_001243569.1|  hypothetical protein CIMG_03010 [Coccidioide...  38.8    0.85 
+gb|EAT40350.2|  AAEL007897-PA [Aedes aegypti]                         38.8    0.94 
+sp|C5NZY5.2|MEP5_COCP7  RecName: Full=Neutral protease 2 homolog ...  38.4    1.2  
+gb|AAY45755.1|  metalloproteinase 5 [Coccidioides posadasii]          38.4    1.3  
+gb|EAS32067.2|  metalloproteinase 5 [Coccidioides immitis RS]         38.1    1.4  
+ref|XP_002051244.1|  GJ13332 [Drosophila virilis] >gb|EDW63399.1|...  38.4    1.4  
+ref|XP_003071907.1|  Deuterolysin metalloprotease family protein ...  38.1    1.5  
+ref|XP_005184799.1|  PREDICTED: cell wall protein DAN4-like [Musc...  38.1    1.6  
+dbj|BAH70732.1|  ACYPI001858 [Acyrthosiphon pisum]                    38.1    1.7  
+ref|NP_001153590.1|  spaetzle 1-2 precursor [Acyrthosiphon pisum]...  37.7    1.7  
+dbj|BAH70733.1|  ACYPI001858 [Acyrthosiphon pisum]                    37.7    2.0  
+ref|XP_002414355.1|  hypothetical protein IscW_ISCW022035 [Ixodes...  37.3    3.3  
+ref|XP_004531523.1|  PREDICTED: mucin-17-like [Ceratitis capitata]    36.9    3.9  
+ref|XP_002069222.1|  GK21083 [Drosophila willistoni] >gb|EDW80208...  36.9    4.1  
+gb|EFX76509.1|  hypothetical protein DAPPUDRAFT_226032 [Daphnia p...  36.9    4.6  
+gb|EFX85728.1|  hypothetical protein DAPPUDRAFT_237176 [Daphnia p...  36.5    4.8  
+ref|XP_001356807.2|  GA13357 [Drosophila pseudoobscura pseudoobsc...  36.9    4.8  
+ref|XP_001810703.1|  PREDICTED: similar to spaetzle-like protein ...  36.5    4.9  
+ref|XP_002015164.1|  GL19562 [Drosophila persimilis] >gb|EDW29160...  36.5    5.1  
+gb|EFA09263.1|  spatzle 4 [Tribolium castaneum]                       36.5    5.3  
+ref|XP_002088365.1|  GE18527 [Drosophila yakuba] >gb|EDW88077.1| ...  36.5    5.5  
+gb|EGI62562.1|  hypothetical protein G5I_09128 [Acromyrmex echina...  36.5    5.8  
+ref|XP_004521945.1|  PREDICTED: uncharacterized protein LOC101453...  36.5    6.1  
+ref|XP_001969833.1|  GG23723 [Drosophila erecta] >gb|EDV58892.1| ...  36.5    6.3  
+ref|XP_001962193.1|  GF14562 [Drosophila ananassae] >gb|EDV31414....  36.5    6.3  
+ref|NP_609504.2|  spatzle 4 [Drosophila melanogaster] >gb|ACY4608...  36.5    6.4  
+ref|XP_001992882.1|  GH13398 [Drosophila grimshawi] >gb|EDV98807....  36.5    6.6  
+ref|XP_001656952.1|  Sptzle 1B (Spz1B) [Aedes aegypti] >gb|EAT484...  36.1    6.8  
+ref|XP_002036676.1|  GM19083 [Drosophila sechellia] >gb|EDW52599....  36.1    7.3  
+ref|XP_002045433.1|  GM18726 [Drosophila sechellia] >gb|EDW44947....  36.1    7.3  
+gb|ENN70572.1|  hypothetical protein YQE_12747, partial [Dendroct...  36.1    7.9  
+ref|XP_002079117.1|  GD23779 [Drosophila simulans] >gb|EDX04702.1...  36.1    8.8  
+ref|XP_002003861.1|  GI20749 [Drosophila mojavensis] >gb|EDW13303...  35.7    9.1  
+gb|EFR26954.1|  hypothetical protein AND_06628 [Anopheles darlingi]   35.7    9.8  
+gb|EFN89623.1|  hypothetical protein EAI_09331 [Harpegnathos salt...  35.7    9.8  
+
+
+>emb|CAA27780.1| coagulogen type II [Tachypleus tridentatus]
+ prf||1208319A coagulogen
+Length=195
+
+ Score =  320 bits (821),  Expect = 6e-109, Method: Composition-based stats.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  21   ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPF HFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  81   GKYECRTVRPEHSRCYNFPPFIHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  140
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  141  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  195
+
+
+>sp|P02681.2|COAG_TACTR RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B; Flags: Precursor
+Length=195
+
+ Score =  320 bits (819),  Expect = 1e-108, Method: Composition-based stats.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  21   ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  81   GKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  140
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  141  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  195
+
+
+>pdb|1AOC|A Chain A, Japanese Horseshoe Crab Coagulogen
+ pdb|1AOC|B Chain B, Japanese Horseshoe Crab Coagulogen
+Length=175
+
+ Score =  310 bits (795),  Expect = 3e-105, Method: Composition-based stats.
+ Identities = 175/175 (100%), Positives = 175/175 (100%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+
+
+>prf||1005221A coagulogen B
+Length=175
+
+ Score =  310 bits (795),  Expect = 3e-105, Method: Composition-based stats.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC
+Sbjct  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF
+Sbjct  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+
+
+>sp|P03997.1|COAG_CARRO RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B
+ prf||1108234A coagulogen
+Length=175
+
+ Score =  307 bits (786),  Expect = 7e-104, Method: Composition-based stats.
+ Identities = 157/175 (90%), Positives = 171/175 (98%), Gaps = 0/175 (0%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+            ADTNAP+CLCDEPG+LGR Q+VT E+K+KIEKAVEAVA+ESGVSGRGFS+FSHHPVFREC
+Sbjct  1    ADTNAPLCLCDEPGILGRNQLVTPEVKEKIEKAVEAVAEESGVSGRGFSLFSHHPVFREC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTVRPEH+RCYNFPPF HF SECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ
+Sbjct  61   GKYECRTVRPEHTRCYNFPPFVHFTSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+
+Query  121  CVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            CVWQHKCR+GSN+CG++GRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCR++
+Sbjct  121  CVWQHKCRYGSNNCGFSGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRNY  175
+
+
+>sp|P15566.1|COAG_TACGI RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B
+ prf||1006236A coagulogen
+Length=175
+
+ Score =  302 bits (774),  Expect = 4e-102, Method: Composition-based stats.
+ Identities = 151/174 (87%), Positives = 163/174 (94%), Gaps = 0/174 (0%)
+
+Query  2    DTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECG  61
+            DTNAP+CLCDEPG+LGR + V+   K  IEKAVE VA+E GVSGRGFS+FSHHPVFRECG
+Sbjct  2    DTNAPLCLCDEPGILGRKEFVSDATKTIIEKAVEEVAKEGGVSGRGFSLFSHHPVFRECG  61
+
+Query  62   KYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQC  121
+            KYECRTVRPEHSRCYNFPPF HFKSECPVSTRDCEPVFGYT AGEFRVIVQAPRAGFRQC
+Sbjct  62   KYECRTVRPEHSRCYNFPPFIHFKSECPVSTRDCEPVFGYTAAGEFRVIVQAPRAGFRQC  121
+
+Query  122  VWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRSF  175
+            VWQHKCR+GSN+CG+NGRCTQQRSVVRLVT+NLEK+GFLCE+FRTCCGCPCRSF
+Sbjct  122  VWQHKCRYGSNNCGFNGRCTQQRSVVRLVTFNLEKNGFLCETFRTCCGCPCRSF  175
+
+
+>sp|P03998.2|COAG_LIMPO RecName: Full=Coagulogen; Contains: RecName: Full=Coagulin chain 
+A; Contains: RecName: Full=Peptide C; Contains: RecName: 
+Full=Coagulin chain B; Flags: Precursor
+ emb|CAA28020.1| coagulogen [Limulus polyphemus]
+Length=195
+
+ Score =  290 bits (743),  Expect = 5e-97, Method: Composition-based stats.
+ Identities = 122/175 (70%), Positives = 137/175 (78%), Gaps = 1/175 (1%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+             D N P CLC+EP +LGR  IV+ E KDKIE+AV+A+  +  +SGRGFSIF  HP F+EC
+Sbjct  21   GDPNVPTCLCEEPTLLGRKVIVSQETKDKIEEAVQAITDKDEISGRGFSIFGGHPAFKEC  80
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTV  E SRCYNF PF HF SECPVS   CEP FGYT + E R+IVQAP+AGFRQ
+Sbjct  81   GKYECRTVTSEDSRCYNFFPFHHFPSECPVSVSACEPTFGYTTSNELRIIVQAPKAGFRQ  140
+
+Query  121  CVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRS  174
+            CVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ RTCCGCPCRS
+Sbjct  141  CVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVRTCCGCPCRS  195
+
+
+>prf||0808726A coagulogen
+Length=175
+
+ Score =  279 bits (713),  Expect = 7e-93, Method: Composition-based stats.
+ Identities = 121/175 (69%), Positives = 137/175 (78%), Gaps = 1/175 (1%)
+
+Query  1    ADTNAPICLCDEPGVLGRTQIVTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFREC  60
+             D N P CLC+EP +LGR  IV+ E KDKIE+AV+A+  +  +SGRGFSIF  HP F+EC
+Sbjct  1    GDPNVPTCLCEEPTLLGRKVIVSQETKDKIEEAVQAITBKDEISGRGFSIFGGHPAFKEC  60
+
+Query  61   GKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQ  120
+            GKYECRTV  E SRCYNF PF+HF  ECPVS   CEP FGYT + E R+IVQAP+AGFRQ
+Sbjct  61   GKYECRTVTSEDSRCYNFFPFSHFHPECPVSVSACEPTFGYTTSNELRIIVQAPKAGFRQ  120
+
+Query  121  CVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRTCCGCPCRS  174
+            CVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ RTCCGCPCRS
+Sbjct  121  CVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVRTCCGCPCRS  175
+
+
+>prf||790004A coagulogen B
+Length=129
+
+ Score =  233 bits (594),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 128/129 (99%), Positives = 128/129 (99%), Gaps = 0/129 (0%)
+
+Query  47   GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGE  106
+            GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFK ECPVSTRDCEPVFGYTVAGE
+Sbjct  1    GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKLECPVSTRDCEPVFGYTVAGE  60
+
+Query  107  FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT  166
+            FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT
+Sbjct  61   FRVIVQAPRAGFRQCVWQHKCRFGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFRT  120
+
+Query  167  CCGCPCRSF  175
+            CCGCPCRSF
+Sbjct  121  CCGCPCRSF  129
+
+
+>prf||1004218A coagulogen B
+Length=129
+
+ Score =  211 bits (537),  Expect = 7e-67, Method: Composition-based stats.
+ Identities = 96/129 (74%), Positives = 104/129 (81%), Gaps = 1/129 (1%)
+
+Query  47   GFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTHFKSECPVSTRDCEPVFGYTVAGE  106
+            GFSIF  HP F+ECGKYECRTV  E SRCYNF PF+HF  ECPVS   CEP FGYT + E
+Sbjct  1    GFSIFGGHPAFKECGKYECRTVTSEDSRCYNFFPFSHFHPECPVSVSACEPTFGYTTSNE  60
+
+Query  107  FRVIVQAPRAGFRQCVWQHKCR-FGSNSCGYNGRCTQQRSVVRLVTYNLEKDGFLCESFR  165
+             R+IVQAP+AGFRQCVWQHKCR +GSN C   GRCTQQRSVVRLVTY+LEK  F CE+ R
+Sbjct  61   LRIIVQAPKAGFRQCVWQHKCRAYGSNFCQRTGRCTQQRSVVRLVTYDLEKGVFFCENVR  120
+
+Query  166  TCCGCPCRS  174
+            TCCGCPCRS
+Sbjct  121  TCCGCPCRS  129
+
+
+>ref|XP_002425296.1| conserved hypothetical protein [Pediculus humanus corporis]
+ gb|EEB12558.1| conserved hypothetical protein [Pediculus humanus corporis]
+Length=438
+
+ Score = 40.4 bits (93),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 28/91 (31%), Positives = 36/91 (40%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSN--SCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC +      C    RC QQ  
+Sbjct  320  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTYEHKQMFCREGCRCEQQYR  377
+
+Query  146  VVRLVTY--NLEKDGFLCESFR--TCCGCPC  172
+            + RL+ Y  N E  G   + FR  +CC C C
+Sbjct  378  LHRLLAYDPNNECRGIFSDWFRFPSCCVCKC  408
+
+
+>gb|ABM68624.1| AAEL007897-PA [Aedes aegypti]
+Length=523
+
+ Score = 39.6 bits (91),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 36/91 (40%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRF--GSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC +      C    RC QQ  
+Sbjct  385  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCAYELKQMYCREGCRCEQQYR  442
+
+Query  146  VVRLVTYNL--EKDGFLCESFR--TCCGCPC  172
+            + RL+ Y+   E  G   + FR  +CC C C
+Sbjct  443  LHRLLAYDPHNECRGIFSDWFRFPSCCICKC  473
+
+
+>ref|NP_001153592.1| spaetzle 4 precursor [Acyrthosiphon pisum]
+Length=374
+
+ Score = 38.8 bits (89),  Expect = 0.76, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 37/91 (41%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSN--SCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   +C F +    C    RC QQ  
+Sbjct  243  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWERCTFENKQMFCRQGCRCEQQYR  300
+
+Query  146  VVRLVTYNLEKD--GFLCESFR--TCCGCPC  172
+            + RL+ Y+   D  G   + FR  +CC C C
+Sbjct  301  LHRLLAYDPSNDCRGIFSDWFRFPSCCVCRC  331
+
+
+>ref|XP_001243569.1| hypothetical protein CIMG_03010 [Coccidioides immitis RS]
+Length=356
+
+ Score = 38.8 bits (89),  Expect = 0.85, Method: Composition-based stats.
+ Identities = 22/85 (26%), Positives = 37/85 (44%), Gaps = 3/85 (4%)
+
+Query  23   TTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFT  82
+            + + +  + +  +A+AQE   + +G +I+    V+R C +       P  S   N P + 
+Sbjct  229  SQQARQSVARRFQAIAQECSSANQGRTIYFCQDVYRNCQRGLIAYTIPARSHVVNCPDYW  288
+
+Query  83   HFKSECPVSTRDCEPVFGYTVAGEF  107
+                  PV  R  +P  GY V  EF
+Sbjct  289  RLP---PVVNRGLDPDHGYVVVHEF  310
+
+
+>gb|EAT40350.2| AAEL007897-PA [Aedes aegypti]
+Length=456
+
+ Score = 38.8 bits (89),  Expect = 0.94, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 36/91 (40%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRF--GSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC +      C    RC QQ  
+Sbjct  318  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCAYELKQMYCREGCRCEQQYR  375
+
+Query  146  VVRLVTYNL--EKDGFLCESFR--TCCGCPC  172
+            + RL+ Y+   E  G   + FR  +CC C C
+Sbjct  376  LHRLLAYDPHNECRGIFSDWFRFPSCCICKC  406
+
+
+>sp|C5NZY5.2|MEP5_COCP7 RecName: Full=Neutral protease 2 homolog MEP5; AltName: Full=Deuterolysin 
+MEP5; AltName: Full=Metalloproteinase 5; Flags: 
+Precursor
+ gb|EFW14126.1| metalloproteinase [Coccidioides posadasii str. Silveira]
+Length=356
+
+ Score = 38.4 bits (88),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 37/85 (44%), Gaps = 3/85 (4%)
+
+Query  23   TTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFT  82
+            + + +  + +  +A+AQE   + +G +I+    ++R C +       P  S   N P + 
+Sbjct  229  SQQARQSVARRFQAIAQECSSANQGRTIYFCQDIYRNCQRGLIAYTIPARSHVVNCPDYW  288
+
+Query  83   HFKSECPVSTRDCEPVFGYTVAGEF  107
+                  PV  R  +P  GY V  EF
+Sbjct  289  RLP---PVVNRGLDPDHGYVVVHEF  310
+
+
+>gb|AAY45755.1| metalloproteinase 5 [Coccidioides posadasii]
+Length=386
+
+ Score = 38.4 bits (88),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 37/85 (44%), Gaps = 3/85 (4%)
+
+Query  23   TTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFT  82
+            + + +  + +  +A+AQE   + +G +I+    ++R C +       P  S   N P + 
+Sbjct  229  SQQARQSVARRFQAIAQECSSANQGRTIYFCQDIYRNCQRGLIAYTIPARSHVVNCPDYW  288
+
+Query  83   HFKSECPVSTRDCEPVFGYTVAGEF  107
+                  PV  R  +P  GY V  EF
+Sbjct  289  RLP---PVVNRGLDPDHGYVVVHEF  310
+
+
+>gb|EAS32067.2| metalloproteinase 5 [Coccidioides immitis RS]
+Length=390
+
+ Score = 38.1 bits (87),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 22/85 (26%), Positives = 37/85 (44%), Gaps = 3/85 (4%)
+
+Query  23   TTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFT  82
+            + + +  + +  +A+AQE   + +G +I+    V+R C +       P  S   N P + 
+Sbjct  263  SQQARQSVARRFQAIAQECSSANQGRTIYFCQDVYRNCQRGLIAYTIPARSHVVNCPDYW  322
+
+Query  83   HFKSECPVSTRDCEPVFGYTVAGEF  107
+                  PV  R  +P  GY V  EF
+Sbjct  323  RLP---PVVNRGLDPDHGYVVVHEF  344
+
+
+>ref|XP_002051244.1| GJ13332 [Drosophila virilis]
+ gb|EDW63399.1| GJ13332 [Drosophila virilis]
+Length=523
+
+ Score = 38.4 bits (88),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 39/158 (25%), Positives = 56/158 (35%), Gaps = 16/158 (10%)
+
+Query  22   VTTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPF  81
+            V     DK  K + A +  +  S     +     +F++  K E  TV   + R  N    
+Sbjct  314  VAAFTSDKQRKPLTASSTAAPTSSTKSGLLREGQLFQDAMKQEPMTVSS-NMRGVN----  368
+
+Query  82   THFKSECPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGR  139
+                  CPV      P +     GE   ++      F Q V   KC   F    C    R
+Sbjct  369  -----ACPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCR  421
+
+Query  140  CTQQRSVVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            C QQ  + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  422  CEQQYRLHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  459
+
+
+>ref|XP_003071907.1| Deuterolysin metalloprotease family protein [Coccidioides posadasii 
+C735 delta SOWgp]
+ gb|EER29762.1| Deuterolysin metalloprotease family protein [Coccidioides posadasii 
+C735 delta SOWgp]
+Length=390
+
+ Score = 38.1 bits (87),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 37/85 (44%), Gaps = 3/85 (4%)
+
+Query  23   TTEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFT  82
+            + + +  + +  +A+AQE   + +G +I+    ++R C +       P  S   N P + 
+Sbjct  263  SQQARQSVARRFQAIAQECSSANQGRTIYFCQDIYRNCQRGLIAYTIPARSHVVNCPDYW  322
+
+Query  83   HFKSECPVSTRDCEPVFGYTVAGEF  107
+                  PV  R  +P  GY V  EF
+Sbjct  323  RLP---PVVNRGLDPDHGYVVVHEF  344
+
+
+>ref|XP_005184799.1| PREDICTED: cell wall protein DAN4-like [Musca domestica]
+Length=742
+
+ Score = 38.1 bits (87),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 38/161 (24%), Positives = 65/161 (40%), Gaps = 20/161 (12%)
+
+Query  24   TEIKDKIEKAVEAVAQESGVSGRGFSIFSHHPVFRECGKYECRTVRPEHSRCYNFPPFTH  83
+              IK   +  +    + +GV+    S+ S+ P+ +E G+    T++ E        P  +
+Sbjct  530  PNIKPNADLLLGEKIRRTGVNITPPSVASNKPIIKE-GQLFQDTMKQEQP-----APVLN  583
+
+Query  84   FK--SECPVSTRDCEPVFGYTVAGEFRVIVQ----APRAGFRQCVWQHKCRFGSNSCGYN  137
+             K  + CPV      P +     GE   ++          + +C  +HK  +    C   
+Sbjct  584  VKGVNACPVKEEVVAPFWANNTRGEVLALLNLYPFEQYVHWEKCTHEHKQMYCREGC---  640
+
+Query  138  GRCTQQRSVVRLVTYNL--EKDGFLCESFR--TCCGCPCRS  174
+             RC QQ  + RL+ Y+   E  G   + FR  +CC C C +
+Sbjct  641  -RCEQQYRLHRLLAYDPHNECRGIFSDWFRFPSCCICKCYN  680
+
+
+>dbj|BAH70732.1| ACYPI001858 [Acyrthosiphon pisum]
+Length=324
+
+ Score = 38.1 bits (87),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 37/87 (43%), Gaps = 14/87 (16%)
+
+Query  97   PVFGYTVAGEFRVIVQAPR---AGFRQCVWQHKCRFGSNSC--------GYNGRCTQQRS  145
+            P  G T   E+R I+Q P      FRQ +   KC     +C        GY   C Q+  
+Sbjct  209  PEAGVTKNNEWRYIIQDPNNDDPSFRQGIRVEKCIDAGKNCKFNNLLPLGYTSICVQKYI  268
+
+Query  146  VVRLVTYNLEKDGFLCESFR--TCCGC  170
+              ++V     K+ +  ESF+  +CC C
+Sbjct  269  YKKMVAIKDSKEVYY-ESFKIPSCCEC  294
+
+
+>ref|NP_001153590.1| spaetzle 1-2 precursor [Acyrthosiphon pisum]
+ dbj|BAH70734.1| ACYPI001858 [Acyrthosiphon pisum]
+ dbj|BAH70735.1| ACYPI001858 [Acyrthosiphon pisum]
+Length=324
+
+ Score = 37.7 bits (86),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 37/87 (43%), Gaps = 14/87 (16%)
+
+Query  97   PVFGYTVAGEFRVIVQAPR---AGFRQCVWQHKCRFGSNSC--------GYNGRCTQQRS  145
+            P  G T   E+R I+Q P      FRQ +   KC     +C        GY   C Q+  
+Sbjct  209  PEAGVTKNNEWRYIIQDPNNDDPSFRQGIRVEKCIDAGKNCKFNNLLPLGYTSICVQKYI  268
+
+Query  146  VVRLVTYNLEKDGFLCESFR--TCCGC  170
+              ++V     K+ +  ESF+  +CC C
+Sbjct  269  YKKMVAIKDSKEVYY-ESFKIPSCCEC  294
+
+
+>dbj|BAH70733.1| ACYPI001858 [Acyrthosiphon pisum]
+Length=324
+
+ Score = 37.7 bits (86),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 37/87 (43%), Gaps = 14/87 (16%)
+
+Query  97   PVFGYTVAGEFRVIVQAPR---AGFRQCVWQHKCRFGSNSC--------GYNGRCTQQRS  145
+            P  G T   E+R I+Q P      FRQ +   KC     +C        GY   C Q+  
+Sbjct  209  PEAGVTKNNEWRYIIQDPNNDDPSFRQGIRVEKCIDAGKNCKFNNFLPLGYTSICVQKYI  268
+
+Query  146  VVRLVTYNLEKDGFLCESFR--TCCGC  170
+              ++V     K+ +  ESF+  +CC C
+Sbjct  269  YKKMVAIKDSKEVYY-ESFKIPSCCEC  294
+
+
+>ref|XP_002414355.1| hypothetical protein IscW_ISCW022035 [Ixodes scapularis]
+ gb|EEC17663.1| hypothetical protein IscW_ISCW022035 [Ixodes scapularis]
+Length=596
+
+ Score = 37.3 bits (85),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 29/87 (33%), Positives = 37/87 (43%), Gaps = 4/87 (5%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRF-GSNSCGYNGR-CTQQRS  145
+            CP  T+  +P+    V GE+RVI+    AG  Q +    C   GS   G   R CTQ   
+Sbjct  507  CPSFTKALKPLKARDVLGEWRVIINT--AGLEQEIILDICSSQGSQCSGKPPRTCTQSYG  564
+
+Query  146  VVRLVTYNLEKDGFLCESFRTCCGCPC  172
+            V +L  Y+          FR   GC C
+Sbjct  565  VRKLGVYDTGTRRLSSGDFRVPTGCTC  591
+
+
+>ref|XP_004531523.1| PREDICTED: mucin-17-like [Ceratitis capitata]
+Length=817
+
+ Score = 36.9 bits (84),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 35/91 (38%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSN--SCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC        C    RC QQ  
+Sbjct  671  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEHRQMYCREGCRCEQQYR  728
+
+Query  146  VVRLVTYNL--EKDGFLCESFR--TCCGCPC  172
+            + RL+ Y+   E  G   + FR  +CC C C
+Sbjct  729  LHRLLAYDPHNECRGIFSDWFRFPSCCICKC  759
+
+
+>ref|XP_002069222.1| GK21083 [Drosophila willistoni]
+ gb|EDW80208.1| GK21083 [Drosophila willistoni]
+Length=493
+
+ Score = 36.9 bits (84),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  341  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTQEFKQMFCRDGCRCEQQYR  398
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  399  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  430
+
+
+>gb|EFX76509.1| hypothetical protein DAPPUDRAFT_226032 [Daphnia pulex]
+Length=644
+
+ Score = 36.9 bits (84),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 23/93 (25%), Positives = 39/93 (42%), Gaps = 8/93 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQ-APRAGFRQCVWQHKCRFGSNSCG-----YNGRCT  141
+            CP +     P+    V GE+R I+Q     G+ Q      C F  +SC      Y  +C 
+Sbjct  129  CPSNVHYARPLRALNVDGEWRAIIQDIAWPGYTQTQRVETCLFSGSSCRTLAPCYGSKCL  188
+
+Query  142  QQRSVVRLVTYNL--EKDGFLCESFRTCCGCPC  172
+            Q+    R+++++    K G   + ++    C C
+Sbjct  189  QKYVYQRMLSFDPCDAKKGIFIDIYKLPSACSC  221
+
+
+>gb|EFX85728.1| hypothetical protein DAPPUDRAFT_237176 [Daphnia pulex]
+Length=262
+
+ Score = 36.5 bits (83),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 30/105 (29%), Positives = 47/105 (45%), Gaps = 13/105 (12%)
+
+Query  81   FTHFKSECPVSTRDCEPVFGYTVAGEFRVIVQ-----APRAGFRQC-----VWQHKCRFG  130
+            F +  S+CP  +   +P+    + G++RVIVQ       R     C       ++   FG
+Sbjct  153  FENRDSKCPYRSLVIKPIRARNIDGQWRVIVQNVDDILQRERIVLCNGLDEYCENLGHFG  212
+
+Query  131  SNSCGYNGRCTQQRSVVRLVTYNL--EKDGFLCESFRTCCGCPCR  173
+               C Y+ RC+QQ  V +L+ Y+      G   +SF+    C CR
+Sbjct  213  PVHC-YSSRCSQQYLVRKLLAYDPCNSNRGAFVDSFKLQSACSCR  256
+
+
+>ref|XP_001356807.2| GA13357 [Drosophila pseudoobscura pseudoobscura]
+ gb|EAL33873.2| GA13357 [Drosophila pseudoobscura pseudoobscura]
+Length=615
+
+ Score = 36.9 bits (84),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  462  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTQEFKQMFCRDGCRCEQQYR  519
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  520  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  551
+
+
+>ref|XP_001810703.1| PREDICTED: similar to spaetzle-like protein (AGAP007866-PA) [Tribolium 
+castaneum]
+Length=370
+
+ Score = 36.5 bits (83),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 26/95 (27%), Positives = 39/95 (41%), Gaps = 12/95 (13%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQ----APRAGFRQCVWQHKCRFGSNSCGYNGRCTQQ  143
+            CPV      P +     GE   ++          + +C  +H+  +  + C    RC QQ
+Sbjct  241  CPVKEEVVAPFWANNTRGEVLALLNMYPFEQYVHWEKCTHEHRQMYCRDGC----RCEQQ  296
+
+Query  144  RSVVRLVTY--NLEKDGFLCESFR--TCCGCPCRS  174
+              + RL+ Y  N E  G   + FR  +CC C C S
+Sbjct  297  YRLHRLLAYDPNNECRGIFSDWFRFPSCCVCKCYS  331
+
+
+>ref|XP_002015164.1| GL19562 [Drosophila persimilis]
+ gb|EDW29160.1| GL19562 [Drosophila persimilis]
+Length=623
+
+ Score = 36.5 bits (83),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  470  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTQEFKQMFCRDGCRCEQQYR  527
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  528  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  559
+
+
+>gb|EFA09263.1| spatzle 4 [Tribolium castaneum]
+Length=334
+
+ Score = 36.5 bits (83),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 26/95 (27%), Positives = 39/95 (41%), Gaps = 12/95 (13%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQ----APRAGFRQCVWQHKCRFGSNSCGYNGRCTQQ  143
+            CPV      P +     GE   ++          + +C  +H+  +  + C    RC QQ
+Sbjct  205  CPVKEEVVAPFWANNTRGEVLALLNMYPFEQYVHWEKCTHEHRQMYCRDGC----RCEQQ  260
+
+Query  144  RSVVRLVTY--NLEKDGFLCESFR--TCCGCPCRS  174
+              + RL+ Y  N E  G   + FR  +CC C C S
+Sbjct  261  YRLHRLLAYDPNNECRGIFSDWFRFPSCCVCKCYS  295
+
+
+>ref|XP_002088365.1| GE18527 [Drosophila yakuba]
+ gb|EDW88077.1| GE18527 [Drosophila yakuba]
+Length=596
+
+ Score = 36.5 bits (83),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  449  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  506
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  507  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  538
+
+
+>gb|EGI62562.1| hypothetical protein G5I_09128 [Acromyrmex echinatior]
+Length=532
+
+ Score = 36.5 bits (83),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 37/91 (41%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSN--SCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC + +    C    RC QQ  
+Sbjct  412  CPVKEEVVAPYWANNTRGELLALLNL--YPFEQYVHWEKCTYENKQMHCRDGCRCEQQYR  469
+
+Query  146  VVRLVTY--NLEKDGFLCESFR--TCCGCPC  172
+            + RL+ Y  N E  G   + F+  +CC C C
+Sbjct  470  LHRLLAYDPNNECRGIFSDWFKFPSCCICRC  500
+
+
+>ref|XP_004521945.1| PREDICTED: uncharacterized protein LOC101453969 [Ceratitis capitata]
+Length=559
+
+ Score = 36.5 bits (83),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 24/91 (26%), Positives = 38/91 (42%), Gaps = 7/91 (8%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC-RFGSNSCGYNGRCTQQRSV  146
+            C        P +    AG+ R IV      F Q + Q  C +  ++ C  +  C Q+   
+Sbjct  470  CESKVEIVTPYWASNSAGKIRAIVNTQH--FEQAIHQEVCSKAATSRCDRDCGCEQKYKW  527
+
+Query  147  VRLVTYNLEKD--GFLCE--SFRTCCGCPCR  173
+             RL+ Y+ + D  G   +   F +CC C C+
+Sbjct  528  HRLLAYDPDNDCKGIFMDWFLFPSCCVCRCK  558
+
+
+>ref|XP_001969833.1| GG23723 [Drosophila erecta]
+ gb|EDV58892.1| GG23723 [Drosophila erecta]
+Length=595
+
+ Score = 36.5 bits (83),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  448  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  505
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  506  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  537
+
+
+>ref|XP_001962193.1| GF14562 [Drosophila ananassae]
+ gb|EDV31414.1| GF14562 [Drosophila ananassae]
+Length=593
+
+ Score = 36.5 bits (83),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  446  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  503
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  504  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  535
+
+
+>ref|NP_609504.2| spatzle 4 [Drosophila melanogaster]
+ gb|ACY46083.1| MIP13656p [Drosophila melanogaster]
+ gb|AAF53100.2| spatzle 4 [Drosophila melanogaster]
+Length=597
+
+ Score = 36.5 bits (83),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  450  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  507
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  508  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  539
+
+
+>ref|XP_001992882.1| GH13398 [Drosophila grimshawi]
+ gb|EDV98807.1| GH13398 [Drosophila grimshawi]
+Length=574
+
+ Score = 36.5 bits (83),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  422  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  479
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  480  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  511
+
+
+>ref|XP_001656952.1| Sptzle 1B (Spz1B) [Aedes aegypti]
+ gb|EAT48444.1| AAEL000499-PA [Aedes aegypti]
+Length=248
+
+ Score = 36.1 bits (82),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 26/93 (28%), Positives = 36/93 (39%), Gaps = 12/93 (13%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSNSCG--------YNGR  139
+            CP   +   P  GYTV  +  +IV  P   + Q V    C    N+C         Y   
+Sbjct  148  CPSVEKLVHPQSGYTVNDKLVMIVNTPN--YMQGVRIETCSSPGNACHKLQHLISLYTTE  205
+
+Query  140  CTQQRSVVRLVTYNLEKDGFLCESFR--TCCGC  170
+            C Q      L+ ++ +      ESFR  +CC C
+Sbjct  206  CKQLYHYRTLLAFDTKTKQPYKESFRLPSCCKC  238
+
+
+>ref|XP_002036676.1| GM19083 [Drosophila sechellia]
+ gb|EDW52599.1| GM19083 [Drosophila sechellia]
+Length=588
+
+ Score = 36.1 bits (82),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  441  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  498
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  499  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  530
+
+
+>ref|XP_002045433.1| GM18726 [Drosophila sechellia]
+ gb|EDW44947.1| GM18726 [Drosophila sechellia]
+Length=580
+
+ Score = 36.1 bits (82),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  433  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  490
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  491  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  522
+
+
+>gb|ENN70572.1| hypothetical protein YQE_12747, partial [Dendroctonus ponderosae]
+Length=509
+
+ Score = 36.1 bits (82),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 36/91 (40%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRFGSN--SCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC F      C    RC QQ  
+Sbjct  394  CPVKEEVVAPFWANNTRGEVLALLNM--YPFEQYVHWEKCTFEHRQMYCREGCRCEQQYR  451
+
+Query  146  VVRLVTYNL--EKDGFLCESFR--TCCGCPC  172
+            + RL+ Y+   E  G   + F+  +CC C C
+Sbjct  452  LHRLLAYDPSNECRGIFSDWFKFPSCCVCIC  482
+
+
+>ref|XP_002079117.1| GD23779 [Drosophila simulans]
+ gb|EDX04702.1| GD23779 [Drosophila simulans]
+Length=597
+
+ Score = 36.1 bits (82),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  450  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHEFKQMFCRDGCRCEQQYR  507
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  508  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  539
+
+
+>ref|XP_002003861.1| GI20749 [Drosophila mojavensis]
+ gb|EDW13303.1| GI20749 [Drosophila mojavensis]
+Length=620
+
+ Score = 35.7 bits (81),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 35/92 (38%), Gaps = 6/92 (7%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC--RFGSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC   F    C    RC QQ  
+Sbjct  465  CPVKDEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTQEFKQMFCRDGCRCEQQYR  522
+
+Query  146  VVRLVTYNL--EKDGFLCESFRTCCGCPCRSF  175
+            + RL+ Y+   E  G   + FR    C C+ +
+Sbjct  523  LHRLLAYDPHNECRGIFSDWFRFPSSCICKCY  554
+
+
+>gb|EFR26954.1| hypothetical protein AND_06628 [Anopheles darlingi]
+Length=694
+
+ Score = 35.7 bits (81),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 27/91 (30%), Positives = 35/91 (38%), Gaps = 8/91 (9%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKCRF--GSNSCGYNGRCTQQRS  145
+            CPV      P +     GE   ++      F Q V   KC        C    RC QQ  
+Sbjct  555  CPVKEEVVAPFWANNTRGEVLALLNL--YPFEQYVHWEKCTHELKQMYCREGCRCEQQYR  612
+
+Query  146  VVRLVTYNL--EKDGFLCESFR--TCCGCPC  172
+            + RL+ Y+   E  G   + FR  +CC C C
+Sbjct  613  LHRLLAYDPHNECRGIFSDWFRFPSCCICKC  643
+
+
+>gb|EFN89623.1| hypothetical protein EAI_09331 [Harpegnathos saltator]
+Length=487
+
+ Score = 35.7 bits (81),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 26/90 (29%), Positives = 38/90 (42%), Gaps = 7/90 (8%)
+
+Query  88   CPVSTRDCEPVFGYTVAGEFRVIVQAPRAGFRQCVWQHKC-RFGSNSCGYNGRCTQQRSV  146
+            C        P +    AG+ R IV      F Q + Q  C +  +N CG +  C Q+   
+Sbjct  385  CESKVEIVTPYWASNSAGKIRAIVNTQH--FEQAIHQEVCSKTQTNRCGGDCGCEQKYKW  442
+
+Query  147  VRLVTYNLEKD--GFLCE--SFRTCCGCPC  172
+             RL+ Y+ + D  G   +   F +CC C C
+Sbjct  443  HRLLAYDPDNDCKGIFMDWFLFPSCCVCRC  472
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.140    0.465    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304656096000
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

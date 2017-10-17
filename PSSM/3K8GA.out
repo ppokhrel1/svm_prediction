@@ -1,0 +1,3091 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3K8GA
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3K8G|A  Chain A, Structure Of Crystal Form I Of Tp0453 >pdb|3...   540    0.0  
+ref|YP_005631332.1|  hypothetical protein TPChic_0453 [Treponema ...   539    0.0  
+ref|NP_218894.1|  hypothetical protein TP0453 [Treponema pallidum...   538    0.0  
+ref|YP_004673186.1|  hypothetical protein TPCCA_0453 [Treponema p...   531    0.0  
+ref|WP_002694836.1|  lipofamily protein [Treponema phagedenis] >g...   229    1e-70
+ref|YP_008434589.1|  lipoprotein [Treponema pedis str. T A4] >ref...   172    2e-48
+ref|WP_002673536.1|  hypothetical protein [Treponema denticola] >...   165    1e-45
+ref|WP_010692566.1|  hypothetical protein [Treponema denticola] >...   159    2e-43
+ref|WP_002687984.1|  hypothetical protein [Treponema denticola] >...   157    1e-42
+ref|WP_002684394.1|  hypothetical protein [Treponema denticola] >...   155    8e-42
+ref|WP_002676123.1|  hypothetical protein [Treponema denticola] >...   154    1e-41
+ref|WP_002691629.1|  hypothetical protein [Treponema denticola] >...   154    1e-41
+ref|WP_002667145.1|  hypothetical protein [Treponema denticola] >...   153    4e-41
+ref|WP_010698163.1|  hypothetical protein [Treponema denticola] >...   153    4e-41
+ref|NP_973260.1|  lipoprotein [Treponema denticola ATCC 35405] >r...   152    6e-41
+ref|WP_010689406.1|  hypothetical protein [Treponema denticola] >...   152    6e-41
+ref|WP_006189259.1|  hypothetical protein [Treponema vincentii] >...   113    3e-26
+ref|WP_016524218.1|  hypothetical protein [Treponema medium] >gb|...   109    4e-25
+ref|WP_016518137.1|  hypothetical protein [Treponema vincentii] >...  95.1    1e-19
+ref|WP_021687082.1|  hypothetical protein [Treponema lecithinolyt...  55.8    5e-06
+ref|WP_016525460.1|  hypothetical protein [Treponema maltophilum]...  55.5    7e-06
+ref|YP_004697836.1|  hypothetical protein Spica_1182 [Treponema c...  45.4    0.014
+ref|WP_021330997.1|  hypothetical protein [Treponema socranskii] ...  43.1    0.065
+ref|WP_016520154.1|  hypothetical protein [Treponema socranskii] ...  42.4    0.12 
+ref|YP_004527692.1|  hypothetical protein TREAZ_0128 [Treponema a...  42.4    0.12 
+ref|YP_004440081.1|  hypothetical protein Trebr_1527 [Treponema b...  42.0    0.18 
+ref|YP_004365347.1|  hypothetical protein Tresu_1138 [Treponema s...  41.2    0.32 
+ref|WP_010614837.1|  sugar ABC transporter substrate-binding prot...  41.2    0.45 
+ref|WP_004565285.1|  sugar ABC transporter substrate-binding prot...  40.8    0.47 
+ref|WP_009404982.1|  sugar ABC transporter substrate-binding prot...  39.3    1.7  
+ref|WP_009398481.1|  sugar ABC transporter substrate-binding prot...  38.5    2.6  
+ref|XP_003200735.2|  PREDICTED: desmoglein-2-like [Danio rerio]       38.9    2.8  
+emb|CDJ82192.1|  unnamed protein product [Haemonchus contortus]       37.4    4.1  
+ref|YP_006982489.1|  Glycoside hydrolase family 43 [Propionibacte...  37.7    6.7  
+
+
+>pdb|3K8G|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8G|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8I|A Chain A, Structure Of Crystal Form Iv Of Tp0453
+ pdb|3K8J|A Chain A, Structure Of Crystal Form Iii Of Tp0453
+Length=262
+
+ Score =  540 bits (1392),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 262/262 (100%), Positives = 262/262 (100%), Gaps = 0/262 (0%)
+
+Query  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+            GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA
+Sbjct  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+
+Query  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+            FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV
+Sbjct  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+
+Query  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+            IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP
+Sbjct  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+
+Query  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+            QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED
+Sbjct  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+
+Query  241  GTISAERLASVISSLYSKKGSS  262
+            GTISAERLASVISSLYSKKGSS
+Sbjct  241  GTISAERLASVISSLYSKKGSS  262
+
+
+>ref|YP_005631332.1| hypothetical protein TPChic_0453 [Treponema pallidum subsp. pallidum 
+str. Chicago]
+ ref|WP_014505505.1| membrane protein [Treponema pallidum]
+ gb|ADD72574.1| conserved hypothetical protein [Treponema pallidum subsp. pallidum 
+str. Chicago]
+Length=268
+
+ Score =  539 bits (1388),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  8    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  67
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  68   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  127
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  128  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  187
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  188  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  247
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  248  TISAERLASVISSLYSKKGSS  268
+
+
+>ref|NP_218894.1| hypothetical protein TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|YP_001933457.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_005221564.1| hypothetical protein TPESAMD_0453 [Treponema pallidum subsp. 
+pertenue str. SamoaD]
+ ref|YP_005222633.1| hypothetical protein TPEGAU_0453 [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ ref|YP_005223697.1| hypothetical protein TPADAL_0453 [Treponema pallidum subsp. pallidum 
+DAL-1]
+ ref|YP_005230241.1| hypothetical protein TPECDC2_0453 [Treponema pallidum subsp. 
+pertenue str. CDC2]
+ ref|YP_006869773.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ ref|YP_007936256.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ ref|YP_008119200.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_008091302.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|WP_010881902.1| membrane protein [Treponema pallidum]
+ gb|AAC18996.1| 30kLP [Treponema pallidum]
+ gb|AAC65443.1| predicted coding region TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|ACD70878.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ gb|AEZ57576.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. SamoaD]
+ gb|AEZ58645.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. CDC2]
+ gb|AEZ59713.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ gb|AEZ60777.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+DAL-1]
+ gb|AFU66457.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ gb|AGK84098.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ gb|AGN75647.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|AGN76623.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+Length=287
+
+ Score =  538 bits (1387),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  27   SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  267  TISAERLASVISSLYSKKGSS  287
+
+
+>ref|YP_004673186.1| hypothetical protein TPCCA_0453 [Treponema paraluiscuniculi Cuniculi 
+A]
+ ref|WP_013945104.1| membrane protein [Treponema paraluiscuniculi]
+ gb|AEH40395.1| hypothetical membrane protein [Treponema paraluiscuniculi Cuniculi 
+A]
+Length=287
+
+ Score =  531 bits (1367),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 257/261 (98%), Positives = 260/261 (99%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAW+ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKA+IKKIVDRTTAVYGAF
+Sbjct  27   SGAWRASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKANIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVN DRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNSDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYS+KGSS
+Sbjct  267  TISAERLASVISSLYSEKGSS  287
+
+
+>ref|WP_002694836.1| lipofamily protein [Treponema phagedenis]
+ gb|EFW39432.1| hypothetical protein HMPREF9554_00043 [Treponema phagedenis F0421]
+Length=284
+
+ Score =  229 bits (584),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 104/257 (40%), Positives = 168/257 (65%), Gaps = 4/257 (2%)
+
+Query  4    AWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFA  63
+            AWK + +PLG++G  AD+Y+Y PVA N+ L+  I+E + +  DIKK+++RT AVY  FF 
+Sbjct  26   AWKGTFNPLGLIGPDADMYMYIPVAPNKALLYEILEGNNNAKDIKKVLNRTKAVYAGFFI  85
+
+Query  64   RSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFG  123
+             S EFR+  SG YP++ TN++F +S GW   KT  GI YY+S + D+SIP+ + +CV+ G
+Sbjct  86   ESNEFRICSSGGYPFSLTNMLFPKSKGWKPGKTAKGIRYYQSGYMDISIPSGNTACVVLG  145
+
+Query  124  SSKRERMSKMLSRLVNPDRPQLPPRFEK--ECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            S+ R+ M+  L++L NP    L  RFE     +     + + ++I N  +F+ K+     
+Sbjct  146  STARQDMNDFLAKLDNPQPVSLSSRFEALMNASDAAPKKNIGVFITNSQYFLAKVTGIAN  205
+
+Query  182  LNLPLGAMELYLTARR--NEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+            L+LPLGA+E+++  +   N+Y Y+LS++  N +  F ++FL+++VLN  I   G+ + +E
+Sbjct  206  LDLPLGAIEMHVIKKEKTNDYTYSLSVEADNNRAAFAVRFLLAKVLNGKIGGTGNSITVE  265
+
+Query  240  DGTISAERLASVISSLY  256
+            DGTI +E+LA++I +LY
+Sbjct  266  DGTIPSEKLAALIKTLY  282
+
+
+>ref|YP_008434589.1| lipoprotein [Treponema pedis str. T A4]
+ ref|WP_020964753.1| lipoprotein [Treponema pedis]
+ gb|AGT43453.1| lipoprotein [Treponema pedis str. T A4]
+Length=284
+
+ Score =  172 bits (435),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 87/254 (34%), Positives = 142/254 (56%), Gaps = 11/254 (4%)
+
+Query  10   DPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFF--ARSKE  67
+            +P G++G  AD+Y+Y PV  N  ++ +++     ++ +K+ + RTTA+Y      A   E
+Sbjct  33   EPFGIIGDDADIYVYMPVEKNRKIVEQVLPAATGQS-MKQALSRTTAIYSGITISAAGVE  91
+
+Query  68   FRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKR  127
+             R+   G YPY  T+  F + DGW   KT+ G  YYES + DVSIP+P  +C+  G   R
+Sbjct  92   VRVCARGKYPYGMTDSFFKKKDGWNPKKTKEGYKYYESPYLDVSIPSPLIACMGLGPQNR  151
+
+Query  128  ERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPLG  187
+            + M ++LSR+  P  P+ P +F     S    Q + +++KN   F++ +L    L LPLG
+Sbjct  152  KDMQELLSRMKKPVDPEFPEKFNFLINS--NLQDIGIFVKNPDLFLSGILGV-SLGLPLG  208
+
+Query  188  AMELYLT-----ARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+             +E+YL       ++NEY Y L ++ G  +     + ++ R L A + VE + LI+E G 
+Sbjct  209  KIEMYLKKASDGMQQNEYRYDLYIESGTPQTTKVAKMILQRALKAEVKVEENMLIVEGGN  268
+
+Query  243  ISAERLASVISSLY  256
+            IS E++ ++I S+Y
+Sbjct  269  ISEEKITAIIKSIY  282
+
+
+>ref|WP_002673536.1| hypothetical protein [Treponema denticola]
+ gb|EMB44645.1| hypothetical protein HMPREF9730_01753 [Treponema denticola AL-2]
+Length=287
+
+ Score =  165 bits (417),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 87/254 (34%), Positives = 148/254 (58%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G GAD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G + 
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPND  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L NP+    P RF+    S   SQ + +++KNG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSNPEEALFPQRFDTLVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_010692566.1| hypothetical protein [Treponema denticola]
+ gb|EMB27799.1| hypothetical protein HMPREF9733_00241 [Treponema denticola SP33]
+ gb|EPF36299.1| hypothetical protein HMPREF9732_01664 [Treponema denticola SP32]
+Length=287
+
+ Score =  159 bits (403),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 85/254 (33%), Positives = 145/254 (57%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G GAD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F + +  
+Sbjct  37   VSPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + DVSIP+P  +C++ G + 
+Sbjct  96   EIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDVSIPSPQIACLVMGPND  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+    P RF+    S   SQ + +++KNG  F+ +++   QL LP+
+Sbjct  156  RQSMEVFLGKLSKPEEAIFPQRFDDLVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LI+E+  +
+Sbjct  213  GVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIMENRPV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  ++  +I SLY+
+Sbjct  273  TESKIIDIIKSLYN  286
+
+
+>ref|WP_002687984.1| hypothetical protein [Treponema denticola]
+ gb|EMB30851.1| hypothetical protein HMPREF9727_00536 [Treponema denticola MYR-T]
+ gb|EMB31780.1| hypothetical protein HMPREF9725_00902 [Treponema denticola H1-T]
+Length=287
+
+ Score =  157 bits (396),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 84/254 (33%), Positives = 144/254 (57%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF+    S   SQ + +++KNG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSQRFDALVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_002684394.1| hypothetical protein [Treponema denticola]
+ gb|EMB33511.1| hypothetical protein HMPREF9726_01325 [Treponema denticola H-22]
+Length=287
+
+ Score =  155 bits (391),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 84/254 (33%), Positives = 143/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_002676123.1| hypothetical protein [Treponema denticola]
+ gb|EMB47404.1| hypothetical protein HMPREF9729_00747 [Treponema denticola ASLM]
+ gb|EMD55625.1| hypothetical protein HMPREF9728_02524 [Treponema denticola US-Trep]
+Length=287
+
+ Score =  154 bits (389),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 84/254 (33%), Positives = 143/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNIMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_002691629.1| hypothetical protein [Treponema denticola]
+ gb|EMB23913.1| hypothetical protein HMPREF9723_01051 [Treponema denticola OTK]
+Length=287
+
+ Score =  154 bits (389),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 84/254 (33%), Positives = 142/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICSTGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_002667145.1| hypothetical protein [Treponema denticola]
+ gb|EGC77816.1| lipoprotein [Treponema denticola F0402]
+Length=281
+
+ Score =  153 bits (386),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 83/254 (33%), Positives = 142/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  31   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  89
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  90   EIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  149
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  150  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  206
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  207  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  266
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  267  TESRIIEIIKSLYN  280
+
+
+>ref|WP_010698163.1| hypothetical protein [Treponema denticola]
+ gb|EMB26053.1| hypothetical protein HMPREF9724_00583 [Treponema denticola SP37]
+ gb|EPF34208.1| hypothetical protein HMPREF9734_01217 [Treponema denticola SP44]
+ gb|EPF39630.1| hypothetical protein HMPREF9731_01438 [Treponema denticola SP23]
+Length=287
+
+ Score =  153 bits (386),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 83/254 (33%), Positives = 142/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|NP_973260.1| lipoprotein [Treponema denticola ATCC 35405]
+ ref|WP_002680709.1| hypothetical protein [Treponema denticola]
+ gb|AAS13179.1| lipoprotein, putative [Treponema denticola ATCC 35405]
+ gb|EMB37475.1| hypothetical protein HMPREF9721_01314 [Treponema denticola ATCC 
+35404]
+ gb|EMB40958.1| hypothetical protein HMPREF9735_00516 [Treponema denticola ATCC 
+33521]
+Length=287
+
+ Score =  152 bits (385),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 83/254 (33%), Positives = 142/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_010689406.1| hypothetical protein [Treponema denticola]
+ gb|EMB42137.1| hypothetical protein HMPREF9722_00694 [Treponema denticola ATCC 
+33520]
+Length=287
+
+ Score =  152 bits (385),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 83/254 (33%), Positives = 142/254 (56%), Gaps = 9/254 (4%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK--  66
+            V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +  
+Sbjct  37   VRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDRLT  95
+
+Query  67   EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSK  126
+            E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G   
+Sbjct  96   EIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGPDN  155
+
+Query  127  RERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPL  186
+            R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL LP+
+Sbjct  156  RQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGLPV  212
+
+Query  187  GAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTI  243
+            G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ ++
+Sbjct  213  GVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENRSV  272
+
+Query  244  SAERLASVISSLYS  257
+            +  R+  +I SLY+
+Sbjct  273  TESRIIEIIKSLYN  286
+
+
+>ref|WP_006189259.1| hypothetical protein [Treponema vincentii]
+ gb|EEV19896.1| hypothetical protein TREVI0001_0026 [Treponema vincentii ATCC 
+35580]
+Length=287
+
+ Score =  113 bits (283),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 67/256 (26%), Positives = 130/256 (51%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  31   KYDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  90
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K    +  +YY S   D+ +     + ++ 
+Sbjct  91   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALNNTSYYSSAVADI-LMRERTAFMLL  149
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   +  L  + +P  P  PPRF+      G+   + LY ++G   IT +L    +
+Sbjct  150  GTEQR-NTAAFLQHIADPHPPIFPPRFQA-LPESGSIGEIGLYTRSGSLLITAMLGLDGV  207
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  208  DLPIRSIELYLKKNIDSVYQCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  267
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  268  DITEKELIKLLQGVFA  283
+
+
+>ref|WP_016524218.1| hypothetical protein [Treponema medium]
+ gb|EPF27796.1| hypothetical protein HMPREF9195_02297 [Treponema medium ATCC 
+700293]
+Length=253
+
+ Score =  109 bits (273),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 71/253 (28%), Positives = 125/253 (49%), Gaps = 13/253 (5%)
+
+Query  13   GVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFARSKEFRLF  71
+            G VG  ADVY+  P++GNE+L+  +      +    + + RT+ +Y GA +  +    + 
+Sbjct  5    GAVGMDADVYIVAPISGNESLLKALFTAFVPEKTAAQYLSRTSILYIGADYKVTPSVTVV  64
+
+Query  72   GSGSYPYAFTNLIFSRSDGW----ASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKR  127
+             SGSYP +  +L+FS+ DGW    A+    H  TYY S   D+ +     + ++ G ++R
+Sbjct  65   SSGSYPVSLGDLLFSKKDGWEKRRAAALNNH--TYYSSAIADIVV-QEKTAFMLLGDNQR  121
+
+Query  128  ERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPLG  187
+               +  L R+  P RP  PPRF+      G  + + LY ++G    T LL    + LP+ 
+Sbjct  122  NS-AAFLQRIAEPHRPVFPPRFQALTELSGVGE-IGLYARSGSRIATALLGLEDIELPIR  179
+
+Query  188  AMELYLTARRNEYLYTLS--LQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTISA  245
+            ++ELYL  +  + LY  S   +  +A+    ++ L+S  +N    V+   + +E+  I+ 
+Sbjct  180  SIELYLK-KDIDALYRCSAMFEATDARAALVVRLLLSHGMNGDFSVQDSSVFVENADITE  238
+
+Query  246  ERLASVISSLYSK  258
+              L  ++  +  K
+Sbjct  239  TELIRMLKPIIFK  251
+
+
+>ref|WP_016518137.1| hypothetical protein [Treponema vincentii]
+ gb|EPF47680.1| hypothetical protein HMPREF1222_00582 [Treponema vincentii F0403]
+Length=294
+
+ Score = 95.1 bits (235),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 63/256 (25%), Positives = 127/256 (50%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  38   KHDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  97
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K       +YY S   D+ +     + ++ 
+Sbjct  98   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALSNTSYYSSAVADI-LMRERTAFMLL  156
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   + +  + +   RP + P   +     G+   + LY ++G   IT +L    +
+Sbjct  157  GTEQRNTAAFL--QHIADPRPPIFPPRFQALPESGSISEIGLYTRSGSRLITAMLGLDGV  214
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  215  DLPIRSIELYLKKNIDSVYKCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  274
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  275  DITEKELIKLLQGVFA  290
+
+
+>ref|WP_021687082.1| hypothetical protein [Treponema lecithinolyticum]
+ gb|ERJ93575.1| hypothetical protein HMPREF9193_00864 [Treponema lecithinolyticum 
+ATCC 700332]
+Length=305
+
+ Score = 55.8 bits (133),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 51/106 (48%), Gaps = 11/106 (10%)
+
+Query  8    SVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKAD---IKKIVDRTTAVYGAFFAR  64
+            + D   +  S AD+YL  PV  NE  +S +        D   ++K++ RT+ +Y AFF +
+Sbjct  33   AADMFTLFDSDADLYLRIPVRSNEAFVSALARAWLPSLDARSLQKLMKRTSVLYAAFFVQ  92
+
+Query  65   SKE-------FRLFGSGSYPYAFTNLIFSRSDGWAST-KTEHGITY  102
+             K+       F+L   GSYP  F     S+ +GW +  +TE    Y
+Sbjct  93   QKDKGKTDVLFQLAAEGSYPALFFTAALSKKNGWTNEFQTEKDKVY  138
+
+
+>ref|WP_016525460.1| hypothetical protein [Treponema maltophilum]
+ gb|EPF30849.1| hypothetical protein HMPREF9194_01174 [Treponema maltophilum 
+ATCC 51939]
+Length=308
+
+ Score = 55.5 bits (132),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 56/251 (22%), Positives = 110/251 (44%), Gaps = 27/251 (11%)
+
+Query  9    VDPLGVVGSGADVYLYFPV-AGNENLISRIIE---NHESKADIKKIVDRTTAVYGAFFAR  64
+            +D   +   GADVYL+ PV   N++ +  ++    +  +++D+  +++RT  +  AFF  
+Sbjct  37   IDLFTLFDDGADVYLHIPVNEANKSFVRNLVNSWTDDVNESDLNNMLNRTEEIAAAFFIE  96
+
+Query  65   -------SKEFRLFGSGSYPYAFTNLIFSRSDGW--ASTKTEHGITYYESEHTDVSIPAP  115
+                   + +F+L   G YP    N   ++ +GW   S K    I   +    ++ + +P
+Sbjct  97   WGANLKSTVKFQLASRGKYPSLLINAGLTKKNGWTDVSEKAADMILNRKRHSNNIELASP  156
+
+Query  116  HFSCVIFGSSKRERMSKM-LSRLVNP----DRPQLPPRFEKEC----TSEGTSQTVALYI  166
+              + +   +     M K     L++P    D P LP   E       T    ++ V++Y+
+Sbjct  157  DNNHIFISNKDVLSMQKKYFLSLISPVSVLDWPSLPG--ENTALPVRTLMDDAELVSVYM  214
+
+Query  167  KNGGHFITKLLNFP-QLNLPLGAMELYLTARRNEYLYTLSLQLGNAK-INFPIQFLISRV  224
+               G  + K++  P +L +   A  L  + + +  + TL LQ+ + + +    +     V
+Sbjct  215  PTAGSLLPKMVGSPIELGIKYAAGTLK-SYKEDHAIVTLKLQMSDERSLKIAEKLFRFAV  273
+
+Query  225  LNAHIHVEGDR  235
+            L  +I V+ DR
+Sbjct  274  LGTNIIVKQDR  284
+
+
+>ref|YP_004697836.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+ ref|WP_013968639.1| hypothetical protein [Treponema caldaria]
+ gb|AEJ19328.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+Length=326
+
+ Score = 45.4 bits (106),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 56/110 (51%), Gaps = 8/110 (7%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTA----VYGAFF--  62
+            ++P   + SGA +Y+Y  +    NLI+ +      KA +++I +++ A    VYGA +  
+Sbjct  32   LNPFAKLPSGASLYVYGDIEKTRNLINGLYRLGPVKA-LQRIPEKSLAKVGTVYGALYNE  90
+
+Query  63   ARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSI  112
+               + F +  SG +P   T L  + S  W   +TE G +Y+ SE   +S+
+Sbjct  91   EEPQRFYILVSGRFPVVRTFLSLTFSPDWKQKRTE-GFSYWRSEKDGLSL  139
+
+
+>ref|WP_021330997.1| hypothetical protein [Treponema socranskii]
+ gb|ERF60032.1| hypothetical protein HMPREF1325_1203 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+ gb|ERK04172.1| hypothetical protein HMPREF0860_2600 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+Length=287
+
+ Score = 43.1 bits (100),  Expect = 0.065, Method: Compositional matrix adjust.
+ Identities = 58/239 (24%), Positives = 85/239 (36%), Gaps = 55/239 (23%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIE---NHESKADIKKIVDRTTAVYGAFFA  63
+            A V+P+ ++   A  Y+  P   +  L+ RI+     H S++D K I  R   +Y A   
+Sbjct  27   AEVNPIDLLSGDASFYMRIPKKTDGELVERILRASAQHISESDAKLISGRIDTIYAAISR  86
+
+Query  64   RSKEFRLFG--SGSYPYAFTNLIFSRSDGWASTKTEHGIT--------YYESEHTDVSIP  113
+                F +    SG+ P      +  +S  W   KTE  I         YY S    ++ P
+Sbjct  87   TKTSFSVEAAVSGNIPRRTAQALLLKSAQW---KTETHIPERSIRPYFYYASNGVSLAFP  143
+
+Query  114  APHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVA----------  163
+            +P   C                   N  RP L   F+        S  V+          
+Sbjct  144  SPSIVCA-----------------ANDVRPMLSA-FDAHAYGGSISHNVSDAVYDWLDVS  185
+
+Query  164  -----LYIKNGGHFITKL----LNFPQLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI  213
+                  Y  N   F+T L    LN  QLN   GAM +  +A  ++YL ++     N  I
+Sbjct  186  GSEIRFYAPNPLSFLTILTGTNLNL-QLNYVKGAM-ISDSAHEDQYLMSIEFDFNNKNI  242
+
+
+>ref|WP_016520154.1| hypothetical protein [Treponema socranskii]
+ gb|EPF26929.1| hypothetical protein HMPREF1221_00509 [Treponema socranskii subsp. 
+paredis ATCC 35535]
+Length=287
+
+ Score = 42.4 bits (98),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 56/227 (25%), Positives = 84/227 (37%), Gaps = 31/227 (14%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRI---IENHESKADIKKIVDRTTAVYGAFFA  63
+            A V+PL ++   A  Y+  P   +  L+ RI   I  H S++D K I  R   +Y A   
+Sbjct  27   AEVNPLDLLSGDAAFYMRIPKKTDGELVERILRSIAEHISESDAKLIAGRIDTIYAALTR  86
+
+Query  64   RSKEFRLFG--SGSYPYAFTNLIFSRSDGWASTKTEHGI--------TYYESEHTDVSIP  113
+                F +    SG+ P      +  +S  W   K E  I         YY S    ++ P
+Sbjct  87   TKTNFSVEAAVSGNIPRRTAGALLLKSAQW---KIETHIPVGSIRPYIYYASAGVSLAFP  143
+
+Query  114  APHFSCVIFGSSKRERMSKMLSRL-VNPDRPQLPPRFEKECTS--EGTSQTVALYIKNGG  170
+            +P   C          +  MLS    +  R  L            +     +  Y  N  
+Sbjct  144  SPSIVCA------ANDVRPMLSAFDAHAFRGSLSHNVSDAVFDWLDAAGSEIRFYAPNPL  197
+
+Query  171  HFITKL----LNFPQLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI  213
+             F+T L    LN  QLN   GAM +  +A  ++YL ++     N  +
+Sbjct  198  SFLTILTGTNLNL-QLNYVKGAM-ISDSAHEDQYLMSIEFDFNNKNV  242
+
+
+>ref|YP_004527692.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+ ref|WP_015711795.1| hypothetical protein [Treponema azotonutricium]
+ gb|AEF81785.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+Length=304
+
+ Score = 42.4 bits (98),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 27/103 (26%), Positives = 44/103 (43%), Gaps = 2/103 (2%)
+
+Query  12   LGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSKEFRLF  71
+             G++  GA VYL+  V     L+  +        D + ++DRT     AF+      R F
+Sbjct  35   FGLLPLGARVYLWADVKEGRPLLDALSFQGLDGKDARDVLDRTGTAAAAFYPEQAAQRFF  94
+
+Query  72   --GSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSI  112
+              G GSYP     +  + S  W   K+E G  ++ S+   + +
+Sbjct  95   LAGWGSYPSTRAGISMAFSRDWKHAKSETGKKFWFSKGWGLGV  137
+
+
+>ref|YP_004440081.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+ ref|WP_013758655.1| hypothetical protein [Treponema brennaborense]
+ gb|AEE16950.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+Length=310
+
+ Score = 42.0 bits (97),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 43/93 (46%), Gaps = 4/93 (4%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLI---SRIIENHESKADIKKIVDRTTAVY  58
+            SGA    + P  ++     +Y+ FP   NE  +   +  +    + ADI+K++ R   VY
+Sbjct  33   SGAAAGRLQPFSLMPENTVLYVQFPAVPNEGAVRAFTDALAPQLAPADIRKVLKRVDTVY  92
+
+Query  59   GAFFARSKEFRLFGSGSYPYAFTNLIFSRSDGW  91
+              F A S       +GS+P      +FS+ +GW
+Sbjct  93   AGFDA-SGNLSSAVTGSFPSFALGAVFSKKNGW  124
+
+
+>ref|YP_004365347.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+ ref|WP_013701339.1| hypothetical protein [Treponema succinifaciens]
+ gb|AEB14050.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+Length=312
+
+ Score = 41.2 bits (95),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 31/127 (24%), Positives = 57/127 (45%), Gaps = 20/127 (16%)
+
+Query  8    SVDPLGVVGSGADVYLYFPVAGNENLISRIIENHES---KADIKKIVDRTTAVY---GAF  61
+            +VDPL ++   + +Y+  P + N+ L+S+I+ +  S   + D + I  RT  +Y   G  
+Sbjct  29   NVDPLSLLEENSSIYMSVPASKNQELVSKILCSKISGLAEKDARAIAARTEILYAGLGTV  88
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYE---------SEHTDVSI  112
+              RS+  ++    S P        S+ +GW  +     ++YYE         S+    S 
+Sbjct  89   DDRSR-LQIVSETSIPRIVVQSSLSKKNGWEKS----FVSYYEKVFEKFTHASDGFQASF  143
+
+Query  113  PAPHFSC  119
+            P+ +  C
+Sbjct  144  PSSNLVC  150
+
+
+>ref|WP_010614837.1| sugar ABC transporter substrate-binding protein [Actinomyces 
+oris]
+Length=461
+
+ Score = 41.2 bits (95),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 70/156 (45%), Gaps = 13/156 (8%)
+
+Query  91   WASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFE  150
+            W+  KT+        +  D+S   P+    +  S     + K++  +    R + P +  
+Sbjct  91   WSEFKTKWTTGLTAGQVPDISTALPNDVVEMINSEALVPLDKVIDSI---GRDRFPKQAL  147
+
+Query  151  KECTSEGTSQTVALYIKNGGHFITK-LLNFPQLNLPLGAMELYLTAR---RNEYLYTLSL  206
+             E  S+G S +V +Y      +  K +L+   L++P    EL   A+   +++ LY LS+
+Sbjct  148  AEGQSDGKSYSVPIYSHAQVMWYRKDVLSSKGLSVPTTWEELAKAAKAIGKSDSLYGLSV  207
+
+Query  207  QLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+             LG   +      L +R LN ++   G RL+ +DGT
+Sbjct  208  PLGTGDM------LGARYLNFYVRSAGQRLLKDDGT  237
+
+
+>ref|WP_004565285.1| sugar ABC transporter substrate-binding protein [Actinomyces]
+ gb|EGE37873.1| hypothetical protein HMPREF0059_02144 [Actinomyces viscosus C505]
+ gb|EGV13795.1| ABC transporter, solute-binding protein [Actinomyces sp. oral 
+taxon 175 str. F0384]
+Length=461
+
+ Score = 40.8 bits (94),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 70/156 (45%), Gaps = 13/156 (8%)
+
+Query  91   WASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFE  150
+            W+  KT+        +  D+S   P+    +  S     + K++  +    R + P +  
+Sbjct  91   WSEFKTKWTTGLTAGQVPDISTALPNDVVEMINSEALVPLDKVIDSI---GRDRFPKQAL  147
+
+Query  151  KECTSEGTSQTVALYIKNGGHFITK-LLNFPQLNLPLGAMELYLTAR---RNEYLYTLSL  206
+             E  S+G S +V +Y      +  K +L+   L++P    EL   A+   +++ LY LS+
+Sbjct  148  AEGQSDGKSYSVPIYSHAQVMWYRKDVLSSKGLSVPTTWEELAKAAKAIGKSDSLYGLSV  207
+
+Query  207  QLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+             LG   +      L +R LN ++   G RL+ +DGT
+Sbjct  208  PLGTGDM------LGARYLNFYVRSAGQRLLKDDGT  237
+
+
+>ref|WP_009404982.1| sugar ABC transporter substrate-binding protein [Actinomyces 
+sp. oral taxon 170]
+ gb|EGF52221.1| ABC transporter, solute-binding protein [Actinomyces sp. oral 
+taxon 170 str. F0386]
+Length=461
+
+ Score = 39.3 bits (90),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 39/156 (25%), Positives = 67/156 (43%), Gaps = 13/156 (8%)
+
+Query  91   WASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFE  150
+            W+   T+        +  D+S   P+    +  S     + K++  +    R + P    
+Sbjct  91   WSEFNTKWTTGLTSGQVPDISTALPNNVVEMINSEALVPLDKVIDSI---GRDRFPKPAL  147
+
+Query  151  KECTSEGTSQTVALYI-KNGGHFITKLLNFPQLNLPLGAMELYLTAR---RNEYLYTLSL  206
+             E  S+G S +V +Y       + T +L    L++P    EL   A+   R++ LY LS+
+Sbjct  148  AEGQSDGKSYSVPIYSHAQVMWYRTDVLQSKGLSVPTTWDELATAAKAVGRSDDLYGLSV  207
+
+Query  207  QLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+             LG   +      L +R LN ++   G RL+ +DGT
+Sbjct  208  PLGTGDM------LGARYLNFYVRSAGQRLLKDDGT  237
+
+
+>ref|WP_009398481.1| sugar ABC transporter substrate-binding protein [Actinomyces 
+sp. oral taxon 171]
+ gb|EFW25679.1| ABC transporter, solute-binding protein [Actinomyces sp. oral 
+taxon 171 str. F0337]
+Length=441
+
+ Score = 38.5 bits (88),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 38/156 (24%), Positives = 69/156 (44%), Gaps = 13/156 (8%)
+
+Query  91   WASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFE  150
+            W+  KT+        +  D+S   P+    +  S     + K++  +    R + P +  
+Sbjct  71   WSEFKTKWTTGLTSGQVPDISTALPNDVVEMINSEALVPLDKVIDSI---GRDRFPKQAL  127
+
+Query  151  KECTSEGTSQTVALYIKNGGHFITK-LLNFPQLNLPLGAMELYLTAR---RNEYLYTLSL  206
+             E   +G S +V +Y      +  K +L+   L++P    EL   A+   +++ LY LS+
+Sbjct  128  AEGQLDGKSYSVPIYSHAQVMWYRKDVLSSKGLSVPTTWEELAKAAKAVGKSDSLYGLSV  187
+
+Query  207  QLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+             LG   +      L +R LN ++   G RL+ +DGT
+Sbjct  188  PLGTGDM------LGARYLNFYVRSAGQRLLKDDGT  217
+
+
+>ref|XP_003200735.2| PREDICTED: desmoglein-2-like [Danio rerio]
+Length=1157
+
+ Score = 38.9 bits (89),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 54/223 (24%), Positives = 90/223 (40%), Gaps = 37/223 (17%)
+
+Query  53    RTTAVYGAFFARSKEFRLFGSGSYPYAFTNLIFSR--SDGWASTKTEHGITYYESEHTDV  110
+             R +A+Y A F + K+  ++G  +    F N  FS+  S   A+     G+  YE  +   
+Sbjct  860   RNSALYSASFIQEKQ-DIYGDMALGDVFLNEYFSQKASSAAANPPLADGLLVYE--YVGQ  916
+
+Query  111   SIPAPHFSC--VIFGSSKRERMSKM------LSRLVNPDRPQLPP-RFEKECTSEGTSQT  161
+               PA    C  ++      E ++ +      L+ + NP +P LPP + E+   S  TS  
+Sbjct  917   GSPAGSLGCCSILESDDDLEFLNNLGSKFLTLAEICNPPKPSLPPTKTEQVVKSVETSYK  976
+
+Query  162   VALYIKNGGHFITKLLNFPQ----------------LNLPLGAMELYLTARRNEYLYTLS  205
+                 +      +TK    PQ                  LP  +  +Y+   +    Y + 
+Sbjct  977   SESSVSTSTIQVTKEKTAPQQVQQSSVTKVETVNTFATLPTASQTVYV--EQQPLFYFVE  1034
+
+Query  206   LQLGNAK-INFPIQFLISRVLNAHIHVEGDRLIIEDGTISAER  247
+              Q+ N   +  P Q L   V+N +  +EG  LI++DG IS  +
+Sbjct  1035  EQMPNISFVESPTQGLF--VINGNHGMEG--LILQDGKISQRQ  1073
+
+
+>emb|CDJ82192.1| unnamed protein product [Haemonchus contortus]
+Length=210
+
+ Score = 37.4 bits (85),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 36/71 (51%), Gaps = 0/71 (0%)
+
+Query  183  NLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGT  242
+            N+P+ A+   + + R   L+ LS  LGN +I F +  L  R   A +  + +R  ++  T
+Sbjct  10   NIPVNAISFIILSLRIRILFILSFNLGNLEIPFGLCLLFCRTWEASMAEQVERAFLKQPT  69
+
+Query  243  ISAERLASVIS  253
+            I+    A +++
+Sbjct  70   INLNNKARILA  80
+
+
+>ref|YP_006982489.1| Glycoside hydrolase family 43 [Propionibacterium acidipropionici 
+ATCC 4875]
+ ref|WP_015072026.1| Glycoside hydrolase family 43 [Propionibacterium acidipropionici]
+ gb|AFV91134.1| Glycoside hydrolase family 43 [Propionibacterium acidipropionici 
+ATCC 4875]
+Length=747
+
+ Score = 37.7 bits (86),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 34/68 (50%), Gaps = 0/68 (0%)
+
+Query  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+            GSG W  ++DP G+ G+    YLY+   G    ++R+  +  +    ++ V R+    GA
+Sbjct  176  GSGGWYNTIDPAGLTGADGQQYLYWGSYGGGVHVTRVSSDGLTPVGTEQKVGRSDRYEGA  235
+
+Query  61   FFARSKEF  68
+            +  R  ++
+Sbjct  236  YVVRHGKY  243
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 884484650040
+Results from round 2
+
+
+Query= 3K8GA
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_218894.1|  hypothetical protein TP0453 [Treponema pallidum...   382    2e-130
+pdb|3K8G|A  Chain A, Structure Of Crystal Form I Of Tp0453 >pdb|3...   380    7e-130
+ref|YP_005631332.1|  hypothetical protein TPChic_0453 [Treponema ...   379    2e-129
+ref|YP_004673186.1|  hypothetical protein TPCCA_0453 [Treponema p...   379    4e-129
+ref|WP_002694836.1|  lipofamily protein [Treponema phagedenis] >g...   320    4e-106
+ref|WP_006189259.1|  hypothetical protein [Treponema vincentii] >...   303    2e-99 
+ref|YP_008434589.1|  lipoprotein [Treponema pedis str. T A4] >ref...   297    7e-97 
+ref|WP_002673536.1|  hypothetical protein [Treponema denticola] >...   285    3e-92 
+ref|WP_016524218.1|  hypothetical protein [Treponema medium] >gb|...   281    4e-91 
+ref|WP_016518137.1|  hypothetical protein [Treponema vincentii] >...   280    3e-90 
+ref|WP_002687984.1|  hypothetical protein [Treponema denticola] >...   279    6e-90 
+ref|WP_010689406.1|  hypothetical protein [Treponema denticola] >...   276    7e-89 
+ref|NP_973260.1|  lipoprotein [Treponema denticola ATCC 35405] >r...   276    8e-89 
+ref|WP_010698163.1|  hypothetical protein [Treponema denticola] >...   276    9e-89 
+ref|WP_002667145.1|  hypothetical protein [Treponema denticola] >...   276    1e-88 
+ref|WP_002684394.1|  hypothetical protein [Treponema denticola] >...   276    1e-88 
+ref|WP_010692566.1|  hypothetical protein [Treponema denticola] >...   275    1e-88 
+ref|WP_002676123.1|  hypothetical protein [Treponema denticola] >...   275    2e-88 
+ref|WP_002691629.1|  hypothetical protein [Treponema denticola] >...   275    4e-88 
+ref|WP_016525460.1|  hypothetical protein [Treponema maltophilum]...   211    4e-63 
+ref|WP_021687082.1|  hypothetical protein [Treponema lecithinolyt...   152    2e-40 
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_002706379.1|  hypothetical protein [Treponema saccharophil...  73.6    2e-12
+ref|YP_004365347.1|  hypothetical protein Tresu_1138 [Treponema s...  71.3    2e-11
+ref|WP_016520154.1|  hypothetical protein [Treponema socranskii] ...  66.3    9e-10
+ref|WP_021330997.1|  hypothetical protein [Treponema socranskii] ...  64.7    4e-09
+ref|YP_004440081.1|  hypothetical protein Trebr_1527 [Treponema b...  62.8    2e-08
+ref|YP_004527692.1|  hypothetical protein TREAZ_0128 [Treponema a...  55.1    1e-05
+ref|YP_004697836.1|  hypothetical protein Spica_1182 [Treponema c...  46.6    0.006
+gb|EFR29274.1|  hypothetical protein AND_01929 [Anopheles darlingi]   39.7    1.3  
+gb|EJY78020.1|  hypothetical protein OXYTRI_00337 [Oxytricha trif...  38.9    2.6  
+ref|YP_005061352.1|  hypothetical protein [Sphaerochaeta pleomorp...  37.4    5.2  
+ref|YP_004247334.1|  hypothetical protein [Sphaerochaeta globosa ...  37.0    6.8  
+
+
+>ref|NP_218894.1| hypothetical protein TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|YP_001933457.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_005221564.1| hypothetical protein TPESAMD_0453 [Treponema pallidum subsp. 
+pertenue str. SamoaD]
+ ref|YP_005222633.1| hypothetical protein TPEGAU_0453 [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ ref|YP_005223697.1| hypothetical protein TPADAL_0453 [Treponema pallidum subsp. pallidum 
+DAL-1]
+ ref|YP_005230241.1| hypothetical protein TPECDC2_0453 [Treponema pallidum subsp. 
+pertenue str. CDC2]
+ ref|YP_006869773.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ ref|YP_007936256.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ ref|YP_008119200.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_008091302.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|WP_010881902.1| membrane protein [Treponema pallidum]
+ gb|AAC18996.1| 30kLP [Treponema pallidum]
+ gb|AAC65443.1| predicted coding region TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|ACD70878.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ gb|AEZ57576.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. SamoaD]
+ gb|AEZ58645.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. CDC2]
+ gb|AEZ59713.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ gb|AEZ60777.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+DAL-1]
+ gb|AFU66457.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ gb|AGK84098.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ gb|AGN75647.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|AGN76623.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+Length=287
+
+ Score =  382 bits (981),  Expect = 2e-130, Method: Composition-based stats.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  27   SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  267  TISAERLASVISSLYSKKGSS  287
+
+
+>pdb|3K8G|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8G|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8I|A Chain A, Structure Of Crystal Form Iv Of Tp0453
+ pdb|3K8J|A Chain A, Structure Of Crystal Form Iii Of Tp0453
+Length=262
+
+ Score =  380 bits (975),  Expect = 7e-130, Method: Composition-based stats.
+ Identities = 262/262 (100%), Positives = 262/262 (100%), Gaps = 0/262 (0%)
+
+Query  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+            GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA
+Sbjct  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+
+Query  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+            FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV
+Sbjct  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+
+Query  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+            IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP
+Sbjct  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+
+Query  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+            QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED
+Sbjct  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+
+Query  241  GTISAERLASVISSLYSKKGSS  262
+            GTISAERLASVISSLYSKKGSS
+Sbjct  241  GTISAERLASVISSLYSKKGSS  262
+
+
+>ref|YP_005631332.1| hypothetical protein TPChic_0453 [Treponema pallidum subsp. pallidum 
+str. Chicago]
+ ref|WP_014505505.1| membrane protein [Treponema pallidum]
+ gb|ADD72574.1| conserved hypothetical protein [Treponema pallidum subsp. pallidum 
+str. Chicago]
+Length=268
+
+ Score =  379 bits (973),  Expect = 2e-129, Method: Composition-based stats.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  8    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  67
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  68   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  127
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  128  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  187
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  188  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  247
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  248  TISAERLASVISSLYSKKGSS  268
+
+
+>ref|YP_004673186.1| hypothetical protein TPCCA_0453 [Treponema paraluiscuniculi Cuniculi 
+A]
+ ref|WP_013945104.1| membrane protein [Treponema paraluiscuniculi]
+ gb|AEH40395.1| hypothetical membrane protein [Treponema paraluiscuniculi Cuniculi 
+A]
+Length=287
+
+ Score =  379 bits (973),  Expect = 4e-129, Method: Composition-based stats.
+ Identities = 257/261 (98%), Positives = 260/261 (99%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAW+ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKA+IKKIVDRTTAVYGAF
+Sbjct  27   SGAWRASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKANIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVN DRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNSDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYS+KGSS
+Sbjct  267  TISAERLASVISSLYSEKGSS  287
+
+
+>ref|WP_002694836.1| lipofamily protein [Treponema phagedenis]
+ gb|EFW39432.1| hypothetical protein HMPREF9554_00043 [Treponema phagedenis F0421]
+Length=284
+
+ Score =  320 bits (821),  Expect = 4e-106, Method: Composition-based stats.
+ Identities = 104/257 (40%), Positives = 168/257 (65%), Gaps = 4/257 (2%)
+
+Query  4    AWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFA  63
+            AWK + +PLG++G  AD+Y+Y PVA N+ L+  I+E + +  DIKK+++RT AVY  FF 
+Sbjct  26   AWKGTFNPLGLIGPDADMYMYIPVAPNKALLYEILEGNNNAKDIKKVLNRTKAVYAGFFI  85
+
+Query  64   RSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFG  123
+             S EFR+  SG YP++ TN++F +S GW   KT  GI YY+S + D+SIP+ + +CV+ G
+Sbjct  86   ESNEFRICSSGGYPFSLTNMLFPKSKGWKPGKTAKGIRYYQSGYMDISIPSGNTACVVLG  145
+
+Query  124  SSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEG--TSQTVALYIKNGGHFITKLLNFPQ  181
+            S+ R+ M+  L++L NP    L  RFE    +      + + ++I N  +F+ K+     
+Sbjct  146  STARQDMNDFLAKLDNPQPVSLSSRFEALMNASDAAPKKNIGVFITNSQYFLAKVTGIAN  205
+
+Query  182  LNLPLGAMELYLTARR--NEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+            L+LPLGA+E+++  +   N+Y Y+LS++  N +  F ++FL+++VLN  I   G+ + +E
+Sbjct  206  LDLPLGAIEMHVIKKEKTNDYTYSLSVEADNNRAAFAVRFLLAKVLNGKIGGTGNSITVE  265
+
+Query  240  DGTISAERLASVISSLY  256
+            DGTI +E+LA++I +LY
+Sbjct  266  DGTIPSEKLAALIKTLY  282
+
+
+>ref|WP_006189259.1| hypothetical protein [Treponema vincentii]
+ gb|EEV19896.1| hypothetical protein TREVI0001_0026 [Treponema vincentii ATCC 
+35580]
+Length=287
+
+ Score =  303 bits (777),  Expect = 2e-99, Method: Composition-based stats.
+ Identities = 67/256 (26%), Positives = 130/256 (51%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  31   KYDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  90
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K    +  +YY S   D+ +     + ++ 
+Sbjct  91   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALNNTSYYSSAVADI-LMRERTAFMLL  149
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   +  L  + +P  P  PPRF+      G+   + LY ++G   IT +L    +
+Sbjct  150  GTEQRNT-AAFLQHIADPHPPIFPPRFQAL-PESGSIGEIGLYTRSGSLLITAMLGLDGV  207
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  208  DLPIRSIELYLKKNIDSVYQCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  267
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  268  DITEKELIKLLQGVFA  283
+
+
+>ref|YP_008434589.1| lipoprotein [Treponema pedis str. T A4]
+ ref|WP_020964753.1| lipoprotein [Treponema pedis]
+ gb|AGT43453.1| lipoprotein [Treponema pedis str. T A4]
+Length=284
+
+ Score =  297 bits (759),  Expect = 7e-97, Method: Composition-based stats.
+ Identities = 87/258 (34%), Positives = 142/258 (55%), Gaps = 11/258 (4%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFA--  63
+            K   +P G++G  AD+Y+Y PV  N  ++ +++     ++ +K+ + RTTA+Y       
+Sbjct  29   KGIEEPFGIIGDDADIYVYMPVEKNRKIVEQVLPAATGQS-MKQALSRTTAIYSGITISA  87
+
+Query  64   RSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFG  123
+               E R+   G YPY  T+  F + DGW   KT+ G  YYES + DVSIP+P  +C+  G
+Sbjct  88   AGVEVRVCARGKYPYGMTDSFFKKKDGWNPKKTKEGYKYYESPYLDVSIPSPLIACMGLG  147
+
+Query  124  SSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLN  183
+               R+ M ++LSR+  P  P+ P +F     S    Q + +++KN   F++ +L    L 
+Sbjct  148  PQNRKDMQELLSRMKKPVDPEFPEKFNFLINS--NLQDIGIFVKNPDLFLSGILGV-SLG  204
+
+Query  184  LPLGAMELYLTA-----RRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLII  238
+            LPLG +E+YL       ++NEY Y L ++ G  +     + ++ R L A + VE + LI+
+Sbjct  205  LPLGKIEMYLKKASDGMQQNEYRYDLYIESGTPQTTKVAKMILQRALKAEVKVEENMLIV  264
+
+Query  239  EDGTISAERLASVISSLY  256
+            E G IS E++ ++I S+Y
+Sbjct  265  EGGNISEEKITAIIKSIY  282
+
+
+>ref|WP_002673536.1| hypothetical protein [Treponema denticola]
+ gb|EMB44645.1| hypothetical protein HMPREF9730_01753 [Treponema denticola AL-2]
+Length=287
+
+ Score =  285 bits (729),  Expect = 3e-92, Method: Composition-based stats.
+ Identities = 87/256 (34%), Positives = 148/256 (58%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G GAD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GVVRPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+            + R+ M   L +L NP+    P RF+    S   SQ + +++KNG  F+ +++   QL L
+Sbjct  154  NDRQNMEVFLGKLSNPEEALFPQRFDTLVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_016524218.1| hypothetical protein [Treponema medium]
+ gb|EPF27796.1| hypothetical protein HMPREF9195_02297 [Treponema medium ATCC 
+700293]
+Length=253
+
+ Score =  281 bits (718),  Expect = 4e-91, Method: Composition-based stats.
+ Identities = 67/254 (26%), Positives = 123/254 (48%), Gaps = 7/254 (3%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFARSKE  67
+            +   G VG  ADVY+  P++GNE+L+  +      +    + + RT+ +Y GA +  +  
+Sbjct  1    MQAFGAVGMDADVYIVAPISGNESLLKALFTAFVPEKTAAQYLSRTSILYIGADYKVTPS  60
+
+Query  68   FRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIFGSS  125
+              +  SGSYP +  +L+FS+ DGW   +    +  TYY S   D+ +     + ++ G +
+Sbjct  61   VTVVSSGSYPVSLGDLLFSKKDGWEKRRAAALNNHTYYSSAIADIVV-QEKTAFMLLGDN  119
+
+Query  126  KRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLP  185
+            +R   +  L R+  P RP  PPRF+      G  + + LY ++G    T LL    + LP
+Sbjct  120  QRNS-AAFLQRIAEPHRPVFPPRFQALTELSGVGE-IGLYARSGSRIATALLGLEDIELP  177
+
+Query  186  LGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTIS  244
+            + ++ELYL    +  Y  +   +  +A+    ++ L+S  +N    V+   + +E+  I+
+Sbjct  178  IRSIELYLKKDIDALYRCSAMFEATDARAALVVRLLLSHGMNGDFSVQDSSVFVENADIT  237
+
+Query  245  AERLASVISSLYSK  258
+               L  ++  +  K
+Sbjct  238  ETELIRMLKPIIFK  251
+
+
+>ref|WP_016518137.1| hypothetical protein [Treponema vincentii]
+ gb|EPF47680.1| hypothetical protein HMPREF1222_00582 [Treponema vincentii F0403]
+Length=294
+
+ Score =  280 bits (716),  Expect = 3e-90, Method: Composition-based stats.
+ Identities = 67/256 (26%), Positives = 129/256 (50%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  38   KHDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  97
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K       +YY S   D+ +     + ++ 
+Sbjct  98   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALSNTSYYSSAVADI-LMRERTAFMLL  156
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   +  L  + +P  P  PPRF+      G+   + LY ++G   IT +L    +
+Sbjct  157  GTEQRNT-AAFLQHIADPRPPIFPPRFQAL-PESGSISEIGLYTRSGSRLITAMLGLDGV  214
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  215  DLPIRSIELYLKKNIDSVYKCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  274
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  275  DITEKELIKLLQGVFA  290
+
+
+>ref|WP_002687984.1| hypothetical protein [Treponema denticola]
+ gb|EMB30851.1| hypothetical protein HMPREF9727_00536 [Treponema denticola MYR-T]
+ gb|EMB31780.1| hypothetical protein HMPREF9725_00902 [Treponema denticola H1-T]
+Length=287
+
+ Score =  279 bits (714),  Expect = 6e-90, Method: Composition-based stats.
+ Identities = 84/256 (33%), Positives = 144/256 (56%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF+    S   SQ + +++KNG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSQRFDALVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010689406.1| hypothetical protein [Treponema denticola]
+ gb|EMB42137.1| hypothetical protein HMPREF9722_00694 [Treponema denticola ATCC 
+33520]
+Length=287
+
+ Score =  276 bits (706),  Expect = 7e-89, Method: Composition-based stats.
+ Identities = 83/256 (32%), Positives = 142/256 (55%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|NP_973260.1| lipoprotein [Treponema denticola ATCC 35405]
+ ref|WP_002680709.1| hypothetical protein [Treponema denticola]
+ gb|AAS13179.1| lipoprotein, putative [Treponema denticola ATCC 35405]
+ gb|EMB37475.1| hypothetical protein HMPREF9721_01314 [Treponema denticola ATCC 
+35404]
+ gb|EMB40958.1| hypothetical protein HMPREF9735_00516 [Treponema denticola ATCC 
+33521]
+Length=287
+
+ Score =  276 bits (706),  Expect = 8e-89, Method: Composition-based stats.
+ Identities = 83/256 (32%), Positives = 142/256 (55%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GVVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010698163.1| hypothetical protein [Treponema denticola]
+ gb|EMB26053.1| hypothetical protein HMPREF9724_00583 [Treponema denticola SP37]
+ gb|EPF34208.1| hypothetical protein HMPREF9734_01217 [Treponema denticola SP44]
+ gb|EPF39630.1| hypothetical protein HMPREF9731_01438 [Treponema denticola SP23]
+Length=287
+
+ Score =  276 bits (706),  Expect = 9e-89, Method: Composition-based stats.
+ Identities = 83/256 (32%), Positives = 142/256 (55%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002667145.1| hypothetical protein [Treponema denticola]
+ gb|EGC77816.1| lipoprotein [Treponema denticola F0402]
+Length=281
+
+ Score =  276 bits (705),  Expect = 1e-88, Method: Composition-based stats.
+ Identities = 83/256 (32%), Positives = 142/256 (55%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  29   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  87
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  88   LTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  147
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  148  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  204
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  205  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  264
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  265  SVTESRIIEIIKSLYN  280
+
+
+>ref|WP_002684394.1| hypothetical protein [Treponema denticola]
+ gb|EMB33511.1| hypothetical protein HMPREF9726_01325 [Treponema denticola H-22]
+Length=287
+
+ Score =  276 bits (705),  Expect = 1e-88, Method: Composition-based stats.
+ Identities = 84/256 (33%), Positives = 143/256 (56%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010692566.1| hypothetical protein [Treponema denticola]
+ gb|EMB27799.1| hypothetical protein HMPREF9733_00241 [Treponema denticola SP33]
+ gb|EPF36299.1| hypothetical protein HMPREF9732_01664 [Treponema denticola SP32]
+Length=287
+
+ Score =  275 bits (704),  Expect = 1e-88, Method: Composition-based stats.
+ Identities = 85/256 (33%), Positives = 145/256 (57%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G GAD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F + +
+Sbjct  35   GVVSPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GW   KT+    YY+S + DVSIP+P  +C++ G 
+Sbjct  94   LTEIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDVSIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+            + R+ M   L +L  P+    P RF+    S   SQ + +++KNG  F+ +++   QL L
+Sbjct  154  NDRQSMEVFLGKLSKPEEAIFPQRFDDLVNS--GSQDIGIFVKNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LI+E+ 
+Sbjct  211  PVGVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIMENR  270
+
+Query  242  TISAERLASVISSLYS  257
+             ++  ++  +I SLY+
+Sbjct  271  PVTESKIIDIIKSLYN  286
+
+
+>ref|WP_002676123.1| hypothetical protein [Treponema denticola]
+ gb|EMB47404.1| hypothetical protein HMPREF9729_00747 [Treponema denticola ASLM]
+ gb|EMD55625.1| hypothetical protein HMPREF9728_02524 [Treponema denticola US-Trep]
+Length=287
+
+ Score =  275 bits (703),  Expect = 2e-88, Method: Composition-based stats.
+ Identities = 84/256 (33%), Positives = 143/256 (56%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F + +
+Sbjct  35   GIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNIMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002691629.1| hypothetical protein [Treponema denticola]
+ gb|EMB23913.1| hypothetical protein HMPREF9723_01051 [Treponema denticola OTK]
+Length=287
+
+ Score =  275 bits (702),  Expect = 4e-88, Method: Composition-based stats.
+ Identities = 84/256 (33%), Positives = 142/256 (55%), Gaps = 9/256 (4%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSK  66
+              V P G++G  AD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F + +
+Sbjct  35   GVVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVKDR  93
+
+Query  67   --EFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+              E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ G 
+Sbjct  94   LTEIRICSTGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVMGP  153
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+              R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL L
+Sbjct  154  DNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QLGL  210
+
+Query  185  PLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            P+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE+ 
+Sbjct  211  PVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIENR  270
+
+Query  242  TISAERLASVISSLYS  257
+            +++  R+  +I SLY+
+Sbjct  271  SVTESRIIEIIKSLYN  286
+
+
+>ref|WP_016525460.1| hypothetical protein [Treponema maltophilum]
+ gb|EPF30849.1| hypothetical protein HMPREF9194_01174 [Treponema maltophilum 
+ATCC 51939]
+Length=308
+
+ Score =  211 bits (536),  Expect = 4e-63, Method: Composition-based stats.
+ Identities = 58/270 (21%), Positives = 117/270 (43%), Gaps = 26/270 (10%)
+
+Query  9    VDPLGVVGSGADVYLYFPV-AGNENLISRIIENH---ESKADIKKIVDRTTAVYGAFFAR  64
+            +D   +   GADVYL+ PV   N++ +  ++ +     +++D+  +++RT  +  AFF  
+Sbjct  37   IDLFTLFDDGADVYLHIPVNEANKSFVRNLVNSWTDDVNESDLNNMLNRTEEIAAAFFIE  96
+
+Query  65   -------SKEFRLFGSGSYPYAFTNLIFSRSDGWA--STKTEHGITYYESEHTDVSIPAP  115
+                   + +F+L   G YP    N   ++ +GW   S K    I   +    ++ + +P
+Sbjct  97   WGANLKSTVKFQLASRGKYPSLLINAGLTKKNGWTDVSEKAADMILNRKRHSNNIELASP  156
+
+Query  116  HFSCVIFGSSKRERMS-KMLSRLVNP----DRPQLPPRFEKEC--TSEGTSQTVALYIKN  168
+              + +   +     M  K    L++P    D P LP         T    ++ V++Y+  
+Sbjct  157  DNNHIFISNKDVLSMQKKYFLSLISPVSVLDWPSLPGENTALPVRTLMDDAELVSVYMPT  216
+
+Query  169  GGHFITKLLNFP-QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI-NFPIQFLISRVLN  226
+             G  + K++  P +L +   A  L  + + +  + TL LQ+ + +      +     VL 
+Sbjct  217  AGSLLPKMVGSPIELGIKYAAGTLK-SYKEDHAIVTLKLQMSDERSLKIAEKLFRFAVLG  275
+
+Query  227  AHIHVEGDR---LIIEDGTISAERLASVIS  253
+             +I V+ DR   LI+++  +    L  ++ 
+Sbjct  276  TNIIVKQDRGTVLILDNFVVWPAALTGLLQ  305
+
+
+>ref|WP_021687082.1| hypothetical protein [Treponema lecithinolyticum]
+ gb|ERJ93575.1| hypothetical protein HMPREF9193_00864 [Treponema lecithinolyticum 
+ATCC 700332]
+Length=305
+
+ Score =  152 bits (383),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 57/274 (21%), Positives = 105/274 (38%), Gaps = 31/274 (11%)
+
+Query  8    SVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKAD---IKKIVDRTTAVYGAFFAR  64
+            + D   +  S AD+YL  PV  NE  +S +        D   ++K++ RT+ +Y AFF +
+Sbjct  33   AADMFTLFDSDADLYLRIPVRSNEAFVSALARAWLPSLDARSLQKLMKRTSVLYAAFFVQ  92
+
+Query  65   SKE-------FRLFGSGSYPYAFTNLIFSRSDGWAST-KTEHGITY-YESEHTDVSIPAP  115
+             K+       F+L   GSYP  F     S+ +GW +  +TE    Y +++    +    P
+Sbjct  93   QKDKGKTDVLFQLAAEGSYPALFFTAALSKKNGWTNEFQTEKDKVYPHKNWQYGIEAANP  152
+
+Query  116  HFSCVIFGSSKRERMSKMLSRLVNP------DRPQLPPRFEKECT---SEGTSQTVALYI  166
+              + +   +     M K  SR+         + P L                 +  A Y+
+Sbjct  153  DSAHIFISNKAVFPMQKKYSRIFTEKTELALNWPSLNDEQGNPVPVRSLLNEPEKAAFYM  212
+
+Query  167  KNGGHFITKLLNFP---QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI-NFPIQFLIS  222
+               G  +  +   P    +   +G ++ Y   + +  L  + LQ+ + +      +    
+Sbjct  213  SEAGTLLPAMAGAPITLAIEFAVGTVQPY---KNDYALLHMRLQMSDERASKIAAKLFRF  269
+
+Query  223  RVLNAHIHVE---GDRLIIEDGTISAERLASVIS  253
+             VL  ++ V    G+ L I++  +     A  I 
+Sbjct  270  AVLGTNLKVSEQAGNILEIDNLVVEPSLFAGFIQ  303
+
+
+>ref|WP_002706379.1| hypothetical protein [Treponema saccharophilum]
+ gb|EIC00703.1| hypothetical protein TresaDRAFT_0176 [Treponema saccharophilum 
+DSM 2985]
+Length=284
+
+ Score = 73.6 bits (179),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 51/255 (20%), Positives = 101/255 (40%), Gaps = 31/255 (12%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLI---SRIIENHESKADIKKIVDRTTAVY  58
+            S +  A V    ++   A++Y   PV  N++ +   S +  +     D++K+++R  AVY
+Sbjct  30   SSSLPADVAARDLLVPDAEIYFSVPVEPNKSFLMKASSLALSGTKPGDVRKMLERIDAVY  89
+
+Query  59   ---GAFFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTD----VS  111
+                     S       SGS+P           +GW   +      Y   +H D    +S
+Sbjct  90   ISCSGIDGASPTIGAVASGSFPATLAGFFLKEGNGWRRREVGAHKCY---DHMDTGYGLS  146
+
+Query  112  IPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGH  171
+              +   +C+   +S  + +S  LSR  +     L     +      +   ++ +I +GG 
+Sbjct  147  FASSSLACL---ASDGDALSAELSRFDS----ALSGSLLEHVDFAESDGAISFFIPDGGW  199
+
+Query  172  FITKLL--NFPQLNLPLGAMELYLTARR--NEYLYTLSLQLGNAKINFPIQ------FLI  221
+            F+   L   F ++   + ++  +L+       +  +LSL++ + ++   +        L 
+Sbjct  200  FMETFLSNGFIKIG-GVESVAGFLSQVEGAEAFDVSLSLKVPDERMRRAVSGMMRIFGLR  258
+
+Query  222  SRVLNAHIHVEGDRL  236
+            + VL   I V G RL
+Sbjct  259  AEVLGEDISVSGVRL  273
+
+
+>ref|YP_004365347.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+ ref|WP_013701339.1| hypothetical protein [Treponema succinifaciens]
+ gb|AEB14050.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+Length=312
+
+ Score = 71.3 bits (173),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 41/265 (15%), Positives = 97/265 (37%), Gaps = 27/265 (10%)
+
+Query  8    SVDPLGVVGSGADVYLYFPVAGNENLISRIIENHES---KADIKKIVDRTTAVYGAFFAR  64
+            +VDPL ++   + +Y+  P + N+ L+S+I+ +  S   + D + I  RT  +Y      
+Sbjct  29   NVDPLSLLEENSSIYMSVPASKNQELVSKILCSKISGLAEKDARAIAARTEILYAGLGTV  88
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                  ++    S P        S+ +GW     +  ++YYE      +  +  F     
+Sbjct  89   DDRSRLQIVSETSIPRIVVQSSLSKKNGWE----KSFVSYYEKVFEKFTHASDGFQASFP  144
+
+Query  123  GSS---KRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNF  179
+             S+     + +  +L +    +       ++     + +   +  YI   G ++  L+  
+Sbjct  145  SSNLVCASQNVDLLLKKFAENNPAP-ETAWKNWIAQDLSQGEILFYITKPGQYLRSLIGQ  203
+
+Query  180  P---QLNLPLGAMELYLTARRNEYLYTLSLQLG------NAKINFPIQFLI---SRVLNA  227
+                  +   G++  Y   +++   Y+   +L       + +    ++ L+     +   
+Sbjct  204  SINVGTDAIFGSL-CYFPDKKDSAKYSGKYELSFSIHLLDKRSVVALRSLLGLSFAMTGG  262
+
+Query  228  HIHVEGD-RLIIEDGTISAERLASV  251
+             +    D  L I    IS  ++  +
+Sbjct  263  AVEQTDDFTLRISGIEISENKIEEL  287
+
+
+>ref|WP_016520154.1| hypothetical protein [Treponema socranskii]
+ gb|EPF26929.1| hypothetical protein HMPREF1221_00509 [Treponema socranskii subsp. 
+paredis ATCC 35535]
+Length=287
+
+ Score = 66.3 bits (160),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 45/267 (17%), Positives = 87/267 (33%), Gaps = 31/267 (12%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIEN---HESKADIKKIVDRTTAVYGAFFA  63
+            A V+PL ++   A  Y+  P   +  L+ RI+ +   H S++D K I  R   +Y A   
+Sbjct  27   AEVNPLDLLSGDAAFYMRIPKKTDGELVERILRSIAEHISESDAKLIAGRIDTIYAALTR  86
+
+Query  64   RSKEFRL--FGSGSYPYAFTNLIFSRSDGWA-----STKTEHGITYYESEHTDVSIPAPH  116
+                F +    SG+ P      +  +S  W         +     YY S    ++ P+P 
+Sbjct  87   TKTNFSVEAAVSGNIPRRTAGALLLKSAQWKIETHIPVGSIRPYIYYASAGVSLAFPSPS  146
+
+Query  117  FSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSE------GTSQTVALYIKNGG  170
+              C    ++    M                       +             +  Y  N  
+Sbjct  147  IVC---AANDVRPMLSAFDAHA------FRGSLSHNVSDAVFDWLDAAGSEIRFYAPNPL  197
+
+Query  171  HFITKLLNFP-QLNLPLGAMELYL-TARRNEYLYTLSLQLGNAKINFPIQFLISRVLN-A  227
+             F+T L      L L      +   +A  ++YL ++     N  +    + +++      
+Sbjct  198  SFLTILTGTNLNLQLNYVKGAMISDSAHEDQYLMSIEFDFNNKNVVRAGEAMLALAFGLT  257
+
+Query  228  HIHVEGDR---LIIEDGTISAERLASV  251
+            +  V  +    + +    I+  +L  +
+Sbjct  258  NAQVTRNSPTNITVSGIRINKRQLYKL  284
+
+
+>ref|WP_021330997.1| hypothetical protein [Treponema socranskii]
+ gb|ERF60032.1| hypothetical protein HMPREF1325_1203 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+ gb|ERK04172.1| hypothetical protein HMPREF0860_2600 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+Length=287
+
+ Score = 64.7 bits (156),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 44/261 (17%), Positives = 87/261 (33%), Gaps = 19/261 (7%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIEN---HESKADIKKIVDRTTAVYGAFFA  63
+            A V+P+ ++   A  Y+  P   +  L+ RI+     H S++D K I  R   +Y A   
+Sbjct  27   AEVNPIDLLSGDASFYMRIPKKTDGELVERILRASAQHISESDAKLISGRIDTIYAAISR  86
+
+Query  64   RSKEFRL--FGSGSYPYAFTNLIFSRSDGWA-----STKTEHGITYYESEHTDVSIPAPH  116
+                F +    SG+ P      +  +S  W        ++     YY S    ++ P+P 
+Sbjct  87   TKTSFSVEAAVSGNIPRRTAQALLLKSAQWKTETHIPERSIRPYFYYASNGVSLAFPSPS  146
+
+Query  117  FSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKL  176
+              C    ++    M                         + +   +  Y  N   F+T L
+Sbjct  147  IVC---AANDVRPMLSAFDAHAYGGSISHNVSDAVYDWLDVSGSEIRFYAPNPLSFLTIL  203
+
+Query  177  LNFP-QLNLPLGAMELYL-TARRNEYLYTLSLQLGNAKINFPIQFLISRVLN-AHIHVEG  233
+                  L L      +   +A  ++YL ++     N  I    + +++      +     
+Sbjct  204  TGTNLNLQLNYVKGAMISDSAHEDQYLMSIEFDFNNKNIVRAGEAMLALAFGLTNAQTTR  263
+
+Query  234  DR---LIIEDGTISAERLASV  251
+            +    + +    I+  +L  +
+Sbjct  264  NSPTNITVSGIRINKRQLYKL  284
+
+
+>ref|YP_004440081.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+ ref|WP_013758655.1| hypothetical protein [Treponema brennaborense]
+ gb|AEE16950.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+Length=310
+
+ Score = 62.8 bits (151),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 48/233 (21%), Positives = 85/233 (36%), Gaps = 26/233 (11%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESK---ADIKKIVDRTTAVY  58
+            SGA    + P  ++     +Y+ FP   NE  +    +    +   ADI+K++ R   VY
+Sbjct  33   SGAAAGRLQPFSLMPENTVLYVQFPAVPNEGAVRAFTDALAPQLAPADIRKVLKRVDTVY  92
+
+Query  59   GAFFARSKEFRLFGSGSYPYAFTNLIFSRSDGWAS---TKTEHGITYYESEHTDVSIPAP  115
+              F A         +GS+P      +FS+ +GW             YY      +    P
+Sbjct  93   AGFDASGN-LSSAVTGSFPSFALGAVFSKKNGWRKIPAASGGGAGAYYARPDIPLQFAFP  151
+
+Query  116  HFSCVIFGSSKRERMSKMLSRLVNPD---RPQLPPRFEKECTSEG----TSQTVALYIKN  168
+              S     +     +S M +    PD      +  R E   +S G     +  +  YIK+
+Sbjct  152  SSSLAFIAA----DVSAMFAGGTEPDIGAAIAIDGRAEAVSSSYGFTHAAADDIRFYIKD  207
+
+Query  169  GGHFITKLLNFPQL-NLPLGAMELYLTARRNE-------YLYTLSLQLGNAKI  213
+                + +L     + + PL A+   L+    +       Y  T  ++L +++ 
+Sbjct  208  PIFVMRRLRQSGFVFDFPLAAVSGTLSFAGLDPETGSPAYALTALIELSDSRA  260
+
+
+>ref|YP_004527692.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+ ref|WP_015711795.1| hypothetical protein [Treponema azotonutricium]
+ gb|AEF81785.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+Length=304
+
+ Score = 55.1 bits (131),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 42/210 (20%), Positives = 75/210 (36%), Gaps = 17/210 (8%)
+
+Query  12   LGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARS--KEFR  69
+             G++  GA VYL+  V     L+  +        D + ++DRT     AF+     + F 
+Sbjct  35   FGLLPLGARVYLWADVKEGRPLLDALSFQGLDGKDARDVLDRTGTAAAAFYPEQAAQRFF  94
+
+Query  70   LFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRER  129
+            L G GSYP     +  + S  W   K+E G  ++ S+   + +          GS     
+Sbjct  95   LAGWGSYPSTRAGISMAFSRDWKHAKSETGKKFWFSKGWGLGVA--------MGSKLALA  146
+
+Query  130  MSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPLGAM  189
+              K          P+    F + C   G       ++   G  + + L   ++ + + A 
+Sbjct  147  TDKDPFAPGGAASPEGFEEFRRACVFAG-------WMPEPGEALNRFLQAMEIPIKIPAE  199
+
+Query  190  ELYLTARRNEYLYTLSLQLGNAKINFPIQF  219
+            E +  A R     + +   G+ K     + 
+Sbjct  200  EFFFGAARAGGTVSGAPPGGDEKWELAARI  229
+
+
+>ref|YP_004697836.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+ ref|WP_013968639.1| hypothetical protein [Treponema caldaria]
+ gb|AEJ19328.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+Length=326
+
+ Score = 46.6 bits (109),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 33/158 (21%), Positives = 63/158 (40%), Gaps = 16/158 (10%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKI----VDRTTAVYGAFFAR  64
+            ++P   + SGA +Y+Y  +    NLI+ +         +++I    + +   VYGA +  
+Sbjct  32   LNPFAKLPSGASLYVYGDIEKTRNLINGLYR-LGPVKALQRIPEKSLAKVGTVYGALYNE  90
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+               + F +  SG +P   T L  + S  W   +TE G +Y+ SE   +S+          
+Sbjct  91   EEPQRFYILVSGRFPVVRTFLSLTFSPDWKQKRTE-GFSYWRSEKDGLSLH--------I  141
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQ  160
+             S +      +  +  + +RP      +     E   +
+Sbjct  142  DSKQMVITDGIPLKGSSEERPLKSGSLQNNVNGEAGGE  179
+
+
+>gb|EFR29274.1| hypothetical protein AND_01929 [Anopheles darlingi]
+Length=1375
+
+ Score = 39.7 bits (91),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 19/137 (14%), Positives = 48/137 (35%), Gaps = 5/137 (4%)
+
+Query  108   TDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIK  167
+              +V I     SC+  G    + M        + D  ++           G  +  ++Y  
+Sbjct  1175  LEVKIQEVEKSCLSDGEMHHDSMRDFPGSFTDSDDSRVGSGGNSCIYPAGYIRDTSIYAP  1234
+
+Query  168   NGGHFITKLLNFPQLNLPLGAMELYLTA---RRNEYLYTLSLQLGNAKINFPIQFLISRV  224
+             +    +  +    + +  L  +  Y+     ++  Y Y + + L + +     ++   R 
+Sbjct  1235  SVTRSLPSMEGTYRSD-HLINIPTYIIRGAGKQTHYEYEVKINLPDERWTLLRRYSRFRE  1293
+
+Query  225   LNAHIHVE-GDRLIIED  240
+             L+  +  + GD+L   +
+Sbjct  1294  LHLAMKKQYGDKLFASN  1310
+
+
+>gb|EJY78020.1| hypothetical protein OXYTRI_00337 [Oxytricha trifallax]
+Length=803
+
+ Score = 38.9 bits (89),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 22/138 (16%), Positives = 48/138 (35%), Gaps = 9/138 (7%)
+
+Query  28   AGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSKEFRLFGSGSYPYAFTNLIFSR  87
+              N++++     +  S  D  +      A      + +++++    GS P  FT L   +
+Sbjct  669  YPNKSILQTSTRSLISFQDTSR--KNQPASKNQVLSMNQQYQTCNRGSKPIQFTKLTIPK  726
+
+Query  88   SDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPP  147
+                   KT     YY+S+      P    +     S +   + K L ++ N        
+Sbjct  727  -----PKKTAQQDQYYQSQKNLKKAPCKTNANNSILSKENNSLQKSLQKIKN--EILFNK  779
+
+Query  148  RFEKECTSEGTSQTVALY  165
+            + +   +S  T +   ++
+Sbjct  780  KLQAVNSSVNTPKEKQVF  797
+
+
+>ref|YP_005061352.1| hypothetical protein [Sphaerochaeta pleomorpha str. Grapes]
+ ref|WP_014269191.1| hypothetical protein [Sphaerochaeta pleomorpha]
+ gb|AEV28342.1| hypothetical protein SpiGrapes_0487 [Sphaerochaeta pleomorpha 
+str. Grapes]
+Length=293
+
+ Score = 37.4 bits (85),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 31/255 (12%), Positives = 86/255 (34%), Gaps = 28/255 (11%)
+
+Query  21   VYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFF-ARSKEFRLFG--SGSYP  77
+            + +       + L++      +  +     V  +    G  F  +  + + +G   G YP
+Sbjct  42   IVVTIDAKAEKALVASAFTGMDEFSRRANRVSLSLTPSGDEFPIQGNDLQAYGVVQGDYP  101
+
+Query  78   YAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRERMSKMLSRL  137
+                N     S   +  +   G++++  ++ ++S+ A     ++F +       + + + 
+Sbjct  102  RFLINTGMMYSSSLSMQENTDGLSWFTQKNGNLSLSAAKNDVLLFTNGSYADAYESIGQK  161
+
+Query  138  VNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLP-LGAMELYLTAR  196
+            +           + E      S  +A+Y      F    L      +  +  + L +   
+Sbjct  162  IA--------FIDDETAFRMASVAIAVYADEPETFFDLGLGLNDAAVKQMKKILLLINQN  213
+
+Query  197  RNEYLYTLSLQLGNAKIN----------FPIQFLISRV------LNAHIHVEGDRLIIED  240
+             + +     + + N K+           +  +    +V      L     +EGD L I+ 
+Sbjct  214  GDMHTLDAYITMDNPKLAQTLSQMVRTGYLARLKKEKVPYKIADLMKMFLIEGDLLTIKG  273
+
+Query  241  GTISAERLASVISSL  255
+             +++ E++  +  ++
+Sbjct  274  MSLTEEQMGMLEQNI  288
+
+
+>ref|YP_004247334.1| hypothetical protein [Sphaerochaeta globosa str. Buddy]
+ ref|WP_013606991.1| hypothetical protein [Sphaerochaeta globosa]
+ gb|ADY13140.1| hypothetical protein SpiBuddy_1315 [Sphaerochaeta globosa str. 
+Buddy]
+Length=294
+
+ Score = 37.0 bits (84),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 30/204 (15%), Positives = 69/204 (34%), Gaps = 34/204 (17%)
+
+Query  74   GSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHF-SCVIFGSSKRERMSK  132
+            G YP    N     +  +       G+T++  +   +S+  P     +   +S  E  + 
+Sbjct  99   GDYPKFLINTGMMYAKEFERKSNADGLTWFAQKEGTLSLYTPKNDKFLFTNTSYEESYAA  158
+
+Query  133  MLS--RLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPLGAME  190
+              +  RL++                +    ++A+Y  +   F    L  P+  +    + 
+Sbjct  159  FEAKNRLIDDQ-----------TAMQMAHASIAVYSLHPETFFDLGLGLPETVIKQAKV-  206
+
+Query  191  LYLTARRNE---YLYTLSLQLGNAKIN----------FPIQFLISRV------LNAHIHV  231
+            + L   +NE   Y     + +   K+           +  +    ++      L     +
+Sbjct  207  MLLLVNQNEAGAYTLDAFITMDTTKLASTLSQMVRSGYIARLKREKIPYKIADLMQMFLI  266
+
+Query  232  EGDRLIIEDGTISAERLASVISSL  255
+            E DR+ I+   +  E++ ++  SL
+Sbjct  267  EDDRVTIKHMELGEEQMQALRQSL  290
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0405    0.140     1.90     42.6     43.6 
+
+Effective search space used: 884484650040
+Results from round 3
+
+
+Query= 3K8GA
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_218894.1|  hypothetical protein TP0453 [Treponema pallidum...   327    8e-109
+pdb|3K8G|A  Chain A, Structure Of Crystal Form I Of Tp0453 >pdb|3...   325    2e-108
+ref|YP_005631332.1|  hypothetical protein TPChic_0453 [Treponema ...   324    6e-108
+ref|YP_004673186.1|  hypothetical protein TPCCA_0453 [Treponema p...   323    3e-107
+ref|WP_002694836.1|  lipofamily protein [Treponema phagedenis] >g...   286    1e-92 
+ref|YP_008434589.1|  lipoprotein [Treponema pedis str. T A4] >ref...   261    7e-83 
+ref|WP_002673536.1|  hypothetical protein [Treponema denticola] >...   248    1e-77 
+ref|WP_010689406.1|  hypothetical protein [Treponema denticola] >...   242    1e-75 
+ref|WP_002687984.1|  hypothetical protein [Treponema denticola] >...   242    2e-75 
+ref|WP_010698163.1|  hypothetical protein [Treponema denticola] >...   241    2e-75 
+ref|WP_002667145.1|  hypothetical protein [Treponema denticola] >...   241    3e-75 
+ref|NP_973260.1|  lipoprotein [Treponema denticola ATCC 35405] >r...   241    4e-75 
+ref|WP_002684394.1|  hypothetical protein [Treponema denticola] >...   240    1e-74 
+ref|WP_002676123.1|  hypothetical protein [Treponema denticola] >...   240    2e-74 
+ref|WP_006189259.1|  hypothetical protein [Treponema vincentii] >...   239    3e-74 
+ref|WP_002691629.1|  hypothetical protein [Treponema denticola] >...   238    7e-74 
+ref|WP_010692566.1|  hypothetical protein [Treponema denticola] >...   238    8e-74 
+ref|WP_016524218.1|  hypothetical protein [Treponema medium] >gb|...   234    1e-72 
+ref|WP_016518137.1|  hypothetical protein [Treponema vincentii] >...   218    3e-66 
+ref|WP_016525460.1|  hypothetical protein [Treponema maltophilum]...   207    2e-61 
+ref|WP_021687082.1|  hypothetical protein [Treponema lecithinolyt...   205    8e-61 
+ref|WP_021330997.1|  hypothetical protein [Treponema socranskii] ...   203    4e-60 
+ref|WP_016520154.1|  hypothetical protein [Treponema socranskii] ...   200    3e-59 
+ref|YP_004365347.1|  hypothetical protein Tresu_1138 [Treponema s...   184    1e-52 
+ref|WP_002706379.1|  hypothetical protein [Treponema saccharophil...   173    7e-49 
+ref|YP_004527692.1|  hypothetical protein TREAZ_0128 [Treponema a...   165    2e-45 
+ref|YP_004440081.1|  hypothetical protein Trebr_1527 [Treponema b...   144    1e-37 
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_022931512.1|  hypothetical protein [Treponema bryantii]         117    1e-27
+ref|WP_009107494.1|  hypothetical protein [Treponema sp. JC4] >gb...   101    8e-22
+ref|YP_004697836.1|  hypothetical protein Spica_1182 [Treponema c...  65.5    3e-09
+ref|WP_010253683.1|  hypothetical protein [Treponema primitia]        53.2    5e-05
+gb|EFR29274.1|  hypothetical protein AND_01929 [Anopheles darlingi]   41.3    0.52 
+ref|XP_001273577.1|  conserved hypothetical protein [Aspergillus ...  38.6    3.0  
+ref|WP_004793695.1|  hypothetical protein [Borrelia garinii] >gb|...  37.4    4.8  
+ref|WP_007176306.1|  formylmethanofuran--tetrahydromethanopterin ...  37.4    5.6  
+ref|WP_009776347.1|  hypothetical protein [Janibacter sp. HTCC264...  36.6    5.9  
+
+
+>ref|NP_218894.1| hypothetical protein TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|YP_001933457.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_005221564.1| hypothetical protein TPESAMD_0453 [Treponema pallidum subsp. 
+pertenue str. SamoaD]
+ ref|YP_005222633.1| hypothetical protein TPEGAU_0453 [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ ref|YP_005223697.1| hypothetical protein TPADAL_0453 [Treponema pallidum subsp. pallidum 
+DAL-1]
+ ref|YP_005230241.1| hypothetical protein TPECDC2_0453 [Treponema pallidum subsp. 
+pertenue str. CDC2]
+ ref|YP_006869773.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ ref|YP_007936256.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ ref|YP_008119200.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+ ref|YP_008091302.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ ref|WP_010881902.1| membrane protein [Treponema pallidum]
+ gb|AAC18996.1| 30kLP [Treponema pallidum]
+ gb|AAC65443.1| predicted coding region TP0453 [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|ACD70878.1| hypothetical protein TPASS_0453 [Treponema pallidum subsp. pallidum 
+SS14]
+ gb|AEZ57576.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. SamoaD]
+ gb|AEZ58645.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. CDC2]
+ gb|AEZ59713.1| putative membrane protein [Treponema pallidum subsp. pertenue 
+str. Gauthier]
+ gb|AEZ60777.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+DAL-1]
+ gb|AFU66457.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Mexico A]
+ gb|AGK84098.1| putative membrane protein [Treponema pallidum str. Fribourg-Blanc]
+ gb|AGN75647.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+str. Nichols]
+ gb|AGN76623.1| putative membrane protein [Treponema pallidum subsp. pallidum 
+SS14]
+Length=287
+
+ Score =  327 bits (839),  Expect = 8e-109, Method: Composition-based stats.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  27   SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  267  TISAERLASVISSLYSKKGSS  287
+
+
+>pdb|3K8G|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8G|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|A Chain A, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8H|B Chain B, Structure Of Crystal Form I Of Tp0453
+ pdb|3K8I|A Chain A, Structure Of Crystal Form Iv Of Tp0453
+ pdb|3K8J|A Chain A, Structure Of Crystal Form Iii Of Tp0453
+Length=262
+
+ Score =  325 bits (834),  Expect = 2e-108, Method: Composition-based stats.
+ Identities = 262/262 (100%), Positives = 262/262 (100%), Gaps = 0/262 (0%)
+
+Query  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+            GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA
+Sbjct  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+
+Query  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+            FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV
+Sbjct  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+
+Query  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+            IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP
+Sbjct  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFP  180
+
+Query  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+            QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED
+Sbjct  181  QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIED  240
+
+Query  241  GTISAERLASVISSLYSKKGSS  262
+            GTISAERLASVISSLYSKKGSS
+Sbjct  241  GTISAERLASVISSLYSKKGSS  262
+
+
+>ref|YP_005631332.1| hypothetical protein TPChic_0453 [Treponema pallidum subsp. pallidum 
+str. Chicago]
+ ref|WP_014505505.1| membrane protein [Treponema pallidum]
+ gb|ADD72574.1| conserved hypothetical protein [Treponema pallidum subsp. pallidum 
+str. Chicago]
+Length=268
+
+ Score =  324 bits (831),  Expect = 6e-108, Method: Composition-based stats.
+ Identities = 261/261 (100%), Positives = 261/261 (100%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF
+Sbjct  8    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  67
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  68   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  127
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  128  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  187
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  188  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  247
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYSKKGSS
+Sbjct  248  TISAERLASVISSLYSKKGSS  268
+
+
+>ref|YP_004673186.1| hypothetical protein TPCCA_0453 [Treponema paraluiscuniculi Cuniculi 
+A]
+ ref|WP_013945104.1| membrane protein [Treponema paraluiscuniculi]
+ gb|AEH40395.1| hypothetical membrane protein [Treponema paraluiscuniculi Cuniculi 
+A]
+Length=287
+
+ Score =  323 bits (828),  Expect = 3e-107, Method: Composition-based stats.
+ Identities = 257/261 (98%), Positives = 260/261 (99%), Gaps = 0/261 (0%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAF  61
+            SGAW+ASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKA+IKKIVDRTTAVYGAF
+Sbjct  27   SGAWRASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKANIKKIVDRTTAVYGAF  86
+
+Query  62   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  121
+            FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI
+Sbjct  87   FARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVI  146
+
+Query  122  FGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  181
+            FGSSKRERMSKMLSRLVN DRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ
+Sbjct  147  FGSSKRERMSKMLSRLVNSDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQ  206
+
+Query  182  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG
+Sbjct  207  LNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  266
+
+Query  242  TISAERLASVISSLYSKKGSS  262
+            TISAERLASVISSLYS+KGSS
+Sbjct  267  TISAERLASVISSLYSEKGSS  287
+
+
+>ref|WP_002694836.1| lipofamily protein [Treponema phagedenis]
+ gb|EFW39432.1| hypothetical protein HMPREF9554_00043 [Treponema phagedenis F0421]
+Length=284
+
+ Score =  286 bits (731),  Expect = 1e-92, Method: Composition-based stats.
+ Identities = 104/260 (40%), Positives = 170/260 (65%), Gaps = 4/260 (2%)
+
+Query  1    GSGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGA  60
+             + AWK + +PLG++G  AD+Y+Y PVA N+ L+  I+E + +  DIKK+++RT AVY  
+Sbjct  23   ATKAWKGTFNPLGLIGPDADMYMYIPVAPNKALLYEILEGNNNAKDIKKVLNRTKAVYAG  82
+
+Query  61   FFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCV  120
+            FF  S EFR+  SG YP++ TN++F +S GW   KT  GI YY+S + D+SIP+ + +CV
+Sbjct  83   FFIESNEFRICSSGGYPFSLTNMLFPKSKGWKPGKTAKGIRYYQSGYMDISIPSGNTACV  142
+
+Query  121  IFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTS--QTVALYIKNGGHFITKLLN  178
+            + GS+ R+ M+  L++L NP    L  RFE    +   +  + + ++I N  +F+ K+  
+Sbjct  143  VLGSTARQDMNDFLAKLDNPQPVSLSSRFEALMNASDAAPKKNIGVFITNSQYFLAKVTG  202
+
+Query  179  FPQLNLPLGAMELYLTARR--NEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRL  236
+               L+LPLGA+E+++  +   N+Y Y+LS++  N +  F ++FL+++VLN  I   G+ +
+Sbjct  203  IANLDLPLGAIEMHVIKKEKTNDYTYSLSVEADNNRAAFAVRFLLAKVLNGKIGGTGNSI  262
+
+Query  237  IIEDGTISAERLASVISSLY  256
+             +EDGTI +E+LA++I +LY
+Sbjct  263  TVEDGTIPSEKLAALIKTLY  282
+
+
+>ref|YP_008434589.1| lipoprotein [Treponema pedis str. T A4]
+ ref|WP_020964753.1| lipoprotein [Treponema pedis]
+ gb|AGT43453.1| lipoprotein [Treponema pedis str. T A4]
+Length=284
+
+ Score =  261 bits (667),  Expect = 7e-83, Method: Composition-based stats.
+ Identities = 87/259 (34%), Positives = 142/259 (55%), Gaps = 11/259 (4%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFA-  63
+             K   +P G++G  AD+Y+Y PV  N  ++ +++     ++ +K+ + RTTA+Y      
+Sbjct  28   LKGIEEPFGIIGDDADIYVYMPVEKNRKIVEQVLPAATGQS-MKQALSRTTAIYSGITIS  86
+
+Query  64   -RSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+   G YPY  T+  F + DGW   KT+ G  YYES + DVSIP+P  +C+  
+Sbjct  87   AAGVEVRVCARGKYPYGMTDSFFKKKDGWNPKKTKEGYKYYESPYLDVSIPSPLIACMGL  146
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M ++LSR+  P  P+ P +F     S    Q + +++KN   F++ +L    L
+Sbjct  147  GPQNRKDMQELLSRMKKPVDPEFPEKFNFLINS--NLQDIGIFVKNPDLFLSGILGVS-L  203
+
+Query  183  NLPLGAMELYLTA-----RRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLI  237
+             LPLG +E+YL       ++NEY Y L ++ G  +     + ++ R L A + VE + LI
+Sbjct  204  GLPLGKIEMYLKKASDGMQQNEYRYDLYIESGTPQTTKVAKMILQRALKAEVKVEENMLI  263
+
+Query  238  IEDGTISAERLASVISSLY  256
+            +E G IS E++ ++I S+Y
+Sbjct  264  VEGGNISEEKITAIIKSIY  282
+
+
+>ref|WP_002673536.1| hypothetical protein [Treponema denticola]
+ gb|EMB44645.1| hypothetical protein HMPREF9730_01753 [Treponema denticola AL-2]
+Length=287
+
+ Score =  248 bits (632),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 87/258 (34%), Positives = 147/258 (57%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G GAD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGVVRPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G + R+ M   L +L NP+    P RF+    S   SQ + +++KNG  F+ +++   QL
+Sbjct  152  GPNDRQNMEVFLGKLSNPEEALFPQRFDTLVNS--GSQDIGIFVKNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010689406.1| hypothetical protein [Treponema denticola]
+ gb|EMB42137.1| hypothetical protein HMPREF9722_00694 [Treponema denticola ATCC 
+33520]
+Length=287
+
+ Score =  242 bits (618),  Expect = 1e-75, Method: Composition-based stats.
+ Identities = 83/258 (32%), Positives = 141/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002687984.1| hypothetical protein [Treponema denticola]
+ gb|EMB30851.1| hypothetical protein HMPREF9727_00536 [Treponema denticola MYR-T]
+ gb|EMB31780.1| hypothetical protein HMPREF9725_00902 [Treponema denticola H1-T]
+Length=287
+
+ Score =  242 bits (617),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 84/258 (33%), Positives = 143/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF+    S   SQ + +++KNG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSQRFDALVNS--GSQDIGIFVKNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010698163.1| hypothetical protein [Treponema denticola]
+ gb|EMB26053.1| hypothetical protein HMPREF9724_00583 [Treponema denticola SP37]
+ gb|EPF34208.1| hypothetical protein HMPREF9734_01217 [Treponema denticola SP44]
+ gb|EPF39630.1| hypothetical protein HMPREF9731_01438 [Treponema denticola SP23]
+Length=287
+
+ Score =  241 bits (616),  Expect = 2e-75, Method: Composition-based stats.
+ Identities = 83/258 (32%), Positives = 141/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002667145.1| hypothetical protein [Treponema denticola]
+ gb|EGC77816.1| lipoprotein [Treponema denticola F0402]
+Length=281
+
+ Score =  241 bits (615),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 83/258 (32%), Positives = 141/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  27   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  85
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  86   DRLTEIRICATGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  145
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  146  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  202
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  203  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  262
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  263  NRSVTESRIIEIIKSLYN  280
+
+
+>ref|NP_973260.1| lipoprotein [Treponema denticola ATCC 35405]
+ ref|WP_002680709.1| hypothetical protein [Treponema denticola]
+ gb|AAS13179.1| lipoprotein, putative [Treponema denticola ATCC 35405]
+ gb|EMB37475.1| hypothetical protein HMPREF9721_01314 [Treponema denticola ATCC 
+35404]
+ gb|EMB40958.1| hypothetical protein HMPREF9735_00516 [Treponema denticola ATCC 
+33521]
+Length=287
+
+ Score =  241 bits (615),  Expect = 4e-75, Method: Composition-based stats.
+ Identities = 83/258 (32%), Positives = 141/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGVVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002684394.1| hypothetical protein [Treponema denticola]
+ gb|EMB33511.1| hypothetical protein HMPREF9726_01325 [Treponema denticola H-22]
+Length=287
+
+ Score =  240 bits (612),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 84/258 (33%), Positives = 142/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_002676123.1| hypothetical protein [Treponema denticola]
+ gb|EMB47404.1| hypothetical protein HMPREF9729_00747 [Treponema denticola ASLM]
+ gb|EMD55625.1| hypothetical protein HMPREF9728_02524 [Treponema denticola US-Trep]
+Length=287
+
+ Score =  240 bits (611),  Expect = 2e-74, Method: Composition-based stats.
+ Identities = 84/258 (33%), Positives = 142/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +   ++ +K+ + RTTAVY   F +
+Sbjct  33   LPGIVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGES-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICATGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNIMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_006189259.1| hypothetical protein [Treponema vincentii]
+ gb|EEV19896.1| hypothetical protein TREVI0001_0026 [Treponema vincentii ATCC 
+35580]
+Length=287
+
+ Score =  239 bits (609),  Expect = 3e-74, Method: Composition-based stats.
+ Identities = 67/256 (26%), Positives = 130/256 (51%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  31   KYDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  90
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K    +  +YY S   D+ +     + ++ 
+Sbjct  91   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALNNTSYYSSAVADI-LMRERTAFMLL  149
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   +  L  + +P  P  PPRF+      G+   + LY ++G   IT +L    +
+Sbjct  150  GTEQR-NTAAFLQHIADPHPPIFPPRFQAL-PESGSIGEIGLYTRSGSLLITAMLGLDGV  207
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  208  DLPIRSIELYLKKNIDSVYQCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  267
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  268  DITEKELIKLLQGVFA  283
+
+
+>ref|WP_002691629.1| hypothetical protein [Treponema denticola]
+ gb|EMB23913.1| hypothetical protein HMPREF9723_01051 [Treponema denticola OTK]
+Length=287
+
+ Score =  238 bits (607),  Expect = 7e-74, Method: Composition-based stats.
+ Identities = 84/258 (33%), Positives = 141/258 (55%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G  AD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F +
+Sbjct  33   LPGVVRPFGMIGDDADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GWA  KT+    YY+S + D+SIP+P  +C++ 
+Sbjct  92   DRLTEIRICSTGKYPYGMTDSIFKKKNGWAPKKTKEKYKYYKSSYVDISIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G   R+ M   L +L  P+      RF     S   SQ + +++ NG  F+ +++   QL
+Sbjct  152  GPDNRQNMEVFLGKLSKPEEAMFSERFGTLVNS--GSQDIGIFVTNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LIIE
+Sbjct  209  GLPVGVIEMYLKKNPEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIIE  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            + +++  R+  +I SLY+
+Sbjct  269  NRSVTESRIIEIIKSLYN  286
+
+
+>ref|WP_010692566.1| hypothetical protein [Treponema denticola]
+ gb|EMB27799.1| hypothetical protein HMPREF9733_00241 [Treponema denticola SP33]
+ gb|EPF36299.1| hypothetical protein HMPREF9732_01664 [Treponema denticola SP32]
+Length=287
+
+ Score =  238 bits (606),  Expect = 8e-74, Method: Composition-based stats.
+ Identities = 85/258 (33%), Positives = 144/258 (56%), Gaps = 9/258 (3%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFAR  64
+                V P G++G GAD+Y+Y P+  N+ +   I+ +    + +K+ + RTTAVY   F +
+Sbjct  33   LPGVVSPFGMIGDGADMYIYMPIEKNKKIAEPILTSVGGDS-MKQALSRTTAVYSGVFVK  91
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                E R+  +G YPY  T+ IF + +GW   KT+    YY+S + DVSIP+P  +C++ 
+Sbjct  92   DRLTEIRICSTGKYPYGMTDSIFKKKNGWEPKKTKEKYKYYKSSYVDVSIPSPQIACLVM  151
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G + R+ M   L +L  P+    P RF+    S   SQ + +++KNG  F+ +++   QL
+Sbjct  152  GPNDRQSMEVFLGKLSKPEEAIFPQRFDDLVNS--GSQDIGIFVKNGDFFLGQIIGV-QL  208
+
+Query  183  NLPLGAMELYLTAR---RNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIE  239
+             LP+G +E+YL       NEYLY LS++  N      ++    + L A + +E ++LI+E
+Sbjct  209  GLPVGVIEMYLKKNSEVENEYLYDLSIETKNVMTASLLKLFFKKQLKADVRLEENKLIME  268
+
+Query  240  DGTISAERLASVISSLYS  257
+            +  ++  ++  +I SLY+
+Sbjct  269  NRPVTESKIIDIIKSLYN  286
+
+
+>ref|WP_016524218.1| hypothetical protein [Treponema medium]
+ gb|EPF27796.1| hypothetical protein HMPREF9195_02297 [Treponema medium ATCC 
+700293]
+Length=253
+
+ Score =  234 bits (596),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 67/254 (26%), Positives = 122/254 (48%), Gaps = 7/254 (3%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFARSKE  67
+            +   G VG  ADVY+  P++GNE+L+  +      +    + + RT+ +Y GA +  +  
+Sbjct  1    MQAFGAVGMDADVYIVAPISGNESLLKALFTAFVPEKTAAQYLSRTSILYIGADYKVTPS  60
+
+Query  68   FRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIFGSS  125
+              +  SGSYP +  +L+FS+ DGW   +    +  TYY S   D+ +     + ++ G +
+Sbjct  61   VTVVSSGSYPVSLGDLLFSKKDGWEKRRAAALNNHTYYSSAIADIVV-QEKTAFMLLGDN  119
+
+Query  126  KRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLP  185
+            +R   +  L R+  P RP  PPRF+      G    + LY ++G    T LL    + LP
+Sbjct  120  QRNS-AAFLQRIAEPHRPVFPPRFQALTELSGV-GEIGLYARSGSRIATALLGLEDIELP  177
+
+Query  186  LGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDGTIS  244
+            + ++ELYL    +  Y  +   +  +A+    ++ L+S  +N    V+   + +E+  I+
+Sbjct  178  IRSIELYLKKDIDALYRCSAMFEATDARAALVVRLLLSHGMNGDFSVQDSSVFVENADIT  237
+
+Query  245  AERLASVISSLYSK  258
+               L  ++  +  K
+Sbjct  238  ETELIRMLKPIIFK  251
+
+
+>ref|WP_016518137.1| hypothetical protein [Treponema vincentii]
+ gb|EPF47680.1| hypothetical protein HMPREF1222_00582 [Treponema vincentii F0403]
+Length=294
+
+ Score =  218 bits (556),  Expect = 3e-66, Method: Composition-based stats.
+ Identities = 67/256 (26%), Positives = 129/256 (50%), Gaps = 7/256 (3%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVY-GAFFAR  64
+            K      G +G+ AD+Y++ PV GNE L+  ++     +    + +DRT+A+Y GA +  
+Sbjct  38   KHDTQAFGAIGTEADMYVFAPVYGNEPLLQTVLTAFVPEKTAAQYLDRTSALYIGAEYGA  97
+
+Query  65   SKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTE--HGITYYESEHTDVSIPAPHFSCVIF  122
+                 +  +GSYP +  +L+FS+ DGW   K       +YY S   D+ +     + ++ 
+Sbjct  98   VPSVTVISTGSYPTSLGDLLFSKKDGWEKHKATALSNTSYYSSAVADI-LMRERTAFMLL  156
+
+Query  123  GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQL  182
+            G+ +R   +  L  + +P  P  PPRF+      G+   + LY ++G   IT +L    +
+Sbjct  157  GTEQR-NTAAFLQHIADPRPPIFPPRFQAL-PESGSISEIGLYTRSGSRLITAMLGLDGV  214
+
+Query  183  NLPLGAMELYLTARRNE-YLYTLSLQLGNAKINFPIQFLISRVLNAHIHVEGDRLIIEDG  241
+            +LP+ ++ELYL    +  Y  + + +  +A+    I+ L+SR +     V+G  + +E+ 
+Sbjct  215  DLPIRSIELYLKKNIDSVYKCSAAFEAVDARSALVIRLLLSRSMAGEFSVQGSSVFVENA  274
+
+Query  242  TISAERLASVISSLYS  257
+             I+ + L  ++  +++
+Sbjct  275  DITEKELIKLLQGVFA  290
+
+
+>ref|WP_016525460.1| hypothetical protein [Treponema maltophilum]
+ gb|EPF30849.1| hypothetical protein HMPREF9194_01174 [Treponema maltophilum 
+ATCC 51939]
+Length=308
+
+ Score =  207 bits (526),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 58/270 (21%), Positives = 117/270 (43%), Gaps = 26/270 (10%)
+
+Query  9    VDPLGVVGSGADVYLYFPV-AGNENLISRIIENH---ESKADIKKIVDRTTAVYGAFFAR  64
+            +D   +   GADVYL+ PV   N++ +  ++ +     +++D+  +++RT  +  AFF  
+Sbjct  37   IDLFTLFDDGADVYLHIPVNEANKSFVRNLVNSWTDDVNESDLNNMLNRTEEIAAAFFIE  96
+
+Query  65   -------SKEFRLFGSGSYPYAFTNLIFSRSDGWA--STKTEHGITYYESEHTDVSIPAP  115
+                   + +F+L   G YP    N   ++ +GW   S K    I   +    ++ + +P
+Sbjct  97   WGANLKSTVKFQLASRGKYPSLLINAGLTKKNGWTDVSEKAADMILNRKRHSNNIELASP  156
+
+Query  116  HFSCVIFGSSKRERMS-KMLSRLVNP----DRPQLPPRFEKEC--TSEGTSQTVALYIKN  168
+              + +   +     M  K    L++P    D P LP         T    ++ V++Y+  
+Sbjct  157  DNNHIFISNKDVLSMQKKYFLSLISPVSVLDWPSLPGENTALPVRTLMDDAELVSVYMPT  216
+
+Query  169  GGHFITKLLNFP-QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI-NFPIQFLISRVLN  226
+             G  + K++  P +L +   A  L  + + +  + TL LQ+ + +      +     VL 
+Sbjct  217  AGSLLPKMVGSPIELGIKYAAGTLK-SYKEDHAIVTLKLQMSDERSLKIAEKLFRFAVLG  275
+
+Query  227  AHIHVEGDR---LIIEDGTISAERLASVIS  253
+             +I V+ DR   LI+++  +    L  ++ 
+Sbjct  276  TNIIVKQDRGTVLILDNFVVWPAALTGLLQ  305
+
+
+>ref|WP_021687082.1| hypothetical protein [Treponema lecithinolyticum]
+ gb|ERJ93575.1| hypothetical protein HMPREF9193_00864 [Treponema lecithinolyticum 
+ATCC 700332]
+Length=305
+
+ Score =  205 bits (521),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 57/277 (21%), Positives = 104/277 (38%), Gaps = 31/277 (11%)
+
+Query  5    WKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIK---KIVDRTTAVYGAF  61
+               + D   +  S AD+YL  PV  NE  +S +        D +   K++ RT+ +Y AF
+Sbjct  30   AAPAADMFTLFDSDADLYLRIPVRSNEAFVSALARAWLPSLDARSLQKLMKRTSVLYAAF  89
+
+Query  62   FARSKE-------FRLFGSGSYPYAFTNLIFSRSDGWAST-KTEHGITY-YESEHTDVSI  112
+            F + K+       F+L   GSYP  F     S+ +GW +  +TE    Y +++    +  
+Sbjct  90   FVQQKDKGKTDVLFQLAAEGSYPALFFTAALSKKNGWTNEFQTEKDKVYPHKNWQYGIEA  149
+
+Query  113  PAPHFSCVIFGSSKRERMSKMLSRLVNP------DRPQLPPRFEKECT---SEGTSQTVA  163
+              P  + +   +     M K  SR+         + P L                 +  A
+Sbjct  150  ANPDSAHIFISNKAVFPMQKKYSRIFTEKTELALNWPSLNDEQGNPVPVRSLLNEPEKAA  209
+
+Query  164  LYIKNGGHFITKLLNFP---QLNLPLGAMELYLTARRNEYLYTLSLQLGNAKI-NFPIQF  219
+             Y+   G  +  +   P    +   +G ++ Y   + +  L  + LQ+ + +      + 
+Sbjct  210  FYMSEAGTLLPAMAGAPITLAIEFAVGTVQPY---KNDYALLHMRLQMSDERASKIAAKL  266
+
+Query  220  LISRVLNAHIHVE---GDRLIIEDGTISAERLASVIS  253
+                VL  ++ V    G+ L I++  +     A  I 
+Sbjct  267  FRFAVLGTNLKVSEQAGNILEIDNLVVEPSLFAGFIQ  303
+
+
+>ref|WP_021330997.1| hypothetical protein [Treponema socranskii]
+ gb|ERF60032.1| hypothetical protein HMPREF1325_1203 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+ gb|ERK04172.1| hypothetical protein HMPREF0860_2600 [Treponema socranskii subsp. 
+socranskii VPI DR56BR1116 = ATCC 35536]
+Length=287
+
+ Score =  203 bits (515),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 44/261 (17%), Positives = 87/261 (33%), Gaps = 19/261 (7%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIEN---HESKADIKKIVDRTTAVYGAFFA  63
+            A V+P+ ++   A  Y+  P   +  L+ RI+     H S++D K I  R   +Y A   
+Sbjct  27   AEVNPIDLLSGDASFYMRIPKKTDGELVERILRASAQHISESDAKLISGRIDTIYAAISR  86
+
+Query  64   RSKEFRL--FGSGSYPYAFTNLIFSRSDGWA-----STKTEHGITYYESEHTDVSIPAPH  116
+                F +    SG+ P      +  +S  W        ++     YY S    ++ P+P 
+Sbjct  87   TKTSFSVEAAVSGNIPRRTAQALLLKSAQWKTETHIPERSIRPYFYYASNGVSLAFPSPS  146
+
+Query  117  FSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKL  176
+              C    ++    M                         + +   +  Y  N   F+T L
+Sbjct  147  IVC---AANDVRPMLSAFDAHAYGGSISHNVSDAVYDWLDVSGSEIRFYAPNPLSFLTIL  203
+
+Query  177  LNFP-QLNLPLGAMELYL-TARRNEYLYTLSLQLGNAKINFPIQFLISRVLN-AHIHVEG  233
+                  L L      +   +A  ++YL ++     N  I    + +++      +     
+Sbjct  204  TGTNLNLQLNYVKGAMISDSAHEDQYLMSIEFDFNNKNIVRAGEAMLALAFGLTNAQTTR  263
+
+Query  234  DR---LIIEDGTISAERLASV  251
+            +    + +    I+  +L  +
+Sbjct  264  NSPTNITVSGIRINKRQLYKL  284
+
+
+>ref|WP_016520154.1| hypothetical protein [Treponema socranskii]
+ gb|EPF26929.1| hypothetical protein HMPREF1221_00509 [Treponema socranskii subsp. 
+paredis ATCC 35535]
+Length=287
+
+ Score =  200 bits (509),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 45/261 (17%), Positives = 87/261 (33%), Gaps = 19/261 (7%)
+
+Query  7    ASVDPLGVVGSGADVYLYFPVAGNENLISRIIEN---HESKADIKKIVDRTTAVYGAFFA  63
+            A V+PL ++   A  Y+  P   +  L+ RI+ +   H S++D K I  R   +Y A   
+Sbjct  27   AEVNPLDLLSGDAAFYMRIPKKTDGELVERILRSIAEHISESDAKLIAGRIDTIYAALTR  86
+
+Query  64   RSKEFRL--FGSGSYPYAFTNLIFSRSDGWA-----STKTEHGITYYESEHTDVSIPAPH  116
+                F +    SG+ P      +  +S  W         +     YY S    ++ P+P 
+Sbjct  87   TKTNFSVEAAVSGNIPRRTAGALLLKSAQWKIETHIPVGSIRPYIYYASAGVSLAFPSPS  146
+
+Query  117  FSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKL  176
+              C    ++    M                         +     +  Y  N   F+T L
+Sbjct  147  IVC---AANDVRPMLSAFDAHAFRGSLSHNVSDAVFDWLDAAGSEIRFYAPNPLSFLTIL  203
+
+Query  177  LNFP-QLNLPLGAMELYL-TARRNEYLYTLSLQLGNAKINFPIQFLISRVLN-AHIHVEG  233
+                  L L      +   +A  ++YL ++     N  +    + +++      +  V  
+Sbjct  204  TGTNLNLQLNYVKGAMISDSAHEDQYLMSIEFDFNNKNVVRAGEAMLALAFGLTNAQVTR  263
+
+Query  234  DR---LIIEDGTISAERLASV  251
+            +    + +    I+  +L  +
+Sbjct  264  NSPTNITVSGIRINKRQLYKL  284
+
+
+>ref|YP_004365347.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+ ref|WP_013701339.1| hypothetical protein [Treponema succinifaciens]
+ gb|AEB14050.1| hypothetical protein Tresu_1138 [Treponema succinifaciens DSM 
+2489]
+Length=312
+
+ Score =  184 bits (466),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 41/265 (15%), Positives = 96/265 (36%), Gaps = 27/265 (10%)
+
+Query  8    SVDPLGVVGSGADVYLYFPVAGNENLISRIIENHES---KADIKKIVDRTTAVYGAFFAR  64
+            +VDPL ++   + +Y+  P + N+ L+S+I+ +  S   + D + I  RT  +Y      
+Sbjct  29   NVDPLSLLEENSSIYMSVPASKNQELVSKILCSKISGLAEKDARAIAARTEILYAGLGTV  88
+
+Query  65   S--KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIF  122
+                  ++    S P        S+ +GW        ++YYE      +  +  F     
+Sbjct  89   DDRSRLQIVSETSIPRIVVQSSLSKKNGWEK----SFVSYYEKVFEKFTHASDGFQASFP  144
+
+Query  123  GSS---KRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNF  179
+             S+     + +  +L +    +       ++     + +   +  YI   G ++  L+  
+Sbjct  145  SSNLVCASQNVDLLLKKFAENNPAP-ETAWKNWIAQDLSQGEILFYITKPGQYLRSLIGQ  203
+
+Query  180  P---QLNLPLGAMELYLTARRNEYLYTLSLQLG------NAKINFPIQFLI---SRVLNA  227
+                  +   G++  Y   +++   Y+   +L       + +    ++ L+     +   
+Sbjct  204  SINVGTDAIFGSL-CYFPDKKDSAKYSGKYELSFSIHLLDKRSVVALRSLLGLSFAMTGG  262
+
+Query  228  HIHVEGD-RLIIEDGTISAERLASV  251
+             +    D  L I    IS  ++  +
+Sbjct  263  AVEQTDDFTLRISGIEISENKIEEL  287
+
+
+>ref|WP_002706379.1| hypothetical protein [Treponema saccharophilum]
+ gb|EIC00703.1| hypothetical protein TresaDRAFT_0176 [Treponema saccharophilum 
+DSM 2985]
+Length=284
+
+ Score =  173 bits (439),  Expect = 7e-49, Method: Composition-based stats.
+ Identities = 48/251 (19%), Positives = 99/251 (39%), Gaps = 23/251 (9%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLI---SRIIENHESKADIKKIVDRTTAVY  58
+            S +  A V    ++   A++Y   PV  N++ +   S +  +     D++K+++R  AVY
+Sbjct  30   SSSLPADVAARDLLVPDAEIYFSVPVEPNKSFLMKASSLALSGTKPGDVRKMLERIDAVY  89
+
+Query  59   ---GAFFARSKEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITY-YESEHTDVSIPA  114
+                     S       SGS+P           +GW   +      Y +      +S  +
+Sbjct  90   ISCSGIDGASPTIGAVASGSFPATLAGFFLKEGNGWRRREVGAHKCYDHMDTGYGLSFAS  149
+
+Query  115  PHFSCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFIT  174
+               +C+   +S  + +S  LSR  +     L     +      +   ++ +I +GG F+ 
+Sbjct  150  SSLACL---ASDGDALSAELSRFDS----ALSGSLLEHVDFAESDGAISFFIPDGGWFME  202
+
+Query  175  KLLNFPQLNL-PLGAMELYLTARR--NEYLYTLSLQLGNAKINFPIQ------FLISRVL  225
+              L+   + +  + ++  +L+       +  +LSL++ + ++   +        L + VL
+Sbjct  203  TFLSNGFIKIGGVESVAGFLSQVEGAEAFDVSLSLKVPDERMRRAVSGMMRIFGLRAEVL  262
+
+Query  226  NAHIHVEGDRL  236
+               I V G RL
+Sbjct  263  GEDISVSGVRL  273
+
+
+>ref|YP_004527692.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+ ref|WP_015711795.1| hypothetical protein [Treponema azotonutricium]
+ gb|AEF81785.1| hypothetical protein TREAZ_0128 [Treponema azotonutricium ZAS-9]
+Length=304
+
+ Score =  165 bits (417),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 42/210 (20%), Positives = 75/210 (36%), Gaps = 17/210 (8%)
+
+Query  12   LGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARS--KEFR  69
+             G++  GA VYL+  V     L+  +        D + ++DRT     AF+     + F 
+Sbjct  35   FGLLPLGARVYLWADVKEGRPLLDALSFQGLDGKDARDVLDRTGTAAAAFYPEQAAQRFF  94
+
+Query  70   LFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGSSKRER  129
+            L G GSYP     +  + S  W   K+E G  ++ S+   + +          GS     
+Sbjct  95   LAGWGSYPSTRAGISMAFSRDWKHAKSETGKKFWFSKGWGLGVA--------MGSKLALA  146
+
+Query  130  MSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNLPLGAM  189
+              K          P+    F + C   G       ++   G  + + L   ++ + + A 
+Sbjct  147  TDKDPFAPGGAASPEGFEEFRRACVFAG-------WMPEPGEALNRFLQAMEIPIKIPAE  199
+
+Query  190  ELYLTARRNEYLYTLSLQLGNAKINFPIQF  219
+            E +  A R     + +   G+ K     + 
+Sbjct  200  EFFFGAARAGGTVSGAPPGGDEKWELAARI  229
+
+
+>ref|YP_004440081.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+ ref|WP_013758655.1| hypothetical protein [Treponema brennaborense]
+ gb|AEE16950.1| hypothetical protein Trebr_1527 [Treponema brennaborense DSM 
+12168]
+Length=310
+
+ Score =  144 bits (364),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 53/277 (19%), Positives = 99/277 (36%), Gaps = 32/277 (12%)
+
+Query  2    SGAWKASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESK---ADIKKIVDRTTAVY  58
+            SGA    + P  ++     +Y+ FP   NE  +    +    +   ADI+K++ R   VY
+Sbjct  33   SGAAAGRLQPFSLMPENTVLYVQFPAVPNEGAVRAFTDALAPQLAPADIRKVLKRVDTVY  92
+
+Query  59   GAFFARSKEFRLFGSGSYPYAFTNLIFSRSDGWAS---TKTEHGITYYESEHTDVSIPAP  115
+              F A         +GS+P      +FS+ +GW             YY      +    P
+Sbjct  93   AGFDASGN-LSSAVTGSFPSFALGAVFSKKNGWRKIPAASGGGAGAYYARPDIPLQFAFP  151
+
+Query  116  HFSCVIFGSSKRERMSKMLSRLVNPD---RPQLPPRFEKECTSEG----TSQTVALYIKN  168
+              S     +     +S M +    PD      +  R E   +S G     +  +  YIK+
+Sbjct  152  SSSLAFIAA----DVSAMFAGGTEPDIGAAIAIDGRAEAVSSSYGFTHAAADDIRFYIKD  207
+
+Query  169  GGHFITKLLNFPQL-NLPLGAMELYLTARRNE-------YLYTLSLQLGNAKINFPIQFL  220
+                + +L     + + PL A+   L+    +       Y  T  ++L +++   P   +
+Sbjct  208  PIFVMRRLRQSGFVFDFPLAAVSGTLSFAGLDPETGSPAYALTALIELSDSRALRPALAM  267
+
+Query  221  IS---RVLNAHI---HVEGDRLIIEDGTISAERLASV  251
+            +    R+   +        D + I     + + + S+
+Sbjct  268  LGIAVRIGGKNFDFEAASADSVRISGAVFNIDTIVSL  304
+
+
+>ref|WP_022931512.1| hypothetical protein [Treponema bryantii]
+Length=299
+
+ Score =  117 bits (294),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 56/263 (21%), Positives = 98/263 (37%), Gaps = 21/263 (8%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENH---ESKADIKKIVDRTTAVYGAFFAR-  64
+            VD L ++ + +  Y+  P A +  LI RII       +++D K I DR   +Y       
+Sbjct  37   VDALELIDNQSSFYIAVPKAADNVLIERIITGFYQNATESDAKMIADRVNKIYCGLNRSR  96
+
+Query  65   -SKEFRLFGSGSYPYAFTNLIFSRSDGW-----ASTKTEHGITYYESEHTDVSIPAPHFS  118
+               + +    GS P  +   + S  +GW     +  K++     Y S   +++ P+   +
+Sbjct  97   HGTDVQASIDGSIPQKYLPKVLSAKNGWVISDYSPEKSDTSYKIY-SGDIEMAFPSDKLA  155
+
+Query  119  CVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSE--GTSQTVALYIKNGGHFITKL  176
+            C+             LS+L   D  +L    + E T    G    +  +      F+T L
+Sbjct  156  CIGRNLEGMLDKYDSLSKLPAEDTTELYSDLDSELTDYLKGAESEIRFFANKPQSFLTIL  215
+
+Query  177  LNFPQLNLPLGAMELYL---TARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVE-  232
+                QL+L L  ++         +N+YL  L  +  N       + L+          E 
+Sbjct  216  TGA-QLDLKLIDVKGSFRTDPKHQNQYLLNLDFRFKNGTFLKAGKTLLILAFGLTNSQEE  274
+
+Query  233  ---GDRLIIEDGTISAERLASVI  252
+                  L+I D  I  E+L  ++
+Sbjct  275  IIGDSELLIHDIRIDKEQLYKLL  297
+
+
+>ref|WP_009107494.1| hypothetical protein [Treponema sp. JC4]
+ gb|EID84094.1| hypothetical protein MSI_24640 [Treponema sp. JC4]
+Length=305
+
+ Score =  101 bits (251),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 47/269 (17%), Positives = 97/269 (36%), Gaps = 32/269 (12%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHE---SKADIKKIVDRTTAVYGAFFARS  65
+            V+ L ++   +  Y+  P   +  L+ R ++N+    S+ + K +  R   VY     + 
+Sbjct  42   VNALDLLDDDSAFYIAIPNDVDPELVVRFLQNNIKNLSEKEAKLVSGRVNKVYCGLNHKK  101
+
+Query  66   KE--FRLFGSGSYPYAFTNLIFSRSDGWAST--KTEHGITY--YESEHTDVSIPAPHFSC  119
+             +   ++     +  A  + + ++++GW S+   T+   +Y  YE    +V  P+   + 
+Sbjct  102  NKTQIQISAQADFGNALASKLLTQANGWQSSIVTTQVNKSYDLYEQNSVEVCFPSKEIAL  161
+
+Query  120  VIFGSSKRERMSKMLSRLV---------NPDRPQLPPRFEKECTSEGTSQTVALYIKNGG  170
+            V         +  MLS+                 L             +  +  Y     
+Sbjct  162  V------GRDIPVMLSQFDYIRSIDLELEEPSHLLNDVVYNYLQEAEEAHEIRFYAGRPQ  215
+
+Query  171  HFITKLLNFPQLNLPLGAMELYLTARRN---EYLYTLSLQLGNAKINFPIQFLISRVLNA  227
+             F+T L    QL+L L  +            +Y+  L  +  +AK     + L++     
+Sbjct  216  SFLTILTGA-QLDLKLDHVCGSFVCDEKYPTQYILNLDFKFKDAKFLKSGRALLTLAFGL  274
+
+Query  228  HIH----VEGDRLIIEDGTISAERLASVI  252
+                   +  D LII D  I+ ++L  ++
+Sbjct  275  SNSNCQMIGDDELIISDIQIAKKQLYKIL  303
+
+
+>ref|YP_004697836.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+ ref|WP_013968639.1| hypothetical protein [Treponema caldaria]
+ gb|AEJ19328.1| hypothetical protein Spica_1182 [Treponema caldaria DSM 7334]
+Length=326
+
+ Score = 65.5 bits (158),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 35/157 (22%), Positives = 63/157 (40%), Gaps = 14/157 (9%)
+
+Query  9    VDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIK---KIVDRTTAVYGAFFARS  65
+            ++P   + SGA +Y+Y  +    NLI+ +      KA  +   K + +   VYGA +   
+Sbjct  32   LNPFAKLPSGASLYVYGDIEKTRNLINGLYRLGPVKALQRIPEKSLAKVGTVYGALYNEE  91
+
+Query  66   --KEFRLFGSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFG  123
+              + F +  SG +P   T L  + S  W   +TE G +Y+ SE   +S        +   
+Sbjct  92   EPQRFYILVSGRFPVVRTFLSLTFSPDWKQKRTE-GFSYWRSEKDGLS--------LHID  142
+
+Query  124  SSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQ  160
+            S +      +  +  + +RP      +     E   +
+Sbjct  143  SKQMVITDGIPLKGSSEERPLKSGSLQNNVNGEAGGE  179
+
+
+>ref|WP_010253683.1| hypothetical protein [Treponema primitia]
+Length=336
+
+ Score = 53.2 bits (126),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 28/240 (12%), Positives = 61/240 (25%), Gaps = 42/240 (18%)
+
+Query  10   DPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARSKEFR  69
+                 +  G   Y Y  V     +++ I+          +I+ +   + GA +       
+Sbjct  56   QEFAALAPGGLAYFYTDVNRARPILNHIVLKDVDMKQTARILQKVDFLAGAVYPNGSSRN  115
+
+Query  70   LF-----GSGSYPYAFTNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFGS  124
+            +        G  P          S  W  T +  G  Y+ S    +S+ +          
+Sbjct  116  MILHAWRQKGKIP---GGAGLVFSPQWKGTLSPTGKKYWHSSRAGLSV-SLQGPHAFVSD  171
+
+Query  125  SKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLNFPQLNL  184
+                          +     LP    +             ++++ G  I   L+   + +
+Sbjct  172  GD---------PFTDGPPISLPENLNEIRWEAIVLG----WLEHAGTPINNFLSKTGMPI  218
+
+Query  185  PLGAMELYLTARRNE--------------------YLYTLSLQLGNAKINFPIQFLISRV  224
+             +    +     ++                     Y   L ++  N      +  L+S V
+Sbjct  219  RIPTERILFAIAQSSGQDLDDDDAEAINSADSSVLYELQLRVETQNPNQARALAALLSFV  278
+
+
+>gb|EFR29274.1| hypothetical protein AND_01929 [Anopheles darlingi]
+Length=1375
+
+ Score = 41.3 bits (95),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 15/126 (12%), Positives = 44/126 (35%), Gaps = 3/126 (2%)
+
+Query  118   SCVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLL  177
+             SC+  G    + M        + D  ++           G  +  ++Y  +    +  + 
+Sbjct  1185  SCLSDGEMHHDSMRDFPGSFTDSDDSRVGSGGNSCIYPAGYIRDTSIYAPSVTRSLPSME  1244
+
+Query  178   NFPQLN--LPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVLNAHIHVE-GD  234
+                + +  + +    +    ++  Y Y + + L + +     ++   R L+  +  + GD
+Sbjct  1245  GTYRSDHLINIPTYIIRGAGKQTHYEYEVKINLPDERWTLLRRYSRFRELHLAMKKQYGD  1304
+
+Query  235   RLIIED  240
+             +L   +
+Sbjct  1305  KLFASN  1310
+
+
+>ref|XP_001273577.1| conserved hypothetical protein [Aspergillus clavatus NRRL 1]
+ gb|EAW12151.1| conserved hypothetical protein [Aspergillus clavatus NRRL 1]
+Length=519
+
+ Score = 38.6 bits (88),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 26/124 (21%), Positives = 46/124 (37%), Gaps = 10/124 (8%)
+
+Query  113  PAPHFSCVIF----GSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVAL---Y  165
+            P+P  +  +      S+ R       S L N D    PPR +     +G+   +     Y
+Sbjct  214  PSPPATASMMASPESSTARSNDPSEPSPLANADTGTSPPRNDALQIFDGSPPHITFPSVY  273
+
+Query  166  IKNGGHFITKLLNFPQLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVL  225
+              N G  ++ L        P  A  L+       Y Y ++  + +A++     +L SR+ 
+Sbjct  274  QNNLGPLMSHLYGPQS---PFFAERLHWACSERAYQYLINPNIADARLTRAFGYLFSRMS  330
+
+Query  226  NAHI  229
+             A +
+Sbjct  331  RAQV  334
+
+
+>ref|WP_004793695.1| hypothetical protein [Borrelia garinii]
+ gb|EED29706.1| putative lipoprotein [Borrelia garinii Far04]
+Length=273
+
+ Score = 37.4 bits (85),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 38/272 (14%), Positives = 94/272 (35%), Gaps = 49/272 (18%)
+
+Query  6    KASVDPLGVVGSGADVYLYFPVAGNENLISRIIENHESKADIKKIVDRTTAVYGAFFARS  65
+            K +++ L  +   A++Y +  +  N ++ + +   +      K I+   + +Y ++   +
+Sbjct  27   KQNLNYLMELLPDANLYAHVNLIKNRSIYNSLSPKY------KSILGLISDLYFSYKKEN  80
+
+Query  66   KEFRLFGSGSYPYAFTNLIFSRSDGW---ASTKTEHGITYYESEHTDVS----IPAPHFS  118
+             +F L   G++P             W    +  TE     + S    +        P+ +
+Sbjct  81   NDFALLIMGNFPKDIF---------WGIHKNRNTESIGNIFTSPKWKLKNLNVYITPNRA  131
+
+Query  119  CVIFGSSKRERMSKMLSRLVNPDRPQLPPRFEKECTSEGTSQTVALYIKNGGHFITKLLN  178
+                  +++++  K                   +   E     +  +I++    +   + 
+Sbjct  132  RTSITINQKDKTLKE------------NNILTTKYIKEVEKNEIFFWIQDSTLLLPNQIA  179
+
+Query  179  FPQLNLPLGAMEL-YLTARRNEYLYTLSLQLGNAKI-NFPIQFLISRVLNAHIHVE----  232
+               L +P  +  L   +  +NEY++   L+  N  I     + LI  +L +  ++     
+Sbjct  180  SKNL-IPFSSGTLSINSLNQNEYIFKSLLKTNNPSILKILSKKLIPTILTSTTNLTISSH  238
+
+Query  233  -------GDRLIIEDGTISAERLASVISSLYS  257
+                    + + IE   I    + + I+ L S
+Sbjct  239  IKATIKDQNTVEIE-FNIQKSSVENFIAKLAS  269
+
+
+>ref|WP_007176306.1| formylmethanofuran--tetrahydromethanopterin formyltransferase 
+[Burkholderia sp. Ch1-1]
+ gb|EIF33083.1| formylmethanofuran--tetrahydromethanopterin N-formyltransferase 
+[Burkholderia sp. Ch1-1]
+Length=319
+
+ Score = 37.4 bits (85),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 32/103 (31%), Gaps = 13/103 (13%)
+
+Query  30   NENLISRIIENHESKADIKKIVDR---------TTAVYGAFFARSKEFRLFGSGSYPYAF  80
+                ++ ++    SK   K+I  R         TTAVYG   A +    L    S     
+Sbjct  74   GRPGVTVLLFAVSSKELAKQIERRVGQCVLTCPTTAVYGGIDAETSRAPLSDRAS----L  129
+
+Query  81   TNLIFSRSDGWASTKTEHGITYYESEHTDVSIPAPHFSCVIFG  123
+             + +    DGW  +K      Y+     D        +  +  
+Sbjct  130  GSGLRFFGDGWQISKMLGDTRYWRVPVMDGEFVCEDTALTVKA  172
+
+
+>ref|WP_009776347.1| hypothetical protein [Janibacter sp. HTCC2649]
+ gb|EAQ00542.1| hypothetical protein JNB_10224 [Janibacter sp. HTCC2649]
+Length=184
+
+ Score = 36.6 bits (83),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  166  IKNGGHFITKLLNFPQLNLPLGAMELYLTARRNEYLYTLSLQLGNAKINFPIQFLISRVL  225
+            + +G  ++  LL   +  LP+ A+   L+ RR E + T+  Q  + +IN  ++ L+  VL
+Sbjct  56   VAHGLQWLDLLLGQGESELPVEAITFTLSRRRQEQVLTVPSQEFDWRINIALRELL-DVL  114
+
+Query  226  NAHIHVEGDRLIIEDGT  242
+               + + GD  +++   
+Sbjct  115  GRQVRLMGDVHVLDAAV  131
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.128    0.296    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 884484650040
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

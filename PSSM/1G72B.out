@@ -1,0 +1,2963 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1G72B
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pir||T10062  alcohol dehydrogenase (acceptor) (EC 1.1.99.8) small...   147    6e-44
+sp|P38540.2|DHM2_METME  RecName: Full=Methanol dehydrogenase [cyt...   147    7e-44
+pdb|4AAH|B  Chain B, Methanol Dehydrogenase From Methylophilus W3...   144    6e-43
+ref|WP_019883035.1|  methanol dehydrogenase [Methylophilus]            141    1e-41
+ref|WP_018986322.1|  methanol dehydrogenase [Methylophilus methyl...   136    1e-39
+ref|WP_020167963.1|  methanol dehydrogenase [Methylotenera]            127    5e-36
+ref|WP_019899192.1|  methanol dehydrogenase [Methylotenera mobilis]    121    5e-34
+ref|YP_546149.1|  methanol dehydrogenase, beta subunit [Methyloba...   120    2e-33
+ref|YP_004039182.1|  alcohol dehydrogenase [Methylovorus sp. MP68...   120    3e-33
+ref|WP_020182080.1|  hypothetical protein [Methylotenera sp. 1P/1]     119    5e-33
+gb|AAM18570.1|AF494424_4  small subunit of methanol dehydrogenase...   119    5e-33
+ref|WP_018391121.1|  methanol dehydrogenase [Xanthobacteraceae]        119    1e-32
+ref|YP_003050512.1|  alcohol dehydrogenase [Methylovorus glucoset...   118    1e-32
+ref|YP_004974314.1|  Methanol dehydrogenase, small (beta) subunit...   115    1e-31
+gb|AAF43728.1|  methanol dehydrogenase small subunit [Methylovoru...   113    8e-31
+ref|YP_003696079.1|  alcohol dehydrogenase (acceptor) [Starkeya n...   114    9e-31
+ref|WP_017365067.1|  methanol dehydrogenase [Methylococcus capsul...   110    3e-29
+ref|YP_996597.1|  methanol dehydrogenase subunit beta [Verminephr...   108    5e-29
+ref|YP_113284.1|  methanol dehydrogenase, small subunit [Methyloc...   108    6e-29
+ref|WP_020158035.1|  methanol dehydrogenase [Methylobacter marinus]    108    8e-29
+ref|WP_007569499.1|  methanol dehydrogenase [Methylobacterium sp....   108    9e-29
+ref|YP_004918691.1|  methanol dehydrogenase, small subunit [Methy...   108    9e-29
+ref|YP_001756857.1|  methanol dehydrogenase beta subunit [Methylo...   108    1e-28
+ref|WP_020096030.1|  methanol dehydrogenase [Methylobacterium sp....   107    2e-28
+dbj|BAL54075.1|  methanol dehydrogenase small subunit [uncultured...   107    3e-28
+ref|WP_023493431.1|  methanol dehydrogenase subunit 2 [Methyloglo...   107    4e-28
+ref|YP_004515168.1|  alcohol dehydrogenase [Methylomonas methanic...   106    6e-28
+ref|YP_001927261.1|  methanol dehydrogenase subunit beta [Methylo...   106    7e-28
+ref|YP_002360809.1|  methanol dehydrogenase beta subunit [Methylo...   106    9e-28
+ref|WP_017484021.1|  methanol dehydrogenase [Methylobacterium sp....   105    1e-27
+ref|WP_020565294.1|  hypothetical protein [Methylosarcina fibrata]     105    1e-27
+ref|WP_017842208.1|  methanol dehydrogenase [Methylomicrobium bur...   105    2e-27
+ref|WP_019904720.1|  methanol dehydrogenase [Methylobacterium sp....   104    3e-27
+ref|WP_018411261.1|  hypothetical protein [Methyloversatilis sp. ...   103    5e-27
+ref|WP_010686848.1|  methanol dehydrogenase beta subunit [Methylo...   103    7e-27
+ref|WP_022947525.1|  methanol dehydrogenase [Methylohalobius crim...   103    7e-27
+ref|YP_531786.1|  methanol dehydrogenase subunit beta [Rhodopseud...   103    7e-27
+ref|YP_001641587.1|  methanol dehydrogenase subunit beta [Methylo...   103    9e-27
+ref|WP_020481120.1|  methanol dehydrogenase [Methylomonas sp. MK1]     103    9e-27
+ref|YP_782052.1|  methanol dehydrogenase subunit beta [Rhodopseud...   103    9e-27
+ref|YP_003070568.1|  methanol dehydrogenase subunit 2 [Methylobac...   103    1e-26
+ref|WP_019866187.1|  methanol dehydrogenase [Methylovulum miyakon...   102    1e-26
+pdb|1H4I|B  Chain B, Methylobacterium Extorquens Methanol Dehydro...   102    2e-26
+gb|ACB32199.1|  MxaI [uncultured bacterium 16A2]                       102    2e-26
+ref|YP_003755453.1|  methanol dehydrogenase subunit beta [Hyphomi...   102    3e-26
+ref|WP_018044532.1|  methanol dehydrogenase [Methylobacterium sp....   102    3e-26
+ref|YP_008867585.1|  methanol dehydrogenase [Hyphomicrobium nitra...   102    4e-26
+ref|WP_005372675.1|  methanol dehydrogenase [Methylomicrobium alb...   101    4e-26
+ref|WP_006894138.1|  methanol dehydrogenase [Methylobacter tundri...   101    6e-26
+ref|YP_916775.1|  methanol dehydrogenase, beta subunit [Paracoccu...   101    6e-26
+ref|WP_020176231.1|  hypothetical protein [Methyloferula stellata]     101    7e-26
+dbj|BAA23275.1|  methanol dehydrogenase beta subunit [Hyphomicrob...   100    1e-25
+pdb|1LRW|B  Chain B, Crystal Structure Of Methanol Dehydrogenase ...   100    1e-25
+dbj|BAE16961.1|  methanol dehydrogenase small subunit [Hyphomicro...   100    2e-25
+pdb|2D0V|B  Chain B, Crystal Structure Of Methanol Dehydrogenase ...  99.4    2e-25
+ref|YP_002490198.1|  methanol dehydrogenase beta subunit [Methylo...  99.8    3e-25
+ref|WP_003611868.1|  methanol dehydrogenase [Methylosinus trichos...  99.8    3e-25
+ref|YP_004674298.1|  methanol dehydrogenase subunit beta [Hyphomi...  99.8    3e-25
+ref|WP_019918927.1|  hypothetical protein [Rhodocyclaceae bacteri...  99.0    5e-25
+ref|WP_018267726.1|  hypothetical protein [Methylosinus sp. LW4]      97.8    2e-24
+ref|WP_018406704.1|  methanol dehydrogenase [Methylocystis rosea]     96.7    4e-24
+ref|WP_020164046.1|  hypothetical protein [Methyloversatilis univ...  95.9    7e-24
+ref|WP_016921199.1|  methanol dehydrogenase [Methylocystis parvus]    95.9    7e-24
+ref|YP_006592675.1|  methanol dehydrogenase subunit beta [Methylo...  95.5    1e-23
+ref|WP_006913817.1|  methanol dehydrogenase [Salinisphaera shaban...  95.9    1e-23
+ref|WP_020087474.1|  hypothetical protein [Hyphomicrobium zavarzi...  94.4    3e-23
+ref|YP_003205076.1|  methanol dehydrogenase, small subunit (mxaI)...  94.0    4e-23
+ref|YP_006295025.1|  methanol dehydrogenase small subunit [Methyl...  92.8    1e-22
+ref|YP_006293945.1|  Methanol dehydrogenase, small subunit [Methy...  92.4    1e-22
+ref|WP_008290952.1|  methanol dehydrogenase [Methylophaga thiooxy...  91.3    4e-22
+ref|WP_007144400.1|  methanol dehydrogenase [Methylophaga aminisu...  89.7    2e-21
+ref|WP_020178343.1|  hypothetical protein [Methylopila sp. M107]      90.1    2e-21
+ref|WP_009727579.1|  methanol dehydrogenase subunit beta [Methylo...  89.4    3e-21
+dbj|BAN85790.1|  methanol dehydrogenase subunit 2 precursor [Acid...  86.3    4e-20
+ref|YP_744168.1|  methanol dehydrogenase subunit 2 [Granulibacter...  85.9    7e-20
+gb|AAB20460.1|  methanol dehydrogenase beta subunit, MDH beta sub...  72.8    3e-15
+pir||S20310  alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta ...  55.8    7e-09
+ref|WP_007203276.1|  asparagine synthase [Bacillus macauensis] >g...  36.6    0.81 
+sp|Q09053.1|DHM2_METSP  RecName: Full=Methanol dehydrogenase [cyt...  32.7    2.0  
+
+
+>pir||T10062 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) small chain precursor 
+- Methylophilus methylotrophus
+ gb|AAA83766.1| methanol dehydrogenase light subunit [Methylophilus methylotrophus]
+Length=96
+
+ Score =  147 bits (371),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  28  YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  87
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  88  SGNFVFDVK  96
+
+
+>sp|P38540.2|DHM2_METME RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+Length=91
+
+ Score =  147 bits (370),  Expect = 7e-44, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  23  YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>pdb|4AAH|B Chain B, Methanol Dehydrogenase From Methylophilus W3a1
+ pdb|4AAH|D Chain D, Methanol Dehydrogenase From Methylophilus W3a1
+ pdb|1G72|B Chain B, Catalytic Mechanism Of Quinoprotein Methanol Dehydrogenase: 
+A Theoretical And X-Ray Crystallographic Investigation
+ pdb|1G72|D Chain D, Catalytic Mechanism Of Quinoprotein Methanol Dehydrogenase: 
+A Theoretical And X-Ray Crystallographic Investigation
+ pdb|2AD6|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C)
+ pdb|2AD6|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C)
+ pdb|2AD7|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Methanol
+ pdb|2AD7|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Methanol
+ pdb|2AD8|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Ethanol
+ pdb|2AD8|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Ethanol
+Length=69
+
+ Score =  144 bits (362),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  61  SGNFVFDVK  69
+
+
+>ref|WP_019883035.1| methanol dehydrogenase [Methylophilus]
+Length=91
+
+ Score =  141 bits (355),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 66/69 (96%), Positives = 67/69 (97%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ+CKEPGNCWE KPGYPEKIAGSKYDPKHDPVELNKQEESIK MDARNAKRIANAKS
+Sbjct  23  YDGQSCKEPGNCWEAKPGYPEKIAGSKYDPKHDPVELNKQEESIKLMDARNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>ref|WP_018986322.1| methanol dehydrogenase [Methylophilus methylotrophus]
+Length=91
+
+ Score =  136 bits (342),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 63/69 (91%), Positives = 65/69 (94%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CKE GNCWE KPGYPEKIAGSKYDPKHDPVELNKQE++IKAMD RNAKRIANAKS
+Sbjct  23  YDGQTCKEAGNCWEAKPGYPEKIAGSKYDPKHDPVELNKQEQAIKAMDERNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>ref|WP_020167963.1| methanol dehydrogenase [Methylotenera]
+Length=91
+
+ Score =  127 bits (318),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 58/68 (85%), Positives = 62/68 (91%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPGYPEKIAGSKYDPKHDP E+ KQE SIKAMDARNAKRIANAK+
+Sbjct  23  YDGGNCKEPGNCWEAKPGYPEKIAGSKYDPKHDPKEVGKQEASIKAMDARNAKRIANAKA  82
+
+Query  61  SGNFVFDV  68
+           +G FVFD+
+Sbjct  83  TGKFVFDL  90
+
+
+>ref|WP_019899192.1| methanol dehydrogenase [Methylotenera mobilis]
+Length=91
+
+ Score =  121 bits (304),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 55/68 (81%), Positives = 61/68 (90%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPGYPEKIAGSKYDPKHDP E+ KQ+ SI+AMDARNAKRIANAK+
+Sbjct  23  YDGHNCKEPGNCWEAKPGYPEKIAGSKYDPKHDPKEVGKQQASIQAMDARNAKRIANAKA  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFDYDV  90
+
+
+>ref|YP_546149.1| methanol dehydrogenase, beta subunit [Methylobacillus flagellatus 
+KT]
+ ref|WP_011480262.1| methanol dehydrogenase [Methylobacillus flagellatus]
+ gb|ABE50308.1| methanol dehydrogenase, beta subunit [Methylobacillus flagellatus 
+KT]
+Length=91
+
+ Score =  120 bits (300),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 52/69 (75%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C+ PG+CW+ KPGYPEKIAG+KYDPKHDP EL+KQE +IKA+D RNAKRIANAK+
+Sbjct  23  YDGQTCRAPGDCWQPKPGYPEKIAGTKYDPKHDPAELSKQEAAIKAIDERNAKRIANAKA  82
+
+Query  61  SGNFVFDVK  69
+           +G F FDVK
+Sbjct  83  TGTFKFDVK  91
+
+
+>ref|YP_004039182.1| alcohol dehydrogenase [Methylovorus sp. MP688]
+ ref|WP_013441569.1| methanol dehydrogenase [Methylovorus sp. MP688]
+ gb|ADQ83946.1| Alcohol dehydrogenase (acceptor) [Methylovorus sp. MP688]
+Length=94
+
+ Score =  120 bits (300),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 54/69 (78%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPG+PEKIAGSKYDPKHDPVEL+KQE++IKAM+ RNAKR+AN K 
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPEKIAGSKYDPKHDPVELSKQEKAIKAMNERNAKRVANLKE  85
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  86  TGQFKYDVK  94
+
+
+>ref|WP_020182080.1| hypothetical protein [Methylotenera sp. 1P/1]
+Length=92
+
+ Score =  119 bits (298),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 54/68 (79%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKE GNCWE KPG+P KIAGSKYDPKHDPVE+ KQE SIKAMDARN KRIANAK+
+Sbjct  23  YDGQNCKEAGNCWEAKPGFPAKIAGSKYDPKHDPVEVGKQEASIKAMDARNEKRIANAKA  82
+
+Query  61  SGNFVFDV  68
+           +G F ++V
+Sbjct  83  TGKFDYNV  90
+
+
+>gb|AAM18570.1|AF494424_4 small subunit of methanol dehydrogenase [Methylobacillus sp. 
+SK-5]
+Length=91
+
+ Score =  119 bits (298),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 52/69 (75%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C+ PG+CW+ KPGYPEKIAGSKYDPKHD  EL+KQE +IKA+D RNAKRIANAK+
+Sbjct  23  YDGQTCRAPGDCWQAKPGYPEKIAGSKYDPKHDAAELSKQEAAIKAIDERNAKRIANAKA  82
+
+Query  61  SGNFVFDVK  69
+           +G F FDVK
+Sbjct  83  TGTFKFDVK  91
+
+
+>ref|WP_018391121.1| methanol dehydrogenase [Xanthobacteraceae]
+Length=103
+
+ Score =  119 bits (297),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 52/68 (76%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARNA+R+AN + 
+Sbjct  31  YDGTNCKAPGNCWEAKPGYPDKVAGSKYDPKHDPKELNKQSESIKAMEARNAQRVANFEK  90
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  91  TGKFVYDV  98
+
+
+>ref|YP_003050512.1| alcohol dehydrogenase [Methylovorus glucosetrophus SIP3-4]
+ ref|WP_015829568.1| methanol dehydrogenase [Methylovorus glucosotrophus]
+ gb|ACT49985.1| Alcohol dehydrogenase (acceptor) [Methylovorus glucosetrophus 
+SIP3-4]
+Length=94
+
+ Score =  118 bits (295),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 53/69 (77%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPG+P+KIAGSKYDPKHDPVEL+KQE++IKAM+ RNAKR+AN K 
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPDKIAGSKYDPKHDPVELSKQEKAIKAMNERNAKRVANLKE  85
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  86  TGQFKYDVK  94
+
+
+>ref|YP_004974314.1| Methanol dehydrogenase, small (beta) subunit [Azospirillum lipoferum 
+4B]
+ ref|WP_014188592.1| methanol dehydrogenase [Azospirillum lipoferum]
+ emb|CBS89140.1| Methanol dehydrogenase, small (beta) subunit [Azospirillum lipoferum 
+4B]
+Length=105
+
+ Score =  115 bits (289),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 51/69 (74%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP KIAGSKYDPKHDP+ELNKQ+ESIKAMD RN +R+ + K 
+Sbjct  32  YDGTNCKAPGNCWEPKPGYPAKIAGSKYDPKHDPMELNKQQESIKAMDERNRQRVDHFKK  91
+
+Query  61  SGNFVFDVK  69
+           +G F++DVK
+Sbjct  92  TGTFIYDVK  100
+
+
+>gb|AAF43728.1| methanol dehydrogenase small subunit [Methylovorus sp. SS1]
+Length=95
+
+ Score =  113 bits (283),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 53/70 (76%), Positives = 61/70 (87%), Gaps = 1/70 (1%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQ-EESIKAMDARNAKRIANAK  59
+           YDG NCKEPGNCWE KPG+PEKIAGSKYDPKHDPVEL+KQ  ++IKAM+ RNAKR+AN K
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPEKIAGSKYDPKHDPVELSKQARKAIKAMNERNAKRVANLK  85
+
+Query  60  SSGNFVFDVK  69
+            +G F +DVK
+Sbjct  86  ETGQFKYDVK  95
+
+
+>ref|YP_003696079.1| alcohol dehydrogenase (acceptor) [Starkeya novella DSM 506]
+ ref|WP_013168961.1| methanol dehydrogenase [Starkeya novella]
+ gb|ADH91460.1| Alcohol dehydrogenase (acceptor) [Starkeya novella DSM 506]
+Length=104
+
+ Score =  114 bits (284),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 50/68 (74%), Positives = 59/68 (87%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKH+P ELNKQ +SIK M+ARNAKR+ N K 
+Sbjct  31  YDGTNCKAPGNCWEPKPGYPDKVAGSKYDPKHNPAELNKQSQSIKEMEARNAKRVENFKK  90
+
+Query  61  SGNFVFDV  68
+           +G+FV+DV
+Sbjct  91  TGSFVYDV  98
+
+
+>ref|WP_017365067.1| methanol dehydrogenase [Methylococcus capsulatus]
+Length=109
+
+ Score =  110 bits (274),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 49/68 (72%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+            YDG +CK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARN KR+ N   
+Sbjct  38   YDGTHCKAPGNCWEPKPGYPDKVAGSKYDPKHDPNELNKQAESIKAMEARNQKRVENYAK  97
+
+Query  61   SGNFVFDV  68
+            +G FV+ V
+Sbjct  98   TGKFVYKV  105
+
+
+>ref|YP_996597.1| methanol dehydrogenase subunit beta [Verminephrobacter eiseniae 
+EF01-2]
+ ref|WP_011809585.1| methanol dehydrogenase [Verminephrobacter eiseniae]
+ gb|ABM57579.1| methanol dehydrogenase, beta subunit [Verminephrobacter eiseniae 
+EF01-2]
+Length=91
+
+ Score =  108 bits (271),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK  G+CWE KPGYP K+AGSKYDPKHDP ELNK ++++++M+ RNAKR+ANA++
+Sbjct  23  YDGTNCKAAGDCWEPKPGYPAKLAGSKYDPKHDPAELNKNQQAVQSMEERNAKRLANARA  82
+
+Query  61  SGNFVFDV  68
+           +G F FDV
+Sbjct  83  TGTFKFDV  90
+
+
+>ref|YP_113284.1| methanol dehydrogenase, small subunit [Methylococcus capsulatus 
+str. Bath]
+ ref|WP_010960109.1| methanol dehydrogenase [Methylococcus capsulatus]
+ gb|AAU92932.1| methanol dehydrogenase, small subunit [Methylococcus capsulatus 
+str. Bath]
+Length=94
+
+ Score =  108 bits (271),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 49/68 (72%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARN KR+ N   
+Sbjct  23  YDGTHCKAPGNCWEPKPGYPDKVAGSKYDPKHDPNELNKQAESIKAMEARNQKRVENYAK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+ V
+Sbjct  83  TGKFVYKV  90
+
+
+>ref|WP_020158035.1| methanol dehydrogenase [Methylobacter marinus]
+Length=94
+
+ Score =  108 bits (270),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 49/69 (71%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  N   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVAGSKYDPKHDPNELNKQSQSIKEMEARNEKRWENLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|WP_007569499.1| methanol dehydrogenase [Methylobacterium sp. GXF4]
+ gb|EIZ81395.1| methanol dehydrogenase beta subunit [Methylobacterium sp. GXF4]
+Length=98
+
+ Score =  108 bits (270),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCWE KPG+PEK+AG+KYDPKHDP E+ KQ ESIK M+ RN KRI NAK 
+Sbjct  25  YDGQTCKAPGNCWEPKPGFPEKVAGTKYDPKHDPKEVGKQAESIKLMEERNRKRIENAKK  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGKFEYDV  92
+
+
+>ref|YP_004918691.1| methanol dehydrogenase, small subunit [Methylomicrobium alcaliphilum 
+20Z]
+ ref|WP_014149864.1| methanol dehydrogenase [Methylomicrobium alcaliphilum]
+ emb|CCE25108.1| Methanol dehydrogenase, small subunit [Methylomicrobium alcaliphilum 
+20Z]
+Length=94
+
+ Score =  108 bits (270),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPG+PEK+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGFPEKVAGSKYDPKHDPNELNKQAQSIKEMEARNQKRTEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGRFVYDVE  91
+
+
+>ref|YP_001756857.1| methanol dehydrogenase beta subunit [Methylobacterium radiotolerans 
+JCM 2831]
+ ref|WP_012321128.1| methanol dehydrogenase [Methylobacterium radiotolerans]
+ gb|ACB26174.1| methanol dehydrogenase beta subunit [Methylobacterium radiotolerans 
+JCM 2831]
+Length=96
+
+ Score =  108 bits (269),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCW+ KPG+PEK+AG+KYDPKHDP E++KQ ESIK M+ RN KRI NAK 
+Sbjct  23  YDGQTCKAPGNCWQPKPGFPEKVAGTKYDPKHDPKEVSKQAESIKQMEERNRKRIENAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_020096030.1| methanol dehydrogenase [Methylobacterium sp. 285MFTsu5.1]
+Length=96
+
+ Score =  107 bits (268),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCW+ KPG+PEK+AG+KYDPKHDP E++KQ ESIK M+ RN KRI NAK 
+Sbjct  23  YDGQTCKAPGNCWQPKPGFPEKVAGTKYDPKHDPKEVSKQAESIKQMEERNRKRIENAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>dbj|BAL54075.1| methanol dehydrogenase small subunit [uncultured gamma proteobacterium]
+Length=89
+
+ Score =  107 bits (266),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           Y G NCKEPG CWE KPGYPEKIAG++YDPKHDP+EL+KQ ++I+AM+ARN KR  + K 
+Sbjct  21  YTGTNCKEPGVCWEAKPGYPEKIAGTRYDPKHDPLELDKQRQAIEAMNARNLKRYQHFKQ  80
+
+Query  61  SGNFVFDV  68
+           +G FV++V
+Sbjct  81  TGKFVYEV  88
+
+
+>ref|WP_023493431.1| methanol dehydrogenase subunit 2 [Methyloglobulus morosus]
+ gb|ESS73607.1| methanol dehydrogenase subunit 2 [Methyloglobulus morosus KoM1]
+Length=93
+
+ Score =  107 bits (266),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYPE++AGSKYDPKHDP ELNKQ +SIK M+ARN KR      
+Sbjct  23  YDGTNCKEPGVCWEAKPGYPEQVAGSKYDPKHDPNELNKQAQSIKEMEARNEKRWKQLSQ  82
+
+Query  61  SGNFVFDVK  69
+           +G FV++V+
+Sbjct  83  TGKFVYEVE  91
+
+
+>ref|YP_004515168.1| alcohol dehydrogenase [Methylomonas methanica MC09]
+ ref|WP_013820883.1| methanol dehydrogenase [Methylomonas methanica]
+ gb|AEG02669.1| Alcohol dehydrogenase (acceptor) [Methylomonas methanica MC09]
+Length=92
+
+ Score =  106 bits (264),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKEPG CWE KPGYP+K+AGSKYDPKHDP ELNKQ +SIK M+ARNAKR      
+Sbjct  23  YDGTKCKEPGVCWEPKPGYPDKVAGSKYDPKHDPNELNKQAQSIKEMEARNAKRTEVLAK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>ref|YP_001927261.1| methanol dehydrogenase subunit beta [Methylobacterium populi 
+BJ001]
+ ref|WP_012456327.1| methanol dehydrogenase [Methylobacterium populi]
+ gb|ACB82726.1| methanol dehydrogenase beta subunit [Methylobacterium populi 
+BJ001]
+Length=96
+
+ Score =  106 bits (264),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|YP_002360809.1| methanol dehydrogenase beta subunit [Methylocella silvestris 
+BL2]
+ ref|WP_012589517.1| methanol dehydrogenase [Methylocella silvestris]
+ gb|ACK49447.1| methanol dehydrogenase beta subunit [Methylocella silvestris 
+BL2]
+Length=101
+
+ Score =  106 bits (264),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C  PGNCWE KPG+P KIAGSKYDPKH+P EL KQ ESI AM+ RNAKR+A  K 
+Sbjct  29  YDGQTCVAPGNCWEPKPGFPAKIAGSKYDPKHNPKELAKQSESITAMEERNAKRVAAFKK  88
+
+Query  61  SGNFVFDV  68
+           +G FV++V
+Sbjct  89  TGKFVYEV  96
+
+
+>ref|WP_017484021.1| methanol dehydrogenase [Methylobacterium sp. MB200]
+Length=96
+
+ Score =  105 bits (263),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_020565294.1| hypothetical protein [Methylosarcina fibrata]
+Length=94
+
+ Score =  105 bits (262),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPG CWE KPGYP+ +AGSKYDPKHDP ELNKQ +SI  M+ARN KR  +   
+Sbjct  23  YDGQNCKEPGVCWEAKPGYPDTVAGSKYDPKHDPNELNKQAQSILEMEARNQKRWEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|WP_017842208.1| methanol dehydrogenase [Methylomicrobium buryatense]
+Length=94
+
+ Score =  105 bits (261),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 46/69 (67%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPG+P+K+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGFPDKVAGSKYDPKHDPNELNKQAQSIKEMEARNQKRTEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV++V+
+Sbjct  83  TGKFVYEVE  91
+
+
+>ref|WP_019904720.1| methanol dehydrogenase [Methylobacterium sp. 77]
+Length=96
+
+ Score =  104 bits (260),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP EL+KQ +SIK M+ RNAKRI  AK 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELSKQADSIKQMEERNAKRIEAAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_018411261.1| hypothetical protein [Methyloversatilis sp. NVD]
+Length=93
+
+ Score =  103 bits (258),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYP+K+AGSKYDPKHD  E++KQ +SIKAM+ARNAKR+ N  +
+Sbjct  25  YDGTKCKAPGNCWEPKPGYPDKVAGSKYDPKHDAKEISKQGDSIKAMEARNAKRVENLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>ref|WP_010686848.1| methanol dehydrogenase beta subunit [Methylobacterium mesophilicum]
+ gb|EMS40040.1| methanol dehydrogenase beta subunit [Methylobacterium mesophilicum 
+SR1.6/6]
+Length=96
+
+ Score =  103 bits (258),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCWE KPG+PEK+AGSKYDPKHDP E++KQ +SIK M+ RN +R+ +A+ 
+Sbjct  23  YDGQTCKAPGNCWEPKPGFPEKVAGSKYDPKHDPKEVSKQADSIKQMEERNRQRVDHAQK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_022947525.1| methanol dehydrogenase [Methylohalobius crimeensis]
+Length=94
+
+ Score =  103 bits (257),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           Y G NCKEPG CWE KPGYPEK+AG++YDPKHDP EL+KQ +SI+AM+ RN +R  + K 
+Sbjct  22  YSGTNCKEPGVCWEPKPGYPEKVAGTRYDPKHDPAELSKQSKSIEAMNQRNKQRWQHLKK  81
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  82  TGKFVYDV  89
+
+
+>ref|YP_531786.1| methanol dehydrogenase subunit beta [Rhodopseudomonas palustris 
+BisB18]
+ ref|WP_011472371.1| methanol dehydrogenase [Rhodopseudomonas palustris]
+ gb|ABD87467.1| methanol dehydrogenase, beta subunit [Rhodopseudomonas palustris 
+BisB18]
+Length=98
+
+ Score =  103 bits (258),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYPEK+AGSKYDPKH+  ELNKQ +SIKAM+ RN  R+AN K 
+Sbjct  26  YDGTKCKAPGNCWEPKPGYPEKVAGSKYDPKHNVAELNKQSDSIKAMEQRNELRVANFKK  85
+
+Query  61  SGNFVFDV  68
+           +G +V++V
+Sbjct  86  TGKWVYEV  93
+
+
+>ref|YP_001641587.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+PA1]
+ ref|YP_002423219.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+CM4]
+ ref|YP_002965443.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+AM1]
+ ref|WP_003599120.1| methanol dehydrogenase [Methylobacterium extorquens]
+ sp|P14775.1|DHM2_METEA RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+ pir||S01250 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta chain precursor 
+- Methylobacterium sp
+ emb|CAA30705.1| unnamed protein product [Methylobacterium specialis]
+ emb|CAA33796.1| unnamed protein product [Methylobacterium extorquens AM1]
+ gb|ABY32516.1| methanol dehydrogenase beta subunit [Methylobacterium extorquens 
+PA1]
+ gb|ACK85291.1| methanol dehydrogenase beta subunit [Methylobacterium extorquens 
+CM4]
+ gb|ACS42166.1| Methanol dehydrogenase subunit 2 precursor (MDH small beta subunit) 
+[Methylobacterium extorquens AM1]
+ gb|EHP93235.1| Alcohol dehydrogenase (acceptor) [Methylobacterium extorquens 
+DSM 13060]
+Length=96
+
+ Score =  103 bits (257),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_020481120.1| methanol dehydrogenase [Methylomonas sp. MK1]
+Length=93
+
+ Score =  103 bits (257),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKE GNCWE KPGYP ++AGSKYDPKHDP ELNKQ +SIK M+ARNAKR      
+Sbjct  23  YDGTKCKEAGNCWEPKPGYPAQVAGSKYDPKHDPNELNKQAQSIKDMEARNAKRTELMAK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>ref|YP_782052.1| methanol dehydrogenase subunit beta [Rhodopseudomonas palustris 
+BisA53]
+ ref|WP_011664549.1| methanol dehydrogenase [Rhodopseudomonas palustris]
+ gb|ABJ07072.1| methanol dehydrogenase, beta subunit [Rhodopseudomonas palustris 
+BisA53]
+Length=98
+
+ Score =  103 bits (257),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYPEK+AGSKYDPKH+  ELNKQ +SIKAM+ RN +R+A+ K+
+Sbjct  26  YDGTKCKAPGNCWEPKPGYPEKVAGSKYDPKHNVAELNKQSDSIKAMEQRNEQRVAHFKN  85
+
+Query  61  SGNFVFDV  68
+           +G +V++V
+Sbjct  86  TGKWVYEV  93
+
+
+>ref|YP_003070568.1| methanol dehydrogenase subunit 2 [Methylobacterium extorquens 
+DM4]
+ ref|WP_015824264.1| methanol dehydrogenase [Methylobacterium extorquens]
+ emb|CAX26756.1| Methanol dehydrogenase subunit 2 precursor (MDH small beta subunit) 
+[Methylobacterium extorquens DM4]
+Length=96
+
+ Score =  103 bits (256),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_019866187.1| methanol dehydrogenase [Methylovulum miyakonense]
+Length=95
+
+ Score =  102 bits (255),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+AGSKYDPKHD  ELNKQ +S+K M+ARN KR  N   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVAGSKYDPKHDVNELNKQAQSVKEMEARNEKRRLNFVK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>pdb|1H4I|B Chain B, Methylobacterium Extorquens Methanol Dehydrogenase
+ pdb|1H4I|D Chain D, Methylobacterium Extorquens Methanol Dehydrogenase
+ pdb|1H4J|B Chain B, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|D Chain D, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|F Chain F, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|H Chain H, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1W6S|B Chain B, The High Resolution Structure Of Methanol Dehydrogenase 
+From Methylobacterium Extorquens
+ pdb|1W6S|D Chain D, The High Resolution Structure Of Methanol Dehydrogenase 
+From Methylobacterium Extorquens
+Length=74
+
+ Score =  102 bits (253),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  1   YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  60
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  61  TGKFEYDV  68
+
+
+>gb|ACB32199.1| MxaI [uncultured bacterium 16A2]
+Length=98
+
+ Score =  102 bits (255),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPG+P+KIAGSKYDPKHDP EL KQ+ S++AM+ RN KR+A  K 
+Sbjct  25  YDGTNCKAPGNCWEPKPGFPDKIAGSKYDPKHDPKELAKQQASVEAMEQRNQKRVAYFKK  84
+
+Query  61  SGNFVFDV  68
+           +G ++++V
+Sbjct  85  TGRWIYEV  92
+
+
+>ref|YP_003755453.1| methanol dehydrogenase subunit beta [Hyphomicrobium denitrificans 
+ATCC 51888]
+ ref|WP_013215347.1| methanol dehydrogenase [Hyphomicrobium denitrificans]
+ gb|ADJ23132.1| methanol dehydrogenase beta subunit [Hyphomicrobium denitrificans 
+ATCC 51888]
+Length=101
+
+ Score =  102 bits (254),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 48/69 (70%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNAKR  + K 
+Sbjct  30  YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNAKRAEHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>ref|WP_018044532.1| methanol dehydrogenase [Methylobacterium sp. 88A]
+Length=96
+
+ Score =  102 bits (253),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CW+ KPG+PEKIAG+KYDPKHDP ELNKQ ESI+ M+ RN KRI  AK 
+Sbjct  23  YDGTKCKAAGDCWQPKPGFPEKIAGTKYDPKHDPKELNKQSESIRLMEERNKKRIEAAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|YP_008867585.1| methanol dehydrogenase [Hyphomicrobium nitrativorans NL23]
+ ref|WP_023788219.1| methanol dehydrogenase [Hyphomicrobium nitrativorans]
+ gb|AHB49344.1| methanol dehydrogenase [Hyphomicrobium nitrativorans NL23]
+Length=96
+
+ Score =  102 bits (253),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKHDP EL KQ++++    ARNAKR  + K 
+Sbjct  26  YDGTNCKAPGNCWEPKPGYPDKVAGSKYDPKHDPKELAKQQQALDDQSARNAKRAEHFKK  85
+
+Query  61  SGNFVFDV  68
+           +GN+V+DV
+Sbjct  86  TGNWVYDV  93
+
+
+>ref|WP_005372675.1| methanol dehydrogenase [Methylomicrobium album]
+ gb|ABE77339.1| methanol dehydrogenase small subunit [Methylomicrobium sp. HG-1]
+ gb|EIC30191.1| Methanol dehydrogenase beta subunit [Methylomicrobium album BG8]
+Length=93
+
+ Score =  101 bits (252),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+ GSKYDPKHDP ELNKQ +SI  M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVEGSKYDPKHDPNELNKQSQSIAEMEARNQKRWEHFNK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>ref|WP_006894138.1| methanol dehydrogenase [Methylobacter tundripaludum]
+ gb|EGW19922.1| Alcohol dehydrogenase (acceptor) [Methylobacter tundripaludum 
+SV96]
+Length=94
+
+ Score =  101 bits (251),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNC EPG CWE KPGYPEK+AGSKYDPKHD  ELNKQ +S+  M+ RN KR  N   
+Sbjct  23  YDGQNCSEPGVCWEPKPGYPEKVAGSKYDPKHDVNELNKQAQSVIEMEERNKKRQENLAK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>ref|YP_916775.1| methanol dehydrogenase, beta subunit [Paracoccus denitrificans 
+PD1222]
+ ref|WP_010399081.1| methanol dehydrogenase [Paracoccus]
+ sp|P29898.1|DHM2_PARDE RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+ gb|AAA25584.1| beta-subunit methanol dehydrogenase [Paracoccus denitrificans]
+ gb|ABL71079.1| methanol dehydrogenase, beta subunit [Paracoccus denitrificans 
+PD1222]
+Length=103
+
+ Score =  101 bits (252),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KP YP K+ GSKYDP+HDP EL+KQ ES+  MDARN  R+ N K 
+Sbjct  21  YDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKK  80
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  81  TGKFEYDVK  89
+
+
+>ref|WP_020176231.1| hypothetical protein [Methyloferula stellata]
+Length=97
+
+ Score =  101 bits (251),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ+CK PGNCWE  PGYPEKIAGSKYDPKHDP E+ KQ +S + M+ RN KR+   K 
+Sbjct  25  YDGQHCKAPGNCWEPHPGYPEKIAGSKYDPKHDPKEIAKQADSERQMEERNKKRVDYFKK  84
+
+Query  61  SGNFVFDV  68
+           SG FV+DV
+Sbjct  85  SGKFVYDV  92
+
+
+>dbj|BAA23275.1| methanol dehydrogenase beta subunit [Hyphomicrobium methylovorum]
+Length=101
+
+ Score =  100 bits (250),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKH+P EL KQ ES K  +ARNA+R A+ K 
+Sbjct  30  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHNPKELAKQVESRKGEEARNAQRAAHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>pdb|1LRW|B Chain B, Crystal Structure Of Methanol Dehydrogenase From P. 
+Denitrificans
+ pdb|1LRW|D Chain D, Crystal Structure Of Methanol Dehydrogenase From P. 
+Denitrificans
+Length=83
+
+ Score =  100 bits (248),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KP YP K+ GSKYDP+HDP EL+KQ ES+  MDARN  R+ N K 
+Sbjct  1   YDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKK  60
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  61  TGKFEYDVK  69
+
+
+>dbj|BAE16961.1| methanol dehydrogenase small subunit [Hyphomicrobium denitrificans]
+Length=101
+
+ Score =  100 bits (248),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNA R  + K 
+Sbjct  30  YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNANRAEHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>pdb|2D0V|B Chain B, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+ pdb|2D0V|E Chain E, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+ pdb|2D0V|J Chain J, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+Length=72
+
+ Score = 99.4 bits (246),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNA R  + K 
+Sbjct  1   YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNANRAEHFKK  60
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  61  TGKWVYDVK  69
+
+
+>ref|YP_002490198.1| methanol dehydrogenase beta subunit [Methylobacterium nodulans 
+ORS 2060]
+ ref|WP_012631233.1| methanol dehydrogenase [Methylobacterium nodulans]
+ gb|ACL63031.1| methanol dehydrogenase beta subunit [Methylobacterium nodulans 
+ORS 2060]
+Length=99
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPG+P+KIAG+KYDPKHDP ELNKQ +SIKAM+ RN KR+   K 
+Sbjct  26  YDGTKCKAAGDCWEPKPGFPDKIAGTKYDPKHDPKELNKQADSIKAMEERNRKRVEAFKR  85
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  86  TGRFEYDV  93
+
+
+>ref|WP_003611868.1| methanol dehydrogenase [Methylosinus trichosporium]
+ gb|EFH02983.1| methanol dehydrogenase beta subunit [Methylosinus trichosporium 
+OB3b]
+Length=100
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+P+KIAGSKYDPKHDP EL KQ+ SI+ M+ARN KRIA  K 
+Sbjct  27  YDGTKCKAAGNCWEPKPGFPDKIAGSKYDPKHDPKELAKQQTSIQGMEARNQKRIAYFKK  86
+
+Query  61  SGNFVFDV  68
+           SG ++++V
+Sbjct  87  SGKWIYEV  94
+
+
+>ref|YP_004674298.1| methanol dehydrogenase subunit beta [Hyphomicrobium sp. MC1]
+ ref|WP_013946132.1| methanol dehydrogenase [Hyphomicrobium sp. MC1]
+ emb|CCB63722.1| Methanol dehydrogenase, beta subunit precursor [Hyphomicrobium 
+sp. MC1]
+Length=99
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +C+ PGNCWE KPG+PEKI G+K+DPKHDP +L KQ ES+ AM+ RNAKR  N K 
+Sbjct  28  YDGTHCRAPGNCWEPKPGFPEKIKGTKFDPKHDPKQLAKQSESMAAMEERNAKRAENFKK  87
+
+Query  61  SGNFVFDV  68
+           +G +V+DV
+Sbjct  88  TGKWVYDV  95
+
+
+>ref|WP_019918927.1| hypothetical protein [Rhodocyclaceae bacterium RZ94]
+Length=93
+
+ Score = 99.0 bits (245),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPGYP+K+AGSKYDPKHD  EL+KQ +SIK M+ARNAKR+    +
+Sbjct  25  YDGTKCKAAGNCWEPKPGYPDKVAGSKYDPKHDAKELSKQGDSIKQMEARNAKRVEQLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>ref|WP_018267726.1| hypothetical protein [Methylosinus sp. LW4]
+Length=106
+
+ Score = 97.8 bits (242),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+            YDG  CK PG+CWE KPG+PEK+AGSKYDPKHDP EL K + +I AM+ RN KR  + K 
+Sbjct  35   YDGTKCKAPGDCWEPKPGFPEKVAGSKYDPKHDPKELAKNQSAIAAMEERNKKRAEHFKK  94
+
+Query  61   SGNFVFDV  68
+            +G FV+DV
+Sbjct  95   TGAFVYDV  102
+
+
+>ref|WP_018406704.1| methanol dehydrogenase [Methylocystis rosea]
+Length=96
+
+ Score = 96.7 bits (239),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 41/68 (60%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP E+ KQ+ S++AM+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKEIAKQQASVQAMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|WP_020164046.1| hypothetical protein [Methyloversatilis universalis]
+Length=93
+
+ Score = 95.9 bits (237),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPGYP K+AGSKYDPKHD  EL KQ +SIK M+ARNAKR+    +
+Sbjct  25  YDGTKCKAAGDCWEPKPGYPAKVAGSKYDPKHDAKELAKQGDSIKQMEARNAKRVEQLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>ref|WP_016921199.1| methanol dehydrogenase [Methylocystis parvus]
+Length=96
+
+ Score = 95.9 bits (237),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 42/68 (62%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP EL KQ  S++AM+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKELAKQGASVQAMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|YP_006592675.1| methanol dehydrogenase subunit beta [Methylocystis sp. SC2]
+ ref|WP_014892052.1| methanol dehydrogenase [Methylocystis sp. SC2]
+ emb|CCJ08024.1| Methanol dehydrogenase beta subunit [Methylocystis sp. SC2]
+Length=96
+
+ Score = 95.5 bits (236),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 41/68 (60%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP E+ KQ+ SI+ M+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKEIAKQQASIQGMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|WP_006913817.1| methanol dehydrogenase [Salinisphaera shabanensis]
+ gb|ERJ20075.1| methanol dehydrogenase cytochrome c subunit 2 protein [Salinisphaera 
+shabanensis E1L3A]
+Length=109
+
+ Score = 95.9 bits (237),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NC EPG CWE KPGYP+KI GSKYDPKH   ELNKQ+ESI+ M+ RNA R+ + K 
+Sbjct  27  YDGTNCSEPGVCWEPKPGYPDKIEGSKYDPKHSDSELNKQQESIQGMEKRNAMRVEHFKK  86
+
+Query  61  SGNFVFDV  68
+           +G +V D 
+Sbjct  87  TGEWVNDT  94
+
+
+>ref|WP_020087474.1| hypothetical protein [Hyphomicrobium zavarzinii]
+Length=96
+
+ Score = 94.4 bits (233),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 42/68 (62%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G CWE KPGYPEK+AGSKYDPKH+P EL KQ++S+    ARNAKR A+ + 
+Sbjct  25  YDGTKCKAAGVCWEPKPGYPEKVAGSKYDPKHNPAELAKQQKSLDDQAARNAKRSAHFQK  84
+
+Query  61  SGNFVFDV  68
+           +G +V+DV
+Sbjct  85  TGKWVYDV  92
+
+
+>ref|YP_003205076.1| methanol dehydrogenase, small subunit (mxaI) [Candidatus Methylomirabilis 
+oxyfera]
+ ref|WP_012814366.1| methanol dehydrogenase [Candidatus Methylomirabilis oxyfera]
+ emb|CBE67231.1| Methanol dehydrogenase, small subunit (mxaI) [Candidatus Methylomirabilis 
+oxyfera]
+Length=94
+
+ Score = 94.0 bits (232),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 43/69 (62%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKEPG CWE KPGYP ++AGSKYDPKHDP E+ KQE + KAMD RN KR  + + 
+Sbjct  26  YDGTKCKEPGACWEPKPGYPARVAGSKYDPKHDPKEVAKQELAHKAMDERNEKRWKHFQE  85
+
+Query  61  SGNFVFDVK  69
+           +G + +DVK
+Sbjct  86  TGVWKYDVK  94
+
+
+>ref|YP_006295025.1| methanol dehydrogenase small subunit [Methylophaga nitratireducenticrescens]
+ ref|WP_014705755.1| methanol dehydrogenase [Methylophaga nitratireducenticrescens]
+ gb|AFI83380.1| methanol dehydrogenase small subunit [Methylophaga nitratireducenticrescens]
+Length=91
+
+ Score = 92.8 bits (229),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 51/66 (77%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C+E G CWE KPG+PEKI GSK+DPKH   EL+KQ+ +++AM+ARNAKR+ N K 
+Sbjct  26  YDGTKCQEAGKCWEAKPGFPEKIKGSKFDPKHSQAELDKQDSAMEAMEARNAKRVENFKK  85
+
+Query  61  SGNFVF  66
+           SG + +
+Sbjct  86  SGKWSY  91
+
+
+>ref|YP_006293945.1| Methanol dehydrogenase, small subunit [Methylophaga frappieri]
+ ref|WP_014704677.1| methanol dehydrogenase [Methylophaga frappieri]
+ gb|AFJ03258.1| Methanol dehydrogenase, small subunit [Methylophaga frappieri]
+Length=91
+
+ Score = 92.4 bits (228),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 41/66 (62%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK  GNCWE KPGYP+KI GSKYDPKH   EL KQ  S++AM+ RNAKR+ N K 
+Sbjct  26  YDGTNCKGDGNCWEAKPGYPDKIKGSKYDPKHSKTELEKQTTSMEAMEERNAKRVENFKK  85
+
+Query  61  SGNFVF  66
+           +G + +
+Sbjct  86  TGKWSY  91
+
+
+>ref|WP_008290952.1| methanol dehydrogenase [Methylophaga thiooxydans]
+ gb|EEF79859.1| methanol dehydrogenase, beta subunit [Methylophaga thiooxydans 
+DMS010]
+Length=88
+
+ Score = 91.3 bits (225),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 51/66 (77%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C  PG+CWE KPG+P+KI G+KYDPKH   ELNKQ ++++AM+ RNA+R+   K 
+Sbjct  23  YDGTKCSAPGDCWEAKPGFPDKIKGTKYDPKHSEKELNKQTQAMQAMEKRNAERVEQFKK  82
+
+Query  61  SGNFVF  66
+           SGN+V+
+Sbjct  83  SGNWVY  88
+
+
+>ref|WP_007144400.1| methanol dehydrogenase [Methylophaga aminisulfidivorans]
+ gb|ABN49108.1| methanol dehydrogenase small subunit [Methylophaga aminisulfidivorans 
+MP]
+ gb|EGL54514.1| hypothetical Protein MAMP_01202 [Methylophaga aminisulfidivorans 
+MP]
+Length=90
+
+ Score = 89.7 bits (221),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPG+P+KI GSKYDPKH   ELNKQ+ ++KAM+ RNA+R+   K 
+Sbjct  25  YDGTKCKAAGDCWEAKPGFPDKIKGSKYDPKHSEKELNKQDAALKAMEKRNAERVEQFKK  84
+
+Query  61  SGNFVF  66
+           +G +V+
+Sbjct  85  TGKWVY  90
+
+
+>ref|WP_020178343.1| hypothetical protein [Methylopila sp. M107]
+Length=102
+
+ Score = 90.1 bits (222),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/70 (63%), Positives = 51/70 (73%), Gaps = 2/70 (3%)
+
+Query  1   YDGQNCKEPGNCWENKPGYP--EKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANA  58
+           YDG NCKEPG CWE KP YP  +KI GSKYDPKHDP ++ KQ +SIK M+ARN KR  N 
+Sbjct  28  YDGTNCKEPGVCWEPKPNYPAKDKITGSKYDPKHDPKQVVKQADSIKDMEARNKKRSDNF  87
+
+Query  59  KSSGNFVFDV  68
+             +G F +DV
+Sbjct  88  AKTGKFEYDV  97
+
+
+>ref|WP_009727579.1| methanol dehydrogenase subunit beta [Methylophaga lonarensis]
+ gb|EMR11883.1| methanol dehydrogenase subunit beta [Methylophaga lonarensis 
+MPL]
+Length=91
+
+ Score = 89.4 bits (220),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C+ PG+CW+ KPG+PEKI GSKYDPKH  VELNKQ +++ AM+ RN KR  N K 
+Sbjct  26  YDGTQCRAPGDCWQAKPGFPEKIEGSKYDPKHSEVELNKQTQAMNAMEERNRKRAENFKK  85
+
+Query  61  SGNFVF  66
+           +G + +
+Sbjct  86  TGTWNY  91
+
+
+>dbj|BAN85790.1| methanol dehydrogenase subunit 2 precursor [Acidomonas methanolica]
+Length=95
+
+ Score = 86.3 bits (212),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 40/68 (59%), Positives = 48/68 (71%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK+PG CWE +PGYPE++ GSKYDP  DP EL KQ+ES  AM ARN  R A    
+Sbjct  23  YDGTHCKKPGVCWEPQPGYPEQLVGSKYDPHFDPAELAKQQESEDAMVARNKARTAYFIK  82
+
+Query  61  SGNFVFDV  68
+           +G +V DV
+Sbjct  83  TGTWVEDV  90
+
+
+>ref|YP_744168.1| methanol dehydrogenase subunit 2 [Granulibacter bethesdensis 
+CGDNIH1]
+ ref|WP_011631055.1| methanol dehydrogenase [Granulibacter bethesdensis]
+ gb|ABI61245.1| methanol dehydrogenase subunit 2 [Granulibacter bethesdensis 
+CGDNIH1]
+Length=103
+
+ Score = 85.9 bits (211),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 38/68 (56%), Positives = 47/68 (69%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PG CWE +PGYP  + GSKYDP HDP EL KQ+ ++ A +ARN  R+ N   
+Sbjct  28  YDGTHCKAPGVCWEPEPGYPAILKGSKYDPHHDPKELAKQQAALDAQEARNKLRVENFVK  87
+
+Query  61  SGNFVFDV  68
+           +G F FDV
+Sbjct  88  TGKFEFDV  95
+
+
+>gb|AAB20460.1| methanol dehydrogenase beta subunit, MDH beta subunit [Acetobacter 
+methanolicus, MB58, IMET 10945, Peptide, 70 aa]
+Length=70
+
+ Score = 72.8 bits (177),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 35/68 (51%), Positives = 44/68 (65%), Gaps = 4/68 (6%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK+PG CWE +PGYPE++ G KYDP  DP EL  QE    +M+ARN  R A    
+Sbjct  2   YDGTHCKKPGVCWEPQPGYPEQLVGVKYDPHFDPAELGVQE----SMNARNEARTAYFIL  57
+
+Query  61  SGNFVFDV  68
+           +G +  DV
+Sbjct  58  TGTWEEDV  65
+
+
+>pir||S20310 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta chain - Methylophilus 
+methylotrophus
+ gb|AAB21612.1| methanol dehydrogenase beta-subunit, MDH {EC 1.1.99.8} [Methylophilus 
+methylotrophus, Peptide Partial, 31 aa]
+Length=31
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPK  31
+           YDGQ  KE GN WE KPGYPEKIAGSKYDPK
+Sbjct  1   YDGQTXKEAGNXWEAKPGYPEKIAGSKYDPK  31
+
+
+>ref|WP_007203276.1| asparagine synthase [Bacillus macauensis]
+ gb|EIT84308.1| asparagine synthase [Bacillus macauensis ZFHKF-1]
+Length=635
+
+ Score = 36.6 bits (83),  Expect = 0.81, Method: Composition-based stats.
+ Identities = 18/41 (44%), Positives = 27/41 (66%), Gaps = 5/41 (12%)
+
+Query  8    EPGNCWENKPGYP---EKIAGSKYDPKHDPVELNKQEESIK  45
+            EPG+C++ KPG P    K    K+ PKH+P+E  KQ ++I+
+Sbjct  204  EPGHCFKKKPGKPMHIRKYWEPKFRPKHEPIE--KQIKTIQ  242
+
+
+>sp|Q09053.1|DHM2_METSP RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta
+Length=18
+
+ Score = 32.7 bits (73),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 15/19 (79%), Positives = 15/19 (79%), Gaps = 1/19 (5%)
+
+Query  1   YDGQNCKEPGNCWENKPGY  19
+           YDG NCK PG CWE KPGY
+Sbjct  1   YDGTNCK-PGVCWEPKPGY  18
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.130    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+Results from round 2
+
+
+Query= 1G72B
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_018391121.1|  methanol dehydrogenase [Xanthobacteraceae]        140    6e-41
+ref|WP_020158035.1|  methanol dehydrogenase [Methylobacter marinus]    134    6e-39
+ref|YP_004918691.1|  methanol dehydrogenase, small subunit [Methy...   134    8e-39
+ref|WP_020565294.1|  hypothetical protein [Methylosarcina fibrata]     133    2e-38
+ref|WP_005372675.1|  methanol dehydrogenase [Methylomicrobium alb...   132    4e-38
+gb|ACB32199.1|  MxaI [uncultured bacterium 16A2]                       131    1e-37
+ref|YP_004515168.1|  alcohol dehydrogenase [Methylomonas methanic...   131    1e-37
+ref|WP_017842208.1|  methanol dehydrogenase [Methylomicrobium bur...   131    1e-37
+sp|P38540.2|DHM2_METME  RecName: Full=Methanol dehydrogenase [cyt...   130    1e-37
+ref|YP_001927261.1|  methanol dehydrogenase subunit beta [Methylo...   130    2e-37
+ref|YP_003696079.1|  alcohol dehydrogenase (acceptor) [Starkeya n...   130    3e-37
+ref|WP_019883035.1|  methanol dehydrogenase [Methylophilus]            130    3e-37
+ref|WP_023493431.1|  methanol dehydrogenase subunit 2 [Methyloglo...   130    4e-37
+ref|YP_002360809.1|  methanol dehydrogenase beta subunit [Methylo...   129    6e-37
+pir||T10062  alcohol dehydrogenase (acceptor) (EC 1.1.99.8) small...   129    8e-37
+ref|YP_531786.1|  methanol dehydrogenase subunit beta [Rhodopseud...   129    8e-37
+ref|WP_018986322.1|  methanol dehydrogenase [Methylophilus methyl...   128    9e-37
+ref|YP_001641587.1|  methanol dehydrogenase subunit beta [Methylo...   128    1e-36
+ref|WP_022947525.1|  methanol dehydrogenase [Methylohalobius crim...   128    1e-36
+ref|YP_003070568.1|  methanol dehydrogenase subunit 2 [Methylobac...   128    1e-36
+ref|WP_017365067.1|  methanol dehydrogenase [Methylococcus capsul...   129    1e-36
+ref|YP_782052.1|  methanol dehydrogenase subunit beta [Rhodopseud...   128    1e-36
+ref|YP_002490198.1|  methanol dehydrogenase beta subunit [Methylo...   128    1e-36
+ref|WP_019904720.1|  methanol dehydrogenase [Methylobacterium sp....   128    1e-36
+ref|WP_020167963.1|  methanol dehydrogenase [Methylotenera]            128    1e-36
+ref|YP_003050512.1|  alcohol dehydrogenase [Methylovorus glucoset...   128    2e-36
+dbj|BAL54075.1|  methanol dehydrogenase small subunit [uncultured...   127    2e-36
+ref|YP_004039182.1|  alcohol dehydrogenase [Methylovorus sp. MP68...   127    2e-36
+ref|WP_016921199.1|  methanol dehydrogenase [Methylocystis parvus]     127    2e-36
+ref|YP_006592675.1|  methanol dehydrogenase subunit beta [Methylo...   127    3e-36
+ref|YP_003755453.1|  methanol dehydrogenase subunit beta [Hyphomi...   127    3e-36
+ref|WP_018406704.1|  methanol dehydrogenase [Methylocystis rosea]      127    4e-36
+ref|WP_018044532.1|  methanol dehydrogenase [Methylobacterium sp....   127    4e-36
+ref|YP_004674298.1|  methanol dehydrogenase subunit beta [Hyphomi...   127    4e-36
+ref|WP_007569499.1|  methanol dehydrogenase [Methylobacterium sp....   127    4e-36
+ref|WP_019899192.1|  methanol dehydrogenase [Methylotenera mobilis]    127    4e-36
+ref|YP_004974314.1|  Methanol dehydrogenase, small (beta) subunit...   127    5e-36
+ref|WP_020096030.1|  methanol dehydrogenase [Methylobacterium sp....   126    7e-36
+ref|WP_019866187.1|  methanol dehydrogenase [Methylovulum miyakon...   126    7e-36
+dbj|BAE16961.1|  methanol dehydrogenase small subunit [Hyphomicro...   127    8e-36
+ref|WP_006894138.1|  methanol dehydrogenase [Methylobacter tundri...   125    1e-35
+ref|YP_546149.1|  methanol dehydrogenase, beta subunit [Methyloba...   125    2e-35
+ref|YP_001756857.1|  methanol dehydrogenase beta subunit [Methylo...   125    2e-35
+ref|WP_018267726.1|  hypothetical protein [Methylosinus sp. LW4]       126    2e-35
+ref|WP_010686848.1|  methanol dehydrogenase beta subunit [Methylo...   125    3e-35
+ref|WP_020182080.1|  hypothetical protein [Methylotenera sp. 1P/1]     124    4e-35
+dbj|BAA23275.1|  methanol dehydrogenase beta subunit [Hyphomicrob...   125    4e-35
+ref|WP_020087474.1|  hypothetical protein [Hyphomicrobium zavarzi...   124    6e-35
+gb|AAF43728.1|  methanol dehydrogenase small subunit [Methylovoru...   124    7e-35
+ref|WP_020176231.1|  hypothetical protein [Methyloferula stellata]     124    7e-35
+ref|YP_113284.1|  methanol dehydrogenase, small subunit [Methyloc...   123    2e-34
+gb|AAM18570.1|AF494424_4  small subunit of methanol dehydrogenase...   123    2e-34
+ref|WP_017484021.1|  methanol dehydrogenase [Methylobacterium sp....   122    2e-34
+ref|YP_996597.1|  methanol dehydrogenase subunit beta [Verminephr...   122    5e-34
+ref|WP_003611868.1|  methanol dehydrogenase [Methylosinus trichos...   122    7e-34
+ref|WP_006913817.1|  methanol dehydrogenase [Salinisphaera shaban...   122    8e-34
+ref|YP_916775.1|  methanol dehydrogenase, beta subunit [Paracoccu...   121    8e-34
+ref|YP_008867585.1|  methanol dehydrogenase [Hyphomicrobium nitra...   119    4e-33
+ref|WP_020481120.1|  methanol dehydrogenase [Methylomonas sp. MK1]     119    5e-33
+ref|YP_744168.1|  methanol dehydrogenase subunit 2 [Granulibacter...   118    2e-32
+pdb|4AAH|B  Chain B, Methanol Dehydrogenase From Methylophilus W3...   116    3e-32
+ref|WP_009727579.1|  methanol dehydrogenase subunit beta [Methylo...   117    4e-32
+ref|YP_003205076.1|  methanol dehydrogenase, small subunit (mxaI)...   117    5e-32
+ref|YP_006293945.1|  Methanol dehydrogenase, small subunit [Methy...   116    8e-32
+dbj|BAN85790.1|  methanol dehydrogenase subunit 2 precursor [Acid...   115    1e-31
+ref|WP_007144400.1|  methanol dehydrogenase [Methylophaga aminisu...   115    2e-31
+pdb|1H4I|B  Chain B, Methylobacterium Extorquens Methanol Dehydro...   114    2e-31
+ref|WP_008290952.1|  methanol dehydrogenase [Methylophaga thiooxy...   114    4e-31
+ref|WP_019918927.1|  hypothetical protein [Rhodocyclaceae bacteri...   114    5e-31
+ref|WP_018411261.1|  hypothetical protein [Methyloversatilis sp. ...   113    1e-30
+pdb|2D0V|B  Chain B, Crystal Structure Of Methanol Dehydrogenase ...   112    1e-30
+ref|WP_020164046.1|  hypothetical protein [Methyloversatilis univ...   112    2e-30
+ref|YP_006295025.1|  methanol dehydrogenase small subunit [Methyl...   112    3e-30
+pdb|1LRW|B  Chain B, Crystal Structure Of Methanol Dehydrogenase ...   111    6e-30
+ref|WP_020178343.1|  hypothetical protein [Methylopila sp. M107]       108    1e-28
+gb|AAB20460.1|  methanol dehydrogenase beta subunit, MDH beta sub...   101    2e-26
+pir||S20310  alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta ...  47.3    1e-05
+
+Sequences not found previously or not previously below threshold:
+
+sp|Q09053.1|DHM2_METSP  RecName: Full=Methanol dehydrogenase [cyt...  38.4    0.016
+ref|WP_007203276.1|  asparagine synthase [Bacillus macauensis] >g...  37.3    0.46 
+ref|YP_007885202.1|  30S ribosomal protein S17 [Mycoplasma putref...  32.6    2.4  
+
+
+>ref|WP_018391121.1| methanol dehydrogenase [Xanthobacteraceae]
+Length=103
+
+ Score =  140 bits (352),  Expect = 6e-41, Method: Composition-based stats.
+ Identities = 52/68 (76%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARNA+R+AN + 
+Sbjct  31  YDGTNCKAPGNCWEAKPGYPDKVAGSKYDPKHDPKELNKQSESIKAMEARNAQRVANFEK  90
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  91  TGKFVYDV  98
+
+
+>ref|WP_020158035.1| methanol dehydrogenase [Methylobacter marinus]
+Length=94
+
+ Score =  134 bits (337),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 49/69 (71%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  N   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVAGSKYDPKHDPNELNKQSQSIKEMEARNEKRWENLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|YP_004918691.1| methanol dehydrogenase, small subunit [Methylomicrobium alcaliphilum 
+20Z]
+ ref|WP_014149864.1| methanol dehydrogenase [Methylomicrobium alcaliphilum]
+ emb|CCE25108.1| Methanol dehydrogenase, small subunit [Methylomicrobium alcaliphilum 
+20Z]
+Length=94
+
+ Score =  134 bits (337),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPG+PEK+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGFPEKVAGSKYDPKHDPNELNKQAQSIKEMEARNQKRTEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGRFVYDVE  91
+
+
+>ref|WP_020565294.1| hypothetical protein [Methylosarcina fibrata]
+Length=94
+
+ Score =  133 bits (335),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPG CWE KPGYP+ +AGSKYDPKHDP ELNKQ +SI  M+ARN KR  +   
+Sbjct  23  YDGQNCKEPGVCWEAKPGYPDTVAGSKYDPKHDPNELNKQAQSILEMEARNQKRWEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|WP_005372675.1| methanol dehydrogenase [Methylomicrobium album]
+ gb|ABE77339.1| methanol dehydrogenase small subunit [Methylomicrobium sp. HG-1]
+ gb|EIC30191.1| Methanol dehydrogenase beta subunit [Methylomicrobium album BG8]
+Length=93
+
+ Score =  132 bits (332),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 46/68 (68%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+ GSKYDPKHDP ELNKQ +SI  M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVEGSKYDPKHDPNELNKQSQSIAEMEARNQKRWEHFNK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>gb|ACB32199.1| MxaI [uncultured bacterium 16A2]
+Length=98
+
+ Score =  131 bits (330),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPG+P+KIAGSKYDPKHDP EL KQ+ S++AM+ RN KR+A  K 
+Sbjct  25  YDGTNCKAPGNCWEPKPGFPDKIAGSKYDPKHDPKELAKQQASVEAMEQRNQKRVAYFKK  84
+
+Query  61  SGNFVFDV  68
+           +G ++++V
+Sbjct  85  TGRWIYEV  92
+
+
+>ref|YP_004515168.1| alcohol dehydrogenase [Methylomonas methanica MC09]
+ ref|WP_013820883.1| methanol dehydrogenase [Methylomonas methanica]
+ gb|AEG02669.1| Alcohol dehydrogenase (acceptor) [Methylomonas methanica MC09]
+Length=92
+
+ Score =  131 bits (329),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 48/69 (70%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKEPG CWE KPGYP+K+AGSKYDPKHDP ELNKQ +SIK M+ARNAKR      
+Sbjct  23  YDGTKCKEPGVCWEPKPGYPDKVAGSKYDPKHDPNELNKQAQSIKEMEARNAKRTEVLAK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|WP_017842208.1| methanol dehydrogenase [Methylomicrobium buryatense]
+Length=94
+
+ Score =  131 bits (329),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 46/69 (67%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPG+P+K+AGSKYDPKHDP ELNKQ +SIK M+ARN KR  +   
+Sbjct  23  YDGTNCKEPGVCWEPKPGFPDKVAGSKYDPKHDPNELNKQAQSIKEMEARNQKRTEHLSK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV++V+
+Sbjct  83  TGKFVYEVE  91
+
+
+>sp|P38540.2|DHM2_METME RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+Length=91
+
+ Score =  130 bits (328),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  23  YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>ref|YP_001927261.1| methanol dehydrogenase subunit beta [Methylobacterium populi 
+BJ001]
+ ref|WP_012456327.1| methanol dehydrogenase [Methylobacterium populi]
+ gb|ACB82726.1| methanol dehydrogenase beta subunit [Methylobacterium populi 
+BJ001]
+Length=96
+
+ Score =  130 bits (328),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|YP_003696079.1| alcohol dehydrogenase (acceptor) [Starkeya novella DSM 506]
+ ref|WP_013168961.1| methanol dehydrogenase [Starkeya novella]
+ gb|ADH91460.1| Alcohol dehydrogenase (acceptor) [Starkeya novella DSM 506]
+Length=104
+
+ Score =  130 bits (328),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 50/68 (74%), Positives = 59/68 (87%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKH+P ELNKQ +SIK M+ARNAKR+ N K 
+Sbjct  31  YDGTNCKAPGNCWEPKPGYPDKVAGSKYDPKHNPAELNKQSQSIKEMEARNAKRVENFKK  90
+
+Query  61  SGNFVFDV  68
+           +G+FV+DV
+Sbjct  91  TGSFVYDV  98
+
+
+>ref|WP_019883035.1| methanol dehydrogenase [Methylophilus]
+Length=91
+
+ Score =  130 bits (326),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 66/69 (96%), Positives = 67/69 (97%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ+CKEPGNCWE KPGYPEKIAGSKYDPKHDPVELNKQEESIK MDARNAKRIANAKS
+Sbjct  23  YDGQSCKEPGNCWEAKPGYPEKIAGSKYDPKHDPVELNKQEESIKLMDARNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>ref|WP_023493431.1| methanol dehydrogenase subunit 2 [Methyloglobulus morosus]
+ gb|ESS73607.1| methanol dehydrogenase subunit 2 [Methyloglobulus morosus KoM1]
+Length=93
+
+ Score =  130 bits (326),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYPE++AGSKYDPKHDP ELNKQ +SIK M+ARN KR      
+Sbjct  23  YDGTNCKEPGVCWEAKPGYPEQVAGSKYDPKHDPNELNKQAQSIKEMEARNEKRWKQLSQ  82
+
+Query  61  SGNFVFDVK  69
+           +G FV++V+
+Sbjct  83  TGKFVYEVE  91
+
+
+>ref|YP_002360809.1| methanol dehydrogenase beta subunit [Methylocella silvestris 
+BL2]
+ ref|WP_012589517.1| methanol dehydrogenase [Methylocella silvestris]
+ gb|ACK49447.1| methanol dehydrogenase beta subunit [Methylocella silvestris 
+BL2]
+Length=101
+
+ Score =  129 bits (325),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C  PGNCWE KPG+P KIAGSKYDPKH+P EL KQ ESI AM+ RNAKR+A  K 
+Sbjct  29  YDGQTCVAPGNCWEPKPGFPAKIAGSKYDPKHNPKELAKQSESITAMEERNAKRVAAFKK  88
+
+Query  61  SGNFVFDVK  69
+           +G FV++V+
+Sbjct  89  TGKFVYEVE  97
+
+
+>pir||T10062 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) small chain precursor 
+- Methylophilus methylotrophus
+ gb|AAA83766.1| methanol dehydrogenase light subunit [Methylophilus methylotrophus]
+Length=96
+
+ Score =  129 bits (324),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  28  YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  87
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  88  SGNFVFDVK  96
+
+
+>ref|YP_531786.1| methanol dehydrogenase subunit beta [Rhodopseudomonas palustris 
+BisB18]
+ ref|WP_011472371.1| methanol dehydrogenase [Rhodopseudomonas palustris]
+ gb|ABD87467.1| methanol dehydrogenase, beta subunit [Rhodopseudomonas palustris 
+BisB18]
+Length=98
+
+ Score =  129 bits (324),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 46/68 (68%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYPEK+AGSKYDPKH+  ELNKQ +SIKAM+ RN  R+AN K 
+Sbjct  26  YDGTKCKAPGNCWEPKPGYPEKVAGSKYDPKHNVAELNKQSDSIKAMEQRNELRVANFKK  85
+
+Query  61  SGNFVFDV  68
+           +G +V++V
+Sbjct  86  TGKWVYEV  93
+
+
+>ref|WP_018986322.1| methanol dehydrogenase [Methylophilus methylotrophus]
+Length=91
+
+ Score =  128 bits (323),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 63/69 (91%), Positives = 65/69 (94%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CKE GNCWE KPGYPEKIAGSKYDPKHDPVELNKQE++IKAMD RNAKRIANAKS
+Sbjct  23  YDGQTCKEAGNCWEAKPGYPEKIAGSKYDPKHDPVELNKQEQAIKAMDERNAKRIANAKS  82
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  83  SGNFVFDVK  91
+
+
+>ref|YP_001641587.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+PA1]
+ ref|YP_002423219.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+CM4]
+ ref|YP_002965443.1| methanol dehydrogenase subunit beta [Methylobacterium extorquens 
+AM1]
+ ref|WP_003599120.1| methanol dehydrogenase [Methylobacterium extorquens]
+ sp|P14775.1|DHM2_METEA RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+ pir||S01250 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta chain precursor 
+- Methylobacterium sp
+ emb|CAA30705.1| unnamed protein product [Methylobacterium specialis]
+ emb|CAA33796.1| unnamed protein product [Methylobacterium extorquens AM1]
+ gb|ABY32516.1| methanol dehydrogenase beta subunit [Methylobacterium extorquens 
+PA1]
+ gb|ACK85291.1| methanol dehydrogenase beta subunit [Methylobacterium extorquens 
+CM4]
+ gb|ACS42166.1| Methanol dehydrogenase subunit 2 precursor (MDH small beta subunit) 
+[Methylobacterium extorquens AM1]
+ gb|EHP93235.1| Alcohol dehydrogenase (acceptor) [Methylobacterium extorquens 
+DSM 13060]
+Length=96
+
+ Score =  128 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_022947525.1| methanol dehydrogenase [Methylohalobius crimeensis]
+Length=94
+
+ Score =  128 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 44/68 (65%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           Y G NCKEPG CWE KPGYPEK+AG++YDPKHDP EL+KQ +SI+AM+ RN +R  + K 
+Sbjct  22  YSGTNCKEPGVCWEPKPGYPEKVAGTRYDPKHDPAELSKQSKSIEAMNQRNKQRWQHLKK  81
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  82  TGKFVYDV  89
+
+
+>ref|YP_003070568.1| methanol dehydrogenase subunit 2 [Methylobacterium extorquens 
+DM4]
+ ref|WP_015824264.1| methanol dehydrogenase [Methylobacterium extorquens]
+ emb|CAX26756.1| Methanol dehydrogenase subunit 2 precursor (MDH small beta subunit) 
+[Methylobacterium extorquens DM4]
+Length=96
+
+ Score =  128 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_017365067.1| methanol dehydrogenase [Methylococcus capsulatus]
+Length=109
+
+ Score =  129 bits (324),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 0/69 (0%)
+
+Query  1    YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+            YDG +CK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARN KR+ N   
+Sbjct  38   YDGTHCKAPGNCWEPKPGYPDKVAGSKYDPKHDPNELNKQAESIKAMEARNQKRVENYAK  97
+
+Query  61   SGNFVFDVK  69
+            +G FV+ V+
+Sbjct  98   TGKFVYKVE  106
+
+
+>ref|YP_782052.1| methanol dehydrogenase subunit beta [Rhodopseudomonas palustris 
+BisA53]
+ ref|WP_011664549.1| methanol dehydrogenase [Rhodopseudomonas palustris]
+ gb|ABJ07072.1| methanol dehydrogenase, beta subunit [Rhodopseudomonas palustris 
+BisA53]
+Length=98
+
+ Score =  128 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYPEK+AGSKYDPKH+  ELNKQ +SIKAM+ RN +R+A+ K+
+Sbjct  26  YDGTKCKAPGNCWEPKPGYPEKVAGSKYDPKHNVAELNKQSDSIKAMEQRNEQRVAHFKN  85
+
+Query  61  SGNFVFDV  68
+           +G +V++V
+Sbjct  86  TGKWVYEV  93
+
+
+>ref|YP_002490198.1| methanol dehydrogenase beta subunit [Methylobacterium nodulans 
+ORS 2060]
+ ref|WP_012631233.1| methanol dehydrogenase [Methylobacterium nodulans]
+ gb|ACL63031.1| methanol dehydrogenase beta subunit [Methylobacterium nodulans 
+ORS 2060]
+Length=99
+
+ Score =  128 bits (322),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPG+P+KIAG+KYDPKHDP ELNKQ +SIKAM+ RN KR+   K 
+Sbjct  26  YDGTKCKAAGDCWEPKPGFPDKIAGTKYDPKHDPKELNKQADSIKAMEERNRKRVEAFKR  85
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  86  TGRFEYDV  93
+
+
+>ref|WP_019904720.1| methanol dehydrogenase [Methylobacterium sp. 77]
+Length=96
+
+ Score =  128 bits (322),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP EL+KQ +SIK M+ RNAKRI  AK 
+Sbjct  23  YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELSKQADSIKQMEERNAKRIEAAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_020167963.1| methanol dehydrogenase [Methylotenera]
+Length=91
+
+ Score =  128 bits (322),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 58/69 (84%), Positives = 63/69 (91%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPGYPEKIAGSKYDPKHDP E+ KQE SIKAMDARNAKRIANAK+
+Sbjct  23  YDGGNCKEPGNCWEAKPGYPEKIAGSKYDPKHDPKEVGKQEASIKAMDARNAKRIANAKA  82
+
+Query  61  SGNFVFDVK  69
+           +G FVFD++
+Sbjct  83  TGKFVFDLE  91
+
+
+>ref|YP_003050512.1| alcohol dehydrogenase [Methylovorus glucosetrophus SIP3-4]
+ ref|WP_015829568.1| methanol dehydrogenase [Methylovorus glucosotrophus]
+ gb|ACT49985.1| Alcohol dehydrogenase (acceptor) [Methylovorus glucosetrophus 
+SIP3-4]
+Length=94
+
+ Score =  128 bits (321),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 53/69 (77%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPG+P+KIAGSKYDPKHDPVEL+KQE++IKAM+ RNAKR+AN K 
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPDKIAGSKYDPKHDPVELSKQEKAIKAMNERNAKRVANLKE  85
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  86  TGQFKYDVK  94
+
+
+>dbj|BAL54075.1| methanol dehydrogenase small subunit [uncultured gamma proteobacterium]
+Length=89
+
+ Score =  127 bits (320),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           Y G NCKEPG CWE KPGYPEKIAG++YDPKHDP+EL+KQ ++I+AM+ARN KR  + K 
+Sbjct  21  YTGTNCKEPGVCWEAKPGYPEKIAGTRYDPKHDPLELDKQRQAIEAMNARNLKRYQHFKQ  80
+
+Query  61  SGNFVFDV  68
+           +G FV++V
+Sbjct  81  TGKFVYEV  88
+
+
+>ref|YP_004039182.1| alcohol dehydrogenase [Methylovorus sp. MP688]
+ ref|WP_013441569.1| methanol dehydrogenase [Methylovorus sp. MP688]
+ gb|ADQ83946.1| Alcohol dehydrogenase (acceptor) [Methylovorus sp. MP688]
+Length=94
+
+ Score =  127 bits (320),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 54/69 (78%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPG+PEKIAGSKYDPKHDPVEL+KQE++IKAM+ RNAKR+AN K 
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPEKIAGSKYDPKHDPVELSKQEKAIKAMNERNAKRVANLKE  85
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  86  TGQFKYDVK  94
+
+
+>ref|WP_016921199.1| methanol dehydrogenase [Methylocystis parvus]
+Length=96
+
+ Score =  127 bits (320),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 42/68 (62%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP EL KQ  S++AM+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKELAKQGASVQAMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|YP_006592675.1| methanol dehydrogenase subunit beta [Methylocystis sp. SC2]
+ ref|WP_014892052.1| methanol dehydrogenase [Methylocystis sp. SC2]
+ emb|CCJ08024.1| Methanol dehydrogenase beta subunit [Methylocystis sp. SC2]
+Length=96
+
+ Score =  127 bits (320),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 41/68 (60%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP E+ KQ+ SI+ M+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKEIAKQQASIQGMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|YP_003755453.1| methanol dehydrogenase subunit beta [Hyphomicrobium denitrificans 
+ATCC 51888]
+ ref|WP_013215347.1| methanol dehydrogenase [Hyphomicrobium denitrificans]
+ gb|ADJ23132.1| methanol dehydrogenase beta subunit [Hyphomicrobium denitrificans 
+ATCC 51888]
+Length=101
+
+ Score =  127 bits (320),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 48/69 (70%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNAKR  + K 
+Sbjct  30  YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNAKRAEHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>ref|WP_018406704.1| methanol dehydrogenase [Methylocystis rosea]
+Length=96
+
+ Score =  127 bits (319),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 41/68 (60%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+P+K+ GSKYDPKHDP E+ KQ+ S++AM+ RN KR+ N K 
+Sbjct  24  YDGTKCKAPGNCWEPKPGFPDKVEGSKYDPKHDPKEIAKQQASVQAMEERNKKRVENFKK  83
+
+Query  61  SGNFVFDV  68
+           +G + +DV
+Sbjct  84  TGKWEYDV  91
+
+
+>ref|WP_018044532.1| methanol dehydrogenase [Methylobacterium sp. 88A]
+Length=96
+
+ Score =  127 bits (319),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CW+ KPG+PEKIAG+KYDPKHDP ELNKQ ESI+ M+ RN KRI  AK 
+Sbjct  23  YDGTKCKAAGDCWQPKPGFPEKIAGTKYDPKHDPKELNKQSESIRLMEERNKKRIEAAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|YP_004674298.1| methanol dehydrogenase subunit beta [Hyphomicrobium sp. MC1]
+ ref|WP_013946132.1| methanol dehydrogenase [Hyphomicrobium sp. MC1]
+ emb|CCB63722.1| Methanol dehydrogenase, beta subunit precursor [Hyphomicrobium 
+sp. MC1]
+Length=99
+
+ Score =  127 bits (319),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 43/68 (63%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +C+ PGNCWE KPG+PEKI G+K+DPKHDP +L KQ ES+ AM+ RNAKR  N K 
+Sbjct  28  YDGTHCRAPGNCWEPKPGFPEKIKGTKFDPKHDPKQLAKQSESMAAMEERNAKRAENFKK  87
+
+Query  61  SGNFVFDV  68
+           +G +V+DV
+Sbjct  88  TGKWVYDV  95
+
+
+>ref|WP_007569499.1| methanol dehydrogenase [Methylobacterium sp. GXF4]
+ gb|EIZ81395.1| methanol dehydrogenase beta subunit [Methylobacterium sp. GXF4]
+Length=98
+
+ Score =  127 bits (319),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCWE KPG+PEK+AG+KYDPKHDP E+ KQ ESIK M+ RN KRI NAK 
+Sbjct  25  YDGQTCKAPGNCWEPKPGFPEKVAGTKYDPKHDPKEVGKQAESIKLMEERNRKRIENAKK  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGKFEYDV  92
+
+
+>ref|WP_019899192.1| methanol dehydrogenase [Methylotenera mobilis]
+Length=91
+
+ Score =  127 bits (319),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 55/68 (81%), Positives = 61/68 (90%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPGNCWE KPGYPEKIAGSKYDPKHDP E+ KQ+ SI+AMDARNAKRIANAK+
+Sbjct  23  YDGHNCKEPGNCWEAKPGYPEKIAGSKYDPKHDPKEVGKQQASIQAMDARNAKRIANAKA  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFDYDV  90
+
+
+>ref|YP_004974314.1| Methanol dehydrogenase, small (beta) subunit [Azospirillum lipoferum 
+4B]
+ ref|WP_014188592.1| methanol dehydrogenase [Azospirillum lipoferum]
+ emb|CBS89140.1| Methanol dehydrogenase, small (beta) subunit [Azospirillum lipoferum 
+4B]
+Length=105
+
+ Score =  127 bits (319),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 51/69 (74%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP KIAGSKYDPKHDP+ELNKQ+ESIKAMD RN +R+ + K 
+Sbjct  32  YDGTNCKAPGNCWEPKPGYPAKIAGSKYDPKHDPMELNKQQESIKAMDERNRQRVDHFKK  91
+
+Query  61  SGNFVFDVK  69
+           +G F++DVK
+Sbjct  92  TGTFIYDVK  100
+
+
+>ref|WP_020096030.1| methanol dehydrogenase [Methylobacterium sp. 285MFTsu5.1]
+Length=96
+
+ Score =  126 bits (317),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCW+ KPG+PEK+AG+KYDPKHDP E++KQ ESIK M+ RN KRI NAK 
+Sbjct  23  YDGQTCKAPGNCWQPKPGFPEKVAGTKYDPKHDPKEVSKQAESIKQMEERNRKRIENAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_019866187.1| methanol dehydrogenase [Methylovulum miyakonense]
+Length=95
+
+ Score =  126 bits (317),  Expect = 7e-36, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCKEPG CWE KPGYP+K+AGSKYDPKHD  ELNKQ +S+K M+ARN KR  N   
+Sbjct  23  YDGTNCKEPGVCWEPKPGYPDKVAGSKYDPKHDVNELNKQAQSVKEMEARNEKRRLNFVK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>dbj|BAE16961.1| methanol dehydrogenase small subunit [Hyphomicrobium denitrificans]
+Length=101
+
+ Score =  127 bits (318),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNA R  + K 
+Sbjct  30  YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNANRAEHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>ref|WP_006894138.1| methanol dehydrogenase [Methylobacter tundripaludum]
+ gb|EGW19922.1| Alcohol dehydrogenase (acceptor) [Methylobacter tundripaludum 
+SV96]
+Length=94
+
+ Score =  125 bits (315),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 46/68 (68%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNC EPG CWE KPGYPEK+AGSKYDPKHD  ELNKQ +S+  M+ RN KR  N   
+Sbjct  23  YDGQNCSEPGVCWEPKPGYPEKVAGSKYDPKHDVNELNKQAQSVIEMEERNKKRQENLAK  82
+
+Query  61  SGNFVFDV  68
+           +G FV+DV
+Sbjct  83  TGKFVYDV  90
+
+
+>ref|YP_546149.1| methanol dehydrogenase, beta subunit [Methylobacillus flagellatus 
+KT]
+ ref|WP_011480262.1| methanol dehydrogenase [Methylobacillus flagellatus]
+ gb|ABE50308.1| methanol dehydrogenase, beta subunit [Methylobacillus flagellatus 
+KT]
+Length=91
+
+ Score =  125 bits (315),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 52/69 (75%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C+ PG+CW+ KPGYPEKIAG+KYDPKHDP EL+KQE +IKA+D RNAKRIANAK+
+Sbjct  23  YDGQTCRAPGDCWQPKPGYPEKIAGTKYDPKHDPAELSKQEAAIKAIDERNAKRIANAKA  82
+
+Query  61  SGNFVFDVK  69
+           +G F FDVK
+Sbjct  83  TGTFKFDVK  91
+
+
+>ref|YP_001756857.1| methanol dehydrogenase beta subunit [Methylobacterium radiotolerans 
+JCM 2831]
+ ref|WP_012321128.1| methanol dehydrogenase [Methylobacterium radiotolerans]
+ gb|ACB26174.1| methanol dehydrogenase beta subunit [Methylobacterium radiotolerans 
+JCM 2831]
+Length=96
+
+ Score =  125 bits (315),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCW+ KPG+PEK+AG+KYDPKHDP E++KQ ESIK M+ RN KRI NAK 
+Sbjct  23  YDGQTCKAPGNCWQPKPGFPEKVAGTKYDPKHDPKEVSKQAESIKQMEERNRKRIENAKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_018267726.1| hypothetical protein [Methylosinus sp. LW4]
+Length=106
+
+ Score =  126 bits (316),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 43/68 (63%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+            YDG  CK PG+CWE KPG+PEK+AGSKYDPKHDP EL K + +I AM+ RN KR  + K 
+Sbjct  35   YDGTKCKAPGDCWEPKPGFPEKVAGSKYDPKHDPKELAKNQSAIAAMEERNKKRAEHFKK  94
+
+Query  61   SGNFVFDV  68
+            +G FV+DV
+Sbjct  95   TGAFVYDV  102
+
+
+>ref|WP_010686848.1| methanol dehydrogenase beta subunit [Methylobacterium mesophilicum]
+ gb|EMS40040.1| methanol dehydrogenase beta subunit [Methylobacterium mesophilicum 
+SR1.6/6]
+Length=96
+
+ Score =  125 bits (313),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ CK PGNCWE KPG+PEK+AGSKYDPKHDP E++KQ +SIK M+ RN +R+ +A+ 
+Sbjct  23  YDGQTCKAPGNCWEPKPGFPEKVAGSKYDPKHDPKEVSKQADSIKQMEERNRQRVDHAQK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|WP_020182080.1| hypothetical protein [Methylotenera sp. 1P/1]
+Length=92
+
+ Score =  124 bits (312),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 54/68 (79%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKE GNCWE KPG+P KIAGSKYDPKHDPVE+ KQE SIKAMDARN KRIANAK+
+Sbjct  23  YDGQNCKEAGNCWEAKPGFPAKIAGSKYDPKHDPVEVGKQEASIKAMDARNEKRIANAKA  82
+
+Query  61  SGNFVFDV  68
+           +G F ++V
+Sbjct  83  TGKFDYNV  90
+
+
+>dbj|BAA23275.1| methanol dehydrogenase beta subunit [Hyphomicrobium methylovorum]
+Length=101
+
+ Score =  125 bits (313),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKH+P EL KQ ES K  +ARNA+R A+ K 
+Sbjct  30  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHNPKELAKQVESRKGEEARNAQRAAHFKK  89
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  90  TGKWVYDVK  98
+
+
+>ref|WP_020087474.1| hypothetical protein [Hyphomicrobium zavarzinii]
+Length=96
+
+ Score =  124 bits (311),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 42/68 (62%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G CWE KPGYPEK+AGSKYDPKH+P EL KQ++S+    ARNAKR A+ + 
+Sbjct  25  YDGTKCKAAGVCWEPKPGYPEKVAGSKYDPKHNPAELAKQQKSLDDQAARNAKRSAHFQK  84
+
+Query  61  SGNFVFDV  68
+           +G +V+DV
+Sbjct  85  TGKWVYDV  92
+
+
+>gb|AAF43728.1| methanol dehydrogenase small subunit [Methylovorus sp. SS1]
+Length=95
+
+ Score =  124 bits (311),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 53/70 (76%), Positives = 61/70 (87%), Gaps = 1/70 (1%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQE-ESIKAMDARNAKRIANAK  59
+           YDG NCKEPGNCWE KPG+PEKIAGSKYDPKHDPVEL+KQ  ++IKAM+ RNAKR+AN K
+Sbjct  26  YDGTNCKEPGNCWEPKPGFPEKIAGSKYDPKHDPVELSKQARKAIKAMNERNAKRVANLK  85
+
+Query  60  SSGNFVFDVK  69
+            +G F +DVK
+Sbjct  86  ETGQFKYDVK  95
+
+
+>ref|WP_020176231.1| hypothetical protein [Methyloferula stellata]
+Length=97
+
+ Score =  124 bits (311),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 46/68 (68%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ+CK PGNCWE  PGYPEKIAGSKYDPKHDP E+ KQ +S + M+ RN KR+   K 
+Sbjct  25  YDGQHCKAPGNCWEPHPGYPEKIAGSKYDPKHDPKEIAKQADSERQMEERNKKRVDYFKK  84
+
+Query  61  SGNFVFDV  68
+           SG FV+DV
+Sbjct  85  SGKFVYDV  92
+
+
+>ref|YP_113284.1| methanol dehydrogenase, small subunit [Methylococcus capsulatus 
+str. Bath]
+ ref|WP_010960109.1| methanol dehydrogenase [Methylococcus capsulatus]
+ gb|AAU92932.1| methanol dehydrogenase, small subunit [Methylococcus capsulatus 
+str. Bath]
+Length=94
+
+ Score =  123 bits (308),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPGYP+K+AGSKYDPKHDP ELNKQ ESIKAM+ARN KR+ N   
+Sbjct  23  YDGTHCKAPGNCWEPKPGYPDKVAGSKYDPKHDPNELNKQAESIKAMEARNQKRVENYAK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+ V+
+Sbjct  83  TGKFVYKVE  91
+
+
+>gb|AAM18570.1|AF494424_4 small subunit of methanol dehydrogenase [Methylobacillus sp. 
+SK-5]
+Length=91
+
+ Score =  123 bits (308),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 52/69 (75%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQ C+ PG+CW+ KPGYPEKIAGSKYDPKHD  EL+KQE +IKA+D RNAKRIANAK+
+Sbjct  23  YDGQTCRAPGDCWQAKPGYPEKIAGSKYDPKHDAAELSKQEAAIKAIDERNAKRIANAKA  82
+
+Query  61  SGNFVFDVK  69
+           +G F FDVK
+Sbjct  83  TGTFKFDVK  91
+
+
+>ref|WP_017484021.1| methanol dehydrogenase [Methylobacterium sp. MB200]
+Length=96
+
+ Score =  122 bits (307),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  23  YDGTKCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  82
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  83  TGKFEYDV  90
+
+
+>ref|YP_996597.1| methanol dehydrogenase subunit beta [Verminephrobacter eiseniae 
+EF01-2]
+ ref|WP_011809585.1| methanol dehydrogenase [Verminephrobacter eiseniae]
+ gb|ABM57579.1| methanol dehydrogenase, beta subunit [Verminephrobacter eiseniae 
+EF01-2]
+Length=91
+
+ Score =  122 bits (305),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK  G+CWE KPGYP K+AGSKYDPKHDP ELNK ++++++M+ RNAKR+ANA++
+Sbjct  23  YDGTNCKAAGDCWEPKPGYPAKLAGSKYDPKHDPAELNKNQQAVQSMEERNAKRLANARA  82
+
+Query  61  SGNFVFDV  68
+           +G F FDV
+Sbjct  83  TGTFKFDV  90
+
+
+>ref|WP_003611868.1| methanol dehydrogenase [Methylosinus trichosporium]
+ gb|EFH02983.1| methanol dehydrogenase beta subunit [Methylosinus trichosporium 
+OB3b]
+Length=100
+
+ Score =  122 bits (305),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+P+KIAGSKYDPKHDP EL KQ+ SI+ M+ARN KRIA  K 
+Sbjct  27  YDGTKCKAAGNCWEPKPGFPDKIAGSKYDPKHDPKELAKQQTSIQGMEARNQKRIAYFKK  86
+
+Query  61  SGNFVFDV  68
+           SG ++++V
+Sbjct  87  SGKWIYEV  94
+
+
+>ref|WP_006913817.1| methanol dehydrogenase [Salinisphaera shabanensis]
+ gb|ERJ20075.1| methanol dehydrogenase cytochrome c subunit 2 protein [Salinisphaera 
+shabanensis E1L3A]
+Length=109
+
+ Score =  122 bits (305),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 43/68 (63%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NC EPG CWE KPGYP+KI GSKYDPKH   ELNKQ+ESI+ M+ RNA R+ + K 
+Sbjct  27  YDGTNCSEPGVCWEPKPGYPDKIEGSKYDPKHSDSELNKQQESIQGMEKRNAMRVEHFKK  86
+
+Query  61  SGNFVFDV  68
+           +G +V D 
+Sbjct  87  TGEWVNDT  94
+
+
+>ref|YP_916775.1| methanol dehydrogenase, beta subunit [Paracoccus denitrificans 
+PD1222]
+ ref|WP_010399081.1| methanol dehydrogenase [Paracoccus]
+ sp|P29898.1|DHM2_PARDE RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta; AltName: Full=MDH-associated 
+peptide; AltName: Full=MEDH; Flags: Precursor
+ gb|AAA25584.1| beta-subunit methanol dehydrogenase [Paracoccus denitrificans]
+ gb|ABL71079.1| methanol dehydrogenase, beta subunit [Paracoccus denitrificans 
+PD1222]
+Length=103
+
+ Score =  121 bits (304),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KP YP K+ GSKYDP+HDP EL+KQ ES+  MDARN  R+ N K 
+Sbjct  21  YDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKK  80
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  81  TGKFEYDVK  89
+
+
+>ref|YP_008867585.1| methanol dehydrogenase [Hyphomicrobium nitrativorans NL23]
+ ref|WP_023788219.1| methanol dehydrogenase [Hyphomicrobium nitrativorans]
+ gb|AHB49344.1| methanol dehydrogenase [Hyphomicrobium nitrativorans NL23]
+Length=96
+
+ Score =  119 bits (299),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 45/68 (66%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KPGYP+K+AGSKYDPKHDP EL KQ++++    ARNAKR  + K 
+Sbjct  26  YDGTNCKAPGNCWEPKPGYPDKVAGSKYDPKHDPKELAKQQQALDDQSARNAKRAEHFKK  85
+
+Query  61  SGNFVFDV  68
+           +GN+V+DV
+Sbjct  86  TGNWVYDV  93
+
+
+>ref|WP_020481120.1| methanol dehydrogenase [Methylomonas sp. MK1]
+Length=93
+
+ Score =  119 bits (298),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKE GNCWE KPGYP ++AGSKYDPKHDP ELNKQ +SIK M+ARNAKR      
+Sbjct  23  YDGTKCKEAGNCWEPKPGYPAQVAGSKYDPKHDPNELNKQAQSIKDMEARNAKRTELMAK  82
+
+Query  61  SGNFVFDVK  69
+           +G FV+DV+
+Sbjct  83  TGKFVYDVE  91
+
+
+>ref|YP_744168.1| methanol dehydrogenase subunit 2 [Granulibacter bethesdensis 
+CGDNIH1]
+ ref|WP_011631055.1| methanol dehydrogenase [Granulibacter bethesdensis]
+ gb|ABI61245.1| methanol dehydrogenase subunit 2 [Granulibacter bethesdensis 
+CGDNIH1]
+Length=103
+
+ Score =  118 bits (295),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 38/68 (56%), Positives = 47/68 (69%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PG CWE +PGYP  + GSKYDP HDP EL KQ+ ++ A +ARN  R+ N   
+Sbjct  28  YDGTHCKAPGVCWEPEPGYPAILKGSKYDPHHDPKELAKQQAALDAQEARNKLRVENFVK  87
+
+Query  61  SGNFVFDV  68
+           +G F FDV
+Sbjct  88  TGKFEFDV  95
+
+
+>pdb|4AAH|B Chain B, Methanol Dehydrogenase From Methylophilus W3a1
+ pdb|4AAH|D Chain D, Methanol Dehydrogenase From Methylophilus W3a1
+ pdb|1G72|B Chain B, Catalytic Mechanism Of Quinoprotein Methanol Dehydrogenase: 
+A Theoretical And X-Ray Crystallographic Investigation
+ pdb|1G72|D Chain D, Catalytic Mechanism Of Quinoprotein Methanol Dehydrogenase: 
+A Theoretical And X-Ray Crystallographic Investigation
+ pdb|2AD6|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C)
+ pdb|2AD6|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C)
+ pdb|2AD7|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Methanol
+ pdb|2AD7|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Methanol
+ pdb|2AD8|B Chain B, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Ethanol
+ pdb|2AD8|D Chain D, Crystal Structure Of Methanol Dehydrogenase From M. 
+W3a1 (form C) In The Presence Of Ethanol
+Length=69
+
+ Score =  116 bits (291),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS
+Sbjct  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+
+Query  61  SGNFVFDVK  69
+           SGNFVFDVK
+Sbjct  61  SGNFVFDVK  69
+
+
+>ref|WP_009727579.1| methanol dehydrogenase subunit beta [Methylophaga lonarensis]
+ gb|EMR11883.1| methanol dehydrogenase subunit beta [Methylophaga lonarensis 
+MPL]
+Length=91
+
+ Score =  117 bits (292),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 38/66 (58%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C+ PG+CW+ KPG+PEKI GSKYDPKH  VELNKQ +++ AM+ RN KR  N K 
+Sbjct  26  YDGTQCRAPGDCWQAKPGFPEKIEGSKYDPKHSEVELNKQTQAMNAMEERNRKRAENFKK  85
+
+Query  61  SGNFVF  66
+           +G + +
+Sbjct  86  TGTWNY  91
+
+
+>ref|YP_003205076.1| methanol dehydrogenase, small subunit (mxaI) [Candidatus Methylomirabilis 
+oxyfera]
+ ref|WP_012814366.1| methanol dehydrogenase [Candidatus Methylomirabilis oxyfera]
+ emb|CBE67231.1| Methanol dehydrogenase, small subunit (mxaI) [Candidatus Methylomirabilis 
+oxyfera]
+Length=94
+
+ Score =  117 bits (292),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 43/69 (62%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CKEPG CWE KPGYP ++AGSKYDPKHDP E+ KQE + KAMD RN KR  + + 
+Sbjct  26  YDGTKCKEPGACWEPKPGYPARVAGSKYDPKHDPKEVAKQELAHKAMDERNEKRWKHFQE  85
+
+Query  61  SGNFVFDVK  69
+           +G + +DVK
+Sbjct  86  TGVWKYDVK  94
+
+
+>ref|YP_006293945.1| Methanol dehydrogenase, small subunit [Methylophaga frappieri]
+ ref|WP_014704677.1| methanol dehydrogenase [Methylophaga frappieri]
+ gb|AFJ03258.1| Methanol dehydrogenase, small subunit [Methylophaga frappieri]
+Length=91
+
+ Score =  116 bits (290),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 41/66 (62%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK  GNCWE KPGYP+KI GSKYDPKH   EL KQ  S++AM+ RNAKR+ N K 
+Sbjct  26  YDGTNCKGDGNCWEAKPGYPDKIKGSKYDPKHSKTELEKQTTSMEAMEERNAKRVENFKK  85
+
+Query  61  SGNFVF  66
+           +G + +
+Sbjct  86  TGKWSY  91
+
+
+>dbj|BAN85790.1| methanol dehydrogenase subunit 2 precursor [Acidomonas methanolica]
+Length=95
+
+ Score =  115 bits (289),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 40/68 (59%), Positives = 48/68 (71%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK+PG CWE +PGYPE++ GSKYDP  DP EL KQ+ES  AM ARN  R A    
+Sbjct  23  YDGTHCKKPGVCWEPQPGYPEQLVGSKYDPHFDPAELAKQQESEDAMVARNKARTAYFIK  82
+
+Query  61  SGNFVFDV  68
+           +G +V DV
+Sbjct  83  TGTWVEDV  90
+
+
+>ref|WP_007144400.1| methanol dehydrogenase [Methylophaga aminisulfidivorans]
+ gb|ABN49108.1| methanol dehydrogenase small subunit [Methylophaga aminisulfidivorans 
+MP]
+ gb|EGL54514.1| hypothetical Protein MAMP_01202 [Methylophaga aminisulfidivorans 
+MP]
+Length=90
+
+ Score =  115 bits (288),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 38/66 (58%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPG+P+KI GSKYDPKH   ELNKQ+ ++KAM+ RNA+R+   K 
+Sbjct  25  YDGTKCKAAGDCWEAKPGFPDKIKGSKYDPKHSEKELNKQDAALKAMEKRNAERVEQFKK  84
+
+Query  61  SGNFVF  66
+           +G +V+
+Sbjct  85  TGKWVY  90
+
+
+>pdb|1H4I|B Chain B, Methylobacterium Extorquens Methanol Dehydrogenase
+ pdb|1H4I|D Chain D, Methylobacterium Extorquens Methanol Dehydrogenase
+ pdb|1H4J|B Chain B, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|D Chain D, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|F Chain F, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1H4J|H Chain H, Methylobacterium Extorquens Methanol Dehydrogenase D303e 
+Mutant
+ pdb|1W6S|B Chain B, The High Resolution Structure Of Methanol Dehydrogenase 
+From Methylobacterium Extorquens
+ pdb|1W6S|D Chain D, The High Resolution Structure Of Methanol Dehydrogenase 
+From Methylobacterium Extorquens
+Length=74
+
+ Score =  114 bits (286),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 47/68 (69%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K 
+Sbjct  1   YDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKK  60
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  61  TGKFEYDV  68
+
+
+>ref|WP_008290952.1| methanol dehydrogenase [Methylophaga thiooxydans]
+ gb|EEF79859.1| methanol dehydrogenase, beta subunit [Methylophaga thiooxydans 
+DMS010]
+Length=88
+
+ Score =  114 bits (285),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 38/66 (58%), Positives = 51/66 (77%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C  PG+CWE KPG+P+KI G+KYDPKH   ELNKQ ++++AM+ RNA+R+   K 
+Sbjct  23  YDGTKCSAPGDCWEAKPGFPDKIKGTKYDPKHSEKELNKQTQAMQAMEKRNAERVEQFKK  82
+
+Query  61  SGNFVF  66
+           SGN+V+
+Sbjct  83  SGNWVY  88
+
+
+>ref|WP_019918927.1| hypothetical protein [Rhodocyclaceae bacterium RZ94]
+Length=93
+
+ Score =  114 bits (285),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  GNCWE KPGYP+K+AGSKYDPKHD  EL+KQ +SIK M+ARNAKR+    +
+Sbjct  25  YDGTKCKAAGNCWEPKPGYPDKVAGSKYDPKHDAKELSKQGDSIKQMEARNAKRVEQLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>ref|WP_018411261.1| hypothetical protein [Methyloversatilis sp. NVD]
+Length=93
+
+ Score =  113 bits (283),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 46/68 (68%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK PGNCWE KPGYP+K+AGSKYDPKHD  E++KQ +SIKAM+ARNAKR+ N  +
+Sbjct  25  YDGTKCKAPGNCWEPKPGYPDKVAGSKYDPKHDAKEISKQGDSIKAMEARNAKRVENLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>pdb|2D0V|B Chain B, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+ pdb|2D0V|E Chain E, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+ pdb|2D0V|J Chain J, Crystal Structure Of Methanol Dehydrogenase From Hyphomicrobium 
+Denitrificans
+Length=72
+
+ Score =  112 bits (281),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK PGNCWE KPG+PEKIAGSKYDPKHDP ELNKQ ES K  + RNA R  + K 
+Sbjct  1   YDGTHCKAPGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQVESRKGEEERNANRAEHFKK  60
+
+Query  61  SGNFVFDVK  69
+           +G +V+DVK
+Sbjct  61  TGKWVYDVK  69
+
+
+>ref|WP_020164046.1| hypothetical protein [Methyloversatilis universalis]
+Length=93
+
+ Score =  112 bits (281),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 43/68 (63%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  CK  G+CWE KPGYP K+AGSKYDPKHD  EL KQ +SIK M+ARNAKR+    +
+Sbjct  25  YDGTKCKAAGDCWEPKPGYPAKVAGSKYDPKHDAKELAKQGDSIKQMEARNAKRVEQLNA  84
+
+Query  61  SGNFVFDV  68
+           +G F +DV
+Sbjct  85  TGTFKYDV  92
+
+
+>ref|YP_006295025.1| methanol dehydrogenase small subunit [Methylophaga nitratireducenticrescens]
+ ref|WP_014705755.1| methanol dehydrogenase [Methylophaga nitratireducenticrescens]
+ gb|AFI83380.1| methanol dehydrogenase small subunit [Methylophaga nitratireducenticrescens]
+Length=91
+
+ Score =  112 bits (280),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 39/66 (59%), Positives = 51/66 (77%), Gaps = 0/66 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG  C+E G CWE KPG+PEKI GSK+DPKH   EL+KQ+ +++AM+ARNAKR+ N K 
+Sbjct  26  YDGTKCQEAGKCWEAKPGFPEKIKGSKFDPKHSQAELDKQDSAMEAMEARNAKRVENFKK  85
+
+Query  61  SGNFVF  66
+           SG + +
+Sbjct  86  SGKWSY  91
+
+
+>pdb|1LRW|B Chain B, Crystal Structure Of Methanol Dehydrogenase From P. 
+Denitrificans
+ pdb|1LRW|D Chain D, Crystal Structure Of Methanol Dehydrogenase From P. 
+Denitrificans
+Length=83
+
+ Score =  111 bits (277),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG NCK PGNCWE KP YP K+ GSKYDP+HDP EL+KQ ES+  MDARN  R+ N K 
+Sbjct  1   YDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKK  60
+
+Query  61  SGNFVFDVK  69
+           +G F +DVK
+Sbjct  61  TGKFEYDVK  69
+
+
+>ref|WP_020178343.1| hypothetical protein [Methylopila sp. M107]
+Length=102
+
+ Score =  108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 44/70 (63%), Positives = 51/70 (73%), Gaps = 2/70 (3%)
+
+Query  1   YDGQNCKEPGNCWENKPGYP--EKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANA  58
+           YDG NCKEPG CWE KP YP  +KI GSKYDPKHDP ++ KQ +SIK M+ARN KR  N 
+Sbjct  28  YDGTNCKEPGVCWEPKPNYPAKDKITGSKYDPKHDPKQVVKQADSIKDMEARNKKRSDNF  87
+
+Query  59  KSSGNFVFDV  68
+             +G F +DV
+Sbjct  88  AKTGKFEYDV  97
+
+
+>gb|AAB20460.1| methanol dehydrogenase beta subunit, MDH beta subunit [Acetobacter 
+methanolicus, MB58, IMET 10945, Peptide, 70 aa]
+Length=70
+
+ Score =  101 bits (252),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 35/68 (51%), Positives = 44/68 (65%), Gaps = 4/68 (6%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKS  60
+           YDG +CK+PG CWE +PGYPE++ G KYDP  DP EL  QE    +M+ARN  R A    
+Sbjct  2   YDGTHCKKPGVCWEPQPGYPEQLVGVKYDPHFDPAELGVQE----SMNARNEARTAYFIL  57
+
+Query  61  SGNFVFDV  68
+           +G +  DV
+Sbjct  58  TGTWEEDV  65
+
+
+>pir||S20310 alcohol dehydrogenase (acceptor) (EC 1.1.99.8) beta chain - Methylophilus 
+methylotrophus
+ gb|AAB21612.1| methanol dehydrogenase beta-subunit, MDH {EC 1.1.99.8} [Methylophilus 
+methylotrophus, Peptide Partial, 31 aa]
+Length=31
+
+ Score = 47.3 bits (111),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 26/31 (84%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   YDGQNCKEPGNCWENKPGYPEKIAGSKYDPK  31
+           YDGQ  KE GN WE KPGYPEKIAGSKYDPK
+Sbjct  1   YDGQTXKEAGNXWEAKPGYPEKIAGSKYDPK  31
+
+
+>sp|Q09053.1|DHM2_METSP RecName: Full=Methanol dehydrogenase [cytochrome c] subunit 2; 
+AltName: Full=MDH small subunit beta
+Length=18
+
+ Score = 38.4 bits (88),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 15/19 (79%), Positives = 15/19 (79%), Gaps = 1/19 (5%)
+
+Query  1   YDGQNCKEPGNCWENKPGY  19
+           YDG NCK PG CWE KPGY
+Sbjct  1   YDGTNCK-PGVCWEPKPGY  18
+
+
+>ref|WP_007203276.1| asparagine synthase [Bacillus macauensis]
+ gb|EIT84308.1| asparagine synthase [Bacillus macauensis ZFHKF-1]
+Length=635
+
+ Score = 37.3 bits (85),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 18/42 (43%), Positives = 27/42 (64%), Gaps = 5/42 (12%)
+
+Query  8    EPGNCWENKPGYPEKIAG---SKYDPKHDPVELNKQEESIKA  46
+            EPG+C++ KPG P  I      K+ PKH+P+E  KQ ++I+ 
+Sbjct  204  EPGHCFKKKPGKPMHIRKYWEPKFRPKHEPIE--KQIKTIQD  243
+
+
+>ref|YP_007885202.1| 30S ribosomal protein S17 [Mycoplasma putrefaciens Mput9231]
+ ref|WP_015587539.1| 30S ribosomal protein S17 [Mycoplasma putrefaciens]
+ gb|AGJ90992.1| 30S ribosomal protein S17 [Mycoplasma putrefaciens Mput9231]
+Length=85
+
+ Score = 32.6 bits (73),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 24/47 (51%), Gaps = 0/47 (0%)
+
+Query  13  WENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAK  59
+           ++N P Y +++  SK    HD  ++ K  + ++ M+ R   R  N +
+Sbjct  29  YKNHPIYKKRVKYSKKYKAHDEQQIAKIGDKVEIMETRPLSRTKNFR  75
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.142    0.487    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

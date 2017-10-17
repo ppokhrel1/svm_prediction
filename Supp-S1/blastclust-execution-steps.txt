@@ -1,0 +1,7 @@
+Execute Blastclust:
+
+Go to location of blastclust installation:
+
+location: /home1/presentation/DBase/BLAST/blast-2.2.26/bin
+
+cmd: /home1/presentation/DBase/BLAST/blast-2.2.26/bin/blastclust -i /home/presentation/Avdesh/blastclust-ip27/pdb_seqres27.txt -o /home/presentation/Avdesh/blastclust-ip27/output27.txt -S 30 -a 8

@@ -1,0 +1,3975 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3KZ5
+
+Length=52
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3KZ5|E  Chain E, Structure Of Cdomain >pdb|3KZ5|B Chain B, St...   110    4e-30
+ref|WP_010521216.1|  plasmid-partitioning protein, partial [Flavo...  96.3    2e-24
+ref|WP_023142648.1|  hypothetical protein [Escherichia coli] >gb|...  97.8    6e-24
+pdb|3MKY|B  Chain B, Structure Of Sopb(155-323)-18mer Dna Complex...  97.4    1e-23
+ref|YP_006203844.1|  protein sopB (plasmid partition protein B) [...  98.2    2e-23
+ref|YP_006954769.1|  plasmid partitioning protein ParB [Salmonell...  97.8    2e-23
+ref|WP_001466585.1|  chromosome partitioning protein ParB [Escher...  98.2    2e-23
+emb|CBI38528.3|  unnamed protein product [Vitis vinifera]             98.2    3e-23
+ref|WP_000817033.1|  chromosome partitioning protein ParB [Escher...  97.8    3e-23
+ref|YP_194810.1|  plasmid-partitioning protein [Salmonella enteri...  97.8    4e-23
+ref|WP_000817032.1|  chromosome partitioning protein ParB [Escher...  97.8    4e-23
+ref|WP_000817035.1|  chromosome partitioning protein ParB [Escher...  97.8    4e-23
+ref|YP_003829235.1|  plasmid partitioning protein [Escherichia co...  97.8    4e-23
+ref|WP_001608352.1|  protein sopB [Escherichia coli] >gb|ENF07760...  97.8    4e-23
+ref|WP_001588509.1|  protein sopB [Escherichia coli] >gb|EMZ85639...  97.8    4e-23
+ref|WP_001622238.1|  protein sopB [Escherichia coli] >gb|ENF42340...  97.8    4e-23
+ref|WP_001604399.1|  protein sopB [Escherichia coli] >gb|ELG95127...  97.8    4e-23
+ref|NP_061426.1|  sopB [Escherichia coli K-12] >ref|NP_052641.1| ...  97.8    4e-23
+ref|WP_000817029.1|  chromosome partitioning protein ParB [Escher...  97.8    4e-23
+ref|WP_001380987.1|  protein sopB [Escherichia coli] >gb|ENA69592...  97.8    4e-23
+ref|WP_001394780.1|  protein sopB [Escherichia coli] >gb|EMV28707...  97.8    4e-23
+ref|WP_000817030.1|  chromosome partitioning protein ParB [Escher...  97.8    4e-23
+ref|WP_000817034.1|  chromosome partitioning protein ParB [Escher...  97.4    5e-23
+ref|WP_001326962.1|  chromosome partitioning protein ParB [Escher...  96.7    8e-23
+ref|WP_001472690.1|  chromosome partitioning protein ParB [Escher...  96.3    9e-23
+ref|WP_023157846.1|  ParB-like protein [Escherichia coli] >gb|ESB...  96.3    9e-23
+ref|WP_023320141.1|  protein sopB [Klebsiella pneumoniae] >gb|ESM...  96.3    1e-22
+ref|WP_020806010.1|  ParB-like protein [Klebsiella pneumoniae] >g...  96.3    1e-22
+ref|WP_016243880.1|  protein sopB [Enterobacteriaceae] >gb|EOW009...  96.3    1e-22
+ref|YP_001598163.1|  plasmid-partitioning protein [Salmonella ent...  96.3    1e-22
+ref|WP_004118495.1|  chromosome partitioning protein ParB [Klebsi...  96.3    1e-22
+ref|YP_209450.1|  plasmid-partitioning protein [Salmonella enteri...  96.3    1e-22
+ref|WP_000817038.1|  chromosome partitioning protein ParB [Entero...  96.3    1e-22
+ref|YP_006973863.1|  SopB [Klebsiella pneumoniae] >ref|WP_0041820...  95.9    2e-22
+ref|WP_001697462.1|  protein sopB [Escherichia coli] >gb|EMV15723...  95.5    2e-22
+ref|WP_020804306.1|  ParB-like protein [Klebsiella pneumoniae] >g...  95.1    3e-22
+ref|WP_009483822.1|  chromosome partitioning protein ParB [Klebsi...  95.1    3e-22
+ref|WP_004217634.1|  Chromosome (plasmid) partitioning protein Pa...  94.7    3e-22
+ref|WP_023157104.1|  ParB-like protein [Escherichia coli] >gb|ESA...  94.7    3e-22
+ref|WP_001325184.1|  chromosome partitioning protein ParB [Escher...  94.7    3e-22
+ref|WP_004206785.1|  chromosome partitioning protein ParB [Entero...  94.7    4e-22
+ref|YP_004249877.1|  plasmid-partition protein SopB [Klebsiella p...  94.7    5e-22
+ref|YP_001338580.1|  plasmid-partitioning protein [Klebsiella pne...  94.7    5e-22
+ref|WP_016156498.1|  protein sopB [Enterobacteriaceae] >gb|EOQ310...  94.4    5e-22
+ref|WP_000817039.1|  chromosome partitioning protein ParB [Escher...  94.4    5e-22
+gb|ETF32634.1|  protein sopB [Escherichia coli UMEA 3489-1]           94.4    5e-22
+ref|WP_016233102.1|  protein sopB [Escherichia coli] >gb|EOU64398...  94.4    5e-22
+ref|WP_001716922.1|  protein sopB [Escherichia coli] >gb|EMW21180...  94.4    6e-22
+ref|YP_005957587.1|  plasmid-partitioning protein [Klebsiella pne...  94.0    7e-22
+ref|WP_023287152.1|  protein sopB [Klebsiella pneumoniae] >gb|ESL...  94.0    9e-22
+ref|WP_003031531.1|  plasmid-partitioning protein [Citrobacter fr...  93.6    1e-21
+ref|WP_023328959.1|  protein sopB [Klebsiella pneumoniae] >gb|ESM...  93.6    1e-21
+ref|YP_001687990.1|  plasmid-partitioning protein [Klebsiella pne...  93.6    1e-21
+ref|WP_023302806.1|  protein sopB [Klebsiella pneumoniae] >gb|ESL...  93.6    1e-21
+ref|WP_001519995.1|  protein sopB [Escherichia coli] >gb|ELC26949...  92.4    3e-21
+ref|WP_001698877.1|  plasmid-partitioning protein [Escherichia co...  92.0    4e-21
+ref|WP_023140239.1|  ParB-like protein, partial [Escherichia coli...  91.3    5e-21
+ref|WP_016262288.1|  protein sopB [Escherichia coli] >gb|EOV48823...  90.9    9e-21
+ref|WP_016231334.1|  protein sopB [Escherichia coli] >gb|EOU49407...  90.9    1e-20
+ref|NP_863034.1|  plasmid-partitioning protein [Escherichia coli]...  90.5    1e-20
+ref|YP_002235674.1|  protein SopB [Klebsiella pneumoniae 342] >re...  90.5    1e-20
+ref|WP_021572054.1|  protein sopB [Escherichia coli] >gb|EQZ08266...  90.5    1e-20
+ref|WP_001587498.1|  protein sopB [Escherichia coli] >gb|ELG11818...  89.4    4e-20
+ref|WP_000817025.1|  chromosome partitioning protein ParB [Escher...  89.0    6e-20
+ref|WP_001575734.1|  protein sopB [Escherichia coli] >gb|ELF38531...  88.6    7e-20
+emb|CDH61714.1|  Plasmid partition protein B [Escherichia coli PM...  87.0    3e-19
+ref|WP_000817026.1|  chromosome partitioning protein ParB [Escher...  86.3    5e-19
+ref|WP_000817040.1|  chromosome partitioning protein ParB [Salmon...  84.3    2e-18
+ref|WP_004132004.1|  chromosome partitioning protein ParB [Klebsi...  84.3    3e-18
+ref|WP_001299141.1|  chromosome partitioning protein ParB [Escher...  84.0    3e-18
+ref|WP_000817027.1|  chromosome partitioning protein ParB [Escher...  83.6    4e-18
+ref|NP_943529.1|  plasmid-partitioning protein [Klebsiella pneumo...  80.1    7e-17
+ref|YP_004821686.1|  parB-like partition protein [Enterobacter as...  79.0    2e-16
+ref|WP_023345606.1|  protein sopB [Enterobacter sp. MGH 16] >gb|E...  78.6    3e-16
+ref|YP_003602561.1|  plasmid-partitioning protein SopB [Enterobac...  78.6    3e-16
+ref|WP_022652318.1|  protein sopB [Enterobacter sp. MGH 14] >gb|E...  78.6    3e-16
+ref|WP_023327690.1|  protein sopB [Enterobacter sp. MGH 34] >gb|E...  78.2    5e-16
+ref|WP_001736941.1|  chromosome partitioning protein ParB [Salmon...  78.2    5e-16
+gb|ETE47335.1|  plasmid-partitioning protein [Salmonella enterica...  76.6    1e-15
+ref|WP_023208098.1|  plasmid-partitioning protein [Salmonella ent...  76.3    2e-15
+ref|YP_001165530.1|  plasmid-partitioning protein [Enterobacter s...  53.1    7e-07
+ref|WP_017345800.1|  chromosome partitioning protein ParB [Pantoe...  45.8    2e-04
+ref|WP_009395516.1|  hypothetical protein [Pseudomonas putida] >g...  33.1    1.9  
+ref|WP_016872306.1|  hypothetical protein [Chlorogloeopsis]           34.3    2.3  
+ref|WP_009150034.1|  hypothetical protein [Thiorhodovibrio sp. 97...  32.7    3.5  
+ref|NP_046922.1|  ParB [Enterobacteria phage N15] >gb|AAC19063.1|...  33.1    6.1  
+ref|WP_023339380.1|  hypothetical protein [Klebsiella pneumoniae]...  32.3    9.9  
+
+
+>pdb|3KZ5|E Chain E, Structure Of Cdomain
+ pdb|3KZ5|B Chain B, Structure Of Cdomain
+ pdb|3KZ5|A Chain A, Structure Of Cdomain
+Length=52
+
+ Score =  110 bits (274),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+           GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  1   GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+
+
+>ref|WP_010521216.1| plasmid-partitioning protein, partial [Flavobacteriaceae bacterium 
+HQM9]
+Length=78
+
+ Score = 96.3 bits (238),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8   HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+           HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  34  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  78
+
+
+>ref|WP_023142648.1| hypothetical protein [Escherichia coli]
+ gb|ESD20122.1| hypothetical protein HMPREF1597_02964 [Escherichia coli 907701]
+Length=188
+
+ Score = 97.8 bits (242),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  144  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  188
+
+
+>pdb|3MKY|B Chain B, Structure Of Sopb(155-323)-18mer Dna Complex, I23 Form
+ pdb|3MKY|P Chain P, Structure Of Sopb(155-323)-18mer Dna Complex, I23 Form
+Length=189
+
+ Score = 97.4 bits (241),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  145  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  189
+
+
+>ref|YP_006203844.1| protein sopB (plasmid partition protein B) [Escherichia coli 
+ETEC H10407]
+ ref|WP_014654024.1| chromosome partitioning protein ParB [Escherichia coli]
+ emb|CBJ04475.1| protein sopB (plasmid partition protein B) [Escherichia coli 
+ETEC H10407]
+Length=269
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  225  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  269
+
+
+>ref|YP_006954769.1| plasmid partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Dublin]
+ ref|WP_015059352.1| plasmid partitioning protein ParB [Salmonella enterica]
+ gb|AEA95473.1| plasmid partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Dublin]
+Length=284
+
+ Score = 97.8 bits (242),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  240  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  284
+
+
+>ref|WP_001466585.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIP72502.1| protein sopB [Escherichia coli EC1863]
+Length=295
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  251  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  295
+
+
+>emb|CBI38528.3| unnamed protein product [Vitis vinifera]
+Length=307
+
+ Score = 98.2 bits (243),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  263  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  307
+
+
+>ref|WP_000817033.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHV67588.1| parB-like partition s domain protein [Escherichia coli DEC6E]
+ gb|EHV80121.1| protein sopB [Escherichia coli DEC6D]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|YP_194810.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium]
+ ref|YP_001816485.1| plasmid-partitioning protein [Escherichia coli 1520]
+ ref|YP_003108271.1| protein sopB [Escherichia coli]
+ ref|YP_003517693.1| chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ ref|YP_008725003.1| chromosome partitioning protein ParB [Escherichia coli JJ1886]
+ ref|WP_000817036.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAR05666.1| stabilization of plasmid protein B [Salmonella enterica subsp. 
+enterica serovar Typhimurium]
+ emb|CAH64703.1| plasmid partitioning protein [uncultured bacterium]
+ emb|CAP07671.1| SopB [Escherichia coli]
+ gb|EDX34265.1| plasmid partition protein SopB [Shigella dysenteriae 1012]
+ gb|ACQ41978.1| protein sopB [Escherichia coli]
+ gb|ADD63647.1| chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ gb|EFO56319.1| ParB-like protein [Escherichia coli MS 145-7]
+ gb|EJZ47275.1| protein sopB [Escherichia sp. 1_1_43]
+ gb|ELD26217.1| protein sopB [Escherichia coli KTE208]
+ gb|ELE01542.1| protein sopB [Escherichia coli KTE49]
+ gb|ELG10546.1| protein sopB [Escherichia coli KTE50]
+ gb|ELH61818.1| protein sopB [Escherichia coli KTE202]
+ gb|ELH76927.1| protein sopB [Escherichia coli KTE211]
+ gb|ELI56515.1| protein sopB [Escherichia coli KTE125]
+ gb|ELI89485.1| protein sopB [Escherichia coli KTE139]
+ gb|ELJ15071.1| protein sopB [Escherichia coli KTE157]
+ gb|EOV05534.1| protein sopB [Escherichia coli KTE195]
+ gb|EOV42259.1| protein sopB [Escherichia coli KTE219]
+ gb|EOW49864.1| protein sopB [Escherichia coli KTE134]
+ gb|AGO62101.1| plasmid partition protein SopB [uncultured bacterium]
+ gb|EQO66273.1| protein sopB [Escherichia coli HVH 44 (4-2298570)]
+ gb|EQP61159.1| protein sopB [Escherichia coli HVH 78 (4-2735946)]
+ gb|EQP82736.1| protein sopB [Escherichia coli HVH 84 (4-1021478)]
+ gb|EQQ18056.1| protein sopB [Escherichia coli HVH 92 (4-5930790)]
+ gb|EQQ20294.1| protein sopB [Escherichia coli HVH 95 (4-6074464)]
+ gb|EQQ30829.1| protein sopB [Escherichia coli HVH 96 (4-5934869)]
+ gb|EQQ61172.1| protein sopB [Escherichia coli HVH 109 (4-6977162)]
+ gb|EQT30580.1| protein sopB [Escherichia coli HVH 182 (4-0985554)]
+ gb|EQT50151.1| protein sopB [Escherichia coli HVH 186 (4-3405044)]
+ gb|EQU39528.1| protein sopB [Escherichia coli HVH 205 (4-3094677)]
+ gb|EQU65131.1| protein sopB [Escherichia coli HVH 212 (3-9305343)]
+ gb|EQY05272.1| protein sopB [Escherichia coli UMEA 3208-1]
+ gb|ERA98028.1| protein sopB [Escherichia coli KOEGE 10 (25a)]
+ gb|ERG00148.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Muenchen str. RKS4129]
+ gb|ERO93776.1| protein sopB [Escherichia coli BWH 24]
+ gb|ESA75858.1| ParB-like protein [Escherichia coli 110957]
+ gb|ESA91233.1| ParB-like protein [Escherichia coli 907779]
+ gb|ESD09603.1| ParB-like protein [Escherichia coli 907672]
+ gb|ESD13785.1| ParB-like protein [Escherichia coli 907700]
+ gb|ESD29212.1| ParB-like protein [Escherichia coli 907715]
+ gb|ESD40975.1| ParB-like protein [Escherichia coli 907892]
+ gb|ESD60913.1| ParB-like protein [Escherichia coli 908524]
+ gb|ESD73183.1| ParB-like protein [Escherichia coli 908555]
+ gb|ESD87388.1| ParB-like protein [Escherichia coli 908573]
+ gb|ESD96813.1| ParB-like protein [Escherichia coli 908585]
+ gb|ESE09662.1| ParB-like protein [Escherichia coli 908632]
+ gb|ESE26058.1| ParB-like protein [Escherichia coli 908691]
+ gb|AGY87978.1| chromosome partitioning protein ParB [Escherichia coli JJ1886]
+ gb|ESL29554.1| protein sopB [Escherichia coli BIDMC 38]
+ gb|ESP05872.1| protein sopB [Escherichia coli HVH 36 (4-5675286)]
+ gb|ESP11167.1| protein sopB [Escherichia coli HVH 136 (4-5970458)]
+ gb|ESP11451.1| protein sopB [Escherichia coli HVH 86 (4-7026218)]
+ gb|ETE08229.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC8]
+ gb|ETE29764.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC7]
+ gb|ETE36534.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC9]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817032.1| chromosome partitioning protein ParB [Escherichia coli]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817035.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIE54130.1| plasmid partitioning protein [Escherichia coli AI27]
+ gb|EIH42245.1| ParB-like protein [Escherichia coli 99.0741]
+ gb|EQS43066.1| protein sopB [Escherichia coli HVH 150 (4-3258106)]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|YP_003829235.1| plasmid partitioning protein [Escherichia coli]
+ ref|YP_003829110.1| plasmid partitioning protein [Escherichia coli]
+ ref|WP_013279333.1| plasmid partitioning protein [Escherichia coli]
+ gb|ADL14004.1| SopB [Escherichia coli]
+ gb|ADL14129.1| SopB [Escherichia coli]
+Length=324
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  280  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  324
+
+
+>ref|WP_001608352.1| protein sopB [Escherichia coli]
+ gb|ENF07760.1| protein sopB [Escherichia coli P0304777.9]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001588509.1| protein sopB [Escherichia coli]
+ gb|EMZ85639.1| protein sopB [Escherichia coli 199900.1]
+ gb|ENE60965.1| protein sopB [Escherichia coli P0304777.13]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001622238.1| protein sopB [Escherichia coli]
+ gb|ENF42340.1| protein sopB [Escherichia coli P0304816.15]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001604399.1| protein sopB [Escherichia coli]
+ gb|ELG95127.1| protein sopB [Escherichia coli KTE147]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|NP_061426.1| sopB [Escherichia coli K-12]
+ ref|NP_052641.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. Sakai]
+ ref|YP_325629.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. EDL933]
+ ref|YP_001294715.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001451562.1| plasmid-partitioning protein [Escherichia coli E24377A]
+ ref|YP_002268428.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. EC4115]
+ ref|YP_003034007.1| plasmid-partitioning protein [Escherichia coli Vir68]
+ ref|YP_003082175.1| plasmid partitioning protein [Escherichia coli O157:H7 str. TW14359]
+ ref|YP_003717687.1| plasmid partition protein SopB [Escherichia coli ETEC 1392/75]
+ ref|YP_006315937.1| plasmid-partitioning protein [Escherichia coli Xuzhou21]
+ ref|YP_006956503.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ ref|YP_006957112.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ ref|WP_000817031.1| chromosome partitioning protein ParB [Gammaproteobacteria]
+ sp|P62558.1|SOPB_ECOLI RecName: Full=Protein SopB; AltName: Full=Plasmid partition protein 
+B
+ sp|P62559.1|SOPB_ECO57 RecName: Full=Protein SopB; AltName: Full=Plasmid partition protein 
+B
+ gb|AAR00430.1|AF401292_31 w0051 [Escherichia coli]
+ emb|CAA28296.1| unnamed protein product [Escherichia coli K-12]
+ gb|AAA24903.1| Protein B [Plasmid F]
+ gb|AAC53637.1| SopB [Cloning vector pZC320]
+ dbj|BAA31791.1| SopB protein [Escherichia coli O157:H7 str. Sakai]
+ gb|AAC70137.1| plasmid partitioning protein [Escherichia coli O157:H7 str. EDL933]
+ dbj|BAA97917.1| sopB [Escherichia coli K-12]
+ emb|CAC79980.1| orf972 [Escherichia coli]
+ gb|AAO61294.1| ParB [BAC cloning vector pEBAC190G]
+ emb|CAD50598.1| SopB protein [Cloning vector pUvBBAC]
+ gb|AAT42374.1| plasmid partitioning protein SopB [Large-insert cloning vector 
+pSMART VC]
+ gb|EAX60460.1| conserved hypothetical protein [Vibrio cholerae V52]
+ gb|ABV16429.1| plasmid partition protein B [Escherichia coli E24377A]
+ gb|ABW82144.1| SopB [Cloning vector pSMART BAC v2.0]
+ emb|CAP53911.1| parB protein [Cloning vector pBAC-RT]
+ gb|ABX89603.1| ParB [Cloning vector pFOSAMP]
+ gb|ABX89608.1| ParB [Cloning vector pFOSKAN]
+ gb|EDU31787.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4196]
+ gb|EDU51774.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4113]
+ gb|EDU68529.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4076]
+ gb|EDU74090.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4401]
+ gb|EDU80132.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4486]
+ gb|EDU83477.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4501]
+ gb|EDU88960.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC869]
+ gb|EDU93724.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC508]
+ gb|ACI02341.1| ParB [BAC cloning vector pEZ BAC]
+ gb|EDZ79229.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4206]
+ gb|EDZ79252.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4045]
+ gb|EDZ84595.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4042]
+ gb|ACI34524.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4115]
+ gb|EEC25582.1| plasmid partition protein B [Escherichia coli O157:H7 str. TW14588]
+ dbj|BAH03497.1| partitioning protein [Cloning vector pKS145]
+ gb|ACM62287.1| plasmid-partitioning protein SopB [Human herpesvirus 1]
+ gb|ACS32474.1| plasmid-partitioning protein SopB [Human herpesvirus 5]
+ gb|ACT33492.1| plasmid partitioning protein SopB [Escherichia coli Vir68]
+ gb|ACT75201.1| plasmid partitioning protein [Escherichia coli O157:H7 str. TW14359]
+ gb|ACZ72916.1| plasmid-partitioning protein SopB [Human herpesvirus 5]
+ gb|ADE34470.1| ParB [Cloning vector pTARa]
+ emb|CBL93523.1| plasmid partition protein SopB [Escherichia coli ETEC 1392/75]
+ gb|EFK43858.1| ParB-like protein [Escherichia coli MS 119-7]
+ gb|ADO79615.1| ParB [Cloning vector pGNS-BAC]
+ gb|ADR02807.1| ParB [Shuttle vector pMycoFos]
+ gb|EFZ69479.1| protein sopB [Escherichia coli OK1357]
+ gb|EGC09780.1| ParB partition protein [Escherichia coli E1167]
+ gb|EGI48067.1| protein SopB (Plasmid partition protein B) [Escherichia coli 
+H299]
+ gb|EHP63436.1| protein sopB [Escherichia coli 4_1_47FAA]
+ gb|EHU61773.1| parB-like partition s domain protein [Escherichia coli DEC3B]
+ gb|EHU75162.1| parB-like partition s domain protein [Escherichia coli DEC3D]
+ gb|EHU75268.1| parB-like partition s domain protein [Escherichia coli DEC3C]
+ gb|EHU85230.1| parB-like partition s domain protein [Escherichia coli DEC4A]
+ gb|EHU90844.1| parB-like partition s domain protein [Escherichia coli DEC4B]
+ gb|EHU97778.1| parB-like partition s domain protein [Escherichia coli DEC3F]
+ gb|EHV09213.1| parB-like partition s domain protein [Escherichia coli DEC4C]
+ gb|EHV12293.1| parB-like partition s domain protein [Escherichia coli DEC4D]
+ gb|EHV16242.1| parB-like partition s domain protein [Escherichia coli DEC4E]
+ gb|EHV29032.1| parB-like partition s domain protein [Escherichia coli DEC4F]
+ gb|EHW83701.1| parB-like partition s domain protein [Escherichia coli DEC10F]
+ gb|EIA40322.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. G5101]
+ gb|AFG21246.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ gb|AFG21402.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ gb|AFI26417.1| parB [Cloning vector pBACr-AraT7940_rbs9]
+ gb|EIH15706.1| ParB-like protein [Escherichia coli 97.0259]
+ gb|EIJ04910.1| ParB-like protein [Escherichia coli B41]
+ gb|AFJ32127.1| plasmid-partitioning protein [Escherichia coli Xuzhou21]
+ gb|AFL03485.1| sopB [Macacine herpesvirus 3]
+ gb|EIN15578.1| protein sopB [Escherichia coli FRIK1996]
+ gb|EIN32773.1| protein sopB [Escherichia coli FDA517]
+ gb|EIN32799.1| protein sopB [Escherichia coli FDA505]
+ gb|EIN33654.1| protein sopB [Escherichia coli FRIK1990]
+ gb|EIN47912.1| protein sopB [Escherichia coli 93-001]
+ gb|EIN48227.1| protein sopB [Escherichia coli PA3]
+ gb|EIN55088.1| protein sopB [Escherichia coli FRIK1985]
+ gb|EIN55633.1| protein sopB [Escherichia coli PA9]
+ gb|EIN69934.1| protein sopB [Escherichia coli PA5]
+ gb|EIN82959.1| protein sopB [Escherichia coli PA10]
+ gb|EIN86608.1| protein sopB [Escherichia coli PA15]
+ gb|EIN86641.1| protein sopB [Escherichia coli PA22]
+ gb|EIN89106.1| protein sopB [Escherichia coli PA14]
+ gb|EIN95823.1| protein sopB [Escherichia coli PA28]
+ gb|EIO06527.1| protein sopB [Escherichia coli PA25]
+ gb|EIO06637.1| protein sopB [Escherichia coli PA24]
+ gb|EIO23618.1| protein sopB [Escherichia coli PA32]
+ gb|EIO23872.1| protein sopB [Escherichia coli PA31]
+ gb|EIO27977.1| protein sopB [Escherichia coli PA33]
+ gb|EIO30307.1| protein sopB [Escherichia coli PA40]
+ gb|EIO45380.1| protein sopB [Escherichia coli PA41]
+ gb|EIO46917.1| protein sopB [Escherichia coli TW06591]
+ gb|EIO49802.1| protein sopB [Escherichia coli PA42]
+ gb|EIO51537.1| protein sopB [Escherichia coli TW07945]
+ gb|EIO58105.1| protein sopB [Escherichia coli PA39]
+ gb|EIO58886.1| protein sopB [Escherichia coli TW10246]
+ gb|EIO77688.1| protein sopB [Escherichia coli TW09109]
+ gb|EIO82295.1| protein sopB [Escherichia coli TW10119]
+ gb|EIO85212.1| protein sopB [Escherichia coli TW09195]
+ gb|EIO87139.1| protein sopB [Escherichia coli EC4203]
+ gb|EIO91650.1| protein sopB [Escherichia coli TW09098]
+ gb|EIO92266.1| protein sopB [Escherichia coli EC4196]
+ gb|EIP02920.1| protein sopB [Escherichia coli TW14313]
+ gb|EIP10090.1| protein sopB [Escherichia coli EC4421]
+ gb|EIP19515.1| protein sopB [Escherichia coli TW14301]
+ gb|EIP26825.1| protein sopB [Escherichia coli EC4402]
+ gb|EIP34296.1| protein sopB [Escherichia coli EC4422]
+ gb|EIP34638.1| protein sopB [Escherichia coli EC4439]
+ gb|EIP39318.1| protein sopB [Escherichia coli EC4013]
+ gb|EIP39774.1| protein sopB [Escherichia coli EC4436]
+ gb|EIP49737.1| protein sopB [Escherichia coli EC4448]
+ gb|EIP62097.1| protein sopB [Escherichia coli EC1738]
+ gb|EIP66988.1| protein sopB [Escherichia coli EC1734]
+ gb|EIP71789.1| protein sopB [Escherichia coli EC4437]
+ gb|EIP71890.1| protein sopB [Escherichia coli EC1845]
+ gb|AFN40087.1| plasmid partition protein B [Cloning vector pFosill-1]
+ gb|AFN40092.1| plasmid partition protein B [Cloning vector pFosill-2]
+ gb|AFN40097.1| plasmid partition protein B [Cloning vector pFosill-3]
+ gb|AFN40102.1| plasmid partition protein B [Cloning vector pFosill-4]
+ gb|EKG96205.1| protein sopB [Escherichia coli PA34]
+ gb|EKH00918.1| protein sopB [Escherichia coli PA7]
+ gb|EKH09236.1| protein sopB [Escherichia coli FRIK920]
+ gb|EKH21574.1| protein sopB [Escherichia coli FDA507]
+ gb|EKH26046.1| protein sopB [Escherichia coli FDA506]
+ gb|EKH26727.1| protein sopB [Escherichia coli FRIK1999]
+ gb|EKH32687.1| protein sopB [Escherichia coli FRIK1997]
+ gb|EKH36868.1| protein sopB [Escherichia coli FDA504]
+ gb|EKH47892.1| protein sopB [Escherichia coli NE1487]
+ gb|EKH54854.1| protein sopB [Escherichia coli PA4]
+ gb|EKH62821.1| protein sopB [Escherichia coli NE037]
+ gb|EKH63570.1| protein sopB [Escherichia coli PA23]
+ gb|EKH63753.1| protein sopB [Escherichia coli FRIK2001]
+ gb|EKH72469.1| protein sopB [Escherichia coli PA45]
+ gb|EKH84184.1| protein sopB [Escherichia coli PA49]
+ gb|EKH95780.1| protein sopB [Escherichia coli TT12B]
+ gb|EKH96538.1| protein sopB [Escherichia coli CB7326]
+ gb|EKI02368.1| protein sopB [Escherichia coli MA6]
+ gb|EKI05948.1| protein sopB [Escherichia coli 5412]
+ gb|EKI20351.1| protein sopB [Escherichia coli EC96038]
+ gb|EKI32638.1| protein sopB [Escherichia coli PA38]
+ gb|EKI46590.1| protein sopB [Escherichia coli EC1735]
+ gb|EKI56259.1| protein sopB [Escherichia coli N1]
+ gb|EKI56939.1| protein sopB [Escherichia coli EC1736]
+ gb|EKI58692.1| protein sopB [Escherichia coli EC1737]
+ gb|EKI64426.1| protein sopB [Escherichia coli EC1846]
+ gb|EKI72514.1| protein sopB [Escherichia coli EC1847]
+ gb|EKI76780.1| protein sopB [Escherichia coli EC1848]
+ gb|EKI82604.1| protein sopB [Escherichia coli EC1849]
+ gb|EKI90544.1| protein sopB [Escherichia coli EC1850]
+ gb|EKI92842.1| protein sopB [Escherichia coli EC1856]
+ gb|EKJ00200.1| protein sopB [Escherichia coli EC1862]
+ gb|EKJ06165.1| protein sopB [Escherichia coli EC1864]
+ gb|EKJ10243.1| protein sopB [Escherichia coli EC1865]
+ gb|EKJ20468.1| protein sopB [Escherichia coli EC1866]
+ gb|EKJ31254.1| protein sopB [Escherichia coli EC1869]
+ gb|EKJ36962.1| protein sopB [Escherichia coli EC1868]
+ gb|EKJ37781.1| protein sopB [Escherichia coli NE098]
+ gb|EKJ54335.1| protein sopB [Escherichia coli EC1870]
+ gb|EKJ65174.1| protein sopB [Escherichia coli FRIK523]
+ gb|EKJ67350.1| protein sopB [Escherichia coli 0.1304]
+ gb|EKK21537.1| protein sopB [Escherichia coli 3.4870]
+ gb|EKK33658.1| protein sopB [Escherichia coli 6.0172]
+ gb|EKK38000.1| protein sopB [Escherichia coli 5.2239]
+ gb|EKK51044.1| protein sopB [Escherichia coli 8.2524]
+ gb|EKK57551.1| protein sopB [Escherichia coli 10.0833]
+ gb|EKK61618.1| protein sopB [Escherichia coli 8.0586]
+ gb|EKK61854.1| protein sopB [Escherichia coli 10.0869]
+ gb|EKK76947.1| protein sopB [Escherichia coli 8.0416]
+ gb|EKK85788.1| protein sopB [Escherichia coli 10.0821]
+ gb|EKV70830.1| protein sopB [Escherichia coli 88.1042]
+ gb|EKV85702.1| protein sopB [Escherichia coli 90.0091]
+ gb|EKV88730.1| protein sopB [Escherichia coli 89.0511]
+ gb|EKV89235.1| protein sopB [Escherichia coli 88.1467]
+ gb|EKV89936.1| protein sopB [Escherichia coli 90.0039]
+ gb|EKW03634.1| protein sopB [Escherichia coli 90.2281]
+ gb|EKW03763.1| protein sopB [Escherichia coli 93.0055]
+ gb|EKW04347.1| protein sopB [Escherichia coli 93.0056]
+ gb|EKW22085.1| protein sopB [Escherichia coli 94.0618]
+ gb|EKW22173.1| protein sopB [Escherichia coli 95.1288]
+ gb|EKW22718.1| protein sopB [Escherichia coli 95.0943]
+ gb|EKW37474.1| protein sopB [Escherichia coli 95.0183]
+ gb|EKW51493.1| protein sopB [Escherichia coli 96.0428]
+ gb|EKW51746.1| protein sopB [Escherichia coli 96.0932]
+ gb|EKW57192.1| protein sopB [Escherichia coli 96.0427]
+ gb|EKW58271.1| protein sopB [Escherichia coli 96.0939]
+ gb|EKW64771.1| protein sopB [Escherichia coli 97.0003]
+ gb|EKW75030.1| protein sopB [Escherichia coli 96.0107]
+ gb|EKW75943.1| protein sopB [Escherichia coli 99.0672]
+ gb|EKW77451.1| protein sopB [Escherichia coli 97.0007]
+ gb|EKW90710.1| protein sopB [Escherichia coli 99.0678]
+ gb|EKW96013.1| protein sopB [Escherichia coli 99.0713]
+ gb|EKY44658.1| protein sopB [Escherichia coli 96.0109]
+ gb|EKY45842.1| protein sopB [Escherichia coli 97.0010]
+ gb|ELE64060.1| protein sopB [Escherichia coli KTE76]
+ gb|ELJ19042.1| protein sopB [Escherichia coli KTE163]
+ gb|ELV15289.1| protein sopB [Escherichia coli 09BKT078844]
+ gb|ELV17500.1| protein sopB [Escherichia coli 99.0814]
+ gb|ELV30642.1| protein sopB [Escherichia coli 99.0815]
+ gb|ELV36763.1| protein sopB [Escherichia coli 99.0839]
+ gb|ELV38013.1| protein sopB [Escherichia coli 99.0848]
+ gb|ELV38388.1| protein sopB [Escherichia coli 99.0816]
+ gb|ELV46010.1| protein sopB [Escherichia coli 99.1775]
+ gb|ELV49467.1| protein sopB [Escherichia coli 99.1753]
+ gb|ELV55993.1| protein sopB [Escherichia coli 99.1793]
+ gb|ELV66912.1| protein sopB [Escherichia coli 99.1805]
+ gb|ELV67927.1| protein sopB [Escherichia coli PA11]
+ gb|ELV73029.1| protein sopB [Escherichia coli ATCC 700728]
+ gb|ELV83437.1| protein sopB [Escherichia coli PA13]
+ gb|ELV87021.1| protein sopB [Escherichia coli PA19]
+ gb|ELV89996.1| protein sopB [Escherichia coli PA2]
+ gb|ELV93987.1| protein sopB [Escherichia coli PA48]
+ gb|ELV99800.1| protein sopB [Escherichia coli PA47]
+ gb|ELW04624.1| protein sopB [Escherichia coli PA8]
+ gb|ELW14572.1| protein sopB [Escherichia coli 99.1781]
+ gb|ELW18981.1| protein sopB [Escherichia coli 99.1762]
+ gb|ELW19032.1| protein sopB [Escherichia coli 7.1982]
+ gb|ELW33708.1| protein sopB [Escherichia coli PA35]
+ gb|ELW34300.1| protein sopB [Escherichia coli 3.4880]
+ gb|ELW38573.1| protein sopB [Escherichia coli 95.0083]
+ gb|ELW41765.1| protein sopB [Escherichia coli 99.0670]
+ gb|EMU57361.1| protein sopB [Escherichia coli MP021552.12]
+ gb|EMU67032.1| protein sopB [Escherichia coli MP021552.7]
+ gb|EMU70186.1| protein sopB [Escherichia coli MP021552.11]
+ gb|EMV29185.1| protein sopB [Escherichia coli BCE002_MS12]
+ gb|EMV33187.1| protein sopB [Escherichia coli BCE019_MS-13]
+ gb|EMV49875.1| protein sopB [Escherichia coli 2871950]
+ gb|EMV50315.1| protein sopB [Escherichia coli 2872000]
+ gb|EMV85714.1| protein sopB [Escherichia coli 2865200]
+ gb|EMW33331.1| protein sopB [Escherichia coli 2788150]
+ gb|EMW39253.1| protein sopB [Escherichia coli 2785200]
+ gb|EMW45045.1| protein sopB [Escherichia coli 2780750]
+ gb|EMW86424.1| protein sopB [Escherichia coli 180600]
+ gb|EMW94234.1| protein sopB [Escherichia coli P0304777.1]
+ gb|EMX23751.1| protein sopB [Escherichia coli MP021566.1]
+ gb|EMX28100.1| protein sopB [Escherichia coli MP021561.2]
+ gb|EMX37578.1| protein sopB [Escherichia coli MP021552.8]
+ gb|EMX46295.1| protein sopB [Escherichia coli MP020980.2]
+ gb|EMX47234.1| protein sopB [Escherichia coli MP020940.1]
+ gb|EMX58210.1| protein sopB [Escherichia coli Jurua 18/11]
+ gb|EMX85847.1| protein sopB [Escherichia coli BCE001_MS16]
+ gb|EMZ59059.1| protein sopB [Escherichia coli 2846750]
+ gb|EMZ72338.1| protein sopB [Escherichia coli 174900]
+ gb|EMZ98125.1| protein sopB [Escherichia coli P0304816.1]
+ gb|ENA03567.1| protein sopB [Escherichia coli P0299917.1]
+ gb|ENA26128.1| protein sopB [Escherichia coli BCE007_MS-11]
+ gb|ENA73382.1| protein sopB [Escherichia coli 2730350]
+ gb|ENA78639.1| protein sopB [Escherichia coli 2741950]
+ gb|ENB02409.1| protein sopB [Escherichia coli 2864350]
+ gb|ENB27995.1| protein sopB [Escherichia coli BCE032_MS-12]
+ gb|ENB46322.1| protein sopB [Escherichia coli MP021561.3]
+ gb|ENC41943.1| protein sopB [Escherichia coli P02997067.6]
+ gb|ENC42334.1| protein sopB [Escherichia coli P0299917.2]
+ gb|ENC47415.1| protein sopB [Escherichia coli P0299917.10]
+ gb|ENC49142.1| protein sopB [Escherichia coli P0299917.3]
+ gb|ENC53993.1| protein sopB [Escherichia coli P0299917.4]
+ gb|ENC54980.1| protein sopB [Escherichia coli P0299917.5]
+ gb|ENC63223.1| protein sopB [Escherichia coli P0299917.6]
+ gb|ENC68100.1| protein sopB [Escherichia coli P0299917.7]
+ gb|ENC78159.1| protein sopB [Escherichia coli P0299917.8]
+ gb|ENC89350.1| protein sopB [Escherichia coli P0299917.9]
+ gb|END52765.1| protein sopB [Escherichia coli MP020980.1]
+ gb|END56325.1| protein sopB [Escherichia coli BCE006_MS-23]
+ gb|END90820.1| protein sopB [Escherichia coli P0301904.3]
+ gb|ENE41483.1| protein sopB [Escherichia coli P0304777.10]
+ gb|ENE52447.1| protein sopB [Escherichia coli P0304777.11]
+ gb|ENE57372.1| protein sopB [Escherichia coli P0304777.12]
+ gb|ENE65552.1| protein sopB [Escherichia coli P0304777.14]
+ gb|ENE75111.1| protein sopB [Escherichia coli P0304777.2]
+ gb|ENE89728.1| protein sopB [Escherichia coli P0304777.3]
+ gb|ENE90642.1| protein sopB [Escherichia coli P0304777.4]
+ gb|ENE97127.1| protein sopB [Escherichia coli P0304777.7]
+ gb|ENF22590.1| protein sopB [Escherichia coli P0304816.10]
+ gb|ENF27125.1| protein sopB [Escherichia coli P0304816.11]
+ gb|ENF27176.1| protein sopB [Escherichia coli P0304816.12]
+ gb|ENF29532.1| protein sopB [Escherichia coli P0304816.14]
+ gb|ENF41105.1| protein sopB [Escherichia coli P0304816.13]
+ gb|ENF44812.1| protein sopB [Escherichia coli P0304816.2]
+ gb|ENF44877.1| protein sopB [Escherichia coli P0304816.6]
+ gb|ENF57679.1| protein sopB [Escherichia coli P0304816.7]
+ gb|ENF64537.1| protein sopB [Escherichia coli P0304816.8]
+ gb|ENF73075.1| protein sopB [Escherichia coli P0304816.9]
+ gb|ENG78656.1| protein sopB [Escherichia coli 178200]
+ gb|ENG78725.1| protein sopB [Escherichia coli 178850]
+ gb|ENH27746.1| protein sopB [Escherichia coli P0304816.3]
+ gb|ENH27774.1| protein sopB [Escherichia coli P0304816.4]
+ gb|ENH44253.1| protein sopB [Escherichia coli P0304816.5]
+ gb|AGM33191.1| F plasmid partitioning protein B [Cloning vector pFTCAPL-GW]
+ gb|EOV44990.1| protein sopB [Escherichia coli KTE221]
+ gb|EOW15466.1| protein sopB [Escherichia coli KTE102]
+ gb|AGO61968.1| F plasmid partitioning protein B [Cloning vector pFTarget2-Tn7]
+ gb|AGO61975.1| F plasmid partitioning protein B [Cloning vector pFTarget3-Tn7]
+ gb|AGT36557.1| plasmid-partioning protein SopB [BAC cloning vector pUSF-3]
+ gb|EQP96639.1| protein sopB [Escherichia coli HVH 88 (4-5854636)]
+ gb|EQR37546.1| protein sopB [Escherichia coli HVH 125 (4-2634716)]
+ gb|EQR88746.1| protein sopB [Escherichia coli HVH 139 (4-3192644)]
+ gb|EQW05179.1| protein sopB [Escherichia coli KOEGE 131 (358a)]
+ gb|ERB28079.1| protein sopB [Escherichia coli UMEA 3292-1]
+ dbj|BAN79346.1| SopB protein [Conjugative cloning vector pFE604T]
+ gb|ERB74263.1| protein sopB [Escherichia coli 09BKT076207]
+ gb|ERB75636.1| protein sopB [Escherichia coli B102]
+ gb|ERB78749.1| protein sopB [Escherichia coli B107]
+ gb|ERB82634.1| protein sopB [Escherichia coli B26-1]
+ gb|ERB89872.1| protein sopB [Escherichia coli B26-2]
+ gb|ERB97126.1| protein sopB [Escherichia coli B28-1]
+ gb|ERB99993.1| protein sopB [Escherichia coli B28-2]
+ gb|ERC05796.1| protein sopB [Escherichia coli B29-1]
+ gb|ERC13250.1| protein sopB [Escherichia coli B29-2]
+ gb|ERC20360.1| protein sopB [Escherichia coli B36-1]
+ gb|ERC21240.1| protein sopB [Escherichia coli B36-2]
+ gb|ERC31131.1| protein sopB [Escherichia coli B7-1]
+ gb|ERC37805.1| protein sopB [Escherichia coli B7-2]
+ gb|ERC41282.1| protein sopB [Escherichia coli B93]
+ gb|ERC45073.1| protein sopB [Escherichia coli B94]
+ gb|ERC45875.1| protein sopB [Escherichia coli B94]
+ gb|ERC58326.1| protein sopB [Escherichia coli B95]
+ gb|ERC63818.1| protein sopB [Escherichia coli Bd5610_99]
+ gb|ERC69717.1| protein sopB [Escherichia coli 08BKT055439]
+ gb|ERC70910.1| protein sopB [Escherichia coli T1840_97]
+ gb|ERC80406.1| protein sopB [Escherichia coli T234_00]
+ gb|ERC84484.1| protein sopB [Escherichia coli 14A]
+ gb|ERC85112.1| protein sopB [Escherichia coli T924_01]
+ gb|ERC94711.1| protein sopB [Escherichia coli 2886-75]
+ gb|ERD00729.1| protein sopB [Escherichia coli B104]
+ gb|ERD00764.1| protein sopB [Escherichia coli B103]
+ gb|ERD13788.1| protein sopB [Escherichia coli B106]
+ gb|ERD16126.1| protein sopB [Escherichia coli B108]
+ gb|ERD18556.1| protein sopB [Escherichia coli B105]
+ gb|ERD27554.1| protein sopB [Escherichia coli B109]
+ gb|ERD30789.1| protein sopB [Escherichia coli B112]
+ gb|ERD37061.1| protein sopB [Escherichia coli B113]
+ gb|ERD44685.1| protein sopB [Escherichia coli B15]
+ gb|ERD45546.1| protein sopB [Escherichia coli B114]
+ gb|ERD49190.1| protein sopB [Escherichia coli B17]
+ gb|ERD59154.1| protein sopB [Escherichia coli B40-2]
+ gb|ERD61483.1| protein sopB [Escherichia coli B40-1]
+ gb|ERD64759.1| protein sopB [Escherichia coli B49-2]
+ gb|ERD73302.1| protein sopB [Escherichia coli B5-2]
+ gb|ERD78462.1| protein sopB [Escherichia coli B83]
+ gb|ERD80492.1| protein sopB [Escherichia coli B84]
+ gb|ERD87283.1| protein sopB [Escherichia coli B85]
+ gb|ERD92936.1| protein sopB [Escherichia coli B86]
+ gb|ERE05257.1| protein sopB [Escherichia coli 08BKT77219]
+ gb|ERE19341.1| protein sopB [Escherichia coli 09BKT024447]
+ gb|ERE19841.1| protein sopB [Escherichia coli T1282_01]
+ gb|ERE29574.1| protein sopB [Escherichia coli B89]
+ gb|ERE29670.1| protein sopB [Escherichia coli B90]
+ gb|ERE41661.1| protein sopB [Escherichia coli Tx1686]
+ gb|ERE43097.1| protein sopB [Escherichia coli Tx3800]
+ gb|ESE09824.1| ParB-like protein [Escherichia coli 908658]
+ gb|ESP81759.1| chromosome partitioning protein ParB [Pseudomonas putida S12]
+ gb|ESR86046.1| chromosome partitioning protein ParB [Escherichia coli ATCC BAA-2192]
+ gb|ESR93253.1| chromosome partitioning protein ParB [Escherichia coli ATCC BAA-2192]
+ gb|ESS90060.1| Chromosome (plasmid) partitioning protein ParB [Escherichia coli 
+CE549]
+ gb|EST59940.1| plasmid-partitioning protein [Escherichia coli ECC-Z]
+ gb|EST79677.1| plasmid-partitioning protein [Escherichia coli ECA-727]
+ gb|ETE18341.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC10]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817029.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHX70958.1| parB-like partition s domain protein [Escherichia coli DEC13C]
+ gb|EMW91741.1| protein sopB [Escherichia coli ThroopD]
+ gb|EMX15275.1| protein sopB [Escherichia coli P0301867.1]
+ gb|EMX81051.1| protein sopB [Escherichia coli 2719100]
+ gb|EMX84214.1| protein sopB [Escherichia coli 2720900]
+ gb|EMZ91081.1| protein sopB [Escherichia coli 2722950]
+ gb|ENA38445.1| protein sopB [Escherichia coli P0301867.2]
+ gb|ENA59488.1| protein sopB [Escherichia coli 2726950]
+ gb|ENB16948.1| protein sopB [Escherichia coli BCE011_MS-01]
+ gb|ENC86021.1| protein sopB [Escherichia coli P0301867.11]
+ gb|END21483.1| protein sopB [Escherichia coli P0301867.8]
+ gb|END84855.1| protein sopB [Escherichia coli P0301867.13]
+ gb|ENG92115.1| protein sopB [Escherichia coli P0301867.3]
+ gb|ENH07185.1| protein sopB [Escherichia coli P0301867.5]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001380987.1| protein sopB [Escherichia coli]
+ gb|ENA69592.1| protein sopB [Escherichia coli 178900]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001394780.1| protein sopB [Escherichia coli]
+ gb|EMV28707.1| protein sopB [Escherichia coli C-34666]
+ gb|ENA77067.1| protein sopB [Escherichia coli 2730450]
+ gb|ENB23458.1| protein sopB [Escherichia coli BCE030_MS-09]
+ gb|ENE83689.1| protein sopB [Escherichia coli P0304777.15]
+ gb|ENF04854.1| protein sopB [Escherichia coli P0304777.8]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817030.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIF16336.1| plasmid-partitioning protein [Escherichia coli O32:H37 str. P4]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817034.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFE64230.1| plasmid-partitioning protein [Escherichia coli B088]
+Length=323
+
+ Score = 97.4 bits (241),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001326962.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFK89167.1| ParB-like protein [Escherichia coli MS 146-1]
+Length=295
+
+ Score = 96.7 bits (239),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  293
+
+
+>ref|WP_001472690.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EKK37993.1| plasmid-partition protein SopB [Escherichia coli 8.0566]
+ gb|EMX24636.1| protein sopB [Escherichia coli 174750]
+Length=284
+
+ Score = 96.3 bits (238),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  235  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  282
+
+
+>ref|WP_023157846.1| ParB-like protein [Escherichia coli]
+ gb|ESB03600.1| ParB-like protein [Escherichia coli 909957]
+Length=295
+
+ Score = 96.3 bits (238),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKPG  294
+
+
+>ref|WP_023320141.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESM57473.1| protein sopB [Klebsiella pneumoniae MGH 44]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|WP_020806010.1| ParB-like protein [Klebsiella pneumoniae]
+ gb|EPA93489.1| ParB-like protein [Klebsiella pneumoniae UHKPC57]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKP  321
+
+
+>ref|WP_016243880.1| protein sopB [Enterobacteriaceae]
+ gb|EOW00902.1| protein sopB [Escherichia coli KTE100]
+ gb|ESB59065.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Agona str. 557928]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|YP_001598163.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Choleraesuis]
+ ref|WP_012221084.1| plasmid-partitioning protein [Salmonella enterica]
+ gb|ABX56831.1| SopB [Salmonella enterica subsp. enterica serovar Choleraesuis]
+Length=324
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  275  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  322
+
+
+>ref|WP_004118495.1| chromosome partitioning protein ParB [Klebsiella oxytoca]
+ gb|EHT04343.1| protein sopB [Klebsiella oxytoca 10-5246]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|YP_209450.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Choleraesuis str. SC-B67]
+ ref|YP_002112888.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. CVM19633]
+ ref|YP_004032904.1| plasmid partition protein SopB [Edwardsiella tarda]
+ ref|WP_000817037.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAS76429.1| SopB [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+ gb|ACF88575.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. CVM19633]
+ gb|EDY27033.1| plasmid partition protein B [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. SL480]
+ gb|ADQ43877.1| plasmid partition protein SopB [Edwardsiella tarda]
+ gb|EKF76239.1| SopB [Klebsiella pneumoniae subsp. pneumoniae KpQ3]
+ gb|ESL16074.1| protein sopB [Escherichia coli BIDMC 39]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|WP_000817038.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|EKB82271.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW5]
+ gb|EKK50624.1| protein sopB [Escherichia coli 8.0569]
+ gb|ERO18134.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. 34502]
+ gb|ESN45781.1| protein sopB [Klebsiella pneumoniae MGH 18]
+Length=323
+
+ Score = 96.3 bits (238),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|YP_006973863.1| SopB [Klebsiella pneumoniae]
+ ref|WP_004182039.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|EKB70321.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW2]
+ gb|AFV70528.1| SopB [Klebsiella pneumoniae]
+ gb|EMH90252.1| protein sopB [Klebsiella pneumoniae JHCK1]
+ gb|ESL45192.1| protein sopB [Klebsiella pneumoniae BIDMC 25]
+ gb|ESM31667.1| protein sopB [Klebsiella pneumoniae BWH 30]
+ gb|ESM45230.1| protein sopB [Klebsiella pneumoniae BWH 28]
+ gb|ESM45539.1| protein sopB [Klebsiella pneumoniae MGH 48]
+ gb|ESM79121.1| protein sopB [Klebsiella pneumoniae MGH 36]
+ gb|ESM90181.1| protein sopB [Klebsiella pneumoniae MGH 32]
+Length=323
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKP  321
+
+
+>ref|WP_001697462.1| protein sopB [Escherichia coli]
+ gb|EMV15723.1| protein sopB [Escherichia coli BCE034_MS-14]
+Length=323
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            +QFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_020804306.1| ParB-like protein [Klebsiella pneumoniae]
+ gb|EOY63797.1| ParB-like protein [Klebsiella pneumoniae KP-7]
+ gb|EOZ69854.1| ParB-like protein [Klebsiella pneumoniae KP-11]
+Length=295
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  293
+
+
+>ref|WP_009483822.1| chromosome partitioning protein ParB [Klebsiella]
+ gb|EGF65435.1| ParB-like protein [Klebsiella sp. MS 92-3]
+ gb|EOZ17443.1| ParB-like protein [Klebsiella pneumoniae UHKPC22]
+ gb|EOZ87455.1| ParB-like protein [Klebsiella pneumoniae 540_1460]
+ gb|EPB10563.1| ParB-like protein [Klebsiella pneumoniae UHKPC45]
+ gb|EPB25184.1| ParB-like protein [Klebsiella pneumoniae DMC0526]
+ gb|EPB31919.1| ParB-like protein [Klebsiella pneumoniae UHKPC48]
+ gb|EPB39912.1| ParB-like protein [Klebsiella pneumoniae UHKPC32]
+ gb|EPO02318.1| ParB-like protein [Klebsiella pneumoniae UHKPC69]
+ gb|EPO11775.1| ParB-like protein [Klebsiella pneumoniae UHKPC96]
+ gb|EPO12586.1| ParB-like protein [Klebsiella pneumoniae UHKPC77]
+ gb|EPO27367.1| ParB-like protein [Klebsiella pneumoniae DMC1097]
+ gb|EPO39492.1| ParB-like protein [Klebsiella pneumoniae UHKPC59]
+ gb|EPO55276.1| ParB-like protein [Klebsiella pneumoniae UHKPC18]
+ gb|EPO55297.1| ParB-like protein [Klebsiella pneumoniae UHKPC17]
+ gb|EPS05908.1| SopB protein [Klebsiella pneumoniae subsp. pneumoniae MP14]
+Length=295
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  293
+
+
+>ref|WP_004217634.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ emb|CCM91664.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST258-K28BO]
+ emb|CCM92658.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST512-K30BO]
+ gb|EOY82229.1| ParB-like protein [Klebsiella pneumoniae UHKPC81]
+ gb|EPO87695.1| ParB-like protein [Klebsiella pneumoniae UHKPC02]
+Length=284
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  235  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  282
+
+
+>ref|WP_023157104.1| ParB-like protein [Escherichia coli]
+ gb|ESA99120.1| ParB-like protein [Escherichia coli 909945-2]
+Length=295
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  246  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKP  293
+
+
+>ref|WP_001325184.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFJ97168.1| ParB-like protein [Escherichia coli MS 115-1]
+Length=295
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  246  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKP  293
+
+
+>ref|WP_004206785.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|EJF20257.1| plasmid-partitioning protein [Citrobacter sp. A1]
+ gb|EKU31980.1| plasmid-partitioning protein [Citrobacter sp. L17]
+ gb|EMR15627.1| plasmid-partitioning protein [Klebsiella pneumoniae 700603]
+ gb|EPF42843.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+B5055]
+ gb|ESL66752.1| protein sopB [Klebsiella pneumoniae UCICRE 14]
+ gb|ESL68405.1| protein sopB [Enterobacter cloacae UCICRE 12]
+ gb|ESM09656.1| protein sopB [Enterobacter cloacae UCICRE 3]
+ gb|ESM16974.1| protein sopB [Enterobacter cloacae UCICRE 5]
+ gb|ESM25715.1| protein sopB [Enterobacter cloacae BWH 31]
+Length=323
+
+ Score = 94.7 bits (234),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|YP_004249877.1| plasmid-partition protein SopB [Klebsiella pneumoniae]
+ ref|WP_009309982.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|ADX60393.1| plasmid-partition protein SopB [Klebsiella pneumoniae]
+ gb|EHL84380.1| protein sopB [Klebsiella sp. 4_1_44FAA]
+ gb|EOV49437.1| protein sopB [Escherichia coli KTE64]
+ gb|ESL16759.1| protein sopB [Klebsiella pneumoniae BIDMC 40]
+Length=323
+
+ Score = 94.7 bits (234),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|YP_001338580.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+MGH 78578]
+ ref|YP_005351316.1| plasmid-partitioning protein [Klebsiella pneumoniae]
+ ref|YP_007366559.1| Chromosome (plasmid) partitioning protein, sopB [Klebsiella pneumoniae]
+ ref|YP_007969492.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPX]
+ ref|YP_008146326.1| sopB [Klebsiella pneumoniae]
+ ref|YP_008415094.1| plasmid-partitioning protein [Klebsiella pneumoniae JM45]
+ ref|WP_004152062.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|ABR80350.1| repFiA replicon essential function protein [Klebsiella pneumoniae 
+subsp. pneumoniae MGH 78578]
+ gb|AET17143.1| Plasmid-partitioning protein [Klebsiella pneumoniae]
+ gb|AEV55149.1| SopB [Klebsiella pneumoniae]
+ gb|EJJ32458.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH2]
+ gb|EJJ32745.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH4]
+ gb|EJJ34335.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH1]
+ gb|EJJ49023.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH5]
+ gb|EJJ49045.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH6]
+ gb|EJJ51731.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH7]
+ gb|EJJ66904.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH9]
+ gb|EJJ66992.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH8]
+ gb|EJJ72162.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH10]
+ gb|EJJ82458.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH11]
+ gb|EJJ83284.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH12]
+ gb|EJJ89227.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH14]
+ gb|EJJ98880.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH17]
+ gb|EJJ99247.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH16]
+ gb|EJK07345.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH18]
+ gb|EJK15611.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH20]
+ gb|EJK16063.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH19]
+ gb|EJK22573.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH21]
+ gb|EJK33446.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH22]
+ gb|EJK37282.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH23]
+ gb|EKB62514.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW1]
+ gb|EKB72272.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW3]
+ emb|CCM80753.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST258-K26BO]
+ gb|AGC23596.1| Chromosome (plasmid) partitioning protein, sopB [Klebsiella pneumoniae]
+ gb|EMR15726.1| plasmid-partitioning protein [Klebsiella pneumoniae ATCC BAA-2146]
+ gb|EMR18463.1| plasmid-partitioning protein [Klebsiella pneumoniae ATCC BAA-1705]
+ gb|ENY54904.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KpMDU1]
+ dbj|BAN19305.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPX]
+ gb|EOY76136.1| ParB-like protein [Klebsiella pneumoniae UHKPC01]
+ gb|EOY89223.1| ParB-like protein [Klebsiella pneumoniae UHKPC27]
+ gb|EOZ59200.1| ParB-like protein [Klebsiella pneumoniae VAKPC297]
+ gb|AGO62408.1| sopB [Klebsiella pneumoniae]
+ gb|EPS03883.1| SopB protein [Klebsiella pneumoniae subsp. pneumoniae UKKV901664]
+ gb|AGT26887.1| plasmid-partitioning protein [Klebsiella pneumoniae JM45]
+ gb|ERN59602.1| chromosome partitioning protein ParB [Klebsiella pneumoniae 303K]
+ gb|ERO72727.1| protein sopB [Klebsiella pneumoniae BIDMC 18C]
+ gb|ERO83250.1| protein sopB [Klebsiella pneumoniae BIDMC 16]
+ gb|ERO83440.1| protein sopB [Klebsiella pneumoniae BIDMC 12C]
+ gb|ESL16586.1| protein sopB [Klebsiella pneumoniae BIDMC 41]
+ gb|ESM09612.1| protein sopB [Klebsiella pneumoniae UCICRE 4]
+ gb|ESM23909.1| protein sopB [Klebsiella pneumoniae UCICRE 2]
+ gb|ESM53332.1| protein sopB [Klebsiella pneumoniae MGH 46]
+ gb|ESN31286.1| protein sopB [Klebsiella pneumoniae MGH 21]
+Length=323
+
+ Score = 94.7 bits (234),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|WP_016156498.1| protein sopB [Enterobacteriaceae]
+ gb|EOQ31017.1| protein sopB [Citrobacter sp. KTE32]
+ gb|EQY92395.1| protein sopB [Escherichia coli UMEA 3318-1]
+Length=323
+
+ Score = 94.4 bits (233),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|WP_000817039.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|ELC06363.1| protein sopB [Escherichia coli KTE10]
+ gb|ELD66374.1| protein sopB [Escherichia coli KTE234]
+ gb|EOV46146.1| protein sopB [Escherichia coli KTE61]
+ gb|ESJ97992.1| protein sopB [Escherichia coli HVH 50 (4-2593475)]
+Length=323
+
+ Score = 94.4 bits (233),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKP  321
+
+
+>gb|ETF32634.1| protein sopB [Escherichia coli UMEA 3489-1]
+Length=323
+
+ Score = 94.4 bits (233),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_016233102.1| protein sopB [Escherichia coli]
+ gb|EOU64398.1| protein sopB [Escherichia coli KTE19]
+ gb|EOW69334.1| protein sopB [Escherichia coli KTE159]
+Length=323
+
+ Score = 94.4 bits (233),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_001716922.1| protein sopB [Escherichia coli]
+ gb|EMW21180.1| protein sopB [Escherichia coli 2848050]
+ gb|EST00705.1| Chromosome (plasmid) partitioning protein ParB [Escherichia coli 
+CE418]
+Length=323
+
+ Score = 94.4 bits (233),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|YP_005957587.1| plasmid-partitioning protein [Klebsiella pneumoniae KCTC 2242]
+ ref|WP_004902311.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|AEK01023.1| plasmid-partitioning protein [Klebsiella pneumoniae KCTC 2242]
+ emb|CCN32658.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+Ecl8]
+Length=295
+
+ Score = 94.0 bits (232),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  292
+
+
+>ref|WP_023287152.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESL46623.1| protein sopB [Klebsiella pneumoniae BIDMC 23]
+Length=323
+
+ Score = 94.0 bits (232),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_003031531.1| plasmid-partitioning protein [Citrobacter freundii]
+ gb|EOD59049.1| plasmid-partitioning protein [Citrobacter freundii GTC 09629]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 41/48 (85%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            +++SRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP
+Sbjct  274  NLNSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKP  321
+
+
+>ref|WP_023328959.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESM92774.1| protein sopB [Klebsiella pneumoniae MGH 30]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|YP_001687990.1| plasmid-partitioning protein [Klebsiella pneumoniae NTUH-K2044]
+ ref|WP_004117790.1| chromosome partitioning protein ParB [Klebsiella]
+ dbj|BAH66096.1| bacterial partition protein [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ gb|EHS88039.1| protein sopB [Klebsiella oxytoca 10-5245]
+ gb|EJK88718.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+DSM 30104]
+ gb|EMB11197.1| plasmid-partitioning protein [Klebsiella pneumoniae hvKP1]
+ gb|ESL57875.1| protein sopB [Klebsiella pneumoniae BIDMC 22]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_023302806.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESL96653.1| protein sopB [Klebsiella pneumoniae UCICRE 6]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_001519995.1| protein sopB [Escherichia coli]
+ gb|ELC26949.1| protein sopB [Escherichia coli KTE16]
+ gb|EQN78796.1| protein sopB [Escherichia coli HVH 24 (4-5985145)]
+ gb|ETF13884.1| protein sopB [Escherichia coli HVH 177 (4-2876612)]
+Length=323
+
+ Score = 92.4 bits (228),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 43/44 (98%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_001698877.1| plasmid-partitioning protein [Escherichia coli]
+ gb|EMD02559.1| plasmid-partitioning protein [Escherichia coli S17]
+Length=323
+
+ Score = 92.0 bits (227),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P E IEKIEAILKELEKP
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAEYIEKIEAILKELEKP  321
+
+
+>ref|WP_023140239.1| ParB-like protein, partial [Escherichia coli]
+ gb|ESD05735.1| ParB-like protein, partial [Escherichia coli 113302]
+Length=268
+
+ Score = 91.3 bits (225),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  224  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  267
+
+
+>ref|WP_016262288.1| protein sopB [Escherichia coli]
+ gb|EOV48823.1| protein sopB [Escherichia coli KTE52]
+Length=323
+
+ Score = 90.9 bits (224),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 42/44 (95%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPT+CIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTDCIEKIEAILKELEKTA  322
+
+
+>ref|WP_016231334.1| protein sopB [Escherichia coli]
+ gb|EOU49407.1| protein sopB [Escherichia coli KTE114]
+Length=323
+
+ Score = 90.9 bits (224),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 42/44 (95%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPT+CIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTDCIEKIEAILKELEKTA  322
+
+
+>ref|NP_863034.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001481159.1| plasmid-partitioning protein [Escherichia coli APEC O1]
+ ref|YP_001711991.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001739960.1| plasmid partition protein SopB [Escherichia coli SMS-3-5]
+ ref|YP_002038947.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Kentucky str. CVM29188]
+ ref|YP_002401040.1| plasmid-partitioning protein [Escherichia coli S88]
+ ref|YP_002539367.1| SopB [Escherichia coli chi7122]
+ ref|YP_003937749.1| SopB protein (Plasmid partition protein B) [Escherichia coli]
+ ref|YP_006162303.1| plasmid-partitioning protein [Escherichia coli O83:H1 str. NRG 
+857C]
+ ref|YP_006970938.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ ref|YP_006971066.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ ref|YP_007443302.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+O25b:H4-ST131 str. EC958]
+ ref|WP_000817028.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAO49629.1| SopB [Escherichia coli]
+ gb|ABD51574.1| SopB [Escherichia coli APEC O1]
+ gb|ACA34885.1| SopB [Escherichia coli]
+ gb|ACB20243.1| plasmid partition protein SopB [Escherichia coli SMS-3-5]
+ gb|ACF57018.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Kentucky str. CVM29188]
+ emb|CAQ87107.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+S88]
+ gb|ACM18300.1| SopB [Escherichia coli chi7122]
+ gb|EEH89502.1| ParB-like protein [Escherichia sp. 3_2_53FAA]
+ gb|EFJ83919.1| ParB-like protein [Escherichia coli MS 84-1]
+ gb|EFK68135.1| ParB-like protein [Escherichia coli MS 124-1]
+ gb|ADK62169.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ gb|ADK62296.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ emb|CBX36088.1| SopB protein (Plasmid partition protein B) [Escherichia coli]
+ gb|ADR29976.1| plasmid-partitioning protein [Escherichia coli O83:H1 str. NRG 
+857C]
+ gb|EFU33205.1| ParB-like protein [Escherichia coli MS 85-1]
+ gb|EFU47034.1| ParB-like protein [Escherichia coli MS 110-3]
+ gb|EGB44553.1| ParB partition protein [Escherichia coli H252]
+ gb|EGC93650.1| plasmid-partitioning protein [Escherichia fergusonii ECD227]
+ gb|EGI21791.1| protein SopB (Plasmid partition protein B) [Escherichia coli 
+M718]
+ gb|EGP21890.1| Protein sopB [Escherichia coli PCN033]
+ gb|EHN81160.1| protein sopB [Escherichia coli H494]
+ gb|EIL80560.1| plasmid-partitioning protein [Escherichia coli HM605]
+ gb|ELC03758.1| protein sopB [Escherichia coli KTE4]
+ gb|ELC11023.1| protein sopB [Escherichia coli KTE5]
+ gb|ELC23983.1| protein sopB [Escherichia coli KTE12]
+ gb|ELC26547.1| protein sopB [Escherichia coli KTE15]
+ gb|ELC41105.1| protein sopB [Escherichia coli KTE25]
+ gb|ELC51516.1| protein sopB [Escherichia coli KTE28]
+ gb|ELC66272.1| protein sopB [Escherichia coli KTE178]
+ gb|ELE34275.1| protein sopB [Escherichia coli KTE62]
+ gb|ELF61190.1| protein sopB [Escherichia coli KTE17]
+ gb|ELF67758.1| protein sopB [Escherichia coli KTE18]
+ gb|ELF86597.1| protein sopB [Escherichia coli KTE22]
+ gb|ELG11364.1| protein sopB [Escherichia coli KTE59]
+ gb|ELG25984.1| protein sopB [Escherichia coli KTE65]
+ gb|ELG56871.1| protein sopB [Escherichia coli KTE123]
+ gb|ELH16201.1| protein sopB [Escherichia coli KTE190]
+ gb|ELH78381.1| protein sopB [Escherichia coli KTE217]
+ gb|ELH93460.1| protein sopB [Escherichia coli KTE229]
+ gb|ELI03961.1| protein sopB [Escherichia coli KTE105]
+ gb|ELI93934.1| protein sopB [Escherichia coli KTE150]
+ gb|ELJ56362.1| protein sopB [Escherichia coli KTE179]
+ gb|AGC14197.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+O25b:H4-ST131 str. EC958]
+ gb|EMD02291.1| plasmid-partitioning protein [Escherichia coli O08]
+ gb|EOU36436.1| protein sopB [Escherichia coli KTE7]
+ gb|EOU38447.1| protein sopB [Escherichia coli KTE13]
+ gb|EOU42186.1| protein sopB [Escherichia coli KTE3]
+ gb|EOU53685.1| protein sopB [Escherichia coli KTE231]
+ gb|EOU81182.1| protein sopB [Escherichia coli KTE27]
+ gb|EOW04169.1| protein sopB [Escherichia coli KTE98]
+ gb|EOX03499.1| protein sopB [Escherichia coli KTE240]
+ emb|CCV19821.1| Protein SopB [Escherichia coli]
+ gb|EQM99448.1| protein sopB [Escherichia coli HVH 1 (4-6876161)]
+ gb|EQN13789.1| protein sopB [Escherichia coli HVH 5 (4-7148410)]
+ gb|EQN25989.1| protein sopB [Escherichia coli HVH 9 (4-6942539)]
+ gb|EQN45101.1| protein sopB [Escherichia coli HVH 17 (4-7473087)]
+ gb|EQO07284.1| protein sopB [Escherichia coli HVH 30 (4-2661829)]
+ gb|EQO15094.1| protein sopB [Escherichia coli HVH 32 (4-3773988)]
+ gb|EQO69731.1| protein sopB [Escherichia coli HVH 41 (4-2677849)]
+ gb|EQO76344.1| protein sopB [Escherichia coli HVH 46 (4-2758776)]
+ gb|EQO78164.1| protein sopB [Escherichia coli HVH 48 (4-2658593)]
+ gb|EQP06115.1| protein sopB [Escherichia coli HVH 59 (4-1119338)]
+ gb|EQP44342.1| protein sopB [Escherichia coli HVH 73 (4-2393174)]
+ gb|EQP56364.1| protein sopB [Escherichia coli HVH 76 (4-2538717)]
+ gb|EQP65124.1| protein sopB [Escherichia coli HVH 79 (4-2512823)]
+ gb|EQP77830.1| protein sopB [Escherichia coli HVH 80 (4-2428830)]
+ gb|EQP86787.1| protein sopB [Escherichia coli HVH 85 (4-0792144)]
+ gb|EQQ34154.1| protein sopB [Escherichia coli HVH 102 (4-6906788)]
+ gb|EQQ47351.1| protein sopB [Escherichia coli HVH 104 (4-6977960)]
+ gb|EQR28488.1| protein sopB [Escherichia coli HVH 121 (4-6877826)]
+ gb|EQR46744.1| protein sopB [Escherichia coli HVH 127 (4-7303629)]
+ gb|EQR81992.1| protein sopB [Escherichia coli HVH 137 (4-2124971)]
+ gb|EQR97377.1| protein sopB [Escherichia coli HVH 141 (4-5995973)]
+ gb|EQS26914.1| protein sopB [Escherichia coli HVH 146 (4-3189767)]
+ gb|EQT16306.1| protein sopB [Escherichia coli HVH 176 (4-3428664)]
+ gb|EQT20138.1| protein sopB [Escherichia coli HVH 180 (4-3051617)]
+ gb|EQT69578.1| protein sopB [Escherichia coli HVH 191 (3-9341900)]
+ gb|EQT82619.1| protein sopB [Escherichia coli HVH 193 (4-3331423)]
+ gb|EQU17647.1| protein sopB [Escherichia coli HVH 200 (4-4449924)]
+ gb|EQU17796.1| protein sopB [Escherichia coli HVH 201 (4-4459431)]
+ gb|EQU28455.1| protein sopB [Escherichia coli HVH 203 (4-3126218)]
+ gb|EQU64032.1| protein sopB [Escherichia coli HVH 211 (4-3041891)]
+ gb|EQU87333.1| protein sopB [Escherichia coli HVH 217 (4-1022806)]
+ gb|EQV05265.1| protein sopB [Escherichia coli HVH 222 (4-2977443)]
+ gb|EQV33304.1| protein sopB [Escherichia coli KOEGE 32 (66a)]
+ gb|EQV38181.1| protein sopB [Escherichia coli KOEGE 33 (68a)]
+ gb|EQV38946.1| protein sopB [Escherichia coli KOEGE 40 (102a)]
+ gb|EQV60549.1| protein sopB [Escherichia coli KOEGE 56 (169a)]
+ gb|EQW20359.1| protein sopB [Escherichia coli UMEA 3033-1]
+ gb|EQW24359.1| protein sopB [Escherichia coli UMEA 3041-1]
+ gb|EQW91966.1| protein sopB [Escherichia coli UMEA 3140-1]
+ gb|EQX18283.1| protein sopB [Escherichia coli UMEA 3162-1]
+ gb|EQX92879.1| protein sopB [Escherichia coli UMEA 3206-1]
+ gb|EQX92881.1| protein sopB [Escherichia coli UMEA 3203-1]
+ gb|EQZ45230.1| protein sopB [Escherichia coli UMEA 3632-1]
+ gb|EQZ59249.1| protein sopB [Escherichia coli UMEA 3662-1]
+ gb|EQZ71753.1| protein sopB [Escherichia coli UMEA 3702-1]
+ gb|ERB23423.1| protein sopB [Escherichia coli UMEA 3271-1]
+ gb|ERB27010.1| protein sopB [Escherichia coli UMEA 3151-1]
+ gb|ERN61603.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Kentucky str. 29166]
+ gb|ERN67935.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Kentucky str. 22694]
+ gb|ESA83432.1| ParB-like protein [Escherichia coli 907357]
+ gb|ESD29224.1| ParB-like protein [Escherichia coli 907710]
+ gb|ESD79350.1| ParB-like protein [Escherichia coli 908541]
+ gb|ESE22770.1| ParB-like protein [Escherichia coli 908675]
+ gb|ESP12321.1| protein sopB [Escherichia coli HVH 12 (4-7653042)]
+ gb|ESP26498.1| protein sopB [Escherichia coli HVH 152 (4-3447545)]
+ gb|ESP27284.1| protein sopB [Escherichia coli HVH 178 (4-3189163)]
+ gb|ESP38446.1| protein sopB [Escherichia coli HVH 108 (4-6924867)]
+ gb|ETF24457.1| protein sopB [Escherichia coli HVH 214 (4-3062198)]
+Length=323
+
+ Score = 90.5 bits (223),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  322
+
+
+>ref|YP_002235674.1| protein SopB [Klebsiella pneumoniae 342]
+ ref|WP_012540237.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|ACI12184.1| protein SopB [Klebsiella pneumoniae 342]
+Length=321
+
+ Score = 90.5 bits (223),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LY+GDK+VLNLDRSR+P ECIEKIEAILK LEKP
+Sbjct  272  NLSSRHQFAPGATALYRGDKVVLNLDRSRLPAECIEKIEAILKALEKP  319
+
+
+>ref|WP_021572054.1| protein sopB [Escherichia coli]
+ gb|EQZ08266.1| protein sopB [Escherichia coli UMEA 3355-1]
+Length=323
+
+ Score = 90.5 bits (223),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKTA  322
+
+
+>ref|WP_001587498.1| protein sopB [Escherichia coli]
+ gb|ELG11818.1| protein sopB [Escherichia coli KTE54]
+Length=323
+
+ Score = 89.4 bits (220),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IE ILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIETILKELEKTA  322
+
+
+>ref|WP_000817025.1| chromosome partitioning protein ParB [Escherichia albertii]
+Length=323
+
+ Score = 89.0 bits (219),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 39/44 (89%), Positives = 41/44 (93%), Gaps = 0/44 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            RHQFAPGAT LYKGDKMV+NLDRSR+P ECIEKIE ILKELEKP
+Sbjct  278  RHQFAPGATALYKGDKMVINLDRSRIPAECIEKIEVILKELEKP  321
+
+
+>ref|WP_001575734.1| protein sopB [Escherichia coli]
+ gb|ELF38531.1| protein sopB [Escherichia coli KTE171]
+Length=323
+
+ Score = 88.6 bits (218),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            +QFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKTA  322
+
+
+>emb|CDH61714.1| Plasmid partition protein B [Escherichia coli PMV-1]
+Length=323
+
+ Score = 87.0 bits (214),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFA GATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFALGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  322
+
+
+>ref|WP_000817026.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EKI29221.1| protein sopB [Escherichia coli 3006]
+Length=323
+
+ Score = 86.3 bits (212),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 38/45 (84%), Positives = 40/45 (89%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGAT LYKGDKMV+NLDRSR+P ECIEKIE ILKEL KP 
+Sbjct  278  RHQFAPGATALYKGDKMVINLDRSRIPAECIEKIEVILKELGKPG  322
+
+
+>ref|WP_000817040.1| chromosome partitioning protein ParB [Salmonella enterica]
+ gb|EJA92307.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Newport str. CVM 4176]
+Length=323
+
+ Score = 84.3 bits (207),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/46 (78%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            ++SSRHQ+APGAT LYKGDK++LNLDR R+P ECIEKIEA+LKELE
+Sbjct  274  NLSSRHQYAPGATALYKGDKVILNLDRRRLPVECIEKIEAVLKELE  319
+
+
+>ref|WP_004132004.1| chromosome partitioning protein ParB [Klebsiella oxytoca]
+ gb|EHT04827.1| protein sopB [Klebsiella oxytoca 10-5250]
+Length=323
+
+ Score = 84.3 bits (207),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 37/46 (80%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            ++SSRHQFAPGA+ LYKGDK++LNLDR+RVP  CIEKIEAILKELE
+Sbjct  274  NLSSRHQFAPGASALYKGDKVILNLDRTRVPAVCIEKIEAILKELE  319
+
+
+>ref|WP_001299141.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EDV81548.1| repFiA replicon essential function protein [Escherichia coli 
+E22]
+Length=321
+
+ Score = 84.0 bits (206),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 38/46 (83%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  4    MSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            +SSRHQFAPGAT LYKGDK+VLNLDRSR+P  CIEKIEAIL +LEK
+Sbjct  273  LSSRHQFAPGATALYKGDKVVLNLDRSRLPVGCIEKIEAILGDLEK  318
+
+
+>ref|WP_000817027.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHV61875.1| protein sopB [Escherichia coli DEC6C]
+Length=323
+
+ Score = 83.6 bits (205),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 41/44 (93%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            +QFAPGATVLYKGDKMVLNLDRSRV TE IEKIEAILKELEK A
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRVSTEWIEKIEAILKELEKTA  322
+
+
+>ref|NP_943529.1| plasmid-partitioning protein [Klebsiella pneumoniae CG43]
+ ref|WP_011154515.1| plasmid-partitioning protein [Klebsiella pneumoniae]
+ gb|AAR07880.1| SopB [Klebsiella pneumoniae CG43]
+Length=315
+
+ Score = 80.1 bits (196),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 34/40 (85%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEA  42
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIE+
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIES  313
+
+
+>ref|YP_004821686.1| parB-like partition protein [Enterobacter asburiae LF7a]
+ ref|WP_014063950.1| chromosome partitioning protein ParB [Enterobacter asburiae]
+ gb|AEN67310.1| parB-like partition protein [Enterobacter asburiae LF7a]
+Length=326
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++S+RHQF PGA+VLYKGDK++ NLD++R+P ECIEKIE IL+EL++
+Sbjct  276  NLSTRHQFVPGASVLYKGDKVIFNLDKTRLPAECIEKIEGILRELQQ  322
+
+
+>ref|WP_023345606.1| protein sopB [Enterobacter sp. MGH 16]
+ gb|ESN47107.1| protein sopB [Enterobacter sp. MGH 16]
+Length=322
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++S+RHQF PGAT LYKGD+++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  275  NLSTRHQFVPGATALYKGDRVIFNLDKSRLPAECIEKIESILRDLQK  321
+
+
+>ref|YP_003602561.1| plasmid-partitioning protein SopB [Enterobacter cloacae subsp. 
+cloacae ATCC 13047]
+ ref|YP_007846974.1| ParB-like partition proteins [Enterobacter cloacae subsp. cloacae 
+NCTC 9394]
+ ref|WP_013087134.1| chromosome partitioning protein ParB [Enterobacter cloacae]
+ gb|ADF64753.1| plasmid-partitioning protein SopB [Enterobacter cloacae subsp. 
+cloacae ATCC 13047]
+ emb|CBK86887.1| ParB-like partition proteins [Enterobacter cloacae subsp. cloacae 
+NCTC 9394]
+Length=321
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIESILRDLQK  320
+
+
+>ref|WP_022652318.1| protein sopB [Enterobacter sp. MGH 14]
+ gb|ERO99975.1| protein sopB [Enterobacter sp. MGH 14]
+Length=321
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIESILRDLQK  320
+
+
+>ref|WP_023327690.1| protein sopB [Enterobacter sp. MGH 34]
+ gb|ESM78880.1| protein sopB [Enterobacter sp. MGH 34]
+Length=321
+
+ Score = 78.2 bits (191),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 31/47 (66%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIETILRDLQK  320
+
+
+>ref|WP_001736941.1| chromosome partitioning protein ParB [Salmonella enterica]
+ gb|ESH66695.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Bareilly str. 2780]
+Length=322
+
+ Score = 78.2 bits (191),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 34/45 (76%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+ LYKGDK+V+NLDRSR+  +CIEKIE+IL+ LEK
+Sbjct  277  SSRHQFAPGASALYKGDKIVVNLDRSRISADCIEKIESILRGLEK  321
+
+
+>gb|ETE47335.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Infantis str. 119944]
+Length=319
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/45 (76%), Positives = 40/45 (89%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+VLYKGDK+ +NLDR+R+P   IEKIE IL+ELEK
+Sbjct  274  SSRHQFAPGASVLYKGDKVTVNLDRTRIPVSYIEKIENILRELEK  318
+
+
+>ref|WP_023208098.1| plasmid-partitioning protein [Salmonella enterica]
+ gb|ESF65417.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Rubislaw str. ATCC 10717]
+Length=322
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 34/45 (76%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+ LYKGDK+V+NLDRSR+  + IEKIE+IL+ELEK
+Sbjct  277  SSRHQFAPGASALYKGDKIVVNLDRSRISADYIEKIESILRELEK  321
+
+
+>ref|YP_001165530.1| plasmid-partitioning protein [Enterobacter sp. 638]
+ ref|WP_011906526.1| chromosome partitioning protein ParB [Enterobacter sp. 638]
+ gb|ABP62856.1| parB-like partition protein [Enterobacter sp. 638]
+Length=322
+
+ Score = 53.1 bits (126),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 21/43 (49%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            + +F PGA   YKG+K+V  LDR+++  +CIE++E IL++LEK
+Sbjct  276  KREFVPGAMAQYKGNKVVFTLDRTKISKDCIEQMENILEKLEK  318
+
+
+>ref|WP_017345800.1| chromosome partitioning protein ParB [Pantoea sp. A4]
+Length=318
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 19/42 (45%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            +  F PGAT  YKG+K++ +LDR++VP   IE++E +L + E
+Sbjct  276  KKDFRPGATAQYKGNKVLFSLDRNKVPQSLIEQLEELLSKSE  317
+
+
+>ref|WP_009395516.1| hypothetical protein [Pseudomonas putida]
+ gb|EKX86543.1| hypothetical protein CSV86_04122 [Pseudomonas putida CSV86]
+Length=121
+
+ Score = 33.1 bits (74),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 19/41 (46%), Positives = 27/41 (66%), Gaps = 1/41 (2%)
+
+Query  9    QFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            + APGAT L+ GD  VL +D +    + +E+IEA+LK L K
+Sbjct  70   ETAPGATELFGGDD-VLEIDIASALGDDLEEIEAVLKVLLK  109
+
+
+>ref|WP_016872306.1| hypothetical protein [Chlorogloeopsis]
+Length=349
+
+ Score = 34.3 bits (77),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  10   FAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            FA G  + Y+GDKMV+  D+    T  +E +E +LK++++
+Sbjct  310  FAKGRVLRYEGDKMVILFDKVGYKTFAVELVEGMLKQIDE  349
+
+
+>ref|WP_009150034.1| hypothetical protein [Thiorhodovibrio sp. 970]
+ gb|EIC19629.1| hypothetical protein Thi970DRAFT_03216 [Thiorhodovibrio sp. 970]
+Length=141
+
+ Score = 32.7 bits (73),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  2   SHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+           +H   RH+FAPG  V++K   M     R++ P   +E +E  + + E+ A
+Sbjct  50  AHWQRRHRFAPGDLVVWKPGFMNKRYPRAKQPAVVLEVLEQPVFDNERDA  99
+
+
+>ref|NP_046922.1| ParB [Enterobacteria phage N15]
+ gb|AAC19063.1| gp27 [Enterobacteria phage N15]
+Length=342
+
+ Score = 33.1 bits (74),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  6    SRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILK  45
+            +  ++  G    YKG  + L +D  ++P+  I+KIEA+L+
+Sbjct  277  TEKKYGEGVVAKYKGSFVTLKVDSRKIPSNLIKKIEALLE  316
+
+
+>ref|WP_023339380.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESN30902.1| hypothetical protein L367_05255 [Klebsiella pneumoniae MGH 21]
+Length=321
+
+ Score = 32.3 bits (72),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 15/41 (37%), Positives = 25/41 (61%), Gaps = 1/41 (2%)
+
+Query  10   FAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILK-ELEK  49
+            +  G    Y G+ + L  D  ++P+  ++KIEA+L+ ELEK
+Sbjct  280  YGEGVVAKYNGNYVTLKFDNRKIPSSLMKKIEALLESELEK  320
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 309888584730
+Results from round 2
+
+
+Query= 3KZ5
+
+Length=52
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3KZ5|E  Chain E, Structure Of Cdomain >pdb|3KZ5|B Chain B, St...   102    6e-27
+ref|WP_001326962.1|  chromosome partitioning protein ParB [Escher...  99.0    1e-23
+ref|WP_023157104.1|  ParB-like protein [Escherichia coli] >gb|ESA...  99.0    1e-23
+ref|WP_001472690.1|  chromosome partitioning protein ParB [Escher...  98.6    1e-23
+ref|WP_010521216.1|  plasmid-partitioning protein, partial [Flavo...  94.0    1e-23
+ref|WP_023157846.1|  ParB-like protein [Escherichia coli] >gb|ESB...  98.2    2e-23
+ref|WP_001325184.1|  chromosome partitioning protein ParB [Escher...  98.2    2e-23
+ref|WP_023320141.1|  protein sopB [Klebsiella pneumoniae] >gb|ESM...  98.2    2e-23
+ref|WP_004118495.1|  chromosome partitioning protein ParB [Klebsi...  98.2    3e-23
+ref|WP_000817038.1|  chromosome partitioning protein ParB [Entero...  98.2    3e-23
+ref|YP_001598163.1|  plasmid-partitioning protein [Salmonella ent...  98.2    3e-23
+ref|WP_016243880.1|  protein sopB [Enterobacteriaceae] >gb|EOW009...  98.2    3e-23
+ref|YP_209450.1|  plasmid-partitioning protein [Salmonella enteri...  97.8    3e-23
+ref|WP_020804306.1|  ParB-like protein [Klebsiella pneumoniae] >g...  97.8    3e-23
+ref|WP_016156498.1|  protein sopB [Enterobacteriaceae] >gb|EOQ310...  97.8    3e-23
+ref|WP_009483822.1|  chromosome partitioning protein ParB [Klebsi...  97.4    3e-23
+ref|YP_006973863.1|  SopB [Klebsiella pneumoniae] >ref|WP_0041820...  97.4    5e-23
+ref|WP_004217634.1|  Chromosome (plasmid) partitioning protein Pa...  97.0    5e-23
+ref|WP_000817039.1|  chromosome partitioning protein ParB [Escher...  97.4    5e-23
+ref|WP_020806010.1|  ParB-like protein [Klebsiella pneumoniae] >g...  97.0    6e-23
+ref|YP_005957587.1|  plasmid-partitioning protein [Klebsiella pne...  96.6    7e-23
+ref|YP_004249877.1|  plasmid-partition protein SopB [Klebsiella p...  96.6    8e-23
+ref|YP_001338580.1|  plasmid-partitioning protein [Klebsiella pne...  96.6    8e-23
+ref|WP_004206785.1|  chromosome partitioning protein ParB [Entero...  96.6    1e-22
+ref|WP_023302806.1|  protein sopB [Klebsiella pneumoniae] >gb|ESL...  95.9    2e-22
+ref|YP_001687990.1|  plasmid-partitioning protein [Klebsiella pne...  95.9    2e-22
+ref|WP_023328959.1|  protein sopB [Klebsiella pneumoniae] >gb|ESM...  95.9    2e-22
+ref|WP_023287152.1|  protein sopB [Klebsiella pneumoniae] >gb|ESL...  95.5    2e-22
+ref|WP_003031531.1|  plasmid-partitioning protein [Citrobacter fr...  95.1    3e-22
+ref|YP_002235674.1|  protein SopB [Klebsiella pneumoniae 342] >re...  94.7    4e-22
+ref|WP_001698877.1|  plasmid-partitioning protein [Escherichia co...  94.7    4e-22
+ref|WP_001466585.1|  chromosome partitioning protein ParB [Escher...  94.3    6e-22
+pdb|3MKY|B  Chain B, Structure Of Sopb(155-323)-18mer Dna Complex...  92.0    9e-22
+ref|YP_006954769.1|  plasmid partitioning protein ParB [Salmonell...  93.6    9e-22
+ref|WP_023142648.1|  hypothetical protein [Escherichia coli] >gb|...  92.0    1e-21
+ref|YP_003829235.1|  plasmid partitioning protein [Escherichia co...  93.6    1e-21
+ref|YP_006203844.1|  protein sopB (plasmid partition protein B) [...  93.2    1e-21
+emb|CBI38528.3|  unnamed protein product [Vitis vinifera]             93.6    1e-21
+ref|WP_000817035.1|  chromosome partitioning protein ParB [Escher...  93.6    1e-21
+ref|YP_194810.1|  plasmid-partitioning protein [Salmonella enteri...  93.6    1e-21
+ref|WP_000817032.1|  chromosome partitioning protein ParB [Escher...  93.2    1e-21
+ref|WP_000817034.1|  chromosome partitioning protein ParB [Escher...  93.2    1e-21
+ref|WP_000817030.1|  chromosome partitioning protein ParB [Escher...  93.2    1e-21
+ref|WP_001608352.1|  protein sopB [Escherichia coli] >gb|ENF07760...  93.2    1e-21
+ref|WP_001588509.1|  protein sopB [Escherichia coli] >gb|EMZ85639...  93.2    1e-21
+ref|WP_001604399.1|  protein sopB [Escherichia coli] >gb|ELG95127...  93.2    1e-21
+ref|NP_061426.1|  sopB [Escherichia coli K-12] >ref|NP_052641.1| ...  93.2    1e-21
+ref|WP_000817029.1|  chromosome partitioning protein ParB [Escher...  93.2    2e-21
+ref|WP_001622238.1|  protein sopB [Escherichia coli] >gb|ENF42340...  92.8    2e-21
+ref|WP_000817033.1|  chromosome partitioning protein ParB [Escher...  92.8    2e-21
+ref|WP_001394780.1|  protein sopB [Escherichia coli] >gb|EMV28707...  92.8    2e-21
+ref|WP_001380987.1|  protein sopB [Escherichia coli] >gb|ENA69592...  92.8    2e-21
+ref|WP_001697462.1|  protein sopB [Escherichia coli] >gb|EMV15723...  90.9    9e-21
+ref|WP_000817040.1|  chromosome partitioning protein ParB [Salmon...  90.9    1e-20
+ref|WP_001716922.1|  protein sopB [Escherichia coli] >gb|EMW21180...  90.5    1e-20
+ref|WP_016233102.1|  protein sopB [Escherichia coli] >gb|EOU64398...  90.5    2e-20
+gb|ETF32634.1|  protein sopB [Escherichia coli UMEA 3489-1]           90.1    2e-20
+ref|WP_001299141.1|  chromosome partitioning protein ParB [Escher...  90.1    2e-20
+ref|WP_023345606.1|  protein sopB [Enterobacter sp. MGH 16] >gb|E...  90.1    2e-20
+ref|WP_004132004.1|  chromosome partitioning protein ParB [Klebsi...  90.1    2e-20
+ref|YP_003602561.1|  plasmid-partitioning protein SopB [Enterobac...  90.1    2e-20
+ref|WP_022652318.1|  protein sopB [Enterobacter sp. MGH 14] >gb|E...  89.7    2e-20
+ref|WP_023327690.1|  protein sopB [Enterobacter sp. MGH 34] >gb|E...  89.3    3e-20
+ref|WP_000817025.1|  chromosome partitioning protein ParB [Escher...  89.3    4e-20
+ref|YP_004821686.1|  parB-like partition protein [Enterobacter as...  89.3    4e-20
+ref|WP_001519995.1|  protein sopB [Escherichia coli] >gb|ELC26949...  88.2    8e-20
+ref|WP_016231334.1|  protein sopB [Escherichia coli] >gb|EOU49407...  88.2    1e-19
+ref|WP_016262288.1|  protein sopB [Escherichia coli] >gb|EOV48823...  88.2    1e-19
+ref|WP_023140239.1|  ParB-like protein, partial [Escherichia coli...  87.4    1e-19
+ref|WP_021572054.1|  protein sopB [Escherichia coli] >gb|EQZ08266...  87.4    2e-19
+ref|WP_001736941.1|  chromosome partitioning protein ParB [Salmon...  87.4    2e-19
+ref|WP_001587498.1|  protein sopB [Escherichia coli] >gb|ELG11818...  87.0    2e-19
+ref|NP_863034.1|  plasmid-partitioning protein [Escherichia coli]...  87.0    2e-19
+ref|WP_000817026.1|  chromosome partitioning protein ParB [Escher...  87.0    3e-19
+ref|WP_001575734.1|  protein sopB [Escherichia coli] >gb|ELF38531...  85.5    1e-18
+ref|WP_023208098.1|  plasmid-partitioning protein [Salmonella ent...  85.1    1e-18
+gb|ETE47335.1|  plasmid-partitioning protein [Salmonella enterica...  83.9    3e-18
+ref|NP_943529.1|  plasmid-partitioning protein [Klebsiella pneumo...  83.5    4e-18
+emb|CDH61714.1|  Plasmid partition protein B [Escherichia coli PM...  82.8    9e-18
+ref|WP_000817027.1|  chromosome partitioning protein ParB [Escher...  82.4    1e-17
+ref|YP_001165530.1|  plasmid-partitioning protein [Enterobacter s...  73.9    1e-14
+ref|WP_017345800.1|  chromosome partitioning protein ParB [Pantoe...  65.8    1e-11
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_006604.1|  Gp24 [Klebsiella phage phiKO2] >gb|AAR83040.1| ...  40.0    0.022
+ref|WP_023339380.1|  hypothetical protein [Klebsiella pneumoniae]...  40.0    0.023
+ref|NP_046922.1|  ParB [Enterobacteria phage N15] >gb|AAC19063.1|...  38.9    0.071
+ref|WP_001542570.1|  hypothetical protein, partial [Escherichia c...  36.6    0.11 
+ref|WP_021531776.1|  hypothetical protein [Escherichia coli] >gb|...  37.3    0.21 
+ref|WP_001533177.1|  ParB-like partition protein [Escherichia col...  37.3    0.21 
+ref|WP_001385852.1|  protein sopB [Escherichia coli] >gb|ENA72826...  37.3    0.21 
+ref|WP_001728175.1|  protein sopB [Escherichia coli] >gb|EMW68980...  37.3    0.21 
+ref|WP_017375473.1|  chromosome partitioning protein ParB [Entero...  37.3    0.25 
+ref|WP_008490142.1|  YD repeat-containing protein [Idiomarina xia...  35.0    1.0  
+
+
+>pdb|3KZ5|E Chain E, Structure Of Cdomain
+ pdb|3KZ5|B Chain B, Structure Of Cdomain
+ pdb|3KZ5|A Chain A, Structure Of Cdomain
+Length=52
+
+ Score =  102 bits (253),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+           GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  1   GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+
+
+>ref|WP_001326962.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFK89167.1| ParB-like protein [Escherichia coli MS 146-1]
+Length=295
+
+ Score = 99.0 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  294
+
+
+>ref|WP_023157104.1| ParB-like protein [Escherichia coli]
+ gb|ESA99120.1| ParB-like protein [Escherichia coli 909945-2]
+Length=295
+
+ Score = 99.0 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKPG  294
+
+
+>ref|WP_001472690.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EKK37993.1| plasmid-partition protein SopB [Escherichia coli 8.0566]
+ gb|EMX24636.1| protein sopB [Escherichia coli 174750]
+Length=284
+
+ Score = 98.6 bits (244),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  235  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  283
+
+
+>ref|WP_010521216.1| plasmid-partitioning protein, partial [Flavobacteriaceae bacterium 
+HQM9]
+Length=78
+
+ Score = 94.0 bits (232),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8   HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+           HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  34  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  78
+
+
+>ref|WP_023157846.1| ParB-like protein [Escherichia coli]
+ gb|ESB03600.1| ParB-like protein [Escherichia coli 909957]
+Length=295
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKPG  294
+
+
+>ref|WP_001325184.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFJ97168.1| ParB-like protein [Escherichia coli MS 115-1]
+Length=295
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKPG  294
+
+
+>ref|WP_023320141.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESM57473.1| protein sopB [Klebsiella pneumoniae MGH 44]
+Length=323
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_004118495.1| chromosome partitioning protein ParB [Klebsiella oxytoca]
+ gb|EHT04343.1| protein sopB [Klebsiella oxytoca 10-5246]
+Length=323
+
+ Score = 98.2 bits (243),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_000817038.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|EKB82271.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW5]
+ gb|EKK50624.1| protein sopB [Escherichia coli 8.0569]
+ gb|ERO18134.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. 34502]
+ gb|ESN45781.1| protein sopB [Klebsiella pneumoniae MGH 18]
+Length=323
+
+ Score = 98.2 bits (243),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|YP_001598163.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Choleraesuis]
+ ref|WP_012221084.1| plasmid-partitioning protein [Salmonella enterica]
+ gb|ABX56831.1| SopB [Salmonella enterica subsp. enterica serovar Choleraesuis]
+Length=324
+
+ Score = 98.2 bits (243),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  275  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  323
+
+
+>ref|WP_016243880.1| protein sopB [Enterobacteriaceae]
+ gb|EOW00902.1| protein sopB [Escherichia coli KTE100]
+ gb|ESB59065.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Agona str. 557928]
+Length=323
+
+ Score = 98.2 bits (243),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|YP_209450.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Choleraesuis str. SC-B67]
+ ref|YP_002112888.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. CVM19633]
+ ref|YP_004032904.1| plasmid partition protein SopB [Edwardsiella tarda]
+ ref|WP_000817037.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAS76429.1| SopB [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+ gb|ACF88575.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. CVM19633]
+ gb|EDY27033.1| plasmid partition protein B [Salmonella enterica subsp. enterica 
+serovar Schwarzengrund str. SL480]
+ gb|ADQ43877.1| plasmid partition protein SopB [Edwardsiella tarda]
+ gb|EKF76239.1| SopB [Klebsiella pneumoniae subsp. pneumoniae KpQ3]
+ gb|ESL16074.1| protein sopB [Escherichia coli BIDMC 39]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_020804306.1| ParB-like protein [Klebsiella pneumoniae]
+ gb|EOY63797.1| ParB-like protein [Klebsiella pneumoniae KP-7]
+ gb|EOZ69854.1| ParB-like protein [Klebsiella pneumoniae KP-11]
+Length=295
+
+ Score = 97.8 bits (242),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  294
+
+
+>ref|WP_016156498.1| protein sopB [Enterobacteriaceae]
+ gb|EOQ31017.1| protein sopB [Citrobacter sp. KTE32]
+ gb|EQY92395.1| protein sopB [Escherichia coli UMEA 3318-1]
+Length=323
+
+ Score = 97.8 bits (242),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_009483822.1| chromosome partitioning protein ParB [Klebsiella]
+ gb|EGF65435.1| ParB-like protein [Klebsiella sp. MS 92-3]
+ gb|EOZ17443.1| ParB-like protein [Klebsiella pneumoniae UHKPC22]
+ gb|EOZ87455.1| ParB-like protein [Klebsiella pneumoniae 540_1460]
+ gb|EPB10563.1| ParB-like protein [Klebsiella pneumoniae UHKPC45]
+ gb|EPB25184.1| ParB-like protein [Klebsiella pneumoniae DMC0526]
+ gb|EPB31919.1| ParB-like protein [Klebsiella pneumoniae UHKPC48]
+ gb|EPB39912.1| ParB-like protein [Klebsiella pneumoniae UHKPC32]
+ gb|EPO02318.1| ParB-like protein [Klebsiella pneumoniae UHKPC69]
+ gb|EPO11775.1| ParB-like protein [Klebsiella pneumoniae UHKPC96]
+ gb|EPO12586.1| ParB-like protein [Klebsiella pneumoniae UHKPC77]
+ gb|EPO27367.1| ParB-like protein [Klebsiella pneumoniae DMC1097]
+ gb|EPO39492.1| ParB-like protein [Klebsiella pneumoniae UHKPC59]
+ gb|EPO55276.1| ParB-like protein [Klebsiella pneumoniae UHKPC18]
+ gb|EPO55297.1| ParB-like protein [Klebsiella pneumoniae UHKPC17]
+ gb|EPS05908.1| SopB protein [Klebsiella pneumoniae subsp. pneumoniae MP14]
+Length=295
+
+ Score = 97.4 bits (241),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  294
+
+
+>ref|YP_006973863.1| SopB [Klebsiella pneumoniae]
+ ref|WP_004182039.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|EKB70321.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW2]
+ gb|AFV70528.1| SopB [Klebsiella pneumoniae]
+ gb|EMH90252.1| protein sopB [Klebsiella pneumoniae JHCK1]
+ gb|ESL45192.1| protein sopB [Klebsiella pneumoniae BIDMC 25]
+ gb|ESM31667.1| protein sopB [Klebsiella pneumoniae BWH 30]
+ gb|ESM45230.1| protein sopB [Klebsiella pneumoniae BWH 28]
+ gb|ESM45539.1| protein sopB [Klebsiella pneumoniae MGH 48]
+ gb|ESM79121.1| protein sopB [Klebsiella pneumoniae MGH 36]
+ gb|ESM90181.1| protein sopB [Klebsiella pneumoniae MGH 32]
+Length=323
+
+ Score = 97.4 bits (241),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKPG  322
+
+
+>ref|WP_004217634.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ emb|CCM91664.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST258-K28BO]
+ emb|CCM92658.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST512-K30BO]
+ gb|EOY82229.1| ParB-like protein [Klebsiella pneumoniae UHKPC81]
+ gb|EPO87695.1| ParB-like protein [Klebsiella pneumoniae UHKPC02]
+Length=284
+
+ Score = 97.0 bits (240),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  235  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  283
+
+
+>ref|WP_000817039.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|ELC06363.1| protein sopB [Escherichia coli KTE10]
+ gb|ELD66374.1| protein sopB [Escherichia coli KTE234]
+ gb|EOV46146.1| protein sopB [Escherichia coli KTE61]
+ gb|ESJ97992.1| protein sopB [Escherichia coli HVH 50 (4-2593475)]
+Length=323
+
+ Score = 97.4 bits (241),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDK+VLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKIVLNLDRSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_020806010.1| ParB-like protein [Klebsiella pneumoniae]
+ gb|EPA93489.1| ParB-like protein [Klebsiella pneumoniae UHKPC57]
+Length=323
+
+ Score = 97.0 bits (240),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPVECIEKIEAILKELEKPG  322
+
+
+>ref|YP_005957587.1| plasmid-partitioning protein [Klebsiella pneumoniae KCTC 2242]
+ ref|WP_004902311.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|AEK01023.1| plasmid-partitioning protein [Klebsiella pneumoniae KCTC 2242]
+ emb|CCN32658.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+Ecl8]
+Length=295
+
+ Score = 96.6 bits (239),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  246  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  292
+
+
+>ref|YP_004249877.1| plasmid-partition protein SopB [Klebsiella pneumoniae]
+ ref|WP_009309982.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|ADX60393.1| plasmid-partition protein SopB [Klebsiella pneumoniae]
+ gb|EHL84380.1| protein sopB [Klebsiella sp. 4_1_44FAA]
+ gb|EOV49437.1| protein sopB [Escherichia coli KTE64]
+ gb|ESL16759.1| protein sopB [Klebsiella pneumoniae BIDMC 40]
+Length=323
+
+ Score = 96.6 bits (239),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|YP_001338580.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+MGH 78578]
+ ref|YP_005351316.1| plasmid-partitioning protein [Klebsiella pneumoniae]
+ ref|YP_007366559.1| Chromosome (plasmid) partitioning protein, sopB [Klebsiella pneumoniae]
+ ref|YP_007969492.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPX]
+ ref|YP_008146326.1| sopB [Klebsiella pneumoniae]
+ ref|YP_008415094.1| plasmid-partitioning protein [Klebsiella pneumoniae JM45]
+ ref|WP_004152062.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|ABR80350.1| repFiA replicon essential function protein [Klebsiella pneumoniae 
+subsp. pneumoniae MGH 78578]
+ gb|AET17143.1| Plasmid-partitioning protein [Klebsiella pneumoniae]
+ gb|AEV55149.1| SopB [Klebsiella pneumoniae]
+ gb|EJJ32458.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH2]
+ gb|EJJ32745.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH4]
+ gb|EJJ34335.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH1]
+ gb|EJJ49023.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH5]
+ gb|EJJ49045.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH6]
+ gb|EJJ51731.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH7]
+ gb|EJJ66904.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH9]
+ gb|EJJ66992.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH8]
+ gb|EJJ72162.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH10]
+ gb|EJJ82458.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH11]
+ gb|EJJ83284.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH12]
+ gb|EJJ89227.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH14]
+ gb|EJJ98880.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH17]
+ gb|EJJ99247.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH16]
+ gb|EJK07345.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH18]
+ gb|EJK15611.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH20]
+ gb|EJK16063.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH19]
+ gb|EJK22573.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH21]
+ gb|EJK33446.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH22]
+ gb|EJK37282.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH23]
+ gb|EKB62514.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW1]
+ gb|EKB72272.1| protein sopB [Klebsiella pneumoniae subsp. pneumoniae WGLW3]
+ emb|CCM80753.1| Chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae 
+subsp. pneumoniae ST258-K26BO]
+ gb|AGC23596.1| Chromosome (plasmid) partitioning protein, sopB [Klebsiella pneumoniae]
+ gb|EMR15726.1| plasmid-partitioning protein [Klebsiella pneumoniae ATCC BAA-2146]
+ gb|EMR18463.1| plasmid-partitioning protein [Klebsiella pneumoniae ATCC BAA-1705]
+ gb|ENY54904.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KpMDU1]
+ dbj|BAN19305.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+KPX]
+ gb|EOY76136.1| ParB-like protein [Klebsiella pneumoniae UHKPC01]
+ gb|EOY89223.1| ParB-like protein [Klebsiella pneumoniae UHKPC27]
+ gb|EOZ59200.1| ParB-like protein [Klebsiella pneumoniae VAKPC297]
+ gb|AGO62408.1| sopB [Klebsiella pneumoniae]
+ gb|EPS03883.1| SopB protein [Klebsiella pneumoniae subsp. pneumoniae UKKV901664]
+ gb|AGT26887.1| plasmid-partitioning protein [Klebsiella pneumoniae JM45]
+ gb|ERN59602.1| chromosome partitioning protein ParB [Klebsiella pneumoniae 303K]
+ gb|ERO72727.1| protein sopB [Klebsiella pneumoniae BIDMC 18C]
+ gb|ERO83250.1| protein sopB [Klebsiella pneumoniae BIDMC 16]
+ gb|ERO83440.1| protein sopB [Klebsiella pneumoniae BIDMC 12C]
+ gb|ESL16586.1| protein sopB [Klebsiella pneumoniae BIDMC 41]
+ gb|ESM09612.1| protein sopB [Klebsiella pneumoniae UCICRE 4]
+ gb|ESM23909.1| protein sopB [Klebsiella pneumoniae UCICRE 2]
+ gb|ESM53332.1| protein sopB [Klebsiella pneumoniae MGH 46]
+ gb|ESN31286.1| protein sopB [Klebsiella pneumoniae MGH 21]
+Length=323
+
+ Score = 96.6 bits (239),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_004206785.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|EJF20257.1| plasmid-partitioning protein [Citrobacter sp. A1]
+ gb|EKU31980.1| plasmid-partitioning protein [Citrobacter sp. L17]
+ gb|EMR15627.1| plasmid-partitioning protein [Klebsiella pneumoniae 700603]
+ gb|EPF42843.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+B5055]
+ gb|ESL66752.1| protein sopB [Klebsiella pneumoniae UCICRE 14]
+ gb|ESL68405.1| protein sopB [Enterobacter cloacae UCICRE 12]
+ gb|ESM09656.1| protein sopB [Enterobacter cloacae UCICRE 3]
+ gb|ESM16974.1| protein sopB [Enterobacter cloacae UCICRE 5]
+ gb|ESM25715.1| protein sopB [Enterobacter cloacae BWH 31]
+Length=323
+
+ Score = 96.6 bits (239),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|WP_023302806.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESL96653.1| protein sopB [Klebsiella pneumoniae UCICRE 6]
+Length=323
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|YP_001687990.1| plasmid-partitioning protein [Klebsiella pneumoniae NTUH-K2044]
+ ref|WP_004117790.1| chromosome partitioning protein ParB [Klebsiella]
+ dbj|BAH66096.1| bacterial partition protein [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ gb|EHS88039.1| protein sopB [Klebsiella oxytoca 10-5245]
+ gb|EJK88718.1| plasmid-partitioning protein [Klebsiella pneumoniae subsp. pneumoniae 
+DSM 30104]
+ gb|EMB11197.1| plasmid-partitioning protein [Klebsiella pneumoniae hvKP1]
+ gb|ESL57875.1| protein sopB [Klebsiella pneumoniae BIDMC 22]
+Length=323
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_023328959.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESM92774.1| protein sopB [Klebsiella pneumoniae MGH 30]
+Length=323
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_023287152.1| protein sopB [Klebsiella pneumoniae]
+ gb|ESL46623.1| protein sopB [Klebsiella pneumoniae BIDMC 23]
+Length=323
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 42/47 (89%), Positives = 45/47 (96%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIEAILKELEK
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIEAILKELEK  320
+
+
+>ref|WP_003031531.1| plasmid-partitioning protein [Citrobacter freundii]
+ gb|EOD59049.1| plasmid-partitioning protein [Citrobacter freundii GTC 09629]
+Length=323
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 41/49 (84%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            +++SRHQFAPGAT LYKGDKMVLNLD+SR+P ECIEKIEAILKELEKP 
+Sbjct  274  NLNSRHQFAPGATALYKGDKMVLNLDKSRIPAECIEKIEAILKELEKPG  322
+
+
+>ref|YP_002235674.1| protein SopB [Klebsiella pneumoniae 342]
+ ref|WP_012540237.1| chromosome partitioning protein ParB [Klebsiella pneumoniae]
+ gb|ACI12184.1| protein SopB [Klebsiella pneumoniae 342]
+Length=321
+
+ Score = 94.7 bits (234),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 40/48 (83%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            ++SSRHQFAPGAT LY+GDK+VLNLDRSR+P ECIEKIEAILK LEKP
+Sbjct  272  NLSSRHQFAPGATALYRGDKVVLNLDRSRLPAECIEKIEAILKALEKP  319
+
+
+>ref|WP_001698877.1| plasmid-partitioning protein [Escherichia coli]
+ gb|EMD02559.1| plasmid-partitioning protein [Escherichia coli S17]
+Length=323
+
+ Score = 94.7 bits (234),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 42/49 (86%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P E IEKIEAILKELEKP 
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAEYIEKIEAILKELEKPG  322
+
+
+>ref|WP_001466585.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIP72502.1| protein sopB [Escherichia coli EC1863]
+Length=295
+
+ Score = 94.3 bits (233),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  251  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  295
+
+
+>pdb|3MKY|B Chain B, Structure Of Sopb(155-323)-18mer Dna Complex, I23 Form
+ pdb|3MKY|P Chain P, Structure Of Sopb(155-323)-18mer Dna Complex, I23 Form
+Length=189
+
+ Score = 92.0 bits (227),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  145  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  189
+
+
+>ref|YP_006954769.1| plasmid partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Dublin]
+ ref|WP_015059352.1| plasmid partitioning protein ParB [Salmonella enterica]
+ gb|AEA95473.1| plasmid partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Dublin]
+Length=284
+
+ Score = 93.6 bits (231),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  240  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  284
+
+
+>ref|WP_023142648.1| hypothetical protein [Escherichia coli]
+ gb|ESD20122.1| hypothetical protein HMPREF1597_02964 [Escherichia coli 907701]
+Length=188
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  144  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  188
+
+
+>ref|YP_003829235.1| plasmid partitioning protein [Escherichia coli]
+ ref|YP_003829110.1| plasmid partitioning protein [Escherichia coli]
+ ref|WP_013279333.1| plasmid partitioning protein [Escherichia coli]
+ gb|ADL14004.1| SopB [Escherichia coli]
+ gb|ADL14129.1| SopB [Escherichia coli]
+Length=324
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  280  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  324
+
+
+>ref|YP_006203844.1| protein sopB (plasmid partition protein B) [Escherichia coli 
+ETEC H10407]
+ ref|WP_014654024.1| chromosome partitioning protein ParB [Escherichia coli]
+ emb|CBJ04475.1| protein sopB (plasmid partition protein B) [Escherichia coli 
+ETEC H10407]
+Length=269
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  225  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  269
+
+
+>emb|CBI38528.3| unnamed protein product [Vitis vinifera]
+Length=307
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  263  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  307
+
+
+>ref|WP_000817035.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIE54130.1| plasmid partitioning protein [Escherichia coli AI27]
+ gb|EIH42245.1| ParB-like protein [Escherichia coli 99.0741]
+ gb|EQS43066.1| protein sopB [Escherichia coli HVH 150 (4-3258106)]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|YP_194810.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Typhimurium]
+ ref|YP_001816485.1| plasmid-partitioning protein [Escherichia coli 1520]
+ ref|YP_003108271.1| protein sopB [Escherichia coli]
+ ref|YP_003517693.1| chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ ref|YP_008725003.1| chromosome partitioning protein ParB [Escherichia coli JJ1886]
+ ref|WP_000817036.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAR05666.1| stabilization of plasmid protein B [Salmonella enterica subsp. 
+enterica serovar Typhimurium]
+ emb|CAH64703.1| plasmid partitioning protein [uncultured bacterium]
+ emb|CAP07671.1| SopB [Escherichia coli]
+ gb|EDX34265.1| plasmid partition protein SopB [Shigella dysenteriae 1012]
+ gb|ACQ41978.1| protein sopB [Escherichia coli]
+ gb|ADD63647.1| chromosome (plasmid) partitioning protein ParB [Klebsiella pneumoniae]
+ gb|EFO56319.1| ParB-like protein [Escherichia coli MS 145-7]
+ gb|EJZ47275.1| protein sopB [Escherichia sp. 1_1_43]
+ gb|ELD26217.1| protein sopB [Escherichia coli KTE208]
+ gb|ELE01542.1| protein sopB [Escherichia coli KTE49]
+ gb|ELG10546.1| protein sopB [Escherichia coli KTE50]
+ gb|ELH61818.1| protein sopB [Escherichia coli KTE202]
+ gb|ELH76927.1| protein sopB [Escherichia coli KTE211]
+ gb|ELI56515.1| protein sopB [Escherichia coli KTE125]
+ gb|ELI89485.1| protein sopB [Escherichia coli KTE139]
+ gb|ELJ15071.1| protein sopB [Escherichia coli KTE157]
+ gb|EOV05534.1| protein sopB [Escherichia coli KTE195]
+ gb|EOV42259.1| protein sopB [Escherichia coli KTE219]
+ gb|EOW49864.1| protein sopB [Escherichia coli KTE134]
+ gb|AGO62101.1| plasmid partition protein SopB [uncultured bacterium]
+ gb|EQO66273.1| protein sopB [Escherichia coli HVH 44 (4-2298570)]
+ gb|EQP61159.1| protein sopB [Escherichia coli HVH 78 (4-2735946)]
+ gb|EQP82736.1| protein sopB [Escherichia coli HVH 84 (4-1021478)]
+ gb|EQQ18056.1| protein sopB [Escherichia coli HVH 92 (4-5930790)]
+ gb|EQQ20294.1| protein sopB [Escherichia coli HVH 95 (4-6074464)]
+ gb|EQQ30829.1| protein sopB [Escherichia coli HVH 96 (4-5934869)]
+ gb|EQQ61172.1| protein sopB [Escherichia coli HVH 109 (4-6977162)]
+ gb|EQT30580.1| protein sopB [Escherichia coli HVH 182 (4-0985554)]
+ gb|EQT50151.1| protein sopB [Escherichia coli HVH 186 (4-3405044)]
+ gb|EQU39528.1| protein sopB [Escherichia coli HVH 205 (4-3094677)]
+ gb|EQU65131.1| protein sopB [Escherichia coli HVH 212 (3-9305343)]
+ gb|EQY05272.1| protein sopB [Escherichia coli UMEA 3208-1]
+ gb|ERA98028.1| protein sopB [Escherichia coli KOEGE 10 (25a)]
+ gb|ERG00148.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Muenchen str. RKS4129]
+ gb|ERO93776.1| protein sopB [Escherichia coli BWH 24]
+ gb|ESA75858.1| ParB-like protein [Escherichia coli 110957]
+ gb|ESA91233.1| ParB-like protein [Escherichia coli 907779]
+ gb|ESD09603.1| ParB-like protein [Escherichia coli 907672]
+ gb|ESD13785.1| ParB-like protein [Escherichia coli 907700]
+ gb|ESD29212.1| ParB-like protein [Escherichia coli 907715]
+ gb|ESD40975.1| ParB-like protein [Escherichia coli 907892]
+ gb|ESD60913.1| ParB-like protein [Escherichia coli 908524]
+ gb|ESD73183.1| ParB-like protein [Escherichia coli 908555]
+ gb|ESD87388.1| ParB-like protein [Escherichia coli 908573]
+ gb|ESD96813.1| ParB-like protein [Escherichia coli 908585]
+ gb|ESE09662.1| ParB-like protein [Escherichia coli 908632]
+ gb|ESE26058.1| ParB-like protein [Escherichia coli 908691]
+ gb|AGY87978.1| chromosome partitioning protein ParB [Escherichia coli JJ1886]
+ gb|ESL29554.1| protein sopB [Escherichia coli BIDMC 38]
+ gb|ESP05872.1| protein sopB [Escherichia coli HVH 36 (4-5675286)]
+ gb|ESP11167.1| protein sopB [Escherichia coli HVH 136 (4-5970458)]
+ gb|ESP11451.1| protein sopB [Escherichia coli HVH 86 (4-7026218)]
+ gb|ETE08229.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC8]
+ gb|ETE29764.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC7]
+ gb|ETE36534.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC9]
+Length=323
+
+ Score = 93.6 bits (231),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817032.1| chromosome partitioning protein ParB [Escherichia coli]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817034.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EFE64230.1| plasmid-partitioning protein [Escherichia coli B088]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817030.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EIF16336.1| plasmid-partitioning protein [Escherichia coli O32:H37 str. P4]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001608352.1| protein sopB [Escherichia coli]
+ gb|ENF07760.1| protein sopB [Escherichia coli P0304777.9]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001588509.1| protein sopB [Escherichia coli]
+ gb|EMZ85639.1| protein sopB [Escherichia coli 199900.1]
+ gb|ENE60965.1| protein sopB [Escherichia coli P0304777.13]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001604399.1| protein sopB [Escherichia coli]
+ gb|ELG95127.1| protein sopB [Escherichia coli KTE147]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|NP_061426.1| sopB [Escherichia coli K-12]
+ ref|NP_052641.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. Sakai]
+ ref|YP_325629.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. EDL933]
+ ref|YP_001294715.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001451562.1| plasmid-partitioning protein [Escherichia coli E24377A]
+ ref|YP_002268428.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. EC4115]
+ ref|YP_003034007.1| plasmid-partitioning protein [Escherichia coli Vir68]
+ ref|YP_003082175.1| plasmid partitioning protein [Escherichia coli O157:H7 str. TW14359]
+ ref|YP_003717687.1| plasmid partition protein SopB [Escherichia coli ETEC 1392/75]
+ ref|YP_006315937.1| plasmid-partitioning protein [Escherichia coli Xuzhou21]
+ ref|YP_006956503.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ ref|YP_006957112.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ ref|WP_000817031.1| chromosome partitioning protein ParB [Gammaproteobacteria]
+ sp|P62558.1|SOPB_ECOLI RecName: Full=Protein SopB; AltName: Full=Plasmid partition protein 
+B
+ sp|P62559.1|SOPB_ECO57 RecName: Full=Protein SopB; AltName: Full=Plasmid partition protein 
+B
+ gb|AAR00430.1|AF401292_31 w0051 [Escherichia coli]
+ emb|CAA28296.1| unnamed protein product [Escherichia coli K-12]
+ gb|AAA24903.1| Protein B [Plasmid F]
+ gb|AAC53637.1| SopB [Cloning vector pZC320]
+ dbj|BAA31791.1| SopB protein [Escherichia coli O157:H7 str. Sakai]
+ gb|AAC70137.1| plasmid partitioning protein [Escherichia coli O157:H7 str. EDL933]
+ dbj|BAA97917.1| sopB [Escherichia coli K-12]
+ emb|CAC79980.1| orf972 [Escherichia coli]
+ gb|AAO61294.1| ParB [BAC cloning vector pEBAC190G]
+ emb|CAD50598.1| SopB protein [Cloning vector pUvBBAC]
+ gb|AAT42374.1| plasmid partitioning protein SopB [Large-insert cloning vector 
+pSMART VC]
+ gb|EAX60460.1| conserved hypothetical protein [Vibrio cholerae V52]
+ gb|ABV16429.1| plasmid partition protein B [Escherichia coli E24377A]
+ gb|ABW82144.1| SopB [Cloning vector pSMART BAC v2.0]
+ emb|CAP53911.1| parB protein [Cloning vector pBAC-RT]
+ gb|ABX89603.1| ParB [Cloning vector pFOSAMP]
+ gb|ABX89608.1| ParB [Cloning vector pFOSKAN]
+ gb|EDU31787.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4196]
+ gb|EDU51774.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4113]
+ gb|EDU68529.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4076]
+ gb|EDU74090.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4401]
+ gb|EDU80132.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4486]
+ gb|EDU83477.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC4501]
+ gb|EDU88960.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC869]
+ gb|EDU93724.1| plasmid partition protein SopB [Escherichia coli O157:H7 str. 
+EC508]
+ gb|ACI02341.1| ParB [BAC cloning vector pEZ BAC]
+ gb|EDZ79229.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4206]
+ gb|EDZ79252.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4045]
+ gb|EDZ84595.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4042]
+ gb|ACI34524.1| plasmid partition protein B [Escherichia coli O157:H7 str. EC4115]
+ gb|EEC25582.1| plasmid partition protein B [Escherichia coli O157:H7 str. TW14588]
+ dbj|BAH03497.1| partitioning protein [Cloning vector pKS145]
+ gb|ACM62287.1| plasmid-partitioning protein SopB [Human herpesvirus 1]
+ gb|ACS32474.1| plasmid-partitioning protein SopB [Human herpesvirus 5]
+ gb|ACT33492.1| plasmid partitioning protein SopB [Escherichia coli Vir68]
+ gb|ACT75201.1| plasmid partitioning protein [Escherichia coli O157:H7 str. TW14359]
+ gb|ACZ72916.1| plasmid-partitioning protein SopB [Human herpesvirus 5]
+ gb|ADE34470.1| ParB [Cloning vector pTARa]
+ emb|CBL93523.1| plasmid partition protein SopB [Escherichia coli ETEC 1392/75]
+ gb|EFK43858.1| ParB-like protein [Escherichia coli MS 119-7]
+ gb|ADO79615.1| ParB [Cloning vector pGNS-BAC]
+ gb|ADR02807.1| ParB [Shuttle vector pMycoFos]
+ gb|EFZ69479.1| protein sopB [Escherichia coli OK1357]
+ gb|EGC09780.1| ParB partition protein [Escherichia coli E1167]
+ gb|EGI48067.1| protein SopB (Plasmid partition protein B) [Escherichia coli 
+H299]
+ gb|EHP63436.1| protein sopB [Escherichia coli 4_1_47FAA]
+ gb|EHU61773.1| parB-like partition s domain protein [Escherichia coli DEC3B]
+ gb|EHU75162.1| parB-like partition s domain protein [Escherichia coli DEC3D]
+ gb|EHU75268.1| parB-like partition s domain protein [Escherichia coli DEC3C]
+ gb|EHU85230.1| parB-like partition s domain protein [Escherichia coli DEC4A]
+ gb|EHU90844.1| parB-like partition s domain protein [Escherichia coli DEC4B]
+ gb|EHU97778.1| parB-like partition s domain protein [Escherichia coli DEC3F]
+ gb|EHV09213.1| parB-like partition s domain protein [Escherichia coli DEC4C]
+ gb|EHV12293.1| parB-like partition s domain protein [Escherichia coli DEC4D]
+ gb|EHV16242.1| parB-like partition s domain protein [Escherichia coli DEC4E]
+ gb|EHV29032.1| parB-like partition s domain protein [Escherichia coli DEC4F]
+ gb|EHW83701.1| parB-like partition s domain protein [Escherichia coli DEC10F]
+ gb|EIA40322.1| plasmid-partitioning protein [Escherichia coli O157:H7 str. G5101]
+ gb|AFG21246.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ gb|AFG21402.1| Chromosome (plasmid) partitioning protein ParB [Salmonella enterica 
+subsp. enterica serovar Heidelberg]
+ gb|AFI26417.1| parB [Cloning vector pBACr-AraT7940_rbs9]
+ gb|EIH15706.1| ParB-like protein [Escherichia coli 97.0259]
+ gb|EIJ04910.1| ParB-like protein [Escherichia coli B41]
+ gb|AFJ32127.1| plasmid-partitioning protein [Escherichia coli Xuzhou21]
+ gb|AFL03485.1| sopB [Macacine herpesvirus 3]
+ gb|EIN15578.1| protein sopB [Escherichia coli FRIK1996]
+ gb|EIN32773.1| protein sopB [Escherichia coli FDA517]
+ gb|EIN32799.1| protein sopB [Escherichia coli FDA505]
+ gb|EIN33654.1| protein sopB [Escherichia coli FRIK1990]
+ gb|EIN47912.1| protein sopB [Escherichia coli 93-001]
+ gb|EIN48227.1| protein sopB [Escherichia coli PA3]
+ gb|EIN55088.1| protein sopB [Escherichia coli FRIK1985]
+ gb|EIN55633.1| protein sopB [Escherichia coli PA9]
+ gb|EIN69934.1| protein sopB [Escherichia coli PA5]
+ gb|EIN82959.1| protein sopB [Escherichia coli PA10]
+ gb|EIN86608.1| protein sopB [Escherichia coli PA15]
+ gb|EIN86641.1| protein sopB [Escherichia coli PA22]
+ gb|EIN89106.1| protein sopB [Escherichia coli PA14]
+ gb|EIN95823.1| protein sopB [Escherichia coli PA28]
+ gb|EIO06527.1| protein sopB [Escherichia coli PA25]
+ gb|EIO06637.1| protein sopB [Escherichia coli PA24]
+ gb|EIO23618.1| protein sopB [Escherichia coli PA32]
+ gb|EIO23872.1| protein sopB [Escherichia coli PA31]
+ gb|EIO27977.1| protein sopB [Escherichia coli PA33]
+ gb|EIO30307.1| protein sopB [Escherichia coli PA40]
+ gb|EIO45380.1| protein sopB [Escherichia coli PA41]
+ gb|EIO46917.1| protein sopB [Escherichia coli TW06591]
+ gb|EIO49802.1| protein sopB [Escherichia coli PA42]
+ gb|EIO51537.1| protein sopB [Escherichia coli TW07945]
+ gb|EIO58105.1| protein sopB [Escherichia coli PA39]
+ gb|EIO58886.1| protein sopB [Escherichia coli TW10246]
+ gb|EIO77688.1| protein sopB [Escherichia coli TW09109]
+ gb|EIO82295.1| protein sopB [Escherichia coli TW10119]
+ gb|EIO85212.1| protein sopB [Escherichia coli TW09195]
+ gb|EIO87139.1| protein sopB [Escherichia coli EC4203]
+ gb|EIO91650.1| protein sopB [Escherichia coli TW09098]
+ gb|EIO92266.1| protein sopB [Escherichia coli EC4196]
+ gb|EIP02920.1| protein sopB [Escherichia coli TW14313]
+ gb|EIP10090.1| protein sopB [Escherichia coli EC4421]
+ gb|EIP19515.1| protein sopB [Escherichia coli TW14301]
+ gb|EIP26825.1| protein sopB [Escherichia coli EC4402]
+ gb|EIP34296.1| protein sopB [Escherichia coli EC4422]
+ gb|EIP34638.1| protein sopB [Escherichia coli EC4439]
+ gb|EIP39318.1| protein sopB [Escherichia coli EC4013]
+ gb|EIP39774.1| protein sopB [Escherichia coli EC4436]
+ gb|EIP49737.1| protein sopB [Escherichia coli EC4448]
+ gb|EIP62097.1| protein sopB [Escherichia coli EC1738]
+ gb|EIP66988.1| protein sopB [Escherichia coli EC1734]
+ gb|EIP71789.1| protein sopB [Escherichia coli EC4437]
+ gb|EIP71890.1| protein sopB [Escherichia coli EC1845]
+ gb|AFN40087.1| plasmid partition protein B [Cloning vector pFosill-1]
+ gb|AFN40092.1| plasmid partition protein B [Cloning vector pFosill-2]
+ gb|AFN40097.1| plasmid partition protein B [Cloning vector pFosill-3]
+ gb|AFN40102.1| plasmid partition protein B [Cloning vector pFosill-4]
+ gb|EKG96205.1| protein sopB [Escherichia coli PA34]
+ gb|EKH00918.1| protein sopB [Escherichia coli PA7]
+ gb|EKH09236.1| protein sopB [Escherichia coli FRIK920]
+ gb|EKH21574.1| protein sopB [Escherichia coli FDA507]
+ gb|EKH26046.1| protein sopB [Escherichia coli FDA506]
+ gb|EKH26727.1| protein sopB [Escherichia coli FRIK1999]
+ gb|EKH32687.1| protein sopB [Escherichia coli FRIK1997]
+ gb|EKH36868.1| protein sopB [Escherichia coli FDA504]
+ gb|EKH47892.1| protein sopB [Escherichia coli NE1487]
+ gb|EKH54854.1| protein sopB [Escherichia coli PA4]
+ gb|EKH62821.1| protein sopB [Escherichia coli NE037]
+ gb|EKH63570.1| protein sopB [Escherichia coli PA23]
+ gb|EKH63753.1| protein sopB [Escherichia coli FRIK2001]
+ gb|EKH72469.1| protein sopB [Escherichia coli PA45]
+ gb|EKH84184.1| protein sopB [Escherichia coli PA49]
+ gb|EKH95780.1| protein sopB [Escherichia coli TT12B]
+ gb|EKH96538.1| protein sopB [Escherichia coli CB7326]
+ gb|EKI02368.1| protein sopB [Escherichia coli MA6]
+ gb|EKI05948.1| protein sopB [Escherichia coli 5412]
+ gb|EKI20351.1| protein sopB [Escherichia coli EC96038]
+ gb|EKI32638.1| protein sopB [Escherichia coli PA38]
+ gb|EKI46590.1| protein sopB [Escherichia coli EC1735]
+ gb|EKI56259.1| protein sopB [Escherichia coli N1]
+ gb|EKI56939.1| protein sopB [Escherichia coli EC1736]
+ gb|EKI58692.1| protein sopB [Escherichia coli EC1737]
+ gb|EKI64426.1| protein sopB [Escherichia coli EC1846]
+ gb|EKI72514.1| protein sopB [Escherichia coli EC1847]
+ gb|EKI76780.1| protein sopB [Escherichia coli EC1848]
+ gb|EKI82604.1| protein sopB [Escherichia coli EC1849]
+ gb|EKI90544.1| protein sopB [Escherichia coli EC1850]
+ gb|EKI92842.1| protein sopB [Escherichia coli EC1856]
+ gb|EKJ00200.1| protein sopB [Escherichia coli EC1862]
+ gb|EKJ06165.1| protein sopB [Escherichia coli EC1864]
+ gb|EKJ10243.1| protein sopB [Escherichia coli EC1865]
+ gb|EKJ20468.1| protein sopB [Escherichia coli EC1866]
+ gb|EKJ31254.1| protein sopB [Escherichia coli EC1869]
+ gb|EKJ36962.1| protein sopB [Escherichia coli EC1868]
+ gb|EKJ37781.1| protein sopB [Escherichia coli NE098]
+ gb|EKJ54335.1| protein sopB [Escherichia coli EC1870]
+ gb|EKJ65174.1| protein sopB [Escherichia coli FRIK523]
+ gb|EKJ67350.1| protein sopB [Escherichia coli 0.1304]
+ gb|EKK21537.1| protein sopB [Escherichia coli 3.4870]
+ gb|EKK33658.1| protein sopB [Escherichia coli 6.0172]
+ gb|EKK38000.1| protein sopB [Escherichia coli 5.2239]
+ gb|EKK51044.1| protein sopB [Escherichia coli 8.2524]
+ gb|EKK57551.1| protein sopB [Escherichia coli 10.0833]
+ gb|EKK61618.1| protein sopB [Escherichia coli 8.0586]
+ gb|EKK61854.1| protein sopB [Escherichia coli 10.0869]
+ gb|EKK76947.1| protein sopB [Escherichia coli 8.0416]
+ gb|EKK85788.1| protein sopB [Escherichia coli 10.0821]
+ gb|EKV70830.1| protein sopB [Escherichia coli 88.1042]
+ gb|EKV85702.1| protein sopB [Escherichia coli 90.0091]
+ gb|EKV88730.1| protein sopB [Escherichia coli 89.0511]
+ gb|EKV89235.1| protein sopB [Escherichia coli 88.1467]
+ gb|EKV89936.1| protein sopB [Escherichia coli 90.0039]
+ gb|EKW03634.1| protein sopB [Escherichia coli 90.2281]
+ gb|EKW03763.1| protein sopB [Escherichia coli 93.0055]
+ gb|EKW04347.1| protein sopB [Escherichia coli 93.0056]
+ gb|EKW22085.1| protein sopB [Escherichia coli 94.0618]
+ gb|EKW22173.1| protein sopB [Escherichia coli 95.1288]
+ gb|EKW22718.1| protein sopB [Escherichia coli 95.0943]
+ gb|EKW37474.1| protein sopB [Escherichia coli 95.0183]
+ gb|EKW51493.1| protein sopB [Escherichia coli 96.0428]
+ gb|EKW51746.1| protein sopB [Escherichia coli 96.0932]
+ gb|EKW57192.1| protein sopB [Escherichia coli 96.0427]
+ gb|EKW58271.1| protein sopB [Escherichia coli 96.0939]
+ gb|EKW64771.1| protein sopB [Escherichia coli 97.0003]
+ gb|EKW75030.1| protein sopB [Escherichia coli 96.0107]
+ gb|EKW75943.1| protein sopB [Escherichia coli 99.0672]
+ gb|EKW77451.1| protein sopB [Escherichia coli 97.0007]
+ gb|EKW90710.1| protein sopB [Escherichia coli 99.0678]
+ gb|EKW96013.1| protein sopB [Escherichia coli 99.0713]
+ gb|EKY44658.1| protein sopB [Escherichia coli 96.0109]
+ gb|EKY45842.1| protein sopB [Escherichia coli 97.0010]
+ gb|ELE64060.1| protein sopB [Escherichia coli KTE76]
+ gb|ELJ19042.1| protein sopB [Escherichia coli KTE163]
+ gb|ELV15289.1| protein sopB [Escherichia coli 09BKT078844]
+ gb|ELV17500.1| protein sopB [Escherichia coli 99.0814]
+ gb|ELV30642.1| protein sopB [Escherichia coli 99.0815]
+ gb|ELV36763.1| protein sopB [Escherichia coli 99.0839]
+ gb|ELV38013.1| protein sopB [Escherichia coli 99.0848]
+ gb|ELV38388.1| protein sopB [Escherichia coli 99.0816]
+ gb|ELV46010.1| protein sopB [Escherichia coli 99.1775]
+ gb|ELV49467.1| protein sopB [Escherichia coli 99.1753]
+ gb|ELV55993.1| protein sopB [Escherichia coli 99.1793]
+ gb|ELV66912.1| protein sopB [Escherichia coli 99.1805]
+ gb|ELV67927.1| protein sopB [Escherichia coli PA11]
+ gb|ELV73029.1| protein sopB [Escherichia coli ATCC 700728]
+ gb|ELV83437.1| protein sopB [Escherichia coli PA13]
+ gb|ELV87021.1| protein sopB [Escherichia coli PA19]
+ gb|ELV89996.1| protein sopB [Escherichia coli PA2]
+ gb|ELV93987.1| protein sopB [Escherichia coli PA48]
+ gb|ELV99800.1| protein sopB [Escherichia coli PA47]
+ gb|ELW04624.1| protein sopB [Escherichia coli PA8]
+ gb|ELW14572.1| protein sopB [Escherichia coli 99.1781]
+ gb|ELW18981.1| protein sopB [Escherichia coli 99.1762]
+ gb|ELW19032.1| protein sopB [Escherichia coli 7.1982]
+ gb|ELW33708.1| protein sopB [Escherichia coli PA35]
+ gb|ELW34300.1| protein sopB [Escherichia coli 3.4880]
+ gb|ELW38573.1| protein sopB [Escherichia coli 95.0083]
+ gb|ELW41765.1| protein sopB [Escherichia coli 99.0670]
+ gb|EMU57361.1| protein sopB [Escherichia coli MP021552.12]
+ gb|EMU67032.1| protein sopB [Escherichia coli MP021552.7]
+ gb|EMU70186.1| protein sopB [Escherichia coli MP021552.11]
+ gb|EMV29185.1| protein sopB [Escherichia coli BCE002_MS12]
+ gb|EMV33187.1| protein sopB [Escherichia coli BCE019_MS-13]
+ gb|EMV49875.1| protein sopB [Escherichia coli 2871950]
+ gb|EMV50315.1| protein sopB [Escherichia coli 2872000]
+ gb|EMV85714.1| protein sopB [Escherichia coli 2865200]
+ gb|EMW33331.1| protein sopB [Escherichia coli 2788150]
+ gb|EMW39253.1| protein sopB [Escherichia coli 2785200]
+ gb|EMW45045.1| protein sopB [Escherichia coli 2780750]
+ gb|EMW86424.1| protein sopB [Escherichia coli 180600]
+ gb|EMW94234.1| protein sopB [Escherichia coli P0304777.1]
+ gb|EMX23751.1| protein sopB [Escherichia coli MP021566.1]
+ gb|EMX28100.1| protein sopB [Escherichia coli MP021561.2]
+ gb|EMX37578.1| protein sopB [Escherichia coli MP021552.8]
+ gb|EMX46295.1| protein sopB [Escherichia coli MP020980.2]
+ gb|EMX47234.1| protein sopB [Escherichia coli MP020940.1]
+ gb|EMX58210.1| protein sopB [Escherichia coli Jurua 18/11]
+ gb|EMX85847.1| protein sopB [Escherichia coli BCE001_MS16]
+ gb|EMZ59059.1| protein sopB [Escherichia coli 2846750]
+ gb|EMZ72338.1| protein sopB [Escherichia coli 174900]
+ gb|EMZ98125.1| protein sopB [Escherichia coli P0304816.1]
+ gb|ENA03567.1| protein sopB [Escherichia coli P0299917.1]
+ gb|ENA26128.1| protein sopB [Escherichia coli BCE007_MS-11]
+ gb|ENA73382.1| protein sopB [Escherichia coli 2730350]
+ gb|ENA78639.1| protein sopB [Escherichia coli 2741950]
+ gb|ENB02409.1| protein sopB [Escherichia coli 2864350]
+ gb|ENB27995.1| protein sopB [Escherichia coli BCE032_MS-12]
+ gb|ENB46322.1| protein sopB [Escherichia coli MP021561.3]
+ gb|ENC41943.1| protein sopB [Escherichia coli P02997067.6]
+ gb|ENC42334.1| protein sopB [Escherichia coli P0299917.2]
+ gb|ENC47415.1| protein sopB [Escherichia coli P0299917.10]
+ gb|ENC49142.1| protein sopB [Escherichia coli P0299917.3]
+ gb|ENC53993.1| protein sopB [Escherichia coli P0299917.4]
+ gb|ENC54980.1| protein sopB [Escherichia coli P0299917.5]
+ gb|ENC63223.1| protein sopB [Escherichia coli P0299917.6]
+ gb|ENC68100.1| protein sopB [Escherichia coli P0299917.7]
+ gb|ENC78159.1| protein sopB [Escherichia coli P0299917.8]
+ gb|ENC89350.1| protein sopB [Escherichia coli P0299917.9]
+ gb|END52765.1| protein sopB [Escherichia coli MP020980.1]
+ gb|END56325.1| protein sopB [Escherichia coli BCE006_MS-23]
+ gb|END90820.1| protein sopB [Escherichia coli P0301904.3]
+ gb|ENE41483.1| protein sopB [Escherichia coli P0304777.10]
+ gb|ENE52447.1| protein sopB [Escherichia coli P0304777.11]
+ gb|ENE57372.1| protein sopB [Escherichia coli P0304777.12]
+ gb|ENE65552.1| protein sopB [Escherichia coli P0304777.14]
+ gb|ENE75111.1| protein sopB [Escherichia coli P0304777.2]
+ gb|ENE89728.1| protein sopB [Escherichia coli P0304777.3]
+ gb|ENE90642.1| protein sopB [Escherichia coli P0304777.4]
+ gb|ENE97127.1| protein sopB [Escherichia coli P0304777.7]
+ gb|ENF22590.1| protein sopB [Escherichia coli P0304816.10]
+ gb|ENF27125.1| protein sopB [Escherichia coli P0304816.11]
+ gb|ENF27176.1| protein sopB [Escherichia coli P0304816.12]
+ gb|ENF29532.1| protein sopB [Escherichia coli P0304816.14]
+ gb|ENF41105.1| protein sopB [Escherichia coli P0304816.13]
+ gb|ENF44812.1| protein sopB [Escherichia coli P0304816.2]
+ gb|ENF44877.1| protein sopB [Escherichia coli P0304816.6]
+ gb|ENF57679.1| protein sopB [Escherichia coli P0304816.7]
+ gb|ENF64537.1| protein sopB [Escherichia coli P0304816.8]
+ gb|ENF73075.1| protein sopB [Escherichia coli P0304816.9]
+ gb|ENG78656.1| protein sopB [Escherichia coli 178200]
+ gb|ENG78725.1| protein sopB [Escherichia coli 178850]
+ gb|ENH27746.1| protein sopB [Escherichia coli P0304816.3]
+ gb|ENH27774.1| protein sopB [Escherichia coli P0304816.4]
+ gb|ENH44253.1| protein sopB [Escherichia coli P0304816.5]
+ gb|AGM33191.1| F plasmid partitioning protein B [Cloning vector pFTCAPL-GW]
+ gb|EOV44990.1| protein sopB [Escherichia coli KTE221]
+ gb|EOW15466.1| protein sopB [Escherichia coli KTE102]
+ gb|AGO61968.1| F plasmid partitioning protein B [Cloning vector pFTarget2-Tn7]
+ gb|AGO61975.1| F plasmid partitioning protein B [Cloning vector pFTarget3-Tn7]
+ gb|AGT36557.1| plasmid-partioning protein SopB [BAC cloning vector pUSF-3]
+ gb|EQP96639.1| protein sopB [Escherichia coli HVH 88 (4-5854636)]
+ gb|EQR37546.1| protein sopB [Escherichia coli HVH 125 (4-2634716)]
+ gb|EQR88746.1| protein sopB [Escherichia coli HVH 139 (4-3192644)]
+ gb|EQW05179.1| protein sopB [Escherichia coli KOEGE 131 (358a)]
+ gb|ERB28079.1| protein sopB [Escherichia coli UMEA 3292-1]
+ dbj|BAN79346.1| SopB protein [Conjugative cloning vector pFE604T]
+ gb|ERB74263.1| protein sopB [Escherichia coli 09BKT076207]
+ gb|ERB75636.1| protein sopB [Escherichia coli B102]
+ gb|ERB78749.1| protein sopB [Escherichia coli B107]
+ gb|ERB82634.1| protein sopB [Escherichia coli B26-1]
+ gb|ERB89872.1| protein sopB [Escherichia coli B26-2]
+ gb|ERB97126.1| protein sopB [Escherichia coli B28-1]
+ gb|ERB99993.1| protein sopB [Escherichia coli B28-2]
+ gb|ERC05796.1| protein sopB [Escherichia coli B29-1]
+ gb|ERC13250.1| protein sopB [Escherichia coli B29-2]
+ gb|ERC20360.1| protein sopB [Escherichia coli B36-1]
+ gb|ERC21240.1| protein sopB [Escherichia coli B36-2]
+ gb|ERC31131.1| protein sopB [Escherichia coli B7-1]
+ gb|ERC37805.1| protein sopB [Escherichia coli B7-2]
+ gb|ERC41282.1| protein sopB [Escherichia coli B93]
+ gb|ERC45073.1| protein sopB [Escherichia coli B94]
+ gb|ERC45875.1| protein sopB [Escherichia coli B94]
+ gb|ERC58326.1| protein sopB [Escherichia coli B95]
+ gb|ERC63818.1| protein sopB [Escherichia coli Bd5610_99]
+ gb|ERC69717.1| protein sopB [Escherichia coli 08BKT055439]
+ gb|ERC70910.1| protein sopB [Escherichia coli T1840_97]
+ gb|ERC80406.1| protein sopB [Escherichia coli T234_00]
+ gb|ERC84484.1| protein sopB [Escherichia coli 14A]
+ gb|ERC85112.1| protein sopB [Escherichia coli T924_01]
+ gb|ERC94711.1| protein sopB [Escherichia coli 2886-75]
+ gb|ERD00729.1| protein sopB [Escherichia coli B104]
+ gb|ERD00764.1| protein sopB [Escherichia coli B103]
+ gb|ERD13788.1| protein sopB [Escherichia coli B106]
+ gb|ERD16126.1| protein sopB [Escherichia coli B108]
+ gb|ERD18556.1| protein sopB [Escherichia coli B105]
+ gb|ERD27554.1| protein sopB [Escherichia coli B109]
+ gb|ERD30789.1| protein sopB [Escherichia coli B112]
+ gb|ERD37061.1| protein sopB [Escherichia coli B113]
+ gb|ERD44685.1| protein sopB [Escherichia coli B15]
+ gb|ERD45546.1| protein sopB [Escherichia coli B114]
+ gb|ERD49190.1| protein sopB [Escherichia coli B17]
+ gb|ERD59154.1| protein sopB [Escherichia coli B40-2]
+ gb|ERD61483.1| protein sopB [Escherichia coli B40-1]
+ gb|ERD64759.1| protein sopB [Escherichia coli B49-2]
+ gb|ERD73302.1| protein sopB [Escherichia coli B5-2]
+ gb|ERD78462.1| protein sopB [Escherichia coli B83]
+ gb|ERD80492.1| protein sopB [Escherichia coli B84]
+ gb|ERD87283.1| protein sopB [Escherichia coli B85]
+ gb|ERD92936.1| protein sopB [Escherichia coli B86]
+ gb|ERE05257.1| protein sopB [Escherichia coli 08BKT77219]
+ gb|ERE19341.1| protein sopB [Escherichia coli 09BKT024447]
+ gb|ERE19841.1| protein sopB [Escherichia coli T1282_01]
+ gb|ERE29574.1| protein sopB [Escherichia coli B89]
+ gb|ERE29670.1| protein sopB [Escherichia coli B90]
+ gb|ERE41661.1| protein sopB [Escherichia coli Tx1686]
+ gb|ERE43097.1| protein sopB [Escherichia coli Tx3800]
+ gb|ESE09824.1| ParB-like protein [Escherichia coli 908658]
+ gb|ESP81759.1| chromosome partitioning protein ParB [Pseudomonas putida S12]
+ gb|ESR86046.1| chromosome partitioning protein ParB [Escherichia coli ATCC BAA-2192]
+ gb|ESR93253.1| chromosome partitioning protein ParB [Escherichia coli ATCC BAA-2192]
+ gb|ESS90060.1| Chromosome (plasmid) partitioning protein ParB [Escherichia coli 
+CE549]
+ gb|EST59940.1| plasmid-partitioning protein [Escherichia coli ECC-Z]
+ gb|EST79677.1| plasmid-partitioning protein [Escherichia coli ECA-727]
+ gb|ETE18341.1| chromosome partitioning protein ParB [Escherichia coli LAU-EC10]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817029.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHX70958.1| parB-like partition s domain protein [Escherichia coli DEC13C]
+ gb|EMW91741.1| protein sopB [Escherichia coli ThroopD]
+ gb|EMX15275.1| protein sopB [Escherichia coli P0301867.1]
+ gb|EMX81051.1| protein sopB [Escherichia coli 2719100]
+ gb|EMX84214.1| protein sopB [Escherichia coli 2720900]
+ gb|EMZ91081.1| protein sopB [Escherichia coli 2722950]
+ gb|ENA38445.1| protein sopB [Escherichia coli P0301867.2]
+ gb|ENA59488.1| protein sopB [Escherichia coli 2726950]
+ gb|ENB16948.1| protein sopB [Escherichia coli BCE011_MS-01]
+ gb|ENC86021.1| protein sopB [Escherichia coli P0301867.11]
+ gb|END21483.1| protein sopB [Escherichia coli P0301867.8]
+ gb|END84855.1| protein sopB [Escherichia coli P0301867.13]
+ gb|ENG92115.1| protein sopB [Escherichia coli P0301867.3]
+ gb|ENH07185.1| protein sopB [Escherichia coli P0301867.5]
+Length=323
+
+ Score = 93.2 bits (230),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001622238.1| protein sopB [Escherichia coli]
+ gb|ENF42340.1| protein sopB [Escherichia coli P0304816.15]
+Length=323
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817033.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHV67588.1| parB-like partition s domain protein [Escherichia coli DEC6E]
+ gb|EHV80121.1| protein sopB [Escherichia coli DEC6D]
+Length=323
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001394780.1| protein sopB [Escherichia coli]
+ gb|EMV28707.1| protein sopB [Escherichia coli C-34666]
+ gb|ENA77067.1| protein sopB [Escherichia coli 2730450]
+ gb|ENB23458.1| protein sopB [Escherichia coli BCE030_MS-09]
+ gb|ENE83689.1| protein sopB [Escherichia coli P0304777.15]
+ gb|ENF04854.1| protein sopB [Escherichia coli P0304777.8]
+Length=323
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001380987.1| protein sopB [Escherichia coli]
+ gb|ENA69592.1| protein sopB [Escherichia coli 178900]
+Length=323
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 45/45 (100%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_001697462.1| protein sopB [Escherichia coli]
+ gb|EMV15723.1| protein sopB [Escherichia coli BCE034_MS-14]
+Length=323
+
+ Score = 90.9 bits (224),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+            +QFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  323
+
+
+>ref|WP_000817040.1| chromosome partitioning protein ParB [Salmonella enterica]
+ gb|EJA92307.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Newport str. CVM 4176]
+Length=323
+
+ Score = 90.9 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 36/46 (78%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            ++SSRHQ+APGAT LYKGDK++LNLDR R+P ECIEKIEA+LKELE
+Sbjct  274  NLSSRHQYAPGATALYKGDKVILNLDRRRLPVECIEKIEAVLKELE  319
+
+
+>ref|WP_001716922.1| protein sopB [Escherichia coli]
+ gb|EMW21180.1| protein sopB [Escherichia coli 2848050]
+ gb|EST00705.1| Chromosome (plasmid) partitioning protein ParB [Escherichia coli 
+CE418]
+Length=323
+
+ Score = 90.5 bits (223),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_016233102.1| protein sopB [Escherichia coli]
+ gb|EOU64398.1| protein sopB [Escherichia coli KTE19]
+ gb|EOW69334.1| protein sopB [Escherichia coli KTE159]
+Length=323
+
+ Score = 90.5 bits (223),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>gb|ETF32634.1| protein sopB [Escherichia coli UMEA 3489-1]
+Length=323
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 44/45 (98%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  278  RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_001299141.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EDV81548.1| repFiA replicon essential function protein [Escherichia coli 
+E22]
+Length=321
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 38/47 (81%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  4    MSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            +SSRHQFAPGAT LYKGDK+VLNLDRSR+P  CIEKIEAIL +LEK 
+Sbjct  273  LSSRHQFAPGATALYKGDKVVLNLDRSRLPVGCIEKIEAILGDLEKT  319
+
+
+>ref|WP_023345606.1| protein sopB [Enterobacter sp. MGH 16]
+ gb|ESN47107.1| protein sopB [Enterobacter sp. MGH 16]
+Length=322
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++S+RHQF PGAT LYKGD+++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  275  NLSTRHQFVPGATALYKGDRVIFNLDKSRLPAECIEKIESILRDLQK  321
+
+
+>ref|WP_004132004.1| chromosome partitioning protein ParB [Klebsiella oxytoca]
+ gb|EHT04827.1| protein sopB [Klebsiella oxytoca 10-5250]
+Length=323
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            ++SSRHQFAPGA+ LYKGDK++LNLDR+RVP  CIEKIEAILKELE
+Sbjct  274  NLSSRHQFAPGASALYKGDKVILNLDRTRVPAVCIEKIEAILKELE  319
+
+
+>ref|YP_003602561.1| plasmid-partitioning protein SopB [Enterobacter cloacae subsp. 
+cloacae ATCC 13047]
+ ref|YP_007846974.1| ParB-like partition proteins [Enterobacter cloacae subsp. cloacae 
+NCTC 9394]
+ ref|WP_013087134.1| chromosome partitioning protein ParB [Enterobacter cloacae]
+ gb|ADF64753.1| plasmid-partitioning protein SopB [Enterobacter cloacae subsp. 
+cloacae ATCC 13047]
+ emb|CBK86887.1| ParB-like partition proteins [Enterobacter cloacae subsp. cloacae 
+NCTC 9394]
+Length=321
+
+ Score = 90.1 bits (222),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIESILRDLQK  320
+
+
+>ref|WP_022652318.1| protein sopB [Enterobacter sp. MGH 14]
+ gb|ERO99975.1| protein sopB [Enterobacter sp. MGH 14]
+Length=321
+
+ Score = 89.7 bits (221),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE+IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIESILRDLQK  320
+
+
+>ref|WP_023327690.1| protein sopB [Enterobacter sp. MGH 34]
+ gb|ESM78880.1| protein sopB [Enterobacter sp. MGH 34]
+Length=321
+
+ Score = 89.3 bits (220),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 31/47 (66%), Positives = 42/47 (89%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++++RHQF PGAT LYKGDK++ NLD+SR+P ECIEKIE IL++L+K
+Sbjct  274  NLNTRHQFVPGATALYKGDKVIFNLDKSRLPAECIEKIETILRDLQK  320
+
+
+>ref|WP_000817025.1| chromosome partitioning protein ParB [Escherichia albertii]
+Length=323
+
+ Score = 89.3 bits (220),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 39/44 (89%), Positives = 41/44 (93%), Gaps = 0/44 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKP  50
+            RHQFAPGAT LYKGDKMV+NLDRSR+P ECIEKIE ILKELEKP
+Sbjct  278  RHQFAPGATALYKGDKMVINLDRSRIPAECIEKIEVILKELEKP  321
+
+
+>ref|YP_004821686.1| parB-like partition protein [Enterobacter asburiae LF7a]
+ ref|WP_014063950.1| chromosome partitioning protein ParB [Enterobacter asburiae]
+ gb|AEN67310.1| parB-like partition protein [Enterobacter asburiae LF7a]
+Length=326
+
+ Score = 89.3 bits (220),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 31/47 (66%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            ++S+RHQF PGA+VLYKGDK++ NLD++R+P ECIEKIE IL+EL++
+Sbjct  276  NLSTRHQFVPGASVLYKGDKVIFNLDKTRLPAECIEKIEGILRELQQ  322
+
+
+>ref|WP_001519995.1| protein sopB [Escherichia coli]
+ gb|ELC26949.1| protein sopB [Escherichia coli KTE16]
+ gb|EQN78796.1| protein sopB [Escherichia coli HVH 24 (4-5985145)]
+ gb|ETF13884.1| protein sopB [Escherichia coli HVH 177 (4-2876612)]
+Length=323
+
+ Score = 88.2 bits (217),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 43/44 (98%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKTA  322
+
+
+>ref|WP_016231334.1| protein sopB [Escherichia coli]
+ gb|EOU49407.1| protein sopB [Escherichia coli KTE114]
+Length=323
+
+ Score = 88.2 bits (217),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 42/44 (95%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPT+CIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTDCIEKIEAILKELEKTA  322
+
+
+>ref|WP_016262288.1| protein sopB [Escherichia coli]
+ gb|EOV48823.1| protein sopB [Escherichia coli KTE52]
+Length=323
+
+ Score = 88.2 bits (217),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 42/44 (95%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSRVPT+CIEKIEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRVPTDCIEKIEAILKELEKTA  322
+
+
+>ref|WP_023140239.1| ParB-like protein, partial [Escherichia coli]
+ gb|ESD05735.1| ParB-like protein, partial [Escherichia coli 113302]
+Length=268
+
+ Score = 87.4 bits (215),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  224  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  267
+
+
+>ref|WP_021572054.1| protein sopB [Escherichia coli]
+ gb|EQZ08266.1| protein sopB [Escherichia coli UMEA 3355-1]
+Length=323
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKTA  322
+
+
+>ref|WP_001736941.1| chromosome partitioning protein ParB [Salmonella enterica]
+ gb|ESH66695.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Bareilly str. 2780]
+Length=322
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/45 (76%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+ LYKGDK+V+NLDRSR+  +CIEKIE+IL+ LEK
+Sbjct  277  SSRHQFAPGASALYKGDKIVVNLDRSRISADCIEKIESILRGLEK  321
+
+
+>ref|WP_001587498.1| protein sopB [Escherichia coli]
+ gb|ELG11818.1| protein sopB [Escherichia coli KTE54]
+Length=323
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IE ILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIETILKELEKTA  322
+
+
+>ref|NP_863034.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001481159.1| plasmid-partitioning protein [Escherichia coli APEC O1]
+ ref|YP_001711991.1| plasmid-partitioning protein [Escherichia coli]
+ ref|YP_001739960.1| plasmid partition protein SopB [Escherichia coli SMS-3-5]
+ ref|YP_002038947.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Kentucky str. CVM29188]
+ ref|YP_002401040.1| plasmid-partitioning protein [Escherichia coli S88]
+ ref|YP_002539367.1| SopB [Escherichia coli chi7122]
+ ref|YP_003937749.1| SopB protein (Plasmid partition protein B) [Escherichia coli]
+ ref|YP_006162303.1| plasmid-partitioning protein [Escherichia coli O83:H1 str. NRG 
+857C]
+ ref|YP_006970938.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ ref|YP_006971066.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ ref|YP_007443302.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+O25b:H4-ST131 str. EC958]
+ ref|WP_000817028.1| chromosome partitioning protein ParB [Enterobacteriaceae]
+ gb|AAO49629.1| SopB [Escherichia coli]
+ gb|ABD51574.1| SopB [Escherichia coli APEC O1]
+ gb|ACA34885.1| SopB [Escherichia coli]
+ gb|ACB20243.1| plasmid partition protein SopB [Escherichia coli SMS-3-5]
+ gb|ACF57018.1| plasmid partition protein SopB [Salmonella enterica subsp. enterica 
+serovar Kentucky str. CVM29188]
+ emb|CAQ87107.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+S88]
+ gb|ACM18300.1| SopB [Escherichia coli chi7122]
+ gb|EEH89502.1| ParB-like protein [Escherichia sp. 3_2_53FAA]
+ gb|EFJ83919.1| ParB-like protein [Escherichia coli MS 84-1]
+ gb|EFK68135.1| ParB-like protein [Escherichia coli MS 124-1]
+ gb|ADK62169.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ gb|ADK62296.1| plasmid partitioning protein SopB [Salmonella enterica subsp. 
+enterica serovar Kentucky]
+ emb|CBX36088.1| SopB protein (Plasmid partition protein B) [Escherichia coli]
+ gb|ADR29976.1| plasmid-partitioning protein [Escherichia coli O83:H1 str. NRG 
+857C]
+ gb|EFU33205.1| ParB-like protein [Escherichia coli MS 85-1]
+ gb|EFU47034.1| ParB-like protein [Escherichia coli MS 110-3]
+ gb|EGB44553.1| ParB partition protein [Escherichia coli H252]
+ gb|EGC93650.1| plasmid-partitioning protein [Escherichia fergusonii ECD227]
+ gb|EGI21791.1| protein SopB (Plasmid partition protein B) [Escherichia coli 
+M718]
+ gb|EGP21890.1| Protein sopB [Escherichia coli PCN033]
+ gb|EHN81160.1| protein sopB [Escherichia coli H494]
+ gb|EIL80560.1| plasmid-partitioning protein [Escherichia coli HM605]
+ gb|ELC03758.1| protein sopB [Escherichia coli KTE4]
+ gb|ELC11023.1| protein sopB [Escherichia coli KTE5]
+ gb|ELC23983.1| protein sopB [Escherichia coli KTE12]
+ gb|ELC26547.1| protein sopB [Escherichia coli KTE15]
+ gb|ELC41105.1| protein sopB [Escherichia coli KTE25]
+ gb|ELC51516.1| protein sopB [Escherichia coli KTE28]
+ gb|ELC66272.1| protein sopB [Escherichia coli KTE178]
+ gb|ELE34275.1| protein sopB [Escherichia coli KTE62]
+ gb|ELF61190.1| protein sopB [Escherichia coli KTE17]
+ gb|ELF67758.1| protein sopB [Escherichia coli KTE18]
+ gb|ELF86597.1| protein sopB [Escherichia coli KTE22]
+ gb|ELG11364.1| protein sopB [Escherichia coli KTE59]
+ gb|ELG25984.1| protein sopB [Escherichia coli KTE65]
+ gb|ELG56871.1| protein sopB [Escherichia coli KTE123]
+ gb|ELH16201.1| protein sopB [Escherichia coli KTE190]
+ gb|ELH78381.1| protein sopB [Escherichia coli KTE217]
+ gb|ELH93460.1| protein sopB [Escherichia coli KTE229]
+ gb|ELI03961.1| protein sopB [Escherichia coli KTE105]
+ gb|ELI93934.1| protein sopB [Escherichia coli KTE150]
+ gb|ELJ56362.1| protein sopB [Escherichia coli KTE179]
+ gb|AGC14197.1| SopB protein (Plasmid partition protein B) [Escherichia coli 
+O25b:H4-ST131 str. EC958]
+ gb|EMD02291.1| plasmid-partitioning protein [Escherichia coli O08]
+ gb|EOU36436.1| protein sopB [Escherichia coli KTE7]
+ gb|EOU38447.1| protein sopB [Escherichia coli KTE13]
+ gb|EOU42186.1| protein sopB [Escherichia coli KTE3]
+ gb|EOU53685.1| protein sopB [Escherichia coli KTE231]
+ gb|EOU81182.1| protein sopB [Escherichia coli KTE27]
+ gb|EOW04169.1| protein sopB [Escherichia coli KTE98]
+ gb|EOX03499.1| protein sopB [Escherichia coli KTE240]
+ emb|CCV19821.1| Protein SopB [Escherichia coli]
+ gb|EQM99448.1| protein sopB [Escherichia coli HVH 1 (4-6876161)]
+ gb|EQN13789.1| protein sopB [Escherichia coli HVH 5 (4-7148410)]
+ gb|EQN25989.1| protein sopB [Escherichia coli HVH 9 (4-6942539)]
+ gb|EQN45101.1| protein sopB [Escherichia coli HVH 17 (4-7473087)]
+ gb|EQO07284.1| protein sopB [Escherichia coli HVH 30 (4-2661829)]
+ gb|EQO15094.1| protein sopB [Escherichia coli HVH 32 (4-3773988)]
+ gb|EQO69731.1| protein sopB [Escherichia coli HVH 41 (4-2677849)]
+ gb|EQO76344.1| protein sopB [Escherichia coli HVH 46 (4-2758776)]
+ gb|EQO78164.1| protein sopB [Escherichia coli HVH 48 (4-2658593)]
+ gb|EQP06115.1| protein sopB [Escherichia coli HVH 59 (4-1119338)]
+ gb|EQP44342.1| protein sopB [Escherichia coli HVH 73 (4-2393174)]
+ gb|EQP56364.1| protein sopB [Escherichia coli HVH 76 (4-2538717)]
+ gb|EQP65124.1| protein sopB [Escherichia coli HVH 79 (4-2512823)]
+ gb|EQP77830.1| protein sopB [Escherichia coli HVH 80 (4-2428830)]
+ gb|EQP86787.1| protein sopB [Escherichia coli HVH 85 (4-0792144)]
+ gb|EQQ34154.1| protein sopB [Escherichia coli HVH 102 (4-6906788)]
+ gb|EQQ47351.1| protein sopB [Escherichia coli HVH 104 (4-6977960)]
+ gb|EQR28488.1| protein sopB [Escherichia coli HVH 121 (4-6877826)]
+ gb|EQR46744.1| protein sopB [Escherichia coli HVH 127 (4-7303629)]
+ gb|EQR81992.1| protein sopB [Escherichia coli HVH 137 (4-2124971)]
+ gb|EQR97377.1| protein sopB [Escherichia coli HVH 141 (4-5995973)]
+ gb|EQS26914.1| protein sopB [Escherichia coli HVH 146 (4-3189767)]
+ gb|EQT16306.1| protein sopB [Escherichia coli HVH 176 (4-3428664)]
+ gb|EQT20138.1| protein sopB [Escherichia coli HVH 180 (4-3051617)]
+ gb|EQT69578.1| protein sopB [Escherichia coli HVH 191 (3-9341900)]
+ gb|EQT82619.1| protein sopB [Escherichia coli HVH 193 (4-3331423)]
+ gb|EQU17647.1| protein sopB [Escherichia coli HVH 200 (4-4449924)]
+ gb|EQU17796.1| protein sopB [Escherichia coli HVH 201 (4-4459431)]
+ gb|EQU28455.1| protein sopB [Escherichia coli HVH 203 (4-3126218)]
+ gb|EQU64032.1| protein sopB [Escherichia coli HVH 211 (4-3041891)]
+ gb|EQU87333.1| protein sopB [Escherichia coli HVH 217 (4-1022806)]
+ gb|EQV05265.1| protein sopB [Escherichia coli HVH 222 (4-2977443)]
+ gb|EQV33304.1| protein sopB [Escherichia coli KOEGE 32 (66a)]
+ gb|EQV38181.1| protein sopB [Escherichia coli KOEGE 33 (68a)]
+ gb|EQV38946.1| protein sopB [Escherichia coli KOEGE 40 (102a)]
+ gb|EQV60549.1| protein sopB [Escherichia coli KOEGE 56 (169a)]
+ gb|EQW20359.1| protein sopB [Escherichia coli UMEA 3033-1]
+ gb|EQW24359.1| protein sopB [Escherichia coli UMEA 3041-1]
+ gb|EQW91966.1| protein sopB [Escherichia coli UMEA 3140-1]
+ gb|EQX18283.1| protein sopB [Escherichia coli UMEA 3162-1]
+ gb|EQX92879.1| protein sopB [Escherichia coli UMEA 3206-1]
+ gb|EQX92881.1| protein sopB [Escherichia coli UMEA 3203-1]
+ gb|EQZ45230.1| protein sopB [Escherichia coli UMEA 3632-1]
+ gb|EQZ59249.1| protein sopB [Escherichia coli UMEA 3662-1]
+ gb|EQZ71753.1| protein sopB [Escherichia coli UMEA 3702-1]
+ gb|ERB23423.1| protein sopB [Escherichia coli UMEA 3271-1]
+ gb|ERB27010.1| protein sopB [Escherichia coli UMEA 3151-1]
+ gb|ERN61603.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Kentucky str. 29166]
+ gb|ERN67935.1| chromosome partitioning protein ParB [Salmonella enterica subsp. 
+enterica serovar Kentucky str. 22694]
+ gb|ESA83432.1| ParB-like protein [Escherichia coli 907357]
+ gb|ESD29224.1| ParB-like protein [Escherichia coli 907710]
+ gb|ESD79350.1| ParB-like protein [Escherichia coli 908541]
+ gb|ESE22770.1| ParB-like protein [Escherichia coli 908675]
+ gb|ESP12321.1| protein sopB [Escherichia coli HVH 12 (4-7653042)]
+ gb|ESP26498.1| protein sopB [Escherichia coli HVH 152 (4-3447545)]
+ gb|ESP27284.1| protein sopB [Escherichia coli HVH 178 (4-3189163)]
+ gb|ESP38446.1| protein sopB [Escherichia coli HVH 108 (4-6924867)]
+ gb|ETF24457.1| protein sopB [Escherichia coli HVH 214 (4-3062198)]
+Length=323
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 41/44 (93%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  322
+
+
+>ref|WP_000817026.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EKI29221.1| protein sopB [Escherichia coli 3006]
+Length=323
+
+ Score = 87.0 bits (214),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 38/45 (84%), Positives = 40/45 (89%), Gaps = 0/45 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            RHQFAPGAT LYKGDKMV+NLDRSR+P ECIEKIE ILKEL KP 
+Sbjct  278  RHQFAPGATALYKGDKMVINLDRSRIPAECIEKIEVILKELGKPG  322
+
+
+>ref|WP_001575734.1| protein sopB [Escherichia coli]
+ gb|ELF38531.1| protein sopB [Escherichia coli KTE171]
+Length=323
+
+ Score = 85.5 bits (210),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            +QFAPGATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKTA  322
+
+
+>ref|WP_023208098.1| plasmid-partitioning protein [Salmonella enterica]
+ gb|ESF65417.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Rubislaw str. ATCC 10717]
+Length=322
+
+ Score = 85.1 bits (209),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 34/45 (76%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+ LYKGDK+V+NLDRSR+  + IEKIE+IL+ELEK
+Sbjct  277  SSRHQFAPGASALYKGDKIVVNLDRSRISADYIEKIESILRELEK  321
+
+
+>gb|ETE47335.1| plasmid-partitioning protein [Salmonella enterica subsp. enterica 
+serovar Infantis str. 119944]
+Length=319
+
+ Score = 83.9 bits (206),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 34/45 (76%), Positives = 40/45 (89%), Gaps = 0/45 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            SSRHQFAPGA+VLYKGDK+ +NLDR+R+P   IEKIE IL+ELEK
+Sbjct  274  SSRHQFAPGASVLYKGDKVTVNLDRTRIPVSYIEKIENILRELEK  318
+
+
+>ref|NP_943529.1| plasmid-partitioning protein [Klebsiella pneumoniae CG43]
+ ref|WP_011154515.1| plasmid-partitioning protein [Klebsiella pneumoniae]
+ gb|AAR07880.1| SopB [Klebsiella pneumoniae CG43]
+Length=315
+
+ Score = 83.5 bits (205),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 34/40 (85%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  3    HMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEA  42
+            ++SSRHQFAPGAT LYKGDKMVLNLDRSR+P ECIEKIE+
+Sbjct  274  NLSSRHQFAPGATALYKGDKMVLNLDRSRIPAECIEKIES  313
+
+
+>emb|CDH61714.1| Plasmid partition protein B [Escherichia coli PMV-1]
+Length=323
+
+ Score = 82.8 bits (203),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            HQFA GATVLYKGDKMVLNLDRSR+PTECIE+IEAILKELEK A
+Sbjct  279  HQFALGATVLYKGDKMVLNLDRSRIPTECIERIEAILKELEKAA  322
+
+
+>ref|WP_000817027.1| chromosome partitioning protein ParB [Escherichia coli]
+ gb|EHV61875.1| protein sopB [Escherichia coli DEC6C]
+Length=323
+
+ Score = 82.4 bits (202),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 40/44 (91%), Positives = 41/44 (93%), Gaps = 0/44 (0%)
+
+Query  8    HQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPA  51
+            +QFAPGATVLYKGDKMVLNLDRSRV TE IEKIEAILKELEK A
+Sbjct  279  YQFAPGATVLYKGDKMVLNLDRSRVSTEWIEKIEAILKELEKTA  322
+
+
+>ref|YP_001165530.1| plasmid-partitioning protein [Enterobacter sp. 638]
+ ref|WP_011906526.1| chromosome partitioning protein ParB [Enterobacter sp. 638]
+ gb|ABP62856.1| parB-like partition protein [Enterobacter sp. 638]
+Length=322
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 21/43 (49%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            + +F PGA   YKG+K+V  LDR+++  +CIE++E IL++LEK
+Sbjct  276  KREFVPGAMAQYKGNKVVFTLDRTKISKDCIEQMENILEKLEK  318
+
+
+>ref|WP_017345800.1| chromosome partitioning protein ParB [Pantoea sp. A4]
+Length=318
+
+ Score = 65.8 bits (159),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  5    SSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELE  48
+            + +  F PGAT  YKG+K++ +LDR++VP   IE++E +L + E
+Sbjct  274  TVKKDFRPGATAQYKGNKVLFSLDRNKVPQSLIEQLEELLSKSE  317
+
+
+>ref|YP_006604.1| Gp24 [Klebsiella phage phiKO2]
+ gb|AAR83040.1| Gp24 [Klebsiella phage phiKO2]
+Length=323
+
+ Score = 40.0 bits (92),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+
+Query  6    SRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILK  45
+            +  ++  G    YKG+ + L LD  ++P++ ++K+E +L+
+Sbjct  276  NEKRYGDGVVAKYKGNYVTLKLDNRKIPSDLMKKLEDLLE  315
+
+
+>ref|WP_023339380.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESN30902.1| hypothetical protein L367_05255 [Klebsiella pneumoniae MGH 21]
+Length=321
+
+ Score = 40.0 bits (92),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 26/45 (58%), Gaps = 1/45 (2%)
+
+Query  6    SRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILK-ELEK  49
+            +   +  G    Y G+ + L  D  ++P+  ++KIEA+L+ ELEK
+Sbjct  276  TEKAYGEGVVAKYNGNYVTLKFDNRKIPSSLMKKIEALLESELEK  320
+
+
+>ref|NP_046922.1| ParB [Enterobacteria phage N15]
+ gb|AAC19063.1| gp27 [Enterobacteria phage N15]
+Length=342
+
+ Score = 38.9 bits (89),  Expect = 0.071, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  6    SRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILK  45
+            +  ++  G    YKG  + L +D  ++P+  I+KIEA+L+
+Sbjct  277  TEKKYGEGVVAKYKGSFVTLKVDSRKIPSNLIKKIEALLE  316
+
+
+>ref|WP_001542570.1| hypothetical protein, partial [Escherichia coli]
+ gb|ELD26236.1| hypothetical protein A15U_00009, partial [Escherichia coli KTE210]
+Length=137
+
+ Score = 36.6 bits (83),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKE  46
+              ++  G T  YKG+ + + +D  ++  E + +IE +L+E
+Sbjct  93   EKKYGEGITARYKGNFVTIKIDSRKISKEILSRIELLLEE  132
+
+
+>ref|WP_021531776.1| hypothetical protein [Escherichia coli]
+ gb|EQR39567.1| hypothetical protein G786_04890 [Escherichia coli HVH 126 (4-6034225)]
+Length=321
+
+ Score = 37.3 bits (85),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKE  46
+              ++  G T  YKG+ + + +D  ++  E + +IE +L+E
+Sbjct  277  EKKYGEGITARYKGNFVTIKIDSRKISKEILSRIELLLEE  316
+
+
+>ref|WP_001533177.1| ParB-like partition protein [Escherichia coli]
+ gb|ELC73526.1| ParB-like partition protein [Escherichia coli KTE187]
+ gb|ELJ94855.1| ParB-like partition protein [Escherichia coli KTE97]
+Length=321
+
+ Score = 37.3 bits (85),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKE  46
+              ++  G T  YKG+ + + +D  ++  E + +IE +L+E
+Sbjct  277  EKKYGEGITARYKGNFVTIKIDSRKISKEILSRIELLLEE  316
+
+
+>ref|WP_001385852.1| protein sopB [Escherichia coli]
+ gb|ENA72826.1| protein sopB [Escherichia coli 179550]
+ gb|END32947.1| protein sopB [Escherichia coli P0302308.4]
+ gb|ENH12423.1| protein sopB [Escherichia coli P0302308.12]
+Length=321
+
+ Score = 37.3 bits (85),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKE  46
+              ++  G T  YKG+ + + +D  ++  E + +IE +L+E
+Sbjct  277  EKKYGEGITARYKGNFVTIKIDSRKISKEILSRIELLLEE  316
+
+
+>ref|WP_001728175.1| protein sopB [Escherichia coli]
+ gb|EMW68980.1| protein sopB [Escherichia coli 2756500]
+ gb|ENA11295.1| protein sopB [Escherichia coli 201600.1]
+Length=321
+
+ Score = 37.3 bits (85),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  7    RHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKE  46
+              ++  G T  YKG+ + + +D  ++  E + +IE +L+E
+Sbjct  277  EKKYGEGITARYKGNFVTIKIDSRKISKEILSRIELLLEE  316
+
+
+>ref|WP_017375473.1| chromosome partitioning protein ParB [Enterobacteriaceae bacterium 
+LSJC7]
+Length=393
+
+ Score = 37.3 bits (85),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 26/49 (53%), Gaps = 2/49 (4%)
+
+Query  1    GSHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEK  49
+            G   +S  +F  G    YKGD +   L    VP E +++IE +L++ ++
+Sbjct  273  GKVQASERKFGAGIKAKYKGDAVSFQL--KGVPQELVKQIEDLLEQHQR  319
+
+
+>ref|WP_008490142.1| YD repeat-containing protein [Idiomarina xiamenensis]
+ gb|EKE78039.1| YD repeat-containing protein [Idiomarina xiamenensis 10-D-4]
+Length=249
+
+ Score = 35.0 bits (79),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 11/51 (22%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  2   SHMSSRHQFAPGATVLYKGDKMVLNLDRSRVPTECIEKIEAILKELEKPAP  52
+           +  SS  QF   A++   G+ ++ NL+ + +    +E++  + ++++ P P
+Sbjct  36  NDCSSEMQFRNTASLFNSGNVVIFNLELNNIRAYSVERVPRVGEQIQAPIP  86
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.136    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 309888584730
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

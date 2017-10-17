@@ -1,0 +1,2715 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4G6DB
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|YP_024505.1|  hypothetical protein KgORF75 [Staphylococcus ph...   405    6e-142
+ref|YP_007112958.1|  hypothetical protein [Staphylococcus phage J...   405    9e-142
+ref|YP_007002251.1|  hypothetical protein GH15_128 [Staphylococcu...   401    3e-140
+pdb|4G8X|B  Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain...   395    7e-138
+ref|YP_007005577.1|  hypothetical protein [Staphylococcus phage S...   219    1e-68 
+ref|YP_238590.1|  ORF065 [Staphylococcus phage Twort] >gb|AAX9236...   154    3e-43 
+ref|YP_002790821.1|  hypothetical protein lb338_phage_142 [Lactob...  65.9    2e-10 
+ref|YP_006908017.1|  hypothetical protein BCP78_0182 [Bacillus ph...  60.8    1e-08 
+ref|YP_007676775.1|  hypothetical protein AG2_108 [Listeria phage...  59.7    2e-08 
+gb|AGK86994.1|  hypothetical protein SIOphi_00930 [Bacillus phage...  58.2    9e-08 
+ref|YP_001468496.1|  gp116 [Listeria phage A511] >ref|YP_00824009...  57.8    1e-07 
+gb|AGY47370.1|  hypothetical protein Grass_105 [Bacillus phage Gr...  56.6    3e-07 
+ref|YP_008318370.1|  hypothetical protein [Bacillus phage phiNIT1...  55.8    7e-07 
+ref|YP_007677093.1|  hypothetical protein [Bacillus phage vB_BceM...  53.5    4e-06 
+ref|YP_001504157.1|  hypothetical protein EFP_gp048 [Enterococcus...  51.2    5e-05 
+ref|YP_004957067.1|  gp52 [Bacillus phage W.Ph.] >gb|ADH03198.1| ...  38.5    1.1   
+ref|WP_020021544.1|  hypothetical protein [alpha proteobacterium ...  38.1    2.0   
+ref|WP_017895366.1|  (p)ppGpp synthetase [Clostridium tyrobutyricum]  37.0    5.4   
+ref|WP_017752800.1|  (p)ppGpp synthetase [Clostridium tyrobutyricum]  37.0    5.7   
+ref|WP_018594450.1|  hypothetical protein [Blautia producta]          36.6    5.9   
+ref|WP_005979179.1|  3-hydroxyacyl-CoA dehydrogenase [Fusobacteri...  36.2    7.3   
+ref|XP_002115958.1|  hypothetical protein TRIADDRAFT_59913 [Trich...  36.6    9.0   
+ref|WP_022459534.1|  acetyltransferase GNAT family [Fusobacterium...  35.4    10.0  
+
+
+>ref|YP_024505.1| hypothetical protein KgORF75 [Staphylococcus phage K]
+ ref|YP_240941.1| ORF067 [Staphylococcus phage G1]
+ ref|YP_008873631.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ pdb|4G6D|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G94|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ gb|AAO47524.1| ORF75 [Staphylococcus phage K]
+ gb|AAX92149.1| ORF067 [Staphylococcus phage G1]
+ gb|ABL87146.1| hypothetical protein [Staphylococcus phage 812]
+ gb|ACB89097.1| gp ORF104 [Staphylococcus phage A5W]
+ gb|AEJ79753.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ emb|CCA65778.1| hypothetical protein [Staphylococcus phage ISP]
+ gb|AFN37949.1| Asf [Staphylococcus phage Staph1N]
+ gb|AFN38159.1| Asf [Staphylococcus phage A3R]
+ gb|AFN38353.1| Asf [Staphylococcus phage 676Z]
+ gb|AFN38565.1| Asf [Staphylococcus phage Fi200W]
+ gb|AFN38777.1| Asf [Staphylococcus phage MSA6]
+ gb|AFN38988.1| Asf [Staphylococcus phage P4W]
+ gb|AFV80710.1| hypothetical protein SA5_047 [Staphylococcus phage SA5]
+Length=198
+
+ Score =  405 bits (1041),  Expect = 6e-142, Method: Compositional matrix adjust.
+ Identities = 198/198 (100%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_007112958.1| hypothetical protein [Staphylococcus phage JD007]
+ ref|YP_008854082.1| hypothetical protein [Staphylococcus phage S25-4]
+ ref|YP_008854258.1| hypothetical protein [Staphylococcus phage S25-3]
+ gb|AFV50893.1| hypothetical protein [Staphylococcus phage JD007]
+ dbj|BAO09286.1| hypothetical protein [Staphylococcus phage S25-3]
+ dbj|BAO09501.1| hypothetical protein [Staphylococcus phage S25-4]
+Length=198
+
+ Score =  405 bits (1040),  Expect = 9e-142, Method: Compositional matrix adjust.
+ Identities = 197/198 (99%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLP+ITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPVITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_007002251.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+ gb|AFF28600.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+Length=198
+
+ Score =  401 bits (1031),  Expect = 3e-140, Method: Compositional matrix adjust.
+ Identities = 195/198 (98%), Positives = 197/198 (99%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKI YWYNPAVRKDNLKIIEKAKQYGLP+ITE+YDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIDYWYNPAVRKDNLKIIEKAKQYGLPVITEQYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>pdb|4G8X|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G8X|D Chain D, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+Length=198
+
+ Score =  395 bits (1015),  Expect = 7e-138, Method: Compositional matrix adjust.
+ Identities = 194/197 (98%), Positives = 194/197 (98%), Gaps = 0/197 (0%)
+
+Query  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+            KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS
+Sbjct  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+
+Query  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+            TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT
+Sbjct  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+
+Query  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYS  181
+            VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFN KSEESQLNEALKESDFSVDLTYS
+Sbjct  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNXKSEESQLNEALKESDFSVDLTYS  181
+
+Query  182  DLGQIYNMLLLMKKISK  198
+            DLGQIYN LLL KKISK
+Sbjct  182  DLGQIYNXLLLXKKISK  198
+
+
+>ref|YP_007005577.1| hypothetical protein [Staphylococcus phage SA11]
+ ref|YP_007677556.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+ ref|YP_008431186.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFO70689.1| hypothetical protein [Staphylococcus phage SA11]
+ gb|AFV80946.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFV81120.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+Length=197
+
+ Score =  219 bits (557),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 115/196 (59%), Positives = 139/196 (71%), Gaps = 2/196 (1%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI D   A+L V + N     IDN+P + LVDWYPLSNAYEYK S +  Y+ELKRLR
+Sbjct  1    MKLKIKDNQFASLTVNYTNNAKLHIDNIPVSTLVDWYPLSNAYEYKASNDFGYIELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYGL   +Q + +    +CK+G WYN  +++DN KIIEKAK YGLP I E + + 
+Sbjct  61   SSLPVSYGL--THQTLYKCETVKCKLGLWYNEKIKEDNEKIIEKAKLYGLPTIDEPFTSK  118
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+QGF D+GVIFQ+LKTI    YL+ KT EE+  F+ KSE+ QLNE LK S   VD TY
+Sbjct  119  DVKQGFSDLGVIFQTLKTISTNEYLKDKTIEEINTFSKKSEDYQLNEVLKYSTTLVDDTY  178
+
+Query  181  SDLGQIYNMLLLMKKI  196
+            SDL QIYNMLLLMKKI
+Sbjct  179  SDLSQIYNMLLLMKKI  194
+
+
+>ref|YP_238590.1| ORF065 [Staphylococcus phage Twort]
+ gb|AAX92360.1| ORF065 [Staphylococcus phage Twort]
+Length=195
+
+ Score =  154 bits (388),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 87/198 (44%), Positives = 124/198 (63%), Gaps = 4/198 (2%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI +K    L V   N    T  +VP +N+ +WYP SNAY YK +   + L LKRLR
+Sbjct  1    MKLKIKNKFMGVLEV--TNSMGVTKLDVPLSNIHEWYPFSNAYSYKYNVKTKDLVLKRLR  58
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYG++  +++   D +  C    W N +V+  NL II KAK YGLP+ITE+Y   
+Sbjct  59   SSLPVSYGIERASKE--YDKDKVCNTVTWINHSVKDSNLHIINKAKSYGLPVITEKYTYE  116
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+ GF  + VIF  LK++++ RYLE K    +  F   + E+Q + A++++D  ++ TY
+Sbjct  117  DVDYGFAQLNVIFSELKSLIINRYLEDKDGSFIVKFKRHNPETQYHLAVQDADEVINNTY  176
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+             +LGQ+Y MLLLMKK+SK
+Sbjct  177  DELGQMYKMLLLMKKLSK  194
+
+
+>ref|YP_002790821.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+ gb|ACO37063.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+Length=188
+
+ Score = 65.9 bits (159),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 49/174 (28%), Positives = 84/174 (48%), Gaps = 21/174 (12%)
+
+Query  24   TIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHR  83
+            ++D +P      WYPL+  Y Y+     + +  +   S + +   +  N  ++I+     
+Sbjct  30   SVDTLPY-----WYPLNLNYYYEYDERSKEIRFRHRNSRISAK--IKGNYLNVIK-----  77
+
+Query  84   CKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTR  143
+                 WYN  V  DN +I E A   G+  I ++Y++  V +GF  +G +   L T+ V R
+Sbjct  78   -----WYNAGVYADNKRIEEHAHALGISSIFDDYNSLDVSKGFLKVGQLIDDL-TMKVIR  131
+
+Query  144  YLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+            +     E      ++ ++E+    ALK      +L Y+ LG+IYNML LMKK++
+Sbjct  132  HHPHAFESGTGKLDIYNQEAY---ALKHCTKEENLEYTYLGEIYNMLCLMKKVA  182
+
+
+>ref|YP_006908017.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47189.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47677.1| hypothetical protein BCU4_0171 [Bacillus phage BCU4]
+Length=198
+
+ Score = 60.8 bits (146),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 53/174 (30%), Positives = 81/174 (47%), Gaps = 12/174 (7%)
+
+Query  28   VPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLD----DNNQDIIRDNNH  82
+            +P  N+  WYP +  + YK S   EY+ L + +     + YG D         I  D+  
+Sbjct  27   IPKKNIHFWYPFNLGFYYKYSAAKEYMYLVQDKHYDRGNVYGTDILKRTKELPITEDDVP  86
+
+Query  83   RCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVT  142
+                   YN  V K N++II KA+  G+P IT+ YD N V +GF  +    Q +K  +  
+Sbjct  87   -------YNEPVFKRNVQIIMKARFMGIPTITDNYDLNQVNEGFEIVSDHMQYIKEKIEK  139
+
+Query  143  RYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKI  196
+            RY+E    +      ++  E    +  + +  S       LG+IYNML+LMKK+
+Sbjct  140  RYMEKYITKVENYQPVQQTEEWDKQIYRCARASELGELELLGEIYNMLVLMKKL  193
+
+
+>ref|YP_007676775.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+ gb|AFJ76044.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+Length=196
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/203 (27%), Positives = 93/203 (46%), Gaps = 17/203 (8%)
+
+Query  1    MKLKILDKDNATLN--VFHRNKEHKTIDNV---PTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANIFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKE--SD  173
+            ++    VE GF  I      +K     R  E K   E      KS+E +  +A  E  + 
+Sbjct  113  DFSQQDVENGFEVISTELAYIKEQATARCYEDKDVFERSELLKKSKEER-EQAYFEYLTV  171
+
+Query  174  FSVDLTYSDLGQIYNMLLLMKKI  196
+              V+  Y  LG++Y ML+LM+K+
+Sbjct  172  EEVNFQYK-LGELYAMLVLMRKV  193
+
+
+>gb|AGK86994.1| hypothetical protein SIOphi_00930 [Bacillus phage SIOphi]
+Length=204
+
+ Score = 58.2 bits (139),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 52/184 (28%), Positives = 92/184 (50%), Gaps = 11/184 (6%)
+
+Query  19   NKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLDDNNQDII  77
+            N+  +T   +P  NL  WYP +  + YK S +   L L + R    P+ Y    N    I
+Sbjct  24   NRTGETFVAMPLENLHYWYPFNINFSYKFSDSKGGLVLVKERGYKGPNFY----NAPSTI  79
+
+Query  78   RDNNH-RCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE-YDANTVEQGFRDIGVIFQS  135
+            ++    + K G++ N  V + N  IIEKAKQ  LP+IT++ Y++  + +GF  +  +   
+Sbjct  80   KEAEPLKKKDGFFLNQKVYERNTYIIEKAKQLNLPVITDDTYNSRDIAKGFLRLQYLMGL  139
+
+Query  136  LKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSV-DLTYSDLGQIYNMLLLMK  194
+            +K  +   Y   K  +E+    +   + +    + ES  ++ +  Y + G++Y+ML+ M 
+Sbjct  140  VKKDIEKNY---KMHQEVTNAPVTELDEEWERKMFESMSTIHEKAYLEFGEMYSMLVTMN  196
+
+Query  195  KISK  198
+            KI+K
+Sbjct  197  KIAK  200
+
+
+>ref|YP_001468496.1| gp116 [Listeria phage A511]
+ ref|YP_008240096.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+ gb|AAY53351.1| gp48 [Listeria phage P100]
+ gb|AAY52897.1| gp116 [Listeria phage A511]
+ gb|AGI11450.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+Length=196
+
+ Score = 57.8 bits (138),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 51/202 (25%), Positives = 90/202 (45%), Gaps = 15/202 (7%)
+
+Query  1    MKLKILDKDNATLN--VFHRNKEHKTIDNV---PTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANVFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTR-YLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            +++   VE GF  I      +K     R Y +    E   +     EE +       +  
+Sbjct  113  DFNQQDVENGFEVISTELAYIKEQATARCYGDKDVFERSELLKKSKEEREQAYFEYLTVE  172
+
+Query  175  SVDLTYSDLGQIYNMLLLMKKI  196
+             V+  Y  LG++Y ML+LM+K+
+Sbjct  173  EVNFQYK-LGELYAMLVLMRKV  193
+
+
+>gb|AGY47370.1| hypothetical protein Grass_105 [Bacillus phage Grass]
+Length=197
+
+ Score = 56.6 bits (135),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 46/171 (27%), Positives = 79/171 (46%), Gaps = 19/171 (11%)
+
+Query  36   WYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLDDNNQDIIRDNNHRC--KIGYWYNP  92
+            WYPL+  + Y+ S   E L L +    T  + YG      DI++ +      K G+  +P
+Sbjct  36   WYPLNTNFSYRYSNAKEQLYLVQEGGYTGENVYG-----ADILKRSKQLVVNKDGFLIHP  90
+
+Query  93   AVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEE  152
+             V + N+ I+++A   G+P +   Y+   VE GF  +    +  K I+  R++    E  
+Sbjct  91   EVLERNMYIMDEAASMGIPTLIHSYNGYDVEDGFDTLSSWIKGRKEIIEDRFMAQDAEA-  149
+
+Query  153  LRIFNMKSEESQLNEALKESDFSVDL-----TYSDLGQIYNMLLLMKKISK  198
+                     +++LNE      +S           +LG+IYNML LM+K+++
+Sbjct  150  -----WTITQTELNEEWDNKLYSYATDEELKQLQELGEIYNMLCLMRKLAE  195
+
+
+>ref|YP_008318370.1| hypothetical protein [Bacillus phage phiNIT1]
+ dbj|BAN59602.1| hypothetical protein [Bacillus phage phiNIT1]
+Length=197
+
+ Score = 55.8 bits (133),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 47/179 (26%), Positives = 82/179 (46%), Gaps = 19/179 (11%)
+
+Query  28   VPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLDDNNQDIIRDNNHRC--  84
+            + T N+  WYPL+  + Y+ S   E L L +    T  + YG      DI++ +      
+Sbjct  28   LSTENVHYWYPLNTNFSYRYSNAKEQLYLVQEGGYTGDNVYG-----ADILKRSKQLVVN  82
+
+Query  85   KIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRY  144
+            K G+  +P V + N+ I+++A   G+P +   Y+   VE GF  +    +  K I+  R+
+Sbjct  83   KDGFLIHPEVLERNMYIMDEAASMGIPTLIHSYNGYDVEDGFDTLSSWIKERKEIIEDRF  142
+
+Query  145  LEGKTEEELRIFNMKSEESQLNEALKESDFSVDL-----TYSDLGQIYNMLLLMKKISK  198
+            +    E           +++LNE      +S           +LG+IY ML LM+K+++
+Sbjct  143  MAQDAE------AWTITQTELNEEWDTKLYSYATDEELKQLQELGEIYTMLCLMRKLAE  195
+
+
+>ref|YP_007677093.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+ gb|AFQ96503.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+Length=190
+
+ Score = 53.5 bits (127),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 42/172 (24%), Positives = 80/172 (47%), Gaps = 9/172 (5%)
+
+Query  28   VPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKI-  86
+            +P  N+  WYP +  + YK S    Y+ L + +       G +  +  I++      K  
+Sbjct  27   LPKENIHFWYPFNINFYYKHSSAKGYMYLVQDKH----YEGTNHYDTTILKRTKKLMKHE  82
+
+Query  87   GYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLE  146
+            G   N  V + N  I+ KA + G+P I + Y + +V+ GF  +  I   L++ +  RY+E
+Sbjct  83   GVPLNLPVYERNTYIMSKAFELGIPTIAQSYTSESVQHGFDTLAAIMGDLQSEIEERYVE  142
+
+Query  147  GKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKISK  198
+               + +  I   K ++     A +E    +     + G++Y ML +M+K+++
+Sbjct  143  ASGKSQPPINTEKWDKEMYKHATEEELAELQ----EYGEMYTMLSIMRKLAQ  190
+
+
+>ref|YP_001504157.1| hypothetical protein EFP_gp048 [Enterococcus phage phiEF24C]
+ dbj|BAF81316.1| hypothetical protein EFP_048 [Enterococcus phage phiEF24C]
+Length=221
+
+ Score = 51.2 bits (121),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 55/201 (27%), Positives = 91/201 (45%), Gaps = 41/201 (20%)
+
+Query  27   NVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS--TLPSSYGLDDNNQDIIRDNNHRC  84
+            + P   L DWYP    YEY+ S + + L L+ L S  TL + YG+ DN + +I       
+Sbjct  29   SFPLETLFDWYPCCPRYEYQYSTSRKKLYLRLLDSDKTLVARYGVGDNKKRVI------S  82
+
+Query  85   KIGY-----WYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTI  139
+            KI       WYN  V  +N ++   A+QY   I+T   D  T+++    I  +   L  +
+Sbjct  83   KIACFNENEWYNEEVANENAELFNFAEQYD--IVTPLKDDYTLKEVDDSISKVLDILDLL  140
+
+Query  140  VVTRYLEGKTEEEL--RIFNM---KSEESQLNEALKE-SDF------------------S  175
+               +  + K EEEL  ++  +   K +  +L +A K+ S++                  S
+Sbjct  141  YTNQ--KVKVEEELINKVDTLQLSKPDSDELKQAYKDISEYMRLDREEKATYVLSRSLDS  198
+
+Query  176  VDLTYSDLGQIYNMLLLMKKI  196
+            ++  Y   G +Y ML +M+K+
+Sbjct  199  LNSVYEKFGNVYTMLNIMRKV  219
+
+
+>ref|YP_004957067.1| gp52 [Bacillus phage W.Ph.]
+ gb|ADH03198.1| gp52 [Bacillus phage W.Ph.]
+Length=195
+
+ Score = 38.5 bits (88),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 43/156 (28%), Positives = 72/156 (46%), Gaps = 26/156 (17%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNV----PTANLVDWYPLSNAYEYKLSRNGEYLEL  56
+            MK+K    ++  L + + NKE    DNV    P  N++ WYPL+N YEYK S    ++ L
+Sbjct  1    MKIKNHSVESIELVLENTNKEK---DNVSYFFPKQNMIFWYPLNNGYEYKHSDARGFMYL  57
+
+Query  57   KRLRSTLPSSYGLDDNNQDIIRDNNHR---CKIGYWYNPAVRKDNLKIIEKAKQYGLPII  113
+             + +      Y        ++R    +    K G  ++  +   NL  ++ AKQ G    
+Sbjct  58   TKDKLATVDVY-------KVVRAKRAKKLPQKNGIPFSQDIFNKNLSTLKWAKQNGYV--  108
+
+Query  114  TEEYDANTVEQG-----FRDIGVIFQSLKTIVVTRY  144
+              EYD N +  G      R++    +SL++++ +RY
+Sbjct  109  --EYDRNYIFTGDYDNSIRNLLTDLRSLESVLKSRY  142
+
+
+>ref|WP_020021544.1| hypothetical protein [alpha proteobacterium SCGC AAA536-G10]
+Length=357
+
+ Score = 38.1 bits (87),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 29/92 (32%), Positives = 46/92 (50%), Gaps = 10/92 (11%)
+
+Query  46   KLSRNGEYLELKRLRSTLPSSYGLDDNN-QDIIRDNNHRCKIGYWYNPAVRKDNLKIIEK  104
+            K+ +NG Y + K  +S+LP  Y     N Q +I ++N      + + P    D L I+ K
+Sbjct  176  KILKNGTYFDNKAFKSSLPEIYSAGHRNPQGLIFNSNKSTLWLHEHGPQ-GGDELNIVLK  234
+
+Query  105  AKQYGLPIIT--EEYDA------NTVEQGFRD  128
+             K YG P+IT  +EY +       T + G++D
+Sbjct  235  GKNYGWPLITFGKEYGSGKKIGIGTSKIGYQD  266
+
+
+>ref|WP_017895366.1| (p)ppGpp synthetase [Clostridium tyrobutyricum]
+Length=725
+
+ Score = 37.0 bits (84),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 30/113 (27%), Positives = 59/113 (52%), Gaps = 21/113 (19%)
+
+Query  44   EYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNL----  99
+            +YKL + GE +E+    S++P    +D  N  +++ N  + KI  W+  A +++N+    
+Sbjct  431  DYKL-KTGEIVEISV--SSVPKGPSIDWLN--VVKSNQAKSKIKSWFKKARKEENILKGK  485
+
+Query  100  KIIEK------------AKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIV  140
+            +++EK             K+ G+  I ++Y+ N++E  +  IG+   +L TIV
+Sbjct  486  ELLEKETKKHGYNLGDITKEDGITAILKKYNMNSIEDLYAAIGIGVVNLPTIV  538
+
+
+>ref|WP_017752800.1| (p)ppGpp synthetase [Clostridium tyrobutyricum]
+Length=725
+
+ Score = 37.0 bits (84),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 30/113 (27%), Positives = 59/113 (52%), Gaps = 21/113 (19%)
+
+Query  44   EYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNL----  99
+            +YKL + GE +E+    S++P    +D  N  +++ N  + KI  W+  A +++N+    
+Sbjct  431  DYKL-KTGEIVEISV--SSVPKGPSIDWLN--VVKSNQAKSKIKSWFKKARKEENILKGK  485
+
+Query  100  KIIEK------------AKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIV  140
+            +++EK             K+ G+  I ++Y+ N++E  +  IG+   +L TIV
+Sbjct  486  ELLEKETKKHGYNLGDITKEDGITAILKKYNMNSIEDLYAAIGIGVVNLPTIV  538
+
+
+>ref|WP_018594450.1| hypothetical protein [Blautia producta]
+Length=229
+
+ Score = 36.6 bits (83),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 34/66 (52%), Gaps = 6/66 (9%)
+
+Query  75   DIIRDNNHRCKIG----YWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQG--FRD  128
+            ++  D++H    G    +W+   + + +L ++E+ K  GLP IT  +D N    G   + 
+Sbjct  118  NVSSDDSHDFGYGLRKDFWHKGIITEASLAVVERLKASGLPFITATHDVNNPRSGEVMKK  177
+
+Query  129  IGVIFQ  134
+            IG+ +Q
+Sbjct  178  IGMTYQ  183
+
+
+>ref|WP_005979179.1| 3-hydroxyacyl-CoA dehydrogenase [Fusobacterium ulcerans]
+ gb|EFS25645.1| hypothetical protein FUAG_01160 [Fusobacterium ulcerans ATCC 
+49185]
+ gb|EHO79667.1| hypothetical protein HMPREF0402_02406 [Fusobacterium ulcerans 
+12-1B]
+Length=315
+
+ Score = 36.2 bits (82),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 66/141 (47%), Gaps = 17/141 (12%)
+
+Query  52   EYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYG-L  110
+            EY + + + ++  SS  LD+ ++DI  D   R  + +WYNPA    +L  I +   +G +
+Sbjct  106  EYCKKETIFASNTSSLKLDEMSRDISEDRKKRIMVCHWYNPA----HLMPIGELSFFGNM  161
+
+Query  111  P----IITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMK-SEESQL  165
+            P       EE  +N+ +Q  +    I + +  +V  R  +    E   +  M+ +E   +
+Sbjct  162  PEEIYKEVEELYSNSGKQTVK----ILKDIPGLVANRIQQAIAREVFSLIEMEVAEPEDI  217
+
+Query  166  NEALKESDFSVDLTYSDLGQI  186
+            ++ALK   F     Y+  GQ+
+Sbjct  218  DKALK---FGPAFRYATSGQL  235
+
+
+>ref|XP_002115958.1| hypothetical protein TRIADDRAFT_59913 [Trichoplax adhaerens]
+ gb|EDV21810.1| hypothetical protein TRIADDRAFT_59913 [Trichoplax adhaerens]
+Length=1265
+
+ Score = 36.6 bits (83),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 25/101 (25%), Positives = 53/101 (52%), Gaps = 14/101 (14%)
+
+Query  89   WYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGK  148
+            +YN    +D + + EK+ +  L +   E+D   V + + ++ V++Q           +GK
+Sbjct  486  YYNQGKYEDAISMYEKSHKINLSVFGHEHD--DVAKSYNNMAVVYQE----------QGK  533
+
+Query  149  TEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNM  189
+             E+ + + N KS + QL+     +   V ++Y++LGQ+Y++
+Sbjct  534  HEKAISMHN-KSLKIQLS-VFGHNHSDVAMSYNNLGQVYSI  572
+
+
+>ref|WP_022459534.1| acetyltransferase GNAT family [Fusobacterium sp. CAG:439]
+ emb|CDE60655.1| acetyltransferase GNAT family [Fusobacterium sp. CAG:439]
+Length=169
+
+ Score = 35.4 bits (80),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 28/112 (25%), Positives = 51/112 (46%), Gaps = 11/112 (10%)
+
+Query  34   VDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNN-----QDIIRDNNHRCKIG-  87
+            + W+PL +  E K      Y E+ + +     +  L  +N       I  D+++    G 
+Sbjct  38   LPWFPLKSLDETKAFFQDRYAEVYKQKRGYNYAICLKTDNIPIGYAKISTDDSYDLGYGL  97
+
+Query  88   ---YWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQG--FRDIGVIFQ  134
+               +W+N  V +    II +AK+ G+P IT  +D N    G   + +G+++Q
+Sbjct  98   KKEFWHNGIVFEACSAIILQAKKDGIPYITATHDKNNFRSGNVMKRLGMVYQ  149
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450666221580
+Results from round 2
+
+
+Query= 4G6DB
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_007112958.1|  hypothetical protein [Staphylococcus phage J...   239    2e-76
+ref|YP_024505.1|  hypothetical protein KgORF75 [Staphylococcus ph...   239    2e-76
+ref|YP_007002251.1|  hypothetical protein GH15_128 [Staphylococcu...   236    3e-75
+pdb|4G8X|B  Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain...   229    1e-72
+ref|YP_007005577.1|  hypothetical protein [Staphylococcus phage S...   200    2e-61
+ref|YP_238590.1|  ORF065 [Staphylococcus phage Twort] >gb|AAX9236...   195    4e-59
+gb|AGY47370.1|  hypothetical protein Grass_105 [Bacillus phage Gr...   167    2e-48
+ref|YP_007677093.1|  hypothetical protein [Bacillus phage vB_BceM...   166    3e-48
+ref|YP_008318370.1|  hypothetical protein [Bacillus phage phiNIT1...   166    8e-48
+ref|YP_001468496.1|  gp116 [Listeria phage A511] >ref|YP_00824009...   164    3e-47
+gb|AGK86994.1|  hypothetical protein SIOphi_00930 [Bacillus phage...   164    4e-47
+ref|YP_007676775.1|  hypothetical protein AG2_108 [Listeria phage...   163    9e-47
+ref|YP_006908017.1|  hypothetical protein BCP78_0182 [Bacillus ph...   154    1e-43
+ref|YP_002790821.1|  hypothetical protein lb338_phage_142 [Lactob...   147    9e-41
+ref|YP_001504157.1|  hypothetical protein EFP_gp048 [Enterococcus...   122    1e-30
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_007349367.1|  hypothetical protein G380_gp124 [Bacillus ph...  87.9    4e-18
+gb|AGY48513.1|  hypothetical protein Spock_113 [Bacillus phage Sp...  76.0    6e-14
+ref|YP_006908456.1|  hypothetical protein BCB4_0227 [Bacillus pha...  74.8    2e-13
+gb|AGY46620.1|  hypothetical protein BigBertha_112 [Bacillus phag...  72.9    8e-13
+ref|YP_008430903.1|  hypothetical protein TROLL_61 [Bacillus phag...  72.5    1e-12
+ref|YP_004957067.1|  gp52 [Bacillus phage W.Ph.] >gb|ADH03198.1| ...  67.9    3e-11
+ref|YP_006907346.1|  hypothetical protein [Bacillus phage Bastill...  63.3    1e-09
+ref|YP_006907784.1|  hypothetical protein BPS13_0225 [Bacillus ph...  62.9    2e-09
+ref|YP_164704.1|  hypothetical protein LP65_gp069 [Lactobacillus ...  45.2    0.007
+ref|WP_018652965.1|  transposase [Actinobacillus capsulatus]          42.1    0.094
+ref|NP_873927.1|  Eha protein [Haemophilus ducreyi 35000HP] >ref|...  42.1    0.11 
+ref|WP_005597467.1|  hypothetical protein [Actinobacillus pleurop...  41.7    0.12 
+ref|XP_006114014.1|  PREDICTED: tuftelin isoform X2 [Pelodiscus s...  39.8    0.65 
+ref|XP_006114013.1|  PREDICTED: tuftelin isoform X1 [Pelodiscus s...  39.4    0.73 
+ref|YP_004126686.1|  hypothetical protein Alide_2055 [Alicycliphi...  39.4    0.88 
+ref|WP_006852770.1|  DNA-cytosine methyltransferase [Synechococcu...  39.4    0.95 
+ref|XP_006114016.1|  PREDICTED: tuftelin isoform X4 [Pelodiscus s...  39.0    1.0  
+ref|XP_006114015.1|  PREDICTED: tuftelin isoform X3 [Pelodiscus s...  39.0    1.2  
+ref|YP_002475443.1|  ExeA protein, phage-like protein [Haemophilu...  38.6    1.3  
+ref|WP_005708271.1|  hypothetical protein [Haemophilus paraphroha...  38.2    1.9  
+sp|P36422.1|SYI_TETTH  RecName: Full=Isoleucine--tRNA ligase; Alt...  38.2    2.0  
+ref|WP_005640649.1|  Eha protein [Haemophilus haemolyticus] >gb|E...  38.2    2.1  
+ref|WP_005661850.1|  Eha protein [Haemophilus influenzae] >gb|EDK...  37.9    2.3  
+ref|XP_001023177.1|  isoleucyl-tRNA synthetase family protein [Te...  38.2    2.4  
+gb|EKD82719.1|  hypothetical protein ACD_39C01137G0005 [unculture...  37.5    2.7  
+ref|YP_087313.1|  ExeA protein [Mannheimia succiniciproducens MBE...  37.5    3.9  
+ref|NP_001140939.1|  uncharacterized protein LOC100273017 [Zea ma...  37.1    4.2  
+ref|XP_002461825.1|  hypothetical protein SORBIDRAFT_02g008810 [S...  37.1    4.6  
+ref|XP_002280606.1|  PREDICTED: rab GDP dissociation inhibitor al...  36.3    8.2  
+gb|ESO13030.1|  hypothetical protein HELRODRAFT_159625 [Helobdell...  36.3    8.8  
+
+
+>ref|YP_007112958.1| hypothetical protein [Staphylococcus phage JD007]
+ ref|YP_008854082.1| hypothetical protein [Staphylococcus phage S25-4]
+ ref|YP_008854258.1| hypothetical protein [Staphylococcus phage S25-3]
+ gb|AFV50893.1| hypothetical protein [Staphylococcus phage JD007]
+ dbj|BAO09286.1| hypothetical protein [Staphylococcus phage S25-3]
+ dbj|BAO09501.1| hypothetical protein [Staphylococcus phage S25-4]
+Length=198
+
+ Score =  239 bits (609),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 197/198 (99%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLP+ITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPVITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_024505.1| hypothetical protein KgORF75 [Staphylococcus phage K]
+ ref|YP_240941.1| ORF067 [Staphylococcus phage G1]
+ ref|YP_008873631.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ pdb|4G6D|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G94|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ gb|AAO47524.1| ORF75 [Staphylococcus phage K]
+ gb|AAX92149.1| ORF067 [Staphylococcus phage G1]
+ gb|ABL87146.1| hypothetical protein [Staphylococcus phage 812]
+ gb|ACB89097.1| gp ORF104 [Staphylococcus phage A5W]
+ gb|AEJ79753.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ emb|CCA65778.1| hypothetical protein [Staphylococcus phage ISP]
+ gb|AFN37949.1| Asf [Staphylococcus phage Staph1N]
+ gb|AFN38159.1| Asf [Staphylococcus phage A3R]
+ gb|AFN38353.1| Asf [Staphylococcus phage 676Z]
+ gb|AFN38565.1| Asf [Staphylococcus phage Fi200W]
+ gb|AFN38777.1| Asf [Staphylococcus phage MSA6]
+ gb|AFN38988.1| Asf [Staphylococcus phage P4W]
+ gb|AFV80710.1| hypothetical protein SA5_047 [Staphylococcus phage SA5]
+Length=198
+
+ Score =  239 bits (609),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 198/198 (100%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_007002251.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+ gb|AFF28600.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+Length=198
+
+ Score =  236 bits (601),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 195/198 (98%), Positives = 197/198 (99%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKI YWYNPAVRKDNLKIIEKAKQYGLP+ITE+YDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIDYWYNPAVRKDNLKIIEKAKQYGLPVITEQYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>pdb|4G8X|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G8X|D Chain D, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+Length=198
+
+ Score =  229 bits (583),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 194/197 (98%), Positives = 194/197 (98%), Gaps = 0/197 (0%)
+
+Query  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+            KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS
+Sbjct  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+
+Query  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+            TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT
+Sbjct  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+
+Query  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYS  181
+            VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFN KSEESQLNEALKESDFSVDLTYS
+Sbjct  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNXKSEESQLNEALKESDFSVDLTYS  181
+
+Query  182  DLGQIYNMLLLMKKISK  198
+            DLGQIYN LLL KKISK
+Sbjct  182  DLGQIYNXLLLXKKISK  198
+
+
+>ref|YP_007005577.1| hypothetical protein [Staphylococcus phage SA11]
+ ref|YP_007677556.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+ ref|YP_008431186.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFO70689.1| hypothetical protein [Staphylococcus phage SA11]
+ gb|AFV80946.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFV81120.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+Length=197
+
+ Score =  200 bits (509),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 115/196 (59%), Positives = 139/196 (71%), Gaps = 2/196 (1%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI D   A+L V + N     IDN+P + LVDWYPLSNAYEYK S +  Y+ELKRLR
+Sbjct  1    MKLKIKDNQFASLTVNYTNNAKLHIDNIPVSTLVDWYPLSNAYEYKASNDFGYIELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYGL   +Q + +    +CK+G WYN  +++DN KIIEKAK YGLP I E + + 
+Sbjct  61   SSLPVSYGL--THQTLYKCETVKCKLGLWYNEKIKEDNEKIIEKAKLYGLPTIDEPFTSK  118
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+QGF D+GVIFQ+LKTI    YL+ KT EE+  F+ KSE+ QLNE LK S   VD TY
+Sbjct  119  DVKQGFSDLGVIFQTLKTISTNEYLKDKTIEEINTFSKKSEDYQLNEVLKYSTTLVDDTY  178
+
+Query  181  SDLGQIYNMLLLMKKI  196
+            SDL QIYNMLLLMKKI
+Sbjct  179  SDLSQIYNMLLLMKKI  194
+
+
+>ref|YP_238590.1| ORF065 [Staphylococcus phage Twort]
+ gb|AAX92360.1| ORF065 [Staphylococcus phage Twort]
+Length=195
+
+ Score =  195 bits (494),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 87/198 (44%), Positives = 124/198 (63%), Gaps = 4/198 (2%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI +K    L V   N    T  +VP +N+ +WYP SNAY YK +   + L LKRLR
+Sbjct  1    MKLKIKNKFMGVLEV--TNSMGVTKLDVPLSNIHEWYPFSNAYSYKYNVKTKDLVLKRLR  58
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYG++  +++   D +  C    W N +V+  NL II KAK YGLP+ITE+Y   
+Sbjct  59   SSLPVSYGIERASKE--YDKDKVCNTVTWINHSVKDSNLHIINKAKSYGLPVITEKYTYE  116
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+ GF  + VIF  LK++++ RYLE K    +  F   + E+Q + A++++D  ++ TY
+Sbjct  117  DVDYGFAQLNVIFSELKSLIINRYLEDKDGSFIVKFKRHNPETQYHLAVQDADEVINNTY  176
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+             +LGQ+Y MLLLMKK+SK
+Sbjct  177  DELGQMYKMLLLMKKLSK  194
+
+
+>gb|AGY47370.1| hypothetical protein Grass_105 [Bacillus phage Grass]
+Length=197
+
+ Score =  167 bits (422),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 51/193 (26%), Positives = 86/193 (45%), Gaps = 10/193 (5%)
+
+Query  9    DNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSY  67
+            D   L V    +E K I  +   N+  WYPL+  + Y+ S   E L L +    T  + Y
+Sbjct  10   DMLLLEVETTGEEKKHIY-LSIENVHYWYPLNTNFSYRYSNAKEQLYLVQEGGYTGENVY  68
+
+Query  68   GLDDNNQDIIRDNNHRC--KIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQG  125
+            G      DI++ +      K G+  +P V + N+ I+++A   G+P +   Y+   VE G
+Sbjct  69   G-----ADILKRSKQLVVNKDGFLIHPEVLERNMYIMDEAASMGIPTLIHSYNGYDVEDG  123
+
+Query  126  FRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+            F  +    +  K I+  R++    E         + E   N+    +         +LG+
+Sbjct  124  FDTLSSWIKGRKEIIEDRFMAQDAEAWTITQTELN-EEWDNKLYSYATDEELKQLQELGE  182
+
+Query  186  IYNMLLLMKKISK  198
+            IYNML LM+K+++
+Sbjct  183  IYNMLCLMRKLAE  195
+
+
+>ref|YP_007677093.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+ gb|AFQ96503.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+Length=190
+
+ Score =  166 bits (420),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 47/199 (24%), Positives = 87/199 (44%), Gaps = 10/199 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKL I   +   L       +      +P  N+  WYP +  + YK S    Y+ L + +
+Sbjct  1    MKL-INISEKEILLELKTTDKKLEEICLPKENIHFWYPFNINFYYKHSSAKGYMYLVQDK  59
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKI-GYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   G +  +  I++      K  G   N  V + N  I+ KA + G+P I + Y +
+Sbjct  60   H----YEGTNHYDTTILKRTKKLMKHEGVPLNLPVYERNTYIMSKAFELGIPTIAQSYTS  115
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+             +V+ GF  +  I   L++ +  RY+E   + +  I   K ++     A +E    +   
+Sbjct  116  ESVQHGFDTLAAIMGDLQSEIEERYVEASGKSQPPINTEKWDKEMYKHATEEELAEL---  172
+
+Query  180  YSDLGQIYNMLLLMKKISK  198
+              + G++Y ML +M+K+++
+Sbjct  173  -QEYGEMYTMLSIMRKLAQ  190
+
+
+>ref|YP_008318370.1| hypothetical protein [Bacillus phage phiNIT1]
+ dbj|BAN59602.1| hypothetical protein [Bacillus phage phiNIT1]
+Length=197
+
+ Score =  166 bits (419),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 53/198 (27%), Positives = 89/198 (45%), Gaps = 20/198 (10%)
+
+Query  9    DNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSY  67
+            D   L V    +E K I  + T N+  WYPL+  + Y+ S   E L L +    T  + Y
+Sbjct  10   DMLLLEVETTGEEKKHIY-LSTENVHYWYPLNTNFSYRYSNAKEQLYLVQEGGYTGDNVY  68
+
+Query  68   GLDDNNQDIIRDNNHRC--KIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQG  125
+            G      DI++ +      K G+  +P V + N+ I+++A   G+P +   Y+   VE G
+Sbjct  69   G-----ADILKRSKQLVVNKDGFLIHPEVLERNMYIMDEAASMGIPTLIHSYNGYDVEDG  123
+
+Query  126  FRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDL-----TY  180
+            F  +    +  K I+  R++    E           +++LNE      +S          
+Sbjct  124  FDTLSSWIKERKEIIEDRFMAQDAEA------WTITQTELNEEWDTKLYSYATDEELKQL  177
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+             +LG+IY ML LM+K+++
+Sbjct  178  QELGEIYTMLCLMRKLAE  195
+
+
+>ref|YP_001468496.1| gp116 [Listeria phage A511]
+ ref|YP_008240096.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+ gb|AAY53351.1| gp48 [Listeria phage P100]
+ gb|AAY52897.1| gp116 [Listeria phage A511]
+ gb|AGI11450.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+Length=196
+
+ Score =  164 bits (414),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 51/202 (25%), Positives = 90/202 (45%), Gaps = 15/202 (7%)
+
+Query  1    MKLKILDKDNATLN--VFHRNKEHKTIDN---VPTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANVFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTR-YLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            +++   VE GF  I      +K     R Y +    E   +     EE +       +  
+Sbjct  113  DFNQQDVENGFEVISTELAYIKEQATARCYGDKDVFERSELLKKSKEEREQAYFEYLTVE  172
+
+Query  175  SVDLTYSDLGQIYNMLLLMKKI  196
+             V+  Y  LG++Y ML+LM+K+
+Sbjct  173  EVNFQYK-LGELYAMLVLMRKV  193
+
+
+>gb|AGK86994.1| hypothetical protein SIOphi_00930 [Bacillus phage SIOphi]
+Length=204
+
+ Score =  164 bits (415),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 52/184 (28%), Positives = 92/184 (50%), Gaps = 11/184 (6%)
+
+Query  19   NKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLDDNNQDII  77
+            N+  +T   +P  NL  WYP +  + YK S +   L L + R    P+ Y    N    I
+Sbjct  24   NRTGETFVAMPLENLHYWYPFNINFSYKFSDSKGGLVLVKERGYKGPNFY----NAPSTI  79
+
+Query  78   RDNNH-RCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE-YDANTVEQGFRDIGVIFQS  135
+            ++    + K G++ N  V + N  IIEKAKQ  LP+IT++ Y++  + +GF  +  +   
+Sbjct  80   KEAEPLKKKDGFFLNQKVYERNTYIIEKAKQLNLPVITDDTYNSRDIAKGFLRLQYLMGL  139
+
+Query  136  LKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSV-DLTYSDLGQIYNMLLLMK  194
+            +K  +   Y   K  +E+    +   + +    + ES  ++ +  Y + G++Y+ML+ M 
+Sbjct  140  VKKDIEKNY---KMHQEVTNAPVTELDEEWERKMFESMSTIHEKAYLEFGEMYSMLVTMN  196
+
+Query  195  KISK  198
+            KI+K
+Sbjct  197  KIAK  200
+
+
+>ref|YP_007676775.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+ gb|AFJ76044.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+Length=196
+
+ Score =  163 bits (411),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 53/202 (26%), Positives = 90/202 (45%), Gaps = 15/202 (7%)
+
+Query  1    MKLKILDKDNATLN--VFHRNKEHKTIDN---VPTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANIFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEES-QLNEALKESDF  174
+            ++    VE GF  I      +K     R  E K   E      KS+E  +       +  
+Sbjct  113  DFSQQDVENGFEVISTELAYIKEQATARCYEDKDVFERSELLKKSKEEREQAYFEYLTVE  172
+
+Query  175  SVDLTYSDLGQIYNMLLLMKKI  196
+             V+  Y  LG++Y ML+LM+K+
+Sbjct  173  EVNFQYK-LGELYAMLVLMRKV  193
+
+
+>ref|YP_006908017.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47189.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47677.1| hypothetical protein BCU4_0171 [Bacillus phage BCU4]
+Length=198
+
+ Score =  154 bits (390),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 55/185 (30%), Positives = 87/185 (47%), Gaps = 5/185 (3%)
+
+Query  13   LNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS-TLPSSYGLDD  71
+            L +   ++E  TI  +P  N+  WYP +  + YK S   EY+ L + +     + YG D 
+Sbjct  13   LQLSTTDQETVTIL-IPKKNIHFWYPFNLGFYYKYSAAKEYMYLVQDKHYDRGNVYGTDI  71
+
+Query  72   NNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGV  131
+              +          +    YN  V K N++II KA+  G+P IT+ YD N V +GF  +  
+Sbjct  72   LKRT---KELPITEDDVPYNEPVFKRNVQIIMKARFMGIPTITDNYDLNQVNEGFEIVSD  128
+
+Query  132  IFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLL  191
+              Q +K  +  RY+E    +      ++  E    +  + +  S       LG+IYNML+
+Sbjct  129  HMQYIKEKIEKRYMEKYITKVENYQPVQQTEEWDKQIYRCARASELGELELLGEIYNMLV  188
+
+Query  192  LMKKI  196
+            LMKK+
+Sbjct  189  LMKKL  193
+
+
+>ref|YP_002790821.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+ gb|ACO37063.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+Length=188
+
+ Score =  147 bits (371),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 53/199 (27%), Positives = 92/199 (46%), Gaps = 19/199 (10%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHK--TIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            M+++I +K    + V    K  +   +       L  WYPL+  Y Y+     + +  + 
+Sbjct  1    MRVEIGNK-IGVVAVDKEGKPGEWRHVYKFSVDTLPYWYPLNLNYYYEYDERSKEIRFRH  59
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD  118
+              S + +   +  N  ++I+          WYN  V  DN +I E A   G+  I ++Y+
+Sbjct  60   RNSRISAK--IKGNYLNVIK----------WYNAGVYADNKRIEEHAHALGISSIFDDYN  107
+
+Query  119  ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDL  178
+            +  V +GF  +G +   L T+ V R+     E      ++ ++E+    ALK      +L
+Sbjct  108  SLDVSKGFLKVGQLIDDL-TMKVIRHHPHAFESGTGKLDIYNQEAY---ALKHCTKEENL  163
+
+Query  179  TYSDLGQIYNMLLLMKKIS  197
+             Y+ LG+IYNML LMKK++
+Sbjct  164  EYTYLGEIYNMLCLMKKVA  182
+
+
+>ref|YP_001504157.1| hypothetical protein EFP_gp048 [Enterococcus phage phiEF24C]
+ dbj|BAF81316.1| hypothetical protein EFP_048 [Enterococcus phage phiEF24C]
+Length=221
+
+ Score =  122 bits (305),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 53/222 (24%), Positives = 96/222 (43%), Gaps = 29/222 (13%)
+
+Query  1    MKLKILDKDN--ATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+  L ++    T+ V   +     + + P   L DWYP    YEY+ S + + L L+ 
+Sbjct  1    MKIYTLSRELNEGTIFVPTSSSNEGRLFSFPLETLFDWYPCCPRYEYQYSTSRKKLYLRL  60
+
+Query  59   LRS--TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE  116
+            L S  TL + YG+ DN + +I           WYN  V  +N ++   A+QY +  +T  
+Sbjct  61   LDSDKTLVARYGVGDNKKRVIS-KIACFNENEWYNEEVANENAELFNFAEQYDI--VTPL  117
+
+Query  117  YDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNM---KSEESQLNEALKE--  171
+             D  T+++    I  +   L  +   + ++ + E   ++  +   K +  +L +A K+  
+Sbjct  118  KDDYTLKEVDDSISKVLDILDLLYTNQKVKVEEELINKVDTLQLSKPDSDELKQAYKDIS  177
+
+Query  172  -----------------SDFSVDLTYSDLGQIYNMLLLMKKI  196
+                             S  S++  Y   G +Y ML +M+K+
+Sbjct  178  EYMRLDREEKATYVLSRSLDSLNSVYEKFGNVYTMLNIMRKV  219
+
+
+>ref|YP_007349367.1| hypothetical protein G380_gp124 [Bacillus phage phiAGATE]
+ gb|AGB62774.1| hypothetical protein [Bacillus phage phiAGATE]
+Length=208
+
+ Score = 87.9 bits (216),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 42/207 (20%), Positives = 77/207 (37%), Gaps = 10/207 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKL   DKD   + V    +       +    ++   P ++ Y YK S   +   L + R
+Sbjct  1    MKLTRKDKDTFIMTV-ETTEGGTKDLELSLEEVLHVCPFNSNYMYKYSPTRKKFYLCKDR  59
+
+Query  61   S--TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE---  115
+                       + NN     D+      G++Y   V   N  ++  A++ G+P + +   
+Sbjct  60   GYKNTDVYKHSEGNNDIQYFDSEDLQVEGFFYQDKVSDRNWDVVYAAERLGIPNLLDLGV  119
+
+Query  116  -EYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEEL---RIFNMKSEESQLNEALKE  171
+                 + ++ G   +     +L   +  RYL+  T EE+   R       E         
+Sbjct  120  NPLTQDDIKAGHIKLAEALDALNEKIAKRYLDSLTAEEVLEDRHIPNSGNEDWYATIYTV  179
+
+Query  172  SDFSVDLTYSDLGQIYNMLLLMKKISK  198
+            +    +  +   G+IYNML LM++  +
+Sbjct  180  ATREEEDQFILYGEIYNMLRLMRRFIE  206
+
+
+>gb|AGY48513.1| hypothetical protein Spock_113 [Bacillus phage Spock]
+Length=199
+
+ Score = 76.0 bits (185),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 42/190 (22%), Positives = 79/190 (42%), Gaps = 7/190 (4%)
+
+Query  12   TLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDD  71
+             L    ++KE      +P   L+ WYPL+  Y YK S + + + L +  +     Y +  
+Sbjct  14   ILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVKDGTYKRDLYDVKS  73
+
+Query  72   NNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN-TVEQGFRDIG  130
+              Q          K G  YN  V   N KI++ A++  L  ++E+       + G   + 
+Sbjct  74   TKQA----KALPLKKGVPYNKTVHNRNTKIVKWAEENNLIEVSEDKVLLTDPKVGICRVL  129
+
+Query  131  VIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYN  188
+               +S+K  +V +Y+  EGK  +     N+   +       K +  +       LG++Y 
+Sbjct  130  ETIESIKQHLVKKYIFEEGKNTDFDIDVNLGFPKFTDELIYKYATETELYQLELLGEVYT  189
+
+Query  189  MLLLMKKISK  198
+            +L L +++ +
+Sbjct  190  LLNLYRRLEE  199
+
+
+>ref|YP_006908456.1| hypothetical protein BCB4_0227 [Bacillus phage B4]
+ gb|AEW47455.1| hypothetical protein B5S_0221 [Bacillus phage B5S]
+ gb|AEZ66020.1| hypothetical protein BCB4_0227 [Bacillus phage B4]
+Length=199
+
+ Score = 74.8 bits (182),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 43/190 (23%), Positives = 78/190 (41%), Gaps = 7/190 (4%)
+
+Query  12   TLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDD  71
+             L    ++KE      +P   L+ WYPL+  Y YK S + + + L +  +     Y +  
+Sbjct  14   ILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVKDGTYKRDLYDVKS  73
+
+Query  72   NNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN-TVEQGFRDIG  130
+              Q          K G  YN  V   N KI++ A++  L  ++EE       + G   + 
+Sbjct  74   TKQA----KALPLKKGVPYNKTVHNRNTKIVKWAEENNLIEVSEEKVLLTDPKVGICRVL  129
+
+Query  131  VIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYN  188
+               +S+K  +V +Y+  EGK        N+   +       K +  +       LG++Y 
+Sbjct  130  ETIESIKQHLVKKYIFEEGKNNNFDINVNLGFPKFTDELIYKYATETELYQLELLGEVYT  189
+
+Query  189  MLLLMKKISK  198
+            +L L +++ +
+Sbjct  190  LLNLYRRLEE  199
+
+
+>gb|AGY46620.1| hypothetical protein BigBertha_112 [Bacillus phage BigBertha]
+Length=199
+
+ Score = 72.9 bits (177),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 40/191 (21%), Positives = 81/191 (42%), Gaps = 9/191 (5%)
+
+Query  12   TLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDD  71
+             L    ++KE      +P   L+ WYPL+  Y YK S + + + L +      S+Y  D 
+Sbjct  14   ILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVKD-----STYDKDL  68
+
+Query  72   NNQDIIRDNNHR-CKIGYWYNPAVRKDNLKIIEKAKQYG-LPIITEEYDANTVEQGFRDI  129
+             +    +       K G  YN  V   N KI++ A++   + +  ++      + G   +
+Sbjct  69   YDVKSTKQAKALPLKKGVPYNKTVHNRNTKIVQWAQENNLIEVSKDKVLLTDPKVGICRV  128
+
+Query  130  GVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIY  187
+                +S+K  +V +Y+  EG+ ++     N+   +       K +  +       LG++Y
+Sbjct  129  LETIESIKQHLVKKYIFEEGQNDDFDIDENLGFPKFTDELVYKYATTTELYQLELLGEVY  188
+
+Query  188  NMLLLMKKISK  198
+             +L L +++ +
+Sbjct  189  TLLNLYRRLEE  199
+
+
+>ref|YP_008430903.1| hypothetical protein TROLL_61 [Bacillus phage Troll]
+ gb|AGT13401.1| hypothetical protein TROLL_119 [Bacillus phage Troll]
+Length=199
+
+ Score = 72.5 bits (176),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 40/191 (21%), Positives = 81/191 (42%), Gaps = 9/191 (5%)
+
+Query  12   TLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDD  71
+             L    ++KE      +P   L+ WYPL+  Y YK S + + + L +      S+Y  D 
+Sbjct  14   ILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVKD-----STYDKDL  68
+
+Query  72   NNQDIIRDNNHR-CKIGYWYNPAVRKDNLKIIEKAKQYG-LPIITEEYDANTVEQGFRDI  129
+             +    +       K G  YN  V   N KI++ A++   + +  ++      + G   +
+Sbjct  69   YDVKSTKQAKALPLKKGVPYNKTVHNRNKKIVQWAQENNLIEVSKDKVLLTDPKVGICRV  128
+
+Query  130  GVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIY  187
+                +S+K  +V +Y+  EG+ ++     N+   +       K +  +       LG++Y
+Sbjct  129  LETIESIKQHLVKKYIFEEGQNDDFDIDENLGFPKFTDELVYKYATTTELYQLELLGEVY  188
+
+Query  188  NMLLLMKKISK  198
+             +L L +++ +
+Sbjct  189  TLLNLHRRLEE  199
+
+
+>ref|YP_004957067.1| gp52 [Bacillus phage W.Ph.]
+ gb|ADH03198.1| gp52 [Bacillus phage W.Ph.]
+Length=195
+
+ Score = 67.9 bits (164),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 41/192 (21%), Positives = 80/192 (42%), Gaps = 10/192 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTI-DNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MK+K    ++  L + + NKE   +    P  N++ WYPL+N YEYK S    ++ L + 
+Sbjct  1    MKIKNHSVESIELVLENTNKEKDNVSYFFPKQNMIFWYPLNNGYEYKHSDARGFMYLTKD  60
+
+Query  60   RSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD-  118
+            +      Y +        R      K G  ++  +   NL  ++ AKQ G       Y  
+Sbjct  61   KLATVDVYKVVRAK----RAKKLPQKNGIPFSQDIFNKNLSTLKWAKQNGYVEYDRNYIF  116
+
+Query  119  ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDL  178
+                +   R++    +SL++++ +RY            ++ +++++L E  + +  +   
+Sbjct  117  TGDYDNSIRNLLTDLRSLESVLKSRYYSKYL---PVADDITADKAEL-EFHEVATAAEKN  172
+
+Query  179  TYSDLGQIYNML  190
+                 G+ Y  L
+Sbjct  173  RIRLFGETYAYL  184
+
+
+>ref|YP_006907346.1| hypothetical protein [Bacillus phage Bastille]
+ gb|AEQ34250.1| hypothetical protein [Bacillus phage Bastille]
+Length=203
+
+ Score = 63.3 bits (152),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 34/188 (18%), Positives = 69/188 (37%), Gaps = 11/188 (6%)
+
+Query  11   ATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLD  70
+            +T  V     + +    +P  N++ WYPL+  YEYK S   + + L     +   SY + 
+Sbjct  17   STAKVDDGEAKEEVEIILPKDNIIYWYPLNMNYEYKFSDAKQIMYLTLDSMSEDDSYSVK  76
+
+Query  71   DNNQDIIRDNNHR-CKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD--ANTVEQGFR  127
+                   +       K G  Y   V   N   ++  ++ G     ++Y+   + VE    
+Sbjct  77   KA-----KRAKPLPIKDGVPYKDDVFLSNRATLKWGRRQGFIDYDKKYNFIGDNVESTKL  131
+
+Query  128  DIGVIFQSLKTIVVTRYLEGKTEEE--LRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+             +  +   L+  +  RY+E +  +        +        +  + ++         LG+
+Sbjct  132  VLAAVTA-LREKLTARYIEKEGNKSGLDVEDGIGLSLFTDEQVYQLANKKERAEIKLLGE  190
+
+Query  186  IYNMLLLM  193
+            +Y  L +M
+Sbjct  191  VYTYLRVM  198
+
+
+>ref|YP_006907784.1| hypothetical protein BPS13_0225 [Bacillus phage BPS13]
+ gb|AEZ50404.1| hypothetical protein BPS13_0225 [Bacillus phage BPS13]
+Length=195
+
+ Score = 62.9 bits (151),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 41/196 (21%), Positives = 74/196 (38%), Gaps = 18/196 (9%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTI-DNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MK+K   +++  L + + N E   +    P  N+V WYPL+N YEYK S   +++ L + 
+Sbjct  1    MKIKNHSEESIELVLENTNNEKAPVSYFFPKVNMVFWYPLNNGYEYKHSDARDFMYLTKD  60
+
+Query  60   RSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD-  118
+            +      Y +        R      K G  ++  +   NL  ++ AK+ G       Y  
+Sbjct  61   KLATVDVYKVVRAK----RAKKLPQKNGIPFSQDIFNKNLTTLKWAKKNGYVEYDRNYVF  116
+
+Query  119  ----ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+                A +++    D+  +   LK     +Y+    +    I + K  E         +  
+Sbjct  117  TGDYAESIKNVLTDLRTLESELKHRYYEKYMWVAEDVINDIADYKYPEV--------ATA  168
+
+Query  175  SVDLTYSDLGQIYNML  190
+            +        G+ Y  L
+Sbjct  169  AELNRIKLFGETYAYL  184
+
+
+>ref|YP_164704.1| hypothetical protein LP65_gp069 [Lactobacillus phage LP65]
+ gb|AAV35889.1| orf69 [Lactobacillus phage LP65]
+Length=238
+
+ Score = 45.2 bits (105),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 37/191 (19%), Positives = 76/191 (40%), Gaps = 13/191 (7%)
+
+Query  11   ATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGL-  69
+            + + V  ++KE      +P ++++  YPL N   Y  +     L LK      P+ +   
+Sbjct  40   SAMTVGRKSKE----YILPASDIMYVYPLENYIGYSFNNPYSDLLLKFDNRRTPAKFKKY  95
+
+Query  70   ---DDNNQDIIRDNNHRCKIGYWYNPA--VRKDNLKIIEKAKQYGLPIITEEYDANTVEQ  124
+               + N  ++     +  +    Y+    +   N  I  + +  G       Y+ N V  
+Sbjct  96   IKENYNAGNVYLKKLYDFENQRPYDAYNFIFAQNSAISVELESLGFKSWYGTYNQNDVLD  155
+
+Query  125  GFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLG  184
+             FR +  I  ++KT +V R  +     +L   +   EE   + ++  ++ +  + Y+ +G
+Sbjct  156  NFRLVDDILTTMKTRLVDRAFKA---GKLAKVSSGDEEKLDHISMSMANKNEIILYNRVG  212
+
+Query  185  QIYNMLLLMKK  195
+            Q   M  +M K
+Sbjct  213  QALTMNAIMNK  223
+
+
+>ref|WP_018652965.1| transposase [Actinobacillus capsulatus]
+Length=390
+
+ Score = 42.1 bits (97),  Expect = 0.094, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 43/106 (41%), Gaps = 5/106 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  300
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+               I  +   +++L   ++     V    SD+ +    L + ++++
+Sbjct  301  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFEEDAFLAVRQRLT  346
+
+
+>ref|NP_873927.1| Eha protein [Haemophilus ducreyi 35000HP]
+ ref|WP_010945361.1| Eha protein [Haemophilus ducreyi]
+ gb|AAP96316.1| Eha protein [Haemophilus ducreyi 35000HP]
+Length=401
+
+ Score = 42.1 bits (97),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 19/94 (20%), Positives = 37/94 (39%), Gaps = 5/94 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  252  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  311
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+               I  +   +++L   ++     V    SD+ +
+Sbjct  312  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFE  345
+
+
+>ref|WP_005597467.1| hypothetical protein [Actinobacillus pleuropneumoniae]
+ gb|EFL77748.1| hypothetical protein APP2_0798 [Actinobacillus pleuropneumoniae 
+serovar 2 str. 4226]
+ gb|EFM85701.1| hypothetical protein appser1_9830 [Actinobacillus pleuropneumoniae 
+serovar 1 str. 4074]
+ gb|EFM87588.1| hypothetical protein appser2_9980 [Actinobacillus pleuropneumoniae 
+serovar 2 str. S1536]
+ gb|EFM94246.1| hypothetical protein appser9_9920 [Actinobacillus pleuropneumoniae 
+serovar 9 str. CVJ13261]
+ gb|EFM98718.1| hypothetical protein appser11_9910 [Actinobacillus pleuropneumoniae 
+serovar 11 str. 56153]
+Length=390
+
+ Score = 41.7 bits (96),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 19/94 (20%), Positives = 37/94 (39%), Gaps = 5/94 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  300
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+               I  +   +++L   ++     V    SD+ +
+Sbjct  301  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFE  334
+
+
+>ref|XP_006114014.1| PREDICTED: tuftelin isoform X2 [Pelodiscus sinensis]
+Length=388
+
+ Score = 39.8 bits (91),  Expect = 0.65, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|XP_006114013.1| PREDICTED: tuftelin isoform X1 [Pelodiscus sinensis]
+Length=392
+
+ Score = 39.4 bits (90),  Expect = 0.73, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|YP_004126686.1| hypothetical protein Alide_2055 [Alicycliphilus denitrificans 
+BC]
+ ref|WP_013518894.1| hypothetical protein [Alicycliphilus denitrificans]
+ gb|ADU99798.1| hypothetical protein Alide_2055 [Alicycliphilus denitrificans 
+BC]
+Length=430
+
+ Score = 39.4 bits (90),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 15/111 (14%), Positives = 41/111 (37%), Gaps = 5/111 (5%)
+
+Query  76   IIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQS  135
+            +++D   +       +  V + ++ IIE+A    +P +        ++ GF+ +  I   
+Sbjct  249  VLQDRAAQMHNILKGSAQVGRRHVLIIEEAHALAVPTLKHLKRFYELQDGFKKLLSIILV  308
+
+Query  136  LKTIVVTRYLEG-----KTEEELRIFNMKSEESQLNEALKESDFSVDLTYS  181
+             +T +  +  E      +  +   +  +   ++ +   L+     V L   
+Sbjct  309  GQTELEKKLSEHNPEVREVVQRCEMVKLSPLDNHVEGYLRHKFERVGLKLE  359
+
+
+>ref|WP_006852770.1| DNA-cytosine methyltransferase [Synechococcus sp. WH 8016]
+ gb|EHA63588.1| DNA-cytosine methyltransferase [Synechococcus sp. WH 8016]
+Length=680
+
+ Score = 39.4 bits (90),  Expect = 0.95, Method: Composition-based stats.
+ Identities = 27/126 (21%), Positives = 46/126 (37%), Gaps = 4/126 (3%)
+
+Query  46   KLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKA  105
+            +  R G+ L  K   S+  + Y +    +  +    H  K GYWY    +   L I E A
+Sbjct  343  RAKREGKLLNRKDRESSFSNKYNILKGKEPCLTVTAHMAKDGYWYIHPQQNRTLSIREAA  402
+
+Query  106  KQYGLPIITEEYDAN-TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQ  164
+            +    P   + +  + T    F  +G     L   V+ R +    ++       +S E+ 
+Sbjct  403  RVQSFP---DGFRFHGTPSNRFHQVGEAVAPLVGEVLGRAMLDAIKQRTEEVLWRSPETI  459
+
+Query  165  LNEALK  170
+              E L 
+Sbjct  460  RQELLD  465
+
+
+>ref|XP_006114016.1| PREDICTED: tuftelin isoform X4 [Pelodiscus sinensis]
+Length=368
+
+ Score = 39.0 bits (89),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|XP_006114015.1| PREDICTED: tuftelin isoform X3 [Pelodiscus sinensis]
+Length=372
+
+ Score = 39.0 bits (89),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|YP_002475443.1| ExeA protein, phage-like protein [Haemophilus parasuis SH0165]
+ ref|WP_012621961.1| ExeA protein, phage-like protein [Haemophilus parasuis]
+ gb|ACL32495.1| ExeA protein, phage-like protein [Haemophilus parasuis SH0165]
+Length=384
+
+ Score = 38.6 bits (88),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 19/106 (18%), Positives = 43/106 (41%), Gaps = 5/106 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             ++ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  235  SHVLIIEEAHSLPVPTLKHLKRFFELEDGFKKLLSIVLVGQPELKLKLSERNTEVREVVQ  294
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+               I  +   +++L   ++     V    SD+ +    L + ++++
+Sbjct  295  RCEIVELAPLDAELERFVEHKLERVGKKVSDIFEEDAFLAVRQRLT  340
+
+
+>ref|WP_005708271.1| hypothetical protein [Haemophilus paraphrohaemolyticus]
+ gb|EIG26775.1| hypothetical protein HMPREF1054_1258 [Haemophilus paraphrohaemolyticus 
+HK411]
+Length=390
+
+ Score = 38.2 bits (87),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 19/106 (18%), Positives = 42/106 (40%), Gaps = 5/106 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHSLPIPTLKHLKRFFELEDGFKKLISIVLIGQPELKLKLSERNTEVREVVQ  300
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+               +  +   +++L   +      V    SD+ +    L + ++++
+Sbjct  301  RCEVVELAPLDAELENYVAFRLAKVGKKLSDIFEEDAFLAVRQRLT  346
+
+
+>sp|P36422.1|SYI_TETTH RecName: Full=Isoleucine--tRNA ligase; AltName: Full=Isoleucyl-tRNA 
+synthetase; Short=IleRS
+ gb|AAA30122.1| transfer RNA-Ile synthetase [Tetrahymena thermophila]
+Length=1081
+
+ Score = 38.2 bits (87),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 21/152 (14%), Positives = 58/152 (38%), Gaps = 9/152 (6%)
+
+Query  30   TANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYW  89
+              NL +WY   N      +R      L+   ++L   + +  N+  ++          ++
+Sbjct  737  LENLTNWYIRLNR-----NRLKGDYGLEEQETSLNVLFNVILNSTILMSPLVPFITESFY  791
+
+Query  90   YN--PAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEG  147
+             N    + K +  + E      +P   +E     +E+ F  +  I    +T+   R  + 
+Sbjct  792  QNLRKVIPKGSSYLEESIHFLRIPTPKQELLDEKIERNFERMQNIINFARTLREKR--KV  849
+
+Query  148  KTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+              ++ +    + +++ + +++LK+    ++  
+Sbjct  850  SLKQPIMSLTVINQDQEFHDSLKDYIQYIEDE  881
+
+
+>ref|WP_005640649.1| Eha protein [Haemophilus haemolyticus]
+ gb|EGT82545.1| Eha protein [Haemophilus haemolyticus M21639]
+Length=390
+
+ Score = 38.2 bits (87),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 18/94 (19%), Positives = 36/94 (38%), Gaps = 5/94 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHSLPIPTLKHLKRFFELEDGFKKLISIVLIGQPELKLKLSERNTEVREVVQ  300
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+               +  +   +++L   +      V    SD+ +
+Sbjct  301  RCEVVELAPLDAELENYVAFRLAKVGKKLSDIFE  334
+
+
+>ref|WP_005661850.1| Eha protein [Haemophilus influenzae]
+ gb|EDK06860.1| Eha protein [Haemophilus influenzae PittAA]
+Length=390
+
+ Score = 37.9 bits (86),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 18/92 (20%), Positives = 35/92 (38%), Gaps = 5/92 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHSLPIPTLKHLKRFFELEDGFKKLISIVLIGQPELKLKLSERNTEVREVVQ  300
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDL  183
+               +  +   +++L   +      V    SD+
+Sbjct  301  RCEVVELAPLDAELENYVAFRLAKVGKKLSDI  332
+
+
+>ref|XP_001023177.1| isoleucyl-tRNA synthetase family protein [Tetrahymena thermophila]
+ gb|EAS02932.1| isoleucyl-tRNA synthetase family protein [Tetrahymena thermophila 
+SB210]
+Length=1106
+
+ Score = 38.2 bits (87),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 21/152 (14%), Positives = 58/152 (38%), Gaps = 9/152 (6%)
+
+Query  30   TANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYW  89
+              NL +WY   N      +R      L+   ++L   + +  N+  ++          ++
+Sbjct  762  LENLTNWYIRLNR-----NRLKGDYGLEEQETSLNVLFNVILNSTILMSPLVPFITESFY  816
+
+Query  90   YN--PAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEG  147
+             N    + K +  + E      +P   +E     +E+ F  +  I    +T+   R  + 
+Sbjct  817  QNLRKVIPKGSSYLEESIHFLRIPTPKQELLDEKIERNFERMQNIINFARTLREKR--KV  874
+
+Query  148  KTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+              ++ +    + +++ + +++LK+    ++  
+Sbjct  875  SLKQPIMSLTVINQDQEFHDSLKDYIQYIEDE  906
+
+
+>gb|EKD82719.1| hypothetical protein ACD_39C01137G0005 [uncultured bacterium]
+Length=225
+
+ Score = 37.5 bits (85),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 29/151 (19%), Positives = 58/151 (38%), Gaps = 15/151 (10%)
+
+Query  37   YPLSNAYE---YKL---SRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWY  90
+            Y L   +    YK+   + +    E    + +    YG D +N +I+ +   R       
+Sbjct  13   YFLCRNFTSKGYKVVIINSDRNECEQLARKLSAMVIYG-DGSNVEILEEAGARSATALLA  71
+
+Query  91   NPAVRKDNLKIIEKA-KQYGLPIITEEYDANTVEQGFRDIGV----IFQSLKTIVVTRYL  145
+                 +DNL I + A  +YG+P +    +       F  +GV    +   + +++  R  
+Sbjct  72   ITPNDQDNLIICQLASHKYGIPRVVALANDPDNADVFEKLGVSAFSLTHIVSSLIEQR--  129
+
+Query  146  EGKTEEELRIFNMKSEESQLNEALKESDFSV  176
+                E+ + +F +   +  + E +  SD  V
+Sbjct  130  -ASLEQIVNLFPVGEGKVNVTEIILNSDSPV  159
+
+
+>ref|YP_087313.1| ExeA protein [Mannheimia succiniciproducens MBEL55E]
+ ref|WP_011199304.1| ExeA protein [Mannheimia succiniciproducens]
+ gb|AAU36728.1| ExeA protein [Mannheimia succiniciproducens MBEL55E]
+Length=397
+
+ Score = 37.5 bits (85),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 18/92 (20%), Positives = 34/92 (37%), Gaps = 5/92 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGK-TEE  151
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  248  SNVLIIEEAHSLPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKVKLSERNTEVREVVQ  307
+
+Query  152  ELRIFNMKSEESQLNEALKESDFSVDLTYSDL  183
+               +  +   +S+L   +      V     D+
+Sbjct  308  RCEVVELAPLDSELENYVAFKLAKVGKKVDDI  339
+
+
+>ref|NP_001140939.1| uncharacterized protein LOC100273017 [Zea mays]
+ gb|ACF85003.1| unknown [Zea mays]
+ tpg|DAA39802.1| TPA: hypothetical protein ZEAMMB73_457429 [Zea mays]
+Length=446
+
+ Score = 37.1 bits (84),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 50/151 (33%), Gaps = 5/151 (3%)
+
+Query  48   SRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPA----VRKDNLKIIE  103
+            S +  Y   K     L S YGLDDN  D I       +   +        V++  L    
+Sbjct  155  STHKGYNLTKLTTKELISKYGLDDNTIDFIGHAVALHRDDSYLTEPAIDTVKRMKLYAES  214
+
+Query  104  KAK-QYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEE  162
+             A+ Q G P I   Y    + QGF  +  ++     +          +E          E
+Sbjct  215  VARFQGGSPYIYPLYGLGELPQGFARLSAVYGGTYMLSKPECKVEFDDEGKVCGVTSEGE  274
+
+Query  163  SQLNEALKESDFSVDLTYSDLGQIYNMLLLM  193
+            +   + +      +      +G+++  + +M
+Sbjct  275  TAKCKKVVCDPSYLPDKVKKIGKVFRAIAIM  305
+
+
+>ref|XP_002461825.1| hypothetical protein SORBIDRAFT_02g008810 [Sorghum bicolor]
+ gb|EER98346.1| hypothetical protein SORBIDRAFT_02g008810 [Sorghum bicolor]
+Length=446
+
+ Score = 37.1 bits (84),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 54/152 (36%), Gaps = 7/152 (5%)
+
+Query  48   SRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPA----VRKDNLKIIE  103
+            S +  Y   K     L S YGLDDN  D I       +   +        V++  L    
+Sbjct  155  STHKGYDLTKLTTKELISKYGLDDNTIDFIGHAVALHRDDSYLTEPAIDTVKRMKLYAES  214
+
+Query  104  KAK-QYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEE  162
+             A+ Q G P I   Y    + QGF  +  ++     +      + + + E ++  + SE 
+Sbjct  215  VARFQGGSPYIYPLYGLGELPQGFARLSAVYGGTYMLSKPEC-KVEFDSEGKVCGVTSEG  273
+
+Query  163  SQLNEALKESDFSVD-LTYSDLGQIYNMLLLM  193
+                      D S        +G+++  + +M
+Sbjct  274  ETAKCKKVVCDPSYLPNKVKKVGKVFRAIAIM  305
+
+
+>ref|XP_002280606.1| PREDICTED: rab GDP dissociation inhibitor alpha [Vitis vinifera]
+ emb|CAN70679.1| hypothetical protein VITISV_044153 [Vitis vinifera]
+ emb|CBI24770.3| unnamed protein product [Vitis vinifera]
+Length=444
+
+ Score = 36.3 bits (82),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 28/148 (19%), Positives = 53/148 (36%), Gaps = 6/148 (4%)
+
+Query  52   EYLELKRLRST-LPSSYGLDDNNQDIIRDNNHRCKIGYWYNPA----VRKDNLKIIEKAK  106
+            E ++L R+ +  L + YGLDDN  D I       +   + N      V++  L     A+
+Sbjct  158  EGMDLTRVTTRELIAKYGLDDNTIDFIGHAIALHRDDCYLNEPAIDTVKRMKLYSESIAR  217
+
+Query  107  -QYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQL  165
+             Q G P I   Y    + Q F  +  ++     +          EE   +      E+  
+Sbjct  218  FQGGSPYIYPLYGLGELPQAFARLSAVYGGTYMLNKPECKVEFDEEGKAVGVTSEGETAR  277
+
+Query  166  NEALKESDFSVDLTYSDLGQIYNMLLLM  193
+             + +      +      +G++   + +M
+Sbjct  278  CKKVVCDPSYLPNKVRKVGRVARAICIM  305
+
+
+>gb|ESO13030.1| hypothetical protein HELRODRAFT_159625 [Helobdella robusta]
+Length=437
+
+ Score = 36.3 bits (82),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 28/157 (18%), Positives = 55/157 (35%), Gaps = 8/157 (5%)
+
+Query  42   AYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKI  101
+              E ++    +   L + R    S Y L++N    I++  +  +   W     R+ + + 
+Sbjct  101  NLELQIGELKKQKNLIKPRQQFTSEYLLENNECVEIKEECNDEEDSKW-----RERHKEN  155
+
+Query  102  IEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSE  161
+            + K+K+  +       +   V++                   YLE     E         
+Sbjct  156  LRKSKEKQIHTGKSTSNTEDVQENDESKLWKILEELEEKEDNYLEVPGNVESDEQKNTDT  215
+
+Query  162  ESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKISK  198
+            +S  ++ LK  +  +   Y DL   YN L   KK ++
+Sbjct  216  QSNEDDTLKNENSDILQNYDDL---YNDLFTNKKTAE  249
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.123    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0379    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450666221580
+Results from round 3
+
+
+Query= 4G6DB
+
+Length=198
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_007112958.1|  hypothetical protein [Staphylococcus phage J...   213    4e-66
+ref|YP_024505.1|  hypothetical protein KgORF75 [Staphylococcus ph...   212    6e-66
+ref|YP_007002251.1|  hypothetical protein GH15_128 [Staphylococcu...   210    5e-65
+pdb|4G8X|B  Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain...   201    9e-62
+gb|AGY47370.1|  hypothetical protein Grass_105 [Bacillus phage Gr...   184    4e-55
+ref|YP_008318370.1|  hypothetical protein [Bacillus phage phiNIT1...   183    1e-54
+ref|YP_007005577.1|  hypothetical protein [Staphylococcus phage S...   182    2e-54
+ref|YP_238590.1|  ORF065 [Staphylococcus phage Twort] >gb|AAX9236...   180    1e-53
+ref|YP_007677093.1|  hypothetical protein [Bacillus phage vB_BceM...   177    2e-52
+ref|YP_007349367.1|  hypothetical protein G380_gp124 [Bacillus ph...   168    2e-48
+ref|YP_006908017.1|  hypothetical protein BCP78_0182 [Bacillus ph...   161    4e-46
+ref|YP_004957067.1|  gp52 [Bacillus phage W.Ph.] >gb|ADH03198.1| ...   154    2e-43
+gb|AGY48513.1|  hypothetical protein Spock_113 [Bacillus phage Sp...   153    5e-43
+gb|AGY46620.1|  hypothetical protein BigBertha_112 [Bacillus phag...   151    4e-42
+gb|AGK86994.1|  hypothetical protein SIOphi_00930 [Bacillus phage...   151    4e-42
+ref|YP_006908456.1|  hypothetical protein BCB4_0227 [Bacillus pha...   151    4e-42
+ref|YP_001468496.1|  gp116 [Listeria phage A511] >ref|YP_00824009...   150    6e-42
+ref|YP_006907784.1|  hypothetical protein BPS13_0225 [Bacillus ph...   149    1e-41
+ref|YP_002790821.1|  hypothetical protein lb338_phage_142 [Lactob...   149    1e-41
+ref|YP_008430903.1|  hypothetical protein TROLL_61 [Bacillus phag...   149    1e-41
+ref|YP_007676775.1|  hypothetical protein AG2_108 [Listeria phage...   149    2e-41
+ref|YP_006907346.1|  hypothetical protein [Bacillus phage Bastill...   139    1e-37
+ref|YP_001504157.1|  hypothetical protein EFP_gp048 [Enterococcus...   133    5e-35
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_164704.1|  hypothetical protein LP65_gp069 [Lactobacillus ...  54.4    4e-06
+gb|AGM61367.1|  hypothetical protein BTP1_21 [Bacillus phage phiB...  49.0    3e-05
+ref|WP_002204235.1|  ABC transporter permease [Bacillus cereus] >...  39.4    0.82 
+ref|WP_006852770.1|  DNA-cytosine methyltransferase [Synechococcu...  39.4    0.95 
+ref|WP_018652965.1|  transposase [Actinobacillus capsulatus]          38.6    1.4  
+gb|AAQ72364.1|  methylase fusion protein [Geobacillus stearotherm...  38.6    1.6  
+ref|XP_006114014.1|  PREDICTED: tuftelin isoform X2 [Pelodiscus s...  38.2    2.0  
+ref|XP_006114013.1|  PREDICTED: tuftelin isoform X1 [Pelodiscus s...  38.2    2.3  
+ref|WP_023065471.1|  putative glycogen debranching enzyme [Lyngby...  37.8    2.6  
+ref|YP_004053942.1|  tonb-dependent receptor plug [Marivirga trac...  37.8    2.8  
+ref|XP_006114016.1|  PREDICTED: tuftelin isoform X4 [Pelodiscus s...  37.4    3.0  
+ref|WP_016130633.1|  ABC transporter permease [Bacillus cereus] >...  37.8    3.0  
+ref|WP_002150698.1|  ABC transporter permease [Bacillus cereus] >...  37.8    3.1  
+ref|WP_016090522.1|  ABC transporter permease [Bacillus cereus] >...  37.8    3.2  
+ref|XP_006114015.1|  PREDICTED: tuftelin isoform X3 [Pelodiscus s...  37.4    3.5  
+ref|WP_002150622.1|  ABC transporter permease [Bacillus cereus] >...  37.4    3.5  
+ref|WP_016083077.1|  ABC transporter permease [Bacillus cereus] >...  37.4    3.6  
+ref|NP_873927.1|  Eha protein [Haemophilus ducreyi 35000HP] >ref|...  37.4    3.6  
+ref|XP_004980834.1|  PREDICTED: uncharacterized protein LOC101782...  37.4    3.8  
+ref|WP_005597467.1|  hypothetical protein [Actinobacillus pleurop...  37.4    3.8  
+ref|WP_018632629.1|  hypothetical protein [Meganema perideroedes]     37.4    4.1  
+
+
+>ref|YP_007112958.1| hypothetical protein [Staphylococcus phage JD007]
+ ref|YP_008854082.1| hypothetical protein [Staphylococcus phage S25-4]
+ ref|YP_008854258.1| hypothetical protein [Staphylococcus phage S25-3]
+ gb|AFV50893.1| hypothetical protein [Staphylococcus phage JD007]
+ dbj|BAO09286.1| hypothetical protein [Staphylococcus phage S25-3]
+ dbj|BAO09501.1| hypothetical protein [Staphylococcus phage S25-4]
+Length=198
+
+ Score =  213 bits (541),  Expect = 4e-66, Method: Composition-based stats.
+ Identities = 197/198 (99%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLP+ITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPVITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_024505.1| hypothetical protein KgORF75 [Staphylococcus phage K]
+ ref|YP_240941.1| ORF067 [Staphylococcus phage G1]
+ ref|YP_008873631.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ pdb|4G6D|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G94|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ gb|AAO47524.1| ORF75 [Staphylococcus phage K]
+ gb|AAX92149.1| ORF067 [Staphylococcus phage G1]
+ gb|ABL87146.1| hypothetical protein [Staphylococcus phage 812]
+ gb|ACB89097.1| gp ORF104 [Staphylococcus phage A5W]
+ gb|AEJ79753.1| conserved hypothetical protein [Staphylococcus phage Sb-1]
+ emb|CCA65778.1| hypothetical protein [Staphylococcus phage ISP]
+ gb|AFN37949.1| Asf [Staphylococcus phage Staph1N]
+ gb|AFN38159.1| Asf [Staphylococcus phage A3R]
+ gb|AFN38353.1| Asf [Staphylococcus phage 676Z]
+ gb|AFN38565.1| Asf [Staphylococcus phage Fi200W]
+ gb|AFN38777.1| Asf [Staphylococcus phage MSA6]
+ gb|AFN38988.1| Asf [Staphylococcus phage P4W]
+ gb|AFV80710.1| hypothetical protein SA5_047 [Staphylococcus phage SA5]
+Length=198
+
+ Score =  212 bits (539),  Expect = 6e-66, Method: Composition-based stats.
+ Identities = 198/198 (100%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>ref|YP_007002251.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+ gb|AFF28600.1| hypothetical protein GH15_128 [Staphylococcus phage GH15]
+Length=198
+
+ Score =  210 bits (533),  Expect = 5e-65, Method: Composition-based stats.
+ Identities = 195/198 (98%), Positives = 197/198 (99%), Gaps = 0/198 (0%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR
+Sbjct  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            STLPSSYGLDDNNQDIIRDNNHRCKI YWYNPAVRKDNLKIIEKAKQYGLP+ITE+YDAN
+Sbjct  61   STLPSSYGLDDNNQDIIRDNNHRCKIDYWYNPAVRKDNLKIIEKAKQYGLPVITEQYDAN  120
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+            TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY
+Sbjct  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+            SDLGQIYNMLLLMKKISK
+Sbjct  181  SDLGQIYNMLLLMKKISK  198
+
+
+>pdb|4G8X|B Chain B, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+ pdb|4G8X|D Chain D, G1 Orf67 / Staphyloccus Aureus Sigmaa Domain 4 Complex
+Length=198
+
+ Score =  201 bits (512),  Expect = 9e-62, Method: Composition-based stats.
+ Identities = 194/197 (98%), Positives = 194/197 (98%), Gaps = 0/197 (0%)
+
+Query  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+            KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS
+Sbjct  2    KLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRS  61
+
+Query  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+            TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT
+Sbjct  62   TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANT  121
+
+Query  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYS  181
+            VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFN KSEESQLNEALKESDFSVDLTYS
+Sbjct  122  VEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNXKSEESQLNEALKESDFSVDLTYS  181
+
+Query  182  DLGQIYNMLLLMKKISK  198
+            DLGQIYN LLL KKISK
+Sbjct  182  DLGQIYNXLLLXKKISK  198
+
+
+>gb|AGY47370.1| hypothetical protein Grass_105 [Bacillus phage Grass]
+Length=197
+
+ Score =  184 bits (467),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 54/202 (27%), Positives = 90/202 (45%), Gaps = 11/202 (5%)
+
+Query  1    MKLKI-LDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MKL +    D   L V    +E K I  +   N+  WYPL+  + Y+ S   E L L + 
+Sbjct  1    MKLTVDHAVDMLLLEVETTGEEKKHIY-LSIENVHYWYPLNTNFSYRYSNAKEQLYLVQE  59
+
+Query  60   RS-TLPSSYGLDDNNQDIIRDNNHRC--KIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE  116
+               T  + YG      DI++ +      K G+  +P V + N+ I+++A   G+P +   
+Sbjct  60   GGYTGENVYG-----ADILKRSKQLVVNKDGFLIHPEVLERNMYIMDEAASMGIPTLIHS  114
+
+Query  117  YDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSV  176
+            Y+   VE GF  +    +  K I+  R++    E         + E   N+    +    
+Sbjct  115  YNGYDVEDGFDTLSSWIKGRKEIIEDRFMAQDAEAWTITQTELN-EEWDNKLYSYATDEE  173
+
+Query  177  DLTYSDLGQIYNMLLLMKKISK  198
+                 +LG+IYNML LM+K+++
+Sbjct  174  LKQLQELGEIYNMLCLMRKLAE  195
+
+
+>ref|YP_008318370.1| hypothetical protein [Bacillus phage phiNIT1]
+ dbj|BAN59602.1| hypothetical protein [Bacillus phage phiNIT1]
+Length=197
+
+ Score =  183 bits (465),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 53/202 (26%), Positives = 89/202 (44%), Gaps = 11/202 (5%)
+
+Query  1    MKLKI-LDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MKL +    D   L V    +E K I  + T N+  WYPL+  + Y+ S   E L L + 
+Sbjct  1    MKLTVDHAVDMLLLEVETTGEEKKHIY-LSTENVHYWYPLNTNFSYRYSNAKEQLYLVQE  59
+
+Query  60   RS-TLPSSYGLDDNNQDIIRDNNHRC--KIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE  116
+               T  + YG      DI++ +      K G+  +P V + N+ I+++A   G+P +   
+Sbjct  60   GGYTGDNVYG-----ADILKRSKQLVVNKDGFLIHPEVLERNMYIMDEAASMGIPTLIHS  114
+
+Query  117  YDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSV  176
+            Y+   VE GF  +    +  K I+  R++    E         + E    +    +    
+Sbjct  115  YNGYDVEDGFDTLSSWIKERKEIIEDRFMAQDAEAWTITQTELN-EEWDTKLYSYATDEE  173
+
+Query  177  DLTYSDLGQIYNMLLLMKKISK  198
+                 +LG+IY ML LM+K+++
+Sbjct  174  LKQLQELGEIYTMLCLMRKLAE  195
+
+
+>ref|YP_007005577.1| hypothetical protein [Staphylococcus phage SA11]
+ ref|YP_007677556.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+ ref|YP_008431186.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFO70689.1| hypothetical protein [Staphylococcus phage SA11]
+ gb|AFV80946.1| hypothetical protein Remus_060 [Staphylococcus phage vB_SauM_Remus]
+ gb|AFV81120.1| hypothetical protein Romulus_060 [Staphylococcus phage vB_SauM_Romulus]
+Length=197
+
+ Score =  182 bits (462),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 115/196 (59%), Positives = 139/196 (71%), Gaps = 2/196 (1%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI D   A+L V + N     IDN+P + LVDWYPLSNAYEYK S +  Y+ELKRLR
+Sbjct  1    MKLKIKDNQFASLTVNYTNNAKLHIDNIPVSTLVDWYPLSNAYEYKASNDFGYIELKRLR  60
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYGL   +Q + +    +CK+G WYN  +++DN KIIEKAK YGLP I E + + 
+Sbjct  61   SSLPVSYGL--THQTLYKCETVKCKLGLWYNEKIKEDNEKIIEKAKLYGLPTIDEPFTSK  118
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+QGF D+GVIFQ+LKTI    YL+ KT EE+  F+ KSE+ QLNE LK S   VD TY
+Sbjct  119  DVKQGFSDLGVIFQTLKTISTNEYLKDKTIEEINTFSKKSEDYQLNEVLKYSTTLVDDTY  178
+
+Query  181  SDLGQIYNMLLLMKKI  196
+            SDL QIYNMLLLMKKI
+Sbjct  179  SDLSQIYNMLLLMKKI  194
+
+
+>ref|YP_238590.1| ORF065 [Staphylococcus phage Twort]
+ gb|AAX92360.1| ORF065 [Staphylococcus phage Twort]
+Length=195
+
+ Score =  180 bits (457),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 87/198 (44%), Positives = 124/198 (63%), Gaps = 4/198 (2%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKLKI +K    L V   N    T  +VP +N+ +WYP SNAY YK +   + L LKRLR
+Sbjct  1    MKLKIKNKFMGVLEV--TNSMGVTKLDVPLSNIHEWYPFSNAYSYKYNVKTKDLVLKRLR  58
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDAN  120
+            S+LP SYG++  +++   D +  C    W N +V+  NL II KAK YGLP+ITE+Y   
+Sbjct  59   SSLPVSYGIERASKE--YDKDKVCNTVTWINHSVKDSNLHIINKAKSYGLPVITEKYTYE  116
+
+Query  121  TVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTY  180
+             V+ GF  + VIF  LK++++ RYLE K    +  F   + E+Q + A++++D  ++ TY
+Sbjct  117  DVDYGFAQLNVIFSELKSLIINRYLEDKDGSFIVKFKRHNPETQYHLAVQDADEVINNTY  176
+
+Query  181  SDLGQIYNMLLLMKKISK  198
+             +LGQ+Y MLLLMKK+SK
+Sbjct  177  DELGQMYKMLLLMKKLSK  194
+
+
+>ref|YP_007677093.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+ gb|AFQ96503.1| hypothetical protein [Bacillus phage vB_BceM-Bc431v3]
+Length=190
+
+ Score =  177 bits (449),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 47/199 (24%), Positives = 85/199 (43%), Gaps = 10/199 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKL I   +   L       +      +P  N+  WYP +  + YK S    Y+ L + +
+Sbjct  1    MKL-INISEKEILLELKTTDKKLEEICLPKENIHFWYPFNINFYYKHSSAKGYMYLVQDK  59
+
+Query  61   STLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   G +  +  I++      K  G   N  V + N  I+ KA + G+P I + Y +
+Sbjct  60   H----YEGTNHYDTTILKRTKKLMKHEGVPLNLPVYERNTYIMSKAFELGIPTIAQSYTS  115
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+             +V+ GF  +  I   L++ +  RY+E   + +  I    + E    E  K +       
+Sbjct  116  ESVQHGFDTLAAIMGDLQSEIEERYVEASGKSQPPI----NTEKWDKEMYKHATEEELAE  171
+
+Query  180  YSDLGQIYNMLLLMKKISK  198
+              + G++Y ML +M+K+++
+Sbjct  172  LQEYGEMYTMLSIMRKLAQ  190
+
+
+>ref|YP_007349367.1| hypothetical protein G380_gp124 [Bacillus phage phiAGATE]
+ gb|AGB62774.1| hypothetical protein [Bacillus phage phiAGATE]
+Length=208
+
+ Score =  168 bits (424),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 42/207 (20%), Positives = 76/207 (37%), Gaps = 10/207 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            MKL   DKD   + V    +       +    ++   P ++ Y YK S   +   L + R
+Sbjct  1    MKLTRKDKDTFIMTVETT-EGGTKDLELSLEEVLHVCPFNSNYMYKYSPTRKKFYLCKDR  59
+
+Query  61   S--TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE---  115
+                       + NN     D+      G++Y   V   N  ++  A++ G+P + +   
+Sbjct  60   GYKNTDVYKHSEGNNDIQYFDSEDLQVEGFFYQDKVSDRNWDVVYAAERLGIPNLLDLGV  119
+
+Query  116  -EYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEE---LRIFNMKSEESQLNEALKE  171
+                 + ++ G   +     +L   +  RYL+  T EE    R       E         
+Sbjct  120  NPLTQDDIKAGHIKLAEALDALNEKIAKRYLDSLTAEEVLEDRHIPNSGNEDWYATIYTV  179
+
+Query  172  SDFSVDLTYSDLGQIYNMLLLMKKISK  198
+            +    +  +   G+IYNML LM++  +
+Sbjct  180  ATREEEDQFILYGEIYNMLRLMRRFIE  206
+
+
+>ref|YP_006908017.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47189.1| hypothetical protein BCP78_0182 [Bacillus phage BCP78]
+ gb|AEW47677.1| hypothetical protein BCU4_0171 [Bacillus phage BCU4]
+Length=198
+
+ Score =  161 bits (407),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 57/197 (29%), Positives = 91/197 (46%), Gaps = 5/197 (3%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLR  60
+            M+L  +      L +   ++E  TI  +P  N+  WYP +  + YK S   EY+ L + +
+Sbjct  1    MRLVSVLDHGIKLQLSTTDQETVTIL-IPKKNIHFWYPFNLGFYYKYSAAKEYMYLVQDK  59
+
+Query  61   S-TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                 + YG D   +          +    YN  V K N++II KA+  G+P IT+ YD 
+Sbjct  60   HYDRGNVYGTDILKRT---KELPITEDDVPYNEPVFKRNVQIIMKARFMGIPTITDNYDL  116
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+            N V +GF  +    Q +K  +  RY+E    +      ++  E    +  + +  S    
+Sbjct  117  NQVNEGFEIVSDHMQYIKEKIEKRYMEKYITKVENYQPVQQTEEWDKQIYRCARASELGE  176
+
+Query  180  YSDLGQIYNMLLLMKKI  196
+               LG+IYNML+LMKK+
+Sbjct  177  LELLGEIYNMLVLMKKL  193
+
+
+>ref|YP_004957067.1| gp52 [Bacillus phage W.Ph.]
+ gb|ADH03198.1| gp52 [Bacillus phage W.Ph.]
+Length=195
+
+ Score =  154 bits (389),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 41/194 (21%), Positives = 81/194 (42%), Gaps = 10/194 (5%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTI-DNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MK+K    ++  L + + NKE   +    P  N++ WYPL+N YEYK S    ++ L + 
+Sbjct  1    MKIKNHSVESIELVLENTNKEKDNVSYFFPKQNMIFWYPLNNGYEYKHSDARGFMYLTKD  60
+
+Query  60   RSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD-  118
+            +      Y +        R      K G  ++  +   NL  ++ AKQ G       Y  
+Sbjct  61   KLATVDVYKVVRAK----RAKKLPQKNGIPFSQDIFNKNLSTLKWAKQNGYVEYDRNYIF  116
+
+Query  119  ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDL  178
+                +   R++    +SL++++ +RY            ++ +++++L E  + +  +   
+Sbjct  117  TGDYDNSIRNLLTDLRSLESVLKSRYYSKYL---PVADDITADKAEL-EFHEVATAAEKN  172
+
+Query  179  TYSDLGQIYNMLLL  192
+                 G+ Y  L +
+Sbjct  173  RIRLFGETYAYLRM  186
+
+
+>gb|AGY48513.1| hypothetical protein Spock_113 [Bacillus phage Spock]
+Length=199
+
+ Score =  153 bits (387),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 44/203 (22%), Positives = 84/203 (41%), Gaps = 9/203 (4%)
+
+Query  1    MKLKILDKD--NATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+    ++     L    ++KE      +P   L+ WYPL+  Y YK S + + + L +
+Sbjct  1    MKVVKFSEEEVLVILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVK  60
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD  118
+              +     Y +    Q          K G  YN  V   N KI++ A++  L  ++E+  
+Sbjct  61   DGTYKRDLYDVKSTKQ----AKALPLKKGVPYNKTVHNRNTKIVKWAEENNLIEVSEDKV  116
+
+Query  119  -ANTVEQGFRDIGVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFS  175
+                 + G   +    +S+K  +V +Y+  EGK  +     N+   +       K +  +
+Sbjct  117  LLTDPKVGICRVLETIESIKQHLVKKYIFEEGKNTDFDIDVNLGFPKFTDELIYKYATET  176
+
+Query  176  VDLTYSDLGQIYNMLLLMKKISK  198
+                   LG++Y +L L +++ +
+Sbjct  177  ELYQLELLGEVYTLLNLYRRLEE  199
+
+
+>gb|AGY46620.1| hypothetical protein BigBertha_112 [Bacillus phage BigBertha]
+Length=199
+
+ Score =  151 bits (381),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 42/203 (21%), Positives = 84/203 (41%), Gaps = 9/203 (4%)
+
+Query  1    MKLKILDKD--NATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+    ++     L    ++KE      +P   L+ WYPL+  Y YK S + + + L +
+Sbjct  1    MKVVKFSEEEVLVILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVK  60
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPII-TEEY  117
+              +     Y +    Q          K G  YN  V   N KI++ A++  L  +  ++ 
+Sbjct  61   DSTYDKDLYDVKSTKQ----AKALPLKKGVPYNKTVHNRNTKIVQWAQENNLIEVSKDKV  116
+
+Query  118  DANTVEQGFRDIGVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFS  175
+                 + G   +    +S+K  +V +Y+  EG+ ++     N+   +       K +  +
+Sbjct  117  LLTDPKVGICRVLETIESIKQHLVKKYIFEEGQNDDFDIDENLGFPKFTDELVYKYATTT  176
+
+Query  176  VDLTYSDLGQIYNMLLLMKKISK  198
+                   LG++Y +L L +++ +
+Sbjct  177  ELYQLELLGEVYTLLNLYRRLEE  199
+
+
+>gb|AGK86994.1| hypothetical protein SIOphi_00930 [Bacillus phage SIOphi]
+Length=204
+
+ Score =  151 bits (381),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 58/208 (28%), Positives = 100/208 (48%), Gaps = 18/208 (9%)
+
+Query  1    MKLKILDK------DNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYL  54
+            MKL +  +      D+  L V   N+  +T   +P  NL  WYP +  + YK S +   L
+Sbjct  1    MKLLVKTQHERGAGDDVILRVS-VNRTGETFVAMPLENLHYWYPFNINFSYKFSDSKGGL  59
+
+Query  55   ELKRLRS-TLPSSYGLDDNNQDIIRDNNHR-CKIGYWYNPAVRKDNLKIIEKAKQYGLPI  112
+             L + R    P+ Y    N    I++      K G++ N  V + N  IIEKAKQ  LP+
+Sbjct  60   VLVKERGYKGPNFY----NAPSTIKEAEPLKKKDGFFLNQKVYERNTYIIEKAKQLNLPV  115
+
+Query  113  ITEE-YDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKE  171
+            IT++ Y++  + +GF  +  +   +K  +   Y   K  +E+    +   + +    + E
+Sbjct  116  ITDDTYNSRDIAKGFLRLQYLMGLVKKDIEKNY---KMHQEVTNAPVTELDEEWERKMFE  172
+
+Query  172  SDFSV-DLTYSDLGQIYNMLLLMKKISK  198
+            S  ++ +  Y + G++Y+ML+ M KI+K
+Sbjct  173  SMSTIHEKAYLEFGEMYSMLVTMNKIAK  200
+
+
+>ref|YP_006908456.1| hypothetical protein BCB4_0227 [Bacillus phage B4]
+ gb|AEW47455.1| hypothetical protein B5S_0221 [Bacillus phage B5S]
+ gb|AEZ66020.1| hypothetical protein BCB4_0227 [Bacillus phage B4]
+Length=199
+
+ Score =  151 bits (380),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 45/203 (22%), Positives = 83/203 (41%), Gaps = 9/203 (4%)
+
+Query  1    MKLKILDKD--NATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+    ++     L    ++KE      +P   L+ WYPL+  Y YK S + + + L +
+Sbjct  1    MKVVKFSEEEVLVILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVK  60
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD  118
+              +     Y +    Q          K G  YN  V   N KI++ A++  L  ++EE  
+Sbjct  61   DGTYKRDLYDVKSTKQ----AKALPLKKGVPYNKTVHNRNTKIVKWAEENNLIEVSEEKV  116
+
+Query  119  -ANTVEQGFRDIGVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFS  175
+                 + G   +    +S+K  +V +Y+  EGK        N+   +       K +  +
+Sbjct  117  LLTDPKVGICRVLETIESIKQHLVKKYIFEEGKNNNFDINVNLGFPKFTDELIYKYATET  176
+
+Query  176  VDLTYSDLGQIYNMLLLMKKISK  198
+                   LG++Y +L L +++ +
+Sbjct  177  ELYQLELLGEVYTLLNLYRRLEE  199
+
+
+>ref|YP_001468496.1| gp116 [Listeria phage A511]
+ ref|YP_008240096.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+ gb|AAY53351.1| gp48 [Listeria phage P100]
+ gb|AAY52897.1| gp116 [Listeria phage A511]
+ gb|AGI11450.1| hypothetical protein LP125_125 [Listeria phage LP-125]
+Length=196
+
+ Score =  150 bits (379),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 51/202 (25%), Positives = 90/202 (45%), Gaps = 15/202 (7%)
+
+Query  1    MKLKILDKDNATL--NVFHRNKEHKTIDN---VPTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANVFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTR-YLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            +++   VE GF  I      +K     R Y +    E   +     EE +       +  
+Sbjct  113  DFNQQDVENGFEVISTELAYIKEQATARCYGDKDVFERSELLKKSKEEREQAYFEYLTVE  172
+
+Query  175  SVDLTYSDLGQIYNMLLLMKKI  196
+             V+  Y  LG++Y ML+LM+K+
+Sbjct  173  EVNFQYK-LGELYAMLVLMRKV  193
+
+
+>ref|YP_006907784.1| hypothetical protein BPS13_0225 [Bacillus phage BPS13]
+ gb|AEZ50404.1| hypothetical protein BPS13_0225 [Bacillus phage BPS13]
+Length=195
+
+ Score =  149 bits (377),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 41/198 (21%), Positives = 75/198 (38%), Gaps = 18/198 (9%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHKTI-DNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRL  59
+            MK+K   +++  L + + N E   +    P  N+V WYPL+N YEYK S   +++ L + 
+Sbjct  1    MKIKNHSEESIELVLENTNNEKAPVSYFFPKVNMVFWYPLNNGYEYKHSDARDFMYLTKD  60
+
+Query  60   RSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD-  118
+            +      Y +        R      K G  ++  +   NL  ++ AK+ G       Y  
+Sbjct  61   KLATVDVYKVVRAK----RAKKLPQKNGIPFSQDIFNKNLTTLKWAKKNGYVEYDRNYVF  116
+
+Query  119  ----ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+                A +++    D+  +   LK     +Y+    +    I + K  E         +  
+Sbjct  117  TGDYAESIKNVLTDLRTLESELKHRYYEKYMWVAEDVINDIADYKYPE--------VATA  168
+
+Query  175  SVDLTYSDLGQIYNMLLL  192
+            +        G+ Y  L +
+Sbjct  169  AELNRIKLFGETYAYLRM  186
+
+
+>ref|YP_002790821.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+ gb|ACO37063.1| hypothetical protein lb338_phage_142 [Lactobacillus phage Lb338-1]
+Length=188
+
+ Score =  149 bits (376),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 53/199 (27%), Positives = 91/199 (46%), Gaps = 19/199 (10%)
+
+Query  1    MKLKILDKDNATLNVFHRNKEHK--TIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            M+++I +K    + V    K  +   +       L  WYPL+  Y Y+     + +  + 
+Sbjct  1    MRVEIGNK-IGVVAVDKEGKPGEWRHVYKFSVDTLPYWYPLNLNYYYEYDERSKEIRFRH  59
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD  118
+              S + +   +  N  ++I+          WYN  V  DN +I E A   G+  I ++Y+
+Sbjct  60   RNSRISA--KIKGNYLNVIK----------WYNAGVYADNKRIEEHAHALGISSIFDDYN  107
+
+Query  119  ANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDL  178
+            +  V +GF  +G +   L T+ V R+     E      ++ ++E     ALK      +L
+Sbjct  108  SLDVSKGFLKVGQLIDDL-TMKVIRHHPHAFESGTGKLDIYNQE---AYALKHCTKEENL  163
+
+Query  179  TYSDLGQIYNMLLLMKKIS  197
+             Y+ LG+IYNML LMKK++
+Sbjct  164  EYTYLGEIYNMLCLMKKVA  182
+
+
+>ref|YP_008430903.1| hypothetical protein TROLL_61 [Bacillus phage Troll]
+ gb|AGT13401.1| hypothetical protein TROLL_119 [Bacillus phage Troll]
+Length=199
+
+ Score =  149 bits (377),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 42/203 (21%), Positives = 84/203 (41%), Gaps = 9/203 (4%)
+
+Query  1    MKLKILDKD--NATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+    ++     L    ++KE      +P   L+ WYPL+  Y YK S + + + L +
+Sbjct  1    MKVVKFSEEEVLVILETTSQDKEETKEILLPYRELLKWYPLNINYTYKYSTSKDIMYLVK  60
+
+Query  59   LRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPII-TEEY  117
+              +     Y +    Q          K G  YN  V   N KI++ A++  L  +  ++ 
+Sbjct  61   DSTYDKDLYDVKSTKQ----AKALPLKKGVPYNKTVHNRNKKIVQWAQENNLIEVSKDKV  116
+
+Query  118  DANTVEQGFRDIGVIFQSLKTIVVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFS  175
+                 + G   +    +S+K  +V +Y+  EG+ ++     N+   +       K +  +
+Sbjct  117  LLTDPKVGICRVLETIESIKQHLVKKYIFEEGQNDDFDIDENLGFPKFTDELVYKYATTT  176
+
+Query  176  VDLTYSDLGQIYNMLLLMKKISK  198
+                   LG++Y +L L +++ +
+Sbjct  177  ELYQLELLGEVYTLLNLHRRLEE  199
+
+
+>ref|YP_007676775.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+ gb|AFJ76044.1| hypothetical protein AG2_108 [Listeria phage vB_LmoM_AG20]
+Length=196
+
+ Score =  149 bits (376),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 53/202 (26%), Positives = 90/202 (45%), Gaps = 15/202 (7%)
+
+Query  1    MKLKILDKDNATL--NVFHRNKEHKTIDN---VPTANLVDWYPLSNAYEYKLSRNGEYLE  55
+            MK+KI+ ++   L   V  R+ + + I +    P ++L  WYP +  Y Y + ++G Y  
+Sbjct  1    MKVKIMTEEKGVLTSEVSKRSTKKEAIYSANIFPISSLYKWYPFNTNYAYVVDKHGVY-R  59
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITE  115
+            L  L   + +SY L       + +   +     W+N  V + NL +   A + G+  I +
+Sbjct  60   LTELDDCIHTSYNL-------VSEEKAKLDPTKWHNKTVTQSNLLLCRLANKLGIKSIKD  112
+
+Query  116  EYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEES-QLNEALKESDF  174
+            ++    VE GF  I      +K     R  E K   E      KS+E  +       +  
+Sbjct  113  DFSQQDVENGFEVISTELAYIKEQATARCYEDKDVFERSELLKKSKEEREQAYFEYLTVE  172
+
+Query  175  SVDLTYSDLGQIYNMLLLMKKI  196
+             V+  Y  LG++Y ML+LM+K+
+Sbjct  173  EVNFQYK-LGELYAMLVLMRKV  193
+
+
+>ref|YP_006907346.1| hypothetical protein [Bacillus phage Bastille]
+ gb|AEQ34250.1| hypothetical protein [Bacillus phage Bastille]
+Length=203
+
+ Score =  139 bits (351),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 35/189 (19%), Positives = 70/189 (37%), Gaps = 9/189 (5%)
+
+Query  11   ATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLD  70
+            +T  V     + +    +P  N++ WYPL+  YEYK S   + + L     +   SY + 
+Sbjct  17   STAKVDDGEAKEEVEIILPKDNIIYWYPLNMNYEYKFSDAKQIMYLTLDSMSEDDSYSVK  76
+
+Query  71   DNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYD--ANTVEQGFRD  128
+                   R      K G  Y   V   N   ++  ++ G     ++Y+   + VE     
+Sbjct  77   KAK----RAKPLPIKDGVPYKDDVFLSNRATLKWGRRQGFIDYDKKYNFIGDNVESTKLV  132
+
+Query  129  IGVIFQSLKTIVVTRYLEGKTEEE--LRIFNMKSEESQLNEALKESDFSVDLTYSDLGQI  186
+            +  +   L+  +  RY+E +  +        +        +  + ++         LG++
+Sbjct  133  LAAVTA-LREKLTARYIEKEGNKSGLDVEDGIGLSLFTDEQVYQLANKKERAEIKLLGEV  191
+
+Query  187  YNMLLLMKK  195
+            Y  L +M +
+Sbjct  192  YTYLRVMYR  200
+
+
+>ref|YP_001504157.1| hypothetical protein EFP_gp048 [Enterococcus phage phiEF24C]
+ dbj|BAF81316.1| hypothetical protein EFP_048 [Enterococcus phage phiEF24C]
+Length=221
+
+ Score =  133 bits (334),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 53/222 (24%), Positives = 96/222 (43%), Gaps = 29/222 (13%)
+
+Query  1    MKLKILDKDN--ATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKR  58
+            MK+  L ++    T+ V   +     + + P   L DWYP    YEY+ S + + L L+ 
+Sbjct  1    MKIYTLSRELNEGTIFVPTSSSNEGRLFSFPLETLFDWYPCCPRYEYQYSTSRKKLYLRL  60
+
+Query  59   LRS--TLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEE  116
+            L S  TL + YG+ DN + +I           WYN  V  +N ++   A+QY +  +T  
+Sbjct  61   LDSDKTLVARYGVGDNKKRVIS-KIACFNENEWYNEEVANENAELFNFAEQYDI--VTPL  117
+
+Query  117  YDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNM---KSEESQLNEALKE--  171
+             D  T+++    I  +   L  +   + ++ + E   ++  +   K +  +L +A K+  
+Sbjct  118  KDDYTLKEVDDSISKVLDILDLLYTNQKVKVEEELINKVDTLQLSKPDSDELKQAYKDIS  177
+
+Query  172  -----------------SDFSVDLTYSDLGQIYNMLLLMKKI  196
+                             S  S++  Y   G +Y ML +M+K+
+Sbjct  178  EYMRLDREEKATYVLSRSLDSLNSVYEKFGNVYTMLNIMRKV  219
+
+
+>ref|YP_164704.1| hypothetical protein LP65_gp069 [Lactobacillus phage LP65]
+ gb|AAV35889.1| orf69 [Lactobacillus phage LP65]
+Length=238
+
+ Score = 54.4 bits (129),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 34/180 (19%), Positives = 69/180 (38%), Gaps = 9/180 (5%)
+
+Query  22   HKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGL----DDNNQDII  77
+                  +P ++++  YPL N   Y  +     L LK      P+ +      + N  ++ 
+Sbjct  47   KSKEYILPASDIMYVYPLENYIGYSFNNPYSDLLLKFDNRRTPAKFKKYIKENYNAGNVY  106
+
+Query  78   RDNNHRCKIGYWYNPA--VRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQS  135
+                +  +    Y+    +   N  I  + +  G       Y+ N V   FR +  I  +
+Sbjct  107  LKKLYDFENQRPYDAYNFIFAQNSAISVELESLGFKSWYGTYNQNDVLDNFRLVDDILTT  166
+
+Query  136  LKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKK  195
+            +KT +V R  +     +L   +   EE   + ++  ++ +  + Y+ +GQ   M  +M K
+Sbjct  167  MKTRLVDRAFKA---GKLAKVSSGDEEKLDHISMSMANKNEIILYNRVGQALTMNAIMNK  223
+
+
+>gb|AGM61367.1| hypothetical protein BTP1_21 [Bacillus phage phiBTP1]
+Length=61
+
+ Score = 49.0 bits (115),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 11/61 (18%), Positives = 28/61 (46%), Gaps = 2/61 (3%)
+
+Query  140  VVTRYL--EGKTEEELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+            +V +Y+  EG+ ++     N+   +       K +  +       LG++Y +L L +++ 
+Sbjct  1    MVKKYIFEEGQNDDFDIDENLGFPKFTDELVYKYATTTELYQLELLGEVYTLLNLHRRLE  60
+
+Query  198  K  198
+            +
+Sbjct  61   E  61
+
+
+>ref|WP_002204235.1| ABC transporter permease [Bacillus cereus]
+ gb|EJV75430.1| hypothetical protein IG3_05453 [Bacillus cereus HuA2-1]
+Length=620
+
+ Score = 39.4 bits (90),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 29/193 (15%), Positives = 62/193 (32%), Gaps = 19/193 (10%)
+
+Query  3    LKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRST  62
+            LK  DK+    +V H     +       ++++        +EY+   + +Y+   +    
+Sbjct  317  LKTTDKEKVYDSVVHNPTAEEKKI---LSDIL----FQEKFEYRYKVDDQYVYYIKEDVE  369
+
+Query  63   LPSSYGLDDNNQDIIRDNNHRCKIGYWYNP---AVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   D  N+ +++ +    K  +        V  D+ K  +  +      I   Y  
+Sbjct  370  KNRPLAQDSENRKMMKVSEEFPKDAFTLPKQLYKVYNDDTKTKQWKEA--FFTIQPTYMY  427
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+               E    D   ++ S+K    T ++    +    +   K  +       K      ++ 
+Sbjct  428  PDHEIKIID-QSVYDSMKDKENTVFIGKTDDFGAHLKEWKKLDELQVAKYK------NVK  480
+
+Query  180  YSDLGQIYNMLLL  192
+              +LG  Y M  L
+Sbjct  481  AEELGSTYQMYNL  493
+
+
+>ref|WP_006852770.1| DNA-cytosine methyltransferase [Synechococcus sp. WH 8016]
+ gb|EHA63588.1| DNA-cytosine methyltransferase [Synechococcus sp. WH 8016]
+Length=680
+
+ Score = 39.4 bits (90),  Expect = 0.95, Method: Composition-based stats.
+ Identities = 25/128 (20%), Positives = 43/128 (34%), Gaps = 3/128 (2%)
+
+Query  49   RNGEYLELKRLR-STLPSSYGLDDNNQDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQ  107
+            +    L  ++ R S+  + Y +    +  +    H  K GYWY    +   L I E A+ 
+Sbjct  345  KREGKLLNRKDRESSFSNKYNILKGKEPCLTVTAHMAKDGYWYIHPQQNRTLSIREAARV  404
+
+Query  108  YGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNE  167
+               P     +   T    F  +G     L   V+ R +    ++       +S E+   E
+Sbjct  405  QSFPDGFRFH--GTPSNRFHQVGEAVAPLVGEVLGRAMLDAIKQRTEEVLWRSPETIRQE  462
+
+Query  168  ALKESDFS  175
+             L      
+Sbjct  463  LLDWYRDE  470
+
+
+>ref|WP_018652965.1| transposase [Actinobacillus capsulatus]
+Length=390
+
+ Score = 38.6 bits (88),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 20/105 (19%), Positives = 42/105 (40%), Gaps = 5/105 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGKTEEE  152
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  300
+
+Query  153  L-RIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKI  196
+               I  +   +++L   ++     V    SD+ +    L + +++
+Sbjct  301  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFEEDAFLAVRQRL  345
+
+
+>gb|AAQ72364.1| methylase fusion protein [Geobacillus stearothermophilus]
+Length=1007
+
+ Score = 38.6 bits (88),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 21/155 (14%), Positives = 44/155 (28%), Gaps = 9/155 (6%)
+
+Query  40   SNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWY-----NPAV  94
+            +  + Y    +   L  +++ + + + Y  D N   ++       K    Y     +   
+Sbjct  87   NFVFSYLKEISKLQLHKEQIETLINNIYVADINQTALLEYKKLLSKFAKLYFDIDLSEEY  146
+
+Query  95   RKDN----LKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTE  150
+               +    L I   A+Q     IT+ +    V++GF  +                    E
+Sbjct  147  FNSHIGSALLIDVAAEQPEYIKITDVFPDEVVKEGFDIVVTNPPYKNLKAEKGQYSNDLE  206
+
+Query  151  EELRIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+             E+        +  +      S   V   Y    +
+Sbjct  207  YEIDRARYAEIKKMVKRIFNYSTDGVLNLYKLFVE  241
+
+
+>ref|XP_006114014.1| PREDICTED: tuftelin isoform X2 [Pelodiscus sinensis]
+Length=388
+
+ Score = 38.2 bits (87),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|XP_006114013.1| PREDICTED: tuftelin isoform X1 [Pelodiscus sinensis]
+Length=392
+
+ Score = 38.2 bits (87),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|WP_023065471.1| putative glycogen debranching enzyme [Lyngbya aestuarii]
+ gb|ERT08429.1| putative glycogen debranching enzyme [Lyngbya aestuarii BL J]
+Length=669
+
+ Score = 37.8 bits (86),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 22/115 (19%), Positives = 35/115 (30%), Gaps = 6/115 (5%)
+
+Query  15   VFHRNKEHKTIDNVP-TANLVDWYPLSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNN  73
+            V   N E    +  P  A+++DWY     Y  KL      +      + L        + 
+Sbjct  384  VDASNDEGLIEELFPILADIIDWYKQGTRYNIKLDPEDGLIYAGEPGTQLTWMDAKVGDW  443
+
+Query  74   QDIIRDNNHRCKIGYWYNPAVRKDNLKIIEKAKQYGLPIITEEYDANTVEQGFRD  128
+                R          WY+         +I  A++ G P    +  A    +GF  
+Sbjct  444  VVTPRMGKPIEVNVLWYHAL-----QMMIRFAQKLGKPSDEYQQLAQQTAKGFAR  493
+
+
+>ref|YP_004053942.1| tonb-dependent receptor plug [Marivirga tractuosa DSM 4126]
+ ref|WP_013453977.1| TonB-denpendent receptor [Marivirga tractuosa]
+ gb|ADR21834.1| TonB-dependent receptor plug [Marivirga tractuosa DSM 4126]
+Length=791
+
+ Score = 37.8 bits (86),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 12/70 (17%), Positives = 21/70 (30%), Gaps = 3/70 (4%)
+
+Query  32   NLVDWYPLSNAYEYKLSRNGEYL---ELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGY  88
+            N + +Y  +  + Y+ S   +        R        +G D  N       NH      
+Sbjct  285  NTLYFYDFNTKFNYRFSDKDKIFVSGYFGRDNLGFQDLFGFDWGNATFSTRWNHLFNDKL  344
+
+Query  89   WYNPAVRKDN  98
+            + N  +   N
+Sbjct  345  FLNTTLLYSN  354
+
+
+>ref|XP_006114016.1| PREDICTED: tuftelin isoform X4 [Pelodiscus sinensis]
+Length=368
+
+ Score = 37.4 bits (85),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|WP_016130633.1| ABC transporter permease [Bacillus cereus]
+ gb|EOP48997.1| ABC transporter permease [Bacillus cereus VDM053]
+Length=620
+
+ Score = 37.8 bits (86),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 22/157 (14%), Positives = 48/157 (31%), Gaps = 12/157 (8%)
+
+Query  39   LSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNP---AVR  95
+                +EY+   +G+Y+   +           D  N   ++ +    K  +        + 
+Sbjct  346  FQEKFEYRYKVDGQYVYYIKEDVEKNRPLAQDSENGKKMKVSEEFPKDAFTLPKQLYKLY  405
+
+Query  96   KDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRI  155
+             D+ +  +  +      I   Y     +    D   I+ S+K    T ++    +    +
+Sbjct  406  NDDTQTKQWREA--FFTIQPTYMYPDHQIKIID-SNIYDSMKEKKNTVFIGKTDDFGAHL  462
+
+Query  156  FNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLL  192
+               K  +       K      ++   +LG  Y M  L
+Sbjct  463  KEWKKLDELQVAKYK------NVKSEELGSTYQMYNL  493
+
+
+>ref|WP_002150698.1| ABC transporter permease [Bacillus cereus]
+ gb|EJQ74796.1| hypothetical protein IGC_04803 [Bacillus cereus HuA4-10]
+Length=620
+
+ Score = 37.8 bits (86),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 29/193 (15%), Positives = 62/193 (32%), Gaps = 19/193 (10%)
+
+Query  3    LKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRST  62
+            LK  DK+    +V H     +       ++++        +EY+   + +Y+   +    
+Sbjct  317  LKTTDKEKVYDSVVHNPTAEEKKI---LSDIL----FQEKFEYRYKVDDQYVYYIKEDVE  369
+
+Query  63   LPSSYGLDDNNQDIIRDNNHRCKIGYWYNP---AVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   D  N+ +++ +    K  +        +  D+ K  +  +      I   Y  
+Sbjct  370  KNRPLAQDSENRKMMKVSEEFPKDAFTLPKQLYKLYNDDTKTKQWKEA--FFTIQPTYMY  427
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+               E    D   I+ S+K    T ++    +    +   K  +       K      ++ 
+Sbjct  428  PDHEIKIID-QSIYDSMKDKENTVFIGKTDDFGAHLKEWKKLDELQVAKYK------NVK  480
+
+Query  180  YSDLGQIYNMLLL  192
+              +LG  Y M  L
+Sbjct  481  AEELGSTYQMYNL  493
+
+
+>ref|WP_016090522.1| ABC transporter permease [Bacillus cereus]
+ gb|EOP31363.1| ABC transporter permease [Bacillus cereus HuB13-1]
+ gb|EOP63160.1| ABC transporter permease [Bacillus cereus ISP2954]
+ gb|EOP89126.1| ABC transporter permease [Bacillus cereus BMG1.7]
+Length=620
+
+ Score = 37.8 bits (86),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 29/193 (15%), Positives = 61/193 (32%), Gaps = 19/193 (10%)
+
+Query  3    LKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRST  62
+            LK  DK+    +V H     +       + ++        +EY+   + +Y+   +    
+Sbjct  317  LKTTDKEKVYDSVVHNPTAEEKKI---LSGIL----FQEKFEYRYKVDDQYVYYIKEDVE  369
+
+Query  63   LPSSYGLDDNNQDIIRDNNHRCKIGYWYNP---AVRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   D  N+ +++ +    K  +        +  D+ K  +  +      I   Y  
+Sbjct  370  KNRPLAQDSENRKMMKVSEEFPKDAFKLPKQLYKLYNDDTKTKQWKEA--FFTIQPSYMY  427
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+               E    D   I+ S+K    T ++    +    +   K  +       K      ++ 
+Sbjct  428  PDHEIKIID-QSIYDSMKDKENTVFIGKTDDFGAHLKEWKKLDELQVAKYK------NVK  480
+
+Query  180  YSDLGQIYNMLLL  192
+              +LG  Y M  L
+Sbjct  481  AEELGSTYQMYNL  493
+
+
+>ref|XP_006114015.1| PREDICTED: tuftelin isoform X3 [Pelodiscus sinensis]
+Length=372
+
+ Score = 37.4 bits (85),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 53/141 (38%), Gaps = 12/141 (9%)
+
+Query  56   LKRLRSTLPSSYGLDDNNQDIIRDNNHRCK-IGYWYNPAVRKDNLKIIEKAKQYGLPIIT  114
+            LK+LR  + S       ++  +       K  G W+NP     N           L    
+Sbjct  114  LKKLRDDISSKLESRQGDKTNLHCAKIIEKQNGIWWNPDGLYRNS----------LEDQE  163
+
+Query  115  EEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDF  174
+            ++Y    +E+       +F  L+     ++   KT  E+     + E  Q N ALK+++ 
+Sbjct  164  DDYSGEDIEKIRETARRLFMKLQE-AEKQHQSDKTSFEVTTSQYQKEVEQTNAALKKAEE  222
+
+Query  175  SVDLTYSDLGQIYNMLLLMKK  195
+             +      L ++  ++  M+K
+Sbjct  223  DLVGKEVKLEELQRLMSGMEK  243
+
+
+>ref|WP_002150622.1| ABC transporter permease [Bacillus cereus]
+ gb|EJQ74755.1| hypothetical protein IGC_04762 [Bacillus cereus HuA4-10]
+Length=620
+
+ Score = 37.4 bits (85),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 23/157 (15%), Positives = 48/157 (31%), Gaps = 12/157 (8%)
+
+Query  39   LSNAYEYKLSRNGEYLELKRLRSTLPSSYGLDDNNQDIIRDNNHRCKIGYWYNP---AVR  95
+                +EY+   +G+Y+   +           D  N   ++ +    K  +        + 
+Sbjct  346  FQEKFEYRYKVDGQYVYYIKEDVEKNRPLAQDSENGKKMKVSEEFPKDAFTLPKQLYKLY  405
+
+Query  96   KDNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRI  155
+             D+ K  +  +      I   Y     +    D   I+ S+K    T ++    +    +
+Sbjct  406  NDDTKTKQWKEA--FFTIQPTYMYPDHQIKIID-SNIYDSMKEKENTVFIGKTDDFGAHL  462
+
+Query  156  FNMKSEESQLNEALKESDFSVDLTYSDLGQIYNMLLL  192
+               K  +       K      ++   +LG  Y M  L
+Sbjct  463  KEWKKLDELQVAKYK------NVKSEELGSTYQMYNL  493
+
+
+>ref|WP_016083077.1| ABC transporter permease [Bacillus cereus]
+ gb|EOO24831.1| ABC transporter permease [Bacillus cereus BAG1X1-1]
+ gb|EOO42331.1| ABC transporter permease [Bacillus cereus BAG1X2-1]
+ gb|EOO43482.1| ABC transporter permease [Bacillus cereus BAG1X2-2]
+ gb|EOO62675.1| ABC transporter permease [Bacillus cereus BAG1X2-3]
+ gb|EOP01455.1| ABC transporter permease [Bacillus cereus BAG2O-1]
+Length=620
+
+ Score = 37.4 bits (85),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 29/193 (15%), Positives = 61/193 (32%), Gaps = 19/193 (10%)
+
+Query  3    LKILDKDNATLNVFHRNKEHKTIDNVPTANLVDWYPLSNAYEYKLSRNGEYLELKRLRST  62
+            LK  DK+    +V H     +       + ++        +EY+   + +Y+   +    
+Sbjct  317  LKTTDKEKVYDSVVHNPTAEEKKI---LSGIL----FQEKFEYRYKVDDQYVYYIKEDVE  369
+
+Query  63   LPSSYGLDDNNQDIIRDNNHRCKIGYWYNPA---VRKDNLKIIEKAKQYGLPIITEEYDA  119
+                   D  N+ +++ +    K  +        +  D+ K  +  +      I   Y  
+Sbjct  370  KNRPLAQDSENRKMMKVSEEFPKDAFKLPKELYKLYNDDTKTKQWKEA--FFTIQPSYMY  427
+
+Query  120  NTVEQGFRDIGVIFQSLKTIVVTRYLEGKTEEELRIFNMKSEESQLNEALKESDFSVDLT  179
+               E    D   I+ S+K    T ++    +    +   K  +       K      ++ 
+Sbjct  428  PDHEIKIID-QSIYDSMKDKENTVFIGKTDDFGAHLKEWKKLDELQVAKYK------NVK  480
+
+Query  180  YSDLGQIYNMLLL  192
+              +LG  Y M  L
+Sbjct  481  AEELGSTYQMYNL  493
+
+
+>ref|NP_873927.1| Eha protein [Haemophilus ducreyi 35000HP]
+ ref|WP_010945361.1| Eha protein [Haemophilus ducreyi]
+ gb|AAP96316.1| Eha protein [Haemophilus ducreyi 35000HP]
+Length=401
+
+ Score = 37.4 bits (85),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 19/94 (20%), Positives = 37/94 (39%), Gaps = 5/94 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGKTEEE  152
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  252  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  311
+
+Query  153  L-RIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+               I  +   +++L   ++     V    SD+ +
+Sbjct  312  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFE  345
+
+
+>ref|XP_004980834.1| PREDICTED: uncharacterized protein LOC101782666 [Setaria italica]
+Length=483
+
+ Score = 37.4 bits (85),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 25/156 (16%), Positives = 47/156 (30%), Gaps = 7/156 (4%)
+
+Query  40   SNAYEYKLSRNGEY-LELKRLRSTLPSSYGLDDNNQDIIRDNNHR-CKIGYWYNPAVRKD  97
+            +N      S + +  + L+ L  T P       +     + N         W N      
+Sbjct  85   NNNKRRFYSDDLKIAIYLELLAKTDPPILRRGVSKGVARKFNVPLRVVQSIWKNGQTGGV  144
+
+Query  98   NLKIIEKAKQYGLPIITEEYDAN-TV----EQGFRDIGVIFQSLKTIVVTRYLEGKTEEE  152
+            N  + + +K  G   I  + ++   V       F+D+       K+ +  R+ EG     
+Sbjct  145  NGVVNKWSKNCGRKRIEIDLESRKDVPLSQRTTFQDLANALGVKKSTLHNRFKEGYFRRH  204
+
+Query  153  LRIFNMKSEESQLNEALKESDFSVDLTYSDLGQIYN  188
+                     +      +K     V+  Y     +YN
+Sbjct  205  TNDIKFILTDENKKARVKYCLSMVNDQYLSFKPMYN  240
+
+
+>ref|WP_005597467.1| hypothetical protein [Actinobacillus pleuropneumoniae]
+ gb|EFL77748.1| hypothetical protein APP2_0798 [Actinobacillus pleuropneumoniae 
+serovar 2 str. 4226]
+ gb|EFM85701.1| hypothetical protein appser1_9830 [Actinobacillus pleuropneumoniae 
+serovar 1 str. 4074]
+ gb|EFM87588.1| hypothetical protein appser2_9980 [Actinobacillus pleuropneumoniae 
+serovar 2 str. S1536]
+ gb|EFM94246.1| hypothetical protein appser9_9920 [Actinobacillus pleuropneumoniae 
+serovar 9 str. CVJ13261]
+ gb|EFM98718.1| hypothetical protein appser11_9910 [Actinobacillus pleuropneumoniae 
+serovar 11 str. 56153]
+Length=390
+
+ Score = 37.4 bits (85),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 19/94 (20%), Positives = 37/94 (39%), Gaps = 5/94 (5%)
+
+Query  97   DNLKIIEKAKQYGLPIITEEYDANTVEQGFRDIGVIF----QSLKTIVVTRYLEGKTEEE  152
+             N+ IIE+A    +P +        +E GF+ +  I       LK  +  R  E +   +
+Sbjct  241  SNVLIIEEAHALPIPTLKHLKRFFELEDGFKKLLSIVLIGQPELKIKLSERNTEVREVVQ  300
+
+Query  153  L-RIFNMKSEESQLNEALKESDFSVDLTYSDLGQ  185
+               I  +   +++L   ++     V    SD+ +
+Sbjct  301  RCEIVELAPLDAELERYVEHKLERVGKKLSDIFE  334
+
+
+>ref|WP_018632629.1| hypothetical protein [Meganema perideroedes]
+Length=675
+
+ Score = 37.4 bits (85),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 17/111 (15%), Positives = 39/111 (35%), Gaps = 5/111 (5%)
+
+Query  91   NPAVRKDNLKI-IEKAKQYGLPIITEEYDANTVEQGFRDIGVIFQSLKTIVVTRYLEGKT  149
+            N  + K  L +  EKAK  G P        +T+ +  + +  +   +      R  E + 
+Sbjct  254  NAEIVKRTLALRAEKAKLLGYPTYAAYKLDDTMAKTPQAVLDLLNPVWEKARARAAEDQA  313
+
+Query  150  EEELRIFNMKSEE---SQLNEALKESDFSVDLTYSDLGQIYNMLLLMKKIS  197
+            + E       + +   +      +E   +    + +  ++   L L + I+
+Sbjct  314  DMERLAREAGANDPFAAWDWRFYEEKLRAERYAFDE-AELKPYLQLDRMIA  363
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.126    0.322    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0385    0.140     1.90     42.6     43.6 
+
+Effective search space used: 450666221580
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

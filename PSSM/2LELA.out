@@ -1,0 +1,1567 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2LELA
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|YP_145685.1|  hypothetical protein pMOL30_153 [Cupriavidus me...   152    1e-45
+pdb|2K0Q|A  Chain A, Solution Structure Of Copk, A Periplasmic Pr...   149    6e-45
+ref|WP_018988614.1|  hypothetical protein [Azoarcus toluclasticus]    92.8    1e-22
+ref|WP_018992678.1|  hypothetical protein [Azoarcus toluclasticus]    90.9    8e-22
+ref|WP_018992676.1|  hypothetical protein [Azoarcus toluclasticus]    89.4    3e-21
+ref|WP_018991638.1|  hypothetical protein [Azoarcus toluclasticus]    89.4    3e-21
+ref|WP_018991060.1|  hypothetical protein [Azoarcus toluclasticus]    88.2    8e-21
+ref|WP_018992677.1|  hypothetical protein [Azoarcus toluclasticus]    85.1    3e-19
+ref|WP_018990496.1|  hypothetical protein [Azoarcus toluclasticus]    84.0    1e-18
+ref|WP_002943396.1|  hypothetical protein [Thauera sp. 27] >gb|EN...  82.4    2e-18
+ref|YP_005027324.1|  Copper resistance protein K [Dechlorosoma su...  82.4    2e-18
+ref|YP_005028819.1|  Copper resistance protein K [Dechlorosoma su...  82.0    2e-18
+ref|YP_003165240.1|  hypothetical protein CAP2UW1_4666 [Candidatu...  81.3    4e-18
+ref|WP_021249907.1|  copper resistance protein CopK [Thauera terp...  81.3    4e-18
+ref|YP_003165223.1|  hypothetical protein CAP2UW1_4647 [Candidatu...  80.9    7e-18
+ref|YP_002890929.1|  hypothetical protein Tmz1t_3969 [Thauera sp....  79.7    1e-17
+ref|YP_285489.1|  hypothetical protein Daro_2282 [Dechloromonas a...  79.0    3e-17
+ref|YP_986936.1|  hypothetical protein Ajs_2717 [Acidovorax sp. J...  77.0    2e-16
+ref|WP_019562338.1|  hypothetical protein [Caldimonas manganoxidans]  75.5    7e-16
+ref|YP_973570.1|  hypothetical protein Pnap_4556 [Polaromonas nap...  65.9    4e-12
+ref|WP_016446902.1|  hypothetical protein [Delftia acidovorans] >...  60.8    2e-10
+ref|YP_521702.1|  hypothetical protein Rfer_0417 [Rhodoferax ferr...  60.5    4e-10
+ref|YP_003165282.1|  hypothetical protein CAP2UW1_4710 [Candidatu...  58.9    1e-09
+emb|CBA29890.1|  hypothetical protein Csp_A14420 [Curvibacter put...  58.5    2e-09
+ref|WP_004566508.1|  putative uncharacterized protein [Bordetella...  57.4    6e-09
+ref|WP_009516048.1|  hypothetical protein [Hydrogenophaga sp. PBC...  56.6    9e-09
+ref|YP_003977189.1|  hypothetical protein AXYL_01130 [Achromobact...  55.8    2e-08
+ref|YP_006184218.1|  hypothetical protein SMD_1484 [Stenotrophomo...  54.3    4e-08
+ref|WP_016451563.1|  hypothetical protein [Bacteria] >gb|EPD44919...  54.7    5e-08
+gb|ADN85633.1|  CopK [Achromobacter sp. AO22]                         54.7    6e-08
+ref|WP_023093267.1|  hypothetical protein [Pseudomonas aeruginosa...  54.3    7e-08
+ref|YP_001561474.1|  hypothetical protein Daci_0443 [Delftia acid...  53.9    9e-08
+ref|WP_016446894.1|  hypothetical protein [Delftia acidovorans] >...  48.1    1e-05
+ref|WP_008648937.1|  hypothetical protein [Cupriavidus sp. HMR-1]...  45.4    6e-05
+ref|WP_018989662.1|  hypothetical protein [Azoarcus toluclasticus]    33.9    0.65 
+ref|XP_003325343.2|  hypothetical protein PGTG_07176 [Puccinia gr...  35.0    2.3  
+ref|WP_006050707.1|  hypothetical protein [Burkholderia graminis]...  32.7    3.2  
+ref|WP_007597163.1|  alpha-glucoside ABC transporter permease [Rh...  34.3    3.3  
+
+
+>ref|YP_145685.1| hypothetical protein pMOL30_153 [Cupriavidus metallidurans CH34]
+ ref|YP_581917.1| Cu(I) binding protein CopK [Cupriavidus metallidurans CH34]
+ ref|WP_008652571.1| copper resistance protein CopK [Cupriavidus]
+ sp|Q58AD3.1|COPK_RALME RecName: Full=Copper resistance protein K; Flags: Precursor
+ emb|CAI11334.1| hypothetical protein [Cupriavidus metallidurans CH34]
+ gb|ABF12967.1| CopK Cu(I) binding protein [Cupriavidus metallidurans CH34]
+ gb|EKZ95342.1| hypothetical protein D769_30839 [Cupriavidus sp. HMR-1]
+Length=94
+
+ Score =  152 bits (383),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF
+Sbjct  21  VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  80
+
+Query  61  RLDEALRKGHSEGG  74
+           RLDEALRKGHSEGG
+Sbjct  81  RLDEALRKGHSEGG  94
+
+
+>pdb|2K0Q|A Chain A, Solution Structure Of Copk, A Periplasmic Protein Involved 
+In Copper Resistance In Cupriavidus Metallidurans Ch34
+ pdb|3DSO|A Chain A, Crystal Structure Of Cu(I) Bound Copper Resistance Protein 
+Copk
+ pdb|3DSP|A Chain A, Crystal Structure Of Apo Copper Resistance Protein Copk
+ pdb|2KM0|A Chain A, Cu(I)-Bound Copk
+ pdb|3N7D|A Chain A, Crystal Structure Of Copk Bound To Cu(I) And Cu(Ii)
+ pdb|3N7D|B Chain B, Crystal Structure Of Copk Bound To Cu(I) And Cu(Ii)
+ pdb|3N7E|A Chain A, Crystal Structure Of Copk Bound To Cu(Ii)
+ pdb|3N7E|B Chain B, Crystal Structure Of Copk Bound To Cu(Ii)
+ pdb|2LEL|A Chain A, Structure Of Cu(I)cu(Ii)-Copk From Cupriavidus Metallidurans 
+Ch34
+Length=74
+
+ Score =  149 bits (376),  Expect = 6e-45, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF
+Sbjct  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+
+Query  61  RLDEALRKGHSEGG  74
+           RLDEALRKGHSEGG
+Sbjct  61  RLDEALRKGHSEGG  74
+
+
+>ref|WP_018988614.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score = 92.8 bits (229),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 42/70 (60%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K+Y+L+DGS V++FKDGKM ME+KFG++ +M EG  MET+DG K++MKGNEI+
+Sbjct  21  VDQGNVEKSYELKDGSTVYIFKDGKMAMEDKFGRAASMKEGHEMETKDGKKVMMKGNEIW  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L + H
+Sbjct  81  RLDSLLHRDH  90
+
+
+>ref|WP_018992678.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score = 90.9 bits (224),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 44/66 (67%), Positives = 54/66 (82%), Gaps = 0/66 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD SNV K+Y ++DGS V+VFKDGKM MENKFG+   M EG VMET+DG KI+MKG+EI+
+Sbjct  21  VDESNVEKSYVMKDGSTVYVFKDGKMAMENKFGRVERMAEGHVMETKDGQKIMMKGDEIW  80
+
+Query  61  RLDEAL  66
+           RL+ AL
+Sbjct  81  RLERAL  86
+
+
+>ref|WP_018992676.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score = 89.4 bits (220),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 43/71 (61%), Positives = 53/71 (75%), Gaps = 0/71 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K Y+L+DGS V+VFKDGKM MENK G+ + M EG  MET+DG KI+MKGNEI+
+Sbjct  21  VDRGNVEKAYELKDGSTVYVFKDGKMAMENKVGQVVTMKEGHAMETKDGKKIMMKGNEIW  80
+
+Query  61  RLDEALRKGHS  71
+           RL+  L + H 
+Sbjct  81  RLENELHREHQ  91
+
+
+>ref|WP_018991638.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score = 89.4 bits (220),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 42/70 (60%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K+Y+L+DGS V++F+DGKM ME+KFG++ +M EG  MET+DG KI+MKGNEI+
+Sbjct  21  VDQGNVEKSYELKDGSTVYIFRDGKMAMEDKFGRAGSMKEGHEMETKDGKKIMMKGNEIW  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L   H
+Sbjct  81  RLDSLLHGDH  90
+
+
+>ref|WP_018991060.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score = 88.2 bits (217),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   V K+Y+L+DGS V+VFKDGKM MENK G+ ++M +G  MET+DG +I+MKGNEI+
+Sbjct  21  VDQGKVEKSYELKDGSTVYVFKDGKMAMENKAGQVVSMKDGHAMETKDGKQIMMKGNEIW  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L + H
+Sbjct  81  RLDSVLHREH  90
+
+
+>ref|WP_018992677.1| hypothetical protein [Azoarcus toluclasticus]
+Length=119
+
+ Score = 85.1 bits (209),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 40/68 (59%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+            VD  NV K+Y L+DGS V+VFKDGKM ME+K G+ + M EG  MET DG +I+MKGNEI+
+Sbjct  47   VDEGNVTKSYPLKDGSTVYVFKDGKMAMEDKLGRLVTMKEGHTMETTDGQRIMMKGNEIW  106
+
+Query  61   RLDEALRK  68
+            RL+  L +
+Sbjct  107  RLERELHR  114
+
+
+>ref|WP_018990496.1| hypothetical protein [Azoarcus toluclasticus]
+Length=131
+
+ Score = 84.0 bits (206),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 48/65 (74%), Gaps = 0/65 (0%)
+
+Query  6    VVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEA  65
+            V K+YDL+DGS +HVF DGKM ME+++G+  +M +G  MET DG +I M+GNE++RLD  
+Sbjct  64   VQKSYDLKDGSTLHVFADGKMAMEDRYGRPFSMDQGHTMETADGNRIAMQGNEVWRLDSL  123
+
+Query  66   LRKGH  70
+            L   H
+Sbjct  124  LHSNH  128
+
+
+>ref|WP_002943396.1| hypothetical protein [Thauera sp. 27]
+ gb|ENO76671.1| hypothetical protein B447_17191 [Thauera sp. 27]
+Length=92
+
+ Score = 82.4 bits (202),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 38/67 (57%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD+  V K+  ++DGS VH+FKDGKMGME+K G+++ M  G+VMET+DG KI+M G+E+ 
+Sbjct  21  VDVERVEKSIPMKDGSTVHIFKDGKMGMEDKMGRAVRMKHGEVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALR  67
+           RLD  LR
+Sbjct  81  RLDSILR  87
+
+
+>ref|YP_005027324.1| Copper resistance protein K [Dechlorosoma suillum PS]
+ ref|WP_014236184.1| copper resistance protein CopK [Azospira oryzae]
+ gb|AEV25483.1| Copper resistance protein K [Dechlorosoma suillum PS]
+Length=92
+
+ Score = 82.4 bits (202),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 38/70 (54%), Positives = 52/70 (74%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD S V K+ +L+DGS +++FKDGKM ME+KFG++  M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDASQVEKSIELKDGSTLYIFKDGKMSMEDKFGRATRMKKDTVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L  GH
+Sbjct  81  RLDNLLHSGH  90
+
+
+>ref|YP_005028819.1| Copper resistance protein K [Dechlorosoma suillum PS]
+ ref|WP_014237659.1| copper resistance protein CopK [Azospira oryzae]
+ gb|AEV26978.1| Copper resistance protein K [Dechlorosoma suillum PS]
+Length=93
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 38/73 (52%), Positives = 53/73 (73%), Gaps = 0/73 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD S V K+ +L+DGS V++FKDGKM ME+K G+++ M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDASQVEKSIELKDGSTVYIFKDGKMAMEDKLGRTVRMKKDTVMETKDGQKILMHGDEVM  80
+
+Query  61  RLDEALRKGHSEG  73
+           RL+  LR   S G
+Sbjct  81  RLENILRPASSRG  93
+
+
+>ref|YP_003165240.1| hypothetical protein CAP2UW1_4666 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806775.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37793.1| hypothetical protein CAP2UW1_4666 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=95
+
+ Score = 81.3 bits (199),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 37/66 (56%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +  +L+DGS V++FKDGKMGME+K G+S+ M +  VMET+DG KIIM G+E+ RLD  L+
+Sbjct  30  QVIELKDGSTVYIFKDGKMGMEDKLGRSIRMKKDTVMETKDGQKIIMHGDEVMRLDNLLK  89
+
+Query  68  KGHSEG  73
+           +GH+ G
+Sbjct  90  EGHTGG  95
+
+
+>ref|WP_021249907.1| copper resistance protein CopK [Thauera terpenica]
+ gb|EPZ15020.1| copper resistance protein CopK [Thauera terpenica 58Eu]
+Length=92
+
+ Score = 81.3 bits (199),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 38/70 (54%), Positives = 52/70 (74%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   V K+  L+DGS V++FKDGKMGME+K G+++ M +G+VME +DG KI+M G+E+ 
+Sbjct  21  VDAGTVEKSIPLKDGSTVYIFKDGKMGMEDKLGRAVRMKQGEVMEAKDGQKIMMHGDEVV  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L K H
+Sbjct  81  RLDSVLHKDH  90
+
+
+>ref|YP_003165223.1| hypothetical protein CAP2UW1_4647 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806758.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37776.1| hypothetical protein CAP2UW1_4647 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=95
+
+ Score = 80.9 bits (198),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 36/63 (57%), Positives = 51/63 (81%), Gaps = 0/63 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +  +L+DGS V++FKDGKMGME+K G+++ M +G VMET+DG KIIM G+E+ RL+  LR
+Sbjct  30  QVIELKDGSTVYIFKDGKMGMEDKLGRAIRMEKGMVMETKDGQKIIMHGDEVMRLNPLLR  89
+
+Query  68  KGH  70
+           +GH
+Sbjct  90  EGH  92
+
+
+>ref|YP_002890929.1| hypothetical protein Tmz1t_3969 [Thauera sp. MZ1T]
+ ref|WP_004265708.1| copper resistance protein CopK [Thauera]
+ gb|ACR02552.1| conserved hypothetical protein [Thauera sp. MZ1T]
+ gb|ENO89075.1| hypothetical protein C665_00715 [Thauera aminoaromatica S2]
+ gb|ENO98254.1| hypothetical protein C667_04760 [Thauera phenylacetica B4P]
+ gb|EPZ15015.1| copper resistance protein CopK [Thauera terpenica 58Eu]
+Length=92
+
+ Score = 79.7 bits (195),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 37/67 (55%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD+  V K+  ++DGS V++FKDGKMGME+K G+++ M  G+VMET+DG KI+M G+E+ 
+Sbjct  21  VDVERVEKSIPMKDGSTVYIFKDGKMGMEDKMGRAVRMKHGEVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALR  67
+           RLD  LR
+Sbjct  81  RLDSILR  87
+
+
+>ref|YP_285489.1| hypothetical protein Daro_2282 [Dechloromonas aromatica RCB]
+ ref|WP_011288020.1| copper resistance protein CopK [Dechloromonas aromatica]
+ gb|AAZ47019.1| hypothetical protein Daro_2282 [Dechloromonas aromatica RCB]
+Length=92
+
+ Score = 79.0 bits (193),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 38/70 (54%), Positives = 52/70 (74%), Gaps = 0/70 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD + V K+ +L+DGS V++FKDGKMGME+K G ++ M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDGAQVEKSIELKDGSTVYIFKDGKMGMEDKMGHAVRMKQDAVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKGH  70
+           RLD  L K H
+Sbjct  81  RLDNILHKDH  90
+
+
+>ref|YP_986936.1| hypothetical protein Ajs_2717 [Acidovorax sp. JS42]
+ ref|WP_011805876.1| copper resistance protein CopK [Acidovorax sp. JS42]
+ gb|ABM42860.1| conserved hypothetical protein [Acidovorax sp. JS42]
+Length=95
+
+ Score = 77.0 bits (188),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 52/67 (78%), Gaps = 1/67 (1%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +T +L+DGS +++FKDGKM ME+K+G++  M +  VMET+DG KI+M  +E+ RLD  L+
+Sbjct  30  QTIELKDGSTLYIFKDGKMSMEDKYGRAKQMKKDTVMETKDGQKIMMHKDEVMRLDSLLK  89
+
+Query  68  KGHSEGG  74
+           KGH EGG
+Sbjct  90  KGH-EGG  95
+
+
+>ref|WP_019562338.1| hypothetical protein [Caldimonas manganoxidans]
+Length=98
+
+ Score = 75.5 bits (184),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 34/66 (52%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           K + L+DG  ++VF+DGK  +E+KFG+++N+ EG+ +ET DG KI   GNE+ RLD  LR
+Sbjct  33  KMFLLKDGGTLYVFEDGKTALEDKFGRAINLKEGQSLETVDGQKITANGNEVARLDGLLR  92
+
+Query  68  KGHSEG  73
+           +GHS G
+Sbjct  93  QGHSGG  98
+
+
+>ref|YP_973570.1| hypothetical protein Pnap_4556 [Polaromonas naphthalenivorans 
+CJ2]
+ ref|WP_011798137.1| copper resistance protein CopK [Polaromonas naphthalenivorans]
+ gb|ABM39828.1| conserved hypothetical protein [Polaromonas naphthalenivorans 
+CJ2]
+Length=93
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   + K+  L+DGS VHVFKDGKM ME+K G+   M  G++M+T D   + M+G+E+ 
+Sbjct  22  VDREGIEKSVQLKDGSTVHVFKDGKMAMEDKLGRPYRMKPGQMMQTTDSQSMAMQGDEVA  81
+
+Query  61  RLDEALR  67
+           RL    R
+Sbjct  82  RLSNGQR  88
+
+
+>ref|WP_016446902.1| hypothetical protein [Delftia acidovorans]
+ gb|EPD41532.1| hypothetical protein HMPREF9701_02087 [Delftia acidovorans CCUG 
+274B]
+Length=94
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/59 (46%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L++G  ++VFKDG M  E+K+G+++++ +G+ ++T DG  II KGNEI RL   L +GH
+Sbjct  34  LKNGETLYVFKDGLMAKEDKYGRAVHLKKGETVQTPDGKTIITKGNEIARLYSLLTQGH  92
+
+
+>ref|YP_521702.1| hypothetical protein Rfer_0417 [Rhodoferax ferrireducens T118]
+ ref|WP_011462744.1| hypothetical protein [Albidiferax ferrireducens]
+ gb|ABD68171.1| conserved hypothetical protein [Rhodoferax ferrireducens T118]
+Length=93
+
+ Score = 60.5 bits (145),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 30/59 (51%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  4   SNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+           S++V++  L+DG+ +H +KDGKM ME K G  + M EG  MET DG  I M GNE+ RL
+Sbjct  25  SDIVQSVQLKDGTTMHHYKDGKMSMEGKNGNIVFMKEGMTMETTDGKTITMSGNEVARL  83
+
+
+>ref|YP_003165282.1| hypothetical protein CAP2UW1_4710 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806816.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37835.1| hypothetical protein CAP2UW1_4710 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=99
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 24/63 (38%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  11  DLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           DL++G+ +++F DGKM +E+++G++     G  +ET DG KI  + +E+ RL+  + KGH
+Sbjct  37  DLKNGATLYIFNDGKMAIEDRYGRATRTTPGTEVETSDGRKITTQSDEVARLNSLINKGH  96
+
+Query  71  SEG  73
+             G
+Sbjct  97  KGG  99
+
+
+>emb|CBA29890.1| hypothetical protein Csp_A14420 [Curvibacter putative symbiont 
+of Hydra magnipapillata]
+Length=95
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 37/60 (62%), Gaps = 0/60 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           K+  L+DGS VH FK+GKM ME+K+G+   M  G+ M   DGT I M  +E+  L   +R
+Sbjct  28  KSIPLKDGSVVHQFKNGKMAMEDKYGRPTRMNAGETMTAADGTTITMNSDEVALLSSVIR  87
+
+
+>ref|WP_004566508.1| putative uncharacterized protein [Bordetella bronchiseptica]
+ emb|CCN17613.1| putative uncharacterized protein [Bordetella bronchiseptica D445]
+Length=94
+
+ Score = 57.4 bits (137),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+K H
+Sbjct  34  LADGGTLYIFKDGKMAQESRFGRAVYLTIGASVPTKDGQNIAITSNEVARLSSLLQKEH  92
+
+
+>ref|WP_009516048.1| hypothetical protein [Hydrogenophaga sp. PBC]
+ gb|EIK92308.1| hypothetical protein Q5W_0766 [Hydrogenophaga sp. PBC]
+Length=94
+
+ Score = 56.6 bits (135),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 24/64 (38%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           KT  L+DG  +++FKDG M  E+++G++ ++    V+ET DG  + +  NE+  L+  L 
+Sbjct  29  KTIPLKDGGSLYIFKDGTMAKEDRYGRAQSLKINDVIETADGKSVAVTSNEVALLNSLLL  88
+
+Query  68  KGHS  71
+           +GHS
+Sbjct  89  EGHS  92
+
+
+>ref|YP_003977189.1| hypothetical protein AXYL_01130 [Achromobacter xylosoxidans A8]
+ ref|YP_006482346.1| hypothetical protein PADK2_11805 [Pseudomonas aeruginosa DK2]
+ ref|WP_003090336.1| hypothetical protein [Proteobacteria]
+ gb|EED38355.1| conserved hypothetical protein [Stenotrophomonas sp. SKA14]
+ gb|EFF76945.1| hypothetical protein HMPREF0004_1704 [Achromobacter piechaudii 
+ATCC 43553]
+ gb|ADP14474.1| hypothetical protein AXYL_01130 [Achromobacter xylosoxidans A8]
+ gb|EFQ38890.1| hypothetical protein PA39016_001030058 [Pseudomonas aeruginosa 
+39016]
+ gb|EIE46783.1| hypothetical protein CF510_09967 [Pseudomonas aeruginosa PADK2_CF510]
+ gb|AFM64644.1| hypothetical protein PADK2_11805 [Pseudomonas aeruginosa DK2]
+ gb|EJO29421.1| hypothetical protein QWC_21814 [Achromobacter piechaudii HLE]
+ gb|EJP76699.1| hypothetical protein A1OC_01498 [Stenotrophomonas maltophilia 
+Ab55555]
+ gb|EME92179.1| hypothetical protein H123_21248 [Pseudomonas aeruginosa PA21_ST175]
+ gb|EMZ57127.1| hypothetical protein HMPREF1223_07518 [Pseudomonas aeruginosa 
+str. Stone 130]
+ gb|EPD44477.1| hypothetical protein HMPREF9701_00059 [Delftia acidovorans CCUG 
+274B]
+ gb|EPX97102.1| hypothetical protein C404_14905 [Ralstonia sp. AU12-08]
+ gb|ERF07184.1| hypothetical protein PA13_1013750 [Pseudomonas aeruginosa HB13]
+ gb|ERU41194.1| hypothetical protein Q091_05312 [Pseudomonas aeruginosa C52]
+ gb|ERU52881.1| hypothetical protein Q090_03872 [Pseudomonas aeruginosa C51]
+ gb|ERU62877.1| hypothetical protein Q088_03038 [Pseudomonas aeruginosa C41]
+ gb|ERU73876.1| hypothetical protein Q087_01839 [Pseudomonas aeruginosa C40]
+ gb|ERU80442.1| hypothetical protein Q086_02594 [Pseudomonas aeruginosa C23]
+ gb|ERU82346.1| hypothetical protein Q085_02591 [Pseudomonas aeruginosa C20]
+ gb|ERV17250.1| hypothetical protein Q071_02178 [Pseudomonas aeruginosa BL17]
+ gb|ERV49137.1| hypothetical protein Q068_01789 [Pseudomonas aeruginosa BL14]
+ gb|ERW01013.1| hypothetical protein Q039_01857 [Pseudomonas aeruginosa BWHPSA026]
+ gb|ERW05010.1| hypothetical protein Q037_02386 [Pseudomonas aeruginosa BWHPSA024]
+ gb|ERW17513.1| hypothetical protein Q036_03756 [Pseudomonas aeruginosa BWHPSA023]
+ gb|ERW20597.1| hypothetical protein Q035_02565 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW83607.1| hypothetical protein Q019_02226 [Pseudomonas aeruginosa BWHPSA006]
+ gb|ERW85366.1| hypothetical protein Q018_02694 [Pseudomonas aeruginosa BWHPSA005]
+ gb|ERW89461.1| hypothetical protein Q024_01576 [Pseudomonas aeruginosa BWHPSA011]
+ gb|ERX09612.1| hypothetical protein Q015_01919 [Pseudomonas aeruginosa BWHPSA002]
+ gb|ERX19070.1| hypothetical protein Q012_03302 [Pseudomonas aeruginosa S35004]
+ gb|ERX23594.1| hypothetical protein Q013_01267 [Pseudomonas aeruginosa X13273]
+ gb|ERX45412.1| hypothetical protein Q011_01432 [Pseudomonas aeruginosa 6077]
+ gb|ERY09243.1| hypothetical protein Q077_02256 [Pseudomonas aeruginosa BL23]
+ gb|ERY17511.1| hypothetical protein Q076_01107 [Pseudomonas aeruginosa BL22]
+ gb|ERY36110.1| hypothetical protein Q067_02750 [Pseudomonas aeruginosa BL13]
+ gb|ERY42083.1| hypothetical protein Q066_01768 [Pseudomonas aeruginosa BL12]
+ gb|ERY55404.1| hypothetical protein Q056_05609 [Pseudomonas aeruginosa BL02]
+ gb|ERY68327.1| hypothetical protein Q057_00481 [Pseudomonas aeruginosa BL03]
+ gb|ERY90134.1| hypothetical protein Q021_05733 [Pseudomonas aeruginosa BWHPSA008]
+ gb|ERY94353.1| hypothetical protein Q023_01273 [Pseudomonas aeruginosa BWHPSA010]
+ gb|ERZ44408.1| hypothetical protein Q001_01856 [Pseudomonas aeruginosa CF127]
+ gb|ESQ67174.1| hypothetical protein PA15_0302480 [Pseudomonas aeruginosa HB15]
+ emb|CDH76955.1| putative secreted protein [Pseudomonas aeruginosa MH27]
+ gb|ETD56473.1| hypothetical protein X778_03055 [Pseudomonas aeruginosa VRFPA07]
+Length=94
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+K H
+Sbjct  34  LADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQKEH  92
+
+
+>ref|YP_006184218.1| hypothetical protein SMD_1484 [Stenotrophomonas maltophilia D457]
+ ref|YP_006373598.1| Copper resistance protein K [Tistrella mobilis KA081020-065]
+ ref|YP_008028014.1| hypothetical protein NH44784_009131 [Achromobacter xylosoxidans 
+NH44784-1996]
+ ref|WP_014646617.1| copper resistance protein [Proteobacteria]
+ emb|CCH12040.1| conserved hypothetical protein [Stenotrophomonas maltophilia 
+D457]
+ gb|AFK56616.1| Copper resistance protein K [Tistrella mobilis KA081020-065]
+ emb|CCH04892.1| hypothetical protein NH44784_009131 [Achromobacter xylosoxidans 
+NH44784-1996]
+Length=61
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           + DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+K H
+Sbjct  1   MADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQKEH  59
+
+
+>ref|WP_016451563.1| hypothetical protein [Bacteria]
+ gb|EPD44919.1| hypothetical protein HMPREF9702_01259 [Delftia acidovorans CCUG 
+15835]
+Length=94
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L + H
+Sbjct  34  LADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLEQEH  92
+
+
+>gb|ADN85633.1| CopK [Achromobacter sp. AO22]
+Length=94
+
+ Score = 54.7 bits (130),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L + H
+Sbjct  34  LADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLEQEH  92
+
+
+>ref|WP_023093267.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERW45306.1| hypothetical protein Q030_05218 [Pseudomonas aeruginosa BWHPSA017]
+ gb|ERX07549.1| hypothetical protein Q016_01823 [Pseudomonas aeruginosa BWHPSA003]
+ gb|ERX96526.1| hypothetical protein Q078_05919 [Pseudomonas aeruginosa BL24]
+Length=94
+
+ Score = 54.3 bits (129),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L++ H
+Sbjct  34  LADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQEEH  92
+
+
+>ref|YP_001561474.1| hypothetical protein Daci_0443 [Delftia acidovorans SPH-1]
+ ref|WP_012202379.1| hypothetical protein [Delftia acidovorans]
+ gb|ABX33089.1| conserved hypothetical protein [Delftia acidovorans SPH-1]
+Length=79
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGH  70
+           L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L + H
+Sbjct  19  LADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLEQEH  77
+
+
+>ref|WP_016446894.1| hypothetical protein [Delftia acidovorans]
+ gb|EPD41524.1| hypothetical protein HMPREF9701_02079 [Delftia acidovorans CCUG 
+274B]
+Length=94
+
+ Score = 48.1 bits (113),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+           M+  +    L++G  +++F+DG M  E+K+G+++   +G+V++T  G  I   G+E+ RL
+Sbjct  25  MAEAMYVIALKNGETLYIFEDGLMAKEDKYGRAVRFKKGEVVQTIGGRYITPVGDEVARL  84
+
+Query  63  DEALRKGH  70
+           +  L  GH
+Sbjct  85  NILLTYGH  92
+
+
+>ref|WP_008648937.1| hypothetical protein [Cupriavidus sp. HMR-1]
+ gb|EKZ97363.1| hypothetical protein D769_20609 [Cupriavidus sp. HMR-1]
+Length=46
+
+ Score = 45.4 bits (106),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 22/41 (54%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  28  MENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRK  68
+           M++ +G  M+M EG  ME +DG KIIMK N+IFRLD+  R+
+Sbjct  1   MKDPYGHDMHMKEGMAMEMKDGGKIIMKENQIFRLDDNRRE  41
+
+
+>ref|WP_018989662.1| hypothetical protein [Azoarcus toluclasticus]
+Length=30
+
+ Score = 33.9 bits (76),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 14/23 (61%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  44  METRDGTKIIMKGNEIFRLDEAL  66
+           METRDG KI+M G+EI+R + A+
+Sbjct  1   METRDGRKIVMNGDEIWRRERAV  23
+
+
+>ref|XP_003325343.2| hypothetical protein PGTG_07176 [Puccinia graminis f. sp. tritici 
+CRL 75-36-700-3]
+ gb|EFP80924.2| hypothetical protein PGTG_07176 [Puccinia graminis f. sp. tritici 
+CRL 75-36-700-3]
+Length=328
+
+ Score = 35.0 bits (79),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 35/62 (56%), Gaps = 12/62 (19%)
+
+Query  2    DMSNVVKTYDLQD---GSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNE  58
+            +M   V++  LQD   GS++ VFKDG   +  +F K  NM    +ME     +I+M+GN+
+Sbjct  267  EMIYAVRSLQLQDRLPGSELVVFKDGGHALSCQFSKDFNM----LME-----RIMMEGNQ  317
+
+Query  59   IF  60
+             F
+Sbjct  318  AF  319
+
+
+>ref|WP_006050707.1| hypothetical protein [Burkholderia graminis]
+ gb|EDT09091.1| conserved hypothetical protein [Burkholderia graminis C4D1M]
+Length=86
+
+ Score = 32.7 bits (73),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 24/41 (59%), Gaps = 2/41 (5%)
+
+Query  13  QDGSKVHVFKDGKMGMEN--KFGKSMNMPEGKVMETRDGTK  51
+           QD S V+VF  G +G++N   F +S  +P G  +E  DGT 
+Sbjct  11  QDPSGVNVFDGGFIGLDNIGVFDRSAELPTGGSLEQADGTA  51
+
+
+>ref|WP_007597163.1| alpha-glucoside ABC transporter permease [Rhizobium sp. PDO1-076]
+ gb|EHS53780.1| ABC-type transporter, integral membrane subunit [Rhizobium sp. 
+PDO1-076]
+Length=391
+
+ Score = 34.3 bits (77),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 26/45 (58%), Gaps = 4/45 (9%)
+
+Query  23   DGKMGMENKFGKSMNMPE----GKVMETRDGTKIIMKGNEIFRLD  63
+            DGK G  + FG ++N P     G V E  DG+K+ ++ N  FRL+
+Sbjct  93   DGKGGTVSAFGVNINRPADFEPGAVAERNDGSKLTLQENGDFRLE  137
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.134    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312485544690
+Results from round 2
+
+
+Query= 2LELA
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_018988614.1|  hypothetical protein [Azoarcus toluclasticus]     118    2e-32
+ref|YP_005027324.1|  Copper resistance protein K [Dechlorosoma su...   115    2e-31
+ref|WP_018991638.1|  hypothetical protein [Azoarcus toluclasticus]     113    9e-31
+ref|WP_018990496.1|  hypothetical protein [Azoarcus toluclasticus]     113    2e-30
+ref|WP_018992677.1|  hypothetical protein [Azoarcus toluclasticus]     113    3e-30
+ref|WP_018991060.1|  hypothetical protein [Azoarcus toluclasticus]     110    2e-29
+ref|YP_005028819.1|  Copper resistance protein K [Dechlorosoma su...   109    6e-29
+ref|WP_018992678.1|  hypothetical protein [Azoarcus toluclasticus]     106    8e-28
+ref|WP_018992676.1|  hypothetical protein [Azoarcus toluclasticus]     105    2e-27
+ref|YP_285489.1|  hypothetical protein Daro_2282 [Dechloromonas a...   103    6e-27
+ref|YP_145685.1|  hypothetical protein pMOL30_153 [Cupriavidus me...   103    1e-26
+ref|WP_021249907.1|  copper resistance protein CopK [Thauera terp...   103    1e-26
+ref|YP_002890929.1|  hypothetical protein Tmz1t_3969 [Thauera sp....   102    3e-26
+ref|WP_019562338.1|  hypothetical protein [Caldimonas manganoxidans]   101    4e-26
+ref|WP_009516048.1|  hypothetical protein [Hydrogenophaga sp. PBC...   101    7e-26
+ref|WP_002943396.1|  hypothetical protein [Thauera sp. 27] >gb|EN...   101    8e-26
+ref|WP_016446902.1|  hypothetical protein [Delftia acidovorans] >...   101    8e-26
+ref|WP_004566508.1|  putative uncharacterized protein [Bordetella...   100    1e-25
+pdb|2K0Q|A  Chain A, Solution Structure Of Copk, A Periplasmic Pr...  99.2    3e-25
+ref|YP_003165282.1|  hypothetical protein CAP2UW1_4710 [Candidatu...  98.1    1e-24
+ref|WP_016446894.1|  hypothetical protein [Delftia acidovorans] >...  97.7    2e-24
+ref|WP_023093267.1|  hypothetical protein [Pseudomonas aeruginosa...  97.3    3e-24
+ref|YP_003977189.1|  hypothetical protein AXYL_01130 [Achromobact...  97.3    3e-24
+ref|YP_986936.1|  hypothetical protein Ajs_2717 [Acidovorax sp. J...  96.9    4e-24
+ref|WP_016451563.1|  hypothetical protein [Bacteria] >gb|EPD44919...  96.5    5e-24
+gb|ADN85633.1|  CopK [Achromobacter sp. AO22]                         96.5    5e-24
+ref|YP_003165223.1|  hypothetical protein CAP2UW1_4647 [Candidatu...  96.1    7e-24
+ref|YP_973570.1|  hypothetical protein Pnap_4556 [Polaromonas nap...  95.4    1e-23
+ref|YP_003165240.1|  hypothetical protein CAP2UW1_4666 [Candidatu...  94.6    3e-23
+emb|CBA29890.1|  hypothetical protein Csp_A14420 [Curvibacter put...  93.1    1e-22
+ref|YP_001561474.1|  hypothetical protein Daci_0443 [Delftia acid...  92.3    2e-22
+ref|YP_006184218.1|  hypothetical protein SMD_1484 [Stenotrophomo...  87.7    6e-21
+ref|YP_521702.1|  hypothetical protein Rfer_0417 [Rhodoferax ferr...  77.6    1e-16
+ref|WP_008648937.1|  hypothetical protein [Cupriavidus sp. HMR-1]...  49.9    2e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_018989662.1|  hypothetical protein [Azoarcus toluclasticus]    37.2    0.050
+ref|WP_005489719.1|  BH0638 unknown conserved protein [Halanaerob...  35.7    1.3  
+ref|WP_020581773.1|  DNA-directed RNA polymerase subunit beta' [E...  35.7    1.5  
+ref|WP_018855630.1|  beta-galactosidase [Rhizobium sp. 42MFCr.1]      34.5    3.2  
+ref|WP_000009837.1|  glyoxalase [Bacillus thuringiensis] >gb|EEM9...  34.1    4.0  
+ref|WP_017504456.1|  flagellar basal body protein FliL [alpha pro...  33.3    5.4  
+ref|WP_002332784.1|  hypothetical protein, partial [Enterococcus ...  33.3    6.9  
+ref|WP_010729211.1|  hypothetical protein, partial [Enterococcus ...  33.3    7.6  
+ref|WP_002351430.1|  hypothetical protein, partial [Enterococcus ...  33.0    8.6  
+ref|WP_008045238.1|  DNA-directed RNA polymerase subunit beta' [R...  33.3    9.2  
+
+
+>ref|WP_018988614.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score =  118 bits (295),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 42/72 (58%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K+Y+L+DGS V++FKDGKM ME+KFG++ +M EG  MET+DG K++MKGNEI+
+Sbjct  21  VDQGNVEKSYELKDGSTVYIFKDGKMAMEDKFGRAASMKEGHEMETKDGKKVMMKGNEIW  80
+
+Query  61  RLDEALRKGHSE  72
+           RLD  L + H  
+Sbjct  81  RLDSLLHRDHQG  92
+
+
+>ref|YP_005027324.1| Copper resistance protein K [Dechlorosoma suillum PS]
+ ref|WP_014236184.1| copper resistance protein CopK [Azospira oryzae]
+ gb|AEV25483.1| Copper resistance protein K [Dechlorosoma suillum PS]
+Length=92
+
+ Score =  115 bits (288),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 38/72 (53%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD S V K+ +L+DGS +++FKDGKM ME+KFG++  M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDASQVEKSIELKDGSTLYIFKDGKMSMEDKFGRATRMKKDTVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKGHSE  72
+           RLD  L  GH  
+Sbjct  81  RLDNLLHSGHRG  92
+
+
+>ref|WP_018991638.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score =  113 bits (284),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 42/72 (58%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K+Y+L+DGS V++F+DGKM ME+KFG++ +M EG  MET+DG KI+MKGNEI+
+Sbjct  21  VDQGNVEKSYELKDGSTVYIFRDGKMAMEDKFGRAGSMKEGHEMETKDGKKIMMKGNEIW  80
+
+Query  61  RLDEALRKGHSE  72
+           RLD  L   H  
+Sbjct  81  RLDSLLHGDHRG  92
+
+
+>ref|WP_018990496.1| hypothetical protein [Azoarcus toluclasticus]
+Length=131
+
+ Score =  113 bits (284),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 35/67 (52%), Positives = 48/67 (72%), Gaps = 0/67 (0%)
+
+Query  6    VVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEA  65
+            V K+YDL+DGS +HVF DGKM ME+++G+  +M +G  MET DG +I M+GNE++RLD  
+Sbjct  64   VQKSYDLKDGSTLHVFADGKMAMEDRYGRPFSMDQGHTMETADGNRIAMQGNEVWRLDSL  123
+
+Query  66   LRKGHSE  72
+            L   H  
+Sbjct  124  LHSNHRG  130
+
+
+>ref|WP_018992677.1| hypothetical protein [Azoarcus toluclasticus]
+Length=119
+
+ Score =  113 bits (283),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 40/72 (56%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+            VD  NV K+Y L+DGS V+VFKDGKM ME+K G+ + M EG  MET DG +I+MKGNEI+
+Sbjct  47   VDEGNVTKSYPLKDGSTVYVFKDGKMAMEDKLGRLVTMKEGHTMETTDGQRIMMKGNEIW  106
+
+Query  61   RLDEALRKGHSE  72
+            RL+  L +    
+Sbjct  107  RLERELHRDRGG  118
+
+
+>ref|WP_018991060.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score =  110 bits (276),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 41/71 (58%), Positives = 54/71 (76%), Gaps = 0/71 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   V K+Y+L+DGS V+VFKDGKM MENK G+ ++M +G  MET+DG +I+MKGNEI+
+Sbjct  21  VDQGKVEKSYELKDGSTVYVFKDGKMAMENKAGQVVSMKDGHAMETKDGKQIMMKGNEIW  80
+
+Query  61  RLDEALRKGHS  71
+           RLD  L + H 
+Sbjct  81  RLDSVLHREHQ  91
+
+
+>ref|YP_005028819.1| Copper resistance protein K [Dechlorosoma suillum PS]
+ ref|WP_014237659.1| copper resistance protein CopK [Azospira oryzae]
+ gb|AEV26978.1| Copper resistance protein K [Dechlorosoma suillum PS]
+Length=93
+
+ Score =  109 bits (272),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 38/73 (52%), Positives = 53/73 (73%), Gaps = 0/73 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD S V K+ +L+DGS V++FKDGKM ME+K G+++ M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDASQVEKSIELKDGSTVYIFKDGKMAMEDKLGRTVRMKKDTVMETKDGQKILMHGDEVM  80
+
+Query  61  RLDEALRKGHSEG  73
+           RL+  LR   S G
+Sbjct  81  RLENILRPASSRG  93
+
+
+>ref|WP_018992678.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score =  106 bits (264),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 44/72 (61%), Positives = 54/72 (75%), Gaps = 0/72 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD SNV K+Y ++DGS V+VFKDGKM MENKFG+   M EG VMET+DG KI+MKG+EI+
+Sbjct  21  VDESNVEKSYVMKDGSTVYVFKDGKMAMENKFGRVERMAEGHVMETKDGQKIMMKGDEIW  80
+
+Query  61  RLDEALRKGHSE  72
+           RL+ AL      
+Sbjct  81  RLERALHPNRGG  92
+
+
+>ref|WP_018992676.1| hypothetical protein [Azoarcus toluclasticus]
+Length=93
+
+ Score =  105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 43/71 (61%), Positives = 53/71 (75%), Gaps = 0/71 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD  NV K Y+L+DGS V+VFKDGKM MENK G+ + M EG  MET+DG KI+MKGNEI+
+Sbjct  21  VDRGNVEKAYELKDGSTVYVFKDGKMAMENKVGQVVTMKEGHAMETKDGKKIMMKGNEIW  80
+
+Query  61  RLDEALRKGHS  71
+           RL+  L + H 
+Sbjct  81  RLENELHREHQ  91
+
+
+>ref|YP_285489.1| hypothetical protein Daro_2282 [Dechloromonas aromatica RCB]
+ ref|WP_011288020.1| copper resistance protein CopK [Dechloromonas aromatica]
+ gb|AAZ47019.1| hypothetical protein Daro_2282 [Dechloromonas aromatica RCB]
+Length=92
+
+ Score =  103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 38/72 (53%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD + V K+ +L+DGS V++FKDGKMGME+K G ++ M +  VMET+DG KI+M G+E+ 
+Sbjct  21  VDGAQVEKSIELKDGSTVYIFKDGKMGMEDKMGHAVRMKQDAVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKGHSE  72
+           RLD  L K H  
+Sbjct  81  RLDNILHKDHRG  92
+
+
+>ref|YP_145685.1| hypothetical protein pMOL30_153 [Cupriavidus metallidurans CH34]
+ ref|YP_581917.1| Cu(I) binding protein CopK [Cupriavidus metallidurans CH34]
+ ref|WP_008652571.1| copper resistance protein CopK [Cupriavidus]
+ sp|Q58AD3.1|COPK_RALME RecName: Full=Copper resistance protein K; Flags: Precursor
+ emb|CAI11334.1| hypothetical protein [Cupriavidus metallidurans CH34]
+ gb|ABF12967.1| CopK Cu(I) binding protein [Cupriavidus metallidurans CH34]
+ gb|EKZ95342.1| hypothetical protein D769_30839 [Cupriavidus sp. HMR-1]
+Length=94
+
+ Score =  103 bits (257),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF
+Sbjct  21  VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  80
+
+Query  61  RLDEALRKGHSEGG  74
+           RLDEALRKGHSEGG
+Sbjct  81  RLDEALRKGHSEGG  94
+
+
+>ref|WP_021249907.1| copper resistance protein CopK [Thauera terpenica]
+ gb|EPZ15020.1| copper resistance protein CopK [Thauera terpenica 58Eu]
+Length=92
+
+ Score =  103 bits (257),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 38/71 (54%), Positives = 52/71 (73%), Gaps = 0/71 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   V K+  L+DGS V++FKDGKMGME+K G+++ M +G+VME +DG KI+M G+E+ 
+Sbjct  21  VDAGTVEKSIPLKDGSTVYIFKDGKMGMEDKLGRAVRMKQGEVMEAKDGQKIMMHGDEVV  80
+
+Query  61  RLDEALRKGHS  71
+           RLD  L K H 
+Sbjct  81  RLDSVLHKDHR  91
+
+
+>ref|YP_002890929.1| hypothetical protein Tmz1t_3969 [Thauera sp. MZ1T]
+ ref|WP_004265708.1| copper resistance protein CopK [Thauera]
+ gb|ACR02552.1| conserved hypothetical protein [Thauera sp. MZ1T]
+ gb|ENO89075.1| hypothetical protein C665_00715 [Thauera aminoaromatica S2]
+ gb|ENO98254.1| hypothetical protein C667_04760 [Thauera phenylacetica B4P]
+ gb|EPZ15015.1| copper resistance protein CopK [Thauera terpenica 58Eu]
+Length=92
+
+ Score =  102 bits (254),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 37/69 (54%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD+  V K+  ++DGS V++FKDGKMGME+K G+++ M  G+VMET+DG KI+M G+E+ 
+Sbjct  21  VDVERVEKSIPMKDGSTVYIFKDGKMGMEDKMGRAVRMKHGEVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKG  69
+           RLD  LR  
+Sbjct  81  RLDSILRHD  89
+
+
+>ref|WP_019562338.1| hypothetical protein [Caldimonas manganoxidans]
+Length=98
+
+ Score =  101 bits (253),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 34/66 (52%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           K + L+DG  ++VF+DGK  +E+KFG+++N+ EG+ +ET DG KI   GNE+ RLD  LR
+Sbjct  33  KMFLLKDGGTLYVFEDGKTALEDKFGRAINLKEGQSLETVDGQKITANGNEVARLDGLLR  92
+
+Query  68  KGHSEG  73
+           +GHS G
+Sbjct  93  QGHSGG  98
+
+
+>ref|WP_009516048.1| hypothetical protein [Hydrogenophaga sp. PBC]
+ gb|EIK92308.1| hypothetical protein Q5W_0766 [Hydrogenophaga sp. PBC]
+Length=94
+
+ Score =  101 bits (251),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 41/70 (59%), Gaps = 0/70 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+                KT  L+DG  +++FKDG M  E+++G++ ++    V+ET DG  + +  NE+  L
+Sbjct  24  QEAAEKTIPLKDGGSLYIFKDGTMAKEDRYGRAQSLKINDVIETADGKSVAVTSNEVALL  83
+
+Query  63  DEALRKGHSE  72
+           +  L +GHS 
+Sbjct  84  NSLLLEGHSG  93
+
+
+>ref|WP_002943396.1| hypothetical protein [Thauera sp. 27]
+ gb|ENO76671.1| hypothetical protein B447_17191 [Thauera sp. 27]
+Length=92
+
+ Score =  101 bits (251),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 38/69 (55%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD+  V K+  ++DGS VH+FKDGKMGME+K G+++ M  G+VMET+DG KI+M G+E+ 
+Sbjct  21  VDVERVEKSIPMKDGSTVHIFKDGKMGMEDKMGRAVRMKHGEVMETKDGQKIMMHGDEVM  80
+
+Query  61  RLDEALRKG  69
+           RLD  LR  
+Sbjct  81  RLDSILRHD  89
+
+
+>ref|WP_016446902.1| hypothetical protein [Delftia acidovorans]
+ gb|EPD41532.1| hypothetical protein HMPREF9701_02087 [Delftia acidovorans CCUG 
+274B]
+Length=94
+
+ Score =  101 bits (251),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+            S       L++G  ++VFKDG M  E+K+G+++++ +G+ ++T DG  II KGNEI RL
+Sbjct  25  QSEAQVVIALKNGETLYVFKDGLMAKEDKYGRAVHLKKGETVQTPDGKTIITKGNEIARL  84
+
+Query  63  DEALRKGHSE  72
+              L +GH  
+Sbjct  85  YSLLTQGHGG  94
+
+
+>ref|WP_004566508.1| putative uncharacterized protein [Bordetella bronchiseptica]
+ emb|CCN17613.1| putative uncharacterized protein [Bordetella bronchiseptica D445]
+Length=94
+
+ Score =  100 bits (250),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+
+Sbjct  30  EMVPLADGGTLYIFKDGKMAQESRFGRAVYLTIGASVPTKDGQNIAITSNEVARLSSLLQ  89
+
+Query  68  KGHSE  72
+           K H  
+Sbjct  90  KEHGG  94
+
+
+>pdb|2K0Q|A Chain A, Solution Structure Of Copk, A Periplasmic Protein Involved 
+In Copper Resistance In Cupriavidus Metallidurans Ch34
+ pdb|3DSO|A Chain A, Crystal Structure Of Cu(I) Bound Copper Resistance Protein 
+Copk
+ pdb|3DSP|A Chain A, Crystal Structure Of Apo Copper Resistance Protein Copk
+ pdb|2KM0|A Chain A, Cu(I)-Bound Copk
+ pdb|3N7D|A Chain A, Crystal Structure Of Copk Bound To Cu(I) And Cu(Ii)
+ pdb|3N7D|B Chain B, Crystal Structure Of Copk Bound To Cu(I) And Cu(Ii)
+ pdb|3N7E|A Chain A, Crystal Structure Of Copk Bound To Cu(Ii)
+ pdb|3N7E|B Chain B, Crystal Structure Of Copk Bound To Cu(Ii)
+ pdb|2LEL|A Chain A, Structure Of Cu(I)cu(Ii)-Copk From Cupriavidus Metallidurans 
+Ch34
+Length=74
+
+ Score = 99.2 bits (246),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF
+Sbjct  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+
+Query  61  RLDEALRKGHSEGG  74
+           RLDEALRKGHSEGG
+Sbjct  61  RLDEALRKGHSEGG  74
+
+
+>ref|YP_003165282.1| hypothetical protein CAP2UW1_4710 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806816.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37835.1| hypothetical protein CAP2UW1_4710 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=99
+
+ Score = 98.1 bits (243),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 44/71 (62%), Gaps = 0/71 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+            +   +  DL++G+ +++F DGKM +E+++G++     G  +ET DG KI  + +E+ RL
+Sbjct  29  RAEAKQVVDLKNGATLYIFNDGKMAIEDRYGRATRTTPGTEVETSDGRKITTQSDEVARL  88
+
+Query  63  DEALRKGHSEG  73
+           +  + KGH  G
+Sbjct  89  NSLINKGHKGG  99
+
+
+>ref|WP_016446894.1| hypothetical protein [Delftia acidovorans]
+ gb|EPD41524.1| hypothetical protein HMPREF9701_02079 [Delftia acidovorans CCUG 
+274B]
+Length=94
+
+ Score = 97.7 bits (242),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 42/69 (61%), Gaps = 0/69 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+           M+  +    L++G  +++F+DG M  E+K+G+++   +G+V++T  G  I   G+E+ RL
+Sbjct  25  MAEAMYVIALKNGETLYIFEDGLMAKEDKYGRAVRFKKGEVVQTIGGRYITPVGDEVARL  84
+
+Query  63  DEALRKGHS  71
+           +  L  GH 
+Sbjct  85  NILLTYGHQ  93
+
+
+>ref|WP_023093267.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERW45306.1| hypothetical protein Q030_05218 [Pseudomonas aeruginosa BWHPSA017]
+ gb|ERX07549.1| hypothetical protein Q016_01823 [Pseudomonas aeruginosa BWHPSA003]
+ gb|ERX96526.1| hypothetical protein Q078_05919 [Pseudomonas aeruginosa BL24]
+Length=94
+
+ Score = 97.3 bits (241),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+
+Sbjct  30  EMVPLADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQ  89
+
+Query  68  KGHSE  72
+           + H  
+Sbjct  90  EEHGG  94
+
+
+>ref|YP_003977189.1| hypothetical protein AXYL_01130 [Achromobacter xylosoxidans A8]
+ ref|YP_006482346.1| hypothetical protein PADK2_11805 [Pseudomonas aeruginosa DK2]
+ ref|WP_003090336.1| hypothetical protein [Proteobacteria]
+ gb|EED38355.1| conserved hypothetical protein [Stenotrophomonas sp. SKA14]
+ gb|EFF76945.1| hypothetical protein HMPREF0004_1704 [Achromobacter piechaudii 
+ATCC 43553]
+ gb|ADP14474.1| hypothetical protein AXYL_01130 [Achromobacter xylosoxidans A8]
+ gb|EFQ38890.1| hypothetical protein PA39016_001030058 [Pseudomonas aeruginosa 
+39016]
+ gb|EIE46783.1| hypothetical protein CF510_09967 [Pseudomonas aeruginosa PADK2_CF510]
+ gb|AFM64644.1| hypothetical protein PADK2_11805 [Pseudomonas aeruginosa DK2]
+ gb|EJO29421.1| hypothetical protein QWC_21814 [Achromobacter piechaudii HLE]
+ gb|EJP76699.1| hypothetical protein A1OC_01498 [Stenotrophomonas maltophilia 
+Ab55555]
+ gb|EME92179.1| hypothetical protein H123_21248 [Pseudomonas aeruginosa PA21_ST175]
+ gb|EMZ57127.1| hypothetical protein HMPREF1223_07518 [Pseudomonas aeruginosa 
+str. Stone 130]
+ gb|EPD44477.1| hypothetical protein HMPREF9701_00059 [Delftia acidovorans CCUG 
+274B]
+ gb|EPX97102.1| hypothetical protein C404_14905 [Ralstonia sp. AU12-08]
+ gb|ERF07184.1| hypothetical protein PA13_1013750 [Pseudomonas aeruginosa HB13]
+ gb|ERU41194.1| hypothetical protein Q091_05312 [Pseudomonas aeruginosa C52]
+ gb|ERU52881.1| hypothetical protein Q090_03872 [Pseudomonas aeruginosa C51]
+ gb|ERU62877.1| hypothetical protein Q088_03038 [Pseudomonas aeruginosa C41]
+ gb|ERU73876.1| hypothetical protein Q087_01839 [Pseudomonas aeruginosa C40]
+ gb|ERU80442.1| hypothetical protein Q086_02594 [Pseudomonas aeruginosa C23]
+ gb|ERU82346.1| hypothetical protein Q085_02591 [Pseudomonas aeruginosa C20]
+ gb|ERV17250.1| hypothetical protein Q071_02178 [Pseudomonas aeruginosa BL17]
+ gb|ERV49137.1| hypothetical protein Q068_01789 [Pseudomonas aeruginosa BL14]
+ gb|ERW01013.1| hypothetical protein Q039_01857 [Pseudomonas aeruginosa BWHPSA026]
+ gb|ERW05010.1| hypothetical protein Q037_02386 [Pseudomonas aeruginosa BWHPSA024]
+ gb|ERW17513.1| hypothetical protein Q036_03756 [Pseudomonas aeruginosa BWHPSA023]
+ gb|ERW20597.1| hypothetical protein Q035_02565 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW83607.1| hypothetical protein Q019_02226 [Pseudomonas aeruginosa BWHPSA006]
+ gb|ERW85366.1| hypothetical protein Q018_02694 [Pseudomonas aeruginosa BWHPSA005]
+ gb|ERW89461.1| hypothetical protein Q024_01576 [Pseudomonas aeruginosa BWHPSA011]
+ gb|ERX09612.1| hypothetical protein Q015_01919 [Pseudomonas aeruginosa BWHPSA002]
+ gb|ERX19070.1| hypothetical protein Q012_03302 [Pseudomonas aeruginosa S35004]
+ gb|ERX23594.1| hypothetical protein Q013_01267 [Pseudomonas aeruginosa X13273]
+ gb|ERX45412.1| hypothetical protein Q011_01432 [Pseudomonas aeruginosa 6077]
+ gb|ERY09243.1| hypothetical protein Q077_02256 [Pseudomonas aeruginosa BL23]
+ gb|ERY17511.1| hypothetical protein Q076_01107 [Pseudomonas aeruginosa BL22]
+ gb|ERY36110.1| hypothetical protein Q067_02750 [Pseudomonas aeruginosa BL13]
+ gb|ERY42083.1| hypothetical protein Q066_01768 [Pseudomonas aeruginosa BL12]
+ gb|ERY55404.1| hypothetical protein Q056_05609 [Pseudomonas aeruginosa BL02]
+ gb|ERY68327.1| hypothetical protein Q057_00481 [Pseudomonas aeruginosa BL03]
+ gb|ERY90134.1| hypothetical protein Q021_05733 [Pseudomonas aeruginosa BWHPSA008]
+ gb|ERY94353.1| hypothetical protein Q023_01273 [Pseudomonas aeruginosa BWHPSA010]
+ gb|ERZ44408.1| hypothetical protein Q001_01856 [Pseudomonas aeruginosa CF127]
+ gb|ESQ67174.1| hypothetical protein PA15_0302480 [Pseudomonas aeruginosa HB15]
+ emb|CDH76955.1| putative secreted protein [Pseudomonas aeruginosa MH27]
+ gb|ETD56473.1| hypothetical protein X778_03055 [Pseudomonas aeruginosa VRFPA07]
+Length=94
+
+ Score = 97.3 bits (241),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 39/65 (60%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+
+Sbjct  30  EMVPLADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQ  89
+
+Query  68  KGHSE  72
+           K H  
+Sbjct  90  KEHGG  94
+
+
+>ref|YP_986936.1| hypothetical protein Ajs_2717 [Acidovorax sp. JS42]
+ ref|WP_011805876.1| copper resistance protein CopK [Acidovorax sp. JS42]
+ gb|ABM42860.1| conserved hypothetical protein [Acidovorax sp. JS42]
+Length=95
+
+ Score = 96.9 bits (240),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 34/71 (48%), Positives = 50/71 (70%), Gaps = 0/71 (0%)
+
+Query  3   MSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+                +T +L+DGS +++FKDGKM ME+K+G++  M +  VMET+DG KI+M  +E+ RL
+Sbjct  25  RDAAKQTIELKDGSTLYIFKDGKMSMEDKYGRAKQMKKDTVMETKDGQKIMMHKDEVMRL  84
+
+Query  63  DEALRKGHSEG  73
+           D  L+KGH  G
+Sbjct  85  DSLLKKGHEGG  95
+
+
+>ref|WP_016451563.1| hypothetical protein [Bacteria]
+ gb|EPD44919.1| hypothetical protein HMPREF9702_01259 [Delftia acidovorans CCUG 
+15835]
+Length=94
+
+ Score = 96.5 bits (239),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L 
+Sbjct  30  EMVPLADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLE  89
+
+Query  68  KGHSE  72
+           + H  
+Sbjct  90  QEHGG  94
+
+
+>gb|ADN85633.1| CopK [Achromobacter sp. AO22]
+Length=94
+
+ Score = 96.5 bits (239),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L 
+Sbjct  30  EMVPLADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLE  89
+
+Query  68  KGHSE  72
+           + H  
+Sbjct  90  QEHGG  94
+
+
+>ref|YP_003165223.1| hypothetical protein CAP2UW1_4647 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806758.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37776.1| hypothetical protein CAP2UW1_4647 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=95
+
+ Score = 96.1 bits (238),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 36/65 (55%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +  +L+DGS V++FKDGKMGME+K G+++ M +G VMET+DG KIIM G+E+ RL+  LR
+Sbjct  30  QVIELKDGSTVYIFKDGKMGMEDKLGRAIRMEKGMVMETKDGQKIIMHGDEVMRLNPLLR  89
+
+Query  68  KGHSE  72
+           +GH  
+Sbjct  90  EGHRG  94
+
+
+>ref|YP_973570.1| hypothetical protein Pnap_4556 [Polaromonas naphthalenivorans 
+CJ2]
+ ref|WP_011798137.1| copper resistance protein CopK [Polaromonas naphthalenivorans]
+ gb|ABM39828.1| conserved hypothetical protein [Polaromonas naphthalenivorans 
+CJ2]
+Length=93
+
+ Score = 95.4 bits (236),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 31/67 (46%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  1   VDMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIF  60
+           VD   + K+  L+DGS VHVFKDGKM ME+K G+   M  G++M+T D   + M+G+E+ 
+Sbjct  22  VDREGIEKSVQLKDGSTVHVFKDGKMAMEDKLGRPYRMKPGQMMQTTDSQSMAMQGDEVA  81
+
+Query  61  RLDEALR  67
+           RL    R
+Sbjct  82  RLSNGQR  88
+
+
+>ref|YP_003165240.1| hypothetical protein CAP2UW1_4666 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+ ref|WP_012806775.1| copper resistance protein CopK [Candidatus Accumulibacter phosphatis]
+ gb|ACV37793.1| hypothetical protein CAP2UW1_4666 [Candidatus Accumulibacter 
+phosphatis clade IIA str. UW-1]
+Length=95
+
+ Score = 94.6 bits (234),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 37/66 (56%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +  +L+DGS V++FKDGKMGME+K G+S+ M +  VMET+DG KIIM G+E+ RLD  L+
+Sbjct  30  QVIELKDGSTVYIFKDGKMGMEDKLGRSIRMKKDTVMETKDGQKIIMHGDEVMRLDNLLK  89
+
+Query  68  KGHSEG  73
+           +GH+ G
+Sbjct  90  EGHTGG  95
+
+
+>emb|CBA29890.1| hypothetical protein Csp_A14420 [Curvibacter putative symbiont 
+of Hydra magnipapillata]
+Length=95
+
+ Score = 93.1 bits (230),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query  6   VVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEA  65
+           + K+  L+DGS VH FK+GKM ME+K+G+   M  G+ M   DGT I M  +E+  L   
+Sbjct  26  IDKSIPLKDGSVVHQFKNGKMAMEDKYGRPTRMNAGETMTAADGTTITMNSDEVALLSSV  85
+
+Query  66  LRKGHSE  72
+           +R  H  
+Sbjct  86  IR-DHYG  91
+
+
+>ref|YP_001561474.1| hypothetical protein Daci_0443 [Delftia acidovorans SPH-1]
+ ref|WP_012202379.1| hypothetical protein [Delftia acidovorans]
+ gb|ABX33089.1| conserved hypothetical protein [Delftia acidovorans SPH-1]
+Length=79
+
+ Score = 92.3 bits (228),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  8   KTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALR  67
+           +   L DG  ++VFKDGKM  E++FG+++    G  + T+DG  I +  NE+ RL   L 
+Sbjct  15  EMVPLADGGTLYVFKDGKMAQESRFGRAVYQSIGASVATKDGRNIAITSNEVARLSSLLE  74
+
+Query  68  KGHSE  72
+           + H  
+Sbjct  75  QEHGG  79
+
+
+>ref|YP_006184218.1| hypothetical protein SMD_1484 [Stenotrophomonas maltophilia D457]
+ ref|YP_006373598.1| Copper resistance protein K [Tistrella mobilis KA081020-065]
+ ref|YP_008028014.1| hypothetical protein NH44784_009131 [Achromobacter xylosoxidans 
+NH44784-1996]
+ ref|WP_014646617.1| copper resistance protein [Proteobacteria]
+ emb|CCH12040.1| conserved hypothetical protein [Stenotrophomonas maltophilia 
+D457]
+ gb|AFK56616.1| Copper resistance protein K [Tistrella mobilis KA081020-065]
+ emb|CCH04892.1| hypothetical protein NH44784_009131 [Achromobacter xylosoxidans 
+NH44784-1996]
+Length=61
+
+ Score = 87.7 bits (216),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 23/61 (38%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  12  LQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGHS  71
+           + DG  +++FKDGKM  E++FG+++ +  G  + T+DG  I +  NE+ RL   L+K H 
+Sbjct  1   MADGGTLYIFKDGKMAQESRFGRAVYLNVGASVSTKDGRNIAITSNEVARLGSLLQKEHG  60
+
+Query  72  E  72
+            
+Sbjct  61  G  61
+
+
+>ref|YP_521702.1| hypothetical protein Rfer_0417 [Rhodoferax ferrireducens T118]
+ ref|WP_011462744.1| hypothetical protein [Albidiferax ferrireducens]
+ gb|ABD68171.1| conserved hypothetical protein [Rhodoferax ferrireducens T118]
+Length=93
+
+ Score = 77.6 bits (190),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 30/59 (51%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  4   SNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRL  62
+           S++V++  L+DG+ +H +KDGKM ME K G  + M EG  MET DG  I M GNE+ RL
+Sbjct  25  SDIVQSVQLKDGTTMHHYKDGKMSMEGKNGNIVFMKEGMTMETTDGKTITMSGNEVARL  83
+
+
+>ref|WP_008648937.1| hypothetical protein [Cupriavidus sp. HMR-1]
+ gb|EKZ97363.1| hypothetical protein D769_20609 [Cupriavidus sp. HMR-1]
+Length=46
+
+ Score = 49.9 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 22/45 (49%), Positives = 30/45 (67%), Gaps = 0/45 (0%)
+
+Query  28  MENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEALRKGHSE  72
+           M++ +G  M+M EG  ME +DG KIIMK N+IFRLD+  R+    
+Sbjct  1   MKDPYGHDMHMKEGMAMEMKDGGKIIMKENQIFRLDDNRREQRRG  45
+
+
+>ref|WP_018989662.1| hypothetical protein [Azoarcus toluclasticus]
+Length=30
+
+ Score = 37.2 bits (85),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  44  METRDGTKIIMKGNEIFRLDEALRKGHSE  72
+           METRDG KI+M G+EI+R + A+    + 
+Sbjct  1   METRDGRKIVMNGDEIWRRERAVHPNRAG  29
+
+
+>ref|WP_005489719.1| BH0638 unknown conserved protein [Halanaerobium saccharolyticum]
+ emb|CCU80451.1| BH0638 unknown conserved protein [Halanaerobium saccharolyticum 
+subsp. saccharolyticum DSM 6643]
+Length=368
+
+ Score = 35.7 bits (81),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 24/48 (50%), Gaps = 4/48 (8%)
+
+Query  8    KTYDLQDGSKVHVFKDG---KMGMENKFGKSMNMP-EGKVMETRDGTK  51
+            +  DL+ G ++H+F+DG   K   E + G+ + +   G  +E   G  
+Sbjct  308  QEIDLKSGGEMHLFRDGIVIKGKWERRNGRIVYLNSSGDEIEINPGQT  355
+
+
+>ref|WP_020581773.1| DNA-directed RNA polymerase subunit beta' [Endozoicomonas elysicola]
+Length=1403
+
+ Score = 35.7 bits (81),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 29/48 (60%), Gaps = 3/48 (6%)
+
+Query  8     KTYDLQDGSKVHVFKDGKMGMENKFGKS---MNMPEGKVMETRDGTKI  52
+             K+ + +DG+ V V + G++ + ++FG+      +P G ++  +DG +I
+Sbjct  965   KSVERKDGTLVAVSRSGQLAVADEFGRERERYKLPYGAMISVKDGDQI  1012
+
+
+>ref|WP_018855630.1| beta-galactosidase [Rhizobium sp. 42MFCr.1]
+Length=709
+
+ Score = 34.5 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 16/56 (29%), Positives = 27/56 (48%), Gaps = 5/56 (9%)
+
+Query  1    VDMSNVVKTYDLQDGSKVHVFKDGKMGM-ENKFGKSMNMPEGK----VMETRDGTK  51
+            VD   ++++Y L  G+    F DG++ + EN++GK   +  G          DG K
+Sbjct  555  VDGGGLLQSYRLAGGTGRGHFTDGRLAIVENRYGKGRTLLIGTNPSVAYYRTDGKK  610
+
+
+>ref|WP_000009837.1| glyoxalase [Bacillus thuringiensis]
+ gb|EEM94314.1| Glyoxalase [Bacillus thuringiensis IBL 200]
+Length=285
+
+ Score = 34.1 bits (77),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 10/41 (24%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query  1    VDMSNVVKTYD-LQDGSKVHVFKDGKMGMENKFGKSMNMPE  40
+            VD     +  + L++  K+  +KDG + +E+ FG  ++   
+Sbjct  241  VDEKQKEQVCESLKNIGKIATYKDGILQVEDPFGHCIHFKI  281
+
+
+>ref|WP_017504456.1| flagellar basal body protein FliL [alpha proteobacterium L41A]
+Length=222
+
+ Score = 33.3 bits (75),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 10/52 (19%), Positives = 20/52 (38%), Gaps = 0/52 (0%)
+
+Query  14   DGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKGNEIFRLDEA  65
+            DG   +   D  M +++  G+   +     +E +D         E+ RL + 
+Sbjct  121  DGVTFYTLPDMVMNIQSPDGRPTFLKLKLTLEMQDAEVATHLQEEMPRLQDM  172
+
+
+>ref|WP_002332784.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|ELA81358.1| hypothetical protein OI1_06324, partial [Enterococcus faecium 
+EnGen0016]
+Length=421
+
+ Score = 33.3 bits (75),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 16/55 (29%), Positives = 30/55 (55%), Gaps = 1/55 (2%)
+
+Query  2    DMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKG  56
+            D S + K   ++ G+     KDGK+ ME   G+++++ E   +E     ++I+KG
+Sbjct  317  DRSEIEKEKIVKIGTLWIDKKDGKV-MEENTGRTLHLKEAAFIEDPQHNQVILKG  370
+
+
+>ref|WP_010729211.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|EOG04616.1| hypothetical protein SKY_02764, partial [Enterococcus faecium 
+EnGen0175]
+Length=438
+
+ Score = 33.3 bits (75),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 16/55 (29%), Positives = 30/55 (55%), Gaps = 1/55 (2%)
+
+Query  2    DMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKG  56
+            D S + K   ++ G+     KDGK+ ME   G+++++ E   +E     ++I+KG
+Sbjct  334  DRSEIEKEKIVKIGTLWIDKKDGKV-MEENTGRTLHLKEAAFIEDPQHNQVILKG  387
+
+
+>ref|WP_002351430.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|EJX60186.1| hypothetical protein HMPREF1375_02947, partial [Enterococcus 
+faecium P1986]
+Length=359
+
+ Score = 33.0 bits (74),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 16/55 (29%), Positives = 30/55 (55%), Gaps = 1/55 (2%)
+
+Query  2    DMSNVVKTYDLQDGSKVHVFKDGKMGMENKFGKSMNMPEGKVMETRDGTKIIMKG  56
+            D S + K   ++ G+     KDGK+ ME   G+++++ E   +E     ++I+KG
+Sbjct  304  DRSEIEKEKIVKIGTLWIDKKDGKV-MEENTGRTLHLKEAAFIEDPQHNQVILKG  357
+
+
+>ref|WP_008045238.1| DNA-directed RNA polymerase subunit beta' [Reinekea blandensis]
+ gb|EAR09167.1| DNA-directed RNA polymerase beta' subunit [Reinekea sp. MED297]
+Length=1398
+
+ Score = 33.3 bits (75),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 4/65 (6%)
+
+Query  7     VKTYDLQDGSKVHVFKDGKMGMENKFGKS---MNMPEGKVMETRDGTKIIMKGNEIFRLD  63
+             VKT   +DGS V V + G + M +  G+      +P G V+  +DG K+   G  + R D
+Sbjct  963   VKTVTREDGSLVVVSRSGLLAMADDHGRERERYKLPYGSVISVKDGAKVEA-GEVVVRWD  1021
+
+Query  64    EALRK  68
+                  
+Sbjct  1022  PHTHP  1026
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.149    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0464    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312485544690
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

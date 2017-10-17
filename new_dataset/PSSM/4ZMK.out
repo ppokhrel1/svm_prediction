@@ -1,0 +1,186 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4ZMK
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...   137    5e-36
+ref|WP_016812621.1|  putative phosphonate C-P lyase system protei...  36.6    0.71 
+ref|WP_019261414.1|  diguanylate cyclase [Gardnerella vaginalis]      36.6    0.72 
+ref|WP_016636288.1|  putative phosphonate C-P lyase system protei...  36.2    1.1  
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score =  137 bits (344),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  1    DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS  60
+            DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS
+Sbjct  408  DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS  467
+
+Query  61   LKSRAKSLSQK  71
+            LKSRAKSLSQK
+Sbjct  468  LKSRAKSLSQK  478
+
+
+>ref|WP_016812621.1| putative phosphonate C-P lyase system protein PhnK [Gardnerella 
+vaginalis]
+ gb|EPI49107.1| putative phosphonate C-P lyase system protein PhnK [Gardnerella 
+vaginalis JCP8108]
+Length=675
+
+ Score = 36.6 bits (83),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  9    GLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKSLKSRA  65
+            G+N     EI++   +G  +S  D+I GLL    L +  ++AR F H  S  ++ RA
+Sbjct  229  GVNDDKAWEIAKKYVIG--ASVEDRIAGLLDEAGLPDAATRARQFPHEFSGGMRQRA  283
+
+
+>ref|WP_019261414.1| diguanylate cyclase [Gardnerella vaginalis]
+Length=675
+
+ Score = 36.6 bits (83),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  9    GLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKSLKSRA  65
+            G+N     EI++   +G  +S  D+I GLL    L +  ++AR F H  S  ++ RA
+Sbjct  229  GVNDDKAWEIAKKYVIG--ASVEDRIAGLLDEAGLPDAATRARQFPHEFSGGMRQRA  283
+
+
+>ref|WP_016636288.1| putative phosphonate C-P lyase system protein PhnK [Gardnerella 
+vaginalis]
+ gb|EPI41153.1| putative phosphonate C-P lyase system protein PhnK [Gardnerella 
+vaginalis JCP8522]
+Length=675
+
+ Score = 36.2 bits (82),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 30/57 (53%), Gaps = 2/57 (4%)
+
+Query  9    GLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKSLKSRA  65
+            G+N     EI++   +G  +S  D+I GLL    L +  ++AR F H  S  ++ RA
+Sbjct  229  GVNDDKAWEIAKKYVVG--ASVEDRIAGLLDEAGLPDAATRARQFQHEFSGGMRQRA  283
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.120    0.292    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303675756944
+Results from round 2
+
+
+Query= 4ZMK
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...   135    2e-35
+
+Sequences not found previously or not previously below threshold:
+
+gb|ESA16791.1|  hypothetical protein GLOINDRAFT_22450 [Rhizophagu...  33.7    6.0  
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score =  135 bits (339),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  1    DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS  60
+            DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS
+Sbjct  408  DTFSERTLGLNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKS  467
+
+Query  61   LKSRAKSLSQK  71
+            LKSRAKSLSQK
+Sbjct  468  LKSRAKSLSQK  478
+
+
+>gb|ESA16791.1| hypothetical protein GLOINDRAFT_22450 [Rhizophagus irregularis 
+DAOM 181602]
+Length=890
+
+ Score = 33.7 bits (75),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 36/61 (59%), Gaps = 5/61 (8%)
+
+Query  10   LNSIDNTEISEVVSLGLVSSALDKITGLLSADNLSETVSQARDFSHTLSKSLKSRAKSLS  69
+            LN ID + IS +++L ++S      + L++ DNLS  ++  +   H+LSK  K  + S++
+Sbjct  349  LNKIDLSRISRIMNLSIIS-----FSTLITFDNLSTGLTSLKISDHSLSKFTKLESLSIT  403
+
+Query  70   Q  70
+            +
+Sbjct  404  E  404
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.120    0.292    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0384    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303675756944
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2235 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2WKCD
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2WKC|A  Chain A, Crystal Structure From A Single-stranded Dna...   238    2e-78
+gb|AAR14301.2|  SSB protein [Lactococcus lactis phage p2]              234    3e-77
+ref|YP_764347.1|  hypothetical protein LPJV50_ORF33 [Lactococcus ...   235    4e-77
+pdb|2WKD|A  Chain A, Crystal Structure Of A Double Ile-to-met Mut...   233    1e-76
+ref|NP_044980.1|  hypothetical protein sk1p36 [Lactococcus phage ...   233    2e-76
+gb|AFE86950.1|  putative early protein [Lactococcus Phage ASCC284...   229    4e-75
+ref|WP_002820032.1|  hypothetical protein [Oenococcus oeni] >gb|E...   228    1e-74
+ref|YP_008320124.1|  hypothetical protein jm2_0041 [Lactococcus p...   228    2e-74
+gb|AFE88101.1|  putative early protein [Lactococcus Phage ASCC532]     228    2e-74
+ref|YP_008318186.1|  hypothetical protein jm3_0036 [Lactococcus p...   228    2e-74
+gb|AGI10778.1|  hypothetical protein 936_0037 [Lactococcus phage ...   227    3e-74
+ref|YP_762550.1|  hypothetical protein LPPV008_gp39 [Lactococcus ...   227    3e-74
+gb|AFE86893.1|  putative early protein [Lactococcus Phage ASCC281...   227    4e-74
+ref|YP_764294.1|  hypothetical protein LPV712_gp034 [Lactococcus ...   226    8e-74
+ref|YP_008318242.1|  hypothetical protein phi7_0040 [Lactococcus ...   223    2e-72
+gb|ACU46799.1|  unknown [Lactococcus phage SL4] >gb|ACU46906.1| u...   222    3e-72
+gb|AAP03154.1|  E13 [Lactococcus phage bIL66M1]                        222    4e-72
+ref|YP_008318081.1|  hypothetical protein P680_0038 [Lactococcus ...   221    4e-72
+ref|NP_047160.1|  e13 [Lactococcus phage bIL170] >gb|AAC27225.1| ...   221    5e-72
+ref|YP_002004029.1|  hypothetical protein bIBB29_gp41 [Lactococcu...   220    2e-71
+gb|AFE86610.1|  putative early protein [Lactococcus Phage ASCC465...   219    3e-71
+gb|ACU46854.1|  unknown [Lactococcus phage CB13]                       219    4e-71
+gb|AGI11114.1|  hypothetical protein P475_0041 [Lactococcus lacti...   218    1e-70
+gb|AGE60674.1|  ssb protein [Lactococcus phage CaseusJM1]              217    2e-70
+gb|AFE86778.1|  putative early protein [Lactococcus Phage ASCC191]     217    2e-70
+gb|AGI10994.1|  hypothetical protein P113G_0040 [Lactococcus lact...   217    3e-70
+gb|AGI10828.1|  hypothetical protein fd13_0038 [Lactococcus phage...   216    4e-70
+gb|AFE86836.1|  putative early protein [Lactococcus Phage ASCC273...   216    1e-69
+gb|AGI10728.1|  hypothetical protein 645_0038 [Lactococcus lactis...   214    4e-69
+ref|YP_008318134.1|  hypothetical protein 340_0042 [Lactococcus p...   159    5e-48
+gb|AAR14304.2|  putative SSB [Lactococcus phage P335]                  108    1e-27
+ref|YP_809066.1|  RecG-like helicase [Lactococcus lactis subsp. c...   106    7e-27
+ref|NP_043533.1|  hypothetical protein c2p07 [Lactococcus phage c...  65.1    4e-11
+ref|NP_042337.1|  unnamed protein product [Lactococcus phage bIL6...  57.8    2e-08
+gb|AGF87324.1|  putative single-strand binding protein [Streptoco...  37.7    0.29 
+ref|YP_950572.1|  single-strand binding protein [Streptococcus ph...  37.4    0.40 
+ref|YP_008601709.1|  Single-stranded DNA-binding protein [Strepto...  36.2    1.2  
+ref|WP_006150445.1|  single-stranded DNA-binding protein [Strepto...  35.8    1.6  
+ref|WP_007518739.1|  single-strand binding protein [Streptococcus...  35.4    2.0  
+ref|WP_000609566.1|  single-stranded DNA-binding protein [Strepto...  35.0    2.9  
+ref|YP_004401098.1|  single-strand binding protein [Streptococcus...  35.0    3.0  
+ref|YP_002940373.1|  hypothetical protein Kole_0653 [Kosmotoga ol...  35.0    3.9  
+ref|NP_688853.1|  prophage LambdaSa2, single-strand binding prote...  34.3    6.2  
+ref|WP_000609582.1|  single-stranded DNA-binding protein [Strepto...  33.9    8.9  
+ref|WP_000609583.1|  single-stranded DNA-binding protein [Strepto...  33.9    9.6  
+
+
+>pdb|2WKC|A Chain A, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|B Chain B, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|C Chain C, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|D Chain D, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+Length=119
+
+ Score =  238 bits (607),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 119/119 (100%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+            GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV
+Sbjct  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+
+Query  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>gb|AAR14301.2| SSB protein [Lactococcus lactis phage p2]
+Length=119
+
+ Score =  234 bits (598),  Expect = 3e-77, Method: Compositional matrix adjust.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>ref|YP_764347.1| hypothetical protein LPJV50_ORF33 [Lactococcus phage jj50]
+ gb|ABB77654.1| hypothetical protein [Lactococcus phage jj50]
+Length=131
+
+ Score =  235 bits (599),  Expect = 4e-77, Method: Compositional matrix adjust.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  15   IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  74
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  75   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  131
+
+
+>pdb|2WKD|A Chain A, Crystal Structure Of A Double Ile-to-met Mutant Of Protein 
+Orf34 From Lactococcus Phage P2
+Length=119
+
+ Score =  233 bits (594),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 117/119 (98%), Positives = 117/119 (98%), Gaps = 0/119 (0%)
+
+Query  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+            GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAF PDFIQ GDTV
+Sbjct  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFXPDFIQXGDTV  60
+
+Query  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>ref|NP_044980.1| hypothetical protein sk1p36 [Lactococcus phage sk1]
+ gb|AAB70074.1| unknown [Lactococcus phage sk1]
+Length=119
+
+ Score =  233 bits (594),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 116/117 (99%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>gb|AFE86950.1| putative early protein [Lactococcus Phage ASCC284]
+ gb|AFE87065.1| putative early protein [Lactococcus Phage ASCC310]
+ gb|AFE87236.1| putative early protein [Lactococcus Phage ASCC356]
+Length=119
+
+ Score =  229 bits (584),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 113/117 (97%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>ref|WP_002820032.1| hypothetical protein [Oenococcus oeni]
+ gb|EFD87321.1| hypothetical protein AWRIB429_2149 [Oenococcus oeni AWRIB429]
+Length=119
+
+ Score =  228 bits (581),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 112/117 (96%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHNDNNSQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>ref|YP_008320124.1| hypothetical protein jm2_0041 [Lactococcus phage jm2]
+ gb|AGI10884.1| hypothetical protein jm2_0041 [Lactococcus phage jm2]
+Length=119
+
+ Score =  228 bits (580),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 113/117 (97%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQSQAKQDLFGGSEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIPNDNNSQSQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AFE88101.1| putative early protein [Lactococcus Phage ASCC532]
+Length=119
+
+ Score =  228 bits (580),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/117 (96%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFP VEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPAVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>ref|YP_008318186.1| hypothetical protein jm3_0036 [Lactococcus phage jm3]
+ gb|AGI10938.1| hypothetical protein jm3_0036 [Lactococcus phage jm3]
+Length=119
+
+ Score =  228 bits (580),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/117 (96%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI+NDN  Q+QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFISNDNGKQAQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AGI10778.1| hypothetical protein 936_0037 [Lactococcus phage 936]
+Length=119
+
+ Score =  227 bits (579),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 113/117 (97%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVDESELPF  119
+
+
+>ref|YP_762550.1| hypothetical protein LPPV008_gp39 [Lactococcus phage P008]
+ gb|AAY97841.1| unknown [Lactococcus phage P008]
+Length=119
+
+ Score =  227 bits (579),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 112/117 (96%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRT STAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+TV
+Sbjct  3    IITVTAQANEKNTRTASTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTITV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQ KQDLFGGSEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIPNDNSSQSQTKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AFE86893.1| putative early protein [Lactococcus Phage ASCC281]
+ gb|AFE87290.1| putative early protein [Lactococcus Phage ASCC358]
+ gb|AFE87347.1| putative early protein [Lactococcus Phage ASCC365]
+Length=119
+
+ Score =  227 bits (578),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 111/117 (95%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT+
+Sbjct  3    IITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVTI  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>ref|YP_764294.1| hypothetical protein LPV712_gp034 [Lactococcus phage 712]
+ gb|ABB77601.1| hypothetical protein [Lactococcus phage 712]
+Length=119
+
+ Score =  226 bits (576),  Expect = 8e-74, Method: Compositional matrix adjust.
+ Identities = 111/117 (95%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVST+KGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTSKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIPNDNNSQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>ref|YP_008318242.1| hypothetical protein phi7_0040 [Lactococcus phage phi7]
+ gb|AGI11219.1| hypothetical protein phi7_0040 [Lactococcus phage phi7]
+Length=119
+
+ Score =  223 bits (567),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 109/117 (93%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQ NEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKV YGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQVNEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVTYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI+NDN  Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFISNDNGKQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|ACU46799.1| unknown [Lactococcus phage SL4]
+ gb|ACU46906.1| unknown [Lactococcus phage CB14]
+ gb|ACU46958.1| unknown [Lactococcus phage CB19]
+ gb|ACU47009.1| unknown [Lactococcus phage CB20]
+Length=119
+
+ Score =  222 bits (565),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 109/117 (93%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT+
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVTI  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI +DN  Q+QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIPDDNGKQAQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AAP03154.1| E13 [Lactococcus phage bIL66M1]
+Length=119
+
+ Score =  222 bits (565),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 110/117 (94%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI + NS+Q QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHDGNSAQVQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>ref|YP_008318081.1| hypothetical protein P680_0038 [Lactococcus phage P680]
+ gb|AGI11168.1| hypothetical protein P680_0038 [Lactococcus phage P680]
+Length=119
+
+ Score =  221 bits (564),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 110/117 (94%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFP VEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPAVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>ref|NP_047160.1| e13 [Lactococcus phage bIL170]
+ gb|AAC27225.1| e13 [Lactococcus phage bIL170]
+Length=119
+
+ Score =  221 bits (564),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 108/117 (92%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+TV
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTITV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>ref|YP_002004029.1| hypothetical protein bIBB29_gp41 [Lactococcus phage bIBB29]
+ gb|ABY84561.1| unknown [Lactococcus phage bIBB29]
+Length=119
+
+ Score =  220 bits (560),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 108/117 (92%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+TV
+Sbjct  3    IITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTITV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI+NDN+SQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFISNDNNSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>gb|AFE86610.1| putative early protein [Lactococcus Phage ASCC465]
+ gb|AFE86666.1| putative early protein [Lactococcus Phage ASCC473]
+ gb|AFE86722.1| putative early protein [Lactococcus Phage ASCC489]
+ gb|AFE87815.1| putative early protein [Lactococcus Phage ASCC497]
+ gb|AFE88045.1| putative early protein [Lactococcus Phage ASCC531]
+Length=119
+
+ Score =  219 bits (558),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 108/117 (92%), Positives = 112/117 (96%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQ NEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV V
+Sbjct  3    IITVTAQVNEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVMV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFP VEKVFI NDN+SQSQAKQDLFG SEPIE+N+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPAVEKVFIPNDNNSQSQAKQDLFGKSEPIEINTEDLPF  119
+
+
+>gb|ACU46854.1| unknown [Lactococcus phage CB13]
+Length=119
+
+ Score =  219 bits (558),  Expect = 4e-71, Method: Compositional matrix adjust.
+ Identities = 108/117 (92%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGD VT+
+Sbjct  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDIVTI  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>gb|AGI11114.1| hypothetical protein P475_0041 [Lactococcus lactis phage P475]
+Length=119
+
+ Score =  218 bits (555),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 105/117 (90%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTV+T+KGDKKIISVPLFEKEKGSN+KVAYGSAFLPDFIQLGDT+TV
+Sbjct  3    IITVTAQANEKNTRTVNTSKGDKKIISVPLFEKEKGSNIKVAYGSAFLPDFIQLGDTITV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|AGE60674.1| ssb protein [Lactococcus phage CaseusJM1]
+Length=119
+
+ Score =  217 bits (553),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 107/117 (91%), Positives = 112/117 (96%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQ NEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT+
+Sbjct  3    IITVTAQVNEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVTI  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>gb|AFE86778.1| putative early protein [Lactococcus Phage ASCC191]
+Length=119
+
+ Score =  217 bits (553),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 108/118 (92%), Positives = 110/118 (93%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFP VEKVFI NDNS QSQAKQDLFGGSEPIEV+   LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPAVEKVFIPNDNSKQSQAKQDLFGGSEPIEVHELGLPF  119
+
+
+>gb|AGI10994.1| hypothetical protein P113G_0040 [Lactococcus lactis phage P113G]
+ gb|AGI11054.1| hypothetical protein P272_0042 [Lactococcus lactis phage p272]
+Length=119
+
+ Score =  217 bits (553),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 105/117 (90%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVT QANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDF+QLGDT+TV
+Sbjct  3    IITVTTQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFVQLGDTITV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|AGI10828.1| hypothetical protein fd13_0038 [Lactococcus phage fd13]
+Length=119
+
+ Score =  216 bits (551),  Expect = 4e-70, Method: Compositional matrix adjust.
+ Identities = 106/117 (91%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQ NEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFI+LG+ VT+
+Sbjct  3    IITVTAQVNEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIELGNIVTI  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFG SEPIEVN+EDLPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIHNDNNSQAQAKQDLFGKSEPIEVNTEDLPF  119
+
+
+>gb|AFE86836.1| putative early protein [Lactococcus Phage ASCC273]
+ gb|AFE87008.1| putative early protein [Lactococcus Phage ASCC287]
+ gb|AFE87121.1| putative early protein [Lactococcus Phage ASCC324]
+ gb|AFE87179.1| putative early protein [Lactococcus Phage ASCC337]
+ gb|AFE87405.1| putative early protein [Lactococcus Phage ASCC368]
+ gb|AFE87463.1| putative early protein [Lactococcus Phage ASCC395]
+ gb|AFE87521.1| putative early protein [Lactococcus Phage ASCC397]
+ gb|AFE87580.1| putative early protein [Lactococcus Phage ASCC406]
+ gb|AFE87639.1| putative early protein [Lactococcus Phage ASCC454]
+ gb|AFE87697.1| putative early protein [Lactococcus Phage ASCC460]
+ gb|AFE87756.1| putative early protein [Lactococcus Phage ASCC476]
+ gb|AFE87871.1| putative early protein [Lactococcus Phage ASCC502]
+ gb|AFE87929.1| putative early protein [Lactococcus Phage ASCC506]
+ gb|AFE87987.1| putative early protein [Lactococcus Phage ASCC527]
+ gb|AFE88157.1| putative early protein [Lactococcus Phage ASCC544]
+Length=119
+
+ Score =  216 bits (549),  Expect = 1e-69, Method: Compositional matrix adjust.
+ Identities = 107/118 (91%), Positives = 110/118 (93%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFP VEKVFI NDNS QSQAKQDLFGGSEPIEV+   LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPAVEKVFIPNDNSKQSQAKQDLFGGSEPIEVHELGLPF  119
+
+
+>gb|AGI10728.1| hypothetical protein 645_0038 [Lactococcus lactis phage 645]
+Length=119
+
+ Score =  214 bits (545),  Expect = 4e-69, Method: Compositional matrix adjust.
+ Identities = 106/117 (91%), Positives = 113/117 (97%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFI+LG+TVTV
+Sbjct  3    IITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIELGNTVTV  62
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQ+QAKQDLFG SEPIEV+  +LPF
+Sbjct  63   SGRVQAKESGEYVNYNFVFPTVEKVFIPNDNSSQAQAKQDLFGKSEPIEVDESELPF  119
+
+
+>ref|YP_008318134.1| hypothetical protein 340_0042 [Lactococcus phage 340]
+ gb|AGI10674.1| hypothetical protein 340_0042 [Lactococcus phage 340]
+Length=88
+
+ Score =  159 bits (403),  Expect = 5e-48, Method: Compositional matrix adjust.
+ Identities = 77/88 (88%), Positives = 84/88 (95%), Gaps = 0/88 (0%)
+
+Query  32   LFEKEKGSNVKVAYGSAFLPDFIQLGDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFITN  91
+            +FEKEKGS+VKVAYGSAFLPDFI+LG+TVTVSGRVQAKESGEYVNYNFVFPTVEKVFI N
+Sbjct  1    MFEKEKGSSVKVAYGSAFLPDFIELGNTVTVSGRVQAKESGEYVNYNFVFPTVEKVFIPN  60
+
+Query  92   DNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            DNSSQ+QAKQDLFG SEPIEV+  +LPF
+Sbjct  61   DNSSQAQAKQDLFGKSEPIEVDESELPF  88
+
+
+>gb|AAR14304.2| putative SSB [Lactococcus phage P335]
+Length=116
+
+ Score =  108 bits (270),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 54/118 (46%), Positives = 79/118 (67%), Gaps = 3/118 (3%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+            +IIT   Q N+KNTRTV+T KG+K++IS P+ +   G   K  Y SAF+   ++ GD +T
+Sbjct  2    SIITTVVQVNDKNTRTVNTQKGEKQVISTPIIKDSTG---KWVYASAFINFKVEFGDILT  58
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGR++ KE G+Y+N NFVFPTVE+++     +S S   +D+    E +E+N EDLPF
+Sbjct  59   ISGRIEQKEDGQYLNNNFVFPTVERLYKPKAAASTSYPAKDIPNIGEGMEINDEDLPF  116
+
+
+>ref|YP_809066.1| RecG-like helicase [Lactococcus lactis subsp. cremoris SK11]
+ ref|WP_011676024.1| RecG-like helicase [Lactococcus lactis]
+ gb|ABJ72644.1| RecG-like helicase [Lactococcus lactis subsp. cremoris SK11]
+ gb|EQC95012.1| hypothetical protein LLT3_00440 [Lactococcus lactis subsp. cremoris 
+TIFN3]
+Length=116
+
+ Score =  106 bits (264),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 53/118 (45%), Positives = 78/118 (66%), Gaps = 3/118 (3%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+            +IIT   Q N+KNTRTV+T KG+K++IS P+ +   G   K  Y SAF+   ++ GD +T
+Sbjct  2    SIITTVVQVNDKNTRTVNTQKGEKQVISTPIIKDSTG---KWVYASAFINFKVEPGDILT  58
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGR++ KE G+Y+N NF FPTVE+++     +S S   +D+    E +E+N EDLPF
+Sbjct  59   ISGRIEQKEDGQYLNNNFAFPTVERLYKPKGTASTSYPAKDIPNIGEDMEINDEDLPF  116
+
+
+>ref|NP_043533.1| hypothetical protein c2p07 [Lactococcus phage c2]
+ gb|AAA92164.1| putative [Lactococcus phage c2]
+Length=114
+
+ Score = 65.1 bits (157),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 43/118 (36%), Positives = 63/118 (53%), Gaps = 8/118 (7%)
+
+Query  4    ITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV-  62
+            I  T + NE NT+ V TAKG KK++S   +  E         G  +LPD +  GD VTV 
+Sbjct  3    IIETLKVNEINTKQVETAKGTKKVLSFKAYPFEH------YIGGIWLPDSVNYGDIVTVF  56
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQ-DLFGGSEPIEVNSEDLPF  119
+              +++A+  G+   YN  +  V   F  N ++++ Q+   DLFGGS P ++  E LPF
+Sbjct  57   IDQIKAETKGDKTYYNASYAKVTPEFNLNRDNNEPQSNTVDLFGGSSPADIPDEQLPF  114
+
+
+>ref|NP_042337.1| unnamed protein product [Lactococcus phage bIL67]
+ gb|AAA74351.1| unknown [Lactococcus phage bIL67]
+Length=123
+
+ Score = 57.8 bits (138),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 43/127 (34%), Positives = 61/127 (48%), Gaps = 17/127 (13%)
+
+Query  4    ITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV-  62
+            I  T + NE NT+ V TAKG KK++S   +  E         G  +LPD +  GD VTV 
+Sbjct  3    IIETLKVNEINTKEVETAKGTKKVLSFKAYPFEH------YIGGIWLPDSVNYGDIVTVF  56
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITN--------DNSSQSQAKQ--DLFGGSEPIEV  112
+              +++++  G+   YN  F  V   F  N        D+     A    DLFGG+ P+++
+Sbjct  57   IDQIKSETKGDKTYYNASFAKVTPEFNLNRDNGGSVYDDPHGGMAPNTVDLFGGNTPVDI  116
+
+Query  113  NSEDLPF  119
+              E LPF
+Sbjct  117  PDEQLPF  123
+
+
+>gb|AGF87324.1| putative single-strand binding protein [Streptococcus phage phi20c]
+Length=132
+
+ Score = 37.7 bits (86),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 40/75 (53%), Gaps = 8/75 (11%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVF-ITNDNSSQSQAKQDLF  104
+            L ++++ G  + V+GR+Q +    + G+ V   +V   V + F +      QS ++   F
+Sbjct  61   LANWVKKGALIGVTGRIQTRSYDNQQGQRV---YVTEVVAESFQLLESRGQQSNSQDGSF  117
+
+Query  105  GGSEPIEVNSEDLPF  119
+            G S P+++  EDLPF
+Sbjct  118  GNSSPMDIQDEDLPF  132
+
+
+>ref|YP_950572.1| single-strand binding protein [Streptococcus phage SMP]
+ gb|ABK91903.1| single-strand binding protein [Streptococcus phage SMP]
+Length=132
+
+ Score = 37.4 bits (85),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 40/75 (53%), Gaps = 8/75 (11%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVF-ITNDNSSQSQAKQDLF  104
+            L ++++ G  + ++GR+Q +    + G+ V   +V   V + F +      QS ++   F
+Sbjct  61   LANWVKKGALIGITGRIQTRSYDNQQGQRV---YVTEVVAESFQLLESRGQQSNSQDGSF  117
+
+Query  105  GGSEPIEVNSEDLPF  119
+            G S P+++  EDLPF
+Sbjct  118  GNSSPMDIQEEDLPF  132
+
+
+>ref|YP_008601709.1| Single-stranded DNA-binding protein [Streptococcus suis YB51]
+ ref|WP_022540565.1| Single-stranded DNA-binding protein [Streptococcus suis]
+ gb|AGW86812.1| Single-stranded DNA-binding protein [Streptococcus suis YB51]
+Length=132
+
+ Score = 36.2 bits (82),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 39/75 (52%), Gaps = 8/75 (11%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVF-ITNDNSSQSQAKQDLF  104
+            L ++ + G  + V+GR+Q +    + G+ V   +V   V + F +      QS ++   F
+Sbjct  61   LANWAKKGALIGVTGRIQTRSYDNQQGQRV---YVTEVVAESFQLLESRGQQSNSQDGSF  117
+
+Query  105  GGSEPIEVNSEDLPF  119
+            G S P+++  EDLPF
+Sbjct  118  GNSSPMDIQDEDLPF  132
+
+
+>ref|WP_006150445.1| single-stranded DNA-binding protein [Streptococcus infantis]
+ gb|EGL86878.1| single-stranded DNA-binding protein [Streptococcus infantis SK1076]
+Length=138
+
+ Score = 35.8 bits (81),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 44/81 (54%), Gaps = 8/81 (10%)
+
+Query  47   SAFLPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSS-QSQAKQ  101
+            +  L ++ + G+ V ++GR+Q +    + G+ V    V     ++    DNS+ QS  ++
+Sbjct  58   AELLAEWCKKGNLVGITGRIQTRSYDNQQGQRVYVTEVVADTFQLLEKRDNSANQSNIEE  117
+
+Query  102  DL---FGGSEPIEVNSEDLPF  119
+             +   FG + P++++ +D+PF
+Sbjct  118  QMPASFGATNPLDISDDDMPF  138
+
+
+>ref|WP_007518739.1| single-strand binding protein [Streptococcus tigurinus]
+ gb|EMG32473.1| single-strand binding protein [Streptococcus tigurinus AZ_3a]
+Length=130
+
+ Score = 35.4 bits (80),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 40/74 (54%), Gaps = 8/74 (11%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFG  105
+            L ++ + G  + V+GR+Q +    + G+ V   +V   V + F   ++ +Q Q+  D FG
+Sbjct  61   LANWAKKGSLIGVTGRIQTRSYDNQQGQRV---YVTEVVAENFQMLESRNQ-QSSNDTFG  116
+
+Query  106  GSEPIEVNSEDLPF  119
+               P+++  +DLPF
+Sbjct  117  NDNPMDIQDDDLPF  130
+
+
+>ref|WP_000609566.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ gb|EPU53418.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00003]
+ gb|EPV29930.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00653]
+ gb|EPW15266.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 29376]
+ gb|EPX23832.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+str. Gottschalk 998A]
+Length=138
+
+ Score = 35.0 bits (79),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 8/78 (10%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL--  103
+            L ++ + G  + ++GR+Q +    + G+ +    V     ++    DNS+   +  D   
+Sbjct  61   LANWTKKGMLIGITGRIQTRSYENQQGQRIYVTEVVADSFQILEKRDNSTNQASMHDQLP  120
+
+Query  104  --FGGSEPIEVNSEDLPF  119
+              FG S+P++++ +DLPF
+Sbjct  121  PSFGNSQPMDISDDDLPF  138
+
+
+>ref|YP_004401098.1| single-strand binding protein [Streptococcus suis ST3]
+ ref|WP_013730176.1| single-stranded DNA-binding protein [Streptococcus suis]
+ gb|AEB80912.1| single-strand binding protein [Streptococcus suis ST3]
+Length=132
+
+ Score = 35.0 bits (79),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 39/75 (52%), Gaps = 8/75 (11%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVF-ITNDNSSQSQAKQDLF  104
+            L ++ + G  + V+GR+Q +    + G+ V   +V   V + F +      QS ++   F
+Sbjct  61   LANWGKKGALIGVTGRIQTRTYDNQQGQRV---YVTEVVAESFQLLESRGQQSNSQDGSF  117
+
+Query  105  GGSEPIEVNSEDLPF  119
+            G S P+++  EDLPF
+Sbjct  118  GNSSPMDIQDEDLPF  132
+
+
+>ref|YP_002940373.1| hypothetical protein Kole_0653 [Kosmotoga olearia TBF 19.5.1]
+ ref|WP_012745151.1| hypothetical protein [Kosmotoga olearia]
+ gb|ACR79369.1| hypothetical protein Kole_0653 [Kosmotoga olearia TBF 19.5.1]
+Length=207
+
+ Score = 35.0 bits (79),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 38/74 (51%), Gaps = 2/74 (3%)
+
+Query  32   LFEKEKGSNVKVAYGSAFLPDFIQL--GDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFI  89
+            + E E G   +V  G  +L D I+L  G TV++ GR+   +SG YV  N +     KV I
+Sbjct  85   IVETEDGGTYEVHTGPIWLYDGIELKVGATVSIEGRLVTTDSGSYVVVNVIDVDGNKVVI  144
+
+Query  90   TNDNSSQSQAKQDL  103
+             +++   + A+  +
+Sbjct  145  RDEDGFINWARGRM  158
+
+
+>ref|NP_688853.1| prophage LambdaSa2, single-strand binding protein [Streptococcus 
+agalactiae 2603V/R]
+ ref|WP_000609565.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ sp|Q8DXI7.1|SSB4_STRA5 RecName: Full=Single-stranded DNA-binding protein 4; Short=SSB 
+4; AltName: Full=Helix-destabilizing protein 4
+ gb|AAN00726.1|AE014276_7 prophage LambdaSa2, single-strand binding protein [Streptococcus 
+agalactiae 2603V/R]
+ gb|EPT95107.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+BSU96]
+ gb|EPU83806.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00206]
+ gb|EPV25991.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00654]
+ gb|EPV73401.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00947]
+ gb|EPW17469.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 17336]
+ gb|EPW49703.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 49086]
+ gb|EPX32115.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+LMG 15093]
+Length=138
+
+ Score = 34.3 bits (77),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 8/78 (10%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL--  103
+            L ++ + G  + ++GR+Q +    + G+ +    V     ++    DNS+   +  D   
+Sbjct  61   LANWTKKGMLIGITGRIQTRSYENQQGQRIYVTEVVADSFQILEKRDNSTNQASMDDQLP  120
+
+Query  104  --FGGSEPIEVNSEDLPF  119
+              FG S+P++++ +DLPF
+Sbjct  121  PSFGNSQPMDISDDDLPF  138
+
+
+>ref|WP_000609582.1| single-stranded DNA-binding protein [Streptococcus oralis]
+ gb|EFU63412.1| single-strand binding family protein [Streptococcus oralis ATCC 
+49296]
+Length=138
+
+ Score = 33.9 bits (76),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 22/76 (29%), Positives = 39/76 (51%), Gaps = 8/76 (11%)
+
+Query  52   DFIQLGDTVTVSGRVQAK----ESGEYVNYNFV----FPTVEKVFITNDNSSQSQAKQDL  103
+            ++++ G  V ++GR+Q +    + G+ V    V    F  +EK   T D+SS        
+Sbjct  63   NWLKKGTLVGITGRIQTRSYDNQQGQRVYVTEVVAESFQLLEKRDKTADHSSMENQMPPS  122
+
+Query  104  FGGSEPIEVNSEDLPF  119
+            FG S+P+++  + LPF
+Sbjct  123  FGASDPMDIPDDGLPF  138
+
+
+>ref|WP_000609583.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ gb|EPT97856.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+BSU92]
+Length=137
+
+ Score = 33.9 bits (76),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 40/75 (53%), Gaps = 7/75 (9%)
+
+Query  52   DFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL---F  104
+            ++ + G  V ++GR+Q +    + G+ V    V     ++    DNS+QS  +  +   F
+Sbjct  63   NWTKKGMLVGITGRIQTRNYENQQGQRVYVTEVVAENFQILEKRDNSNQSSMEDQMPSNF  122
+
+Query  105  GGSEPIEVNSEDLPF  119
+              S+P++++ +DLPF
+Sbjct  123  ADSQPMDISDDDLPF  137
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.129    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308097282273
+Results from round 2
+
+
+Query= 2WKCD
+
+Length=119
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AFE86893.1|  putative early protein [Lactococcus Phage ASCC281...   191    4e-60
+gb|AFE86950.1|  putative early protein [Lactococcus Phage ASCC284...   190    1e-59
+gb|AFE88101.1|  putative early protein [Lactococcus Phage ASCC532]     190    1e-59
+ref|WP_002820032.1|  hypothetical protein [Oenococcus oeni] >gb|E...   189    2e-59
+gb|AFE86778.1|  putative early protein [Lactococcus Phage ASCC191]     189    3e-59
+ref|YP_008320124.1|  hypothetical protein jm2_0041 [Lactococcus p...   189    3e-59
+gb|AFE86836.1|  putative early protein [Lactococcus Phage ASCC273...   189    3e-59
+gb|ACU46799.1|  unknown [Lactococcus phage SL4] >gb|ACU46906.1| u...   189    4e-59
+pdb|2WKC|A  Chain A, Crystal Structure From A Single-stranded Dna...   188    8e-59
+gb|AFE86610.1|  putative early protein [Lactococcus Phage ASCC465...   188    1e-58
+ref|NP_047160.1|  e13 [Lactococcus phage bIL170] >gb|AAC27225.1| ...   188    1e-58
+ref|YP_764294.1|  hypothetical protein LPV712_gp034 [Lactococcus ...   188    1e-58
+gb|AAR14301.2|  SSB protein [Lactococcus lactis phage p2]              187    1e-58
+ref|NP_044980.1|  hypothetical protein sk1p36 [Lactococcus phage ...   187    2e-58
+gb|AGI10828.1|  hypothetical protein fd13_0038 [Lactococcus phage...   187    2e-58
+gb|AAP03154.1|  E13 [Lactococcus phage bIL66M1]                        186    3e-58
+ref|YP_008318186.1|  hypothetical protein jm3_0036 [Lactococcus p...   186    3e-58
+ref|YP_764347.1|  hypothetical protein LPJV50_ORF33 [Lactococcus ...   187    3e-58
+gb|AGI11114.1|  hypothetical protein P475_0041 [Lactococcus lacti...   186    4e-58
+gb|AGI10994.1|  hypothetical protein P113G_0040 [Lactococcus lact...   185    8e-58
+ref|YP_762550.1|  hypothetical protein LPPV008_gp39 [Lactococcus ...   185    9e-58
+gb|AGI10778.1|  hypothetical protein 936_0037 [Lactococcus phage ...   185    1e-57
+gb|AGE60674.1|  ssb protein [Lactococcus phage CaseusJM1]              184    2e-57
+ref|YP_008318242.1|  hypothetical protein phi7_0040 [Lactococcus ...   184    2e-57
+gb|ACU46854.1|  unknown [Lactococcus phage CB13]                       184    3e-57
+ref|YP_008318081.1|  hypothetical protein P680_0038 [Lactococcus ...   183    7e-57
+ref|YP_002004029.1|  hypothetical protein bIBB29_gp41 [Lactococcu...   183    9e-57
+gb|AGI10728.1|  hypothetical protein 645_0038 [Lactococcus lactis...   183    1e-56
+pdb|2WKD|A  Chain A, Crystal Structure Of A Double Ile-to-met Mut...   182    2e-56
+gb|AAR14304.2|  putative SSB [Lactococcus phage P335]                  152    6e-45
+ref|YP_809066.1|  RecG-like helicase [Lactococcus lactis subsp. c...   145    3e-42
+ref|NP_043533.1|  hypothetical protein c2p07 [Lactococcus phage c...   141    2e-40
+ref|YP_008318134.1|  hypothetical protein 340_0042 [Lactococcus p...   137    4e-39
+ref|NP_042337.1|  unnamed protein product [Lactococcus phage bIL6...   137    5e-39
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_007518739.1|  single-strand binding protein [Streptococcus...  42.4    0.004
+gb|AGF87324.1|  putative single-strand binding protein [Streptoco...  42.4    0.004
+ref|WP_004234432.1|  Single-stranded DNA-binding protein [Strepto...  41.6    0.008
+ref|YP_008601709.1|  Single-stranded DNA-binding protein [Strepto...  41.3    0.014
+ref|YP_950572.1|  single-strand binding protein [Streptococcus ph...  40.9    0.020
+ref|YP_004401098.1|  single-strand binding protein [Streptococcus...  40.5    0.022
+ref|YP_002925153.1|  hypothetical protein PH10_gp20 [Streptococcu...  40.5    0.023
+ref|WP_000609582.1|  single-stranded DNA-binding protein [Strepto...  40.1    0.033
+ref|WP_006286277.1|  single-stranded DNA-binding protein [Paeniba...  39.3    0.083
+ref|WP_000609566.1|  single-stranded DNA-binding protein [Strepto...  39.0    0.097
+ref|WP_000609583.1|  single-stranded DNA-binding protein [Strepto...  39.0    0.11 
+ref|NP_688853.1|  prophage LambdaSa2, single-strand binding prote...  39.0    0.12 
+ref|WP_002830426.1|  single-stranded DNA-binding protein [Pedioco...  38.6    0.14 
+ref|WP_002830744.1|  single-stranded DNA-binding protein [Pedioco...  37.8    0.26 
+ref|WP_006150445.1|  single-stranded DNA-binding protein [Strepto...  37.8    0.27 
+ref|XP_973331.2|  PREDICTED: similar to Activating molecule in BE...  39.0    0.28 
+gb|EFA04376.1|  hypothetical protein TcasGA2_TC014674 [Tribolium ...  39.0    0.30 
+ref|WP_000609574.1|  single-stranded DNA-binding protein [Strepto...  36.6    0.82 
+ref|WP_008842074.1|  single-strand DNA-binding protein [Pediococc...  36.6    0.82 
+ref|YP_004769072.1|  single-stranded DNA-binding protein [Strepto...  36.6    0.89 
+ref|WP_002831827.1|  single-stranded DNA-binding protein [Pedioco...  36.3    1.1  
+ref|WP_003687060.1|  hypothetical protein [Lactobacillus mali] >g...  36.3    1.5  
+ref|WP_000609573.1|  single-stranded DNA-binding protein [Strepto...  35.9    1.5  
+ref|WP_003273433.1|  single-stranded DNA-binding protein [Bacillu...  35.9    2.0  
+ref|WP_002391134.1|  single-stranded DNA-binding protein [Enteroc...  35.5    2.1  
+ref|YP_002940373.1|  hypothetical protein Kole_0653 [Kosmotoga ol...  35.9    2.1  
+ref|WP_000609564.1|  single-stranded DNA-binding protein [Strepto...  35.5    2.4  
+ref|YP_006930283.1|  single-stranded DNA-binding protein [Bacillu...  35.5    3.0  
+gb|ESA14491.1|  hypothetical protein GLOINDRAFT_24900 [Rhizophagu...  35.5    3.4  
+ref|WP_002828738.1|  single-stranded DNA-binding protein [Weissel...  35.1    3.7  
+ref|WP_009853511.1|  single-stranded DNA-binding protein [Strepto...  34.3    6.0  
+gb|AAR14307.1|  ORF152 [Lactococcus phage Q33] >gb|AFV51036.1| si...  34.3    6.1  
+ref|YP_008703602.1|  single-stranded DNA-binding protein [Lactoco...  34.3    6.8  
+ref|WP_007365251.1|  RND transporter [Porphyromonas uenonis] >gb|...  34.7    7.1  
+ref|NP_663648.1|  putative single stranded binding protein [Lacto...  34.3    7.2  
+ref|WP_006738606.1|  single-stranded DNA-binding protein [Strepto...  33.9    7.4  
+ref|YP_001033380.1|  single-strand binding protein ssB [Lactococc...  33.9    8.7  
+
+
+>gb|AFE86893.1| putative early protein [Lactococcus Phage ASCC281]
+ gb|AFE87290.1| putative early protein [Lactococcus Phage ASCC358]
+ gb|AFE87347.1| putative early protein [Lactococcus Phage ASCC365]
+Length=119
+
+ Score =  191 bits (486),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 111/118 (94%), Positives = 115/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPTVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>gb|AFE86950.1| putative early protein [Lactococcus Phage ASCC284]
+ gb|AFE87065.1| putative early protein [Lactococcus Phage ASCC310]
+ gb|AFE87236.1| putative early protein [Lactococcus Phage ASCC356]
+Length=119
+
+ Score =  190 bits (482),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 113/118 (96%), Positives = 116/118 (98%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>gb|AFE88101.1| putative early protein [Lactococcus Phage ASCC532]
+Length=119
+
+ Score =  190 bits (482),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 112/118 (95%), Positives = 115/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFP VEKVFI NDNSSQSQAKQDLFGGSEPIE+N+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPAVEKVFIHNDNSSQSQAKQDLFGGSEPIEINTEDLPF  119
+
+
+>ref|WP_002820032.1| hypothetical protein [Oenococcus oeni]
+ gb|EFD87321.1| hypothetical protein AWRIB429_2149 [Oenococcus oeni AWRIB429]
+Length=119
+
+ Score =  189 bits (481),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 112/118 (95%), Positives = 116/118 (98%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHNDNNSQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|AFE86778.1| putative early protein [Lactococcus Phage ASCC191]
+Length=119
+
+ Score =  189 bits (479),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 108/118 (92%), Positives = 110/118 (93%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFP VEKVFI NDNS QSQAKQDLFGGSEPIEV+   LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPAVEKVFIPNDNSKQSQAKQDLFGGSEPIEVHELGLPF  119
+
+
+>ref|YP_008320124.1| hypothetical protein jm2_0041 [Lactococcus phage jm2]
+ gb|AGI10884.1| hypothetical protein jm2_0041 [Lactococcus phage jm2]
+Length=119
+
+ Score =  189 bits (479),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 113/118 (96%), Positives = 116/118 (98%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQSQAKQDLFGGSEPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIPNDNNSQSQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AFE86836.1| putative early protein [Lactococcus Phage ASCC273]
+ gb|AFE87008.1| putative early protein [Lactococcus Phage ASCC287]
+ gb|AFE87121.1| putative early protein [Lactococcus Phage ASCC324]
+ gb|AFE87179.1| putative early protein [Lactococcus Phage ASCC337]
+ gb|AFE87405.1| putative early protein [Lactococcus Phage ASCC368]
+ gb|AFE87463.1| putative early protein [Lactococcus Phage ASCC395]
+ gb|AFE87521.1| putative early protein [Lactococcus Phage ASCC397]
+ gb|AFE87580.1| putative early protein [Lactococcus Phage ASCC406]
+ gb|AFE87639.1| putative early protein [Lactococcus Phage ASCC454]
+ gb|AFE87697.1| putative early protein [Lactococcus Phage ASCC460]
+ gb|AFE87756.1| putative early protein [Lactococcus Phage ASCC476]
+ gb|AFE87871.1| putative early protein [Lactococcus Phage ASCC502]
+ gb|AFE87929.1| putative early protein [Lactococcus Phage ASCC506]
+ gb|AFE87987.1| putative early protein [Lactococcus Phage ASCC527]
+ gb|AFE88157.1| putative early protein [Lactococcus Phage ASCC544]
+Length=119
+
+ Score =  189 bits (479),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 107/118 (91%), Positives = 110/118 (93%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFP VEKVFI NDNS QSQAKQDLFGGSEPIEV+   LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPAVEKVFIPNDNSKQSQAKQDLFGGSEPIEVHELGLPF  119
+
+
+>gb|ACU46799.1| unknown [Lactococcus phage SL4]
+ gb|ACU46906.1| unknown [Lactococcus phage CB14]
+ gb|ACU46958.1| unknown [Lactococcus phage CB19]
+ gb|ACU47009.1| unknown [Lactococcus phage CB20]
+Length=119
+
+ Score =  189 bits (479),  Expect = 4e-59, Method: Composition-based stats.
+ Identities = 109/118 (92%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFPTVEKVFI +DN  Q+QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPTVEKVFIPDDNGKQAQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>pdb|2WKC|A Chain A, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|B Chain B, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|C Chain C, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+ pdb|2WKC|D Chain D, Crystal Structure From A Single-stranded Dna Binding 
+Protein From The Lactococcal Phage P2
+Length=119
+
+ Score =  188 bits (477),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 119/119 (100%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+            GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV
+Sbjct  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+
+Query  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>gb|AFE86610.1| putative early protein [Lactococcus Phage ASCC465]
+ gb|AFE86666.1| putative early protein [Lactococcus Phage ASCC473]
+ gb|AFE86722.1| putative early protein [Lactococcus Phage ASCC489]
+ gb|AFE87815.1| putative early protein [Lactococcus Phage ASCC497]
+ gb|AFE88045.1| putative early protein [Lactococcus Phage ASCC531]
+Length=119
+
+ Score =  188 bits (476),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 108/118 (92%), Positives = 112/118 (95%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQ NEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV 
+Sbjct  2    AIITVTAQVNEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVM  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFP VEKVFI NDN+SQSQAKQDLFG SEPIE+N+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPAVEKVFIPNDNNSQSQAKQDLFGKSEPIEINTEDLPF  119
+
+
+>ref|NP_047160.1| e13 [Lactococcus phage bIL170]
+ gb|AAC27225.1| e13 [Lactococcus phage bIL170]
+Length=119
+
+ Score =  188 bits (476),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 108/118 (92%), Positives = 114/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+T
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTIT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>ref|YP_764294.1| hypothetical protein LPV712_gp034 [Lactococcus phage 712]
+ gb|ABB77601.1| hypothetical protein [Lactococcus phage 712]
+Length=119
+
+ Score =  188 bits (476),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 111/118 (94%), Positives = 116/118 (98%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVST+KGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTSKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIPNDNNSQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|AAR14301.2| SSB protein [Lactococcus lactis phage p2]
+Length=119
+
+ Score =  187 bits (475),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 117/118 (99%), Positives = 117/118 (99%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>ref|NP_044980.1| hypothetical protein sk1p36 [Lactococcus phage sk1]
+ gb|AAB70074.1| unknown [Lactococcus phage sk1]
+Length=119
+
+ Score =  187 bits (474),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 116/118 (98%), Positives = 117/118 (99%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>gb|AGI10828.1| hypothetical protein fd13_0038 [Lactococcus phage fd13]
+Length=119
+
+ Score =  187 bits (474),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 106/118 (90%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQ NEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFI+LG+ VT
+Sbjct  2    AIITVTAQVNEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIELGNIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFPTVEKVFI NDN+SQ+QAKQDLFG SEPIEVN+EDLPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPTVEKVFIHNDNNSQAQAKQDLFGKSEPIEVNTEDLPF  119
+
+
+>gb|AAP03154.1| E13 [Lactococcus phage bIL66M1]
+Length=119
+
+ Score =  186 bits (473),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 110/118 (93%), Positives = 114/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI + NS+Q QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHDGNSAQVQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>ref|YP_008318186.1| hypothetical protein jm3_0036 [Lactococcus phage jm3]
+ gb|AGI10938.1| hypothetical protein jm3_0036 [Lactococcus phage jm3]
+Length=119
+
+ Score =  186 bits (473),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 112/118 (95%), Positives = 115/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI+NDN  Q+QAKQDLFGGSEPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFISNDNGKQAQAKQDLFGGSEPIEVNTEDLPF  119
+
+
+>ref|YP_764347.1| hypothetical protein LPJV50_ORF33 [Lactococcus phage jj50]
+ gb|ABB77654.1| hypothetical protein [Lactococcus phage jj50]
+Length=131
+
+ Score =  187 bits (474),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  3    IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  62
+            IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV
+Sbjct  15   IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV  74
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  75   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  131
+
+
+>gb|AGI11114.1| hypothetical protein P475_0041 [Lactococcus lactis phage P475]
+Length=119
+
+ Score =  186 bits (472),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 105/118 (89%), Positives = 114/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+T+KGDKKIISVPLFEKEKGSN+KVAYGSAFLPDFIQLGDT+T
+Sbjct  2    AIITVTAQANEKNTRTVNTSKGDKKIISVPLFEKEKGSNIKVAYGSAFLPDFIQLGDTIT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|AGI10994.1| hypothetical protein P113G_0040 [Lactococcus lactis phage P113G]
+ gb|AGI11054.1| hypothetical protein P272_0042 [Lactococcus lactis phage p272]
+Length=119
+
+ Score =  185 bits (470),  Expect = 8e-58, Method: Composition-based stats.
+ Identities = 105/118 (89%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVT QANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDF+QLGDT+T
+Sbjct  2    AIITVTTQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFVQLGDTIT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI + N +Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIHDGNGAQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>ref|YP_762550.1| hypothetical protein LPPV008_gp39 [Lactococcus phage P008]
+ gb|AAY97841.1| unknown [Lactococcus phage P008]
+Length=119
+
+ Score =  185 bits (470),  Expect = 9e-58, Method: Composition-based stats.
+ Identities = 112/118 (95%), Positives = 114/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRT STAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+T
+Sbjct  2    AIITVTAQANEKNTRTASTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTIT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQSQ KQDLFGGSEPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIPNDNSSQSQTKQDLFGGSEPIEVNTEDLPF  119
+
+
+>gb|AGI10778.1| hypothetical protein 936_0037 [Lactococcus phage 936]
+Length=119
+
+ Score =  185 bits (469),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 113/118 (96%), Positives = 115/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEV+  +LPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVDESELPF  119
+
+
+>gb|AGE60674.1| ssb protein [Lactococcus phage CaseusJM1]
+Length=119
+
+ Score =  184 bits (468),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 107/118 (91%), Positives = 112/118 (95%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQ NEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQVNEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFPTVEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPTVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>ref|YP_008318242.1| hypothetical protein phi7_0040 [Lactococcus phage phi7]
+ gb|AGI11219.1| hypothetical protein phi7_0040 [Lactococcus phage phi7]
+Length=119
+
+ Score =  184 bits (468),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 109/118 (92%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQ NEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKV YGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQVNEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVTYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI+NDN  Q+QAKQDLFGG+EPIEVN+EDLPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFISNDNGKQAQAKQDLFGGAEPIEVNTEDLPF  119
+
+
+>gb|ACU46854.1| unknown [Lactococcus phage CB13]
+Length=119
+
+ Score =  184 bits (466),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 108/118 (92%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFIQLGD VT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIQLGDIVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGRVQAKESGEYVNYNFVFPTVEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  62   ISGRVQAKESGEYVNYNFVFPTVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>ref|YP_008318081.1| hypothetical protein P680_0038 [Lactococcus phage P680]
+ gb|AGI11168.1| hypothetical protein P680_0038 [Lactococcus phage P680]
+Length=119
+
+ Score =  183 bits (464),  Expect = 7e-57, Method: Composition-based stats.
+ Identities = 110/118 (93%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT
+Sbjct  2    AIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFP VEKVFI+NDNSSQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPAVEKVFISNDNSSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>ref|YP_002004029.1| hypothetical protein bIBB29_gp41 [Lactococcus phage bIBB29]
+ gb|ABY84561.1| unknown [Lactococcus phage bIBB29]
+Length=119
+
+ Score =  183 bits (463),  Expect = 9e-57, Method: Composition-based stats.
+ Identities = 108/118 (92%), Positives = 114/118 (97%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT+T
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTIT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI+NDN+SQSQAKQDLFG SEPIEV+  +LPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFISNDNNSQSQAKQDLFGKSEPIEVDESELPF  119
+
+
+>gb|AGI10728.1| hypothetical protein 645_0038 [Lactococcus lactis phage 645]
+Length=119
+
+ Score =  183 bits (463),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 106/118 (90%), Positives = 113/118 (96%), Gaps = 0/118 (0%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             IITVTAQANEKNTRTV+TAKGDKKIISVPLFEKEKGS+VKVAYGSAFLPDFI+LG+TVT
+Sbjct  2    AIITVTAQANEKNTRTVNTAKGDKKIISVPLFEKEKGSSVKVAYGSAFLPDFIELGNTVT  61
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            VSGRVQAKESGEYVNYNFVFPTVEKVFI NDNSSQ+QAKQDLFG SEPIEV+  +LPF
+Sbjct  62   VSGRVQAKESGEYVNYNFVFPTVEKVFIPNDNSSQAQAKQDLFGKSEPIEVDESELPF  119
+
+
+>pdb|2WKD|A Chain A, Crystal Structure Of A Double Ile-to-met Mutant Of Protein 
+Orf34 From Lactococcus Phage P2
+Length=119
+
+ Score =  182 bits (461),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 117/119 (98%), Positives = 117/119 (98%), Gaps = 0/119 (0%)
+
+Query  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+            GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAF PDFIQ GDTV
+Sbjct  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFXPDFIQXGDTV  60
+
+Query  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF
+Sbjct  61   TVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+
+
+>gb|AAR14304.2| putative SSB [Lactococcus phage P335]
+Length=116
+
+ Score =  152 bits (384),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 54/118 (46%), Positives = 79/118 (67%), Gaps = 3/118 (3%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+            +IIT   Q N+KNTRTV+T KG+K++IS P+ +   G   K  Y SAF+   ++ GD +T
+Sbjct  2    SIITTVVQVNDKNTRTVNTQKGEKQVISTPIIKDSTG---KWVYASAFINFKVEFGDILT  58
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGR++ KE G+Y+N NFVFPTVE+++     +S S   +D+    E +E+N EDLPF
+Sbjct  59   ISGRIEQKEDGQYLNNNFVFPTVERLYKPKAAASTSYPAKDIPNIGEGMEINDEDLPF  116
+
+
+>ref|YP_809066.1| RecG-like helicase [Lactococcus lactis subsp. cremoris SK11]
+ ref|WP_011676024.1| RecG-like helicase [Lactococcus lactis]
+ gb|ABJ72644.1| RecG-like helicase [Lactococcus lactis subsp. cremoris SK11]
+ gb|EQC95012.1| hypothetical protein LLT3_00440 [Lactococcus lactis subsp. cremoris 
+TIFN3]
+Length=116
+
+ Score =  145 bits (366),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 53/118 (45%), Positives = 78/118 (66%), Gaps = 3/118 (3%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+            +IIT   Q N+KNTRTV+T KG+K++IS P+ +   G   K  Y SAF+   ++ GD +T
+Sbjct  2    SIITTVVQVNDKNTRTVNTQKGEKQVISTPIIKDSTG---KWVYASAFINFKVEPGDILT  58
+
+Query  62   VSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            +SGR++ KE G+Y+N NF FPTVE+++     +S S   +D+    E +E+N EDLPF
+Sbjct  59   ISGRIEQKEDGQYLNNNFAFPTVERLYKPKGTASTSYPAKDIPNIGEDMEINDEDLPF  116
+
+
+>ref|NP_043533.1| hypothetical protein c2p07 [Lactococcus phage c2]
+ gb|AAA92164.1| putative [Lactococcus phage c2]
+Length=114
+
+ Score =  141 bits (354),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 43/118 (36%), Positives = 63/118 (53%), Gaps = 8/118 (7%)
+
+Query  4    ITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV-  62
+            I  T + NE NT+ V TAKG KK++S   +  E         G  +LPD +  GD VTV 
+Sbjct  3    IIETLKVNEINTKQVETAKGTKKVLSFKAYPFEH------YIGGIWLPDSVNYGDIVTVF  56
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQ-DLFGGSEPIEVNSEDLPF  119
+              +++A+  G+   YN  +  V   F  N ++++ Q+   DLFGGS P ++  E LPF
+Sbjct  57   IDQIKAETKGDKTYYNASYAKVTPEFNLNRDNNEPQSNTVDLFGGSSPADIPDEQLPF  114
+
+
+>ref|YP_008318134.1| hypothetical protein 340_0042 [Lactococcus phage 340]
+ gb|AGI10674.1| hypothetical protein 340_0042 [Lactococcus phage 340]
+Length=88
+
+ Score =  137 bits (344),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 77/88 (88%), Positives = 84/88 (95%), Gaps = 0/88 (0%)
+
+Query  32   LFEKEKGSNVKVAYGSAFLPDFIQLGDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFITN  91
+            +FEKEKGS+VKVAYGSAFLPDFI+LG+TVTVSGRVQAKESGEYVNYNFVFPTVEKVFI N
+Sbjct  1    MFEKEKGSSVKVAYGSAFLPDFIELGNTVTVSGRVQAKESGEYVNYNFVFPTVEKVFIPN  60
+
+Query  92   DNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            DNSSQ+QAKQDLFG SEPIEV+  +LPF
+Sbjct  61   DNSSQAQAKQDLFGKSEPIEVDESELPF  88
+
+
+>ref|NP_042337.1| unnamed protein product [Lactococcus phage bIL67]
+ gb|AAA74351.1| unknown [Lactococcus phage bIL67]
+Length=123
+
+ Score =  137 bits (346),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 43/127 (34%), Positives = 61/127 (48%), Gaps = 17/127 (13%)
+
+Query  4    ITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTV-  62
+            I  T + NE NT+ V TAKG KK++S   +  E         G  +LPD +  GD VTV 
+Sbjct  3    IIETLKVNEINTKEVETAKGTKKVLSFKAYPFEH------YIGGIWLPDSVNYGDIVTVF  56
+
+Query  63   SGRVQAKESGEYVNYNFVFPTVEKVFITN--------DNSSQSQAKQ--DLFGGSEPIEV  112
+              +++++  G+   YN  F  V   F  N        D+     A    DLFGG+ P+++
+Sbjct  57   IDQIKSETKGDKTYYNASFAKVTPEFNLNRDNGGSVYDDPHGGMAPNTVDLFGGNTPVDI  116
+
+Query  113  NSEDLPF  119
+              E LPF
+Sbjct  117  PDEQLPF  123
+
+
+>ref|WP_007518739.1| single-strand binding protein [Streptococcus tigurinus]
+ gb|EMG32473.1| single-strand binding protein [Streptococcus tigurinus AZ_3a]
+Length=130
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 54/122 (44%), Gaps = 20/122 (16%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             + T T   N    RT  +  G++        E +  + V     +  L ++ + G  + 
+Sbjct  25   AVATFTLAVN----RTFKSQNGER--------EADFINCVMWRQQAENLANWAKKGSLIG  72
+
+Query  62   VSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDL  117
+            V+GR+Q +    + G+ V    V   V + F   ++ +Q Q+  D FG   P+++  +DL
+Sbjct  73   VTGRIQTRSYDNQQGQRVY---VTEVVAENFQMLESRNQ-QSSNDTFGNDNPMDIQDDDL  128
+
+Query  118  PF  119
+            PF
+Sbjct  129  PF  130
+
+
+>gb|AGF87324.1| putative single-strand binding protein [Streptococcus phage phi20c]
+Length=132
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 37/74 (50%), Gaps = 6/74 (8%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFG  105
+            L ++++ G  + V+GR+Q +    + G+ V    V    E   +      QS ++   FG
+Sbjct  61   LANWVKKGALIGVTGRIQTRSYDNQQGQRVYVTEVVA--ESFQLLESRGQQSNSQDGSFG  118
+
+Query  106  GSEPIEVNSEDLPF  119
+             S P+++  EDLPF
+Sbjct  119  NSSPMDIQDEDLPF  132
+
+
+>ref|WP_004234432.1| Single-stranded DNA-binding protein [Streptococcus parauberis]
+ gb|EMG26275.1| Single-stranded DNA-binding protein [Streptococcus parauberis 
+KRS-02083]
+Length=134
+
+ Score = 41.6 bits (96),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 29/123 (24%), Positives = 51/123 (41%), Gaps = 17/123 (14%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             + T T   N    R    A G+K++  +      K + +   Y S         G  + 
+Sbjct  24   AVTTGTLAVN----RQFKNANGEKEVDFINFVAWRKTAEIIANYASK--------GSQIG  71
+
+Query  62   VSGRVQAKE----SGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL-FGGSEPIEVNSED  116
+            ++GR+Q +      G+ V    V      +  +  N+ Q Q K++  F  S P++V++ D
+Sbjct  72   ITGRIQTRNYEGNDGKRVYVTEVVAESVALLDSKSNNQQPQQKKETPFNNSNPMDVSNLD  131
+
+Query  117  LPF  119
+            LPF
+Sbjct  132  LPF  134
+
+
+>ref|YP_008601709.1| Single-stranded DNA-binding protein [Streptococcus suis YB51]
+ ref|WP_022540565.1| Single-stranded DNA-binding protein [Streptococcus suis]
+ gb|AGW86812.1| Single-stranded DNA-binding protein [Streptococcus suis YB51]
+Length=132
+
+ Score = 41.3 bits (95),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 50/124 (40%), Gaps = 22/124 (18%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKK--IISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT  59
+             + T T   N    R      G+++   I+V ++ ++  +    A   A           
+Sbjct  25   AVATFTLAVN----RNFKNQDGEREADFINVVIWRQQAENLANWAKKGA----------L  70
+
+Query  60   VTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSE  115
+            + V+GR+Q +    + G+ V    V    E   +      QS ++   FG S P+++  E
+Sbjct  71   IGVTGRIQTRSYDNQQGQRVYVTEVVA--ESFQLLESRGQQSNSQDGSFGNSSPMDIQDE  128
+
+Query  116  DLPF  119
+            DLPF
+Sbjct  129  DLPF  132
+
+
+>ref|YP_950572.1| single-strand binding protein [Streptococcus phage SMP]
+ gb|ABK91903.1| single-strand binding protein [Streptococcus phage SMP]
+Length=132
+
+ Score = 40.9 bits (94),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 37/74 (50%), Gaps = 6/74 (8%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFG  105
+            L ++++ G  + ++GR+Q +    + G+ V    V    E   +      QS ++   FG
+Sbjct  61   LANWVKKGALIGITGRIQTRSYDNQQGQRVYVTEVVA--ESFQLLESRGQQSNSQDGSFG  118
+
+Query  106  GSEPIEVNSEDLPF  119
+             S P+++  EDLPF
+Sbjct  119  NSSPMDIQEEDLPF  132
+
+
+>ref|YP_004401098.1| single-strand binding protein [Streptococcus suis ST3]
+ ref|WP_013730176.1| single-stranded DNA-binding protein [Streptococcus suis]
+ gb|AEB80912.1| single-strand binding protein [Streptococcus suis ST3]
+Length=132
+
+ Score = 40.5 bits (93),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 20/67 (30%), Positives = 31/67 (46%), Gaps = 6/67 (9%)
+
+Query  57   GDTVTVSGRVQAKE----SGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEV  112
+            G  + V+GR+Q +      G+ V    V    E   +      QS ++   FG S P+++
+Sbjct  68   GALIGVTGRIQTRTYDNQQGQRVYVTEVVA--ESFQLLESRGQQSNSQDGSFGNSSPMDI  125
+
+Query  113  NSEDLPF  119
+              EDLPF
+Sbjct  126  QDEDLPF  132
+
+
+>ref|YP_002925153.1| hypothetical protein PH10_gp20 [Streptococcus phage PH10]
+ emb|CAY56513.1| hypothetical protein [Streptococcus phage PH10]
+Length=138
+
+ Score = 40.5 bits (93),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 35/73 (48%), Gaps = 12/73 (16%)
+
+Query  57   GDTVTVSGRVQAK----ESGEYVNYNFV----FPTVEKVFITNDNSSQSQAKQ--DLFGG  106
+            G  V ++GR+Q +    + G+ V    V    F T+EK    N  +  S   Q    FG 
+Sbjct  68   GALVGITGRIQTRSYDNQQGQRVYVTEVVAESFQTLEK--KDNSANHSSMENQMPPSFGA  125
+
+Query  107  SEPIEVNSEDLPF  119
+            S+P+++  + LPF
+Sbjct  126  SDPMDIPDDGLPF  138
+
+
+>ref|WP_000609582.1| single-stranded DNA-binding protein [Streptococcus oralis]
+ gb|EFU63412.1| single-strand binding family protein [Streptococcus oralis ATCC 
+49296]
+Length=138
+
+ Score = 40.1 bits (92),  Expect = 0.033, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 35/71 (49%), Gaps = 8/71 (11%)
+
+Query  57   GDTVTVSGRVQAK----ESGEYVNYNFV----FPTVEKVFITNDNSSQSQAKQDLFGGSE  108
+            G  V ++GR+Q +    + G+ V    V    F  +EK   T D+SS        FG S+
+Sbjct  68   GTLVGITGRIQTRSYDNQQGQRVYVTEVVAESFQLLEKRDKTADHSSMENQMPPSFGASD  127
+
+Query  109  PIEVNSEDLPF  119
+            P+++  + LPF
+Sbjct  128  PMDIPDDGLPF  138
+
+
+>ref|WP_006286277.1| single-stranded DNA-binding protein [Paenibacillus popilliae]
+ dbj|GAC42788.1| single-stranded DNA-binding protein [Paenibacillus popilliae 
+ATCC 14706]
+Length=140
+
+ Score = 39.3 bits (90),  Expect = 0.083, Method: Composition-based stats.
+ Identities = 25/114 (22%), Positives = 47/114 (41%), Gaps = 18/114 (16%)
+
+Query  16   RTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTVSGRVQAK----ES  71
+            R  S   GD++   +P+        V     +    ++++ G    V GR+Q +      
+Sbjct  35   RPFSNQNGDREADFIPV--------VVWRSAAEASANYLRKGRLTAVEGRIQTRHFDNTE  86
+
+Query  72   GEYVNYNFVFPTVEKVFITNDNSSQSQA------KQDLFGGSEPIEVNSEDLPF  119
+            G  V    V     +    N N+++ +        +D F   +PI+++S+DLPF
+Sbjct  87   GRRVYVTEVVADNVRFLEFNRNNNEERPQQPEAQPKDPFDDGKPIDISSDDLPF  140
+
+
+>ref|WP_000609566.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ gb|EPU53418.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00003]
+ gb|EPV29930.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00653]
+ gb|EPW15266.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 29376]
+ gb|EPX23832.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+str. Gottschalk 998A]
+Length=138
+
+ Score = 39.0 bits (89),  Expect = 0.097, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 8/78 (10%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL--  103
+            L ++ + G  + ++GR+Q +    + G+ +    V     ++    DNS+   +  D   
+Sbjct  61   LANWTKKGMLIGITGRIQTRSYENQQGQRIYVTEVVADSFQILEKRDNSTNQASMHDQLP  120
+
+Query  104  --FGGSEPIEVNSEDLPF  119
+              FG S+P++++ +DLPF
+Sbjct  121  PSFGNSQPMDISDDDLPF  138
+
+
+>ref|WP_000609583.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ gb|EPT97856.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+BSU92]
+Length=137
+
+ Score = 39.0 bits (89),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 37/70 (53%), Gaps = 7/70 (10%)
+
+Query  57   GDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDL---FGGSEP  109
+            G  V ++GR+Q +    + G+ V    V     ++    DNS+QS  +  +   F  S+P
+Sbjct  68   GMLVGITGRIQTRNYENQQGQRVYVTEVVAENFQILEKRDNSNQSSMEDQMPSNFADSQP  127
+
+Query  110  IEVNSEDLPF  119
+            ++++ +DLPF
+Sbjct  128  MDISDDDLPF  137
+
+
+>ref|NP_688853.1| prophage LambdaSa2, single-strand binding protein [Streptococcus 
+agalactiae 2603V/R]
+ ref|WP_000609565.1| single-stranded DNA-binding protein [Streptococcus agalactiae]
+ sp|Q8DXI7.1|SSB4_STRA5 RecName: Full=Single-stranded DNA-binding protein 4; Short=SSB 
+4; AltName: Full=Helix-destabilizing protein 4
+ gb|AAN00726.1|AE014276_7 prophage LambdaSa2, single-strand binding protein [Streptococcus 
+agalactiae 2603V/R]
+ gb|EPT95107.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+BSU96]
+ gb|EPU83806.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00206]
+ gb|EPV25991.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00654]
+ gb|EPV73401.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+GB00947]
+ gb|EPW17469.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 17336]
+ gb|EPW49703.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+CCUG 49086]
+ gb|EPX32115.1| single-stranded DNA-binding protein [Streptococcus agalactiae 
+LMG 15093]
+Length=138
+
+ Score = 39.0 bits (89),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 19/79 (24%), Positives = 41/79 (52%), Gaps = 10/79 (13%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQD---  102
+            L ++ + G  + ++GR+Q +    + G+ +    V     ++     ++S +QA  D   
+Sbjct  61   LANWTKKGMLIGITGRIQTRSYENQQGQRIYVTEVVADSFQILE-KRDNSTNQASMDDQL  119
+
+Query  103  --LFGGSEPIEVNSEDLPF  119
+               FG S+P++++ +DLPF
+Sbjct  120  PPSFGNSQPMDISDDDLPF  138
+
+
+>ref|WP_002830426.1| single-stranded DNA-binding protein [Pediococcus acidilactici]
+ gb|EFA26066.1| single-strand binding family protein [Pediococcus acidilactici 
+7_4]
+Length=141
+
+ Score = 38.6 bits (88),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 34/78 (44%), Gaps = 11/78 (14%)
+
+Query  53   FIQLGDTVTVSGRVQAK----ESGEYVNY------NFVFPTVEKVFITNDNSSQSQAKQD  102
+            + Q G  V + GR+Q +    + G+ V        NF     +      +N+ QS    D
+Sbjct  64   YTQKGSLVGIDGRIQTRSYENQQGQRVYVTEVVADNFSLLDSKPKGNQQNNARQSTTPGD  123
+
+Query  103  LF-GGSEPIEVNSEDLPF  119
+             F  G + I++  +DLPF
+Sbjct  124  PFANGGQSIDIGDDDLPF  141
+
+
+>ref|WP_002830744.1| single-stranded DNA-binding protein [Pediococcus acidilactici]
+ gb|EFA25811.1| single-strand binding family protein [Pediococcus acidilactici 
+7_4]
+Length=141
+
+ Score = 37.8 bits (86),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 35/78 (45%), Gaps = 11/78 (14%)
+
+Query  53   FIQLGDTVTVSGRVQAK----ESGEYVNY------NFVFPTVEKVFITNDNSSQSQAKQD  102
+            + Q G  V + GR+Q +    + G+ V        NF     +      +N+ Q+    D
+Sbjct  64   YTQKGSLVGIEGRIQTRSYENQQGQRVYVTEIVADNFSLLDSKPKGNQQNNARQTSTPGD  123
+
+Query  103  LF-GGSEPIEVNSEDLPF  119
+             F  G + I+++ E+LPF
+Sbjct  124  PFANGGQSIDISDENLPF  141
+
+
+>ref|WP_006150445.1| single-stranded DNA-binding protein [Streptococcus infantis]
+ gb|EGL86878.1| single-stranded DNA-binding protein [Streptococcus infantis SK1076]
+Length=138
+
+ Score = 37.8 bits (86),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 20/78 (26%), Positives = 43/78 (55%), Gaps = 8/78 (10%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNS-SQSQAKQDL-  103
+            L ++ + G+ V ++GR+Q +    + G+ V    V     ++    DNS +QS  ++ + 
+Sbjct  61   LAEWCKKGNLVGITGRIQTRSYDNQQGQRVYVTEVVADTFQLLEKRDNSANQSNIEEQMP  120
+
+Query  104  --FGGSEPIEVNSEDLPF  119
+              FG + P++++ +D+PF
+Sbjct  121  ASFGATNPLDISDDDMPF  138
+
+
+>ref|XP_973331.2| PREDICTED: similar to Activating molecule in BECN1-regulated 
+autophagy protein 1 [Tribolium castaneum]
+Length=1784
+
+ Score = 39.0 bits (89),  Expect = 0.28, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 47/116 (41%), Gaps = 1/116 (1%)
+
+Query  5    TVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYG-SAFLPDFIQLGDTVTVS  63
+            T T+ ++E +  +  ++ G     S P++ +        A+  SAF+P  +         
+Sbjct  731  TPTSNSDEPSRSSPGSSNGIHSRTSSPIYNRTYPRRRLPAHRISAFMPTRVNYNRIPMRY  790
+
+Query  64   GRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+             R  +      ++ N  FP  E +  +   +++    QD    S P+E  +E  PF
+Sbjct  791  RRGSSFRLANRLSVNSTFPIDELINYSERPNAEDNVPQDNLPESSPLEPPTEPSPF  846
+
+
+>gb|EFA04376.1| hypothetical protein TcasGA2_TC014674 [Tribolium castaneum]
+Length=1961
+
+ Score = 39.0 bits (89),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 47/116 (41%), Gaps = 1/116 (1%)
+
+Query  5    TVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYG-SAFLPDFIQLGDTVTVS  63
+            T T+ ++E +  +  ++ G     S P++ +        A+  SAF+P  +         
+Sbjct  656  TPTSNSDEPSRSSPGSSNGIHSRTSSPIYNRTYPRRRLPAHRISAFMPTRVNYNRIPMRY  715
+
+Query  64   GRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+             R  +      ++ N  FP  E +  +   +++    QD    S P+E  +E  PF
+Sbjct  716  RRGSSFRLANRLSVNSTFPIDELINYSERPNAEDNVPQDNLPESSPLEPPTEPSPF  771
+
+
+>ref|WP_000609574.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae]
+ gb|EID28001.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae 
+ATCC BAA-960]
+Length=140
+
+ Score = 36.6 bits (83),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 50/130 (38%), Gaps = 26/130 (20%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKK--IISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT  59
+             + T T   N    RT  +  G+++   I+  ++ K+  +    A   A           
+Sbjct  25   AVATFTLAVN----RTFKSENGEREADFINCVMWRKQAENLANWAKKGA----------L  70
+
+Query  60   VTVSGRVQAKE----SGEYVNYNFVFPTVEKVFITNDNSSQS------QAKQDLFGGSEP  109
+            + ++GR+Q +      G+ V    V     ++     + SQ       Q   +    S P
+Sbjct  71   IGITGRIQTRTYDNQQGQRVYVTEVVAENFQLMEFKKDGSQPVVDNHDQQAPNFARNSNP  130
+
+Query  110  IEVNSEDLPF  119
+            ++++ +DLPF
+Sbjct  131  MDISDDDLPF  140
+
+
+>ref|WP_008842074.1| single-strand DNA-binding protein [Pediococcus lolii]
+ dbj|GAC46172.1| single-strand DNA-binding protein [Pediococcus lolii NGRI 0510Q]
+Length=141
+
+ Score = 36.6 bits (83),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 33/78 (42%), Gaps = 11/78 (14%)
+
+Query  53   FIQLGDTVTVSGRVQAK----ESGEYVNY------NFVFPTVEKVFITNDNSSQSQAKQD  102
+            + Q G  V + GR+Q +    + G+ V        NF     +      +N+ Q+    D
+Sbjct  64   YTQKGSLVGIEGRIQTRSYENQQGQRVYVTEVVADNFSLLDSKPKGNQQNNARQASTPGD  123
+
+Query  103  LF-GGSEPIEVNSEDLPF  119
+             F  G + I++  + LPF
+Sbjct  124  PFANGGQSIDIGDDSLPF  141
+
+
+>ref|YP_004769072.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae 
+IS7493]
+ ref|WP_000609572.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae]
+ gb|AEL11212.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae 
+IS7493]
+ gb|ETE03844.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae 
+G42]
+ gb|ETE04362.1| single-stranded DNA-binding protein [Streptococcus pseudopneumoniae 
+22725]
+Length=140
+
+ Score = 36.6 bits (83),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 50/130 (38%), Gaps = 26/130 (20%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKK--IISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT  59
+             + T T   N    RT  +  G+++   I+  ++ K+  +    A   A           
+Sbjct  25   AVATFTLAVN----RTFKSENGEREADFINCVMWRKQAENLANWAKKGA----------L  70
+
+Query  60   VTVSGRVQAKE----SGEYVNYNFVFPTVEKVFITNDNSSQS------QAKQDLFGGSEP  109
+            + ++GR+Q +      G+ V    V     ++     + SQ       Q   +    S P
+Sbjct  71   IGITGRIQTRTYDNQQGQRVYVTEVVAENFQLMEFKKDGSQPVVDNHDQQAPNFARNSNP  130
+
+Query  110  IEVNSEDLPF  119
+            ++++ +DLPF
+Sbjct  131  MDISDDDLPF  140
+
+
+>ref|WP_002831827.1| single-stranded DNA-binding protein [Pediococcus acidilactici]
+ gb|EHJ21391.1| single-strand DNA binding protein [Pediococcus acidilactici MA18/5M]
+Length=141
+
+ Score = 36.3 bits (82),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 31/74 (42%), Gaps = 11/74 (15%)
+
+Query  57   GDTVTVSGRVQAK----ESGEYVNY------NFVFPTVEKVFITNDNSSQSQAKQDLF-G  105
+            G  V + GR+Q +    + G+ V        NF     +      +N+ QS    D F  
+Sbjct  68   GSLVGIEGRIQTRSYENQQGQRVYVTEVVADNFSLLDSKPKGNQQNNARQSTTPGDPFAN  127
+
+Query  106  GSEPIEVNSEDLPF  119
+            G + I++  + LPF
+Sbjct  128  GGQSIDIGDDSLPF  141
+
+
+>ref|WP_003687060.1| hypothetical protein [Lactobacillus mali]
+ gb|EJF02142.1| hypothetical protein LMA_00120 [Lactobacillus mali KCTC 3596 
+= DSM 20444]
+Length=174
+
+ Score = 36.3 bits (82),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 31/68 (46%), Gaps = 9/68 (13%)
+
+Query  59   TVTVSGRVQAKESGEYVNYNF------VFPTVEKVFITNDNSSQSQAKQDLFG-GSEPIE  111
+             VTV          EY N N        FP V+  F  +D  SQ Q+  D F    +P+E
+Sbjct  109  LVTVRNEKSTYNDKEYENLNIKRWALSSFPNVQHQFKADD--SQQQSVGDPFAQNGQPVE  166
+
+Query  112  VNSEDLPF  119
+            ++ +DLPF
+Sbjct  167  ISDDDLPF  174
+
+
+>ref|WP_000609573.1| single-stranded DNA-binding protein [Streptococcus pneumoniae]
+ gb|EDK64679.1| single strand binding protein (SSB) [Streptococcus pneumoniae 
+SP14-BS69]
+Length=140
+
+ Score = 35.9 bits (81),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 25/130 (19%), Positives = 50/130 (38%), Gaps = 26/130 (20%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKK--IISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDT  59
+             + T T   N    RT  +  G+++   I+  ++ K+  +    A   A           
+Sbjct  25   AVATFTLVVN----RTFKSENGEREADFINCVMWRKQAENLANWAKKGA----------L  70
+
+Query  60   VTVSGRVQAKE----SGEYVNYNFVFPTVEKVFITNDNSSQS------QAKQDLFGGSEP  109
+            + ++GR+Q +      G+ V    V     ++     + SQ       Q   +    S P
+Sbjct  71   IGITGRIQTRTYDNQQGQRVYVTEVVAENFQLMEFKKDGSQPVVDNHDQQAPNFARNSNP  130
+
+Query  110  IEVNSEDLPF  119
+            ++++ +DLPF
+Sbjct  131  MDISDDDLPF  140
+
+
+>ref|WP_003273433.1| single-stranded DNA-binding protein [Bacillus thuringiensis]
+ gb|EEM25616.1| Single-stranded DNA-binding protein [Bacillus thuringiensis Bt407]
+Length=157
+
+ Score = 35.9 bits (81),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 32/69 (46%), Gaps = 7/69 (10%)
+
+Query  54   IQLGDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLF---GGSEPI  110
+            +Q GDTV  +G ++++E     N N  F      F      + +Q+  +        +PI
+Sbjct  93   VQKGDTVIFTGDLKSRE----YNGNKYFDLTAWDFTIKRKGNGNQSSNEEPSDNNIGQPI  148
+
+Query  111  EVNSEDLPF  119
+            ++  +DLPF
+Sbjct  149  DIADDDLPF  157
+
+
+>ref|WP_002391134.1| single-stranded DNA-binding protein [Enterococcus faecium]
+ gb|EFF22201.1| Single-stranded DNA-binding protein [Enterococcus faecium E1636]
+Length=139
+
+ Score = 35.5 bits (80),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 29/122 (24%), Positives = 54/122 (44%), Gaps = 23/122 (19%)
+
+Query  19   STAKGDKKIISVPL-----FEKEKGSN-------VKVAYGSAFLPDFIQLGDTVTVSGRV  66
+            +T +G   + S  L     F+ + G+        V     +  L D ++ G  + V GR+
+Sbjct  19   NTQQGT-AVASFTLAVNRNFKDQNGNREADFINCVAWRKTAELLGDHVKKGQQIGVVGRI  77
+
+Query  67   QAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQ-----DLFGGSEPIEVNSEDL  117
+            Q +    + G+ +    V  +  +   +  N++Q+  +      D FGGS  IE++ +DL
+Sbjct  78   QTRSYDNQQGQKIFVTEVVVSEIQFLESKGNNNQNSKQNHTGSSDPFGGSS-IEISDDDL  136
+
+Query  118  PF  119
+            PF
+Sbjct  137  PF  138
+
+
+>ref|YP_002940373.1| hypothetical protein Kole_0653 [Kosmotoga olearia TBF 19.5.1]
+ ref|WP_012745151.1| hypothetical protein [Kosmotoga olearia]
+ gb|ACR79369.1| hypothetical protein Kole_0653 [Kosmotoga olearia TBF 19.5.1]
+Length=207
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 22/65 (34%), Positives = 34/65 (52%), Gaps = 2/65 (3%)
+
+Query  32   LFEKEKGSNVKVAYGSAFLPDFIQL--GDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFI  89
+            + E E G   +V  G  +L D I+L  G TV++ GR+   +SG YV  N +     KV I
+Sbjct  85   IVETEDGGTYEVHTGPIWLYDGIELKVGATVSIEGRLVTTDSGSYVVVNVIDVDGNKVVI  144
+
+Query  90   TNDNS  94
+             +++ 
+Sbjct  145  RDEDG  149
+
+
+>ref|WP_000609564.1| single-stranded DNA-binding protein [Streptococcus mitis]
+ gb|EGR93443.1| single-stranded DNA-binding protein [Streptococcus mitis bv. 
+2 str. F0392]
+Length=138
+
+ Score = 35.5 bits (80),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 39/76 (51%), Gaps = 8/76 (11%)
+
+Query  52   DFIQLGDTVTVSGRVQAK----ESGEYVNYNFV----FPTVEKVFITNDNSSQSQAKQDL  103
+            ++++ G  V ++GR+Q +    +  + V    V    F T+EK   + + +S        
+Sbjct  63   NWVKKGALVGITGRIQTRSYENQHSQRVYVTEVVAESFQTLEKKDNSANQASMENQMPSG  122
+
+Query  104  FGGSEPIEVNSEDLPF  119
+            FG + P++++ +DLPF
+Sbjct  123  FGATNPMDISDDDLPF  138
+
+
+>ref|YP_006930283.1| single-stranded DNA-binding protein [Bacillus thuringiensis Bt407]
+ ref|WP_000840826.1| single-stranded DNA-binding protein [Bacillus thuringiensis]
+ gb|AFV21346.1| single-stranded DNA-binding protein [Bacillus thuringiensis Bt407]
+ gb|ERI01478.1| Helix-destabilizing protein [Bacillus thuringiensis T01-328]
+Length=153
+
+ Score = 35.5 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 18/69 (26%), Positives = 32/69 (46%), Gaps = 7/69 (10%)
+
+Query  54   IQLGDTVTVSGRVQAKESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLF---GGSEPI  110
+            +Q GDTV  +G ++++E     N N  F      F      + +Q+  +        +PI
+Sbjct  89   VQKGDTVIFTGDLKSRE----YNGNKYFDLTAWDFTIKRKGNGNQSSNEEPSDNNIGQPI  144
+
+Query  111  EVNSEDLPF  119
+            ++  +DLPF
+Sbjct  145  DIADDDLPF  153
+
+
+>gb|ESA14491.1| hypothetical protein GLOINDRAFT_24900 [Rhizophagus irregularis 
+DAOM 181602]
+Length=370
+
+ Score = 35.5 bits (80),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 16/78 (21%), Positives = 35/78 (45%), Gaps = 0/78 (0%)
+
+Query  1    GTIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTV  60
+            G +  V A+  E+N +   T +  ++I+  P+ + ++   ++      F    IQ+ D  
+Sbjct  128  GKLTGVAARIKERNNKRTDTLRKYQEILEHPILKIKQIYEIRWLSCKIFQRKKIQISDID  187
+
+Query  61   TVSGRVQAKESGEYVNYN  78
+             V      K   E+++Y+
+Sbjct  188  PVIEFTLKKIQQEFLDYS  205
+
+
+>ref|WP_002828738.1| single-stranded DNA-binding protein [Weissella paramesenteroides]
+ gb|EER74655.1| single-strand binding family protein [Weissella paramesenteroides 
+ATCC 33313]
+Length=183
+
+ Score = 35.1 bits (79),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/29 (45%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  91   NDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            N  S+ SQ+  D FGG + I+++ +DLPF
+Sbjct  155  NGGSANSQSSNDPFGGGQEIDISDDDLPF  183
+
+
+>ref|WP_009853511.1| single-stranded DNA-binding protein [Streptococcus gallolyticus]
+ gb|EFM30268.1| single-strand binding family protein [Streptococcus gallolyticus 
+subsp. gallolyticus TX20005]
+Length=147
+
+ Score = 34.3 bits (77),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 23/136 (17%), Positives = 51/136 (38%), Gaps = 30/136 (22%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+            +++T T   N    RT  +  G+++   + +    + + +   Y           G  + 
+Sbjct  24   SVLTGTLAVN----RTFKSQNGEREADFINIVAWRQTAEIIAQYCGK--------GSQIG  71
+
+Query  62   VSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQ--------------DL  103
+            ++GR+Q +    + G+ V    V      +     +  Q Q+                + 
+Sbjct  72   ITGRIQTRNYENQQGQRVYVTEVVAEHVDLLDGKSDGQQGQSNGYNQQPQQNSYMQQGNP  131
+
+Query  104  FGGSEPIEVNSEDLPF  119
+            FG S P++++ + LPF
+Sbjct  132  FGNSNPMDISDDMLPF  147
+
+
+>gb|AAR14307.1| ORF152 [Lactococcus phage Q33]
+ gb|AFV51036.1| single-stranded binding protein [Lactococcus phage Q33]
+Length=152
+
+ Score = 34.3 bits (77),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 21/92 (23%), Positives = 38/92 (41%), Gaps = 22/92 (24%)
+
+Query  50   LPDFIQLGDTVTVSGRVQAK----ESGEYVNYNFVFPTVEKVFITNDN----SSQSQ---  98
+            L  F + G  + ++GR+Q +    + G+ V    V     ++  +N      +S+ Q   
+Sbjct  61   LAKFAKKGALIGITGRIQTRNYENQQGQKVYVTEVVAENFQMLESNKAQGQQASKPQAQI  120
+
+Query  99   -----------AKQDLFGGSEPIEVNSEDLPF  119
+                          D F G +P+E+N + LPF
+Sbjct  121  KKPQAPDPFKTPAADPFSGGKPMEINDDQLPF  152
+
+
+>ref|YP_008703602.1| single-stranded DNA-binding protein [Lactococcus lactis subsp. 
+lactis KLDS 4.0325]
+ gb|AGY44772.1| single-stranded DNA-binding protein [Lactococcus lactis subsp. 
+lactis KLDS 4.0325]
+Length=141
+
+ Score = 34.3 bits (77),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 51/130 (39%), Gaps = 25/130 (19%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             + T T   N    R    A G++        E +  S V     +  L ++   G  + 
+Sbjct  25   AVATFTLAVN----RAFKNANGER--------EADFISCVIWGKSAENLANWTHKGQLIG  72
+
+Query  62   VSGRVQAK----ESGEYVNYNFV----FPTVEKVFITND----NSSQSQAKQDLFGGSEP  109
+            V G +Q +    + G+ V    V    F  +EK    N     N +      D FG S+P
+Sbjct  73   VIGNIQTRNYENQQGQRVYITEVVASNFQVLEKSNQANGERVGNPASKPQNNDSFG-SDP  131
+
+Query  110  IEVNSEDLPF  119
+            +E++ +DLPF
+Sbjct  132  MEISDDDLPF  141
+
+
+>ref|WP_007365251.1| RND transporter [Porphyromonas uenonis]
+ gb|EEK16913.1| efflux transporter, RND family, MFP subunit [Porphyromonas uenonis 
+60-3]
+Length=359
+
+ Score = 34.7 bits (78),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 17/84 (20%), Positives = 31/84 (37%), Gaps = 2/84 (2%)
+
+Query  7    TAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTVSGRV  66
+            T + NEK+   +  AKG + +I+   +  E  +       +   P        V +    
+Sbjct  206  TIEVNEKDLSYI--AKGQQALITFDAYPDEPATGKVSYISAVLSPTTRTASVEVNIPNSN  263
+
+Query  67   QAKESGEYVNYNFVFPTVEKVFIT  90
+               + G Y N +   P  E +F+ 
+Sbjct  264  NRLKPGMYCNVSIALPEREGLFVP  287
+
+
+>ref|NP_663648.1| putative single stranded binding protein [Lactococcus phage ul36]
+ gb|AAF74079.1| putative single stranded binding protein [Lactococcus phage ul36]
+ gb|AAM75761.1| putative single stranded binding protein [Lactococcus phage ul36]
+ gb|ABD63761.1| putative single-stranded binding protein [Lactococcus phage ul36.t1]
+Length=141
+
+ Score = 34.3 bits (77),  Expect = 7.2, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 51/130 (39%), Gaps = 25/130 (19%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             + T T   N    R    A G++        E +  S V     +  L ++   G  + 
+Sbjct  25   AVATFTLAVN----RAFKNANGER--------EADFISCVIWGKSAENLANWTHKGQLIG  72
+
+Query  62   VSGRVQAK----ESGEYVNYNFV----FPTVEKVFITND----NSSQSQAKQDLFGGSEP  109
+            V G +Q +    + G+ V    V    F  +EK    N     N +      D FG S+P
+Sbjct  73   VIGNIQTRNYENQQGQRVYITEVVASNFQVLEKSNQANGERISNPASKPQNNDSFG-SDP  131
+
+Query  110  IEVNSEDLPF  119
+            +E++ +DLPF
+Sbjct  132  MEISDDDLPF  141
+
+
+>ref|WP_006738606.1| single-stranded DNA-binding protein [Streptococcus urinalis]
+ gb|EHJ55822.1| single-stranded DNA-binding protein [Streptococcus urinalis 2285-97]
+Length=129
+
+ Score = 33.9 bits (76),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 25/119 (21%), Positives = 48/119 (40%), Gaps = 21/119 (18%)
+
+Query  5    TVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVTVSG  64
+            T T   N    RT  +  G++        E +  + V     +  L ++ + G  + ++G
+Sbjct  28   TFTLAVN----RTFKSQNGER--------EADFINCVIWRQPAENLANWAKKGALIGITG  75
+
+Query  65   RVQAK----ESGEYVNYNFVFPTVEKVFITNDNSSQSQAKQDLFGGSEPIEVNSEDLPF  119
+            R+Q +    + G+ V    V              S++Q   D F  S P +++ +D+PF
+Sbjct  76   RIQTRNYENQQGQRVYVTEVVAD-----NFKMLESRNQNNNDPFDNSNPADISDDDMPF  129
+
+
+>ref|YP_001033380.1| single-strand binding protein ssB [Lactococcus lactis subsp. 
+cremoris MG1363]
+ ref|YP_006357517.1| single-strand binding protein [Lactococcus lactis subsp. cremoris 
+NZ9000]
+ ref|WP_011835834.1| single-stranded DNA-binding protein [Lactococcus lactis]
+ emb|CAL98693.1| Single-strand binding protein ssB [Lactococcus lactis subsp. 
+cremoris MG1363]
+ gb|ADJ61095.1| single-strand binding protein [Lactococcus lactis subsp. cremoris 
+NZ9000]
+Length=141
+
+ Score = 33.9 bits (76),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 32/130 (25%), Positives = 51/130 (39%), Gaps = 25/130 (19%)
+
+Query  2    TIITVTAQANEKNTRTVSTAKGDKKIISVPLFEKEKGSNVKVAYGSAFLPDFIQLGDTVT  61
+             + T T   N    R    A G++        E +  S V     +  L ++   G  + 
+Sbjct  25   AVATFTLAVN----RAFKNANGER--------EADFISCVIWGKSAENLANWTHKGQLIG  72
+
+Query  62   VSGRVQAK----ESGEYVNYNFV----FPTVEKVFITND----NSSQSQAKQDLFGGSEP  109
+            V G +Q +    + G+ V    V    F  +EK    N     N +      D FG S+P
+Sbjct  73   VIGNIQTRNYENQQGQRVYITEVVASNFQVLEKSNQANGERVSNPAAKPQNNDSFG-SDP  131
+
+Query  110  IEVNSEDLPF  119
+            +E++ +DLPF
+Sbjct  132  MEISDDDLPF  141
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.128    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308097282273
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,697 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3M8EB
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3M8E|A  Chain A, Protein Structure Of Type Iii Plasmid Segreg...   262    8e-88
+pdb|3M8F|A  Chain A, Protein Structure Of Type Iii Plasmid Segreg...   260    5e-87
+ref|YP_001573871.1|  putative DNA-binding protein [Bacillus thuri...   219    3e-71
+ref|YP_006607700.1|  DNA-binding protein [Bacillus thuringiensis ...   219    5e-71
+ref|WP_001030622.1|  hypothetical protein [Bacillus thuringiensis...   218    1e-70
+ref|YP_005569584.1|  putative DNA-binding protein [Bacillus thuri...   216    6e-70
+ref|WP_001078055.1|  hypothetical protein [Bacillus cereus] >gb|E...   213    1e-68
+pdb|4ASO|A  Chain A, Tubr Bound To 24 Bp Of Tubc From Bacillus Th...   205    1e-65
+pdb|3LVG|A  Chain A, Crystal Structure Of A Clathrin Heavy Chain ...  37.4    0.89 
+pdb|3NAZ|A  Chain A, Basal State Form Of Yeast Glycogen Synthase ...  35.0    6.3  
+pdb|3NB0|A  Chain A, Glucose-6-Phosphate Activated Form Of Yeast ...  35.0    6.4  
+
+
+>pdb|3M8E|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr
+ pdb|3M8E|B Chain B, Protein Structure Of Type Iii Plasmid Segregation Tubr
+ pdb|3M9A|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr
+Length=124
+
+ Score =  262 bits (669),  Expect = 8e-88, Method: Compositional matrix adjust.
+ Identities = 124/124 (100%), Positives = 124/124 (100%), Gaps = 0/124 (0%)
+
+Query  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+            MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM
+Sbjct  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+
+Query  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+            LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME
+Sbjct  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+
+Query  121  MRNL  124
+            MRNL
+Sbjct  121  MRNL  124
+
+
+>pdb|3M8F|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr 
+Mutant
+ pdb|3M8F|B Chain B, Protein Structure Of Type Iii Plasmid Segregation Tubr 
+Mutant
+Length=124
+
+ Score =  260 bits (664),  Expect = 5e-87, Method: Compositional matrix adjust.
+ Identities = 123/124 (99%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+            MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM
+Sbjct  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+
+Query  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+            LNKTAVAEMIQLSKPTVFATVN FYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME
+Sbjct  61   LNKTAVAEMIQLSKPTVFATVNWFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+
+Query  121  MRNL  124
+            MRNL
+Sbjct  121  MRNL  124
+
+
+>ref|YP_001573871.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+israelensis]
+ ref|YP_006614009.1| putative DNA-binding protein [Bacillus thuringiensis HD-789]
+ ref|WP_001078053.1| hypothetical protein [Bacillus thuringiensis]
+ emb|CAD30187.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+israelensis]
+ gb|EEM99273.1| hypothetical protein bthur0014_60940 [Bacillus thuringiensis 
+IBL 4222]
+ gb|AFQ30522.1| putative DNA-binding protein [Bacillus thuringiensis HD-789]
+Length=104
+
+ Score =  219 bits (558),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  104
+
+
+>ref|YP_006607700.1| DNA-binding protein [Bacillus thuringiensis HD-771]
+ ref|WP_001078052.1| hypothetical protein [Bacillus thuringiensis]
+ gb|AFQ19839.1| putative DNA-binding protein [Bacillus thuringiensis HD-771]
+Length=104
+
+ Score =  219 bits (557),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 103/104 (99%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAMEMRNL  104
+
+
+>ref|WP_001030622.1| hypothetical protein [Bacillus thuringiensis]
+ gb|EEM92092.1| hypothetical protein bthur0013_65920 [Bacillus thuringiensis 
+IBL 200]
+Length=104
+
+ Score =  218 bits (554),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 102/104 (98%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MN+DHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNKDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAMEMRNL  104
+
+
+>ref|YP_005569584.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+chinensis CT-43]
+ ref|YP_007482525.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+thuringiensis str. IS5056]
+ ref|WP_001078054.1| hypothetical protein [Bacillus cereus group]
+ gb|AEA19480.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+chinensis CT-43]
+ gb|AGG05183.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+thuringiensis str. IS5056]
+ gb|EOP31595.1| hypothetical protein IGG_02904 [Bacillus cereus HuB13-1]
+ gb|EOP55701.1| hypothetical protein IGU_04961 [Bacillus cereus ISP2954]
+ gb|EOP86209.1| hypothetical protein IES_05798 [Bacillus cereus BMG1.7]
+ gb|ERH96790.1| hypothetical protein BTCBT_007072 [Bacillus thuringiensis T01-328]
+ gb|ETE90109.1| DNA-binding protein [Bacillus thuringiensis serovar aizawai str. 
+Leapi01]
+ gb|ETE97906.1| DNA-binding protein [Bacillus thuringiensis serovar aizawai str. 
+Hu4-2]
+Length=104
+
+ Score =  216 bits (550),  Expect = 6e-70, Method: Compositional matrix adjust.
+ Identities = 101/104 (97%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFIN+NGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINQNGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKA+EMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAIEMRNL  104
+
+
+>ref|WP_001078055.1| hypothetical protein [Bacillus cereus]
+ gb|EJR28024.1| hypothetical protein IIE_05437 [Bacillus cereus VD045]
+Length=104
+
+ Score =  213 bits (541),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 101/104 (97%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFIN+NGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINQNGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVE FKQKA+EMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVEYFKQKAIEMRNL  104
+
+
+>pdb|4ASO|A Chain A, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|B Chain B, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|C Chain C, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|D Chain D, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|E Chain E, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|F Chain F, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|G Chain G, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|H Chain H, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|I Chain I, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|J Chain J, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|K Chain K, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|L Chain L, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|M Chain M, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|N Chain N, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|O Chain O, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|P Chain P, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|A Chain A, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|B Chain B, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|C Chain C, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|D Chain D, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|E Chain E, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|F Chain F, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|G Chain G, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|H Chain H, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|I Chain I, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+Length=104
+
+ Score =  205 bits (521),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 98/103 (95%), Positives = 98/103 (95%), Gaps = 0/103 (0%)
+
+Query  22   NRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFATV  81
+            NRDHFYTLNIAEIAERIGNDDCAYQVL AFINENGEAQ LNKTAVAE IQLSKPTVFATV
+Sbjct  2    NRDHFYTLNIAEIAERIGNDDCAYQVLXAFINENGEAQXLNKTAVAEXIQLSKPTVFATV  61
+
+Query  82   NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKA E RNL
+Sbjct  62   NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAXEXRNL  104
+
+
+>pdb|3LVG|A Chain A, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVG|B Chain B, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVG|C Chain C, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVH|A Chain A, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+ pdb|3LVH|B Chain B, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+ pdb|3LVH|C Chain C, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+Length=624
+
+ Score = 37.4 bits (85),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 38/84 (45%), Positives = 48/84 (57%), Gaps = 7/84 (8%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+           MGSSHHHHHHSSGLVPRGSHM +    T  +  + E IGN D AY+    F     E  +
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMLKFDVNTSAVQVLIEHIGNLDRAYE----FAERCNEPAV  56
+
+Query  61  LNKTAVAEMIQLSKPTVFATVNSF  84
+            ++ A A   QL K  V   ++S+
+Sbjct  57  WSQLAKA---QLQKGMVKEAIDSY  77
+
+
+>pdb|3NAZ|A Chain A, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|B Chain B, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|C Chain C, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|D Chain D, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NCH|A Chain A, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|B Chain B, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|C Chain C, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|D Chain D, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3O3C|A Chain A, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|B Chain B, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|C Chain C, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|D Chain D, Glycogen Synthase Basal State Udp Complex
+ pdb|3RSZ|A Chain A, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|B Chain B, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|C Chain C, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|D Chain D, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+Length=725
+
+ Score = 35.0 bits (79),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 28/42 (67%), Positives = 31/42 (74%), Gaps = 3/42 (7%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRD---HFYTLNIAEIAERIG  39
+           MGSSHHHHHHSSGLVPRGSHM+RD   H       E+A R+G
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMSRDLQNHLLFETATEVANRVG  42
+
+
+>pdb|3NB0|A Chain A, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|B Chain B, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|C Chain C, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|D Chain D, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3RT1|A Chain A, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|B Chain B, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|C Chain C, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|D Chain D, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+Length=725
+
+ Score = 35.0 bits (79),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 28/42 (67%), Positives = 31/42 (74%), Gaps = 3/42 (7%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRD---HFYTLNIAEIAERIG  39
+           MGSSHHHHHHSSGLVPRGSHM+RD   H       E+A R+G
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMSRDLQNHLLFETATEVANRVG  42
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302305853388
+Results from round 2
+
+
+Query= 3M8EB
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3M8F|A  Chain A, Protein Structure Of Type Iii Plasmid Segreg...   245    4e-81
+pdb|3M8E|A  Chain A, Protein Structure Of Type Iii Plasmid Segreg...   241    1e-79
+ref|YP_001573871.1|  putative DNA-binding protein [Bacillus thuri...   209    3e-67
+ref|YP_006607700.1|  DNA-binding protein [Bacillus thuringiensis ...   209    3e-67
+ref|WP_001030622.1|  hypothetical protein [Bacillus thuringiensis...   207    1e-66
+ref|YP_005569584.1|  putative DNA-binding protein [Bacillus thuri...   207    2e-66
+ref|WP_001078055.1|  hypothetical protein [Bacillus cereus] >gb|E...   202    1e-64
+pdb|4ASO|A  Chain A, Tubr Bound To 24 Bp Of Tubc From Bacillus Th...   197    1e-62
+
+Sequences not found previously or not previously below threshold:
+
+pdb|3LVG|A  Chain A, Crystal Structure Of A Clathrin Heavy Chain ...  35.3    4.7  
+pdb|3NB0|A  Chain A, Glucose-6-Phosphate Activated Form Of Yeast ...  35.0    6.2  
+pdb|3NAZ|A  Chain A, Basal State Form Of Yeast Glycogen Synthase ...  35.0    6.2  
+
+
+>pdb|3M8F|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr 
+Mutant
+ pdb|3M8F|B Chain B, Protein Structure Of Type Iii Plasmid Segregation Tubr 
+Mutant
+Length=124
+
+ Score =  245 bits (625),  Expect = 4e-81, Method: Composition-based stats.
+ Identities = 123/124 (99%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+            MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM
+Sbjct  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+
+Query  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+            LNKTAVAEMIQLSKPTVFATVN FYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME
+Sbjct  61   LNKTAVAEMIQLSKPTVFATVNWFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+
+Query  121  MRNL  124
+            MRNL
+Sbjct  121  MRNL  124
+
+
+>pdb|3M8E|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr
+ pdb|3M8E|B Chain B, Protein Structure Of Type Iii Plasmid Segregation Tubr
+ pdb|3M9A|A Chain A, Protein Structure Of Type Iii Plasmid Segregation Tubr
+Length=124
+
+ Score =  241 bits (615),  Expect = 1e-79, Method: Composition-based stats.
+ Identities = 124/124 (100%), Positives = 124/124 (100%), Gaps = 0/124 (0%)
+
+Query  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+            MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM
+Sbjct  1    MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+
+Query  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+            LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME
+Sbjct  61   LNKTAVAEMIQLSKPTVFATVNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAME  120
+
+Query  121  MRNL  124
+            MRNL
+Sbjct  121  MRNL  124
+
+
+>ref|YP_001573871.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+israelensis]
+ ref|YP_006614009.1| putative DNA-binding protein [Bacillus thuringiensis HD-789]
+ ref|WP_001078053.1| hypothetical protein [Bacillus thuringiensis]
+ emb|CAD30187.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+israelensis]
+ gb|EEM99273.1| hypothetical protein bthur0014_60940 [Bacillus thuringiensis 
+IBL 4222]
+ gb|AFQ30522.1| putative DNA-binding protein [Bacillus thuringiensis HD-789]
+Length=104
+
+ Score =  209 bits (532),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  104
+
+
+>ref|YP_006607700.1| DNA-binding protein [Bacillus thuringiensis HD-771]
+ ref|WP_001078052.1| hypothetical protein [Bacillus thuringiensis]
+ gb|AFQ19839.1| putative DNA-binding protein [Bacillus thuringiensis HD-771]
+Length=104
+
+ Score =  209 bits (531),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 103/104 (99%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAMEMRNL  104
+
+
+>ref|WP_001030622.1| hypothetical protein [Bacillus thuringiensis]
+ gb|EEM92092.1| hypothetical protein bthur0013_65920 [Bacillus thuringiensis 
+IBL 200]
+Length=104
+
+ Score =  207 bits (528),  Expect = 1e-66, Method: Composition-based stats.
+ Identities = 102/104 (98%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MN+DHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNKDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKAMEMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAMEMRNL  104
+
+
+>ref|YP_005569584.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+chinensis CT-43]
+ ref|YP_007482525.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+thuringiensis str. IS5056]
+ ref|WP_001078054.1| hypothetical protein [Bacillus cereus group]
+ gb|AEA19480.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+chinensis CT-43]
+ gb|AGG05183.1| putative DNA-binding protein [Bacillus thuringiensis serovar 
+thuringiensis str. IS5056]
+ gb|EOP31595.1| hypothetical protein IGG_02904 [Bacillus cereus HuB13-1]
+ gb|EOP55701.1| hypothetical protein IGU_04961 [Bacillus cereus ISP2954]
+ gb|EOP86209.1| hypothetical protein IES_05798 [Bacillus cereus BMG1.7]
+ gb|ERH96790.1| hypothetical protein BTCBT_007072 [Bacillus thuringiensis T01-328]
+ gb|ETE90109.1| DNA-binding protein [Bacillus thuringiensis serovar aizawai str. 
+Leapi01]
+ gb|ETE97906.1| DNA-binding protein [Bacillus thuringiensis serovar aizawai str. 
+Hu4-2]
+Length=104
+
+ Score =  207 bits (526),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 101/104 (97%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFIN+NGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINQNGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLG+EIVECFKQKA+EMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGIEIVECFKQKAIEMRNL  104
+
+
+>ref|WP_001078055.1| hypothetical protein [Bacillus cereus]
+ gb|EJR28024.1| hypothetical protein IIE_05437 [Bacillus cereus VD045]
+Length=104
+
+ Score =  202 bits (514),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 101/104 (97%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  21   MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFAT  80
+            MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFIN+NGEAQMLNKTAVAEMIQLSKPTVFAT
+Sbjct  1    MNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINQNGEAQMLNKTAVAEMIQLSKPTVFAT  60
+
+Query  81   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVE FKQKA+EMRNL
+Sbjct  61   VNSFYCAGYIDETRVGRSKIYTLSDLGVEIVEYFKQKAIEMRNL  104
+
+
+>pdb|4ASO|A Chain A, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|B Chain B, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|C Chain C, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|D Chain D, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|E Chain E, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|F Chain F, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|G Chain G, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|H Chain H, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|I Chain I, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|J Chain J, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|K Chain K, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|L Chain L, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|M Chain M, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|N Chain N, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|O Chain O, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASO|P Chain P, Tubr Bound To 24 Bp Of Tubc From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|A Chain A, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|B Chain B, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|C Chain C, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|D Chain D, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|E Chain E, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|F Chain F, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|G Chain G, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|H Chain H, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+ pdb|4ASS|I Chain I, Tubr Bound To Tubc - 26 Bp - From Bacillus Thuringiensis 
+Serovar Israelensis Pbtoxis
+Length=104
+
+ Score =  197 bits (502),  Expect = 1e-62, Method: Composition-based stats.
+ Identities = 98/103 (95%), Positives = 98/103 (95%), Gaps = 0/103 (0%)
+
+Query  22   NRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQMLNKTAVAEMIQLSKPTVFATV  81
+            NRDHFYTLNIAEIAERIGNDDCAYQVL AFINENGEAQ LNKTAVAE IQLSKPTVFATV
+Sbjct  2    NRDHFYTLNIAEIAERIGNDDCAYQVLXAFINENGEAQXLNKTAVAEXIQLSKPTVFATV  61
+
+Query  82   NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAMEMRNL  124
+            NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKA E RNL
+Sbjct  62   NSFYCAGYIDETRVGRSKIYTLSDLGVEIVECFKQKAXEXRNL  104
+
+
+>pdb|3LVG|A Chain A, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVG|B Chain B, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVG|C Chain C, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Lig Complex
+ pdb|3LVH|A Chain A, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+ pdb|3LVH|B Chain B, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+ pdb|3LVH|C Chain C, Crystal Structure Of A Clathrin Heavy Chain And Clathrin 
+Light Chain Complex
+Length=624
+
+ Score = 35.3 bits (80),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 38/84 (45%), Positives = 48/84 (57%), Gaps = 7/84 (8%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRDHFYTLNIAEIAERIGNDDCAYQVLMAFINENGEAQM  60
+           MGSSHHHHHHSSGLVPRGSHM +    T  +  + E IGN D AY+    F     E  +
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMLKFDVNTSAVQVLIEHIGNLDRAYE----FAERCNEPAV  56
+
+Query  61  LNKTAVAEMIQLSKPTVFATVNSF  84
+            ++ A A   QL K  V   ++S+
+Sbjct  57  WSQLAKA---QLQKGMVKEAIDSY  77
+
+
+>pdb|3NB0|A Chain A, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|B Chain B, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|C Chain C, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3NB0|D Chain D, Glucose-6-Phosphate Activated Form Of Yeast Glycogen 
+Synthase
+ pdb|3RT1|A Chain A, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|B Chain B, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|C Chain C, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+ pdb|3RT1|D Chain D, Maltodextarn Bound Activated State Form Of Yeast Glycogen 
+Synthase Isoform 2
+Length=725
+
+ Score = 35.0 bits (79),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 28/42 (67%), Positives = 31/42 (74%), Gaps = 3/42 (7%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRD---HFYTLNIAEIAERIG  39
+           MGSSHHHHHHSSGLVPRGSHM+RD   H       E+A R+G
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMSRDLQNHLLFETATEVANRVG  42
+
+
+>pdb|3NAZ|A Chain A, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|B Chain B, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|C Chain C, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NAZ|D Chain D, Basal State Form Of Yeast Glycogen Synthase
+ pdb|3NCH|A Chain A, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|B Chain B, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|C Chain C, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3NCH|D Chain D, Yeast Glycogen Synthase (Gsy2p) Basal State Conformation
+ pdb|3O3C|A Chain A, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|B Chain B, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|C Chain C, Glycogen Synthase Basal State Udp Complex
+ pdb|3O3C|D Chain D, Glycogen Synthase Basal State Udp Complex
+ pdb|3RSZ|A Chain A, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|B Chain B, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|C Chain C, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+ pdb|3RSZ|D Chain D, Maltodextran Bound Basal State Conformation Of Yeast 
+Glycogen Synthase Isoform 2
+Length=725
+
+ Score = 35.0 bits (79),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 28/42 (67%), Positives = 31/42 (74%), Gaps = 3/42 (7%)
+
+Query  1   MGSSHHHHHHSSGLVPRGSHMNRD---HFYTLNIAEIAERIG  39
+           MGSSHHHHHHSSGLVPRGSHM+RD   H       E+A R+G
+Sbjct  1   MGSSHHHHHHSSGLVPRGSHMSRDLQNHLLFETATEVANRVG  42
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.141    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0435    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302305853388
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

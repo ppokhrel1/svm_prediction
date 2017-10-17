@@ -1,0 +1,218 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5DOK
+
+Length=204
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AAQ21363.1|  telomerase associated protein p45 [Tetrahymena th...   404    6e-139
+ref|XP_001012582.1|  hypothetical protein TTHERM_00083360 [Tetrah...   404    1e-138
+ref|XP_001713317.1|  hypothetical protein GTHECHR2183 [Guillardia...  39.3    0.60  
+
+
+>gb|AAQ21363.1| telomerase associated protein p45 [Tetrahymena thermophila]
+Length=373
+
+ Score =  404 bits (1039),  Expect = 6e-139, Method: Compositional matrix adjust.
+ Identities = 204/204 (100%), Positives = 204/204 (100%), Gaps = 0/204 (0%)
+
+Query  1    KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  60
+            KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV
+Sbjct  170  KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  229
+
+Query  61   IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  120
+            IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV
+Sbjct  230  IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  289
+
+Query  121  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  180
+            SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ
+Sbjct  290  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  349
+
+Query  181  DFNIIEIENEHKFYYKQAFQYDDS  204
+            DFNIIEIENEHKFYYKQAFQYDDS
+Sbjct  350  DFNIIEIENEHKFYYKQAFQYDDS  373
+
+
+>ref|XP_001012582.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila]
+ gb|EAR92337.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila 
+SB210]
+Length=373
+
+ Score =  404 bits (1037),  Expect = 1e-138, Method: Compositional matrix adjust.
+ Identities = 203/204 (99%), Positives = 204/204 (100%), Gaps = 0/204 (0%)
+
+Query  1    KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  60
+            KSNQENIN+LKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV
+Sbjct  170  KSNQENINTLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  229
+
+Query  61   IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  120
+            IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV
+Sbjct  230  IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  289
+
+Query  121  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  180
+            SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ
+Sbjct  290  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  349
+
+Query  181  DFNIIEIENEHKFYYKQAFQYDDS  204
+            DFNIIEIENEHKFYYKQAFQYDDS
+Sbjct  350  DFNIIEIENEHKFYYKQAFQYDDS  373
+
+
+>ref|XP_001713317.1| hypothetical protein GTHECHR2183 [Guillardia theta]
+ emb|CAC27101.1| hypothetical protein [Guillardia theta]
+Length=196
+
+ Score = 39.3 bits (90),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 38/79 (48%), Gaps = 13/79 (16%)
+
+Query  116  ISYQVSIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISE------  169
+            I Y +  GF QN LDI +   K +  + CN + LK  LTK L ++   +  IS+      
+Sbjct  118  IDYHIFKGF-QNKLDILSNEKKKKFKIFCNNRNLKRSLTKLLFIKSCYFSFISKLINKKS  176
+
+Query  170  ------SYISYLVHLFQDF  182
+                  S+  YL+ LF DF
+Sbjct  177  CRKKQNSFFMYLLSLFHDF  195
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 495732843738
+Results from round 2
+
+
+Query= 5DOK
+
+Length=204
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_001012582.1|  hypothetical protein TTHERM_00083360 [Tetrah...   334    3e-111
+gb|AAQ21363.1|  telomerase associated protein p45 [Tetrahymena th...   333    5e-111
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_017753872.1|  hypothetical protein [Bacillus sp. ZYK]          36.5    9.3  
+
+
+>ref|XP_001012582.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila]
+ gb|EAR92337.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila 
+SB210]
+Length=373
+
+ Score =  334 bits (856),  Expect = 3e-111, Method: Composition-based stats.
+ Identities = 203/204 (99%), Positives = 204/204 (100%), Gaps = 0/204 (0%)
+
+Query  1    KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  60
+            KSNQENIN+LKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV
+Sbjct  170  KSNQENINTLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  229
+
+Query  61   IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  120
+            IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV
+Sbjct  230  IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  289
+
+Query  121  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  180
+            SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ
+Sbjct  290  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  349
+
+Query  181  DFNIIEIENEHKFYYKQAFQYDDS  204
+            DFNIIEIENEHKFYYKQAFQYDDS
+Sbjct  350  DFNIIEIENEHKFYYKQAFQYDDS  373
+
+
+>gb|AAQ21363.1| telomerase associated protein p45 [Tetrahymena thermophila]
+Length=373
+
+ Score =  333 bits (855),  Expect = 5e-111, Method: Composition-based stats.
+ Identities = 204/204 (100%), Positives = 204/204 (100%), Gaps = 0/204 (0%)
+
+Query  1    KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  60
+            KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV
+Sbjct  170  KSNQENINSLKYKELIAGELMRITHKLLIQKLQQQQPANNNKQINEMDVESNELAEKKEV  229
+
+Query  61   IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  120
+            IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV
+Sbjct  230  IIKIQEIAKDQQLYDTLSIQYQVDQKEQYYAKIAQSLEDFVSISALKMVSYIYPNISYQV  289
+
+Query  121  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  180
+            SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ
+Sbjct  290  SIGFFQNILDIATKTVKDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQ  349
+
+Query  181  DFNIIEIENEHKFYYKQAFQYDDS  204
+            DFNIIEIENEHKFYYKQAFQYDDS
+Sbjct  350  DFNIIEIENEHKFYYKQAFQYDDS  373
+
+
+>ref|WP_017753872.1| hypothetical protein [Bacillus sp. ZYK]
+Length=629
+
+ Score = 36.5 bits (83),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  137  KDRGALGCNYKYLKDKLTKALNLQQISYPLISESYISYLVHLFQDF  182
+            +D  AL  ++ YLKDKL++ LN     YPL      + +VHLF++F
+Sbjct  429  RDEFALLADFDYLKDKLSEKLNEYHSEYPLRLGFNKTEIVHLFEEF  474
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.141    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0419    0.140     1.90     42.6     43.6 
+
+Effective search space used: 495732843738
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

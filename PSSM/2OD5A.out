@@ -1,0 +1,481 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2OD5A
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2OD5|A  Chain A, Crystal Structure Of A Putative Nucleic Acid...   233    1e-76
+gb|EHR77169.1|  winged helix-turn-helix DNA-binding transcription...   187    1e-58
+gb|ABZ07507.1|  hypothetical protein ALOHA_HF4000ANIW137G21ctg1g3...   105    5e-27
+gb|ABZ07506.1|  hypothetical protein ALOHA_HF4000ANIW137G21ctg1g3...  63.2    1e-10
+gb|EHR76594.1|  putative winged helix-turn-helix transcription re...  59.3    2e-09
+gb|EFG26530.2|  hypothetical protein HMPREF9020_00149 [Scardovia ...  37.4    0.72 
+ref|WP_006292491.1|  glycosyl transferase [Scardovia inopinata]       37.4    0.77 
+ref|WP_009358333.1|  hypothetical protein [Arthrobacter sp. SJCon...  37.0    1.0  
+ref|YP_002333271.1|  nucleoprotein N [Wongabel virus] >gb|ABV0135...  35.4    3.6  
+ref|XP_003096050.1|  hypothetical protein CRE_05160 [Caenorhabdit...  34.7    4.0  
+gb|EMF13699.1|  hypothetical protein SEPMUDRAFT_42078 [Sphaerulin...  34.7    6.2  
+gb|EMR61585.1|  putative heterokaryon incompatibility protein [Eu...  34.7    6.7  
+ref|WP_005855898.1|  hypothetical protein [Sagittula stellata] >g...  34.3    7.6  
+ref|XP_795222.2|  PREDICTED: p21-activated protein kinase-interac...  34.3    9.9  
+
+
+>pdb|2OD5|A Chain A, Crystal Structure Of A Putative Nucleic Acid Binding 
+Protein (Jcvi_pep_1096688149193) From Uncultured Marine Organism 
+At 1.79 A Resolution
+Length=116
+
+ Score =  233 bits (594),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 113/116 (97%), Positives = 113/116 (97%), Gaps = 0/116 (0%)
+
+Query  1    GMTGAVETESMKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKD  60
+            G TGAVETES KTVRIREKIKKFLGDRPRNTAEILEHINST RHGTTSQQLGNVLSKDKD
+Sbjct  1    GXTGAVETESXKTVRIREKIKKFLGDRPRNTAEILEHINSTXRHGTTSQQLGNVLSKDKD  60
+
+Query  61   IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE  116
+            IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE
+Sbjct  61   IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE  116
+
+
+>gb|EHR77169.1| winged helix-turn-helix DNA-binding transcription repressor [uncultured 
+marine group II euryarchaeote]
+Length=108
+
+ Score =  187 bits (475),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 94/102 (92%), Gaps = 0/102 (0%)
+
+Query  11   MKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+            MKT RIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS
+Sbjct  1    MKTTRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  60
+
+Query  71   GILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLG  112
+            GILSGGYDICEWATRNWV+ +CP W EG PII++ +G+ T G
+Sbjct  61   GILSGGYDICEWATRNWVSTNCPGWEEGTPIIIDNDGNVTTG  102
+
+
+>gb|ABZ07507.1| hypothetical protein ALOHA_HF4000ANIW137G21ctg1g36 [uncultured 
+marine microorganism HF4000_ANIW137G21]
+Length=84
+
+ Score =  105 bits (262),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 52/76 (68%), Positives = 59/76 (78%), Gaps = 1/76 (1%)
+
+Query  11  MKTVRIREKIKKFLGDR-PRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKR  69
+           M+T R+R+KIKKFL +R   NT EILEH+N TMRHGTT QQLGNVLSKDKDI+KV   KR
+Sbjct  1   MRTTRLRQKIKKFLNERGEANTTEILEHVNRTMRHGTTPQQLGNVLSKDKDILKVATTKR  60
+
+Query  70  SGILSGGYDICEWATR  85
+            G LSG Y+IC W  R
+Sbjct  61  GGALSGRYEICVWTLR  76
+
+
+>gb|ABZ07506.1| hypothetical protein ALOHA_HF4000ANIW137G21ctg1g35 [uncultured 
+marine microorganism HF4000_ANIW137G21]
+Length=92
+
+ Score = 63.2 bits (152),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 28/81 (35%), Positives = 48/81 (59%), Gaps = 0/81 (0%)
+
+Query  11  MKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+           M +  +R+ I+ +L +RPRNT EI   + S M   +  + + N+L  D+ IV++G +++S
+Sbjct  1   MDSQNLRDLIRNYLSERPRNTIEISAWLASQMDPNSCPEDVTNILEADESIVRIGTVRKS  60
+
+Query  71  GILSGGYDICEWATRNWVAEH  91
+           G+      I EWA+ +WV  H
+Sbjct  61  GMRLTDLPISEWASSSWVRRH  81
+
+
+>gb|EHR76594.1| putative winged helix-turn-helix transcription repressor DNA-binding 
+protein [uncultured marine group II euryarchaeote]
+Length=80
+
+ Score = 59.3 bits (142),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 46/73 (63%), Gaps = 1/73 (1%)
+
+Query  12  KTVRIREKIKKFLGDR-PRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+           +T+R+R +I  +LG+    NT +IL+H+N   R G T  QLGNVL++D+  VKVG+ + +
+Sbjct  4   RTMRLRTEIATYLGNVGEANTTDILDHVNQRFRWGATMNQLGNVLARDRRFVKVGFDEGT  63
+
+Query  71  GILSGGYDICEWA  83
+            I      +C W+
+Sbjct  64  DIGGFRMRVCVWS  76
+
+
+>gb|EFG26530.2| hypothetical protein HMPREF9020_00149 [Scardovia inopinata F0304]
+Length=364
+
+ Score = 37.4 bits (85),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 30/55 (55%), Gaps = 8/55 (15%)
+
+Query  51   LGNVLSKDKDIVKVGYIKRSGILSGGYDICEWATRNWVAEHC----PEWTEGQPI  101
+            LGN+++  K+I+++  + R  I SG   IC    R W AEH     P+WT   P+
+Sbjct  308  LGNLITFIKEIIRLVTVDRKSISSGLVQIC----RGWAAEHKILHDPDWTPMPPV  358
+
+
+>ref|WP_006292491.1| glycosyl transferase [Scardovia inopinata]
+Length=352
+
+ Score = 37.4 bits (85),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 30/55 (55%), Gaps = 8/55 (15%)
+
+Query  51   LGNVLSKDKDIVKVGYIKRSGILSGGYDICEWATRNWVAEHC----PEWTEGQPI  101
+            LGN+++  K+I+++  + R  I SG   IC    R W AEH     P+WT   P+
+Sbjct  296  LGNLITFIKEIIRLVTVDRKSISSGLVQIC----RGWAAEHKILHDPDWTPMPPV  346
+
+
+>ref|WP_009358333.1| hypothetical protein [Arthrobacter sp. SJCon]
+ gb|ELT43937.1| hypothetical protein G205_14855 [Arthrobacter sp. SJCon]
+Length=261
+
+ Score = 37.0 bits (84),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 48/111 (43%), Gaps = 7/111 (6%)
+
+Query  6    VETESMKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVG  65
+            V+TE  +   ++E+I   L DR R TAE LE++  T+     S   G +    + +++  
+Sbjct  109  VKTEGAREATVKERIPYQLEDRSRLTAEGLEYVRETLAAAVGSVPAGAL----EPVIETR  164
+
+Query  66   YIKRSGIL--SGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPL  114
+            Y + +  L  SG     +     W     P W     +IL  +   T GPL
+Sbjct  165  YHRTTLYLPESGSRATVDTGV-TWQCPGEPAWVLADAVILETKSGSTAGPL  214
+
+
+>ref|YP_002333271.1| nucleoprotein N [Wongabel virus]
+ gb|ABV01356.1| nucleoprotein N [Wongabel virus]
+Length=440
+
+ Score = 35.4 bits (80),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 24/72 (33%), Positives = 36/72 (50%), Gaps = 6/72 (8%)
+
+Query  9   ESMKTVRIREKIKKFL-GDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYI  67
+           ++MK+VR  E IK    GD+P+      ++           + L NV  KD D+  +  I
+Sbjct  6   KTMKSVRTSESIKYIQPGDKPKP-----QYPREFFEKNPGQKPLINVPHKDIDLANIRNI  60
+
+Query  68  KRSGILSGGYDI  79
+            +SGIL GG +I
+Sbjct  61  IKSGILQGGLEI  72
+
+
+>ref|XP_003096050.1| hypothetical protein CRE_05160 [Caenorhabditis remanei]
+ gb|EFO88019.1| hypothetical protein CRE_05160 [Caenorhabditis remanei]
+Length=130
+
+ Score = 34.7 bits (78),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 22/62 (35%), Positives = 30/62 (48%), Gaps = 5/62 (8%)
+
+Query  5   AVETESMKTVRIREKIKKFLGDRPRNTAEI-----LEHINSTMRHGTTSQQLGNVLSKDK  59
+           AVE E M  +R  + I  F G  P    ++     LE IN  MR    SQ   ++ +KDK
+Sbjct  29  AVEKEKMAELRRSQGIPVFEGYDPEALVKVKNLIELEEINKNMRQYFVSQHKADMAAKDK  88
+
+Query  60  DI  61
+           +I
+Sbjct  89  EI  90
+
+
+>gb|EMF13699.1| hypothetical protein SEPMUDRAFT_42078 [Sphaerulina musiva SO2202]
+Length=329
+
+ Score = 34.7 bits (78),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 15/70 (21%)
+
+Query  54   VLSKDKDIV-----KVGYIKR----SGILSGGYDICEWAT---RNWVAEHC--PEWTEGQ  99
+            V+S D D +      V ++ R    +GIL G  D+C       RNW+++ C    WT+G+
+Sbjct  157  VVSIDADCLFSQLETVAFLGRRQGTAGILCGFVDVCRGTIRVWRNWLSKQCESKRWTDGE  216
+
+Query  100  PI-ILNEEGD  108
+             I I++E+GD
+Sbjct  217  QIAIIHEDGD  226
+
+
+>gb|EMR61585.1| putative heterokaryon incompatibility protein [Eutypa lata UCREL1]
+Length=649
+
+ Score = 34.7 bits (78),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 22/45 (49%), Gaps = 4/45 (9%)
+
+Query  70   SGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPL  114
+            +G+  GG D+ E     W  + C     GQ ++L E G F LGP 
+Sbjct  546  NGVFPGGLDVSEETENGWTRDMCV----GQTLLLTENGHFGLGPF  586
+
+
+>ref|WP_005855898.1| hypothetical protein [Sagittula stellata]
+ gb|EBA09724.1| hypothetical protein SSE37_07948 [Sagittula stellata E-37]
+Length=276
+
+ Score = 34.3 bits (77),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 24/45 (53%), Gaps = 6/45 (13%)
+
+Query  63   KVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEG  107
+            +V  + R  +     D+C+W TR W     P W +G+P +LN +G
+Sbjct  32   RVDLVSRGPVAENPGDLCDWVTR-W-----PHWHDGRPFLLNADG  70
+
+
+>ref|XP_795222.2| PREDICTED: p21-activated protein kinase-interacting protein 1-like 
+[Strongylocentrotus purpuratus]
+Length=356
+
+ Score = 34.3 bits (77),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 23/40 (58%), Gaps = 2/40 (5%)
+
+Query  50   QLGNVLSKDKDIVKVGYIKRSGILSGGYD--ICEWATRNW  87
+            +LG++L  D  +  + Y     ++SGG D  IC W T+NW
+Sbjct  78   ELGSLLQHDGSVTSLSYHDDGHMVSGGEDGVICIWGTKNW  117
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311572139604
+Results from round 2
+
+
+Query= 2OD5A
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2OD5|A  Chain A, Crystal Structure Of A Putative Nucleic Acid...   197    2e-62
+gb|EHR77169.1|  winged helix-turn-helix DNA-binding transcription...   172    4e-53
+gb|ABZ07506.1|  hypothetical protein ALOHA_HF4000ANIW137G21ctg1g3...   116    3e-31
+gb|ABZ07507.1|  hypothetical protein ALOHA_HF4000ANIW137G21ctg1g3...   113    5e-30
+gb|EHR76594.1|  putative winged helix-turn-helix transcription re...   105    3e-27
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_017643145.1|  restriction endonuclease BsuRI [Streptococcu...  40.8    0.049
+ref|WP_023578548.1|  hypothetical protein [Flavobacterium limnose...  38.5    0.34 
+ref|WP_003846380.1|  3-hydroxyisobutyryl-CoA hydrolase [Corynebac...  35.8    2.4  
+ref|WP_000391068.1|  restriction endonuclease BsuRI [Streptococcu...  35.8    3.1  
+sp|P06530.1|MTBR_BACSU  RecName: Full=Modification methylase BsuR...  35.4    3.9  
+
+
+>pdb|2OD5|A Chain A, Crystal Structure Of A Putative Nucleic Acid Binding 
+Protein (Jcvi_pep_1096688149193) From Uncultured Marine Organism 
+At 1.79 A Resolution
+Length=116
+
+ Score =  197 bits (500),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 113/116 (97%), Positives = 113/116 (97%), Gaps = 0/116 (0%)
+
+Query  1    GMTGAVETESMKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKD  60
+            G TGAVETES KTVRIREKIKKFLGDRPRNTAEILEHINST RHGTTSQQLGNVLSKDKD
+Sbjct  1    GXTGAVETESXKTVRIREKIKKFLGDRPRNTAEILEHINSTXRHGTTSQQLGNVLSKDKD  60
+
+Query  61   IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE  116
+            IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE
+Sbjct  61   IVKVGYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLGPLPE  116
+
+
+>gb|EHR77169.1| winged helix-turn-helix DNA-binding transcription repressor [uncultured 
+marine group II euryarchaeote]
+Length=108
+
+ Score =  172 bits (437),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 88/102 (86%), Positives = 94/102 (92%), Gaps = 0/102 (0%)
+
+Query  11   MKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+            MKT RIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS
+Sbjct  1    MKTTRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  60
+
+Query  71   GILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDFTLG  112
+            GILSGGYDICEWATRNWV+ +CP W EG PII++ +G+ T G
+Sbjct  61   GILSGGYDICEWATRNWVSTNCPGWEEGTPIIIDNDGNVTTG  102
+
+
+>gb|ABZ07506.1| hypothetical protein ALOHA_HF4000ANIW137G21ctg1g35 [uncultured 
+marine microorganism HF4000_ANIW137G21]
+Length=92
+
+ Score =  116 bits (291),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 28/81 (35%), Positives = 48/81 (59%), Gaps = 0/81 (0%)
+
+Query  11  MKTVRIREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+           M +  +R+ I+ +L +RPRNT EI   + S M   +  + + N+L  D+ IV++G +++S
+Sbjct  1   MDSQNLRDLIRNYLSERPRNTIEISAWLASQMDPNSCPEDVTNILEADESIVRIGTVRKS  60
+
+Query  71  GILSGGYDICEWATRNWVAEH  91
+           G+      I EWA+ +WV  H
+Sbjct  61  GMRLTDLPISEWASSSWVRRH  81
+
+
+>gb|ABZ07507.1| hypothetical protein ALOHA_HF4000ANIW137G21ctg1g36 [uncultured 
+marine microorganism HF4000_ANIW137G21]
+Length=84
+
+ Score =  113 bits (283),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 54/90 (60%), Positives = 64/90 (71%), Gaps = 8/90 (9%)
+
+Query  11  MKTVRIREKIKKFLGDR-PRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKR  69
+           M+T R+R+KIKKFL +R   NT EILEH+N TMRHGTT QQLGNVLSKDKDI+KV   KR
+Sbjct  1   MRTTRLRQKIKKFLNERGEANTTEILEHVNRTMRHGTTPQQLGNVLSKDKDILKVATTKR  60
+
+Query  70  SGILSGGYDICEWATRNWVAEHCPEWTEGQ  99
+            G LSG Y+IC W  R       P + +G+
+Sbjct  61  GGALSGRYEICVWTLR-------PGFLDGE  83
+
+
+>gb|EHR76594.1| putative winged helix-turn-helix transcription repressor DNA-binding 
+protein [uncultured marine group II euryarchaeote]
+Length=80
+
+ Score =  105 bits (263),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 29/73 (40%), Positives = 46/73 (63%), Gaps = 1/73 (1%)
+
+Query  12  KTVRIREKIKKFLGDR-PRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRS  70
+           +T+R+R +I  +LG+    NT +IL+H+N   R G T  QLGNVL++D+  VKVG+ + +
+Sbjct  4   RTMRLRTEIATYLGNVGEANTTDILDHVNQRFRWGATMNQLGNVLARDRRFVKVGFDEGT  63
+
+Query  71  GILSGGYDICEWA  83
+            I      +C W+
+Sbjct  64  DIGGFRMRVCVWS  76
+
+
+>ref|WP_017643145.1| restriction endonuclease BsuRI [Streptococcus agalactiae]
+ gb|EPV83372.1| restriction endonuclease BsuRI [Streptococcus agalactiae FSL 
+C1-487]
+Length=439
+
+ Score = 40.8 bits (94),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 22/105 (21%), Positives = 45/105 (43%), Gaps = 20/105 (19%)
+
+Query  8    TESMKTVRIREKIKKFLGDRPRNTA---EILEHINSTMRHGTTSQQLGNVLSKDKDIVKV  64
+            TES +    RE  +    +   +T    ++    N+T R   +     N++   KDI KV
+Sbjct  91   TESFRAFEQREDFQDIREESLFHTIYTNDMFVEANATYRRNFSP----NIIQHQKDIRKV  146
+
+Query  65   GYIKRSGILSGGYDICEWATRNWVAEHCPEWTEGQPIILNEEGDF  109
+             +  ++ +  GG+              CP ++E  P +++++ +F
+Sbjct  147  AHFPKNDLTIGGFP-------------CPGFSEAGPRLIDDDRNF  178
+
+
+>ref|WP_023578548.1| hypothetical protein [Flavobacterium limnosediminis]
+ gb|ESU29481.1| hypothetical protein FLJC2902T_08870 [Flavobacterium limnosediminis 
+JC2902]
+Length=420
+
+ Score = 38.5 bits (88),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 39/93 (42%), Gaps = 2/93 (2%)
+
+Query  1    GMTGAVETESMKTVR--IREKIKKFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKD  58
+            G+    +TE+ KT R   +E  K +  +  +N  E++      +   TT     N+LSK 
+Sbjct  257  GLLSNNQTENFKTHRKQFKEITKTYSNNIQKNITEVISQKVDFLNFNTTQIDTLNILSKK  316
+
+Query  59   KDIVKVGYIKRSGILSGGYDICEWATRNWVAEH  91
+             ++V     ++S     G DI      + +  H
+Sbjct  317  VELVSSTPSEKSVCKVTGLDISMQKENSLLLSH  349
+
+
+>ref|WP_003846380.1| 3-hydroxyisobutyryl-CoA hydrolase [Corynebacterium ammoniagenes]
+ gb|EFG82031.1| enoyl-CoA hydratase/isomerase family protein [Corynebacterium 
+ammoniagenes DSM 20306]
+Length=312
+
+ Score = 35.8 bits (81),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 19/73 (26%), Positives = 30/73 (41%), Gaps = 4/73 (5%)
+
+Query  22   KFLGDRPRNTAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRSGILSGGYDICE  81
+             ++ + P   A+I+EHI ST  H T  +    + S DKD  +      +G L+       
+Sbjct  185  SYVPEEPAPLADIIEHIESTFNHATWPEIQEALKSADKDFAQ----STAGYLAAACPTSV  240
+
+Query  82   WATRNWVAEHCPE  94
+             A+      H  E
+Sbjct  241  VASNELFESHAKE  253
+
+
+>ref|WP_000391068.1| restriction endonuclease BsuRI [Streptococcus oralis]
+ gb|EIC78606.1| modification methylase BspRI [Streptococcus oralis SK10]
+ gb|ETD06316.1| hypothetical protein HMPREF1196_02110 [Streptococcus sanguinis 
+CC94A]
+Length=439
+
+ Score = 35.8 bits (81),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 37/79 (47%), Gaps = 17/79 (22%)
+
+Query  31   TAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRSGILSGGYDICEWATRNWVAE  90
+            T ++    N T ++  +S    N++   KDI KV +  ++ +  GG+             
+Sbjct  117  TNDMFVEANETYKNNFSS----NIIQHQKDIRKVAHFPKNDLTIGGFP------------  160
+
+Query  91   HCPEWTEGQPIILNEEGDF  109
+             CP ++E  P ++++E +F
+Sbjct  161  -CPGFSEAGPRLIDDERNF  178
+
+
+>sp|P06530.1|MTBR_BACSU RecName: Full=Modification methylase BsuRI; Short=M.BsuRI; AltName: 
+Full=Cytosine-specific methyltransferase BsuRI
+ emb|CAA26731.1| unnamed protein product [Bacillus subtilis]
+Length=436
+
+ Score = 35.4 bits (80),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 17/79 (22%), Positives = 37/79 (47%), Gaps = 17/79 (22%)
+
+Query  31   TAEILEHINSTMRHGTTSQQLGNVLSKDKDIVKVGYIKRSGILSGGYDICEWATRNWVAE  90
+            T ++ +  N T +        G+V+  +KDI +V Y  +  ++ GG+             
+Sbjct  113  TNDLFKEANQTYKTNFP----GHVIQHEKDIRQVKYFPKCNLILGGFP------------  156
+
+Query  91   HCPEWTEGQPIILNEEGDF  109
+             CP ++E  P +++++ +F
+Sbjct  157  -CPGFSEAGPRLIDDDRNF  174
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.132    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311572139604
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

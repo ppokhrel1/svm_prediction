@@ -1,0 +1,475 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3W3WB
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3W3W|B  Chain B, Crystal Structure Of Kap121p Bound To Ste12p      141    8e-42
+gb|EDZ71724.1|  YHR084Wp-like protein [Saccharomyces cerevisiae A...   142    1e-38
+dbj|GAA23801.1|  K7_Ste12p [Saccharomyces cerevisiae Kyokai no. 7]     142    4e-38
+ref|NP_011952.1|  Ste12p [Saccharomyces cerevisiae S288c] >sp|P13...   142    4e-38
+emb|CAY80094.1|  Ste12p [Saccharomyces cerevisiae EC1118]              142    4e-38
+gb|EHN06708.1|  Ste12p [Saccharomyces cerevisiae x Saccharomyces ...   140    3e-37
+gb|EJS43446.1|  ste12p [Saccharomyces arboricola H-6]                 99.4    2e-22
+ref|XP_003677838.1|  hypothetical protein NCAS_0H01800 [Naumovozy...  42.4    0.009
+ref|YP_003238736.1|  diguanylate cyclase [Ammonifex degensii KC4]...  34.3    3.5  
+gb|EGQ40680.1|  hypothetical protein J07AB56_14100 [Candidatus Na...  33.5    4.5  
+
+
+>pdb|3W3W|B Chain B, Crystal Structure Of Kap121p Bound To Ste12p
+Length=69
+
+ Score =  141 bits (355),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+           PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  1   PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+
+Query  61  SAHPDKNKE  69
+           SAHPDKNKE
+Sbjct  61  SAHPDKNKE  69
+
+
+>gb|EDZ71724.1| YHR084Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=539
+
+ Score =  142 bits (359),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  432  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  491
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  492  SAHPDKNKE  500
+
+
+>dbj|GAA23801.1| K7_Ste12p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=688
+
+ Score =  142 bits (359),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>ref|NP_011952.1| Ste12p [Saccharomyces cerevisiae S288c]
+ sp|P13574.1|STE12_YEAST RecName: Full=Protein STE12
+ emb|CAA34246.1| unnamed protein product [Saccharomyces cerevisiae]
+ gb|AAA35109.1| STE12 protein [Saccharomyces cerevisiae]
+ gb|AAB68884.1| Yhr084wp [Saccharomyces cerevisiae]
+ gb|EDN62324.1| transcription factor [Saccharomyces cerevisiae YJM789]
+ gb|EDV09132.1| protein STE12 [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU04721.1| Ste12p [Saccharomyces cerevisiae JAY291]
+ tpg|DAA06779.1| TPA: Ste12p [Saccharomyces cerevisiae S288c]
+ gb|EIW09986.1| Ste12p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=688
+
+ Score =  142 bits (359),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>emb|CAY80094.1| Ste12p [Saccharomyces cerevisiae EC1118]
+Length=688
+
+ Score =  142 bits (359),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>gb|EHN06708.1| Ste12p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=688
+
+ Score =  140 bits (352),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 68/69 (99%), Positives = 68/69 (99%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGN PTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNXPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>gb|EJS43446.1| ste12p [Saccharomyces arboricola H-6]
+Length=688
+
+ Score = 99.4 bits (246),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 49/68 (72%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  2    RRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDS  61
+            RRRT GMK+SQ N  T  KQS GKSAKISKPLHIKTS+YQKQYKINLETK +PS GDE  
+Sbjct  582  RRRTAGMKNSQANASTTGKQSTGKSAKISKPLHIKTSSYQKQYKINLETKTKPSTGDEHL  641
+
+Query  62   AHPDKNKE  69
+            + P+ +KE
+Sbjct  642  SRPEPHKE  649
+
+
+>ref|XP_003677838.1| hypothetical protein NCAS_0H01800 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC71490.1| hypothetical protein NCAS_0H01800 [Naumovozyma castellii CBS 
+4309]
+Length=776
+
+ Score = 42.4 bits (98),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 18/26 (69%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  26   SAKISKPLHIKTSAYQKQYKINLETK  51
+            S KI KPLHIKTS+YQKQYK+N+ ++
+Sbjct  695  SGKIKKPLHIKTSSYQKQYKLNMLSR  720
+
+
+>ref|YP_003238736.1| diguanylate cyclase [Ammonifex degensii KC4]
+ ref|WP_015738764.1| diguanylate cyclase [Ammonifex degensii]
+ gb|ACX51886.1| diguanylate cyclase [Ammonifex degensii KC4]
+Length=706
+
+ Score = 34.3 bits (77),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 33/68 (49%), Gaps = 0/68 (0%)
+
+Query  2    RRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDS  61
+            R R  G +SS G   T +++   + A++S P+ +     ++     L+  ARP AG E  
+Sbjct  164  RARKSGEESSHGREKTRSRRGKKREAEVSSPVPVDAGDARETVSTPLQEGARPGAGGEGV  223
+
+Query  62   AHPDKNKE  69
+            A P +  E
+Sbjct  224  APPRQEGE  231
+
+
+>gb|EGQ40680.1| hypothetical protein J07AB56_14100 [Candidatus Nanosalinarum 
+sp. J07AB56]
+Length=222
+
+ Score = 33.5 bits (75),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 24/37 (65%), Gaps = 1/37 (3%)
+
+Query  24   GKSAKI-SKPLHIKTSAYQKQYKINLETKARPSAGDE  59
+            G  A++ S P+HI+    + QY I+LE K+RP+A  E
+Sbjct  89   GSYARVYSLPVHIRIDRQKTQYSIDLELKSRPTASAE  125
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.121    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+Results from round 2
+
+
+Query= 3W3WB
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+dbj|GAA23801.1|  K7_Ste12p [Saccharomyces cerevisiae Kyokai no. 7]     128    5e-33
+emb|CAY80094.1|  Ste12p [Saccharomyces cerevisiae EC1118]              128    5e-33
+ref|NP_011952.1|  Ste12p [Saccharomyces cerevisiae S288c] >sp|P13...   128    6e-33
+gb|EHN06708.1|  Ste12p [Saccharomyces cerevisiae x Saccharomyces ...   127    2e-32
+gb|EJS43446.1|  ste12p [Saccharomyces arboricola H-6]                  125    6e-32
+gb|EDZ71724.1|  YHR084Wp-like protein [Saccharomyces cerevisiae A...   121    5e-31
+pdb|3W3W|B  Chain B, Crystal Structure Of Kap121p Bound To Ste12p     88.0    6e-21
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_003677838.1|  hypothetical protein NCAS_0H01800 [Naumovozy...  44.0    0.003
+ref|YP_003238736.1|  diguanylate cyclase [Ammonifex degensii KC4]...  39.0    0.13 
+emb|CDJ34175.1|  hypothetical protein EMH_0088320 [Eimeria mitis]     37.9    0.18 
+ref|XP_006132322.1|  PREDICTED: potassium voltage-gated channel s...  37.9    0.29 
+ref|XP_005146770.1|  PREDICTED: LOW QUALITY PROTEIN: potassium vo...  37.5    0.39 
+ref|XP_002847386.1|  conserved hypothetical protein [Arthroderma ...  36.7    0.57 
+
+
+>dbj|GAA23801.1| K7_Ste12p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=688
+
+ Score =  128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>emb|CAY80094.1| Ste12p [Saccharomyces cerevisiae EC1118]
+Length=688
+
+ Score =  128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>ref|NP_011952.1| Ste12p [Saccharomyces cerevisiae S288c]
+ sp|P13574.1|STE12_YEAST RecName: Full=Protein STE12
+ emb|CAA34246.1| unnamed protein product [Saccharomyces cerevisiae]
+ gb|AAA35109.1| STE12 protein [Saccharomyces cerevisiae]
+ gb|AAB68884.1| Yhr084wp [Saccharomyces cerevisiae]
+ gb|EDN62324.1| transcription factor [Saccharomyces cerevisiae YJM789]
+ gb|EDV09132.1| protein STE12 [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU04721.1| Ste12p [Saccharomyces cerevisiae JAY291]
+ tpg|DAA06779.1| TPA: Ste12p [Saccharomyces cerevisiae S288c]
+ gb|EIW09986.1| Ste12p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=688
+
+ Score =  128 bits (322),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>gb|EHN06708.1| Ste12p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=688
+
+ Score =  127 bits (319),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 68/69 (99%), Positives = 68/69 (99%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGN PTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  581  PRRRTVGMKSSQGNXPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  640
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  641  SAHPDKNKE  649
+
+
+>gb|EJS43446.1| ste12p [Saccharomyces arboricola H-6]
+Length=688
+
+ Score =  125 bits (314),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 49/68 (72%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  2    RRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDS  61
+            RRRT GMK+SQ N  T  KQS GKSAKISKPLHIKTS+YQKQYKINLETK +PS GDE  
+Sbjct  582  RRRTAGMKNSQANASTTGKQSTGKSAKISKPLHIKTSSYQKQYKINLETKTKPSTGDEHL  641
+
+Query  62   AHPDKNKE  69
+            + P+ +KE
+Sbjct  642  SRPEPHKE  649
+
+
+>gb|EDZ71724.1| YHR084Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=539
+
+ Score =  121 bits (304),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1    PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+            PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  432  PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  491
+
+Query  61   SAHPDKNKE  69
+            SAHPDKNKE
+Sbjct  492  SAHPDKNKE  500
+
+
+>pdb|3W3W|B Chain B, Crystal Structure Of Kap121p Bound To Ste12p
+Length=69
+
+ Score = 88.0 bits (216),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+           PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED
+Sbjct  1   PRRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDED  60
+
+Query  61  SAHPDKNKE  69
+           SAHPDKNKE
+Sbjct  61  SAHPDKNKE  69
+
+
+>ref|XP_003677838.1| hypothetical protein NCAS_0H01800 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC71490.1| hypothetical protein NCAS_0H01800 [Naumovozyma castellii CBS 
+4309]
+Length=776
+
+ Score = 44.0 bits (102),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  26   SAKISKPLHIKTSAYQKQYKINLETK  51
+            S KI KPLHIKTS+YQKQYK+N+ ++
+Sbjct  695  SGKIKKPLHIKTSSYQKQYKLNMLSR  720
+
+
+>ref|YP_003238736.1| diguanylate cyclase [Ammonifex degensii KC4]
+ ref|WP_015738764.1| diguanylate cyclase [Ammonifex degensii]
+ gb|ACX51886.1| diguanylate cyclase [Ammonifex degensii KC4]
+Length=706
+
+ Score = 39.0 bits (89),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 33/68 (49%), Gaps = 0/68 (0%)
+
+Query  2    RRRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDS  61
+            R R  G +SS G   T +++   + A++S P+ +     ++     L+  ARP AG E  
+Sbjct  164  RARKSGEESSHGREKTRSRRGKKREAEVSSPVPVDAGDARETVSTPLQEGARPGAGGEGV  223
+
+Query  62   AHPDKNKE  69
+            A P +  E
+Sbjct  224  APPRQEGE  231
+
+
+>emb|CDJ34175.1| hypothetical protein EMH_0088320 [Eimeria mitis]
+Length=289
+
+ Score = 37.9 bits (86),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 31/62 (50%), Gaps = 11/62 (18%)
+
+Query  10   SSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDE--DSAHPDKN  67
+            ++Q N PT     +  S K ++P H+ TS+          ++A+P  GDE  D+A P   
+Sbjct  52   NNQRNAPTSGDPDLRTSLKAAEPPHLSTSS---------ASEAKPGTGDEKHDNASPPAQ  102
+
+Query  68   KE  69
+            K+
+Sbjct  103  KD  104
+
+
+>ref|XP_006132322.1| PREDICTED: potassium voltage-gated channel subfamily B member 
+1, partial [Pelodiscus sinensis]
+Length=820
+
+ Score = 37.9 bits (86),  Expect = 0.29, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 33/67 (49%), Gaps = 0/67 (0%)
+
+Query  3    RRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDSA  62
+            +RT+   SS  +  T  + S  K+   S P H+     +  Y    +T+++P+   +D+ 
+Sbjct  451  KRTLSETSSSKSFETREQGSPEKARSSSSPQHLNVQQLEDMYNKMAKTQSQPNLNTKDTG  510
+
+Query  63   HPDKNKE  69
+            HP K KE
+Sbjct  511  HPGKQKE  517
+
+
+>ref|XP_005146770.1| PREDICTED: LOW QUALITY PROTEIN: potassium voltage-gated channel 
+subfamily B member 1 [Melopsittacus undulatus]
+Length=860
+
+ Score = 37.5 bits (85),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 33/67 (49%), Gaps = 0/67 (0%)
+
+Query  3    RRTVGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARPSAGDEDSA  62
+            +RT+   SS  +  T  + S  K+   S P H+     +  Y    +T+++P+   +DS+
+Sbjct  492  KRTLSETSSSKSFETKEQGSPEKARSSSSPQHLNVQQLEDMYNKMAKTQSQPNLNTKDSS  551
+
+Query  63   HPDKNKE  69
+             P K KE
+Sbjct  552  QPGKQKE  558
+
+
+>ref|XP_002847386.1| conserved hypothetical protein [Arthroderma otae CBS 113480]
+ gb|EEQ30073.1| conserved hypothetical protein [Arthroderma otae CBS 113480]
+Length=449
+
+ Score = 36.7 bits (83),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 17/55 (31%), Positives = 27/55 (49%), Gaps = 1/55 (2%)
+
+Query  1    PRRRT-VGMKSSQGNVPTGNKQSVGKSAKISKPLHIKTSAYQKQYKINLETKARP  54
+            P++RT   +K+++   P         S+ IS P  +KTS+ Q     NL T + P
+Sbjct  110  PQKRTSARIKNNRATAPPALPTPTATSSAISSPPQVKTSSRQNNAISNLATSSPP  164
+
+
+
+Lambda      K        H        a         alpha
+   0.295    0.121    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0371    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

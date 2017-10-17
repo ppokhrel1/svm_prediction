@@ -1,0 +1,26 @@
+#!/bin/sh
+#purpose: run PSSM 
+#author: Avdesh
+
+psiblast_path="/home1/presentation/DBase/BLAST/ncbi-blast-2.2.28+/bin";
+nr_database_path="/home1/presentation/DBase/BLAST/ncbi-blast-2.2.28+/bin/nr/nr";
+
+
+fasta="./new_dataset/fasta"
+pssm_output_file_path="./new_dataset/PSSM";
+
+for file in `cat new_dataset/pdb_list_6.txt`;
+do 
+	#===========================================================================================================
+	#Run PSI-BLAST to generate PSSM
+	
+	if [ -f ./Test_Individual_Fastas_PSSM/$file.mat ];
+	then
+		printf "PSSM already exists!!\n";
+	else
+		printf "running PSI-BLAST...";
+		$psiblast_path/psiblast -query $fasta/$file.fasta -db $nr_database_path -out $pssm_output_file_path/$file.out -num_iterations 3 -num_threads 16 -out_ascii_pssm $pssm_output_file_path/$file.mat;
+		printf "...DONE!!!\n";
+	fi
+	#===========================================================================================================
+done

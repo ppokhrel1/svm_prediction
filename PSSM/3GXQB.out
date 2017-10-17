@@ -1,0 +1,520 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3GXQB
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3GXQ|A  Chain A, Structure Of Arta And Dna Complex >pdb|3GXQ|...   108    1e-29
+ref|NP_863623.1|  putative regulator of transfer genes ArtA [Stap...   107    5e-29
+ref|YP_001653087.1|  TrsN [Staphylococcus aureus] >ref|YP_0033479...   107    5e-29
+ref|WP_001063223.1|  regulator [Staphylococcus aureus] >gb|EFG391...   104    7e-28
+ref|WP_001646519.1|  transfer complex protein TrsN [Bacteria] >gb...  77.4    2e-17
+ref|WP_001064663.1|  regulator [Staphylococcus aureus] >gb|EHS252...  68.9    6e-14
+ref|YP_004303223.1|  ABC transporter substrate-binding protein [P...  36.2    0.75 
+ref|XP_002837827.1|  hypothetical protein [Tuber melanosporum Mel...  32.7    8.1  
+
+
+>pdb|3GXQ|A Chain A, Structure Of Arta And Dna Complex
+ pdb|3GXQ|B Chain B, Structure Of Arta And Dna Complex
+Length=54
+
+ Score =  108 bits (271),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA  54
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA
+Sbjct  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA  54
+
+
+>ref|NP_863623.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|NP_877986.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ ref|YP_492695.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ ref|YP_002790918.1| transcriptional regulator TrsN [Staphylococcus aureus]
+ ref|YP_006938351.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938377.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938494.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938520.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938579.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006937665.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|WP_001063224.1| regulator [Bacilli]
+ gb|AAC61952.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|AAA71951.2| putative [Staphylococcus aureus]
+ dbj|BAC00979.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ gb|AAQ17130.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ gb|ABD22952.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ emb|CAR62420.1| transcriptional regulator TrsN [Staphylococcus aureus]
+ gb|EEV84433.1| transfer complex protein TrsN [Staphylococcus aureus A5948]
+ gb|ACZ68685.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ACZ68712.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA61352.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62101.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62128.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62186.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62776.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|EHQ76513.1| hypothetical protein SEVCU041_0994 [Staphylococcus epidermidis 
+VCU041]
+ gb|EHT17228.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1165]
+ gb|EHT51666.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG547]
+ gb|EHT61145.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1233]
+ gb|EHT89782.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIGC341D]
+ gb|EHT90498.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIGC128]
+ gb|EIK02792.1| hypothetical protein MQA_02465 [Staphylococcus aureus subsp. 
+aureus VRS1]
+ gb|EIK19394.1| hypothetical protein MQO_02605 [Staphylococcus aureus subsp. 
+aureus VRS8]
+ gb|EIK20985.1| hypothetical protein MQQ_02652 [Staphylococcus aureus subsp. 
+aureus VRS9]
+ gb|EIK28191.1| hypothetical protein MQU_02693 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK29200.1| hypothetical protein MQW_02711 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|EJE31059.1| hypothetical protein HMPREF1390_11641 [Staphylococcus epidermidis 
+NIH08001]
+ gb|EJE36098.1| hypothetical protein HMPREF1389_12445 [Staphylococcus epidermidis 
+NIH06004]
+ gb|ENI44584.1| hypothetical protein SW7_02714 [Staphylococcus aureus HI168]
+ gb|ENJ63339.1| hypothetical protein SYI_02692 [Staphylococcus aureus M0329]
+ gb|ENJ83412.1| hypothetical protein UGW_00028 [Staphylococcus aureus M0351]
+ gb|ENK28766.1| hypothetical protein U19_02609 [Staphylococcus aureus M0478]
+ gb|ENK46139.1| hypothetical protein U1M_02802 [Staphylococcus aureus M0528]
+ gb|ENL09029.1| hypothetical protein U37_00433 [Staphylococcus aureus M0687]
+ gb|ENN00590.1| hypothetical protein U95_02705 [Staphylococcus aureus M1450]
+ gb|ENN43373.1| hypothetical protein WUK_02851 [Staphylococcus aureus M0946]
+ gb|EOE35480.1| hypothetical protein S93_03254 [Enterococcus faecalis EnGen0106]
+ gb|EOE35547.1| hypothetical protein QAM_03209 [Enterococcus faecalis EnGen0070]
+ gb|EOE35917.1| hypothetical protein QAG_03247 [Enterococcus faecalis EnGen0067]
+ gb|EOE44058.1| hypothetical protein S95_03130 [Enterococcus faecalis EnGen0088]
+ gb|EOE50591.1| hypothetical protein S9A_03250 [Enterococcus faecalis EnGen0090]
+ gb|EOE55405.1| hypothetical protein S9C_03320 [Enterococcus faecalis EnGen0109]
+ gb|EOE57948.1| hypothetical protein S9E_03297 [Enterococcus faecalis EnGen0110]
+ gb|EOE67569.1| hypothetical protein S9I_03295 [Enterococcus faecalis EnGen0092]
+ gb|EOE67696.1| hypothetical protein S9K_03313 [Enterococcus faecalis EnGen0085]
+ gb|EOE67830.1| hypothetical protein S9M_03269 [Enterococcus faecalis EnGen0111]
+ gb|EOE77299.1| hypothetical protein S9O_03292 [Enterococcus faecalis EnGen0119]
+ gb|EOE77383.1| hypothetical protein S9Q_02801 [Enterococcus faecalis EnGen0093]
+ gb|EOE78264.1| hypothetical protein S9S_03160 [Enterococcus faecalis EnGen0094]
+ gb|EOE87644.1| hypothetical protein S9W_03192 [Enterococcus faecalis EnGen0096]
+ gb|EOE98818.1| hypothetical protein SA7_03259 [Enterococcus faecalis EnGen0099]
+ gb|EOF03360.1| hypothetical protein SAE_03223 [Enterococcus faecalis EnGen0113]
+ gb|EOF19147.1| hypothetical protein SC3_03314 [Enterococcus faecalis EnGen0108]
+ gb|EOG39060.1| hypothetical protein SO3_03270 [Enterococcus faecalis EnGen0196]
+ gb|EOG41419.1| hypothetical protein SO5_03263 [Enterococcus faecalis EnGen0197]
+ gb|EOG46432.1| hypothetical protein SO7_02832 [Enterococcus faecalis EnGen0198]
+ gb|EOG50591.1| hypothetical protein SOA_03312 [Enterococcus faecalis EnGen0200]
+ gb|EOG55241.1| hypothetical protein SOI_03270 [Enterococcus faecalis EnGen0204]
+ gb|EOG58040.1| hypothetical protein SOK_03321 [Enterococcus faecalis EnGen0207]
+ gb|EOG67711.1| hypothetical protein SOQ_03288 [Enterococcus faecalis EnGen0206]
+ gb|EOG69453.1| hypothetical protein SOS_03271 [Enterococcus faecalis EnGen0374]
+ gb|EOG79961.1| hypothetical protein SOW_03282 [Enterococcus faecalis EnGen0209]
+ gb|EOG80684.1| hypothetical protein SOU_00293 [Enterococcus faecalis EnGen0208]
+ gb|EOG81372.1| hypothetical protein SOY_03328 [Enterococcus faecalis EnGen0210]
+ gb|EOG82026.1| hypothetical protein SQ1_03272 [Enterococcus faecalis EnGen0211]
+ gb|EOG93075.1| hypothetical protein SQ5_03271 [Enterococcus faecalis EnGen0213]
+ gb|EOH00079.1| hypothetical protein SQ7_00500 [Enterococcus faecalis EnGen0214]
+ gb|EOH02744.1| hypothetical protein SQ9_00519 [Enterococcus faecalis EnGen0215]
+ gb|EOH02822.1| hypothetical protein SQA_03320 [Enterococcus faecalis EnGen0216]
+ gb|EOH03036.1| hypothetical protein SQC_03284 [Enterococcus faecalis EnGen0217]
+ gb|EOH04327.1| hypothetical protein SQE_03301 [Enterococcus faecalis EnGen0218]
+ gb|EOH12884.1| hypothetical protein SQG_03260 [Enterococcus faecalis EnGen0219]
+ gb|EOH13130.1| hypothetical protein SQI_03346 [Enterococcus faecalis EnGen0220]
+ gb|EOH13145.1| hypothetical protein SQK_03243 [Enterococcus faecalis EnGen0221]
+ gb|EOH22734.1| hypothetical protein SQO_03239 [Enterococcus faecalis EnGen0223]
+ gb|EOH22754.1| hypothetical protein SQQ_03278 [Enterococcus faecalis EnGen0224]
+ gb|EOH22808.1| hypothetical protein SQM_03312 [Enterococcus faecalis EnGen0222]
+ gb|EOH31678.1| hypothetical protein SQS_03348 [Enterococcus faecalis EnGen0225]
+ gb|EOH32509.1| hypothetical protein SQU_03046 [Enterococcus faecalis EnGen0226]
+ gb|EOI34913.1| hypothetical protein UE3_00538 [Enterococcus faecalis EnGen0231]
+ gb|EOI77588.1| hypothetical protein UKW_03229 [Enterococcus faecalis EnGen0310]
+ gb|EOK60284.1| hypothetical protein QAK_03248 [Enterococcus faecalis EnGen0069]
+ gb|EOM52459.1| hypothetical protein SOE_00560 [Enterococcus faecalis EnGen0202]
+ gb|EOM52649.1| hypothetical protein SOG_03252 [Enterococcus faecalis EnGen0203]
+ gb|EOR91290.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus CBD-635]
+ gb|EPR23698.1| regulator [Staphylococcus aureus SA_ST125_MupR]
+ prf||2004267A artA gene
+Length=62
+
+ Score =  107 bits (268),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|YP_001653087.1| TrsN [Staphylococcus aureus]
+ ref|YP_003347972.1| putative transfer genes regulator ArtA [Staphylococcus aureus]
+ ref|YP_006958408.1| hypothetical protein SUM_0002p2 [Staphylococcus aureus]
+ ref|WP_012263508.1| TrsN [Staphylococcus aureus]
+ gb|ABY70694.1| TrsN [Staphylococcus aureus]
+ gb|ADA57930.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADM29078.1| hypothetical protein SUM_0002p2 [Staphylococcus aureus]
+Length=62
+
+ Score =  107 bits (267),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|WP_001063223.1| regulator [Staphylococcus aureus]
+ gb|EFG39182.1| transfer genes regulator ArtA [Staphylococcus aureus A9754]
+ gb|ENK39582.1| hypothetical protein UIE_02842 [Staphylococcus aureus M0510]
+ gb|ENM21325.1| hypothetical protein U5Q_02869 [Staphylococcus aureus M1095]
+Length=62
+
+ Score =  104 bits (260),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 52/53 (98%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFF KKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFDKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|WP_001646519.1| transfer complex protein TrsN [Bacteria]
+ gb|EHT35259.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1242]
+ gb|ENF93949.1| transfer complex protein TrsN [Escherichia coli P0305260.3]
+Length=42
+
+ Score = 77.4 bits (189),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/38 (97%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+
+Query  16  LLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           +LVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  1   MLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  38
+
+
+>ref|WP_001064663.1| regulator [Staphylococcus aureus]
+ gb|EHS25238.1| hypothetical protein IS88_2343 [Staphylococcus aureus subsp. 
+aureus IS-88]
+Length=57
+
+ Score = 68.9 bits (167),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 31/46 (67%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  8   KKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           K+KK SLHLLV+P+MKDEIIK++Q  +F+N+SQAGR I++KGLE I
+Sbjct  7   KEKKTSLHLLVEPEMKDEIIKFSQNGNFENISQAGRYIIQKGLEYI  52
+
+
+>ref|YP_004303223.1| ABC transporter substrate-binding protein [Polymorphum gilvum 
+SL003B-26A1]
+ ref|WP_013652240.1| ABC transporter substrate-binding protein [Polymorphum gilvum]
+ gb|ADZ69923.1| ABC transporter, substrate binding protein [Polymorphum gilvum 
+SL003B-26A1]
+Length=549
+
+ Score = 36.2 bits (82),  Expect = 0.75, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  16   LLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKG  49
+            LL+ PDM+ E + YA    FD++ + GR++LKK 
+Sbjct  122  LLIQPDMESEPVIYADRSFFDDILENGRDVLKKA  155
+
+
+>ref|XP_002837827.1| hypothetical protein [Tuber melanosporum Mel28]
+ emb|CAZ82018.1| unnamed protein product [Tuber melanosporum]
+Length=553
+
+ Score = 32.7 bits (73),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 4/52 (8%)
+
+Query  7    GKKKKVSLH----LLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA  54
+            G+ +K SLH    L  DPDMK   I   + ++ +   +AG E  KKG  +IA
+Sbjct  250  GENQKASLHFQEALRCDPDMKQARIFLRRSRELEKKKEAGNEAFKKGDYKIA  301
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307993208004
+Results from round 2
+
+
+Query= 3GXQB
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3GXQ|A  Chain A, Structure Of Arta And Dna Complex >pdb|3GXQ|...  84.2    5e-20
+ref|NP_863623.1|  putative regulator of transfer genes ArtA [Stap...  80.4    2e-18
+ref|YP_001653087.1|  TrsN [Staphylococcus aureus] >ref|YP_0033479...  79.2    6e-18
+ref|WP_001063223.1|  regulator [Staphylococcus aureus] >gb|EFG391...  78.9    8e-18
+ref|WP_001064663.1|  regulator [Staphylococcus aureus] >gb|EHS252...  66.9    3e-13
+ref|WP_001646519.1|  transfer complex protein TrsN [Bacteria] >gb...  58.1    6e-10
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_004303223.1|  ABC transporter substrate-binding protein [P...  34.9    1.7  
+
+
+>pdb|3GXQ|A Chain A, Structure Of Arta And Dna Complex
+ pdb|3GXQ|B Chain B, Structure Of Arta And Dna Complex
+Length=54
+
+ Score = 84.2 bits (207),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA  54
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA
+Sbjct  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQIA  54
+
+
+>ref|NP_863623.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|NP_877986.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ ref|YP_492695.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ ref|YP_002790918.1| transcriptional regulator TrsN [Staphylococcus aureus]
+ ref|YP_006938351.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938377.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938494.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938520.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006938579.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|YP_006937665.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ ref|WP_001063224.1| regulator [Bacilli]
+ gb|AAC61952.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|AAA71951.2| putative [Staphylococcus aureus]
+ dbj|BAC00979.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ gb|AAQ17130.1| regulator of transfer gene ArtA [Staphylococcus aureus]
+ gb|ABD22952.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ emb|CAR62420.1| transcriptional regulator TrsN [Staphylococcus aureus]
+ gb|EEV84433.1| transfer complex protein TrsN [Staphylococcus aureus A5948]
+ gb|ACZ68685.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ACZ68712.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA61352.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62101.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62128.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62186.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADA62776.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|EHQ76513.1| hypothetical protein SEVCU041_0994 [Staphylococcus epidermidis 
+VCU041]
+ gb|EHT17228.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1165]
+ gb|EHT51666.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG547]
+ gb|EHT61145.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1233]
+ gb|EHT89782.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIGC341D]
+ gb|EHT90498.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIGC128]
+ gb|EIK02792.1| hypothetical protein MQA_02465 [Staphylococcus aureus subsp. 
+aureus VRS1]
+ gb|EIK19394.1| hypothetical protein MQO_02605 [Staphylococcus aureus subsp. 
+aureus VRS8]
+ gb|EIK20985.1| hypothetical protein MQQ_02652 [Staphylococcus aureus subsp. 
+aureus VRS9]
+ gb|EIK28191.1| hypothetical protein MQU_02693 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK29200.1| hypothetical protein MQW_02711 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|EJE31059.1| hypothetical protein HMPREF1390_11641 [Staphylococcus epidermidis 
+NIH08001]
+ gb|EJE36098.1| hypothetical protein HMPREF1389_12445 [Staphylococcus epidermidis 
+NIH06004]
+ gb|ENI44584.1| hypothetical protein SW7_02714 [Staphylococcus aureus HI168]
+ gb|ENJ63339.1| hypothetical protein SYI_02692 [Staphylococcus aureus M0329]
+ gb|ENJ83412.1| hypothetical protein UGW_00028 [Staphylococcus aureus M0351]
+ gb|ENK28766.1| hypothetical protein U19_02609 [Staphylococcus aureus M0478]
+ gb|ENK46139.1| hypothetical protein U1M_02802 [Staphylococcus aureus M0528]
+ gb|ENL09029.1| hypothetical protein U37_00433 [Staphylococcus aureus M0687]
+ gb|ENN00590.1| hypothetical protein U95_02705 [Staphylococcus aureus M1450]
+ gb|ENN43373.1| hypothetical protein WUK_02851 [Staphylococcus aureus M0946]
+ gb|EOE35480.1| hypothetical protein S93_03254 [Enterococcus faecalis EnGen0106]
+ gb|EOE35547.1| hypothetical protein QAM_03209 [Enterococcus faecalis EnGen0070]
+ gb|EOE35917.1| hypothetical protein QAG_03247 [Enterococcus faecalis EnGen0067]
+ gb|EOE44058.1| hypothetical protein S95_03130 [Enterococcus faecalis EnGen0088]
+ gb|EOE50591.1| hypothetical protein S9A_03250 [Enterococcus faecalis EnGen0090]
+ gb|EOE55405.1| hypothetical protein S9C_03320 [Enterococcus faecalis EnGen0109]
+ gb|EOE57948.1| hypothetical protein S9E_03297 [Enterococcus faecalis EnGen0110]
+ gb|EOE67569.1| hypothetical protein S9I_03295 [Enterococcus faecalis EnGen0092]
+ gb|EOE67696.1| hypothetical protein S9K_03313 [Enterococcus faecalis EnGen0085]
+ gb|EOE67830.1| hypothetical protein S9M_03269 [Enterococcus faecalis EnGen0111]
+ gb|EOE77299.1| hypothetical protein S9O_03292 [Enterococcus faecalis EnGen0119]
+ gb|EOE77383.1| hypothetical protein S9Q_02801 [Enterococcus faecalis EnGen0093]
+ gb|EOE78264.1| hypothetical protein S9S_03160 [Enterococcus faecalis EnGen0094]
+ gb|EOE87644.1| hypothetical protein S9W_03192 [Enterococcus faecalis EnGen0096]
+ gb|EOE98818.1| hypothetical protein SA7_03259 [Enterococcus faecalis EnGen0099]
+ gb|EOF03360.1| hypothetical protein SAE_03223 [Enterococcus faecalis EnGen0113]
+ gb|EOF19147.1| hypothetical protein SC3_03314 [Enterococcus faecalis EnGen0108]
+ gb|EOG39060.1| hypothetical protein SO3_03270 [Enterococcus faecalis EnGen0196]
+ gb|EOG41419.1| hypothetical protein SO5_03263 [Enterococcus faecalis EnGen0197]
+ gb|EOG46432.1| hypothetical protein SO7_02832 [Enterococcus faecalis EnGen0198]
+ gb|EOG50591.1| hypothetical protein SOA_03312 [Enterococcus faecalis EnGen0200]
+ gb|EOG55241.1| hypothetical protein SOI_03270 [Enterococcus faecalis EnGen0204]
+ gb|EOG58040.1| hypothetical protein SOK_03321 [Enterococcus faecalis EnGen0207]
+ gb|EOG67711.1| hypothetical protein SOQ_03288 [Enterococcus faecalis EnGen0206]
+ gb|EOG69453.1| hypothetical protein SOS_03271 [Enterococcus faecalis EnGen0374]
+ gb|EOG79961.1| hypothetical protein SOW_03282 [Enterococcus faecalis EnGen0209]
+ gb|EOG80684.1| hypothetical protein SOU_00293 [Enterococcus faecalis EnGen0208]
+ gb|EOG81372.1| hypothetical protein SOY_03328 [Enterococcus faecalis EnGen0210]
+ gb|EOG82026.1| hypothetical protein SQ1_03272 [Enterococcus faecalis EnGen0211]
+ gb|EOG93075.1| hypothetical protein SQ5_03271 [Enterococcus faecalis EnGen0213]
+ gb|EOH00079.1| hypothetical protein SQ7_00500 [Enterococcus faecalis EnGen0214]
+ gb|EOH02744.1| hypothetical protein SQ9_00519 [Enterococcus faecalis EnGen0215]
+ gb|EOH02822.1| hypothetical protein SQA_03320 [Enterococcus faecalis EnGen0216]
+ gb|EOH03036.1| hypothetical protein SQC_03284 [Enterococcus faecalis EnGen0217]
+ gb|EOH04327.1| hypothetical protein SQE_03301 [Enterococcus faecalis EnGen0218]
+ gb|EOH12884.1| hypothetical protein SQG_03260 [Enterococcus faecalis EnGen0219]
+ gb|EOH13130.1| hypothetical protein SQI_03346 [Enterococcus faecalis EnGen0220]
+ gb|EOH13145.1| hypothetical protein SQK_03243 [Enterococcus faecalis EnGen0221]
+ gb|EOH22734.1| hypothetical protein SQO_03239 [Enterococcus faecalis EnGen0223]
+ gb|EOH22754.1| hypothetical protein SQQ_03278 [Enterococcus faecalis EnGen0224]
+ gb|EOH22808.1| hypothetical protein SQM_03312 [Enterococcus faecalis EnGen0222]
+ gb|EOH31678.1| hypothetical protein SQS_03348 [Enterococcus faecalis EnGen0225]
+ gb|EOH32509.1| hypothetical protein SQU_03046 [Enterococcus faecalis EnGen0226]
+ gb|EOI34913.1| hypothetical protein UE3_00538 [Enterococcus faecalis EnGen0231]
+ gb|EOI77588.1| hypothetical protein UKW_03229 [Enterococcus faecalis EnGen0310]
+ gb|EOK60284.1| hypothetical protein QAK_03248 [Enterococcus faecalis EnGen0069]
+ gb|EOM52459.1| hypothetical protein SOE_00560 [Enterococcus faecalis EnGen0202]
+ gb|EOM52649.1| hypothetical protein SOG_03252 [Enterococcus faecalis EnGen0203]
+ gb|EOR91290.1| putative regulator of transfer genes ArtA [Staphylococcus aureus 
+subsp. aureus CBD-635]
+ gb|EPR23698.1| regulator [Staphylococcus aureus SA_ST125_MupR]
+ prf||2004267A artA gene
+Length=62
+
+ Score = 80.4 bits (197),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|YP_001653087.1| TrsN [Staphylococcus aureus]
+ ref|YP_003347972.1| putative transfer genes regulator ArtA [Staphylococcus aureus]
+ ref|YP_006958408.1| hypothetical protein SUM_0002p2 [Staphylococcus aureus]
+ ref|WP_012263508.1| TrsN [Staphylococcus aureus]
+ gb|ABY70694.1| TrsN [Staphylococcus aureus]
+ gb|ADA57930.1| putative regulator of transfer genes ArtA [Staphylococcus aureus]
+ gb|ADM29078.1| hypothetical protein SUM_0002p2 [Staphylococcus aureus]
+Length=62
+
+ Score = 79.2 bits (194),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|WP_001063223.1| regulator [Staphylococcus aureus]
+ gb|EFG39182.1| transfer genes regulator ArtA [Staphylococcus aureus A9754]
+ gb|ENK39582.1| hypothetical protein UIE_02842 [Staphylococcus aureus M0510]
+ gb|ENM21325.1| hypothetical protein U5Q_02869 [Staphylococcus aureus M1095]
+Length=62
+
+ Score = 78.9 bits (193),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 52/53 (98%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+
+Query  1   ENSVFFGKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           ENSVFF KKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  6   ENSVFFDKKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  58
+
+
+>ref|WP_001064663.1| regulator [Staphylococcus aureus]
+ gb|EHS25238.1| hypothetical protein IS88_2343 [Staphylococcus aureus subsp. 
+aureus IS-88]
+Length=57
+
+ Score = 66.9 bits (162),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 31/46 (67%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  8   KKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           K+KK SLHLLV+P+MKDEIIK++Q  +F+N+SQAGR I++KGLE I
+Sbjct  7   KEKKTSLHLLVEPEMKDEIIKFSQNGNFENISQAGRYIIQKGLEYI  52
+
+
+>ref|WP_001646519.1| transfer complex protein TrsN [Bacteria]
+ gb|EHT35259.1| artA regulator protein [Staphylococcus aureus subsp. aureus CIG1242]
+ gb|ENF93949.1| transfer complex protein TrsN [Escherichia coli P0305260.3]
+Length=42
+
+ Score = 58.1 bits (139),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 37/38 (97%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+
+Query  16  LLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  53
+           +LVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI
+Sbjct  1   MLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKGLEQI  38
+
+
+>ref|YP_004303223.1| ABC transporter substrate-binding protein [Polymorphum gilvum 
+SL003B-26A1]
+ ref|WP_013652240.1| ABC transporter substrate-binding protein [Polymorphum gilvum]
+ gb|ADZ69923.1| ABC transporter, substrate binding protein [Polymorphum gilvum 
+SL003B-26A1]
+Length=549
+
+ Score = 34.9 bits (79),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  8    KKKKVSLHLLVDPDMKDEIIKYAQEKDFDNVSQAGREILKKG  49
+            K       LL+ PDM+ E + YA    FD++ + GR++LKK 
+Sbjct  114  KGGSTETPLLIQPDMESEPVIYADRSFFDDILENGRDVLKKA  155
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.143    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307993208004
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

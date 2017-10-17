@@ -1,0 +1,4710 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4EO1A
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|4EO1|A  Chain A, Crystal Structure Of The Tola Binding Domain...   143    1e-42
+ref|NP_955531.1|  mature G III capsid protein [Enterobacteria pha...   149    1e-41
+ref|NP_040576.1|  G III capsid protein precursor [Enterobacteria ...   150    1e-41
+gb|AAW65363.1|  gene III protein [synthetic construct]                 149    5e-41
+ref|NP_039621.1|  gene III product [Enterobacteria phage I2-2] >s...   137    7e-37
+ref|WP_001618455.1|  hypothetical protein [Escherichia coli] >gb|...  96.3    4e-22
+ref|WP_001608233.1|  hypothetical protein [Escherichia coli] >gb|...  95.9    6e-22
+ref|WP_020244582.1|  hypothetical protein, partial [Escherichia c...  92.8    1e-21
+ref|WP_020239544.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_020239956.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_023151876.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_021573178.1|  hypothetical protein, partial [Escherichia c...  93.6    2e-21
+ref|WP_021548345.1|  hypothetical protein, partial [Escherichia c...  93.6    2e-21
+ref|WP_000823305.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_021538708.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_021572342.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_001675799.1|  hypothetical protein, partial [Escherichia c...  92.8    2e-21
+ref|WP_001705087.1|  phage Coat Protein A family protein [Escheri...  93.6    4e-21
+ref|WP_006825823.1|  Coat protein A [Salmonella enterica] >emb|CC...  93.6    5e-21
+emb|CBX73730.1|  attachment protein G3P [Yersinia enterocolitica ...  93.6    5e-21
+ref|WP_001253121.1|  attachment protein [Salmonella enterica] >gb...  93.6    5e-21
+ref|WP_000823306.1|  attachment protein [Escherichia coli] >gb|ED...  93.6    5e-21
+ref|WP_001734930.1|  Coat protein A [Salmonella enterica] >gb|ELO...  93.2    6e-21
+ref|WP_021549830.1|  hypothetical protein [Escherichia coli] >gb|...  93.6    6e-21
+ref|WP_023142887.1|  attachment protein G3P family protein, parti...  93.6    6e-21
+ref|YP_004298354.1|  Coat protein A [Yersinia enterocolitica subs...  93.6    6e-21
+ref|YP_006110789.1|  hypothetical protein UM146_09470 [Escherichi...  92.8    6e-21
+ref|WP_023893483.1|  attachment protein [Salmonella enterica] >gb...  93.6    6e-21
+ref|WP_020802191.1|  attachment protein G3P family protein [Klebs...  93.6    6e-21
+ref|WP_020246325.1|  hypothetical protein, partial [Escherichia c...  88.6    7e-20
+ref|WP_020246339.1|  hypothetical protein, partial [Escherichia c...  68.2    2e-12
+pdb|1FGP|A  Chain A, Membrane Penetration Domain Of The Minor Coa...  48.1    7e-06
+gb|AAT01117.1|  rpL23-ScFv fusion protein [rpL23-fusion expressio...  48.9    5e-05
+pdb|2G3P|A  Chain A, Structure Of The N-Terminal Two Domains Of T...  47.0    1e-04
+gb|ACY07152.1|  III [Enterobacteria phage f1]                         47.8    1e-04
+gb|AEQ25536.1|  III protein [Enterobacteria phage f1]                 47.8    1e-04
+gb|AGO32656.1|  breast cancer binding peptide PC82, partial [synt...  45.1    1e-04
+gb|AGO32657.1|  breast cancer binding peptideP PC90, partial [syn...  45.1    1e-04
+gb|AGO32654.1|  breast cancer binding peptide PC65, partial [synt...  45.1    1e-04
+gb|AGO32655.1|  breast cancer binding peptide PC73, partial [synt...  44.7    1e-04
+gb|AAZ78138.1|  pelB/anti-tetanus toxoid immunoglobulin gamma hea...  47.4    2e-04
+gb|ADR00489.1|  scTCR-pIII fusion protein [Filamentous phage disp...  47.4    2e-04
+gb|ABO72593.1|  recombinant protein III precursor [Filamentous ph...  47.0    2e-04
+gb|ACY07142.1|  III [Enterobacteria phage f1]                         47.0    2e-04
+ref|NP_510891.1|  structural protein [Enterobacteria phage M13] >...  47.0    2e-04
+gb|AEQ25516.1|  III protein [Enterobacteria phage f1]                 47.0    2e-04
+pir||Z3BPF1  coat protein A precursor - phage f1                      47.0    2e-04
+gb|ADN93464.1|  recombinant pIII precursor [synthetic construct] ...  47.0    2e-04
+sp|P69169.1|G3P_BPF1  RecName: Full=Attachment protein G3P; AltNa...  47.0    2e-04
+sp|P03661.1|G3P_BPFD  RecName: Full=Attachment protein G3P; AltNa...  47.0    2e-04
+gb|AFQ39716.1|  p3, partial [synthetic construct]                     47.0    2e-04
+gb|AEQ25526.1|  III protein [Enterobacteria phage f1]                 47.0    2e-04
+gb|AGO32653.1|  breast cancer binding peptide PC34, partial [synt...  44.3    2e-04
+emb|CAA23872.1|  unnamed protein product [Enterobacteria phage f1...  47.0    2e-04
+gb|AFQ21790.1|  structural protein [Enterobacteria phage M13]         47.0    2e-04
+gb|ADN93465.1|  recombinant pIII precursor [synthetic construct]      47.0    2e-04
+gb|AAG01722.1|AF246446_1  recombinant adsoprtion protein rpIII-6m...  47.0    2e-04
+gb|AAG01721.1|AF246445_1  recombinant adsorption protein rpIII-15...  47.0    2e-04
+emb|CBA76049.1|  hypothetical protein ARN_33030 [Arsenophonus nas...  46.2    3e-04
+pdb|1TOL|A  Chain A, Fusion Of N-Terminal Domain Of The Minor Coa...  44.3    0.001
+emb|CAA74922.1|  recombinant single chain antibody pIII fusion pr...  44.7    0.001
+prf||1814345A  gene III                                               43.9    0.002
+emb|CAA59045.1|  M13 pIII [synthetic construct]                       43.9    0.002
+dbj|BAD24100.1|  M13 pIII [Cloning vector TFV3] >dbj|BAD24101.1| ...  43.9    0.002
+emb|CAA59046.1|  hybrid PSTI-pIII [synthetic construct]               43.9    0.002
+gb|ACY07132.1|  III [Enterobacteria phage f1]                         43.9    0.002
+gb|AFQ39731.1|  p3 [synthetic construct]                              43.9    0.002
+pdb|1G3P|A  Chain A, Crystal Structure Of The N-Terminal Domains ...  42.7    0.003
+dbj|BAK08550.1|  attachment protein G3P [Enterobacteria phage M13]    43.5    0.004
+ref|WP_000341084.1|  hypothetical protein [Escherichia coli] >gb|...  41.6    0.012
+dbj|BAK08551.1|  attachment protein G3P [Enterobacteria phage M13]    41.2    0.021
+dbj|BAK08552.1|  attachment protein G3P [Enterobacteria phage M13]    40.0    0.047
+pdb|3DGS|A  Chain A, Changing The Determinants Of Protein Stabili...  38.9    0.071
+dbj|BAK08553.1|  attachment protein G3P [Enterobacteria phage M13]    38.9    0.11 
+pdb|3KNQ|A  Chain A, Beta Turn Optimization Of The Gene-3-Protein...  38.1    0.12 
+ref|NP_047356.1|  attachment protein [Enterobacteria phage If1] >...  36.6    0.67 
+pdb|2X9A|A  Chain A, Crystal Structure Of G3p From Phage If1 In C...  33.5    1.3  
+ref|NP_001148090.1|  cytokinin-O-glucosyltransferase 3 [Zea mays]...  35.0    1.9  
+ref|WP_001716536.1|  phage Coat Protein A family protein [Escheri...  35.0    2.3  
+ref|YP_001462788.1|  hypothetical protein EcE24377A_1701 [Escheri...  35.0    2.3  
+ref|WP_001689636.1|  phage Coat Protein A family protein [Escheri...  34.7    2.9  
+ref|WP_001684938.1|  phage Coat Protein A family protein [Escheri...  34.3    3.1  
+ref|WP_003985501.1|  phage Coat Protein A family protein [Escheri...  34.7    3.1  
+ref|WP_001409623.1|  phage Coat Protein A family protein [Escheri...  34.3    3.2  
+ref|WP_001762681.1|  phage Coat Protein A family protein [Escheri...  34.3    3.3  
+ref|WP_008916990.1|  hypothetical protein [Providencia sneebia] >...  33.9    4.7  
+
+
+>pdb|4EO1|A Chain A, Crystal Structure Of The Tola Binding Domain From The 
+Filamentous Phage Ike
+Length=70
+
+ Score =  143 bits (360),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+           PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+
+Query  61  KPTGYVPESG  70
+           KPTGYVPESG
+Sbjct  61  KPTGYVPESG  70
+
+
+>ref|NP_955531.1| mature G III capsid protein [Enterobacteria phage Ike]
+Length=415
+
+ Score =  149 bits (377),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  111  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  170
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  171  KPTGYVPESG  180
+
+
+>ref|NP_040576.1| G III capsid protein precursor [Enterobacteria phage Ike]
+ sp|P03663.1|G3P_BPIKE RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA26073.1| unnamed protein product [Enterobacteria phage Ike]
+Length=434
+
+ Score =  150 bits (378),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>gb|AAW65363.1| gene III protein [synthetic construct]
+Length=455
+
+ Score =  149 bits (375),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 69/70 (99%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFN+VFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNDVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>ref|NP_039621.1| gene III product [Enterobacteria phage I2-2]
+ sp|P15415.1|G3P_BPI22 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA32518.1| gene III product [Enterobacteria phage I2-2]
+Length=434
+
+ Score =  137 bits (345),  Expect = 7e-37, Method: Compositional matrix adjust.
+ Identities = 63/65 (97%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNV KGDEGGFYINYNGCEYEATGVTVCQNDGTVC+SSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVSKGDEGGFYINYNGCEYEATGVTVCQNDGTVCASSAW  189
+
+Query  61   KPTGY  65
+            KPTGY
+Sbjct  190  KPTGY  194
+
+
+>ref|WP_001618455.1| hypothetical protein [Escherichia coli]
+ gb|ELH69719.1| hypothetical protein A175_04715 [Escherichia coli KTE215]
+ gb|ELI81201.1| hypothetical protein WK5_04655 [Escherichia coli KTE145]
+Length=414
+
+ Score = 96.3 bits (238),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 49/68 (72%), Positives = 56/68 (82%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ+DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQSDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001608233.1| hypothetical protein [Escherichia coli]
+ gb|ELH09506.1| hypothetical protein A13U_01910 [Escherichia coli KTE192]
+ gb|ELI14216.1| hypothetical protein WIA_04447 [Escherichia coli KTE109]
+Length=414
+
+ Score = 95.9 bits (237),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 49/68 (72%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_020244582.1| hypothetical protein, partial [Escherichia coli]
+Length=213
+
+ Score = 92.8 bits (229),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239544.1| hypothetical protein, partial [Escherichia coli]
+Length=216
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239956.1| hypothetical protein, partial [Escherichia coli]
+Length=218
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_023151876.1| hypothetical protein, partial [Escherichia coli]
+ gb|ESE37632.1| hypothetical protein HMPREF1622_00922, partial [Escherichia coli 
+A35218R]
+Length=216
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021573178.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ32708.1| hypothetical protein G980_04905, partial [Escherichia coli UMEA 
+3617-1]
+Length=288
+
+ Score = 93.6 bits (231),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021548345.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQV33305.1| hypothetical protein G881_01478, partial [Escherichia coli KOEGE 
+30 (63a)]
+Length=278
+
+ Score = 93.6 bits (231),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_000823305.1| hypothetical protein, partial [Escherichia coli]
+ gb|EFJ63410.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 200-1]
+ gb|EGB85123.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 60-1]
+Length=225
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021538708.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQT51059.1| hypothetical protein G837_01483, partial [Escherichia coli HVH 
+185 (4-2876639)]
+Length=228
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021572342.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ17792.1| hypothetical protein G976_04869, partial [Escherichia coli UMEA 
+3490-1]
+Length=231
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001675799.1| hypothetical protein, partial [Escherichia coli]
+ gb|ELI61504.1| hypothetical protein WIU_04682, partial [Escherichia coli KTE131]
+ gb|EQQ80197.1| hypothetical protein G773_04745, partial [Escherichia coli HVH 
+112 (4-5987253)]
+ gb|ESK11604.1| hypothetical protein G959_04713, partial [Escherichia coli UMEA 
+3290-1]
+ gb|ESK19045.1| hypothetical protein G974_01711, partial [Escherichia coli UMEA 
+3426-1]
+Length=238
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001705087.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV60812.1| phage Coat Protein A family protein [Escherichia coli 2872000]
+ gb|EMV61605.1| phage Coat Protein A family protein [Escherichia coli 2871950]
+ gb|EMZ72515.1| phage Coat Protein A family protein [Escherichia coli 2846750]
+Length=401
+
+ Score = 93.6 bits (231),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_006825823.1| Coat protein A [Salmonella enterica]
+ emb|CCT34958.1| Coat protein A [Salmonella enterica subsp. enterica serovar Agona 
+str. 15.H.03]
+Length=410
+
+ Score = 93.6 bits (231),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>emb|CBX73730.1| attachment protein G3P [Yersinia enterocolitica W22703]
+Length=413
+
+ Score = 93.6 bits (231),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001253121.1| attachment protein [Salmonella enterica]
+ gb|EHL48747.1| hypothetical protein SEEM030_18904 [Salmonella enterica subsp. 
+enterica serovar Montevideo str. SARB30]
+Length=414
+
+ Score = 93.6 bits (231),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_000823306.1| attachment protein [Escherichia coli]
+ gb|EDV64803.1| coat protein A [Escherichia coli F11]
+ gb|EDV64814.1| coat protein A [Escherichia coli F11]
+ gb|EDV65214.1| coat protein A [Escherichia coli F11]
+ gb|ELD15079.1| hypothetical protein A15M_01726 [Escherichia coli KTE206]
+ gb|EQP09746.1| hypothetical protein G728_01401 [Escherichia coli HVH 56 (4-2153033)]
+ gb|EQQ32067.1| hypothetical protein G761_04628 [Escherichia coli HVH 100 (4-2850729)]
+ gb|EQT42549.1| hypothetical protein G837_04883 [Escherichia coli HVH 185 (4-2876639)]
+ gb|EQV27561.1| hypothetical protein G881_04863 [Escherichia coli KOEGE 30 (63a)]
+ gb|EQW70790.1| hypothetical protein G909_01487 [Escherichia coli UMEA 3113-1]
+ gb|EQZ41955.1| hypothetical protein G980_01530 [Escherichia coli UMEA 3617-1]
+ gb|ESK11099.1| hypothetical protein G974_04782 [Escherichia coli UMEA 3426-1]
+Length=426
+
+ Score = 93.6 bits (231),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001734930.1| Coat protein A [Salmonella enterica]
+ gb|ELO88650.1| Coat protein A [Salmonella enterica subsp. enterica serovar Enteritidis 
+str. 81-2625]
+Length=421
+
+ Score = 93.2 bits (230),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_021549830.1| hypothetical protein [Escherichia coli]
+ gb|EQV75160.1| hypothetical protein G892_04925 [Escherichia coli KOEGE 70 (185a)]
+ gb|EQV84518.1| hypothetical protein G892_01405 [Escherichia coli KOEGE 70 (185a)]
+Length=431
+
+ Score = 93.6 bits (231),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_023142887.1| attachment protein G3P family protein, partial [Escherichia coli]
+ gb|ESD27327.1| attachment protein G3P family protein, partial [Escherichia coli 
+907710]
+Length=442
+
+ Score = 93.6 bits (231),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  137  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  194
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  195  KPTGAVAD  202
+
+
+>ref|YP_004298354.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|YP_004298367.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|WP_013649912.1| attachment protein [Yersinia enterocolitica]
+ gb|ADZ42651.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ gb|ADZ42664.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=430
+
+ Score = 93.6 bits (231),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|YP_006110789.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+ ref|WP_001148921.1| attachment protein [Escherichia coli]
+ gb|ADN71277.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+Length=373
+
+ Score = 92.8 bits (229),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  73   PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  130
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  131  KPTGAVAD  138
+
+
+>ref|WP_023893483.1| attachment protein [Salmonella enterica]
+ gb|ETB73359.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001691]
+ gb|ETB82474.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001690]
+ gb|ETB97832.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001692]
+ gb|ETC08632.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001697]
+ gb|ETC74666.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. 5569]
+Length=434
+
+ Score = 93.6 bits (231),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020802191.1| attachment protein G3P family protein [Klebsiella pneumoniae]
+ gb|EOY81090.1| attachment protein G3P family protein [Klebsiella pneumoniae 
+UHKPC81]
+Length=439
+
+ Score = 93.6 bits (231),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020246325.1| hypothetical protein, partial [Escherichia coli]
+Length=221
+
+ Score = 88.6 bits (218),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 45/62 (73%), Positives = 51/62 (82%), Gaps = 2/62 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  162  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  219
+
+Query  61   KP  62
+            KP
+Sbjct  220  KP  221
+
+
+>ref|WP_020246339.1| hypothetical protein, partial [Escherichia coli]
+Length=256
+
+ Score = 68.2 bits (165),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  18  GVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGYVPE  68
+           GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ WKPTG V +
+Sbjct  1   GVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-WKPTGAVAD  49
+
+
+>pdb|1FGP|A Chain A, Membrane Penetration Domain Of The Minor Coat Protein 
+G3p Of Phage Fd, Nmr, 15 Structures
+Length=70
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 36/65 (55%), Gaps = 3/65 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  4   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  62
+
+Query  66  VPESG  70
+           +PE+ 
+Sbjct  63  IPENA  67
+
+
+>gb|AAT01117.1| rpL23-ScFv fusion protein [rpL23-fusion expression vector pScFV]
+Length=446
+
+ Score = 48.9 bits (115),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 29/63 (46%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  358  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  416
+
+Query  66   VPE  68
+            +PE
+Sbjct  417  IPE  419
+
+
+>pdb|2G3P|A Chain A, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+ pdb|2G3P|B Chain B, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+Length=225
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>gb|ACY07152.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 47.8 bits (112),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 37/64 (58%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AEQ25536.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 47.8 bits (112),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 37/64 (58%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AGO32656.1| breast cancer binding peptide PC82, partial [synthetic construct]
+Length=85
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AGO32657.1| breast cancer binding peptideP PC90, partial [synthetic construct]
+Length=85
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AGO32654.1| breast cancer binding peptide PC65, partial [synthetic construct]
+Length=85
+
+ Score = 45.1 bits (105),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AGO32655.1| breast cancer binding peptide PC73, partial [synthetic construct]
+Length=85
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AAZ78138.1| pelB/anti-tetanus toxoid immunoglobulin gamma heavy chain/gIIIp 
+fusion protein precursor [Cloning vector pMAB136]
+Length=660
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  259  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  317
+
+Query  66   VPES  69
+            +PE+
+Sbjct  318  IPEN  321
+
+
+>gb|ADR00489.1| scTCR-pIII fusion protein [Filamentous phage display vector f37-AviTag]
+Length=680
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  279  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  337
+
+Query  66   VPES  69
+            +PE+
+Sbjct  338  IPEN  341
+
+
+>gb|ABO72593.1| recombinant protein III precursor [Filamentous phage display 
+vector MSH-2 fUSE5]
+Length=450
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  49   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  107
+
+Query  66   VPES  69
+            +PE+
+Sbjct  108  IPEN  111
+
+
+>gb|ACY07142.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>ref|NP_510891.1| structural protein [Enterobacteria phage M13]
+ sp|P69168.1|G3P_BPM13 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA23862.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AEQ25516.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>pir||Z3BPF1 coat protein A precursor - phage f1
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ADN93464.1| recombinant pIII precursor [synthetic construct]
+ gb|ADN93466.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>sp|P69169.1|G3P_BPF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAA32215.1| protein III [Enterobacteria phage f1]
+ gb|AAT27366.1| pIII [VCSM13 interference-resistant helper phage]
+ gb|AAW65351.1| gene III protein [synthetic construct]
+ dbj|BAF74208.1| protein III [Enterobacteria phage f1]
+ dbj|BAF74218.1| protein III [Enterobacteria phage f1]
+ gb|ACY07162.1| III [Enterobacteria phage f1]
+ gb|AEE98862.1| protein III [Cloning vector HPdO]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>sp|P03661.1|G3P_BPFD RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAF75609.1|AF217317_12 adsorption protein pIII precursor [Filamentous phage cloning 
+vector fd-tet]
+ gb|AAA32309.1| III [Enterobacteria phage fd]
+ gb|AAM73889.1| adsorption protein pIII precursor [Filamentous phage display 
+vector f8-5]
+ gb|AAM73901.1| adsorption protein pIII precursor [Filamentous phage display 
+vector c8-4]
+ prf||0812197D DNA,phage
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AFQ39716.1| p3, partial [synthetic construct]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AEQ25526.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AGO32653.1| breast cancer binding peptide PC34, partial [synthetic construct]
+Length=85
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>emb|CAA23872.1| unnamed protein product [Enterobacteria phage f1]
+ gb|AAW65340.1| gene III protein [synthetic construct]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AFQ21790.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ADN93465.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>gb|AAG01722.1|AF246446_1 recombinant adsoprtion protein rpIII-6mer precursor [synthetic 
+construct]
+Length=438
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  37  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  95
+
+Query  66  VPES  69
+           +PE+
+Sbjct  96  IPEN  99
+
+
+>gb|AAG01721.1|AF246445_1 recombinant adsorption protein rpIII-15mer precursor [synthetic 
+construct]
+Length=447
+
+ Score = 47.0 bits (110),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>emb|CBA76049.1| hypothetical protein ARN_33030 [Arsenophonus nasoniae]
+Length=288
+
+ Score = 46.2 bits (108),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 39/66 (59%), Gaps = 5/66 (8%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFK-GDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+           +  E+ C AKP     ++N +K G +  +Y+N+ GC+Y A GV V   DGT+ +   WKP
+Sbjct  21  KDDEKDCLAKPIEAKTYSNTYKIGSD--YYVNFEGCQYIAKGVIVGGGDGTIAAD--WKP  76
+
+Query  63  TGYVPE  68
+           TG V E
+Sbjct  77  TGKVVE  82
+
+
+>pdb|1TOL|A Chain A, Fusion Of N-Terminal Domain Of The Minor Coat Protein 
+From Gene Iii In Phage M13, And C-Terminal Domain Of E. Coli 
+Protein-Tola
+Length=222
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>emb|CAA74922.1| recombinant single chain antibody pIII fusion protein [synthetic 
+construct]
+Length=684
+
+ Score = 44.7 bits (104),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/63 (44%), Positives = 34/63 (54%), Gaps = 3/63 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  283  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  341
+
+Query  66   VPE  68
+            +PE
+Sbjct  342  IPE  344
+
+
+>prf||1814345A gene III
+Length=424
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>emb|CAA59045.1| M13 pIII [synthetic construct]
+Length=410
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  9   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  67
+
+Query  66  VPES  69
+           +PE+
+Sbjct  68  IPEN  71
+
+
+>dbj|BAD24100.1| M13 pIII [Cloning vector TFV3]
+ dbj|BAD24101.1| M13 pIII [Cloning vector TFV4]
+ dbj|BAD24102.1| M13 pIII [Cloning vector TFV5]
+ dbj|BAF74634.1| M13 pIII [Cloning vector TFV6]
+Length=404
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  3   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  61
+
+Query  66  VPES  69
+           +PE+
+Sbjct  62  IPEN  65
+
+
+>emb|CAA59046.1| hybrid PSTI-pIII [synthetic construct]
+Length=478
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+            E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  77   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  135
+
+Query  66   VPES  69
+            +PE+
+Sbjct  136  IPEN  139
+
+
+>gb|ACY07132.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AKP  +  F NV+K D+    Y  Y GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYAIYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AFQ39731.1| p3 [synthetic construct]
+Length=435
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  34  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  92
+
+Query  66  VPES  69
+           +PE+
+Sbjct  93  IPEN  96
+
+
+>pdb|1G3P|A Chain A, Crystal Structure Of The N-Terminal Domains Of Bacteriophage 
+Minor Coat Protein G3p
+Length=217
+
+ Score = 42.7 bits (99),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 34/64 (53%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E C AK   +  F NV K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKSHTENSFTNVXKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>dbj|BAK08550.1| attachment protein G3P [Enterobacteria phage M13]
+Length=428
+
+ Score = 43.5 bits (101),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 37/68 (54%), Gaps = 7/68 (10%)
+
+Query  8   EICEAKPPI----DGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+           E C AKP I    +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  23  ESCLAKPDIGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  81
+
+Query  63  TGY-VPES  69
+            G  +PE+
+Sbjct  82  IGLAIPEN  89
+
+
+>ref|WP_000341084.1| hypothetical protein [Escherichia coli]
+ gb|EGX11358.1| hypothetical protein ECSTECH18_2282 [Escherichia coli STEC_H.1.8]
+Length=377
+
+ Score = 41.6 bits (96),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 21/42 (50%), Positives = 26/42 (62%), Gaps = 2/42 (5%)
+
+Query  27  DEGGFYINYNGCEYEATG-VTVCQNDGTVCSSSAWKPTGYVP  67
+           D+G  Y+  +GC YEATG V  C ND T CS++ WKP    P
+Sbjct  3   DKGNKYVTIHGCIYEATGDVISCSNDSTHCSAT-WKPLTVDP  43
+
+
+>dbj|BAK08551.1| attachment protein G3P [Enterobacteria phage M13]
+Length=439
+
+ Score = 41.2 bits (95),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 37/79 (47%), Gaps = 18/79 (23%)
+
+Query  8   EICEAKPPID---------------GVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQND  51
+           E C AKP ID                 F NV+K D+    Y NY GC + ATGV VC  D
+Sbjct  23  ESCLAKPDIDHKSGSRDQLSGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGD  82
+
+Query  52  GTVCSSSAWKPTGY-VPES  69
+            T C  + W P G  +PE+
+Sbjct  83  ETQCYGT-WVPIGLAIPEN  100
+
+
+>dbj|BAK08552.1| attachment protein G3P [Enterobacteria phage M13]
+Length=432
+
+ Score = 40.0 bits (92),  Expect = 0.047, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 33/61 (54%), Gaps = 3/61 (5%)
+
+Query  11  EAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-VPE  68
+           E +   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  +PE
+Sbjct  34  EGRAHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLAIPE  92
+
+Query  69  S  69
+           +
+Sbjct  93  N  93
+
+
+>pdb|3DGS|A Chain A, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+ pdb|3DGS|B Chain B, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+Length=227
+
+ Score = 38.9 bits (89),  Expect = 0.071, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-  65
+           E   AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T    + W P G  
+Sbjct  6   ESSLAKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQV-YAIWVPVGLA  64
+
+Query  66  VPES  69
+           +PE+
+Sbjct  65  IPEN  68
+
+
+>dbj|BAK08553.1| attachment protein G3P [Enterobacteria phage M13]
+Length=438
+
+ Score = 38.9 bits (89),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 3/52 (6%)
+
+Query  20  FNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-VPES  69
+           F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  +PE+
+Sbjct  49  FTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLAIPEN  99
+
+
+>pdb|3KNQ|A Chain A, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+ pdb|3KNQ|B Chain B, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+Length=223
+
+ Score = 38.1 bits (87),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 34/60 (57%), Gaps = 3/60 (5%)
+
+Query  12  AKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY-VPES  69
+           AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T    + W P G  +PE+
+Sbjct  9   AKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQV-YAIWVPVGLAIPEN  67
+
+
+>ref|NP_047356.1| attachment protein [Enterobacteria phage If1]
+ sp|O80297.1|G3P_BPIF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAC62155.1| attachment protein [Enterobacteria phage If1]
+Length=460
+
+ Score = 36.6 bits (83),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 4/62 (6%)
+
+Query  2   SEQTPEEICEAKPPIDGVFNNVFK-GDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+           +  T +  C +KP  DG  +NV+K GD    Y N+  C YE +G+ +  ++ T C+   W
+Sbjct  15  THATTDAECLSKPAFDGTLSNVWKEGDSR--YANFENCIYELSGIGIGYDNDTSCNGH-W  71
+
+Query  61  KP  62
+            P
+Sbjct  72  TP  73
+
+
+>pdb|2X9A|A Chain A, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9A|C Chain C, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9B|A Chain A, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+ pdb|2X9B|B Chain B, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+Length=65
+
+ Score = 33.5 bits (75),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 33/67 (49%), Gaps = 4/67 (6%)
+
+Query  5   TPEEICEAKPPIDGVFNNVFK-GDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  63
+           T +  C +KP  DG  +NV+K GD    Y N+  C YE +G+ +  ++ T  +   W P 
+Sbjct  2   TTDAECLSKPAFDGTLSNVWKEGDS--RYANFENCIYELSGIGIGYDNDTSWNGH-WTPV  58
+
+Query  64  GYVPESG  70
+                SG
+Sbjct  59  RAADGSG  65
+
+
+>ref|NP_001148090.1| cytokinin-O-glucosyltransferase 3 [Zea mays]
+ gb|ACG29693.1| cytokinin-O-glucosyltransferase 3 [Zea mays]
+Length=525
+
+ Score = 35.0 bits (79),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 25/57 (44%), Gaps = 0/57 (0%)
+
+Query  3    EQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSA  59
+            E    ++ EA+   DG+  N F+G EG F   Y       T  T C   G  C+SS 
+Sbjct  197  ESYERDVAEAEATADGLLINTFRGLEGVFVDGYAAALGRKTTTTTCWAVGPTCASSG  253
+
+
+>ref|WP_001716536.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMW13850.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW13862.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26503.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26541.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EST02427.1| hypothetical protein L341_0307 [Escherichia coli CE418]
+Length=442
+
+ Score = 35.0 bits (79),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 30/58 (52%), Gaps = 2/58 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P  
+Sbjct  32  DEACISRPALQGSLSGAFRSD-NTWYAVVDGCIYMATGVIVGSETGDVAATN-WIPVA  87
+
+
+>ref|YP_001462788.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+ ref|WP_012138432.1| hypothetical protein [Escherichia coli]
+ gb|ABV19428.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+Length=442
+
+ Score = 35.0 bits (79),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 30/58 (52%), Gaps = 2/58 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P  
+Sbjct  32  DEACISRPALQGSLSGAFRSD-NTWYAVVDGCIYMATGVIVGSETGDVAATN-WIPVA  87
+
+
+>ref|WP_001689636.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU96860.1| phage Coat Protein A family protein [Escherichia coli MP021017.3]
+Length=344
+
+ Score = 34.7 bits (78),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P  
+Sbjct  32  DEVCISRPALQGVTLSGAFRSD-NTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVA  87
+
+
+>ref|WP_001684938.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU80692.1| phage Coat Protein A family protein [Escherichia coli MP021017.9]
+ gb|EMU82843.1| phage Coat Protein A family protein [Escherichia coli MP021017.6]
+ gb|EMU85098.1| phage Coat Protein A family protein [Escherichia coli MP021017.5]
+ gb|EMU95552.1| phage Coat Protein A family protein [Escherichia coli MP021017.4]
+ gb|EMU97529.1| phage Coat Protein A family protein [Escherichia coli MP021017.2]
+ gb|EMV07545.1| phage Coat Protein A family protein [Escherichia coli MP021017.10]
+ gb|EMV12345.1| phage Coat Protein A family protein [Escherichia coli MP021017.11]
+ gb|EMV27081.1| phage Coat Protein A family protein [Escherichia coli MP021017.12]
+ gb|EMX38218.1| phage Coat Protein A family protein [Escherichia coli MP021017.1]
+Length=344
+
+ Score = 34.3 bits (77),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P  
+Sbjct  32  DEVCISRPALQGVTLSGAFRSD-NTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVA  87
+
+
+>ref|WP_003985501.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV86273.1| phage Coat Protein A family protein [Escherichia coli 2861200]
+Length=441
+
+ Score = 34.7 bits (78),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P  
+Sbjct  32  DEVCISRPALQGVTLSGAFRSD-NTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVA  87
+
+
+>ref|WP_001409623.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENB17697.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-01]
+Length=441
+
+ Score = 34.3 bits (77),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P  
+Sbjct  32  DEVCISRPALQGVTLSGAFRSD-NTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVA  87
+
+
+>ref|WP_001762681.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENA17194.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-13]
+Length=441
+
+ Score = 34.3 bits (77),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P  
+Sbjct  32  DEVCISRPALQGVTLSGAFRSD-NTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVA  87
+
+
+>ref|WP_008916990.1| hypothetical protein [Providencia sneebia]
+ gb|EKT52841.1| hypothetical protein OO7_16325 [Providencia sneebia DSM 19967]
+Length=476
+
+ Score = 33.9 bits (76),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7    EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+            E  C+++P +    F+   K   G +  NY GC+YE+T + V   D     ++ W+P G
+Sbjct  155  ENYCKSQPVLKNYSFSPARKDSSGNYVANYEGCKYESTSIGVIVGDRI---AADWRPVG  210
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.135    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+Results from round 2
+
+
+Query= 4EO1A
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_040576.1|  G III capsid protein precursor [Enterobacteria ...   126    5e-33
+gb|AAW65363.1|  gene III protein [synthetic construct]                 126    6e-33
+ref|NP_039621.1|  gene III product [Enterobacteria phage I2-2] >s...   125    1e-32
+ref|NP_955531.1|  mature G III capsid protein [Enterobacteria pha...   124    4e-32
+pdb|4EO1|A  Chain A, Crystal Structure Of The Tola Binding Domain...   112    2e-30
+ref|WP_023142887.1|  attachment protein G3P family protein, parti...   118    4e-30
+ref|WP_001705087.1|  phage Coat Protein A family protein [Escheri...   117    6e-30
+ref|WP_006825823.1|  Coat protein A [Salmonella enterica] >emb|CC...   117    7e-30
+emb|CBX73730.1|  attachment protein G3P [Yersinia enterocolitica ...   117    7e-30
+ref|WP_001253121.1|  attachment protein [Salmonella enterica] >gb...   117    7e-30
+ref|YP_004298354.1|  Coat protein A [Yersinia enterocolitica subs...   117    7e-30
+ref|WP_023893483.1|  attachment protein [Salmonella enterica] >gb...   117    7e-30
+ref|WP_020802191.1|  attachment protein G3P family protein [Klebs...   117    8e-30
+ref|WP_001734930.1|  Coat protein A [Salmonella enterica] >gb|ELO...   117    1e-29
+ref|WP_000823306.1|  attachment protein [Escherichia coli] >gb|ED...   116    2e-29
+ref|WP_021549830.1|  hypothetical protein [Escherichia coli] >gb|...   116    2e-29
+ref|WP_001608233.1|  hypothetical protein [Escherichia coli] >gb|...   116    2e-29
+ref|YP_006110789.1|  hypothetical protein UM146_09470 [Escherichi...   115    5e-29
+ref|WP_001618455.1|  hypothetical protein [Escherichia coli] >gb|...   114    7e-29
+ref|WP_020244582.1|  hypothetical protein, partial [Escherichia c...   111    9e-29
+ref|WP_020239544.1|  hypothetical protein, partial [Escherichia c...   111    9e-29
+ref|WP_020239956.1|  hypothetical protein, partial [Escherichia c...   111    1e-28
+ref|WP_020246325.1|  hypothetical protein, partial [Escherichia c...   111    1e-28
+ref|WP_021548345.1|  hypothetical protein, partial [Escherichia c...   112    2e-28
+ref|WP_021572342.1|  hypothetical protein, partial [Escherichia c...   110    4e-28
+ref|WP_023151876.1|  hypothetical protein, partial [Escherichia c...   110    5e-28
+ref|WP_000823305.1|  hypothetical protein, partial [Escherichia c...   110    5e-28
+ref|WP_021538708.1|  hypothetical protein, partial [Escherichia c...   110    6e-28
+ref|WP_021573178.1|  hypothetical protein, partial [Escherichia c...   111    6e-28
+ref|WP_001675799.1|  hypothetical protein, partial [Escherichia c...   110    7e-28
+gb|AAT01117.1|  rpL23-ScFv fusion protein [rpL23-fusion expressio...  92.5    2e-20
+emb|CBA76049.1|  hypothetical protein ARN_33030 [Arsenophonus nas...  87.5    2e-19
+gb|ADR00489.1|  scTCR-pIII fusion protein [Filamentous phage disp...  90.2    3e-19
+pdb|1FGP|A  Chain A, Membrane Penetration Domain Of The Minor Coa...  82.9    4e-19
+pir||Z3BPF1  coat protein A precursor - phage f1                      88.3    5e-19
+emb|CAA23872.1|  unnamed protein product [Enterobacteria phage f1...  88.3    5e-19
+ref|NP_510891.1|  structural protein [Enterobacteria phage M13] >...  87.9    5e-19
+gb|AFQ21790.1|  structural protein [Enterobacteria phage M13]         87.9    5e-19
+gb|AGO32657.1|  breast cancer binding peptideP PC90, partial [syn...  83.3    5e-19
+gb|AEQ25516.1|  III protein [Enterobacteria phage f1]                 87.9    6e-19
+sp|P69169.1|G3P_BPF1  RecName: Full=Attachment protein G3P; AltNa...  87.9    6e-19
+gb|AFQ39716.1|  p3, partial [synthetic construct]                     87.9    6e-19
+gb|ABO72593.1|  recombinant protein III precursor [Filamentous ph...  88.3    6e-19
+sp|P03661.1|G3P_BPFD  RecName: Full=Attachment protein G3P; AltNa...  87.5    7e-19
+gb|ADN93464.1|  recombinant pIII precursor [synthetic construct] ...  87.9    8e-19
+gb|ADN93465.1|  recombinant pIII precursor [synthetic construct]      87.2    1e-18
+gb|AAZ78138.1|  pelB/anti-tetanus toxoid immunoglobulin gamma hea...  88.3    1e-18
+gb|AAG01722.1|AF246446_1  recombinant adsoprtion protein rpIII-6m...  87.2    1e-18
+gb|AAG01721.1|AF246445_1  recombinant adsorption protein rpIII-15...  87.2    1e-18
+gb|AGO32656.1|  breast cancer binding peptide PC82, partial [synt...  82.1    1e-18
+gb|AEQ25526.1|  III protein [Enterobacteria phage f1]                 86.8    2e-18
+ref|WP_020246339.1|  hypothetical protein, partial [Escherichia c...  84.8    2e-18
+gb|ACY07152.1|  III [Enterobacteria phage f1]                         86.4    2e-18
+gb|AEQ25536.1|  III protein [Enterobacteria phage f1]                 86.4    2e-18
+gb|ACY07142.1|  III [Enterobacteria phage f1]                         86.4    2e-18
+emb|CAA74922.1|  recombinant single chain antibody pIII fusion pr...  86.4    7e-18
+gb|AGO32653.1|  breast cancer binding peptide PC34, partial [synt...  79.1    2e-17
+pdb|2G3P|A  Chain A, Structure Of The N-Terminal Two Domains Of T...  80.6    5e-17
+gb|AGO32655.1|  breast cancer binding peptide PC73, partial [synt...  77.9    6e-17
+gb|AGO32654.1|  breast cancer binding peptide PC65, partial [synt...  77.1    1e-16
+pdb|1TOL|A  Chain A, Fusion Of N-Terminal Domain Of The Minor Coa...  79.4    2e-16
+
+Sequences not found previously or not previously below threshold:
+
+prf||1814345A  gene III                                               85.2    6e-18
+gb|ACY07132.1|  III [Enterobacteria phage f1]                         85.2    6e-18
+gb|AFQ39731.1|  p3 [synthetic construct]                              84.5    1e-17
+dbj|BAD24100.1|  M13 pIII [Cloning vector TFV3] >dbj|BAD24101.1| ...  83.7    2e-17
+emb|CAA59045.1|  M13 pIII [synthetic construct]                       83.3    2e-17
+emb|CAA59046.1|  hybrid PSTI-pIII [synthetic construct]               83.3    5e-17
+dbj|BAK08550.1|  attachment protein G3P [Enterobacteria phage M13]    82.1    8e-17
+dbj|BAK08551.1|  attachment protein G3P [Enterobacteria phage M13]    78.3    2e-15
+pdb|1G3P|A  Chain A, Crystal Structure Of The N-Terminal Domains ...  76.0    3e-15
+dbj|BAK08552.1|  attachment protein G3P [Enterobacteria phage M13]    77.5    4e-15
+dbj|BAK08553.1|  attachment protein G3P [Enterobacteria phage M13]    76.0    1e-14
+pdb|3DGS|A  Chain A, Changing The Determinants Of Protein Stabili...  63.7    7e-11
+pdb|3KNQ|A  Chain A, Beta Turn Optimization Of The Gene-3-Protein...  62.1    2e-10
+ref|NP_047356.1|  attachment protein [Enterobacteria phage If1] >...  52.1    4e-06
+gb|AEJ88186.1|  heterologous peptide [synthetic construct]            47.1    3e-05
+gb|AEJ88185.1|  heterologous peptide [synthetic construct]            47.1    3e-05
+gb|AEJ88184.1|  heterologous peptide [synthetic construct]            45.9    5e-05
+ref|WP_000341084.1|  hypothetical protein [Escherichia coli] >gb|...  48.2    6e-05
+ref|YP_001462788.1|  hypothetical protein EcE24377A_1701 [Escheri...  47.9    1e-04
+ref|WP_001716536.1|  phage Coat Protein A family protein [Escheri...  47.5    1e-04
+ref|WP_016157961.1|  attachment protein G3P, partial [Citrobacter...  46.7    2e-04
+pdb|2X9A|A  Chain A, Crystal Structure Of G3p From Phage If1 In C...  42.1    0.001
+ref|WP_008916990.1|  hypothetical protein [Providencia sneebia] >...  44.8    0.001
+ref|WP_001409623.1|  phage Coat Protein A family protein [Escheri...  44.0    0.002
+ref|WP_001762681.1|  phage Coat Protein A family protein [Escheri...  44.0    0.002
+ref|WP_003985501.1|  phage Coat Protein A family protein [Escheri...  44.0    0.002
+ref|WP_001689636.1|  phage Coat Protein A family protein [Escheri...  42.5    0.007
+ref|WP_001684938.1|  phage Coat Protein A family protein [Escheri...  42.5    0.007
+ref|WP_001408027.1|  phage Coat Protein A family protein, partial...  36.3    0.61 
+ref|YP_007649573.1|  adsorption protein [Xanthomonas citri subsp....  34.8    2.7  
+ref|WP_005469510.1|  serine protease [Vibrio sp. 16] >gb|EED28251...  34.4    3.0  
+
+
+>ref|NP_040576.1| G III capsid protein precursor [Enterobacteria phage Ike]
+ sp|P03663.1|G3P_BPIKE RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA26073.1| unnamed protein product [Enterobacteria phage Ike]
+Length=434
+
+ Score =  126 bits (317),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>gb|AAW65363.1| gene III protein [synthetic construct]
+Length=455
+
+ Score =  126 bits (317),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFN+VFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNDVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>ref|NP_039621.1| gene III product [Enterobacteria phage I2-2]
+ sp|P15415.1|G3P_BPI22 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA32518.1| gene III product [Enterobacteria phage I2-2]
+Length=434
+
+ Score =  125 bits (314),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 63/65 (97%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNV KGDEGGFYINYNGCEYEATGVTVCQNDGTVC+SSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVSKGDEGGFYINYNGCEYEATGVTVCQNDGTVCASSAW  189
+
+Query  61   KPTGY  65
+            KPTGY
+Sbjct  190  KPTGY  194
+
+
+>ref|NP_955531.1| mature G III capsid protein [Enterobacteria phage Ike]
+Length=415
+
+ Score =  124 bits (310),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  111  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  170
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  171  KPTGYVPESG  180
+
+
+>pdb|4EO1|A Chain A, Crystal Structure Of The Tola Binding Domain From The 
+Filamentous Phage Ike
+Length=70
+
+ Score =  112 bits (279),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+           PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+
+Query  61  KPTGYVPESG  70
+           KPTGYVPESG
+Sbjct  61  KPTGYVPESG  70
+
+
+>ref|WP_023142887.1| attachment protein G3P family protein, partial [Escherichia coli]
+ gb|ESD27327.1| attachment protein G3P family protein, partial [Escherichia coli 
+907710]
+Length=442
+
+ Score =  118 bits (296),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  137  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  194
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  195  KPTGAVAD  202
+
+
+>ref|WP_001705087.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV60812.1| phage Coat Protein A family protein [Escherichia coli 2872000]
+ gb|EMV61605.1| phage Coat Protein A family protein [Escherichia coli 2871950]
+ gb|EMZ72515.1| phage Coat Protein A family protein [Escherichia coli 2846750]
+Length=401
+
+ Score =  117 bits (294),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_006825823.1| Coat protein A [Salmonella enterica]
+ emb|CCT34958.1| Coat protein A [Salmonella enterica subsp. enterica serovar Agona 
+str. 15.H.03]
+Length=410
+
+ Score =  117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>emb|CBX73730.1| attachment protein G3P [Yersinia enterocolitica W22703]
+Length=413
+
+ Score =  117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001253121.1| attachment protein [Salmonella enterica]
+ gb|EHL48747.1| hypothetical protein SEEM030_18904 [Salmonella enterica subsp. 
+enterica serovar Montevideo str. SARB30]
+Length=414
+
+ Score =  117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|YP_004298354.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|YP_004298367.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|WP_013649912.1| attachment protein [Yersinia enterocolitica]
+ gb|ADZ42651.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ gb|ADZ42664.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=430
+
+ Score =  117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_023893483.1| attachment protein [Salmonella enterica]
+ gb|ETB73359.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001691]
+ gb|ETB82474.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001690]
+ gb|ETB97832.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001692]
+ gb|ETC08632.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001697]
+ gb|ETC74666.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. 5569]
+Length=434
+
+ Score =  117 bits (294),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020802191.1| attachment protein G3P family protein [Klebsiella pneumoniae]
+ gb|EOY81090.1| attachment protein G3P family protein [Klebsiella pneumoniae 
+UHKPC81]
+Length=439
+
+ Score =  117 bits (294),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001734930.1| Coat protein A [Salmonella enterica]
+ gb|ELO88650.1| Coat protein A [Salmonella enterica subsp. enterica serovar Enteritidis 
+str. 81-2625]
+Length=421
+
+ Score =  117 bits (292),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_000823306.1| attachment protein [Escherichia coli]
+ gb|EDV64803.1| coat protein A [Escherichia coli F11]
+ gb|EDV64814.1| coat protein A [Escherichia coli F11]
+ gb|EDV65214.1| coat protein A [Escherichia coli F11]
+ gb|ELD15079.1| hypothetical protein A15M_01726 [Escherichia coli KTE206]
+ gb|EQP09746.1| hypothetical protein G728_01401 [Escherichia coli HVH 56 (4-2153033)]
+ gb|EQQ32067.1| hypothetical protein G761_04628 [Escherichia coli HVH 100 (4-2850729)]
+ gb|EQT42549.1| hypothetical protein G837_04883 [Escherichia coli HVH 185 (4-2876639)]
+ gb|EQV27561.1| hypothetical protein G881_04863 [Escherichia coli KOEGE 30 (63a)]
+ gb|EQW70790.1| hypothetical protein G909_01487 [Escherichia coli UMEA 3113-1]
+ gb|EQZ41955.1| hypothetical protein G980_01530 [Escherichia coli UMEA 3617-1]
+ gb|ESK11099.1| hypothetical protein G974_04782 [Escherichia coli UMEA 3426-1]
+Length=426
+
+ Score =  116 bits (291),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021549830.1| hypothetical protein [Escherichia coli]
+ gb|EQV75160.1| hypothetical protein G892_04925 [Escherichia coli KOEGE 70 (185a)]
+ gb|EQV84518.1| hypothetical protein G892_01405 [Escherichia coli KOEGE 70 (185a)]
+Length=431
+
+ Score =  116 bits (291),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001608233.1| hypothetical protein [Escherichia coli]
+ gb|ELH09506.1| hypothetical protein A13U_01910 [Escherichia coli KTE192]
+ gb|ELI14216.1| hypothetical protein WIA_04447 [Escherichia coli KTE109]
+Length=414
+
+ Score =  116 bits (291),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 49/68 (72%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|YP_006110789.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+ ref|WP_001148921.1| attachment protein [Escherichia coli]
+ gb|ADN71277.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+Length=373
+
+ Score =  115 bits (287),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  73   PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  130
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  131  KPTGAVAD  138
+
+
+>ref|WP_001618455.1| hypothetical protein [Escherichia coli]
+ gb|ELH69719.1| hypothetical protein A175_04715 [Escherichia coli KTE215]
+ gb|ELI81201.1| hypothetical protein WK5_04655 [Escherichia coli KTE145]
+Length=414
+
+ Score =  114 bits (286),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 49/68 (72%), Positives = 56/68 (82%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ+DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQSDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_020244582.1| hypothetical protein, partial [Escherichia coli]
+Length=213
+
+ Score =  111 bits (278),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239544.1| hypothetical protein, partial [Escherichia coli]
+Length=216
+
+ Score =  111 bits (278),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239956.1| hypothetical protein, partial [Escherichia coli]
+Length=218
+
+ Score =  111 bits (278),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020246325.1| hypothetical protein, partial [Escherichia coli]
+Length=221
+
+ Score =  111 bits (278),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 45/62 (73%), Positives = 51/62 (82%), Gaps = 2/62 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  162  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  219
+
+Query  61   KP  62
+            KP
+Sbjct  220  KP  221
+
+
+>ref|WP_021548345.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQV33305.1| hypothetical protein G881_01478, partial [Escherichia coli KOEGE 
+30 (63a)]
+Length=278
+
+ Score =  112 bits (279),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021572342.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ17792.1| hypothetical protein G976_04869, partial [Escherichia coli UMEA 
+3490-1]
+Length=231
+
+ Score =  110 bits (275),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_023151876.1| hypothetical protein, partial [Escherichia coli]
+ gb|ESE37632.1| hypothetical protein HMPREF1622_00922, partial [Escherichia coli 
+A35218R]
+Length=216
+
+ Score =  110 bits (274),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_000823305.1| hypothetical protein, partial [Escherichia coli]
+ gb|EFJ63410.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 200-1]
+ gb|EGB85123.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 60-1]
+Length=225
+
+ Score =  110 bits (274),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021538708.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQT51059.1| hypothetical protein G837_01483, partial [Escherichia coli HVH 
+185 (4-2876639)]
+Length=228
+
+ Score =  110 bits (274),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021573178.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ32708.1| hypothetical protein G980_04905, partial [Escherichia coli UMEA 
+3617-1]
+Length=288
+
+ Score =  111 bits (277),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001675799.1| hypothetical protein, partial [Escherichia coli]
+ gb|ELI61504.1| hypothetical protein WIU_04682, partial [Escherichia coli KTE131]
+ gb|EQQ80197.1| hypothetical protein G773_04745, partial [Escherichia coli HVH 
+112 (4-5987253)]
+ gb|ESK11604.1| hypothetical protein G959_04713, partial [Escherichia coli UMEA 
+3290-1]
+ gb|ESK19045.1| hypothetical protein G974_01711, partial [Escherichia coli UMEA 
+3426-1]
+Length=238
+
+ Score =  110 bits (274),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>gb|AAT01117.1| rpL23-ScFv fusion protein [rpL23-fusion expression vector pScFV]
+Length=446
+
+ Score = 92.5 bits (228),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  358  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  416
+
+Query  66   VPES  69
+            +PE+
+Sbjct  417  IPEN  420
+
+
+>emb|CBA76049.1| hypothetical protein ARN_33030 [Arsenophonus nasoniae]
+Length=288
+
+ Score = 87.5 bits (215),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 37/65 (57%), Gaps = 3/65 (5%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  63
+           +  E+ C AKP     ++N +K     +Y+N+ GC+Y A GV V   DGT+ +   WKPT
+Sbjct  21  KDDEKDCLAKPIEAKTYSNTYKI-GSDYYVNFEGCQYIAKGVIVGGGDGTIAAD--WKPT  77
+
+Query  64  GYVPE  68
+           G V E
+Sbjct  78  GKVVE  82
+
+
+>gb|ADR00489.1| scTCR-pIII fusion protein [Filamentous phage display vector f37-AviTag]
+Length=680
+
+ Score = 90.2 bits (222),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  279  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  337
+
+Query  66   VPES  69
+            +PE+
+Sbjct  338  IPEN  341
+
+
+>pdb|1FGP|A Chain A, Membrane Penetration Domain Of The Minor Coat Protein 
+G3p Of Phage Fd, Nmr, 15 Structures
+Length=70
+
+ Score = 82.9 bits (203),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 29/65 (45%), Positives = 36/65 (55%), Gaps = 3/65 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  4   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  62
+
+Query  66  VPESG  70
+           +PE+ 
+Sbjct  63  IPENA  67
+
+
+>pir||Z3BPF1 coat protein A precursor - phage f1
+Length=424
+
+ Score = 88.3 bits (217),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>emb|CAA23872.1| unnamed protein product [Enterobacteria phage f1]
+ gb|AAW65340.1| gene III protein [synthetic construct]
+Length=424
+
+ Score = 88.3 bits (217),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>ref|NP_510891.1| structural protein [Enterobacteria phage M13]
+ sp|P69168.1|G3P_BPM13 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA23862.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 87.9 bits (216),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AFQ21790.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 87.9 bits (216),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AGO32657.1| breast cancer binding peptideP PC90, partial [synthetic construct]
+Length=85
+
+ Score = 83.3 bits (204),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AEQ25516.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 87.9 bits (216),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>sp|P69169.1|G3P_BPF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAA32215.1| protein III [Enterobacteria phage f1]
+ gb|AAT27366.1| pIII [VCSM13 interference-resistant helper phage]
+ gb|AAW65351.1| gene III protein [synthetic construct]
+ dbj|BAF74208.1| protein III [Enterobacteria phage f1]
+ dbj|BAF74218.1| protein III [Enterobacteria phage f1]
+ gb|ACY07162.1| III [Enterobacteria phage f1]
+ gb|AEE98862.1| protein III [Cloning vector HPdO]
+Length=424
+
+ Score = 87.9 bits (216),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AFQ39716.1| p3, partial [synthetic construct]
+Length=424
+
+ Score = 87.9 bits (216),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ABO72593.1| recombinant protein III precursor [Filamentous phage display 
+vector MSH-2 fUSE5]
+Length=450
+
+ Score = 88.3 bits (217),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  49   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  107
+
+Query  66   VPES  69
+            +PE+
+Sbjct  108  IPEN  111
+
+
+>sp|P03661.1|G3P_BPFD RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAF75609.1|AF217317_12 adsorption protein pIII precursor [Filamentous phage cloning 
+vector fd-tet]
+ gb|AAA32309.1| III [Enterobacteria phage fd]
+ gb|AAM73889.1| adsorption protein pIII precursor [Filamentous phage display 
+vector f8-5]
+ gb|AAM73901.1| adsorption protein pIII precursor [Filamentous phage display 
+vector c8-4]
+ prf||0812197D DNA,phage
+Length=424
+
+ Score = 87.5 bits (215),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ADN93464.1| recombinant pIII precursor [synthetic construct]
+ gb|ADN93466.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 87.9 bits (216),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>gb|ADN93465.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 87.2 bits (214),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>gb|AAZ78138.1| pelB/anti-tetanus toxoid immunoglobulin gamma heavy chain/gIIIp 
+fusion protein precursor [Cloning vector pMAB136]
+Length=660
+
+ Score = 88.3 bits (217),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  259  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  317
+
+Query  66   VPES  69
+            +PE+
+Sbjct  318  IPEN  321
+
+
+>gb|AAG01722.1|AF246446_1 recombinant adsoprtion protein rpIII-6mer precursor [synthetic 
+construct]
+Length=438
+
+ Score = 87.2 bits (214),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  37  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  95
+
+Query  66  VPES  69
+           +PE+
+Sbjct  96  IPEN  99
+
+
+>gb|AAG01721.1|AF246445_1 recombinant adsorption protein rpIII-15mer precursor [synthetic 
+construct]
+Length=447
+
+ Score = 87.2 bits (214),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  46   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  104
+
+Query  66   VPES  69
+            +PE+
+Sbjct  105  IPEN  108
+
+
+>gb|AGO32656.1| breast cancer binding peptide PC82, partial [synthetic construct]
+Length=85
+
+ Score = 82.1 bits (201),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>gb|AEQ25526.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 86.8 bits (213),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>ref|WP_020246339.1| hypothetical protein, partial [Escherichia coli]
+Length=256
+
+ Score = 84.8 bits (208),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  18  GVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGYVPE  68
+           GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ WKPTG V +
+Sbjct  1   GVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-WKPTGAVAD  49
+
+
+>gb|ACY07152.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 86.4 bits (212),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 37/64 (58%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|AEQ25536.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 86.4 bits (212),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 37/64 (58%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ACY07142.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 86.4 bits (212),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>prf||1814345A gene III
+Length=424
+
+ Score = 85.2 bits (209),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>gb|ACY07132.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 85.2 bits (209),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y  Y GC + ATGV VC  D T C  + W P G  
+Sbjct  23  ESCLAKPHTENSFTNVWKDDKTLDRYAIYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  81
+
+Query  66  VPES  69
+           +PE+
+Sbjct  82  IPEN  85
+
+
+>emb|CAA74922.1| recombinant single chain antibody pIII fusion protein [synthetic 
+construct]
+Length=684
+
+ Score = 86.4 bits (212),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  283  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  341
+
+Query  66   VPES  69
+            +PE+
+Sbjct  342  IPEN  345
+
+
+>gb|AFQ39731.1| p3 [synthetic construct]
+Length=435
+
+ Score = 84.5 bits (207),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  34  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  92
+
+Query  66  VPES  69
+           +PE+
+Sbjct  93  IPEN  96
+
+
+>dbj|BAD24100.1| M13 pIII [Cloning vector TFV3]
+ dbj|BAD24101.1| M13 pIII [Cloning vector TFV4]
+ dbj|BAD24102.1| M13 pIII [Cloning vector TFV5]
+ dbj|BAF74634.1| M13 pIII [Cloning vector TFV6]
+Length=404
+
+ Score = 83.7 bits (205),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  3   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  61
+
+Query  66  VPES  69
+           +PE+
+Sbjct  62  IPEN  65
+
+
+>gb|AGO32653.1| breast cancer binding peptide PC34, partial [synthetic construct]
+Length=85
+
+ Score = 79.1 bits (193),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>emb|CAA59045.1| M13 pIII [synthetic construct]
+Length=410
+
+ Score = 83.3 bits (204),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  9   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  67
+
+Query  66  VPES  69
+           +PE+
+Sbjct  68  IPEN  71
+
+
+>emb|CAA59046.1| hybrid PSTI-pIII [synthetic construct]
+Length=478
+
+ Score = 83.3 bits (204),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  77   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  135
+
+Query  66   VPES  69
+            +PE+
+Sbjct  136  IPEN  139
+
+
+>pdb|2G3P|A Chain A, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+ pdb|2G3P|B Chain B, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+Length=225
+
+ Score = 80.6 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>gb|AGO32655.1| breast cancer binding peptide PC73, partial [synthetic construct]
+Length=85
+
+ Score = 77.9 bits (190),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>dbj|BAK08550.1| attachment protein G3P [Enterobacteria phage M13]
+Length=428
+
+ Score = 82.1 bits (201),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 7/68 (10%)
+
+Query  8   EICEAKP----PIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+           E C AKP      +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  23  ESCLAKPDIGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  81
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  82  IGLAIPEN  89
+
+
+>gb|AGO32654.1| breast cancer binding peptide PC65, partial [synthetic construct]
+Length=85
+
+ Score = 77.1 bits (188),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  21  ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  79
+
+Query  66  VPES  69
+           +PE+
+Sbjct  80  IPEN  83
+
+
+>pdb|1TOL|A Chain A, Fusion Of N-Terminal Domain Of The Minor Coat Protein 
+From Gene Iii In Phage M13, And C-Terminal Domain Of E. Coli 
+Protein-Tola
+Length=222
+
+ Score = 79.4 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>dbj|BAK08551.1| attachment protein G3P [Enterobacteria phage M13]
+Length=439
+
+ Score = 78.3 bits (191),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 36/79 (46%), Gaps = 18/79 (23%)
+
+Query  8   EICEAKP---------------PIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQND  51
+           E C AKP                 +  F NV+K D+    Y NY GC + ATGV VC  D
+Sbjct  23  ESCLAKPDIDHKSGSRDQLSGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGD  82
+
+Query  52  GTVCSSSAWKPTG-YVPES  69
+            T C  + W P G  +PE+
+Sbjct  83  ETQCYGT-WVPIGLAIPEN  100
+
+
+>pdb|1G3P|A Chain A, Crystal Structure Of The N-Terminal Domains Of Bacteriophage 
+Minor Coat Protein G3p
+Length=217
+
+ Score = 76.0 bits (185),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 34/64 (53%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  5   ESCLAKSHTENSFTNVXKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  63
+
+Query  66  VPES  69
+           +PE+
+Sbjct  64  IPEN  67
+
+
+>dbj|BAK08552.1| attachment protein G3P [Enterobacteria phage M13]
+Length=432
+
+ Score = 77.5 bits (189),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 28/72 (39%), Positives = 35/72 (49%), Gaps = 11/72 (15%)
+
+Query  8   EICEAK--------PPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSS  58
+           E C AK           +  F NV+K D+    Y NY GC + ATGV VC  D T C  +
+Sbjct  23  ESCLAKCMGCIEGRAHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT  82
+
+Query  59  AWKPTG-YVPES  69
+            W P G  +PE+
+Sbjct  83  -WVPIGLAIPEN  93
+
+
+>dbj|BAK08553.1| attachment protein G3P [Enterobacteria phage M13]
+Length=438
+
+ Score = 76.0 bits (185),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 34/68 (50%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+           ++      +    +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  33  KSGSRDQLSGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  91
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  92  IGLAIPEN  99
+
+
+>pdb|3DGS|A Chain A, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+ pdb|3DGS|B Chain B, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+Length=227
+
+ Score = 63.7 bits (153),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 26/64 (41%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E   AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T   +  W P G  
+Sbjct  6   ESSLAKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQVYA-IWVPVGLA  64
+
+Query  66  VPES  69
+           +PE+
+Sbjct  65  IPEN  68
+
+
+>pdb|3KNQ|A Chain A, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+ pdb|3KNQ|B Chain B, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+Length=223
+
+ Score = 62.1 bits (149),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 34/61 (56%), Gaps = 3/61 (5%)
+
+Query  11  EAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-YVPE  68
+            AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T   +  W P G  +PE
+Sbjct  8   LAKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQVYA-IWVPVGLAIPE  66
+
+Query  69  S  69
+           +
+Sbjct  67  N  67
+
+
+>ref|NP_047356.1| attachment protein [Enterobacteria phage If1]
+ sp|O80297.1|G3P_BPIF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAC62155.1| attachment protein [Enterobacteria phage If1]
+Length=460
+
+ Score = 52.1 bits (123),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/62 (31%), Positives = 32/62 (52%), Gaps = 2/62 (3%)
+
+Query  2   SEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+           +  T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T C+   W 
+Sbjct  15  THATTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDTSCNG-HWT  72
+
+Query  62  PT  63
+           P 
+Sbjct  73  PV  74
+
+
+>gb|AEJ88186.1| heterologous peptide [synthetic construct]
+Length=78
+
+ Score = 47.1 bits (110),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 16/31 (52%), Gaps = 1/31 (3%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+           E C AK   +  F NV+K D+    Y NY G
+Sbjct  48  ESCLAKSHTENSFTNVWKDDKTLDRYANYEG  78
+
+
+>gb|AEJ88185.1| heterologous peptide [synthetic construct]
+Length=78
+
+ Score = 47.1 bits (110),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 16/31 (52%), Gaps = 1/31 (3%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+           E C AK   +  F NV+K D+    Y NY G
+Sbjct  48  ESCLAKSHTENSFTNVWKDDKTLDRYANYEG  78
+
+
+>gb|AEJ88184.1| heterologous peptide [synthetic construct]
+Length=79
+
+ Score = 45.9 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 16/31 (52%), Gaps = 1/31 (3%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+           E C AK   +  F NV+K D+    Y NY G
+Sbjct  49  ESCLAKSHTENSFTNVWKDDKTLDRYANYEG  79
+
+
+>ref|WP_000341084.1| hypothetical protein [Escherichia coli]
+ gb|EGX11358.1| hypothetical protein ECSTECH18_2282 [Escherichia coli STEC_H.1.8]
+Length=377
+
+ Score = 48.2 bits (113),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 20/38 (53%), Positives = 25/38 (66%), Gaps = 2/38 (5%)
+
+Query  26  GDEGGFYINYNGCEYEATG-VTVCQNDGTVCSSSAWKP  62
+            D+G  Y+  +GC YEATG V  C ND T CS++ WKP
+Sbjct  2   DDKGNKYVTIHGCIYEATGDVISCSNDSTHCSAT-WKP  38
+
+
+>ref|YP_001462788.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+ ref|WP_012138432.1| hypothetical protein [Escherichia coli]
+ gb|ABV19428.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+Length=442
+
+ Score = 47.9 bits (112),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/59 (32%), Positives = 30/59 (51%), Gaps = 2/59 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P   
+Sbjct  32  DEACISRPALQGSLSGAFRSDNT-WYAVVDGCIYMATGVIVGSETGDV-AATNWIPVAA  88
+
+
+>ref|WP_001716536.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMW13850.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW13862.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26503.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26541.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EST02427.1| hypothetical protein L341_0307 [Escherichia coli CE418]
+Length=442
+
+ Score = 47.5 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/59 (32%), Positives = 30/59 (51%), Gaps = 2/59 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P   
+Sbjct  32  DEACISRPALQGSLSGAFRSDNT-WYAVVDGCIYMATGVIVGSETGDV-AATNWIPVAA  88
+
+
+>ref|WP_016157961.1| attachment protein G3P, partial [Citrobacter sp. KTE32]
+ gb|EOQ23575.1| attachment protein G3P, partial [Citrobacter sp. KTE32]
+Length=333
+
+ Score = 46.7 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 31/62 (50%), Gaps = 2/62 (3%)
+
+Query  2   SEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+           +  T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T   +  W 
+Sbjct  15  THATTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDT-SWNGHWT  72
+
+Query  62  PT  63
+           P 
+Sbjct  73  PV  74
+
+
+>pdb|2X9A|A Chain A, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9A|C Chain C, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9B|A Chain A, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+ pdb|2X9B|B Chain B, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+Length=65
+
+ Score = 42.1 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/66 (30%), Positives = 32/66 (48%), Gaps = 2/66 (3%)
+
+Query  5   TPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+           T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T   +  W P  
+Sbjct  2   TTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDT-SWNGHWTPVR  59
+
+Query  65  YVPESG  70
+               SG
+Sbjct  60  AADGSG  65
+
+
+>ref|WP_008916990.1| hypothetical protein [Providencia sneebia]
+ gb|EKT52841.1| hypothetical protein OO7_16325 [Providencia sneebia DSM 19967]
+Length=476
+
+ Score = 44.8 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  7    EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG  64
+            E  C+++P +    F+   K   G +  NY GC+YE+T + V   D     ++ W+P G
+Sbjct  155  ENYCKSQPVLKNYSFSPARKDSSGNYVANYEGCKYESTSIGVIVGDRI---AADWRPVG  210
+
+
+>ref|WP_001409623.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENB17697.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-01]
+Length=441
+
+ Score = 44.0 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDVAAD--WIPVAA  88
+
+
+>ref|WP_001762681.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENA17194.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-13]
+Length=441
+
+ Score = 44.0 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDVAAD--WIPVAA  88
+
+
+>ref|WP_003985501.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV86273.1| phage Coat Protein A family protein [Escherichia coli 2861200]
+Length=441
+
+ Score = 44.0 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDGV-FNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + GV  +  F+ D   +Y   +GC Y ATGV V    G V +   W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDVAAD--WIPVAA  88
+
+
+>ref|WP_001689636.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU96860.1| phage Coat Protein A family protein [Escherichia coli MP021017.3]
+Length=344
+
+ Score = 42.5 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 28/59 (47%), Gaps = 2/59 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + GV  +     +  +Y   +GC Y ATGV V    G V +   W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVAA  88
+
+
+>ref|WP_001684938.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU80692.1| phage Coat Protein A family protein [Escherichia coli MP021017.9]
+ gb|EMU82843.1| phage Coat Protein A family protein [Escherichia coli MP021017.6]
+ gb|EMU85098.1| phage Coat Protein A family protein [Escherichia coli MP021017.5]
+ gb|EMU95552.1| phage Coat Protein A family protein [Escherichia coli MP021017.4]
+ gb|EMU97529.1| phage Coat Protein A family protein [Escherichia coli MP021017.2]
+ gb|EMV07545.1| phage Coat Protein A family protein [Escherichia coli MP021017.10]
+ gb|EMV12345.1| phage Coat Protein A family protein [Escherichia coli MP021017.11]
+ gb|EMV27081.1| phage Coat Protein A family protein [Escherichia coli MP021017.12]
+ gb|EMX38218.1| phage Coat Protein A family protein [Escherichia coli MP021017.1]
+Length=344
+
+ Score = 42.5 bits (98),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 28/59 (47%), Gaps = 2/59 (3%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + GV  +     +  +Y   +GC Y ATGV V    G V +   W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNTWYAVLDGCIYRATGVIVGSETGDVAAD--WIPVAA  88
+
+
+>ref|WP_001408027.1| phage Coat Protein A family protein, partial [Escherichia coli]
+ gb|ENB23159.1| phage Coat Protein A family protein, partial [Escherichia coli 
+BCE008_MS-01]
+Length=271
+
+ Score = 36.3 bits (82),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 30/59 (51%), Gaps = 1/59 (2%)
+
+Query  7   EEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P ++ +  +     +  +Y   +GC YEATG  +   D  + S++ W P   
+Sbjct  32  DEVCISRPTLNFITLSGAFRSDNTWYAILDGCIYEATGNVIVGGDSGIVSAN-WIPVAA  89
+
+
+>ref|YP_007649573.1| adsorption protein [Xanthomonas citri subsp. citri Aw12879]
+ ref|WP_015471905.1| adsorption protein [Xanthomonas citri]
+ gb|AGI07375.1| adsorption protein [Xanthomonas citri subsp. citri Aw12879]
+Length=397
+
+ Score = 34.8 bits (78),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 28/71 (39%), Gaps = 11/71 (15%)
+
+Query  5    TPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEY---EATGVTVCQNDGT--VCSSSA  59
+              E  C+  PP+  V         G  Y   N C+Y    A GV VC   G    C++  
+Sbjct  92   DNENNCKNAPPLTNV------SVRGSIYACSNQCQYTMNSAGGVDVCMGGGADLYCAAKN  145
+
+Query  60   WKPTGYVPESG  70
+            W PTG   + G
+Sbjct  146  WSPTGQECQQG  156
+
+
+>ref|WP_005469510.1| serine protease [Vibrio sp. 16]
+ gb|EED28251.1| serine protease, putative [Vibrio sp. 16]
+Length=334
+
+ Score = 34.4 bits (77),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  5    TPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVT  46
+            T + +C   P   G  N+   GD GG    YNG +Y   G+T
+Sbjct  197  TDKHLCFGGPEKSGYQNSTCSGDSGGPVYYYNGLDYIQVGLT  238
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.124    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0375    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+Results from round 3
+
+
+Query= 4EO1A
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_040576.1|  G III capsid protein precursor [Enterobacteria ...   108    1e-26
+gb|AAW65363.1|  gene III protein [synthetic construct]                 108    2e-26
+ref|NP_039621.1|  gene III product [Enterobacteria phage I2-2] >s...   107    4e-26
+pdb|4EO1|A  Chain A, Crystal Structure Of The Tola Binding Domain...   100    6e-26
+ref|NP_955531.1|  mature G III capsid protein [Enterobacteria pha...   106    8e-26
+ref|WP_023142887.1|  attachment protein G3P family protein, parti...   102    3e-24
+ref|WP_001705087.1|  phage Coat Protein A family protein [Escheri...   101    4e-24
+ref|WP_006825823.1|  Coat protein A [Salmonella enterica] >emb|CC...   101    5e-24
+emb|CBX73730.1|  attachment protein G3P [Yersinia enterocolitica ...   101    5e-24
+ref|WP_001253121.1|  attachment protein [Salmonella enterica] >gb...   101    5e-24
+ref|YP_004298354.1|  Coat protein A [Yersinia enterocolitica subs...   101    5e-24
+ref|WP_023893483.1|  attachment protein [Salmonella enterica] >gb...   101    6e-24
+ref|WP_020802191.1|  attachment protein G3P family protein [Klebs...   101    6e-24
+ref|WP_001734930.1|  Coat protein A [Salmonella enterica] >gb|ELO...   101    8e-24
+ref|WP_001608233.1|  hypothetical protein [Escherichia coli] >gb|...   100    1e-23
+ref|YP_006110789.1|  hypothetical protein UM146_09470 [Escherichi...    99    2e-23
+ref|WP_000823306.1|  attachment protein [Escherichia coli] >gb|ED...    99    2e-23
+ref|WP_021549830.1|  hypothetical protein [Escherichia coli] >gb|...    99    2e-23
+ref|WP_020244582.1|  hypothetical protein, partial [Escherichia c...  97.2    3e-23
+ref|WP_020239544.1|  hypothetical protein, partial [Escherichia c...  97.2    3e-23
+ref|WP_020239956.1|  hypothetical protein, partial [Escherichia c...  97.2    3e-23
+ref|WP_020246325.1|  hypothetical protein, partial [Escherichia c...  97.2    4e-23
+ref|WP_001618455.1|  hypothetical protein [Escherichia coli] >gb|...  98.8    5e-23
+ref|WP_021572342.1|  hypothetical protein, partial [Escherichia c...  96.4    8e-23
+ref|WP_021548345.1|  hypothetical protein, partial [Escherichia c...  96.4    2e-22
+ref|WP_023151876.1|  hypothetical protein, partial [Escherichia c...  94.9    2e-22
+ref|WP_000823305.1|  hypothetical protein, partial [Escherichia c...  94.9    3e-22
+ref|WP_021538708.1|  hypothetical protein, partial [Escherichia c...  94.9    3e-22
+ref|WP_001675799.1|  hypothetical protein, partial [Escherichia c...  94.9    3e-22
+ref|WP_021573178.1|  hypothetical protein, partial [Escherichia c...  95.7    4e-22
+gb|AAT01117.1|  rpL23-ScFv fusion protein [rpL23-fusion expressio...  93.4    8e-21
+pir||Z3BPF1  coat protein A precursor - phage f1                      91.4    3e-20
+emb|CAA23872.1|  unnamed protein product [Enterobacteria phage f1...  91.1    4e-20
+gb|AFQ21790.1|  structural protein [Enterobacteria phage M13]         91.1    4e-20
+gb|AEQ25516.1|  III protein [Enterobacteria phage f1]                 91.1    4e-20
+ref|NP_510891.1|  structural protein [Enterobacteria phage M13] >...  91.1    4e-20
+sp|P69169.1|G3P_BPF1  RecName: Full=Attachment protein G3P; AltNa...  91.1    5e-20
+gb|AFQ39716.1|  p3, partial [synthetic construct]                     90.7    5e-20
+gb|ADR00489.1|  scTCR-pIII fusion protein [Filamentous phage disp...  92.2    5e-20
+sp|P03661.1|G3P_BPFD  RecName: Full=Attachment protein G3P; AltNa...  90.7    6e-20
+gb|ADN93464.1|  recombinant pIII precursor [synthetic construct] ...  90.7    7e-20
+gb|ABO72593.1|  recombinant protein III precursor [Filamentous ph...  90.7    7e-20
+gb|AGO32657.1|  breast cancer binding peptideP PC90, partial [syn...  85.3    9e-20
+gb|AAG01722.1|AF246446_1  recombinant adsoprtion protein rpIII-6m...  89.9    1e-19
+gb|AAG01721.1|AF246445_1  recombinant adsorption protein rpIII-15...  89.9    1e-19
+gb|ACY07152.1|  III [Enterobacteria phage f1]                         89.5    2e-19
+gb|AEQ25536.1|  III protein [Enterobacteria phage f1]                 89.5    2e-19
+gb|ADN93465.1|  recombinant pIII precursor [synthetic construct]      89.5    2e-19
+gb|AEQ25526.1|  III protein [Enterobacteria phage f1]                 89.1    2e-19
+ref|NP_047356.1|  attachment protein [Enterobacteria phage If1] >...  89.5    2e-19
+gb|ACY07142.1|  III [Enterobacteria phage f1]                         89.1    2e-19
+gb|ACY07132.1|  III [Enterobacteria phage f1]                         88.7    3e-19
+prf||1814345A  gene III                                               88.7    3e-19
+gb|AGO32656.1|  breast cancer binding peptide PC82, partial [synt...  83.7    3e-19
+pdb|1FGP|A  Chain A, Membrane Penetration Domain Of The Minor Coa...  83.0    5e-19
+gb|AAZ78138.1|  pelB/anti-tetanus toxoid immunoglobulin gamma hea...  89.5    5e-19
+gb|AFQ39731.1|  p3 [synthetic construct]                              87.6    9e-19
+emb|CAA74922.1|  recombinant single chain antibody pIII fusion pr...  88.4    1e-18
+dbj|BAK08553.1|  attachment protein G3P [Enterobacteria phage M13]    87.2    1e-18
+dbj|BAD24100.1|  M13 pIII [Cloning vector TFV3] >dbj|BAD24101.1| ...  86.8    1e-18
+dbj|BAK08551.1|  attachment protein G3P [Enterobacteria phage M13]    87.2    1e-18
+emb|CAA59045.1|  M13 pIII [synthetic construct]                       86.8    1e-18
+ref|WP_016157961.1|  attachment protein G3P, partial [Citrobacter...  85.7    2e-18
+emb|CAA59046.1|  hybrid PSTI-pIII [synthetic construct]               86.8    2e-18
+pdb|2G3P|A  Chain A, Structure Of The N-Terminal Two Domains Of T...  84.1    3e-18
+dbj|BAK08550.1|  attachment protein G3P [Enterobacteria phage M13]    84.9    8e-18
+gb|AGO32653.1|  breast cancer binding peptide PC34, partial [synt...  80.3    9e-18
+pdb|1TOL|A  Chain A, Fusion Of N-Terminal Domain Of The Minor Coa...  81.4    3e-17
+gb|AGO32655.1|  breast cancer binding peptide PC73, partial [synt...  77.6    8e-17
+pdb|2X9A|A  Chain A, Crystal Structure Of G3p From Phage If1 In C...  77.2    8e-17
+gb|AGO32654.1|  breast cancer binding peptide PC65, partial [synt...  76.8    1e-16
+emb|CBA76049.1|  hypothetical protein ARN_33030 [Arsenophonus nas...  79.5    2e-16
+pdb|1G3P|A  Chain A, Crystal Structure Of The N-Terminal Domains ...  78.7    2e-16
+dbj|BAK08552.1|  attachment protein G3P [Enterobacteria phage M13]    80.7    3e-16
+pdb|3DGS|A  Chain A, Changing The Determinants Of Protein Stabili...  74.1    1e-14
+ref|WP_020246339.1|  hypothetical protein, partial [Escherichia c...  73.3    3e-14
+pdb|3KNQ|A  Chain A, Beta Turn Optimization Of The Gene-3-Protein...  72.6    4e-14
+ref|YP_001462788.1|  hypothetical protein EcE24377A_1701 [Escheri...  73.7    9e-14
+ref|WP_001716536.1|  phage Coat Protein A family protein [Escheri...  73.3    1e-13
+ref|WP_008916990.1|  hypothetical protein [Providencia sneebia] >...  69.5    4e-12
+ref|WP_000341084.1|  hypothetical protein [Escherichia coli] >gb|...  55.2    2e-07
+gb|AEJ88186.1|  heterologous peptide [synthetic construct]            49.8    2e-06
+gb|AEJ88185.1|  heterologous peptide [synthetic construct]            49.8    2e-06
+gb|AEJ88184.1|  heterologous peptide [synthetic construct]            49.1    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_003985501.1|  phage Coat Protein A family protein [Escheri...  66.0    5e-11
+ref|WP_001762681.1|  phage Coat Protein A family protein [Escheri...  66.0    5e-11
+ref|WP_001409623.1|  phage Coat Protein A family protein [Escheri...  66.0    5e-11
+ref|WP_001684938.1|  phage Coat Protein A family protein [Escheri...  62.5    5e-10
+ref|WP_001689636.1|  phage Coat Protein A family protein [Escheri...  62.5    5e-10
+ref|WP_001408027.1|  phage Coat Protein A family protein, partial...  52.5    2e-06
+ref|YP_007649573.1|  adsorption protein [Xanthomonas citri subsp....  33.3    6.6  
+
+
+>ref|NP_040576.1| G III capsid protein precursor [Enterobacteria phage Ike]
+ sp|P03663.1|G3P_BPIKE RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA26073.1| unnamed protein product [Enterobacteria phage Ike]
+Length=434
+
+ Score =  108 bits (270),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>gb|AAW65363.1| gene III protein [synthetic construct]
+Length=455
+
+ Score =  108 bits (269),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFN+VFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNDVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  189
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  190  KPTGYVPESG  199
+
+
+>ref|NP_039621.1| gene III product [Enterobacteria phage I2-2]
+ sp|P15415.1|G3P_BPI22 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA32518.1| gene III product [Enterobacteria phage I2-2]
+Length=434
+
+ Score =  107 bits (266),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 63/65 (97%), Positives = 64/65 (98%), Gaps = 0/65 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNV KGDEGGFYINYNGCEYEATGVTVCQNDGTVC+SSAW
+Sbjct  130  PSEQTPEEICEAKPPIDGVFNNVSKGDEGGFYINYNGCEYEATGVTVCQNDGTVCASSAW  189
+
+Query  61   KPTGY  65
+            KPTGY
+Sbjct  190  KPTGY  194
+
+
+>pdb|4EO1|A Chain A, Crystal Structure Of The Tola Binding Domain From The 
+Filamentous Phage Ike
+Length=70
+
+ Score =  100 bits (249),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+           PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  1   PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+
+Query  61  KPTGYVPESG  70
+           KPTGYVPESG
+Sbjct  61  KPTGYVPESG  70
+
+
+>ref|NP_955531.1| mature G III capsid protein [Enterobacteria phage Ike]
+Length=415
+
+ Score =  106 bits (264),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW
+Sbjct  111  PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  170
+
+Query  61   KPTGYVPESG  70
+            KPTGYVPESG
+Sbjct  171  KPTGYVPESG  180
+
+
+>ref|WP_023142887.1| attachment protein G3P family protein, partial [Escherichia coli]
+ gb|ESD27327.1| attachment protein G3P family protein, partial [Escherichia coli 
+907710]
+Length=442
+
+ Score =  102 bits (254),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  137  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  194
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  195  KPTGAVAD  202
+
+
+>ref|WP_001705087.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV60812.1| phage Coat Protein A family protein [Escherichia coli 2872000]
+ gb|EMV61605.1| phage Coat Protein A family protein [Escherichia coli 2871950]
+ gb|EMZ72515.1| phage Coat Protein A family protein [Escherichia coli 2846750]
+Length=401
+
+ Score =  101 bits (252),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_006825823.1| Coat protein A [Salmonella enterica]
+ emb|CCT34958.1| Coat protein A [Salmonella enterica subsp. enterica serovar Agona 
+str. 15.H.03]
+Length=410
+
+ Score =  101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>emb|CBX73730.1| attachment protein G3P [Yersinia enterocolitica W22703]
+Length=413
+
+ Score =  101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001253121.1| attachment protein [Salmonella enterica]
+ gb|EHL48747.1| hypothetical protein SEEM030_18904 [Salmonella enterica subsp. 
+enterica serovar Montevideo str. SARB30]
+Length=414
+
+ Score =  101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|YP_004298354.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|YP_004298367.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ ref|WP_013649912.1| attachment protein [Yersinia enterocolitica]
+ gb|ADZ42651.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+ gb|ADZ42664.1| Coat protein A [Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=430
+
+ Score =  101 bits (252),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_023893483.1| attachment protein [Salmonella enterica]
+ gb|ETB73359.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001691]
+ gb|ETB82474.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001690]
+ gb|ETB97832.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001692]
+ gb|ETC08632.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. CFSAN001697]
+ gb|ETC74666.1| attachment protein [Salmonella enterica subsp. enterica serovar 
+Cerro str. 5569]
+Length=434
+
+ Score =  101 bits (252),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020802191.1| attachment protein G3P family protein [Klebsiella pneumoniae]
+ gb|EOY81090.1| attachment protein G3P family protein [Klebsiella pneumoniae 
+UHKPC81]
+Length=439
+
+ Score =  101 bits (252),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001734930.1| Coat protein A [Salmonella enterica]
+ gb|ELO88650.1| Coat protein A [Salmonella enterica subsp. enterica serovar Enteritidis 
+str. 81-2625]
+Length=421
+
+ Score =  101 bits (250),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_001608233.1| hypothetical protein [Escherichia coli]
+ gb|ELH09506.1| hypothetical protein A13U_01910 [Escherichia coli KTE192]
+ gb|ELI14216.1| hypothetical protein WIA_04447 [Escherichia coli KTE109]
+Length=414
+
+ Score =  100 bits (248),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 49/68 (72%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|YP_006110789.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+ ref|WP_001148921.1| attachment protein [Escherichia coli]
+ gb|ADN71277.1| hypothetical protein UM146_09470 [Escherichia coli UM146]
+Length=373
+
+ Score =   99 bits (247),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  73   PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  130
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  131  KPTGAVAD  138
+
+
+>ref|WP_000823306.1| attachment protein [Escherichia coli]
+ gb|EDV64803.1| coat protein A [Escherichia coli F11]
+ gb|EDV64814.1| coat protein A [Escherichia coli F11]
+ gb|EDV65214.1| coat protein A [Escherichia coli F11]
+ gb|ELD15079.1| hypothetical protein A15M_01726 [Escherichia coli KTE206]
+ gb|EQP09746.1| hypothetical protein G728_01401 [Escherichia coli HVH 56 (4-2153033)]
+ gb|EQQ32067.1| hypothetical protein G761_04628 [Escherichia coli HVH 100 (4-2850729)]
+ gb|EQT42549.1| hypothetical protein G837_04883 [Escherichia coli HVH 185 (4-2876639)]
+ gb|EQV27561.1| hypothetical protein G881_04863 [Escherichia coli KOEGE 30 (63a)]
+ gb|EQW70790.1| hypothetical protein G909_01487 [Escherichia coli UMEA 3113-1]
+ gb|EQZ41955.1| hypothetical protein G980_01530 [Escherichia coli UMEA 3617-1]
+ gb|ESK11099.1| hypothetical protein G974_04782 [Escherichia coli UMEA 3426-1]
+Length=426
+
+ Score =   99 bits (247),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021549830.1| hypothetical protein [Escherichia coli]
+ gb|EQV75160.1| hypothetical protein G892_04925 [Escherichia coli KOEGE 70 (185a)]
+ gb|EQV84518.1| hypothetical protein G892_01405 [Escherichia coli KOEGE 70 (185a)]
+Length=431
+
+ Score =   99 bits (247),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_020244582.1| hypothetical protein, partial [Escherichia coli]
+Length=213
+
+ Score = 97.2 bits (240),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239544.1| hypothetical protein, partial [Escherichia coli]
+Length=216
+
+ Score = 97.2 bits (240),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020239956.1| hypothetical protein, partial [Escherichia coli]
+Length=218
+
+ Score = 97.2 bits (240),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_020246325.1| hypothetical protein, partial [Escherichia coli]
+Length=221
+
+ Score = 97.2 bits (240),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 45/62 (73%), Positives = 51/62 (82%), Gaps = 2/62 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  162  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  219
+
+Query  61   KP  62
+            KP
+Sbjct  220  KP  221
+
+
+>ref|WP_001618455.1| hypothetical protein [Escherichia coli]
+ gb|ELH69719.1| hypothetical protein A175_04715 [Escherichia coli KTE215]
+ gb|ELI81201.1| hypothetical protein WK5_04655 [Escherichia coli KTE145]
+Length=414
+
+ Score = 98.8 bits (244),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 49/68 (72%), Positives = 56/68 (82%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            PSE TPEEICEAKPP +GVFNNV+  D G  YI YNGCEYEATGV VCQ+DGTVC+++ W
+Sbjct  130  PSEPTPEEICEAKPPEEGVFNNVYSYD-GDRYIYYNGCEYEATGVIVCQSDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021572342.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ17792.1| hypothetical protein G976_04869, partial [Escherichia coli UMEA 
+3490-1]
+Length=231
+
+ Score = 96.4 bits (238),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGAVAD  195
+
+
+>ref|WP_021548345.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQV33305.1| hypothetical protein G881_01478, partial [Escherichia coli KOEGE 
+30 (63a)]
+Length=278
+
+ Score = 96.4 bits (238),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_023151876.1| hypothetical protein, partial [Escherichia coli]
+ gb|ESE37632.1| hypothetical protein HMPREF1622_00922, partial [Escherichia coli 
+A35218R]
+Length=216
+
+ Score = 94.9 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_000823305.1| hypothetical protein, partial [Escherichia coli]
+ gb|EFJ63410.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 200-1]
+ gb|EGB85123.1| attachment protein G3P domain protein, partial [Escherichia coli 
+MS 60-1]
+Length=225
+
+ Score = 94.9 bits (234),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021538708.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQT51059.1| hypothetical protein G837_01483, partial [Escherichia coli HVH 
+185 (4-2876639)]
+Length=228
+
+ Score = 94.9 bits (234),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_001675799.1| hypothetical protein, partial [Escherichia coli]
+ gb|ELI61504.1| hypothetical protein WIU_04682, partial [Escherichia coli KTE131]
+ gb|EQQ80197.1| hypothetical protein G773_04745, partial [Escherichia coli HVH 
+112 (4-5987253)]
+ gb|ESK11604.1| hypothetical protein G959_04713, partial [Escherichia coli UMEA 
+3290-1]
+ gb|ESK19045.1| hypothetical protein G974_01711, partial [Escherichia coli UMEA 
+3426-1]
+Length=238
+
+ Score = 94.9 bits (234),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>ref|WP_021573178.1| hypothetical protein, partial [Escherichia coli]
+ gb|EQZ32708.1| hypothetical protein G980_04905, partial [Escherichia coli UMEA 
+3617-1]
+Length=288
+
+ Score = 95.7 bits (236),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 2/68 (3%)
+
+Query  1    PSEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAW  60
+            P++ TPEEICEAKPP +GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ W
+Sbjct  130  PTDPTPEEICEAKPPEEGVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-W  187
+
+Query  61   KPTGYVPE  68
+            KPTG V +
+Sbjct  188  KPTGTVAD  195
+
+
+>gb|AAT01117.1| rpL23-ScFv fusion protein [rpL23-fusion expression vector pScFV]
+Length=446
+
+ Score = 93.4 bits (230),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  354  AATVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  412
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  413  IGLAIPEN  420
+
+
+>pir||Z3BPF1 coat protein A precursor - phage f1
+Length=424
+
+ Score = 91.4 bits (225),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>emb|CAA23872.1| unnamed protein product [Enterobacteria phage f1]
+ gb|AAW65340.1| gene III protein [synthetic construct]
+Length=424
+
+ Score = 91.1 bits (224),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|AFQ21790.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 91.1 bits (224),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|AEQ25516.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 91.1 bits (224),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>ref|NP_510891.1| structural protein [Enterobacteria phage M13]
+ sp|P69168.1|G3P_BPM13 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ emb|CAA23862.1| structural protein [Enterobacteria phage M13]
+Length=424
+
+ Score = 91.1 bits (224),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>sp|P69169.1|G3P_BPF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAA32215.1| protein III [Enterobacteria phage f1]
+ gb|AAT27366.1| pIII [VCSM13 interference-resistant helper phage]
+ gb|AAW65351.1| gene III protein [synthetic construct]
+ dbj|BAF74208.1| protein III [Enterobacteria phage f1]
+ dbj|BAF74218.1| protein III [Enterobacteria phage f1]
+ gb|ACY07162.1| III [Enterobacteria phage f1]
+ gb|AEE98862.1| protein III [Cloning vector HPdO]
+Length=424
+
+ Score = 91.1 bits (224),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|AFQ39716.1| p3, partial [synthetic construct]
+Length=424
+
+ Score = 90.7 bits (223),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|ADR00489.1| scTCR-pIII fusion protein [Filamentous phage display vector f37-AviTag]
+Length=680
+
+ Score = 92.2 bits (227),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  275  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  333
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  334  IGLAIPEN  341
+
+
+>sp|P03661.1|G3P_BPFD RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAF75609.1|AF217317_12 adsorption protein pIII precursor [Filamentous phage cloning 
+vector fd-tet]
+ gb|AAA32309.1| III [Enterobacteria phage fd]
+ gb|AAM73889.1| adsorption protein pIII precursor [Filamentous phage display 
+vector f8-5]
+ gb|AAM73901.1| adsorption protein pIII precursor [Filamentous phage display 
+vector c8-4]
+ prf||0812197D DNA,phage
+Length=424
+
+ Score = 90.7 bits (223),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|ADN93464.1| recombinant pIII precursor [synthetic construct]
+ gb|ADN93466.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 90.7 bits (223),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  42   AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  100
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  101  IGLAIPEN  108
+
+
+>gb|ABO72593.1| recombinant protein III precursor [Filamentous phage display 
+vector MSH-2 fUSE5]
+Length=450
+
+ Score = 90.7 bits (223),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  45   AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  103
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  104  IGLAIPEN  111
+
+
+>gb|AGO32657.1| breast cancer binding peptideP PC90, partial [synthetic construct]
+Length=85
+
+ Score = 85.3 bits (209),  Expect = 9e-20, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  17  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  75
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  76  IGLAIPEN  83
+
+
+>gb|AAG01722.1|AF246446_1 recombinant adsoprtion protein rpIII-6mer precursor [synthetic 
+construct]
+Length=438
+
+ Score = 89.9 bits (221),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  33  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  91
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  92  IGLAIPEN  99
+
+
+>gb|AAG01721.1|AF246445_1 recombinant adsorption protein rpIII-15mer precursor [synthetic 
+construct]
+Length=447
+
+ Score = 89.9 bits (221),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  42   AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  100
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  101  IGLAIPEN  108
+
+
+>gb|ACY07152.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 89.5 bits (220),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 37/68 (54%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|AEQ25536.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 89.5 bits (220),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 37/68 (54%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC +D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTSDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|ADN93465.1| recombinant pIII precursor [synthetic construct]
+Length=447
+
+ Score = 89.5 bits (220),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  42   AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  100
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  101  IGLAIPEN  108
+
+
+>gb|AEQ25526.1| III protein [Enterobacteria phage f1]
+Length=424
+
+ Score = 89.1 bits (219),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>ref|NP_047356.1| attachment protein [Enterobacteria phage If1]
+ sp|O80297.1|G3P_BPIF1 RecName: Full=Attachment protein G3P; AltName: Full=Gene 3 protein; 
+Short=G3P; AltName: Full=Minor coat protein; Flags: Precursor
+ gb|AAC62155.1| attachment protein [Enterobacteria phage If1]
+Length=460
+
+ Score = 89.5 bits (220),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 32/65 (49%), Gaps = 2/65 (3%)
+
+Query  2   SEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+           +  T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T C +  W 
+Sbjct  15  THATTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDTSC-NGHWT  72
+
+Query  62  PTGYV  66
+           P    
+Sbjct  73  PVRAA  77
+
+
+>gb|ACY07142.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 89.1 bits (219),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPRTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|ACY07132.1| III [Enterobacteria phage f1]
+Length=424
+
+ Score = 88.7 bits (218),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y  Y GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKPHTENSFTNVWKDDKTLDRYAIYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>prf||1814345A gene III
+Length=424
+
+ Score = 88.7 bits (218),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  19  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  77
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  78  IGLAIPEN  85
+
+
+>gb|AGO32656.1| breast cancer binding peptide PC82, partial [synthetic construct]
+Length=85
+
+ Score = 83.7 bits (205),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  17  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  75
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  76  IGLAIPEN  83
+
+
+>pdb|1FGP|A Chain A, Membrane Penetration Domain Of The Minor Coat Protein 
+G3p Of Phage Fd, Nmr, 15 Structures
+Length=70
+
+ Score = 83.0 bits (203),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/65 (45%), Positives = 36/65 (55%), Gaps = 3/65 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  4   ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  62
+
+Query  66  VPESG  70
+           +PE+ 
+Sbjct  63  IPENA  67
+
+
+>gb|AAZ78138.1| pelB/anti-tetanus toxoid immunoglobulin gamma heavy chain/gIIIp 
+fusion protein precursor [Cloning vector pMAB136]
+Length=660
+
+ Score = 89.5 bits (220),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 29/64 (45%), Positives = 36/64 (56%), Gaps = 3/64 (5%)
+
+Query  8    EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+            E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  259  ESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  317
+
+Query  66   VPES  69
+            +PE+
+Sbjct  318  IPEN  321
+
+
+>gb|AFQ39731.1| p3 [synthetic construct]
+Length=435
+
+ Score = 87.6 bits (215),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  30  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  88
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  89  IGLAIPEN  96
+
+
+>emb|CAA74922.1| recombinant single chain antibody pIII fusion protein [synthetic 
+construct]
+Length=684
+
+ Score = 88.4 bits (217),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  279  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  337
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  338  IGLAIPEN  345
+
+
+>dbj|BAK08553.1| attachment protein G3P [Enterobacteria phage M13]
+Length=438
+
+ Score = 87.2 bits (214),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 34/69 (49%), Gaps = 3/69 (4%)
+
+Query  3   EQTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+            ++      +    +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W 
+Sbjct  32  HKSGSRDQLSGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WV  90
+
+Query  62  PTG-YVPES  69
+           P G  +PE+
+Sbjct  91  PIGLAIPEN  99
+
+
+>dbj|BAD24100.1| M13 pIII [Cloning vector TFV3]
+ dbj|BAD24101.1| M13 pIII [Cloning vector TFV4]
+ dbj|BAD24102.1| M13 pIII [Cloning vector TFV5]
+ dbj|BAF74634.1| M13 pIII [Cloning vector TFV6]
+Length=404
+
+ Score = 86.8 bits (213),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 3/64 (5%)
+
+Query  8   EICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-Y  65
+           E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P G  
+Sbjct  3   ESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVPIGLA  61
+
+Query  66  VPES  69
+           +PE+
+Sbjct  62  IPEN  65
+
+
+>dbj|BAK08551.1| attachment protein G3P [Enterobacteria phage M13]
+Length=439
+
+ Score = 87.2 bits (214),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 34/69 (49%), Gaps = 3/69 (4%)
+
+Query  3   EQTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+            ++      +    +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W 
+Sbjct  33  HKSGSRDQLSGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WV  91
+
+Query  62  PTG-YVPES  69
+           P G  +PE+
+Sbjct  92  PIGLAIPEN  100
+
+
+>emb|CAA59045.1| M13 pIII [synthetic construct]
+Length=410
+
+ Score = 86.8 bits (213),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  5   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  63
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  64  IGLAIPEN  71
+
+
+>ref|WP_016157961.1| attachment protein G3P, partial [Citrobacter sp. KTE32]
+ gb|EOQ23575.1| attachment protein G3P, partial [Citrobacter sp. KTE32]
+Length=333
+
+ Score = 85.7 bits (210),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 18/65 (28%), Positives = 31/65 (48%), Gaps = 2/65 (3%)
+
+Query  2   SEQTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWK  61
+           +  T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T   +  W 
+Sbjct  15  THATTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDT-SWNGHWT  72
+
+Query  62  PTGYV  66
+           P    
+Sbjct  73  PVRAA  77
+
+
+>emb|CAA59046.1| hybrid PSTI-pIII [synthetic construct]
+Length=478
+
+ Score = 86.8 bits (213),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4    QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+                E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  73   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  131
+
+Query  63   TG-YVPES  69
+             G  +PE+
+Sbjct  132  IGLAIPEN  139
+
+
+>pdb|2G3P|A Chain A, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+ pdb|2G3P|B Chain B, Structure Of The N-Terminal Two Domains Of The Infectivity 
+Protein G3p Of Filamentous Phage Fd
+Length=225
+
+ Score = 84.1 bits (206),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 29/68 (43%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AKP  +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  1   AETVESCLAKPHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  59
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  60  IGLAIPEN  67
+
+
+>dbj|BAK08550.1| attachment protein G3P [Enterobacteria phage M13]
+Length=428
+
+ Score = 84.9 bits (208),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 29/72 (40%), Positives = 36/72 (50%), Gaps = 7/72 (10%)
+
+Query  4   QTPEEICEAKP----PIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSS  58
+               E C AKP      +  F NV+K D+    Y NY GC + ATGV VC  D T C  +
+Sbjct  19  AETVESCLAKPDIGTHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT  78
+
+Query  59  AWKPTG-YVPES  69
+            W P G  +PE+
+Sbjct  79  -WVPIGLAIPEN  89
+
+
+>gb|AGO32653.1| breast cancer binding peptide PC34, partial [synthetic construct]
+Length=85
+
+ Score = 80.3 bits (196),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  17  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  75
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  76  IGLAIPEN  83
+
+
+>pdb|1TOL|A Chain A, Fusion Of N-Terminal Domain Of The Minor Coat Protein 
+From Gene Iii In Phage M13, And C-Terminal Domain Of E. Coli 
+Protein-Tola
+Length=222
+
+ Score = 81.4 bits (199),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  1   AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  59
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  60  IGLAIPEN  67
+
+
+>gb|AGO32655.1| breast cancer binding peptide PC73, partial [synthetic construct]
+Length=85
+
+ Score = 77.6 bits (189),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  17  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  75
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  76  IGLAIPEN  83
+
+
+>pdb|2X9A|A Chain A, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9A|C Chain C, Crystal Structure Of G3p From Phage If1 In Complex With 
+Its Coreceptor, The C-Terminal Domain Of Tola
+ pdb|2X9B|A Chain A, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+ pdb|2X9B|B Chain B, The Filamentous Phages Fd And If1 Use Different Infection 
+Mechanisms
+Length=65
+
+ Score = 77.2 bits (188),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 20/67 (30%), Positives = 32/67 (48%), Gaps = 2/67 (3%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  63
+            T +  C +KP  DG  +NV+K  +   Y N+  C YE +G+ +  ++ T   +  W P 
+Sbjct  1   ATTDAECLSKPAFDGTLSNVWKEGDS-RYANFENCIYELSGIGIGYDNDT-SWNGHWTPV  58
+
+Query  64  GYVPESG  70
+                SG
+Sbjct  59  RAADGSG  65
+
+
+>gb|AGO32654.1| breast cancer binding peptide PC65, partial [synthetic construct]
+Length=85
+
+ Score = 76.8 bits (187),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV+K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  17  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  75
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  76  IGLAIPEN  83
+
+
+>emb|CBA76049.1| hypothetical protein ARN_33030 [Arsenophonus nasoniae]
+Length=288
+
+ Score = 79.5 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 26/65 (40%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPT  63
+           +  E+ C AKP     ++N +K     +Y+N+ GC+Y A GV V   DGT+  ++ WKPT
+Sbjct  21  KDDEKDCLAKPIEAKTYSNTYKIG-SDYYVNFEGCQYIAKGVIVGGGDGTI--AADWKPT  77
+
+Query  64  GYVPE  68
+           G V E
+Sbjct  78  GKVVE  82
+
+
+>pdb|1G3P|A Chain A, Crystal Structure Of The N-Terminal Domains Of Bacteriophage 
+Minor Coat Protein G3p
+Length=217
+
+ Score = 78.7 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 34/68 (50%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E C AK   +  F NV K D+    Y NY GC + ATGV VC  D T C  + W P
+Sbjct  1   AETVESCLAKSHTENSFTNVXKDDKTLDRYANYEGCLWNATGVVVCTGDETQCYGT-WVP  59
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  60  IGLAIPEN  67
+
+
+>dbj|BAK08552.1| attachment protein G3P [Enterobacteria phage M13]
+Length=432
+
+ Score = 80.7 bits (197),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 28/76 (37%), Positives = 35/76 (46%), Gaps = 11/76 (14%)
+
+Query  4   QTPEEICEAK--------PPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTV  54
+               E C AK           +  F NV+K D+    Y NY GC + ATGV VC  D T 
+Sbjct  19  AETVESCLAKCMGCIEGRAHTENSFTNVWKDDKTLDRYANYEGCLWNATGVVVCTGDETQ  78
+
+Query  55  CSSSAWKPTG-YVPES  69
+           C  + W P G  +PE+
+Sbjct  79  CYGT-WVPIGLAIPEN  93
+
+
+>pdb|3DGS|A Chain A, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+ pdb|3DGS|B Chain B, Changing The Determinants Of Protein Stability From 
+Covalent To Non- Covalent Interactions By In-Vitro Evolution: 
+A Structural And Energetic Analysis
+Length=227
+
+ Score = 74.1 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 26/68 (38%), Positives = 35/68 (51%), Gaps = 3/68 (4%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKP  62
+               E   AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T   +  W P
+Sbjct  2   AETVESSLAKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQVYA-IWVP  60
+
+Query  63  TG-YVPES  69
+            G  +PE+
+Sbjct  61  VGLAIPEN  68
+
+
+>ref|WP_020246339.1| hypothetical protein, partial [Escherichia coli]
+Length=256
+
+ Score = 73.3 bits (178),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 36/51 (71%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  18  GVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGYVPE  68
+           GVFNNV   D GG YI YNGCEYEATGV VCQ DGTVC+++ WKPTG V +
+Sbjct  1   GVFNNVDSYD-GGRYIYYNGCEYEATGVIVCQGDGTVCAAT-WKPTGAVAD  49
+
+
+>pdb|3KNQ|A Chain A, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+ pdb|3KNQ|B Chain B, Beta Turn Optimization Of The Gene-3-Protein Of Filamentous
+Length=223
+
+ Score = 72.6 bits (176),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 34/63 (54%), Gaps = 3/63 (5%)
+
+Query  9   ICEAKPPIDGVFNNVFKGDEG-GFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTG-YV  66
+              AK  I+G F NV+K D+   +Y NY G  ++ATGV V   D T   +  W P G  +
+Sbjct  6   ESLAKSHIEGSFTNVWKDDKTLDWYANYEGILWKATGVVVITGDETQVYA-IWVPVGLAI  64
+
+Query  67  PES  69
+           PE+
+Sbjct  65  PEN  67
+
+
+>ref|YP_001462788.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+ ref|WP_012138432.1| hypothetical protein [Escherichia coli]
+ gb|ABV19428.1| hypothetical protein EcE24377A_1701 [Escherichia coli E24377A]
+Length=442
+
+ Score = 73.7 bits (179),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 2/60 (3%)
+
+Query  6   PEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+            +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P   
+Sbjct  31  SDEACISRPALQGSLSGAFRSDNT-WYAVVDGCIYMATGVIVGSETGDV-AATNWIPVAA  88
+
+
+>ref|WP_001716536.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMW13850.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW13862.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26503.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EMW26541.1| phage Coat Protein A family protein [Escherichia coli 2848050]
+ gb|EST02427.1| hypothetical protein L341_0307 [Escherichia coli CE418]
+Length=442
+
+ Score = 73.3 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 2/60 (3%)
+
+Query  6   PEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+            +E C ++P + G  +  F+ D   +Y   +GC Y ATGV V    G V +++ W P   
+Sbjct  31  SDEACISRPALQGSLSGAFRSDNT-WYAVVDGCIYMATGVIVGSETGDV-AATNWIPVAA  88
+
+
+>ref|WP_008916990.1| hypothetical protein [Providencia sneebia]
+ gb|EKT52841.1| hypothetical protein OO7_16325 [Providencia sneebia DSM 19967]
+Length=476
+
+ Score = 69.5 bits (168),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 18/64 (28%), Positives = 31/64 (48%), Gaps = 4/64 (6%)
+
+Query  7    EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+            E  C+++P +    F+   K   G +  NY GC+YE+T + V   D     ++ W+P G 
+Sbjct  155  ENYCKSQPVLKNYSFSPARKDSSGNYVANYEGCKYESTSIGVIVGDRI---AADWRPVGV  211
+
+Query  66   VPES  69
+               +
+Sbjct  212  ADPN  215
+
+
+>ref|WP_003985501.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMV86273.1| phage Coat Protein A family protein [Escherichia coli 2861200]
+Length=441
+
+ Score = 66.0 bits (159),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + G   +  F+ D   +Y   +GC Y ATGV V    G V  ++ W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDV--AADWIPVAA  88
+
+
+>ref|WP_001762681.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENA17194.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-13]
+Length=441
+
+ Score = 66.0 bits (159),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + G   +  F+ D   +Y   +GC Y ATGV V    G V  ++ W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDV--AADWIPVAA  88
+
+
+>ref|WP_001409623.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|ENB17697.1| phage Coat Protein A family protein [Escherichia coli BCE008_MS-01]
+Length=441
+
+ Score = 66.0 bits (159),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + G   +  F+ D   +Y   +GC Y ATGV V    G V  ++ W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDV--AADWIPVAA  88
+
+
+>ref|WP_001684938.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU80692.1| phage Coat Protein A family protein [Escherichia coli MP021017.9]
+ gb|EMU82843.1| phage Coat Protein A family protein [Escherichia coli MP021017.6]
+ gb|EMU85098.1| phage Coat Protein A family protein [Escherichia coli MP021017.5]
+ gb|EMU95552.1| phage Coat Protein A family protein [Escherichia coli MP021017.4]
+ gb|EMU97529.1| phage Coat Protein A family protein [Escherichia coli MP021017.2]
+ gb|EMV07545.1| phage Coat Protein A family protein [Escherichia coli MP021017.10]
+ gb|EMV12345.1| phage Coat Protein A family protein [Escherichia coli MP021017.11]
+ gb|EMV27081.1| phage Coat Protein A family protein [Escherichia coli MP021017.12]
+ gb|EMX38218.1| phage Coat Protein A family protein [Escherichia coli MP021017.1]
+Length=344
+
+ Score = 62.5 bits (150),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + G   +  F+ D   +Y   +GC Y ATGV V    G V  ++ W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDV--AADWIPVAA  88
+
+
+>ref|WP_001689636.1| phage Coat Protein A family protein [Escherichia coli]
+ gb|EMU96860.1| phage Coat Protein A family protein [Escherichia coli MP021017.3]
+Length=344
+
+ Score = 62.5 bits (150),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 30/60 (50%), Gaps = 4/60 (7%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P + G   +  F+ D   +Y   +GC Y ATGV V    G V  ++ W P   
+Sbjct  32  DEVCISRPALQGVTLSGAFRSDNT-WYAVLDGCIYRATGVIVGSETGDV--AADWIPVAA  88
+
+
+>ref|WP_000341084.1| hypothetical protein [Escherichia coli]
+ gb|EGX11358.1| hypothetical protein ECSTECH18_2282 [Escherichia coli STEC_H.1.8]
+Length=377
+
+ Score = 55.2 bits (131),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/43 (49%), Positives = 26/43 (60%), Gaps = 2/43 (5%)
+
+Query  26  GDEGGFYINYNGCEYEATG-VTVCQNDGTVCSSSAWKPTGYVP  67
+            D+G  Y+  +GC YEATG V  C ND T CS++ WKP    P
+Sbjct  2   DDKGNKYVTIHGCIYEATGDVISCSNDSTHCSAT-WKPLTVDP  43
+
+
+>ref|WP_001408027.1| phage Coat Protein A family protein, partial [Escherichia coli]
+ gb|ENB23159.1| phage Coat Protein A family protein, partial [Escherichia coli 
+BCE008_MS-01]
+Length=271
+
+ Score = 52.5 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 3/60 (5%)
+
+Query  7   EEICEAKPPIDG-VFNNVFKGDEGGFYINYNGCEYEATGVTVCQNDGTVCSSSAWKPTGY  65
+           +E+C ++P ++    +  F+ D   +Y   +GC YEATG  +   D  + S+  W P   
+Sbjct  32  DEVCISRPTLNFITLSGAFRSDNT-WYAILDGCIYEATGNVIVGGDSGIVSA-NWIPVAA  89
+
+
+>gb|AEJ88186.1| heterologous peptide [synthetic construct]
+Length=78
+
+ Score = 49.8 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 16/35 (46%), Gaps = 1/35 (3%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+               E C AK   +  F NV+K D+    Y NY G
+Sbjct  44  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEG  78
+
+
+>gb|AEJ88185.1| heterologous peptide [synthetic construct]
+Length=78
+
+ Score = 49.8 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 16/35 (46%), Gaps = 1/35 (3%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+               E C AK   +  F NV+K D+    Y NY G
+Sbjct  44  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEG  78
+
+
+>gb|AEJ88184.1| heterologous peptide [synthetic construct]
+Length=79
+
+ Score = 49.1 bits (115),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 16/35 (46%), Gaps = 1/35 (3%)
+
+Query  4   QTPEEICEAKPPIDGVFNNVFKGDEG-GFYINYNG  37
+               E C AK   +  F NV+K D+    Y NY G
+Sbjct  45  AETVESCLAKSHTENSFTNVWKDDKTLDRYANYEG  79
+
+
+>ref|YP_007649573.1| adsorption protein [Xanthomonas citri subsp. citri Aw12879]
+ ref|WP_015471905.1| adsorption protein [Xanthomonas citri]
+ gb|AGI07375.1| adsorption protein [Xanthomonas citri subsp. citri Aw12879]
+Length=397
+
+ Score = 33.3 bits (74),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 28/71 (39%), Gaps = 11/71 (15%)
+
+Query  5    TPEEICEAKPPIDGVFNNVFKGDEGGFYINYNGCEY---EATGVTVCQNDGT--VCSSSA  59
+              E  C+  PP+  V         G  Y   N C+Y    A GV VC   G    C++  
+Sbjct  92   DNENNCKNAPPLTNV------SVRGSIYACSNQCQYTMNSAGGVDVCMGGGADLYCAAKN  145
+
+Query  60   WKPTGYVPESG  70
+            W PTG   + G
+Sbjct  146  WSPTGQECQQG  156
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.120    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0374    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

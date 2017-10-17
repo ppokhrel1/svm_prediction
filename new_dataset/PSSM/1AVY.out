@@ -1,0 +1,4682 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1AVY
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1AVY|A  Chain A, Fibritin Deletion Mutant M (Bacteriophage T4...   150    2e-45
+pdb|1AA0|A  Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)     135    7e-39
+gb|ABW89480.1|  chimeric protein FF.dZ [synthetic construct]           141    2e-38
+gb|ABW96139.1|  chimeric protein FF.Her2:7 [synthetic construct]       140    3e-38
+gb|ABW96143.1|  chimeric protein 11F.dZ [synthetic construct]          142    3e-38
+gb|ABW96140.1|  chimeric protein FF.Her2:4 [synthetic construct]       140    4e-38
+emb|CAA31379.1|  whisker antigen control protein (AA 1-487) [Ente...   141    5e-38
+gb|ABW96141.1|  chimeric protein 11F.Her2:7 [synthetic construct]      141    5e-38
+gb|ADJ39878.1|  fibritin [Enterobacteria phage T4T]                    141    5e-38
+gb|ABW96142.1|  chimeric protein 11F.Her2:4 [synthetic construct]      141    5e-38
+gb|AGR46106.1|  fibritin neck whiskers [Yersinia phage PST]            141    5e-38
+gb|AAA70300.1|  fibritin [Enterobacteria phage K3]                     141    5e-38
+pdb|3J2O|A  Chain A, Model Of The Bacteriophage T4 Fibritin Based...   139    2e-37
+ref|NP_049771.1|  Wac fibritin neck whiskers [Enterobacteria phag...   139    2e-37
+ref|YP_004415054.1|  putative fibritin neck whisker protein [Shig...   139    2e-37
+ref|YP_007004538.1|  phage neck whiskers protein [Enterobacteria ...   137    1e-36
+gb|AAA70294.1|  fibritin [Enterobacteria phage Ox2] >gb|AAA70303....   135    6e-36
+emb|CCI89056.1|  protein of unknown function [Yersinia phage phiD1]    135    7e-36
+ref|YP_006986713.1|  fibritin neck whiskers [Enterobacteria phage...   127    4e-33
+gb|AAN03610.1|AF406556_5  fibritin protein gpwac [Enterobacteria ...   127    5e-33
+ref|YP_002854495.1|  fibritin neck whiskers [Enterobacteria phage...   126    7e-33
+ref|YP_803102.1|  fibritin neck whiskers [Enterobacteria phage RB...   126    7e-33
+ref|YP_007004902.1|  fibritin neck whiskers [Escherichia phage wV...   126    9e-33
+dbj|BAI83173.1|  wac fibritin neck whiskers [Enterobacteria phage...   126    9e-33
+ref|YP_002854117.1|  fibritin neck whiskers [Enterobacteria phage...   123    1e-31
+pdb|1OX3|A  Chain A, Crystal Structure Of Mini-Fibritin               75.5    1e-15
+pdb|2IBL|A  Chain A, Crystal Structure Of A Helper Molecule (Ht-M...  75.1    2e-15
+gb|AEH26170.1|  maize-optimized human collagen [synthetic construct]  69.7    6e-12
+pdb|1V1I|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  65.1    9e-12
+pdb|1V1H|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  64.7    1e-11
+pdb|2LP7|A  Chain A, Structure Of Gp41-m-mat, A Membrane Associat...  62.4    3e-11
+pdb|1NAY|A  Chain A, Gpp-Foldon:x-Ray Structure >pdb|1NAY|B Chain...  62.4    3e-11
+pdb|1RFO|A  Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin...  61.6    4e-11
+ref|YP_007235993.1|  phage fibritin (wac) protein [Yersinia phage...  66.2    5e-11
+pdb|4JHW|F  Chain F, Crystal Structure Of Respiratory Syncytial V...  65.9    8e-11
+pdb|3A1M|A  Chain A, A Fusion Protein Of A Beta Helix Region Of G...  62.8    8e-11
+pdb|4MMT|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  65.5    1e-10
+pdb|4MMQ|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  65.1    1e-10
+pdb|4MMV|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  65.1    1e-10
+pdb|2KBL|A  Chain A, Nmr Structure Of A Monomeric Folding Interme...  60.5    1e-10
+pdb|4MMR|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  65.1    1e-10
+gb|AGR55399.1|  HA deltaRBS [synthetic construct]                     65.1    2e-10
+ref|NP_861864.1|  fibritin [Enterobacteria phage RB69] >gb|AAP760...  64.7    2e-10
+gb|AGR55401.1|  HA deltastem [synthetic construct]                    63.5    5e-10
+gb|AGR55400.1|  HA deltastem [synthetic construct]                    63.5    5e-10
+dbj|BAN82593.1|  hemagglutinin ectodomain with signal sequence, t...  63.2    8e-10
+pdb|2WW6|A  Chain A, Foldon Containing D-Amino Acids In Turn Posi...  56.6    4e-09
+ref|YP_004010022.1|  fibritin neck whisker protein [Enterobacteri...  59.3    2e-08
+pdb|2WW7|A  Chain A, Foldon Containing Beta-Turn Mimic >pdb|2WW7|...  49.3    2e-06
+ref|YP_007501190.1|  fibritin neck whiskers [Salmonella phage S16...  43.5    0.004
+gb|AFU64100.1|  hypothetical protein [Salmonella phage STML-198]      43.1    0.005
+ref|WP_004940077.1|  hypothetical protein [Serratia marcescens] >...  42.4    0.007
+ref|YP_008241466.1|  peptidase [Cellulophaga phage phi38:1] >gb|A...  39.3    0.099
+gb|AGO47950.1|  peptidase [Cellulophaga phage phi40:1]                39.3    0.099
+ref|WP_010762087.1|  hypothetical protein [Enterococcus haemopero...  38.1    0.22 
+ref|YP_004063856.1|  fibritin [Enterobacteria phage vB_EcoM-VR7] ...  38.1    0.26 
+ref|WP_022052817.1|  uncharacterized protein [Bacteroides plebeiu...  36.2    0.46 
+gb|ABW89019.1|  fibritin neck whiskers [Enterobacteria phage JS98...  37.0    0.51 
+ref|YP_003051344.1|  methyl-accepting chemotaxis sensory transduc...  37.4    0.54 
+ref|YP_004040030.1|  methyl-accepting chemotaxis sensory transduc...  37.0    0.58 
+ref|WP_016442223.1|  hypothetical protein, partial [Actinobaculum...  36.2    0.90 
+ref|WP_006069241.1|  dihydroorotase [Vibrio shilonii] >gb|EDL5583...  36.2    0.95 
+ref|YP_004421504.1|  unnamed protein product [Synechococcus phage...  36.2    0.98 
+ref|WP_004823289.1|  hypothetical protein [Acinetobacter guilloui...  35.8    0.98 
+ref|NP_918975.1|  tail fiber protein [Burkholderia phage BcepNazg...  36.2    1.0  
+ref|WP_007864792.1|  DNA stabilization, phage-associated [Cronoba...  35.4    1.1  
+ref|WP_022468937.1|  septum formation initiator [Clostridium sp. ...  34.3    1.1  
+ref|YP_008240974.1|  structural protein [Cellulophaga phage phi18...  35.4    1.1  
+ref|WP_002570427.1|  hypothetical protein [Clostridium bolteae] >...  34.7    1.1  
+gb|EMT67432.1|  hypothetical protein FOC4_g10005522 [Fusarium oxy...  35.8    1.2  
+ref|YP_008241376.1|  structural protein [Cellulophaga phage phi17...  35.4    1.2  
+gb|ENH64880.1|  hypothetical protein FOC1_g10005649 [Fusarium oxy...  35.4    1.4  
+gb|EGU80880.1|  hypothetical protein FOXB_08595 [Fusarium oxyspor...  35.4    1.6  
+ref|NP_899611.1|  hypothetical protein KVP40.0366 [Vibrio phage K...  35.4    1.7  
+ref|YP_007004287.1|  fibritin neck whiskers [Enterobacteria phage...  35.4    1.7  
+ref|WP_021848574.1|  predicted protein [Bacteroides sp. CAG:598] ...  35.4    1.8  
+gb|AFN37598.1|  hypothetical protein pp2_366 [Vibriophage phi-pp2]    35.0    2.0  
+ref|XP_790590.2|  PREDICTED: coiled-coil domain-containing protei...  35.0    2.2  
+ref|YP_002137974.1|  hypothetical protein Gbem_1159 [Geobacter be...  34.7    2.6  
+gb|AHA46341.1|  hypothetical protein ISTM_443 [Insectomime virus]     35.0    2.6  
+ref|WP_006436830.1|  hypothetical protein [Gordonia amicalis] >db...  34.7    2.6  
+ref|WP_008128739.1|  hypothetical protein [Phyllobacterium sp. YR...  34.3    2.9  
+ref|YP_008318360.1|  hypothetical protein [Bacillus phage phiNIT1...  34.7    2.9  
+ref|YP_007348547.1|  putative phage tail fiber protein [Escherich...  34.7    3.3  
+ref|WP_019849671.1|  hypothetical protein [Desulfitobacterium sp....  33.9    3.4  
+ref|WP_002589320.1|  hypothetical protein [Clostridium clostridio...  33.1    3.6  
+ref|WP_021125750.1|  hypothetical protein [[Clostridium] sordelli...  34.3    3.6  
+gb|AFH20892.1|  putative tail fiber protein 1 [Cronobacter phage ...  34.7    3.6  
+gb|AGY47360.1|  minor capsid protein [Bacillus phage Grass]           34.3    3.9  
+ref|XP_005837961.1|  hypothetical protein GUITHDRAFT_103565 [Guil...  34.3    3.9  
+ref|XP_005837956.1|  hypothetical protein GUITHDRAFT_103561 [Guil...  34.3    3.9  
+ref|YP_007392677.1|  virion structural protein [Pectobacterium ph...  34.3    4.7  
+ref|WP_019849680.1|  hypothetical protein [Desulfitobacterium sp....  33.5    5.8  
+ref|YP_003734301.1|  wac gene product [Enterobacteria phage IME08...  33.9    5.8  
+ref|WP_002577289.1|  hypothetical protein [Clostridium bolteae] >...  32.7    6.0  
+emb|CCT67784.1|  uncharacterized protein FFUJ_14805 [Fusarium fuj...  33.5    6.1  
+ref|WP_005205763.1|  DNA repair exonuclease [Gordonia sputi] >dbj...  33.5    7.2  
+ref|YP_003934797.1|  fibritin neck whiskers [Shigella phage SP18]...  33.5    7.6  
+ref|WP_023503520.1|  hypothetical protein, partial [uncultured ar...  31.6    8.3  
+ref|YP_007003444.1|  hypothetical protein [Bacillus phage SP10] >...  32.3    8.6  
+ref|YP_006429219.1|  hypothetical protein Desde_0992 [Desulfitoba...  32.7    8.7  
+ref|XP_001568108.1|  conserved hypothetical protein [Leishmania b...  33.1    8.8  
+ref|WP_019002226.1|  hypothetical protein [Succinimonas amylolytica]  33.1    8.8  
+ref|WP_010770316.1|  hypothetical protein [Enterococcus caccae] >...  33.1    9.1  
+ref|WP_017817018.1|  HeH/LEM domain protein [Acinetobacter bauman...  32.0    9.5  
+ref|WP_002566237.1|  hypothetical protein [Clostridium bolteae] >...  32.0    9.8  
+ref|WP_017206558.1|  hypothetical protein [Mycobacterium abscessus]   33.1    9.9  
+ref|WP_022456008.1|  predicted protein [Parabacteroides sp. CAG:4...  32.7    10.0 
+
+
+>pdb|1AVY|A Chain A, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|B Chain B, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|C Chain C, Fibritin Deletion Mutant M (Bacteriophage T4)
+Length=74
+
+ Score =  150 bits (380),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+
+Query  61  DGEWVLLSTFLSPA  74
+           DGEWVLLSTFLSPA
+Sbjct  61  DGEWVLLSTFLSPA  74
+
+
+>pdb|1AA0|A Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)
+Length=113
+
+ Score =  135 bits (339),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 66/71 (93%), Positives = 67/71 (94%), Gaps = 0/71 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  43   VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  102
+
+Query  61   DGEWVLLSTFL  71
+            DGEWVLLSTFL
+Sbjct  103  DGEWVLLSTFL  113
+
+
+>gb|ABW89480.1| chimeric protein FF.dZ [synthetic construct]
+Length=411
+
+ Score =  141 bits (355),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|ABW96139.1| chimeric protein FF.Her2:7 [synthetic construct]
+Length=411
+
+ Score =  140 bits (354),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|ABW96143.1| chimeric protein 11F.dZ [synthetic construct]
+Length=566
+
+ Score =  142 bits (357),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ABW96140.1| chimeric protein FF.Her2:4 [synthetic construct]
+Length=411
+
+ Score =  140 bits (353),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>emb|CAA31379.1| whisker antigen control protein (AA 1-487) [Enterobacteria phage 
+T4]
+Length=487
+
+ Score =  141 bits (355),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|ABW96141.1| chimeric protein 11F.Her2:7 [synthetic construct]
+Length=566
+
+ Score =  141 bits (356),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ADJ39878.1| fibritin [Enterobacteria phage T4T]
+Length=487
+
+ Score =  141 bits (355),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|ABW96142.1| chimeric protein 11F.Her2:4 [synthetic construct]
+Length=566
+
+ Score =  141 bits (356),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|AGR46106.1| fibritin neck whiskers [Yersinia phage PST]
+Length=487
+
+ Score =  141 bits (355),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|AAA70300.1| fibritin [Enterobacteria phage K3]
+Length=487
+
+ Score =  141 bits (355),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>pdb|3J2O|A Chain A, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|B Chain B, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|C Chain C, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|D Chain D, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|E Chain E, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|F Chain F, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+Length=486
+
+ Score =  139 bits (351),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  413  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  472
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  473  DGEWVFLSTFLSPA  486
+
+
+>ref|NP_049771.1| Wac fibritin neck whiskers [Enterobacteria phage T4]
+ sp|P10104.5|WAC_BPT4 RecName: Full=Fibritin; AltName: Full=Collar protein; AltName: 
+Full=Whisker antigen control protein
+ pdb|2BSG|A Chain A, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|B Chain B, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|C Chain C, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ gb|AAD42679.1|AF158101_266 Wac fibritin neck whiskers [Enterobacteria phage T4]
+Length=487
+
+ Score =  139 bits (351),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  474  DGEWVFLSTFLSPA  487
+
+
+>ref|YP_004415054.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+ gb|AEA73115.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+Length=487
+
+ Score =  139 bits (351),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 68/74 (92%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|YP_007004538.1| phage neck whiskers protein [Enterobacteria phage ime09]
+ gb|AEK12417.1| phage neck whiskers protein [Enterobacteria phage ime09]
+Length=487
+
+ Score =  137 bits (345),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 67/74 (91%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|AAA70294.1| fibritin [Enterobacteria phage Ox2]
+ gb|AAA70303.1| fibritin [Enterobacteria phage T2]
+Length=487
+
+ Score =  135 bits (340),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 67/74 (91%), Positives = 68/74 (92%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQ  VQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQSGVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>emb|CCI89056.1| protein of unknown function [Yersinia phage phiD1]
+Length=487
+
+ Score =  135 bits (339),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 66/74 (89%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVL STFLSPA
+Sbjct  474  DGEWVLXSTFLSPA  487
+
+
+>ref|YP_006986713.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+ gb|AFH20121.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+Length=485
+
+ Score =  127 bits (319),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 62/74 (84%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IK  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>gb|AAN03610.1|AF406556_5 fibritin protein gpwac [Enterobacteria phage AR1]
+Length=485
+
+ Score =  127 bits (318),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSTKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854495.1| fibritin neck whiskers [Enterobacteria phage RB14]
+ gb|ACP30803.1| fibritin neck whiskers [Enterobacteria phage RB14]
+Length=485
+
+ Score =  126 bits (317),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_803102.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|ABI94984.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|AFO10682.1| neck whiskers protein [Escherichia phage ECML-134]
+Length=485
+
+ Score =  126 bits (317),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_007004902.1| fibritin neck whiskers [Escherichia phage wV7]
+ gb|AEM00822.1| fibritin neck whiskers [Escherichia phage wV7]
+Length=485
+
+ Score =  126 bits (317),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>dbj|BAI83173.1| wac fibritin neck whiskers [Enterobacteria phage AR1]
+Length=485
+
+ Score =  126 bits (317),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854117.1| fibritin neck whiskers [Enterobacteria phage RB51]
+ gb|ACP31080.1| fibritin neck whiskers [Enterobacteria phage RB51]
+Length=485
+
+ Score =  123 bits (309),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 58/74 (78%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEA YIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEADYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>pdb|1OX3|A Chain A, Crystal Structure Of Mini-Fibritin
+Length=109
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  41   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  100
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  101  EWVLLSTFL  109
+
+
+>pdb|2IBL|A Chain A, Crystal Structure Of A Helper Molecule (Ht-Mf-Thromb) 
+Based On Mini- Fibritin (Mf) Crystal Structure (Pdb:1ox3).
+Length=130
+
+ Score = 75.1 bits (183),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  52   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  111
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  112  EWVLLSTFL  120
+
+
+>gb|AEH26170.1| maize-optimized human collagen [synthetic construct]
+Length=1110
+
+ Score = 69.7 bits (169),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  46    YIPEAPRDGQAYVRKDGEWVLLSTFLSPA  74
+             YIPEAPRDGQAYVRKDGEWV LSTFLSPA
+Sbjct  1082  YIPEAPRDGQAYVRKDGEWVFLSTFLSPA  1110
+
+
+>pdb|1V1I|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+Length=109
+
+ Score = 65.1 bits (157),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  82   SGYIPEAPRDGQAYVRKDGEWVLLSTFL  109
+
+
+>pdb|1V1H|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|D Chain D, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|E Chain E, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|F Chain F, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+Length=103
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  76   SGYIPEAPRDGQAYVRKDGEWVLLSTFL  103
+
+
+>pdb|2LP7|A Chain A, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|B Chain B, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|C Chain C, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2M7W|A Chain A, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|B Chain B, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|C Chain C, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+Length=59
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>pdb|1NAY|A Chain A, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|B Chain B, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|C Chain C, Gpp-Foldon:x-Ray Structure
+Length=56
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44  AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  29  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  56
+
+
+>pdb|1RFO|A Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|B Chain B, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|C Chain C, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1U0P|A Chain A, Stable A-State Hairpin Of T4 Fibritin Foldon
+Length=27
+
+ Score = 61.6 bits (148),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>ref|YP_007235993.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+ emb|CCI88734.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+Length=481
+
+ Score = 66.2 bits (160),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 46/73 (63%), Gaps = 5/73 (7%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL   +K I+ DI ++   ++  + +I ++   +     A  +PEAP+DG+AYVR+
+Sbjct  414  VEEKGLIPTVKVIQADIINITSRIDVVENDILTINASI-----ANLVPEAPKDGEAYVRQ  468
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV LS FL+P
+Sbjct  469  DGAWVKLSKFLTP  481
+
+
+>pdb|4JHW|F Chain F, Crystal Structure Of Respiratory Syncytial Virus Fusion 
+Glycoprotein Stabilized In The Prefusion Conformation By 
+Human Antibody D25
+Length=498
+
+ Score = 65.9 bits (159),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 2/59 (3%)
+
+Query  13   IETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+             +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  436  FDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  492
+
+
+>pdb|3A1M|A Chain A, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|B Chain B, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|C Chain C, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|D Chain D, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|E Chain E, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|F Chain F, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+Length=139
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            GYIPEAPRDGQAYVRKDGEWV LSTFL
+Sbjct  105  GYIPEAPRDGQAYVRKDGEWVFLSTFL  131
+
+
+>pdb|4MMT|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 9.5
+ pdb|4MMU|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 5.5
+Length=414
+
+ Score = 65.5 bits (158),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  14   ETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  353  DASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  408
+
+
+>pdb|4MMQ|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds
+Length=414
+
+ Score = 65.1 bits (157),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  14   ETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  353  DASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  408
+
+
+>pdb|4MMV|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1-tric At Ph 9.5
+Length=414
+
+ Score = 65.1 bits (157),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/55 (58%), Positives = 39/55 (71%), Gaps = 2/55 (4%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  356  ISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  408
+
+
+>pdb|2KBL|A Chain A, Nmr Structure Of A Monomeric Folding Intermediate Reveals 
+The Structural Basis For Rapid Assembly Of An Evolutionary 
+Optimized Trimerization Module
+Length=29
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 26/28 (93%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  44  AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           +GYIP APRDGQAYVRKDGEWVLLSTFL
+Sbjct  2   SGYIPRAPRDGQAYVRKDGEWVLLSTFL  29
+
+
+>pdb|4MMR|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 9.5
+ pdb|4MMS|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|D Chain D, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|F Chain F, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+Length=414
+
+ Score = 65.1 bits (157),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 32/58 (55%), Positives = 40/58 (69%), Gaps = 2/58 (3%)
+
+Query  14   ETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  353  DASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  408
+
+
+>gb|AGR55399.1| HA deltaRBS [synthetic construct]
+Length=563
+
+ Score = 65.1 bits (157),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLS  72
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFLS
+Sbjct  520  SGYIPEAPRDGQAYVRKDGEWVLLSTFLS  548
+
+
+>ref|NP_861864.1| fibritin [Enterobacteria phage RB69]
+ gb|AAP76073.1| Wac fibritin neck whiskers [Enterobacteria phage RB69]
+Length=480
+
+ Score = 64.7 bits (156),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            +EE G+   +K  +T I ++   V T + ++++ + ++QAL+EAGYI +AP DG+ YVRK
+Sbjct  411  IEERGILPTVKNHDTSIMALTTRVTTLETDLAAAEAEIQALKEAGYIEDAPSDGKFYVRK  470
+
+Query  61   DGEWVLLST  69
+            DG WV L T
+Sbjct  471  DGAWVELPT  479
+
+
+>gb|AGR55401.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 63.5 bits (153),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  529  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  556
+
+
+>gb|AGR55400.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 63.5 bits (153),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  529  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  556
+
+
+>dbj|BAN82593.1| hemagglutinin ectodomain with signal sequence, trimerization 
+sequence, and poly hisitidine tag [synthetic construct]
+Length=576
+
+ Score = 63.2 bits (152),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  542  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  569
+
+
+>pdb|2WW6|A Chain A, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|B Chain B, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|C Chain C, Foldon Containing D-Amino Acids In Turn Positions
+Length=27
+
+ Score = 56.6 bits (135),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRD QAYVRK GEWVLLSTFL
+Sbjct  1   GYIPEAPRDXQAYVRKXGEWVLLSTFL  27
+
+
+>ref|YP_004010022.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+ gb|ADB81660.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+Length=470
+
+ Score = 59.3 bits (142),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 31/74 (42%), Positives = 41/74 (55%), Gaps = 19/74 (26%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL + +K  +TDIAS++                   L +  +I EAP+DG+AYVRK
+Sbjct  415  VEERGLLSTVKTHDTDIASIK-------------------LAQNNFISEAPKDGKAYVRK  455
+
+Query  61   DGEWVLLSTFLSPA  74
+            DG WV L T L+P 
+Sbjct  456  DGAWVDLDTILNPT  469
+
+
+>pdb|2WW7|A Chain A, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|B Chain B, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|C Chain C, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|D Chain D, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|E Chain E, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|F Chain F, Foldon Containing Beta-Turn Mimic
+Length=26
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/25 (88%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  47  IPEAPRDGQAYVRKDGEWVLLSTFL  71
+           IPEAPRD QAYVRK  EWVLLSTFL
+Sbjct  2   IPEAPRDXQAYVRKXXEWVLLSTFL  26
+
+
+>ref|YP_007501190.1| fibritin neck whiskers [Salmonella phage S16]
+ gb|AEO97097.1| fibritin neck whiskers [Salmonella phage S16]
+Length=463
+
+ Score = 43.5 bits (101),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 22/43 (51%), Positives = 30/43 (70%), Gaps = 6/43 (14%)
+
+Query  31   ISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+            I+ +  D+Q L     IPEAP DG+AYVR+DG WV ++T L+P
+Sbjct  427  INKINLDMQNL-----IPEAPMDGKAYVRRDGAWVDITT-LTP  463
+
+
+>gb|AFU64100.1| hypothetical protein [Salmonella phage STML-198]
+Length=463
+
+ Score = 43.1 bits (100),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 22/43 (51%), Positives = 29/43 (67%), Gaps = 6/43 (14%)
+
+Query  31   ISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+            I  +  D+Q L     IPEAP DG+AYVR+DG WV ++T L+P
+Sbjct  427  IDKINLDMQNL-----IPEAPMDGKAYVRRDGAWVDITT-LTP  463
+
+
+>ref|WP_004940077.1| hypothetical protein [Serratia marcescens]
+ gb|EMF03295.1| hypothetical protein F518_22665 [Serratia marcescens VGH107]
+Length=309
+
+ Score = 42.4 bits (98),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 27/77 (35%), Positives = 44/77 (57%), Gaps = 9/77 (12%)
+
+Query  4    SGLT-------NKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQA  56
+            SGLT       N I +++T++AS+   V TA+GNI++LQG V  + EA Y+ +     Q+
+Sbjct  141  SGLTVRIVTAENNITSLQTNVASLTTRVTTAEGNITTLQGKVSTI-EANYVSKVVSTNQS  199
+
+Query  57   YVRKDGEWVLLSTFLSP  73
+             V+  G   L+   ++P
+Sbjct  200  -VQSSGGAFLVGPIVTP  215
+
+
+>ref|YP_008241466.1| peptidase [Cellulophaga phage phi38:1]
+ gb|AGO48115.1| peptidase [Cellulophaga phage phi38:1]
+Length=976
+
+ Score = 39.3 bits (90),  Expect = 0.099, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLL  67
+           L   GY  +APRDGQ Y+R++G W L+
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALV  71
+
+
+>gb|AGO47950.1| peptidase [Cellulophaga phage phi40:1]
+Length=976
+
+ Score = 39.3 bits (90),  Expect = 0.099, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLL  67
+           L   GY  +APRDGQ Y+R++G W L+
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALV  71
+
+
+>ref|WP_010762087.1| hypothetical protein [Enterococcus haemoperoxidus]
+ gb|EOH96720.1| hypothetical protein UAW_01885 [Enterococcus haemoperoxidus ATCC 
+BAA-382]
+ gb|EOT60216.1| hypothetical protein I583_02851 [Enterococcus haemoperoxidus 
+ATCC BAA-382]
+Length=390
+
+ Score = 38.1 bits (87),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 16/34 (47%), Positives = 21/34 (62%), Gaps = 4/34 (12%)
+
+Query  36   GDVQALQEAGYI----PEAPRDGQAYVRKDGEWV  65
+            G    + E+G +    PEAPRDG  Y RK+G+WV
+Sbjct  132  GKTITISESGVLSSVFPEAPRDGHMYARKEGKWV  165
+
+
+>ref|YP_004063856.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+ gb|ADR32550.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+Length=528
+
+ Score = 38.1 bits (87),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 6/70 (9%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPR-DGQAYVRKDG  62
+            S LT ++  IET       ++   +G +S+L+ ++         P AP  DG  YV  D 
+Sbjct  459  SALTLRVDGIETRTGEAETKITELEGKVSALETELSKRP-----PVAPAADGLPYVLVDN  513
+
+Query  63   EWVLLSTFLS  72
+             WVLLSTF++
+Sbjct  514  AWVLLSTFVT  523
+
+
+>ref|WP_022052817.1| uncharacterized protein [Bacteroides plebeius CAG:211]
+ emb|CCZ88174.1| uncharacterized protein BN536_00482 [Bacteroides plebeius CAG:211]
+Length=161
+
+ Score = 36.2 bits (82),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 13/18 (72%), Positives = 16/18 (89%), Gaps = 0/18 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEW  64
+            IP+AP+DG+ Y RKDGEW
+Sbjct  130  IPDAPKDGKIYGRKDGEW  147
+
+
+>gb|ABW89019.1| fibritin neck whiskers [Enterobacteria phage JS98-C3]
+Length=515
+
+ Score = 37.0 bits (84),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 44/103 (43%), Gaps = 29/103 (28%)
+
+Query  1    VEESGLTNKIKAIET------------------------DIASVRQEVNTAKGNISSLQG  36
+            VEE GL N +K +E                         +I     E++T K ++   +G
+Sbjct  412  VEERGLINSVKGLEAQMPTKLGDAPADGKLYGRKDAAWAEILDDTTEIDTVKASLLEAEG  471
+
+Query  37   DVQALQE--AGYIPEAPR-DGQAYVRKDGEWVLLSTF--LSPA  74
+             + AL+   A   P AP  DG  YV  D  WVLLS F  L+PA
+Sbjct  472  KITALETEMAKRPPVAPTADGLPYVLVDNAWVLLSDFVTLNPA  514
+
+
+>ref|YP_003051344.1| methyl-accepting chemotaxis sensory transducer [Methylovorus 
+glucosetrophus SIP3-4]
+ ref|WP_015830236.1| methyl-accepting chemotaxis protein [Methylovorus glucosotrophus]
+ gb|ACT50817.1| methyl-accepting chemotaxis sensory transducer [Methylovorus 
+glucosetrophus SIP3-4]
+Length=1011
+
+ Score = 37.4 bits (85),  Expect = 0.54, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 28/46 (61%), Gaps = 6/46 (13%)
+
+Query  16   DIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            D  ++RQ +NT    I++L      +Q+AG + +A RDG+ YVR D
+Sbjct  648  DFNTIRQNLNTCITAINAL------VQDAGMLADAARDGRVYVRAD  687
+
+
+>ref|YP_004040030.1| methyl-accepting chemotaxis sensory transducer [Methylovorus 
+sp. MP688]
+ ref|WP_013442416.1| methyl-accepting chemotaxis protein [Methylovorus sp. MP688]
+ gb|ADQ84794.1| methyl-accepting chemotaxis sensory transducer [Methylovorus 
+sp. MP688]
+Length=1011
+
+ Score = 37.0 bits (84),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 28/46 (61%), Gaps = 6/46 (13%)
+
+Query  16   DIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            D  ++RQ +NT    I++L      +Q+AG + +A RDG+ YVR D
+Sbjct  648  DFNTIRQNLNTCITAINAL------VQDAGMLADAARDGRVYVRAD  687
+
+
+>ref|WP_016442223.1| hypothetical protein, partial [Actinobaculum schaalii]
+ gb|EPD27231.1| hypothetical protein HMPREF9237_00588, partial [Actinobaculum 
+schaalii FB123-CNA-2]
+Length=629
+
+ Score = 36.2 bits (82),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  12   AIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            A+ET++A+ R E++ A+G+   L+   Q LQ+A    EA R+     ++D  WV
+Sbjct  165  ALETELAAARSELSEARGHARDLEEQTQTLQQALSDAEATREVLTACQQDLAWV  218
+
+
+>ref|WP_006069241.1| dihydroorotase [Vibrio shilonii]
+ gb|EDL55835.1| dihydroorotase [Vibrio shilonii AK1]
+Length=444
+
+ Score = 36.2 bits (82),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 22/62 (35%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           ++ + L N+   IETDI  V Q +     NISS  GD     + GYI     D Q + R+
+Sbjct  6   IKNARLVNEGSIIETDIRIVGQRIEMIASNISSKPGDTIVDAQGGYIIPGMIDDQVHFRE  65
+
+Query  61  DG  62
+            G
+Sbjct  66  PG  67
+
+
+>ref|YP_004421504.1| unnamed protein product [Synechococcus phage S-CBS2]
+ gb|ADF42406.1| unknown structural protein [Synechococcus phage S-CBS2]
+Length=462
+
+ Score = 36.2 bits (82),  Expect = 0.98, Method: Compositional matrix adjust.
+ Identities = 15/23 (65%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLST  69
+            IPEAP DGQAYVR++  WV  +T
+Sbjct  395  IPEAPVDGQAYVRQNSTWVPTTT  417
+
+
+ Score = 35.8 bits (81),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 14/19 (74%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWV  65
+            IPEAP DGQ YVR+D  WV
+Sbjct  372  IPEAPVDGQTYVRQDSTWV  390
+
+
+>ref|WP_004823289.1| hypothetical protein [Acinetobacter guillouiae]
+ gb|ENV15504.1| hypothetical protein F964_04230 [Acinetobacter guillouiae NIPH 
+991]
+Length=210
+
+ Score = 35.8 bits (81),  Expect = 0.98, Method: Compositional matrix adjust.
+ Identities = 17/38 (45%), Positives = 23/38 (61%), Gaps = 1/38 (3%)
+
+Query  27   AKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEW  64
+            +K  I +LQ  +  L  + +I EAP DG+ Y RKD EW
+Sbjct  127  SKDTIKNLQDQINELARSSFI-EAPVDGKTYGRKDLEW  163
+
+
+>ref|NP_918975.1| tail fiber protein [Burkholderia phage BcepNazgul]
+ gb|AAQ63342.1| tail fiber protein [Burkholderia phage BcepNazgul]
+Length=1270
+
+ Score = 36.2 bits (82),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 25/43 (58%), Gaps = 1/43 (2%)
+
+Query  28   KGNISSLQGDVQALQEA-GYIPEAPRDGQAYVRKDGEWVLLST  69
+             G+   ++ +  A Q A G IP+AP DG  Y RKDG W  ++T
+Sbjct  100  SGSTGRVEWNGTAWQAAQGGIPDAPSDGVGYARKDGGWTPVAT  142
+
+
+>ref|WP_007864792.1| DNA stabilization, phage-associated [Cronobacter sakazakii]
+ emb|CCK05599.1| DNA stabilization, phage-associated [Cronobacter sakazakii 696]
+Length=223
+
+ Score = 35.4 bits (80),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGD  37
+            S L++++ A E DI+ ++  V TA+G+I++LQGD
+Sbjct  96   SSLSSRVTATEGDISGLKTRVTTAEGSITTLQGD  129
+
+
+>ref|WP_022468937.1| septum formation initiator [Clostridium sp. CAG:451]
+ emb|CDE73409.1| septum formation initiator [Clostridium sp. CAG:451]
+Length=98
+
+ Score = 34.3 bits (77),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query  22  QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVL  66
+           +E+ + K   S L+ DV+ LQ+  Y+    R+ + Y  KDGE++L
+Sbjct  49  KELASLKDKESELKADVEKLQDKDYVARYARE-KYYYSKDGEYIL  92
+
+
+>ref|YP_008240974.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO48507.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO49221.1| structural protein [Cellulophaga phage phi18:2]
+Length=222
+
+ Score = 35.4 bits (80),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/23 (61%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  47  IPEAPRDGQAYVRKDGEWVLLST  69
+           + +AP DGQ Y RKDG WVL  T
+Sbjct  69  LADAPEDGQQYARKDGTWVLAYT  91
+
+
+>ref|WP_002570427.1| hypothetical protein [Clostridium bolteae]
+ gb|ENZ43962.1| hypothetical protein HMPREF1097_00550 [Clostridium bolteae 90B8]
+Length=126
+
+ Score = 34.7 bits (78),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  9   KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQE  43
+           K+  IE  +ASVR++V + +G++ +L+GDV+ L+E
+Sbjct  13  KLGGIEGGLASVREDVRSLQGDMQTLKGDVKTLKE  47
+
+
+>gb|EMT67432.1| hypothetical protein FOC4_g10005522 [Fusarium oxysporum f. sp. 
+cubense race 4]
+Length=358
+
+ Score = 35.8 bits (81),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            E S L  + ++++TD   +RQ+V T + + SSLQ DV+ LQ
+Sbjct  253  ELSTLRQENRSLKTDFDQLRQQVTTFRKDFSSLQRDVEQLQ  293
+
+
+>ref|YP_008241376.1| structural protein [Cellulophaga phage phi17:1]
+ gb|AGO48336.1| structural protein [Cellulophaga phage phi17:1]
+Length=222
+
+ Score = 35.4 bits (80),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 14/23 (61%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  47  IPEAPRDGQAYVRKDGEWVLLST  69
+           + +AP DGQ Y RKDG WVL  T
+Sbjct  69  LSDAPEDGQQYARKDGAWVLAYT  91
+
+
+>gb|ENH64880.1| hypothetical protein FOC1_g10005649 [Fusarium oxysporum f. sp. 
+cubense race 1]
+Length=358
+
+ Score = 35.4 bits (80),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            E S L  + ++++TD   +RQ+V T + + SSLQ DV+ LQ
+Sbjct  253  ELSTLRQENRSLKTDFDQLRQQVTTFREDFSSLQRDVEQLQ  293
+
+
+>gb|EGU80880.1| hypothetical protein FOXB_08595 [Fusarium oxysporum Fo5176]
+Length=358
+
+ Score = 35.4 bits (80),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            E S L  + ++++TD   +RQ+V T + + SSLQ DV+ LQ
+Sbjct  253  ELSTLRQENRSLKTDFDQLRQQVTTFREDFSSLQRDVEQLQ  293
+
+
+>ref|NP_899611.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+ gb|AAQ64434.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+Length=484
+
+ Score = 35.4 bits (80),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 14/18 (78%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  49  EAPRDGQAYVRKDGEWVL  66
+           EAP DGQ YVRKD +WVL
+Sbjct  42  EAPADGQEYVRKDFQWVL  59
+
+
+>ref|YP_007004287.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+ gb|AEN93963.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+Length=529
+
+ Score = 35.4 bits (80),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 39/78 (50%), Gaps = 12/78 (15%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQE---------AGYIPEAP-RDGQAYV  58
+            ++  + T+I +V+ ++    GN+++L   V   ++         A   P AP  DG  YV
+Sbjct  451  EVPNVSTEIGTVKADLVVTDGNVAALTSRVTTAEDKITALETELAKRPPVAPVADGLPYV  510
+
+Query  59   RKDGEWVLLSTF--LSPA  74
+              D  WVLLS F  L+PA
+Sbjct  511  LVDNAWVLLSDFVTLNPA  528
+
+
+>ref|WP_021848574.1| predicted protein [Bacteroides sp. CAG:598]
+ emb|CCX61746.1| predicted protein [Bacteroides sp. CAG:598]
+Length=546
+
+ Score = 35.4 bits (80),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 35/68 (51%), Gaps = 1/68 (1%)
+
+Query  3    ESGLTNKIKAIETDIASVR-QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            E+ + +K   ++ D   V+  E+ T  GN     G+++       I +AP DGQ Y RK+
+Sbjct  120  ETTIPSKTSELDNDSKFVKGTELKTINGNSIVGSGNIEISGTGSGIADAPSDGQTYGRKN  179
+
+Query  62   GEWVLLST  69
+            G W  +++
+Sbjct  180  GAWAAIAS  187
+
+
+>gb|AFN37598.1| hypothetical protein pp2_366 [Vibriophage phi-pp2]
+Length=484
+
+ Score = 35.0 bits (79),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 14/18 (78%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  49  EAPRDGQAYVRKDGEWVL  66
+           EAP DGQ YVRKD +WVL
+Sbjct  42  EAPADGQEYVRKDYQWVL  59
+
+
+>ref|XP_790590.2| PREDICTED: coiled-coil domain-containing protein 51-like [Strongylocentrotus 
+purpuratus]
+Length=332
+
+ Score = 35.0 bits (79),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 28/51 (55%), Gaps = 2/51 (4%)
+
+Query  8    NKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYV  58
+            N++  +E +   VR+EV  A G +S LQ  + +L+  G +   PRD   ++
+Sbjct  61   NRVAEVEKEFLKVREEVAEANGEVSGLQTKLHSLR--GKLDRTPRDDPKFL  109
+
+
+>ref|YP_002137974.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+ ref|WP_012529591.1| hypothetical protein [Geobacter bemidjiensis]
+ gb|ACH38178.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+Length=385
+
+ Score = 34.7 bits (78),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  39   QALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            Q+ +  G + +AP+DG+ YVR++G WV L T
+Sbjct  341  QSAEAIGAVGDAPKDGKLYVRQNGRWVELVT  371
+
+
+>gb|AHA46341.1| hypothetical protein ISTM_443 [Insectomime virus]
+Length=524
+
+ Score = 35.0 bits (79),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 28/41 (68%), Gaps = 0/41 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            + S L  ++  + TD+++++ +V T  G+I++LQGDV  LQ
+Sbjct  94   DVSTLQGQVSTLSTDVSTLQTQVATNTGDITTLQGDVVTLQ  134
+
+
+>ref|WP_006436830.1| hypothetical protein [Gordonia amicalis]
+ dbj|GAC53777.1| hypothetical protein GOAMI_24_00330 [Gordonia amicalis NBRC 100051 
+= JCM 11271]
+Length=247
+
+ Score = 34.7 bits (78),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 10/59 (17%)
+
+Query  5    GLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGE  63
+            GL  K K I+ D+A + +  + +KG + +L    QA          PRDGQ  +R DG+
+Sbjct  89   GLFRKAKGIDLDLACLWEFTDGSKGIVQALGNSFQA----------PRDGQPIIRLDGD  137
+
+
+>ref|WP_008128739.1| hypothetical protein [Phyllobacterium sp. YR531]
+ gb|EJM98905.1| hypothetical protein PMI41_04668 [Phyllobacterium sp. YR531]
+Length=223
+
+ Score = 34.3 bits (77),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            SGL+  + ++++D++ ++ +V+  KG++  L+GDV +L+
+Sbjct  70   SGLSGDVSSLKSDVSGLKGDVSGLKGDVVGLKGDVSSLK  108
+
+
+ Score = 33.1 bits (74),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            SGL   +  ++ D+  ++ +V++ KG++ SL+GDV  L+
+Sbjct  84   SGLKGDVSGLKGDVVGLKGDVSSLKGDVVSLKGDVAYLK  122
+
+
+>ref|YP_008318360.1| hypothetical protein [Bacillus phage phiNIT1]
+ dbj|BAN59592.1| hypothetical protein [Bacillus phage phiNIT1]
+Length=378
+
+ Score = 34.7 bits (78),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  10   IKAIETDIASVRQEVNTAKGNISSLQGDVQA  40
+            +  ++TD+++V+ +++TA+GNI SLQ D+ A
+Sbjct  88   VSKLQTDVSTVKTDLDTAEGNIGSLQTDMTA  118
+
+
+ Score = 33.5 bits (75),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            S L + +   ++D+++++ ++ TAK NISSLQ D  +LQ
+Sbjct  138  STLKSDVGNAKSDVSTLKSDMTTAKSNISSLQTDTGSLQ  176
+
+
+>ref|YP_007348547.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+ gb|AFU62750.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+Length=674
+
+ Score = 34.7 bits (78),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLS  68
+            IPEAP+DG  Y R DG W+ +S
+Sbjct  531  IPEAPQDGLTYGRSDGNWIEIS  552
+
+
+>ref|WP_019849671.1| hypothetical protein [Desulfitobacterium sp. PCE1]
+Length=196
+
+ Score = 33.9 bits (76),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 34/50 (68%), Gaps = 2/50 (4%)
+
+Query  4   SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRD  53
+           S L   + +++ DI+S++++V++ KG+IS+LQ DV +++    IP   +D
+Sbjct  52  SALQKDVGSVKGDISSLQKDVSSVKGDISALQKDVGSMK--SDIPSLQKD  99
+
+
+>ref|WP_002589320.1| hypothetical protein [Clostridium clostridioforme]
+ gb|ENZ16858.1| hypothetical protein HMPREF1082_00201 [Clostridium clostridioforme 
+90A7]
+Length=119
+
+ Score = 33.1 bits (74),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  9   KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQE  43
+           K+  IE  +ASV ++V + +G++ +L+GDVQ L+E
+Sbjct  13  KLGGIEGGLASVGEDVRSLQGDVQTLKGDVQTLKE  47
+
+
+>ref|WP_021125750.1| hypothetical protein [[Clostridium] sordellii]
+ gb|EPZ54700.1| hypothetical protein H477_3840 [Clostridium sordellii ATCC 9714]
+Length=304
+
+ Score = 34.3 bits (77),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 20/68 (29%), Positives = 34/68 (50%), Gaps = 17/68 (25%)
+
+Query  7    TNKIKAIETDIASVRQE------------VNTAKGNIS-----SLQGDVQALQEAGYIPE  49
+            +N++ +IE DI SV+++            +N  KGN++     ++ G     +E G IP 
+Sbjct  225  SNRVSSIEEDINSVKKDGLNLKDSLDSDYLNNYKGNVTDFNNCTIVGRYYVFKEGGSIPN  284
+
+Query  50   APRDGQAY  57
+            AP +G  Y
+Sbjct  285  APVEGNLY  292
+
+
+>gb|AFH20892.1| putative tail fiber protein 1 [Cronobacter phage CR9]
+Length=1093
+
+ Score = 34.7 bits (78),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+             G + +AP+DG+ Y R DG+W L+S   +P
+Sbjct  951  GGNVYDAPKDGKQYSRIDGDWTLISVLEAP  980
+
+
+>gb|AGY47360.1| minor capsid protein [Bacillus phage Grass]
+Length=350
+
+ Score = 34.3 bits (77),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            S L + +   ++D+++++ ++ TAK NISSLQ D  +LQ
+Sbjct  110  STLKSDVGTAKSDVSTLKSDMTTAKSNISSLQTDTGSLQ  148
+
+
+>ref|XP_005837961.1| hypothetical protein GUITHDRAFT_103565 [Guillardia theta CCMP2712]
+ gb|EKX50981.1| hypothetical protein GUITHDRAFT_103565 [Guillardia theta CCMP2712]
+Length=708
+
+ Score = 34.3 bits (77),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 36/62 (58%), Gaps = 1/62 (2%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ-EAGYIPEAPRDGQAYVRKD  61
+            E G+  +IK ++ +I SV++E+ + +  I S++ D+Q ++ E   + +      A +R+D
+Sbjct  85   EKGVEKEIKGLQKEIKSVKKEIKSVEKEIKSVENDIQVVEKEIKSVGQQDPRRHAELRED  144
+
+Query  62   GE  63
+             E
+Sbjct  145  KE  146
+
+
+>ref|XP_005837956.1| hypothetical protein GUITHDRAFT_103561 [Guillardia theta CCMP2712]
+ gb|EKX50976.1| hypothetical protein GUITHDRAFT_103561 [Guillardia theta CCMP2712]
+Length=715
+
+ Score = 34.3 bits (77),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 36/62 (58%), Gaps = 1/62 (2%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ-EAGYIPEAPRDGQAYVRKD  61
+            E G+  +IK ++ +I SV++E+ + +  I S++ D+Q ++ E   + +      A +R+D
+Sbjct  85   EKGVEKEIKGLQKEIKSVKKEIKSVEKEIKSVENDIQVVEKEIKSVGQQDPRRHAELRED  144
+
+Query  62   GE  63
+             E
+Sbjct  145  KE  146
+
+
+>ref|YP_007392677.1| virion structural protein [Pectobacterium phage phiTE]
+ gb|AEZ66381.1| virion structural protein [Pectobacterium phage phiTE]
+Length=1099
+
+ Score = 34.3 bits (77),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+             G + +AP+DG+ Y R DG+W  LS   +P
+Sbjct  957  GGNVYDAPKDGKQYTRIDGDWTALSVLEAP  986
+
+
+>ref|WP_019849680.1| hypothetical protein [Desulfitobacterium sp. PCE1]
+Length=210
+
+ Score = 33.5 bits (75),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 34/50 (68%), Gaps = 2/50 (4%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRD  53
+            S L   + +++ DI++++++V++ KG+IS+LQ DV +++    IP   +D
+Sbjct  66   SSLQKDVSSVKGDISALQKDVSSVKGDISALQKDVGSMK--SDIPSLQKD  113
+
+
+>ref|YP_003734301.1| wac gene product [Enterobacteria phage IME08]
+ gb|ADI55480.1| Wac fibritin neck whiskers protein [Enterobacteria phage IME08]
+Length=822
+
+ Score = 33.9 bits (76),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 25/70 (36%), Positives = 38/70 (54%), Gaps = 6/70 (9%)
+
+Query  9    KIKAIETDIASVRQE---VNTAKGNISSLQGDVQALQE--AGYIPEAPR-DGQAYVRKDG  62
+            K+  +ET +A+V+ E   V      +++ +G + AL+   A   P AP  DG  YV  D 
+Sbjct  748  KVGTLETGLAAVKVESDKVADLGTRLTAAEGKITALETELAKRPPVAPAADGLPYVLVDN  807
+
+Query  63   EWVLLSTFLS  72
+             WVLLS F++
+Sbjct  808  AWVLLSDFVT  817
+
+
+>ref|WP_002577289.1| hypothetical protein [Clostridium bolteae]
+ gb|ENZ39134.1| hypothetical protein HMPREF1089_04974 [Clostridium bolteae 90B3]
+ gb|ENZ47328.1| hypothetical protein HMPREF1085_04507 [Clostridium bolteae 90A9]
+Length=140
+
+ Score = 32.7 bits (73),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  9   KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQE  43
+           K+  IE  +ASV ++V + +G++ +L+GDVQ L+E
+Sbjct  13  KLGGIEGGLASVGEDVRSLQGDVQTLKGDVQTLKE  47
+
+
+>emb|CCT67784.1| uncharacterized protein FFUJ_14805 [Fusarium fujikuroi IMI 58289]
+Length=358
+
+ Score = 33.5 bits (75),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+            E S L  +   + TD+  +RQ+V T + + SSLQ DV+ LQ
+Sbjct  253  ELSALRQENSNLRTDLDQLRQQVTTFREDFSSLQRDVEQLQ  293
+
+
+>ref|WP_005205763.1| DNA repair exonuclease [Gordonia sputi]
+ dbj|GAB39181.1| nuclease SbcCD subunit C [Gordonia sputi NBRC 100414]
+Length=993
+
+ Score = 33.5 bits (75),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEW  64
+            ++ ++  ++ S+  EV+TA G    + G    L E      A RD +A VR+ GEW
+Sbjct  632  RLDSLRGELESLDAEVSTATGGRGDVSGRRAELAELCRCATALRDARAEVRRAGEW  687
+
+
+>ref|YP_003934797.1| fibritin neck whiskers [Shigella phage SP18]
+ gb|ADO19514.1| fibritin neck whiskers [Shigella phage SP18]
+Length=525
+
+ Score = 33.5 bits (75),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 21/45 (47%), Positives = 26/45 (58%), Gaps = 3/45 (7%)
+
+Query  31   ISSLQGDVQALQE--AGYIPEAPR-DGQAYVRKDGEWVLLSTFLS  72
+            I+ L+G V AL+   A   P AP  DG  YV  D  WV LSTF++
+Sbjct  478  ITELEGKVSALETELAKRPPVAPTTDGLPYVLVDNAWVPLSTFVT  522
+
+
+>ref|WP_023503520.1| hypothetical protein, partial [uncultured archaeon A07HN63]
+ gb|ESS08775.1| hypothetical protein A07HN63_01687, partial [uncultured archaeon 
+A07HN63]
+Length=86
+
+ Score = 31.6 bits (70),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 30/46 (65%), Gaps = 3/46 (7%)
+
+Query  15  TDIASVRQEVNTAKGNISSLQGDVQAL---QEAGYIPEAPRDGQAY  57
+           T I S ++++   + N+S++QGD+QAL   Q+   + +AP  GQ+Y
+Sbjct  24  TRILSDQEDLMIVEFNLSAMQGDLQALETSQKLTIVAQAPAGGQSY  69
+
+
+>ref|YP_007003444.1| hypothetical protein [Bacillus phage SP10]
+ dbj|BAK52999.1| hypothetical protein [Bacillus phage SP10]
+Length=122
+
+ Score = 32.3 bits (72),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQAL  41
+            L + +  +++D+A+++ +V TAK +IS L+ D  AL
+Sbjct  72   LKSDVTTLKSDVATLKSDVTTAKSDISKLKSDYTAL  107
+
+
+>ref|YP_006429219.1| hypothetical protein Desde_0992 [Desulfitobacterium dehalogenans 
+ATCC 51507]
+ ref|WP_014792917.1| hypothetical protein [Desulfitobacterium dehalogenans]
+ gb|AFL99425.1| hypothetical protein Desde_0992 [Desulfitobacterium dehalogenans 
+ATCC 51507]
+Length=224
+
+ Score = 32.7 bits (73),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 32/47 (68%), Gaps = 7/47 (15%)
+
+Query  4   SGLTNKIKAIETDIASVRQEVNTAKGNISSLQ-------GDVQALQE  43
+           S L   + +++ DI+S++++V++ KG+IS+LQ       GD+ ALQ+
+Sbjct  52  SALQKDVGSVKGDISSLQKDVSSVKGDISALQKDVSSVKGDISALQK  98
+
+
+ Score = 32.7 bits (73),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 33/50 (66%), Gaps = 2/50 (4%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRD  53
+            S L   + +++ DI++++++V + KG+IS+LQ DV +++    IP   +D
+Sbjct  80   SALQKDVSSVKGDISALQKDVGSVKGDISALQKDVGSMK--SDIPSLQKD  127
+
+
+>ref|XP_001568108.1| conserved hypothetical protein [Leishmania braziliensis MHOM/BR/75/M2904]
+ emb|CAM40876.1| conserved hypothetical protein [Leishmania braziliensis MHOM/BR/75/M2904]
+Length=532
+
+ Score = 33.1 bits (74),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 22/42 (52%), Gaps = 0/42 (0%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+           V E  L N     ETD+  +R  V T   N+ S+ GDV A+Q
+Sbjct  20  VLEGRLNNLANEWETDLKCIRARVETCAANVRSVTGDVDAIQ  61
+
+
+>ref|WP_019002226.1| hypothetical protein [Succinimonas amylolytica]
+Length=392
+
+ Score = 33.1 bits (74),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  2    EESGLTNKIKAIETDIASVRQEVNTAKGNI  31
+            E++ LTN +K+IE DI+  +Q+V TA  N+
+Sbjct  237  EKTALTNNLKSIEADISKYQQDVTTASKNV  266
+
+
+>ref|WP_010770316.1| hypothetical protein [Enterococcus caccae]
+ gb|EOL50654.1| hypothetical protein UC7_00105 [Enterococcus caccae ATCC BAA-1240]
+ gb|EOT59453.1| hypothetical protein I580_02485 [Enterococcus caccae ATCC BAA-1240]
+Length=390
+
+ Score = 33.1 bits (74),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 12/18 (67%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  48   PEAPRDGQAYVRKDGEWV  65
+            PEAP DG  Y RK+G+WV
+Sbjct  148  PEAPLDGHMYARKEGKWV  165
+
+
+>ref|WP_017817018.1| HeH/LEM domain protein [Acinetobacter baumannii]
+Length=111
+
+ Score = 32.0 bits (71),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 27/48 (56%), Gaps = 6/48 (13%)
+
+Query  14  ETDIASVRQEVNTAKGNISSLQGDVQALQ------EAGYIPEAPRDGQ  55
+           ET IA + +++ T KG   +LQ D +A++      EAG   + P DGQ
+Sbjct  17  ETKIAELEEQLATVKGEFIALQNDTEAMKVRIAELEAGEGGQTPEDGQ  64
+
+
+>ref|WP_002566237.1| hypothetical protein [Clostridium bolteae]
+ gb|EDP15165.1| hypothetical protein CLOBOL_04502 [Clostridium bolteae ATCC BAA-613]
+ gb|ENZ50195.1| hypothetical protein HMPREF1095_04762 [Clostridium bolteae 90A5]
+ gb|ENZ73091.1| hypothetical protein HMPREF1096_01111 [Clostridium bolteae 90B7]
+Length=125
+
+ Score = 32.0 bits (71),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  9   KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQ  42
+           K+  IE  +ASVR++V + +G++ +++GDVQ ++
+Sbjct  12  KLGGIEGGLASVREDVRSLQGDMQTIKGDVQTIK  45
+
+
+>ref|WP_017206558.1| hypothetical protein [Mycobacterium abscessus]
+Length=488
+
+ Score = 33.1 bits (74),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 25/54 (46%), Gaps = 0/54 (0%)
+
+Query  16   DIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            DI   R      K NIS+  G    +      P++P D Q  VRKDG W ++ +
+Sbjct  275  DIFEGRDLTRLVKANISTWSGKRAYIGLENLPPQSPTDDQVDVRKDGVWSIIGS  328
+
+
+>ref|WP_022456008.1| predicted protein [Parabacteroides sp. CAG:409]
+ emb|CDE61309.1| predicted protein [Parabacteroides sp. CAG:409]
+Length=219
+
+ Score = 32.7 bits (73),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  24   VNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            + T  GN    +G+++     G IPEAP DG+ YVR++
+Sbjct  182  IKTVNGNSLLGEGNIEIQGGTGGIPEAPTDGKKYVRQN  219
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.128    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312485544690
+Results from round 2
+
+
+Query= 1AVY
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|ABW96142.1|  chimeric protein 11F.Her2:4 [synthetic construct]      125    5e-32
+gb|ABW96143.1|  chimeric protein 11F.dZ [synthetic construct]          125    7e-32
+gb|ABW96141.1|  chimeric protein 11F.Her2:7 [synthetic construct]      125    7e-32
+pdb|1AVY|A  Chain A, Fibritin Deletion Mutant M (Bacteriophage T4...   114    2e-31
+gb|AGR46106.1|  fibritin neck whiskers [Yersinia phage PST]            120    9e-31
+pdb|1AA0|A  Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)     114    1e-30
+gb|ABW96140.1|  chimeric protein FF.Her2:4 [synthetic construct]       120    1e-30
+emb|CAA31379.1|  whisker antigen control protein (AA 1-487) [Ente...   120    1e-30
+gb|ABW96139.1|  chimeric protein FF.Her2:7 [synthetic construct]       119    1e-30
+gb|ABW89480.1|  chimeric protein FF.dZ [synthetic construct]           119    1e-30
+gb|ADJ39878.1|  fibritin [Enterobacteria phage T4T]                    120    2e-30
+gb|AAA70300.1|  fibritin [Enterobacteria phage K3]                     119    2e-30
+ref|NP_049771.1|  Wac fibritin neck whiskers [Enterobacteria phag...   119    2e-30
+pdb|3J2O|A  Chain A, Model Of The Bacteriophage T4 Fibritin Based...   119    2e-30
+ref|YP_004415054.1|  putative fibritin neck whisker protein [Shig...   119    3e-30
+ref|YP_007004538.1|  phage neck whiskers protein [Enterobacteria ...   118    5e-30
+gb|AAA70294.1|  fibritin [Enterobacteria phage Ox2] >gb|AAA70303....   118    7e-30
+ref|YP_803102.1|  fibritin neck whiskers [Enterobacteria phage RB...   117    2e-29
+ref|YP_006986713.1|  fibritin neck whiskers [Enterobacteria phage...   117    2e-29
+ref|YP_002854495.1|  fibritin neck whiskers [Enterobacteria phage...   117    2e-29
+emb|CCI89056.1|  protein of unknown function [Yersinia phage phiD1]    116    3e-29
+ref|YP_007004902.1|  fibritin neck whiskers [Escherichia phage wV...   116    4e-29
+gb|AAN03610.1|AF406556_5  fibritin protein gpwac [Enterobacteria ...   116    5e-29
+dbj|BAI83173.1|  wac fibritin neck whiskers [Enterobacteria phage...   116    5e-29
+ref|YP_002854117.1|  fibritin neck whiskers [Enterobacteria phage...   113    3e-28
+pdb|2IBL|A  Chain A, Crystal Structure Of A Helper Molecule (Ht-M...  94.2    9e-23
+pdb|1OX3|A  Chain A, Crystal Structure Of Mini-Fibritin               93.0    2e-22
+ref|NP_861864.1|  fibritin [Enterobacteria phage RB69] >gb|AAP760...  97.3    5e-22
+ref|YP_007235993.1|  phage fibritin (wac) protein [Yersinia phage...  90.0    2e-19
+pdb|4MMT|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  85.7    4e-18
+pdb|4MMR|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  85.7    4e-18
+pdb|4MMQ|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  85.7    4e-18
+pdb|4JHW|F  Chain F, Crystal Structure Of Respiratory Syncytial V...  85.7    7e-18
+pdb|4MMV|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  83.0    4e-17
+ref|YP_004010022.1|  fibritin neck whisker protein [Enterobacteri...  77.2    8e-15
+pdb|1V1H|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  66.1    3e-12
+pdb|1NAY|A  Chain A, Gpp-Foldon:x-Ray Structure >pdb|1NAY|B Chain...  65.3    3e-12
+pdb|1RFO|A  Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin...  64.5    3e-12
+pdb|2LP7|A  Chain A, Structure Of Gp41-m-mat, A Membrane Associat...  64.5    5e-12
+pdb|2KBL|A  Chain A, Nmr Structure Of A Monomeric Folding Interme...  63.0    1e-11
+gb|AGR55399.1|  HA deltaRBS [synthetic construct]                     66.5    5e-11
+gb|AGR55401.1|  HA deltastem [synthetic construct]                    66.1    8e-11
+gb|AGR55400.1|  HA deltastem [synthetic construct]                    66.1    8e-11
+pdb|1V1I|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  62.2    1e-10
+gb|AEH26170.1|  maize-optimized human collagen [synthetic construct]  65.7    1e-10
+dbj|BAN82593.1|  hemagglutinin ectodomain with signal sequence, t...  65.3    2e-10
+pdb|3A1M|A  Chain A, A Fusion Protein Of A Beta Helix Region Of G...  60.7    5e-10
+pdb|2WW6|A  Chain A, Foldon Containing D-Amino Acids In Turn Posi...  58.0    1e-09
+pdb|2WW7|A  Chain A, Foldon Containing Beta-Turn Mimic >pdb|2WW7|...  48.4    5e-06
+
+Sequences not found previously or not previously below threshold:
+
+gb|AFU64100.1|  hypothetical protein [Salmonella phage STML-198]      58.0    4e-08
+ref|YP_007501190.1|  fibritin neck whiskers [Salmonella phage S16...  57.6    5e-08
+gb|ABW89019.1|  fibritin neck whiskers [Enterobacteria phage JS98...  42.6    0.009
+ref|WP_022052817.1|  uncharacterized protein [Bacteroides plebeiu...  40.6    0.009
+ref|YP_002137974.1|  hypothetical protein Gbem_1159 [Geobacter be...  41.4    0.016
+ref|WP_010762087.1|  hypothetical protein [Enterococcus haemopero...  40.3    0.037
+ref|YP_008241376.1|  structural protein [Cellulophaga phage phi17...  39.9    0.041
+ref|YP_008241466.1|  peptidase [Cellulophaga phage phi38:1] >gb|A...  40.3    0.049
+gb|AGO47950.1|  peptidase [Cellulophaga phage phi40:1]                40.3    0.050
+ref|YP_007004287.1|  fibritin neck whiskers [Enterobacteria phage...  39.9    0.072
+ref|YP_008240975.1|  structural protein [Cellulophaga phage phi18...  38.7    0.14 
+ref|YP_004421504.1|  unnamed protein product [Synechococcus phage...  38.7    0.14 
+gb|AGO49222.1|  structural protein [Cellulophaga phage phi18:2]       38.3    0.15 
+ref|YP_008240974.1|  structural protein [Cellulophaga phage phi18...  38.0    0.15 
+ref|YP_007392677.1|  virion structural protein [Pectobacterium ph...  38.3    0.24 
+ref|WP_023124848.1|  hypothetical protein [Pseudomonas aeruginosa...  37.6    0.33 
+ref|YP_005719435.1|  hypothetical protein SM11_chr0897 [Sinorhizo...  37.2    0.39 
+ref|WP_018208376.1|  hypothetical protein [Sinorhizobium medicae]     37.2    0.39 
+ref|NP_918975.1|  tail fiber protein [Burkholderia phage BcepNazg...  37.6    0.45 
+gb|AFH20892.1|  putative tail fiber protein 1 [Cronobacter phage ...  37.6    0.46 
+ref|WP_022580012.1|  hypothetical protein [Pseudomonas aeruginosa...  37.2    0.49 
+ref|WP_015649552.1|  hypothetical protein [Pseudomonas aeruginosa...  37.2    0.49 
+ref|YP_007392361.1|  hypothetical protein JBD30_054 [Pseudomonas ...  37.2    0.49 
+ref|WP_003117188.1|  hypothetical protein [Pseudomonas aeruginosa...  37.2    0.49 
+ref|YP_007010350.1|  fibritin neck whiskers [Aeromonas phage CC2]...  37.2    0.49 
+ref|WP_003094288.1|  hypothetical protein [Pseudomonas aeruginosa...  37.2    0.49 
+ref|NP_899611.1|  hypothetical protein KVP40.0366 [Vibrio phage K...  37.2    0.50 
+emb|CBY99580.1|  Phi92_gp151 [Enterobacteria phage phi92]             37.2    0.52 
+ref|WP_023657084.1|  hypothetical protein [Pseudomonas aeruginosa...  36.8    0.64 
+ref|WP_023102451.1|  hypothetical protein [Pseudomonas aeruginosa...  36.4    0.76 
+ref|WP_021848574.1|  predicted protein [Bacteroides sp. CAG:598] ...  36.4    0.94 
+ref|YP_007348547.1|  putative phage tail fiber protein [Escherich...  36.4    0.97 
+gb|ADD94056.1|  hypothetical protein [uncultured phage MedDCM-OCT...  36.0    1.1  
+ref|WP_023623518.1|  hypothetical protein [Vibrio parahaemolyticus]   35.3    1.2  
+ref|WP_004823289.1|  hypothetical protein [Acinetobacter guilloui...  35.3    1.4  
+ref|WP_020531401.1|  hypothetical protein [Flexithrix dorotheae]      35.6    1.6  
+ref|YP_004063856.1|  fibritin [Enterobacteria phage vB_EcoM-VR7] ...  35.3    1.8  
+ref|WP_017206558.1|  hypothetical protein [Mycobacterium abscessus]   33.7    6.9  
+ref|WP_022456008.1|  predicted protein [Parabacteroides sp. CAG:4...  32.9    7.9  
+
+
+>gb|ABW96142.1| chimeric protein 11F.Her2:4 [synthetic construct]
+Length=566
+
+ Score =  125 bits (312),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ABW96143.1| chimeric protein 11F.dZ [synthetic construct]
+Length=566
+
+ Score =  125 bits (312),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ABW96141.1| chimeric protein 11F.Her2:7 [synthetic construct]
+Length=566
+
+ Score =  125 bits (312),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>pdb|1AVY|A Chain A, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|B Chain B, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|C Chain C, Fibritin Deletion Mutant M (Bacteriophage T4)
+Length=74
+
+ Score =  114 bits (286),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+
+Query  61  DGEWVLLSTFLSPA  74
+           DGEWVLLSTFLSPA
+Sbjct  61  DGEWVLLSTFLSPA  74
+
+
+>gb|AGR46106.1| fibritin neck whiskers [Yersinia phage PST]
+Length=487
+
+ Score =  120 bits (301),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>pdb|1AA0|A Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)
+Length=113
+
+ Score =  114 bits (284),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 66/71 (93%), Positives = 67/71 (94%), Gaps = 0/71 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  43   VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  102
+
+Query  61   DGEWVLLSTFL  71
+            DGEWVLLSTFL
+Sbjct  103  DGEWVLLSTFL  113
+
+
+>gb|ABW96140.1| chimeric protein FF.Her2:4 [synthetic construct]
+Length=411
+
+ Score =  120 bits (300),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>emb|CAA31379.1| whisker antigen control protein (AA 1-487) [Enterobacteria phage 
+T4]
+Length=487
+
+ Score =  120 bits (300),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|ABW96139.1| chimeric protein FF.Her2:7 [synthetic construct]
+Length=411
+
+ Score =  119 bits (299),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|ABW89480.1| chimeric protein FF.dZ [synthetic construct]
+Length=411
+
+ Score =  119 bits (299),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|ADJ39878.1| fibritin [Enterobacteria phage T4T]
+Length=487
+
+ Score =  120 bits (300),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|AAA70300.1| fibritin [Enterobacteria phage K3]
+Length=487
+
+ Score =  119 bits (299),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|NP_049771.1| Wac fibritin neck whiskers [Enterobacteria phage T4]
+ sp|P10104.5|WAC_BPT4 RecName: Full=Fibritin; AltName: Full=Collar protein; AltName: 
+Full=Whisker antigen control protein
+ pdb|2BSG|A Chain A, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|B Chain B, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|C Chain C, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ gb|AAD42679.1|AF158101_266 Wac fibritin neck whiskers [Enterobacteria phage T4]
+Length=487
+
+ Score =  119 bits (299),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  474  DGEWVFLSTFLSPA  487
+
+
+>pdb|3J2O|A Chain A, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|B Chain B, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|C Chain C, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|D Chain D, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|E Chain E, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|F Chain F, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+Length=486
+
+ Score =  119 bits (299),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  413  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  472
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  473  DGEWVFLSTFLSPA  486
+
+
+>ref|YP_004415054.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+ gb|AEA73115.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+Length=487
+
+ Score =  119 bits (298),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|YP_007004538.1| phage neck whiskers protein [Enterobacteria phage ime09]
+ gb|AEK12417.1| phage neck whiskers protein [Enterobacteria phage ime09]
+Length=487
+
+ Score =  118 bits (296),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 67/74 (91%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|AAA70294.1| fibritin [Enterobacteria phage Ox2]
+ gb|AAA70303.1| fibritin [Enterobacteria phage T2]
+Length=487
+
+ Score =  118 bits (295),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 67/74 (91%), Positives = 68/74 (92%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQ  VQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQSGVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|YP_803102.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|ABI94984.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|AFO10682.1| neck whiskers protein [Escherichia phage ECML-134]
+Length=485
+
+ Score =  117 bits (292),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_006986713.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+ gb|AFH20121.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+Length=485
+
+ Score =  117 bits (292),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 62/74 (84%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IK  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854495.1| fibritin neck whiskers [Enterobacteria phage RB14]
+ gb|ACP30803.1| fibritin neck whiskers [Enterobacteria phage RB14]
+Length=485
+
+ Score =  117 bits (292),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>emb|CCI89056.1| protein of unknown function [Yersinia phage phiD1]
+Length=487
+
+ Score =  116 bits (290),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 66/74 (89%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVL STFLSPA
+Sbjct  474  DGEWVLXSTFLSPA  487
+
+
+>ref|YP_007004902.1| fibritin neck whiskers [Escherichia phage wV7]
+ gb|AEM00822.1| fibritin neck whiskers [Escherichia phage wV7]
+Length=485
+
+ Score =  116 bits (289),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>gb|AAN03610.1|AF406556_5 fibritin protein gpwac [Enterobacteria phage AR1]
+Length=485
+
+ Score =  116 bits (289),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSTKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>dbj|BAI83173.1| wac fibritin neck whiskers [Enterobacteria phage AR1]
+Length=485
+
+ Score =  116 bits (289),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854117.1| fibritin neck whiskers [Enterobacteria phage RB51]
+ gb|ACP31080.1| fibritin neck whiskers [Enterobacteria phage RB51]
+Length=485
+
+ Score =  113 bits (283),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 58/74 (78%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEA YIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEADYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>pdb|2IBL|A Chain A, Crystal Structure Of A Helper Molecule (Ht-Mf-Thromb) 
+Based On Mini- Fibritin (Mf) Crystal Structure (Pdb:1ox3).
+Length=130
+
+ Score = 94.2 bits (232),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  52   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  111
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  112  EWVLLSTFL  120
+
+
+>pdb|1OX3|A Chain A, Crystal Structure Of Mini-Fibritin
+Length=109
+
+ Score = 93.0 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  41   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  100
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  101  EWVLLSTFL  109
+
+
+>ref|NP_861864.1| fibritin [Enterobacteria phage RB69]
+ gb|AAP76073.1| Wac fibritin neck whiskers [Enterobacteria phage RB69]
+Length=480
+
+ Score = 97.3 bits (240),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            +EE G+   +K  +T I ++   V T + ++++ + ++QAL+EAGYI +AP DG+ YVRK
+Sbjct  411  IEERGILPTVKNHDTSIMALTTRVTTLETDLAAAEAEIQALKEAGYIEDAPSDGKFYVRK  470
+
+Query  61   DGEWVLLST  69
+            DG WV L T
+Sbjct  471  DGAWVELPT  479
+
+
+>ref|YP_007235993.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+ emb|CCI88734.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+Length=481
+
+ Score = 90.0 bits (221),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 46/73 (63%), Gaps = 5/73 (7%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL   +K I+ DI ++   ++  + +I ++   +     A  +PEAP+DG+AYVR+
+Sbjct  414  VEEKGLIPTVKVIQADIINITSRIDVVENDILTINASI-----ANLVPEAPKDGEAYVRQ  468
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV LS FL+P
+Sbjct  469  DGAWVKLSKFLTP  481
+
+
+>pdb|4MMT|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 9.5
+ pdb|4MMU|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 5.5
+Length=414
+
+ Score = 85.7 bits (210),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>pdb|4MMR|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 9.5
+ pdb|4MMS|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|D Chain D, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|F Chain F, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+Length=414
+
+ Score = 85.7 bits (210),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>pdb|4MMQ|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds
+Length=414
+
+ Score = 85.7 bits (210),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>pdb|4JHW|F Chain F, Crystal Structure Of Respiratory Syncytial Virus Fusion 
+Glycoprotein Stabilized In The Prefusion Conformation By 
+Human Antibody D25
+Length=498
+
+ Score = 85.7 bits (210),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  429  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  486
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  487  LLSTFL  492
+
+
+>pdb|4MMV|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1-tric At Ph 9.5
+Length=414
+
+ Score = 83.0 bits (203),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 32/57 (56%), Positives = 39/57 (68%), Gaps = 2/57 (4%)
+
+Query  15   TDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+              I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  354  ASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWVLLSTFL  408
+
+
+>ref|YP_004010022.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+ gb|ADB81660.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+Length=470
+
+ Score = 77.2 bits (188),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 31/74 (42%), Positives = 41/74 (55%), Gaps = 19/74 (26%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL + +K  +TDIAS++                   L +  +I EAP+DG+AYVRK
+Sbjct  415  VEERGLLSTVKTHDTDIASIK-------------------LAQNNFISEAPKDGKAYVRK  455
+
+Query  61   DGEWVLLSTFLSPA  74
+            DG WV L T L+P 
+Sbjct  456  DGAWVDLDTILNPT  469
+
+
+>pdb|1V1H|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|D Chain D, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|E Chain E, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|F Chain F, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+Length=103
+
+ Score = 66.1 bits (159),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 31/68 (46%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  7    TNKIKAIETDIASVRQE---VNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGE  63
+             N IK          +    +      +S        +  +GYIPEAPRDGQAYVRKDGE
+Sbjct  36   INPIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITIGGSGYIPEAPRDGQAYVRKDGE  95
+
+Query  64   WVLLSTFL  71
+            WVLLSTFL
+Sbjct  96   WVLLSTFL  103
+
+
+>pdb|1NAY|A Chain A, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|B Chain B, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|C Chain C, Gpp-Foldon:x-Ray Structure
+Length=56
+
+ Score = 65.3 bits (157),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44  AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  29  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  56
+
+
+>pdb|1RFO|A Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|B Chain B, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|C Chain C, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1U0P|A Chain A, Stable A-State Hairpin Of T4 Fibritin Foldon
+Length=27
+
+ Score = 64.5 bits (155),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>pdb|2LP7|A Chain A, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|B Chain B, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|C Chain C, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2M7W|A Chain A, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|B Chain B, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|C Chain C, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+Length=59
+
+ Score = 64.5 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>pdb|2KBL|A Chain A, Nmr Structure Of A Monomeric Folding Intermediate Reveals 
+The Structural Basis For Rapid Assembly Of An Evolutionary 
+Optimized Trimerization Module
+Length=29
+
+ Score = 63.0 bits (151),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/28 (93%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  44  AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           +GYIP APRDGQAYVRKDGEWVLLSTFL
+Sbjct  2   SGYIPRAPRDGQAYVRKDGEWVLLSTFL  29
+
+
+>gb|AGR55399.1| HA deltaRBS [synthetic construct]
+Length=563
+
+ Score = 66.5 bits (160),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLS  72
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFLS
+Sbjct  520  SGYIPEAPRDGQAYVRKDGEWVLLSTFLS  548
+
+
+>gb|AGR55401.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 66.1 bits (159),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 32/63 (51%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             +K    D     +E    +  I S +   +    +GYIPEAPRDGQAYVRKDGEWVLLS
+Sbjct  494  SVKNGTYDYPKYSEESKLNREKIDSGRLVPRGSPGSGYIPEAPRDGQAYVRKDGEWVLLS  553
+
+Query  69   TFL  71
+            TFL
+Sbjct  554  TFL  556
+
+
+>gb|AGR55400.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 66.1 bits (159),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 32/63 (51%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             +K    D     +E    +  I S +   +    +GYIPEAPRDGQAYVRKDGEWVLLS
+Sbjct  494  SVKNGTYDYPKYSEESKLNREKIDSGRLVPRGSPGSGYIPEAPRDGQAYVRKDGEWVLLS  553
+
+Query  69   TFL  71
+            TFL
+Sbjct  554  TFL  556
+
+
+>pdb|1V1I|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+Length=109
+
+ Score = 62.2 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  42   QEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            + +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  80   KGSGYIPEAPRDGQAYVRKDGEWVLLSTFL  109
+
+
+>gb|AEH26170.1| maize-optimized human collagen [synthetic construct]
+Length=1110
+
+ Score = 65.7 bits (158),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  46    YIPEAPRDGQAYVRKDGEWVLLSTFLSPA  74
+             YIPEAPRDGQAYVRKDGEWV LSTFLSPA
+Sbjct  1082  YIPEAPRDGQAYVRKDGEWVFLSTFLSPA  1110
+
+
+>dbj|BAN82593.1| hemagglutinin ectodomain with signal sequence, trimerization 
+sequence, and poly hisitidine tag [synthetic construct]
+Length=576
+
+ Score = 65.3 bits (157),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  542  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  569
+
+
+>pdb|3A1M|A Chain A, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|B Chain B, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|C Chain C, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|D Chain D, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|E Chain E, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|F Chain F, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+Length=139
+
+ Score = 60.7 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 9/57 (16%)
+
+Query  15   TDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            + I+S +  ++ ++ +I S++         GYIPEAPRDGQAYVRKDGEWV LSTFL
+Sbjct  84   SSISSGQYTIDGSRIDIGSVE---------GYIPEAPRDGQAYVRKDGEWVFLSTFL  131
+
+
+>pdb|2WW6|A Chain A, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|B Chain B, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|C Chain C, Foldon Containing D-Amino Acids In Turn Positions
+Length=27
+
+ Score = 58.0 bits (138),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRD QAYVRK GEWVLLSTFL
+Sbjct  1   GYIPEAPRDXQAYVRKXGEWVLLSTFL  27
+
+
+>gb|AFU64100.1| hypothetical protein [Salmonella phage STML-198]
+Length=463
+
+ Score = 58.0 bits (138),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 34/73 (47%), Gaps = 20/73 (27%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VE+ GL   +K  E  I  +                    L     IPEAP DG+AYVR+
+Sbjct  411  VEQKGLLPTVKEHEESIDKIN-------------------LDMQNLIPEAPMDGKAYVRR  451
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV ++T L+P
+Sbjct  452  DGAWVDITT-LTP  463
+
+
+>ref|YP_007501190.1| fibritin neck whiskers [Salmonella phage S16]
+ gb|AEO97097.1| fibritin neck whiskers [Salmonella phage S16]
+Length=463
+
+ Score = 57.6 bits (137),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 34/73 (47%), Gaps = 20/73 (27%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VE+ GL   +K  E  I  +                    L     IPEAP DG+AYVR+
+Sbjct  411  VEQKGLLPTVKEHEESINKIN-------------------LDMQNLIPEAPMDGKAYVRR  451
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV ++T L+P
+Sbjct  452  DGAWVDITT-LTP  463
+
+
+>pdb|2WW7|A Chain A, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|B Chain B, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|C Chain C, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|D Chain D, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|E Chain E, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|F Chain F, Foldon Containing Beta-Turn Mimic
+Length=26
+
+ Score = 48.4 bits (113),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  47  IPEAPRDGQAYVRKDGEWVLLSTFL  71
+           IPEAPRD QAYVRK  EWVLLSTFL
+Sbjct  2   IPEAPRDXQAYVRKXXEWVLLSTFL  26
+
+
+>gb|ABW89019.1| fibritin neck whiskers [Enterobacteria phage JS98-C3]
+Length=515
+
+ Score = 42.6 bits (98),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 33/103 (32%), Positives = 44/103 (43%), Gaps = 29/103 (28%)
+
+Query  1    VEESGLTNKIKAIET------------------------DIASVRQEVNTAKGNISSLQG  36
+            VEE GL N +K +E                         +I     E++T K ++   +G
+Sbjct  412  VEERGLINSVKGLEAQMPTKLGDAPADGKLYGRKDAAWAEILDDTTEIDTVKASLLEAEG  471
+
+Query  37   DVQALQE--AGYIPEAPR-DGQAYVRKDGEWVLLSTF--LSPA  74
+             + AL+   A   P AP  DG  YV  D  WVLLS F  L+PA
+Sbjct  472  KITALETEMAKRPPVAPTADGLPYVLVDNAWVLLSDFVTLNPA  514
+
+
+>ref|WP_022052817.1| uncharacterized protein [Bacteroides plebeius CAG:211]
+ emb|CCZ88174.1| uncharacterized protein BN536_00482 [Bacteroides plebeius CAG:211]
+Length=161
+
+ Score = 40.6 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/22 (59%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLS  68
+            IP+AP+DG+ Y RKDGEW  ++
+Sbjct  130  IPDAPKDGKIYGRKDGEWEEIT  151
+
+
+>ref|YP_002137974.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+ ref|WP_012529591.1| hypothetical protein [Geobacter bemidjiensis]
+ gb|ACH38178.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+Length=385
+
+ Score = 41.4 bits (95),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  39   QALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            Q+ +  G + +AP+DG+ YVR++G WV L T
+Sbjct  341  QSAEAIGAVGDAPKDGKLYVRQNGRWVELVT  371
+
+
+>ref|WP_010762087.1| hypothetical protein [Enterococcus haemoperoxidus]
+ gb|EOH96720.1| hypothetical protein UAW_01885 [Enterococcus haemoperoxidus ATCC 
+BAA-382]
+ gb|EOT60216.1| hypothetical protein I583_02851 [Enterococcus haemoperoxidus 
+ATCC BAA-382]
+Length=390
+
+ Score = 40.3 bits (92),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 27/55 (49%), Gaps = 5/55 (9%)
+
+Query  16   DIASVRQEVNTAKGNISSLQGDVQALQEAGYI----PEAPRDGQAYVRKDGEWVL  66
+            +I  +    N   G I    G    + E+G +    PEAPRDG  Y RK+G+WV 
+Sbjct  113  EIPKITIATNETPG-IVKPDGKTITISESGVLSSVFPEAPRDGHMYARKEGKWVK  166
+
+
+>ref|YP_008241376.1| structural protein [Cellulophaga phage phi17:1]
+ gb|AGO48336.1| structural protein [Cellulophaga phage phi17:1]
+Length=222
+
+ Score = 39.9 bits (91),  Expect = 0.041, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 33/83 (40%), Gaps = 17/83 (20%)
+
+Query  3   ESGLTNKIKAIETDIASVRQE-----VNTAKGNISSLQGDVQALQEAGYI----------  47
+           +    N I+     + ++ Q      +   +G +  ++ +    Q  G I          
+Sbjct  10  DRKFNNPIETNRA-VETIGQRDSIPTLTRWEGMLCYVESEDTTYQLTGVIDNTGWQALVG  68
+
+Query  48  -PEAPRDGQAYVRKDGEWVLLST  69
+             +AP DGQ Y RKDG WVL  T
+Sbjct  69  LSDAPEDGQQYARKDGAWVLAYT  91
+
+
+>ref|YP_008241466.1| peptidase [Cellulophaga phage phi38:1]
+ gb|AGO48115.1| peptidase [Cellulophaga phage phi38:1]
+Length=976
+
+ Score = 40.3 bits (92),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+           L   GY  +APRDGQ Y+R++G W L+ 
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALVP  72
+
+
+>gb|AGO47950.1| peptidase [Cellulophaga phage phi40:1]
+Length=976
+
+ Score = 40.3 bits (92),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+           L   GY  +APRDGQ Y+R++G W L+ 
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALVP  72
+
+
+>ref|YP_007004287.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+ gb|AEN93963.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+Length=529
+
+ Score = 39.9 bits (91),  Expect = 0.072, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 37/68 (54%), Gaps = 8/68 (12%)
+
+Query  10   IKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAP-RDGQAYVRKDGEWVLLS  68
+            +   + ++A++   V TA+  I++L+ ++     A   P AP  DG  YV  D  WVLLS
+Sbjct  466  LVVTDGNVAALTSRVTTAEDKITALETEL-----AKRPPVAPVADGLPYVLVDNAWVLLS  520
+
+Query  69   TF--LSPA  74
+             F  L+PA
+Sbjct  521  DFVTLNPA  528
+
+
+>ref|YP_008240975.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO48508.1| structural protein [Cellulophaga phage phi18:1]
+Length=356
+
+ Score = 38.7 bits (88),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 28/63 (44%), Gaps = 1/63 (2%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNIS-SLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            + G+TN        + ++    N    + + +L  +   +     I +AP DG  YVRKD
+Sbjct  55   KGGVTNSDWVELGSLVNLTVRNNLTSTSTTDALSANQGRILNDTKIGDAPIDGAQYVRKD  114
+
+Query  62   GEW  64
+            G W
+Sbjct  115  GAW  117
+
+
+>ref|YP_004421504.1| unnamed protein product [Synechococcus phage S-CBS2]
+ gb|ADF42406.1| unknown structural protein [Synechococcus phage S-CBS2]
+Length=462
+
+ Score = 38.7 bits (88),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 25/63 (40%), Gaps = 3/63 (5%)
+
+Query  5    GLTNKIKAIETDIASVRQEVNTAKGNISSLQGD--VQALQEAGYIPEAPRDGQAYVRKDG  62
+            G        E  +  + Q   T    + +   +  +        IPEAP +GQ YVR+D 
+Sbjct  306  GYLPTAAGTELTVLHI-QTAGTEPDYVPNANYEFYISKSSSGNGIPEAPVNGQTYVRQDS  364
+
+Query  63   EWV  65
+             WV
+Sbjct  365  AWV  367
+
+
+ Score = 38.3 bits (87),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 15/23 (65%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLST  69
+            IPEAP DGQAYVR++  WV  +T
+Sbjct  395  IPEAPVDGQAYVRQNSTWVPTTT  417
+
+
+ Score = 37.6 bits (85),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWV  65
+            IPEAP DGQ YVR+D  WV
+Sbjct  372  IPEAPVDGQTYVRQDSTWV  390
+
+
+>gb|AGO49222.1| structural protein [Cellulophaga phage phi18:2]
+Length=356
+
+ Score = 38.3 bits (87),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 28/63 (44%), Gaps = 1/63 (2%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNIS-SLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+            + G+TN        + ++    N    + + +L  +   +     I +AP DG  YVRKD
+Sbjct  55   KGGVTNSDWVELGSLVNLTVRNNLTSTSTTDALSANQGRILNDTKIGDAPIDGAQYVRKD  114
+
+Query  62   GEW  64
+            G W
+Sbjct  115  GAW  117
+
+
+>ref|YP_008240974.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO48507.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO49221.1| structural protein [Cellulophaga phage phi18:2]
+Length=222
+
+ Score = 38.0 bits (86),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 21/83 (25%), Positives = 33/83 (40%), Gaps = 17/83 (20%)
+
+Query  3   ESGLTNKIKAIETDIASVRQE-----VNTAKGNISSLQGDVQALQEAGYI----------  47
+           +    N I+     + ++ Q      +   +G +  ++ +    Q  G I          
+Sbjct  10  DRKFNNPIETNRA-VETIGQRDSIPTLTRWEGMLCYVESEDTTYQLTGVIDNTGWQALVG  68
+
+Query  48  -PEAPRDGQAYVRKDGEWVLLST  69
+             +AP DGQ Y RKDG WVL  T
+Sbjct  69  LADAPEDGQQYARKDGTWVLAYT  91
+
+
+>ref|YP_007392677.1| virion structural protein [Pectobacterium phage phiTE]
+ gb|AEZ66381.1| virion structural protein [Pectobacterium phage phiTE]
+Length=1099
+
+ Score = 38.3 bits (87),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLSPA  74
+             G + +AP+DG+ Y R DG+W  LS   +P 
+Sbjct  957  GGNVYDAPKDGKQYTRIDGDWTALSVLEAPT  987
+
+
+>ref|WP_023124848.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERX13362.1| hypothetical protein Q013_05992 [Pseudomonas aeruginosa X13273]
+Length=382
+
+ Score = 37.6 bits (85),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 25/53 (47%), Gaps = 3/53 (6%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            +A+     +  K    S    V+ +   G + +AP DG+AY R+ G W  L +
+Sbjct  96   VANETTPSDQVKTYEYSGTAWVELV---GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|YP_005719435.1| hypothetical protein SM11_chr0897 [Sinorhizobium meliloti SM11]
+ ref|WP_014529182.1| hypothetical protein [Sinorhizobium meliloti]
+ gb|AEH78174.1| hypothetical protein SM11_chr0897 [Sinorhizobium meliloti SM11]
+Length=372
+
+ Score = 37.2 bits (84),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 28/57 (49%), Gaps = 2/57 (4%)
+
+Query  13   IETDIASVRQEVNTAKGNISSLQGDVQALQEA--GYIPEAPRDGQAYVRKDGEWVLL  67
+             +T+I   +          ++    + ALQ +    + +AP DG+ Y RK+G+WV +
+Sbjct  305  NDTNIYGRQGGAWVTSVTKATYDAGIAALQTSINSKLGDAPSDGKMYARKNGQWVEV  361
+
+
+>ref|WP_018208376.1| hypothetical protein [Sinorhizobium medicae]
+Length=375
+
+ Score = 37.2 bits (84),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 28/57 (49%), Gaps = 2/57 (4%)
+
+Query  13   IETDIASVRQEVNTAKGNISSLQGDVQALQEA--GYIPEAPRDGQAYVRKDGEWVLL  67
+             +T+I   +          ++    + ALQ +    + +AP DG+ Y RK+G+WV +
+Sbjct  308  NDTNIYGRQGGAWVTSVTKATYDAGIAALQTSINSKLGDAPSDGKMYARKNGQWVEV  364
+
+
+>ref|NP_918975.1| tail fiber protein [Burkholderia phage BcepNazgul]
+ gb|AAQ63342.1| tail fiber protein [Burkholderia phage BcepNazgul]
+Length=1270
+
+ Score = 37.6 bits (85),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 14/25 (56%), Positives = 17/25 (68%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G IP+AP DG  Y RKDG W  ++T
+Sbjct  118  GGIPDAPSDGVGYARKDGGWTPVAT  142
+
+
+>gb|AFH20892.1| putative tail fiber protein 1 [Cronobacter phage CR9]
+Length=1093
+
+ Score = 37.6 bits (85),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+             G + +AP+DG+ Y R DG+W L+S   +P
+Sbjct  951  GGNVYDAPKDGKQYSRIDGDWTLISVLEAP  980
+
+
+>ref|WP_022580012.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERM68137.1| hypothetical protein P797_09880 [Pseudomonas aeruginosa VRFPA04]
+Length=382
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 3/53 (6%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            +A+        K    S    V+ +   G + +AP DG+AY R+ G W  L +
+Sbjct  96   VANETTPSGQVKTYEYSGTAWVELV---GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_015649552.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EOQ77531.1| hypothetical protein K652_27683 [Pseudomonas aeruginosa VRFPA02]
+Length=382
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 3/53 (6%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            +A+        K    S    V+ +   G + +AP DG+AY R+ G W  L +
+Sbjct  96   VANETTPSGQVKTYEYSGTAWVELV---GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|YP_007392361.1| hypothetical protein JBD30_054 [Pseudomonas phage JBD30]
+ gb|AFQ21968.1| hypothetical protein JBD30_054 [Pseudomonas phage JBD30]
+Length=382
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 3/53 (6%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            +A+        K    S    V+ +   G + +AP DG+AY R+ G W  L +
+Sbjct  96   VANETTPSGQVKTYEYSGTAWVELV---GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_003117188.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EIE45986.1| hypothetical protein CF510_14149 [Pseudomonas aeruginosa PADK2_CF510]
+Length=382
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 3/53 (6%)
+
+Query  17   IASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            +A+        K    S    V+ +   G + +AP DG+AY R+ G W  L +
+Sbjct  96   VANETTPSGQVKTYEYSGTAWVELV---GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|YP_007010350.1| fibritin neck whiskers [Aeromonas phage CC2]
+ gb|AFN39548.1| fibritin neck whiskers [Aeromonas phage CC2]
+Length=1041
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 18/72 (25%), Positives = 32/72 (44%), Gaps = 14/72 (19%)
+
+Query  5     GLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIP------------EAPR  52
+             G+T ++  ++ +I S+ Q   + +  I+     +     A  +             EAP 
+Sbjct  944   GITTRVNNVDKNIISISQP--STEKFIAIGDTGLPVRITASEVTINNDKVLTKDSFEAPA  1001
+
+Query  53    DGQAYVRKDGEW  64
+             DG  YVR+DG+W
+Sbjct  1002  DGNKYVRQDGQW  1013
+
+
+>ref|WP_003094288.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EFQ38316.1| hypothetical protein PA39016_000840119 [Pseudomonas aeruginosa 
+39016]
+ gb|ERW17415.1| hypothetical protein Q035_04072 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW83711.1| hypothetical protein Q019_02330 [Pseudomonas aeruginosa BWHPSA006]
+ gb|ERY02077.1| hypothetical protein Q078_02929 [Pseudomonas aeruginosa BL24]
+ gb|ERY24335.1| hypothetical protein Q067_06294 [Pseudomonas aeruginosa BL13]
+ gb|ERY87593.1| hypothetical protein Q023_03616 [Pseudomonas aeruginosa BWHPSA010]
+Length=382
+
+ Score = 37.2 bits (84),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  25   NTAKGNISSLQGDVQALQE-AGYIPEAPRDGQAYVRKDGEWVLLST  69
+             T  G + + +    A  E  G + +AP DG+AY R+ G W  L +
+Sbjct  100  TTPSGQVKTYEYSGSAWTELVGGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|NP_899611.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+ gb|AAQ64434.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+Length=484
+
+ Score = 37.2 bits (84),  Expect = 0.50, Method: Composition-based stats.
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 1/36 (3%)
+
+Query  35  QGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTF  70
+               + +  +  + EAP DGQ YVRKD +WV L T+
+Sbjct  28  NATWELIALSDGVLEAPADGQEYVRKDFQWV-LPTY  62
+
+
+>emb|CBY99580.1| Phi92_gp151 [Enterobacteria phage phi92]
+Length=653
+
+ Score = 37.2 bits (84),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  23   EVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             ++T +  + +      +      I +AP DG+ Y RKDG W  L+
+Sbjct  483  NISTGEVFLKTSATIWTSQGTLPSITDAPSDGKTYARKDGAWEELT  528
+
+
+>ref|WP_023657084.1| hypothetical protein [Pseudomonas aeruginosa]
+ emb|CDH78440.1| hypothetical protein PAMH27_4054 [Pseudomonas aeruginosa MH27]
+ emb|CDH75698.1| hypothetical protein PAMH27_1280 [Pseudomonas aeruginosa MH27]
+Length=382
+
+ Score = 36.8 bits (83),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_023102451.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV55522.1| hypothetical protein Q065_02206 [Pseudomonas aeruginosa BL11]
+ gb|ERY53965.1| hypothetical protein Q060_01426 [Pseudomonas aeruginosa BL06]
+Length=383
+
+ Score = 36.4 bits (82),  Expect = 0.76, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  25   NTAKGNISSLQGDVQALQE-AGYIPEAPRDGQAYVRKDGEWVLLST  69
+             T  G + + +    A  E  G + +AP DG+AY R+ G W  L +
+Sbjct  100  TTPAGQVKTYEYSGSAWTELVGGMADAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_021848574.1| predicted protein [Bacteroides sp. CAG:598]
+ emb|CCX61746.1| predicted protein [Bacteroides sp. CAG:598]
+Length=546
+
+ Score = 36.4 bits (82),  Expect = 0.94, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  22   QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+             E+ T  GN     G+++       I +AP DGQ Y RK+G W  +++
+Sbjct  140  TELKTINGNSIVGSGNIEISGTGSGIADAPSDGQTYGRKNGAWAAIAS  187
+
+
+>ref|YP_007348547.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+ gb|AFU62750.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+Length=674
+
+ Score = 36.4 bits (82),  Expect = 0.97, Method: Composition-based stats.
+ Identities = 13/22 (59%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLS  68
+            IPEAP+DG  Y R DG W+ +S
+Sbjct  531  IPEAPQDGLTYGRSDGNWIEIS  552
+
+
+>gb|ADD94056.1| hypothetical protein [uncultured phage MedDCM-OCT-S01-C1]
+Length=789
+
+ Score = 36.0 bits (81),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            G IP+AP D + Y R+DG W  +S+ L
+Sbjct  516  GGIPDAPSDTKQYARQDGSWSEVSSGL  542
+
+
+>ref|WP_023623518.1| hypothetical protein [Vibrio parahaemolyticus]
+Length=204
+
+ Score = 35.3 bits (79),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 11/22 (50%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLS  68
+            IPEAP DG+ Y R+D  W  ++
+Sbjct  155  IPEAPTDGKQYGRQDSAWTEIT  176
+
+
+>ref|WP_004823289.1| hypothetical protein [Acinetobacter guillouiae]
+ gb|ENV15504.1| hypothetical protein F964_04230 [Acinetobacter guillouiae NIPH 
+991]
+Length=210
+
+ Score = 35.3 bits (79),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 17/41 (41%), Positives = 24/41 (59%), Gaps = 1/41 (2%)
+
+Query  27   AKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLL  67
+            +K  I +LQ  +  L  + +I EAP DG+ Y RKD EW  +
+Sbjct  127  SKDTIKNLQDQINELARSSFI-EAPVDGKTYGRKDLEWSEI  166
+
+
+>ref|WP_020531401.1| hypothetical protein [Flexithrix dorotheae]
+Length=421
+
+ Score = 35.6 bits (80),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 12/23 (52%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  46   YIPEAPRDGQAYVRKDGEWVLLS  68
+            Y+ +AP DG  Y R+DG WV +S
+Sbjct  231  YLQDAPSDGNKYGRQDGGWVTIS  253
+
+
+>ref|YP_004063856.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+ gb|ADR32550.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+Length=528
+
+ Score = 35.3 bits (79),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 6/70 (9%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPR-DGQAYVRKDG  62
+            S LT ++  IET       ++   +G +S+L+ ++         P AP  DG  YV  D 
+Sbjct  459  SALTLRVDGIETRTGEAETKITELEGKVSALETELSKRP-----PVAPAADGLPYVLVDN  513
+
+Query  63   EWVLLSTFLS  72
+             WVLLSTF++
+Sbjct  514  AWVLLSTFVT  523
+
+
+>ref|WP_017206558.1| hypothetical protein [Mycobacterium abscessus]
+Length=488
+
+ Score = 33.7 bits (75),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 25/57 (44%), Gaps = 0/57 (0%)
+
+Query  13   IETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+               DI   R      K NIS+  G    +      P++P D Q  VRKDG W ++ +
+Sbjct  272  NAKDIFEGRDLTRLVKANISTWSGKRAYIGLENLPPQSPTDDQVDVRKDGVWSIIGS  328
+
+
+>ref|WP_022456008.1| predicted protein [Parabacteroides sp. CAG:409]
+ emb|CDE61309.1| predicted protein [Parabacteroides sp. CAG:409]
+Length=219
+
+ Score = 32.9 bits (73),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  22   QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+              + T  GN    +G+++     G IPEAP DG+ YVR++
+Sbjct  180  TNIKTVNGNSLLGEGNIEIQGGTGGIPEAPTDGKKYVRQN  219
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.115    0.293    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0347    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312485544690
+Results from round 3
+
+
+Query= 1AVY
+
+Length=74
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|ABW96142.1|  chimeric protein 11F.Her2:4 [synthetic construct]      116    9e-29
+gb|ABW96143.1|  chimeric protein 11F.dZ [synthetic construct]          116    1e-28
+gb|ABW96141.1|  chimeric protein 11F.Her2:7 [synthetic construct]      115    1e-28
+pdb|1AVY|A  Chain A, Fibritin Deletion Mutant M (Bacteriophage T4...   107    2e-28
+pdb|1AA0|A  Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)     107    6e-28
+gb|ABW96140.1|  chimeric protein FF.Her2:4 [synthetic construct]       111    2e-27
+gb|ABW89480.1|  chimeric protein FF.dZ [synthetic construct]           111    2e-27
+gb|AGR46106.1|  fibritin neck whiskers [Yersinia phage PST]            111    3e-27
+gb|ABW96139.1|  chimeric protein FF.Her2:7 [synthetic construct]       110    3e-27
+emb|CAA31379.1|  whisker antigen control protein (AA 1-487) [Ente...   111    3e-27
+gb|ADJ39878.1|  fibritin [Enterobacteria phage T4T]                    110    4e-27
+gb|AAA70300.1|  fibritin [Enterobacteria phage K3]                     110    5e-27
+ref|NP_049771.1|  Wac fibritin neck whiskers [Enterobacteria phag...   110    5e-27
+gb|AAA70294.1|  fibritin [Enterobacteria phage Ox2] >gb|AAA70303....   110    5e-27
+pdb|3J2O|A  Chain A, Model Of The Bacteriophage T4 Fibritin Based...   110    6e-27
+ref|YP_004415054.1|  putative fibritin neck whisker protein [Shig...   110    8e-27
+ref|YP_803102.1|  fibritin neck whiskers [Enterobacteria phage RB...   109    1e-26
+ref|YP_002854495.1|  fibritin neck whiskers [Enterobacteria phage...   109    1e-26
+ref|YP_006986713.1|  fibritin neck whiskers [Enterobacteria phage...   109    1e-26
+ref|YP_007004902.1|  fibritin neck whiskers [Escherichia phage wV...   109    2e-26
+ref|YP_007004538.1|  phage neck whiskers protein [Enterobacteria ...   109    2e-26
+dbj|BAI83173.1|  wac fibritin neck whiskers [Enterobacteria phage...   109    2e-26
+gb|AAN03610.1|AF406556_5  fibritin protein gpwac [Enterobacteria ...   108    2e-26
+ref|YP_002854117.1|  fibritin neck whiskers [Enterobacteria phage...   107    9e-26
+emb|CCI89056.1|  protein of unknown function [Yersinia phage phiD1]    106    1e-25
+ref|NP_861864.1|  fibritin [Enterobacteria phage RB69] >gb|AAP760...  93.1    2e-20
+pdb|1OX3|A  Chain A, Crystal Structure Of Mini-Fibritin               86.5    6e-20
+pdb|2IBL|A  Chain A, Crystal Structure Of A Helper Molecule (Ht-M...  86.9    7e-20
+pdb|4MMT|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  88.5    5e-19
+pdb|4MMR|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  88.5    5e-19
+pdb|4MMQ|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  88.5    5e-19
+gb|AGR55401.1|  HA deltastem [synthetic construct]                    88.9    8e-19
+gb|AGR55400.1|  HA deltastem [synthetic construct]                    88.9    8e-19
+pdb|4JHW|F  Chain F, Crystal Structure Of Respiratory Syncytial V...  88.5    9e-19
+ref|YP_007235993.1|  phage fibritin (wac) protein [Yersinia phage...  88.1    1e-18
+pdb|1V1H|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  79.6    2e-17
+pdb|4MMV|B  Chain B, Crystal Structure Of Prefusion-stabilized Rs...  83.1    4e-17
+gb|AGR55399.1|  HA deltaRBS [synthetic construct]                     78.8    3e-15
+pdb|1V1I|A  Chain A, Adenovirus Fibre Shaft Sequence N-Terminally...  73.1    9e-15
+ref|YP_004010022.1|  fibritin neck whisker protein [Enterobacteri...  74.6    6e-14
+dbj|BAN82593.1|  hemagglutinin ectodomain with signal sequence, t...  72.3    5e-13
+pdb|2LP7|A  Chain A, Structure Of Gp41-m-mat, A Membrane Associat...  64.2    8e-12
+pdb|1RFO|A  Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin...  63.8    8e-12
+gb|AFU64100.1|  hypothetical protein [Salmonella phage STML-198]      68.4    9e-12
+pdb|2KBL|A  Chain A, Nmr Structure Of A Monomeric Folding Interme...  63.4    9e-12
+pdb|1NAY|A  Chain A, Gpp-Foldon:x-Ray Structure >pdb|1NAY|B Chain...  63.8    1e-11
+pdb|3A1M|A  Chain A, A Fusion Protein Of A Beta Helix Region Of G...  65.4    1e-11
+ref|YP_007501190.1|  fibritin neck whiskers [Salmonella phage S16...  67.7    2e-11
+pdb|2WW6|A  Chain A, Foldon Containing D-Amino Acids In Turn Posi...  57.7    1e-09
+gb|AEH26170.1|  maize-optimized human collagen [synthetic construct]  61.9    4e-09
+pdb|2WW7|A  Chain A, Foldon Containing Beta-Turn Mimic >pdb|2WW7|...  48.4    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_022052817.1|  uncharacterized protein [Bacteroides plebeiu...  42.2    0.003
+ref|YP_002137974.1|  hypothetical protein Gbem_1159 [Geobacter be...  41.1    0.021
+ref|YP_008241376.1|  structural protein [Cellulophaga phage phi17...  40.3    0.022
+ref|WP_010762087.1|  hypothetical protein [Enterococcus haemopero...  39.9    0.050
+gb|ABW89019.1|  fibritin neck whiskers [Enterobacteria phage JS98...  39.9    0.055
+ref|YP_008241466.1|  peptidase [Cellulophaga phage phi38:1] >gb|A...  39.9    0.061
+gb|AGO47950.1|  peptidase [Cellulophaga phage phi40:1]                39.9    0.062
+ref|YP_008240974.1|  structural protein [Cellulophaga phage phi18...  38.8    0.085
+ref|YP_004421504.1|  unnamed protein product [Synechococcus phage...  38.8    0.14 
+ref|YP_007348547.1|  putative phage tail fiber protein [Escherich...  38.4    0.19 
+ref|WP_023623518.1|  hypothetical protein [Vibrio parahaemolyticus]   37.2    0.24 
+ref|YP_008240975.1|  structural protein [Cellulophaga phage phi18...  37.6    0.30 
+gb|AGO49222.1|  structural protein [Cellulophaga phage phi18:2]       37.6    0.32 
+ref|NP_918975.1|  tail fiber protein [Burkholderia phage BcepNazg...  38.0    0.34 
+emb|CBY99580.1|  Phi92_gp151 [Enterobacteria phage phi92]             37.6    0.37 
+ref|YP_007004287.1|  fibritin neck whiskers [Enterobacteria phage...  37.2    0.48 
+ref|YP_007392677.1|  virion structural protein [Pectobacterium ph...  37.2    0.52 
+ref|NP_899611.1|  hypothetical protein KVP40.0366 [Vibrio phage K...  36.9    0.58 
+ref|WP_023657084.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|WP_023124848.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|WP_022580012.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|WP_015649552.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|YP_007392361.1|  hypothetical protein JBD30_054 [Pseudomonas ...  36.5    0.64 
+ref|WP_003117188.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|WP_003094288.1|  hypothetical protein [Pseudomonas aeruginosa...  36.5    0.64 
+ref|YP_007010350.1|  fibritin neck whiskers [Aeromonas phage CC2]...  36.9    0.67 
+gb|AFN37598.1|  hypothetical protein pp2_366 [Vibriophage phi-pp2]    36.5    0.74 
+ref|WP_023102451.1|  hypothetical protein [Pseudomonas aeruginosa...  36.1    0.88 
+gb|AFH20892.1|  putative tail fiber protein 1 [Cronobacter phage ...  36.5    0.90 
+ref|WP_010770316.1|  hypothetical protein [Enterococcus caccae] >...  36.1    0.92 
+gb|ADD94056.1|  hypothetical protein [uncultured phage MedDCM-OCT...  36.1    1.0  
+ref|WP_021848574.1|  predicted protein [Bacteroides sp. CAG:598] ...  35.7    1.4  
+ref|WP_020531401.1|  hypothetical protein [Flexithrix dorotheae]      35.3    1.6  
+ref|WP_017206558.1|  hypothetical protein [Mycobacterium abscessus]   35.3    1.9  
+ref|YP_004063856.1|  fibritin [Enterobacteria phage vB_EcoM-VR7] ...  34.9    2.7  
+ref|WP_022456008.1|  predicted protein [Parabacteroides sp. CAG:4...  33.8    4.7  
+ref|YP_005719435.1|  hypothetical protein SM11_chr0897 [Sinorhizo...  33.4    7.1  
+
+
+>gb|ABW96142.1| chimeric protein 11F.Her2:4 [synthetic construct]
+Length=566
+
+ Score =  116 bits (289),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ABW96143.1| chimeric protein 11F.dZ [synthetic construct]
+Length=566
+
+ Score =  116 bits (289),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>gb|ABW96141.1| chimeric protein 11F.Her2:7 [synthetic construct]
+Length=566
+
+ Score =  115 bits (288),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  420  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  479
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  480  DGEWVLLSTFLSPA  493
+
+
+>pdb|1AVY|A Chain A, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|B Chain B, Fibritin Deletion Mutant M (Bacteriophage T4)
+ pdb|1AVY|C Chain C, Fibritin Deletion Mutant M (Bacteriophage T4)
+Length=74
+
+ Score =  107 bits (267),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+
+Query  61  DGEWVLLSTFLSPA  74
+           DGEWVLLSTFLSPA
+Sbjct  61  DGEWVLLSTFLSPA  74
+
+
+>pdb|1AA0|A Chain A, Fibritin Deletion Mutant E (Bacteriophage T4)
+Length=113
+
+ Score =  107 bits (266),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 66/71 (93%), Positives = 67/71 (94%), Gaps = 0/71 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  43   VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  102
+
+Query  61   DGEWVLLSTFL  71
+            DGEWVLLSTFL
+Sbjct  103  DGEWVLLSTFL  113
+
+
+>gb|ABW96140.1| chimeric protein FF.Her2:4 [synthetic construct]
+Length=411
+
+ Score =  111 bits (277),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|ABW89480.1| chimeric protein FF.dZ [synthetic construct]
+Length=411
+
+ Score =  111 bits (276),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>gb|AGR46106.1| fibritin neck whiskers [Yersinia phage PST]
+Length=487
+
+ Score =  111 bits (277),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|ABW96139.1| chimeric protein FF.Her2:7 [synthetic construct]
+Length=411
+
+ Score =  110 bits (275),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  265  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  324
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  325  DGEWVLLSTFLSPA  338
+
+
+>emb|CAA31379.1| whisker antigen control protein (AA 1-487) [Enterobacteria phage 
+T4]
+Length=487
+
+ Score =  111 bits (276),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|ADJ39878.1| fibritin [Enterobacteria phage T4T]
+Length=487
+
+ Score =  110 bits (275),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>gb|AAA70300.1| fibritin [Enterobacteria phage K3]
+Length=487
+
+ Score =  110 bits (275),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 69/74 (93%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|NP_049771.1| Wac fibritin neck whiskers [Enterobacteria phage T4]
+ sp|P10104.5|WAC_BPT4 RecName: Full=Fibritin; AltName: Full=Collar protein; AltName: 
+Full=Whisker antigen control protein
+ pdb|2BSG|A Chain A, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|B Chain B, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ pdb|2BSG|C Chain C, The Modeled Structure Of Fibritin (Gpwac) Of Bacteriophage 
+T4 Based On Cryo-Em Reconstruction Of The Extended Tail 
+Of Bacteriophage T4
+ gb|AAD42679.1|AF158101_266 Wac fibritin neck whiskers [Enterobacteria phage T4]
+Length=487
+
+ Score =  110 bits (275),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  474  DGEWVFLSTFLSPA  487
+
+
+>gb|AAA70294.1| fibritin [Enterobacteria phage Ox2]
+ gb|AAA70303.1| fibritin [Enterobacteria phage T2]
+Length=487
+
+ Score =  110 bits (275),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 67/74 (91%), Positives = 68/74 (92%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQ  VQALQEAGYIPEAPRDGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQSGVQALQEAGYIPEAPRDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>pdb|3J2O|A Chain A, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|B Chain B, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|C Chain C, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|D Chain D, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|E Chain E, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+ pdb|3J2O|F Chain F, Model Of The Bacteriophage T4 Fibritin Based On The 
+Cryo-em Reconstruction Of The Contracted T4 Tail Containing 
+The Phage Collar And Whiskers
+Length=486
+
+ Score =  110 bits (274),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK
+Sbjct  413  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  472
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWV LSTFLSPA
+Sbjct  473  DGEWVFLSTFLSPA  486
+
+
+>ref|YP_004415054.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+ gb|AEA73115.1| putative fibritin neck whisker protein [Shigella phage Shfl2]
+Length=487
+
+ Score =  110 bits (273),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 68/74 (92%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKGNISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGNISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>ref|YP_803102.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|ABI94984.1| fibritin neck whiskers [Enterobacteria phage RB32]
+ gb|AFO10682.1| neck whiskers protein [Escherichia phage ECML-134]
+Length=485
+
+ Score =  109 bits (272),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854495.1| fibritin neck whiskers [Enterobacteria phage RB14]
+ gb|ACP30803.1| fibritin neck whiskers [Enterobacteria phage RB14]
+Length=485
+
+ Score =  109 bits (272),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 61/74 (82%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN +K  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSVKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_006986713.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+ gb|AFH20121.1| fibritin neck whiskers [Enterobacteria phage vB_EcoM_ACG-C40]
+Length=485
+
+ Score =  109 bits (271),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 62/74 (84%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IK  ET+IA+V  EVNTAK NISSLQ  VQALQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKTNETNIAAVTHEVNTAKDNISSLQSSVQALQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_007004902.1| fibritin neck whiskers [Escherichia phage wV7]
+ gb|AEM00822.1| fibritin neck whiskers [Escherichia phage wV7]
+Length=485
+
+ Score =  109 bits (271),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_007004538.1| phage neck whiskers protein [Enterobacteria phage ime09]
+ gb|AEK12417.1| phage neck whiskers protein [Enterobacteria phage ime09]
+Length=487
+
+ Score =  109 bits (271),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 67/74 (91%), Positives = 70/74 (95%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  474  DGEWVLLSTFLSPA  487
+
+
+>dbj|BAI83173.1| wac fibritin neck whiskers [Enterobacteria phage AR1]
+Length=485
+
+ Score =  109 bits (271),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>gb|AAN03610.1|AF406556_5 fibritin protein gpwac [Enterobacteria phage AR1]
+Length=485
+
+ Score =  108 bits (270),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 59/74 (80%), Positives = 66/74 (89%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEAGYIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSTKGNVSSLQRDVQTLQEAGYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>ref|YP_002854117.1| fibritin neck whiskers [Enterobacteria phage RB51]
+ gb|ACP31080.1| fibritin neck whiskers [Enterobacteria phage RB51]
+Length=485
+
+ Score =  107 bits (266),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 58/74 (78%), Positives = 65/74 (88%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+I+S+ QE+ + KGN+SSLQ DVQ LQEA YIPEAP+DGQAYVRK
+Sbjct  412  VEERGLTNSIKANETNISSINQEIRSIKGNVSSLQRDVQTLQEADYIPEAPKDGQAYVRK  471
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVLLSTFLSPA
+Sbjct  472  DGEWVLLSTFLSPA  485
+
+
+>emb|CCI89056.1| protein of unknown function [Yersinia phage phiD1]
+Length=487
+
+ Score =  106 bits (265),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 66/74 (89%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GLTN IKA ET+IASV QEVNTAKG+ISSLQGDVQALQEAGYIPEAP+DGQAYVRK
+Sbjct  414  VEERGLTNSIKANETNIASVTQEVNTAKGSISSLQGDVQALQEAGYIPEAPKDGQAYVRK  473
+
+Query  61   DGEWVLLSTFLSPA  74
+            DGEWVL STFLSPA
+Sbjct  474  DGEWVLXSTFLSPA  487
+
+
+>ref|NP_861864.1| fibritin [Enterobacteria phage RB69]
+ gb|AAP76073.1| Wac fibritin neck whiskers [Enterobacteria phage RB69]
+Length=480
+
+ Score = 93.1 bits (229),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            +EE G+   +K  +T I ++   V T + ++++ + ++QAL+EAGYI +AP DG+ YVRK
+Sbjct  411  IEERGILPTVKNHDTSIMALTTRVTTLETDLAAAEAEIQALKEAGYIEDAPSDGKFYVRK  470
+
+Query  61   DGEWVLLST  69
+            DG WV L T
+Sbjct  471  DGAWVELPT  479
+
+
+>pdb|1OX3|A Chain A, Crystal Structure Of Mini-Fibritin
+Length=109
+
+ Score = 86.5 bits (212),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  41   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  100
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  101  EWVLLSTFL  109
+
+
+>pdb|2IBL|A Chain A, Crystal Structure Of A Helper Molecule (Ht-Mf-Thromb) 
+Based On Mini- Fibritin (Mf) Crystal Structure (Pdb:1ox3).
+Length=130
+
+ Score = 86.9 bits (213),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            E  +     ++  ++  + + +   K ++ +   D++ +QEAGYIPEAPRDGQAYVRKDG
+Sbjct  52   EGSMNRPTVSVLRNVEVLDKNIGILKTSLETANSDIKTIQEAGYIPEAPRDGQAYVRKDG  111
+
+Query  63   EWVLLSTFL  71
+            EWVLLSTFL
+Sbjct  112  EWVLLSTFL  120
+
+
+>pdb|4MMT|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 9.5
+ pdb|4MMU|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1 At Ph 5.5
+Length=414
+
+ Score = 88.5 bits (217),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>pdb|4MMR|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 9.5
+ pdb|4MMS|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|D Chain D, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+ pdb|4MMS|F Chain F, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Cav1 At Ph 5.5
+Length=414
+
+ Score = 88.5 bits (217),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>pdb|4MMQ|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds
+Length=414
+
+ Score = 88.5 bits (217),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>gb|AGR55401.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 88.9 bits (218),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 32/63 (51%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             +K    D     +E    +  I S +   +    +GYIPEAPRDGQAYVRKDGEWVLLS
+Sbjct  494  SVKNGTYDYPKYSEESKLNREKIDSGRLVPRGSPGSGYIPEAPRDGQAYVRKDGEWVLLS  553
+
+Query  69   TFL  71
+            TFL
+Sbjct  554  TFL  556
+
+
+>gb|AGR55400.1| HA deltastem [synthetic construct]
+Length=563
+
+ Score = 88.9 bits (218),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 32/63 (51%), Positives = 38/63 (60%), Gaps = 0/63 (0%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             +K    D     +E    +  I S +   +    +GYIPEAPRDGQAYVRKDGEWVLLS
+Sbjct  494  SVKNGTYDYPKYSEESKLNREKIDSGRLVPRGSPGSGYIPEAPRDGQAYVRKDGEWVLLS  553
+
+Query  69   TFL  71
+            TFL
+Sbjct  554  TFL  556
+
+
+>pdb|4JHW|F Chain F, Crystal Structure Of Respiratory Syncytial Virus Fusion 
+Glycoprotein Stabilized In The Prefusion Conformation By 
+Human Antibody D25
+Length=498
+
+ Score = 88.5 bits (217),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L       +  I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  429  LVFPSDEFDASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  486
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  487  LLSTFL  492
+
+
+>ref|YP_007235993.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+ emb|CCI88734.1| phage fibritin (wac) protein [Yersinia phage phiR1-RT]
+Length=481
+
+ Score = 88.1 bits (216),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 30/73 (41%), Positives = 46/73 (63%), Gaps = 5/73 (7%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL   +K I+ DI ++   ++  + +I ++   +     A  +PEAP+DG+AYVR+
+Sbjct  414  VEEKGLIPTVKVIQADIINITSRIDVVENDILTINASI-----ANLVPEAPKDGEAYVRQ  468
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV LS FL+P
+Sbjct  469  DGAWVKLSKFLTP  481
+
+
+>pdb|1V1H|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|D Chain D, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|E Chain E, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+ pdb|1V1H|F Chain F, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Short Linker
+Length=103
+
+ Score = 79.6 bits (194),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 31/68 (46%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  7    TNKIKAIETDIASVRQE---VNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGE  63
+             N IK          +    +      +S        +  +GYIPEAPRDGQAYVRKDGE
+Sbjct  36   INPIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITIGGSGYIPEAPRDGQAYVRKDGE  95
+
+Query  64   WVLLSTFL  71
+            WVLLSTFL
+Sbjct  96   WVLLSTFL  103
+
+
+>pdb|4MMV|B Chain B, Crystal Structure Of Prefusion-stabilized Rsv F Variant 
+Ds-cav1-tric At Ph 9.5
+Length=414
+
+ Score = 83.1 bits (203),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 33/66 (50%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            L          I+ V +++N +   I      + A+   GYIPEAPRDGQAYVRKDGEWV
+Sbjct  345  LVFPSHQWHASISQVNEKINQSLAFIRKSDELLSAI--GGYIPEAPRDGQAYVRKDGEWV  402
+
+Query  66   LLSTFL  71
+            LLSTFL
+Sbjct  403  LLSTFL  408
+
+
+>gb|AGR55399.1| HA deltaRBS [synthetic construct]
+Length=563
+
+ Score = 78.8 bits (192),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 32/64 (50%), Positives = 36/64 (56%), Gaps = 9/64 (14%)
+
+Query  9    KIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+             +K    D     +E    +  I            +GYIPEAPRDGQAYVRKDGEWVLLS
+Sbjct  494  SVKNGTYDYPKYSEESKLNREKID---------PGSGYIPEAPRDGQAYVRKDGEWVLLS  544
+
+Query  69   TFLS  72
+            TFLS
+Sbjct  545  TFLS  548
+
+
+>pdb|1V1I|A Chain A, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|B Chain B, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+ pdb|1V1I|C Chain C, Adenovirus Fibre Shaft Sequence N-Terminally Fused To 
+The Bacteriophage T4 Fibritin Foldon Trimerisation Motif With 
+A Long Linker
+Length=109
+
+ Score = 73.1 bits (177),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 31/74 (42%), Positives = 37/74 (50%), Gaps = 9/74 (12%)
+
+Query  7    TNKIKAIETDIASVRQE---VNTAKGNISSLQGDVQAL------QEAGYIPEAPRDGQAY  57
+             N IK          +    +      +S        +      + +GYIPEAPRDGQAY
+Sbjct  36   INPIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITIGNKNDDKGSGYIPEAPRDGQAY  95
+
+Query  58   VRKDGEWVLLSTFL  71
+            VRKDGEWVLLSTFL
+Sbjct  96   VRKDGEWVLLSTFL  109
+
+
+>ref|YP_004010022.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+ gb|ADB81660.1| fibritin neck whisker protein [Enterobacteria phage CC31]
+Length=470
+
+ Score = 74.6 bits (181),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 31/74 (42%), Positives = 41/74 (55%), Gaps = 19/74 (26%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VEE GL + +K  +TDIAS++                   L +  +I EAP+DG+AYVRK
+Sbjct  415  VEERGLLSTVKTHDTDIASIK-------------------LAQNNFISEAPKDGKAYVRK  455
+
+Query  61   DGEWVLLSTFLSPA  74
+            DG WV L T L+P 
+Sbjct  456  DGAWVDLDTILNPT  469
+
+
+>dbj|BAN82593.1| hemagglutinin ectodomain with signal sequence, trimerization 
+sequence, and poly hisitidine tag [synthetic construct]
+Length=576
+
+ Score = 72.3 bits (175),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 33/67 (49%), Positives = 37/67 (55%), Gaps = 2/67 (3%)
+
+Query  7    TNKIKAIETDIASVRQEVNTAKGNI--SSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEW  64
+               I+    D    R E    +  I   S     +    +GYIPEAPRDGQAYVRKDGEW
+Sbjct  503  IESIRNGTYDHDVYRDEALNNRFQIKGGSRSLVPRGSPGSGYIPEAPRDGQAYVRKDGEW  562
+
+Query  65   VLLSTFL  71
+            VLLSTFL
+Sbjct  563  VLLSTFL  569
+
+
+>pdb|2LP7|A Chain A, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|B Chain B, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2LP7|C Chain C, Structure Of Gp41-m-mat, A Membrane Associated Mper 
+Trimer From Hiv-1 Gp41.
+ pdb|2M7W|A Chain A, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|B Chain B, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+ pdb|2M7W|C Chain C, Independently Verified Structure Of Gp41-m-mat, A Membrane 
+Associated Mper Trimer From Hiv-1 Gp41
+Length=59
+
+ Score = 64.2 bits (154),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>pdb|1RFO|A Chain A, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|B Chain B, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1RFO|C Chain C, Trimeric Foldon Of The T4 Phagehead Fibritin
+ pdb|1U0P|A Chain A, Stable A-State Hairpin Of T4 Fibritin Foldon
+Length=27
+
+ Score = 63.8 bits (153),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GYIPEAPRDGQAYVRKDGEWVLLSTFL  27
+
+
+>gb|AFU64100.1| hypothetical protein [Salmonella phage STML-198]
+Length=463
+
+ Score = 68.4 bits (165),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 34/73 (47%), Gaps = 20/73 (27%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VE+ GL   +K  E  I  +                    L     IPEAP DG+AYVR+
+Sbjct  411  VEQKGLLPTVKEHEESIDKIN-------------------LDMQNLIPEAPMDGKAYVRR  451
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV ++T L+P
+Sbjct  452  DGAWVDITT-LTP  463
+
+
+>pdb|2KBL|A Chain A, Nmr Structure Of A Monomeric Folding Intermediate Reveals 
+The Structural Basis For Rapid Assembly Of An Evolutionary 
+Optimized Trimerization Module
+Length=29
+
+ Score = 63.4 bits (152),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  43  EAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            +GYIP APRDGQAYVRKDGEWVLLSTFL
+Sbjct  1   GSGYIPRAPRDGQAYVRKDGEWVLLSTFL  29
+
+
+>pdb|1NAY|A Chain A, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|B Chain B, Gpp-Foldon:x-Ray Structure
+ pdb|1NAY|C Chain C, Gpp-Foldon:x-Ray Structure
+Length=56
+
+ Score = 63.8 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  44  AGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           +GYIPEAPRDGQAYVRKDGEWVLLSTFL
+Sbjct  29  SGYIPEAPRDGQAYVRKDGEWVLLSTFL  56
+
+
+>pdb|3A1M|A Chain A, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|B Chain B, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|C Chain C, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|D Chain D, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|E Chain E, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+ pdb|3A1M|F Chain F, A Fusion Protein Of A Beta Helix Region Of Gene Product 
+5 And The Foldon Region Of Bacteriophage T4
+Length=139
+
+ Score = 65.4 bits (157),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 9/57 (16%)
+
+Query  15   TDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            + I+S +  ++ ++ +I S++         GYIPEAPRDGQAYVRKDGEWV LSTFL
+Sbjct  84   SSISSGQYTIDGSRIDIGSVE---------GYIPEAPRDGQAYVRKDGEWVFLSTFL  131
+
+
+>ref|YP_007501190.1| fibritin neck whiskers [Salmonella phage S16]
+ gb|AEO97097.1| fibritin neck whiskers [Salmonella phage S16]
+Length=463
+
+ Score = 67.7 bits (163),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 34/73 (47%), Gaps = 20/73 (27%)
+
+Query  1    VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+            VE+ GL   +K  E  I  +                    L     IPEAP DG+AYVR+
+Sbjct  411  VEQKGLLPTVKEHEESINKIN-------------------LDMQNLIPEAPMDGKAYVRR  451
+
+Query  61   DGEWVLLSTFLSP  73
+            DG WV ++T L+P
+Sbjct  452  DGAWVDITT-LTP  463
+
+
+>pdb|2WW6|A Chain A, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|B Chain B, Foldon Containing D-Amino Acids In Turn Positions
+ pdb|2WW6|C Chain C, Foldon Containing D-Amino Acids In Turn Positions
+Length=27
+
+ Score = 57.7 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  45  GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+           GYIPEAPRD QAYVRK GEWVLLSTFL
+Sbjct  1   GYIPEAPRDXQAYVRKXGEWVLLSTFL  27
+
+
+>gb|AEH26170.1| maize-optimized human collagen [synthetic construct]
+Length=1110
+
+ Score = 61.9 bits (148),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  46    YIPEAPRDGQAYVRKDGEWVLLSTFLSPA  74
+             YIPEAPRDGQAYVRKDGEWV LSTFLSPA
+Sbjct  1082  YIPEAPRDGQAYVRKDGEWVFLSTFLSPA  1110
+
+
+>pdb|2WW7|A Chain A, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|B Chain B, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|C Chain C, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|D Chain D, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|E Chain E, Foldon Containing Beta-Turn Mimic
+ pdb|2WW7|F Chain F, Foldon Containing Beta-Turn Mimic
+Length=26
+
+ Score = 48.4 bits (113),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  47  IPEAPRDGQAYVRKDGEWVLLSTFL  71
+           IPEAPRD QAYVRK  EWVLLSTFL
+Sbjct  2   IPEAPRDXQAYVRKXXEWVLLSTFL  26
+
+
+>ref|WP_022052817.1| uncharacterized protein [Bacteroides plebeius CAG:211]
+ emb|CCZ88174.1| uncharacterized protein BN536_00482 [Bacteroides plebeius CAG:211]
+Length=161
+
+ Score = 42.2 bits (97),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 27/55 (49%), Gaps = 3/55 (5%)
+
+Query  14   ETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+            E  I+    E+ T     SS+            IP+AP+DG+ Y RKDGEW  ++
+Sbjct  100  EDSISVPNLEMATVNLGASSIDISTGGSIP---IPDAPKDGKIYGRKDGEWEEIT  151
+
+
+>ref|YP_002137974.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+ ref|WP_012529591.1| hypothetical protein [Geobacter bemidjiensis]
+ gb|ACH38178.1| hypothetical protein Gbem_1159 [Geobacter bemidjiensis Bem]
+Length=385
+
+ Score = 41.1 bits (94),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  39   QALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+            Q+ +  G + +AP+DG+ YVR++G WV L T
+Sbjct  341  QSAEAIGAVGDAPKDGKLYVRQNGRWVELVT  371
+
+
+>ref|YP_008241376.1| structural protein [Cellulophaga phage phi17:1]
+ gb|AGO48336.1| structural protein [Cellulophaga phage phi17:1]
+Length=222
+
+ Score = 40.3 bits (92),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 28/69 (41%), Gaps = 3/69 (4%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           + +      +   E  +  V  E  T +          QAL     + +AP DGQ Y RK
+Sbjct  26  IGQRDSIPTLTRWEGMLCYVESEDTTYQLTGVIDNTGWQALVG---LSDAPEDGQQYARK  82
+
+Query  61  DGEWVLLST  69
+           DG WVL  T
+Sbjct  83  DGAWVLAYT  91
+
+
+>ref|WP_010762087.1| hypothetical protein [Enterococcus haemoperoxidus]
+ gb|EOH96720.1| hypothetical protein UAW_01885 [Enterococcus haemoperoxidus ATCC 
+BAA-382]
+ gb|EOT60216.1| hypothetical protein I583_02851 [Enterococcus haemoperoxidus 
+ATCC BAA-382]
+Length=390
+
+ Score = 39.9 bits (91),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 27/55 (49%), Gaps = 5/55 (9%)
+
+Query  16   DIASVRQEVNTAKGNISSLQGDVQALQEAGYI----PEAPRDGQAYVRKDGEWVL  66
+            +I  +    N   G I    G    + E+G +    PEAPRDG  Y RK+G+WV 
+Sbjct  113  EIPKITIATNETPG-IVKPDGKTITISESGVLSSVFPEAPRDGHMYARKEGKWVK  166
+
+
+>gb|ABW89019.1| fibritin neck whiskers [Enterobacteria phage JS98-C3]
+Length=515
+
+ Score = 39.9 bits (91),  Expect = 0.055, Method: Composition-based stats.
+ Identities = 33/103 (32%), Positives = 44/103 (43%), Gaps = 29/103 (28%)
+
+Query  1    VEESGLTNKIKAIET------------------------DIASVRQEVNTAKGNISSLQG  36
+            VEE GL N +K +E                         +I     E++T K ++   +G
+Sbjct  412  VEERGLINSVKGLEAQMPTKLGDAPADGKLYGRKDAAWAEILDDTTEIDTVKASLLEAEG  471
+
+Query  37   DVQALQ--EAGYIPEAPR-DGQAYVRKDGEWVLLSTF--LSPA  74
+             + AL+   A   P AP  DG  YV  D  WVLLS F  L+PA
+Sbjct  472  KITALETEMAKRPPVAPTADGLPYVLVDNAWVLLSDFVTLNPA  514
+
+
+>ref|YP_008241466.1| peptidase [Cellulophaga phage phi38:1]
+ gb|AGO48115.1| peptidase [Cellulophaga phage phi38:1]
+Length=976
+
+ Score = 39.9 bits (91),  Expect = 0.061, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+           L   GY  +APRDGQ Y+R++G W L+ 
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALVP  72
+
+
+>gb|AGO47950.1| peptidase [Cellulophaga phage phi40:1]
+Length=976
+
+ Score = 39.9 bits (91),  Expect = 0.062, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  41  LQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+           L   GY  +APRDGQ Y+R++G W L+ 
+Sbjct  45  LPSYGYFTDAPRDGQPYLRQNGSWALVP  72
+
+
+>ref|YP_008240974.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO48507.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO49221.1| structural protein [Cellulophaga phage phi18:2]
+Length=222
+
+ Score = 38.8 bits (88),  Expect = 0.085, Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 28/69 (41%), Gaps = 3/69 (4%)
+
+Query  1   VEESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRK  60
+           + +      +   E  +  V  E  T +          QAL     + +AP DGQ Y RK
+Sbjct  26  IGQRDSIPTLTRWEGMLCYVESEDTTYQLTGVIDNTGWQALVG---LADAPEDGQQYARK  82
+
+Query  61  DGEWVLLST  69
+           DG WVL  T
+Sbjct  83  DGTWVLAYT  91
+
+
+>ref|YP_004421504.1| unnamed protein product [Synechococcus phage S-CBS2]
+ gb|ADF42406.1| unknown structural protein [Synechococcus phage S-CBS2]
+Length=462
+
+ Score = 38.8 bits (88),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 15/23 (65%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWVLLST  69
+            IPEAP DGQAYVR++  WV  +T
+Sbjct  395  IPEAPVDGQAYVRQNSTWVPTTT  417
+
+
+ Score = 38.4 bits (87),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 16/28 (57%), Gaps = 0/28 (0%)
+
+Query  38   VQALQEAGYIPEAPRDGQAYVRKDGEWV  65
+            +        IPEAP +GQ YVR+D  WV
+Sbjct  340  ISKSSSGNGIPEAPVNGQTYVRQDSAWV  367
+
+
+ Score = 38.0 bits (86),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 14/19 (74%), Positives = 15/19 (79%), Gaps = 0/19 (0%)
+
+Query  47   IPEAPRDGQAYVRKDGEWV  65
+            IPEAP DGQ YVR+D  WV
+Sbjct  372  IPEAPVDGQTYVRQDSTWV  390
+
+
+>ref|YP_007348547.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+ gb|AFU62750.1| putative phage tail fiber protein [Escherichia phage phAPEC8]
+Length=674
+
+ Score = 38.4 bits (87),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 25/62 (40%), Gaps = 1/62 (2%)
+
+Query  7    TNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVL  66
+            TN + A +  I        T      +       +     IPEAP+DG  Y R DG W+ 
+Sbjct  492  TNPV-AGDGVINDYAFNTTTGAVFKKTDSSTWTLIGTLPSIPEAPQDGLTYGRSDGNWIE  550
+
+Query  67   LS  68
+            +S
+Sbjct  551  IS  552
+
+
+>ref|WP_023623518.1| hypothetical protein [Vibrio parahaemolyticus]
+Length=204
+
+ Score = 37.2 bits (84),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  40   ALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+            A+  +  IPEAP DG+ Y R+D  W  ++
+Sbjct  148  AVGGSSGIPEAPTDGKQYGRQDSAWTEIT  176
+
+
+>ref|YP_008240975.1| structural protein [Cellulophaga phage phi18:1]
+ gb|AGO48508.1| structural protein [Cellulophaga phage phi18:1]
+Length=356
+
+ Score = 37.6 bits (85),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 29/67 (43%), Gaps = 1/67 (1%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQA-LQEAGYIPEAPRDGQAYVRKD  61
+            + G+TN        + ++    N    + +      Q  +     I +AP DG  YVRKD
+Sbjct  55   KGGVTNSDWVELGSLVNLTVRNNLTSTSTTDALSANQGRILNDTKIGDAPIDGAQYVRKD  114
+
+Query  62   GEWVLLS  68
+            G W +++
+Sbjct  115  GAWSVVT  121
+
+
+>gb|AGO49222.1| structural protein [Cellulophaga phage phi18:2]
+Length=356
+
+ Score = 37.6 bits (85),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 29/67 (43%), Gaps = 1/67 (1%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQA-LQEAGYIPEAPRDGQAYVRKD  61
+            + G+TN        + ++    N    + +      Q  +     I +AP DG  YVRKD
+Sbjct  55   KGGVTNSDWVELGSLVNLTVRNNLTSTSTTDALSANQGRILNDTKIGDAPIDGAQYVRKD  114
+
+Query  62   GEWVLLS  68
+            G W +++
+Sbjct  115  GAWSVVT  121
+
+
+>ref|NP_918975.1| tail fiber protein [Burkholderia phage BcepNazgul]
+ gb|AAQ63342.1| tail fiber protein [Burkholderia phage BcepNazgul]
+Length=1270
+
+ Score = 38.0 bits (86),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  44   AGYIPEAPRDGQAYVRKDGEWVLLST  69
+             G IP+AP DG  Y RKDG W  ++T
+Sbjct  117  QGGIPDAPSDGVGYARKDGGWTPVAT  142
+
+
+>emb|CBY99580.1| Phi92_gp151 [Enterobacteria phage phi92]
+Length=653
+
+ Score = 37.6 bits (85),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 22/50 (44%), Gaps = 0/50 (0%)
+
+Query  19   SVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLS  68
+                 ++T +  + +      +      I +AP DG+ Y RKDG W  L+
+Sbjct  479  DYAFNISTGEVFLKTSATIWTSQGTLPSITDAPSDGKTYARKDGAWEELT  528
+
+
+>ref|YP_007004287.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+ gb|AEN93963.1| fibritin neck whiskers [Enterobacteria phage Bp7]
+Length=529
+
+ Score = 37.2 bits (84),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 23/64 (36%), Positives = 35/64 (55%), Gaps = 8/64 (13%)
+
+Query  14   ETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAP-RDGQAYVRKDGEWVLLSTF--  70
+            + ++A++   V TA+  I++L+ ++         P AP  DG  YV  D  WVLLS F  
+Sbjct  470  DGNVAALTSRVTTAEDKITALETELAKRP-----PVAPVADGLPYVLVDNAWVLLSDFVT  524
+
+Query  71   LSPA  74
+            L+PA
+Sbjct  525  LNPA  528
+
+
+>ref|YP_007392677.1| virion structural protein [Pectobacterium phage phiTE]
+ gb|AEZ66381.1| virion structural protein [Pectobacterium phage phiTE]
+Length=1099
+
+ Score = 37.2 bits (84),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  43   EAGYIPEAPRDGQAYVRKDGEWVLLSTFLSPA  74
+              G + +AP+DG+ Y R DG+W  LS   +P 
+Sbjct  956  GGGNVYDAPKDGKQYTRIDGDWTALSVLEAPT  987
+
+
+>ref|NP_899611.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+ gb|AAQ64434.1| hypothetical protein KVP40.0366 [Vibrio phage KVP40]
+Length=484
+
+ Score = 36.9 bits (83),  Expect = 0.58, Method: Composition-based stats.
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 1/36 (3%)
+
+Query  35  QGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLSTF  70
+               + +  +  + EAP DGQ YVRKD +WV L T+
+Sbjct  28  NATWELIALSDGVLEAPADGQEYVRKDFQWV-LPTY  62
+
+
+>ref|WP_023657084.1| hypothetical protein [Pseudomonas aeruginosa]
+ emb|CDH78440.1| hypothetical protein PAMH27_4054 [Pseudomonas aeruginosa MH27]
+ emb|CDH75698.1| hypothetical protein PAMH27_1280 [Pseudomonas aeruginosa MH27]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_023124848.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERX13362.1| hypothetical protein Q013_05992 [Pseudomonas aeruginosa X13273]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_022580012.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERM68137.1| hypothetical protein P797_09880 [Pseudomonas aeruginosa VRFPA04]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_015649552.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EOQ77531.1| hypothetical protein K652_27683 [Pseudomonas aeruginosa VRFPA02]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|YP_007392361.1| hypothetical protein JBD30_054 [Pseudomonas phage JBD30]
+ gb|AFQ21968.1| hypothetical protein JBD30_054 [Pseudomonas phage JBD30]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_003117188.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EIE45986.1| hypothetical protein CF510_14149 [Pseudomonas aeruginosa PADK2_CF510]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|WP_003094288.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|EFQ38316.1| hypothetical protein PA39016_000840119 [Pseudomonas aeruginosa 
+39016]
+ gb|ERW17415.1| hypothetical protein Q035_04072 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW83711.1| hypothetical protein Q019_02330 [Pseudomonas aeruginosa BWHPSA006]
+ gb|ERY02077.1| hypothetical protein Q078_02929 [Pseudomonas aeruginosa BL24]
+ gb|ERY24335.1| hypothetical protein Q067_06294 [Pseudomonas aeruginosa BL13]
+ gb|ERY87593.1| hypothetical protein Q023_03616 [Pseudomonas aeruginosa BWHPSA010]
+Length=382
+
+ Score = 36.5 bits (82),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMSDAPSDGKAYARESGAWTELGS  145
+
+
+>ref|YP_007010350.1| fibritin neck whiskers [Aeromonas phage CC2]
+ gb|AFN39548.1| fibritin neck whiskers [Aeromonas phage CC2]
+Length=1041
+
+ Score = 36.9 bits (83),  Expect = 0.67, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 29/70 (41%), Gaps = 10/70 (14%)
+
+Query  5     GLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIP----------EAPRDG  54
+             G+T ++  ++ +I S+ Q        I      V+       I           EAP DG
+Sbjct  944   GITTRVNNVDKNIISISQPSTEKFIAIGDTGLPVRITASEVTINNDKVLTKDSFEAPADG  1003
+
+Query  55    QAYVRKDGEW  64
+               YVR+DG+W
+Sbjct  1004  NKYVRQDGQW  1013
+
+
+>gb|AFN37598.1| hypothetical protein pp2_366 [Vibriophage phi-pp2]
+Length=484
+
+ Score = 36.5 bits (82),  Expect = 0.74, Method: Composition-based stats.
+ Identities = 14/32 (44%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  35  QGDVQALQEAGYIPEAPRDGQAYVRKDGEWVL  66
+               + +  +  + EAP DGQ YVRKD +WVL
+Sbjct  28  NATWELISLSDGVLEAPADGQEYVRKDYQWVL  59
+
+
+>ref|WP_023102451.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV55522.1| hypothetical protein Q065_02206 [Pseudomonas aeruginosa BL11]
+ gb|ERY53965.1| hypothetical protein Q060_01426 [Pseudomonas aeruginosa BL06]
+Length=383
+
+ Score = 36.1 bits (81),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLST  69
+            G + +AP DG+AY R+ G W  L +
+Sbjct  121  GGMADAPSDGKAYARESGAWTELGS  145
+
+
+>gb|AFH20892.1| putative tail fiber protein 1 [Cronobacter phage CR9]
+Length=1093
+
+ Score = 36.5 bits (82),  Expect = 0.90, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  43   EAGYIPEAPRDGQAYVRKDGEWVLLSTFLSP  73
+              G + +AP+DG+ Y R DG+W L+S   +P
+Sbjct  950  GGGNVYDAPKDGKQYSRIDGDWTLISVLEAP  980
+
+
+>ref|WP_010770316.1| hypothetical protein [Enterococcus caccae]
+ gb|EOL50654.1| hypothetical protein UC7_00105 [Enterococcus caccae ATCC BAA-1240]
+ gb|EOT59453.1| hypothetical protein I580_02485 [Enterococcus caccae ATCC BAA-1240]
+Length=390
+
+ Score = 36.1 bits (81),  Expect = 0.92, Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 29/69 (42%), Gaps = 6/69 (9%)
+
+Query  6    LTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYI----PEAPRDGQAYVRKD  61
+            + N +K     I  V    N     I    G    + + G +    PEAP DG  Y RK+
+Sbjct  104  VINLVKDKIE-IPEVTIATNET-AGIVKPDGKTITISDDGVLSSVFPEAPLDGHMYARKE  161
+
+Query  62   GEWVLLSTF  70
+            G+WV   T+
+Sbjct  162  GKWVKNFTY  170
+
+
+>gb|ADD94056.1| hypothetical protein [uncultured phage MedDCM-OCT-S01-C1]
+Length=789
+
+ Score = 36.1 bits (81),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  45   GYIPEAPRDGQAYVRKDGEWVLLSTFL  71
+            G IP+AP D + Y R+DG W  +S+ L
+Sbjct  516  GGIPDAPSDTKQYARQDGSWSEVSSGL  542
+
+
+>ref|WP_021848574.1| predicted protein [Bacteroides sp. CAG:598]
+ emb|CCX61746.1| predicted protein [Bacteroides sp. CAG:598]
+Length=546
+
+ Score = 35.7 bits (80),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  22   QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+             E+ T  GN     G+++       I +AP DGQ Y RK+G W  +++
+Sbjct  140  TELKTINGNSIVGSGNIEISGTGSGIADAPSDGQTYGRKNGAWAAIAS  187
+
+
+>ref|WP_020531401.1| hypothetical protein [Flexithrix dorotheae]
+Length=421
+
+ Score = 35.3 bits (79),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 12/23 (52%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  46   YIPEAPRDGQAYVRKDGEWVLLS  68
+            Y+ +AP DG  Y R+DG WV +S
+Sbjct  231  YLQDAPSDGNKYGRQDGGWVTIS  253
+
+
+>ref|WP_017206558.1| hypothetical protein [Mycobacterium abscessus]
+Length=488
+
+ Score = 35.3 bits (79),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 25/57 (44%), Gaps = 0/57 (0%)
+
+Query  13   IETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGEWVLLST  69
+               DI   R      K NIS+  G    +      P++P D Q  VRKDG W ++ +
+Sbjct  272  NAKDIFEGRDLTRLVKANISTWSGKRAYIGLENLPPQSPTDDQVDVRKDGVWSIIGS  328
+
+
+>ref|YP_004063856.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+ gb|ADR32550.1| fibritin [Enterobacteria phage vB_EcoM-VR7]
+Length=528
+
+ Score = 34.9 bits (78),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 6/70 (9%)
+
+Query  4    SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPR-DGQAYVRKDG  62
+            S LT ++  IET       ++   +G +S+L+ ++         P AP  DG  YV  D 
+Sbjct  459  SALTLRVDGIETRTGEAETKITELEGKVSALETELSKRP-----PVAPAADGLPYVLVDN  513
+
+Query  63   EWVLLSTFLS  72
+             WVLLSTF++
+Sbjct  514  AWVLLSTFVT  523
+
+
+ Score = 34.5 bits (77),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 16/67 (24%), Positives = 28/67 (42%), Gaps = 0/67 (0%)
+
+Query  3    ESGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDG  62
+            +SG+   I  I++ I       +T          +    +    I +AP D + Y R+D 
+Sbjct  388  QSGIKGSILTIKSQIDGTNPNGSTVVEKGILPTVETLNNEMPTKISDAPSDTKIYGRRDA  447
+
+Query  63   EWVLLST  69
+             WV ++T
+Sbjct  448  AWVEIAT  454
+
+
+>ref|WP_022456008.1| predicted protein [Parabacteroides sp. CAG:409]
+ emb|CDE61309.1| predicted protein [Parabacteroides sp. CAG:409]
+Length=219
+
+ Score = 33.8 bits (75),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  22   QEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKD  61
+              + T  GN    +G+++     G IPEAP DG+ YVR++
+Sbjct  180  TNIKTVNGNSLLGEGNIEIQGGTGGIPEAPTDGKKYVRQN  219
+
+
+>ref|YP_005719435.1| hypothetical protein SM11_chr0897 [Sinorhizobium meliloti SM11]
+ ref|WP_014529182.1| hypothetical protein [Sinorhizobium meliloti]
+ gb|AEH78174.1| hypothetical protein SM11_chr0897 [Sinorhizobium meliloti SM11]
+Length=372
+
+ Score = 33.4 bits (74),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 11/62 (18%), Positives = 23/62 (37%), Gaps = 0/62 (0%)
+
+Query  4   SGLTNKIKAIETDIASVRQEVNTAKGNISSLQGDVQALQEAGYIPEAPRDGQAYVRKDGE  63
+             +       +  +      ++ +   I   Q     + +   + + P D  AY R++GE
+Sbjct  11  RAMVGSGSEDQVAVWDADGRLSGSDALIFDGQRMKLLVDDEPLVEDTPLDDTAYARRNGE  70
+
+Query  64  WV  65
+           WV
+Sbjct  71  WV  72
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.111    0.278    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0335    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312485544690
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

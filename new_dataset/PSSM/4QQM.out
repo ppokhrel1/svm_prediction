@@ -1,0 +1,4711 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4QQM
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+dbj|BAE41660.1|  unnamed protein product [Mus musculus] >gb|EDL26...  41.2    0.003
+gb|EDL84134.1|  similar to hypothetical protein FLJ12994 (predict...  40.8    0.004
+ref|XP_006275742.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  40.4    0.008
+dbj|BAC41187.2|  unnamed protein product [Mus musculus]               39.7    0.008
+ref|XP_006018034.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  40.0    0.012
+gb|EDL84133.1|  similar to hypothetical protein FLJ12994 (predict...  40.0    0.012
+gb|EDL26262.1|  mCG131701, isoform CRA_a [Mus musculus]               40.0    0.012
+gb|EPQ16338.1|  DNA-binding protein RFX7 [Myotis brandtii]            40.0    0.013
+ref|XP_003209477.1|  PREDICTED: DNA-binding protein RFX7-like [Me...  39.7    0.014
+ref|XP_005435569.1|  PREDICTED: DNA-binding protein RFX7 [Falco c...  39.7    0.015
+ref|XP_003901028.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.7    0.015
+ref|XP_004274807.1|  PREDICTED: DNA-binding protein RFX7 [Orcinus...  39.7    0.015
+ref|XP_006179947.1|  PREDICTED: DNA-binding protein RFX7 [Camelus...  39.7    0.016
+ref|XP_005880172.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  39.7    0.016
+ref|XP_005984980.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.7    0.016
+ref|XP_005316660.1|  PREDICTED: DNA-binding protein RFX7 [Ictidom...  39.7    0.016
+ref|XP_003640104.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.016
+ref|XP_004010635.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.7    0.016
+ref|XP_005638500.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.016
+ref|XP_005511214.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.7    0.017
+ref|XP_003987162.1|  PREDICTED: DNA-binding protein RFX7 [Felis c...  39.7    0.017
+ref|XP_001090581.2|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.017
+ref|NP_073752.5|  DNA-binding protein RFX7 [Homo sapiens] >ref|XP...  39.7    0.017
+ref|XP_005905686.1|  PREDICTED: DNA-binding protein RFX7 [Bos mutus]  39.7    0.017
+sp|Q2KHR2.1|RFX7_HUMAN  RecName: Full=DNA-binding protein RFX7; A...  39.7    0.017
+ref|XP_005559684.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+ref|XP_002922988.1|  PREDICTED: DNA-binding protein RFX7-like [Ai...  39.7    0.018
+ref|XP_004779267.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+ref|XP_005376654.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+ref|XP_005685787.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.7    0.018
+ref|XP_002825529.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+gb|EHH61834.1|  hypothetical protein EGM_19959 [Macaca fascicularis]  39.7    0.018
+gb|EHH27343.1|  hypothetical protein EGK_17520 [Macaca mulatta]       39.7    0.018
+ref|XP_004779266.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+ref|XP_429081.4|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding pro...  39.7    0.018
+ref|XP_006211018.1|  PREDICTED: DNA-binding protein RFX7 [Vicugna...  39.7    0.018
+ref|XP_004779263.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.7    0.018
+ref|XP_003827922.1|  PREDICTED: DNA-binding protein RFX7 [Pan pan...  39.7    0.018
+ref|XP_510432.3|  PREDICTED: DNA-binding protein RFX7 isoform 2 [...  39.7    0.018
+gb|EFB28936.1|  hypothetical protein PANDA_012053 [Ailuropoda mel...  39.7    0.018
+ref|XP_004327067.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  39.3    0.019
+gb|EAW77499.1|  regulatory factor X domain containing 2, isoform ...  39.3    0.019
+ref|XP_004415964.1|  PREDICTED: DNA-binding protein RFX7 [Odobenu...  39.3    0.019
+dbj|BAC87248.1|  unnamed protein product [Homo sapiens]               39.3    0.019
+ref|XP_004578120.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.3    0.019
+ref|XP_005232362.1|  PREDICTED: DNA-binding protein RFX7 [Falco p...  39.3    0.019
+ref|NP_001120962.1|  regulatory factor X domain containing 2 [Rat...  39.3    0.019
+ref|XP_001500788.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.019
+ref|XP_002717768.1|  PREDICTED: regulatory factor X domain contai...  39.3    0.019
+ref|XP_005521529.1|  PREDICTED: DNA-binding protein RFX7 [Pseudop...  39.3    0.019
+ref|XP_001090465.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.020
+ref|XP_005254661.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.020
+ref|XP_003267010.1|  PREDICTED: DNA-binding protein RFX7 [Nomascu...  39.3    0.020
+gb|ELK05389.1|  DNA-binding protein RFX7 [Pteropus alecto]            39.3    0.020
+ref|XP_003778505.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.020
+gb|AAI43439.1|  RFX7 protein [Homo sapiens]                           39.3    0.020
+ref|XP_004835400.1|  PREDICTED: DNA-binding protein RFX7-like [He...  39.3    0.020
+ref|XP_005073802.1|  PREDICTED: DNA-binding protein RFX7 [Mesocri...  39.3    0.020
+ref|XP_004687822.1|  PREDICTED: DNA-binding protein RFX7 [Condylu...  39.3    0.021
+ref|NP_001028708.1|  regulatory factor X domain containing 2 [Mus...  39.3    0.021
+ref|XP_003784422.1|  PREDICTED: DNA-binding protein RFX7 [Otolemu...  39.3    0.021
+ref|NP_001179749.1|  DNA-binding protein RFX7 [Bos taurus] >ref|X...  39.3    0.021
+ref|XP_005376658.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.021
+ref|XP_005376655.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  39.3    0.021
+ref|XP_003471844.2|  PREDICTED: DNA-binding protein RFX7 [Cavia p...  39.3    0.021
+ref|XP_004639042.1|  PREDICTED: DNA-binding protein RFX7-like [Oc...  39.3    0.021
+ref|XP_006085978.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  39.3    0.021
+ref|XP_004421667.1|  PREDICTED: DNA-binding protein RFX7 [Ceratot...  39.3    0.021
+ref|XP_003495077.1|  PREDICTED: DNA-binding protein RFX7-like [Cr...  39.3    0.021
+ref|XP_003935652.1|  PREDICTED: DNA-binding protein RFX7 [Saimiri...  39.3    0.022
+ref|XP_005011975.1|  PREDICTED: DNA-binding protein RFX7 [Anas pl...  39.3    0.022
+ref|XP_002807241.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.3    0.022
+ref|XP_004885681.1|  PREDICTED: DNA-binding protein RFX7-like [He...  39.3    0.022
+ref|XP_005419724.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.3    0.022
+gb|EOB06933.1|  Regulatory factor X domain-containing protein 2, ...  39.3    0.022
+gb|ERE76619.1|  DNA-binding protein RFX7-like protein [Cricetulus...  39.3    0.023
+ref|XP_005347702.1|  PREDICTED: DNA-binding protein RFX7 [Microtu...  39.3    0.024
+ref|XP_006163343.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  39.3    0.024
+ref|XP_005145963.1|  PREDICTED: DNA-binding protein RFX7 [Melopsi...  39.3    0.024
+ref|XP_005487898.1|  PREDICTED: DNA-binding protein RFX7 [Zonotri...  39.3    0.024
+ref|XP_004176939.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  39.3    0.024
+ref|XP_003480404.1|  PREDICTED: DNA-binding protein RFX7 [Sus scr...  39.3    0.025
+ref|XP_005052043.1|  PREDICTED: DNA-binding protein RFX7 [Ficedul...  38.9    0.025
+gb|ELV13172.1|  DNA-binding protein RFX7 [Tupaia chinensis]           38.9    0.026
+ref|XP_004601717.1|  PREDICTED: DNA-binding protein RFX7 [Sorex a...  38.9    0.029
+ref|XP_003755779.1|  PREDICTED: DNA-binding protein RFX7 [Sarcoph...  38.5    0.040
+ref|XP_004374652.1|  PREDICTED: DNA-binding protein RFX7 [Trichec...  38.5    0.044
+ref|XP_003418435.1|  PREDICTED: DNA-binding protein RFX7 [Loxodon...  38.1    0.050
+ref|XP_001368345.1|  PREDICTED: DNA-binding protein RFX7 [Monodel...  38.1    0.052
+ref|XP_001514248.1|  PREDICTED: DNA-binding protein RFX7 [Ornitho...  38.1    0.053
+ref|XP_004709500.1|  PREDICTED: DNA-binding protein RFX7 [Echinop...  37.7    0.069
+ref|XP_004468383.1|  PREDICTED: DNA-binding protein RFX7 [Dasypus...  37.7    0.075
+ref|XP_006112552.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  37.4    0.095
+ref|XP_005294290.1|  PREDICTED: DNA-binding protein RFX7 [Chrysem...  37.4    0.10 
+ref|XP_005996233.1|  PREDICTED: DNA-binding protein RFX7 [Latimer...  36.6    0.16 
+ref|XP_003201650.2|  PREDICTED: DNA-binding protein RFX7-like iso...  36.2    0.23 
+ref|XP_003230146.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  35.8    0.35 
+ref|NP_001090849.1|  regulatory factor X, 7 [Xenopus (Silurana) t...  35.4    0.49 
+ref|XP_004662549.1|  PREDICTED: DNA-binding protein RFX7 [Jaculus...  33.1    2.4  
+ref|XP_005728052.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.4  
+ref|XP_004567711.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.4  
+ref|XP_005945632.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.4  
+ref|XP_005728054.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.5  
+ref|XP_005728053.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.6  
+ref|XP_005945634.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.7  
+ref|XP_005945633.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.7  
+ref|XP_004567712.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.7  
+ref|XP_005450908.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.7  
+ref|XP_005728055.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    3.9  
+ref|XP_005945635.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    4.0  
+ref|XP_005450909.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    4.1  
+ref|XP_005809961.1|  PREDICTED: DNA-binding protein RFX7-like [Xi...  32.3    4.2  
+ref|XP_005450910.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    4.3  
+ref|XP_005450907.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    4.3  
+ref|XP_004070001.1|  PREDICTED: DNA-binding protein RFX7-like [Or...  32.3    4.3  
+ref|XP_003967785.1|  PREDICTED: DNA-binding protein RFX7-like [Ta...  32.3    4.5  
+emb|CAG05560.1|  unnamed protein product [Tetraodon nigroviridis]     32.0    4.8  
+ref|XP_003442396.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.0    6.6  
+ref|XP_005467130.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.0    6.7  
+ref|XP_005467131.1|  PREDICTED: DNA-binding protein RFX7-like iso...  31.6    7.9  
+
+
+>dbj|BAE41660.1| unnamed protein product [Mus musculus]
+ gb|EDL26263.1| mCG131701, isoform CRA_b [Mus musculus]
+Length=291
+
+ Score = 41.2 bits (95),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL84134.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_b [Rattus norvegicus]
+ gb|AAI58677.1| Rfx7 protein [Rattus norvegicus]
+Length=297
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006275742.1| PREDICTED: DNA-binding protein RFX7 [Alligator mississippiensis]
+Length=2060
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  774  KAFVHMPTLPNLDFHKT  790
+
+
+>dbj|BAC41187.2| unnamed protein product [Mus musculus]
+Length=309
+
+ Score = 39.7 bits (91),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006018034.1| PREDICTED: DNA-binding protein RFX7 [Alligator sinensis]
+Length=1460
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  174  KAFVHMPTLPNLDFHKT  190
+
+
+>gb|EDL84133.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_a [Rattus norvegicus]
+Length=1378
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL26262.1| mCG131701, isoform CRA_a [Mus musculus]
+Length=1378
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EPQ16338.1| DNA-binding protein RFX7 [Myotis brandtii]
+Length=1387
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  164  KAFVHMPTLPNLDFHKT  180
+
+
+>ref|XP_003209477.1| PREDICTED: DNA-binding protein RFX7-like [Meleagris gallopavo]
+Length=1401
+
+ Score = 39.7 bits (91),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  195  KAFVHMPTLPNLDFHKT  211
+
+
+>ref|XP_005435569.1| PREDICTED: DNA-binding protein RFX7 [Falco cherrug]
+Length=1308
+
+ Score = 39.7 bits (91),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003901028.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Papio 
+anubis]
+Length=1413
+
+ Score = 39.7 bits (91),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  140  KAFVHMPTLPNLDFHKT  156
+
+
+>ref|XP_004274807.1| PREDICTED: DNA-binding protein RFX7 [Orcinus orca]
+Length=1453
+
+ Score = 39.7 bits (91),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006179947.1| PREDICTED: DNA-binding protein RFX7 [Camelus ferus]
+Length=1362
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005880172.1| PREDICTED: DNA-binding protein RFX7 [Myotis brandtii]
+Length=1363
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005984980.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pantholops 
+hodgsonii]
+Length=1454
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005316660.1| PREDICTED: DNA-binding protein RFX7 [Ictidomys tridecemlineatus]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003640104.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Canis lupus familiaris]
+ ref|XP_005638499.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Canis lupus familiaris]
+Length=1460
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004010635.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ovis 
+aries]
+Length=1454
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005638500.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Canis lupus familiaris]
+Length=1355
+
+ Score = 39.7 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  77  KAFVHMPTLPNLDFHKT  93
+
+
+>ref|XP_005511214.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Columba 
+livia]
+Length=1350
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003987162.1| PREDICTED: DNA-binding protein RFX7 [Felis catus]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_001090581.2| PREDICTED: DNA-binding protein RFX7 isoform 2 [Macaca mulatta]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|NP_073752.5| DNA-binding protein RFX7 [Homo sapiens]
+ ref|XP_005254660.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Homo sapiens]
+Length=1460
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005905686.1| PREDICTED: DNA-binding protein RFX7 [Bos mutus]
+Length=1461
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>sp|Q2KHR2.1|RFX7_HUMAN RecName: Full=DNA-binding protein RFX7; AltName: Full=Regulatory 
+factor X 7; AltName: Full=Regulatory factor X domain-containing 
+protein 2
+ gb|AAI12937.1| Regulatory factor X, 7 [Homo sapiens]
+Length=1363
+
+ Score = 39.7 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005559684.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Macaca fascicularis]
+ ref|XP_005559685.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Macaca fascicularis]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002922988.1| PREDICTED: DNA-binding protein RFX7-like [Ailuropoda melanoleuca]
+Length=1460
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004779267.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004779268.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+ ref|XP_004795936.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004795937.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+Length=1306
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_005376654.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Chinchilla lanigera]
+Length=1339
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  65  KAFVHMPTLPNLDFHKT  81
+
+
+>ref|XP_005685787.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Capra 
+hircus]
+Length=1362
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_002825529.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Pongo abelii]
+Length=1363
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|EHH61834.1| hypothetical protein EGM_19959 [Macaca fascicularis]
+Length=1364
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>gb|EHH27343.1| hypothetical protein EGK_17520 [Macaca mulatta]
+Length=1364
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>ref|XP_004779266.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+ ref|XP_004795935.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+Length=1413
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  136  KAFVHMPTLPNLDFHKT  152
+
+
+>ref|XP_429081.4| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Gallus 
+gallus]
+Length=1430
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  143  KAFVHMPTLPNLDFHKT  159
+
+
+>ref|XP_006211018.1| PREDICTED: DNA-binding protein RFX7 [Vicugna pacos]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004779263.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004779264.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004779265.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+ ref|XP_004795932.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004795933.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004795934.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+Length=1459
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003827922.1| PREDICTED: DNA-binding protein RFX7 [Pan paniscus]
+Length=1460
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_510432.3| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pan troglodytes]
+Length=1460
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EFB28936.1| hypothetical protein PANDA_012053 [Ailuropoda melanoleuca]
+Length=1365
+
+ Score = 39.7 bits (91),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>ref|XP_004327067.1| PREDICTED: DNA-binding protein RFX7-like [Tursiops truncatus]
+Length=1313
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>gb|EAW77499.1| regulatory factor X domain containing 2, isoform CRA_b [Homo 
+sapiens]
+Length=1320
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  42  KAFVHMPTLPNLDFHKT  58
+
+
+>ref|XP_004415964.1| PREDICTED: DNA-binding protein RFX7 [Odobenus rosmarus divergens]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>dbj|BAC87248.1| unnamed protein product [Homo sapiens]
+Length=1281
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004578120.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ochotona 
+princeps]
+Length=1464
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  186  KAFVHMPTLPNLDFHKT  202
+
+
+>ref|XP_005232362.1| PREDICTED: DNA-binding protein RFX7 [Falco peregrinus]
+Length=1376
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_001120962.1| regulatory factor X domain containing 2 [Rattus norvegicus]
+ ref|XP_006243388.1| PREDICTED: regulatory factor X domain containing 2 isoform X1 
+[Rattus norvegicus]
+ ref|XP_006243389.1| PREDICTED: regulatory factor X domain containing 2 isoform X2 
+[Rattus norvegicus]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_001500788.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Equus caballus]
+ ref|XP_005603086.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Equus caballus]
+ ref|XP_005603087.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Equus caballus]
+ ref|XP_005603088.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Equus caballus]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002717768.1| PREDICTED: regulatory factor X domain containing 2 [Oryctolagus 
+cuniculus]
+Length=1461
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005521529.1| PREDICTED: DNA-binding protein RFX7 [Pseudopodoces humilis]
+Length=1468
+
+ Score = 39.3 bits (90),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  178  KAFVHMPTLPNLDFHKT  194
+
+
+>ref|XP_001090465.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Macaca mulatta]
+Length=1280
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005254661.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Homo sapiens]
+Length=1281
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003267010.1| PREDICTED: DNA-binding protein RFX7 [Nomascus leucogenys]
+Length=1363
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELK05389.1| DNA-binding protein RFX7 [Pteropus alecto]
+Length=1463
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  183  KAFVHMPTLPNLDFHKT  199
+
+
+>ref|XP_003778505.1| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pongo abelii]
+Length=1282
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|AAI43439.1| RFX7 protein [Homo sapiens]
+Length=1292
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  101  KAFVHMPTLPNLDFHKT  117
+
+
+>ref|XP_004835400.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1361
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005073802.1| PREDICTED: DNA-binding protein RFX7 [Mesocricetus auratus]
+Length=1362
+
+ Score = 39.3 bits (90),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004687822.1| PREDICTED: DNA-binding protein RFX7 [Condylura cristata]
+Length=1458
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|NP_001028708.1| regulatory factor X domain containing 2 [Mus musculus]
+ gb|AAI56262.1| Regulatory factor X, 7 [synthetic construct]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003784422.1| PREDICTED: DNA-binding protein RFX7 [Otolemur garnettii]
+Length=1460
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|NP_001179749.1| DNA-binding protein RFX7 [Bos taurus]
+ ref|XP_005211825.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Bos taurus]
+ ref|XP_005211826.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Bos taurus]
+ tpg|DAA25295.1| TPA: regulatory factor X, 7 [Bos taurus]
+Length=1461
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005376658.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Chinchilla lanigera]
+Length=1359
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005376655.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Chinchilla lanigera]
+ ref|XP_005376656.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Chinchilla lanigera]
+ ref|XP_005376657.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Chinchilla lanigera]
+Length=1303
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_003471844.2| PREDICTED: DNA-binding protein RFX7 [Cavia porcellus]
+Length=1362
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004639042.1| PREDICTED: DNA-binding protein RFX7-like [Octodon degus]
+Length=1362
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_006085978.1| PREDICTED: DNA-binding protein RFX7 [Myotis lucifugus]
+Length=1363
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004421667.1| PREDICTED: DNA-binding protein RFX7 [Ceratotherium simum simum]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003495077.1| PREDICTED: DNA-binding protein RFX7-like [Cricetulus griseus]
+ gb|EGV99885.1| DNA-binding protein RFX7 [Cricetulus griseus]
+Length=1459
+
+ Score = 39.3 bits (90),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003935652.1| PREDICTED: DNA-binding protein RFX7 [Saimiri boliviensis boliviensis]
+Length=1460
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005011975.1| PREDICTED: DNA-binding protein RFX7 [Anas platyrhynchos]
+Length=1369
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_002807241.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Callithrix jacchus]
+Length=1444
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004885681.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1348
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005419724.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Geospiza 
+fortis]
+Length=1369
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|EOB06933.1| Regulatory factor X domain-containing protein 2, partial [Anas 
+platyrhynchos]
+Length=1374
+
+ Score = 39.3 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  90   KAFVHMPTLPNLDFHKT  106
+
+
+>gb|ERE76619.1| DNA-binding protein RFX7-like protein [Cricetulus griseus]
+Length=1488
+
+ Score = 39.3 bits (90),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  211  KAFVHMPTLPNLDFHKT  227
+
+
+>ref|XP_005347702.1| PREDICTED: DNA-binding protein RFX7 [Microtus ochrogaster]
+Length=1458
+
+ Score = 39.3 bits (90),  Expect = 0.024, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006163343.1| PREDICTED: DNA-binding protein RFX7-like [Tupaia chinensis]
+Length=1365
+
+ Score = 39.3 bits (90),  Expect = 0.024, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005145963.1| PREDICTED: DNA-binding protein RFX7 [Melopsittacus undulatus]
+Length=1375
+
+ Score = 39.3 bits (90),  Expect = 0.024, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005487898.1| PREDICTED: DNA-binding protein RFX7 [Zonotrichia albicollis]
+Length=1375
+
+ Score = 39.3 bits (90),  Expect = 0.024, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004176939.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Taeniopygia 
+guttata]
+Length=1375
+
+ Score = 39.3 bits (90),  Expect = 0.024, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003480404.1| PREDICTED: DNA-binding protein RFX7 [Sus scrofa]
+Length=1430
+
+ Score = 39.3 bits (90),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  151  KAFVHMPTLPNLDFHKT  167
+
+
+>ref|XP_005052043.1| PREDICTED: DNA-binding protein RFX7 [Ficedula albicollis]
+Length=1375
+
+ Score = 38.9 bits (89),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELV13172.1| DNA-binding protein RFX7 [Tupaia chinensis]
+Length=1300
+
+ Score = 38.9 bits (89),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  34  KAFVHMPTLPNLDFHKT  50
+
+
+>ref|XP_004601717.1| PREDICTED: DNA-binding protein RFX7 [Sorex araneus]
+Length=1368
+
+ Score = 38.9 bits (89),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003755779.1| PREDICTED: DNA-binding protein RFX7 [Sarcophilus harrisii]
+Length=1421
+
+ Score = 38.5 bits (88),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  142  KAFVHMPTLPNLDFHKS  158
+
+
+>ref|XP_004374652.1| PREDICTED: DNA-binding protein RFX7 [Trichechus manatus latirostris]
+Length=1457
+
+ Score = 38.5 bits (88),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  182  KALVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003418435.1| PREDICTED: DNA-binding protein RFX7 [Loxodonta africana]
+Length=1446
+
+ Score = 38.1 bits (87),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  167  KALVHMPTLPNLDFHKT  183
+
+
+>ref|XP_001368345.1| PREDICTED: DNA-binding protein RFX7 [Monodelphis domestica]
+Length=1455
+
+ Score = 38.1 bits (87),  Expect = 0.052, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  182  KAFVHMPTLPNLDFHKS  198
+
+
+>ref|XP_001514248.1| PREDICTED: DNA-binding protein RFX7 [Ornithorhynchus anatinus]
+Length=1500
+
+ Score = 38.1 bits (87),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFVHMPTLPNLDFHK
+Sbjct  211  KAFVHMPTLPNLDFHK  226
+
+
+>ref|XP_004709500.1| PREDICTED: DNA-binding protein RFX7 [Echinops telfairi]
+Length=1461
+
+ Score = 37.7 bits (86),  Expect = 0.069, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  183  KALVHMPTLPNLDFHKT  199
+
+
+>ref|XP_004468383.1| PREDICTED: DNA-binding protein RFX7 [Dasypus novemcinctus]
+Length=1459
+
+ Score = 37.7 bits (86),  Expect = 0.075, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  181  KALVHMPTLPNLDFHKT  197
+
+
+>ref|XP_006112552.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pelodiscus 
+sinensis]
+Length=1462
+
+ Score = 37.4 bits (85),  Expect = 0.095, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  178  KAFVHMPTLPNLGFHKT  194
+
+
+>ref|XP_005294290.1| PREDICTED: DNA-binding protein RFX7 [Chrysemys picta bellii]
+Length=1470
+
+ Score = 37.4 bits (85),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  180  KAFVHMPTLPNLGFHKT  196
+
+
+>ref|XP_005996233.1| PREDICTED: DNA-binding protein RFX7 [Latimeria chalumnae]
+Length=1469
+
+ Score = 36.6 bits (83),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 15/17 (88%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVH+P+LPNLDFHKT
+Sbjct  174  KAFVHVPSLPNLDFHKT  190
+
+
+>ref|XP_003201650.2| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Danio rerio]
+Length=1551
+
+ Score = 36.2 bits (82),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD HK+
+Sbjct  176  KAFVHMPSLPNLDLHKS  192
+
+
+>ref|XP_003230146.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Anolis carolinensis]
+Length=1558
+
+ Score = 35.8 bits (81),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 15/16 (94%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFV MPTLPNLDFHK
+Sbjct  210  KAFVQMPTLPNLDFHK  225
+
+
+>ref|NP_001090849.1| regulatory factor X, 7 [Xenopus (Silurana) tropicalis]
+ gb|AAI33721.1| rfx7 protein [Xenopus (Silurana) tropicalis]
+Length=1439
+
+ Score = 35.4 bits (80),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLDF+K+
+Sbjct  182  KAFVHMPSLPNLDFNKS  198
+
+
+>ref|XP_004662549.1| PREDICTED: DNA-binding protein RFX7 [Jaculus jaculus]
+Length=1451
+
+ Score = 33.1 bits (74),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFV MPTLP+LD HKT
+Sbjct  181  KAFVQMPTLPSLDLHKT  197
+
+
+>ref|XP_005728052.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Pundamilia 
+nyererei]
+Length=1498
+
+ Score = 32.7 bits (73),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_004567711.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Maylandia 
+zebra]
+Length=1498
+
+ Score = 32.7 bits (73),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005945632.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Haplochromis 
+burtoni]
+Length=1498
+
+ Score = 32.7 bits (73),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005728054.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 32.7 bits (73),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005728053.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 32.7 bits (73),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945634.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 32.7 bits (73),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945633.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 32.7 bits (73),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_004567712.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Maylandia 
+zebra]
+Length=1485
+
+ Score = 32.7 bits (73),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450908.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1501
+
+ Score = 32.7 bits (73),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005728055.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Pundamilia 
+nyererei]
+Length=1398
+
+ Score = 32.7 bits (73),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005945635.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Haplochromis 
+burtoni]
+Length=1398
+
+ Score = 32.7 bits (73),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005450909.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1488
+
+ Score = 32.7 bits (73),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005809961.1| PREDICTED: DNA-binding protein RFX7-like [Xiphophorus maculatus]
+Length=1420
+
+ Score = 32.3 bits (72),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450910.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Oreochromis 
+niloticus]
+Length=1484
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_005450907.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1517
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_004070001.1| PREDICTED: DNA-binding protein RFX7-like [Oryzias latipes]
+Length=1421
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_003967785.1| PREDICTED: DNA-binding protein RFX7-like [Takifugu rubripes]
+Length=1426
+
+ Score = 32.3 bits (72),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>emb|CAG05560.1| unnamed protein product [Tetraodon nigroviridis]
+Length=316
+
+ Score = 32.0 bits (71),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  129  KAFVHMPSLPNLDLQKS  145
+
+
+>ref|XP_003442396.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1407
+
+ Score = 32.0 bits (71),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467130.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1409
+
+ Score = 32.0 bits (71),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467131.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1355
+
+ Score = 31.6 bits (70),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  119  RPFVHMPSLPTLDLHKT  135
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.139    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 210032351655
+Results from round 2
+
+
+Query= 4QQM
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+dbj|BAE41660.1|  unnamed protein product [Mus musculus] >gb|EDL26...  41.9    0.001
+gb|EDL84134.1|  similar to hypothetical protein FLJ12994 (predict...  41.5    0.002
+ref|XP_006275742.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  41.5    0.004
+dbj|BAC41187.2|  unnamed protein product [Mus musculus]               40.8    0.004
+ref|XP_006018034.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  40.8    0.006
+gb|EDL84133.1|  similar to hypothetical protein FLJ12994 (predict...  40.8    0.006
+gb|EDL26262.1|  mCG131701, isoform CRA_a [Mus musculus]               40.8    0.006
+gb|EPQ16338.1|  DNA-binding protein RFX7 [Myotis brandtii]            40.8    0.007
+ref|XP_003209477.1|  PREDICTED: DNA-binding protein RFX7-like [Me...  40.8    0.007
+ref|XP_005435569.1|  PREDICTED: DNA-binding protein RFX7 [Falco c...  40.4    0.008
+ref|XP_003901028.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.008
+ref|XP_004274807.1|  PREDICTED: DNA-binding protein RFX7 [Orcinus...  40.4    0.008
+ref|XP_006179947.1|  PREDICTED: DNA-binding protein RFX7 [Camelus...  40.4    0.008
+ref|XP_005880172.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  40.4    0.008
+ref|XP_005984980.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.008
+ref|XP_005316660.1|  PREDICTED: DNA-binding protein RFX7 [Ictidom...  40.4    0.008
+ref|XP_003640104.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.008
+ref|XP_004010635.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+ref|XP_005638500.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_003987162.1|  PREDICTED: DNA-binding protein RFX7 [Felis c...  40.4    0.009
+ref|XP_005905686.1|  PREDICTED: DNA-binding protein RFX7 [Bos mutus]  40.4    0.009
+ref|XP_005511214.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+ref|NP_073752.5|  DNA-binding protein RFX7 [Homo sapiens] >ref|XP...  40.4    0.009
+ref|XP_001090581.2|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_005685787.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+sp|Q2KHR2.1|RFX7_HUMAN  RecName: Full=DNA-binding protein RFX7; A...  40.4    0.009
+ref|XP_005559684.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_002922988.1|  PREDICTED: DNA-binding protein RFX7-like [Ai...  40.4    0.009
+ref|XP_429081.4|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding pro...  40.4    0.010
+ref|XP_004779263.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_510432.3|  PREDICTED: DNA-binding protein RFX7 isoform 2 [...  40.4    0.010
+ref|XP_002825529.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_003827922.1|  PREDICTED: DNA-binding protein RFX7 [Pan pan...  40.4    0.010
+ref|XP_004779267.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+gb|EAW77499.1|  regulatory factor X domain containing 2, isoform ...  40.4    0.010
+ref|XP_005376654.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+gb|EHH61834.1|  hypothetical protein EGM_19959 [Macaca fascicularis]  40.4    0.010
+gb|EHH27343.1|  hypothetical protein EGK_17520 [Macaca mulatta]       40.4    0.010
+gb|EFB28936.1|  hypothetical protein PANDA_012053 [Ailuropoda mel...  40.4    0.010
+ref|XP_004779266.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_004327067.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  40.4    0.010
+ref|XP_006211018.1|  PREDICTED: DNA-binding protein RFX7 [Vicugna...  40.4    0.010
+ref|XP_004415964.1|  PREDICTED: DNA-binding protein RFX7 [Odobenu...  40.4    0.010
+ref|XP_004578120.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.010
+ref|XP_005232362.1|  PREDICTED: DNA-binding protein RFX7 [Falco p...  40.4    0.010
+ref|NP_001120962.1|  regulatory factor X domain containing 2 [Rat...  40.4    0.010
+dbj|BAC87248.1|  unnamed protein product [Homo sapiens]               40.4    0.010
+ref|XP_001500788.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_002717768.1|  PREDICTED: regulatory factor X domain contai...  40.4    0.010
+ref|XP_005521529.1|  PREDICTED: DNA-binding protein RFX7 [Pseudop...  40.4    0.010
+ref|XP_003267010.1|  PREDICTED: DNA-binding protein RFX7 [Nomascu...  40.4    0.010
+gb|ELK05389.1|  DNA-binding protein RFX7 [Pteropus alecto]            40.4    0.011
+ref|XP_001090465.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_005254661.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_003778505.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|NP_001028708.1|  regulatory factor X domain containing 2 [Mus...  40.0    0.011
+ref|XP_003784422.1|  PREDICTED: DNA-binding protein RFX7 [Otolemu...  40.0    0.011
+ref|NP_001179749.1|  DNA-binding protein RFX7 [Bos taurus] >ref|X...  40.0    0.011
+gb|AAI43439.1|  RFX7 protein [Homo sapiens]                           40.0    0.011
+ref|XP_005073802.1|  PREDICTED: DNA-binding protein RFX7 [Mesocri...  40.0    0.011
+ref|XP_005376655.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_005376658.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_004835400.1|  PREDICTED: DNA-binding protein RFX7-like [He...  40.0    0.011
+ref|XP_003471844.2|  PREDICTED: DNA-binding protein RFX7 [Cavia p...  40.0    0.011
+ref|XP_004639042.1|  PREDICTED: DNA-binding protein RFX7-like [Oc...  40.0    0.011
+ref|XP_006085978.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  40.0    0.011
+ref|XP_004687822.1|  PREDICTED: DNA-binding protein RFX7 [Condylu...  40.0    0.011
+ref|XP_004421667.1|  PREDICTED: DNA-binding protein RFX7 [Ceratot...  40.0    0.011
+ref|XP_003495077.1|  PREDICTED: DNA-binding protein RFX7-like [Cr...  40.0    0.011
+ref|XP_003935652.1|  PREDICTED: DNA-binding protein RFX7 [Saimiri...  40.0    0.011
+ref|XP_005011975.1|  PREDICTED: DNA-binding protein RFX7 [Anas pl...  40.0    0.012
+ref|XP_002807241.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.012
+ref|XP_004885681.1|  PREDICTED: DNA-binding protein RFX7-like [He...  40.0    0.012
+ref|XP_005419724.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.012
+gb|EOB06933.1|  Regulatory factor X domain-containing protein 2, ...  40.0    0.012
+gb|ERE76619.1|  DNA-binding protein RFX7-like protein [Cricetulus...  40.0    0.012
+ref|XP_006163343.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  40.0    0.013
+ref|XP_005145963.1|  PREDICTED: DNA-binding protein RFX7 [Melopsi...  40.0    0.013
+ref|XP_005347702.1|  PREDICTED: DNA-binding protein RFX7 [Microtu...  40.0    0.013
+ref|XP_004176939.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.013
+ref|XP_003480404.1|  PREDICTED: DNA-binding protein RFX7 [Sus scr...  40.0    0.013
+ref|XP_005487898.1|  PREDICTED: DNA-binding protein RFX7 [Zonotri...  40.0    0.013
+ref|XP_005052043.1|  PREDICTED: DNA-binding protein RFX7 [Ficedul...  40.0    0.014
+gb|ELV13172.1|  DNA-binding protein RFX7 [Tupaia chinensis]           40.0    0.014
+ref|XP_004601717.1|  PREDICTED: DNA-binding protein RFX7 [Sorex a...  39.6    0.016
+ref|XP_003755779.1|  PREDICTED: DNA-binding protein RFX7 [Sarcoph...  39.2    0.022
+ref|XP_004374652.1|  PREDICTED: DNA-binding protein RFX7 [Trichec...  39.2    0.023
+ref|XP_003418435.1|  PREDICTED: DNA-binding protein RFX7 [Loxodon...  38.8    0.027
+ref|XP_001514248.1|  PREDICTED: DNA-binding protein RFX7 [Ornitho...  38.8    0.029
+ref|XP_001368345.1|  PREDICTED: DNA-binding protein RFX7 [Monodel...  38.8    0.029
+ref|XP_004709500.1|  PREDICTED: DNA-binding protein RFX7 [Echinop...  38.5    0.039
+ref|XP_004468383.1|  PREDICTED: DNA-binding protein RFX7 [Dasypus...  38.5    0.040
+ref|XP_006112552.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  38.1    0.053
+ref|XP_005294290.1|  PREDICTED: DNA-binding protein RFX7 [Chrysem...  38.1    0.061
+ref|XP_005996233.1|  PREDICTED: DNA-binding protein RFX7 [Latimer...  37.7    0.088
+ref|XP_003201650.2|  PREDICTED: DNA-binding protein RFX7-like iso...  36.9    0.13 
+ref|XP_003230146.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  36.5    0.20 
+ref|NP_001090849.1|  regulatory factor X, 7 [Xenopus (Silurana) t...  36.1    0.28 
+ref|XP_004662549.1|  PREDICTED: DNA-binding protein RFX7 [Jaculus...  33.8    1.4  
+ref|XP_005728052.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.0  
+ref|XP_005945632.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_004567711.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_005728054.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_005728053.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005945634.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005945633.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_004567712.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005728055.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.3  
+ref|XP_005450908.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.3  
+ref|XP_005945635.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.4  
+ref|XP_005450909.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.5  
+ref|XP_005809961.1|  PREDICTED: DNA-binding protein RFX7-like [Xi...  33.1    2.6  
+ref|XP_005450910.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.6  
+ref|XP_004070001.1|  PREDICTED: DNA-binding protein RFX7-like [Or...  33.1    2.6  
+ref|XP_005450907.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.6  
+ref|XP_003967785.1|  PREDICTED: DNA-binding protein RFX7-like [Ta...  33.1    2.7  
+emb|CAG05560.1|  unnamed protein product [Tetraodon nigroviridis]     32.7    2.9  
+ref|XP_688865.4|  PREDICTED: DNA-binding protein RFX7-like [Danio...  32.7    3.5  
+ref|XP_003442396.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    4.2  
+ref|XP_005467130.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    4.3  
+ref|XP_005467131.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    5.1  
+ref|XP_005814956.1|  PREDICTED: DNA-binding protein RFX7-like [Xi...  31.5    8.2  
+
+
+>dbj|BAE41660.1| unnamed protein product [Mus musculus]
+ gb|EDL26263.1| mCG131701, isoform CRA_b [Mus musculus]
+Length=291
+
+ Score = 41.9 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL84134.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_b [Rattus norvegicus]
+ gb|AAI58677.1| Rfx7 protein [Rattus norvegicus]
+Length=297
+
+ Score = 41.5 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006275742.1| PREDICTED: DNA-binding protein RFX7 [Alligator mississippiensis]
+Length=2060
+
+ Score = 41.5 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  774  KAFVHMPTLPNLDFHKT  790
+
+
+>dbj|BAC41187.2| unnamed protein product [Mus musculus]
+Length=309
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006018034.1| PREDICTED: DNA-binding protein RFX7 [Alligator sinensis]
+Length=1460
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  174  KAFVHMPTLPNLDFHKT  190
+
+
+>gb|EDL84133.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_a [Rattus norvegicus]
+Length=1378
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL26262.1| mCG131701, isoform CRA_a [Mus musculus]
+Length=1378
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EPQ16338.1| DNA-binding protein RFX7 [Myotis brandtii]
+Length=1387
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  164  KAFVHMPTLPNLDFHKT  180
+
+
+>ref|XP_003209477.1| PREDICTED: DNA-binding protein RFX7-like [Meleagris gallopavo]
+Length=1401
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  195  KAFVHMPTLPNLDFHKT  211
+
+
+>ref|XP_005435569.1| PREDICTED: DNA-binding protein RFX7 [Falco cherrug]
+Length=1308
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003901028.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Papio 
+anubis]
+Length=1413
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  140  KAFVHMPTLPNLDFHKT  156
+
+
+>ref|XP_004274807.1| PREDICTED: DNA-binding protein RFX7 [Orcinus orca]
+Length=1453
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006179947.1| PREDICTED: DNA-binding protein RFX7 [Camelus ferus]
+Length=1362
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005880172.1| PREDICTED: DNA-binding protein RFX7 [Myotis brandtii]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005984980.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pantholops 
+hodgsonii]
+Length=1454
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005316660.1| PREDICTED: DNA-binding protein RFX7 [Ictidomys tridecemlineatus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003640104.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Canis lupus familiaris]
+ ref|XP_005638499.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Canis lupus familiaris]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004010635.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ovis 
+aries]
+Length=1454
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005638500.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Canis lupus familiaris]
+Length=1355
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  77  KAFVHMPTLPNLDFHKT  93
+
+
+>ref|XP_003987162.1| PREDICTED: DNA-binding protein RFX7 [Felis catus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005905686.1| PREDICTED: DNA-binding protein RFX7 [Bos mutus]
+Length=1461
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005511214.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Columba 
+livia]
+Length=1350
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_073752.5| DNA-binding protein RFX7 [Homo sapiens]
+ ref|XP_005254660.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Homo sapiens]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_001090581.2| PREDICTED: DNA-binding protein RFX7 isoform 2 [Macaca mulatta]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005685787.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Capra 
+hircus]
+Length=1362
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>sp|Q2KHR2.1|RFX7_HUMAN RecName: Full=DNA-binding protein RFX7; AltName: Full=Regulatory 
+factor X 7; AltName: Full=Regulatory factor X domain-containing 
+protein 2
+ gb|AAI12937.1| Regulatory factor X, 7 [Homo sapiens]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005559684.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Macaca fascicularis]
+ ref|XP_005559685.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Macaca fascicularis]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002922988.1| PREDICTED: DNA-binding protein RFX7-like [Ailuropoda melanoleuca]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_429081.4| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Gallus 
+gallus]
+Length=1430
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  143  KAFVHMPTLPNLDFHKT  159
+
+
+>ref|XP_004779263.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004779264.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004779265.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+ ref|XP_004795932.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004795933.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004795934.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_510432.3| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pan troglodytes]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002825529.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Pongo abelii]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003827922.1| PREDICTED: DNA-binding protein RFX7 [Pan paniscus]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004779267.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004779268.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+ ref|XP_004795936.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004795937.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+Length=1306
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>gb|EAW77499.1| regulatory factor X domain containing 2, isoform CRA_b [Homo 
+sapiens]
+Length=1320
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  42  KAFVHMPTLPNLDFHKT  58
+
+
+>ref|XP_005376654.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Chinchilla lanigera]
+Length=1339
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  65  KAFVHMPTLPNLDFHKT  81
+
+
+>gb|EHH61834.1| hypothetical protein EGM_19959 [Macaca fascicularis]
+Length=1364
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>gb|EHH27343.1| hypothetical protein EGK_17520 [Macaca mulatta]
+Length=1364
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>gb|EFB28936.1| hypothetical protein PANDA_012053 [Ailuropoda melanoleuca]
+Length=1365
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>ref|XP_004779266.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+ ref|XP_004795935.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+Length=1413
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  136  KAFVHMPTLPNLDFHKT  152
+
+
+>ref|XP_004327067.1| PREDICTED: DNA-binding protein RFX7-like [Tursiops truncatus]
+Length=1313
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_006211018.1| PREDICTED: DNA-binding protein RFX7 [Vicugna pacos]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004415964.1| PREDICTED: DNA-binding protein RFX7 [Odobenus rosmarus divergens]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004578120.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ochotona 
+princeps]
+Length=1464
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  186  KAFVHMPTLPNLDFHKT  202
+
+
+>ref|XP_005232362.1| PREDICTED: DNA-binding protein RFX7 [Falco peregrinus]
+Length=1376
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_001120962.1| regulatory factor X domain containing 2 [Rattus norvegicus]
+ ref|XP_006243388.1| PREDICTED: regulatory factor X domain containing 2 isoform X1 
+[Rattus norvegicus]
+ ref|XP_006243389.1| PREDICTED: regulatory factor X domain containing 2 isoform X2 
+[Rattus norvegicus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>dbj|BAC87248.1| unnamed protein product [Homo sapiens]
+Length=1281
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_001500788.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Equus caballus]
+ ref|XP_005603086.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Equus caballus]
+ ref|XP_005603087.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Equus caballus]
+ ref|XP_005603088.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Equus caballus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002717768.1| PREDICTED: regulatory factor X domain containing 2 [Oryctolagus 
+cuniculus]
+Length=1461
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005521529.1| PREDICTED: DNA-binding protein RFX7 [Pseudopodoces humilis]
+Length=1468
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  178  KAFVHMPTLPNLDFHKT  194
+
+
+>ref|XP_003267010.1| PREDICTED: DNA-binding protein RFX7 [Nomascus leucogenys]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELK05389.1| DNA-binding protein RFX7 [Pteropus alecto]
+Length=1463
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  183  KAFVHMPTLPNLDFHKT  199
+
+
+>ref|XP_001090465.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Macaca mulatta]
+Length=1280
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005254661.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Homo sapiens]
+Length=1281
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003778505.1| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pongo abelii]
+Length=1282
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_001028708.1| regulatory factor X domain containing 2 [Mus musculus]
+ gb|AAI56262.1| Regulatory factor X, 7 [synthetic construct]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003784422.1| PREDICTED: DNA-binding protein RFX7 [Otolemur garnettii]
+Length=1460
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|NP_001179749.1| DNA-binding protein RFX7 [Bos taurus]
+ ref|XP_005211825.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Bos taurus]
+ ref|XP_005211826.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Bos taurus]
+ tpg|DAA25295.1| TPA: regulatory factor X, 7 [Bos taurus]
+Length=1461
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|AAI43439.1| RFX7 protein [Homo sapiens]
+Length=1292
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  101  KAFVHMPTLPNLDFHKT  117
+
+
+>ref|XP_005073802.1| PREDICTED: DNA-binding protein RFX7 [Mesocricetus auratus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005376655.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Chinchilla lanigera]
+ ref|XP_005376656.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Chinchilla lanigera]
+ ref|XP_005376657.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Chinchilla lanigera]
+Length=1303
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_005376658.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Chinchilla lanigera]
+Length=1359
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004835400.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1361
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003471844.2| PREDICTED: DNA-binding protein RFX7 [Cavia porcellus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004639042.1| PREDICTED: DNA-binding protein RFX7-like [Octodon degus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_006085978.1| PREDICTED: DNA-binding protein RFX7 [Myotis lucifugus]
+Length=1363
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004687822.1| PREDICTED: DNA-binding protein RFX7 [Condylura cristata]
+Length=1458
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004421667.1| PREDICTED: DNA-binding protein RFX7 [Ceratotherium simum simum]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003495077.1| PREDICTED: DNA-binding protein RFX7-like [Cricetulus griseus]
+ gb|EGV99885.1| DNA-binding protein RFX7 [Cricetulus griseus]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003935652.1| PREDICTED: DNA-binding protein RFX7 [Saimiri boliviensis boliviensis]
+Length=1460
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005011975.1| PREDICTED: DNA-binding protein RFX7 [Anas platyrhynchos]
+Length=1369
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_002807241.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Callithrix jacchus]
+Length=1444
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004885681.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1348
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005419724.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Geospiza 
+fortis]
+Length=1369
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|EOB06933.1| Regulatory factor X domain-containing protein 2, partial [Anas 
+platyrhynchos]
+Length=1374
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  90   KAFVHMPTLPNLDFHKT  106
+
+
+>gb|ERE76619.1| DNA-binding protein RFX7-like protein [Cricetulus griseus]
+Length=1488
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  211  KAFVHMPTLPNLDFHKT  227
+
+
+>ref|XP_006163343.1| PREDICTED: DNA-binding protein RFX7-like [Tupaia chinensis]
+Length=1365
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005145963.1| PREDICTED: DNA-binding protein RFX7 [Melopsittacus undulatus]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005347702.1| PREDICTED: DNA-binding protein RFX7 [Microtus ochrogaster]
+Length=1458
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004176939.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Taeniopygia 
+guttata]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003480404.1| PREDICTED: DNA-binding protein RFX7 [Sus scrofa]
+Length=1430
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  151  KAFVHMPTLPNLDFHKT  167
+
+
+>ref|XP_005487898.1| PREDICTED: DNA-binding protein RFX7 [Zonotrichia albicollis]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005052043.1| PREDICTED: DNA-binding protein RFX7 [Ficedula albicollis]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELV13172.1| DNA-binding protein RFX7 [Tupaia chinensis]
+Length=1300
+
+ Score = 40.0 bits (92),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  34  KAFVHMPTLPNLDFHKT  50
+
+
+>ref|XP_004601717.1| PREDICTED: DNA-binding protein RFX7 [Sorex araneus]
+Length=1368
+
+ Score = 39.6 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003755779.1| PREDICTED: DNA-binding protein RFX7 [Sarcophilus harrisii]
+Length=1421
+
+ Score = 39.2 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  142  KAFVHMPTLPNLDFHKS  158
+
+
+>ref|XP_004374652.1| PREDICTED: DNA-binding protein RFX7 [Trichechus manatus latirostris]
+Length=1457
+
+ Score = 39.2 bits (90),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  182  KALVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003418435.1| PREDICTED: DNA-binding protein RFX7 [Loxodonta africana]
+Length=1446
+
+ Score = 38.8 bits (89),  Expect = 0.027, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  167  KALVHMPTLPNLDFHKT  183
+
+
+>ref|XP_001514248.1| PREDICTED: DNA-binding protein RFX7 [Ornithorhynchus anatinus]
+Length=1500
+
+ Score = 38.8 bits (89),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFVHMPTLPNLDFHK
+Sbjct  211  KAFVHMPTLPNLDFHK  226
+
+
+>ref|XP_001368345.1| PREDICTED: DNA-binding protein RFX7 [Monodelphis domestica]
+Length=1455
+
+ Score = 38.8 bits (89),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  182  KAFVHMPTLPNLDFHKS  198
+
+
+>ref|XP_004709500.1| PREDICTED: DNA-binding protein RFX7 [Echinops telfairi]
+Length=1461
+
+ Score = 38.5 bits (88),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  183  KALVHMPTLPNLDFHKT  199
+
+
+>ref|XP_004468383.1| PREDICTED: DNA-binding protein RFX7 [Dasypus novemcinctus]
+Length=1459
+
+ Score = 38.5 bits (88),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  181  KALVHMPTLPNLDFHKT  197
+
+
+>ref|XP_006112552.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pelodiscus 
+sinensis]
+Length=1462
+
+ Score = 38.1 bits (87),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  178  KAFVHMPTLPNLGFHKT  194
+
+
+>ref|XP_005294290.1| PREDICTED: DNA-binding protein RFX7 [Chrysemys picta bellii]
+Length=1470
+
+ Score = 38.1 bits (87),  Expect = 0.061, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  180  KAFVHMPTLPNLGFHKT  196
+
+
+>ref|XP_005996233.1| PREDICTED: DNA-binding protein RFX7 [Latimeria chalumnae]
+Length=1469
+
+ Score = 37.7 bits (86),  Expect = 0.088, Method: Composition-based stats.
+ Identities = 15/17 (88%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVH+P+LPNLDFHKT
+Sbjct  174  KAFVHVPSLPNLDFHKT  190
+
+
+>ref|XP_003201650.2| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Danio rerio]
+Length=1551
+
+ Score = 36.9 bits (84),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD HK+
+Sbjct  176  KAFVHMPSLPNLDLHKS  192
+
+
+>ref|XP_003230146.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Anolis carolinensis]
+Length=1558
+
+ Score = 36.5 bits (83),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/16 (94%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFV MPTLPNLDFHK
+Sbjct  210  KAFVQMPTLPNLDFHK  225
+
+
+>ref|NP_001090849.1| regulatory factor X, 7 [Xenopus (Silurana) tropicalis]
+ gb|AAI33721.1| rfx7 protein [Xenopus (Silurana) tropicalis]
+Length=1439
+
+ Score = 36.1 bits (82),  Expect = 0.28, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLDF+K+
+Sbjct  182  KAFVHMPSLPNLDFNKS  198
+
+
+>ref|XP_004662549.1| PREDICTED: DNA-binding protein RFX7 [Jaculus jaculus]
+Length=1451
+
+ Score = 33.8 bits (76),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFV MPTLP+LD HKT
+Sbjct  181  KAFVQMPTLPSLDLHKT  197
+
+
+>ref|XP_005728052.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Pundamilia 
+nyererei]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005945632.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Haplochromis 
+burtoni]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_004567711.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Maylandia 
+zebra]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005728054.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005728053.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945634.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945633.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_004567712.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Maylandia 
+zebra]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005728055.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Pundamilia 
+nyererei]
+Length=1398
+
+ Score = 33.4 bits (75),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005450908.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1501
+
+ Score = 33.4 bits (75),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005945635.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Haplochromis 
+burtoni]
+Length=1398
+
+ Score = 33.1 bits (74),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005450909.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1488
+
+ Score = 33.1 bits (74),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005809961.1| PREDICTED: DNA-binding protein RFX7-like [Xiphophorus maculatus]
+Length=1420
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450910.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Oreochromis 
+niloticus]
+Length=1484
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_004070001.1| PREDICTED: DNA-binding protein RFX7-like [Oryzias latipes]
+Length=1421
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450907.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1517
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_003967785.1| PREDICTED: DNA-binding protein RFX7-like [Takifugu rubripes]
+Length=1426
+
+ Score = 33.1 bits (74),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>emb|CAG05560.1| unnamed protein product [Tetraodon nigroviridis]
+Length=316
+
+ Score = 32.7 bits (73),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  129  KAFVHMPSLPNLDLQKS  145
+
+
+>ref|XP_688865.4| PREDICTED: DNA-binding protein RFX7-like [Danio rerio]
+Length=1509
+
+ Score = 32.7 bits (73),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            K FV MP+LPNLD HK+
+Sbjct  168  KTFVQMPSLPNLDLHKS  184
+
+
+>ref|XP_003442396.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1407
+
+ Score = 32.7 bits (73),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467130.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1409
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467131.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1355
+
+ Score = 32.3 bits (72),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  119  RPFVHMPSLPTLDLHKT  135
+
+
+>ref|XP_005814956.1| PREDICTED: DNA-binding protein RFX7-like [Xiphophorus maculatus]
+Length=1367
+
+ Score = 31.5 bits (70),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 11/17 (65%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HK+
+Sbjct  195  RPFVHMPSLPTLDLHKS  211
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.139    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 210032351655
+Results from round 3
+
+
+Query= 4QQM
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+dbj|BAE41660.1|  unnamed protein product [Mus musculus] >gb|EDL26...  41.9    0.001
+gb|EDL84134.1|  similar to hypothetical protein FLJ12994 (predict...  41.5    0.002
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_006275742.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  41.5    0.004
+dbj|BAC41187.2|  unnamed protein product [Mus musculus]               40.8    0.004
+ref|XP_006018034.1|  PREDICTED: DNA-binding protein RFX7 [Alligat...  40.8    0.006
+gb|EDL84133.1|  similar to hypothetical protein FLJ12994 (predict...  40.8    0.006
+gb|EDL26262.1|  mCG131701, isoform CRA_a [Mus musculus]               40.8    0.006
+gb|EPQ16338.1|  DNA-binding protein RFX7 [Myotis brandtii]            40.8    0.007
+ref|XP_003209477.1|  PREDICTED: DNA-binding protein RFX7-like [Me...  40.8    0.007
+ref|XP_005435569.1|  PREDICTED: DNA-binding protein RFX7 [Falco c...  40.4    0.008
+ref|XP_003901028.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.008
+ref|XP_004274807.1|  PREDICTED: DNA-binding protein RFX7 [Orcinus...  40.4    0.008
+ref|XP_006179947.1|  PREDICTED: DNA-binding protein RFX7 [Camelus...  40.4    0.008
+ref|XP_005880172.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  40.4    0.008
+ref|XP_005984980.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.008
+ref|XP_005316660.1|  PREDICTED: DNA-binding protein RFX7 [Ictidom...  40.4    0.008
+ref|XP_003640104.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.008
+ref|XP_004010635.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+ref|XP_005638500.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_003987162.1|  PREDICTED: DNA-binding protein RFX7 [Felis c...  40.4    0.009
+ref|XP_005905686.1|  PREDICTED: DNA-binding protein RFX7 [Bos mutus]  40.4    0.009
+ref|XP_005511214.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+ref|NP_073752.5|  DNA-binding protein RFX7 [Homo sapiens] >ref|XP...  40.4    0.009
+ref|XP_001090581.2|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_005685787.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.009
+sp|Q2KHR2.1|RFX7_HUMAN  RecName: Full=DNA-binding protein RFX7; A...  40.4    0.009
+ref|XP_005559684.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.009
+ref|XP_002922988.1|  PREDICTED: DNA-binding protein RFX7-like [Ai...  40.4    0.009
+ref|XP_429081.4|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding pro...  40.4    0.010
+ref|XP_004779263.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_510432.3|  PREDICTED: DNA-binding protein RFX7 isoform 2 [...  40.4    0.010
+ref|XP_002825529.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_003827922.1|  PREDICTED: DNA-binding protein RFX7 [Pan pan...  40.4    0.010
+ref|XP_004779267.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+gb|EAW77499.1|  regulatory factor X domain containing 2, isoform ...  40.4    0.010
+ref|XP_005376654.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+gb|EHH61834.1|  hypothetical protein EGM_19959 [Macaca fascicularis]  40.4    0.010
+gb|EHH27343.1|  hypothetical protein EGK_17520 [Macaca mulatta]       40.4    0.010
+gb|EFB28936.1|  hypothetical protein PANDA_012053 [Ailuropoda mel...  40.4    0.010
+ref|XP_004779266.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_004327067.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  40.4    0.010
+ref|XP_006211018.1|  PREDICTED: DNA-binding protein RFX7 [Vicugna...  40.4    0.010
+ref|XP_004415964.1|  PREDICTED: DNA-binding protein RFX7 [Odobenu...  40.4    0.010
+ref|XP_004578120.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.4    0.010
+ref|XP_005232362.1|  PREDICTED: DNA-binding protein RFX7 [Falco p...  40.4    0.010
+ref|NP_001120962.1|  regulatory factor X domain containing 2 [Rat...  40.4    0.010
+dbj|BAC87248.1|  unnamed protein product [Homo sapiens]               40.4    0.010
+ref|XP_001500788.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.4    0.010
+ref|XP_002717768.1|  PREDICTED: regulatory factor X domain contai...  40.4    0.010
+ref|XP_005521529.1|  PREDICTED: DNA-binding protein RFX7 [Pseudop...  40.4    0.010
+ref|XP_003267010.1|  PREDICTED: DNA-binding protein RFX7 [Nomascu...  40.4    0.010
+gb|ELK05389.1|  DNA-binding protein RFX7 [Pteropus alecto]            40.4    0.011
+ref|XP_001090465.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_005254661.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_003778505.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|NP_001028708.1|  regulatory factor X domain containing 2 [Mus...  40.0    0.011
+ref|XP_003784422.1|  PREDICTED: DNA-binding protein RFX7 [Otolemu...  40.0    0.011
+ref|NP_001179749.1|  DNA-binding protein RFX7 [Bos taurus] >ref|X...  40.0    0.011
+gb|AAI43439.1|  RFX7 protein [Homo sapiens]                           40.0    0.011
+ref|XP_005073802.1|  PREDICTED: DNA-binding protein RFX7 [Mesocri...  40.0    0.011
+ref|XP_005376655.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_005376658.1|  PREDICTED: DNA-binding protein RFX7 isoform ...  40.0    0.011
+ref|XP_004835400.1|  PREDICTED: DNA-binding protein RFX7-like [He...  40.0    0.011
+ref|XP_003471844.2|  PREDICTED: DNA-binding protein RFX7 [Cavia p...  40.0    0.011
+ref|XP_004639042.1|  PREDICTED: DNA-binding protein RFX7-like [Oc...  40.0    0.011
+ref|XP_006085978.1|  PREDICTED: DNA-binding protein RFX7 [Myotis ...  40.0    0.011
+ref|XP_004687822.1|  PREDICTED: DNA-binding protein RFX7 [Condylu...  40.0    0.011
+ref|XP_004421667.1|  PREDICTED: DNA-binding protein RFX7 [Ceratot...  40.0    0.011
+ref|XP_003495077.1|  PREDICTED: DNA-binding protein RFX7-like [Cr...  40.0    0.011
+ref|XP_003935652.1|  PREDICTED: DNA-binding protein RFX7 [Saimiri...  40.0    0.011
+ref|XP_005011975.1|  PREDICTED: DNA-binding protein RFX7 [Anas pl...  40.0    0.012
+ref|XP_002807241.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.012
+ref|XP_004885681.1|  PREDICTED: DNA-binding protein RFX7-like [He...  40.0    0.012
+ref|XP_005419724.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.012
+gb|EOB06933.1|  Regulatory factor X domain-containing protein 2, ...  40.0    0.012
+gb|ERE76619.1|  DNA-binding protein RFX7-like protein [Cricetulus...  40.0    0.012
+ref|XP_006163343.1|  PREDICTED: DNA-binding protein RFX7-like [Tu...  40.0    0.013
+ref|XP_005145963.1|  PREDICTED: DNA-binding protein RFX7 [Melopsi...  40.0    0.013
+ref|XP_005347702.1|  PREDICTED: DNA-binding protein RFX7 [Microtu...  40.0    0.013
+ref|XP_004176939.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  40.0    0.013
+ref|XP_003480404.1|  PREDICTED: DNA-binding protein RFX7 [Sus scr...  40.0    0.013
+ref|XP_005487898.1|  PREDICTED: DNA-binding protein RFX7 [Zonotri...  40.0    0.013
+ref|XP_005052043.1|  PREDICTED: DNA-binding protein RFX7 [Ficedul...  40.0    0.014
+gb|ELV13172.1|  DNA-binding protein RFX7 [Tupaia chinensis]           40.0    0.014
+ref|XP_004601717.1|  PREDICTED: DNA-binding protein RFX7 [Sorex a...  39.6    0.016
+ref|XP_003755779.1|  PREDICTED: DNA-binding protein RFX7 [Sarcoph...  39.2    0.022
+ref|XP_004374652.1|  PREDICTED: DNA-binding protein RFX7 [Trichec...  39.2    0.023
+ref|XP_003418435.1|  PREDICTED: DNA-binding protein RFX7 [Loxodon...  38.8    0.027
+ref|XP_001514248.1|  PREDICTED: DNA-binding protein RFX7 [Ornitho...  38.8    0.029
+ref|XP_001368345.1|  PREDICTED: DNA-binding protein RFX7 [Monodel...  38.8    0.029
+ref|XP_004709500.1|  PREDICTED: DNA-binding protein RFX7 [Echinop...  38.5    0.039
+ref|XP_004468383.1|  PREDICTED: DNA-binding protein RFX7 [Dasypus...  38.5    0.040
+ref|XP_006112552.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  38.1    0.053
+ref|XP_005294290.1|  PREDICTED: DNA-binding protein RFX7 [Chrysem...  38.1    0.061
+ref|XP_005996233.1|  PREDICTED: DNA-binding protein RFX7 [Latimer...  37.7    0.088
+ref|XP_003201650.2|  PREDICTED: DNA-binding protein RFX7-like iso...  36.9    0.13 
+ref|XP_003230146.1|  PREDICTED: LOW QUALITY PROTEIN: DNA-binding ...  36.5    0.20 
+ref|NP_001090849.1|  regulatory factor X, 7 [Xenopus (Silurana) t...  36.1    0.28 
+ref|XP_004662549.1|  PREDICTED: DNA-binding protein RFX7 [Jaculus...  33.8    1.4  
+ref|XP_005728052.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.0  
+ref|XP_005945632.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_004567711.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_005728054.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.1  
+ref|XP_005728053.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005945634.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005945633.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_004567712.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.2  
+ref|XP_005728055.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.3  
+ref|XP_005450908.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.4    2.3  
+ref|XP_005945635.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.4  
+ref|XP_005450909.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.5  
+ref|XP_005809961.1|  PREDICTED: DNA-binding protein RFX7-like [Xi...  33.1    2.6  
+ref|XP_005450910.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.6  
+ref|XP_004070001.1|  PREDICTED: DNA-binding protein RFX7-like [Or...  33.1    2.6  
+ref|XP_005450907.1|  PREDICTED: DNA-binding protein RFX7-like iso...  33.1    2.6  
+ref|XP_003967785.1|  PREDICTED: DNA-binding protein RFX7-like [Ta...  33.1    2.7  
+emb|CAG05560.1|  unnamed protein product [Tetraodon nigroviridis]     32.7    2.9  
+ref|XP_688865.4|  PREDICTED: DNA-binding protein RFX7-like [Danio...  32.7    3.5  
+ref|XP_003442396.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.7    4.2  
+ref|XP_005467130.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    4.3  
+ref|XP_005467131.1|  PREDICTED: DNA-binding protein RFX7-like iso...  32.3    5.1  
+ref|XP_005814956.1|  PREDICTED: DNA-binding protein RFX7-like [Xi...  31.5    8.2  
+
+
+>dbj|BAE41660.1| unnamed protein product [Mus musculus]
+ gb|EDL26263.1| mCG131701, isoform CRA_b [Mus musculus]
+Length=291
+
+ Score = 41.9 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL84134.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_b [Rattus norvegicus]
+ gb|AAI58677.1| Rfx7 protein [Rattus norvegicus]
+Length=297
+
+ Score = 41.5 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006275742.1| PREDICTED: DNA-binding protein RFX7 [Alligator mississippiensis]
+Length=2060
+
+ Score = 41.5 bits (96),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  774  KAFVHMPTLPNLDFHKT  790
+
+
+>dbj|BAC41187.2| unnamed protein product [Mus musculus]
+Length=309
+
+ Score = 40.8 bits (94),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006018034.1| PREDICTED: DNA-binding protein RFX7 [Alligator sinensis]
+Length=1460
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  174  KAFVHMPTLPNLDFHKT  190
+
+
+>gb|EDL84133.1| similar to hypothetical protein FLJ12994 (predicted), isoform 
+CRA_a [Rattus norvegicus]
+Length=1378
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EDL26262.1| mCG131701, isoform CRA_a [Mus musculus]
+Length=1378
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|EPQ16338.1| DNA-binding protein RFX7 [Myotis brandtii]
+Length=1387
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  164  KAFVHMPTLPNLDFHKT  180
+
+
+>ref|XP_003209477.1| PREDICTED: DNA-binding protein RFX7-like [Meleagris gallopavo]
+Length=1401
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  195  KAFVHMPTLPNLDFHKT  211
+
+
+>ref|XP_005435569.1| PREDICTED: DNA-binding protein RFX7 [Falco cherrug]
+Length=1308
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003901028.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Papio 
+anubis]
+Length=1413
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  140  KAFVHMPTLPNLDFHKT  156
+
+
+>ref|XP_004274807.1| PREDICTED: DNA-binding protein RFX7 [Orcinus orca]
+Length=1453
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_006179947.1| PREDICTED: DNA-binding protein RFX7 [Camelus ferus]
+Length=1362
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005880172.1| PREDICTED: DNA-binding protein RFX7 [Myotis brandtii]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005984980.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pantholops 
+hodgsonii]
+Length=1454
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005316660.1| PREDICTED: DNA-binding protein RFX7 [Ictidomys tridecemlineatus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003640104.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Canis lupus familiaris]
+ ref|XP_005638499.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Canis lupus familiaris]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004010635.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ovis 
+aries]
+Length=1454
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005638500.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Canis lupus familiaris]
+Length=1355
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  77  KAFVHMPTLPNLDFHKT  93
+
+
+>ref|XP_003987162.1| PREDICTED: DNA-binding protein RFX7 [Felis catus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005905686.1| PREDICTED: DNA-binding protein RFX7 [Bos mutus]
+Length=1461
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005511214.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Columba 
+livia]
+Length=1350
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_073752.5| DNA-binding protein RFX7 [Homo sapiens]
+ ref|XP_005254660.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Homo sapiens]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_001090581.2| PREDICTED: DNA-binding protein RFX7 isoform 2 [Macaca mulatta]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005685787.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Capra 
+hircus]
+Length=1362
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>sp|Q2KHR2.1|RFX7_HUMAN RecName: Full=DNA-binding protein RFX7; AltName: Full=Regulatory 
+factor X 7; AltName: Full=Regulatory factor X domain-containing 
+protein 2
+ gb|AAI12937.1| Regulatory factor X, 7 [Homo sapiens]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005559684.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Macaca fascicularis]
+ ref|XP_005559685.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Macaca fascicularis]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002922988.1| PREDICTED: DNA-binding protein RFX7-like [Ailuropoda melanoleuca]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_429081.4| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Gallus 
+gallus]
+Length=1430
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  143  KAFVHMPTLPNLDFHKT  159
+
+
+>ref|XP_004779263.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004779264.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004779265.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+ ref|XP_004795932.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Mustela putorius 
+furo]
+ ref|XP_004795933.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Mustela putorius 
+furo]
+ ref|XP_004795934.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Mustela putorius 
+furo]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_510432.3| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pan troglodytes]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002825529.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Pongo abelii]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003827922.1| PREDICTED: DNA-binding protein RFX7 [Pan paniscus]
+Length=1460
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004779267.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004779268.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+ ref|XP_004795936.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Mustela putorius 
+furo]
+ ref|XP_004795937.1| PREDICTED: DNA-binding protein RFX7 isoform X6 [Mustela putorius 
+furo]
+Length=1306
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>gb|EAW77499.1| regulatory factor X domain containing 2, isoform CRA_b [Homo 
+sapiens]
+Length=1320
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  42  KAFVHMPTLPNLDFHKT  58
+
+
+>ref|XP_005376654.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Chinchilla lanigera]
+Length=1339
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  65  KAFVHMPTLPNLDFHKT  81
+
+
+>gb|EHH61834.1| hypothetical protein EGM_19959 [Macaca fascicularis]
+Length=1364
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>gb|EHH27343.1| hypothetical protein EGK_17520 [Macaca mulatta]
+Length=1364
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>gb|EFB28936.1| hypothetical protein PANDA_012053 [Ailuropoda melanoleuca]
+Length=1365
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  87   KAFVHMPTLPNLDFHKT  103
+
+
+>ref|XP_004779266.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+ ref|XP_004795935.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Mustela putorius 
+furo]
+Length=1413
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  136  KAFVHMPTLPNLDFHKT  152
+
+
+>ref|XP_004327067.1| PREDICTED: DNA-binding protein RFX7-like [Tursiops truncatus]
+Length=1313
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_006211018.1| PREDICTED: DNA-binding protein RFX7 [Vicugna pacos]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004415964.1| PREDICTED: DNA-binding protein RFX7 [Odobenus rosmarus divergens]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004578120.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Ochotona 
+princeps]
+Length=1464
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  186  KAFVHMPTLPNLDFHKT  202
+
+
+>ref|XP_005232362.1| PREDICTED: DNA-binding protein RFX7 [Falco peregrinus]
+Length=1376
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_001120962.1| regulatory factor X domain containing 2 [Rattus norvegicus]
+ ref|XP_006243388.1| PREDICTED: regulatory factor X domain containing 2 isoform X1 
+[Rattus norvegicus]
+ ref|XP_006243389.1| PREDICTED: regulatory factor X domain containing 2 isoform X2 
+[Rattus norvegicus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>dbj|BAC87248.1| unnamed protein product [Homo sapiens]
+Length=1281
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_001500788.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Equus caballus]
+ ref|XP_005603086.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Equus caballus]
+ ref|XP_005603087.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Equus caballus]
+ ref|XP_005603088.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Equus caballus]
+Length=1459
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_002717768.1| PREDICTED: regulatory factor X domain containing 2 [Oryctolagus 
+cuniculus]
+Length=1461
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005521529.1| PREDICTED: DNA-binding protein RFX7 [Pseudopodoces humilis]
+Length=1468
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  178  KAFVHMPTLPNLDFHKT  194
+
+
+>ref|XP_003267010.1| PREDICTED: DNA-binding protein RFX7 [Nomascus leucogenys]
+Length=1363
+
+ Score = 40.4 bits (93),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELK05389.1| DNA-binding protein RFX7 [Pteropus alecto]
+Length=1463
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  183  KAFVHMPTLPNLDFHKT  199
+
+
+>ref|XP_001090465.1| PREDICTED: DNA-binding protein RFX7 isoform 1 [Macaca mulatta]
+Length=1280
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005254661.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Homo sapiens]
+Length=1281
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003778505.1| PREDICTED: DNA-binding protein RFX7 isoform 2 [Pongo abelii]
+Length=1282
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|NP_001028708.1| regulatory factor X domain containing 2 [Mus musculus]
+ gb|AAI56262.1| Regulatory factor X, 7 [synthetic construct]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003784422.1| PREDICTED: DNA-binding protein RFX7 [Otolemur garnettii]
+Length=1460
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|NP_001179749.1| DNA-binding protein RFX7 [Bos taurus]
+ ref|XP_005211825.1| PREDICTED: DNA-binding protein RFX7 isoform X1 [Bos taurus]
+ ref|XP_005211826.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Bos taurus]
+ tpg|DAA25295.1| TPA: regulatory factor X, 7 [Bos taurus]
+Length=1461
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>gb|AAI43439.1| RFX7 protein [Homo sapiens]
+Length=1292
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  101  KAFVHMPTLPNLDFHKT  117
+
+
+>ref|XP_005073802.1| PREDICTED: DNA-binding protein RFX7 [Mesocricetus auratus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005376655.1| PREDICTED: DNA-binding protein RFX7 isoform X2 [Chinchilla lanigera]
+ ref|XP_005376656.1| PREDICTED: DNA-binding protein RFX7 isoform X3 [Chinchilla lanigera]
+ ref|XP_005376657.1| PREDICTED: DNA-binding protein RFX7 isoform X4 [Chinchilla lanigera]
+Length=1303
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  29  KAFVHMPTLPNLDFHKT  45
+
+
+>ref|XP_005376658.1| PREDICTED: DNA-binding protein RFX7 isoform X5 [Chinchilla lanigera]
+Length=1359
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004835400.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1361
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003471844.2| PREDICTED: DNA-binding protein RFX7 [Cavia porcellus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004639042.1| PREDICTED: DNA-binding protein RFX7-like [Octodon degus]
+Length=1362
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_006085978.1| PREDICTED: DNA-binding protein RFX7 [Myotis lucifugus]
+Length=1363
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_004687822.1| PREDICTED: DNA-binding protein RFX7 [Condylura cristata]
+Length=1458
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004421667.1| PREDICTED: DNA-binding protein RFX7 [Ceratotherium simum simum]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003495077.1| PREDICTED: DNA-binding protein RFX7-like [Cricetulus griseus]
+ gb|EGV99885.1| DNA-binding protein RFX7 [Cricetulus griseus]
+Length=1459
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003935652.1| PREDICTED: DNA-binding protein RFX7 [Saimiri boliviensis boliviensis]
+Length=1460
+
+ Score = 40.0 bits (92),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_005011975.1| PREDICTED: DNA-binding protein RFX7 [Anas platyrhynchos]
+Length=1369
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_002807241.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Callithrix jacchus]
+Length=1444
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004885681.1| PREDICTED: DNA-binding protein RFX7-like [Heterocephalus glaber]
+Length=1348
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005419724.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Geospiza 
+fortis]
+Length=1369
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|EOB06933.1| Regulatory factor X domain-containing protein 2, partial [Anas 
+platyrhynchos]
+Length=1374
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  90   KAFVHMPTLPNLDFHKT  106
+
+
+>gb|ERE76619.1| DNA-binding protein RFX7-like protein [Cricetulus griseus]
+Length=1488
+
+ Score = 40.0 bits (92),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  211  KAFVHMPTLPNLDFHKT  227
+
+
+>ref|XP_006163343.1| PREDICTED: DNA-binding protein RFX7-like [Tupaia chinensis]
+Length=1365
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005145963.1| PREDICTED: DNA-binding protein RFX7 [Melopsittacus undulatus]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005347702.1| PREDICTED: DNA-binding protein RFX7 [Microtus ochrogaster]
+Length=1458
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  182  KAFVHMPTLPNLDFHKT  198
+
+
+>ref|XP_004176939.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Taeniopygia 
+guttata]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003480404.1| PREDICTED: DNA-binding protein RFX7 [Sus scrofa]
+Length=1430
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  151  KAFVHMPTLPNLDFHKT  167
+
+
+>ref|XP_005487898.1| PREDICTED: DNA-binding protein RFX7 [Zonotrichia albicollis]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_005052043.1| PREDICTED: DNA-binding protein RFX7 [Ficedula albicollis]
+Length=1375
+
+ Score = 40.0 bits (92),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>gb|ELV13172.1| DNA-binding protein RFX7 [Tupaia chinensis]
+Length=1300
+
+ Score = 40.0 bits (92),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1   KAFVHMPTLPNLDFHKT  17
+           KAFVHMPTLPNLDFHKT
+Sbjct  34  KAFVHMPTLPNLDFHKT  50
+
+
+>ref|XP_004601717.1| PREDICTED: DNA-binding protein RFX7 [Sorex araneus]
+Length=1368
+
+ Score = 39.6 bits (91),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHKT
+Sbjct  85   KAFVHMPTLPNLDFHKT  101
+
+
+>ref|XP_003755779.1| PREDICTED: DNA-binding protein RFX7 [Sarcophilus harrisii]
+Length=1421
+
+ Score = 39.2 bits (90),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  142  KAFVHMPTLPNLDFHKS  158
+
+
+>ref|XP_004374652.1| PREDICTED: DNA-binding protein RFX7 [Trichechus manatus latirostris]
+Length=1457
+
+ Score = 39.2 bits (90),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  182  KALVHMPTLPNLDFHKT  198
+
+
+>ref|XP_003418435.1| PREDICTED: DNA-binding protein RFX7 [Loxodonta africana]
+Length=1446
+
+ Score = 38.8 bits (89),  Expect = 0.027, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  167  KALVHMPTLPNLDFHKT  183
+
+
+>ref|XP_001514248.1| PREDICTED: DNA-binding protein RFX7 [Ornithorhynchus anatinus]
+Length=1500
+
+ Score = 38.8 bits (89),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 16/16 (100%), Positives = 16/16 (100%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFVHMPTLPNLDFHK
+Sbjct  211  KAFVHMPTLPNLDFHK  226
+
+
+>ref|XP_001368345.1| PREDICTED: DNA-binding protein RFX7 [Monodelphis domestica]
+Length=1455
+
+ Score = 38.8 bits (89),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNLDFHK+
+Sbjct  182  KAFVHMPTLPNLDFHKS  198
+
+
+>ref|XP_004709500.1| PREDICTED: DNA-binding protein RFX7 [Echinops telfairi]
+Length=1461
+
+ Score = 38.5 bits (88),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  183  KALVHMPTLPNLDFHKT  199
+
+
+>ref|XP_004468383.1| PREDICTED: DNA-binding protein RFX7 [Dasypus novemcinctus]
+Length=1459
+
+ Score = 38.5 bits (88),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KA VHMPTLPNLDFHKT
+Sbjct  181  KALVHMPTLPNLDFHKT  197
+
+
+>ref|XP_006112552.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7 [Pelodiscus 
+sinensis]
+Length=1462
+
+ Score = 38.1 bits (87),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  178  KAFVHMPTLPNLGFHKT  194
+
+
+>ref|XP_005294290.1| PREDICTED: DNA-binding protein RFX7 [Chrysemys picta bellii]
+Length=1470
+
+ Score = 38.1 bits (87),  Expect = 0.061, Method: Composition-based stats.
+ Identities = 16/17 (94%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMPTLPNL FHKT
+Sbjct  180  KAFVHMPTLPNLGFHKT  196
+
+
+>ref|XP_005996233.1| PREDICTED: DNA-binding protein RFX7 [Latimeria chalumnae]
+Length=1469
+
+ Score = 37.7 bits (86),  Expect = 0.088, Method: Composition-based stats.
+ Identities = 15/17 (88%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVH+P+LPNLDFHKT
+Sbjct  174  KAFVHVPSLPNLDFHKT  190
+
+
+>ref|XP_003201650.2| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Danio rerio]
+Length=1551
+
+ Score = 36.9 bits (84),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 16/17 (94%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD HK+
+Sbjct  176  KAFVHMPSLPNLDLHKS  192
+
+
+>ref|XP_003230146.1| PREDICTED: LOW QUALITY PROTEIN: DNA-binding protein RFX7-like 
+[Anolis carolinensis]
+Length=1558
+
+ Score = 36.5 bits (83),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 15/16 (94%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  1    KAFVHMPTLPNLDFHK  16
+            KAFV MPTLPNLDFHK
+Sbjct  210  KAFVQMPTLPNLDFHK  225
+
+
+>ref|NP_001090849.1| regulatory factor X, 7 [Xenopus (Silurana) tropicalis]
+ gb|AAI33721.1| rfx7 protein [Xenopus (Silurana) tropicalis]
+Length=1439
+
+ Score = 36.1 bits (82),  Expect = 0.28, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLDF+K+
+Sbjct  182  KAFVHMPSLPNLDFNKS  198
+
+
+>ref|XP_004662549.1| PREDICTED: DNA-binding protein RFX7 [Jaculus jaculus]
+Length=1451
+
+ Score = 33.8 bits (76),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 14/17 (82%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFV MPTLP+LD HKT
+Sbjct  181  KAFVQMPTLPSLDLHKT  197
+
+
+>ref|XP_005728052.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Pundamilia 
+nyererei]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005945632.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Haplochromis 
+burtoni]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_004567711.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Maylandia 
+zebra]
+Length=1498
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005728054.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005728053.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Pundamilia 
+nyererei]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945634.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005945633.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Haplochromis 
+burtoni]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_004567712.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Maylandia 
+zebra]
+Length=1485
+
+ Score = 33.4 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005728055.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Pundamilia 
+nyererei]
+Length=1398
+
+ Score = 33.4 bits (75),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005450908.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1501
+
+ Score = 33.4 bits (75),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  185  KAFVHMPSLPNLDLQKS  201
+
+
+>ref|XP_005945635.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Haplochromis 
+burtoni]
+Length=1398
+
+ Score = 33.1 bits (74),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  85   KAFVHMPSLPNLDLQKS  101
+
+
+>ref|XP_005450909.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1488
+
+ Score = 33.1 bits (74),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005809961.1| PREDICTED: DNA-binding protein RFX7-like [Xiphophorus maculatus]
+Length=1420
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450910.1| PREDICTED: DNA-binding protein RFX7-like isoform X4 [Oreochromis 
+niloticus]
+Length=1484
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_004070001.1| PREDICTED: DNA-binding protein RFX7-like [Oryzias latipes]
+Length=1421
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>ref|XP_005450907.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1517
+
+ Score = 33.1 bits (74),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  201  KAFVHMPSLPNLDLQKS  217
+
+
+>ref|XP_003967785.1| PREDICTED: DNA-binding protein RFX7-like [Takifugu rubripes]
+Length=1426
+
+ Score = 33.1 bits (74),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  172  KAFVHMPSLPNLDLQKS  188
+
+
+>emb|CAG05560.1| unnamed protein product [Tetraodon nigroviridis]
+Length=316
+
+ Score = 32.7 bits (73),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 13/17 (76%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            KAFVHMP+LPNLD  K+
+Sbjct  129  KAFVHMPSLPNLDLQKS  145
+
+
+>ref|XP_688865.4| PREDICTED: DNA-binding protein RFX7-like [Danio rerio]
+Length=1509
+
+ Score = 32.7 bits (73),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            K FV MP+LPNLD HK+
+Sbjct  168  KTFVQMPSLPNLDLHKS  184
+
+
+>ref|XP_003442396.1| PREDICTED: DNA-binding protein RFX7-like isoform X1 [Oreochromis 
+niloticus]
+Length=1407
+
+ Score = 32.7 bits (73),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467130.1| PREDICTED: DNA-binding protein RFX7-like isoform X2 [Oreochromis 
+niloticus]
+Length=1409
+
+ Score = 32.3 bits (72),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  173  RPFVHMPSLPTLDLHKT  189
+
+
+>ref|XP_005467131.1| PREDICTED: DNA-binding protein RFX7-like isoform X3 [Oreochromis 
+niloticus]
+Length=1355
+
+ Score = 32.3 bits (72),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HKT
+Sbjct  119  RPFVHMPSLPTLDLHKT  135
+
+
+>ref|XP_005814956.1| PREDICTED: DNA-binding protein RFX7-like [Xiphophorus maculatus]
+Length=1367
+
+ Score = 31.5 bits (70),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 11/17 (65%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  1    KAFVHMPTLPNLDFHKT  17
+            + FVHMP+LP LD HK+
+Sbjct  195  RPFVHMPSLPTLDLHKS  211
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.139    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 210032351655
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

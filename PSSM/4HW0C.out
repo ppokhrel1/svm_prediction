@@ -1,0 +1,1899 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4HW0C
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_344147.1|  hypothetical protein SSO2827 [Sulfolobus solfat...   211    7e-68
+pdb|4HW0|A  Chain A, Crystal Structure Of Sso10a-2, A Dna-binding...   202    5e-65
+ref|WP_009990894.1|  hypothetical protein [Sulfolobus solfataricus]    190    2e-60
+ref|YP_002830492.1|  hypothetical protein M1425_2470 [Sulfolobus ...   169    1e-51
+ref|YP_005646966.1|  hypothetical protein [Sulfolobus islandicus ...   169    1e-51
+ref|YP_002838773.1|  hypothetical protein YG5714_2621 [Sulfolobus...   152    2e-45
+ref|YP_002833231.1|  hypothetical protein LS215_2637 [Sulfolobus ...   147    2e-43
+ref|YP_002915730.1|  hypothetical protein M164_2467 [Sulfolobus i...   147    3e-43
+ref|NP_376669.1|  hypothetical protein ST0766 [Sulfolobus tokodai...  57.4    1e-08
+ref|WP_009069331.1|  putative transcriptional regulator [Metallos...  56.6    2e-08
+ref|YP_003400518.1|  transcriptional regulator [Archaeoglobus pro...  55.8    4e-08
+ref|NP_070907.1|  hypothetical protein AF2083 [Archaeoglobus fulg...  53.5    3e-07
+ref|WP_020198978.1|  hypothetical protein [Sulfolobales archaeon ...  53.5    4e-07
+ref|NP_377522.1|  hypothetical protein ST1558 [Sulfolobus tokodai...  53.1    5e-07
+ref|NP_070491.1|  hypothetical protein AF1663 [Archaeoglobus fulg...  52.4    8e-07
+ref|YP_002831696.1|  hypothetical protein LS215_1017 [Sulfolobus ...  50.4    3e-06
+ref|YP_002828768.1|  hypothetical protein M1425_0646 [Sulfolobus ...  50.4    4e-06
+ref|YP_005642176.1|  hypothetical protein [Sulfolobus solfataricu...  50.1    5e-06
+ref|WP_009073982.1|  putative transcriptional regulator [Metallos...  50.1    5e-06
+ref|NP_343822.1|  hypothetical protein SSO10449 [Sulfolobus solfa...  49.7    6e-06
+ref|YP_005645056.1|  hypothetical protein [Sulfolobus islandicus ...  49.7    7e-06
+emb|CAH69222.2|  DNA-binding protein [Sulfolobus solfataricus]        48.5    2e-05
+ref|YP_002841234.1|  hypothetical protein YN1551_2334 [Sulfolobus...  48.5    2e-05
+pdb|1R7J|A  Chain A, Crystal Structure Of The Dna-Binding Protein...  48.5    2e-05
+ref|YP_003758729.1|  hypothetical protein Dehly_1107 [Dehalogenim...  47.8    3e-05
+ref|YP_007907911.1|  putative transcriptional regulator [Archaeog...  47.4    4e-05
+ref|NP_377528.1|  hypothetical protein ST1562 [Sulfolobus tokodai...  47.0    6e-05
+dbj|BAK54620.1|  DNA-binding protein [Sulfolobus tokodaii str. 7]     46.6    8e-05
+emb|CAI64153.1|  conserved hypothetical protein [uncultured archa...  46.6    9e-05
+ref|NP_393865.1|  hypothetical protein Ta0385 [Thermoplasma acido...  45.4    2e-04
+ref|YP_003435453.1|  hypothetical protein Ferp_1016 [Ferroglobus ...  45.4    2e-04
+emb|CAH65785.1|  putative transcriptional regulator [Sulfolobus n...  44.7    4e-04
+ref|YP_006861941.1|  hypothetical protein Ngar_c13460 [Candidatus...  43.9    7e-04
+ref|YP_007174511.1|  transcriptional regulator [Caldisphaera lagu...  43.5    0.001
+ref|YP_843330.1|  hypothetical protein Mthe_0902 [Methanosaeta th...  42.7    0.001
+ref|YP_004615388.1|  hypothetical protein [Methanosalsum zhilinae...  42.7    0.001
+ref|YP_004341890.1|  transcriptional regulator protein-like prote...  41.6    0.004
+ref|YP_004384625.1|  hypothetical protein MCON_2334 [Methanosaeta...  41.6    0.005
+ref|WP_008440547.1|  putative transcriptional regulator [Thaumarc...  41.2    0.005
+ref|YP_256392.1|  hypothetical protein Saci_1793 [Sulfolobus acid...  40.8    0.006
+ref|YP_004383482.1|  hypothetical protein MCON_0891 [Methanosaeta...  40.8    0.007
+ref|YP_007434853.1|  hypothetical protein SacN8_08725 [Sulfolobus...  40.8    0.008
+ref|WP_008439856.1|  putative transcriptional regulator [Thaumarc...  40.8    0.008
+ref|YP_003458946.1|  hypothetical protein MFS40622_1538 [Methanoc...  40.8    0.008
+emb|CAI64158.1|  conserved hypothetical protein [uncultured archa...  40.4    0.011
+ref|YP_003859221.1|  hypothetical protein [Ignisphaera aggregans ...  42.0    0.012
+ref|YP_005645065.1|  hypothetical protein [Sulfolobus islandicus ...  40.4    0.013
+ref|YP_002828776.1|  hypothetical protein M1425_0654 [Sulfolobus ...  39.7    0.021
+ref|YP_002913965.1|  hypothetical protein M164_0679 [Sulfolobus i...  39.7    0.021
+ref|NP_376548.1|  hypothetical protein ST0658 [Sulfolobus tokodai...  39.3    0.029
+ref|NP_247260.1|  hypothetical protein MJ_0287 [Methanocaldococcu...  39.3    0.029
+ref|YP_002831688.1|  hypothetical protein LS215_1008 [Sulfolobus ...  39.3    0.032
+ref|YP_002841242.1|  hypothetical protein YN1551_2345 [Sulfolobus...  38.9    0.038
+ref|YP_003482516.1|  hypothetical protein Aboo_0142 [Aciduliprofu...  38.9    0.039
+ref|YP_308299.1|  hypothetical protein cbdb_A1330 [Dehalococcoide...  38.5    0.056
+ref|YP_182087.1|  hypothetical protein DET1376 [Dehalococcoides e...  38.1    0.069
+emb|CAI64159.1|  conserved hypothetical protein [uncultured archa...  38.5    0.070
+emb|CAI64155.1|  conserved hypothetical protein [uncultured archa...  38.1    0.070
+ref|YP_006861829.1|  hypothetical protein Ngar_c12320 [Candidatus...  37.7    0.094
+ref|WP_004557435.1|  putative transcriptional regulator [unclassi...  37.4    0.11 
+ref|YP_004385094.1|  DNA-binding protein [Methanosaeta concilii G...  37.0    0.14 
+ref|YP_006861417.1|  hypothetical protein Ngar_c08180 [Candidatus...  37.0    0.15 
+ref|YP_004385258.1|  hypothetical protein MCON_3144 [Methanosaeta...  37.0    0.16 
+ref|YP_006862900.1|  hypothetical protein Ngar_c23170 [Candidatus...  37.0    0.20 
+ref|YP_003542671.1|  hypothetical protein Mmah_1530 [Methanohalop...  36.6    0.21 
+ref|YP_006861407.1|  hypothetical protein Ngar_c08080 [Candidatus...  36.6    0.26 
+ref|YP_007433975.1|  hypothetical protein SacN8_04280 [Sulfolobus...  36.6    0.29 
+ref|YP_255540.1|  hypothetical protein Saci_0882 [Sulfolobus acid...  36.6    0.30 
+ref|YP_007246950.1|  putative transcriptional regulator [Acidulip...  36.2    0.31 
+ref|YP_001191351.1|  hypothetical protein Msed_1267 [Metallosphae...  36.6    0.32 
+ref|YP_842626.1|  hypothetical protein Mthe_0187 [Methanosaeta th...  36.2    0.37 
+ref|WP_018033339.1|  hypothetical protein [crenarchaeote SCGC AAA...  35.8    0.47 
+ref|YP_006863187.1|  hypothetical protein Ngar_c26080 [Candidatus...  35.8    0.53 
+ref|YP_003727205.1|  hypothetical protein Metev_1562 [Methanohalo...  35.4    0.55 
+ref|YP_004781149.1|  transcriptional regulator PadR family protei...  35.4    0.65 
+ref|NP_632276.1|  hypothetical protein MM_0252 [Methanosarcina ma...  35.0    0.66 
+ref|NP_111707.1|  transcription regulator [Thermoplasma volcanium...  35.4    0.83 
+ref|WP_020671788.1|  hypothetical protein [Amycolatopsis nigrescens]  37.0    0.83 
+ref|WP_021790250.1|  hypothetical protein [environmental samples]...  36.6    0.83 
+ref|YP_006862901.1|  hypothetical protein Ngar_c23180 [Candidatus...  35.4    0.94 
+ref|YP_004457236.1|  PadR-like family transcriptional regulator [...  36.2    1.0  
+ref|YP_305587.1|  conserved hypothetical protein [Methanosarcina ...  35.0    1.2  
+ref|NP_616737.1|  hypothetical protein MA1811 [Methanosarcina ace...  34.7    1.6  
+ref|XP_803357.1|  hypothetical protein [Trypanosoma cruzi strain ...  35.4    2.8  
+ref|YP_004462438.1|  hypothetical protein Mahau_0400 [Mahella aus...  35.0    3.3  
+gb|ESS61458.1|  hypothetical protein TCDM_10946 [Trypanosoma cruz...  35.4    3.3  
+gb|EKG03819.1|  hypothetical protein TCSYLVIO_005123 [Trypanosoma...  35.4    3.4  
+ref|YP_023097.1|  hypothetical protein PTO0319 [Picrophilus torri...  33.9    3.4  
+ref|YP_565352.1|  hypothetical protein Mbur_0631 [Methanococcoide...  33.5    3.6  
+ref|YP_003727211.1|  hypothetical protein Metev_1568 [Methanohalo...  33.5    3.7  
+ref|XP_809088.1|  hypothetical protein [Trypanosoma cruzi strain ...  35.0    4.0  
+ref|YP_003541931.1|  transcriptional regulator protein [Methanoha...  33.1    4.4  
+ref|XP_003602920.1|  RING zinc finger protein-like protein [Medic...  34.7    4.6  
+ref|XP_001417513.1|  predicted protein [Ostreococcus lucimarinus ...  34.7    4.7  
+gb|AGV40770.1|  M-protein [Streptococcus equi subsp. zooepidemicu...  34.3    6.2  
+ref|YP_565076.1|  hypothetical protein Mbur_0330 [Methanococcoide...  32.7    6.4  
+ref|YP_003247002.1|  hypothetical protein Metvu_0661 [Methanocald...  33.1    6.5  
+ref|WP_008439755.1|  putative transcriptional regulator [Thaumarc...  32.7    6.8  
+ref|YP_002467433.1|  hypothetical protein Mpal_2431 [Methanosphae...  32.7    7.1  
+ref|XP_005492480.1|  PREDICTED: anoctamin-2 [Zonotrichia albicollis]  34.3    7.4  
+
+
+>ref|NP_344147.1| hypothetical protein SSO2827 [Sulfolobus solfataricus P2]
+ ref|YP_005642518.1| transcriptional regulator protein-like protein [Sulfolobus solfataricus 
+98/2]
+ ref|WP_010923985.1| transcriptional regulator [Sulfolobus solfataricus]
+ gb|AAK42937.1| Conserved hypothetical protein [Sulfolobus solfataricus P2]
+ gb|ACX90917.1| transcriptional regulator protein-like protein [Sulfolobus solfataricus 
+98/2]
+Length=130
+
+ Score =  211 bits (536),  Expect = 7e-68, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+            MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN
+Sbjct  27   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  86
+
+Query  61   DRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+            DRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE
+Sbjct  87   DRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  130
+
+
+>pdb|4HW0|A Chain A, Crystal Structure Of Sso10a-2, A Dna-binding Protein 
+From Sulfolobus Solfataricus
+ pdb|4HW0|B Chain B, Crystal Structure Of Sso10a-2, A Dna-binding Protein 
+From Sulfolobus Solfataricus
+ pdb|4HW0|C Chain C, Crystal Structure Of Sso10a-2, A Dna-binding Protein 
+From Sulfolobus Solfataricus
+Length=104
+
+ Score =  202 bits (515),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 101/103 (98%), Positives = 101/103 (98%), Gaps = 0/103 (0%)
+
+Query  2    QLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+            QLERRKRGT EI FDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND
+Sbjct  2    QLERRKRGTXEIXFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+
+Query  62   RKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+            RKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE
+Sbjct  62   RKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+
+
+>ref|WP_009990894.1| hypothetical protein [Sulfolobus solfataricus]
+Length=94
+
+ Score =  190 bits (483),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  11   MEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEK  70
+            MEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEK
+Sbjct  1    MEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEK  60
+
+Query  71   GKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+            GKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE
+Sbjct  61   GKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  94
+
+
+>ref|YP_002830492.1| hypothetical protein M1425_2470 [Sulfolobus islandicus M.14.25]
+ ref|YP_002844432.1| hypothetical protein M1627_2538 [Sulfolobus islandicus M.16.27]
+ ref|WP_012712401.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP39194.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP56387.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+Length=104
+
+ Score =  169 bits (427),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 82/102 (80%), Positives = 93/102 (91%), Gaps = 0/102 (0%)
+
+Query  1    MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+            M++ERRKRGTMEIM DILR+C+P+CG+TRVIYGAGINY VAQKYLDQL+KVGAL+IKTEN
+Sbjct  1    MRVERRKRGTMEIMLDILRSCDPECGVTRVIYGAGINYSVAQKYLDQLIKVGALSIKTEN  60
+
+Query  61   DRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+             +KIY ITEKGKLLR HIEEFIKIRENL  A+EKV ELL+T 
+Sbjct  61   GKKIYGITEKGKLLRMHIEEFIKIRENLNLAREKVIELLKTS  102
+
+
+>ref|YP_005646966.1| hypothetical protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649730.1| hypothetical protein [Sulfolobus islandicus REY15A]
+ ref|YP_007866762.1| putative transcriptional regulator [Sulfolobus islandicus LAL14/1]
+ ref|WP_014513167.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ADX86516.1| conserved hypothetical protein [Sulfolobus islandicus REY15A]
+ gb|ADX83752.1| conserved hypothetical protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ63755.1| putative transcriptional regulator [Sulfolobus islandicus LAL14/1]
+Length=104
+
+ Score =  169 bits (427),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 82/102 (80%), Positives = 94/102 (92%), Gaps = 0/102 (0%)
+
+Query  1    MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+            M++ERRKRGTMEIM DILR+C+P+CG+TRVIYGAGINY VAQKYLDQL+KVGAL+IKTEN
+Sbjct  1    MRVERRKRGTMEIMLDILRSCDPECGVTRVIYGAGINYSVAQKYLDQLIKVGALSIKTEN  60
+
+Query  61   DRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+             +KIY ITEKGKLLR HIEEFIKIRENL  A+EKV ELL+T+
+Sbjct  61   GKKIYGITEKGKLLRMHIEEFIKIRENLNLAREKVIELLKTN  102
+
+
+>ref|YP_002838773.1| hypothetical protein YG5714_2621 [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002839391.1| hypothetical protein YN1551_0290 [Sulfolobus islandicus Y.N.15.51]
+ ref|WP_012716709.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP46851.1| conserved hypothetical protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP47469.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+Length=94
+
+ Score =  152 bits (384),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 74/92 (80%), Positives = 84/92 (91%), Gaps = 0/92 (0%)
+
+Query  11   MEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEK  70
+            MEIM DILR+C+P+CG+TRVIYGAGINY VAQKYLDQL+KVGAL+IKTEN +KIY ITEK
+Sbjct  1    MEIMLDILRSCDPECGVTRVIYGAGINYSVAQKYLDQLIKVGALSIKTENGKKIYGITEK  60
+
+Query  71   GKLLRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+            GKLLR HIEEFIKIRENL  A+EKV ELL+T+
+Sbjct  61   GKLLRMHIEEFIKIRENLNLAREKVIELLKTN  92
+
+
+>ref|YP_002833231.1| hypothetical protein LS215_2637 [Sulfolobus islandicus L.S.2.15]
+ ref|YP_003420756.1| hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012714463.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP36586.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+ gb|ADB88386.1| conserved hypothetical protein [Sulfolobus islandicus L.D.8.5]
+Length=91
+
+ Score =  147 bits (370),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 71/89 (80%), Positives = 81/89 (91%), Gaps = 0/89 (0%)
+
+Query  14   MFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKL  73
+            M DILR+C+P+CG+TRVIYGAGINY VAQKYLDQL+KVGAL+IKTEN +KIY ITEKGKL
+Sbjct  1    MLDILRSCDPECGVTRVIYGAGINYSVAQKYLDQLIKVGALSIKTENGKKIYGITEKGKL  60
+
+Query  74   LRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+            LR HIEEFIKIRENL  A+EKV ELL+T+
+Sbjct  61   LRMHIEEFIKIRENLNLAREKVIELLKTN  89
+
+
+>ref|YP_002915730.1| hypothetical protein M164_2467 [Sulfolobus islandicus M.16.4]
+ ref|WP_012736219.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACR43062.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+Length=91
+
+ Score =  147 bits (370),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 71/89 (80%), Positives = 80/89 (90%), Gaps = 0/89 (0%)
+
+Query  14   MFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKL  73
+            M DILR+C+P+CG+TRVIYGAGINY VAQKYLDQL+KVGAL+IKTEN +KIY ITEKGKL
+Sbjct  1    MLDILRSCDPECGVTRVIYGAGINYSVAQKYLDQLIKVGALSIKTENGKKIYGITEKGKL  60
+
+Query  74   LRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+            LR HIEEFIKIRENL  A+EKV ELL+T 
+Sbjct  61   LRMHIEEFIKIRENLNLAREKVIELLKTS  89
+
+
+>ref|NP_376669.1| hypothetical protein ST0766 [Sulfolobus tokodaii str. 7]
+ ref|WP_010978761.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB65778.1| DNA-binding protein [Sulfolobus tokodaii str. 7]
+Length=109
+
+ Score = 57.4 bits (137),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 35/94 (37%), Positives = 53/94 (56%), Gaps = 0/94 (0%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           R KR ++EI++ IL  C      TR++Y AG+N +   KYL+ L K G +       R  
+Sbjct  4   RLKRTSLEIIYSILGACNNNSTKTRIMYNAGVNLLELTKYLELLEKEGYIKKIQSEKRVT  63
+
+Query  65  YEITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+           Y +TEKG+     +E++IKI + L  AK+ V +L
+Sbjct  64  YSLTEKGRDALERLEKYIKILKELEEAKKDVIDL  97
+
+
+>ref|WP_009069331.1| putative transcriptional regulator [Metallosphaera yellowstonensis]
+ gb|EHP71237.1| putative transcriptional regulator [Metallosphaera yellowstonensis 
+MK1]
+Length=94
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 31/96 (32%), Positives = 58/96 (60%), Gaps = 2/96 (2%)
+
+Query  3   LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+           +ERRKR   +I+ DIL  C   C  T +IY A +++ +AQKYL+ L+  G L  ++ +  
+Sbjct  1   MERRKRDRYDIILDILETCVRGCKKTELIYRANLSFELAQKYLELLMNSGLLTFESTD--  58
+
+Query  63  KIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+           +IY +T+KG+  R  + E+  +++  +  + +++ L
+Sbjct  59  RIYSLTKKGEETRKLLLEYRHVKKIYHDIRSRLNML  94
+
+
+>ref|YP_003400518.1| transcriptional regulator [Archaeoglobus profundus DSM 5631]
+ ref|WP_012940181.1| transcriptional regulator [Archaeoglobus profundus]
+ gb|ADB57845.1| transcriptional regulator protein-like protein [Archaeoglobus 
+profundus DSM 5631]
+Length=83
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 41/70 (59%), Gaps = 0/70 (0%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           R KR   EI+ +IL        +T+++Y A IN+ +AQ YL  L+K G + I  +N +K+
+Sbjct  2   RDKRSRHEIIVEILEVAVGGANVTKIVYSANINFKMAQDYLSYLIKYGFIEILAKNGKKV  61
+
+Query  65  YEITEKGKLL  74
+           Y  T+KGK  
+Sbjct  62  YRTTDKGKTF  71
+
+
+>ref|NP_070907.1| hypothetical protein AF2083 [Archaeoglobus fulgidus DSM 4304]
+ ref|WP_010879575.1| transcriptional regulator [Archaeoglobus fulgidus]
+ gb|AAB89173.1| conserved hypothetical protein [Archaeoglobus fulgidus DSM 4304]
+Length=83
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 41/66 (62%), Gaps = 0/66 (0%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           KR   EI   IL+       +T+++YGA IN+ +AQ YL++LV+   L + ++N +K Y 
+Sbjct  4   KRSRFEIFVAILKITNSGANMTKIVYGANINFKMAQSYLEELVENDFLVLDSKNGKKTYS  63
+
+Query  67  ITEKGK  72
+            T+KG+
+Sbjct  64  TTDKGR  69
+
+
+>ref|WP_020198978.1| hypothetical protein [Sulfolobales archaeon Acd1]
+Length=112
+
+ Score = 53.5 bits (127),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 33/98 (34%), Positives = 55/98 (56%), Gaps = 4/98 (4%)
+
+Query  2   QLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+           +L R+KR   EI+ D+L  C+     T V+Y A ++Y +   YL++L K+G +    EN 
+Sbjct  5   KLRRKKRSRYEIIHDVLDQCQTGSKKTWVMYRANLSYDLTTNYLNELEKLGLV----ENK  60
+
+Query  62  RKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELL  99
+             +Y ITEKGK L   ++ + + +  L    +K+ E+L
+Sbjct  61  EGLYYITEKGKQLLELLKAWRQKKAELDDVAKKIKEIL  98
+
+
+>ref|NP_377522.1| hypothetical protein ST1558 [Sulfolobus tokodaii str. 7]
+ ref|WP_010979609.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB66631.1| DNA-binding protein [Sulfolobus tokodaii str. 7]
+Length=120
+
+ Score = 53.1 bits (126),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 37/105 (35%), Positives = 61/105 (58%), Gaps = 14/105 (13%)
+
+Query  1    MQLERRKRGTMEIMFDIL----RNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNI  56
+            +   +RKR   +IMF IL    R   PK   T+++Y A + YVV +KYL  L  +GA+  
+Sbjct  3    ISFNKRKRTEYQIMFQILDALSRGPLPK---TKLMYKADLTYVVTEKYLPYLQNIGAI--  57
+
+Query  57   KTENDRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRT  101
+              + D+++Y IT++G+ +R  +E +I+  E +   K+ + EL RT
+Sbjct  58   --KKDKELYYITQRGQEIRNLLETYIRKAEEI---KKVLEELRRT  97
+
+
+>ref|NP_070491.1| hypothetical protein AF1663 [Archaeoglobus fulgidus DSM 4304]
+ ref|WP_010879159.1| hypothetical protein [Archaeoglobus fulgidus]
+ gb|AAB89587.1| conserved hypothetical protein [Archaeoglobus fulgidus DSM 4304]
+Length=96
+
+ Score = 52.4 bits (124),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 33/90 (37%), Positives = 51/90 (57%), Gaps = 4/90 (4%)
+
+Query  7   KRGTMEIMFDILRNCEPK-CGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           +R  +EIM +IL+ C      IT+++Y   +N  VAQ Y++ L+K G +   T+  R  Y
+Sbjct  5   RRSKIEIMAEILQTCSGNGVNITKIVYRVNLNSKVAQDYINCLLKEGFIEPVTDGKRTKY  64
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKV  95
+             TEKG   R  I++F +I E+L + K  V
+Sbjct  65  RTTEKG---REFIQKFSEIEEDLQALKNAV  91
+
+
+>ref|YP_002831696.1| hypothetical protein LS215_1017 [Sulfolobus islandicus L.S.2.15]
+ ref|WP_012713419.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP35051.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+Length=98
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 33/101 (33%), Positives = 59/101 (58%), Gaps = 4/101 (4%)
+
+Query  3    LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+            +E R+R   EI++ ILR C      TR++Y A +NY V  KY   + K+  +N+   N+ 
+Sbjct  2    IENRRRTKTEIIYSILRGCSEGSKKTRLMYLAKLNYSVFMKY---IYKMKEMNLIELNEG  58
+
+Query  63   KIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDS  103
+            K   +T+KGK +   ++++++I   L   + K+ EL++T+S
+Sbjct  59   KCV-LTDKGKRVLELLDKYMEIYSKLNEVRMKLEELMQTES  98
+
+
+>ref|YP_002828768.1| hypothetical protein M1425_0646 [Sulfolobus islandicus M.14.25]
+ ref|YP_002842660.1| hypothetical protein M1627_0652 [Sulfolobus islandicus M.16.27]
+ ref|YP_002913956.1| hypothetical protein M164_0670 [Sulfolobus islandicus M.16.4]
+ ref|WP_012710744.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP37470.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP54615.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+ gb|ACR41288.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+Length=98
+
+ Score = 50.4 bits (119),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 59/101 (58%), Gaps = 4/101 (4%)
+
+Query  3    LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+            +E R+R   EI++ ILR C      TR++Y A +NY V  KY   + K+  +N+   N+ 
+Sbjct  2    IENRRRTKTEIIYSILRGCSEGSKKTRLMYLAKLNYSVFMKY---IYKMKQMNLIEFNEG  58
+
+Query  63   KIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDS  103
+            K   +T+KGK +   +++++++   L   + K+ EL++T+S
+Sbjct  59   KCV-LTDKGKRVLELLDKYMEMYSELNEVRRKLEELMQTES  98
+
+
+>ref|YP_005642176.1| hypothetical protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009988494.1| hypothetical protein [Sulfolobus solfataricus]
+ gb|ACX90575.1| conserved hypothetical protein [Sulfolobus solfataricus 98/2]
+Length=96
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           +KR  +EI+  IL  C+     TR++YGA ++Y +  +Y+  L+ +  +      + K Y
+Sbjct  3   KKRSKLEIIQAILEACKSGSPKTRIMYGANLSYALTGRYIKMLMDLEIIR----QEGKQY  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSELL  99
+            +T+KG+ L   I +F ++R+N+   KEK++ +L
+Sbjct  59  MLTKKGEELLEDIRKFNEMRKNMDQLKEKINSVL  92
+
+
+>ref|WP_009073982.1| putative transcriptional regulator [Metallosphaera yellowstonensis]
+ gb|EHP68001.1| putative transcriptional regulator [Metallosphaera yellowstonensis 
+MK1]
+Length=108
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 53/99 (54%), Gaps = 4/99 (4%)
+
+Query  6    RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+            +KRG M+I  DILR CE     TR++Y A ++Y + ++Y+ +L   G + +  +  R   
+Sbjct  5    KKRGKMDIYCDILRVCESGSNKTRIMYKANLSYELLKRYMWELESSGLIIVSGKTVR---  61
+
+Query  66   EITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+             +TEKGK +   I     IR+ L   +  +SE +  D E
+Sbjct  62   -LTEKGKRVLLLIARAKSIRKELEEVEHTISEYVGKDVE  99
+
+
+>ref|NP_343822.1| hypothetical protein SSO10449 [Sulfolobus solfataricus P2]
+ ref|YP_002828451.1| hypothetical protein M1425_0263 [Sulfolobus islandicus M.14.25]
+ ref|YP_002831091.1| hypothetical protein LS215_0293 [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002836481.1| hypothetical protein YG5714_0266 [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841695.1| hypothetical protein YN1551_2871 [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842337.1| hypothetical protein M1627_0263 [Sulfolobus islandicus M.16.27]
+ ref|YP_002913583.1| hypothetical protein M164_0281 [Sulfolobus islandicus M.16.4]
+ ref|YP_003418437.1| hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ ref|YP_005644856.1| DNA-binding protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647573.1| DNA-binding protein [Sulfolobus islandicus REY15A]
+ ref|YP_007864732.1| putative transcriptional regulator [Sulfolobus islandicus LAL14/1]
+ ref|WP_010923880.1| hypothetical protein [Sulfolobus]
+ gb|AAK42612.1| Conserved hypothetical protein [Sulfolobus solfataricus P2]
+ gb|ACP34446.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP37153.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP44559.1| conserved hypothetical protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP49773.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54292.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+ gb|ACR40915.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86067.1| conserved hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ gb|ADX84359.1| DNA-binding protein [Sulfolobus islandicus REY15A]
+ gb|ADX81642.1| DNA-binding protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ61734.1| putative transcriptional regulator [Sulfolobus islandicus LAL14/1]
+Length=95
+
+ Score = 49.7 bits (117),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 32/94 (34%), Positives = 54/94 (57%), Gaps = 4/94 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           +KR  +EI+  IL  C+     TR++YGA ++Y +  +Y+  L+ +    IK E   K Y
+Sbjct  3   KKRSKLEIIQAILEACKSGSPKTRIMYGANLSYALTGRYIKMLMDLEI--IKQEG--KQY  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSELL  99
+            +T+KG+ L   I  F  +R+N+   KEK++ +L
+Sbjct  59  MLTKKGEELLEDIRRFNDMRKNMDQLKEKINSVL  92
+
+
+>ref|YP_005645056.1| hypothetical protein [Sulfolobus islandicus HVE10/4]
+ ref|WP_014512046.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ADX81842.1| conserved hypothetical protein [Sulfolobus islandicus HVE10/4]
+Length=98
+
+ Score = 49.7 bits (117),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 59/101 (58%), Gaps = 4/101 (4%)
+
+Query  3    LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+            +E R+R   EI++ ILR C      TR++Y A +NY V  KY   + K+  +N+   N+ 
+Sbjct  2    IENRRRTKTEIIYSILRGCSEGSKKTRLMYLAKLNYSVFMKY---IYKMKEMNLIEFNEG  58
+
+Query  63   KIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDS  103
+            K   +T+KGK +   +++++++   L   + K+ EL++T+S
+Sbjct  59   KCV-LTDKGKRVLELLDKYMEMYSKLNEVRMKLEELMQTES  98
+
+
+>emb|CAH69222.2| DNA-binding protein [Sulfolobus solfataricus]
+Length=96
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/94 (30%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           +K+  +EI+  IL  C+     TR++YGA ++Y +  +Y+  L+ +  +      + K Y
+Sbjct  3   KKKSKLEIIQAILEACKSGSPKTRIMYGANLSYALTGRYIKMLMDLEIIR----QEGKQY  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSELL  99
+            +T+KG+ L   I +F ++R+N+   KEK++ +L
+Sbjct  59  MLTKKGEELLEDIRKFNEMRKNMDQLKEKINSVL  92
+
+
+>ref|YP_002841234.1| hypothetical protein YN1551_2334 [Sulfolobus islandicus Y.N.15.51]
+ ref|WP_012717870.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP49312.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+Length=98
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 31/101 (31%), Positives = 58/101 (57%), Gaps = 4/101 (4%)
+
+Query  3    LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+            +E R+R   EI++ ILR C      TR++Y A +NY V  KY   +  +  +N+   N+ 
+Sbjct  2    IENRRRTKTEIIYSILRGCSEGSKKTRLMYLAKLNYSVFMKY---IYNMKEMNLMEFNEG  58
+
+Query  63   KIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDS  103
+            K   +T+KGK +   +++++++   L   + K+ EL++T+S
+Sbjct  59   KCV-LTDKGKRVLELLDKYMEMYSKLNEVRMKLEELMQTES  98
+
+
+>pdb|1R7J|A Chain A, Crystal Structure Of The Dna-Binding Protein Sso10a 
+From Sulfolobus Solfataricus
+ pdb|1XSX|A Chain A, Nmr Structure Of Sso10a, A Hyperthermophile Dna-Binding 
+Protein With An Extended Anti-Parallel Coiled Coil
+ pdb|1XSX|B Chain B, Nmr Structure Of Sso10a, A Hyperthermophile Dna-Binding 
+Protein With An Extended Anti-Parallel Coiled Coil
+Length=95
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/94 (30%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           +K+  +EI+  IL  C+     TR++YGA ++Y +  +Y+  L+ +  +      + K Y
+Sbjct  2   KKKSKLEIIQAILEACKSGSPKTRIMYGANLSYALTGRYIKMLMDLEIIR----QEGKQY  57
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSELL  99
+            +T+KG+ L   I +F ++R+N+   KEK++ +L
+Sbjct  58  MLTKKGEELLEDIRKFNEMRKNMDQLKEKINSVL  91
+
+
+>ref|YP_003758729.1| hypothetical protein Dehly_1107 [Dehalogenimonas lykanthroporepellens 
+BL-DC-9]
+ ref|WP_013218551.1| hypothetical protein [Dehalogenimonas lykanthroporepellens]
+ gb|ADJ26408.1| conserved hypothetical protein [Dehalogenimonas lykanthroporepellens 
+BL-DC-9]
+Length=98
+
+ Score = 47.8 bits (112),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 50/83 (60%), Gaps = 4/83 (5%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALN-IKTE  59
+           M+L+RR R ++EI+ D+LR  E   G T ++Y   ++Y   QKYL+ +++ G ++ +K  
+Sbjct  1   MRLDRR-RSSIEIIADMLRLGE--AGKTEIMYSVNMSYFQLQKYLNFMIERGLVDKVKLG  57
+
+Query  60  NDRKIYEITEKGKLLRTHIEEFI  82
+           N    Y +T KG  L  HI+E +
+Sbjct  58  NPSVTYRVTGKGLTLLRHIDEIL  80
+
+
+>ref|YP_007907911.1| putative transcriptional regulator [Archaeoglobus sulfaticallidus 
+PM70-1]
+ ref|WP_015591514.1| putative transcriptional regulator [Archaeoglobus sulfaticallidus]
+ gb|AGK61918.1| putative transcriptional regulator [Archaeoglobus sulfaticallidus 
+PM70-1]
+Length=84
+
+ Score = 47.4 bits (111),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 28/84 (33%), Positives = 50/84 (60%), Gaps = 5/84 (6%)
+
+Query  7   KRGTMEIMFDILR--NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           +R   +I+ DI++      +C  T+++YGA +N+ +A+KYL  LV +  L ++  N +  
+Sbjct  2   RRTRFDIVIDIIKVVTQNGRCNKTKIVYGANLNFKIAEKYLVYLVDLEYLELELINGKTT  61
+
+Query  65  YEITEKGKLLRTHIEEFIKIRENL  88
+           Y  TEKGK L   + +F +I E++
+Sbjct  62  YRATEKGKDL---VRKFSEISEDM  82
+
+
+>ref|NP_377528.1| hypothetical protein ST1562 [Sulfolobus tokodaii str. 7]
+ ref|WP_010979615.1| hypothetical protein [Sulfolobus tokodaii]
+Length=121
+
+ Score = 47.0 bits (110),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 59/102 (58%), Gaps = 14/102 (14%)
+
+Query  1    MQLERRKRGTMEIMFDILRNCE----PKCGITRVIYGAGINYVVAQKYLDQLVKVGALNI  56
+            ++  ++KR   EI++DIL   +    PK   TR+IY AG+ Y+ A KY+  L K     I
+Sbjct  20   VKFNKKKRTDYEIIYDILNALKDGPIPK---TRLIYRAGLTYLTATKYIPYLEKQNL--I  74
+
+Query  57   KTENDRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            K E D  +Y ITEKG+ +R  +E + K++ N    KE VS+L
+Sbjct  75   KKEGD--LYHITEKGEEVRKLLEIY-KVKAN--EIKEIVSKL  111
+
+
+>dbj|BAK54620.1| DNA-binding protein [Sulfolobus tokodaii str. 7]
+Length=104
+
+ Score = 46.6 bits (109),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 59/102 (58%), Gaps = 14/102 (14%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCE----PKCGITRVIYGAGINYVVAQKYLDQLVKVGALNI  56
+           ++  ++KR   EI++DIL   +    PK   TR+IY AG+ Y+ A KY+  L K     I
+Sbjct  3   VKFNKKKRTDYEIIYDILNALKDGPIPK---TRLIYRAGLTYLTATKYIPYLEKQNL--I  57
+
+Query  57  KTENDRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+           K E D  +Y ITEKG+ +R  +E + K++ N    KE VS+L
+Sbjct  58  KKEGD--LYHITEKGEEVRKLLEIY-KVKAN--EIKEIVSKL  94
+
+
+>emb|CAI64153.1| conserved hypothetical protein [uncultured archaeon]
+ emb|CBH36567.1| conserved hypothetical protein [uncultured archaeon]
+Length=92
+
+ Score = 46.6 bits (109),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 46/78 (59%), Gaps = 3/78 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGI--TRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN-DR  62
+           + R   +I+FDIL+    + G+  TR++  A ++++  +KY D LV  G L +  E+  R
+Sbjct  5   KHRSRWDILFDILKAISEEEGVKKTRIMQKANLDWISFKKYFDFLVDHGFLKVGDESGKR  64
+
+Query  63  KIYEITEKGKLLRTHIEE  80
+           K Y +T+KG+ L   ++E
+Sbjct  65  KSYRLTKKGRNLLVELQE  82
+
+
+>ref|NP_393865.1| hypothetical protein Ta0385 [Thermoplasma acidophilum DSM 1728]
+ ref|WP_010900814.1| hypothetical protein [Thermoplasma acidophilum]
+ emb|CAC11529.1| conserved hypothetical protein [Thermoplasma acidophilum]
+Length=99
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 42/70 (60%), Gaps = 3/70 (4%)
+
+Query  5   RRKRGTMEIMFDILRN---CEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+           R+ R   +++F IL+     + + GITR+IY    NYV+A+  L+ L   G +  + +N+
+Sbjct  11  RKNRDRGDLVFSILKELYISDGQIGITRLIYKVNTNYVIAKDILEMLSGSGLIENQAKNE  70
+
+Query  62  RKIYEITEKG  71
+           R  +++TEKG
+Sbjct  71  RNGFKVTEKG  80
+
+
+>ref|YP_003435453.1| hypothetical protein Ferp_1016 [Ferroglobus placidus DSM 10642]
+ ref|WP_012965521.1| hypothetical protein [Ferroglobus placidus]
+ gb|ADC65178.1| conserved hypothetical protein [Ferroglobus placidus DSM 10642]
+Length=91
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 27/82 (33%), Positives = 44/82 (54%), Gaps = 7/82 (9%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R   EI+++IL   +     T+++YGA +N+ +A+KY   L ++  L     + +  Y 
+Sbjct  4   RRSKFEIIYEILCRTQTPASKTKIVYGANLNFKLAEKYFSLLEEMSLLEKVKIDGKTCYA  63
+
+Query  67  ITEKGKLLRTHIEEFIKIRENL  88
+           ITEKG+       EFIK  E L
+Sbjct  64  ITEKGR-------EFIKRYEEL  78
+
+
+>emb|CAH65785.1| putative transcriptional regulator [Sulfolobus neozealandicus]
+Length=99
+
+ Score = 44.7 bits (104),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 26/87 (30%), Positives = 50/87 (57%), Gaps = 4/87 (5%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+           +Q+ R+KR   EI+ DIL  CE     T ++Y A +++ +  +Y+++L++ G +  K   
+Sbjct  5   VQIGRKKRTKYEILHDILSVCENGAKKTWIMYKANLSHELTNEYINELIEKGLIVQKD--  62
+
+Query  61  DRKIYEITEKGKLLRTHIEEFIKIREN  87
+              +Y +T+KGK L   + E++  + N
+Sbjct  63  --GLYYLTDKGKQLLDLLREYLAEKNN  87
+
+
+>ref|YP_006861941.1| hypothetical protein Ngar_c13460 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015018821.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU58284.1| hypothetical protein Ngar_c13460 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=113
+
+ Score = 43.9 bits (102),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 25/80 (31%), Positives = 46/80 (58%), Gaps = 3/80 (4%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           R  RGT++I+ DIL  C      TR++Y A +++ + + Y+  LV++G L    E++   
+Sbjct  20  RGARGTIDIIADILLLCTTWNKRTRIMYKANLSHQMLKVYVWHLVELGLLE---ESEDMK  76
+
+Query  65  YEITEKGKLLRTHIEEFIKI  84
+           +  TEKGK+  +H +   ++
+Sbjct  77  FRTTEKGKVFLSHYQHLSRL  96
+
+
+>ref|YP_007174511.1| transcriptional regulator [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015231960.1| transcriptional regulator [Caldisphaera lagunensis]
+ gb|AFZ70062.1| putative transcriptional regulator [Caldisphaera lagunensis DSM 
+15908]
+Length=94
+
+ Score = 43.5 bits (101),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 44/82 (54%), Gaps = 9/82 (11%)
+
+Query  4   ERRKRGTMEIMFDILRNCEP--KCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+           +++ R  ++I  DIL   E   K  +TR++Y A I Y    KY+D+L +   +N   +ND
+Sbjct  4   QKKNRSRVKIYLDILETIEKEEKARLTRIMYNANIPYDRLLKYIDELKQKEIINEIVDND  63
+
+Query  62  RKIYEITEKGKLLRTHIEEFIK  83
+            + Y +T KGK       EF+K
+Sbjct  64  SRYYVLTNKGK-------EFVK  78
+
+
+>ref|YP_843330.1| hypothetical protein Mthe_0902 [Methanosaeta thermophila PT]
+ ref|WP_011696085.1| hypothetical protein [Methanosaeta thermophila]
+ gb|ABK14690.1| conserved hypothetical protein [Methanosaeta thermophila PT]
+Length=83
+
+ Score = 42.7 bits (99),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 37/66 (56%), Gaps = 3/66 (5%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI-Y  65
+           +R   +IM DIL  C      T+++Y A +N+ +   YLD L K G L+++  NDR   Y
+Sbjct  4   RRSKAQIMSDILEICIDGANKTKIVYDANLNFKMLNSYLDTLTKKGLLHVR--NDRSNEY  61
+
+Query  66  EITEKG  71
+             TE+G
+Sbjct  62  VTTEEG  67
+
+
+>ref|YP_004615388.1| hypothetical protein [Methanosalsum zhilinae DSM 4017]
+ ref|WP_013897608.1| hypothetical protein [Methanosalsum zhilinae]
+ gb|AEH60169.1| hypothetical protein Mzhil_0293 [Methanosalsum zhilinae DSM 4017]
+Length=98
+
+ Score = 42.7 bits (99),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 42/75 (56%), Gaps = 6/75 (8%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+           M ++RR R  ++I  +IL         T+++Y A +N++ A KYLD L+K     IK + 
+Sbjct  1   MAIKRRSR--IDITAEILDTAMNGANKTQIVYNANLNFITANKYLDMLMKKNL--IKKKG  56
+
+Query  61  DRKIYEITEKGKLLR  75
+           D  +Y  TEKGK  +
+Sbjct  57  D--LYFTTEKGKTFQ  69
+
+
+>ref|YP_004341890.1| transcriptional regulator protein-like protein [Archaeoglobus 
+veneficus SNP6]
+ ref|WP_013683839.1| transcriptional regulator protein-like protein [Archaeoglobus 
+veneficus]
+ gb|AEA47175.1| transcriptional regulator protein-like protein [Archaeoglobus 
+veneficus SNP6]
+Length=83
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  5   RRKRGTMEIMFDILR-NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           RR R  ++I+ DIL          T+++YGA +N+ +A +YL+ +V  G +  + +N + 
+Sbjct  2   RRTR--LDIIMDILSLTLNGGANKTKIVYGANLNFKIAGQYLEFMVDAGLIVERIDNGKI  59
+
+Query  64  IYEITEKG  71
+           +Y  TEKG
+Sbjct  60  LYVATEKG  67
+
+
+>ref|YP_004384625.1| hypothetical protein MCON_2334 [Methanosaeta concilii GP6]
+ ref|WP_013719840.1| hypothetical protein [Methanosaeta concilii]
+ gb|AEB68807.1| conserved hypothetical protein [Methanosaeta concilii GP6]
+Length=92
+
+ Score = 41.6 bits (96),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 40/74 (54%), Gaps = 1/74 (1%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           KR   EI+ +ILR C      T+V+Y A +N+  A  YL  L+K   L + ++    +Y+
+Sbjct  2   KRNRNEIISEILRICIKGARKTKVVYQANLNFRTADPYLQLLIK-NDLIVSSQGPHVVYK  60
+
+Query  67  ITEKGKLLRTHIEE  80
+            TEKG  L   I++
+Sbjct  61  TTEKGMNLMKAIDQ  74
+
+
+>ref|WP_008440547.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+ gb|EMR73169.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+Length=81
+
+ Score = 41.2 bits (95),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 39/65 (60%), Gaps = 2/65 (3%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R  ++I  DIL+  +     T+++Y A +N+ + +KYL++L+  G L+    N+R+ Y 
+Sbjct  2   RRNDLDICADILKVAQTGAKKTQIVYQANLNFKIVKKYLNRLIDKGLLD--PANERRYYT  59
+
+Query  67  ITEKG  71
+            T +G
+Sbjct  60  TTSRG  64
+
+
+>ref|YP_256392.1| hypothetical protein Saci_1793 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|WP_011278601.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AAY81099.1| conserved Archaeal protein [Sulfolobus acidocaldarius DSM 639]
+Length=89
+
+ Score = 40.8 bits (94),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 44/86 (51%), Gaps = 7/86 (8%)
+
+Query  6   RKRGTMEIMFDIL---RNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+           + R  +EIM+ IL   R  E +   T ++Y  G+NY V  KY+ ++ K+G + +  E   
+Sbjct  6   KHRSKIEIMYTILKVLRESETEVKKTHLMYLVGLNYDVFSKYISRIEKLGLVRVNKEG--  63
+
+Query  63  KIYEITEKGKLLRTHIEEFIKIRENL  88
+             Y +T+ GK     IE ++ I   L
+Sbjct  64  --YSLTDSGKRELEMIENYLTIERKL  87
+
+
+>ref|YP_004383482.1| hypothetical protein MCON_0891 [Methanosaeta concilii GP6]
+ ref|WP_013718718.1| hypothetical protein [Methanosaeta concilii]
+ gb|AEB67664.1| conserved hypothetical protein [Methanosaeta concilii GP6]
+Length=86
+
+ Score = 40.8 bits (94),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 44/84 (52%), Gaps = 1/84 (1%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           R +R   +I+ +IL  CE    +T ++Y + I++   + YL  L+K   L I  +   +I
+Sbjct  2   RARRSKDQIIVEILNICEKGENLTNIVYRSSISFASIKAYLAVLMK-NDLLIYQDGSPRI  60
+
+Query  65  YEITEKGKLLRTHIEEFIKIRENL  88
+           Y+ T KG  +R  +E   K+ E L
+Sbjct  61  YKTTPKGLAMRDRLEGLHKLMEGL  84
+
+
+>ref|YP_007434853.1| hypothetical protein SacN8_08725 [Sulfolobus acidocaldarius N8]
+ ref|YP_007437126.1| hypothetical protein SacRon12I_08735 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_015385673.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AGE71705.1| hypothetical protein SacN8_08725 [Sulfolobus acidocaldarius N8]
+ gb|AGE73978.1| hypothetical protein SacRon12I_08735 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=86
+
+ Score = 40.8 bits (94),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 44/86 (51%), Gaps = 7/86 (8%)
+
+Query  6   RKRGTMEIMFDIL---RNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+           + R  +EIM+ IL   R  E +   T ++Y  G+NY V  KY+ ++ K+G + +  E   
+Sbjct  3   KHRSKIEIMYTILKVLRESETEVKKTHLMYLVGLNYDVFSKYISRIEKLGLVRVNKEG--  60
+
+Query  63  KIYEITEKGKLLRTHIEEFIKIRENL  88
+             Y +T+ GK     IE ++ I   L
+Sbjct  61  --YSLTDSGKRELEMIENYLTIERKL  84
+
+
+>ref|WP_008439856.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+ gb|EMR74152.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+Length=80
+
+ Score = 40.8 bits (94),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 47/82 (57%), Gaps = 4/82 (5%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R  ++I  DIL+  +     T+++Y A +N+++ +KYL+ L++   +N   +ND K Y 
+Sbjct  2   RRNNLDISADILQVAQEGAKKTQIVYKANLNFLIVKKYLNNLIEKDLMN---KND-KHYF  57
+
+Query  67  ITEKGKLLRTHIEEFIKIRENL  88
+            T+KG+      ++F  +  +L
+Sbjct  58  TTDKGRDFLMSYKKFSSVVRDL  79
+
+
+>ref|YP_003458946.1| hypothetical protein MFS40622_1538 [Methanocaldococcus sp. FS406-22]
+ ref|WP_012981115.1| hypothetical protein [Methanocaldococcus sp. FS406-22]
+ gb|ADC70210.1| conserved hypothetical protein [Methanocaldococcus sp. FS406-22]
+Length=98
+
+ Score = 40.8 bits (94),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 47/81 (58%), Gaps = 4/81 (5%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGI-TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           R KR   E++F+IL   +    I TR++Y A +++    KY++ L+  G +    +N+++
+Sbjct  16  RYKRSQFEVIFEILHTIKEGEQIKTRIMYAANLDWRNFSKYINFLMDNGFI---KKNNKE  72
+
+Query  64  IYEITEKGKLLRTHIEEFIKI  84
+            +E+TE GK L + + E  +I
+Sbjct  73  KFELTELGKKLYSSLYELFEI  93
+
+
+>emb|CAI64158.1| conserved hypothetical protein [uncultured archaeon]
+ emb|CBH36572.1| conserved hypothetical protein [uncultured archaeon]
+Length=97
+
+ Score = 40.4 bits (93),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 38/67 (57%), Gaps = 4/67 (6%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           +++RG  +I+ DIL   E K   T++ Y A +N+ + ++YL  L+  G +    EN    
+Sbjct  20  KKRRGRTDIIVDILSVAEGKAKKTQIAYKADLNFRMLEEYLPHLLDKGLI----ENTDGE  75
+
+Query  65  YEITEKG  71
+           Y+ TEKG
+Sbjct  76  YKTTEKG  82
+
+
+>ref|YP_003859221.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013302991.1| hypothetical protein [Ignisphaera aggregans]
+ gb|ADM27341.1| hypothetical protein Igag_0503 [Ignisphaera aggregans DSM 17230]
+Length=212
+
+ Score = 42.0 bits (97),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 29/83 (35%), Positives = 49/83 (59%), Gaps = 5/83 (6%)
+
+Query  7   KRGTMEIMFDILRN-CEPKCGI-TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           +RG++EI+  IL+   E  C + T ++Y + +N    +KYL+ L+K    NI   +D K 
+Sbjct  17  RRGSVEIIHVILKYLSESLCALKTHILYVSNLNSKTLEKYLNILLKN---NIVKVDDHKC  73
+
+Query  65  YEITEKGKLLRTHIEEFIKIREN  87
+           Y +TEKG  L  ++E  ++I +N
+Sbjct  74  YMLTEKGYELLLNLENIVEILDN  96
+
+
+>ref|YP_005645065.1| hypothetical protein [Sulfolobus islandicus HVE10/4]
+ ref|WP_014512055.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ADX81851.1| conserved hypothetical protein [Sulfolobus islandicus HVE10/4]
+Length=100
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 4/93 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           RKR  MEI+ +IL  C+     TR++Y   ++Y +  KY   L K G +    +N+   Y
+Sbjct  3   RKRNRMEIIANILEECKGGIKKTRLMYKTNLSYRLFLKYTTLLEKKGFITF-VDNE---Y  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            +T KG      ++E+I + + L   +E + +L
+Sbjct  59  RLTAKGYDYLNRVKEYINLMKKLKEMRESLDDL  91
+
+
+>ref|YP_002828776.1| hypothetical protein M1425_0654 [Sulfolobus islandicus M.14.25]
+ ref|YP_002842668.1| hypothetical protein M1627_0660 [Sulfolobus islandicus M.16.27]
+ ref|WP_012710752.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP37478.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP54623.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+Length=100
+
+ Score = 39.7 bits (91),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 4/93 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           RKR  MEI+ +IL  C+     TR++Y   ++Y +  KY   L K G +    +N+   Y
+Sbjct  3   RKRNRMEIVANILEGCKGGIKKTRLMYKTNLSYRLFCKYTRLLEKKGLITF-VDNE---Y  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            +T KG      ++E+I + + L   +E + +L
+Sbjct  59  RLTAKGYDYLNRVKEYINLMKKLKEMRESLDDL  91
+
+
+>ref|YP_002913965.1| hypothetical protein M164_0679 [Sulfolobus islandicus M.16.4]
+ ref|WP_012735651.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACR41297.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+Length=100
+
+ Score = 39.7 bits (91),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 4/93 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           RKR  MEI+ +IL  C+     TR++Y   ++Y +  KY   L K G +    +N+   Y
+Sbjct  3   RKRNRMEIIANILEECKGGIKKTRLMYKTNLSYRLFCKYTRLLEKKGLITF-VDNE---Y  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            +T KG      ++E+I + + L   +E + +L
+Sbjct  59  RLTAKGYDYLNRVKEYINLMKKLKEMRESLDDL  91
+
+
+>ref|NP_376548.1| hypothetical protein ST0658 [Sulfolobus tokodaii str. 7]
+ ref|WP_010978640.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB65657.1| DNA-binding protein 10a [Sulfolobus tokodaii str. 7]
+Length=101
+
+ Score = 39.3 bits (90),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 27/101 (27%), Positives = 55/101 (54%), Gaps = 4/101 (4%)
+
+Query  2    QLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+            Q+ R+KR   EI+ DIL  CE     T ++Y A ++Y +   Y+++LV+   L ++ +  
+Sbjct  5    QVGRKKRTRYEIIHDILSQCENGAKKTWLMYKANLSYELTNNYINKLVE-KELIVQKDG-  62
+
+Query  62   RKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+              +Y +T+KG+ L   ++++ + +  L     ++ E+   D
+Sbjct  63   --LYYLTDKGRKLLDLLKDYKEKKSGLDKVVAQIKEIYGED  101
+
+
+>ref|NP_247260.1| hypothetical protein MJ_0287 [Methanocaldococcus jannaschii DSM 
+2661]
+ ref|WP_010869785.1| hypothetical protein [Methanocaldococcus jannaschii]
+ sp|Q57735.1|Y287_METJA RecName: Full=Uncharacterized protein MJ0287
+ gb|AAB98274.1| conserved hypothetical protein [Methanocaldococcus jannaschii 
+DSM 2661]
+Length=97
+
+ Score = 39.3 bits (90),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 46/81 (57%), Gaps = 5/81 (6%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGI-TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           R KR   E++F+IL   +    I TR++Y A +++    KY+D L+  G +    + +++
+Sbjct  16  RYKRSQFEVIFEILHIIKEGEQIKTRIMYAANLDWRNFSKYIDFLISNGFI----KKNKE  71
+
+Query  64  IYEITEKGKLLRTHIEEFIKI  84
+            +E+TE GK L + + E  +I
+Sbjct  72  KFELTELGKKLYSSLYELFEI  92
+
+
+>ref|YP_002831688.1| hypothetical protein LS215_1008 [Sulfolobus islandicus L.S.2.15]
+ ref|WP_012713411.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP35043.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+Length=100
+
+ Score = 39.3 bits (90),  Expect = 0.032, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 4/93 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           RKR  MEI+ +IL  C+     TR++Y   ++Y +  KY   L K G +    +N+   Y
+Sbjct  3   RKRNRMEIIANILEECKGGIKKTRLMYKTNLSYRLFCKYTRLLEKKGLITF-VDNE---Y  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            +T KG      ++E+I + + L   +E + +L
+Sbjct  59  RLTAKGYDYLNRVKEYINLLKKLKEMRESLEDL  91
+
+
+>ref|YP_002841242.1| hypothetical protein YN1551_2345 [Sulfolobus islandicus Y.N.15.51]
+ ref|WP_012717877.1| hypothetical protein [Sulfolobus islandicus]
+ gb|ACP49320.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+Length=100
+
+ Score = 38.9 bits (89),  Expect = 0.038, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 4/93 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           RKR  MEI+ +IL  C+     TR++Y   ++Y +  KY   L K G +    +N+   Y
+Sbjct  3   RKRNRMEIIANILEECKGGIKKTRLMYKTNLSYGLFCKYTRLLEKKGLITF-VDNE---Y  58
+
+Query  66  EITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            +T KG      ++E+I + + L   +E + +L
+Sbjct  59  RLTAKGYDYLNRVKEYINLLKKLKEMRESLEDL  91
+
+
+>ref|YP_003482516.1| hypothetical protein Aboo_0142 [Aciduliprofundum boonei T469]
+ ref|WP_008084893.1| hypothetical protein [Aciduliprofundum boonei]
+ gb|EDY35186.1| hypothetical protein ABOONEI_257 [Aciduliprofundum boonei T469]
+ gb|EDY35338.1| hypothetical protein ABOONEI_2786 [Aciduliprofundum boonei T469]
+ gb|ADD07954.1| conserved hypothetical protein [Aciduliprofundum boonei T469]
+Length=91
+
+ Score = 38.9 bits (89),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 45/84 (54%), Gaps = 2/84 (2%)
+
+Query  5   RRKRGTMEIMFDILR--NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+           ++KR    ++FD+L     E KC ++ ++  A ++Y V ++  + L K   + +KT   +
+Sbjct  2   KKKRSKSRVVFDVLSIIAQEDKCTVSIILRRANVSYSVFKEIEENLKKKNLIEVKTNGGK  61
+
+Query  63  KIYEITEKGKLLRTHIEEFIKIRE  86
+            IY+IT+ GK       +F ++ E
+Sbjct  62  SIYKITKDGKEFLKEWRKFKRLME  85
+
+
+>ref|YP_308299.1| hypothetical protein cbdb_A1330 [Dehalococcoides sp. CBDB1]
+ ref|YP_001214644.1| hypothetical protein DehaBAV1_1187 [Dehalococcoides sp. BAV1]
+ ref|YP_003462910.1| hypothetical protein DehalGT_1094 [Dehalococcoides sp. GT]
+ ref|YP_007484176.1| hypothetical protein dcmb_1235 [Dehalococcoides mccartyi DCMB5]
+ ref|YP_007485671.1| hypothetical protein btf_1254 [Dehalococcoides mccartyi BTF08]
+ ref|WP_011309734.1| hypothetical protein [Dehalococcoides mccartyi]
+ emb|CAI83383.1| conserved hypothetical protein [Dehalococcoides sp. CBDB1]
+ gb|ABQ17766.1| hypothetical protein DehaBAV1_1187 [Dehalococcoides sp. BAV1]
+ gb|ADC74454.1| conserved hypothetical protein [Dehalococcoides sp. GT]
+ gb|AGG06834.1| hypothetical protein dcmb_1235 [Dehalococcoides mccartyi DCMB5]
+ gb|AGG08329.1| hypothetical protein btf_1254 [Dehalococcoides mccartyi BTF08]
+Length=93
+
+ Score = 38.5 bits (88),  Expect = 0.056, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 56/91 (62%), Gaps = 7/91 (8%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALN-IKTE  59
+           M+L+RR R ++EI+ D+LR  E   G T ++Y   ++Y   QKYL+ +++   ++ ++  
+Sbjct  1   MRLDRR-RSSIEIIADMLRLGE--AGKTEIMYSVNMSYFQLQKYLNFMLERELIDRVQLG  57
+
+Query  60  NDRKIYEITEKG-KLLRT--HIEEFIKIREN  87
+           N    Y +T KG +LLR+  +I + + +++N
+Sbjct  58  NPSVTYRVTAKGLELLRSIDNILDTLDLKDN  88
+
+
+>ref|YP_182087.1| hypothetical protein DET1376 [Dehalococcoides ethenogenes 195]
+ ref|YP_003330599.1| hypothetical protein DhcVS_1157 [Dehalococcoides sp. VS]
+ ref|YP_008856453.1| hypothetical protein GY50_1215 [Dehalococcoides mccartyi GY50]
+ ref|WP_010937064.1| hypothetical protein [Dehalococcoides mccartyi]
+ gb|AAW39364.1| conserved hypothetical protein [Dehalococcoides ethenogenes 195]
+ gb|ACZ62271.1| hypothetical protein DhcVS_1157 [Dehalococcoides sp. VS]
+ gb|AHB13986.1| hypothetical protein GY50_1215 [Dehalococcoides mccartyi GY50]
+Length=93
+
+ Score = 38.1 bits (87),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 55/91 (60%), Gaps = 7/91 (8%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALN-IKTE  59
+           M+L+RR R ++EI+ D+LR  E   G T ++Y   ++Y   QKYL+ ++    ++ ++  
+Sbjct  1   MRLDRR-RSSIEIIADMLRLGE--AGKTEIMYSVNMSYFQLQKYLNFMLDRELIDRVQLG  57
+
+Query  60  NDRKIYEITEKG-KLLRT--HIEEFIKIREN  87
+           N    Y +T KG +LLR+  +I + + +++N
+Sbjct  58  NPSVTYRVTAKGLELLRSIDNILDTLDLKDN  88
+
+
+>emb|CAI64159.1| conserved hypothetical protein [uncultured archaeon]
+ emb|CBH36573.1| conserved hypothetical protein [uncultured archaeon]
+Length=109
+
+ Score = 38.5 bits (88),  Expect = 0.070, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 41/78 (53%), Gaps = 11/78 (14%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           +++R   +I+ DIL     K   TR++Y A +N+ + ++YL  LV  G +    EN    
+Sbjct  32  KKRRCRTDIIVDILLVARGKAKKTRIVYKADLNFRMLEEYLPHLVDKGLI----ENTDGE  87
+
+Query  65  YEITEKGKLLRTHIEEFI  82
+           Y+ TEKG       EEF+
+Sbjct  88  YKTTEKG-------EEFL  98
+
+
+>emb|CAI64155.1| conserved hypothetical protein [uncultured archaeon]
+ emb|CBH36569.1| conserved hypothetical protein [uncultured archaeon]
+Length=97
+
+ Score = 38.1 bits (87),  Expect = 0.070, Method: Compositional matrix adjust.
+ Identities = 29/83 (35%), Positives = 44/83 (53%), Gaps = 7/83 (8%)
+
+Query  4   ERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           ERR R  M+I+ DIL     +   T ++Y A +N+    +YL  L   G +    EN  +
+Sbjct  21  ERRSR--MDIIADILSVAGEEAKKTHIVYSANLNFARVGEYLQYLEDKGLI----ENMSR  74
+
+Query  64  IYEITEKG-KLLRTHIEEFIKIR  85
+            Y+ TEKG + LRT+ E   ++R
+Sbjct  75  KYKTTEKGEEFLRTYQEMSERLR  97
+
+
+>ref|YP_006861829.1| hypothetical protein Ngar_c12320 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015018709.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU58172.1| hypothetical protein Ngar_c12320 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=100
+
+ Score = 37.7 bits (86),  Expect = 0.094, Method: Compositional matrix adjust.
+ Identities = 26/87 (30%), Positives = 44/87 (51%), Gaps = 4/87 (5%)
+
+Query  1   MQLERRK-RGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTE  59
+           M  ER+  RG ++IM D+L         T ++Y A ++Y     YL +L++   +   T 
+Sbjct  1   MMSERKNNRGKIQIMGDVLELATSGIKKTHIMYKANLSYEQVHLYLSELIEKNLIAQDTS  60
+
+Query  60  NDRKIYEITEKGK---LLRTHIEEFIK  83
+            +  +Y  T+KG+   L  T I EF++
+Sbjct  61  QNGVVYRTTDKGREFLLYYTRIVEFLE  87
+
+
+>ref|WP_004557435.1| putative transcriptional regulator [unclassified Thermoplasmatales]
+ gb|EMR73989.1| putative transcriptional regulator [Thermoplasmatales archaeon 
+SCGC AB-539-N05]
+ gb|ENO12059.1| putative transcriptional regulator [Thermoplasmatales archaeon 
+SCGC AB-539-C06]
+Length=86
+
+ Score = 37.4 bits (85),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 22/77 (29%), Positives = 39/77 (51%), Gaps = 0/77 (0%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R  +EI+ DIL         T+++Y   ++Y   + YL  L++   + +   N  +IY 
+Sbjct  6   RRSEIEIVRDILNLVTKGAKKTQILYQTNLSYTQLRDYLSFLLEKNFVEMHENNSSRIYR  65
+
+Query  67  ITEKGKLLRTHIEEFIK  83
+           +TEKG  L   I+  I+
+Sbjct  66  VTEKGTELLQSIKTVIR  82
+
+
+>ref|YP_004385094.1| DNA-binding protein [Methanosaeta concilii GP6]
+ ref|WP_013720299.1| DNA-binding protein [Methanosaeta concilii]
+ gb|AEB69276.1| DNA-binding protein, putative [Methanosaeta concilii GP6]
+Length=80
+
+ Score = 37.0 bits (84),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 34/65 (52%), Gaps = 1/65 (2%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           KR    I+  IL  C      T+++Y A +N+     YL  L++ G +N K E +  IY+
+Sbjct  2   KRSKDLIISQILLVCAKGANKTKIVYQANLNFRTVDPYLKLLMERGLINAKREPNL-IYQ  60
+
+Query  67  ITEKG  71
+            TEKG
+Sbjct  61  TTEKG  65
+
+
+>ref|YP_006861417.1| hypothetical protein Ngar_c08180 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015018305.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU57760.1| hypothetical protein Ngar_c08180 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=82
+
+ Score = 37.0 bits (84),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 33/59 (56%), Gaps = 1/59 (2%)
+
+Query  14  MFDILRNC-EPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKG  71
+           M D+L+    P  GI+R+++ A +++  A  YL Q+++ G +    E  +K Y  T KG
+Sbjct  1   MRDVLQTAMGPGAGISRIMFSACLSHSQATAYLQQMMEDGLVVNDIEQGKKYYRTTPKG  59
+
+
+>ref|YP_004385258.1| hypothetical protein MCON_3144 [Methanosaeta concilii GP6]
+ ref|WP_013720461.1| hypothetical protein [Methanosaeta concilii]
+ gb|AEB69440.1| conserved hypothetical protein [Methanosaeta concilii GP6]
+Length=90
+
+ Score = 37.0 bits (84),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 22/88 (25%), Positives = 43/88 (49%), Gaps = 0/88 (0%)
+
+Query  3   LERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDR  62
+           + +++R    I  +IL+ C      TR+I+ A +N++ A+ +++ L+  G +       +
+Sbjct  1   MNQKRRTNDIIASEILKLCMNGASKTRIIHKANLNFLSAKSHIESLMNNGLMEAVPTGSK  60
+
+Query  63  KIYEITEKGKLLRTHIEEFIKIRENLYS  90
+            IY  T KG  L     +F    + L+S
+Sbjct  61  VIYRTTPKGAELSRVFGQFHSEIDKLFS  88
+
+
+>ref|YP_006862900.1| hypothetical protein Ngar_c23170 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015019778.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU59243.1| hypothetical protein Ngar_c23170 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=98
+
+ Score = 37.0 bits (84),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 46/88 (52%), Gaps = 5/88 (6%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           + R   E++  IL++   +   T+++Y A ++    + YLD L+K G ++     D+ +Y
+Sbjct  2   KNRSRYEVIAAILKSVNKEETRTKIMYKAMLSNDQCKLYLDSLIKSGLVHEVNNGDKTLY  61
+
+Query  66  EITEKGKLLRTHIEEF-----IKIRENL  88
+           +IT KG    ++ ++      + I ENL
+Sbjct  62  KITPKGSRFLSYYDQMKELLPVGIEENL  89
+
+
+>ref|YP_003542671.1| hypothetical protein Mmah_1530 [Methanohalophilus mahii DSM 5219]
+ ref|WP_013037968.1| hypothetical protein [Methanohalophilus mahii]
+ gb|ADE37026.1| conserved hypothetical protein [Methanohalophilus mahii DSM 5219]
+Length=81
+
+ Score = 36.6 bits (83),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 38/67 (57%), Gaps = 4/67 (6%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           ++R  ++I  +IL         T+++Y A +N+ +A+KYL+ L K     I+ E D+  Y
+Sbjct  8   KRRSRIDISAEILDAAMSGANKTQIVYNANLNFSIAKKYLEMLEKKEL--IRKEGDQ--Y  63
+
+Query  66  EITEKGK  72
+             TEKGK
+Sbjct  64  VTTEKGK  70
+
+
+>ref|YP_006861407.1| hypothetical protein Ngar_c08080 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015018295.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU57750.1| hypothetical protein Ngar_c08080 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=99
+
+ Score = 36.6 bits (83),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 35/72 (49%), Gaps = 0/72 (0%)
+
+Query  1   MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+           M   +  RG +EIM DIL         T ++Y A ++Y     YL+QL+  G +     +
+Sbjct  1   MSERKNNRGKIEIMADILSLSTAGIKKTHIMYRANLSYEQILYYLNQLLGKGLIAQDVVD  60
+
+Query  61  DRKIYEITEKGK  72
+              +Y  TEKG+
+Sbjct  61  GALVYRTTEKGR  72
+
+
+>ref|YP_007433975.1| hypothetical protein SacN8_04280 [Sulfolobus acidocaldarius N8]
+ ref|YP_007436246.1| hypothetical protein SacRon12I_04270 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_015385514.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AGE70827.1| hypothetical protein SacN8_04280 [Sulfolobus acidocaldarius N8]
+ gb|AGE73098.1| hypothetical protein SacRon12I_04270 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=101
+
+ Score = 36.6 bits (83),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 17/45 (38%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLV  49
+           R+KR   EI+ DIL  CE     T ++Y A ++Y +   Y+++LV
+Sbjct  8   RKKRTRYEIIHDILAQCENGAKKTWLMYKANLSYELTNNYINKLV  52
+
+
+>ref|YP_255540.1| hypothetical protein Saci_0882 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|WP_011277749.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AAY80247.1| conserved Archaeal protein [Sulfolobus acidocaldarius DSM 639]
+Length=102
+
+ Score = 36.6 bits (83),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 17/45 (38%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLV  49
+           R+KR   EI+ DIL  CE     T ++Y A ++Y +   Y+++LV
+Sbjct  9   RKKRTRYEIIHDILAQCENGAKKTWLMYKANLSYELTNNYINKLV  53
+
+
+>ref|YP_007246950.1| putative transcriptional regulator [Aciduliprofundum sp. MAR08-339]
+ ref|WP_015283408.1| putative transcriptional regulator [Aciduliprofundum sp. MAR08-339]
+ gb|AGB04784.1| putative transcriptional regulator [Aciduliprofundum sp. MAR08-339]
+Length=92
+
+ Score = 36.2 bits (82),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 46/85 (54%), Gaps = 3/85 (4%)
+
+Query  5   RRKRGTMEIMFDILR--NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTE-ND  61
+           +RKR    ++FD+L   + E  C ++ ++  A ++Y   ++  + L+K   ++IKT  N 
+Sbjct  2   KRKRSKSRVVFDVLSIISEEEHCTVSVILRRANVSYSTFKEIEENLLKKDLISIKTNGNG  61
+
+Query  62  RKIYEITEKGKLLRTHIEEFIKIRE  86
+           + IY IT+ G+       +F ++ E
+Sbjct  62  KNIYSITKNGRDFLKEWRKFKRLME  86
+
+
+>ref|YP_001191351.1| hypothetical protein Msed_1267 [Metallosphaera sedula DSM 5348]
+ ref|WP_012021214.1| hypothetical protein [Metallosphaera sedula]
+ gb|ABP95427.1| hypothetical protein Msed_1267 [Metallosphaera sedula DSM 5348]
+Length=108
+
+ Score = 36.6 bits (83),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 42/82 (51%), Gaps = 6/82 (7%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQL------VKVGALNIKTE  59
+           ++RG +EI  DIL  C      T ++Y A ++Y +  KYL+ L      V  G L   T+
+Sbjct  4   KRRGKLEIYLDILSICAMGGKKTEIMYRANLSYDLLNKYLNDLEQNGFIVTTGNLRCLTD  63
+
+Query  60  NDRKIYEITEKGKLLRTHIEEF  81
+             +++ ++  K + +R  +E+ 
+Sbjct  64  KGQRLLDLLVKRENVRKEVEDL  85
+
+
+>ref|YP_842626.1| hypothetical protein Mthe_0187 [Methanosaeta thermophila PT]
+ ref|WP_011695385.1| hypothetical protein [Methanosaeta thermophila]
+ gb|ABK13986.1| conserved hypothetical protein [Methanosaeta thermophila PT]
+Length=88
+
+ Score = 36.2 bits (82),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 28/98 (29%), Positives = 47/98 (48%), Gaps = 15/98 (15%)
+
+Query  7    KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+            KR  + I+ +IL+ C      T ++Y   +N+     YLD L+  G + I ++     Y 
+Sbjct  4    KRDKLSIISEILQKCIGGATKTAIVYQVNLNFKTVNPYLDLLIARGLIEI-SQGSTVTYT  62
+
+Query  67   ITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDSE  104
+             TEKG          IK+ E+L    ++V ++L+  SE
+Sbjct  63   TTEKG----------IKLLEDL----KRVHDVLKETSE  86
+
+
+>ref|WP_018033339.1| hypothetical protein [crenarchaeote SCGC AAA261-L14]
+Length=83
+
+ Score = 35.8 bits (81),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 42/83 (51%), Gaps = 3/83 (4%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           KR   EI   IL+ C      T+++Y A +N+     YL+ L+K   L    + ++ +Y+
+Sbjct  2   KRSRQEIFSQILKICLDGANKTKIVYQANLNFRTVNSYLEILIKNQHLVETGQGEQILYK  61
+
+Query  67  ITEKGKLLRTHIEEFIKIRENLY  89
+            T KG+ L   I+   K+ + L+
+Sbjct  62  TTRKGENLLECID---KVNDTLF  81
+
+
+>ref|YP_006863187.1| hypothetical protein Ngar_c26080 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015020065.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU59530.1| hypothetical protein Ngar_c26080 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=101
+
+ Score = 35.8 bits (81),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGAL--NIKTENDRK  63
+           R R   EIM DIL + +   GIT++++ A + +  A++Y   L+K G L  +++T + R+
+Sbjct  2   RNRQKDEIMRDILYSAQGGAGITKIMFHAYLTHGQAKEYTQLLIKSGLLEQDLETGSLRQ  61
+
+Query  64  IYEITEKG  71
+            +  T KG
+Sbjct  62  -FRTTPKG  68
+
+
+>ref|YP_003727205.1| hypothetical protein Metev_1562 [Methanohalobium evestigatum 
+Z-7303]
+ ref|WP_013194974.1| hypothetical protein [Methanohalobium evestigatum]
+ gb|ADI74409.1| conserved hypothetical protein [Methanohalobium evestigatum Z-7303]
+Length=80
+
+ Score = 35.4 bits (80),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 24/66 (36%), Positives = 35/66 (53%), Gaps = 4/66 (6%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R  ++I  DIL+        T ++YGA +N  +  KYLD L K   L  + EN   I+ 
+Sbjct  7   RRSRIDITLDILKIASNGAKKTEIVYGANLNSNITNKYLDML-KQKELIKQQEN---IFV  62
+
+Query  67  ITEKGK  72
+            T+KGK
+Sbjct  63  TTDKGK  68
+
+
+>ref|YP_004781149.1| transcriptional regulator PadR family protein [Pyrolobus fumarii 
+1A]
+ ref|WP_014026574.1| transcriptional regulator PadR family protein [Pyrolobus fumarii]
+ gb|AEM38897.1| transcriptional regulator PadR family protein [Pyrolobus fumarii 
+1A]
+Length=92
+
+ Score = 35.4 bits (80),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 36/71 (51%), Gaps = 2/71 (3%)
+
+Query  3   LERRKRGTMEIMFDILR--NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN  60
+           + RR R    I+ DIL   + E     TR+   A + Y   ++ LD+LV  G +    E 
+Sbjct  1   MRRRYRSQAGIIHDILLVLSREGPINSTRLAQLANLPYDRLRELLDRLVAEGLVETVEEG  60
+
+Query  61  DRKIYEITEKG  71
+           DRK+Y IT +G
+Sbjct  61  DRKLYRITPQG  71
+
+
+>ref|NP_632276.1| hypothetical protein MM_0252 [Methanosarcina mazei Go1]
+ ref|YP_007488979.1| hypothetical protein MmTuc01_0258 [Methanosarcina mazei Tuc01]
+ ref|WP_011032206.1| hypothetical protein [Methanosarcina mazei]
+ gb|AAM29948.1| conserved protein [Methanosarcina mazei Go1]
+ gb|AGF95707.1| hypothetical protein MmTuc01_0258 [Methanosarcina mazei Tuc01]
+Length=75
+
+ Score = 35.0 bits (79),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 25/76 (33%), Positives = 41/76 (54%), Gaps = 4/76 (5%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           ++R   +I  DILR        T ++Y   +N+ +AQKYL+ L K   L I+ EN   ++
+Sbjct  2   KRRSRTDIAVDILRVAMNGAKKTHIVYEVNLNFNIAQKYLEML-KEKEL-IRHENG--VF  57
+
+Query  66  EITEKGKLLRTHIEEF  81
+             T+KGK+ +   +E 
+Sbjct  58  ITTDKGKVFQEMAKEL  73
+
+
+>ref|NP_111707.1| transcription regulator [Thermoplasma volcanium GSS1]
+ ref|WP_010917446.1| transcription regulator [Thermoplasma volcanium]
+ dbj|BAB60356.1| hypothetical protein [Thermoplasma volcanium GSS1]
+Length=107
+
+ Score = 35.4 bits (80),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 3/75 (4%)
+
+Query  1   MQLERRKRGTMEIMFDILR---NCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIK  57
+               +R R   EIM DIL+       + GIT++I+ +  NY   +     L   G +   
+Sbjct  7   FHFVKRNRERNEIMLDILKIIYTNNGEVGITKLIFSSNTNYKFIKSLTQDLSNAGLIKTY  66
+
+Query  58  TENDRKIYEITEKGK  72
+               +  + IT+KGK
+Sbjct  67  QNKAKHTFTITDKGK  81
+
+
+>ref|WP_020671788.1| hypothetical protein [Amycolatopsis nigrescens]
+Length=256
+
+ Score = 37.0 bits (84),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 29/50 (58%), Gaps = 2/50 (4%)
+
+Query  8   RGTMEIMFDILRNC--EPKCGITRVIYGAGINYVVAQKYLDQLVKVGALN  55
+           RG +E  F +L     E + G+TR+   AG+    A + LDQLV++GA+ 
+Sbjct  16  RGVLEGAFSLLEGLAKEGEAGLTRLAADAGLPKATAHRLLDQLVELGAVQ  65
+
+
+>ref|WP_021790250.1| hypothetical protein [environmental samples]
+ gb|EQB68140.1| hypothetical protein AMDU5_GPLC00016G0014 [Thermoplasmatales 
+archaeon Gpl]
+ gb|EQB71170.1| hypothetical protein AMDU1_APLC00033G0021 [Thermoplasmatales 
+archaeon A-plasma]
+Length=227
+
+ Score = 36.6 bits (83),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 22/69 (32%), Positives = 37/69 (54%), Gaps = 2/69 (3%)
+
+Query  5    RRKRGTMEIMFDILRNC-EPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEN-DR  62
+            R +R  M IM D++    E    IT +IY   +NY  A + LD+L+K   + ++ +N + 
+Sbjct  146  RLRRDRMRIMLDVMELLNEHSSRITNIIYKCNLNYRTANELLDELIKKNYVQLRKDNENE  205
+
+Query  63   KIYEITEKG  71
+              Y +T+ G
+Sbjct  206  SSYSLTKAG  214
+
+
+>ref|YP_006862901.1| hypothetical protein Ngar_c23180 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+ ref|WP_015019779.1| hypothetical protein [Candidatus Nitrososphaera gargensis]
+ gb|AFU59244.1| hypothetical protein Ngar_c23180 [Candidatus Nitrososphaera gargensis 
+Ga9.2]
+Length=100
+
+ Score = 35.4 bits (80),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 39/80 (49%), Gaps = 3/80 (4%)
+
+Query  8   RGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNI---KTENDRKI  64
+           RG +EI+  IL  CE     T V+Y   +N     +YL+ L+  G L +   +  + R I
+Sbjct  11  RGWLEIIEFILLMCENGARKTHVMYRCNLNSKQINQYLEFLLDSGMLEMIQERPSSKRYI  70
+
+Query  65  YEITEKGKLLRTHIEEFIKI  84
+           Y+ T+ GK    H ++   +
+Sbjct  71  YKTTDLGKKFIAHYKQLASL  90
+
+
+>ref|YP_004457236.1| PadR-like family transcriptional regulator [Acidianus hospitalis 
+W1]
+ ref|WP_013774855.1| PadR family transcripitonal regulator [Acidianus hospitalis]
+ gb|AEE92938.1| transcriptional regulator, PadR-like family [Acidianus hospitalis 
+W1]
+Length=149
+
+ Score = 36.2 bits (82),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 27/85 (32%), Positives = 48/85 (56%), Gaps = 19/85 (22%)
+
+Query  1   MQLERRKRGTMEIM------------FDILRNCEPKC-GITRVIYGAGINYVVAQKYLDQ  47
+           M LER ++GT++++            ++I+++ E K  GI +     G  Y V    L Q
+Sbjct  3   MNLERLRKGTLKLLILEALNDKPMHAYEIIKSIEKKFHGIYKP--SPGSLYPV----LKQ  56
+
+Query  48  LVKVGALNIKTENDRKIYEITEKGK  72
+           L++ G + ++ ++D+KIY IT+KGK
+Sbjct  57  LIESGMITVEEKDDKKIYIITDKGK  81
+
+
+>ref|YP_305587.1| conserved hypothetical protein [Methanosarcina barkeri str. Fusaro]
+ ref|WP_011307053.1| hypothetical protein [Methanosarcina barkeri]
+ gb|AAZ71007.1| conserved hypothetical protein [Methanosarcina barkeri str. Fusaro]
+Length=104
+
+ Score = 35.0 bits (79),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 26/76 (34%), Positives = 41/76 (54%), Gaps = 4/76 (5%)
+
+Query  6    RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+            ++R   +I  DILR        T ++Y   +N+ +AQKYL+ L K   L IK EN   ++
+Sbjct  31   KRRSRTDIAVDILRVAMNGAKKTHIVYEVNLNFNIAQKYLEML-KEKEL-IKHENG--LF  86
+
+Query  66   EITEKGKLLRTHIEEF  81
+              T+KGK+ +   +E 
+Sbjct  87   ITTDKGKVFQEMAKEL  102
+
+
+>ref|NP_616737.1| hypothetical protein MA1811 [Methanosarcina acetivorans C2A]
+ ref|WP_011021814.1| hypothetical protein [Methanosarcina acetivorans]
+ gb|AAM05217.1| predicted protein [Methanosarcina acetivorans C2A]
+Length=106
+
+ Score = 34.7 bits (78),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 25/74 (34%), Positives = 41/74 (55%), Gaps = 4/74 (5%)
+
+Query  2   QLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTEND  61
+           +L  ++R   +I  DILR        T ++Y   +N+ +AQKYL+ L K   L I+ EN 
+Sbjct  29  ELVLKRRSRTDIAVDILRVAMNGAKKTHIVYEVNLNFNIAQKYLEML-KEKEL-IRHENG  86
+
+Query  62  RKIYEITEKGKLLR  75
+             ++  T+KGK+ +
+Sbjct  87  --VFITTDKGKVFQ  98
+
+
+>ref|XP_803357.1| hypothetical protein [Trypanosoma cruzi strain CL Brener]
+ gb|EAN81911.1| hypothetical protein, conserved [Trypanosoma cruzi]
+Length=978
+
+ Score = 35.4 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  28   TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKLLRTHIEEFIKIREN  87
+            +R ++G  ++YV +Q++LD    +G L +KT++D    EI     L+   I++ +  +++
+Sbjct  895  SRGVFGGSLSYVFSQEWLDAQRALGTLFVKTKDDPSCAEI---ALLVLADIQDLVMAKKD  951
+
+Query  88   LYSAKEKV  95
+            L + + +V
+Sbjct  952  LEAMESRV  959
+
+
+>ref|YP_004462438.1| hypothetical protein Mahau_0400 [Mahella australiensis 50-1 BON]
+ ref|WP_013780049.1| hypothetical protein [Mahella australiensis]
+ gb|AEE95616.1| hypothetical protein Mahau_0400 [Mahella australiensis 50-1 BON]
+Length=174
+
+ Score = 35.0 bits (79),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 26/51 (51%), Gaps = 1/51 (2%)
+
+Query  23  PKCGITRVIYGAGI-NYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGK  72
+           P   IT  + GA + NY   Q+ L QLV+ G ++      R  Y I +KGK
+Sbjct  27  PNAQITHFMVGANVMNYFDLQQLLSQLVRDGLVDYMESQGRYFYSINDKGK  77
+
+
+>gb|ESS61458.1| hypothetical protein TCDM_10946 [Trypanosoma cruzi Dm28c]
+Length=978
+
+ Score = 35.4 bits (80),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  28   TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKLLRTHIEEFIKIREN  87
+            +R ++G  ++YV +Q++LD    +G L +KT++D    EI     L+   I++ +  +++
+Sbjct  895  SRGVFGGSLSYVFSQEWLDAQRALGTLFVKTKDDPSCAEI---ALLVLADIQDLVMAKKD  951
+
+Query  88   LYSAKEKV  95
+            L + + +V
+Sbjct  952  LEAMENRV  959
+
+
+>gb|EKG03819.1| hypothetical protein TCSYLVIO_005123 [Trypanosoma cruzi]
+Length=978
+
+ Score = 35.4 bits (80),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  28   TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKLLRTHIEEFIKIREN  87
+            +R ++G  ++YV +Q++LD    +G L +KT++D    EI     L+   I++ +  +++
+Sbjct  895  SRGVFGGSLSYVFSQEWLDAQRALGTLFVKTKDDPSCAEI---ALLVLADIQDLVMAKKD  951
+
+Query  88   LYSAKEKV  95
+            L + + +V
+Sbjct  952  LEAMENRV  959
+
+
+>ref|YP_023097.1| hypothetical protein PTO0319 [Picrophilus torridus DSM 9790]
+ ref|WP_011177120.1| hypothetical protein [Picrophilus torridus]
+ gb|AAT42904.1| hypothetical protein PTO0319 [Picrophilus torridus DSM 9790]
+Length=92
+
+ Score = 33.9 bits (76),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 35/68 (51%), Gaps = 4/68 (6%)
+
+Query  5   RRKRGTMEIMFDILRN-CEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           R+ R   EI  +IL    +    ++ V+   G+ Y  A+ Y+DQL   G L   +E D  
+Sbjct  2   RKYRTQTEIKIEILSYVAKEDATVSDVVRDIGVPYTRAEVYMDQLESSGLLKKLSEKD--  59
+
+Query  64  IYEITEKG  71
+            Y+ITE+G
+Sbjct  60  -YKITEEG  66
+
+
+>ref|YP_565352.1| hypothetical protein Mbur_0631 [Methanococcoides burtonii DSM 
+6242]
+ ref|WP_011498761.1| hypothetical protein [Methanococcoides burtonii]
+ gb|ABE51602.1| Hypothetical protein Mbur_0631 [Methanococcoides burtonii DSM 
+6242]
+Length=93
+
+ Score = 33.5 bits (75),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 43/81 (53%), Gaps = 4/81 (5%)
+
+Query  6   RKRGTMEIMFDIL---RNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKT-END  61
+           +KR  +EI+ DIL   R        T++   + +++ + ++Y+  L K G +  K  +  
+Sbjct  5   QKRSRLEIIRDILKVIRESNNSISPTKLQRFSNLSFQMFEEYVKDLEKKGLIEAKPYKEK  64
+
+Query  62  RKIYEITEKGKLLRTHIEEFI  82
+           RKIY +T+KG+      ++F+
+Sbjct  65  RKIYSLTDKGRTFLDKYQDFV  85
+
+
+>ref|YP_003727211.1| hypothetical protein Metev_1568 [Methanohalobium evestigatum 
+Z-7303]
+ ref|WP_013194980.1| hypothetical protein [Methanohalobium evestigatum]
+ gb|ADI74415.1| conserved hypothetical protein [Methanohalobium evestigatum Z-7303]
+Length=86
+
+ Score = 33.5 bits (75),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 21/67 (31%), Positives = 35/67 (52%), Gaps = 4/67 (6%)
+
+Query  6   RKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIY  65
+           ++R  ++I  +IL         T ++Y A +N+ +  KYLD L + G +    E +  +Y
+Sbjct  13  KRRSRIDISEEILNAAIDGAKKTHLVYSANLNFDIINKYLDMLEEKGLI----EKEGDLY  68
+
+Query  66  EITEKGK  72
+             TEKGK
+Sbjct  69  VTTEKGK  75
+
+
+>ref|XP_809088.1| hypothetical protein [Trypanosoma cruzi strain CL Brener]
+ gb|EAN87237.1| hypothetical protein, conserved [Trypanosoma cruzi]
+Length=978
+
+ Score = 35.0 bits (79),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 17/68 (25%), Positives = 40/68 (59%), Gaps = 3/68 (4%)
+
+Query  28   TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITEKGKLLRTHIEEFIKIREN  87
+            +R ++G  ++YV +Q++LD    +G L +KT++D    E+     L+   I++ +  +++
+Sbjct  895  SRGVFGGSLSYVFSQEWLDAQRALGTLFVKTKDDPSCAEV---ALLVLADIQDLVTAKKD  951
+
+Query  88   LYSAKEKV  95
+            L + + +V
+Sbjct  952  LEAMENRV  959
+
+
+>ref|YP_003541931.1| transcriptional regulator protein [Methanohalophilus mahii DSM 
+5219]
+ ref|WP_013037229.1| transcriptional regulator [Methanohalophilus mahii]
+ gb|ADE36286.1| transcriptional regulator protein [Methanohalophilus mahii DSM 
+5219]
+Length=82
+
+ Score = 33.1 bits (74),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  7   KRGTMEIMFDILRNCE-PKCGITRVIYGAGINYVVAQKYLDQLVKVG  52
+           +RG +EIM DIL+  +  +   T ++Y A +N+  A  YL+ L+  G
+Sbjct  2   RRGKLEIMIDILKVVQRTEATKTSIVYKANLNFNRADNYLEALIDQG  48
+
+
+>ref|XP_003602920.1| RING zinc finger protein-like protein [Medicago truncatula]
+ gb|AES73171.1| RING zinc finger protein-like protein [Medicago truncatula]
+Length=402
+
+ Score = 34.7 bits (78),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 29/48 (60%), Gaps = 3/48 (6%)
+
+Query  57   KTENDRKIYEI-TEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTDS  103
+            K END  + EI  EKGK++R  IEE+ + R +  S  EK SE  +T S
+Sbjct  214  KEENDECVVEIEIEKGKMMRNEIEEYYRKRHS--SVGEKESERKKTAS  259
+
+
+>ref|XP_001417513.1| predicted protein [Ostreococcus lucimarinus CCE9901]
+ gb|ABO95806.1| predicted protein [Ostreococcus lucimarinus CCE9901]
+Length=235
+
+ Score = 34.7 bits (78),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 22/74 (30%), Positives = 35/74 (47%), Gaps = 5/74 (7%)
+
+Query  30   VIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYEITE-----KGKLLRTHIEEFIKI  84
+             +  +G+   +AQKYLD LV  GA+ +K    +K+Y  T+       + LR    E + +
+Sbjct  30   ALGASGVKKGLAQKYLDALVDNGAIRVKDAGKQKVYYATQDDEVADAEALRAMGAEAVAV  89
+
+Query  85   RENLYSAKEKVSEL  98
+             E    A  +V  L
+Sbjct  90   SEENARASAEVGRL  103
+
+
+>gb|AGV40770.1| M-protein [Streptococcus equi subsp. zooepidemicus]
+ gb|AGV40771.1| M-protein [Streptococcus equi subsp. zooepidemicus]
+ gb|AGV40772.1| M-protein [Streptococcus equi subsp. zooepidemicus]
+ gb|AGV40773.1| M-protein [Streptococcus equi subsp. zooepidemicus]
+Length=501
+
+ Score = 34.3 bits (77),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 38/58 (66%), Gaps = 4/58 (7%)
+
+Query  42   QKYLDQLVKVGALN-IKTENDRKIYEITEKGKLLRTHIEEFIKIRENLYSAKEKVSEL  98
+            QKY + +  + AL+ +K   DR   EI++K K +++ +E + + R+ +Y A++KVSEL
+Sbjct  116  QKYYNDVSGLTALSELK---DRMASEISDKNKEMQSIVESYAQARQKVYKAEQKVSEL  170
+
+
+>ref|YP_565076.1| hypothetical protein Mbur_0330 [Methanococcoides burtonii DSM 
+6242]
+ ref|WP_011498488.1| transcriptional regulator [Methanococcoides burtonii]
+ gb|ABE51326.1| Hypothetical protein Mbur_0330 [Methanococcoides burtonii DSM 
+6242]
+Length=87
+
+ Score = 32.7 bits (73),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 37/68 (54%), Gaps = 7/68 (10%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITR--VIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKI  64
+           +RG +EI+ DIL N   K   T+  ++Y A +N+  A +YL  ++ +G +    E D   
+Sbjct  5   RRGKLEIIVDIL-NVVRKSDATKTAIVYNANLNFNRANQYLIMMMCIGLV----EKDINK  59
+
+Query  65  YEITEKGK  72
+           Y IT+ G 
+Sbjct  60  YSITDLGS  67
+
+
+>ref|YP_003247002.1| hypothetical protein Metvu_0661 [Methanocaldococcus vulcanius 
+M7]
+ ref|WP_015732741.1| hypothetical protein [Methanocaldococcus vulcanius]
+ gb|ACX72520.1| conserved hypothetical protein [Methanocaldococcus vulcanius 
+M7]
+Length=99
+
+ Score = 33.1 bits (74),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 40/68 (59%), Gaps = 4/68 (6%)
+
+Query  5   RRKRGTMEIMFDILRNCEPKCGI-TRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRK  63
+           R KR   E++F+IL   +    + TR++Y A +++    KY+D L+  G +  K +N++ 
+Sbjct  17  RYKRSQFEVIFEILHIIKEGEKVKTRIMYAANLDWRNFSKYMDFLIGHGFIK-KDKNEK-  74
+
+Query  64  IYEITEKG  71
+            +E+TE G
+Sbjct  75  -FELTELG  81
+
+
+>ref|WP_008439755.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+ gb|EMR74239.1| putative transcriptional regulator [Thaumarchaeota archaeon SCGC 
+AB-539-E09]
+Length=91
+
+ Score = 32.7 bits (73),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 27/96 (28%), Positives = 47/96 (49%), Gaps = 7/96 (7%)
+
+Query  7    KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+            KR   +IM  IL         T ++Y + +N+ +  KY   LV++G L  K ++    + 
+Sbjct  2    KRDKYDIMAIILSAAIRGIKKTALVYRSNLNFKLMHKYTKILVEIGYLTFKKQH----FF  57
+
+Query  67   ITEKGKLLRTHIEEFIKIRENLYSAKEKVSELLRTD  102
+             TEKGK+   H    I    ++Y+++++  E   TD
+Sbjct  58   TTEKGKMYLEHYNVLI---NHVYASEQQNVESEITD  90
+
+
+>ref|YP_002467433.1| hypothetical protein Mpal_2431 [Methanosphaerula palustris E1-9c]
+ ref|WP_012619029.1| hypothetical protein [Methanosphaerula palustris]
+ gb|ACL17710.1| conserved hypothetical protein [Methanosphaerula palustris E1-9c]
+Length=91
+
+ Score = 32.7 bits (73),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 39/83 (47%), Gaps = 3/83 (4%)
+
+Query  7   KRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQKYLDQLVKVGALNIKTENDRKIYE  66
+           +R   EI ++IL  C+     T +I    +N    Q+YL+ LV  G L      ++  Y 
+Sbjct  4   RRTPYEIYWEILVFCKTPRSFTGIINRCDLNSKTGQEYLEFLVTRGYLLKVLAGEKTTYA  63
+
+Query  67  ITEKGKLLRTHIEEFIKIRENLY  89
+            TE+      +I  F ++ +NL+
+Sbjct  64  ATERAP---EYIALFSRLYQNLF  83
+
+
+>ref|XP_005492480.1| PREDICTED: anoctamin-2 [Zonotrichia albicollis]
+Length=989
+
+ Score = 34.3 bits (77),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 26/89 (29%), Positives = 49/89 (55%), Gaps = 4/89 (4%)
+
+Query  1    MQLERRKRGTMEIMFDILRNCEPKCGITRVIYGAGINYVVAQ-KYLDQLVKVGALNIKTE  59
+            +Q E  +R  +E   +I ++ E + G  R+I+G G   + A  + L +  ++  + + T 
+Sbjct  145  LQREEYERNLLEAGLEIEKDPEVRGGDLRLIHGIGFVRIHAPWQVLSREAELLKIKMPT-  203
+
+Query  60   NDRKIYEITEKGKLLRTHIEEFIKIRENL  88
+              +K+YEITE+  +L+T  E + K+ E L
+Sbjct  204  --KKMYEITEEKGILKTLNEIWCKLTEPL  230
+
+

@@ -1,0 +1,777 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1PFS
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1PFS|A  Chain A, Solution Nmr Structure Of The Single-Strande...   166    2e-51
+ref|NP_040659.1|  ssDNA-binding protein [Pseudomonas phage Pf3] >...   162    5e-50
+ref|YP_008103243.1|  hypothetical protein PCA10_29060 [Pseudomona...  51.2    1e-06
+gb|ACD39136.1|  hypothetical protein PACL_0348 [Pseudomonas aerug...  43.9    4e-04
+gb|ACD39148.1|  hypothetical protein PACL_0360 [Pseudomonas aerug...  43.9    4e-04
+ref|WP_005743704.1|  propanediol utilization protein [Pseudomonas...  40.8    0.005
+ref|YP_274978.1|  prophage PSPPH05, helix-destabilizing protein [...  40.0    0.010
+ref|WP_019098615.1|  hypothetical protein [Pseudomonas putida]        37.0    0.093
+gb|EGN98332.1|  hypothetical protein SERLA73DRAFT_74559 [Serpula ...  35.8    1.3  
+ref|WP_017411304.1|  hypothetical protein [Aeromonas hydrophila]      33.9    1.4  
+ref|NP_720202.1|  UDP-glucuronate 4-epimerase WcvA [Shewanella on...  35.0    1.9  
+ref|WP_008552827.1|  LacI family transcriptional regulator [Pseud...  34.3    3.4  
+ref|YP_005083091.1|  putative sugar-binding protein [Pseudovibrio...  34.3    3.5  
+ref|YP_871712.1|  NAD-dependent epimerase/dehydratase [Shewanella...  33.9    5.7  
+
+
+>pdb|1PFS|A Chain A, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+ pdb|1PFS|B Chain B, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+Length=78
+
+ Score =  166 bits (419),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>ref|NP_040659.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ sp|P03672.1|G5P_BPPF3 RecName: Full=DNA-Binding protein G5P; Short=G5P; AltName: Full=Single-stranded 
+DNA-binding protein
+ gb|AAA72242.1| ss-DNA binding protein [synthetic construct]
+ gb|AAA88385.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ gb|AAA88394.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+Length=78
+
+ Score =  162 bits (410),  Expect = 5e-50, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKP PLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPFPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>ref|YP_008103243.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103254.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103265.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|WP_016492806.1| hypothetical protein [Pseudomonas resinovorans]
+ dbj|BAN48638.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48649.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48660.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+Length=103
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVES---VIPAGSYQVPY  57
+           + + IT + + R GTS  G PYT  E + HL     P +  ++  S   V+P G Y+VP 
+Sbjct  6   IKVSITASCTYRSGTSGAGKPYTMAEAYAHLPGCDFPQKFSYYCRSEQEVLPTGDYEVPL  65
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+           +  V +GR     D +  +R
+Sbjct  66  KGEVKDGRVVFDLDPRQGRR  85
+
+
+>gb|ACD39136.1| hypothetical protein PACL_0348 [Pseudomonas aeruginosa]
+Length=99
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>gb|ACD39148.1| hypothetical protein PACL_0360 [Pseudomonas aeruginosa]
+Length=99
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>ref|WP_005743704.1| propanediol utilization protein [Pseudomonas amygdali]
+ gb|EGH83525.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. lachrymans str. M301315]
+Length=98
+
+ Score = 40.8 bits (94),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 40/81 (49%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVES---VIPAGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL + P+P +  F+  +   V   G+Y+  
+Sbjct  3   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPNIPYPQKTDFYASTPAEVPQPGTYECD  62
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  63  VIADVRDGRLEFTCDPRQGRR  83
+
+
+>ref|YP_274978.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+ ref|WP_011168785.1| propanediol utilization protein [Pseudomonas savastanoi]
+ gb|AAZ34264.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=95
+
+ Score = 40.0 bits (92),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 26/81 (32%), Positives = 40/81 (49%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVE--SVIP-AGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL   P+P +  F+    S +P  G+Y+  
+Sbjct  1   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPHIPYPQKTDFYASTPSEVPQPGTYECD  60
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  61  VIADVRDGRLEFTCDPRQGRR  81
+
+
+>ref|WP_019098615.1| hypothetical protein [Pseudomonas putida]
+Length=90
+
+ Score = 37.0 bits (84),  Expect = 0.093, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 37/79 (47%), Gaps = 4/79 (5%)
+
+Query  3   IQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVESV--IPA-GSYQVPYR  58
+           I +  T   R G +AK   PY     F+HL + P+P  C F+ ++   +P  G+Y+    
+Sbjct  5   IIVEVTGQQRSGIAAKSQKPYCMFTCFVHLPNIPYPQMCDFYAQAANEVPQPGTYECDIV  64
+
+Query  59  INVNNGRPELAFDFKAMKR  77
+             V +GR     D +  +R
+Sbjct  65  ATVRDGRLNFEVDPRQGRR  83
+
+
+>gb|EGN98332.1| hypothetical protein SERLA73DRAFT_74559 [Serpula lacrymans var. 
+lacrymans S7.3]
+ gb|EGO23898.1| hypothetical protein SERLADRAFT_439209 [Serpula lacrymans var. 
+lacrymans S7.9]
+Length=772
+
+ Score = 35.8 bits (81),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 27/70 (39%), Positives = 35/70 (50%), Gaps = 7/70 (10%)
+
+Query  7    FTDSVRQGTSAKGNPYT-FQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRINVNNGR  65
+            FTDS+       G P+   Q GF ++ D  +P   Q   E  + AG+    Y IN   G 
+Sbjct  569  FTDSITGDWG--GKPFVDMQNGFKYILDN-YP---QIDPERAVAAGASWGGYAINWIQGH  622
+
+Query  66   PELAFDFKAM  75
+            PEL F+FKAM
+Sbjct  623  PELGFNFKAM  632
+
+
+>ref|WP_017411304.1| hypothetical protein [Aeromonas hydrophila]
+Length=96
+
+ Score = 33.9 bits (76),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 29/46 (63%), Gaps = 4/46 (9%)
+
+Query  1   MNIQITFTDSVRQ-GTSAK-GNPYTF--QEGFLHLEDKPHPLQCQF  42
+           M I+I   +   Q GTS K G PY+   QE +LHLE +P+P++ +F
+Sbjct  1   MKIEIANVNVRNQSGTSQKTGKPYSMNKQEAYLHLEGQPYPVRFEF  46
+
+
+>ref|NP_720202.1| UDP-glucuronate 4-epimerase WcvA [Shewanella oneidensis MR-1]
+ ref|WP_011074276.1| hypothetical protein [Shewanella oneidensis]
+ gb|AAN57645.1| UDP-glucuronate 4-epimerase WcvA [Shewanella oneidensis MR-1]
+Length=335
+
+ Score = 35.0 bits (79),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 31/55 (56%), Gaps = 3/55 (5%)
+
+Query  26   EGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRI-NVNNGRPELAFDF-KAMKRA  78
+            EG + ++DKP      + VE+  PA S   PYR+ N+ NG P    DF  A++RA
+Sbjct  226  EGIIRVQDKPPSPTPDWRVETGTPANS-SAPYRVFNIGNGSPVQLLDFITALERA  279
+
+
+>ref|WP_008552827.1| LacI family transcriptional regulator [Pseudovibrio sp. JE062]
+ gb|EEA91985.1| transcriptional regulator protein, LacI family [Pseudovibrio 
+sp. JE062]
+Length=341
+
+ Score = 34.3 bits (77),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 27/56 (48%), Gaps = 3/56 (5%)
+
+Query  9    DSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRINVNNG  64
+            D VR G  ++ N YTF    L LED+P  L C      V+  G+Y+    + +  G
+Sbjct  213  DYVRAGAMSEENGYTFAMEILQLEDRPTALLCS---SVVMAKGAYRACNELGIKIG  265
+
+
+>ref|YP_005083091.1| putative sugar-binding protein [Pseudovibrio sp. FO-BEG1]
+ ref|WP_014286846.1| LacI family transcriptional regulator [Pseudovibrio sp. FO-BEG1]
+ gb|AEV39069.1| putative sugar-binding protein [Pseudovibrio sp. FO-BEG1]
+Length=341
+
+ Score = 34.3 bits (77),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 27/56 (48%), Gaps = 3/56 (5%)
+
+Query  9    DSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRINVNNG  64
+            D VR G  ++ N YTF    L LED+P  L C      V+  G+Y+    + +  G
+Sbjct  213  DYVRAGAMSEENGYTFAMEILQLEDRPTALLCS---SVVMAKGAYRACNELGIKIG  265
+
+
+>ref|YP_871712.1| NAD-dependent epimerase/dehydratase [Shewanella sp. ANA-3]
+ ref|WP_011718798.1| hypothetical protein [Shewanella sp. ANA-3]
+ gb|ABK50306.1| NAD-dependent epimerase/dehydratase [Shewanella sp. ANA-3]
+Length=335
+
+ Score = 33.9 bits (76),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 26/48 (54%), Gaps = 2/48 (4%)
+
+Query  26   EGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRI-NVNNGRPELAFDF  72
+            EG + ++DKP      + VE+  PA S   PYR+ N+ NG P    DF
+Sbjct  226  EGIIRVQDKPPRPTPDWRVETGTPANS-SAPYRVFNIGNGSPVQLLDF  272
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308413994686
+Results from round 2
+
+
+Query= 1PFS
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_040659.1|  ssDNA-binding protein [Pseudomonas phage Pf3] >...   128    1e-36
+pdb|1PFS|A  Chain A, Solution Nmr Structure Of The Single-Strande...   128    1e-36
+gb|ACD39148.1|  hypothetical protein PACL_0360 [Pseudomonas aerug...   121    1e-33
+gb|ACD39136.1|  hypothetical protein PACL_0348 [Pseudomonas aerug...   121    1e-33
+ref|YP_008103243.1|  hypothetical protein PCA10_29060 [Pseudomona...   117    5e-32
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_005743704.1|  propanediol utilization protein [Pseudomonas...  74.3    3e-15
+ref|YP_274978.1|  prophage PSPPH05, helix-destabilizing protein [...  73.1    7e-15
+ref|WP_019098615.1|  hypothetical protein [Pseudomonas putida]        72.0    2e-14
+gb|EGH44305.1|  prophage PSPPH05, helix-destabilizing protein [Ps...  56.6    8e-09
+ref|WP_010157978.1|  prophage PSPPH05, helix-destabilizing protei...  49.2    5e-06
+ref|WP_017411304.1|  hypothetical protein [Aeromonas hydrophila]      41.2    0.004
+
+
+>ref|NP_040659.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ sp|P03672.1|G5P_BPPF3 RecName: Full=DNA-Binding protein G5P; Short=G5P; AltName: Full=Single-stranded 
+DNA-binding protein
+ gb|AAA72242.1| ss-DNA binding protein [synthetic construct]
+ gb|AAA88385.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ gb|AAA88394.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+Length=78
+
+ Score =  128 bits (322),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKP PLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPFPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>pdb|1PFS|A Chain A, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+ pdb|1PFS|B Chain B, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+Length=78
+
+ Score =  128 bits (322),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>gb|ACD39148.1| hypothetical protein PACL_0360 [Pseudomonas aeruginosa]
+Length=99
+
+ Score =  121 bits (304),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>gb|ACD39136.1| hypothetical protein PACL_0348 [Pseudomonas aeruginosa]
+Length=99
+
+ Score =  121 bits (304),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>ref|YP_008103243.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103254.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103265.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|WP_016492806.1| hypothetical protein [Pseudomonas resinovorans]
+ dbj|BAN48638.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48649.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48660.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+Length=103
+
+ Score =  117 bits (293),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 26/80 (33%), Positives = 40/80 (50%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVES---VIPAGSYQVPY  57
+           + + IT + + R GTS  G PYT  E + HL     P +  ++  S   V+P G Y+VP 
+Sbjct  6   IKVSITASCTYRSGTSGAGKPYTMAEAYAHLPGCDFPQKFSYYCRSEQEVLPTGDYEVPL  65
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+           +  V +GR     D +  +R
+Sbjct  66  KGEVKDGRVVFDLDPRQGRR  85
+
+
+>ref|WP_005743704.1| propanediol utilization protein [Pseudomonas amygdali]
+ gb|EGH83525.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. lachrymans str. M301315]
+Length=98
+
+ Score = 74.3 bits (181),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVE---SVIPAGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL + P+P +  F+      V   G+Y+  
+Sbjct  3   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPNIPYPQKTDFYASTPAEVPQPGTYECD  62
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  63  VIADVRDGRLEFTCDPRQGRR  83
+
+
+>ref|YP_274978.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+ ref|WP_011168785.1| propanediol utilization protein [Pseudomonas savastanoi]
+ gb|AAZ34264.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=95
+
+ Score = 73.1 bits (178),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 38/81 (47%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL   P+P +  F+      V   G+Y+  
+Sbjct  1   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPHIPYPQKTDFYASTPSEVPQPGTYECD  60
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  61  VIADVRDGRLEFTCDPRQGRR  81
+
+
+>ref|WP_019098615.1| hypothetical protein [Pseudomonas putida]
+Length=90
+
+ Score = 72.0 bits (175),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 34/80 (43%), Gaps = 4/80 (5%)
+
+Query  2   NIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+            I +  T   R G +AK   PY     F+HL + P+P  C F+      V   G+Y+   
+Sbjct  4   TIIVEVTGQQRSGIAAKSQKPYCMFTCFVHLPNIPYPQMCDFYAQAANEVPQPGTYECDI  63
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V +GR     D +  +R
+Sbjct  64  VATVRDGRLNFEVDPRQGRR  83
+
+
+>gb|EGH44305.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. pisi str. 1704B]
+Length=72
+
+ Score = 56.6 bits (135),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 26/57 (46%), Gaps = 3/57 (5%)
+
+Query  24  FQEGFLHLEDKPHPLQCQFFVE---SVIPAGSYQVPYRINVNNGRPELAFDFKAMKR  77
+             + ++HL   P+P +  F+ +    V   G Y+     +V +GR E   D +  +R
+Sbjct  1   MFQAYVHLPGVPYPQKVDFYAQTQSEVPQPGIYECDVIPDVRDGRLEFNCDPRQGRR  57
+
+
+>ref|WP_010157978.1| prophage PSPPH05, helix-destabilizing protein [SAR86 cluster 
+bacterium SAR86C]
+Length=90
+
+ Score = 49.2 bits (116),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 33/78 (42%), Gaps = 6/78 (8%)
+
+Query  5   ITFTDSVRQGTSAKG---NPYTFQEGFLHLEDKPHPLQCQFFVESVI---PAGSYQVPYR  58
+           I FT   + GTS K     P+     ++ +    HP   +FF   V    PAG Y+ P  
+Sbjct  9   IEFTGLNKTGTSMKSGTPKPWWRLGAYVKVPGLLHPQAIEFFTSEVTQVQPAGKYEAPCI  68
+
+Query  59  INVNNGRPELAFDFKAMK  76
+             + +G+  +  D   +K
+Sbjct  69  TRIQDGKITVEPDLSQLK  86
+
+
+>ref|WP_017411304.1| hypothetical protein [Aeromonas hydrophila]
+Length=96
+
+ Score = 41.2 bits (95),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 29/46 (63%), Gaps = 4/46 (9%)
+
+Query  1   MNIQITFTDSV-RQGTSAK-GNPYTF--QEGFLHLEDKPHPLQCQF  42
+           M I+I   +   + GTS K G PY+   QE +LHLE +P+P++ +F
+Sbjct  1   MKIEIANVNVRNQSGTSQKTGKPYSMNKQEAYLHLEGQPYPVRFEF  46
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.138    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0398    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308413994686
+Results from round 3
+
+
+Query= 1PFS
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1PFS|A  Chain A, Solution Nmr Structure Of The Single-Strande...   122    5e-34
+ref|NP_040659.1|  ssDNA-binding protein [Pseudomonas phage Pf3] >...   120    1e-33
+gb|ACD39148.1|  hypothetical protein PACL_0360 [Pseudomonas aerug...   120    4e-33
+gb|ACD39136.1|  hypothetical protein PACL_0348 [Pseudomonas aerug...   120    4e-33
+ref|WP_005743704.1|  propanediol utilization protein [Pseudomonas...   114    8e-31
+ref|WP_019098615.1|  hypothetical protein [Pseudomonas putida]         113    1e-30
+ref|YP_274978.1|  prophage PSPPH05, helix-destabilizing protein [...   112    5e-30
+ref|YP_008103243.1|  hypothetical protein PCA10_29060 [Pseudomona...   111    1e-29
+ref|WP_010157978.1|  prophage PSPPH05, helix-destabilizing protei...  97.8    2e-24
+gb|EGH44305.1|  prophage PSPPH05, helix-destabilizing protein [Ps...  86.2    4e-20
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_017411304.1|  hypothetical protein [Aeromonas hydrophila]      42.3    0.001
+ref|WP_002731162.1|  transcription-repair coupling factor [Phaeos...  38.5    0.22 
+ref|XP_003014692.1|  hypothetical protein ARB_07254 [Arthroderma ...  35.0    3.1  
+
+
+>pdb|1PFS|A Chain A, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+ pdb|1PFS|B Chain B, Solution Nmr Structure Of The Single-Stranded Dna Binding 
+Protein Of The Filamentous Pseudomonas Phage Pf3, Minimized 
+Average Structure
+Length=78
+
+ Score =  122 bits (305),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 78/78 (100%), Positives = 78/78 (100%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>ref|NP_040659.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ sp|P03672.1|G5P_BPPF3 RecName: Full=DNA-Binding protein G5P; Short=G5P; AltName: Full=Single-stranded 
+DNA-binding protein
+ gb|AAA72242.1| ss-DNA binding protein [synthetic construct]
+ gb|AAA88385.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+ gb|AAA88394.1| ssDNA-binding protein [Pseudomonas phage Pf3]
+Length=78
+
+ Score =  120 bits (302),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFVESVIPAGSYQVPYRIN  60
+           MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKP PLQCQFFVESVIPAGSYQVPYRIN
+Sbjct  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPFPLQCQFFVESVIPAGSYQVPYRIN  60
+
+Query  61  VNNGRPELAFDFKAMKRA  78
+           VNNGRPELAFDFKAMKRA
+Sbjct  61  VNNGRPELAFDFKAMKRA  78
+
+
+>gb|ACD39148.1| hypothetical protein PACL_0360 [Pseudomonas aeruginosa]
+Length=99
+
+ Score =  120 bits (300),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>gb|ACD39136.1| hypothetical protein PACL_0348 [Pseudomonas aeruginosa]
+Length=99
+
+ Score =  120 bits (300),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 24/80 (30%), Positives = 37/80 (46%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + I+I  T  VR G S  GN Y   E F HL   P+P + +++      ++PAG Y+   
+Sbjct  5   LTIRIETTGVVRSGNSKAGNEYHMCEAFGHLPGIPYPQRFEYYAAKQNEILPAGHYECDI  64
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V + R     D +  +R
+Sbjct  65  TCRVKDDRLWFEVDPRQARR  84
+
+
+>ref|WP_005743704.1| propanediol utilization protein [Pseudomonas amygdali]
+ gb|EGH83525.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. lachrymans str. M301315]
+Length=98
+
+ Score =  114 bits (285),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVE---SVIPAGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL + P+P +  F+      V   G+Y+  
+Sbjct  3   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPNIPYPQKTDFYASTPAEVPQPGTYECD  62
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  63  VIADVRDGRLEFTCDPRQGRR  83
+
+
+>ref|WP_019098615.1| hypothetical protein [Pseudomonas putida]
+Length=90
+
+ Score =  113 bits (283),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 34/80 (43%), Gaps = 4/80 (5%)
+
+Query  2   NIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+            I +  T   R G +AK   PY     F+HL + P+P  C F+      V   G+Y+   
+Sbjct  4   TIIVEVTGQQRSGIAAKSQKPYCMFTCFVHLPNIPYPQMCDFYAQAANEVPQPGTYECDI  63
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+              V +GR     D +  +R
+Sbjct  64  VATVRDGRLNFEVDPRQGRR  83
+
+
+>ref|YP_274978.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+ ref|WP_011168785.1| propanediol utilization protein [Pseudomonas savastanoi]
+ gb|AAZ34264.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=95
+
+ Score =  112 bits (279),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 38/81 (47%), Gaps = 4/81 (5%)
+
+Query  1   MNIQITFTDSVRQGTSAKG-NPYTFQEGFLHLEDKPHPLQCQFFVE---SVIPAGSYQVP  56
+           M + I  T   R G +AK   PYT  + F+HL   P+P +  F+      V   G+Y+  
+Sbjct  1   MTLLIEVTGIQRSGVAAKSQKPYTMFQAFVHLPHIPYPQKTDFYASTPSEVPQPGTYECD  60
+
+Query  57  YRINVNNGRPELAFDFKAMKR  77
+              +V +GR E   D +  +R
+Sbjct  61  VIADVRDGRLEFTCDPRQGRR  81
+
+
+>ref|YP_008103243.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103254.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|YP_008103265.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+ ref|WP_016492806.1| hypothetical protein [Pseudomonas resinovorans]
+ dbj|BAN48638.1| hypothetical protein PCA10_29060 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48649.1| hypothetical protein PCA10_29170 [Pseudomonas resinovorans NBRC 
+106553]
+ dbj|BAN48660.1| hypothetical protein PCA10_29280 [Pseudomonas resinovorans NBRC 
+106553]
+Length=103
+
+ Score =  111 bits (277),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 40/80 (50%), Gaps = 3/80 (4%)
+
+Query  1   MNIQITFTDSVRQGTSAKGNPYTFQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPY  57
+           + + IT + + R GTS  G PYT  E + HL     P +  ++    + V+P G Y+VP 
+Sbjct  6   IKVSITASCTYRSGTSGAGKPYTMAEAYAHLPGCDFPQKFSYYCRSEQEVLPTGDYEVPL  65
+
+Query  58  RINVNNGRPELAFDFKAMKR  77
+           +  V +GR     D +  +R
+Sbjct  66  KGEVKDGRVVFDLDPRQGRR  85
+
+
+>ref|WP_010157978.1| prophage PSPPH05, helix-destabilizing protein [SAR86 cluster 
+bacterium SAR86C]
+Length=90
+
+ Score = 97.8 bits (242),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 33/78 (42%), Gaps = 6/78 (8%)
+
+Query  5   ITFTDSVRQGTSAKG---NPYTFQEGFLHLEDKPHPLQCQFFVESVI---PAGSYQVPYR  58
+           I FT   + GTS K     P+     ++ +    HP   +FF   V    PAG Y+ P  
+Sbjct  9   IEFTGLNKTGTSMKSGTPKPWWRLGAYVKVPGLLHPQAIEFFTSEVTQVQPAGKYEAPCI  68
+
+Query  59  INVNNGRPELAFDFKAMK  76
+             + +G+  +  D   +K
+Sbjct  69  TRIQDGKITVEPDLSQLK  86
+
+
+>gb|EGH44305.1| prophage PSPPH05, helix-destabilizing protein [Pseudomonas syringae 
+pv. pisi str. 1704B]
+Length=72
+
+ Score = 86.2 bits (212),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 25/57 (44%), Gaps = 3/57 (5%)
+
+Query  24  FQEGFLHLEDKPHPLQCQFFV---ESVIPAGSYQVPYRINVNNGRPELAFDFKAMKR  77
+             + ++HL   P+P +  F+      V   G Y+     +V +GR E   D +  +R
+Sbjct  1   MFQAYVHLPGVPYPQKVDFYAQTQSEVPQPGIYECDVIPDVRDGRLEFNCDPRQGRR  57
+
+
+>ref|WP_017411304.1| hypothetical protein [Aeromonas hydrophila]
+Length=96
+
+ Score = 42.3 bits (98),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 29/46 (63%), Gaps = 4/46 (9%)
+
+Query  1   MNIQITFTDS-VRQGTSAK-GNPYTF--QEGFLHLEDKPHPLQCQF  42
+           M I+I   +   + GTS K G PY+   QE +LHLE +P+P++ +F
+Sbjct  1   MKIEIANVNVRNQSGTSQKTGKPYSMNKQEAYLHLEGQPYPVRFEF  46
+
+
+>ref|WP_002731162.1| transcription-repair coupling factor [Phaeospirillum molischianum]
+ emb|CCG43142.1| transcription repair coupling factor [Phaeospirillum molischianum 
+DSM 120]
+Length=1161
+
+ Score = 38.5 bits (88),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 12/45 (27%), Positives = 19/45 (42%), Gaps = 2/45 (4%)
+
+Query  5    ITFTDSVRQGTSAKGNPYTFQEGFLHL--EDKPHPLQCQFFVESV  47
+            +  T  VR  T  +   Y  + G + L     P PL+  FF + +
+Sbjct  148  LEHTGYVRSDTVMESGEYAVRGGIVDLFPPGCPEPLRLDFFGDEI  192
+
+
+>ref|XP_003014692.1| hypothetical protein ARB_07254 [Arthroderma benhamiae CBS 112371]
+ gb|EFE33789.1| hypothetical protein ARB_07254 [Arthroderma benhamiae CBS 112371]
+Length=684
+
+ Score = 35.0 bits (79),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 20/55 (36%), Gaps = 3/55 (5%)
+
+Query  20   NPYTFQEGFLHLEDKPHPLQCQFFVESVIPA---GSYQVPYRINVNNGRPELAFD  71
+            +P     G     D P       F +   P    GSY+ P + ++ +G    A D
+Sbjct  488  DPKFRLGGCGKAPDIPSDPSFDDFDKEFYPQITLGSYKCPRKGHLRDGFINSALD  542
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.138    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0421    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308413994686
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

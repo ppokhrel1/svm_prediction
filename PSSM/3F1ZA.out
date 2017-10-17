@@ -1,0 +1,1721 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3F1ZA
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_023342235.1|  hypothetical protein [Klebsiella pneumoniae]...   272    3e-91
+ref|WP_002917949.1|  hypothetical protein, partial [Klebsiella pn...   272    3e-91
+ref|YP_001337197.1|  hypothetical protein KPN_03535 [Klebsiella p...   272    4e-91
+ref|WP_021440759.1|  hypothetical protein [Klebsiella pneumoniae]...   271    6e-91
+ref|WP_023305030.1|  hypothetical protein [Klebsiella pneumoniae]...   269    4e-90
+ref|WP_023284317.1|  hypothetical protein [Klebsiella pneumoniae]...   269    6e-90
+ref|WP_004144870.1|  hypothetical protein [Klebsiella pneumoniae]...   268    7e-90
+pdb|3F1Z|A  Chain A, Crystal Structure Of Putative Nucleic Acid-B...   268    9e-90
+ref|YP_002236450.1|  lipoprotein [Klebsiella pneumoniae 342] >ref...   268    1e-89
+ref|WP_016161866.1|  hypothetical protein [Klebsiella sp. KTE92] ...   268    2e-89
+ref|WP_008806594.1|  hypothetical protein [Klebsiella] >gb|EFD844...   268    2e-89
+ref|WP_004889637.1|  hypothetical protein [Klebsiella pneumoniae]...   268    2e-89
+gb|ERE60110.1|  hypothetical protein N036_11065 [Enterococcus gal...   267    2e-89
+ref|YP_003437504.1|  lipoprotein [Klebsiella variicola At-22] >re...   267    2e-89
+ref|WP_023298253.1|  hypothetical protein [Klebsiella pneumoniae]...   265    2e-88
+ref|WP_004206136.1|  lipoprotein [Klebsiella pneumoniae] >gb|EMR1...   265    3e-88
+ref|WP_023319196.1|  hypothetical protein [Klebsiella pneumoniae]...   264    3e-88
+ref|WP_016529752.1|  hypothetical protein, partial [Klebsiella pn...   246    5e-81
+ref|WP_023280592.1|  hypothetical protein [Klebsiella pneumoniae]...   228    2e-74
+ref|WP_016157319.1|  hypothetical protein [Citrobacter sp. KTE32]...   173    2e-52
+ref|WP_016154181.1|  hypothetical protein [Citrobacter sp. KTE151...   171    1e-51
+ref|WP_019077543.1|  hypothetical protein [Citrobacter freundii]       169    1e-50
+ref|WP_004160299.1|  lipoprotein, partial [Klebsiella pneumoniae]...   121    3e-33
+ref|WP_004149909.1|  hypothetical protein [Klebsiella pneumoniae]...   117    9e-32
+ref|WP_002917932.1|  hypothetical protein, partial [Klebsiella pn...   114    4e-30
+gb|EHY55264.1|  salicylate hydroxylase [Exophiala dermatitidis NI...  37.4    1.1  
+ref|YP_007221672.1|  CheC, inhibitor of MCP methylation [Desulfit...  36.2    3.3  
+ref|YP_004870325.1|  starvation-inducible outer membrane lipoprot...  34.7    8.2  
+
+
+>ref|WP_023342235.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESN34218.1| hypothetical protein L365_03658 [Klebsiella pneumoniae MGH 19]
+Length=154
+
+ Score =  272 bits (696),  Expect = 3e-91, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_002917949.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|ENY55754.1| hypothetical protein C210_23653, partial [Klebsiella pneumoniae 
+subsp. pneumoniae KpMDU1]
+Length=159
+
+ Score =  272 bits (696),  Expect = 3e-91, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  28   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  87
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  88   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  147
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  148  TIPTLQNPKVVK  159
+
+
+>ref|YP_001337197.1| hypothetical protein KPN_03535 [Klebsiella pneumoniae subsp. 
+pneumoniae MGH 78578]
+ ref|YP_002921379.1| hypothetical protein KP1_4837 [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ ref|YP_005228970.1| hypothetical protein KPHS_46700 [Klebsiella pneumoniae subsp. 
+pneumoniae HS11286]
+ ref|YP_005956608.1| hypothetical protein KPN2242_20820 [Klebsiella pneumoniae KCTC 
+2242]
+ ref|YP_006634414.1| hypothetical protein A79E_0580 [Klebsiella pneumoniae subsp. 
+pneumoniae 1084]
+ ref|YP_008423711.1| hypothetical protein N559_0634 [Klebsiella pneumoniae JM45]
+ ref|YP_008662118.1| hypothetical protein D364_18220 [Klebsiella pneumoniae CG43]
+ ref|WP_004150939.1| hypothetical protein [Enterobacteriaceae]
+ gb|ABR78930.1| hypothetical protein KPN_03535 [Klebsiella pneumoniae subsp. 
+pneumoniae MGH 78578]
+ dbj|BAH65312.1| hypothetical protein KP1_4837 [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ gb|EGF64920.1| nucleic acid-binding domain protein [Klebsiella sp. MS 92-3]
+ gb|AEK00044.1| hypothetical protein KPN2242_20820 [Klebsiella pneumoniae KCTC 
+2242]
+ gb|EHL87602.1| hypothetical protein HMPREF1024_04577 [Klebsiella sp. 4_1_44FAA]
+ gb|AEW63368.1| hypothetical protein KPHS_46700 [Klebsiella pneumoniae subsp. 
+pneumoniae HS11286]
+ gb|EJJ45105.1| hypothetical protein KPNIH1_02551 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH1]
+ gb|EJJ45553.1| hypothetical protein KPNIH2_03844 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH2]
+ gb|EJJ46324.1| hypothetical protein KPNIH4_08681 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH4]
+ gb|EJJ60636.1| hypothetical protein KPNIH6_02391 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH6]
+ gb|EJJ62571.1| hypothetical protein KPNIH5_00715 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH5]
+ gb|EJJ64751.1| hypothetical protein KPNIH7_04027 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH7]
+ gb|EJJ73068.1| hypothetical protein KPNIH9_04109 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH9]
+ gb|EJJ77315.1| hypothetical protein KPNIH8_03814 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH8]
+ gb|EJJ81867.1| hypothetical protein KPNIH10_04098 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH10]
+ gb|EJJ86757.1| hypothetical protein KPNIH11_15138 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH11]
+ gb|EJJ94435.1| hypothetical protein KPNIH12_00915 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH12]
+ gb|EJJ96927.1| hypothetical protein KPNIH14_12218 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH14]
+ gb|EJK08374.1| hypothetical protein KPNIH17_04119 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH17]
+ gb|EJK10088.1| hypothetical protein KPNIH16_02371 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH16]
+ gb|EJK15818.1| hypothetical protein KPNIH18_02436 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH18]
+ gb|EJK20978.1| hypothetical protein KPNIH19_18539 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH19]
+ gb|EJK23370.1| hypothetical protein KPNIH20_05558 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH20]
+ gb|EJK27295.1| hypothetical protein KPNIH21_23065 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH21]
+ gb|EJK37056.1| hypothetical protein KPNIH22_08058 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH22]
+ gb|EJK42714.1| hypothetical protein KPNIH23_04266 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH23]
+ gb|AFQ63968.1| hypothetical protein A79E_0580 [Klebsiella pneumoniae subsp. 
+pneumoniae 1084]
+ gb|EKB68324.1| hypothetical protein HMPREF1305_00611 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW1]
+ gb|EKB72824.1| hypothetical protein HMPREF1306_04113 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW2]
+ gb|EKB80368.1| hypothetical protein HMPREF1307_00785 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW3]
+ gb|EKB83789.1| hypothetical protein HMPREF1308_03750 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW5]
+ gb|EKF77085.1| Hypothetical protein B819_26581 [Klebsiella pneumoniae subsp. 
+pneumoniae KpQ3]
+ emb|CCM83954.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST258-K26BO]
+ emb|CCM91527.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST258-K28BO]
+ emb|CCN31679.1| putative lipoprotein [Klebsiella pneumoniae subsp. pneumoniae 
+Ecl8]
+ emb|CCM93483.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST512-K30BO]
+ gb|EMB12492.1| hypothetical protein G057_03306 [Klebsiella pneumoniae hvKP1]
+ gb|EMH93022.1| tRNA_anti-like family protein [Klebsiella pneumoniae JHCK1]
+ gb|EMI38370.1| tRNA_anti-like family protein [Klebsiella pneumoniae VA360]
+ gb|EMR19722.1| hypothetical protein G000_19825 [Klebsiella pneumoniae ATCC BAA-2146]
+ gb|EMR30268.1| hypothetical protein KPBAA1705_04421 [Klebsiella pneumoniae ATCC 
+BAA-1705]
+ gb|EOR17958.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC23]
+ gb|EOY64115.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae KP-7]
+ gb|EOY70369.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC40]
+ gb|EOY73636.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC09]
+ gb|EOY81852.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC81]
+ gb|EOY83872.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC01]
+ gb|EOY95298.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC26]
+ gb|EOY99160.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC24]
+ gb|EOZ03631.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC27]
+ gb|EOZ07489.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC04]
+ gb|EOZ14700.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC22]
+ gb|EOZ22635.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC252]
+ gb|EOZ25112.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC269]
+ gb|EOZ28417.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC254]
+ gb|EOZ37905.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC280]
+ gb|EOZ37996.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC270]
+ gb|EOZ48264.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC276]
+ gb|EOZ54117.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC297]
+ gb|EOZ56723.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC309]
+ gb|EOZ65023.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 361_1301]
+ gb|EOZ76070.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae KP-11]
+ gb|EOZ81514.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 500_1420]
+ gb|EOZ87674.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 440_1540]
+ gb|EOZ90860.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 540_1460]
+ gb|EPA00670.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 646_1568]
+ gb|EPB04116.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC05]
+ gb|EPB04485.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC45]
+ gb|EPB09670.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC 52]
+ gb|EPB21014.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC0526]
+ gb|EPB24243.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC29]
+ gb|EPB24558.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC278]
+ gb|EPB40726.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC32]
+ gb|EPB41915.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC48]
+ gb|EPN87624.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC47]
+ gb|EPN95695.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC28]
+ gb|EPN97208.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC69]
+ gb|EPN99142.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC77]
+ gb|EPO07146.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC96]
+ gb|EPO15038.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC0799]
+ gb|EPO24472.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC1316]
+ gb|EPO24884.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC1097]
+ gb|EPO37561.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC33]
+ gb|EPO38065.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC61]
+ gb|EPO40548.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC59]
+ gb|EPO48652.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC07]
+ gb|EPO53621.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC17]
+ gb|EPO62402.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC18]
+ gb|EPO73871.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC31]
+ gb|EPO74486.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC06]
+ gb|EPO75262.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC02]
+ gb|EPO76923.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC67]
+ gb|EPO91813.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC179]
+ gb|EPO96535.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 160_1080]
+ gb|EPP02092.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 120_1020]
+ gb|EPP03727.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 140_1040]
+ gb|EPP12513.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 280_1220]
+ gb|EPS05275.1| nucleic acid-binding domain protein [Klebsiella pneumoniae subsp. 
+pneumoniae UKKV901664]
+ gb|EPS08190.1| nucleic acid-binding domain protein [Klebsiella pneumoniae subsp. 
+pneumoniae MP14]
+ gb|EQA16888.1| hypothetical protein N035_05140 [Klebsiella pneumoniae EGD-HP19]
+ gb|AGT22431.1| hypothetical protein N559_0634 [Klebsiella pneumoniae JM45]
+ gb|ERN57056.1| hypothetical protein N598_25315 [Klebsiella pneumoniae 303K]
+ gb|AGX39552.1| hypothetical protein D364_18220 [Klebsiella pneumoniae CG43]
+ gb|ERO76659.1| hypothetical protein L445_04144 [Klebsiella pneumoniae BIDMC 
+16]
+ gb|ERO81692.1| hypothetical protein L450_03856 [Klebsiella pneumoniae BIDMC 
+18C]
+ gb|ERO87627.1| hypothetical protein L441_03902 [Klebsiella pneumoniae BIDMC 
+12C]
+ gb|ESB02342.1| nucleic acid-binding domain protein [Escherichia coli 909957]
+ gb|ESL23970.1| hypothetical protein L478_03619 [Klebsiella pneumoniae BIDMC 
+41]
+ gb|ESL35461.1| hypothetical protein L473_03626 [Klebsiella pneumoniae BIDMC 
+36]
+ gb|ESL50614.1| hypothetical protein L460_03550 [Klebsiella pneumoniae BIDMC 
+24]
+ gb|ESL56372.1| hypothetical protein L459_03563 [Klebsiella pneumoniae BIDMC 
+23]
+ gb|ESL60829.1| hypothetical protein L458_03592 [Klebsiella pneumoniae BIDMC 
+22]
+ gb|ESL67921.1| hypothetical protein L457_03667 [Klebsiella pneumoniae BIDMC 
+21]
+ gb|ESL95693.1| hypothetical protein L419_03748 [Klebsiella pneumoniae UCICRE 
+8]
+ gb|ESM02236.1| hypothetical protein L417_03609 [Klebsiella pneumoniae UCICRE 
+6]
+ gb|ESM07348.1| hypothetical protein L418_00621 [Klebsiella pneumoniae UCICRE 
+7]
+ gb|ESM28791.1| hypothetical protein L413_00858 [Klebsiella pneumoniae UCICRE 
+2]
+ gb|ESM36589.1| hypothetical protein L401_03777 [Klebsiella pneumoniae BWH 30]
+ gb|ESM51161.1| hypothetical protein L394_03675 [Klebsiella pneumoniae MGH 48]
+ gb|ESM55508.1| hypothetical protein L399_00698 [Klebsiella pneumoniae BWH 28]
+ gb|ESM63865.1| hypothetical protein L392_03685 [Klebsiella pneumoniae MGH 46]
+ gb|ESN01536.1| hypothetical protein L376_00724 [Klebsiella pneumoniae MGH 30]
+ gb|ESN06825.1| hypothetical protein L378_00628 [Klebsiella pneumoniae MGH 32]
+ gb|ESN35327.1| hypothetical protein L367_03724 [Klebsiella pneumoniae MGH 21]
+ gb|ESN55869.1| hypothetical protein L364_00803 [Klebsiella pneumoniae MGH 18]
+ gb|ESN57732.1| hypothetical protein L363_03747 [Klebsiella pneumoniae MGH 17]
+Length=154
+
+ Score =  272 bits (695),  Expect = 4e-91, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_021440759.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ERI57289.1| hypothetical protein KLP1_2038 [Klebsiella pneumoniae KP-1]
+Length=154
+
+ Score =  271 bits (694),  Expect = 6e-91, Method: Compositional matrix adjust.
+ Identities = 131/132 (99%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATI+GQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023305030.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESM11677.1| hypothetical protein L415_03784 [Klebsiella pneumoniae UCICRE 
+4]
+Length=154
+
+ Score =  269 bits (688),  Expect = 4e-90, Method: Compositional matrix adjust.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQT SVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTCSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023284317.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESL47001.1| hypothetical protein L461_03641 [Klebsiella pneumoniae BIDMC 
+25]
+Length=154
+
+ Score =  269 bits (687),  Expect = 6e-90, Method: Compositional matrix adjust.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQN KVVK
+Sbjct  143  TIPTLQNSKVVK  154
+
+
+>ref|WP_004144870.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EEW41038.1| hypothetical protein HMPREF0484_2868 [Klebsiella pneumoniae subsp. 
+rhinoscleromatis ATCC 13884]
+Length=154
+
+ Score =  268 bits (686),  Expect = 7e-90, Method: Compositional matrix adjust.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSA DKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAVDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>pdb|3F1Z|A Chain A, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|B Chain B, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|C Chain C, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|D Chain D, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|E Chain E, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|F Chain F, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|G Chain G, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|H Chain H, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|I Chain I, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|J Chain J, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+Length=133
+
+ Score =  268 bits (684),  Expect = 9e-90, Method: Compositional matrix adjust.
+ Identities = 131/133 (98%), Positives = 131/133 (98%), Gaps = 0/133 (0%)
+
+Query  1    GASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD  60
+            GASKAFYSAGDKLFQPGDDAVAS QTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD
+Sbjct  1    GASKAFYSAGDKLFQPGDDAVASXQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD  60
+
+Query  61   IRRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+            IRRKSGIAGSYYFIVT RDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD
+Sbjct  61   IRRKSGIAGSYYFIVTXRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+
+Query  121  STIPTLQNPKVVK  133
+            STIPTLQNPKVVK
+Sbjct  121  STIPTLQNPKVVK  133
+
+
+>ref|YP_002236450.1| lipoprotein [Klebsiella pneumoniae 342]
+ ref|WP_012540494.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ACI09130.1| putative lipoprotein [Klebsiella pneumoniae 342]
+ gb|ESN36760.1| hypothetical protein L366_04383 [Klebsiella pneumoniae MGH 20]
+Length=154
+
+ Score =  268 bits (685),  Expect = 1e-89, Method: Compositional matrix adjust.
+ Identities = 130/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_016161866.1| hypothetical protein [Klebsiella sp. KTE92]
+ gb|EOQ47902.1| hypothetical protein A1WC_04381 [Klebsiella sp. KTE92]
+Length=154
+
+ Score =  268 bits (684),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 130/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_008806594.1| hypothetical protein [Klebsiella]
+ gb|EFD84495.1| hypothetical protein HMPREF0485_03273 [Klebsiella sp. 1_1_55]
+ gb|ESM70268.1| hypothetical protein L386_03916 [Klebsiella pneumoniae MGH 40]
+Length=154
+
+ Score =  268 bits (684),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 129/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_004889637.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EMH96314.1| hypothetical protein KPRYC492_03035 [Klebsiella pneumoniae RYC492]
+ gb|ESM88593.1| hypothetical protein L382_03695 [Klebsiella pneumoniae MGH 36]
+Length=154
+
+ Score =  268 bits (684),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSD LGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDDLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>gb|ERE60110.1| hypothetical protein N036_11065 [Enterococcus gallinarum EGD-AAK12]
+Length=154
+
+ Score =  267 bits (683),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 130/132 (98%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKAS+DYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASNDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSN SVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNDSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|YP_003437504.1| lipoprotein [Klebsiella variicola At-22]
+ ref|WP_012967186.1| hypothetical protein [Klebsiella]
+ gb|ADC56492.1| putative lipoprotein [Klebsiella variicola At-22]
+ emb|CDA03632.1| putative lipoprotein [Klebsiella variicola CAG:634]
+Length=154
+
+ Score =  267 bits (683),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 129/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023298253.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESL84068.1| hypothetical protein L421_04463 [Klebsiella pneumoniae UCICRE 
+10]
+Length=154
+
+ Score =  265 bits (677),  Expect = 2e-88, Method: Compositional matrix adjust.
+ Identities = 128/132 (97%), Positives = 129/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+             R SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   HRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_004206136.1| lipoprotein [Klebsiella pneumoniae]
+ gb|EMR16872.1| lipoprotein [Klebsiella pneumoniae 700603]
+Length=154
+
+ Score =  265 bits (676),  Expect = 3e-88, Method: Compositional matrix adjust.
+ Identities = 126/132 (95%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVE+LSNGS+ATI+GQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVESLSNGSIATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            T+PTLQNPKVVK
+Sbjct  143  TVPTLQNPKVVK  154
+
+
+>ref|WP_023319196.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESM61176.1| hypothetical protein L390_02575 [Klebsiella pneumoniae MGH 44]
+Length=154
+
+ Score =  264 bits (675),  Expect = 3e-88, Method: Compositional matrix adjust.
+ Identities = 126/132 (95%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYFIVTMRDEQNKTDK LTFNFGSHNSADVE+LSNGS+ATI+GQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFIVTMRDEQNKTDKHLTFNFGSHNSADVESLSNGSIATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            T+PTLQNPKVVK
+Sbjct  143  TVPTLQNPKVVK  154
+
+
+>ref|WP_016529752.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|EPF43912.1| hypothetical protein F869_09268, partial [Klebsiella pneumoniae 
+subsp. pneumoniae B5055]
+Length=141
+
+ Score =  246 bits (627),  Expect = 5e-81, Method: Compositional matrix adjust.
+ Identities = 119/119 (100%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  141
+
+
+>ref|WP_023280592.1| hypothetical protein [Klebsiella pneumoniae]
+ emb|CCI78969.1| unnamed protein product [Klebsiella pneumoniae]
+ gb|ESL19460.1| hypothetical protein L477_03588 [Klebsiella pneumoniae BIDMC 
+40]
+Length=110
+
+ Score =  228 bits (581),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  24   MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK  83
+            MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK
+Sbjct  1    MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK  60
+
+Query  84   TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  61   TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  110
+
+
+>ref|WP_016157319.1| hypothetical protein [Citrobacter sp. KTE32]
+ gb|EOQ26865.1| hypothetical protein WEU_03374 [Citrobacter sp. KTE32]
+Length=154
+
+ Score =  173 bits (439),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 75/132 (57%), Positives = 106/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+TLNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYTLNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGSHNS +VE+L  G  ATI+GQVH + ++
+Sbjct  83   RKVNGISNAYSYLVSLKDENNKTNNVIQFQFGSHNSTNVESLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_016154181.1| hypothetical protein [Citrobacter sp. KTE151]
+ gb|EOQ46771.1| hypothetical protein WC7_03400 [Citrobacter sp. KTE151]
+Length=154
+
+ Score =  171 bits (434),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 74/132 (56%), Positives = 106/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+TLNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYTLNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGSHNS +V++L  G  ATI+GQVH + ++
+Sbjct  83   RKINGISNAYSYLVSLKDENNKTNNVIQFQFGSHNSTNVDSLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_019077543.1| hypothetical protein [Citrobacter freundii]
+Length=154
+
+ Score =  169 bits (427),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 73/132 (55%), Positives = 105/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+ LNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYALNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGS+NS +VE+L  G  ATI+GQVH + ++
+Sbjct  83   RKVNGISNAYSYLVSLKDENNKTNNVIQFQFGSYNSTNVESLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_004160299.1| lipoprotein, partial [Klebsiella pneumoniae]
+ gb|EJJ87091.1| lipoprotein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH11]
+Length=58
+
+ Score =  121 bits (304),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  76   TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  1    TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  58
+
+
+>ref|WP_004149909.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EJK89171.1| hypothetical protein UUU_37940 [Klebsiella pneumoniae subsp. 
+pneumoniae DSM 30104]
+Length=57
+
+ Score =  117 bits (294),  Expect = 9e-32, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  77   MRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            MRDEQNKTDKRLTFNFGSHN ADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  1    MRDEQNKTDKRLTFNFGSHNRADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  57
+
+
+>ref|WP_002917932.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|ENY55792.1| hypothetical protein C210_23648, partial [Klebsiella pneumoniae 
+subsp. pneumoniae KpMDU1]
+Length=76
+
+ Score =  114 bits (284),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  2   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR  55
+           ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR
+Sbjct  23  ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR  76
+
+
+>gb|EHY55264.1| salicylate hydroxylase [Exophiala dermatitidis NIH/UT8656]
+Length=436
+
+ Score = 37.4 bits (85),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 31/104 (30%), Positives = 45/104 (43%), Gaps = 10/104 (10%)
+
+Query  10   GDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIR-RKSGIA  68
+            G  L    +D+  +  T+       PF L    A +D  G W KVR V+ D+R R SGI 
+Sbjct  131  GKTLQSVNEDSTGATLTFRDGSTEGPFDL---IAGAD--GAWSKVRAVLTDVRPRYSGIC  185
+
+Query  69   GSYYFIVTMRDEQNKTDKRLT----FNFGSHNSADVEALSNGSV  108
+            G    I T      +  K +     F+F +H     + + NGS+
+Sbjct  186  GFECAISTTSGHYPRISKMVGMGSYFSFSNHKGLTAQRMGNGSL  229
+
+
+>ref|YP_007221672.1| CheC, inhibitor of MCP methylation [Desulfitobacterium dichloroeliminans 
+LMG P-21439]
+ ref|WP_015263239.1| flagellar motor switch protein FliN [Desulfitobacterium dichloroeliminans]
+ gb|AGA70276.1| CheC, inhibitor of MCP methylation [Desulfitobacterium dichloroeliminans 
+LMG P-21439]
+Length=409
+
+ Score = 36.2 bits (82),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 43/86 (50%), Gaps = 1/86 (1%)
+
+Query  43   ASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEA  102
+            A SD + K   +  +IVD+R K GI GS   I++ RD     D  +  N G + S ++  
+Sbjct  74   ADSDQIRKDYPIPSIIVDVRYKVGIEGSNLLILSQRDGAVIVDLMMGGN-GQNPSEELNE  132
+
+Query  103  LSNGSVATIVGQVHQVQDSTIPTLQN  128
+            +S   VA  + Q+     +++ T+ N
+Sbjct  133  ISISGVAEAMNQMMGSAATSMSTMFN  158
+
+
+>ref|YP_004870325.1| starvation-inducible outer membrane lipoprotein [Glaciecola nitratireducens 
+FR1064]
+ ref|WP_014107211.1| starvation-inducible outer membrane lipoprotein [Glaciecola nitratireducens]
+ gb|AEP28332.1| starvation-inducible outer membrane lipoprotein [Glaciecola nitratireducens 
+FR1064]
+Length=188
+
+ Score = 34.7 bits (78),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 23/77 (30%), Positives = 41/77 (53%), Gaps = 3/77 (4%)
+
+Query  46   DYLGKWVKVRGVIVDIRRK---SGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEA  102
+            + +GK V+  GVI+D+ ++   + +  S Y ++       K     TF    +NS ++E 
+Sbjct  42   ESVGKGVRWGGVILDLSKQDDSTTVTVSQYPLLQSGQPIYKQQSGGTFTAKFNNSLNLEN  101
+
+Query  103  LSNGSVATIVGQVHQVQ  119
+            L  G++ T+VG V Q+Q
+Sbjct  102  LQQGAILTLVGNVEQLQ  118
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 301919554056
+Results from round 2
+
+
+Query= 3F1ZA
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_002917949.1|  hypothetical protein, partial [Klebsiella pn...   250    2e-82
+ref|WP_021440759.1|  hypothetical protein [Klebsiella pneumoniae]...   249    3e-82
+ref|YP_001337197.1|  hypothetical protein KPN_03535 [Klebsiella p...   249    4e-82
+ref|WP_023342235.1|  hypothetical protein [Klebsiella pneumoniae]...   249    5e-82
+ref|WP_023305030.1|  hypothetical protein [Klebsiella pneumoniae]...   248    1e-81
+ref|WP_004206136.1|  lipoprotein [Klebsiella pneumoniae] >gb|EMR1...   246    4e-81
+ref|WP_016161866.1|  hypothetical protein [Klebsiella sp. KTE92] ...   246    7e-81
+ref|YP_003437504.1|  lipoprotein [Klebsiella variicola At-22] >re...   246    8e-81
+ref|WP_023319196.1|  hypothetical protein [Klebsiella pneumoniae]...   246    8e-81
+ref|YP_002236450.1|  lipoprotein [Klebsiella pneumoniae 342] >ref...   246    8e-81
+ref|WP_008806594.1|  hypothetical protein [Klebsiella] >gb|EFD844...   245    1e-80
+ref|WP_004144870.1|  hypothetical protein [Klebsiella pneumoniae]...   245    1e-80
+ref|WP_023284317.1|  hypothetical protein [Klebsiella pneumoniae]...   245    1e-80
+gb|ERE60110.1|  hypothetical protein N036_11065 [Enterococcus gal...   245    1e-80
+ref|WP_004889637.1|  hypothetical protein [Klebsiella pneumoniae]...   245    2e-80
+ref|WP_023298253.1|  hypothetical protein [Klebsiella pneumoniae]...   244    5e-80
+pdb|3F1Z|A  Chain A, Crystal Structure Of Putative Nucleic Acid-B...   237    1e-77
+ref|WP_016157319.1|  hypothetical protein [Citrobacter sp. KTE32]...   231    7e-75
+ref|WP_016154181.1|  hypothetical protein [Citrobacter sp. KTE151...   228    5e-74
+ref|WP_016529752.1|  hypothetical protein, partial [Klebsiella pn...   226    2e-73
+ref|WP_019077543.1|  hypothetical protein [Citrobacter freundii]       225    7e-73
+ref|WP_023280592.1|  hypothetical protein [Klebsiella pneumoniae]...   203    1e-64
+ref|WP_002917932.1|  hypothetical protein, partial [Klebsiella pn...   110    1e-28
+ref|WP_004160299.1|  lipoprotein, partial [Klebsiella pneumoniae]...   105    4e-27
+ref|WP_004149909.1|  hypothetical protein [Klebsiella pneumoniae]...   105    7e-27
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_009221131.1|  hypothetical protein [Lachnospiraceae oral t...  37.3    0.81 
+
+
+>ref|WP_002917949.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|ENY55754.1| hypothetical protein C210_23653, partial [Klebsiella pneumoniae 
+subsp. pneumoniae KpMDU1]
+Length=159
+
+ Score =  250 bits (638),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  28   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  87
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  88   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  147
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  148  TIPTLQNPKVVK  159
+
+
+>ref|WP_021440759.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ERI57289.1| hypothetical protein KLP1_2038 [Klebsiella pneumoniae KP-1]
+Length=154
+
+ Score =  249 bits (637),  Expect = 3e-82, Method: Composition-based stats.
+ Identities = 131/132 (99%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATI+GQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|YP_001337197.1| hypothetical protein KPN_03535 [Klebsiella pneumoniae subsp. 
+pneumoniae MGH 78578]
+ ref|YP_002921379.1| hypothetical protein KP1_4837 [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ ref|YP_005228970.1| hypothetical protein KPHS_46700 [Klebsiella pneumoniae subsp. 
+pneumoniae HS11286]
+ ref|YP_005956608.1| hypothetical protein KPN2242_20820 [Klebsiella pneumoniae KCTC 
+2242]
+ ref|YP_006634414.1| hypothetical protein A79E_0580 [Klebsiella pneumoniae subsp. 
+pneumoniae 1084]
+ ref|YP_008423711.1| hypothetical protein N559_0634 [Klebsiella pneumoniae JM45]
+ ref|YP_008662118.1| hypothetical protein D364_18220 [Klebsiella pneumoniae CG43]
+ ref|WP_004150939.1| hypothetical protein [Enterobacteriaceae]
+ gb|ABR78930.1| hypothetical protein KPN_03535 [Klebsiella pneumoniae subsp. 
+pneumoniae MGH 78578]
+ dbj|BAH65312.1| hypothetical protein KP1_4837 [Klebsiella pneumoniae subsp. pneumoniae 
+NTUH-K2044]
+ gb|EGF64920.1| nucleic acid-binding domain protein [Klebsiella sp. MS 92-3]
+ gb|AEK00044.1| hypothetical protein KPN2242_20820 [Klebsiella pneumoniae KCTC 
+2242]
+ gb|EHL87602.1| hypothetical protein HMPREF1024_04577 [Klebsiella sp. 4_1_44FAA]
+ gb|AEW63368.1| hypothetical protein KPHS_46700 [Klebsiella pneumoniae subsp. 
+pneumoniae HS11286]
+ gb|EJJ45105.1| hypothetical protein KPNIH1_02551 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH1]
+ gb|EJJ45553.1| hypothetical protein KPNIH2_03844 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH2]
+ gb|EJJ46324.1| hypothetical protein KPNIH4_08681 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH4]
+ gb|EJJ60636.1| hypothetical protein KPNIH6_02391 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH6]
+ gb|EJJ62571.1| hypothetical protein KPNIH5_00715 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH5]
+ gb|EJJ64751.1| hypothetical protein KPNIH7_04027 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH7]
+ gb|EJJ73068.1| hypothetical protein KPNIH9_04109 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH9]
+ gb|EJJ77315.1| hypothetical protein KPNIH8_03814 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH8]
+ gb|EJJ81867.1| hypothetical protein KPNIH10_04098 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH10]
+ gb|EJJ86757.1| hypothetical protein KPNIH11_15138 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH11]
+ gb|EJJ94435.1| hypothetical protein KPNIH12_00915 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH12]
+ gb|EJJ96927.1| hypothetical protein KPNIH14_12218 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH14]
+ gb|EJK08374.1| hypothetical protein KPNIH17_04119 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH17]
+ gb|EJK10088.1| hypothetical protein KPNIH16_02371 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH16]
+ gb|EJK15818.1| hypothetical protein KPNIH18_02436 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH18]
+ gb|EJK20978.1| hypothetical protein KPNIH19_18539 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH19]
+ gb|EJK23370.1| hypothetical protein KPNIH20_05558 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH20]
+ gb|EJK27295.1| hypothetical protein KPNIH21_23065 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH21]
+ gb|EJK37056.1| hypothetical protein KPNIH22_08058 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH22]
+ gb|EJK42714.1| hypothetical protein KPNIH23_04266 [Klebsiella pneumoniae subsp. 
+pneumoniae KPNIH23]
+ gb|AFQ63968.1| hypothetical protein A79E_0580 [Klebsiella pneumoniae subsp. 
+pneumoniae 1084]
+ gb|EKB68324.1| hypothetical protein HMPREF1305_00611 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW1]
+ gb|EKB72824.1| hypothetical protein HMPREF1306_04113 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW2]
+ gb|EKB80368.1| hypothetical protein HMPREF1307_00785 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW3]
+ gb|EKB83789.1| hypothetical protein HMPREF1308_03750 [Klebsiella pneumoniae 
+subsp. pneumoniae WGLW5]
+ gb|EKF77085.1| Hypothetical protein B819_26581 [Klebsiella pneumoniae subsp. 
+pneumoniae KpQ3]
+ emb|CCM83954.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST258-K26BO]
+ emb|CCM91527.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST258-K28BO]
+ emb|CCN31679.1| putative lipoprotein [Klebsiella pneumoniae subsp. pneumoniae 
+Ecl8]
+ emb|CCM93483.1| FIG00732825: hypothetical protein [Klebsiella pneumoniae subsp. 
+pneumoniae ST512-K30BO]
+ gb|EMB12492.1| hypothetical protein G057_03306 [Klebsiella pneumoniae hvKP1]
+ gb|EMH93022.1| tRNA_anti-like family protein [Klebsiella pneumoniae JHCK1]
+ gb|EMI38370.1| tRNA_anti-like family protein [Klebsiella pneumoniae VA360]
+ gb|EMR19722.1| hypothetical protein G000_19825 [Klebsiella pneumoniae ATCC BAA-2146]
+ gb|EMR30268.1| hypothetical protein KPBAA1705_04421 [Klebsiella pneumoniae ATCC 
+BAA-1705]
+ gb|EOR17958.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC23]
+ gb|EOY64115.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae KP-7]
+ gb|EOY70369.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC40]
+ gb|EOY73636.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC09]
+ gb|EOY81852.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC81]
+ gb|EOY83872.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC01]
+ gb|EOY95298.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC26]
+ gb|EOY99160.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC24]
+ gb|EOZ03631.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC27]
+ gb|EOZ07489.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC04]
+ gb|EOZ14700.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC22]
+ gb|EOZ22635.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC252]
+ gb|EOZ25112.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC269]
+ gb|EOZ28417.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC254]
+ gb|EOZ37905.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC280]
+ gb|EOZ37996.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC270]
+ gb|EOZ48264.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC276]
+ gb|EOZ54117.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC297]
+ gb|EOZ56723.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC309]
+ gb|EOZ65023.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 361_1301]
+ gb|EOZ76070.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae KP-11]
+ gb|EOZ81514.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 500_1420]
+ gb|EOZ87674.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 440_1540]
+ gb|EOZ90860.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 540_1460]
+ gb|EPA00670.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 646_1568]
+ gb|EPB04116.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC05]
+ gb|EPB04485.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC45]
+ gb|EPB09670.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC 52]
+ gb|EPB21014.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC0526]
+ gb|EPB24243.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC29]
+ gb|EPB24558.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae VAKPC278]
+ gb|EPB40726.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC32]
+ gb|EPB41915.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC48]
+ gb|EPN87624.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC47]
+ gb|EPN95695.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC28]
+ gb|EPN97208.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC69]
+ gb|EPN99142.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC77]
+ gb|EPO07146.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC96]
+ gb|EPO15038.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC0799]
+ gb|EPO24472.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC1316]
+ gb|EPO24884.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae DMC1097]
+ gb|EPO37561.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC33]
+ gb|EPO38065.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC61]
+ gb|EPO40548.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC59]
+ gb|EPO48652.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC07]
+ gb|EPO53621.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC17]
+ gb|EPO62402.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC18]
+ gb|EPO73871.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC31]
+ gb|EPO74486.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC06]
+ gb|EPO75262.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC02]
+ gb|EPO76923.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC67]
+ gb|EPO91813.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae UHKPC179]
+ gb|EPO96535.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 160_1080]
+ gb|EPP02092.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 120_1020]
+ gb|EPP03727.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 140_1040]
+ gb|EPP12513.1| aminoacyl tRNA synthetase anti-codon binding domain-like protein, 
+PF12869 family [Klebsiella pneumoniae 280_1220]
+ gb|EPS05275.1| nucleic acid-binding domain protein [Klebsiella pneumoniae subsp. 
+pneumoniae UKKV901664]
+ gb|EPS08190.1| nucleic acid-binding domain protein [Klebsiella pneumoniae subsp. 
+pneumoniae MP14]
+ gb|EQA16888.1| hypothetical protein N035_05140 [Klebsiella pneumoniae EGD-HP19]
+ gb|AGT22431.1| hypothetical protein N559_0634 [Klebsiella pneumoniae JM45]
+ gb|ERN57056.1| hypothetical protein N598_25315 [Klebsiella pneumoniae 303K]
+ gb|AGX39552.1| hypothetical protein D364_18220 [Klebsiella pneumoniae CG43]
+ gb|ERO76659.1| hypothetical protein L445_04144 [Klebsiella pneumoniae BIDMC 
+16]
+ gb|ERO81692.1| hypothetical protein L450_03856 [Klebsiella pneumoniae BIDMC 
+18C]
+ gb|ERO87627.1| hypothetical protein L441_03902 [Klebsiella pneumoniae BIDMC 
+12C]
+ gb|ESB02342.1| nucleic acid-binding domain protein [Escherichia coli 909957]
+ gb|ESL23970.1| hypothetical protein L478_03619 [Klebsiella pneumoniae BIDMC 
+41]
+ gb|ESL35461.1| hypothetical protein L473_03626 [Klebsiella pneumoniae BIDMC 
+36]
+ gb|ESL50614.1| hypothetical protein L460_03550 [Klebsiella pneumoniae BIDMC 
+24]
+ gb|ESL56372.1| hypothetical protein L459_03563 [Klebsiella pneumoniae BIDMC 
+23]
+ gb|ESL60829.1| hypothetical protein L458_03592 [Klebsiella pneumoniae BIDMC 
+22]
+ gb|ESL67921.1| hypothetical protein L457_03667 [Klebsiella pneumoniae BIDMC 
+21]
+ gb|ESL95693.1| hypothetical protein L419_03748 [Klebsiella pneumoniae UCICRE 
+8]
+ gb|ESM02236.1| hypothetical protein L417_03609 [Klebsiella pneumoniae UCICRE 
+6]
+ gb|ESM07348.1| hypothetical protein L418_00621 [Klebsiella pneumoniae UCICRE 
+7]
+ gb|ESM28791.1| hypothetical protein L413_00858 [Klebsiella pneumoniae UCICRE 
+2]
+ gb|ESM36589.1| hypothetical protein L401_03777 [Klebsiella pneumoniae BWH 30]
+ gb|ESM51161.1| hypothetical protein L394_03675 [Klebsiella pneumoniae MGH 48]
+ gb|ESM55508.1| hypothetical protein L399_00698 [Klebsiella pneumoniae BWH 28]
+ gb|ESM63865.1| hypothetical protein L392_03685 [Klebsiella pneumoniae MGH 46]
+ gb|ESN01536.1| hypothetical protein L376_00724 [Klebsiella pneumoniae MGH 30]
+ gb|ESN06825.1| hypothetical protein L378_00628 [Klebsiella pneumoniae MGH 32]
+ gb|ESN35327.1| hypothetical protein L367_03724 [Klebsiella pneumoniae MGH 21]
+ gb|ESN55869.1| hypothetical protein L364_00803 [Klebsiella pneumoniae MGH 18]
+ gb|ESN57732.1| hypothetical protein L363_03747 [Klebsiella pneumoniae MGH 17]
+Length=154
+
+ Score =  249 bits (636),  Expect = 4e-82, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023342235.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESN34218.1| hypothetical protein L365_03658 [Klebsiella pneumoniae MGH 19]
+Length=154
+
+ Score =  249 bits (635),  Expect = 5e-82, Method: Composition-based stats.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023305030.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESM11677.1| hypothetical protein L415_03784 [Klebsiella pneumoniae UCICRE 
+4]
+Length=154
+
+ Score =  248 bits (633),  Expect = 1e-81, Method: Composition-based stats.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQT SVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTCSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_004206136.1| lipoprotein [Klebsiella pneumoniae]
+ gb|EMR16872.1| lipoprotein [Klebsiella pneumoniae 700603]
+Length=154
+
+ Score =  246 bits (629),  Expect = 4e-81, Method: Composition-based stats.
+ Identities = 126/132 (95%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVE+LSNGS+ATI+GQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVESLSNGSIATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            T+PTLQNPKVVK
+Sbjct  143  TVPTLQNPKVVK  154
+
+
+>ref|WP_016161866.1| hypothetical protein [Klebsiella sp. KTE92]
+ gb|EOQ47902.1| hypothetical protein A1WC_04381 [Klebsiella sp. KTE92]
+Length=154
+
+ Score =  246 bits (627),  Expect = 7e-81, Method: Composition-based stats.
+ Identities = 130/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|YP_003437504.1| lipoprotein [Klebsiella variicola At-22]
+ ref|WP_012967186.1| hypothetical protein [Klebsiella]
+ gb|ADC56492.1| putative lipoprotein [Klebsiella variicola At-22]
+ emb|CDA03632.1| putative lipoprotein [Klebsiella variicola CAG:634]
+Length=154
+
+ Score =  246 bits (627),  Expect = 8e-81, Method: Composition-based stats.
+ Identities = 129/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023319196.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESM61176.1| hypothetical protein L390_02575 [Klebsiella pneumoniae MGH 44]
+Length=154
+
+ Score =  246 bits (627),  Expect = 8e-81, Method: Composition-based stats.
+ Identities = 126/132 (95%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYFIVTMRDEQNKTDK LTFNFGSHNSADVE+LSNGS+ATI+GQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFIVTMRDEQNKTDKHLTFNFGSHNSADVESLSNGSIATIIGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            T+PTLQNPKVVK
+Sbjct  143  TVPTLQNPKVVK  154
+
+
+>ref|YP_002236450.1| lipoprotein [Klebsiella pneumoniae 342]
+ ref|WP_012540494.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ACI09130.1| putative lipoprotein [Klebsiella pneumoniae 342]
+ gb|ESN36760.1| hypothetical protein L366_04383 [Klebsiella pneumoniae MGH 20]
+Length=154
+
+ Score =  246 bits (627),  Expect = 8e-81, Method: Composition-based stats.
+ Identities = 130/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_008806594.1| hypothetical protein [Klebsiella]
+ gb|EFD84495.1| hypothetical protein HMPREF0485_03273 [Klebsiella sp. 1_1_55]
+ gb|ESM70268.1| hypothetical protein L386_03916 [Klebsiella pneumoniae MGH 40]
+Length=154
+
+ Score =  245 bits (626),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 129/132 (98%), Positives = 130/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RR SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   RRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_004144870.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EEW41038.1| hypothetical protein HMPREF0484_2868 [Klebsiella pneumoniae subsp. 
+rhinoscleromatis ATCC 13884]
+Length=154
+
+ Score =  245 bits (626),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSA DKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAVDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023284317.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESL47001.1| hypothetical protein L461_03641 [Klebsiella pneumoniae BIDMC 
+25]
+Length=154
+
+ Score =  245 bits (626),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQN KVVK
+Sbjct  143  TIPTLQNSKVVK  154
+
+
+>gb|ERE60110.1| hypothetical protein N036_11065 [Enterococcus gallinarum EGD-AAK12]
+Length=154
+
+ Score =  245 bits (626),  Expect = 1e-80, Method: Composition-based stats.
+ Identities = 130/132 (98%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKAS+DYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASNDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSN SVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNDSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_004889637.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EMH96314.1| hypothetical protein KPRYC492_03035 [Klebsiella pneumoniae RYC492]
+ gb|ESM88593.1| hypothetical protein L382_03695 [Klebsiella pneumoniae MGH 36]
+Length=154
+
+ Score =  245 bits (625),  Expect = 2e-80, Method: Composition-based stats.
+ Identities = 131/132 (99%), Positives = 131/132 (99%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSD LGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDDLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>ref|WP_023298253.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|ESL84068.1| hypothetical protein L421_04463 [Klebsiella pneumoniae UCICRE 
+10]
+Length=154
+
+ Score =  244 bits (622),  Expect = 5e-80, Method: Composition-based stats.
+ Identities = 128/132 (97%), Positives = 129/132 (98%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+             R SGIAGSYYF VTMRDEQNKTDKRLTFNFGSHNSADVEALSNGS+ATIVGQVHQVQDS
+Sbjct  83   HRMSGIAGSYYFTVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSIATIVGQVHQVQDS  142
+
+Query  122  TIPTLQNPKVVK  133
+            TIPTLQNPKVVK
+Sbjct  143  TIPTLQNPKVVK  154
+
+
+>pdb|3F1Z|A Chain A, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|B Chain B, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|C Chain C, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|D Chain D, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|E Chain E, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|F Chain F, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|G Chain G, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|H Chain H, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|I Chain I, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+ pdb|3F1Z|J Chain J, Crystal Structure Of Putative Nucleic Acid-Binding Lipoprotein 
+(Yp_001337197.1) From Klebsiella Pneumoniae Subsp. 
+Pneumoniae Mgh 78578 At 2.46 A Resolution
+Length=133
+
+ Score =  237 bits (604),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 131/133 (98%), Positives = 131/133 (98%), Gaps = 0/133 (0%)
+
+Query  1    GASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD  60
+            GASKAFYSAGDKLFQPGDDAVAS QTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD
+Sbjct  1    GASKAFYSAGDKLFQPGDDAVASXQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVD  60
+
+Query  61   IRRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+            IRRKSGIAGSYYFIVT RDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD
+Sbjct  61   IRRKSGIAGSYYFIVTXRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+
+Query  121  STIPTLQNPKVVK  133
+            STIPTLQNPKVVK
+Sbjct  121  STIPTLQNPKVVK  133
+
+
+>ref|WP_016157319.1| hypothetical protein [Citrobacter sp. KTE32]
+ gb|EOQ26865.1| hypothetical protein WEU_03374 [Citrobacter sp. KTE32]
+Length=154
+
+ Score =  231 bits (588),  Expect = 7e-75, Method: Composition-based stats.
+ Identities = 75/132 (57%), Positives = 106/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+TLNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYTLNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGSHNS +VE+L  G  ATI+GQVH + ++
+Sbjct  83   RKVNGISNAYSYLVSLKDENNKTNNVIQFQFGSHNSTNVESLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_016154181.1| hypothetical protein [Citrobacter sp. KTE151]
+ gb|EOQ46771.1| hypothetical protein WC7_03400 [Citrobacter sp. KTE151]
+Length=154
+
+ Score =  228 bits (582),  Expect = 5e-74, Method: Composition-based stats.
+ Identities = 74/132 (56%), Positives = 106/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+TLNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYTLNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGSHNS +V++L  G  ATI+GQVH + ++
+Sbjct  83   RKINGISNAYSYLVSLKDENNKTNNVIQFQFGSHNSTNVDSLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_016529752.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|EPF43912.1| hypothetical protein F869_09268, partial [Klebsiella pneumoniae 
+subsp. pneumoniae B5055]
+Length=141
+
+ Score =  226 bits (576),  Expect = 2e-73, Method: Composition-based stats.
+ Identities = 119/119 (100%), Positives = 119/119 (100%), Gaps = 0/119 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI
+Sbjct  23   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+            RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD
+Sbjct  83   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  141
+
+
+>ref|WP_019077543.1| hypothetical protein [Citrobacter freundii]
+Length=154
+
+ Score =  225 bits (574),  Expect = 7e-73, Method: Composition-based stats.
+ Identities = 73/132 (55%), Positives = 105/132 (80%), Gaps = 0/132 (0%)
+
+Query  2    ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDI  61
+            A+ AF+SAGD+LFQPG+ + ASM T SVA F+ P+ LNP KA+ DYLG+WVK+RGV++DI
+Sbjct  23   AADAFFSAGDRLFQPGESSAASMPTLSVADFVAPYALNPVKANKDYLGEWVKLRGVVIDI  82
+
+Query  62   RRKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDS  121
+            R+ +GI+ +Y ++V+++DE NKT+  + F FGS+NS +VE+L  G  ATI+GQVH + ++
+Sbjct  83   RKVNGISNAYSYLVSLKDENNKTNNVIQFQFGSYNSTNVESLQIGRSATIIGQVHALGEA  142
+
+Query  122  TIPTLQNPKVVK  133
+             +P LQNPKVV+
+Sbjct  143  PLPLLQNPKVVQ  154
+
+
+>ref|WP_023280592.1| hypothetical protein [Klebsiella pneumoniae]
+ emb|CCI78969.1| unnamed protein product [Klebsiella pneumoniae]
+ gb|ESL19460.1| hypothetical protein L477_03588 [Klebsiella pneumoniae BIDMC 
+40]
+Length=110
+
+ Score =  203 bits (517),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  24   MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK  83
+            MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK
+Sbjct  1    MQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIRRKSGIAGSYYFIVTMRDEQNK  60
+
+Query  84   TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  61   TDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  110
+
+
+>ref|WP_002917932.1| hypothetical protein, partial [Klebsiella pneumoniae]
+ gb|ENY55792.1| hypothetical protein C210_23648, partial [Klebsiella pneumoniae 
+subsp. pneumoniae KpMDU1]
+Length=76
+
+ Score =  110 bits (275),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  2   ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR  55
+           ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR
+Sbjct  23  ASKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVR  76
+
+
+>ref|WP_004160299.1| lipoprotein, partial [Klebsiella pneumoniae]
+ gb|EJJ87091.1| lipoprotein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH11]
+Length=58
+
+ Score =  105 bits (263),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  76   TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  1    TMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  58
+
+
+>ref|WP_004149909.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|EJK89171.1| hypothetical protein UUU_37940 [Klebsiella pneumoniae subsp. 
+pneumoniae DSM 30104]
+Length=57
+
+ Score =  105 bits (261),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  77   MRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  133
+            MRDEQNKTDKRLTFNFGSHN ADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK
+Sbjct  1    MRDEQNKTDKRLTFNFGSHNRADVEALSNGSVATIVGQVHQVQDSTIPTLQNPKVVK  57
+
+
+>ref|WP_009221131.1| hypothetical protein [Lachnospiraceae oral taxon 107]
+ gb|EGG90041.1| hypothetical protein HMPREF0491_02897 [Lachnospiraceae oral taxon 
+107 str. F0167]
+Length=186
+
+ Score = 37.3 bits (85),  Expect = 0.81, Method: Composition-based stats.
+ Identities = 26/118 (22%), Positives = 48/118 (41%), Gaps = 6/118 (5%)
+
+Query  3    SKAFYSAGDKLFQPGDDAVASMQTYSVAQFLQPFTLNPAKASSDYLGKWVKVRGVIVDIR  62
+            S +  S  +K             TY+V   +     N  KAS+D+ G++V++ G      
+Sbjct  63   SDSVQSDSNKPIVESTTESIEYTTYTVDDLMSQLNDNALKASNDHKGEYVRITG------  116
+
+Query  63   RKSGIAGSYYFIVTMRDEQNKTDKRLTFNFGSHNSADVEALSNGSVATIVGQVHQVQD  120
+            + S I  S  +I  + +          +       A V  LS+ S+ T+ G++ +V +
+Sbjct  117  KLSTIDSSGKYISLLPNTDFAIIGVTCYIKNEETKAKVSELSSDSLITLTGKITEVGE  174
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.135    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 301919554056
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

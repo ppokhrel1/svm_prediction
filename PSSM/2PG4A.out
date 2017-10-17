@@ -1,0 +1,4352 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2PG4A
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_147569.1|  hypothetical protein APE_0880a [Aeropyrum perni...   186    9e-59
+pdb|2PG4|A  Chain A, Crystal Structure Of A Putative Dna Binding ...   182    2e-57
+ref|WP_009682392.1|  MarR family transcriptional regulator, parti...  38.9    0.035
+ref|NP_742344.1|  MarR family transcriptional regulator [Pseudomo...  38.5    0.091
+ref|YP_004095388.1|  transcriptional repressor, LexA family [Baci...  38.9    0.12 
+ref|WP_010008042.1|  LexA family transcriptional regulator [Leuco...  38.9    0.12 
+ref|WP_004576405.1|  MarR family transcriptional regulator [Pseud...  38.1    0.14 
+ref|WP_021782544.1|  MarR family transcriptional regulator [Pseud...  38.1    0.15 
+ref|YP_001265555.1|  MarR family transcriptional regulator [Pseud...  38.1    0.15 
+ref|YP_001751897.1|  MarR family transcriptional regulator [Pseud...  38.1    0.16 
+ref|YP_005928116.1|  MarR family transcriptional regulator [Pseud...  37.7    0.17 
+ref|YP_003435871.1|  hypothetical protein Ferp_1445 [Ferroglobus ...  37.4    0.24 
+ref|WP_022241942.1|  transcriptional regulator MarR family [Clost...  37.7    0.27 
+ref|WP_020016464.1|  hypothetical protein [Promicromonospora suku...  36.6    0.40 
+gb|EPD08214.1|  LexA repressor, partial [Lactobacillus paracasei ...  35.8    0.42 
+ref|YP_001666449.1|  MarR family transcriptional regulator [Pseud...  36.6    0.55 
+ref|WP_019097416.1|  MarR family transcriptional regulator [Pseud...  36.6    0.59 
+ref|WP_019471693.1|  MarR family transcriptional regulator [Pseud...  36.6    0.60 
+gb|EPC77204.1|  LexA repressor, partial [Lactobacillus paracasei ...  36.6    0.64 
+ref|WP_016714396.1|  MarR family transcriptional regulator [Pseud...  36.2    0.65 
+ref|YP_004699616.1|  MarR family transcriptional regulator [Pseud...  36.2    0.68 
+ref|YP_008091967.1|  MarR family transcriptional regulator [Pseud...  36.2    0.68 
+ref|YP_008765869.1|  MarR family transcriptional regulator [Pseud...  36.2    0.70 
+ref|YP_605944.1|  MarR family transcriptional regulator [Pseudomo...  36.2    0.73 
+ref|WP_002826485.1|  LexA family transcriptional regulator [Oenoc...  36.2    0.88 
+ref|YP_008111209.1|  putative MarR family transcriptional regulat...  35.8    0.88 
+ref|WP_008730722.1|  transcriptional regulator, TetR family [Acti...  36.2    0.88 
+ref|WP_002817093.1|  LexA family transcriptional regulator [Oenoc...  36.2    0.89 
+ref|YP_810544.1|  XRE family transcriptional regulator [Oenococcu...  36.2    0.89 
+ref|WP_018350971.1|  hypothetical protein [Longispora albida]         34.7    0.90 
+ref|YP_001507429.1|  MarR family transcriptional regulator [Frank...  35.8    0.96 
+ref|WP_016392393.1|  MarR family transcriptional regulator [Pseud...  35.8    1.0  
+ref|YP_806009.1|  LexA repressor [Lactobacillus casei ATCC 334] >...  36.2    1.0  
+ref|WP_023535787.1|  marR family protein [Pseudomonas putida] >gb...  35.8    1.1  
+ref|WP_016172159.1|  hypothetical protein [Enterococcus dispar] >...  34.3    1.3  
+ref|WP_016731967.1|  hypothetical protein [Sulfolobus islandicus]     34.3    1.3  
+ref|WP_023630816.1|  MarR family transcriptional regulator [Pseud...  35.4    1.4  
+ref|YP_006805467.1|  MarR family transcriptional regulator [Nocar...  35.0    1.7  
+ref|WP_005890329.1|  MarR family transcriptional regulator [Pseud...  35.0    1.9  
+ref|WP_010198025.1|  MarR family transcriptional regulator, parti...  34.7    2.4  
+ref|WP_002554194.1|  MarR family transcriptional regulator [Pseud...  34.7    2.5  
+ref|WP_005733737.1|  MarR family transcriptional regulator [Pseud...  34.7    2.5  
+ref|WP_019142775.1|  hypothetical protein [Herbaspirillum sp. JC206]  34.7    2.6  
+ref|WP_010493617.1|  LexA family transcriptional regulator [Lacto...  35.0    2.7  
+ref|WP_020326090.1|  MarR family transcriptional regulator [Pseud...  34.7    2.9  
+ref|WP_005738676.1|  MarR family transcriptional regulator [Pseud...  34.7    3.0  
+ref|YP_003700894.1|  TetR family transcriptional regulator [Bacil...  34.7    3.1  
+ref|YP_275456.1|  MarR family transcriptional regulator [Pseudomo...  34.3    3.3  
+ref|WP_006675450.1|  XRE family transcriptional regulator [Paenib...  34.7    3.5  
+ref|WP_006283947.1|  SOS-response transcriptional repressor [Paen...  34.7    3.6  
+ref|NP_942420.1|  MarR family transcriptional regulator [Synechoc...  34.3    3.7  
+gb|EPN62478.1|  MarR family transcriptional regulator, partial [P...  34.7    3.8  
+ref|WP_019119223.1|  umuDC operon protein-like protein [Brevibaci...  34.3    4.0  
+ref|WP_020616320.1|  XRE family transcriptional regulator [Paenib...  34.3    4.2  
+ref|WP_007746549.1|  LexA family transcriptional regulator [Oenoc...  34.3    4.7  
+ref|WP_019423855.1|  XRE family transcriptional regulator [Paenib...  34.3    4.7  
+ref|WP_017701843.1|  MarR family transcriptional regulator [Pseud...  33.9    4.8  
+ref|WP_005765235.1|  MarR family transcriptional regulator [Pseud...  33.9    4.9  
+ref|NP_793394.1|  MarR family transcriptional regulator [Pseudomo...  33.9    4.9  
+ref|WP_003378217.1|  MarR family transcriptional regulator [Pseud...  33.9    5.0  
+ref|WP_005549881.1|  XRE family transcriptional regulator [Paenib...  34.3    5.1  
+ref|WP_005754631.1|  MarR family transcriptional regulator [Pseud...  33.9    5.2  
+ref|YP_003772342.1|  LexA repressor [Leuconostoc gasicomitatum LM...  34.3    5.2  
+gb|EPN50458.1|  MarR family transcriptional regulator [Pseudomona...  33.9    5.2  
+ref|YP_255179.1|  hypothetical protein Saci_0480 [Sulfolobus acid...  33.1    5.2  
+ref|WP_005712572.1|  LexA family transcriptional regulator [Lacto...  34.3    5.3  
+ref|WP_022634411.1|  Transcriptional regulator, MarR family with ...  34.3    5.4  
+ref|YP_006745191.1|  LexA repressor [Leuconostoc gelidum JB7] >re...  33.9    5.5  
+ref|WP_005715167.1|  SOS-response repressor and protease LexA [La...  33.9    5.6  
+ref|YP_003170463.1|  LexA repressor [Lactobacillus rhamnosus GG] ...  33.9    5.6  
+ref|WP_016664358.1|  hypothetical protein [Dermabacter sp. HFH008...  34.3    5.6  
+gb|EGF44850.1|  LexA repressor [Lactobacillus rhamnosus MTCC 5462]    33.9    5.9  
+ref|YP_007212878.1|  SOS regulatory protein LexA [Thermobacillus ...  33.9    6.0  
+ref|YP_003173400.1|  LexA repressor [Lactobacillus rhamnosus Lc 7...  33.9    6.3  
+ref|YP_001728266.1|  LexA repressor [Leuconostoc citreum KM20] >r...  33.9    6.4  
+ref|YP_004960722.1|  DNA-binding protein [Streptomyces bingchengg...  33.9    6.6  
+ref|WP_019006151.1|  XRE family transcriptional regulator [Cohnel...  33.9    6.7  
+ref|WP_004909345.1|  LexA repressor [Leuconostoc citreum] >emb|CC...  33.9    6.7  
+ref|WP_009708592.1|  XRE family transcriptional regulator [Desmos...  33.9    6.8  
+ref|WP_004883848.1|  MarR family transcriptional regulator [Pseud...  33.5    6.8  
+ref|YP_003428820.1|  LexA repressor [Bacillus pseudofirmus OF4] >...  33.9    6.9  
+ref|YP_003011361.1|  SOS-response transcriptional repressor, LexA...  33.9    6.9  
+ref|WP_007061059.1|  XRE family transcriptional regulator [Clostr...  33.9    7.0  
+ref|WP_018977636.1|  XRE family transcriptional regulator [Saccha...  33.5    7.5  
+ref|YP_004603292.1|  SOS-response transcriptional repressor, LexA...  33.5    7.8  
+ref|WP_019910697.1|  XRE family transcriptional regulator [Paenib...  33.5    8.1  
+ref|WP_002825134.1|  LexA family transcriptional regulator [Oenoc...  33.5    8.4  
+ref|WP_002824285.1|  LexA family transcriptional regulator [Oenoc...  33.5    8.6  
+ref|YP_001922962.1|  MarR family transcriptional regulator [Methy...  33.5    8.7  
+ref|YP_004704975.1|  LexA repressor [Leuconostoc sp. C2] >ref|WP_...  33.5    8.8  
+ref|YP_003620758.1|  transcription repressor of the SOS regulon [...  33.5    8.8  
+ref|WP_018704989.1|  XRE family transcriptional regulator [Bacill...  33.5    8.8  
+ref|WP_018755606.1|  XRE family transcriptional regulator [Paenib...  33.5    9.3  
+ref|WP_006209658.1|  XRE family transcriptional regulator [Paenib...  33.5    9.7  
+ref|YP_003242450.1|  LexA family transcriptional repressor [Paeni...  33.5    9.7  
+dbj|GAE05347.1|  SOS-response repressor and protease LexA [Paenib...  33.5    9.9  
+ref|WP_007129967.1|  XRE family transcriptional regulator [Paenib...  33.5    9.9  
+
+
+>ref|NP_147569.1| hypothetical protein APE_0880a [Aeropyrum pernix K1]
+ ref|WP_010866038.1| hypothetical protein [Aeropyrum pernix]
+ dbj|BAA79863.1| hypothetical protein APE_0880a [Aeropyrum pernix K1]
+ tpe|CCD22132.1| TPA: hypothetical protein [Aeropyrum pernix spindle-shaped virus 
+1]
+Length=94
+
+ Score =  186 bits (472),  Expect = 9e-59, Method: Compositional matrix adjust.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  2   MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV  61
+           MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV
+Sbjct  1   MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV  60
+
+Query  62  KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+           KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS
+Sbjct  61  KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  94
+
+
+>pdb|2PG4|A Chain A, Crystal Structure Of A Putative Dna Binding Protein 
+(Ape_0880a) From Aeropyrum Pernix K1 At 2.21 A Resolution
+ pdb|2PG4|B Chain B, Crystal Structure Of A Putative Dna Binding Protein 
+(Ape_0880a) From Aeropyrum Pernix K1 At 2.21 A Resolution
+Length=95
+
+ Score =  182 bits (462),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 93/95 (98%), Positives = 93/95 (98%), Gaps = 0/95 (0%)
+
+Query  1   GMDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGL  60
+           G DDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFF GLKDRLIRAGL
+Sbjct  1   GXDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFXGLKDRLIRAGL  60
+
+Query  61  VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+           VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS
+Sbjct  61  VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+
+
+>ref|WP_009682392.1| MarR family transcriptional regulator, partial [Pseudomonas sp. 
+TJI-51]
+ gb|EGB99770.1| MarR family transcriptional regulator [Pseudomonas sp. TJI-51]
+Length=106
+
+ Score = 38.9 bits (89),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 24/54 (44%), Positives = 34/54 (63%), Gaps = 3/54 (6%)
+
+Query  36  IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+           + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GRRLAE +E
+Sbjct  13  VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRRLAEAIE  65
+
+
+>ref|NP_742344.1| MarR family transcriptional regulator [Pseudomonas putida KT2440]
+ ref|WP_010951563.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AAN65808.1|AE016209_7 transcriptional regulator, MarR family [Pseudomonas putida KT2440]
+Length=150
+
+ Score = 38.5 bits (88),  Expect = 0.091, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L+LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALRLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|YP_004095388.1| transcriptional repressor, LexA family [Bacillus cellulosilyticus 
+DSM 2522]
+ ref|WP_013488992.1| XRE family transcriptional regulator [Bacillus cellulosilyticus]
+ gb|ADU30657.1| transcriptional repressor, LexA family [Bacillus cellulosilyticus 
+DSM 2522]
+Length=208
+
+ Score = 38.9 bits (89),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 41/73 (56%), Gaps = 1/73 (1%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTEKGRR  81
+           E ++KGY PS+ EI +A G++  +   G   RL + GL++ +    R ++ + L ++ RR
+Sbjct  19  EVKEKGYPPSVREIGEAVGLASSSTVHGHLSRLEKKGLIRRDPTKPRAIEVIGLNDEARR  78
+
+Query  82  LAECLEKCRDVLG  94
+           ++E       V+G
+Sbjct  79  VSESPSVYVPVIG  91
+
+
+>ref|WP_010008042.1| LexA family transcriptional regulator [Leuconostoc fallax]
+Length=211
+
+ Score = 38.9 bits (89),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+            KGY P++ EI +A G+S  +   G  +RL++ G +K++T   R + +++T  G
+Sbjct  21  NKGYPPTVREIGEAVGLSSSSTIHGHIERLVKKGYLKKDTKKPRARAIEVTTSG  74
+
+
+>ref|WP_004576405.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ENY76505.1| MarR family transcriptional regulator [Pseudomonas putida TRO1]
+Length=150
+
+ Score = 38.1 bits (87),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|WP_021782544.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ERL01877.1| MarR family transcriptional regulator [Pseudomonas putida LF54]
+Length=150
+
+ Score = 38.1 bits (87),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|YP_001265555.1| MarR family transcriptional regulator [Pseudomonas putida F1]
+ ref|YP_006386770.1| MarR family transcriptional regulator [Pseudomonas putida ND6]
+ ref|YP_006534413.1| MarR family transcriptional regulator [Pseudomonas putida DOT-T1E]
+ ref|WP_003255908.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ABQ76371.1| transcriptional regulator, MarR family [Pseudomonas putida F1]
+ gb|AFK69655.1| MarR family transcriptional regulator [Pseudomonas putida ND6]
+ gb|AFO49619.1| MarR family transcriptional regulator [Pseudomonas putida DOT-T1E]
+ gb|EMR44920.1| MarR family transcriptional regulator [Pseudomonas putida LS46]
+Length=150
+
+ Score = 38.1 bits (87),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|YP_001751897.1| MarR family transcriptional regulator [Pseudomonas putida W619]
+ ref|WP_012316805.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ACA75528.1| transcriptional regulator, MarR family [Pseudomonas putida W619]
+Length=150
+
+ Score = 38.1 bits (87),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L RAGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCRAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEA  110
+
+
+>ref|YP_005928116.1| MarR family transcriptional regulator [Pseudomonas putida BIRD-1]
+ ref|WP_014589292.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ADR57911.1| MarR family transcriptional regulator [Pseudomonas putida BIRD-1]
+Length=154
+
+ Score = 37.7 bits (86),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  61   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  119
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  120  RRDVLG  125
+
+
+>ref|YP_003435871.1| hypothetical protein Ferp_1445 [Ferroglobus placidus DSM 10642]
+ ref|WP_012965939.1| hypothetical protein [Ferroglobus placidus]
+ gb|ADC65596.1| conserved hypothetical protein [Ferroglobus placidus DSM 10642]
+Length=153
+
+ Score = 37.4 bits (85),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 49/90 (54%), Gaps = 4/90 (4%)
+
+Query  6   TLRLQFGH--LIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKE  63
+           +L   F H  ++ IL  +LE EK G  P   +I K  G S  ++   +     +  L++ 
+Sbjct  2   SLEKMFLHEKVVDILLKILEVEKSGKVPYPLKISKEVG-SPYSYISKVLSEFEKHALIES  60
+
+Query  64  ETLSYRVKTLKLTEKGRRLAECLEKCRDVL  93
+           E +  R +T+KLTE GRR+AE L+K ++ L
+Sbjct  61  E-MKGRKRTVKLTEDGRRVAELLQKLKEEL  89
+
+
+>ref|WP_022241942.1| transcriptional regulator MarR family [Clostridium sp. CAG:413]
+ emb|CDC10887.1| transcriptional regulator MarR family [Clostridium sp. CAG:413]
+Length=171
+
+ Score = 37.7 bits (86),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 38/71 (54%), Gaps = 3/71 (4%)
+
+Query  13   HLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRV  70
+            HL R  P L+E+     + S  E+ +A GVS  +    +K RL +AG V  +E+    R+
+Sbjct  38   HLYRGQPELMEYLIAHGDCSQVELSEALGVSPASVATSIK-RLCKAGFVERREDENDRRI  96
+
+Query  71   KTLKLTEKGRR  81
+              L +TE GRR
+Sbjct  97   NRLSVTESGRR  107
+
+
+>ref|WP_020016464.1| hypothetical protein [Promicromonospora sukumoe]
+Length=143
+
+ Score = 36.6 bits (83),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 40/73 (55%), Gaps = 6/73 (8%)
+
+Query  20   TLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKE--ETLSYRVKTLKLTE  77
+             LL    +G  P+ A++  A+G  +KT  +G  DRL+  GLV    +    R + + LT 
+Sbjct  36   VLLTALARGDAPTQAQLAAATG-RDKTRLIGNLDRLVELGLVSRVPDPADRRNRVVSLTA  94
+
+Query  78   KGRRLAECLEKCR  90
+            +GRR+   LE+C+
+Sbjct  95   EGRRV---LERCQ  104
+
+
+>gb|EPD08214.1| LexA repressor, partial [Lactobacillus paracasei subsp. paracasei 
+Lpp48]
+Length=93
+
+ Score = 35.8 bits (81),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 37/72 (51%), Gaps = 2/72 (3%)
+
+Query  24  FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLA  83
+            E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR   
+Sbjct  21  IEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGRDFI  78
+
+Query  84  ECLEKCRDVLGS  95
+              +    ++G+
+Sbjct  79  GVQDHGIPIVGT  90
+
+
+>ref|YP_001666449.1| MarR family transcriptional regulator [Pseudomonas putida GB-1]
+ ref|WP_012269984.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ABY96113.1| transcriptional regulator, MarR family [Pseudomonas putida GB-1]
+Length=150
+
+ Score = 36.6 bits (83),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEA  110
+
+
+>ref|WP_019097416.1| MarR family transcriptional regulator [Pseudomonas putida]
+Length=150
+
+ Score = 36.6 bits (83),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|WP_019471693.1| MarR family transcriptional regulator [Pseudomonas sp. S13.1.2]
+Length=150
+
+ Score = 36.6 bits (83),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEA  110
+
+
+>gb|EPC77204.1| LexA repressor, partial [Lactobacillus paracasei subsp. paracasei 
+Lpp71]
+Length=159
+
+ Score = 36.6 bits (83),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 37/72 (51%), Gaps = 2/72 (3%)
+
+Query  24  FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLA  83
+            E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR   
+Sbjct  21  IEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGRDFI  78
+
+Query  84  ECLEKCRDVLGS  95
+              +    ++G+
+Sbjct  79  GVQDHGIPIVGT  90
+
+
+>ref|WP_016714396.1| MarR family transcriptional regulator [Pseudomonas monteilii]
+Length=150
+
+ Score = 36.2 bits (82),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|YP_004699616.1| MarR family transcriptional regulator [Pseudomonas putida S16]
+ ref|WP_013970371.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AEJ10736.1| MarR family transcriptional regulator [Pseudomonas putida S16]
+Length=150
+
+ Score = 36.2 bits (82),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRTLAEAIEA  110
+
+
+>ref|YP_008091967.1| MarR family transcriptional regulator [Pseudomonas putida H8234]
+ ref|WP_016484329.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AGN77278.1| MarR family transcriptional regulator [Pseudomonas putida H8234]
+Length=150
+
+ Score = 36.2 bits (82),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEA  110
+
+
+>ref|YP_008765869.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+ ref|WP_023382990.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+ gb|AGZ37742.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+Length=150
+
+ Score = 36.2 bits (82),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|YP_605944.1| MarR family transcriptional regulator [Pseudomonas entomophila 
+L48]
+ ref|WP_011531588.1| MarR family transcriptional regulator [Pseudomonas entomophila]
+ emb|CAK13127.1| putative transcriptional activator, MarR family [Pseudomonas 
+entomophila L48]
+Length=145
+
+ Score = 36.2 bits (82),  Expect = 0.73, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAESIE  109
+
+
+>ref|WP_002826485.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO06003.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB553]
+Length=212
+
+ Score = 36.2 bits (82),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|YP_008111209.1| putative MarR family transcriptional regulator [Pseudomonas putida 
+NBRC 14164]
+ ref|WP_016497471.1| putative MarR family transcriptional regulator [Pseudomonas putida]
+ dbj|BAN52025.1| putative MarR family transcriptional regulator [Pseudomonas putida 
+NBRC 14164]
+Length=150
+
+ Score = 35.8 bits (81),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTTEGRALAEAIE  109
+
+
+>ref|WP_008730722.1| transcriptional regulator, TetR family [Actinomyces massiliensis]
+ gb|EJF46344.1| transcriptional regulator, TetR family [Actinomyces massiliensis 
+F0489]
+Length=196
+
+ Score = 36.2 bits (82),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 22/54 (41%), Positives = 37/54 (69%), Gaps = 7/54 (13%)
+
+Query  24  FEKKGYE-PSLAEIVKASGVSEKT---FFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           FE+KGY+  ++A+I++ SG+S      +F G +D ++RA  V EE+LS R +T+
+Sbjct  24  FERKGYQRTTMADIIRESGLSAGAIYVYFTGKQD-IVRA--VAEESLSIRAETI  74
+
+
+>ref|WP_002817093.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EAV39411.1| transcriptional regulator LexA [Oenococcus oeni ATCC BAA-1163]
+ gb|EFD88525.1| hypothetical protein AWRIB429_0945 [Oenococcus oeni AWRIB429]
+ gb|EJN91763.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB304]
+ gb|EJN98866.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB419]
+ gb|EJN99221.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB318]
+ gb|EJO01788.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB418]
+ gb|EJO09145.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB576]
+ gb|EJO09815.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB568]
+ gb|EKP88048.1| XRE family transcriptional regulator [Oenococcus oeni DSM 20252 
+= AWRIB129]
+ gb|EKP88705.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB202]
+Length=212
+
+ Score = 36.2 bits (82),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|YP_810544.1| XRE family transcriptional regulator [Oenococcus oeni PSU-1]
+ ref|WP_011677590.1| LexA family transcriptional regulator [Oenococcus oeni]
+ sp|Q04F93.1|LEXA_OENOB RecName: Full=LexA repressor
+ gb|ABJ56879.1| Transcriptional regulator, xre family [Oenococcus oeni PSU-1]
+Length=212
+
+ Score = 36.2 bits (82),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_018350971.1| hypothetical protein [Longispora albida]
+Length=78
+
+ Score = 34.7 bits (78),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 22/54 (41%), Positives = 32/54 (59%), Gaps = 3/54 (6%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           ++GY PSL ++ +A G+S  T    + DRL   GLV  E +  R +TL+LT  G
+Sbjct  23  ERGYPPSLRDLGEAVGLSVTTVSYHV-DRLASGGLV--EHVPSRARTLRLTPAG  73
+
+
+>ref|YP_001507429.1| MarR family transcriptional regulator [Frankia sp. EAN1pec]
+ ref|WP_020460665.1| MarR family transcriptional regulator [Frankia sp. EAN1pec]
+ gb|ABW12523.1| transcriptional regulator, MarR family [Frankia sp. EAN1pec]
+Length=142
+
+ Score = 35.8 bits (81),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 30/53 (57%), Gaps = 3/53 (6%)
+
+Query  30   EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGR  80
+            +P+L E+    G  +KT   G+ DRL+R GLV  +      RV  L+LTE GR
+Sbjct  55   QPALGELADLLGC-DKTNITGMADRLVRRGLVTRRANPEDRRVTRLELTEDGR  106
+
+
+>ref|WP_016392393.1| MarR family transcriptional regulator [Pseudomonas plecoglossicida]
+ gb|EPB96546.1| MarR family transcriptional regulator [Pseudomonas plecoglossicida 
+NB2011]
+Length=150
+
+ Score = 35.8 bits (81),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRGLAEAIEA  110
+
+
+>ref|YP_806009.1| LexA repressor [Lactobacillus casei ATCC 334]
+ ref|YP_001986776.1| LexA repressor [Lactobacillus casei BL23]
+ ref|YP_003787806.1| XRE family transcriptional regulator [Lactobacillus casei str. 
+Zhang]
+ ref|YP_005855721.1| LexA repressor [Lactobacillus casei LC2W]
+ ref|YP_005858843.1| LexA repressor [Lactobacillus casei BD-II]
+ ref|YP_006750863.1| LexA repressor [Lactobacillus casei W56]
+ ref|YP_008199389.1| SOS-response repressor and protease LexA [Lactobacillus casei 
+LOCK919]
+ ref|YP_008445937.1| LexA repressor [Lactobacillus paracasei subsp. paracasei 8700:2]
+ ref|WP_003563873.1| LexA family transcriptional regulator [Lactobacillus casei group]
+ sp|Q03B55.1|LEXA_LACC3 RecName: Full=LexA repressor
+ sp|B3WC17.1|LEXA_LACCB RecName: Full=LexA repressor
+ gb|ABJ69567.1| Transcriptional regulator, xre family [Lactobacillus casei ATCC 
+334]
+ emb|CAQ65918.1| LexA repressor [Lactobacillus casei BL23]
+ gb|EEI68000.1| repressor LexA [Lactobacillus paracasei subsp. paracasei ATCC 
+25302]
+ gb|EEQ67346.1| LexA repressor [Lactobacillus paracasei subsp. paracasei 8700:2]
+ gb|ADK17956.1| Transcriptional regulator, xre family [Lactobacillus casei str. 
+Zhang]
+ gb|AEA53137.1| LexA repressor [Lactobacillus casei LC2W]
+ gb|AEA56302.1| LexA repressor [Lactobacillus casei BD-II]
+ emb|CCK21744.1| LexA repressor [Lactobacillus casei W56]
+ gb|EKQ01092.1| SOS-response repressor/protease [Lactobacillus casei 12A]
+ gb|EKQ01697.1| SOS-response repressor/protease [Lactobacillus casei 32G]
+ gb|EKQ04098.1| SOS-response repressor/protease [Lactobacillus casei 21/1]
+ gb|EKQ08616.1| SOS-response repressor/protease [Lactobacillus casei CRF28]
+ gb|EKQ11874.1| SOS-response repressor/protease [Lactobacillus casei M36]
+ gb|EKQ15159.1| SOS-response repressor/protease [Lactobacillus casei A2-362]
+ gb|EKQ15411.1| SOS-response repressor/protease [Lactobacillus casei T71499]
+ gb|EKQ21556.1| SOS-response repressor/protease [Lactobacillus casei UCD174]
+ gb|EKQ23438.1| SOS-response repressor/protease [Lactobacillus casei UW4]
+ gb|EKQ24566.1| SOS-response repressor/protease [Lactobacillus casei UW1]
+ gb|EKQ27035.1| SOS-response repressor/protease [Lactobacillus casei Lpc-37]
+ gb|EKQ28620.1| SOS-response repressor/protease [Lactobacillus casei Lc-10]
+ gb|EPC12423.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp230]
+ gb|EPC14491.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. tolerans Lpl7]
+ gb|EPC18482.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp122]
+ gb|EPC23476.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp226]
+ gb|EPC25835.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp22]
+ gb|EPC26131.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp17]
+ gb|EPC27700.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp46]
+ gb|EPC35776.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp223]
+ gb|EPC36039.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp120]
+ gb|EPC38127.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp225]
+ gb|EPC44303.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp74]
+ gb|EPC45280.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp219]
+ gb|EPC47529.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp229]
+ gb|EPC49872.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp123]
+ gb|EPC53102.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp7]
+ gb|EPC53934.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4270]
+ gb|EPC60115.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp189]
+ gb|EPC62850.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp14]
+ gb|EPC66842.1| LexA repressor [Lactobacillus paracasei subsp. tolerans Lpl14]
+ gb|EPC67604.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp228]
+ gb|EPC75625.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp41]
+ gb|EPC80562.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp221]
+ gb|EPC81523.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp126]
+ gb|EPC84289.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp37]
+ gb|EPC88056.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp43]
+ gb|EPC91922.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp49]
+ gb|EPC96072.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4649]
+ gb|EPC97360.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp227]
+ gb|EPC98867.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4648]
+ gb|EPD01503.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp125]
+ gb|EPD06279.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-2877]
+ gb|EPD08854.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp70]
+ gb|AGP67572.1| SOS-response repressor and protease LexA [Lactobacillus casei 
+LOCK919]
+ dbj|BAN70954.1| transcriptional repressor [Lactobacillus paracasei subsp. paracasei 
+JCM 8130]
+ gb|ERN49128.1| LexA family transcriptional regulator [Lactobacillus casei 5b]
+Length=208
+
+ Score = 36.2 bits (82),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 37/72 (51%), Gaps = 2/72 (3%)
+
+Query  24  FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLA  83
+            E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR   
+Sbjct  21  IEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGRDFI  78
+
+Query  84  ECLEKCRDVLGS  95
+              +    ++G+
+Sbjct  79  GVQDHGIPIVGT  90
+
+
+>ref|WP_023535787.1| marR family protein [Pseudomonas putida]
+ gb|EST14288.1| marR family protein [Pseudomonas putida S610]
+Length=150
+
+ Score = 35.8 bits (81),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 3/55 (5%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E 
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVLRSEDPLDRRAKALSLTVEGRALAEAIEA  110
+
+
+>ref|WP_016172159.1| hypothetical protein [Enterococcus dispar]
+ gb|EOT42619.1| hypothetical protein OMK_00980 [Enterococcus dispar ATCC 51266]
+ gb|EOW84930.1| hypothetical protein I569_00219 [Enterococcus dispar ATCC 51266]
+Length=85
+
+ Score = 34.3 bits (77),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 42/73 (58%), Gaps = 3/73 (4%)
+
+Query  16  RILPTLLEF-EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL  + E+  K+ + PS+ EI KA  +S  +      +RL  AGL++++T S R   L+
+Sbjct  12  KILKFIDEYIRKEKWAPSVREIGKAVYLSSTSTVFAHLERLAGAGLIEKQTRSPRA--LR  69
+
+Query  75  LTEKGRRLAECLE  87
+           +TEKG    E L+
+Sbjct  70  ITEKGADFLETLK  82
+
+
+>ref|WP_016731967.1| hypothetical protein [Sulfolobus islandicus]
+Length=88
+
+ Score = 34.3 bits (77),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 23/66 (35%), Positives = 39/66 (59%), Gaps = 3/66 (5%)
+
+Query  32  SLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGRRLAECLEKC  89
+           S+ EI++ + +  KT    + + L+  GLVKEE      R K ++LT+KG+ ++E L+K 
+Sbjct  24  SVREIIERTKLGSKTVVDAV-NYLVEIGLVKEEQQQEFPRKKIIRLTDKGKEISEYLKKI  82
+
+Query  90  RDVLGS  95
+             +L S
+Sbjct  83  YGILNS  88
+
+
+>ref|WP_023630816.1| MarR family transcriptional regulator [Pseudomonas mosselii]
+ gb|ESU54510.1| MarR family transcriptional regulator [Pseudomonas mosselii SJ10]
+Length=145
+
+ Score = 35.4 bits (80),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTVEGRALAESIE  109
+
+
+>ref|YP_006805467.1| MarR family transcriptional regulator [Nocardia brasiliensis 
+ATCC 700358]
+ ref|WP_014981354.1| MarR family transcriptional regulator [Nocardia brasiliensis]
+ gb|AFT98492.1| MarR family transcriptional regulator [Nocardia brasiliensis 
+ATCC 700358]
+Length=142
+
+ Score = 35.0 bits (79),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 30/55 (55%), Gaps = 3/55 (5%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGR  80
+           G  PS  E+  A G  +KT   GL DRL R G V  +T S   RV  + +TE+GR
+Sbjct  45  GEPPSFGELASALGC-DKTNVTGLVDRLERRGYVSRQTDSADRRVTRVIITEQGR  98
+
+
+>ref|WP_005890329.1| MarR family transcriptional regulator [Pseudomonas coronafaciens]
+ gb|EGI02268.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+oryzae str. 1_6]
+ gb|EGI07438.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+oryzae str. 1_6]
+Length=150
+
+ Score = 35.0 bits (79),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGAHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPHDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGAIEE  110
+
+
+>ref|WP_010198025.1| MarR family transcriptional regulator, partial [Pseudomonas amygdali]
+Length=131
+
+ Score = 34.7 bits (78),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  21  LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+           LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  23  LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  81
+
+Query  79  GRRLAECLEK  88
+           GR LA  +E+
+Sbjct  82  GRALAGSIEQ  91
+
+
+>ref|WP_002554194.1| MarR family transcriptional regulator [Pseudomonas syringae group 
+genomosp. 2]
+ gb|EFH98906.1| Transcriptional regulator, MarR family [Pseudomonas savastanoi 
+pv. savastanoi NCPPB 3335]
+ gb|EFW80051.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. B076]
+ gb|EFW84108.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. race 4]
+ gb|EGH10127.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. race 4]
+ gb|EGH84678.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+lachrymans str. M301315]
+ gb|EGH91200.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+tabaci str. ATCC 11528]
+Length=150
+
+ Score = 34.7 bits (78),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|WP_005733737.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH03779.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+aesculi str. 0893_23]
+Length=150
+
+ Score = 34.7 bits (78),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|WP_019142775.1| hypothetical protein [Herbaspirillum sp. JC206]
+Length=156
+
+ Score = 34.7 bits (78),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 29/48 (60%), Gaps = 2/48 (4%)
+
+Query  44   EKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEKC  89
+            E +  + + D+L+ AGLV  +E+    R KTL LT +GRR A  LEK 
+Sbjct  65   EPSSVVRVLDQLVDAGLVERREDANDRRAKTLHLTAEGRRCAARLEKA  112
+
+
+>ref|WP_010493617.1| LexA family transcriptional regulator [Lactobacillus zeae]
+ dbj|BAN73683.1| transcriptional repressor [Lactobacillus casei subsp. casei ATCC 
+393]
+Length=208
+
+ Score = 35.0 bits (79),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 39/66 (59%), Gaps = 3/66 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ +  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYDAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKGR  80
+           +T  GR
+Sbjct  70  VTAAGR  75
+
+
+>ref|WP_020326090.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EPM69071.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+theae ICMP 3923]
+Length=150
+
+ Score = 34.7 bits (78),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVK--EETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V+  E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVRRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_005738676.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH10705.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+morsprunorum str. M302280]
+Length=150
+
+ Score = 34.7 bits (78),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGNGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|YP_003700894.1| TetR family transcriptional regulator [Bacillus selenitireducens 
+MLS10]
+ ref|WP_013173742.1| TetR family transcriptional regulator [Bacillus selenitireducens]
+ gb|ADI00329.1| transcriptional regulator, TetR family [Bacillus selenitireducens 
+MLS10]
+Length=188
+
+ Score = 34.7 bits (78),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 43/82 (52%), Gaps = 11/82 (13%)
+
+Query  16  RILPTLLE-FEKKGY-EPSLAEIVKASGVSEKTF--FMGLKDRLIRA-------GLVKEE  64
+           RI    LE FE+KG+ E S+ EIV A G+S+  F  +   KD ++          LVKE+
+Sbjct  4   RITAKALELFEQKGFAETSIREIVDALGISKGAFYHYFAAKDEILSHLHMAYIDTLVKEQ  63
+
+Query  65  TLSYRVKTLKLTEKGRRLAECL  86
+             + R  +L   EK RR+ + L
+Sbjct  64  ADTLRDASLSSEEKLRRIIDLL  85
+
+
+>ref|YP_275456.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+phaseolicola 1448A]
+ ref|WP_011169051.1| MarR family transcriptional regulator [Pseudomonas savastanoi]
+ gb|AAZ37569.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=150
+
+ Score = 34.3 bits (77),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L  AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCNAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|WP_006675450.1| XRE family transcriptional regulator [Paenibacillus dendritiformis]
+ gb|EHQ63414.1| LexA family transcriptional repressor [Paenibacillus dendritiformis 
+C454]
+Length=208
+
+ Score = 34.7 bits (78),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+E+  R 
+Sbjct  18  EVRTKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSEQSDRH  76
+
+Query  83  AE  84
+           +E
+Sbjct  77  SE  78
+
+
+>ref|WP_006283947.1| SOS-response transcriptional repressor [Paenibacillus popilliae]
+ dbj|GAC40732.1| SOS-response transcriptional repressor [Paenibacillus popilliae 
+ATCC 14706]
+Length=208
+
+ Score = 34.7 bits (78),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+E+  R 
+Sbjct  18  EVRTKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSEQSDRH  76
+
+Query  83  AE  84
+           +E
+Sbjct  77  SE  78
+
+
+>ref|NP_942420.1| MarR family transcriptional regulator [Synechocystis sp. PCC 
+6803]
+ ref|YP_007453070.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+ ref|WP_011153797.1| MarR family transcriptional regulator [Synechocystis sp. PCC 
+6803]
+ dbj|BAD02034.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+ gb|AGF53686.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+Length=174
+
+ Score = 34.3 bits (77),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 35/61 (57%), Gaps = 5/61 (8%)
+
+Query  26   KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGRRLA  83
+            K+G  PS  E    + V+  T   GL DRL R GLV+ +  S   R+ T+ LTE+G++L 
+Sbjct  66   KRGLSPS--EFANRANVTRATI-TGLLDRLEREGLVERKAHSNDRRMLTITLTEQGKKLV  122
+
+Query  84   E  84
+            E
+Sbjct  123  E  123
+
+
+>gb|EPN62478.1| MarR family transcriptional regulator, partial [Pseudomonas syringae 
+pv. actinidiae ICMP 19079]
+Length=192
+
+ Score = 34.7 bits (78),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_019119223.1| umuDC operon protein-like protein [Brevibacillus sp. phR]
+Length=207
+
+ Score = 34.3 bits (77),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 37/66 (56%), Gaps = 2/66 (3%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E + KGY PS+ EI +A G++  +   G  +RL + GL++ +    R   ++L ++G R 
+Sbjct  18  EVKDKGYPPSVREIGEAVGLASSSTVHGHLERLEKKGLIRRDPTKPR--AIELLQEGGRF  75
+
+Query  83  AECLEK  88
+            +  E+
+Sbjct  76  QDEFEQ  81
+
+
+>ref|WP_020616320.1| XRE family transcriptional regulator [Paenibacillus daejeonensis]
+Length=206
+
+ Score = 34.3 bits (77),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           E ++KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   +   E+G
+Sbjct  18  EVKEKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEILDQEQG  74
+
+
+>ref|WP_007746549.1| LexA family transcriptional regulator [Oenococcus kitaharae]
+ gb|EHN59561.1| SOS-response repressor and protease LexA [Oenococcus kitaharae 
+DSM 17330]
+Length=212
+
+ Score = 34.3 bits (77),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 34/57 (60%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A G+S  +   G  +RL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVGLSSTSTVHGHIERLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_019423855.1| XRE family transcriptional regulator [Paenibacillus sp. OSY-SE]
+Length=209
+
+ Score = 34.3 bits (77),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 20/67 (30%), Positives = 31/67 (46%), Gaps = 0/67 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L   E+  R 
+Sbjct  18  EVRGKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIELLSHEQSERT  77
+
+Query  83  AECLEKC  89
+            E  +  
+Sbjct  78  NEFTQSV  84
+
+
+>ref|WP_017701843.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EPM48283.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19098]
+ gb|EPN18502.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19100]
+ gb|EPN25971.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19099]
+ gb|EPN34025.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18883]
+ gb|EPN42727.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19095]
+ gb|EPN51450.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19094]
+ gb|EPN56731.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19096]
+Length=150
+
+ Score = 33.9 bits (76),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_005765235.1| MarR family transcriptional regulator [Pseudomonas syringae group]
+ gb|EEB59794.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. tomato T1]
+ gb|EGH95941.1| transcriptional regulator, MarR family protein [Pseudomonas syringae 
+pv. lachrymans str. M302278]
+Length=150
+
+ Score = 33.9 bits (76),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|NP_793394.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+tomato str. DC3000]
+ ref|WP_011104633.1| MarR family transcriptional regulator [Pseudomonas syringae group 
+genomosp. 3]
+ gb|AAO57089.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=150
+
+ Score = 33.9 bits (76),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_003378217.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EGH64639.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae str. M302091]
+ gb|EPM52673.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19103]
+ gb|EPM57320.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19073]
+ gb|EPM59535.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19071]
+ gb|EPM77803.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19072]
+ gb|EPM81022.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18886]
+ gb|EPM87323.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19068]
+ gb|EPM96195.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19104]
+ gb|EPN03752.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19102]
+ gb|EPN08597.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 9855]
+ gb|EPN13260.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19070]
+ gb|EPN73993.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19101]
+ gb|EPN76198.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19097]
+ gb|EPN80755.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18801]
+Length=150
+
+ Score = 33.9 bits (76),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_005549881.1| XRE family transcriptional regulator [Paenibacillus alvei]
+ gb|EJW15677.1| LexA repressor [Paenibacillus alvei DSM 29]
+Length=208
+
+ Score = 34.3 bits (77),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+++  R 
+Sbjct  18  EVRAKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSDQSDRT  76
+
+Query  83  AE  84
+           A+
+Sbjct  77  AD  78
+
+
+>ref|WP_005754631.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH21634.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+mori str. 301020]
+Length=150
+
+ Score = 33.9 bits (76),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRALAGSIE  109
+
+
+>ref|YP_003772342.1| LexA repressor [Leuconostoc gasicomitatum LMG 18811]
+ ref|WP_010388586.1| LexA family transcriptional regulator [Leuconostoc]
+ emb|CBL91523.1| LexA repressor [Leuconostoc gasicomitatum LMG 18811]
+Length=213
+
+ Score = 34.3 bits (77),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  6   TLRLQFGHLIRILPTLLEFE-KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEE  64
+           T+++Q    +++L  + E +   GY P++ E+ +A G+S  +   G  +RL++ G + ++
+Sbjct  2   TIQIQESKQLQVLRFIHEAQITNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKD  61
+
+Query  65  TLSYRVKTLKLTEKG  79
+               R + +++T+ G
+Sbjct  62  ASKPRARAIEVTDSG  76
+
+
+>gb|EPN50458.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18807]
+Length=154
+
+ Score = 33.9 bits (76),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTLVR-LLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|YP_255179.1| hypothetical protein Saci_0480 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|YP_007433598.1| hypothetical protein SacN8_02350 [Sulfolobus acidocaldarius N8]
+ ref|YP_007435872.1| hypothetical protein SacRon12I_02345 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_011277388.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AAY79886.1| hypothetical protein Saci_0480 [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70450.1| hypothetical protein SacN8_02350 [Sulfolobus acidocaldarius N8]
+ gb|AGE72724.1| hypothetical protein SacRon12I_02345 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=96
+
+ Score = 33.1 bits (74),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 35/60 (58%), Gaps = 5/60 (8%)
+
+Query  30  EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGRRLAECLE  87
+           E SL E+   + ++   F+  +   +++ GL++   +SY  R K ++LTEKGR+L E L 
+Sbjct  23  EISLNELYTKTRIASSAFYYTVIPTMLKLGLIE---ISYENRKKIIRLTEKGRKLLEVLN  79
+
+
+>ref|WP_005712572.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EHJ28243.1| repressor LexA [Lactobacillus rhamnosus ATCC 21052]
+Length=284
+
+ Score = 34.3 bits (77),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16   RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+            +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  88   QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  145
+
+Query  75   LTEKG  79
+            +T  G
+Sbjct  146  VTAAG  150
+
+
+>ref|WP_022634411.1| Transcriptional regulator, MarR family with acetyltransferase 
+activity [Dickeya]
+ gb|ERO56465.1| Transcriptional regulator, MarR family with acetyltransferase 
+activity [Dickeya sp. D s0432-1]
+Length=332
+
+ Score = 34.3 bits (77),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 39/64 (61%), Gaps = 4/64 (6%)
+
+Query  20   TLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTE  77
+            TLLE EK+G   + A++V+  G+ EK+    +  +LI+AG + E       R+K L LTE
+Sbjct  41   TLLEIEKQG-AMTAAQLVQTLGL-EKSSVSRMLGKLIKAGEITEAAGDEDGRIKQLFLTE  98
+
+Query  78   KGRR  81
+            +G+R
+Sbjct  99   QGKR  102
+
+
+>ref|YP_006745191.1| LexA repressor [Leuconostoc gelidum JB7]
+ ref|WP_010016601.1| LexA family transcriptional regulator [Leuconostoc gelidum]
+ gb|AFS40305.1| LexA repressor [Leuconostoc gelidum JB7]
+Length=213
+
+ Score = 33.9 bits (76),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  6   TLRLQFGHLIRILPTLLEFE-KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEE  64
+           T+++Q    +++L  + E +   GY P++ E+ +A G+S  +   G  +RL++ G + ++
+Sbjct  2   TIQIQESKQLQVLRFIHEAQITNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKD  61
+
+Query  65  TLSYRVKTLKLTEKG  79
+               R + +++T+ G
+Sbjct  62  ASKPRARAIEVTDAG  76
+
+
+>ref|WP_005715167.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus]
+ gb|EKS51807.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LRHMDP3]
+ gb|EKS54138.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LRHMDP2]
+Length=208
+
+ Score = 33.9 bits (76),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>ref|YP_003170463.1| LexA repressor [Lactobacillus rhamnosus GG]
+ ref|YP_005865186.1| transcriptional repressor [Lactobacillus rhamnosus GG]
+ ref|YP_008202329.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK900]
+ ref|WP_005684070.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EDZ00118.1| Transcriptional regulator, xre family protein [Lactobacillus 
+rhamnosus HN001]
+ emb|CAR86612.1| LexA repressor [Lactobacillus rhamnosus GG]
+ dbj|BAI41221.1| transcriptional repressor [Lactobacillus rhamnosus GG]
+ gb|EHJ22356.1| LexA repressor [Lactobacillus rhamnosus R0011]
+ gb|AGP70512.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK900]
+Length=208
+
+ Score = 33.9 bits (76),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>ref|WP_016664358.1| hypothetical protein [Dermabacter sp. HFH0086]
+ gb|EPH15812.1| hypothetical protein HMPREF1484_01449 [Dermabacter sp. HFH0086]
+Length=289
+
+ Score = 34.3 bits (77),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 28/57 (49%), Gaps = 1/57 (2%)
+
+Query  40   SGVSEKTF-FMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+            SG++   F F G   R  R  L   E+LS   +TL   E  RR  ECLE   DV G+
+Sbjct  134  SGIAPDRFAFEGFLPRTSRKRLSVLESLSREARTLIFFESPRRTRECLEAMVDVFGA  190
+
+
+>gb|EGF44850.1| LexA repressor [Lactobacillus rhamnosus MTCC 5462]
+Length=174
+
+ Score = 33.9 bits (76),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>ref|YP_007212878.1| SOS regulatory protein LexA [Thermobacillus composti KWC4]
+ ref|WP_015254631.1| XRE family transcriptional regulator [Thermobacillus composti]
+ gb|AGA57880.1| SOS regulatory protein LexA [Thermobacillus composti KWC4]
+Length=207
+
+ Score = 33.9 bits (76),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  +KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVREKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|YP_003173400.1| LexA repressor [Lactobacillus rhamnosus Lc 705]
+ ref|YP_005872403.1| repressor LexA [Lactobacillus rhamnosus ATCC 8530]
+ ref|YP_008205246.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK908]
+ ref|WP_005691921.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EEN78858.1| repressor LexA [Lactobacillus rhamnosus LMS2-1]
+ emb|CAR89549.1| LexA repressor [Lactobacillus rhamnosus Lc 705]
+ gb|AER63550.1| repressor LexA [Lactobacillus rhamnosus ATCC 8530]
+ gb|AGP73389.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK908]
+ gb|ERJ54367.1| LexA family transcriptional regulator [Lactobacillus rhamnosus 
+2166]
+Length=208
+
+ Score = 33.9 bits (76),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTTAG  74
+
+
+>ref|YP_001728266.1| LexA repressor [Leuconostoc citreum KM20]
+ ref|WP_004900722.1| LexA family transcriptional regulator [Leuconostoc citreum]
+ sp|B1MZ70.1|LEXA_LEUCK RecName: Full=LexA repressor
+ gb|ACA82822.1| LexA repressor [Leuconostoc citreum KM20]
+ emb|CCF24339.1| LexA repressor [Leuconostoc citreum LBAE C10]
+ emb|CCF27365.1| LexA repressor [Leuconostoc citreum LBAE C11]
+Length=211
+
+ Score = 33.9 bits (76),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 14/54 (26%), Positives = 31/54 (57%), Gaps = 0/54 (0%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+             GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  21  NNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  74
+
+
+>ref|YP_004960722.1| DNA-binding protein [Streptomyces bingchenggensis BCW-1]
+ ref|WP_014175068.1| DNA-binding protein [Streptomyces bingchenggensis]
+ gb|ADI05591.1| DNA-binding protein [Streptomyces bingchenggensis BCW-1]
+Length=276
+
+ Score = 33.9 bits (76),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 36/71 (51%), Gaps = 12/71 (17%)
+
+Query  30  EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEET---LSYRVKTLKLTEKGRRLA--E  84
+           EP  ++ +KA G   K F         RAGL +EE    L Y V+TL   E+GRR    E
+Sbjct  9   EPESSDSLKAFGAIVKVFRE-------RAGLTQEELAPLLQYSVQTLASIEQGRRFPQTE  61
+
+Query  85  CLEKCRDVLGS  95
+            +E+  DVL +
+Sbjct  62  FVERAEDVLDA  72
+
+
+>ref|WP_019006151.1| XRE family transcriptional regulator [Cohnella laeviribosi]
+Length=207
+
+ Score = 33.9 bits (76),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  +KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVREKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|WP_004909345.1| LexA repressor [Leuconostoc citreum]
+ emb|CCF29374.1| LexA repressor [Leuconostoc citreum LBAE E16]
+Length=211
+
+ Score = 33.9 bits (76),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 14/54 (26%), Positives = 31/54 (57%), Gaps = 0/54 (0%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+             GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  21  NNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  74
+
+
+>ref|WP_009708592.1| XRE family transcriptional regulator [Desmospora sp. 8437]
+ gb|EGK13892.1| LexA repressor [Desmospora sp. 8437]
+Length=211
+
+ Score = 33.9 bits (76),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  KKGY PS+ EI +A G++  +   G  +RL + GL++ +    R
+Sbjct  21  EVRKKGYPPSVREIGEAVGLASSSTVHGHLNRLEKKGLIRRDPTKPR  67
+
+
+>ref|WP_004883848.1| MarR family transcriptional regulator [Pseudomonas viridiflava]
+ gb|EKN45760.1| MarR family transcriptional regulator [Pseudomonas viridiflava 
+UASWS0038]
+Length=150
+
+ Score = 33.5 bits (75),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 35/69 (51%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++  A+G+   T    L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAHAAGMESPTLVR-LLDQLCKAGIVCRTEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRELAGSIE  109
+
+
+>ref|YP_003428820.1| LexA repressor [Bacillus pseudofirmus OF4]
+ ref|WP_012959290.1| XRE family transcriptional regulator [Bacillus]
+ gb|ADC51928.1| LexA repressor [Bacillus pseudofirmus OF4]
+ gb|ERN53326.1| XRE family transcriptional regulator [Bacillus marmarensis DSM 
+21297]
+Length=207
+
+ Score = 33.9 bits (76),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 34/57 (60%), Gaps = 1/57 (2%)
+
+Query  22  LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTE  77
+           +E +KKGY PS+ EI +A G++  +   G   RL + GL++ +    R ++ L++ E
+Sbjct  17  IEVKKKGYPPSVREIGEAVGLASSSTVHGHLSRLEKKGLIRRDPTKPRAIEVLEMDE  73
+
+
+>ref|YP_003011361.1| SOS-response transcriptional repressor, LexA [Paenibacillus sp. 
+JDR-2]
+ ref|WP_015844219.1| XRE family transcriptional regulator [Paenibacillus sp. JDR-2]
+ gb|ACT01275.1| SOS-response transcriptional repressor, LexA [Paenibacillus sp. 
+JDR-2]
+Length=206
+
+ Score = 33.9 bits (76),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 31/55 (56%), Gaps = 5/55 (9%)
+
+Query  20  TLLEFEK-----KGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           ++LEF K     KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  10  SILEFIKNEVRDKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|WP_007061059.1| XRE family transcriptional regulator [Clostridium carboxidivorans]
+ gb|EET87393.1| SOS-response transcriptional repressor, LexA [Clostridium carboxidivorans 
+P7]
+ gb|EFG86431.1| repressor LexA [Clostridium carboxidivorans P7]
+Length=202
+
+ Score = 33.9 bits (76),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           + ++KGY PS+ EI  A G+S  +   G  +RL + GL+K +    R
+Sbjct  19  QIKEKGYPPSVREICAAVGLSSTSTVHGHLERLEKKGLIKRDATKPR  65
+
+
+>ref|WP_018977636.1| XRE family transcriptional regulator [Saccharibacillus kuerlensis]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E + KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVKSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|YP_004603292.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici 
+DSM 4947]
+ ref|WP_013886213.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici]
+ gb|AEI14724.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici 
+DSM 4947]
+Length=196
+
+ Score = 33.5 bits (75),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 15/42 (36%), Positives = 26/42 (62%), Gaps = 0/42 (0%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           GY PS+ +I K  GV+  +    + DRL+ AG++K+++   R
+Sbjct  22  GYPPSVRDIAKGMGVASISSVKKMLDRLVEAGVIKKDSSKAR  63
+
+
+>ref|WP_019910697.1| XRE family transcriptional regulator [Paenibacillus sp. HW567]
+Length=213
+
+ Score = 33.5 bits (75),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  23  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  69
+
+
+>ref|WP_002825134.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO07740.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB548]
+Length=212
+
+ Score = 33.5 bits (75),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 33/57 (58%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A  +S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVDLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_002824285.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO06953.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB422]
+Length=212
+
+ Score = 33.5 bits (75),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 33/57 (58%), Gaps = 2/57 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+            +KGY P++ EI +A  +S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  18  NEKGYPPTVREIGEAVDLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|YP_001922962.1| MarR family transcriptional regulator [Methylobacterium populi 
+BJ001]
+ ref|WP_012452191.1| MarR family transcriptional regulator [Methylobacterium populi]
+ gb|ACB78427.1| transcriptional regulator, MarR family [Methylobacterium populi 
+BJ001]
+Length=165
+
+ Score = 33.5 bits (75),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 29/80 (36%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  16   RILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTL  73
+            + LP +L   + G EP    + +A G+ E    + L D+L  AGLV  KE+T   R K L
+Sbjct  41   KALPLVL-IGRLGGEPRQNALAEAVGI-EGPSLVRLLDQLEAAGLVTRKEDTTDRRAKVL  98
+
+Query  74   KLTEKGRRLAECLEKCRDVL  93
+             LT+ GR +   +E   D L
+Sbjct  99   SLTDTGRSVVARIEADLDRL  118
+
+
+>ref|YP_004704975.1| LexA repressor [Leuconostoc sp. C2]
+ ref|WP_013974978.1| LexA family transcriptional regulator [Leuconostoc sp. C2]
+ gb|AEJ30352.1| LexA repressor [Leuconostoc sp. C2]
+Length=213
+
+ Score = 33.5 bits (75),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  27  KGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+            GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  24  NGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  76
+
+
+>ref|YP_003620758.1| transcription repressor of the SOS regulon [Leuconostoc kimchii 
+IMSNU 11154]
+ ref|WP_013102388.1| LexA family transcriptional regulator [Leuconostoc kimchii]
+ gb|ADG39789.1| transcription repressor of the SOS regulon [Leuconostoc kimchii 
+IMSNU 11154]
+Length=213
+
+ Score = 33.5 bits (75),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  27  KGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+            GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  24  NGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  76
+
+
+>ref|WP_018704989.1| XRE family transcriptional regulator [Bacillus fordii]
+Length=207
+
+ Score = 33.5 bits (75),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E +KKGY PS+ EI KA G++  +   G  +RL   GL++ +    R
+Sbjct  18  EVKKKGYPPSVREIGKAVGLASSSTVHGHLERLESKGLIRRDPTKPR  64
+
+
+>ref|WP_018755606.1| XRE family transcriptional regulator [Paenibacillus terrigena]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|WP_006209658.1| XRE family transcriptional regulator [Paenibacillus vortex]
+ gb|EFU41553.1| transcriptional repressor, LexA family protein [Paenibacillus 
+vortex V453]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|YP_003242450.1| LexA family transcriptional repressor [Paenibacillus sp. Y412MC10]
+ ref|WP_009596010.1| XRE family transcriptional regulator [Paenibacillus]
+ gb|ACX64643.1| transcriptional repressor, LexA family [Paenibacillus sp. Y412MC10]
+ gb|EGG31061.1| repressor LexA [Paenibacillus sp. HGF5]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>dbj|GAE05347.1| SOS-response repressor and protease LexA [Paenibacillus sp. JCM 
+10914]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|WP_007129967.1| XRE family transcriptional regulator [Paenibacillus lactis]
+ gb|EHB64553.1| transcriptional repressor, LexA family [Paenibacillus lactis 
+154]
+Length=208
+
+ Score = 33.5 bits (75),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+Results from round 2
+
+
+Query= 2PG4A
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_147569.1|  hypothetical protein APE_0880a [Aeropyrum perni...   174    3e-54
+pdb|2PG4|A  Chain A, Crystal Structure Of A Putative Dna Binding ...   172    2e-53
+
+Sequences not found previously or not previously below threshold:
+
+ref|NP_742344.1|  MarR family transcriptional regulator [Pseudomo...  40.8    0.013
+ref|WP_021782544.1|  MarR family transcriptional regulator [Pseud...  40.0    0.031
+ref|WP_004576405.1|  MarR family transcriptional regulator [Pseud...  40.0    0.031
+ref|YP_001265555.1|  MarR family transcriptional regulator [Pseud...  40.0    0.031
+ref|YP_005928116.1|  MarR family transcriptional regulator [Pseud...  40.0    0.033
+ref|WP_010008042.1|  LexA family transcriptional regulator [Leuco...  40.0    0.044
+ref|WP_009682392.1|  MarR family transcriptional regulator, parti...  38.4    0.060
+ref|YP_004095388.1|  transcriptional repressor, LexA family [Baci...  39.6    0.068
+ref|YP_001751897.1|  MarR family transcriptional regulator [Pseud...  38.8    0.068
+ref|WP_020154298.1|  MarR family transcriptional regulator [Caldi...  37.7    0.19 
+ref|YP_004699616.1|  MarR family transcriptional regulator [Pseud...  37.7    0.22 
+ref|YP_008765869.1|  MarR family transcriptional regulator [Pseud...  37.7    0.23 
+ref|WP_019097416.1|  MarR family transcriptional regulator [Pseud...  37.7    0.23 
+ref|WP_016714396.1|  MarR family transcriptional regulator [Pseud...  37.7    0.23 
+ref|WP_019471693.1|  MarR family transcriptional regulator [Pseud...  37.3    0.23 
+ref|YP_008091967.1|  MarR family transcriptional regulator [Pseud...  37.3    0.23 
+ref|YP_001666449.1|  MarR family transcriptional regulator [Pseud...  37.3    0.23 
+ref|YP_003435871.1|  hypothetical protein Ferp_1445 [Ferroglobus ...  37.3    0.25 
+ref|YP_605944.1|  MarR family transcriptional regulator [Pseudomo...  37.3    0.26 
+ref|YP_008111209.1|  putative MarR family transcriptional regulat...  37.3    0.27 
+ref|WP_016172159.1|  hypothetical protein [Enterococcus dispar] >...  36.1    0.29 
+ref|WP_016392393.1|  MarR family transcriptional regulator [Pseud...  37.3    0.32 
+ref|WP_023630816.1|  MarR family transcriptional regulator [Pseud...  36.9    0.38 
+ref|WP_002826485.1|  LexA family transcriptional regulator [Oenoc...  37.3    0.42 
+ref|WP_002817093.1|  LexA family transcriptional regulator [Oenoc...  37.3    0.42 
+ref|YP_810544.1|  XRE family transcriptional regulator [Oenococcu...  37.3    0.42 
+ref|YP_007227109.1|  MarR family transcriptional regulator [Pseud...  36.9    0.42 
+ref|WP_023535787.1|  marR family protein [Pseudomonas putida] >gb...  36.9    0.43 
+ref|YP_003700894.1|  TetR family transcriptional regulator [Bacil...  36.9    0.48 
+ref|NP_942420.1|  MarR family transcriptional regulator [Synechoc...  36.9    0.52 
+gb|EPD08214.1|  LexA repressor, partial [Lactobacillus paracasei ...  35.4    0.60 
+ref|WP_020616320.1|  XRE family transcriptional regulator [Paenib...  36.5    0.78 
+ref|WP_019119223.1|  umuDC operon protein-like protein [Brevibaci...  36.5    0.84 
+ref|YP_001507429.1|  MarR family transcriptional regulator [Frank...  35.7    0.87 
+ref|YP_003428820.1|  LexA repressor [Bacillus pseudofirmus OF4] >...  36.1    1.1  
+ref|WP_023661407.1|  MarR family transcriptional regulator [Pseud...  35.7    1.1  
+ref|WP_018350971.1|  hypothetical protein [Longispora albida]         34.2    1.1  
+ref|WP_016664358.1|  hypothetical protein [Dermabacter sp. HFH008...  36.1    1.2  
+ref|WP_006283947.1|  SOS-response transcriptional repressor [Paen...  35.7    1.2  
+ref|WP_006675450.1|  XRE family transcriptional regulator [Paenib...  35.7    1.2  
+ref|WP_005890329.1|  MarR family transcriptional regulator [Pseud...  35.4    1.2  
+ref|WP_022241942.1|  transcriptional regulator MarR family [Clost...  35.7    1.2  
+ref|YP_006805467.1|  MarR family transcriptional regulator [Nocar...  35.4    1.3  
+ref|YP_004960722.1|  DNA-binding protein [Streptomyces bingchengg...  36.1    1.3  
+gb|EPC77204.1|  LexA repressor, partial [Lactobacillus paracasei ...  35.4    1.5  
+ref|WP_020326090.1|  MarR family transcriptional regulator [Pseud...  35.4    1.6  
+ref|WP_019142775.1|  hypothetical protein [Herbaspirillum sp. JC206]  35.4    1.6  
+ref|WP_007746549.1|  LexA family transcriptional regulator [Oenoc...  35.4    1.7  
+ref|WP_019423855.1|  XRE family transcriptional regulator [Paenib...  35.4    1.8  
+ref|WP_018704989.1|  XRE family transcriptional regulator [Bacill...  35.4    1.8  
+ref|YP_806009.1|  LexA repressor [Lactobacillus casei ATCC 334] >...  35.4    1.9  
+ref|YP_255179.1|  hypothetical protein Saci_0480 [Sulfolobus acid...  34.2    2.0  
+ref|WP_007061059.1|  XRE family transcriptional regulator [Clostr...  35.4    2.0  
+ref|WP_010198025.1|  MarR family transcriptional regulator, parti...  34.6    2.1  
+ref|YP_003772342.1|  LexA repressor [Leuconostoc gasicomitatum LM...  35.4    2.1  
+ref|WP_019431660.1|  hypothetical protein [Streptomyces sp. AA0539]   35.0    2.2  
+ref|WP_023614724.1|  XRE family transcriptional regulator [Bacill...  35.0    2.3  
+ref|WP_010493617.1|  LexA family transcriptional regulator [Lacto...  35.0    2.4  
+ref|WP_016731967.1|  hypothetical protein [Sulfolobus islandicus]     33.8    2.4  
+ref|YP_004603292.1|  SOS-response transcriptional repressor, LexA...  35.0    2.4  
+ref|WP_007251182.1|  MarR family transcriptional regulator [Pseud...  34.6    2.5  
+ref|YP_006745191.1|  LexA repressor [Leuconostoc gelidum JB7] >re...  35.0    2.5  
+ref|WP_020643458.1|  MarR family transcriptional regulator [Amyco...  34.6    2.5  
+ref|WP_008096890.1|  MarR family transcriptional regulator [Pseud...  34.6    2.6  
+ref|WP_005738676.1|  MarR family transcriptional regulator [Pseud...  34.6    2.6  
+ref|WP_002554194.1|  MarR family transcriptional regulator [Pseud...  34.6    2.6  
+ref|WP_005733737.1|  MarR family transcriptional regulator [Pseud...  34.6    2.6  
+ref|WP_003486039.1|  XRE family transcriptional regulator [Clostr...  35.0    2.6  
+ref|YP_001391049.1|  LexA repressor [Clostridium botulinum F str....  35.0    2.6  
+ref|YP_001254295.1|  LexA repressor [Clostridium botulinum A str....  35.0    2.6  
+ref|WP_018977636.1|  XRE family transcriptional regulator [Saccha...  35.0    2.7  
+ref|WP_019006151.1|  XRE family transcriptional regulator [Cohnel...  35.0    2.7  
+ref|YP_007212878.1|  SOS regulatory protein LexA [Thermobacillus ...  35.0    2.7  
+ref|YP_001539975.1|  MarR family transcriptional regulator [Caldi...  34.6    2.7  
+ref|WP_005549881.1|  XRE family transcriptional regulator [Paenib...  35.0    2.8  
+ref|YP_001922962.1|  MarR family transcriptional regulator [Methy...  34.6    3.0  
+ref|WP_020601128.1|  hypothetical protein [Spirosoma panaciterrae]    34.6    3.2  
+ref|YP_003011361.1|  SOS-response transcriptional repressor, LexA...  34.6    3.2  
+ref|WP_022334967.1|  lexA repressor [Clostridium sp. CAG:452] >em...  34.6    3.4  
+ref|WP_018755606.1|  XRE family transcriptional regulator [Paenib...  34.6    3.5  
+ref|WP_009708592.1|  XRE family transcriptional regulator [Desmos...  34.6    3.5  
+ref|WP_023276393.1|  repressor LexA [Mucispirillum schaedleri] >g...  34.6    3.5  
+ref|YP_005260477.1|  transcriptional regulator [Pyrobaculum oguni...  34.6    3.6  
+ref|WP_022490694.1|  lexA repressor [Clostridium sp. CAG:567] >em...  34.6    3.6  
+dbj|GAE05347.1|  SOS-response repressor and protease LexA [Paenib...  34.6    3.6  
+ref|WP_007129967.1|  XRE family transcriptional regulator [Paenib...  34.6    3.6  
+ref|WP_006209658.1|  XRE family transcriptional regulator [Paenib...  34.6    3.6  
+ref|YP_003242450.1|  LexA family transcriptional repressor [Paeni...  34.6    3.6  
+ref|WP_019910697.1|  XRE family transcriptional regulator [Paenib...  34.6    3.6  
+ref|WP_018922445.1|  XRE family transcriptional regulator [Salsug...  34.6    3.7  
+ref|WP_007959691.1|  hypothetical protein [Pelosinus fermentans] ...  34.6    3.7  
+ref|WP_017701843.1|  MarR family transcriptional regulator [Pseud...  34.2    3.7  
+ref|NP_793394.1|  MarR family transcriptional regulator [Pseudomo...  34.2    3.7  
+ref|WP_003378217.1|  MarR family transcriptional regulator [Pseud...  34.2    3.7  
+ref|WP_005765235.1|  MarR family transcriptional regulator [Pseud...  34.2    3.7  
+ref|WP_006637023.1|  LexA repressor [Bacillus sonorensis] >gb|EME...  34.6    3.8  
+gb|EPN50458.1|  MarR family transcriptional regulator [Pseudomona...  34.2    3.8  
+ref|YP_586925.1|  MarR family transcriptional regulator, involved...  34.2    3.9  
+ref|WP_016875367.1|  hypothetical protein [Chlorogloeopsis]           34.2    4.0  
+ref|WP_002825134.1|  LexA family transcriptional regulator [Oenoc...  34.6    4.1  
+ref|WP_002824285.1|  LexA family transcriptional regulator [Oenoc...  34.6    4.1  
+ref|WP_009622247.1|  TetR family transcriptional regulator [Desul...  34.2    4.1  
+ref|WP_005754631.1|  MarR family transcriptional regulator [Pseud...  34.2    4.1  
+ref|XP_006001286.1|  PREDICTED: nucleoside diphosphate kinase-lik...  34.2    4.2  
+gb|EGF44850.1|  LexA repressor [Lactobacillus rhamnosus MTCC 5462]    34.2    4.4  
+gb|EPN62478.1|  MarR family transcriptional regulator, partial [P...  34.2    4.5  
+ref|WP_010565348.1|  MarR family transcriptional regulator [Pseud...  33.8    4.5  
+ref|YP_008022993.1|  putative TetR family transcriptional regulat...  34.2    4.7  
+ref|WP_010690685.1|  LexA family transcriptional regulator [Fruct...  34.2    4.8  
+ref|WP_005715167.1|  SOS-response repressor and protease LexA [La...  34.2    4.8  
+ref|YP_003173400.1|  LexA repressor [Lactobacillus rhamnosus Lc 7...  34.2    4.8  
+ref|YP_003170463.1|  LexA repressor [Lactobacillus rhamnosus GG] ...  34.2    4.8  
+ref|WP_006907760.1|  LexA family transcriptional regulator [Fackl...  34.2    5.0  
+ref|NP_833799.1|  MarR family transcriptional regulator [Bacillus...  33.8    5.3  
+ref|WP_005712572.1|  LexA family transcriptional regulator [Lacto...  34.2    5.3  
+emb|CDJ50021.1|  hypothetical protein EBH_0073680 [Eimeria brunetti]  34.6    5.6  
+ref|YP_008099584.1|  SOS-response transcriptional repressor [Lact...  33.8    5.7  
+ref|WP_004883848.1|  MarR family transcriptional regulator [Pseud...  33.8    6.1  
+ref|WP_009638272.1|  TetR family transcriptional regulator [Serra...  33.8    6.2  
+ref|YP_005567667.1|  MarR family transcriptional regulator [Bacil...  33.4    6.2  
+ref|YP_002340145.1|  MarR family transcriptional regulator [Bacil...  33.4    6.2  
+ref|YP_275456.1|  MarR family transcriptional regulator [Pseudomo...  33.4    6.4  
+ref|YP_001394969.1|  LexA repressor [Clostridium kluyveri DSM 555...  33.8    6.5  
+ref|WP_004909345.1|  LexA repressor [Leuconostoc citreum] >emb|CC...  33.8    6.7  
+ref|YP_001728266.1|  LexA repressor [Leuconostoc citreum KM20] >r...  33.8    6.7  
+ref|YP_004704975.1|  LexA repressor [Leuconostoc sp. C2] >ref|WP_...  33.8    6.8  
+ref|YP_003620758.1|  transcription repressor of the SOS regulon [...  33.8    6.8  
+ref|YP_002368886.1|  MarR family transcriptional regulator [Bacil...  33.4    7.0  
+gb|ETE02178.1|  proteinase [Streptococcus pneumoniae 27]              33.8    7.0  
+ref|YP_006644051.1|  bacterial regulatory s, tetR family protein ...  33.8    7.2  
+ref|WP_002026278.1|  MarR family transcriptional regulator [Bacil...  33.4    7.6  
+ref|YP_005106528.1|  MarR family transcriptional regulator [Bacil...  33.4    7.7  
+ref|WP_002814699.1|  LexA family transcriptional regulator [Leuco...  33.4    7.7  
+ref|YP_818675.1|  LexA repressor [Leuconostoc mesenteroides subsp...  33.4    7.7  
+ref|YP_006597057.1|  MarR family transcriptional regulator [Bacil...  33.1    8.6  
+ref|YP_007423480.1|  Transcriptional regulator, MarR [Bacillus th...  33.1    9.4  
+ref|NP_360436.1|  hypothetical protein RC0799 [Rickettsia conorii...  33.4    9.8  
+
+
+>ref|NP_147569.1| hypothetical protein APE_0880a [Aeropyrum pernix K1]
+ ref|WP_010866038.1| hypothetical protein [Aeropyrum pernix]
+ dbj|BAA79863.1| hypothetical protein APE_0880a [Aeropyrum pernix K1]
+ tpe|CCD22132.1| TPA: hypothetical protein [Aeropyrum pernix spindle-shaped virus 
+1]
+Length=94
+
+ Score =  174 bits (442),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  2   MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV  61
+           MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV
+Sbjct  1   MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV  60
+
+Query  62  KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+           KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS
+Sbjct  61  KEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  94
+
+
+>pdb|2PG4|A Chain A, Crystal Structure Of A Putative Dna Binding Protein 
+(Ape_0880a) From Aeropyrum Pernix K1 At 2.21 A Resolution
+ pdb|2PG4|B Chain B, Crystal Structure Of A Putative Dna Binding Protein 
+(Ape_0880a) From Aeropyrum Pernix K1 At 2.21 A Resolution
+Length=95
+
+ Score =  172 bits (436),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 93/95 (98%), Positives = 93/95 (98%), Gaps = 0/95 (0%)
+
+Query  1   GMDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGL  60
+           G DDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFF GLKDRLIRAGL
+Sbjct  1   GXDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFXGLKDRLIRAGL  60
+
+Query  61  VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+           VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS
+Sbjct  61  VKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+
+
+>ref|NP_742344.1| MarR family transcriptional regulator [Pseudomonas putida KT2440]
+ ref|WP_010951563.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AAN65808.1|AE016209_7 transcriptional regulator, MarR family [Pseudomonas putida KT2440]
+Length=150
+
+ Score = 40.8 bits (94),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L+LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALRLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|WP_021782544.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ERL01877.1| MarR family transcriptional regulator [Pseudomonas putida LF54]
+Length=150
+
+ Score = 40.0 bits (92),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|WP_004576405.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ENY76505.1| MarR family transcriptional regulator [Pseudomonas putida TRO1]
+Length=150
+
+ Score = 40.0 bits (92),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|YP_001265555.1| MarR family transcriptional regulator [Pseudomonas putida F1]
+ ref|YP_006386770.1| MarR family transcriptional regulator [Pseudomonas putida ND6]
+ ref|YP_006534413.1| MarR family transcriptional regulator [Pseudomonas putida DOT-T1E]
+ ref|WP_003255908.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ABQ76371.1| transcriptional regulator, MarR family [Pseudomonas putida F1]
+ gb|AFK69655.1| MarR family transcriptional regulator [Pseudomonas putida ND6]
+ gb|AFO49619.1| MarR family transcriptional regulator [Pseudomonas putida DOT-T1E]
+ gb|EMR44920.1| MarR family transcriptional regulator [Pseudomonas putida LS46]
+Length=150
+
+ Score = 40.0 bits (92),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  115
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  116  RRDVLG  121
+
+
+>ref|YP_005928116.1| MarR family transcriptional regulator [Pseudomonas putida BIRD-1]
+ ref|WP_014589292.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ADR57911.1| MarR family transcriptional regulator [Pseudomonas putida BIRD-1]
+Length=154
+
+ Score = 40.0 bits (92),  Expect = 0.033, Method: Composition-based stats.
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  61   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIEAELVRL  119
+
+Query  89   CRDVLG  94
+             RDVLG
+Sbjct  120  RRDVLG  125
+
+
+>ref|WP_010008042.1| LexA family transcriptional regulator [Leuconostoc fallax]
+Length=211
+
+ Score = 40.0 bits (92),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 33/53 (62%), Gaps = 0/53 (0%)
+
+Query  27  KGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           KGY P++ EI +A G+S  +   G  +RL++ G +K++T   R + +++T  G
+Sbjct  22  KGYPPTVREIGEAVGLSSSSTIHGHIERLVKKGYLKKDTKKPRARAIEVTTSG  74
+
+
+>ref|WP_009682392.1| MarR family transcriptional regulator, partial [Pseudomonas sp. 
+TJI-51]
+ gb|EGB99770.1| MarR family transcriptional regulator [Pseudomonas sp. TJI-51]
+Length=106
+
+ Score = 38.4 bits (88),  Expect = 0.060, Method: Composition-based stats.
+ Identities = 24/54 (44%), Positives = 34/54 (63%), Gaps = 3/54 (6%)
+
+Query  36  IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+           + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GRRLAE +E
+Sbjct  13  VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRRLAEAIE  65
+
+
+>ref|YP_004095388.1| transcriptional repressor, LexA family [Bacillus cellulosilyticus 
+DSM 2522]
+ ref|WP_013488992.1| XRE family transcriptional regulator [Bacillus cellulosilyticus]
+ gb|ADU30657.1| transcriptional repressor, LexA family [Bacillus cellulosilyticus 
+DSM 2522]
+Length=208
+
+ Score = 39.6 bits (91),  Expect = 0.068, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 38/63 (60%), Gaps = 1/63 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTEKGRR  81
+           E ++KGY PS+ EI +A G++  +   G   RL + GL++ +    R ++ + L ++ RR
+Sbjct  19  EVKEKGYPPSVREIGEAVGLASSSTVHGHLSRLEKKGLIRRDPTKPRAIEVIGLNDEARR  78
+
+Query  82  LAE  84
+           ++E
+Sbjct  79  VSE  81
+
+
+>ref|YP_001751897.1| MarR family transcriptional regulator [Pseudomonas putida W619]
+ ref|WP_012316805.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ACA75528.1| transcriptional regulator, MarR family [Pseudomonas putida W619]
+Length=150
+
+ Score = 38.8 bits (89),  Expect = 0.068, Method: Composition-based stats.
+ Identities = 24/54 (44%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L RAGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCRAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|WP_020154298.1| MarR family transcriptional regulator [Caldibacillus debilis]
+Length=148
+
+ Score = 37.7 bits (86),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 28/89 (31%), Positives = 48/89 (54%), Gaps = 10/89 (11%)
+
+Query  2    MDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV  61
+            +D E + L   H+      L E +K G  PS+ ++  A G+   TF   +++ L++ GLV
+Sbjct  25   IDSENISLVQSHI------LYEIDK-GKSPSMQQVADALGMDITTFSRQIQN-LVKRGLV  76
+
+Query  62   KEETL--SYRVKTLKLTEKGRRLAECLEK  88
+            K+  L    RV TL LT +G+ +A  +++
+Sbjct  77   KKTPLPEDRRVYTLSLTAEGKSVAAAIDQ  105
+
+
+>ref|YP_004699616.1| MarR family transcriptional regulator [Pseudomonas putida S16]
+ ref|WP_013970371.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AEJ10736.1| MarR family transcriptional regulator [Pseudomonas putida S16]
+Length=150
+
+ Score = 37.7 bits (86),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRTLAEAIE  109
+
+
+>ref|YP_008765869.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+ ref|WP_023382990.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+ gb|AGZ37742.1| MarR family transcriptional regulator [Pseudomonas sp. VLB120]
+Length=150
+
+ Score = 37.7 bits (86),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 37/65 (57%), Gaps = 8/65 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIETELVRL  115
+
+Query  89   CRDVL  93
+             RDVL
+Sbjct  116  RRDVL  120
+
+
+>ref|WP_019097416.1| MarR family transcriptional regulator [Pseudomonas putida]
+Length=150
+
+ Score = 37.7 bits (86),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 37/65 (57%), Gaps = 8/65 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIETELVRL  115
+
+Query  89   CRDVL  93
+             RDVL
+Sbjct  116  RRDVL  120
+
+
+>ref|WP_016714396.1| MarR family transcriptional regulator [Pseudomonas monteilii]
+Length=150
+
+ Score = 37.7 bits (86),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 27/65 (42%), Positives = 37/65 (57%), Gaps = 8/65 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIETELVRL  115
+
+Query  89   CRDVL  93
+             RDVL
+Sbjct  116  RRDVL  120
+
+
+>ref|WP_019471693.1| MarR family transcriptional regulator [Pseudomonas sp. S13.1.2]
+Length=150
+
+ Score = 37.3 bits (85),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|YP_008091967.1| MarR family transcriptional regulator [Pseudomonas putida H8234]
+ ref|WP_016484329.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AGN77278.1| MarR family transcriptional regulator [Pseudomonas putida H8234]
+Length=150
+
+ Score = 37.3 bits (85),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|YP_001666449.1| MarR family transcriptional regulator [Pseudomonas putida GB-1]
+ ref|WP_012269984.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|ABY96113.1| transcriptional regulator, MarR family [Pseudomonas putida GB-1]
+Length=150
+
+ Score = 37.3 bits (85),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAEAIE  109
+
+
+>ref|YP_003435871.1| hypothetical protein Ferp_1445 [Ferroglobus placidus DSM 10642]
+ ref|WP_012965939.1| hypothetical protein [Ferroglobus placidus]
+ gb|ADC65596.1| conserved hypothetical protein [Ferroglobus placidus DSM 10642]
+Length=153
+
+ Score = 37.3 bits (85),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 28/80 (35%), Positives = 45/80 (56%), Gaps = 2/80 (3%)
+
+Query  14  LIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           ++ IL  +LE EK G  P   +I K  G S  ++   +     +  L++ E +  R +T+
+Sbjct  12  VVDILLKILEVEKSGKVPYPLKISKEVG-SPYSYISKVLSEFEKHALIESE-MKGRKRTV  69
+
+Query  74  KLTEKGRRLAECLEKCRDVL  93
+           KLTE GRR+AE L+K ++ L
+Sbjct  70  KLTEDGRRVAELLQKLKEEL  89
+
+
+>ref|YP_605944.1| MarR family transcriptional regulator [Pseudomonas entomophila 
+L48]
+ ref|WP_011531588.1| MarR family transcriptional regulator [Pseudomonas entomophila]
+ emb|CAK13127.1| putative transcriptional activator, MarR family [Pseudomonas 
+entomophila L48]
+Length=145
+
+ Score = 37.3 bits (85),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRALAESIE  109
+
+
+>ref|YP_008111209.1| putative MarR family transcriptional regulator [Pseudomonas putida 
+NBRC 14164]
+ ref|WP_016497471.1| putative MarR family transcriptional regulator [Pseudomonas putida]
+ dbj|BAN52025.1| putative MarR family transcriptional regulator [Pseudomonas putida 
+NBRC 14164]
+Length=150
+
+ Score = 37.3 bits (85),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTTEGRALAEAIE  109
+
+
+>ref|WP_016172159.1| hypothetical protein [Enterococcus dispar]
+ gb|EOT42619.1| hypothetical protein OMK_00980 [Enterococcus dispar ATCC 51266]
+ gb|EOW84930.1| hypothetical protein I569_00219 [Enterococcus dispar ATCC 51266]
+Length=85
+
+ Score = 36.1 bits (82),  Expect = 0.29, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 42/73 (58%), Gaps = 3/73 (4%)
+
+Query  16  RILPTLLEF-EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL  + E+  K+ + PS+ EI KA  +S  +      +RL  AGL++++T S R   L+
+Sbjct  12  KILKFIDEYIRKEKWAPSVREIGKAVYLSSTSTVFAHLERLAGAGLIEKQTRSPR--ALR  69
+
+Query  75  LTEKGRRLAECLE  87
+           +TEKG    E L+
+Sbjct  70  ITEKGADFLETLK  82
+
+
+>ref|WP_016392393.1| MarR family transcriptional regulator [Pseudomonas plecoglossicida]
+ gb|EPB96546.1| MarR family transcriptional regulator [Pseudomonas plecoglossicida 
+NB2011]
+Length=150
+
+ Score = 37.3 bits (85),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRGLAEAIE  109
+
+
+>ref|WP_023630816.1| MarR family transcriptional regulator [Pseudomonas mosselii]
+ gb|ESU54510.1| MarR family transcriptional regulator [Pseudomonas mosselii SJ10]
+Length=145
+
+ Score = 36.9 bits (84),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 27/66 (41%), Positives = 38/66 (58%), Gaps = 8/66 (12%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK-----  88
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E      
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTVEGRALAESIEGELVRL  115
+
+Query  89   CRDVLG  94
+             R+VLG
+Sbjct  116  RREVLG  121
+
+
+>ref|WP_002826485.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO06003.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB553]
+Length=212
+
+ Score = 37.3 bits (85),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_002817093.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EAV39411.1| transcriptional regulator LexA [Oenococcus oeni ATCC BAA-1163]
+ gb|EFD88525.1| hypothetical protein AWRIB429_0945 [Oenococcus oeni AWRIB429]
+ gb|EJN91763.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB304]
+ gb|EJN98866.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB419]
+ gb|EJN99221.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB318]
+ gb|EJO01788.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB418]
+ gb|EJO09145.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB576]
+ gb|EJO09815.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB568]
+ gb|EKP88048.1| XRE family transcriptional regulator [Oenococcus oeni DSM 20252 
+= AWRIB129]
+ gb|EKP88705.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB202]
+Length=212
+
+ Score = 37.3 bits (85),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|YP_810544.1| XRE family transcriptional regulator [Oenococcus oeni PSU-1]
+ ref|WP_011677590.1| LexA family transcriptional regulator [Oenococcus oeni]
+ sp|Q04F93.1|LEXA_OENOB RecName: Full=LexA repressor
+ gb|ABJ56879.1| Transcriptional regulator, xre family [Oenococcus oeni PSU-1]
+Length=212
+
+ Score = 37.3 bits (85),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 34/56 (61%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A G+S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVGLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|YP_007227109.1| MarR family transcriptional regulator [Pseudomonas putida HB3267]
+ ref|WP_015268529.1| MarR family transcriptional regulator [Pseudomonas putida]
+ gb|AGA71166.1| MarR family transcriptional regulator [Pseudomonas putida HB3267]
+Length=150
+
+ Score = 36.9 bits (84),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 32/54 (59%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT  GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAAGRTLAESIE  109
+
+
+>ref|WP_023535787.1| marR family protein [Pseudomonas putida]
+ gb|EST14288.1| marR family protein [Pseudomonas putida S610]
+Length=150
+
+ Score = 36.9 bits (84),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LAE +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVLRSEDPLDRRAKALSLTVEGRALAEAIE  109
+
+
+>ref|YP_003700894.1| TetR family transcriptional regulator [Bacillus selenitireducens 
+MLS10]
+ ref|WP_013173742.1| TetR family transcriptional regulator [Bacillus selenitireducens]
+ gb|ADI00329.1| transcriptional regulator, TetR family [Bacillus selenitireducens 
+MLS10]
+Length=188
+
+ Score = 36.9 bits (84),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 30/82 (37%), Positives = 43/82 (52%), Gaps = 11/82 (13%)
+
+Query  16  RILPTLLE-FEKKGY-EPSLAEIVKASGVSEKTFF--MGLKDRLIRA-------GLVKEE  64
+           RI    LE FE+KG+ E S+ EIV A G+S+  F+     KD ++          LVKE+
+Sbjct  4   RITAKALELFEQKGFAETSIREIVDALGISKGAFYHYFAAKDEILSHLHMAYIDTLVKEQ  63
+
+Query  65  TLSYRVKTLKLTEKGRRLAECL  86
+             + R  +L   EK RR+ + L
+Sbjct  64  ADTLRDASLSSEEKLRRIIDLL  85
+
+
+>ref|NP_942420.1| MarR family transcriptional regulator [Synechocystis sp. PCC 
+6803]
+ ref|YP_007453070.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+ ref|WP_011153797.1| MarR family transcriptional regulator [Synechocystis sp. PCC 
+6803]
+ dbj|BAD02034.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+ gb|AGF53686.1| MarR family transcriptional regulatory protein [Synechocystis 
+sp. PCC 6803]
+Length=174
+
+ Score = 36.9 bits (84),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 25/61 (41%), Positives = 35/61 (57%), Gaps = 5/61 (8%)
+
+Query  26   KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLS--YRVKTLKLTEKGRRLA  83
+            K+G  PS  E    + V+  T   GL DRL R GLV+ +  S   R+ T+ LTE+G++L 
+Sbjct  66   KRGLSPS--EFANRANVTRATI-TGLLDRLEREGLVERKAHSNDRRMLTITLTEQGKKLV  122
+
+Query  84   E  84
+            E
+Sbjct  123  E  123
+
+
+>gb|EPD08214.1| LexA repressor, partial [Lactobacillus paracasei subsp. paracasei 
+Lpp48]
+Length=93
+
+ Score = 35.4 bits (80),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGR  80
+           E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR
+Sbjct  22  EDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGR  75
+
+
+>ref|WP_020616320.1| XRE family transcriptional regulator [Paenibacillus daejeonensis]
+Length=206
+
+ Score = 36.5 bits (83),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           E ++KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   +   E+G
+Sbjct  18  EVKEKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEILDQEQG  74
+
+
+>ref|WP_019119223.1| umuDC operon protein-like protein [Brevibacillus sp. phR]
+Length=207
+
+ Score = 36.5 bits (83),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 20/66 (30%), Positives = 37/66 (56%), Gaps = 2/66 (3%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E + KGY PS+ EI +A G++  +   G  +RL + GL++ +    R   ++L ++G R 
+Sbjct  18  EVKDKGYPPSVREIGEAVGLASSSTVHGHLERLEKKGLIRRDPTKPR--AIELLQEGGRF  75
+
+Query  83  AECLEK  88
+            +  E+
+Sbjct  76  QDEFEQ  81
+
+
+>ref|YP_001507429.1| MarR family transcriptional regulator [Frankia sp. EAN1pec]
+ ref|WP_020460665.1| MarR family transcriptional regulator [Frankia sp. EAN1pec]
+ gb|ABW12523.1| transcriptional regulator, MarR family [Frankia sp. EAN1pec]
+Length=142
+
+ Score = 35.7 bits (81),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 26/68 (38%), Positives = 35/68 (51%), Gaps = 6/68 (9%)
+
+Query  30   EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            +P+L E+    G  +KT   G+ DRL+R GLV  +      RV  L+LTE GR       
+Sbjct  55   QPALGELADLLGC-DKTNITGMADRLVRRGLVTRRANPEDRRVTRLELTEDGRAYG---L  110
+
+Query  88   KCRDVLGS  95
+            K RD + S
+Sbjct  111  KLRDAVAS  118
+
+
+>ref|YP_003428820.1| LexA repressor [Bacillus pseudofirmus OF4]
+ ref|WP_012959290.1| XRE family transcriptional regulator [Bacillus]
+ gb|ADC51928.1| LexA repressor [Bacillus pseudofirmus OF4]
+ gb|ERN53326.1| XRE family transcriptional regulator [Bacillus marmarensis DSM 
+21297]
+Length=207
+
+ Score = 36.1 bits (82),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 34/57 (60%), Gaps = 1/57 (2%)
+
+Query  22  LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTE  77
+           +E +KKGY PS+ EI +A G++  +   G   RL + GL++ +    R ++ L++ E
+Sbjct  17  IEVKKKGYPPSVREIGEAVGLASSSTVHGHLSRLEKKGLIRRDPTKPRAIEVLEMDE  73
+
+
+>ref|WP_023661407.1| MarR family transcriptional regulator [Pseudomonas taiwanensis]
+ gb|ESW39625.1| MarR family transcriptional regulator [Pseudomonas taiwanensis 
+SJ9]
+Length=150
+
+ Score = 35.7 bits (81),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 22/54 (41%), Positives = 32/54 (59%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR L E +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRTLVESIE  109
+
+
+>ref|WP_018350971.1| hypothetical protein [Longispora albida]
+Length=78
+
+ Score = 34.2 bits (77),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 22/54 (41%), Positives = 32/54 (59%), Gaps = 3/54 (6%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           ++GY PSL ++ +A G+S  T    + DRL   GLV  E +  R +TL+LT  G
+Sbjct  23  ERGYPPSLRDLGEAVGLSVTTVSYHV-DRLASGGLV--EHVPSRARTLRLTPAG  73
+
+
+>ref|WP_016664358.1| hypothetical protein [Dermabacter sp. HFH0086]
+ gb|EPH15812.1| hypothetical protein HMPREF1484_01449 [Dermabacter sp. HFH0086]
+Length=289
+
+ Score = 36.1 bits (82),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 28/57 (49%), Gaps = 1/57 (2%)
+
+Query  40   SGVSEKTF-FMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLAECLEKCRDVLGS  95
+            SG++   F F G   R  R  L   E+LS   +TL   E  RR  ECLE   DV G+
+Sbjct  134  SGIAPDRFAFEGFLPRTSRKRLSVLESLSREARTLIFFESPRRTRECLEAMVDVFGA  190
+
+
+>ref|WP_006283947.1| SOS-response transcriptional repressor [Paenibacillus popilliae]
+ dbj|GAC40732.1| SOS-response transcriptional repressor [Paenibacillus popilliae 
+ATCC 14706]
+Length=208
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+E+  R 
+Sbjct  18  EVRTKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSEQSDRH  76
+
+Query  83  AE  84
+           +E
+Sbjct  77  SE  78
+
+
+>ref|WP_006675450.1| XRE family transcriptional regulator [Paenibacillus dendritiformis]
+ gb|EHQ63414.1| LexA family transcriptional repressor [Paenibacillus dendritiformis 
+C454]
+Length=208
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+E+  R 
+Sbjct  18  EVRTKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSEQSDRH  76
+
+Query  83  AE  84
+           +E
+Sbjct  77  SE  78
+
+
+>ref|WP_005890329.1| MarR family transcriptional regulator [Pseudomonas coronafaciens]
+ gb|EGI02268.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+oryzae str. 1_6]
+ gb|EGI07438.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+oryzae str. 1_6]
+Length=150
+
+ Score = 35.4 bits (80),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGAHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPHDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGAIEE  110
+
+
+>ref|WP_022241942.1| transcriptional regulator MarR family [Clostridium sp. CAG:413]
+ emb|CDC10887.1| transcriptional regulator MarR family [Clostridium sp. CAG:413]
+Length=171
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 38/71 (54%), Gaps = 3/71 (4%)
+
+Query  13   HLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRV  70
+            HL R  P L+E+     + S  E+ +A GVS  +    +K RL +AG V  +E+    R+
+Sbjct  38   HLYRGQPELMEYLIAHGDCSQVELSEALGVSPASVATSIK-RLCKAGFVERREDENDRRI  96
+
+Query  71   KTLKLTEKGRR  81
+              L +TE GRR
+Sbjct  97   NRLSVTESGRR  107
+
+
+>ref|YP_006805467.1| MarR family transcriptional regulator [Nocardia brasiliensis 
+ATCC 700358]
+ ref|WP_014981354.1| MarR family transcriptional regulator [Nocardia brasiliensis]
+ gb|AFT98492.1| MarR family transcriptional regulator [Nocardia brasiliensis 
+ATCC 700358]
+Length=142
+
+ Score = 35.4 bits (80),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 31/58 (53%), Gaps = 3/58 (5%)
+
+Query  28   GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLS--YRVKTLKLTEKGRRLA  83
+            G  PS  E+  A G  +KT   GL DRL R G V  +T S   RV  + +TE+GR + 
+Sbjct  45   GEPPSFGELASALGC-DKTNVTGLVDRLERRGYVSRQTDSADRRVTRVIITEQGRTMG  101
+
+
+>ref|YP_004960722.1| DNA-binding protein [Streptomyces bingchenggensis BCW-1]
+ ref|WP_014175068.1| DNA-binding protein [Streptomyces bingchenggensis]
+ gb|ADI05591.1| DNA-binding protein [Streptomyces bingchenggensis BCW-1]
+Length=276
+
+ Score = 36.1 bits (82),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 27/69 (39%), Positives = 35/69 (51%), Gaps = 12/69 (17%)
+
+Query  30  EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEET---LSYRVKTLKLTEKGRRL--AE  84
+           EP  ++ +KA G   K F         RAGL +EE    L Y V+TL   E+GRR    E
+Sbjct  9   EPESSDSLKAFGAIVKVFRE-------RAGLTQEELAPLLQYSVQTLASIEQGRRFPQTE  61
+
+Query  85  CLEKCRDVL  93
+            +E+  DVL
+Sbjct  62  FVERAEDVL  70
+
+
+>gb|EPC77204.1| LexA repressor, partial [Lactobacillus paracasei subsp. paracasei 
+Lpp71]
+Length=159
+
+ Score = 35.4 bits (80),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGR  80
+           E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR
+Sbjct  22  EDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGR  75
+
+
+>ref|WP_020326090.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EPM69071.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+theae ICMP 3923]
+Length=150
+
+ Score = 35.4 bits (80),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 38/69 (55%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVK--EETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V+  E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVRRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_019142775.1| hypothetical protein [Herbaspirillum sp. JC206]
+Length=156
+
+ Score = 35.4 bits (80),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 20/38 (53%), Positives = 25/38 (66%), Gaps = 2/38 (5%)
+
+Query  53   DRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            D+L+ AGLV  +E+    R KTL LT +GRR A  LEK
+Sbjct  74   DQLVDAGLVERREDANDRRAKTLHLTAEGRRCAARLEK  111
+
+
+>ref|WP_007746549.1| LexA family transcriptional regulator [Oenococcus kitaharae]
+ gb|EHN59561.1| SOS-response repressor and protease LexA [Oenococcus kitaharae 
+DSM 17330]
+Length=212
+
+ Score = 35.4 bits (80),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 34/56 (61%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A G+S  +   G  +RL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVGLSSTSTVHGHIERLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_019423855.1| XRE family transcriptional regulator [Paenibacillus sp. OSY-SE]
+Length=209
+
+ Score = 35.4 bits (80),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L   E+  R 
+Sbjct  18  EVRGKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIELLSHEQSERT  77
+
+Query  83  AE  84
+            E
+Sbjct  78  NE  79
+
+
+>ref|WP_018704989.1| XRE family transcriptional regulator [Bacillus fordii]
+Length=207
+
+ Score = 35.4 bits (80),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E +KKGY PS+ EI KA G++  +   G  +RL   GL++ +    R
+Sbjct  18  EVKKKGYPPSVREIGKAVGLASSSTVHGHLERLESKGLIRRDPTKPR  64
+
+
+>ref|YP_806009.1| LexA repressor [Lactobacillus casei ATCC 334]
+ ref|YP_001986776.1| LexA repressor [Lactobacillus casei BL23]
+ ref|YP_003787806.1| XRE family transcriptional regulator [Lactobacillus casei str. 
+Zhang]
+ ref|YP_005855721.1| LexA repressor [Lactobacillus casei LC2W]
+ ref|YP_005858843.1| LexA repressor [Lactobacillus casei BD-II]
+ ref|YP_006750863.1| LexA repressor [Lactobacillus casei W56]
+ ref|YP_008199389.1| SOS-response repressor and protease LexA [Lactobacillus casei 
+LOCK919]
+ ref|YP_008445937.1| LexA repressor [Lactobacillus paracasei subsp. paracasei 8700:2]
+ ref|WP_003563873.1| LexA family transcriptional regulator [Lactobacillus casei group]
+ sp|Q03B55.1|LEXA_LACC3 RecName: Full=LexA repressor
+ sp|B3WC17.1|LEXA_LACCB RecName: Full=LexA repressor
+ gb|ABJ69567.1| Transcriptional regulator, xre family [Lactobacillus casei ATCC 
+334]
+ emb|CAQ65918.1| LexA repressor [Lactobacillus casei BL23]
+ gb|EEI68000.1| repressor LexA [Lactobacillus paracasei subsp. paracasei ATCC 
+25302]
+ gb|EEQ67346.1| LexA repressor [Lactobacillus paracasei subsp. paracasei 8700:2]
+ gb|ADK17956.1| Transcriptional regulator, xre family [Lactobacillus casei str. 
+Zhang]
+ gb|AEA53137.1| LexA repressor [Lactobacillus casei LC2W]
+ gb|AEA56302.1| LexA repressor [Lactobacillus casei BD-II]
+ emb|CCK21744.1| LexA repressor [Lactobacillus casei W56]
+ gb|EKQ01092.1| SOS-response repressor/protease [Lactobacillus casei 12A]
+ gb|EKQ01697.1| SOS-response repressor/protease [Lactobacillus casei 32G]
+ gb|EKQ04098.1| SOS-response repressor/protease [Lactobacillus casei 21/1]
+ gb|EKQ08616.1| SOS-response repressor/protease [Lactobacillus casei CRF28]
+ gb|EKQ11874.1| SOS-response repressor/protease [Lactobacillus casei M36]
+ gb|EKQ15159.1| SOS-response repressor/protease [Lactobacillus casei A2-362]
+ gb|EKQ15411.1| SOS-response repressor/protease [Lactobacillus casei T71499]
+ gb|EKQ21556.1| SOS-response repressor/protease [Lactobacillus casei UCD174]
+ gb|EKQ23438.1| SOS-response repressor/protease [Lactobacillus casei UW4]
+ gb|EKQ24566.1| SOS-response repressor/protease [Lactobacillus casei UW1]
+ gb|EKQ27035.1| SOS-response repressor/protease [Lactobacillus casei Lpc-37]
+ gb|EKQ28620.1| SOS-response repressor/protease [Lactobacillus casei Lc-10]
+ gb|EPC12423.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp230]
+ gb|EPC14491.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. tolerans Lpl7]
+ gb|EPC18482.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp122]
+ gb|EPC23476.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp226]
+ gb|EPC25835.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp22]
+ gb|EPC26131.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp17]
+ gb|EPC27700.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp46]
+ gb|EPC35776.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp223]
+ gb|EPC36039.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp120]
+ gb|EPC38127.1| SOS-response repressor and protease LexA [Lactobacillus paracasei 
+subsp. paracasei Lpp225]
+ gb|EPC44303.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp74]
+ gb|EPC45280.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp219]
+ gb|EPC47529.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp229]
+ gb|EPC49872.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp123]
+ gb|EPC53102.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp7]
+ gb|EPC53934.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4270]
+ gb|EPC60115.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp189]
+ gb|EPC62850.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp14]
+ gb|EPC66842.1| LexA repressor [Lactobacillus paracasei subsp. tolerans Lpl14]
+ gb|EPC67604.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp228]
+ gb|EPC75625.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp41]
+ gb|EPC80562.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp221]
+ gb|EPC81523.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp126]
+ gb|EPC84289.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp37]
+ gb|EPC88056.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp43]
+ gb|EPC91922.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp49]
+ gb|EPC96072.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4649]
+ gb|EPC97360.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp227]
+ gb|EPC98867.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-4648]
+ gb|EPD01503.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp125]
+ gb|EPD06279.1| LexA repressor [Lactobacillus paracasei subsp. paracasei CNCM 
+I-2877]
+ gb|EPD08854.1| LexA repressor [Lactobacillus paracasei subsp. paracasei Lpp70]
+ gb|AGP67572.1| SOS-response repressor and protease LexA [Lactobacillus casei 
+LOCK919]
+ dbj|BAN70954.1| transcriptional repressor [Lactobacillus paracasei subsp. paracasei 
+JCM 8130]
+ gb|ERN49128.1| LexA family transcriptional regulator [Lactobacillus casei 5b]
+Length=208
+
+ Score = 35.4 bits (80),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 32/56 (57%), Gaps = 2/56 (4%)
+
+Query  25  EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGR  80
+           E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    R  TL++T  GR
+Sbjct  22  EDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKDPAKPR--TLEVTSAGR  75
+
+
+>ref|YP_255179.1| hypothetical protein Saci_0480 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|YP_007433598.1| hypothetical protein SacN8_02350 [Sulfolobus acidocaldarius N8]
+ ref|YP_007435872.1| hypothetical protein SacRon12I_02345 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_011277388.1| hypothetical protein [Sulfolobus acidocaldarius]
+ gb|AAY79886.1| hypothetical protein Saci_0480 [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70450.1| hypothetical protein SacN8_02350 [Sulfolobus acidocaldarius N8]
+ gb|AGE72724.1| hypothetical protein SacRon12I_02345 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=96
+
+ Score = 34.2 bits (77),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 33/57 (58%), Gaps = 1/57 (2%)
+
+Query  30  EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLAECL  86
+           E SL E+   + ++   F+  +   +++ GL+ E +   R K ++LTEKGR+L E L
+Sbjct  23  EISLNELYTKTRIASSAFYYTVIPTMLKLGLI-EISYENRKKIIRLTEKGRKLLEVL  78
+
+
+>ref|WP_007061059.1| XRE family transcriptional regulator [Clostridium carboxidivorans]
+ gb|EET87393.1| SOS-response transcriptional repressor, LexA [Clostridium carboxidivorans 
+P7]
+ gb|EFG86431.1| repressor LexA [Clostridium carboxidivorans P7]
+Length=202
+
+ Score = 35.4 bits (80),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 34/55 (62%), Gaps = 2/55 (4%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTE  77
+           + ++KGY PS+ EI  A G+S  +   G  +RL + GL+K +  + + +T+++ E
+Sbjct  19  QIKEKGYPPSVREICAAVGLSSTSTVHGHLERLEKKGLIKRD--ATKPRTIEVIE  71
+
+
+>ref|WP_010198025.1| MarR family transcriptional regulator, partial [Pseudomonas amygdali]
+Length=131
+
+ Score = 34.6 bits (78),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 3/70 (4%)
+
+Query  21  LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+           LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  23  LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  81
+
+Query  79  GRRLAECLEK  88
+           GR LA  +E+
+Sbjct  82  GRALAGSIEQ  91
+
+
+>ref|YP_003772342.1| LexA repressor [Leuconostoc gasicomitatum LMG 18811]
+ ref|WP_010388586.1| LexA family transcriptional regulator [Leuconostoc]
+ emb|CBL91523.1| LexA repressor [Leuconostoc gasicomitatum LMG 18811]
+Length=213
+
+ Score = 35.4 bits (80),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 18/75 (24%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  6   TLRLQFGHLIRILPTLLEFE-KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEE  64
+           T+++Q    +++L  + E +   GY P++ E+ +A G+S  +   G  +RL++ G + ++
+Sbjct  2   TIQIQESKQLQVLRFIHEAQITNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKD  61
+
+Query  65  TLSYRVKTLKLTEKG  79
+               R + +++T+ G
+Sbjct  62  ASKPRARAIEVTDSG  76
+
+
+>ref|WP_019431660.1| hypothetical protein [Streptomyces sp. AA0539]
+Length=163
+
+ Score = 35.0 bits (79),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 33/79 (42%), Positives = 44/79 (56%), Gaps = 10/79 (13%)
+
+Query  25   EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLS---YRVKTLKLTEKGRR  81
+            E +  E +  +I  A G+ +KT  + L DRL + GL  E T S    RVK L LT+KGRR
+Sbjct  49   EARHGELTQTQIATAIGL-DKTTMVVLTDRLEKDGLA-ERTPSPSDRRVKILTLTDKGRR  106
+
+Query  82   L----AECLEKC-RDVLGS  95
+            L     E +++  RDVL S
+Sbjct  107  LLRRSQEVVDRTHRDVLES  125
+
+
+>ref|WP_023614724.1| XRE family transcriptional regulator [Bacillus sp. 17376]
+ gb|ESU33208.1| XRE family transcriptional regulator [Bacillus sp. 17376]
+Length=207
+
+ Score = 35.0 bits (79),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 33/59 (56%), Gaps = 1/59 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTEKGR  80
+           E +KKGY PS+ EI +A G++  +   G   RL   GL++ +    R ++ L++ E  R
+Sbjct  18  EVKKKGYPPSVREIGEAVGLASSSTVHGHLARLESKGLIRRDPTKPRAIEILEIEEDSR  76
+
+
+>ref|WP_010493617.1| LexA family transcriptional regulator [Lactobacillus zeae]
+ dbj|BAN73683.1| transcriptional repressor [Lactobacillus casei subsp. casei ATCC 
+393]
+Length=208
+
+ Score = 35.0 bits (79),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 20/66 (30%), Positives = 39/66 (59%), Gaps = 3/66 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ +  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYDAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKGR  80
+           +T  GR
+Sbjct  70  VTAAGR  75
+
+
+>ref|WP_016731967.1| hypothetical protein [Sulfolobus islandicus]
+Length=88
+
+ Score = 33.8 bits (76),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 23/66 (35%), Positives = 39/66 (59%), Gaps = 3/66 (5%)
+
+Query  32  SLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGRRLAECLEKC  89
+           S+ EI++ + +  KT    + + L+  GLVKEE      R K ++LT+KG+ ++E L+K 
+Sbjct  24  SVREIIERTKLGSKTVVDAV-NYLVEIGLVKEEQQQEFPRKKIIRLTDKGKEISEYLKKI  82
+
+Query  90  RDVLGS  95
+             +L S
+Sbjct  83  YGILNS  88
+
+
+>ref|YP_004603292.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici 
+DSM 4947]
+ ref|WP_013886213.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici]
+ gb|AEI14724.1| SOS-response transcriptional repressor, LexA [Flexistipes sinusarabici 
+DSM 4947]
+Length=196
+
+ Score = 35.0 bits (79),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  24  FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+            ++ GY PS+ +I K  GV+  +    + DRL+ AG++K+++   R
+Sbjct  18  LDEYGYPPSVRDIAKGMGVASISSVKKMLDRLVEAGVIKKDSSKAR  63
+
+
+>ref|WP_007251182.1| MarR family transcriptional regulator [Pseudomonas syringae group 
+genomosp. 3]
+ gb|EGH60529.1| regulatory protein, MarR [Pseudomonas syringae pv. maculicola 
+str. ES4326]
+Length=150
+
+ Score = 34.6 bits (78),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT K
+Sbjct  42   LLAIARLGDGAHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRTEDPNDRRAKALSLTSK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRALASSIE  109
+
+
+>ref|YP_006745191.1| LexA repressor [Leuconostoc gelidum JB7]
+ ref|WP_010016601.1| LexA family transcriptional regulator [Leuconostoc gelidum]
+ gb|AFS40305.1| LexA repressor [Leuconostoc gelidum JB7]
+Length=213
+
+ Score = 35.0 bits (79),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 18/75 (24%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  6   TLRLQFGHLIRILPTLLEFE-KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEE  64
+           T+++Q    +++L  + E +   GY P++ E+ +A G+S  +   G  +RL++ G + ++
+Sbjct  2   TIQIQESKQLQVLRFIHEAQITNGYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKD  61
+
+Query  65  TLSYRVKTLKLTEKG  79
+               R + +++T+ G
+Sbjct  62  ASKPRARAIEVTDAG  76
+
+
+>ref|WP_020643458.1| MarR family transcriptional regulator [Amycolatopsis balhimycina]
+Length=152
+
+ Score = 34.6 bits (78),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 20/43 (47%), Positives = 25/43 (58%), Gaps = 2/43 (5%)
+
+Query  44   EKTFFMGLKDRLIRAGLVKEE--TLSYRVKTLKLTEKGRRLAE  84
+            EK+   GL DR +R GLV+ E      R   + LTE+GR LAE
+Sbjct  62   EKSSLTGLADRAVRRGLVRREPDPDDRRAVQVVLTEEGRELAE  104
+
+
+>ref|WP_008096890.1| MarR family transcriptional regulator [Pseudomonas sp. GM84]
+ gb|EJN36840.1| transcriptional regulator [Pseudomonas sp. GM84]
+Length=150
+
+ Score = 34.6 bits (78),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 22/54 (41%), Positives = 32/54 (59%), Gaps = 3/54 (6%)
+
+Query  36   IVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLE  87
+            + +A+G+ E    + L D+L +AGLV   E+ L  R K L LT +GR LA  +E
+Sbjct  57   VAQAAGL-ESPSLVRLLDQLCKAGLVCRSEDPLDRRAKALSLTAEGRSLAVAIE  109
+
+
+>ref|WP_005738676.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH10705.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+morsprunorum str. M302280]
+Length=150
+
+ Score = 34.6 bits (78),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGNGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_002554194.1| MarR family transcriptional regulator [Pseudomonas syringae group 
+genomosp. 2]
+ gb|EFH98906.1| Transcriptional regulator, MarR family [Pseudomonas savastanoi 
+pv. savastanoi NCPPB 3335]
+ gb|EFW80051.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. B076]
+ gb|EFW84108.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. race 4]
+ gb|EGH10127.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+glycinea str. race 4]
+ gb|EGH84678.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+lachrymans str. M301315]
+ gb|EGH91200.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+tabaci str. ATCC 11528]
+Length=150
+
+ Score = 34.6 bits (78),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|WP_005733737.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH03779.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+aesculi str. 0893_23]
+Length=150
+
+ Score = 34.6 bits (78),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 38/70 (54%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|WP_003486039.1| XRE family transcriptional regulator [Clostridium sporogenes]
+ gb|EDU37039.1| repressor LexA [Clostridium sporogenes ATCC 15579]
+ gb|EHN14779.1| LexA repressor [Clostridium sporogenes PA 3679]
+ dbj|GAE02277.1| LexA repressor [Clostridium botulinum B str. Osaka05]
+Length=201
+
+ Score = 35.0 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  22  LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           L+ ++KGY PS+ EI KA G+S  +       RL + GL+K ++   R
+Sbjct  18  LQIKEKGYPPSVREICKAVGLSSTSSVHFHLKRLEKEGLIKRDSSKTR  65
+
+
+>ref|YP_001391049.1| LexA repressor [Clostridium botulinum F str. Langeland]
+ ref|YP_001781343.1| LexA repressor [Clostridium botulinum B1 str. Okra]
+ ref|YP_001787115.1| LexA repressor [Clostridium botulinum A3 str. Loch Maree]
+ ref|YP_002804127.1| LexA repressor [Clostridium botulinum A2 str. Kyoto]
+ ref|YP_002862756.1| LexA repressor [Clostridium botulinum Ba4 str. 657]
+ ref|YP_005674678.1| LexA repressor [Clostridium botulinum F str. 230613]
+ ref|WP_003358834.1| XRE family transcriptional regulator [Clostridium botulinum]
+ sp|A7GE39.1|LEXA_CLOBL RecName: Full=LexA repressor
+ sp|B1KS97.1|LEXA_CLOBM RecName: Full=LexA repressor
+ sp|B1IM63.1|LEXA_CLOBK RecName: Full=LexA repressor
+ sp|C1FNT4.1|LEXA_CLOBJ RecName: Full=LexA repressor
+ sp|C3KX30.1|LEXA_CLOB6 RecName: Full=LexA repressor
+ gb|ABS42138.1| LexA repressor [Clostridium botulinum F str. Langeland]
+ gb|ACA46182.1| LexA repressor [Clostridium botulinum B1 str. Okra]
+ gb|ACA54894.1| LexA repressor [Clostridium botulinum A3 str. Loch Maree]
+ gb|EDT80634.1| LexA repressor [Clostridium botulinum NCTC 2916]
+ gb|EDT84024.1| LexA repressor [Clostridium botulinum Bf]
+ gb|ACO83894.1| LexA repressor [Clostridium botulinum A2 str. Kyoto]
+ gb|ACQ52069.1| LexA repressor [Clostridium botulinum Ba4 str. 657]
+ gb|ADF99477.1| LexA repressor [Clostridium botulinum F str. 230613]
+ gb|EKN41292.1| LexA repressor [Clostridium botulinum CFSAN001627]
+ gb|EKX79178.1| LexA repressor [Clostridium botulinum CFSAN001628]
+Length=201
+
+ Score = 35.0 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  22  LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           L+ ++KGY PS+ EI KA G+S  +       RL + GL+K ++   R
+Sbjct  18  LQIKEKGYPPSVREICKAVGLSSTSSVHFHLKRLEKEGLIKRDSSKTR  65
+
+
+>ref|YP_001254295.1| LexA repressor [Clostridium botulinum A str. ATCC 3502]
+ ref|YP_001384051.1| LexA repressor [Clostridium botulinum A str. ATCC 19397]
+ ref|YP_001387593.1| LexA repressor [Clostridium botulinum A str. Hall]
+ ref|YP_005678335.1| sos-response repressor and protease LexA [Clostridium botulinum 
+H04402 065]
+ ref|WP_011986377.1| XRE family transcriptional regulator [Clostridium botulinum]
+ sp|A7FUK4.1|LEXA_CLOB1 RecName: Full=LexA repressor
+ sp|A5I2R7.1|LEXA_CLOBH RecName: Full=LexA repressor
+ emb|CAL83334.1| SOS regulatory protein [Clostridium botulinum A str. ATCC 3502]
+ gb|ABS33610.1| LexA repressor [Clostridium botulinum A str. ATCC 19397]
+ gb|ABS37659.1| LexA repressor [Clostridium botulinum A str. Hall]
+ emb|CBZ03599.1| sos-response repressor and protease LexA [Clostridium botulinum 
+H04402 065]
+Length=201
+
+ Score = 35.0 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 0/48 (0%)
+
+Query  22  LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           L+ ++KGY PS+ EI KA G+S  +       RL + GL+K ++   R
+Sbjct  18  LQIKEKGYPPSVREICKAVGLSSTSSVHFHLKRLEKEGLIKRDSSKTR  65
+
+
+>ref|WP_018977636.1| XRE family transcriptional regulator [Saccharibacillus kuerlensis]
+Length=208
+
+ Score = 35.0 bits (79),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E + KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  18  EVKSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  68
+
+
+>ref|WP_019006151.1| XRE family transcriptional regulator [Cohnella laeviribosi]
+Length=207
+
+ Score = 35.0 bits (79),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  +KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVREKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|YP_007212878.1| SOS regulatory protein LexA [Thermobacillus composti KWC4]
+ ref|WP_015254631.1| XRE family transcriptional regulator [Thermobacillus composti]
+ gb|AGA57880.1| SOS regulatory protein LexA [Thermobacillus composti KWC4]
+Length=207
+
+ Score = 35.0 bits (79),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  +KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  18  EVREKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|YP_001539975.1| MarR family transcriptional regulator [Caldivirga maquilingensis 
+IC-167]
+ ref|WP_012185205.1| MarR family transcriptional regulator [Caldivirga maquilingensis]
+ gb|ABW00985.1| transcriptional regulator, MarR family [Caldivirga maquilingensis 
+IC-167]
+Length=145
+
+ Score = 34.6 bits (78),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 26/73 (36%), Positives = 37/73 (51%), Gaps = 4/73 (5%)
+
+Query  15  IRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           + IL TL+    K  +  L    K +G + K     L ++LIR GLV    ++ +V  +K
+Sbjct  15  VNILLTLIRLNGKCLQKDLW---KMAGTNSKVGIPAL-NKLIRMGLVTRRKVNEKVYEIK  70
+
+Query  75  LTEKGRRLAECLE  87
+           LT KG R A  LE
+Sbjct  71  LTRKGLREARKLE  83
+
+
+>ref|WP_005549881.1| XRE family transcriptional regulator [Paenibacillus alvei]
+ gb|EJW15677.1| LexA repressor [Paenibacillus alvei DSM 29]
+Length=208
+
+ Score = 35.0 bits (79),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRL  82
+           E   KGY PS+ EI +A G++  +   G  DRL + G ++ +    R   L L+++  R 
+Sbjct  18  EVRAKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGFIRRDPTKPRAIEL-LSDQSDRT  76
+
+Query  83  AE  84
+           A+
+Sbjct  77  AD  78
+
+
+>ref|YP_001922962.1| MarR family transcriptional regulator [Methylobacterium populi 
+BJ001]
+ ref|WP_012452191.1| MarR family transcriptional regulator [Methylobacterium populi]
+ gb|ACB78427.1| transcriptional regulator, MarR family [Methylobacterium populi 
+BJ001]
+Length=165
+
+ Score = 34.6 bits (78),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 29/80 (36%), Positives = 41/80 (51%), Gaps = 4/80 (5%)
+
+Query  16   RILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTL  73
+            + LP +L   + G EP    + +A G+ E    + L D+L  AGLV  KE+T   R K L
+Sbjct  41   KALPLVL-IGRLGGEPRQNALAEAVGI-EGPSLVRLLDQLEAAGLVTRKEDTTDRRAKVL  98
+
+Query  74   KLTEKGRRLAECLEKCRDVL  93
+             LT+ GR +   +E   D L
+Sbjct  99   SLTDTGRSVVARIEADLDRL  118
+
+
+>ref|WP_020601128.1| hypothetical protein [Spirosoma panaciterrae]
+Length=201
+
+ Score = 34.6 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 19/43 (44%), Positives = 28/43 (65%), Gaps = 3/43 (7%)
+
+Query  53   DRLIRAGLVKEE--TLSYRVKTLKLTEKGR-RLAECLEKCRDV  92
+            DRL +AGL++EE   +  R K L +TEKG+ +L  C +K  +V
+Sbjct  122  DRLKKAGLIQEEGDAIDKRTKRLTITEKGQTQLEACYQKLNEV  164
+
+
+>ref|YP_003011361.1| SOS-response transcriptional repressor, LexA [Paenibacillus sp. 
+JDR-2]
+ ref|WP_015844219.1| XRE family transcriptional regulator [Paenibacillus sp. JDR-2]
+ gb|ACT01275.1| SOS-response transcriptional repressor, LexA [Paenibacillus sp. 
+JDR-2]
+Length=206
+
+ Score = 34.6 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 31/55 (56%), Gaps = 5/55 (9%)
+
+Query  20  TLLEFEK-----KGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           ++LEF K     KGY PS+ EI +A G++  +   G  DRL + GL++ +    R
+Sbjct  10  SILEFIKNEVRDKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPR  64
+
+
+>ref|WP_022334967.1| lexA repressor [Clostridium sp. CAG:452]
+ emb|CDD27716.1| lexA repressor [Clostridium sp. CAG:452]
+Length=217
+
+ Score = 34.6 bits (78),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 32/57 (56%), Gaps = 2/57 (4%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           +  +KGY PS+ EI KA G+S      G   +L + G +K+E    + +TL++ + G
+Sbjct  23  QINEKGYPPSVREIGKAVGLSSTATVHGYLAKLTKKGYIKKE--DQKGRTLRVLKGG  77
+
+
+>ref|WP_018755606.1| XRE family transcriptional regulator [Paenibacillus terrigena]
+Length=208
+
+ Score = 34.6 bits (78),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 29/56 (52%), Gaps = 0/56 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEK  78
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L   E+
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIELLSQEE  73
+
+
+>ref|WP_009708592.1| XRE family transcriptional regulator [Desmospora sp. 8437]
+ gb|EGK13892.1| LexA repressor [Desmospora sp. 8437]
+Length=211
+
+ Score = 34.6 bits (78),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR  69
+           E  KKGY PS+ EI +A G++  +   G  +RL + GL++ +    R
+Sbjct  21  EVRKKGYPPSVREIGEAVGLASSSTVHGHLNRLEKKGLIRRDPTKPR  67
+
+
+>ref|WP_023276393.1| repressor LexA [Mucispirillum schaedleri]
+ gb|ESJ97644.1| repressor LexA [Mucispirillum schaedleri ASF457]
+Length=202
+
+ Score = 34.6 bits (78),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 34/59 (58%), Gaps = 3/59 (5%)
+
+Query  16  RILPTLLEFEKK-GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           R+L  +L+F K+ GY PS+ E+ +  GVS  +    + DRL   G++ +   S R ++L
+Sbjct  7   RLLNFILDFHKEYGYSPSIREMAQGMGVSSPSTIKAMLDRLEAKGMLTKS--SGRARSL  63
+
+
+>ref|YP_005260477.1| transcriptional regulator [Pyrobaculum oguniense TE7]
+ ref|WP_014347345.1| transcriptional regulator [Pyrobaculum oguniense]
+ gb|AFA39870.1| Transcriptional regulator [Pyrobaculum oguniense TE7]
+Length=176
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 25/67 (37%), Positives = 35/67 (52%), Gaps = 2/67 (3%)
+
+Query  30   EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKE-ETLSYRVKTLKLTEKGRRLAECLEK  88
+            E S+++I K  G+S  T    LK  L R G V+       RVK +KLTE GR +A  + +
+Sbjct  44   EASVSQIAKELGISTSTASESLKS-LARMGYVEAARGDDRRVKVVKLTEAGRGVAREISR  102
+
+Query  89   CRDVLGS  95
+              D L +
+Sbjct  103  IYDALAA  109
+
+
+>ref|WP_022490694.1| lexA repressor [Clostridium sp. CAG:567]
+ emb|CDE97150.1| lexA repressor [Clostridium sp. CAG:567]
+Length=219
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 31/57 (54%), Gaps = 2/57 (4%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           + E+KGY PS+ EI KA G+       G   +L   G +K+E    + +TL+L + G
+Sbjct  24  QVEEKGYAPSVREIGKAVGLKSTATVHGYLAKLSEKGYIKKE--DQKGRTLRLLKGG  78
+
+
+>dbj|GAE05347.1| SOS-response repressor and protease LexA [Paenibacillus sp. JCM 
+10914]
+Length=208
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  68
+
+
+>ref|WP_007129967.1| XRE family transcriptional regulator [Paenibacillus lactis]
+ gb|EHB64553.1| transcriptional repressor, LexA family [Paenibacillus lactis 
+154]
+Length=208
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  68
+
+
+>ref|WP_006209658.1| XRE family transcriptional regulator [Paenibacillus vortex]
+ gb|EFU41553.1| transcriptional repressor, LexA family protein [Paenibacillus 
+vortex V453]
+Length=208
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  68
+
+
+>ref|YP_003242450.1| LexA family transcriptional repressor [Paenibacillus sp. Y412MC10]
+ ref|WP_009596010.1| XRE family transcriptional regulator [Paenibacillus]
+ gb|ACX64643.1| transcriptional repressor, LexA family [Paenibacillus sp. Y412MC10]
+ gb|EGG31061.1| repressor LexA [Paenibacillus sp. HGF5]
+Length=208
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  18  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  68
+
+
+>ref|WP_019910697.1| XRE family transcriptional regulator [Paenibacillus sp. HW567]
+Length=213
+
+ Score = 34.6 bits (78),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 27/51 (53%), Gaps = 0/51 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           E   KGY PS+ EI +A G++  +   G  DRL + GL++ +    R   L
+Sbjct  23  EVRSKGYPPSVREIGEAVGLASSSTVHGHLDRLEKKGLIRRDPTKPRAIEL  73
+
+
+>ref|WP_018922445.1| XRE family transcriptional regulator [Salsuginibacillus kocurii]
+Length=211
+
+ Score = 34.6 bits (78),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 39/69 (57%), Gaps = 1/69 (1%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYR-VKTLKLTEKGRR  81
+           E ++KGY PS+ EI +A G++  +   G   RL + GL++ +    R ++ L+L ++  +
+Sbjct  18  EVKEKGYPPSVREIGEAVGLASSSTVHGHLSRLEKKGLIRRDPTKPRAMEVLELEDEQSQ  77
+
+Query  82  LAECLEKCR  90
+            A  + + R
+Sbjct  78  AAPTISEGR  86
+
+
+>ref|WP_007959691.1| hypothetical protein [Pelosinus fermentans]
+ gb|EIW47442.1| hypothetical protein JBW_3941 [Pelosinus fermentans JBW45]
+Length=188
+
+ Score = 34.6 bits (78),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 22/64 (34%), Positives = 36/64 (56%), Gaps = 7/64 (11%)
+
+Query  29   YEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRRLAECLEK  88
+            Y+P+  +  K   V E+T     KD  I +G++  + L+Y    L+  +KG+R+AE L+K
+Sbjct  112  YDPAAKKPSKEVIVEEET-----KD--IVSGIIDRQGLNYLTAALERIQKGQRIAEGLDK  164
+
+Query  89   CRDV  92
+              DV
+Sbjct  165  VEDV  168
+
+
+>ref|WP_017701843.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EPM48283.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19098]
+ gb|EPN18502.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19100]
+ gb|EPN25971.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19099]
+ gb|EPN34025.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18883]
+ gb|EPN42727.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19095]
+ gb|EPN51450.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19094]
+ gb|EPN56731.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19096]
+Length=150
+
+ Score = 34.2 bits (77),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|NP_793394.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+tomato str. DC3000]
+ ref|WP_011104633.1| MarR family transcriptional regulator [Pseudomonas syringae group 
+genomosp. 3]
+ gb|AAO57089.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=150
+
+ Score = 34.2 bits (77),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_003378217.1| MarR family transcriptional regulator [Pseudomonas syringae]
+ gb|EGH64639.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae str. M302091]
+ gb|EPM52673.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19103]
+ gb|EPM57320.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19073]
+ gb|EPM59535.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19071]
+ gb|EPM77803.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19072]
+ gb|EPM81022.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18886]
+ gb|EPM87323.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19068]
+ gb|EPM96195.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19104]
+ gb|EPN03752.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19102]
+ gb|EPN08597.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 9855]
+ gb|EPN13260.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19070]
+ gb|EPN73993.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19101]
+ gb|EPN76198.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 19097]
+ gb|EPN80755.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18801]
+Length=150
+
+ Score = 34.2 bits (77),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_005765235.1| MarR family transcriptional regulator [Pseudomonas syringae group]
+ gb|EEB59794.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. tomato T1]
+ gb|EGH95941.1| transcriptional regulator, MarR family protein [Pseudomonas syringae 
+pv. lachrymans str. M302278]
+Length=150
+
+ Score = 34.2 bits (77),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_006637023.1| LexA repressor [Bacillus sonorensis]
+ gb|EME75645.1| LexA repressor [Bacillus sonorensis L12]
+Length=207
+
+ Score = 34.6 bits (78),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           E ++KGY PS+ EI +A G++  +   G   RL   GL++ +    R   +  TE+G
+Sbjct  18  EVKRKGYPPSVREIGEAVGLASSSTVHGHLARLETKGLIRRDPTKPRAIEILDTEEG  74
+
+
+>gb|EPN50458.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+actinidiae ICMP 18807]
+Length=154
+
+ Score = 34.2 bits (77),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|YP_586925.1| MarR family transcriptional regulator, involved in virulence 
+[Cupriavidus metallidurans CH34]
+ ref|WP_008651197.1| MarR family transcriptional regulator [Cupriavidus]
+ gb|ABF11656.1| putative transcriptional regulator, MarR family, involved in 
+virulence [Cupriavidus metallidurans CH34]
+ gb|EKZ96142.1| MarR family transcriptional regulator, involved in virulence 
+[Cupriavidus sp. HMR-1]
+Length=152
+
+ Score = 34.2 bits (77),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 23/58 (40%), Positives = 32/58 (55%), Gaps = 6/58 (10%)
+
+Query  32   SLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY--RVKTLKLTEKGRRLAECLE  87
+            +LA+ V   G +     + L D+L  AGLV+ E  S   R   L LTE+G R+AE +E
+Sbjct  57   TLADYVGVEGAT----LVRLVDQLSAAGLVRREVDSSDRRANVLSLTEEGERMAELIE  110
+
+
+>ref|WP_016875367.1| hypothetical protein [Chlorogloeopsis]
+Length=169
+
+ Score = 34.2 bits (77),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 25/68 (37%), Positives = 39/68 (57%), Gaps = 5/68 (7%)
+
+Query  17   ILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETL--SYRVKTLK  74
+            +L  L   ++KG  PS  E  + +GV+  T   GL D L R GLV+ +      R+ +++
+Sbjct  61   LLMQLFVVDEKGLTPS--ECAERAGVTRATI-TGLLDGLERDGLVQRQPYPDDRRMLSVQ  117
+
+Query  75   LTEKGRRL  82
+            LT+KGR+L
+Sbjct  118  LTDKGRQL  125
+
+
+>ref|WP_002825134.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO07740.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB548]
+Length=212
+
+ Score = 34.6 bits (78),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 33/56 (59%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A  +S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVDLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_002824285.1| LexA family transcriptional regulator [Oenococcus oeni]
+ gb|EJO06953.1| XRE family transcriptional regulator [Oenococcus oeni AWRIB422]
+Length=212
+
+ Score = 34.6 bits (78),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 33/56 (59%), Gaps = 2/56 (4%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           +KGY P++ EI +A  +S  +   G  DRL + GL+ ++    R   +++TEKG R
+Sbjct  19  EKGYPPTVREIGEAVDLSSTSTVHGHIDRLEKHGLLHKDPTKPR--AIEITEKGLR  72
+
+
+>ref|WP_009622247.1| TetR family transcriptional regulator [Desulfosporosinus sp. 
+OT]
+ gb|EGW37752.1| bacterial regulatory s, tetR family protein [Desulfosporosinus 
+sp. OT]
+Length=181
+
+ Score = 34.2 bits (77),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 22/32 (69%), Gaps = 1/32 (3%)
+
+Query  24  FEKKGYE-PSLAEIVKASGVSEKTFFMGLKDR  54
+           F KKGYE  ++ EI   +GV+E+TFF   KD+
+Sbjct  15  FMKKGYENTTVQEIASLAGVTERTFFRQFKDK  46
+
+
+>ref|WP_005754631.1| MarR family transcriptional regulator [Pseudomonas amygdali]
+ gb|EGH21634.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+mori str. 301020]
+Length=150
+
+ Score = 34.2 bits (77),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRALAGSIE  109
+
+
+>ref|XP_006001286.1| PREDICTED: nucleoside diphosphate kinase-like [Latimeria chalumnae]
+Length=153
+
+ Score = 34.2 bits (77),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  24  FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVK  62
+           FE+KG++   A+ ++AS    KT ++ LKDR   AGLVK
+Sbjct  29  FEQKGFKLVAAKFLQASEDLLKTHYIDLKDRPFYAGLVK  67
+
+
+>gb|EGF44850.1| LexA repressor [Lactobacillus rhamnosus MTCC 5462]
+Length=174
+
+ Score = 34.2 bits (77),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>gb|EPN62478.1| MarR family transcriptional regulator, partial [Pseudomonas syringae 
+pv. actinidiae ICMP 19079]
+Length=192
+
+ Score = 34.2 bits (77),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 37/69 (54%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCKAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRTLAGSIE  109
+
+
+>ref|WP_010565348.1| MarR family transcriptional regulator [Pseudomonas extremaustralis]
+Length=143
+
+ Score = 33.8 bits (76),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 25/67 (37%), Positives = 34/67 (51%), Gaps = 8/67 (12%)
+
+Query  35   EIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEKC---  89
+            ++ +ASG+ E    + L DRL   G V   E+    R K L LTE+GR L + +E     
+Sbjct  49   KVAQASGM-ESPSLVRLLDRLCHDGYVCRTEDACDRRAKALSLTERGRELVQAVEAQLVR  107
+
+Query  90   --RDVLG  94
+              RDVL 
+Sbjct  108  LRRDVLA  114
+
+
+>ref|YP_008022993.1| putative TetR family transcriptional regulator [Mycobacterium 
+abscessus subsp. bolletii 50594]
+ ref|WP_016342698.1| putative TetR family transcriptional regulator [Mycobacterium 
+abscessus]
+ gb|AGM29129.1| putative TetR family transcriptional regulator [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=197
+
+ Score = 34.2 bits (77),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 30/77 (39%), Positives = 39/77 (51%), Gaps = 17/77 (22%)
+
+Query  16  RILPTLLE-FEKKGY-EPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEET---LSYRV  70
+           RIL   LE F  +GY   S+AE+  A+GVS  +F+  LKD        KEE    L  R 
+Sbjct  14  RILEAALELFAARGYGATSIAELCSAAGVSRGSFYSNLKD--------KEEVFLLLFDRH  65
+
+Query  71  KTLKLTEKGRRLAECLE  87
+            TL+L     R+  CL+
+Sbjct  66  ATLQLA----RIRSCLQ  78
+
+
+>ref|WP_010690685.1| LexA family transcriptional regulator [Fructobacillus fructosus]
+Length=210
+
+ Score = 34.2 bits (77),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 39/66 (59%), Gaps = 1/66 (2%)
+
+Query  15  IRILPTLLEFE-KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           I++L  + E++ K G+ P++ EI ++ G+S  +   G   RLI+ G + ++    + + +
+Sbjct  8   IQVLRFIHEYQSKNGFPPTIREIGESVGLSSSSTIHGHISRLIKNGYLLKKGEKTKARAI  67
+
+Query  74  KLTEKG  79
+           ++T KG
+Sbjct  68  EVTAKG  73
+
+
+>ref|WP_005715167.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus]
+ gb|EKS51807.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LRHMDP3]
+ gb|EKS54138.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LRHMDP2]
+Length=208
+
+ Score = 34.2 bits (77),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>ref|YP_003173400.1| LexA repressor [Lactobacillus rhamnosus Lc 705]
+ ref|YP_005872403.1| repressor LexA [Lactobacillus rhamnosus ATCC 8530]
+ ref|YP_008205246.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK908]
+ ref|WP_005691921.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EEN78858.1| repressor LexA [Lactobacillus rhamnosus LMS2-1]
+ emb|CAR89549.1| LexA repressor [Lactobacillus rhamnosus Lc 705]
+ gb|AER63550.1| repressor LexA [Lactobacillus rhamnosus ATCC 8530]
+ gb|AGP73389.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK908]
+ gb|ERJ54367.1| LexA family transcriptional regulator [Lactobacillus rhamnosus 
+2166]
+Length=208
+
+ Score = 34.2 bits (77),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTTAG  74
+
+
+>ref|YP_003170463.1| LexA repressor [Lactobacillus rhamnosus GG]
+ ref|YP_005865186.1| transcriptional repressor [Lactobacillus rhamnosus GG]
+ ref|YP_008202329.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK900]
+ ref|WP_005684070.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EDZ00118.1| Transcriptional regulator, xre family protein [Lactobacillus 
+rhamnosus HN001]
+ emb|CAR86612.1| LexA repressor [Lactobacillus rhamnosus GG]
+ dbj|BAI41221.1| transcriptional repressor [Lactobacillus rhamnosus GG]
+ gb|EHJ22356.1| LexA repressor [Lactobacillus rhamnosus R0011]
+ gb|AGP70512.1| SOS-response repressor and protease LexA [Lactobacillus rhamnosus 
+LOCK900]
+Length=208
+
+ Score = 34.2 bits (77),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16  RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+           +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  12  QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  69
+
+Query  75  LTEKG  79
+           +T  G
+Sbjct  70  VTAAG  74
+
+
+>ref|WP_006907760.1| LexA family transcriptional regulator [Facklamia hominis]
+ gb|EKB56466.1| repressor LexA [Facklamia hominis CCUG 36813]
+ gb|EPH12870.1| repressor LexA [Facklamia hominis ACS-120-V-Sch10]
+Length=204
+
+ Score = 34.2 bits (77),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 38/66 (58%), Gaps = 3/66 (5%)
+
+Query  15  IRILPTLLEF-EKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTL  73
+           + +L ++ E  E  GY P++ EI + +G+S  +   G  DRL   G++  +  + + +T+
+Sbjct  9   MNVLRSIYELVEASGYPPTVREIGERAGLSSPSTVHGHLDRLEEKGMIDRD--AAKTRTI  66
+
+Query  74  KLTEKG  79
+           ++TE G
+Sbjct  67  EITELG  72
+
+
+>ref|NP_833799.1| MarR family transcriptional regulator [Bacillus cereus ATCC 14579]
+ ref|YP_002447655.1| MarR family transcriptional regulator [Bacillus cereus G9842]
+ ref|YP_005574043.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+serovar chinensis CT-43]
+ ref|YP_006607228.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+HD-771]
+ ref|YP_006928837.1| transcriptional regulator, MarR family [Bacillus thuringiensis 
+Bt407]
+ ref|YP_006611835.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+HD-789]
+ ref|YP_007480614.1| Transcriptional regulator, MarR family [Bacillus thuringiensis 
+serovar thuringiensis str. IS5056]
+ ref|YP_008820833.1| Transcriptional regulator, MarR family protein [Bacillus thuringiensis 
+YBT-1518]
+ ref|WP_001003307.1| MarR family transcriptional regulator [Bacillus]
+ gb|AAP11000.1| Transcriptional regulator, MarR family [Bacillus cereus ATCC 
+14579]
+ gb|ACK96826.1| transcriptional regulator, MarR family [Bacillus cereus G9842]
+ gb|AEA17752.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+serovar chinensis CT-43]
+ gb|EHL76669.1| hypothetical protein HMPREF1014_00779 [Bacillus sp. 7_6_55CFAA_CT2]
+ gb|EJP92996.1| hypothetical protein IC1_00858 [Bacillus cereus VD022]
+ gb|EJR08563.1| hypothetical protein II5_00845 [Bacillus cereus MSX-A1]
+ gb|EJR40562.1| hypothetical protein IIE_00845 [Bacillus cereus VD045]
+ gb|EJR85818.1| hypothetical protein IK9_00780 [Bacillus cereus VD166]
+ gb|EJR89126.1| hypothetical protein IKA_03736 [Bacillus cereus VD169]
+ gb|EJR95459.1| hypothetical protein IKG_04000 [Bacillus cereus VD200]
+ gb|EJS53398.1| hypothetical protein ICE_03333 [Bacillus cereus BAG1X1-2]
+ gb|AFQ19195.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+HD-771]
+ gb|AFQ27915.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+HD-789]
+ gb|EJV83538.1| hypothetical protein IGE_01608 [Bacillus cereus HuB1-1]
+ gb|AFV19900.1| transcriptional regulator, MarR family [Bacillus thuringiensis 
+Bt407]
+ gb|AGG02866.1| Transcriptional regulator, MarR family [Bacillus thuringiensis 
+serovar thuringiensis str. IS5056]
+ gb|EOO10000.1| MarR family transcriptional regulator [Bacillus cereus str. Schrouff]
+ gb|EOO30144.1| MarR family transcriptional regulator [Bacillus cereus BAG1X1-1]
+ gb|EOO46594.1| MarR family transcriptional regulator [Bacillus cereus BAG1X2-1]
+ gb|EOO54037.1| MarR family transcriptional regulator [Bacillus cereus BAG1X2-2]
+ gb|EOO58221.1| MarR family transcriptional regulator [Bacillus cereus BAG1X2-3]
+ gb|EOO89713.1| MarR family transcriptional regulator [Bacillus cereus K-5975c]
+ gb|EOP03593.1| MarR family transcriptional regulator [Bacillus cereus BAG2O-1]
+ gb|EOP84557.1| MarR family transcriptional regulator [Bacillus cereus HuB4-4]
+ gb|EOQ70110.1| MarR family transcriptional regulator [Bacillus cereus TIAC219]
+ gb|EPF14390.1| MarR family transcriptional regulator [Bacillus cereus BAG1O-3]
+ gb|ERI03625.1| transcriptional regulator SlyA [Bacillus thuringiensis T01-328]
+ gb|AHA73646.1| Transcriptional regulator, MarR family protein [Bacillus thuringiensis 
+YBT-1518]
+Length=139
+
+ Score = 33.8 bits (76),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  51   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  110
+
+Query  89   CR  90
+             R
+Sbjct  111  VR  112
+
+
+>ref|WP_005712572.1| LexA family transcriptional regulator [Lactobacillus rhamnosus]
+ gb|EHJ28243.1| repressor LexA [Lactobacillus rhamnosus ATCC 21052]
+Length=284
+
+ Score = 34.2 bits (77),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 38/65 (58%), Gaps = 3/65 (5%)
+
+Query  16   RILPTLLE-FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLK  74
+            +IL T+ E  E  GY P++ EI K+ G+S  +      ++L+ AGL+ ++    + +T++
+Sbjct  88   QILQTIYEAIEDHGYPPTVREIGKSVGLSSSSTVAAYLEKLLAAGLIAKD--PSKPRTIE  145
+
+Query  75   LTEKG  79
+            +T  G
+Sbjct  146  VTAAG  150
+
+
+>emb|CDJ50021.1| hypothetical protein EBH_0073680 [Eimeria brunetti]
+Length=1758
+
+ Score = 34.6 bits (78),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 27/84 (32%), Positives = 40/84 (48%), Gaps = 2/84 (2%)
+
+Query  1     GMDDETLRLQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGL  60
+              + DETL LQ  HL R++ TL EF   G + S A  +  +   EK+     +D L R   
+Sbjct  1468  ALQDETLGLQEDHLARVIETLREF--AGAKDSPATTLLENAKQEKSRLAQERDDLRRFVS  1525
+
+Query  61    VKEETLSYRVKTLKLTEKGRRLAE  84
+              + + +   V   K  E+ R+L E
+Sbjct  1526  ARLQEVEKLVMERKQAEEKRKLQE  1549
+
+
+>ref|YP_008099584.1| SOS-response transcriptional repressor [Lactobacillus reuteri 
+I5007]
+ ref|WP_003674334.1| LexA family transcriptional regulator [Lactobacillus reuteri]
+ emb|CCC03028.1| SOS-response transcriptional repressor [Lactobacillus reuteri 
+ATCC 53608]
+ gb|AGN99439.1| SOS-response transcriptional repressor [Lactobacillus reuteri 
+I5007]
+Length=208
+
+ Score = 33.8 bits (76),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 31/57 (54%), Gaps = 2/57 (4%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           + E  GY P++ EI  A G+S  +   G   RLI  G ++++    + + L++T KG
+Sbjct  19  QVEDHGYPPTVREICSAVGLSSTSTVHGHISRLIEQGFLQKD--PSKPRALEITSKG  73
+
+
+>ref|WP_004883848.1| MarR family transcriptional regulator [Pseudomonas viridiflava]
+ gb|EKN45760.1| MarR family transcriptional regulator [Pseudomonas viridiflava 
+UASWS0038]
+Length=150
+
+ Score = 33.8 bits (76),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 24/69 (35%), Positives = 36/69 (52%), Gaps = 3/69 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++  A+G+   T  + L D+L +AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAHAAGMESPTL-VRLLDQLCKAGIVCRTEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLE  87
+            GR LA  +E
+Sbjct  101  GRELAGSIE  109
+
+
+>ref|WP_009638272.1| TetR family transcriptional regulator [Serratia sp. M24T3]
+ gb|EIC83104.1| TetR family transcriptional regulator [Serratia sp. M24T3]
+Length=174
+
+ Score = 33.8 bits (76),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 28/50 (56%), Gaps = 3/50 (6%)
+
+Query  24  FEKKGYE-PSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKT  72
+           F +KGY+  + AEI   +GV+E+TFF    D+  R  L  E  L  R+ T
+Sbjct  9   FHEKGYDRTTAAEIAAHAGVTERTFFRHFPDK--REVLFNEAELGVRLDT  56
+
+
+>ref|YP_005567667.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+serovar finitimus YBT-020]
+ ref|WP_001003314.1| MarR family transcriptional regulator [Bacillus thuringiensis]
+ gb|ADY23249.1| transcriptional regulator, MarR family protein [Bacillus thuringiensis 
+serovar finitimus YBT-020]
+Length=139
+
+ Score = 33.4 bits (75),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  51   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  110
+
+Query  89   CR  90
+             R
+Sbjct  111  VR  112
+
+
+>ref|YP_002340145.1| MarR family transcriptional regulator [Bacillus cereus AH187]
+ ref|YP_002531589.1| MarR family transcriptional regulator [Bacillus cereus Q1]
+ ref|WP_001003315.1| MarR family transcriptional regulator [Bacillus cereus]
+ gb|EDZ56857.1| transcriptional regulator, MarR family [Bacillus cereus H3081.97]
+ gb|ACJ81960.1| transcriptional regulator, MarR family [Bacillus cereus AH187]
+ gb|ACM14300.1| transcriptional regulator, MarR family [Bacillus cereus Q1]
+ gb|EEK43334.1| Transcriptional regulator, MarR [Bacillus cereus m1293]
+ gb|EJP94655.1| MarR family transcriptional regulator [Bacillus cereus IS075]
+ gb|EJQ02730.1| hypothetical protein IC5_03164 [Bacillus cereus AND1407]
+ gb|EJR18503.1| hypothetical protein II9_01453 [Bacillus cereus MSX-D12]
+ gb|EJR21877.1| hypothetical protein II7_00173 [Bacillus cereus MSX-A12]
+ gb|EJR51262.1| hypothetical protein IIK_00865 [Bacillus cereus VD102]
+ gb|EOO94459.1| MarR family transcriptional regulator [Bacillus cereus IS845/00]
+ gb|EOO99513.1| MarR family transcriptional regulator [Bacillus cereus IS195]
+Length=139
+
+ Score = 33.4 bits (75),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  51   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  110
+
+Query  89   CR  90
+             R
+Sbjct  111  VR  112
+
+
+>ref|YP_275456.1| MarR family transcriptional regulator [Pseudomonas syringae pv. 
+phaseolicola 1448A]
+ ref|WP_011169051.1| MarR family transcriptional regulator [Pseudomonas savastanoi]
+ gb|AAZ37569.1| transcriptional regulator, MarR family [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=150
+
+ Score = 33.4 bits (75),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 3/70 (4%)
+
+Query  21   LLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEK  78
+            LL   + G      ++ +A+G+   T  + L D+L  AG+V   E+    R K L LT+K
+Sbjct  42   LLAIARLGDGVHQVKVAQAAGMESPTL-VRLLDQLCNAGIVCRSEDPNDRRAKALSLTDK  100
+
+Query  79   GRRLAECLEK  88
+            GR LA  +E+
+Sbjct  101  GRALAGSIEQ  110
+
+
+>ref|YP_001394969.1| LexA repressor [Clostridium kluyveri DSM 555]
+ ref|YP_002471934.1| hypothetical protein CKR_1469 [Clostridium kluyveri NBRC 12016]
+ ref|WP_012101974.1| XRE family transcriptional regulator [Clostridium kluyveri]
+ sp|A5N8J0.1|LEXA_CLOK5 RecName: Full=LexA repressor
+ sp|B9E1Z5.1|LEXA_CLOK1 RecName: Full=LexA repressor
+ gb|EDK33621.1| LexA [Clostridium kluyveri DSM 555]
+ dbj|BAH06520.1| hypothetical protein [Clostridium kluyveri NBRC 12016]
+Length=202
+
+ Score = 33.8 bits (76),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  23  EFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKGRR  81
+           + ++KGY PS+ EI  A G+   +      ++L R G +K +    R  T+++ EK ++
+Sbjct  19  QIKQKGYPPSVREICTAVGLKSTSTVHSYLEKLERRGFIKRDATKSR--TIEVIEKSQK  75
+
+
+>ref|WP_004909345.1| LexA repressor [Leuconostoc citreum]
+ emb|CCF29374.1| LexA repressor [Leuconostoc citreum LBAE E16]
+Length=211
+
+ Score = 33.8 bits (76),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  23  GYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  74
+
+
+>ref|YP_001728266.1| LexA repressor [Leuconostoc citreum KM20]
+ ref|WP_004900722.1| LexA family transcriptional regulator [Leuconostoc citreum]
+ sp|B1MZ70.1|LEXA_LEUCK RecName: Full=LexA repressor
+ gb|ACA82822.1| LexA repressor [Leuconostoc citreum KM20]
+ emb|CCF24339.1| LexA repressor [Leuconostoc citreum LBAE C10]
+ emb|CCF27365.1| LexA repressor [Leuconostoc citreum LBAE C11]
+Length=211
+
+ Score = 33.8 bits (76),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  23  GYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  74
+
+
+>ref|YP_004704975.1| LexA repressor [Leuconostoc sp. C2]
+ ref|WP_013974978.1| LexA family transcriptional regulator [Leuconostoc sp. C2]
+ gb|AEJ30352.1| LexA repressor [Leuconostoc sp. C2]
+Length=213
+
+ Score = 33.8 bits (76),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  25  GYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  76
+
+
+>ref|YP_003620758.1| transcription repressor of the SOS regulon [Leuconostoc kimchii 
+IMSNU 11154]
+ ref|WP_013102388.1| LexA family transcriptional regulator [Leuconostoc kimchii]
+ gb|ADG39789.1| transcription repressor of the SOS regulon [Leuconostoc kimchii 
+IMSNU 11154]
+Length=213
+
+ Score = 33.8 bits (76),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  28  GYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           GY P++ E+ +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  25  GYPPTVREVGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDSG  76
+
+
+>ref|YP_002368886.1| MarR family transcriptional regulator [Bacillus cereus B4264]
+ ref|WP_001003305.1| MarR family transcriptional regulator [Bacillus]
+ gb|EDZ51281.1| transcriptional regulator, MarR family [Bacillus cereus AH1134]
+ gb|ACK62922.1| transcriptional regulator, MarR family [Bacillus cereus B4264]
+ gb|EJQ12157.1| hypothetical protein IE1_01416 [Bacillus cereus BAG3O-2]
+ gb|EJQ18865.1| hypothetical protein IE5_03908 [Bacillus cereus BAG3X2-2]
+ gb|EJQ24697.1| hypothetical protein IE7_03919 [Bacillus cereus BAG4O-1]
+ gb|EJQ28488.1| hypothetical protein IE9_03718 [Bacillus cereus BAG4X12-1]
+ gb|EJR19914.1| hypothetical protein IIA_03809 [Bacillus cereus VD014]
+ gb|EJR70286.1| hypothetical protein IK5_03657 [Bacillus cereus VD154]
+ gb|EJR85005.1| hypothetical protein IK7_01498 [Bacillus cereus VD156]
+ gb|EJV91185.1| hypothetical protein IG1_00793 [Bacillus cereus HD73]
+ emb|CCW05715.1| Transcriptional regulator, MarR family [Bacillus sp. GeD10]
+ gb|EOO32351.1| MarR family transcriptional regulator [Bacillus cereus VD133]
+ gb|EOO64070.1| MarR family transcriptional regulator [Bacillus cereus VD196]
+ gb|EOP19955.1| MarR family transcriptional regulator [Bacillus cereus HuB13-1]
+ gb|EOP58803.1| MarR family transcriptional regulator [Bacillus cereus ISP2954]
+ gb|EOP85466.1| MarR family transcriptional regulator [Bacillus cereus BAG5X12-1]
+ gb|EOP93386.1| MarR family transcriptional regulator [Bacillus cereus VD140]
+ gb|EOP98074.1| MarR family transcriptional regulator [Bacillus cereus BMG1.7]
+ gb|EOQ06719.1| MarR family transcriptional regulator [Bacillus cereus VD184]
+ gb|ETE94211.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+serovar aizawai str. Leapi01]
+ gb|ETE97060.1| MarR family transcriptional regulator [Bacillus thuringiensis 
+serovar aizawai str. Hu4-2]
+Length=139
+
+ Score = 33.4 bits (75),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  51   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  110
+
+Query  89   CR  90
+             R
+Sbjct  111  VR  112
+
+
+>gb|ETE02178.1| proteinase [Streptococcus pneumoniae 27]
+Length=241
+
+ Score = 33.8 bits (76),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 23/86 (27%), Positives = 42/86 (49%), Gaps = 0/86 (0%)
+
+Query  9   LQFGHLIRILPTLLEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSY  68
+           +    ++RI+PTL    +K  E    E +    + E++ F+ L D++    LV EE  S 
+Sbjct  1   MNVNQIVRIIPTLKANNRKLNETFYIETLGMKALLEESAFLSLGDQMGLEKLVLEEAPSM  60
+
+Query  69  RVKTLKLTEKGRRLAECLEKCRDVLG  94
+           R + ++  +K  RL   +E   ++ G
+Sbjct  61  RTRKVEGRKKLARLIVKVENPLEIEG  86
+
+
+>ref|YP_006644051.1| bacterial regulatory s, tetR family protein [Nocardiopsis alba 
+ATCC BAA-2165]
+ ref|WP_014910020.1| TetR family transcriptional regulator [Nocardiopsis alba]
+ gb|AFR07558.1| bacterial regulatory s, tetR family protein [Nocardiopsis alba 
+ATCC BAA-2165]
+Length=193
+
+ Score = 33.8 bits (76),  Expect = 7.2, Method: Composition-based stats.
+ Identities = 22/74 (30%), Positives = 36/74 (49%), Gaps = 5/74 (7%)
+
+Query  24   FEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVK-----TLKLTEK  78
+            F+ +G    L E+ KA+GVS+ T F     R+     V EE ++  ++     T  + + 
+Sbjct  30   FQGRGLTVPLEEVAKAAGVSKATIFNRFGGRIGLIDAVIEEVVAVELRAIVDHTRSIDDA  89
+
+Query  79   GRRLAECLEKCRDV  92
+            G RLA  +   RD+
+Sbjct  90   GERLAYYVTAIRDL  103
+
+
+>ref|WP_002026278.1| MarR family transcriptional regulator [Bacillus cereus group]
+ gb|EAO51723.1| Transcriptional regulator, MarR family [Bacillus thuringiensis 
+serovar israelensis ATCC 35646]
+ gb|EEK93289.1| Transcriptional regulator, MarR [Bacillus cereus BDRD-ST24]
+ gb|EEL09834.1| Transcriptional regulator, MarR [Bacillus cereus BDRD-Cer4]
+ gb|EEL27230.1| Transcriptional regulator, MarR [Bacillus cereus Rock1-15]
+ gb|EEL74931.1| Transcriptional regulator, MarR [Bacillus cereus AH676]
+ gb|EEM27188.1| Transcriptional regulator, MarR [Bacillus thuringiensis Bt407]
+ gb|EEM33514.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+thuringiensis str. T01001]
+ gb|EEM40051.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+sotto str. T04001]
+ gb|EEM64464.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+berliner ATCC 10792]
+ gb|EEM94580.1| Transcriptional regulator, MarR [Bacillus thuringiensis IBL 200]
+ gb|EEN01542.1| Transcriptional regulator, MarR [Bacillus thuringiensis IBL 4222]
+Length=150
+
+ Score = 33.4 bits (75),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  62   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  121
+
+Query  89   CR  90
+             R
+Sbjct  122  VR  123
+
+
+>ref|YP_005106528.1| MarR family transcriptional regulator [Bacillus cereus NC7401]
+ ref|WP_001976316.1| MarR family transcriptional regulator [Bacillus cereus]
+ gb|EAL13474.1| transcriptional regulator, MarR family [Bacillus cereus G9241]
+ gb|EEK82375.1| Transcriptional regulator, MarR [Bacillus cereus ATCC 4342]
+ gb|EEK98893.1| Transcriptional regulator, MarR [Bacillus cereus BDRD-ST26]
+ dbj|BAL19788.1| transcriptional regulator, MarR family [Bacillus cereus NC7401]
+Length=150
+
+ Score = 33.4 bits (75),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  62   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  121
+
+Query  89   CR  90
+             R
+Sbjct  122  VR  123
+
+
+>ref|WP_002814699.1| LexA family transcriptional regulator [Leuconostoc mesenteroides]
+ gb|EEJ42811.1| repressor LexA [Leuconostoc mesenteroides subsp. cremoris ATCC 
+19254]
+Length=212
+
+ Score = 33.4 bits (75),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           + GY P++ EI +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  22  ENGYPPTVREIGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDIG  75
+
+
+>ref|YP_818675.1| LexA repressor [Leuconostoc mesenteroides subsp. mesenteroides 
+ATCC 8293]
+ ref|YP_005174478.1| LexA repressor [Leuconostoc mesenteroides subsp. mesenteroides 
+J18]
+ ref|WP_011679930.1| LexA family transcriptional regulator [Leuconostoc mesenteroides]
+ sp|Q03WX0.1|LEXA_LEUMM RecName: Full=LexA repressor
+ gb|ABJ62302.1| Transcriptional regulator, xre family [Leuconostoc mesenteroides 
+subsp. mesenteroides ATCC 8293]
+ gb|AET30512.1| LexA repressor [Leuconostoc mesenteroides subsp. mesenteroides 
+J18]
+Length=212
+
+ Score = 33.4 bits (75),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  26  KKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEETLSYRVKTLKLTEKG  79
+           + GY P++ EI +A G+S  +   G  +RL++ G + ++    R + +++T+ G
+Sbjct  22  ENGYPPTVREIGEAVGLSSSSTIHGHIERLVKKGYLLKDASKPRARAIEVTDIG  75
+
+
+>ref|YP_006597057.1| MarR family transcriptional regulator [Bacillus cereus FRI-35]
+ ref|WP_001003310.1| MarR family transcriptional regulator [Bacillus cereus]
+ gb|AFQ10855.1| transcriptional regulator, MarR family protein [Bacillus cereus 
+FRI-35]
+Length=139
+
+ Score = 33.1 bits (74),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  51   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  110
+
+Query  89   CR  90
+             R
+Sbjct  111  VR  112
+
+
+>ref|YP_007423480.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+kurstaki str. HD73]
+ ref|WP_002000766.1| MarR family transcriptional regulator [Bacillus cereus group]
+ gb|EEK49098.1| Transcriptional regulator, MarR [Bacillus cereus ATCC 10876]
+ gb|EEK60587.1| Transcriptional regulator, MarR [Bacillus cereus 172560W]
+ gb|EEK87882.1| Transcriptional regulator, MarR [Bacillus cereus m1550]
+ gb|EEL54444.1| Transcriptional regulator, MarR [Bacillus cereus Rock4-2]
+ gb|EEL63479.1| Transcriptional regulator, MarR [Bacillus cereus F65185]
+ gb|EEM46335.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+pakistani str. T13001]
+ gb|EEM51891.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+kurstaki str. T03a001]
+ gb|EEM82231.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+huazhongensis BGSC 4BD1]
+ gb|AGE79959.1| Transcriptional regulator, MarR [Bacillus thuringiensis serovar 
+kurstaki str. HD73]
+Length=150
+
+ Score = 33.1 bits (74),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  31   PSLAEIVKASGVSEKTFFMGLKDRLIRAGLV--KEETLSYRVKTLKLTEKGRRLAECLEK  88
+            P +A  + +      +    + DRL+R GLV  K      R+  L++TE GR + E LE 
+Sbjct  62   PQMASQIASEVNVTSSHITAVTDRLVRKGLVERKRSNSDRRIVYLEITEHGREVTEKLEA  121
+
+Query  89   CR  90
+             R
+Sbjct  122  VR  123
+
+
+>ref|NP_360436.1| hypothetical protein RC0799 [Rickettsia conorii str. Malish 7]
+ ref|WP_010977411.1| hypothetical protein [Rickettsia conorii]
+ gb|AAL03337.1| unknown [Rickettsia conorii str. Malish 7]
+Length=296
+
+ Score = 33.4 bits (75),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 19/59 (32%), Positives = 32/59 (54%), Gaps = 4/59 (7%)
+
+Query  10   QFGHLIRILPTL----LEFEKKGYEPSLAEIVKASGVSEKTFFMGLKDRLIRAGLVKEE  64
+            +F H I +  ++    L+   K YE SL  ++K  GV +K F   ++D LI+  L K++
+Sbjct  113  EFSHYIALSGSMAGKRLDVTIKAYEQSLGRLIKQVGVPQKEFVSFIEDELIKNHLHKDK  171
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0464    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

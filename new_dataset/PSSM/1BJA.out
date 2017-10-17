@@ -1,0 +1,1687 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1BJA
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1I1S|A  Chain A, Solution Structure Of The Transcriptional Ac...   186    8e-59
+pdb|1BJA|A  Chain A, Activation Domain Of The Phage T4 Transcript...   186    1e-58
+ref|NP_049873.1|  MotA activator of middle period transcription [...   187    1e-57
+ref|YP_002854213.1|  MotA [Enterobacteria phage RB51] >gb|ACP3117...   185    6e-57
+gb|AGR46209.1|  activator of middle period transcription [Yersini...   185    6e-57
+ref|YP_007005000.1|  activator of middle period transcription [Es...   185    6e-57
+ref|YP_004415151.1|  putative activator of middle period transcri...   185    6e-57
+ref|YP_803196.1|  activator middle promoter [Enterobacteria phage...   185    6e-57
+gb|AFO10783.1|  hypothetical protein ECML134_257 [Escherichia pha...   185    6e-57
+ref|YP_007501298.1|  activator of middle period transcription [Sa...   149    6e-43
+ref|YP_007236093.1|  Phage transcriptional regulator of middle pr...   128    1e-34
+ref|NP_861954.1|  MotA activator of middle period transcription [...   126    4e-34
+ref|YP_002922601.1|  MotA activator of middle period transcriptio...   126    5e-34
+ref|YP_001595381.1|  MotA activator of middle period transcriptio...   126    6e-34
+ref|YP_003734394.1|  motA gene product [Enterobacteria phage IME0...   126    1e-33
+ref|YP_004010126.1|  activator of middle period transcription [En...   122    3e-32
+ref|YP_007004189.1|  activator of middle period transcription [En...  80.1    1e-17
+ref|YP_007677948.1|  activator of middle period transcription [Ae...  64.3    8e-11
+ref|YP_003934896.1|  MotA activator of middle period transcriptio...  62.4    3e-10
+ref|YP_656463.1|  activator of middle promoters [Aeromonas phage ...  62.0    5e-10
+ref|YP_003969042.1|  unnamed protein product [Aeromonas phage phi...  62.0    6e-10
+ref|YP_004063957.1|  T4 MotA activator of middle period transcrip...  61.2    8e-10
+ref|NP_932590.1|  MotA [Aeromonas phage 44RR2.8t] >ref|YP_238961....  56.2    6e-08
+ref|YP_007010911.1|  activator of middle period transcription [Ae...  51.2    4e-06
+gb|AFN69944.1|  activator of middle promoters [Aeromonas phage Ae...  50.1    1e-05
+ref|WP_020596994.1|  hypothetical protein [Spirosoma panaciterrae]    37.7    0.076
+ref|YP_007004190.1|  activator of middle period transcription [En...  38.1    0.14 
+ref|YP_002461614.1|  putative transcriptional regulator [Chlorofl...  37.7    0.46 
+ref|YP_002571534.1|  putative transcriptional regulator [Chlorofl...  36.6    0.88 
+ref|YP_001637134.1|  ATPase AAA [Chloroflexus aurantiacus J-10-fl...  36.6    0.88 
+ref|WP_008380987.1|  putative hydrolase [Gordonia malaquae] >dbj|...  35.4    2.2  
+ref|XP_003058315.1|  predicted protein [Micromonas pusilla CCMP15...  35.0    3.6  
+ref|WP_004702690.1|  Filamentation induced by cAMP protein Fic [Y...  34.7    4.2  
+ref|XP_003548282.1|  PREDICTED: TMV resistance protein N-like [Gl...  34.7    4.7  
+emb|CBX73772.1|  hypothetical protein YEW_CH09500 [Yersinia enter...  33.5    7.3  
+ref|YP_002308251.1|  hypothetical protein TON_1863 [Thermococcus ...  33.5    8.5  
+
+
+>pdb|1I1S|A Chain A, Solution Structure Of The Transcriptional Activation 
+Domain Of The Bacteriophage T4 Protein Mota
+Length=96
+
+ Score =  186 bits (472),  Expect = 8e-59, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>pdb|1BJA|A Chain A, Activation Domain Of The Phage T4 Transcription Factor 
+Mota
+ pdb|1BJA|B Chain B, Activation Domain Of The Phage T4 Transcription Factor 
+Mota
+Length=95
+
+ Score =  186 bits (471),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+
+
+>ref|NP_049873.1| MotA activator of middle period transcription [Enterobacteria 
+phage T4]
+ sp|P22915.1|MOTA_BPT4 RecName: Full=Transcription regulatory protein motA; AltName: 
+Full=Middle transcription protein A
+ gb|AAD42607.1|AF158101_194 MotA activator of middle period transcription [Enterobacteria 
+phage T4]
+ emb|CAA88453.1| MotA [Enterobacteria phage T4]
+ gb|ADJ39982.1| activator of middle period transcription [Enterobacteria phage 
+T4T]
+Length=211
+
+ Score =  187 bits (475),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_002854213.1| MotA [Enterobacteria phage RB51]
+ gb|ACP31176.1| MotA [Enterobacteria phage RB51]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>gb|AGR46209.1| activator of middle period transcription [Yersinia phage PST]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_007005000.1| activator of middle period transcription [Escherichia phage wV7]
+ gb|AEM00920.1| activator of middle period transcription [Escherichia phage wV7]
+ emb|CCI89155.1| protein of unknown function [Yersinia phage phiD1]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_004415151.1| putative activator of middle period transcription [Shigella phage 
+Shfl2]
+ ref|YP_006986818.1| activator of middle period transcription [Enterobacteria phage 
+vB_EcoM_ACG-C40]
+ ref|YP_007004634.1| phage transcriptional regulator of middle promoters [Enterobacteria 
+phage ime09]
+ dbj|BAI83277.1| MotA activator of middle period transcription [Enterobacteria 
+phage AR1]
+ gb|AEA73212.1| putative activator of middle period transcription [Shigella phage 
+Shfl2]
+ gb|AEK12513.1| phage transcriptional regulator of middle promoters [Enterobacteria 
+phage ime09]
+ gb|AFH20226.1| activator of middle period transcription [Enterobacteria phage 
+vB_EcoM_ACG-C40]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_803196.1| activator middle promoter [Enterobacteria phage RB32]
+ ref|YP_002854593.1| MotA [Enterobacteria phage RB14]
+ gb|ABI95078.1| activator middle promoter [Enterobacteria phage RB32]
+ gb|ACP30901.1| MotA [Enterobacteria phage RB14]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>gb|AFO10783.1| hypothetical protein ECML134_257 [Escherichia phage ECML-134]
+Length=211
+
+ Score =  185 bits (470),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_007501298.1| activator of middle period transcription [Salmonella phage S16]
+ gb|AEO97177.1| activator of middle period transcription [Salmonella phage S16]
+ gb|AFU63941.1| hypothetical protein [Salmonella phage STML-198]
+Length=214
+
+ Score =  149 bits (377),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 76/96 (79%), Positives = 87/96 (91%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+           SKVTYIIKASNDVLNEKTA+IL+ +AK+DFIT+AE+RE   D +  + VNSNIGVLIKKG
+Sbjct  2   SKVTYIIKASNDVLNEKTASILVKVAKQDFITSAELREQLEDKMTASSVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           L+EKSGDGL+ITGEAQDIISNAA LYAQENAPELL+
+Sbjct  62  LIEKSGDGLVITGEAQDIISNAAVLYAQENAPELLE  97
+
+
+>ref|YP_007236093.1| Phage transcriptional regulator of middle promoters [Yersinia 
+phage phiR1-RT]
+ emb|CCI88834.1| Phage transcriptional regulator of middle promoters [Yersinia 
+phage phiR1-RT]
+Length=220
+
+ Score =  128 bits (321),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 65/96 (68%), Positives = 78/96 (81%), Gaps = 1/96 (1%)
+
+Query  1    SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+            SK+TYI+KAS DVLNEKTA+IL+ I K +FIT++EVRE   D L  A VNSNIGVLIKKG
+Sbjct  12   SKLTYIVKASQDVLNEKTASILMVILKTNFITSSEVREALADTLSAASVNSNIGVLIKKG  71
+
+Query  60   LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            L+EKSGDG + TG+A DI+  AA L+A+EN PELLK
+Sbjct  72   LIEKSGDGFVSTGDAMDIVQKAAVLFAEENNPELLK  107
+
+
+>ref|NP_861954.1| MotA activator of middle period transcription [Enterobacteria 
+phage RB69]
+ gb|AAP76163.1| MotA activator of middle period transcription [Enterobacteria 
+phage RB69]
+Length=210
+
+ Score =  126 bits (317),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 67/96 (70%), Positives = 77/96 (80%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SKVTYIIKAS + LNEKTA I++ I K +F TAA VRE +  +   +VVNSNIGVLIKKG
+Sbjct  2   SKVTYIIKASENALNEKTAAIMVYIIKNNFTTAANVREALEAEYNASVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           LVEKSGDGL+ TGEA DII  AA L+AQENAPELL+
+Sbjct  62  LVEKSGDGLVATGEAMDIIQKAADLFAQENAPELLQ  97
+
+
+>ref|YP_002922601.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS10]
+ gb|ACL78478.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS10]
+Length=210
+
+ Score =  126 bits (317),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  62  FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  97
+
+
+>ref|YP_001595381.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS98]
+ gb|ABX11166.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS98]
+Length=210
+
+ Score =  126 bits (316),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  62  FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  97
+
+
+>ref|YP_003734394.1| motA gene product [Enterobacteria phage IME08]
+ gb|ADI55573.1| MotA activator of middle period transcription [Enterobacteria 
+phage IME08]
+Length=235
+
+ Score =  126 bits (316),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1    SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+            SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  27   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  86
+
+Query  60   LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+             +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  87   FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  122
+
+
+>ref|YP_004010126.1| activator of middle period transcription [Enterobacteria phage 
+CC31]
+ gb|ADB81764.1| activator of middle period transcription [Enterobacteria phage 
+CC31]
+Length=214
+
+ Score =  122 bits (305),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 62/96 (65%), Positives = 79/96 (82%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+           SKV YI+KAS + ++E  A +LI +AKKDFIT++EVR+V  D L  A VNSNIGVLIKKG
+Sbjct  2   SKVIYIVKASENSISENAANVLIVVAKKDFITSSEVRDVLADKLSAASVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           L+EKSGDGLI++ E Q+II+ AA +YA+ENAPELL+
+Sbjct  62  LIEKSGDGLIVSAEGQEIINQAAVIYAEENAPELLE  97
+
+
+>ref|YP_007004189.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+ gb|AEN93865.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+Length=69
+
+ Score = 80.1 bits (196),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 1/63 (2%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVE  62
+            +E
+Sbjct  62  FIE  64
+
+
+>ref|YP_007677948.1| activator of middle period transcription [Aeromonas phage Aes012]
+ gb|AFN69861.1| activator of middle period transcription [Aeromonas phage Aes012]
+Length=215
+
+ Score = 64.3 bits (155),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 49/76 (64%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  ++E   ++ I +AKK FITAAE+ E      NAV  SNIGV++KKGL+EKSGDG +
+Sbjct  14  NNSSISENATSVFIQVAKKAFITAAEIAEATEMNKNAVY-SNIGVMMKKGLIEKSGDGYV  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTESGDAILIEAAEMW  88
+
+
+>ref|YP_003934896.1| MotA activator of middle period transcription [Shigella phage 
+SP18]
+ gb|ADO19613.1| MotA activator of middle period transcription [Shigella phage 
+SP18]
+Length=202
+
+ Score = 62.4 bits (150),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 36/95 (38%), Positives = 57/95 (60%), Gaps = 5/95 (5%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           +K+ YI+K S + L+E     L+ + K +F++     EV  D  N  ++S +  L+    
+Sbjct  2   NKLNYIVKCSQNALHETVVNALVFVYKNNFVSP----EVVLDQQNTSIDS-VQTLLNNNY  56
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VE SGDGL+IT +  D+I +AA L+A EN P+LL+
+Sbjct  57  VEASGDGLMITEKGVDLILDAAELWANENNPDLLE  91
+
+
+>ref|YP_656463.1| activator of middle promoters [Aeromonas phage 25]
+ gb|ABF72787.1| activator of middle promoters [Aeromonas phage 25]
+Length=218
+
+ Score = 62.0 bits (149),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 34/76 (45%), Positives = 48/76 (63%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  ++E   ++ I +AKK F+TA E+  V     NAV  SNIGVL+KKGL+EKSGDG +
+Sbjct  14  NNSSISENATSVFIQVAKKAFVTAVEIAAVTEMNKNAVY-SNIGVLLKKGLIEKSGDGYV  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTESGDTILIEAAEMW  88
+
+
+>ref|YP_003969042.1| unnamed protein product [Aeromonas phage phiAS4]
+ gb|ADM79596.1| hypothetical protein phiAS4_ORF0024 [Aeromonas phage phiAS4]
+ gb|AFQ22713.1| transcriptional regulator of middle promoters [Stenotrophomonas 
+phage IME13]
+Length=218
+
+ Score = 62.0 bits (149),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 48/76 (63%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  ++E   ++ I +AKK F+TA E+ E      NAV  SNIGV++KKGL+EKSGDG +
+Sbjct  14  NNSSISENATSVFIQVAKKAFVTAVEIAEATEMNKNAVY-SNIGVMMKKGLIEKSGDGYV  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTESGDAILIEAAEMW  88
+
+
+>ref|YP_004063957.1| T4 MotA activator of middle period transcription-like protein 
+[Enterobacteria phage vB_EcoM-VR7]
+ gb|ADR32651.1| T4 MotA activator of middle period transcription-like protein 
+[Enterobacteria phage vB_EcoM-VR7]
+Length=202
+
+ Score = 61.2 bits (147),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 36/95 (38%), Positives = 56/95 (59%), Gaps = 5/95 (5%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           +K+ YI+K S + L+E     L+ + K +F+      EV  D  N  ++S +  L+    
+Sbjct  2   NKLNYIVKCSQNALHETDVNALVFVYKNNFVRP----EVVLDQQNTSIDS-VQTLLNNNY  56
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VE SGDGL+IT +  D+I +AA L+A EN P+LL+
+Sbjct  57  VEASGDGLMITEKGVDLILDAAELWANENNPDLLE  91
+
+
+>ref|NP_932590.1| MotA [Aeromonas phage 44RR2.8t]
+ ref|YP_238961.1| binds Mot boxes at phage middle promoters [Aeromonas phage 31]
+ gb|AAQ81553.1| binds Mot boxes at phage middle promoters [Aeromonas phage 44RR2.8t]
+ gb|AAX63721.1| motA [Aeromonas phage 31]
+Length=217
+
+ Score = 56.2 bits (134),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 32/76 (42%), Positives = 46/76 (61%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  +++    I I +AKK FIT +E+ E   ++    V SNIGV+IKK L+EKSGDG I
+Sbjct  14  NNASISDNATQIFIQVAKKAFITVSEIAE-SVEMNKNAVYSNIGVMIKKELIEKSGDGYI  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTEAGDAILVEAAEMW  88
+
+
+>ref|YP_007010911.1| activator of middle period transcription [Aeromonas phage Aes508]
+ gb|AFQ97304.1| activator of middle period transcription [Aeromonas phage Aes508]
+Length=218
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 48/76 (63%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  ++E   ++ I +AKK F+TAAE+        NAV  SNIGV++KKGL+EKSGDG +
+Sbjct  14  NNSSISENATSVFIQVAKKAFVTAAEIAAATEMNKNAVY-SNIGVMMKKGLIEKSGDGYV  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTDCGDAILIEAAEMW  88
+
+
+>gb|AFN69944.1| activator of middle promoters [Aeromonas phage Aes516]
+Length=215
+
+ Score = 50.1 bits (118),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 48/76 (63%), Gaps = 1/76 (1%)
+
+Query  10  SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLI  69
+           +N  ++E   ++ I +AKK F+TAAE+     ++    V SNIGV++KKGL+EKSGDG +
+Sbjct  14  NNSSISENATSVFIQVAKKAFVTAAEI-AAATEMNKNTVYSNIGVMMKKGLIEKSGDGYV  72
+
+Query  70  ITGEAQDIISNAATLY  85
+            T     I+  AA ++
+Sbjct  73  TTDCGDAILIEAAEMW  88
+
+
+>ref|WP_020596994.1| hypothetical protein [Spirosoma panaciterrae]
+Length=91
+
+ Score = 37.7 bits (86),  Expect = 0.076, Method: Compositional matrix adjust.
+ Identities = 25/63 (40%), Positives = 36/63 (57%), Gaps = 1/63 (2%)
+
+Query  5   YIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKS  64
+           +I KA+  + +    +ILI +AKK+ +T AEV E+   L    V+ +I  LI  GLV  S
+Sbjct  7   FIEKATGAMADRSRLSILIELAKKETLTNAEVMEL-VGLSQPCVSHHIKQLIDSGLVNSS  65
+
+Query  65  GDG  67
+            DG
+Sbjct  66  KDG  68
+
+
+>ref|YP_007004190.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+ gb|AEN93866.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+Length=141
+
+ Score = 38.1 bits (87),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 20/25 (80%), Gaps = 0/25 (0%)
+
+Query  71  TGEAQDIISNAATLYAQENAPELLK  95
+           TGEA D++  AA L+A ENAPE+L+
+Sbjct  3   TGEAMDLVQKAADLFASENAPEMLE  27
+
+
+>ref|YP_002461614.1| putative transcriptional regulator [Chloroflexus aggregans DSM 
+9485]
+ ref|WP_012615544.1| transcriptional regulator [Chloroflexus aggregans]
+ gb|ACL23178.1| putative transcriptional regulator [Chloroflexus aggregans DSM 
+9485]
+Length=456
+
+ Score = 37.7 bits (86),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 33/53 (62%), Gaps = 0/53 (0%)
+
+Query  14   LNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGD  66
+            LN++  + L+ + ++  IT  +++E+HPD+    +  ++  L+ +GL+ K GD
+Sbjct  395  LNDRQISALLFVVEQQRITNRDLQEMHPDVSPETIRRDLSDLVARGLLLKVGD  447
+
+
+>ref|YP_002571534.1| putative transcriptional regulator [Chloroflexus sp. Y-400-fl]
+ ref|WP_015909443.1| transcriptional regulator [Chloroflexus sp. Y-400-fl]
+ gb|ACM55208.1| putative transcriptional regulator [Chloroflexus sp. Y-400-fl]
+Length=456
+
+ Score = 36.6 bits (83),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 32/53 (60%), Gaps = 0/53 (0%)
+
+Query  14   LNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGD  66
+            LN++    L+ + + + IT  +++E+HPD+    +  ++  L+ +GL+ K GD
+Sbjct  395  LNDRQIDALLFVVEHERITNRDLQEMHPDVSPETIRRDLSDLVSRGLLLKVGD  447
+
+
+>ref|YP_001637134.1| ATPase AAA [Chloroflexus aurantiacus J-10-fl]
+ ref|WP_012259398.1| transcriptional regulator [Chloroflexus aurantiacus]
+ gb|ABY36745.1| AAA-4 family protein [Chloroflexus aurantiacus J-10-fl]
+Length=461
+
+ Score = 36.6 bits (83),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 32/53 (60%), Gaps = 0/53 (0%)
+
+Query  14   LNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGD  66
+            LN++    L+ + + + IT  +++E+HPD+    +  ++  L+ +GL+ K GD
+Sbjct  400  LNDRQIDALLFVVEHERITNRDLQEMHPDVSPETIRRDLSDLVSRGLLLKVGD  452
+
+
+>ref|WP_008380987.1| putative hydrolase [Gordonia malaquae]
+ dbj|GAC81324.1| putative hydrolase [Gordonia malaquae NBRC 108250]
+Length=310
+
+ Score = 35.4 bits (80),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 27/47 (57%), Gaps = 3/47 (6%)
+
+Query  34   AEVREVHPDLGNAVVNSNIGVLIKKGLVEKSG---DGLIITGEAQDI  77
+            A+VRE+HPDL   V   + G +I + L  + G   DGLI+ G A  I
+Sbjct  97   AKVRELHPDLPYVVFGHSWGSMIARPLASRLGDDLDGLILCGIAAQI  143
+
+
+>ref|XP_003058315.1| predicted protein [Micromonas pusilla CCMP1545]
+ gb|EEH58266.1| predicted protein [Micromonas pusilla CCMP1545]
+Length=915
+
+ Score = 35.0 bits (79),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 33/57 (58%), Gaps = 6/57 (11%)
+
+Query  27   KKDFI-TAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLIITGEAQDIISNAA  82
+            K +FI +A    E   +LG+A    N+G++I KGLVE +      TG+A+ +I  AA
+Sbjct  206  KTEFIASAVHFYEKAAELGDAKAQYNLGMMIDKGLVEGAD-----TGKARQLIGKAA  257
+
+
+>ref|WP_004702690.1| Filamentation induced by cAMP protein Fic [Yersinia aldovae]
+ gb|EEP95451.1| Filamentation induced by cAMP protein Fic [Yersinia aldovae ATCC 
+35236]
+Length=380
+
+ Score = 34.7 bits (78),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 17/50 (34%), Positives = 30/50 (60%), Gaps = 0/50 (0%)
+
+Query  13   VLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVE  62
+            V+NE  +TIL     +  + A +++EV P L +A +   IG L+ +GL++
+Sbjct  296  VINETESTILKRTISQGTVKANDLKEVLPGLKSAQITYQIGKLVDRGLLQ  345
+
+
+>ref|XP_003548282.1| PREDICTED: TMV resistance protein N-like [Glycine max]
+Length=1420
+
+ Score = 34.7 bits (78),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 23/67 (34%), Positives = 38/67 (57%), Gaps = 4/67 (6%)
+
+Query  6    IIKASNDVLNEKTATILITIA--KKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEK  63
+            ++  S D L E+   + + IA   K + T  EV  + P L +  +  NIGVL++K L++ 
+Sbjct  428  VLTVSFDALEEEEQKVFLDIACCLKGW-TLTEVEHILPGLYDDCMKHNIGVLVEKSLIKV  486
+
+Query  64   S-GDGLI  69
+            S GDG++
+Sbjct  487  SWGDGVV  493
+
+
+>emb|CBX73772.1| hypothetical protein YEW_CH09500 [Yersinia enterocolitica W22703]
+Length=198
+
+ Score = 33.5 bits (75),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 30/50 (60%), Gaps = 0/50 (0%)
+
+Query  13   VLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVE  62
+            V+NE  +TIL  I  +  +   +++EV P L +A +   IG L+ +GL++
+Sbjct  95   VINETESTILRRIISQGTVKVNDLKEVLPGLKSAQITYQIGKLVDRGLLQ  144
+
+
+>ref|YP_002308251.1| hypothetical protein TON_1863 [Thermococcus onnurineus NA1]
+ ref|WP_012572826.1| hypothetical protein [Thermococcus onnurineus]
+ gb|ACJ17354.1| hypothetical protein TON_1863 [Thermococcus onnurineus NA1]
+Length=263
+
+ Score = 33.5 bits (75),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 30/63 (48%), Gaps = 0/63 (0%)
+
+Query  11  NDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLII  70
+           N  L +    I+  I   D ++A E+RE+ P L   +V   +  L KKG + +   GL +
+Sbjct  4   NYYLTKTEQDIIRAIRGTDIVSADEIRELFPGLSREMVKKVLSSLSKKGYLTRLKKGLYL  63
+
+Query  71  TGE  73
+             E
+Sbjct  64  VNE  66
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+Results from round 2
+
+
+Query= 1BJA
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AGR46209.1|  activator of middle period transcription [Yersini...   134    3e-37
+ref|YP_004415151.1|  putative activator of middle period transcri...   134    4e-37
+ref|YP_002854213.1|  MotA [Enterobacteria phage RB51] >gb|ACP3117...   134    4e-37
+ref|YP_007005000.1|  activator of middle period transcription [Es...   134    5e-37
+gb|AFO10783.1|  hypothetical protein ECML134_257 [Escherichia pha...   134    6e-37
+ref|YP_803196.1|  activator middle promoter [Enterobacteria phage...   134    7e-37
+ref|NP_049873.1|  MotA activator of middle period transcription [...   133    1e-36
+pdb|1I1S|A  Chain A, Solution Structure Of The Transcriptional Ac...   125    4e-35
+pdb|1BJA|A  Chain A, Activation Domain Of The Phage T4 Transcript...   125    5e-35
+ref|YP_007501298.1|  activator of middle period transcription [Sa...   128    1e-34
+ref|YP_002922601.1|  MotA activator of middle period transcriptio...   127    3e-34
+ref|YP_001595381.1|  MotA activator of middle period transcriptio...   126    4e-34
+ref|YP_003734394.1|  motA gene product [Enterobacteria phage IME0...   127    5e-34
+ref|YP_007236093.1|  Phage transcriptional regulator of middle pr...   124    6e-33
+ref|NP_861954.1|  MotA activator of middle period transcription [...   123    9e-33
+ref|YP_004010126.1|  activator of middle period transcription [En...   118    6e-31
+ref|YP_003934896.1|  MotA activator of middle period transcriptio...   109    1e-27
+ref|YP_004063957.1|  T4 MotA activator of middle period transcrip...   109    3e-27
+ref|YP_007677948.1|  activator of middle period transcription [Ae...  95.9    2e-22
+ref|YP_003969042.1|  unnamed protein product [Aeromonas phage phi...  92.8    4e-21
+ref|YP_656463.1|  activator of middle promoters [Aeromonas phage ...  91.7    1e-20
+ref|NP_932590.1|  MotA [Aeromonas phage 44RR2.8t] >ref|YP_238961....  88.6    2e-19
+gb|AFN69944.1|  activator of middle promoters [Aeromonas phage Ae...  86.7    7e-19
+ref|YP_007010911.1|  activator of middle period transcription [Ae...  84.7    4e-18
+ref|YP_007004189.1|  activator of middle period transcription [En...  74.3    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_004009853.1|  MotA activator of middle period transcriptio...  42.0    0.011
+ref|YP_007004190.1|  activator of middle period transcription [En...  40.4    0.014
+dbj|BAM42249.1|  uncharacterized protein TOT_040000619 [Theileria...  41.6    0.026
+ref|WP_020270454.1|  hypothetical protein [Streptomyces afghanien...  38.1    0.13 
+ref|NP_001237766.1|  functional candidate resistance protein KR1 ...  38.9    0.23 
+ref|YP_004009611.1|  MotA activator of middle period transcriptio...  37.7    0.32 
+ref|YP_003727211.1|  hypothetical protein Metev_1568 [Methanohalo...  35.4    0.45 
+ref|NP_147443.1|  hypothetical protein APE_0722 [Aeropyrum pernix...  37.0    0.48 
+ref|WP_009530599.1|  zinc ABC transporter permease [Eubacteriacea...  37.4    0.58 
+gb|EQC31150.1|  hypothetical protein SDRG_11078 [Saprolegnia dicl...  37.4    0.60 
+ref|YP_138468.1|  hypothetical protein [Sulfolobus islandicus] >r...  35.4    0.71 
+ref|WP_020596994.1|  hypothetical protein [Spirosoma panaciterrae]    35.1    0.83 
+ref|YP_007015873.1|  Uncharacterized sugar kinase YeiI [Listeria ...  36.2    1.1  
+ref|WP_003744524.1|  carbohydrate kinase [Listeria monocytogenes]...  36.2    1.4  
+ref|YP_006363430.1|  hypothetical protein TCELL_0868 [Thermogladi...  35.8    1.6  
+ref|WP_003768090.1|  carbohydrate kinase [Listeria innocua] >gb|E...  35.8    1.8  
+gb|EFR86901.1|  carbohydrate kinase [Listeria marthii FSL S4-120]     35.8    1.9  
+ref|WP_003770034.1|  carbohydrate kinase [Listeria innocua] >gb|E...  35.8    1.9  
+ref|WP_007402201.1|  transcriptional regulator [Candidatus Nitros...  35.4    2.1  
+ref|WP_009527359.1|  zinc ABC transporter permease [Eubacteriacea...  35.4    2.5  
+ref|WP_009529454.1|  zinc ABC transporter permease [Eubacteriacea...  35.4    2.6  
+ref|WP_009525916.1|  zinc ABC transporter permease [Eubacteriacea...  35.4    2.6  
+sp|P0CT26.1|URM1_USTMA  RecName: Full=Ubiquitin-related modifier 1    33.9    2.8  
+gb|EKM50823.1|  hypothetical protein PHACADRAFT_264334 [Phaneroch...  35.1    3.4  
+ref|WP_004052539.1|  hypothetical protein [Eubacterium plexicauda...  33.9    4.3  
+ref|YP_006489017.1|  MotA activator of middle period transcriptio...  34.3    5.2  
+ref|WP_003139261.1|  coproporphyrinogen III oxidase [Lactococcus ...  33.9    6.6  
+ref|WP_004604316.1|  transcriptional regulator [Eubacterium cellu...  33.9    8.3  
+ref|YP_004615388.1|  hypothetical protein [Methanosalsum zhilinae...  32.4    8.8  
+
+
+>gb|AGR46209.1| activator of middle period transcription [Yersinia phage PST]
+Length=211
+
+ Score =  134 bits (338),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_004415151.1| putative activator of middle period transcription [Shigella phage 
+Shfl2]
+ ref|YP_006986818.1| activator of middle period transcription [Enterobacteria phage 
+vB_EcoM_ACG-C40]
+ ref|YP_007004634.1| phage transcriptional regulator of middle promoters [Enterobacteria 
+phage ime09]
+ dbj|BAI83277.1| MotA activator of middle period transcription [Enterobacteria 
+phage AR1]
+ gb|AEA73212.1| putative activator of middle period transcription [Shigella phage 
+Shfl2]
+ gb|AEK12513.1| phage transcriptional regulator of middle promoters [Enterobacteria 
+phage ime09]
+ gb|AFH20226.1| activator of middle period transcription [Enterobacteria phage 
+vB_EcoM_ACG-C40]
+Length=211
+
+ Score =  134 bits (338),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_002854213.1| MotA [Enterobacteria phage RB51]
+ gb|ACP31176.1| MotA [Enterobacteria phage RB51]
+Length=211
+
+ Score =  134 bits (338),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_007005000.1| activator of middle period transcription [Escherichia phage wV7]
+ gb|AEM00920.1| activator of middle period transcription [Escherichia phage wV7]
+ emb|CCI89155.1| protein of unknown function [Yersinia phage phiD1]
+Length=211
+
+ Score =  134 bits (337),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>gb|AFO10783.1| hypothetical protein ECML134_257 [Escherichia phage ECML-134]
+Length=211
+
+ Score =  134 bits (337),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|YP_803196.1| activator middle promoter [Enterobacteria phage RB32]
+ ref|YP_002854593.1| MotA [Enterobacteria phage RB14]
+ gb|ABI95078.1| activator middle promoter [Enterobacteria phage RB32]
+ gb|ACP30901.1| MotA [Enterobacteria phage RB14]
+Length=211
+
+ Score =  134 bits (336),  Expect = 7e-37, Method: Composition-based stats.
+ Identities = 94/95 (99%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTA ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTAAILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>ref|NP_049873.1| MotA activator of middle period transcription [Enterobacteria 
+phage T4]
+ sp|P22915.1|MOTA_BPT4 RecName: Full=Transcription regulatory protein motA; AltName: 
+Full=Middle transcription protein A
+ gb|AAD42607.1|AF158101_194 MotA activator of middle period transcription [Enterobacteria 
+phage T4]
+ emb|CAA88453.1| MotA [Enterobacteria phage T4]
+ gb|ADJ39982.1| activator of middle period transcription [Enterobacteria phage 
+T4T]
+Length=211
+
+ Score =  133 bits (335),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>pdb|1I1S|A Chain A, Solution Structure Of The Transcriptional Activation 
+Domain Of The Bacteriophage T4 Protein Mota
+Length=96
+
+ Score =  125 bits (315),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  2   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  61
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  62  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  96
+
+
+>pdb|1BJA|A Chain A, Activation Domain Of The Phage T4 Transcription Factor 
+Mota
+ pdb|1BJA|B Chain B, Activation Domain Of The Phage T4 Transcription Factor 
+Mota
+Length=95
+
+ Score =  125 bits (314),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL
+Sbjct  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK
+Sbjct  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+
+
+>ref|YP_007501298.1| activator of middle period transcription [Salmonella phage S16]
+ gb|AEO97177.1| activator of middle period transcription [Salmonella phage S16]
+ gb|AFU63941.1| hypothetical protein [Salmonella phage STML-198]
+Length=214
+
+ Score =  128 bits (322),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 76/96 (79%), Positives = 87/96 (91%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+           SKVTYIIKASNDVLNEKTA+IL+ +AK+DFIT+AE+RE   D +  + VNSNIGVLIKKG
+Sbjct  2   SKVTYIIKASNDVLNEKTASILVKVAKQDFITSAELREQLEDKMTASSVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           L+EKSGDGL+ITGEAQDIISNAA LYAQENAPELL+
+Sbjct  62  LIEKSGDGLVITGEAQDIISNAAVLYAQENAPELLE  97
+
+
+>ref|YP_002922601.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS10]
+ gb|ACL78478.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS10]
+Length=210
+
+ Score =  127 bits (318),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  62  FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  97
+
+
+>ref|YP_001595381.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS98]
+ gb|ABX11166.1| MotA activator of middle period transcription [Enterobacteria 
+phage JS98]
+Length=210
+
+ Score =  126 bits (317),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  62  FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  97
+
+
+>ref|YP_003734394.1| motA gene product [Enterobacteria phage IME08]
+ gb|ADI55573.1| MotA activator of middle period transcription [Enterobacteria 
+phage IME08]
+Length=235
+
+ Score =  127 bits (318),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 63/96 (66%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1    SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+            SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  27   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  86
+
+Query  60   LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+             +EKSGDGL+ TGEA D++  AA L+A ENAPE+L+
+Sbjct  87   FIEKSGDGLVATGEAMDLVQKAADLFASENAPEMLE  122
+
+
+>ref|YP_007236093.1| Phage transcriptional regulator of middle promoters [Yersinia 
+phage phiR1-RT]
+ emb|CCI88834.1| Phage transcriptional regulator of middle promoters [Yersinia 
+phage phiR1-RT]
+Length=220
+
+ Score =  124 bits (310),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 65/96 (68%), Positives = 78/96 (81%), Gaps = 1/96 (1%)
+
+Query  1    SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+            SK+TYI+KAS DVLNEKTA+IL+ I K +FIT++EVRE   D L  A VNSNIGVLIKKG
+Sbjct  12   SKLTYIVKASQDVLNEKTASILMVILKTNFITSSEVREALADTLSAASVNSNIGVLIKKG  71
+
+Query  60   LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+            L+EKSGDG + TG+A DI+  AA L+A+EN PELLK
+Sbjct  72   LIEKSGDGFVSTGDAMDIVQKAAVLFAEENNPELLK  107
+
+
+>ref|NP_861954.1| MotA activator of middle period transcription [Enterobacteria 
+phage RB69]
+ gb|AAP76163.1| MotA activator of middle period transcription [Enterobacteria 
+phage RB69]
+Length=210
+
+ Score =  123 bits (308),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 67/96 (70%), Positives = 76/96 (79%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHP-DLGNAVVNSNIGVLIKKG  59
+           SKVTYIIKAS + LNEKTA I++ I K +F TAA VRE    +   +VVNSNIGVLIKKG
+Sbjct  2   SKVTYIIKASENALNEKTAAIMVYIIKNNFTTAANVREALEAEYNASVVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           LVEKSGDGL+ TGEA DII  AA L+AQENAPELL+
+Sbjct  62  LVEKSGDGLVATGEAMDIIQKAADLFAQENAPELLQ  97
+
+
+>ref|YP_004010126.1| activator of middle period transcription [Enterobacteria phage 
+CC31]
+ gb|ADB81764.1| activator of middle period transcription [Enterobacteria phage 
+CC31]
+Length=214
+
+ Score =  118 bits (296),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 62/96 (65%), Positives = 79/96 (82%), Gaps = 1/96 (1%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPD-LGNAVVNSNIGVLIKKG  59
+           SKV YI+KAS + ++E  A +LI +AKKDFIT++EVR+V  D L  A VNSNIGVLIKKG
+Sbjct  2   SKVIYIVKASENSISENAANVLIVVAKKDFITSSEVRDVLADKLSAASVNSNIGVLIKKG  61
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           L+EKSGDGLI++ E Q+II+ AA +YA+ENAPELL+
+Sbjct  62  LIEKSGDGLIVSAEGQEIINQAAVIYAEENAPELLE  97
+
+
+>ref|YP_003934896.1| MotA activator of middle period transcription [Shigella phage 
+SP18]
+ gb|ADO19613.1| MotA activator of middle period transcription [Shigella phage 
+SP18]
+Length=202
+
+ Score =  109 bits (272),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 36/95 (38%), Positives = 57/95 (60%), Gaps = 5/95 (5%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           +K+ YI+K S + L+E     L+ + K +F++     EV  D  N  ++S +  L+    
+Sbjct  2   NKLNYIVKCSQNALHETVVNALVFVYKNNFVSP----EVVLDQQNTSIDS-VQTLLNNNY  56
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VE SGDGL+IT +  D+I +AA L+A EN P+LL+
+Sbjct  57  VEASGDGLMITEKGVDLILDAAELWANENNPDLLE  91
+
+
+>ref|YP_004063957.1| T4 MotA activator of middle period transcription-like protein 
+[Enterobacteria phage vB_EcoM-VR7]
+ gb|ADR32651.1| T4 MotA activator of middle period transcription-like protein 
+[Enterobacteria phage vB_EcoM-VR7]
+Length=202
+
+ Score =  109 bits (271),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 36/95 (38%), Positives = 56/95 (59%), Gaps = 5/95 (5%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           +K+ YI+K S + L+E     L+ + K +F+      EV  D  N  ++S +  L+    
+Sbjct  2   NKLNYIVKCSQNALHETDVNALVFVYKNNFVRP----EVVLDQQNTSIDS-VQTLLNNNY  56
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           VE SGDGL+IT +  D+I +AA L+A EN P+LL+
+Sbjct  57  VEASGDGLMITEKGVDLILDAAELWANENNPDLLE  91
+
+
+>ref|YP_007677948.1| activator of middle period transcription [Aeromonas phage Aes012]
+ gb|AFN69861.1| activator of middle period transcription [Aeromonas phage Aes012]
+Length=215
+
+ Score = 95.9 bits (237),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 54/86 (63%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  ++E   ++ I +AKK FITAAE+ E   ++    V SNIGV++KKG
+Sbjct  4   TKIEAIAKVLNNSSISENATSVFIQVAKKAFITAAEIAEAT-EMNKNAVYSNIGVMMKKG  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG + T     I+  AA ++
+Sbjct  63  LIEKSGDGYVTTESGDAILIEAAEMW  88
+
+
+>ref|YP_003969042.1| unnamed protein product [Aeromonas phage phiAS4]
+ gb|ADM79596.1| hypothetical protein phiAS4_ORF0024 [Aeromonas phage phiAS4]
+ gb|AFQ22713.1| transcriptional regulator of middle promoters [Stenotrophomonas 
+phage IME13]
+Length=218
+
+ Score = 92.8 bits (229),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 34/86 (40%), Positives = 53/86 (62%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  ++E   ++ I +AKK F+TA E+ E   ++    V SNIGV++KKG
+Sbjct  4   TKIEAIAKVLNNSSISENATSVFIQVAKKAFVTAVEIAEAT-EMNKNAVYSNIGVMMKKG  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG + T     I+  AA ++
+Sbjct  63  LIEKSGDGYVTTESGDAILIEAAEMW  88
+
+
+>ref|YP_656463.1| activator of middle promoters [Aeromonas phage 25]
+ gb|ABF72787.1| activator of middle promoters [Aeromonas phage 25]
+Length=218
+
+ Score = 91.7 bits (226),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 53/86 (62%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  ++E   ++ I +AKK F+TA E+  V  ++    V SNIGVL+KKG
+Sbjct  4   TKIEAIAKVLNNSSISENATSVFIQVAKKAFVTAVEIAAVT-EMNKNAVYSNIGVLLKKG  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG + T     I+  AA ++
+Sbjct  63  LIEKSGDGYVTTESGDTILIEAAEMW  88
+
+
+>ref|NP_932590.1| MotA [Aeromonas phage 44RR2.8t]
+ ref|YP_238961.1| binds Mot boxes at phage middle promoters [Aeromonas phage 31]
+ gb|AAQ81553.1| binds Mot boxes at phage middle promoters [Aeromonas phage 44RR2.8t]
+ gb|AAX63721.1| motA [Aeromonas phage 31]
+Length=217
+
+ Score = 88.6 bits (218),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/86 (41%), Positives = 51/86 (59%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  +++    I I +AKK FIT +E+ E   ++    V SNIGV+IKK 
+Sbjct  4   TKIEAIAKVLNNASISDNATQIFIQVAKKAFITVSEIAE-SVEMNKNAVYSNIGVMIKKE  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG I T     I+  AA ++
+Sbjct  63  LIEKSGDGYITTEAGDAILVEAAEMW  88
+
+
+>gb|AFN69944.1| activator of middle promoters [Aeromonas phage Aes516]
+Length=215
+
+ Score = 86.7 bits (213),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 34/86 (40%), Positives = 52/86 (60%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  ++E   ++ I +AKK F+TAAE+      +    V SNIGV++KKG
+Sbjct  4   TKIEAIAKVLNNSSISENATSVFIQVAKKAFVTAAEIAAATE-MNKNTVYSNIGVMMKKG  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG + T     I+  AA ++
+Sbjct  63  LIEKSGDGYVTTDCGDAILIEAAEMW  88
+
+
+>ref|YP_007010911.1| activator of middle period transcription [Aeromonas phage Aes508]
+ gb|AFQ97304.1| activator of middle period transcription [Aeromonas phage Aes508]
+Length=218
+
+ Score = 84.7 bits (208),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 53/86 (62%), Gaps = 2/86 (2%)
+
+Query  1   SKVTYIIKA-SNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+           +K+  I K  +N  ++E   ++ I +AKK F+TAAE+        NA V SNIGV++KKG
+Sbjct  4   TKIEAIAKVLNNSSISENATSVFIQVAKKAFVTAAEIAAATEMNKNA-VYSNIGVMMKKG  62
+
+Query  60  LVEKSGDGLIITGEAQDIISNAATLY  85
+           L+EKSGDG + T     I+  AA ++
+Sbjct  63  LIEKSGDGYVTTDCGDAILIEAAEMW  88
+
+
+>ref|YP_007004189.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+ gb|AEN93865.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+Length=69
+
+ Score = 74.3 bits (181),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 1/63 (2%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE-VHPDLGNAVVNSNIGVLIKKG  59
+           SK+TYIIKAS D LNEKTA+IL+ I K +FIT+ EVRE +      AVVNSNIGVLIKKG
+Sbjct  2   SKITYIIKASEDALNEKTASILVHIIKHNFITSGEVREALSEQFSAAVVNSNIGVLIKKG  61
+
+Query  60  LVE  62
+            +E
+Sbjct  62  FIE  64
+
+
+>ref|YP_004009853.1| MotA activator of middle period transcription [Acinetobacter 
+phage Acj61]
+ gb|ADG36201.1| MotA activator of middle period transcription [Acinetobacter 
+phage Acj61]
+Length=213
+
+ Score = 42.0 bits (97),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 22/76 (29%), Positives = 34/76 (45%), Gaps = 1/76 (1%)
+
+Query  21  ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKK-GLVEKSGDGLIITGEAQDIIS  79
+           IL  + K+ F T   + ++       V++S   +      LVE S D  + T E  D I 
+Sbjct  24  ILKELYKQSFQTPQMIADIIESDVIDVISSLTKMQNSALNLVEISVDKFLTTPEGDDAIE  83
+
+Query  80  NAATLYAQENAPELLK  95
+            AA  + +   PELL+
+Sbjct  84  AAAKAWVESERPELLE  99
+
+
+>ref|YP_007004190.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+ gb|AEN93866.1| activator of middle period transcription [Enterobacteria phage 
+Bp7]
+Length=141
+
+ Score = 40.4 bits (93),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 15/27 (56%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  69  IITGEAQDIISNAATLYAQENAPELLK  95
+           + TGEA D++  AA L+A ENAPE+L+
+Sbjct  1   MATGEAMDLVQKAADLFASENAPEMLE  27
+
+
+>dbj|BAM42249.1| uncharacterized protein TOT_040000619 [Theileria orientalis strain 
+Shintoku]
+Length=471
+
+ Score = 41.6 bits (96),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 14/59 (24%), Positives = 31/59 (53%), Gaps = 0/59 (0%)
+
+Query  3    VTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+            + +++  + + ++E T  IL  IAK   ++  ++RE   D+    +  +I  LI +G +
+Sbjct  95   IPFLLHTAKEKVDENTFKILFHIAKYGIVSPGKIRESFEDMETHTIFESISKLINEGYI  153
+
+
+>ref|WP_020270454.1| hypothetical protein [Streptomyces afghaniensis]
+ gb|EPJ41471.1| hypothetical protein STAFG_1456 [Streptomyces afghaniensis 772]
+Length=152
+
+ Score = 38.1 bits (87),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 39/79 (49%), Gaps = 9/79 (11%)
+
+Query  21   ILITIAKKDFITA----AEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDG-LIITGEAQ  75
+            +L  +A+ D + +    + + E + D G+  +   IGV I +G + +  +G L IT E Q
+Sbjct  46   VLAQVARADTVRSRNEVSRLLENYLDTGSESMEREIGVTIAQGWITEDSEGRLAITEEGQ  105
+
+Query  76   DIISNAA----TLYAQENA  90
+                 AA     L+A+ +A
+Sbjct  106  AFYDKAAALQSELWAERHA  124
+
+
+>ref|NP_001237766.1| functional candidate resistance protein KR1 [Glycine max]
+ gb|AAL56987.1|AF327903_1 functional candidate resistance protein KR1 [Glycine max]
+Length=1124
+
+ Score = 38.9 bits (89),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 26/95 (27%), Positives = 47/95 (49%), Gaps = 10/95 (11%)
+
+Query  2    KVTYIIKASNDVLNEKTATILITIA----KKDFITAAEVREVHPDLGNAVVNSNIGVLIK  57
+            ++  I+K S D L E   +I + IA    K D    AEV+++        +  +IGVL++
+Sbjct  423  EIQEILKVSYDALEEDEQSIFLDIACCFKKYDL---AEVQDILHAHHGHCMKHHIGVLVE  479
+
+Query  58   KGLVEKSGDGLIITGEAQDIISNAATLYAQENAPE  92
+            K L++ S DG +      D+I +      ++ +P+
+Sbjct  480  KSLIKISLDGYVTL---HDLIEDMGKEIVRKESPQ  511
+
+
+>ref|YP_004009611.1| MotA activator of middle period transcription [Acinetobacter 
+phage Ac42]
+ gb|ADI96487.1| MotA activator of middle period transcription [Acinetobacter 
+phage Ac42]
+Length=193
+
+ Score = 37.7 bits (86),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 25/95 (26%), Positives = 44/95 (46%), Gaps = 14/95 (15%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+           SK+ +II+ S   L E  A IL  +    +              ++   +++  L++ GL
+Sbjct  2   SKLKFIIEKSPVSLTEAQAQILFDLYGSGY--------------SSYTCTDVDYLVEHGL  47
+
+Query  61  VEKSGDGLIITGEAQDIISNAATLYAQENAPELLK  95
+           + KS D +I++     +I +AA  Y   N PE L+
+Sbjct  48  LFKSKDLVILSDIGDQLIDDAALEYISVNKPEKLE  82
+
+
+>ref|YP_003727211.1| hypothetical protein Metev_1568 [Methanohalobium evestigatum 
+Z-7303]
+ ref|WP_013194980.1| hypothetical protein [Methanohalobium evestigatum]
+ gb|ADI74415.1| conserved hypothetical protein [Methanohalobium evestigatum Z-7303]
+Length=86
+
+ Score = 35.4 bits (80),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 35/79 (44%), Gaps = 6/79 (8%)
+
+Query  6   IIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSG  65
+           I + S   ++E+     I  AKK  +          +L   ++N  + +L +KGL+EK G
+Sbjct  12  IKRRSRIDISEEILNAAIDGAKKTHLV------YSANLNFDIINKYLDMLEEKGLIEKEG  65
+
+Query  66  DGLIITGEAQDIISNAATL  84
+           D  + T + +     A  L
+Sbjct  66  DLYVTTEKGKKFQERARDL  84
+
+
+>ref|NP_147443.1| hypothetical protein APE_0722 [Aeropyrum pernix K1]
+ ref|WP_010865927.1| hypothetical protein [Aeropyrum pernix]
+ dbj|BAA79698.1| hypothetical protein APE_0722 [Aeropyrum pernix ovoid virus 1]
+ tpe|CCD22146.1| TPA: hypothetical protein [Aeropyrum pernix ovoid virus 1]
+Length=219
+
+ Score = 37.0 bits (84),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 18/67 (27%), Positives = 36/67 (54%), Gaps = 1/67 (1%)
+
+Query  14  LNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLIITGE  73
+           ++  TA+ILI + ++   ++ E+  V   +  + VN+ +    K+G+VEKSGD   +T +
+Sbjct  8   VSPTTASILILLLQRAQASSVELA-VELGVYPSQVNAYLHYYRKQGIVEKSGDVWRLTED  66
+
+Query  74  AQDIISN  80
+               +  
+Sbjct  67  GLKYVQE  73
+
+
+>ref|WP_009530599.1| zinc ABC transporter permease [Eubacteriaceae bacterium OBRC8]
+ gb|EJU23393.1| ABC 3 transport family protein [Eubacteriaceae bacterium OBRC8]
+Length=356
+
+ Score = 37.4 bits (85),  Expect = 0.58, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 37/81 (46%), Gaps = 6/81 (7%)
+
+Query  6    IIKASNDVLNEKTAT---ILITIA--KKDFI-TAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+            I+K+ N++  +K      ILI +   K + I T     + H +      N NI  LI + 
+Sbjct  272  IVKSRNNINIKKQLNYDLILIHLYRHKNNLIETGINSIDSHLNWDKQKTNENIDYLINEN  331
+
+Query  60   LVEKSGDGLIITGEAQDIISN  80
+            LVEKS D  I+T      + N
+Sbjct  332  LVEKSDDMYILTKNGIKYVEN  352
+
+
+>gb|EQC31150.1| hypothetical protein SDRG_11078 [Saprolegnia diclina VS20]
+Length=875
+
+ Score = 37.4 bits (85),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 40/79 (51%), Gaps = 5/79 (6%)
+
+Query  4    TYIIKASNDVLNEK---TATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGL  60
+             Y+   +    +E    +A   I + K  FI AAE+R +   +G  + ++ + +++K  +
+Sbjct  597  NYVGDDNTSEFSEAEILSAFKFIDLDKNAFIGAAEIRHILICMGELITDAEVDMMVK--M  654
+
+Query  61   VEKSGDGLIITGEAQDIIS  79
+            V++ GDG +   E + ++ 
+Sbjct  655  VDRDGDGQVSFEEFRKLVI  673
+
+
+>ref|YP_138468.1| hypothetical protein [Sulfolobus islandicus]
+ ref|WP_011225207.1| hypothetical protein [Sulfolobus islandicus]
+ emb|CAG38246.1| hypothetical protein [Sulfolobus islandicus]
+Length=108
+
+ Score = 35.4 bits (80),  Expect = 0.71, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 35/80 (44%), Gaps = 9/80 (11%)
+
+Query  1   SKVTYIIKASNDVLNEKTATILITIAKKDFITAAEVRE------VHPDLGNAVVNSNIGV  54
+           ++  Y+I+   D  + K   +L+  A K  +   E  +          + +     NI  
+Sbjct  5   NRFIYLIR---DTYHMKIRDMLVLPAAKILLVLVEGPKNDKEILSILQMSSTTYYENITW  61
+
+Query  55  LIKKGLVEKSGDGLIITGEA  74
+           L+  G ++K+ DG I+T +A
+Sbjct  62  LLAHGFIQKTADGYILTDKA  81
+
+
+>ref|WP_020596994.1| hypothetical protein [Spirosoma panaciterrae]
+Length=91
+
+ Score = 35.1 bits (79),  Expect = 0.83, Method: Composition-based stats.
+ Identities = 25/63 (40%), Positives = 36/63 (57%), Gaps = 1/63 (2%)
+
+Query  5   YIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKS  64
+           +I KA+  + +    +ILI +AKK+ +T AEV E+   L    V+ +I  LI  GLV  S
+Sbjct  7   FIEKATGAMADRSRLSILIELAKKETLTNAEVMELVG-LSQPCVSHHIKQLIDSGLVNSS  65
+
+Query  65  GDG  67
+            DG
+Sbjct  66  KDG  68
+
+
+>ref|YP_007015873.1| Uncharacterized sugar kinase YeiI [Listeria monocytogenes serotype 
+4b str. LL195]
+ ref|WP_015085056.1| Uncharacterized sugar kinase YeiI [Listeria monocytogenes]
+ emb|CCO64882.1| Uncharacterized sugar kinase YeiI [Listeria monocytogenes serotype 
+4b str. LL195]
+Length=412
+
+ Score = 36.2 bits (82),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  2    KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+            +V YI++ +   +NEK   I  +I K  +I+  E+ ++  DL    V + I  LIKKG +
+Sbjct  36   EVHYIVENNKAKMNEKEEIIFNSIRKNPYISQQELADIL-DLSRPTVANLISGLIKKGRI  94
+
+Query  62   EKSGDGLIITGEAQDIISNAATL  84
+               G   I+    Q +    A +
+Sbjct  95   --LGKAYILNEAKQIVCIGGANV  115
+
+
+>ref|WP_003744524.1| carbohydrate kinase [Listeria monocytogenes]
+ gb|EGJ25860.1| PfkB family carbohydrate kinase [Listeria monocytogenes str. 
+Scott A]
+Length=388
+
+ Score = 36.2 bits (82),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  2   KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+           +V YI++ +   +NEK   I  +I K  +I+  E+ ++  DL    V + I  LIKKG +
+Sbjct  12  EVHYIVENNKAKMNEKEEIIFNSIRKNPYISQQELADIL-DLSRPTVANLISGLIKKGRI  70
+
+Query  62  EKSGDGLIITGEAQDIISNAATL  84
+              G   I+    Q +    A +
+Sbjct  71  --LGKAYILNEAKQIVCIGGANV  91
+
+
+>ref|YP_006363430.1| hypothetical protein TCELL_0868 [Thermogladius cellulolyticus 
+1633]
+ ref|WP_014737542.1| hypothetical protein [Thermogladius cellulolyticus]
+ gb|AFK51292.1| hypothetical protein TCELL_0868 [Thermogladius cellulolyticus 
+1633]
+Length=248
+
+ Score = 35.8 bits (81),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 22/75 (29%), Positives = 35/75 (47%), Gaps = 1/75 (1%)
+
+Query  18  TATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLIITGEAQDI  77
+           TA IL  + +   ++A +V E    +   +  + +  L  KGLV K G G  IT   + +
+Sbjct  11  TAKILRFVMENPGVSAKDVAEYLA-ISPNLARNVLQKLRDKGLVRKEGRGFYITPRGEWL  69
+
+Query  78  ISNAATLYAQENAPE  92
+           +S A T   +E   E
+Sbjct  70  LSRAKTSRVEEAGKE  84
+
+
+>ref|WP_003768090.1| carbohydrate kinase [Listeria innocua]
+ gb|EFR93028.1| carbohydrate kinase [Listeria innocua FSL J1-023]
+Length=388
+
+ Score = 35.8 bits (81),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  2   KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+           +V YI++ +   +NEK   I  +I K  +I+  E+ ++  DL    V + I  LIKKG +
+Sbjct  12  EVHYIVENNKAKMNEKEEIIFNSIRKNPYISQQELADIL-DLSRPTVANLISGLIKKGRI  70
+
+Query  62  EKSGDGLIITGEAQDIISNAATL  84
+              G   I+    Q +    A +
+Sbjct  71  --LGKAYILNEAKQIVCIGGANV  91
+
+
+>gb|EFR86901.1| carbohydrate kinase [Listeria marthii FSL S4-120]
+Length=399
+
+ Score = 35.8 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  2    KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+            +V YI++ +   +NEK   I  +I K  +I+  E+ ++  DL    V + I  LIKKG +
+Sbjct  23   EVHYIVENNKAKMNEKEEIIFNSIRKNPYISQQELADIL-DLSRPTVANLISGLIKKGRI  81
+
+Query  62   EKSGDGLIITGEAQDIISNAATL  84
+               G   I+    Q +    A +
+Sbjct  82   --LGKAYILNEAKQIVCIGGANV  102
+
+
+>ref|WP_003770034.1| carbohydrate kinase [Listeria innocua]
+ gb|EHN62267.1| kinase, PfkB family [Listeria innocua ATCC 33091]
+Length=388
+
+ Score = 35.8 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 40/83 (48%), Gaps = 3/83 (4%)
+
+Query  2   KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+           +V YI++ +   +NEK   I  +I K  +I+  E+ ++  DL    V + I  LIKKG +
+Sbjct  12  EVHYIVENNKAKMNEKEEIIFNSIRKNPYISQQELADIL-DLSRPTVANLISGLIKKGRI  70
+
+Query  62  EKSGDGLIITGEAQDIISNAATL  84
+              G   I+    Q +    A +
+Sbjct  71  --LGKAYILNEAKQIVCIGGANV  91
+
+
+>ref|WP_007402201.1| transcriptional regulator [Candidatus Nitrosoarchaeum limnia]
+ gb|EGG42064.1| Putative transcription regulator [Candidatus Nitrosoarchaeum 
+limnia SFB1]
+Length=268
+
+ Score = 35.4 bits (80),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  15  NEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDG-LIITGE  73
+           +E+   I+I + +K  +  +++ E+  D     V+ NIG LIK GL++K  DG  ++T  
+Sbjct  17  SEQRLNIMINLTEKK-LNISKLAELL-DATKPEVHRNIGRLIKTGLIKKESDGNYVLTTY  74
+
+Query  74  AQDIISNAATL-YAQEN  89
+            + I+    +L +  EN
+Sbjct  75  GKTILIQIPSLSFISEN  91
+
+
+>ref|WP_009527359.1| zinc ABC transporter permease [Eubacteriaceae bacterium CM2]
+ gb|EHL15368.1| hypothetical protein HMPREF9630_00737 [Eubacteriaceae bacterium 
+CM2]
+Length=356
+
+ Score = 35.4 bits (80),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 24/81 (30%), Positives = 37/81 (46%), Gaps = 6/81 (7%)
+
+Query  6    IIKASNDVLNEKTAT---ILITIA--KKDFI-TAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+            I+K+ N++  +K      ILI +   K + I T     + H +      N NI  LI + 
+Sbjct  272  IVKSRNNINIKKQLNYDLILIHLYRHKNNLIETGINSIDSHLNWDKQKTNENIDYLINEN  331
+
+Query  60   LVEKSGDGLIITGEAQDIISN  80
+            LVEK+ D  I+T      + N
+Sbjct  332  LVEKNDDMYILTKNGIKYVEN  352
+
+
+>ref|WP_009529454.1| zinc ABC transporter permease [Eubacteriaceae bacterium CM5]
+ gb|EHL19411.1| hypothetical protein HMPREF9628_01491 [Eubacteriaceae bacterium 
+CM5]
+Length=356
+
+ Score = 35.4 bits (80),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/81 (30%), Positives = 37/81 (46%), Gaps = 6/81 (7%)
+
+Query  6    IIKASNDVLNEKTAT---ILITIA--KKDFI-TAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+            I+K+ N++  +K      ILI +   K + I T     + H +      N NI  LI + 
+Sbjct  272  IVKSRNNINIKKQLNYDLILIHLYRHKNNLIETGINSIDSHLNWDKQKTNENIDYLINEN  331
+
+Query  60   LVEKSGDGLIITGEAQDIISN  80
+            LVEK+ D  I+T      + N
+Sbjct  332  LVEKNDDMYILTKNGIKYVEN  352
+
+
+>ref|WP_009525916.1| zinc ABC transporter permease [Eubacteriaceae bacterium ACC19a]
+ gb|EHL15716.1| hypothetical protein HMPREF9629_01687 [Eubacteriaceae bacterium 
+ACC19a]
+Length=356
+
+ Score = 35.4 bits (80),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/81 (30%), Positives = 37/81 (46%), Gaps = 6/81 (7%)
+
+Query  6    IIKASNDVLNEKTAT---ILITIA--KKDFI-TAAEVREVHPDLGNAVVNSNIGVLIKKG  59
+            I+K+ N++  +K      ILI +   K + I T     + H +      N NI  LI + 
+Sbjct  272  IVKSRNNINIKKQLNYDLILIHLYRHKNNLIETGINSIDSHLNWDKQKTNENIDYLINEN  331
+
+Query  60   LVEKSGDGLIITGEAQDIISN  80
+            LVEK+ D  I+T      + N
+Sbjct  332  LVEKNDDMYILTKNGIKYVEN  352
+
+
+>sp|P0CT26.1|URM1_USTMA RecName: Full=Ubiquitin-related modifier 1
+Length=107
+
+ Score = 33.9 bits (76),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 22/77 (29%), Positives = 34/77 (44%), Gaps = 4/77 (5%)
+
+Query  2   KVTYIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLV  61
+           K T  I  ++   NE   + LI   +K+ IT  E  E+  D     V   I VLI  G  
+Sbjct  27  KHTLTIPRTDTAGNETNVSFLIGHIRKNLITERE--ELFVD--GDSVRPGILVLINNGDW  82
+
+Query  62  EKSGDGLIITGEAQDII  78
+           E  G+G  +  +  +++
+Sbjct  83  ELEGEGDYVLQDGDEVV  99
+
+
+>gb|EKM50823.1| hypothetical protein PHACADRAFT_264334 [Phanerochaete carnosa 
+HHB-10118-sp]
+Length=747
+
+ Score = 35.1 bits (79),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 20/80 (25%), Positives = 35/80 (44%), Gaps = 4/80 (5%)
+
+Query  15   NEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSGDGLIITGEA  74
+            ++  A IL+ I  +  IT ++ R+V        + SN+G  I       +GDG++     
+Sbjct  541  HKDVAMILLQILDEGKITDSQGRKVDFRNTIICLTSNLGSDILAHRTASNGDGVVTADAR  600
+
+Query  75   QDIISNAATLYAQENAPELL  94
+              ++   A  +     PELL
+Sbjct  601  AQVLERTAEYFP----PELL  616
+
+
+>ref|WP_004052539.1| hypothetical protein [Eubacterium plexicaudatum]
+ gb|EMZ38589.1| hypothetical protein C823_00212 [Eubacterium plexicaudatum ASF492]
+Length=130
+
+ Score = 33.9 bits (76),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 18/80 (23%), Positives = 31/80 (39%), Gaps = 2/80 (3%)
+
+Query  5   YIIKASNDVLNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKS  64
+           YI   S + L +   TILI   +   + + +V     D     V+  +  L  +  +  S
+Sbjct  3   YIQHKSEESLEDYLETILILSRRLPTVRSIDVAN-ELDFSKPSVSVAVKNLKNRNYITVS  61
+
+Query  65  GDGLII-TGEAQDIISNAAT  83
+           GDG I  T   +++      
+Sbjct  62  GDGYISLTETGKELAEKVYE  81
+
+
+>ref|YP_006489017.1| MotA activator of middle period transcription [Acinetobacter 
+phage ZZ1]
+ gb|AFL47654.1| MotA activator of middle period transcription [Acinetobacter 
+phage ZZ1]
+Length=207
+
+ Score = 34.3 bits (77),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 31/67 (46%), Gaps = 7/67 (10%)
+
+Query  34  AEVREVHPDLGNAVVNSNIGV-------LIKKGLVEKSGDGLIITGEAQDIISNAATLYA  86
+           +E  E+  DL N      I         LI+ G + +S D + I+ E Q++I  AA L+ 
+Sbjct  21  SEGLELLEDLYNKTYIKRIEFVPVIIDQLIEYGYINESADKITISPEGQELIELAAELWI  80
+
+Query  87  QENAPEL  93
+           +    +L
+Sbjct  81  KGENIDL  87
+
+
+>ref|WP_003139261.1| coproporphyrinogen III oxidase [Lactococcus raffinolactis]
+ emb|CCK19985.1| Putative coproporphyrinogen III oxidase of BS HemN-type, oxygen-independent, 
+in heat shock gene cluster [Lactococcus raffinolactis 
+4877]
+Length=378
+
+ Score = 33.9 bits (76),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 17/88 (19%), Positives = 36/88 (41%), Gaps = 7/88 (8%)
+
+Query  5    YIIKASNDVLNEKTAT-------ILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIK  57
+            Y+  A    + EK          + + + KK  +      E      +++    +  LI+
+Sbjct  286  YLEHADKQAIKEKLTQKEQMEEELFLGLRKKSGVNMRHFSEKFDQNFDSIYGQTVRQLIE  345
+
+Query  58   KGLVEKSGDGLIITGEAQDIISNAATLY  85
+            K L+EKSGD + +T +   + ++    +
+Sbjct  346  KQLLEKSGDQIFMTRQGLMLGNDVFETF  373
+
+
+>ref|WP_004604316.1| transcriptional regulator [Eubacterium cellulosolvens]
+ gb|EIM58192.1| putative transcriptional regulator with HTH domain [Eubacterium 
+cellulosolvens 6]
+Length=507
+
+ Score = 33.9 bits (76),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 28/52 (54%), Gaps = 1/52 (2%)
+
+Query  14   LNEKTATILITIAKKDFITAAEVREVHPDLGNAVVNSNIGVLIKKGLVEKSG  65
+            LN +  TIL+ I +  ++T  E+ E+   +    +++NI  L   G +E+ G
+Sbjct  446  LNPRRQTILLEIKQNPYVTKHELSEIIG-ISTTAIDNNIAYLRNNGFIERVG  496
+
+
+>ref|YP_004615388.1| hypothetical protein [Methanosalsum zhilinae DSM 4017]
+ ref|WP_013897608.1| hypothetical protein [Methanosalsum zhilinae]
+ gb|AEH60169.1| hypothetical protein Mzhil_0293 [Methanosalsum zhilinae DSM 4017]
+Length=98
+
+ Score = 32.4 bits (72),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 13/53 (25%), Positives = 26/53 (49%), Gaps = 0/53 (0%)
+
+Query  41  PDLGNAVVNSNIGVLIKKGLVEKSGDGLIITGEAQDIISNAATLYAQENAPEL  93
+            +L     N  + +L+KK L++K GD    T + +     A  L +++N  ++
+Sbjct  32  ANLNFITANKYLDMLMKKNLIKKKGDLYFTTEKGKTFQELANVLKSEDNNRDI  84
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.133    0.326    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0409    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

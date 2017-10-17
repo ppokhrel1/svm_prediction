@@ -1,0 +1,2353 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1C01
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|P80915.1|AMP1_MACIN  RecName: Full=Antimicrobial peptide 1; Sh...   161    3e-49
+pdb|1C01|A  Chain A, Solution Structure Of Miamp1, A Plant Antimi...   157    7e-48
+gb|ERN04793.1|  hypothetical protein AMTR_s00140p00093980 [Ambore...   135    5e-39
+gb|ERN04795.1|  hypothetical protein AMTR_s00140p00096690 [Ambore...   131    2e-37
+ref|XP_002981870.1|  hypothetical protein SELMODRAFT_115640 [Sela...   103    1e-26
+gb|ABK21585.1|  unknown [Picea sitchensis] >gb|ABK25496.1| unknow...   101    7e-26
+gb|ABK21039.1|  unknown [Picea sitchensis] >gb|ABK24065.1| unknow...   101    7e-26
+ref|XP_002981967.1|  hypothetical protein SELMODRAFT_115352 [Sela...   100    7e-26
+ref|XP_002981966.1|  hypothetical protein SELMODRAFT_421332 [Sela...   100    1e-25
+gb|AAL05053.1|AF410953_1  antimicrobial peptide 2 [Pinus sylvestr...   100    3e-25
+gb|AAL05054.1|AF410954_1  antimicrobial peptide 3 [Pinus sylvestris]  99.0    9e-25
+gb|ADJ53037.1|  antimicrobial peptide 1 [Pinus pinaster]              99.0    1e-24
+ref|XP_002981961.1|  hypothetical protein SELMODRAFT_115594 [Sela...  97.8    1e-24
+sp|P83880.2|AMP1_PINMO  RecName: Full=Antimicrobial peptide 1; Al...  97.4    3e-24
+gb|AAL05052.1|AF410952_1  antimicrobial peptide 1 [Pinus sylvestris]  97.4    3e-24
+ref|XP_002981964.1|  hypothetical protein SELMODRAFT_421330 [Sela...  94.0    6e-23
+ref|XP_002981963.1|  hypothetical protein SELMODRAFT_115572 [Sela...  94.0    7e-23
+gb|AFK93081.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...  88.6    1e-20
+gb|AFK93073.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...  88.6    1e-20
+gb|AFK93075.1|  anti-microbial protein [Pinus monticola]              86.7    4e-20
+gb|AFK93079.1|  anti-microbial protein [Pinus monticola]              86.3    8e-20
+gb|ABR16715.1|  unknown [Picea sitchensis]                            85.5    1e-19
+gb|AFK93072.1|  anti-microbial protein [Pinus monticola]              85.1    2e-19
+gb|ADJ53038.1|  antimicrobial peptide 2 [Pinus pinaster]              80.9    9e-18
+ref|XP_002981962.1|  hypothetical protein SELMODRAFT_421328 [Sela...  76.3    5e-16
+ref|XP_002982940.1|  hypothetical protein SELMODRAFT_117165 [Sela...  74.7    1e-15
+ref|XP_002993749.1|  hypothetical protein SELMODRAFT_137553 [Sela...  67.8    9e-13
+ref|XP_002446989.1|  hypothetical protein SORBIDRAFT_06g026420 [S...  64.3    2e-11
+ref|XP_002962269.1|  hypothetical protein SELMODRAFT_8589 [Selagi...  61.6    2e-10
+emb|CCI55310.1|  PH01B001I13.6 [Phyllostachys edulis]                 61.6    2e-10
+ref|XP_002446987.1|  hypothetical protein SORBIDRAFT_06g026400 [S...  61.2    3e-10
+ref|XP_002965184.1|  hypothetical protein SELMODRAFT_82694 [Selag...  60.5    5e-10
+tpg|DAA36327.1|  TPA: hypothetical protein ZEAMMB73_042822 [Zea m...  60.5    5e-10
+tpg|DAA36326.1|  TPA: hypothetical protein ZEAMMB73_062345 [Zea m...  62.0    2e-09
+ref|XP_002982945.1|  hypothetical protein SELMODRAFT_422257 [Sela...  45.4    1e-04
+ref|XP_002982943.1|  hypothetical protein SELMODRAFT_422254 [Sela...  45.1    2e-04
+ref|XP_002969736.1|  hypothetical protein SELMODRAFT_92077 [Selag...  37.0    0.082
+gb|AGJ84363.1|  F82a [Epipremnum aureum]                              34.3    1.3  
+gb|EKD11926.1|  hexokinase [Marssonina brunnea f. sp. 'multigermt...  35.8    1.5  
+gb|AGJ84364.1|  F82b [Epipremnum aureum]                              33.9    2.3  
+emb|CCH42795.1|  Hexokinase [Wickerhamomyces ciferrii]                34.3    4.3  
+ref|WP_022346908.1|  putative uncharacterized protein [Clostridiu...  33.1    8.7  
+
+
+>sp|P80915.1|AMP1_MACIN RecName: Full=Antimicrobial peptide 1; Short=AMP1; AltName: Full=MiAMP1; 
+Flags: Precursor
+ emb|CAA71842.1| AMP1 [Macadamia integrifolia]
+Length=102
+
+ Score =  161 bits (407),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  27   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  86
+
+Query  61   ARACNPFGWKSIFIQC  76
+            ARACNPFGWKSIFIQC
+Sbjct  87   ARACNPFGWKSIFIQC  102
+
+
+>pdb|1C01|A Chain A, Solution Structure Of Miamp1, A Plant Antimicrobial 
+Protein
+Length=76
+
+ Score =  157 bits (396),  Expect = 7e-48, Method: Compositional matrix adjust.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+
+Query  61  ARACNPFGWKSIFIQC  76
+           ARACNPFGWKSIFIQC
+Sbjct  61  ARACNPFGWKSIFIQC  76
+
+
+>gb|ERN04793.1| hypothetical protein AMTR_s00140p00093980 [Amborella trichopoda]
+Length=98
+
+ Score =  135 bits (339),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 61/76 (80%), Positives = 66/76 (87%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           S+ TVW+GPGCNNRAERYSKCGCS IH KGGY+F Y GQTAALYNQ  C GVAHTRFGS 
+Sbjct  23  SSLTVWAGPGCNNRAERYSKCGCSGIHLKGGYEFVYNGQTAALYNQPDCKGVAHTRFGSG  82
+
+Query  61  ARACNPFGWKSIFIQC  76
+           AR+CN FGWKS+FIQC
+Sbjct  83  ARSCNAFGWKSMFIQC  98
+
+
+>gb|ERN04795.1| hypothetical protein AMTR_s00140p00096690 [Amborella trichopoda]
+Length=104
+
+ Score =  131 bits (329),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 61/76 (80%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S FTVW+GPGCNNRAER SKCGCSAI QKGGY F YTGQTAALYNQ  C GVAHTRFGS 
+Sbjct  29   SHFTVWAGPGCNNRAERVSKCGCSAIKQKGGYQFVYTGQTAALYNQGNCQGVAHTRFGSG  88
+
+Query  61   ARACNPFGWKSIFIQC  76
+            A +C+ FGW+SIFIQC
+Sbjct  89   ASSCSAFGWRSIFIQC  104
+
+
+>ref|XP_002981870.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+ gb|EFJ16963.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+Length=84
+
+ Score =  103 bits (256),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 50/78 (64%), Positives = 57/78 (73%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERY  CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNRLERYRACGCNNVGASQHGGYSFAYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           SS + C+ FGW+SIFIQC
+Sbjct  67  SSVQDCSGFGWRSIFIQC  84
+
+
+>gb|ABK21585.1| unknown [Picea sitchensis]
+ gb|ABK25496.1| unknown [Picea sitchensis]
+ gb|ACN40253.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  101 bits (252),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            GS  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>gb|ABK21039.1| unknown [Picea sitchensis]
+ gb|ABK24065.1| unknown [Picea sitchensis]
+ gb|ACN40103.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  101 bits (252),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 53/79 (67%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            GS  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>ref|XP_002981967.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+ gb|EFJ17060.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+Length=84
+
+ Score =  100 bits (250),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 49/78 (63%), Positives = 55/78 (71%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERYS CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SYFDAWAGPGCNNRLERYSACGCTNVGASQHGGYSFAYQGQTAAAYNTANCQGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  GSVQDCSGFGWNSFFIQC  84
+
+
+>ref|XP_002981966.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+ gb|EFJ17059.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+Length=101
+
+ Score =  100 bits (250),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 49/78 (63%), Positives = 54/78 (69%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNNR ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  24   SYFDTWAGPGCNNRLERYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAHTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGW S FIQC
+Sbjct  84   GSVQDCSGFGWNSFFIQC  101
+
+
+>gb|AAL05053.1|AF410953_1 antimicrobial peptide 2 [Pinus sylvestris]
+ gb|AAL05055.1|AF410955_1 antimicrobial peptide 4 [Pinus sylvestris]
+Length=105
+
+ Score =  100 bits (248),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 52/79 (66%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|AAL05054.1|AF410954_1 antimicrobial peptide 3 [Pinus sylvestris]
+Length=105
+
+ Score = 99.0 bits (245),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 51/79 (65%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTASAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|ADJ53037.1| antimicrobial peptide 1 [Pinus pinaster]
+Length=105
+
+ Score = 99.0 bits (245),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 52/79 (66%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W+GPGCNN A RYSKCGCS I     GGY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNDVHGGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            GS  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>ref|XP_002981961.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+ gb|EFJ17054.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+Length=84
+
+ Score = 97.8 bits (242),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/78 (62%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNVLERYSACGCTNVRASQHGGYSFVYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  RSVQDCSGFGWNSFFIQC  84
+
+
+>sp|P83880.2|AMP1_PINMO RecName: Full=Antimicrobial peptide 1; AltName: Full=10.6 kDa 
+protein; AltName: Full=PMAP1; Flags: Precursor
+ gb|AAU00106.1| anti-microbial protein precursor [Pinus monticola]
+Length=105
+
+ Score = 97.4 bits (241),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/79 (63%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYSKCGCSNIGHNVHGGYEFVYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS+FIQC
+Sbjct  87   SSVNQACSNFGWKSVFIQC  105
+
+
+>gb|AAL05052.1|AF410952_1 antimicrobial peptide 1 [Pinus sylvestris]
+Length=105
+
+ Score = 97.4 bits (241),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 51/79 (65%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W+GPGCNN A RYSKCGCS I  +   GY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHAGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            GS  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>ref|XP_002981964.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ ref|XP_002981965.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+ gb|EFJ17057.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ gb|EFJ17058.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+Length=101
+
+ Score = 94.0 bits (232),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  24   SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+            +S + C+ FGW S FIQC
+Sbjct  84   ASVQDCSGFGWNSFFIQC  101
+
+
+>ref|XP_002981963.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+ ref|XP_002982941.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ ref|XP_002982942.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ ref|XP_002982944.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ ref|XP_002982946.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ ref|XP_002982947.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ16186.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ gb|EFJ16187.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ gb|EFJ16189.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ gb|EFJ16191.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ gb|EFJ16192.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ17056.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+Length=97
+
+ Score = 94.0 bits (232),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  20  SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  79
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           +S + C+ FGW S FIQC
+Sbjct  80  ASVQDCSGFGWNSFFIQC  97
+
+
+>gb|AFK93081.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93082.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I     GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPTAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|AFK93073.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93074.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93076.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93077.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93078.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93080.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score = 88.6 bits (218),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I     GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|AFK93075.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score = 86.7 bits (213),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 43/79 (54%), Positives = 50/79 (63%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S  + W GPGCNN   RY+KCGCS I     GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYLSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|AFK93079.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score = 86.3 bits (212),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 43/79 (54%), Positives = 50/79 (63%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGC  I     GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCFNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|ABR16715.1| unknown [Picea sitchensis]
+Length=105
+
+ Score = 85.5 bits (210),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 53/79 (67%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W   GCNN++ +YSKCGCS I  K  GGY+F + GQ+AA YN   C+G  HTRF 
+Sbjct  27   SYFTAWEAAGCNNQSVQYSKCGCSNIDDKFHGGYEFVFEGQSAAAYNTEICNGPPHTRFA  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            G   + C+ FGWKS FIQC
+Sbjct  87   GRGVQDCSGFGWKSFFIQC  105
+
+
+>gb|AFK93072.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score = 85.1 bits (209),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RY+KCGCS I  +   GY+F Y GQ    YN     GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYNKCGCSNIGHNVHEGYEFVYQGQAPTAYNTNNYKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +ACN F WKS+FIQC
+Sbjct  87   SNVNQACNNFAWKSVFIQC  105
+
+
+>gb|ADJ53038.1| antimicrobial peptide 2 [Pinus pinaster]
+Length=105
+
+ Score = 80.9 bits (198),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 48/78 (62%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W    CNN   RY++C CS I+ K  GGY+F   GQ AA YN   C+G  HTRF 
+Sbjct  28   SYFTAWESAVCNNETVRYNECWCSNINDKFRGGYEFVNQGQIAAAYNTELCNGPPHTRFS  87
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGWKS FIQC
+Sbjct  88   GSVQDCSGFGWKSFFIQC  105
+
+
+>ref|XP_002981962.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+ gb|EFJ17055.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+Length=113
+
+ Score = 76.3 bits (186),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 46/78 (59%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERY  CGC+ +   Q GGY  +Y G  AA YN A C GVA   F 
+Sbjct  24  SYFDAWAGPGCNNWLERYRACGCTNVGASQHGGYSVAYLGHAAAAYNTANCQGVAQRWF-  82
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  83  --RRHCSGFRWNSIFIQC  98
+
+
+>ref|XP_002982940.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+ gb|EFJ16185.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+Length=94
+
+ Score = 74.7 bits (182),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 45/78 (58%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPG NNR ERY  CGC+ +   Q GGY   Y G  AA YN A C GVA   F 
+Sbjct  5   SYFDAWAGPGGNNRLERYRACGCTNVGASQHGGYSVVYLGHAAAAYNTANCQGVAQRWF-  63
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  64  --RRHCSGFRWNSIFIQC  79
+
+
+>ref|XP_002993749.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+ gb|EFJ05168.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+Length=104
+
+ Score = 67.8 bits (164),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 35/79 (44%), Positives = 41/79 (52%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQ---TAALYNQAGCSGVAHTRF  57
+            S F  +  P C NR    ++CGC+ +    GY F +  Q   TA LYNQ  C G  HT  
+Sbjct  26   STFVTFQSPDCTNRV-LVTRCGCNNLDASVGYGFEWHKQRESTANLYNQPDCKGSPHTSL  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+             SS  AC P GWKSI I C
+Sbjct  85   DSSVSACGPIGWKSIEISC  103
+
+
+>ref|XP_002446989.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+ gb|EES11317.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+Length=116
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 46/81 (57%), Gaps = 6/81 (7%)
+
+Query  1    SAFTVWSGPGCNNRAER-----YSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHT  55
+            S  T W GPGC +  ++        CGC+ I   GG++F++ G+TA LY + GC+G  + 
+Sbjct  37   SYLTSWGGPGCTSSGKKGHIASAGSCGCNHIRFHGGHEFNFRGETATLYTEPGCAGTPYQ  96
+
+Query  56   RFGSSARACNPFGWKSIFIQC  76
+             F    +AC  FGW+SI I C
+Sbjct  97   VF-EDTQACGDFGWRSIHIDC  116
+
+
+>ref|XP_002962269.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+ gb|EFJ37529.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+Length=103
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 34/84 (40%), Positives = 46/84 (55%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGC-----SGVA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    YNQ  C     + ++
+Sbjct  20   SYFDVYFGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQPIRTYNQPFCQDEVSTTIS  79
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  80   TIRQATTMYSCNQVFQFQSIFFQC  103
+
+
+>emb|CCI55310.1| PH01B001I13.6 [Phyllostachys edulis]
+Length=102
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 42/79 (53%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCNNRAERYSK---CGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRF  57
+            S  T W GPGC       S    CGC+ I   GG++F++ G+ A LY + GC+G  +  F
+Sbjct  25   SYLTSWGGPGCTTSKGHMSSVGSCGCNHIRFHGGHEFNFRGEKATLYTKPGCAGTPYQVF  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+                +AC  FGW SI I C
+Sbjct  85   -EDTQACGDFGWHSIHIDC  102
+
+
+>ref|XP_002446987.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+ gb|EES11315.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+Length=112
+
+ Score = 61.2 bits (147),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WSG  C+        CGC+ +    G +F Y GQTA LY   GC+G  +  F   
+Sbjct  38   SSLTTWSGADCSGDTSTIGACGCTDLVFYAGQEFYYRGQTATLYTGTGCAGTPYQVF-ED  96
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  97   TQACGDFGWRSINIHC  112
+
+
+>ref|XP_002965184.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+ gb|EFJ34022.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+Length=108
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 45/84 (54%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGCSG-----VA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    +NQ  C       ++
+Sbjct  25   SYFDVYLGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQRIRTFNQPFCQDEVSTIIS  84
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  85   TIREATTMYSCNQVFQFQSIFFQC  108
+
+
+>tpg|DAA36327.1| TPA: hypothetical protein ZEAMMB73_042822 [Zea mays]
+Length=115
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WS  GC+        CGC+ +    G +F Y G+TA LY   GC+G  +  F   
+Sbjct  41   SSLTTWSAAGCSGDTSIVGSCGCTDLAFYAGQEFYYRGETATLYTGTGCTGTPYQVF-ED  99
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  100  TQACGDFGWRSINIDC  115
+
+
+>tpg|DAA36326.1| TPA: hypothetical protein ZEAMMB73_062345 [Zea mays]
+Length=422
+
+ Score = 62.0 bits (149),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 29/78 (37%), Positives = 42/78 (54%), Gaps = 5/78 (6%)
+
+Query  1    SAFTVWSGPGCNNRAERY----SKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTR  56
+            S  T W GPGC    + +      CGC+ +   GG++F++ G+TA LY+Q GC G  +  
+Sbjct  39   SYLTSWGGPGCTTGTKGHIASAGSCGCNHLRFHGGHEFNFRGETATLYSQPGCVGTPYQV  98
+
+Query  57   FGSSARACNPFGWKSIFI  74
+            F    +AC  FGW  + I
+Sbjct  99   F-EDTQACGDFGWHRVNI  115
+
+
+>ref|XP_002982945.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+ gb|EFJ16190.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+Length=133
+
+ Score = 45.4 bits (106),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTRQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002982943.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+ gb|EFJ16188.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+Length=133
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTWQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002969736.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+ gb|EFJ28860.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+Length=74
+
+ Score = 37.0 bits (84),  Expect = 0.082, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 29/60 (48%), Gaps = 3/60 (5%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYT-GQTAALYNQAGCSGVAHTRF  57
+           S    +SG  C+    RY  CGC+ I   Q+ GY F YT GQ+A  Y+   C   A   F
+Sbjct  11  SYLDTYSGLHCDKNTRRYDSCGCNNIDFKQQKGYKFVYTNGQSATAYSGTRCQKRAGVSF  70
+
+
+>gb|AGJ84363.1| F82a [Epipremnum aureum]
+Length=120
+
+ Score = 34.3 bits (77),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 34/75 (45%), Gaps = 1/75 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S  T++ G  C  ++ + +   C  +   GGYDF Y  +  A++ ++   G   ++   S
+Sbjct  32   STLTIYEGNKCTGKSTKINDLSCHRLEWNGGYDFKYQAKYPAIFFRSPKCGGIPSKIKRS  91
+
+Query  61   ARAC-NPFGWKSIFI  74
+               C N  G  S+ I
+Sbjct  92   DTTCGNLLGHLSVRI  106
+
+
+>gb|EKD11926.1| hexokinase [Marssonina brunnea f. sp. 'multigermtubi' MB_m1]
+Length=487
+
+ Score = 35.8 bits (81),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  14   RAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQ  46
+            RA R S CG +AI +K GYD  + G   +++N+
+Sbjct  386  RAARLSACGVAAISKKKGYDSCHVGADGSVFNK  418
+
+
+>gb|AGJ84364.1| F82b [Epipremnum aureum]
+Length=120
+
+ Score = 33.9 bits (76),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 25/53 (47%), Gaps = 1/53 (2%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAAL-YNQAGCSGV  52
+           S  T++ G  C  R+ ++S   C  +   G Y+F Y  +  AL +    C G+
+Sbjct  32  STLTIYEGDKCTKRSTKFSDFSCHRLQWLGSYNFKYQAKYPALFFRSPKCGGI  84
+
+
+>emb|CCH42795.1| Hexokinase [Wickerhamomyces ciferrii]
+Length=484
+
+ Score = 34.3 bits (77),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  13   NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQ  46
+            NRA R S CG +AI +K GY+ ++     ++YN+
+Sbjct  390  NRASRLSVCGIAAICKKRGYETAHCAADGSVYNR  423
+
+
+>ref|WP_022346908.1| putative uncharacterized protein [Clostridium sp. CAG:299]
+ emb|CDD44287.1| putative uncharacterized protein [Clostridium sp. CAG:299]
+Length=387
+
+ Score = 33.1 bits (74),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 18/38 (47%), Positives = 21/38 (55%), Gaps = 2/38 (5%)
+
+Query  16   ERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVA  53
+            ER  K  CSA   +  Y+F YT  T A  N AGCS +A
+Sbjct  270  ERVIKNTCSAF--RADYEFEYTFGTPATINDAGCSHIA  305
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.133    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310449769688
+Results from round 2
+
+
+Query= 1C01
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|ERN04793.1|  hypothetical protein AMTR_s00140p00093980 [Ambore...   120    4e-33
+sp|P80915.1|AMP1_MACIN  RecName: Full=Antimicrobial peptide 1; Sh...   118    3e-32
+gb|ERN04795.1|  hypothetical protein AMTR_s00140p00096690 [Ambore...   116    1e-31
+gb|ADJ53037.1|  antimicrobial peptide 1 [Pinus pinaster]               110    4e-29
+sp|P83880.2|AMP1_PINMO  RecName: Full=Antimicrobial peptide 1; Al...   110    4e-29
+gb|AAL05053.1|AF410953_1  antimicrobial peptide 2 [Pinus sylvestr...   109    9e-29
+gb|AAL05054.1|AF410954_1  antimicrobial peptide 3 [Pinus sylvestris]   108    1e-28
+gb|AAL05052.1|AF410952_1  antimicrobial peptide 1 [Pinus sylvestris]   108    1e-28
+gb|ABK21585.1|  unknown [Picea sitchensis] >gb|ABK25496.1| unknow...   106    8e-28
+pdb|1C01|A  Chain A, Solution Structure Of Miamp1, A Plant Antimi...   105    8e-28
+gb|AFK93081.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...   106    9e-28
+gb|AFK93073.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...   106    1e-27
+ref|XP_002981870.1|  hypothetical protein SELMODRAFT_115640 [Sela...   105    1e-27
+gb|AFK93075.1|  anti-microbial protein [Pinus monticola]               105    2e-27
+gb|ABK21039.1|  unknown [Picea sitchensis] >gb|ABK24065.1| unknow...   105    2e-27
+ref|XP_002981961.1|  hypothetical protein SELMODRAFT_115594 [Sela...   104    3e-27
+tpg|DAA36326.1|  TPA: hypothetical protein ZEAMMB73_062345 [Zea m...   110    3e-27
+ref|XP_002981966.1|  hypothetical protein SELMODRAFT_421332 [Sela...   105    3e-27
+gb|AFK93079.1|  anti-microbial protein [Pinus monticola]               104    5e-27
+gb|ABR16715.1|  unknown [Picea sitchensis]                             104    5e-27
+ref|XP_002981967.1|  hypothetical protein SELMODRAFT_115352 [Sela...   103    6e-27
+gb|AFK93072.1|  anti-microbial protein [Pinus monticola]               104    6e-27
+gb|ADJ53038.1|  antimicrobial peptide 2 [Pinus pinaster]               103    9e-27
+ref|XP_002981964.1|  hypothetical protein SELMODRAFT_421330 [Sela...   101    1e-25
+ref|XP_002981963.1|  hypothetical protein SELMODRAFT_115572 [Sela...  99.7    4e-25
+ref|XP_002965184.1|  hypothetical protein SELMODRAFT_82694 [Selag...  93.9    9e-23
+ref|XP_002981962.1|  hypothetical protein SELMODRAFT_421328 [Sela...  93.1    2e-22
+ref|XP_002446989.1|  hypothetical protein SORBIDRAFT_06g026420 [S...  92.7    2e-22
+ref|XP_002962269.1|  hypothetical protein SELMODRAFT_8589 [Selagi...  92.0    4e-22
+emb|CCI55310.1|  PH01B001I13.6 [Phyllostachys edulis]                 92.0    4e-22
+ref|XP_002446987.1|  hypothetical protein SORBIDRAFT_06g026400 [S...  90.0    3e-21
+ref|XP_002982940.1|  hypothetical protein SELMODRAFT_117165 [Sela...  89.7    3e-21
+ref|XP_002993749.1|  hypothetical protein SELMODRAFT_137553 [Sela...  89.3    4e-21
+tpg|DAA36327.1|  TPA: hypothetical protein ZEAMMB73_042822 [Zea m...  87.4    3e-20
+ref|XP_002982945.1|  hypothetical protein SELMODRAFT_422257 [Sela...  77.0    4e-16
+ref|XP_002982943.1|  hypothetical protein SELMODRAFT_422254 [Sela...  75.0    3e-15
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002969736.1|  hypothetical protein SELMODRAFT_92077 [Selag...  50.0    2e-06
+gb|AGJ84363.1|  F82a [Epipremnum aureum]                              40.0    0.009
+gb|AGJ84364.1|  F82b [Epipremnum aureum]                              36.5    0.20 
+ref|WP_007278189.1|  D-alanyl-D-alanine carboxypeptidase [Lentisp...  37.3    0.45 
+ref|XP_002584573.1|  predicted protein [Uncinocarpus reesii 1704]...  34.6    1.3  
+ref|XP_001843459.1|  conserved hypothetical protein [Culex quinqu...  34.6    3.2  
+ref|XP_001261691.1|  secreted antimicrobial peptide, putative [Ne...  33.0    3.2  
+ref|XP_747134.2|  secreted antimicrobial peptide [Aspergillus fum...  31.9    9.6  
+ref|YP_003396882.1|  hypothetical protein Cwoe_5098 [Conexibacter...  33.4    9.6  
+
+
+>gb|ERN04793.1| hypothetical protein AMTR_s00140p00093980 [Amborella trichopoda]
+Length=98
+
+ Score =  120 bits (300),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 61/76 (80%), Positives = 66/76 (87%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           S+ TVW+GPGCNNRAERYSKCGCS IH KGGY+F Y GQTAALYNQ  C GVAHTRFGS 
+Sbjct  23  SSLTVWAGPGCNNRAERYSKCGCSGIHLKGGYEFVYNGQTAALYNQPDCKGVAHTRFGSG  82
+
+Query  61  ARACNPFGWKSIFIQC  76
+           AR+CN FGWKS+FIQC
+Sbjct  83  ARSCNAFGWKSMFIQC  98
+
+
+>sp|P80915.1|AMP1_MACIN RecName: Full=Antimicrobial peptide 1; Short=AMP1; AltName: Full=MiAMP1; 
+Flags: Precursor
+ emb|CAA71842.1| AMP1 [Macadamia integrifolia]
+Length=102
+
+ Score =  118 bits (295),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  27   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  86
+
+Query  61   ARACNPFGWKSIFIQC  76
+            ARACNPFGWKSIFIQC
+Sbjct  87   ARACNPFGWKSIFIQC  102
+
+
+>gb|ERN04795.1| hypothetical protein AMTR_s00140p00096690 [Amborella trichopoda]
+Length=104
+
+ Score =  116 bits (290),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 61/76 (80%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S FTVW+GPGCNNRAER SKCGCSAI QKGGY F YTGQTAALYNQ  C GVAHTRFGS 
+Sbjct  29   SHFTVWAGPGCNNRAERVSKCGCSAIKQKGGYQFVYTGQTAALYNQGNCQGVAHTRFGSG  88
+
+Query  61   ARACNPFGWKSIFIQC  76
+            A +C+ FGW+SIFIQC
+Sbjct  89   ASSCSAFGWRSIFIQC  104
+
+
+>gb|ADJ53037.1| antimicrobial peptide 1 [Pinus pinaster]
+Length=105
+
+ Score =  110 bits (274),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 51/79 (65%), Positives = 56/79 (71%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I     GGY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNDVHGGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>sp|P83880.2|AMP1_PINMO RecName: Full=Antimicrobial peptide 1; AltName: Full=10.6 kDa 
+protein; AltName: Full=PMAP1; Flags: Precursor
+ gb|AAU00106.1| anti-microbial protein precursor [Pinus monticola]
+Length=105
+
+ Score =  110 bits (274),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 50/79 (63%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYSKCGCSNIGHNVHGGYEFVYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS+FIQC
+Sbjct  87   SSVNQACSNFGWKSVFIQC  105
+
+
+>gb|AAL05053.1|AF410953_1 antimicrobial peptide 2 [Pinus sylvestris]
+ gb|AAL05055.1|AF410955_1 antimicrobial peptide 4 [Pinus sylvestris]
+Length=105
+
+ Score =  109 bits (272),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|AAL05054.1|AF410954_1 antimicrobial peptide 3 [Pinus sylvestris]
+Length=105
+
+ Score =  108 bits (271),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 51/79 (65%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTASAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|AAL05052.1|AF410952_1 antimicrobial peptide 1 [Pinus sylvestris]
+Length=105
+
+ Score =  108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 50/79 (63%), Positives = 56/79 (71%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +   GY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHAGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>gb|ABK21585.1| unknown [Picea sitchensis]
+ gb|ABK25496.1| unknown [Picea sitchensis]
+ gb|ACN40253.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  106 bits (265),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 59/79 (75%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>pdb|1C01|A Chain A, Solution Structure Of Miamp1, A Plant Antimicrobial 
+Protein
+Length=76
+
+ Score =  105 bits (263),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+
+Query  61  ARACNPFGWKSIFIQC  76
+           ARACNPFGWKSIFIQC
+Sbjct  61  ARACNPFGWKSIFIQC  76
+
+
+>gb|AFK93081.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93082.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  106 bits (265),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 44/79 (56%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPTAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|AFK93073.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93074.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93076.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93077.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93078.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93080.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  106 bits (264),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 44/79 (56%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>ref|XP_002981870.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+ gb|EFJ16963.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+Length=84
+
+ Score =  105 bits (262),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 50/78 (64%), Positives = 57/78 (73%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERY  CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNRLERYRACGCNNVGASQHGGYSFAYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           SS + C+ FGW+SIFIQC
+Sbjct  67  SSVQDCSGFGWRSIFIQC  84
+
+
+>gb|AFK93075.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  105 bits (263),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S  + W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYLSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|ABK21039.1| unknown [Picea sitchensis]
+ gb|ABK24065.1| unknown [Picea sitchensis]
+ gb|ACN40103.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  105 bits (263),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 59/79 (75%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>ref|XP_002981961.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+ gb|EFJ17054.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+Length=84
+
+ Score =  104 bits (260),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 48/78 (62%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNVLERYSACGCTNVRASQHGGYSFVYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  RSVQDCSGFGWNSFFIQC  84
+
+
+>tpg|DAA36326.1| TPA: hypothetical protein ZEAMMB73_062345 [Zea mays]
+Length=422
+
+ Score =  110 bits (276),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 29/78 (37%), Positives = 42/78 (54%), Gaps = 5/78 (6%)
+
+Query  1    SAFTVWSGPGCNNRAERY----SKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTR  56
+            S  T W GPGC    + +      CGC+ +   GG++F++ G+TA LY+Q GC G  +  
+Sbjct  39   SYLTSWGGPGCTTGTKGHIASAGSCGCNHLRFHGGHEFNFRGETATLYSQPGCVGTPYQV  98
+
+Query  57   FGSSARACNPFGWKSIFI  74
+            F    +AC  FGW  + I
+Sbjct  99   F-EDTQACGDFGWHRVNI  115
+
+
+>ref|XP_002981966.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+ gb|EFJ17059.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+Length=101
+
+ Score =  105 bits (261),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 49/78 (63%), Positives = 54/78 (69%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNNR ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  24   SYFDTWAGPGCNNRLERYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAHTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGW S FIQC
+Sbjct  84   GSVQDCSGFGWNSFFIQC  101
+
+
+>gb|AFK93079.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  104 bits (260),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGC  I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCFNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|ABR16715.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  104 bits (260),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W   GCNN++ +YSKCGCS I     GGY+F + GQ+AA YN   C+G  HTRF 
+Sbjct  27   SYFTAWEAAGCNNQSVQYSKCGCSNIDDKFHGGYEFVFEGQSAAAYNTEICNGPPHTRFA  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            G   + C+ FGWKS FIQC
+Sbjct  87   GRGVQDCSGFGWKSFFIQC  105
+
+
+>ref|XP_002981967.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+ gb|EFJ17060.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+Length=84
+
+ Score =  103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 49/78 (63%), Positives = 55/78 (71%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERYS CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SYFDAWAGPGCNNRLERYSACGCTNVGASQHGGYSFAYQGQTAAAYNTANCQGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  GSVQDCSGFGWNSFFIQC  84
+
+
+>gb|AFK93072.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  104 bits (259),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RY+KCGCS I  +   GY+F Y GQ    YN     GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYNKCGCSNIGHNVHEGYEFVYQGQAPTAYNTNNYKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +ACN F WKS+FIQC
+Sbjct  87   SNVNQACNNFAWKSVFIQC  105
+
+
+>gb|ADJ53038.1| antimicrobial peptide 2 [Pinus pinaster]
+Length=105
+
+ Score =  103 bits (258),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/78 (51%), Positives = 48/78 (62%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W    CNN   RY++C CS I+   +GGY+F   GQ AA YN   C+G  HTRF 
+Sbjct  28   SYFTAWESAVCNNETVRYNECWCSNINDKFRGGYEFVNQGQIAAAYNTELCNGPPHTRFS  87
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGWKS FIQC
+Sbjct  88   GSVQDCSGFGWKSFFIQC  105
+
+
+>ref|XP_002981964.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ ref|XP_002981965.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+ gb|EFJ17057.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ gb|EFJ17058.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+Length=101
+
+ Score =  101 bits (251),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  24   SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+            +S + C+ FGW S FIQC
+Sbjct  84   ASVQDCSGFGWNSFFIQC  101
+
+
+>ref|XP_002981963.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+ ref|XP_002982941.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ ref|XP_002982942.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ ref|XP_002982944.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ ref|XP_002982946.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ ref|XP_002982947.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ16186.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ gb|EFJ16187.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ gb|EFJ16189.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ gb|EFJ16191.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ gb|EFJ16192.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ17056.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+Length=97
+
+ Score = 99.7 bits (247),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  20  SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  79
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           +S + C+ FGW S FIQC
+Sbjct  80  ASVQDCSGFGWNSFFIQC  97
+
+
+>ref|XP_002965184.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+ gb|EFJ34022.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+Length=108
+
+ Score = 93.9 bits (232),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 33/84 (39%), Positives = 45/84 (54%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGCSG-----VA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    +NQ  C       ++
+Sbjct  25   SYFDVYLGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQRIRTFNQPFCQDEVSTIIS  84
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  85   TIREATTMYSCNQVFQFQSIFFQC  108
+
+
+>ref|XP_002981962.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+ gb|EFJ17055.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+Length=113
+
+ Score = 93.1 bits (230),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 46/78 (59%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERY  CGC+ +   Q GGY  +Y G  AA YN A C GVA   F 
+Sbjct  24  SYFDAWAGPGCNNWLERYRACGCTNVGASQHGGYSVAYLGHAAAAYNTANCQGVAQRWF-  82
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  83  --RRHCSGFRWNSIFIQC  98
+
+
+>ref|XP_002446989.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+ gb|EES11317.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+Length=116
+
+ Score = 92.7 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 32/81 (40%), Positives = 43/81 (53%), Gaps = 6/81 (7%)
+
+Query  1    SAFTVWSGPGCN-----NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHT  55
+            S  T W GPGC              CGC+ I   GG++F++ G+TA LY + GC+G  + 
+Sbjct  37   SYLTSWGGPGCTSSGKKGHIASAGSCGCNHIRFHGGHEFNFRGETATLYTEPGCAGTPYQ  96
+
+Query  56   RFGSSARACNPFGWKSIFIQC  76
+             F    +AC  FGW+SI I C
+Sbjct  97   VF-EDTQACGDFGWRSIHIDC  116
+
+
+>ref|XP_002962269.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+ gb|EFJ37529.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+Length=103
+
+ Score = 92.0 bits (227),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 34/84 (40%), Positives = 45/84 (54%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGCSG-----VA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    YNQ  C       ++
+Sbjct  20   SYFDVYFGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQPIRTYNQPFCQDEVSTTIS  79
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  80   TIRQATTMYSCNQVFQFQSIFFQC  103
+
+
+>emb|CCI55310.1| PH01B001I13.6 [Phyllostachys edulis]
+Length=102
+
+ Score = 92.0 bits (227),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 41/79 (52%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCN---NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRF  57
+            S  T W GPGC            CGC+ I   GG++F++ G+ A LY + GC+G  +  F
+Sbjct  25   SYLTSWGGPGCTTSKGHMSSVGSCGCNHIRFHGGHEFNFRGEKATLYTKPGCAGTPYQVF  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+                +AC  FGW SI I C
+Sbjct  85   -EDTQACGDFGWHSIHIDC  102
+
+
+>ref|XP_002446987.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+ gb|EES11315.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+Length=112
+
+ Score = 90.0 bits (222),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 31/76 (41%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WSG  C+        CGC+ +    G +F Y GQTA LY   GC+G  +  F   
+Sbjct  38   SSLTTWSGADCSGDTSTIGACGCTDLVFYAGQEFYYRGQTATLYTGTGCAGTPYQVF-ED  96
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  97   TQACGDFGWRSINIHC  112
+
+
+>ref|XP_002982940.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+ gb|EFJ16185.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+Length=94
+
+ Score = 89.7 bits (221),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 45/78 (58%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPG NNR ERY  CGC+ +   Q GGY   Y G  AA YN A C GVA   F 
+Sbjct  5   SYFDAWAGPGGNNRLERYRACGCTNVGASQHGGYSVVYLGHAAAAYNTANCQGVAQRWF-  63
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  64  --RRHCSGFRWNSIFIQC  79
+
+
+>ref|XP_002993749.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+ gb|EFJ05168.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+Length=104
+
+ Score = 89.3 bits (220),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 35/79 (44%), Positives = 41/79 (52%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQ---TAALYNQAGCSGVAHTRF  57
+            S F  +  P C NR    ++CGC+ +    GY F +  Q   TA LYNQ  C G  HT  
+Sbjct  26   STFVTFQSPDCTNRV-LVTRCGCNNLDASVGYGFEWHKQRESTANLYNQPDCKGSPHTSL  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+             SS  AC P GWKSI I C
+Sbjct  85   DSSVSACGPIGWKSIEISC  103
+
+
+>tpg|DAA36327.1| TPA: hypothetical protein ZEAMMB73_042822 [Zea mays]
+Length=115
+
+ Score = 87.4 bits (215),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 30/76 (39%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WS  GC+        CGC+ +    G +F Y G+TA LY   GC+G  +  F   
+Sbjct  41   SSLTTWSAAGCSGDTSIVGSCGCTDLAFYAGQEFYYRGETATLYTGTGCTGTPYQVF-ED  99
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  100  TQACGDFGWRSINIDC  115
+
+
+>ref|XP_002982945.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+ gb|EFJ16190.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+Length=133
+
+ Score = 77.0 bits (188),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTRQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002982943.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+ gb|EFJ16188.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+Length=133
+
+ Score = 75.0 bits (183),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTWQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002969736.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+ gb|EFJ28860.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+Length=74
+
+ Score = 50.0 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 3/63 (5%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYT-GQTAALYNQAGCSGVAHTRF  57
+           S    +SG  C+    RY  CGC+ I  K   GY F YT GQ+A  Y+   C   A   F
+Sbjct  11  SYLDTYSGLHCDKNTRRYDSCGCNNIDFKQQKGYKFVYTNGQSATAYSGTRCQKRAGVSF  70
+
+Query  58  GSS  60
+             +
+Sbjct  71  DRN  73
+
+
+>gb|AGJ84363.1| F82a [Epipremnum aureum]
+Length=120
+
+ Score = 40.0 bits (92),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 30/75 (40%), Gaps = 1/75 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQ-TAALYNQAGCSGVAHTRFGS  59
+            S  T++ G  C  ++ + +   C  +   GGYDF Y  +  A  +    C G+      S
+Sbjct  32   STLTIYEGNKCTGKSTKINDLSCHRLEWNGGYDFKYQAKYPAIFFRSPKCGGIPSKIKRS  91
+
+Query  60   SARACNPFGWKSIFI  74
+                 N  G  S+ I
+Sbjct  92   DTTCGNLLGHLSVRI  106
+
+
+>gb|AGJ84364.1| F82b [Epipremnum aureum]
+Length=120
+
+ Score = 36.5 bits (83),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 30/75 (40%), Gaps = 1/75 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAAL-YNQAGCSGVAHTRFGS  59
+            S  T++ G  C  R+ ++S   C  +   G Y+F Y  +  AL +    C G+       
+Sbjct  32   STLTIYEGDKCTKRSTKFSDFSCHRLQWLGSYNFKYQAKYPALFFRSPKCGGIPSKIKRG  91
+
+Query  60   SARACNPFGWKSIFI  74
+                 N  G  S+ I
+Sbjct  92   DTTCGNLLGHLSVRI  106
+
+
+>ref|WP_007278189.1| D-alanyl-D-alanine carboxypeptidase [Lentisphaera araneosa]
+ gb|EDM28197.1| D-alanyl-D-alanine carboxypeptidase [Lentisphaera araneosa HTCC2155]
+Length=392
+
+ Score = 37.3 bits (85),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 15/75 (20%), Positives = 30/75 (40%), Gaps = 8/75 (11%)
+
+Query  2    AFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+            +F  ++ PG  N  E + +  C  ++  G   F      +A Y +      A T+   + 
+Sbjct  40   SFDPYTSPG--NDLELFIEDKCLQLNFHGNLFF------SARYREPQFIDSAITQLAQAI  91
+
+Query  62   RACNPFGWKSIFIQC  76
+            +      +KS+ + C
+Sbjct  92   KETGQSRFKSLHLHC  106
+
+
+>ref|XP_002584573.1| predicted protein [Uncinocarpus reesii 1704]
+ gb|EEP80420.1| predicted protein [Uncinocarpus reesii 1704]
+Length=128
+
+ Score = 34.6 bits (78),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 17/71 (24%), Positives = 28/71 (39%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNR-AERYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           +    C      R S CGC+ +           ++   TA+ Y +  C GV  ++    +
+Sbjct  21  YESSSCRGSSVGRISACGCTNMGANYDIRAVKLNFQQATASFYKEKNCVGVRFSKASDQS  80
+
+Query  62  RACNPFGWKSI  72
+            A  P GW +I
+Sbjct  81  CAKPPVGWGTI  91
+
+
+>ref|XP_001843459.1| conserved hypothetical protein [Culex quinquefasciatus]
+ gb|EDS32618.1| conserved hypothetical protein [Culex quinquefasciatus]
+Length=697
+
+ Score = 34.6 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 10/71 (14%)
+
+Query  13   NRAERYSKCG-------CSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSAR---  62
+            N+  R S C        C+   +  G +    GQ++    +   S + +  FG   +   
+Sbjct  114  NQLLRVSGCSLLLLLILCANCGKHTGQESVDQGQSSRSDTRRDASSLEYQVFGDIRKFWE  173
+
+Query  63   ACNPFGWKSIF  73
+            +C+ F  +SI 
+Sbjct  174  SCSGFFKRSIH  184
+
+
+>ref|XP_001261691.1| secreted antimicrobial peptide, putative [Neosartorya fischeri 
+NRRL 181]
+ gb|EAW19794.1| secreted antimicrobial peptide, putative [Neosartorya fischeri 
+NRRL 181]
+Length=101
+
+ Score = 33.0 bits (74),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNRAE-RYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           ++   C      + + CGC+ + +     G   ++   TA+ Y    C GV  ++     
+Sbjct  21  YTSASCGGETVGKITSCGCTNMSRNYKIKGAKLNFQKATASFYKGRDCEGVRISKASDQT  80
+
+Query  62  RACNPFGWKSI  72
+               P GW+S 
+Sbjct  81  CVKLPVGWESF  91
+
+
+>ref|XP_747134.2| secreted antimicrobial peptide [Aspergillus fumigatus Af293]
+ gb|EAL85096.2| secreted antimicrobial peptide, putative [Aspergillus fumigatus 
+Af293]
+ gb|EDP49137.1| secreted antimicrobial peptide, putative [Aspergillus fumigatus 
+A1163]
+Length=101
+
+ Score = 31.9 bits (71),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNRAE-RYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           ++   C+     + + CGC+ +       G    +   TA+ Y    C GV  ++    +
+Sbjct  21  YTSASCSGSTVGKITSCGCTNMSGNYKIKGAKLDFQKATASFYKGRNCEGVRISKASDQS  80
+
+Query  62  RACNPFGWKSI  72
+               P GW+S 
+Sbjct  81  CVKLPVGWESF  91
+
+
+>ref|YP_003396882.1| hypothetical protein Cwoe_5098 [Conexibacter woesei DSM 14684]
+ ref|WP_012936558.1| hypothetical protein [Conexibacter woesei]
+ gb|ADB53507.1| hypothetical protein Cwoe_5098 [Conexibacter woesei DSM 14684]
+Length=788
+
+ Score = 33.4 bits (75),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 16/34 (47%), Gaps = 1/34 (3%)
+
+Query  27   HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+                G DF + GQ  A Y   G +  +H RF ++
+Sbjct  678  SVHAGLDFGW-GQWIAAYGTPGYATTSHARFATA  710
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.141    0.507    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310449769688
+Results from round 3
+
+
+Query= 1C01
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|ERN04793.1|  hypothetical protein AMTR_s00140p00093980 [Ambore...   118    1e-32
+sp|P80915.1|AMP1_MACIN  RecName: Full=Antimicrobial peptide 1; Sh...   117    6e-32
+gb|ERN04795.1|  hypothetical protein AMTR_s00140p00096690 [Ambore...   115    2e-31
+gb|ADJ53037.1|  antimicrobial peptide 1 [Pinus pinaster]               110    3e-29
+sp|P83880.2|AMP1_PINMO  RecName: Full=Antimicrobial peptide 1; Al...   109    8e-29
+gb|AAL05053.1|AF410953_1  antimicrobial peptide 2 [Pinus sylvestr...   108    1e-28
+gb|AAL05054.1|AF410954_1  antimicrobial peptide 3 [Pinus sylvestris]   108    1e-28
+gb|AAL05052.1|AF410952_1  antimicrobial peptide 1 [Pinus sylvestris]   108    2e-28
+tpg|DAA36326.1|  TPA: hypothetical protein ZEAMMB73_062345 [Zea m...   112    7e-28
+gb|ABK21585.1|  unknown [Picea sitchensis] >gb|ABK25496.1| unknow...   106    9e-28
+pdb|1C01|A  Chain A, Solution Structure Of Miamp1, A Plant Antimi...   105    2e-27
+gb|AFK93081.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...   105    2e-27
+ref|XP_002981966.1|  hypothetical protein SELMODRAFT_421332 [Sela...   105    2e-27
+ref|XP_002981870.1|  hypothetical protein SELMODRAFT_115640 [Sela...   105    2e-27
+gb|ABK21039.1|  unknown [Picea sitchensis] >gb|ABK24065.1| unknow...   105    2e-27
+gb|ADJ53038.1|  antimicrobial peptide 2 [Pinus pinaster]               105    3e-27
+gb|ABR16715.1|  unknown [Picea sitchensis]                             105    3e-27
+gb|AFK93073.1|  anti-microbial protein [Pinus monticola] >gb|AFK9...   105    3e-27
+ref|XP_002981961.1|  hypothetical protein SELMODRAFT_115594 [Sela...   104    3e-27
+gb|AFK93075.1|  anti-microbial protein [Pinus monticola]               105    3e-27
+ref|XP_002981967.1|  hypothetical protein SELMODRAFT_115352 [Sela...   103    6e-27
+gb|AFK93079.1|  anti-microbial protein [Pinus monticola]               103    1e-26
+gb|AFK93072.1|  anti-microbial protein [Pinus monticola]               101    5e-26
+ref|XP_002981964.1|  hypothetical protein SELMODRAFT_421330 [Sela...   101    8e-26
+ref|XP_002981963.1|  hypothetical protein SELMODRAFT_115572 [Sela...  99.7    3e-25
+ref|XP_002446989.1|  hypothetical protein SORBIDRAFT_06g026420 [S...  93.9    9e-23
+emb|CCI55310.1|  PH01B001I13.6 [Phyllostachys edulis]                 93.5    1e-22
+ref|XP_002981962.1|  hypothetical protein SELMODRAFT_421328 [Sela...  92.7    2e-22
+ref|XP_002446987.1|  hypothetical protein SORBIDRAFT_06g026400 [S...  92.0    4e-22
+ref|XP_002993749.1|  hypothetical protein SELMODRAFT_137553 [Sela...  90.4    2e-21
+ref|XP_002965184.1|  hypothetical protein SELMODRAFT_82694 [Selag...  90.4    2e-21
+ref|XP_002982940.1|  hypothetical protein SELMODRAFT_117165 [Sela...  89.3    3e-21
+tpg|DAA36327.1|  TPA: hypothetical protein ZEAMMB73_042822 [Zea m...  88.9    7e-21
+ref|XP_002962269.1|  hypothetical protein SELMODRAFT_8589 [Selagi...  86.2    8e-20
+ref|XP_002982945.1|  hypothetical protein SELMODRAFT_422257 [Sela...  76.2    1e-15
+ref|XP_002982943.1|  hypothetical protein SELMODRAFT_422254 [Sela...  73.9    7e-15
+ref|XP_002969736.1|  hypothetical protein SELMODRAFT_92077 [Selag...  63.8    1e-11
+
+Sequences not found previously or not previously below threshold:
+
+gb|AGJ84363.1|  F82a [Epipremnum aureum]                              39.6    0.014
+gb|AGJ84364.1|  F82b [Epipremnum aureum]                              36.9    0.15 
+ref|WP_007278189.1|  D-alanyl-D-alanine carboxypeptidase [Lentisp...  36.9    0.57 
+ref|XP_001261691.1|  secreted antimicrobial peptide, putative [Ne...  34.2    1.0  
+ref|XP_002584573.1|  predicted protein [Uncinocarpus reesii 1704]...  34.2    1.7  
+ref|XP_747134.2|  secreted antimicrobial peptide [Aspergillus fum...  32.6    4.5  
+ref|XP_001843459.1|  conserved hypothetical protein [Culex quinqu...  34.2    4.9  
+gb|EMC99126.1|  hypothetical protein BAUCODRAFT_392489 [Baudoinia...  33.0    7.9  
+
+
+>gb|ERN04793.1| hypothetical protein AMTR_s00140p00093980 [Amborella trichopoda]
+Length=98
+
+ Score =  118 bits (297),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 61/76 (80%), Positives = 66/76 (87%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           S+ TVW+GPGCNNRAERYSKCGCS IH KGGY+F Y GQTAALYNQ  C GVAHTRFGS 
+Sbjct  23  SSLTVWAGPGCNNRAERYSKCGCSGIHLKGGYEFVYNGQTAALYNQPDCKGVAHTRFGSG  82
+
+Query  61  ARACNPFGWKSIFIQC  76
+           AR+CN FGWKS+FIQC
+Sbjct  83  ARSCNAFGWKSMFIQC  98
+
+
+>sp|P80915.1|AMP1_MACIN RecName: Full=Antimicrobial peptide 1; Short=AMP1; AltName: Full=MiAMP1; 
+Flags: Precursor
+ emb|CAA71842.1| AMP1 [Macadamia integrifolia]
+Length=102
+
+ Score =  117 bits (292),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  27   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  86
+
+Query  61   ARACNPFGWKSIFIQC  76
+            ARACNPFGWKSIFIQC
+Sbjct  87   ARACNPFGWKSIFIQC  102
+
+
+>gb|ERN04795.1| hypothetical protein AMTR_s00140p00096690 [Amborella trichopoda]
+Length=104
+
+ Score =  115 bits (289),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 61/76 (80%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S FTVW+GPGCNNRAER SKCGCSAI QKGGY F YTGQTAALYNQ  C GVAHTRFGS 
+Sbjct  29   SHFTVWAGPGCNNRAERVSKCGCSAIKQKGGYQFVYTGQTAALYNQGNCQGVAHTRFGSG  88
+
+Query  61   ARACNPFGWKSIFIQC  76
+            A +C+ FGW+SIFIQC
+Sbjct  89   ASSCSAFGWRSIFIQC  104
+
+
+>gb|ADJ53037.1| antimicrobial peptide 1 [Pinus pinaster]
+Length=105
+
+ Score =  110 bits (275),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 51/79 (65%), Positives = 56/79 (71%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I     GGY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNDVHGGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>sp|P83880.2|AMP1_PINMO RecName: Full=Antimicrobial peptide 1; AltName: Full=10.6 kDa 
+protein; AltName: Full=PMAP1; Flags: Precursor
+ gb|AAU00106.1| anti-microbial protein precursor [Pinus monticola]
+Length=105
+
+ Score =  109 bits (272),  Expect = 8e-29, Method: Composition-based stats.
+ Identities = 50/79 (63%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYSKCGCSNIGHNVHGGYEFVYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS+FIQC
+Sbjct  87   SSVNQACSNFGWKSVFIQC  105
+
+
+>gb|AAL05053.1|AF410953_1 antimicrobial peptide 2 [Pinus sylvestris]
+ gb|AAL05055.1|AF410955_1 antimicrobial peptide 4 [Pinus sylvestris]
+Length=105
+
+ Score =  108 bits (271),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTAA YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTAAAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|AAL05054.1|AF410954_1 antimicrobial peptide 3 [Pinus sylvestris]
+Length=105
+
+ Score =  108 bits (270),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 51/79 (65%), Positives = 57/79 (72%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN   C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHGGYEFMYQGQTASAYNTDNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            SS  +AC+ FGWKS FIQC
+Sbjct  87   SSVNQACSSFGWKSFFIQC  105
+
+
+>gb|AAL05052.1|AF410952_1 antimicrobial peptide 1 [Pinus sylvestris]
+Length=105
+
+ Score =  108 bits (270),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 50/79 (63%), Positives = 56/79 (71%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +   GY+F Y GQTA+ YN A C GVA TRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGNNVHAGYEFVYQGQTASAYNTANCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>tpg|DAA36326.1| TPA: hypothetical protein ZEAMMB73_062345 [Zea mays]
+Length=422
+
+ Score =  112 bits (280),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 29/78 (37%), Positives = 40/78 (51%), Gaps = 5/78 (6%)
+
+Query  1    SAFTVWSGPGCN----NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTR  56
+            S  T W GPGC             CGC+ +   GG++F++ G+TA LY+Q GC G  +  
+Sbjct  39   SYLTSWGGPGCTTGTKGHIASAGSCGCNHLRFHGGHEFNFRGETATLYSQPGCVGTPYQV  98
+
+Query  57   FGSSARACNPFGWKSIFI  74
+            F    +AC  FGW  + I
+Sbjct  99   F-EDTQACGDFGWHRVNI  115
+
+
+>gb|ABK21585.1| unknown [Picea sitchensis]
+ gb|ABK25496.1| unknown [Picea sitchensis]
+ gb|ACN40253.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  106 bits (265),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 59/79 (75%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>pdb|1C01|A Chain A, Solution Structure Of Miamp1, A Plant Antimicrobial 
+Protein
+Length=76
+
+ Score =  105 bits (261),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+           SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS
+Sbjct  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+
+Query  61  ARACNPFGWKSIFIQC  76
+           ARACNPFGWKSIFIQC
+Sbjct  61  ARACNPFGWKSIFIQC  76
+
+
+>gb|AFK93081.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93082.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  105 bits (263),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 44/79 (56%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPTAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>ref|XP_002981966.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+ gb|EFJ17059.1| hypothetical protein SELMODRAFT_421332 [Selaginella moellendorffii]
+Length=101
+
+ Score =  105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 49/78 (63%), Positives = 54/78 (69%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNNR ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  24   SYFDTWAGPGCNNRLERYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAHTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGW S FIQC
+Sbjct  84   GSVQDCSGFGWNSFFIQC  101
+
+
+>ref|XP_002981870.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+ gb|EFJ16963.1| hypothetical protein SELMODRAFT_115640 [Selaginella moellendorffii]
+Length=84
+
+ Score =  105 bits (261),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 50/78 (64%), Positives = 57/78 (73%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERY  CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNRLERYRACGCNNVGASQHGGYSFAYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           SS + C+ FGW+SIFIQC
+Sbjct  67  SSVQDCSGFGWRSIFIQC  84
+
+
+>gb|ABK21039.1| unknown [Picea sitchensis]
+ gb|ABK24065.1| unknown [Picea sitchensis]
+ gb|ACN40103.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 52/79 (66%), Positives = 59/79 (75%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W+GPGCNN A RYSKCGCS I  +  GGY+F Y GQTA+ YN A C+GVAHTRF 
+Sbjct  27   SYFTAWAGPGCNNHAARYSKCGCSNIGGNVHGGYEFVYQGQTASAYNTANCNGVAHTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+             S  +AC+ FGWKS FIQC
+Sbjct  87   GSVNQACSGFGWKSFFIQC  105
+
+
+>gb|ADJ53038.1| antimicrobial peptide 2 [Pinus pinaster]
+Length=105
+
+ Score =  105 bits (262),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 40/78 (51%), Positives = 48/78 (62%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S FT W    CNN   RY++C CS I+   +GGY+F   GQ AA YN   C+G  HTRF 
+Sbjct  28   SYFTAWESAVCNNETVRYNECWCSNINDKFRGGYEFVNQGQIAAAYNTELCNGPPHTRFS  87
+
+Query  59   SSARACNPFGWKSIFIQC  76
+             S + C+ FGWKS FIQC
+Sbjct  88   GSVQDCSGFGWKSFFIQC  105
+
+
+>gb|ABR16715.1| unknown [Picea sitchensis]
+Length=105
+
+ Score =  105 bits (262),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRF-  57
+            S FT W   GCNN++ +YSKCGCS I     GGY+F + GQ+AA YN   C+G  HTRF 
+Sbjct  27   SYFTAWEAAGCNNQSVQYSKCGCSNIDDKFHGGYEFVFEGQSAAAYNTEICNGPPHTRFA  86
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+            G   + C+ FGWKS FIQC
+Sbjct  87   GRGVQDCSGFGWKSFFIQC  105
+
+
+>gb|AFK93073.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93074.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93076.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93077.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93078.1| anti-microbial protein [Pinus monticola]
+ gb|AFK93080.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  105 bits (262),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 44/79 (56%), Positives = 52/79 (66%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>ref|XP_002981961.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+ gb|EFJ17054.1| hypothetical protein SELMODRAFT_115594 [Selaginella moellendorffii]
+Length=84
+
+ Score =  104 bits (260),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 48/78 (62%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIH--QKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERYS CGC+ +   Q GGY F Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SFFDAWAGPGCNNVLERYSACGCTNVRASQHGGYSFVYQGQTAAAYNTANCRGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  RSVQDCSGFGWNSFFIQC  84
+
+
+>gb|AFK93075.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  105 bits (261),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S  + W GPGCNN   RY+KCGCS I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYLSAWVGPGCNNHNARYNKCGCSNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>ref|XP_002981967.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+ gb|EFJ17060.1| hypothetical protein SELMODRAFT_115352 [Selaginella moellendorffii]
+Length=84
+
+ Score =  103 bits (258),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 49/78 (63%), Positives = 55/78 (71%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNNR ERYS CGC+ +   Q GGY F+Y GQTAA YN A C GVAHTRF 
+Sbjct  7   SYFDAWAGPGCNNRLERYSACGCTNVGASQHGGYSFAYQGQTAAAYNTANCQGVAHTRFS  66
+
+Query  59  SSARACNPFGWKSIFIQC  76
+            S + C+ FGW S FIQC
+Sbjct  67  GSVQDCSGFGWNSFFIQC  84
+
+
+>gb|AFK93079.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  103 bits (257),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W GPGCNN   RY+KCGC  I  +  GGY+F Y GQ    YN   C GVA TRF 
+Sbjct  27   SYFSAWVGPGCNNHNARYNKCGCFNISHNVHGGYEFVYQGQAPMAYNTNNCKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +AC+ F WKS+FIQC
+Sbjct  87   SNVNQACSNFAWKSVFIQC  105
+
+
+>gb|AFK93072.1| anti-microbial protein [Pinus monticola]
+Length=105
+
+ Score =  101 bits (253),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 43/79 (54%), Positives = 51/79 (65%), Gaps = 3/79 (4%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F+ W+GPGCNN   RY+KCGCS I  +   GY+F Y GQ    YN     GVA TRF 
+Sbjct  27   SYFSAWAGPGCNNHNARYNKCGCSNIGHNVHEGYEFVYQGQAPTAYNTNNYKGVAQTRFS  86
+
+Query  59   SSA-RACNPFGWKSIFIQC  76
+            S+  +ACN F WKS+FIQC
+Sbjct  87   SNVNQACNNFAWKSVFIQC  105
+
+
+>ref|XP_002981964.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ ref|XP_002981965.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+ gb|EFJ17057.1| hypothetical protein SELMODRAFT_421330 [Selaginella moellendorffii]
+ gb|EFJ17058.1| hypothetical protein SELMODRAFT_421331 [Selaginella moellendorffii]
+Length=101
+
+ Score =  101 bits (252),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+            S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  24   SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  83
+
+Query  59   SSARACNPFGWKSIFIQC  76
+            +S + C+ FGW S FIQC
+Sbjct  84   ASVQDCSGFGWNSFFIQC  101
+
+
+>ref|XP_002981963.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+ ref|XP_002982941.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ ref|XP_002982942.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ ref|XP_002982944.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ ref|XP_002982946.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ ref|XP_002982947.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ16186.1| hypothetical protein SELMODRAFT_117067 [Selaginella moellendorffii]
+ gb|EFJ16187.1| hypothetical protein SELMODRAFT_117256 [Selaginella moellendorffii]
+ gb|EFJ16189.1| hypothetical protein SELMODRAFT_117223 [Selaginella moellendorffii]
+ gb|EFJ16191.1| hypothetical protein SELMODRAFT_117375 [Selaginella moellendorffii]
+ gb|EFJ16192.1| hypothetical protein SELMODRAFT_117309 [Selaginella moellendorffii]
+ gb|EFJ17056.1| hypothetical protein SELMODRAFT_115572 [Selaginella moellendorffii]
+Length=97
+
+ Score = 99.7 bits (247),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 46/78 (59%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN+  RYS CGC+ +   Q GGY F Y GQTAA YN A C GVA TRF 
+Sbjct  20  SYFDTWAGPGCNNQRVRYSACGCTNVGASQHGGYSFGYQGQTAAAYNTANCQGVAQTRFS  79
+
+Query  59  SSARACNPFGWKSIFIQC  76
+           +S + C+ FGW S FIQC
+Sbjct  80  ASVQDCSGFGWNSFFIQC  97
+
+
+>ref|XP_002446989.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+ gb|EES11317.1| hypothetical protein SORBIDRAFT_06g026420 [Sorghum bicolor]
+Length=116
+
+ Score = 93.9 bits (232),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 32/81 (40%), Positives = 43/81 (53%), Gaps = 6/81 (7%)
+
+Query  1    SAFTVWSGPGCN-----NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHT  55
+            S  T W GPGC              CGC+ I   GG++F++ G+TA LY + GC+G  + 
+Sbjct  37   SYLTSWGGPGCTSSGKKGHIASAGSCGCNHIRFHGGHEFNFRGETATLYTEPGCAGTPYQ  96
+
+Query  56   RFGSSARACNPFGWKSIFIQC  76
+             F    +AC  FGW+SI I C
+Sbjct  97   VF-EDTQACGDFGWRSIHIDC  116
+
+
+>emb|CCI55310.1| PH01B001I13.6 [Phyllostachys edulis]
+Length=102
+
+ Score = 93.5 bits (231),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 31/79 (39%), Positives = 41/79 (52%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCN---NRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRF  57
+            S  T W GPGC            CGC+ I   GG++F++ G+ A LY + GC+G  +  F
+Sbjct  25   SYLTSWGGPGCTTSKGHMSSVGSCGCNHIRFHGGHEFNFRGEKATLYTKPGCAGTPYQVF  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+                +AC  FGW SI I C
+Sbjct  85   -EDTQACGDFGWHSIHIDC  102
+
+
+>ref|XP_002981962.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+ gb|EFJ17055.1| hypothetical protein SELMODRAFT_421328 [Selaginella moellendorffii]
+Length=113
+
+ Score = 92.7 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 46/78 (59%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPGCNN  ERY  CGC+ +   Q GGY  +Y G  AA YN A C GVA   F 
+Sbjct  24  SYFDAWAGPGCNNWLERYRACGCTNVGASQHGGYSVAYLGHAAAAYNTANCQGVAQRWF-  82
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  83  --RRHCSGFRWNSIFIQC  98
+
+
+>ref|XP_002446987.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+ gb|EES11315.1| hypothetical protein SORBIDRAFT_06g026400 [Sorghum bicolor]
+Length=112
+
+ Score = 92.0 bits (227),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 31/76 (41%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WSG  C+        CGC+ +    G +F Y GQTA LY   GC+G  +  F   
+Sbjct  38   SSLTTWSGADCSGDTSTIGACGCTDLVFYAGQEFYYRGQTATLYTGTGCAGTPYQVF-ED  96
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  97   TQACGDFGWRSINIHC  112
+
+
+>ref|XP_002993749.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+ gb|EFJ05168.1| hypothetical protein SELMODRAFT_137553 [Selaginella moellendorffii]
+Length=104
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 35/79 (44%), Positives = 41/79 (52%), Gaps = 4/79 (5%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQ---TAALYNQAGCSGVAHTRF  57
+            S F  +  P C NR    ++CGC+ +    GY F +  Q   TA LYNQ  C G  HT  
+Sbjct  26   STFVTFQSPDCTNRV-LVTRCGCNNLDASVGYGFEWHKQRESTANLYNQPDCKGSPHTSL  84
+
+Query  58   GSSARACNPFGWKSIFIQC  76
+             SS  AC P GWKSI I C
+Sbjct  85   DSSVSACGPIGWKSIEISC  103
+
+
+>ref|XP_002965184.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+ gb|EFJ34022.1| hypothetical protein SELMODRAFT_82694 [Selaginella moellendorffii]
+Length=108
+
+ Score = 90.4 bits (223),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 33/84 (39%), Positives = 45/84 (54%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGCSG-----VA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    +NQ  C       ++
+Sbjct  25   SYFDVYLGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQRIRTFNQPFCQDEVSTIIS  84
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  85   TIREATTMYSCNQVFQFQSIFFQC  108
+
+
+>ref|XP_002982940.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+ gb|EFJ16185.1| hypothetical protein SELMODRAFT_117165 [Selaginella moellendorffii]
+Length=94
+
+ Score = 89.3 bits (220),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 45/78 (58%), Gaps = 5/78 (6%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAI--HQKGGYDFSYTGQTAALYNQAGCSGVAHTRFG  58
+           S F  W+GPG NNR ERY  CGC+ +   Q GGY   Y G  AA YN A C GVA   F 
+Sbjct  5   SYFDAWAGPGGNNRLERYRACGCTNVGASQHGGYSVVYLGHAAAAYNTANCQGVAQRWF-  63
+
+Query  59  SSARACNPFGWKSIFIQC  76
+              R C+ F W SIFIQC
+Sbjct  64  --RRHCSGFRWNSIFIQC  79
+
+
+>tpg|DAA36327.1| TPA: hypothetical protein ZEAMMB73_042822 [Zea mays]
+Length=115
+
+ Score = 88.9 bits (219),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 30/76 (39%), Positives = 40/76 (53%), Gaps = 1/76 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSS  60
+            S+ T WS  GC+        CGC+ +    G +F Y G+TA LY   GC+G  +  F   
+Sbjct  41   SSLTTWSAAGCSGDTSIVGSCGCTDLAFYAGQEFYYRGETATLYTGTGCTGTPYQVF-ED  99
+
+Query  61   ARACNPFGWKSIFIQC  76
+             +AC  FGW+SI I C
+Sbjct  100  TQACGDFGWRSINIDC  115
+
+
+>ref|XP_002962269.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+ gb|EFJ37529.1| hypothetical protein SELMODRAFT_8589 [Selaginella moellendorffii]
+Length=103
+
+ Score = 86.2 bits (212),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 34/84 (40%), Positives = 45/84 (54%), Gaps = 8/84 (10%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQ--KGGYDFSYTGQTAALYNQAGCSG-----VA  53
+            S F V+ GPGC+N  + YS CGC  IH    GG+ F Y GQ    YNQ  C       ++
+Sbjct  20   SYFDVYFGPGCHNDMQHYSVCGCLNIHPSYHGGFKFVYEGQPIRTYNQPFCQDEVSTTIS  79
+
+Query  54   HTRFGSSARACNP-FGWKSIFIQC  76
+              R  ++  +CN  F ++SIF QC
+Sbjct  80   TIRQATTMYSCNQVFQFQSIFFQC  103
+
+
+>ref|XP_002982945.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+ gb|EFJ16190.1| hypothetical protein SELMODRAFT_422257 [Selaginella moellendorffii]
+Length=133
+
+ Score = 76.2 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTRQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002982943.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+ gb|EFJ16188.1| hypothetical protein SELMODRAFT_422254 [Selaginella moellendorffii]
+Length=133
+
+ Score = 73.9 bits (180),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 31/90 (34%), Positives = 41/90 (46%), Gaps = 17/90 (19%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAI-HQKGGYDFSYTGQTAALYNQAGCS---GVAHTR  56
+            S F  W+GPGCNNR ERYS CGC+ +   +       T QTA ++ + G     G A   
+Sbjct  24   SYFDAWAGPGCNNRLERYSACGCTNVGASRARLLRPTTWQTAKVWRRHGLVPLYGTARAL  83
+
+Query  57   FGSS-------------ARACNPFGWKSIF  73
+             G++             ARA N   W+  F
+Sbjct  84   DGTASSSSAKELHGTQIARAFNRLNWQRPF  113
+
+
+>ref|XP_002969736.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+ gb|EFJ28860.1| hypothetical protein SELMODRAFT_92077 [Selaginella moellendorffii]
+Length=74
+
+ Score = 63.8 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 3/63 (5%)
+
+Query  1   SAFTVWSGPGCNNRAERYSKCGCSAIHQK--GGYDFSYT-GQTAALYNQAGCSGVAHTRF  57
+           S    +SG  C+    RY  CGC+ I  K   GY F YT GQ+A  Y+   C   A   F
+Sbjct  11  SYLDTYSGLHCDKNTRRYDSCGCNNIDFKQQKGYKFVYTNGQSATAYSGTRCQKRAGVSF  70
+
+Query  58  GSS  60
+             +
+Sbjct  71  DRN  73
+
+
+>gb|AGJ84363.1| F82a [Epipremnum aureum]
+Length=120
+
+ Score = 39.6 bits (91),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 31/75 (41%), Gaps = 1/75 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAAL-YNQAGCSGVAHTRFGS  59
+            S  T++ G  C  ++ + +   C  +   GGYDF Y  +  A+ +    C G+      S
+Sbjct  32   STLTIYEGNKCTGKSTKINDLSCHRLEWNGGYDFKYQAKYPAIFFRSPKCGGIPSKIKRS  91
+
+Query  60   SARACNPFGWKSIFI  74
+                 N  G  S+ I
+Sbjct  92   DTTCGNLLGHLSVRI  106
+
+
+>gb|AGJ84364.1| F82b [Epipremnum aureum]
+Length=120
+
+ Score = 36.9 bits (84),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 30/75 (40%), Gaps = 1/75 (1%)
+
+Query  1    SAFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAAL-YNQAGCSGVAHTRFGS  59
+            S  T++ G  C  R+ ++S   C  +   G Y+F Y  +  AL +    C G+       
+Sbjct  32   STLTIYEGDKCTKRSTKFSDFSCHRLQWLGSYNFKYQAKYPALFFRSPKCGGIPSKIKRG  91
+
+Query  60   SARACNPFGWKSIFI  74
+                 N  G  S+ I
+Sbjct  92   DTTCGNLLGHLSVRI  106
+
+
+>ref|WP_007278189.1| D-alanyl-D-alanine carboxypeptidase [Lentisphaera araneosa]
+ gb|EDM28197.1| D-alanyl-D-alanine carboxypeptidase [Lentisphaera araneosa HTCC2155]
+Length=392
+
+ Score = 36.9 bits (84),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 15/75 (20%), Positives = 30/75 (40%), Gaps = 8/75 (11%)
+
+Query  2    AFTVWSGPGCNNRAERYSKCGCSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+            +F  ++ PG  N  E + +  C  ++  G   F      +A Y +      A T+   + 
+Sbjct  40   SFDPYTSPG--NDLELFIEDKCLQLNFHGNLFF------SARYREPQFIDSAITQLAQAI  91
+
+Query  62   RACNPFGWKSIFIQC  76
+            +      +KS+ + C
+Sbjct  92   KETGQSRFKSLHLHC  106
+
+
+>ref|XP_001261691.1| secreted antimicrobial peptide, putative [Neosartorya fischeri 
+NRRL 181]
+ gb|EAW19794.1| secreted antimicrobial peptide, putative [Neosartorya fischeri 
+NRRL 181]
+Length=101
+
+ Score = 34.2 bits (77),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNRAE-RYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           ++   C      + + CGC+ + +     G   ++   TA+ Y    C GV  ++     
+Sbjct  21  YTSASCGGETVGKITSCGCTNMSRNYKIKGAKLNFQKATASFYKGRDCEGVRISKASDQT  80
+
+Query  62  RACNPFGWKSI  72
+               P GW+S 
+Sbjct  81  CVKLPVGWESF  91
+
+
+>ref|XP_002584573.1| predicted protein [Uncinocarpus reesii 1704]
+ gb|EEP80420.1| predicted protein [Uncinocarpus reesii 1704]
+Length=128
+
+ Score = 34.2 bits (77),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 17/71 (24%), Positives = 29/71 (41%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNRAE-RYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           +    C   +  R S CGC+ +           ++   TA+ Y +  C GV  ++    +
+Sbjct  21  YESSSCRGSSVGRISACGCTNMGANYDIRAVKLNFQQATASFYKEKNCVGVRFSKASDQS  80
+
+Query  62  RACNPFGWKSI  72
+            A  P GW +I
+Sbjct  81  CAKPPVGWGTI  91
+
+
+>ref|XP_747134.2| secreted antimicrobial peptide [Aspergillus fumigatus Af293]
+ gb|EAL85096.2| secreted antimicrobial peptide, putative [Aspergillus fumigatus 
+Af293]
+ gb|EDP49137.1| secreted antimicrobial peptide, putative [Aspergillus fumigatus 
+A1163]
+Length=101
+
+ Score = 32.6 bits (73),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 4/71 (6%)
+
+Query  6   WSGPGCNNRAE-RYSKCGCSAIHQK---GGYDFSYTGQTAALYNQAGCSGVAHTRFGSSA  61
+           ++   C+     + + CGC+ +       G    +   TA+ Y    C GV  ++    +
+Sbjct  21  YTSASCSGSTVGKITSCGCTNMSGNYKIKGAKLDFQKATASFYKGRNCEGVRISKASDQS  80
+
+Query  62  RACNPFGWKSI  72
+               P GW+S 
+Sbjct  81  CVKLPVGWESF  91
+
+
+>ref|XP_001843459.1| conserved hypothetical protein [Culex quinquefasciatus]
+ gb|EDS32618.1| conserved hypothetical protein [Culex quinquefasciatus]
+Length=697
+
+ Score = 34.2 bits (77),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 15/71 (21%), Positives = 28/71 (39%), Gaps = 10/71 (14%)
+
+Query  13   NRAERYSKCG-------CSAIHQKGGYDFSYTGQTAALYNQAGCSGVAHTRFGSSAR---  62
+            N+  R S C        C+   +  G +    GQ++    +   S + +  FG   +   
+Sbjct  114  NQLLRVSGCSLLLLLILCANCGKHTGQESVDQGQSSRSDTRRDASSLEYQVFGDIRKFWE  173
+
+Query  63   ACNPFGWKSIF  73
+            +C+ F  +SI 
+Sbjct  174  SCSGFFKRSIH  184
+
+
+>gb|EMC99126.1| hypothetical protein BAUCODRAFT_392489 [Baudoinia compniacensis 
+UAMH 10762]
+Length=261
+
+ Score = 33.0 bits (74),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 17/42 (40%), Positives = 23/42 (55%), Gaps = 5/42 (12%)
+
+Query  40   TAALYNQAGCSGVAHTR--FGSSARACNPF---GWKSIFIQC  76
+            +A  Y+Q  C G A T   F  SA AC  +   G +S+FI+C
+Sbjct  88   SAIAYDQPKCVGNAFTMDDFEQSAGACGNWQAPGGRSVFIRC  129
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.142    0.502    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0439    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310449769688
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

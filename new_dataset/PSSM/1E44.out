@@ -1,0 +1,3031 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1E44
+
+Length=85
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_000523346.1|  cloacin [Escherichia coli] >sp|P02984.3|IMM3...   174    2e-54
+pdb|3EIP|A  Chain A, Crystal Structure Of Colicin E3 Immunity Pro...   172    1e-53
+prf||0706253A  colicin E3 B subunit immunity protein                   170    8e-53
+prf||1615299B  colicin E6 immunity protein                             155    4e-47
+sp|P13477.1|IMM6_ECOLX  RecName: Full=Colicin-E6 immunity protein...   155    7e-47
+gb|AAA23081.1|  immunity protein E6 [Plasmid ColE6-CT14]               154    2e-46
+ref|YP_003237830.1|  probable colicin immunity protein [Escherich...   152    1e-45
+ref|WP_022644819.1|  colicin-E3 immunity protein [Klebsiella pneu...   149    2e-44
+ref|WP_000523382.1|  Cloacin immunity protein [Bacillus cereus] >...   147    5e-44
+emb|CAA45168.1|  immunity protein [Escherichia coli]                   133    2e-38
+ref|WP_000523383.1|  cloacin [Escherichia coli] >gb|EJE58573.1| i...   132    5e-38
+ref|WP_004146437.1|  cloacin [Klebsiella pneumoniae] >gb|EEW43929...   132    9e-38
+ref|WP_001419702.1|  colicin-E3 immunity protein [Escherichia col...   129    1e-36
+ref|YP_001456626.1|  hypothetical protein CKO_pCKO3p06149 [Citrob...   124    9e-35
+ref|NP_052371.1|  cloacin immunity protein [Escherichia coli] >re...   123    2e-34
+ref|WP_023315840.1|  hypothetical protein [Enterobacter cloacae] ...   117    3e-32
+ref|WP_023282492.1|  hypothetical protein [Klebsiella pneumoniae]...   112    2e-30
+ref|WP_019454360.1|  cloacin [Serratia marcescens]                     110    2e-29
+emb|CDG14773.1|  bacteriocin immunity protein [Serratia marcescen...   110    2e-29
+ref|WP_004876984.1|  cloacin [Yersinia mollaretii] >gb|EEQ09148.1...   109    5e-29
+ref|WP_007895247.1|  cloacin [Pseudomonas sp. GM102] >gb|EJM07312...   107    4e-28
+ref|WP_008005819.1|  cloacin [Pseudomonas sp. GM50] >gb|EJM70785....   106    1e-27
+ref|WP_023284665.1|  cloacin immunity protein, partial [Klebsiell...   105    1e-27
+ref|WP_005176239.1|  cloacin [Yersinia enterocolitica] >gb|EKA253...   105    3e-27
+ref|WP_004170380.1|  immunity protein, partial [Klebsiella pneumo...   103    1e-26
+ref|WP_021324208.1|  cloacin immunity protein [Photorhabdus tempe...   102    2e-26
+ref|WP_016986577.1|  cloacin [Pseudomonas fluorescens]                 102    3e-26
+ref|WP_021326644.1|  cloacin immunity protein [Photorhabdus tempe...   102    4e-26
+ref|NP_931528.1|  hypothetical protein plu4355 [Photorhabdus lumi...   102    5e-26
+ref|WP_007918564.1|  cloacin [Pseudomonas] >gb|EJL96757.1| Cloaci...   100    2e-25
+ref|WP_023582386.1|  Colicin E6 immunity protein [Proteus hauseri...  99.8    3e-25
+ref|WP_017892703.1|  hypothetical protein [Serratia sp. S4]           99.8    4e-25
+ref|WP_003222349.1|  cloacin [Pseudomonas fluorescens] >gb|EJZ569...  99.0    8e-25
+ref|WP_007939531.1|  cloacin [Pseudomonas sp. GM18] >gb|EJM14840....  98.2    2e-24
+ref|YP_003713430.1|  Colicin-E3 immunity protein [Xenorhabdus nem...   101    9e-24
+ref|WP_003279736.1|  colicin immunity protein [Pseudomonas stutze...  96.3    3e-23
+ref|WP_004256948.1|  cloacin [Providencia rettgeri] >gb|EFE54747....  92.8    1e-22
+ref|WP_004909005.1|  hypothetical protein [Providencia rettgeri] ...  92.4    2e-22
+ref|WP_003238422.1|  Colicin-E3 immunity protein [Pseudomonas flu...  91.7    5e-22
+ref|WP_008072799.1|  cloacin [Pseudomonas sp. GM79] >gb|EJN21688....  91.7    5e-22
+ref|WP_005791222.1|  colicin transporter [Pseudomonas synxantha] ...  91.3    6e-22
+ref|WP_020302007.1|  putative colicin immunity protein [Pseudomon...  91.3    8e-22
+ref|WP_021326918.1|  cloacin immunity protein, partial [Photorhab...  90.9    8e-22
+ref|WP_007906701.1|  cloacin [Pseudomonas sp. GM102] >gb|EJL94915...  90.1    2e-21
+ref|WP_004240967.1|  Colicin E6 immunity protein [Morganella morg...  89.4    4e-21
+ref|YP_006325818.1|  Colicin-E3 immunity protein [Pseudomonas flu...  89.4    4e-21
+ref|WP_017529170.1|  hypothetical protein [Pseudomonas fluorescens]   89.0    6e-21
+ref|WP_021240646.1|  hypothetical protein [Enterobacter cloacae] ...  87.8    2e-20
+ref|WP_019691250.1|  hypothetical protein [Pseudomonas fluorescens]   86.3    6e-20
+ref|WP_007958170.1|  cloacin [Pseudomonas sp. GM25] >gb|EJM24751....  84.7    2e-19
+ref|WP_003197959.1|  cloacin [Pseudomonas fluorescens] >gb|EIK701...  81.3    5e-18
+ref|YP_002150699.1|  colicin immunity protein [Proteus mirabilis ...  80.1    1e-17
+ref|YP_005199079.1|  Cloacin immunity protein [Rahnella aquatilis...  74.3    2e-15
+ref|WP_017253542.1|  hypothetical protein [Pseudomonas tolaasii]      70.5    8e-14
+ref|YP_007398818.1|  Colicin-E3 immunity protein [Pseudomonas poa...  68.6    3e-13
+ref|YP_002874612.1|  putative colicin-E3 immunity protein [Pseudo...  67.8    1e-12
+ref|YP_008427998.1|  cloacin immunity protein [Klebsiella pneumon...  65.9    2e-12
+ref|WP_010176879.1|  cloacin [Pseudomonas sp. PAMC 25886]             65.9    5e-12
+ref|YP_348016.1|  hypothetical protein Pfl01_2284 [Pseudomonas fl...  64.7    5e-12
+ref|WP_020326704.1|  cloacin immunity domain protein, partial [Kl...  64.7    6e-12
+ref|WP_023046849.1|  hypothetical protein, partial [Photorhabdus ...  64.3    8e-12
+ref|WP_023046758.1|  hypothetical protein, partial [Photorhabdus ...  63.5    2e-11
+ref|WP_020326636.1|  cloacin immunity domain protein, partial [Kl...  63.2    2e-11
+ref|WP_017135422.1|  cloacin [Pseudomonas fluorescens]                63.2    5e-11
+ref|WP_016979615.1|  hypothetical protein [Pseudomonas fluorescens]   63.2    5e-11
+ref|WP_008438442.1|  cloacin [Pseudomonas sp. Ag1] >gb|EJF68664.1...  61.6    2e-10
+ref|WP_003210327.1|  cloacin [Pseudomonas fluorescens] >gb|ESW557...  60.5    5e-10
+ref|WP_009635203.1|  putative colicin-E3 immunity protein [Serrat...  59.3    1e-09
+ref|WP_004242598.1|  immunity protein, partial [Klebsiella pneumo...  43.9    2e-04
+ref|XP_003288732.1|  hypothetical protein DICPUDRAFT_153006 [Dict...  38.1    0.30 
+ref|YP_008604312.1|  exosome complex RNA-binding protein Rrp42 [A...  36.6    0.67 
+ref|XP_003358926.3|  PREDICTED: vitamin K-dependent protein S-lik...  35.8    0.71 
+ref|NP_147948.1|  exosome complex RNA-binding protein Rrp42 [Aero...  35.8    1.2  
+ref|YP_006362976.1|  ribosomal RNA-processing protein RRP42 [Ther...  35.4    1.6  
+ref|WP_010747295.1|  hypothetical protein [Enterococcus raffinosu...  35.0    2.6  
+gb|AAA70382.1|  protein S, partial [Sus scrofa]                       34.7    3.3  
+ref|WP_006209864.1|  histidine kinase [Paenibacillus vortex] >gb|...  34.3    4.9  
+
+
+>ref|WP_000523346.1| cloacin [Escherichia coli]
+ sp|P02984.3|IMM3_ECOLX RecName: Full=Colicin-E3 immunity protein; AltName: Full=Colicin-E3 
+chain B; AltName: Full=ImmE3; AltName: Full=Microcin-E3 
+immunity protein
+ pdb|1E44|A Chain A, Ribonuclease Domain Of Colicin E3 In Complex With Its 
+Immunity Protein
+ emb|CAA26242.1| unnamed protein product [Escherichia coli]
+ gb|AAA88417.1| immunity protein E3 [Escherichia coli]
+ gb|AAA98285.1| immunity protein 2 [Plasmid ColE3-CA38]
+ emb|CAA25608.1| unnamed protein product [Escherichia coli]
+ dbj|BAF99005.1| colicin E3 immunity protein [Positive selection vector pTCS]
+ gb|EIL27485.1| colicin immunity protein [Escherichia coli O111:H8 str. CVM9570]
+Length=85
+
+ Score =  174 bits (442),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 85/85 (100%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ
+Sbjct  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>pdb|3EIP|A Chain A, Crystal Structure Of Colicin E3 Immunity Protein: An 
+Inhibitor To A Ribosome-Inactivating Rnase
+ pdb|3EIP|B Chain B, Crystal Structure Of Colicin E3 Immunity Protein: An 
+Inhibitor To A Ribosome-Inactivating Rnase
+ pdb|1JCH|B Chain B, Crystal Structure Of Colicin E3 In Complex With Its 
+Immunity Protein
+ pdb|1JCH|D Chain D, Crystal Structure Of Colicin E3 In Complex With Its 
+Immunity Protein
+ pdb|2B5U|B Chain B, Crystal Structure Of Colicin E3 V206c Mutant In Complex 
+With Its Immunity Protein
+ pdb|2B5U|D Chain D, Crystal Structure Of Colicin E3 V206c Mutant In Complex 
+With Its Immunity Protein
+Length=84
+
+ Score =  172 bits (435),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  2   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  61
+           GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP
+Sbjct  1   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  60
+
+Query  62  YFNHQIDISDNEYFVSFDYRDGDW  85
+           YFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  YFNHQIDISDNEYFVSFDYRDGDW  84
+
+
+>prf||0706253A colicin E3 B subunit immunity protein
+Length=84
+
+ Score =  170 bits (430),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 83/84 (99%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  2   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  61
+           GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVN+GCFDVIAEWVPLLQP
+Sbjct  1   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNDGCFDVIAEWVPLLQP  60
+
+Query  62  YFNHQIDISDNEYFVSFDYRDGDW  85
+           YFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  YFNHQIDISDNEYFVSFDYRDGDW  84
+
+
+>prf||1615299B colicin E6 immunity protein
+Length=85
+
+ Score =  155 bits (393),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 74/85 (87%), Positives = 80/85 (94%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+PFKDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPFKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>sp|P13477.1|IMM6_ECOLX RecName: Full=Colicin-E6 immunity protein; AltName: Full=ImmE6; 
+AltName: Full=Microcin-E6 immunity protein
+ emb|CAA33856.1| unnamed protein product [Plasmid ColE6-CT14]
+Length=85
+
+ Score =  155 bits (391),  Expect = 7e-47, Method: Compositional matrix adjust.
+ Identities = 74/85 (87%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+E LG+PFKDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKRTEEFKGGEYSKDFGDDGSVIERLGMPFKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>gb|AAA23081.1| immunity protein E6 [Plasmid ColE6-CT14]
+Length=85
+
+ Score =  154 bits (389),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 73/85 (86%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>ref|YP_003237830.1| probable colicin immunity protein [Escherichia coli O111:H- str. 
+11128]
+ ref|WP_000523347.1| cloacin [Escherichia coli]
+ dbj|BAI39400.1| probable colicin immunity protein [Escherichia coli O111:H- str. 
+11128]
+ gb|EKT96930.1| colicin immunity protein [Escherichia coli O111:H8 str. CFSAN001632]
+Length=85
+
+ Score =  152 bits (383),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 72/85 (85%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDIS NEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISGNEYFVSFDYRDGDW  85
+
+
+>ref|WP_022644819.1| colicin-E3 immunity protein [Klebsiella pneumoniae]
+ gb|ERO93702.1| colicin-E3 immunity protein [Klebsiella pneumoniae BIDMC 12C]
+Length=85
+
+ Score =  149 bits (375),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 69/85 (81%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKLDLTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LLQ
+Sbjct  1   MGLKLDLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H+I++SD+ YFVSFDYRDG+W
+Sbjct  61  PYFKHKINLSDSSYFVSFDYRDGNW  85
+
+
+>ref|WP_000523382.1| Cloacin immunity protein [Bacillus cereus]
+ gb|AAF05609.1|AF190857_2 Cim [Klebsiella pneumoniae]
+Length=85
+
+ Score =  147 bits (372),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 68/85 (80%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H+I++SD+ YFVSFDYRDG+W
+Sbjct  61  PYFKHKINLSDSSYFVSFDYRDGNW  85
+
+
+>emb|CAA45168.1| immunity protein [Escherichia coli]
+Length=85
+
+ Score =  133 bits (335),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TEDFKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEDFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVKKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>ref|WP_000523383.1| cloacin [Escherichia coli]
+ gb|EJE58573.1| immunity protein [Escherichia coli O111:H8 str. CVM9602]
+Length=85
+
+ Score =  132 bits (332),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVKKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>ref|WP_004146437.1| cloacin [Klebsiella pneumoniae]
+ gb|EEW43929.1| colicin-E3 immunity protein [Klebsiella pneumoniae subsp. rhinoscleromatis 
+ATCC 13884]
+ emb|CCI69626.1| immC [Klebsiella pneumoniae]
+Length=85
+
+ Score =  132 bits (331),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVEKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>ref|WP_001419702.1| colicin-E3 immunity protein [Escherichia coli]
+ gb|EMZ99802.1| colicin-E3 immunity protein [Escherichia coli P0299917.1]
+ gb|ENB49103.1| colicin-E3 immunity protein [Escherichia coli MP021561.3]
+ gb|ENC85273.1| colicin-E3 immunity protein [Escherichia coli P0301867.11]
+Length=85
+
+ Score =  129 bits (324),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 62/85 (73%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK  E+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDV   WVP+LQ
+Sbjct  1   MGLKLHIHWFDKKNEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVEKRWVPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF + IDIS  +YFVSFDYRDGDW
+Sbjct  61  PYFKNVIDISKFDYFVSFDYRDGDW  85
+
+
+>ref|YP_001456626.1| hypothetical protein CKO_pCKO3p06149 [Citrobacter koseri ATCC 
+BAA-895]
+ ref|YP_002286815.1| immunity protein [Klebsiella pneumoniae]
+ ref|YP_006958617.1| immunnity protein [Klebsiella pneumoniae]
+ ref|YP_006958963.1| immunity protein [Klebsiella pneumoniae]
+ ref|YP_007391612.1| Colicin-E6 immunity protein (ImmE6) (Microcin-E6 immunity protein) 
+[Enterobacter aerogenes EA1509E]
+ ref|YP_008166956.1| immunity protein [Klebsiella pneumoniae]
+ ref|WP_004152553.1| cloacin [Enterobacteriaceae]
+ gb|ABC25557.1| immunnity protein [Klebsiella pneumoniae]
+ gb|ABV16190.1| hypothetical protein CKO_pCKO3p06149 [Citrobacter koseri ATCC 
+BAA-895]
+ gb|ACI63077.1| immunity protein [Klebsiella pneumoniae]
+ gb|AEG74531.1| immunity protein [Klebsiella pneumoniae]
+ gb|EJJ32335.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH1]
+ gb|EJJ32658.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH2]
+ gb|EJJ33578.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH4]
+ gb|EJJ52255.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH7]
+ gb|EJJ65879.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH9]
+ gb|EJJ67241.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH8]
+ gb|EJJ72759.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH10]
+ gb|EJJ82861.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH11]
+ gb|EJJ83631.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH12]
+ gb|EJJ89608.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH14]
+ gb|EJJ99257.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH17]
+ gb|EJJ99673.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH16]
+ gb|EJK09168.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH18]
+ gb|EJK13717.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH20]
+ gb|EJK16673.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH19]
+ gb|EJK21273.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH21]
+ gb|EJK30879.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH22]
+ gb|EJK38225.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH23]
+ gb|EKB62230.1| cloacin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+WGLW1]
+ gb|EKB72009.1| cloacin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+WGLW3]
+ emb|CCM83921.1| colicin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+ST258-K26BO]
+ emb|CCM87123.1| colicin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+ST258-K28BO]
+ emb|CCG28573.1| Colicin-E6 immunity protein (ImmE6) (Microcin-E6 immunity protein) 
+[Enterobacter aerogenes EA1509E]
+ gb|EMI35663.1| colicin-E3 immunity protein [Klebsiella pneumoniae VA360]
+ gb|EMR16144.1| immunity protein [Klebsiella pneumoniae ATCC BAA-1705]
+ gb|ENY54653.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KpMDU1]
+ gb|EOR17204.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC23]
+ gb|EOY65903.1| cloacin immunity protein [Klebsiella pneumoniae KP-7]
+ gb|EOY70021.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC40]
+ gb|EOY76314.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC09]
+ gb|EOY76908.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC01]
+ gb|EOY83887.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC81]
+ gb|EOY91636.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC27]
+ gb|EOY92902.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC24]
+ gb|EOY95120.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC26]
+ gb|EOZ08834.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC04]
+ gb|EOZ28080.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC269]
+ gb|EOZ29897.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC254]
+ gb|EOZ32194.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC280]
+ gb|EOZ42632.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC270]
+ gb|EOZ47755.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC297]
+ gb|EOZ53251.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC276]
+ gb|EOZ65436.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC309]
+ gb|EOZ66584.1| cloacin immunity protein [Klebsiella pneumoniae 361_1301]
+ gb|EOZ71407.1| cloacin immunity protein [Klebsiella pneumoniae 440_1540]
+ gb|EOZ83268.1| cloacin immunity protein [Klebsiella pneumoniae 500_1420]
+ gb|EOZ95105.1| cloacin immunity protein [Klebsiella pneumoniae 540_1460]
+ gb|EOZ99842.1| cloacin immunity protein [Klebsiella pneumoniae 646_1568]
+ gb|EPA93713.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC57]
+ gb|EPB04226.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC 52]
+ gb|EPB10026.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC05]
+ gb|EPB17918.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC45]
+ gb|EPB20739.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC278]
+ gb|EPB28809.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC29]
+ gb|EPB29123.1| cloacin immunity protein [Klebsiella pneumoniae DMC0526]
+ gb|EPB36065.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC48]
+ gb|EPB42600.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC32]
+ gb|AGO62306.1| immunity protein [Klebsiella pneumoniae]
+ gb|EPN89520.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC47]
+ gb|EPN91582.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC28]
+ gb|EPO03610.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC69]
+ gb|EPO04376.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC77]
+ gb|EPO11983.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC96]
+ gb|EPO19334.1| cloacin immunity protein [Klebsiella pneumoniae DMC1097]
+ gb|EPO19713.1| cloacin immunity protein [Klebsiella pneumoniae DMC0799]
+ gb|EPO27911.1| cloacin immunity protein [Klebsiella pneumoniae DMC1316]
+ gb|EPO28380.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC61]
+ gb|EPO34799.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC33]
+ gb|EPO45686.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC07]
+ gb|EPO48804.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC59]
+ gb|EPO61037.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC18]
+ gb|EPO63941.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC17]
+ gb|EPO69191.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC06]
+ gb|EPO82367.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC02]
+ gb|EPO85481.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC67]
+ gb|EPO94958.1| cloacin immunity protein [Klebsiella pneumoniae 160_1080]
+ gb|EPO98288.1| cloacin immunity protein [Klebsiella pneumoniae 120_1020]
+ gb|EPP11090.1| cloacin immunity protein [Klebsiella pneumoniae 280_1220]
+ gb|EPS05724.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae MP14]
+ gb|EQN11761.1| cloacin immunity protein [Escherichia coli HVH 4 (4-7276109)]
+ gb|ERO72492.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 16]
+ gb|ERO72922.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 18C]
+ gb|ERO93696.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 12C]
+ gb|ESE24890.1| colicin-E3 immunity protein [Escherichia coli 908691]
+ gb|ESM44902.1| cloacin immunity protein [Klebsiella pneumoniae BWH 28]
+ gb|ETF14215.1| cloacin immunity protein [Escherichia coli HVH 23 (4-6066488)]
+Length=85
+
+ Score =  124 bits (311),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 60/85 (71%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQ
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKSWVSILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F + IDIS  +YFVSF YRDG+W
+Sbjct  61  PHFKNVIDISKFDYFVSFVYRDGNW  85
+
+
+>ref|NP_052371.1| cloacin immunity protein [Escherichia coli]
+ ref|WP_010891189.1| cloacin immunity protein [Escherichia coli]
+ sp|P02986.1|IMMC_ECOLX RecName: Full=Cloacin immunity protein
+ emb|CAA28146.1| unnamed protein product [Escherichia coli]
+ gb|EQN57609.1| cloacin immunity protein [Escherichia coli HVH 20 (4-5865042)]
+Length=85
+
+ Score =  123 bits (309),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 60/85 (71%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQ
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKPWVSILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F + IDIS  +YFVSF YRDG+W
+Sbjct  61  PHFKNVIDISKFDYFVSFVYRDGNW  85
+
+
+>ref|WP_023315840.1| hypothetical protein [Enterobacter cloacae]
+ gb|ESM44883.1| hypothetical protein L400_04292 [Enterobacter cloacae BWH 29]
+Length=84
+
+ Score =  117 bits (294),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 56/82 (68%), Positives = 67/82 (82%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ ++WFDK TEDFKGEE SKDFG+D SVMESLG+P KDN+NNG FD+   WVP LQ
+Sbjct  1   MGLKIRISWFDKKTEDFKGEEVSKDFGEDSSVMESLGLPMKDNLNNGEFDMDNGWVPFLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++ID S   YFV+FDYRD
+Sbjct  61  PHFQNRIDTSKFNYFVAFDYRD  82
+
+
+>ref|WP_023282492.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|AAT85005.1| klebicin C immunity [Klebsiella pneumoniae]
+ gb|AAT85009.1| klebicin C immunity [Klebsiella oxytoca]
+ gb|ESL40356.1| hypothetical protein L473_01484 [Klebsiella pneumoniae BIDMC 
+36]
+Length=84
+
+ Score =  112 bits (281),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 52/82 (63%), Positives = 65/82 (79%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WF+K T+   G+EYSKDFGDDGSV+ESLG+P KDN+NNG FD+   W+PLLQ
+Sbjct  1   MGLKLRLEWFNKQTDLLVGKEYSKDFGDDGSVIESLGIPLKDNINNGGFDLEESWIPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++I+   N Y +SFDYRD
+Sbjct  61  PHFKNKIETDKNLYQISFDYRD  82
+
+
+>ref|WP_019454360.1| cloacin [Serratia marcescens]
+Length=84
+
+ Score =  110 bits (276),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 52/82 (63%), Positives = 64/82 (78%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFD  TE F GEEY+ DFGDDGS++E LG+P +DN+NNG FDV  EWVPLLQ
+Sbjct  1   MGLKLHLEWFDYKTEAFIGEEYTNDFGDDGSIIEYLGLPLEDNINNGGFDVTKEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++I+I    Y +SFDYR+
+Sbjct  61  PHFKNKIEIDKYWYQISFDYRE  82
+
+
+>emb|CDG14773.1| bacteriocin immunity protein [Serratia marcescens subsp. marcescens 
+Db11]
+Length=85
+
+ Score =  110 bits (275),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 51/85 (60%), Positives = 64/85 (75%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+L WF+  +  F GEEYSKDFGDDGSV+E LG+P +DN+NNG F+V   W+PLLQ
+Sbjct  1   MGLKLNLVWFEIDSRQFVGEEYSKDFGDDGSVIEGLGLPLEDNINNGGFNVERGWIPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF  +I      Y +SFDY+DG+W
+Sbjct  61  PYFKTKISPEKFAYQISFDYQDGNW  85
+
+
+>ref|WP_004876984.1| cloacin [Yersinia mollaretii]
+ gb|EEQ09148.1| Colicin-E6 immunity protein [Yersinia mollaretii ATCC 43969]
+Length=84
+
+ Score =  109 bits (272),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 52/82 (63%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFDK TE  KGEEYS D   DGSV+E LG+P +DN+NNG FD+   W+P+LQ
+Sbjct  1   MGLKLHLDWFDKKTELCKGEEYSVDLQTDGSVIEQLGLPLEDNINNGGFDIEDHWIPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            YF+H IDIS  +Y +SFDYRD
+Sbjct  61  KYFSHHIDISKYDYQISFDYRD  82
+
+
+>ref|WP_007895247.1| cloacin [Pseudomonas sp. GM102]
+ gb|EJM07312.1| Cloacin immunity protein [Pseudomonas sp. GM102]
+Length=84
+
+ Score =  107 bits (266),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 46/82 (56%), Positives = 63/82 (77%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGL++ L WFD++T+  KG+EYS+D G+DGSVM++LG+P ++ VNNG FDV   W+P LQ
+Sbjct  1   MGLRIRLHWFDEATDIEKGKEYSRDLGEDGSVMKALGLPIEETVNNGLFDVTQAWLPTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF HQID+S   Y + F YR+
+Sbjct  61  PYFGHQIDLSTFNYQIGFSYRE  82
+
+
+>ref|WP_008005819.1| cloacin [Pseudomonas sp. GM50]
+ gb|EJM70785.1| Cloacin immunity protein [Pseudomonas sp. GM50]
+Length=84
+
+ Score =  106 bits (264),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 49/82 (60%), Positives = 65/82 (79%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +GEE SKDFGDDGSV+E+LG+P ++N+NNG FDV + WV  LQ
+Sbjct  1   MGLKIRLEWYDKKTEIGQGEELSKDFGDDGSVIEALGMPIENNINNGGFDVASNWVGTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F+H I++S  +Y V+F YRD
+Sbjct  61  PHFHHVINLSSYDYQVAFIYRD  82
+
+
+>ref|WP_023284665.1| cloacin immunity protein, partial [Klebsiella pneumoniae]
+ gb|ESL44353.1| cloacin immunity protein, partial [Klebsiella pneumoniae BIDMC 
+25]
+Length=59
+
+ Score =  105 bits (261),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 50/59 (85%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKLDLTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LL
+Sbjct  1   MGLKLDLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLL  59
+
+
+>ref|WP_005176239.1| cloacin [Yersinia enterocolitica]
+ gb|EKA25320.1| hypothetical protein YWA314_20249 [Yersinia enterocolitica subsp. 
+enterocolitica WA-314]
+Length=84
+
+ Score =  105 bits (261),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 49/82 (60%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFDK TE  KGEEYS D   DGSV+E LG+  ++N+NNG FD+   W+P+LQ
+Sbjct  1   MGLKLHLDWFDKKTELCKGEEYSADLQSDGSVIEQLGLQIENNINNGGFDIEEYWIPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            YF+HQI+ S+ +Y +SFDYRD
+Sbjct  61  KYFSHQINTSEYDYQISFDYRD  82
+
+
+>ref|WP_004170380.1| immunity protein, partial [Klebsiella pneumoniae]
+ gb|EJK16034.1| immunity protein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH20]
+Length=71
+
+ Score =  103 bits (256),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 50/71 (70%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  15  EDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEY  74
+           E+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQP+F + IDIS  +Y
+Sbjct  1   EEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKSWVSILQPHFKNVIDISKFDY  60
+
+Query  75  FVSFDYRDGDW  85
+           FVSF YRDG+W
+Sbjct  61  FVSFVYRDGNW  71
+
+
+>ref|WP_021324208.1| cloacin immunity protein [Photorhabdus temperata]
+ gb|EQC00700.1| cloacin immunity protein [Photorhabdus temperata subsp. temperata 
+M1021]
+Length=85
+
+ Score =  102 bits (255),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 52/83 (63%), Positives = 64/83 (77%), Gaps = 1/83 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV +L
+Sbjct  1   MGLKLRLEWFDKQTELGEGYEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSVL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRD  82
+           QP+F HQID+S  +Y +SFDYRD
+Sbjct  61  QPHFCHQIDLSAYDYQISFDYRD  83
+
+
+>ref|WP_016986577.1| cloacin [Pseudomonas fluorescens]
+Length=85
+
+ Score =  102 bits (254),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 45/82 (55%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T+  +GEEYSKD GDD +V+ +LG+P ++N+NNG F+V+ EW+P++Q
+Sbjct  2   MGLKLRLEWYDKQTDLCEGEEYSKDLGDDETVLNALGIPVENNINNGGFNVLEEWIPVIQ  61
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H I     +Y +SFDY D
+Sbjct  62  PYFQHSIVFKTYDYQISFDYSD  83
+
+
+>ref|WP_021326644.1| cloacin immunity protein [Photorhabdus temperata]
+ gb|EQB98201.1| cloacin immunity protein [Photorhabdus temperata subsp. temperata 
+M1021]
+ gb|ERT10412.1| hypothetical protein O185_24975 [Photorhabdus temperata J3]
+Length=85
+
+ Score =  102 bits (254),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 52/83 (63%), Positives = 63/83 (76%), Gaps = 1/83 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV  L
+Sbjct  1   MGLKLRLEWFDKQTELGEGYEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSAL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRD  82
+           QP+F HQID+S  +Y +SFDYRD
+Sbjct  61  QPHFYHQIDLSAYDYQISFDYRD  83
+
+
+>ref|NP_931528.1| hypothetical protein plu4355 [Photorhabdus luminescens subsp. 
+laumondii TTO1]
+ ref|WP_011148445.1| cloacin [Photorhabdus luminescens]
+ emb|CAE16727.1| unnamed protein product [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=84
+
+ Score =  102 bits (253),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 48/82 (59%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL++ WFDK T +F GEEYS D GDDGSV+E LG+  +DN+NNG FDV  EWVP L+
+Sbjct  1   MGLKLNIAWFDKKTAEFIGEEYSGDLGDDGSVIEKLGLTIEDNINNGAFDVKKEWVPTLE  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+             F ++I+     Y +SFDYRD
+Sbjct  61  SCFKNKIETDKYWYKISFDYRD  82
+
+
+>ref|WP_007918564.1| cloacin [Pseudomonas]
+ gb|EJL96757.1| Cloacin immunity protein [Pseudomonas sp. GM16]
+ gb|EJM39722.1| Cloacin immunity protein [Pseudomonas sp. GM24]
+Length=84
+
+ Score =  100 bits (248),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 46/82 (56%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T+  +GEEYSKD GDD  V+ +LG+P ++N+NNG F+V  EWVP++Q
+Sbjct  1   MGLKLRLEWYDKQTDLCEGEEYSKDLGDDEGVLNALGIPVENNINNGGFNVFEEWVPIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H I     +Y +SFDY D
+Sbjct  61  PYFQHGIVFKTYDYQISFDYSD  82
+
+
+>ref|WP_023582386.1| Colicin E6 immunity protein [Proteus hauseri]
+ gb|EST59038.1| Colicin E6 immunity protein [Proteus hauseri ZMd44]
+Length=84
+
+ Score = 99.8 bits (247),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 46/82 (56%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+DLTWFDK TE F GEEYS D GDD +++E    P ++ +N G FDVI+ WVP LQ
+Sbjct  1   MGLKIDLTWFDKKTESFIGEEYSVDLGDDDTIIEQTVNPTENIINAGSFDVISAWVPYLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            Y  H+I+++  +Y V+FDYRD
+Sbjct  61  KYIKHKIELNKYDYQVAFDYRD  82
+
+
+>ref|WP_017892703.1| hypothetical protein [Serratia sp. S4]
+Length=84
+
+ Score = 99.8 bits (247),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 48/82 (59%), Positives = 61/82 (74%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL LTWFDK T++F GEEYSKDFGDD +++  LG+P  D +NNG F V   WVPL+Q
+Sbjct  1   MGLKLRLTWFDKKTDEFIGEEYSKDFGDDDTLIGRLGLPEDDTMNNGEFAVAKGWVPLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF +QI     + F++F+YRD
+Sbjct  61  PYFKNQISSEKFDCFLAFNYRD  82
+
+
+>ref|WP_003222349.1| cloacin [Pseudomonas fluorescens]
+ gb|EJZ56911.1| Cloacin immunity protein [Pseudomonas fluorescens R124]
+Length=84
+
+ Score = 99.0 bits (245),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 44/82 (54%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T   + EEYSKD GDD SV+ +LG+P ++N+NNG F+V+  W P+LQ
+Sbjct  1   MGLKLRLEWYDKHTHLCEDEEYSKDLGDDESVLNALGIPVENNINNGGFNVVESWTPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF + I ++  +Y +SFDY D
+Sbjct  61  PYFQNNISLTTYDYQISFDYSD  82
+
+
+>ref|WP_007939531.1| cloacin [Pseudomonas sp. GM18]
+ gb|EJM14840.1| Cloacin immunity protein [Pseudomonas sp. GM18]
+Length=84
+
+ Score = 98.2 bits (243),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 44/82 (54%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG+K+ L W++K TE  +G EYSKDFG + S+M++LG+  ++N+NNG FD+  +W  +LQ
+Sbjct  1   MGMKVRLNWYNKKTEIGEGREYSKDFGGNASIMDNLGIAPENNINNGGFDIGEDWAAVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H ID+S  +Y VSFDYRD
+Sbjct  61  PYFVHTIDLSAYDYQVSFDYRD  82
+
+
+>ref|YP_003713430.1| Colicin-E3 immunity protein [Xenorhabdus nematophila ATCC 19061]
+ ref|WP_013184934.1| Colicin-E3 immunity protein [Xenorhabdus nematophila]
+ gb|AAZ06277.1| putative hemagglutinin/hemolysin [Xenorhabdus nematophila]
+ emb|CBJ91312.1| Colicin-E3 immunity protein (ImmE3) (Microcin-E3 immunity protein) 
+(Colicin-E3 chain B) (modular protein) [Xenorhabdus nematophila 
+ATCC 19061]
+Length=368
+
+ Score =  101 bits (251),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 46/81 (57%), Positives = 60/81 (74%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG++L LTWFDK  EDF G+EYS+D G D S++E+ G+P  D +NNG FDV+  WVP+LQ
+Sbjct  1   MGIQLKLTWFDKKNEDFVGKEYSQDLGYDDSIIENCGLPLDDTLNNGVFDVLDAWVPVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+             FNHQI+   + Y +SFDYR
+Sbjct  61  GNFNHQINFDKHFYQISFDYR  81
+
+
+>ref|WP_003279736.1| colicin immunity protein [Pseudomonas stutzeri]
+ gb|EHY75887.1| colicin immunity protein [Pseudomonas stutzeri ATCC 14405 = CCUG 
+16156]
+Length=134
+
+ Score = 96.3 bits (238),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 41/83 (49%), Positives = 60/83 (72%), Gaps = 0/83 (0%)
+
+Query  1    MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+            MGL++ L W+DK  +   G EYS D GDD S++E L +P  ++VNNG FD+  EW  +LQ
+Sbjct  51   MGLRIRLNWYDKHNDLGVGREYSDDMGDDTSIIELLSLPISESVNNGEFDISIEWSTILQ  110
+
+Query  61   PYFNHQIDISDNEYFVSFDYRDG  83
+            PYF H+I++++++Y V+FDYRD 
+Sbjct  111  PYFKHKINLTEHDYQVAFDYRDA  133
+
+
+>ref|WP_004256948.1| cloacin [Providencia rettgeri]
+ gb|EFE54747.1| colicin-E3 immunity protein [Providencia rettgeri DSM 1131]
+Length=84
+
+ Score = 92.8 bits (229),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/82 (52%), Positives = 59/82 (72%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TE++ GEEYS D GD+ S++E    P ++ +NNGCFD++++WV  LQ
+Sbjct  1   MGLKIHLVWFDKQTEEYVGEEYSLDLGDNDSIIEETINPEENIINNGCFDMVSDWVSNLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            +  H I+ S  +Y VSFDYRD
+Sbjct  61  NHIKHNIEFSKYDYQVSFDYRD  82
+
+
+>ref|WP_004909005.1| hypothetical protein [Providencia rettgeri]
+ gb|EKT57651.1| hypothetical protein OOC_07058 [Providencia rettgeri Dmel1]
+Length=84
+
+ Score = 92.4 bits (228),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 42/82 (51%), Positives = 58/82 (71%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TE++ GEEYS D GDDGS++E    P ++ +NNGCFDV+++W   LQ
+Sbjct  1   MGLKIHLVWFDKQTEEYVGEEYSLDLGDDGSIIEKTINPEENIINNGCFDVLSDWASNLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            +  H+   +  +Y VSFDYR+
+Sbjct  61  KHIKHKFKFNKYDYQVSFDYRE  82
+
+
+>ref|WP_003238422.1| Colicin-E3 immunity protein [Pseudomonas fluorescens]
+ gb|ELQ09950.1| Colicin-E3 immunity protein [Pseudomonas fluorescens BRIP34879]
+Length=85
+
+ Score = 91.7 bits (226),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 39/84 (46%), Positives = 61/84 (73%), Gaps = 0/84 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+  LG+  ++++NNG F++  EW+ L+Q
+Sbjct  1   MGLKVRLEWFDRTTERLCGMEDSADLGDDYSVISELGLSVREDINNGMFELRPEWLSLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGD  84
+             F+H+I +S+N+YF++FDY + +
+Sbjct  61  TRFSHEIALSENDYFIAFDYENAN  84
+
+
+>ref|WP_008072799.1| cloacin [Pseudomonas sp. GM79]
+ gb|EJN21688.1| Cloacin immunity protein [Pseudomonas sp. GM79]
+Length=84
+
+ Score = 91.7 bits (226),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 42/81 (52%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE   G+EYS D GDDGSV+ +LG+  +  + +G FDV++ WVP LQ
+Sbjct  1   MGLKVRLDWYDKETEIAAGKEYSADLGDDGSVINALGLMAESEIYDGGFDVLSAWVPKLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+I+  +Y V+F YR
+Sbjct  61  PLFKHKINIAAFDYQVAFRYR  81
+
+
+>ref|WP_005791222.1| colicin transporter [Pseudomonas synxantha]
+ gb|EIK71867.1| colicin-E3 immunity protein [Pseudomonas synxantha BG33R]
+Length=85
+
+ Score = 91.3 bits (225),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 38/80 (48%), Positives = 59/80 (74%), Gaps = 0/80 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WF+++TE   G   S D GDD +V+ SLG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKVRLEWFNRATERLCGTVNSADLGDDYTVISSLGLSTARDVNNGMFELRTEWLSMIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDY  80
+           PYF+H+I +S+++YF++FDY
+Sbjct  61  PYFSHEISLSESDYFIAFDY  80
+
+
+>ref|WP_020302007.1| putative colicin immunity protein [Pseudomonas sp. CF150]
+ gb|EPL11121.1| putative colicin immunity protein [Pseudomonas sp. CF150]
+Length=85
+
+ Score = 91.3 bits (225),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 39/80 (49%), Positives = 60/80 (75%), Gaps = 0/80 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+ +LG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKIRLEWFDRTTERLNGTESSADCGDDYSVISTLGLLSAVDVNNGMFELRREWLSVIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDY  80
+           P+F+H+I +S+++YF++FDY
+Sbjct  61  PHFSHEIALSESDYFIAFDY  80
+
+
+>ref|WP_021326918.1| cloacin immunity protein, partial [Photorhabdus temperata]
+ gb|EQB97910.1| cloacin immunity protein, partial [Photorhabdus temperata subsp. 
+temperata M1021]
+Length=76
+
+ Score = 90.9 bits (224),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 46/75 (61%), Positives = 57/75 (76%), Gaps = 1/75 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV +L
+Sbjct  1   MGLKLRLEWFDKQTELGEGCEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSVL  60
+
+Query  60  QPYFNHQIDISDNEY  74
+           QP+F HQID+S  +Y
+Sbjct  61  QPHFCHQIDLSAYDY  75
+
+
+>ref|WP_007906701.1| cloacin [Pseudomonas sp. GM102]
+ gb|EJL94915.1| Cloacin immunity protein [Pseudomonas sp. GM102]
+Length=84
+
+ Score = 90.1 bits (222),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 41/81 (51%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE   G+EYS D GDDGSV+++LG+  +  + +G FDV++ WVP LQ
+Sbjct  1   MGLKIRLDWYDKETEIAAGKEYSADLGDDGSVIDALGLMAESEIYDGGFDVLSAWVPELQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+ +  +Y V+F YR
+Sbjct  61  PLFKHKINTAAFDYQVAFRYR  81
+
+
+>ref|WP_004240967.1| Colicin E6 immunity protein [Morganella morganii]
+ gb|EMP51417.1| Colicin E6 immunity protein [Morganella morganii SC01]
+Length=84
+
+ Score = 89.4 bits (220),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 43/83 (52%), Positives = 56/83 (67%), Gaps = 0/83 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TEDF  +EYS D GDD +V+     P ++ +NNG FDVI+ WVP LQ
+Sbjct  1   MGLKVHLQWFDKKTEDFIDKEYSVDLGDDDTVITQTVNPTENIINNGWFDVISAWVPYLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDG  83
+            +  H+ID+   +Y V+F YRD 
+Sbjct  61  NHLKHKIDLGKYDYQVAFAYRDN  83
+
+
+>ref|YP_006325818.1| Colicin-E3 immunity protein [Pseudomonas fluorescens A506]
+ ref|WP_014719844.1| colicin transporter [Pseudomonas]
+ gb|AFJ55991.1| Colicin-E3 immunity protein [Pseudomonas fluorescens A506]
+ gb|EPJ85971.1| putative colicin immunity protein [Pseudomonas sp. CFT9]
+Length=85
+
+ Score = 89.4 bits (220),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 39/80 (49%), Positives = 59/80 (74%), Gaps = 0/80 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+ +LG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKIRLEWFDRTTERLNGTESSADCGDDYSVISTLGLLSAVDVNNGMFELRREWLSVIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDY  80
+           P+F H+I +S+++YF++FDY
+Sbjct  61  PHFFHEIALSESDYFIAFDY  80
+
+
+>ref|WP_017529170.1| hypothetical protein [Pseudomonas fluorescens]
+Length=85
+
+ Score = 89.0 bits (219),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 39/83 (47%), Positives = 59/83 (71%), Gaps = 0/83 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++T+   G E S D G+D SV+  LG+   ++VNNG F++  EW+ L+Q
+Sbjct  1   MGLKVRLEWFDRTTKWLSGREDSADLGNDYSVISKLGLSVNEDVNNGMFELRQEWLSLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDG  83
+            YF+H+I  S+++YF++FDY D 
+Sbjct  61  AYFSHEIVFSESDYFIAFDYEDA  83
+
+
+>ref|WP_021240646.1| hypothetical protein [Enterobacter cloacae]
+ gb|EPY98079.1| hypothetical protein L799_04080 [Enterobacter cloacae EC_38VIM1]
+Length=85
+
+ Score = 87.8 bits (216),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 42/84 (50%), Positives = 59/84 (70%), Gaps = 1/84 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVME-SLGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLK+ L W+D  TE  +  E+S +FGD+  ++   L +P K+NVNNG FD+ AEW+P+L
+Sbjct  1   MGLKIRLQWYDMRTELGESTEFSNNFGDNMEIITICLRIPTKNNVNNGFFDIEAEWIPIL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRDG  83
+           QP+F H+I  +  +Y VSFDYRD 
+Sbjct  61  QPHFVHKITPTIYDYQVSFDYRDN  84
+
+
+>ref|WP_019691250.1| hypothetical protein [Pseudomonas fluorescens]
+Length=84
+
+ Score = 86.3 bits (212),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 38/82 (46%), Positives = 59/82 (72%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG+K+ L W+DK TE    +E+S DFGDD S++ +LG+  +  + +G FDV+ +WV ++Q
+Sbjct  1   MGMKVRLEWYDKETEALAADEFSIDFGDDDSILAALGLSNEPEIFDGGFDVLPKWVAMIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+FNHQID +  +Y +SF YR+
+Sbjct  61  PHFNHQIDTNLFDYQISFRYRN  82
+
+
+>ref|WP_007958170.1| cloacin [Pseudomonas sp. GM25]
+ gb|EJM24751.1| Cloacin immunity protein [Pseudomonas sp. GM25]
+Length=84
+
+ Score = 84.7 bits (208),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 41/81 (51%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +G+EYS D GDDGS++ESLG+  ++ + +G FDV  +W+  LQ
+Sbjct  1   MGLKVRLNWYDKKTELAEGKEYSVDLGDDGSIIESLGLLEENEIYDGGFDVRNDWIAKLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+ +  +Y VSF YR
+Sbjct  61  PLFTHKIEPAVFDYQVSFRYR  81
+
+
+>ref|WP_003197959.1| cloacin [Pseudomonas fluorescens]
+ gb|EIK70121.1| immunity protein, cloacin/colicin family [Pseudomonas fluorescens 
+Q8r1-96]
+Length=84
+
+ Score = 81.3 bits (199),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 38/81 (47%), Positives = 55/81 (68%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +G+EYS D GDD SV+ +L +  +  + +G FDV AEW+P++Q
+Sbjct  1   MGLKIRLDWYDKKTELGEGKEYSNDLGDDLSVITALDLESEPEIYDGGFDVRAEWIPIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P+F H I     +Y ++F YR
+Sbjct  61  PFFEHSIAPEKFDYQIAFRYR  81
+
+
+>ref|YP_002150699.1| colicin immunity protein [Proteus mirabilis HI4320]
+ ref|WP_004251549.1| cloacin [Proteus mirabilis]
+ emb|CAR42092.1| colicin immunity protein [Proteus mirabilis HI4320]
+ gb|EKA97091.1| hypothetical protein HMPREF1310_02236 [Proteus mirabilis WGLW4]
+Length=82
+
+ Score = 80.1 bits (196),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 38/82 (46%), Positives = 55/82 (67%), Gaps = 1/82 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDN-VNNGCFDVIAEWVPLL  59
+           MGLKL + WF+K T+DF GEEYSKD GDD  ++E    P  +N +NNG F++  EW+  +
+Sbjct  1   MGLKLRIYWFNKKTKDFSGEEYSKDLGDDDFLIEETISPKNENIINNGEFELKKEWINTI  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYR  81
+           Q +  H+I+     YF++FDY+
+Sbjct  61  QKHVTHKIEPDKYTYFIAFDYQ  82
+
+
+>ref|YP_005199079.1| Cloacin immunity protein [Rahnella aquatilis CIP 78.65 = ATCC 
+33071]
+ ref|WP_015696196.1| cloacin [Rahnella aquatilis]
+ gb|AEX50939.1| Cloacin immunity protein [Rahnella aquatilis CIP 78.65 = ATCC 
+33071]
+Length=83
+
+ Score = 74.3 bits (181),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 50/82 (61%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGL L L WFDK+ E   G+E S D G+DGS+++   +PF   + +G FDV+  W   LQ
+Sbjct  1   MGLALKLEWFDKADELLVGKEVSVDLGNDGSLIKKFSLPFDGRIYDGGFDVLQAWRSDLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F H+ID S  +Y + F   D
+Sbjct  61  PFFQHRIDFSRYDYQLVFKRTD  82
+
+
+>ref|WP_017253542.1| hypothetical protein [Pseudomonas tolaasii]
+Length=90
+
+ Score = 70.5 bits (171),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 34/85 (40%), Positives = 51/85 (60%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K + D K +EYS D  D  SV E+LG+  +  +    F+V+  W+  LQ
+Sbjct  1   MVMKIRLRWYEKHSNDLKADEYSADIDDADSVFEALGLSEETAIYADVFNVLQNWITTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H I+ S  +Y +SF Y+ G W
+Sbjct  61  PYFQHAIEPSLFDYQISFRYQ-GTW  84
+
+
+>ref|YP_007398818.1| Colicin-E3 immunity protein [Pseudomonas poae RE*1-1-14]
+ ref|WP_015372921.1| Colicin-E3 immunity protein [Pseudomonas poae]
+ gb|AGE27322.1| Colicin-E3 immunity protein [Pseudomonas poae RE*1-1-14]
+Length=66
+
+ Score = 68.6 bits (166),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 47/64 (73%), Gaps = 0/64 (0%)
+
+Query  21  EYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDY  80
+           E S D GDD SV+  LG+  ++++NNG F++  EW+ L+Q  F+H+I +S+N+YF++FDY
+Sbjct  2   EDSADLGDDYSVISELGLSVREDINNGMFELRPEWLSLIQTRFSHEIALSENDYFIAFDY  61
+
+Query  81  RDGD  84
+            + +
+Sbjct  62  ENAN  65
+
+
+>ref|YP_002874612.1| putative colicin-E3 immunity protein [Pseudomonas fluorescens 
+SBW25]
+ ref|WP_015885785.1| cloacin [Pseudomonas fluorescens]
+ emb|CAY52126.1| putative colicin-E3 immunity protein [Pseudomonas fluorescens 
+SBW25]
+Length=95
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 31/85 (36%), Positives = 51/85 (60%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K + D K +EYS D  D  +V E+LG+  +  +    F+V   W+ ++Q
+Sbjct  1   MLMKIRLRWYEKHSNDLKADEYSADIADPDNVFEALGLGEETAIYADVFNVQPNWITIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H I+   ++Y +SF Y+ G W
+Sbjct  61  PYFQHMIEPDHHDYQLSFRYQ-GAW  84
+
+
+>ref|YP_008427998.1| cloacin immunity protein [Klebsiella pneumoniae JM45]
+ ref|WP_020956932.1| cloacin immunity protein [Klebsiella pneumoniae]
+ gb|AGT26972.1| cloacin immunity protein [Klebsiella pneumoniae JM45]
+Length=48
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 29/48 (60%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  38  VPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRDGDW  85
+           +P KDN+NNG FDV   WVPLLQPYF ++I++    Y +SFDYRDG+W
+Sbjct  1   MPLKDNINNGGFDVEKPWVPLLQPYFKNKIEVDKYWYQISFDYRDGNW  48
+
+
+>ref|WP_010176879.1| cloacin [Pseudomonas sp. PAMC 25886]
+Length=92
+
+ Score = 65.9 bits (159),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 52/85 (61%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS DF +  S  E+LG+  +  +    F+V+  W+ ++Q
+Sbjct  1   MVMKVRLRWYDKHSNYVKADEYSADFDNAESFFETLGLGQETAIYADVFNVLPSWIAIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+ ++ +Y +SF Y+ G W
+Sbjct  61  PHFQHAIEPANFDYQISFSYQ-GTW  84
+
+
+>ref|YP_348016.1| hypothetical protein Pfl01_2284 [Pseudomonas fluorescens Pf0-1]
+ ref|WP_011333711.1| hypothetical protein [Pseudomonas fluorescens]
+ gb|ABA74027.1| putative colicin immunity protein [Pseudomonas fluorescens Pf0-1]
+Length=53
+
+ Score = 64.7 bits (156),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 40/52 (77%), Gaps = 0/52 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVI  52
+           MGL+L L W+D +T  F+GEE S++ GD+ SV+ +LG+P + N+NNG F+V+
+Sbjct  1   MGLELRLEWYDTATLQFQGEESSRNLGDNESVLNALGIPVEGNINNGSFNVV  52
+
+
+>ref|WP_020326704.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae]
+ gb|EPP05317.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae 
+140_1040]
+Length=47
+
+ Score = 64.7 bits (156),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 30/47 (64%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  39  PFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRDGDW  85
+           P KDN+NNG FDV   WV +LQP+F + IDIS  +YFVSF YRDG+W
+Sbjct  1   PLKDNINNGWFDVEKSWVSILQPHFKNVIDISKFDYFVSFVYRDGNW  47
+
+
+>ref|WP_023046849.1| hypothetical protein, partial [Photorhabdus temperata]
+ gb|ERT10057.1| hypothetical protein O185_27925, partial [Photorhabdus temperata 
+J3]
+Length=56
+
+ Score = 64.3 bits (155),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 31/52 (60%), Positives = 41/52 (79%), Gaps = 1/52 (2%)
+
+Query  32  VMES-LGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRD  82
+           VM S LG+  +DN+NNG FDV ++WV +LQP+F HQID+S  +Y +SFDYRD
+Sbjct  3   VMASGLGISTEDNINNGGFDVESKWVSVLQPHFCHQIDLSAYDYQISFDYRD  54
+
+
+>ref|WP_023046758.1| hypothetical protein, partial [Photorhabdus temperata]
+ gb|ERT10158.1| hypothetical protein O185_27020, partial [Photorhabdus temperata 
+J3]
+Length=52
+
+ Score = 63.5 bits (153),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 34/52 (65%), Positives = 39/52 (75%), Gaps = 1/52 (2%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDV  51
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV
+Sbjct  1   MGLKLRLEWFDKQTELGEGCEYSKDFGDNADVMASGLGISTEDNINNGGFDV  52
+
+
+>ref|WP_020326636.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae]
+ gb|EPP08617.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae 
+140_1040]
+Length=38
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGV  38
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGM  38
+
+
+>ref|WP_017135422.1| cloacin [Pseudomonas fluorescens]
+Length=95
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 29/85 (34%), Positives = 50/85 (59%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K ++D K +EYS D  D     E+LG+  +  +    ++V+  W+ +LQ
+Sbjct  1   MVMKIRLRWYEKHSDDLKADEYSADIVDADRSFEALGLSEESAIYADVYNVLPSWITILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P F H I+ +  +Y +SF Y+ G W
+Sbjct  61  PLFQHVIEPNRFDYQISFQYQ-GAW  84
+
+
+>ref|WP_016979615.1| hypothetical protein [Pseudomonas fluorescens]
+Length=95
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 52/85 (61%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L WFDK TE+ + +EYS +  +D  ++++L +  +  +  G FDV+  W+ +LQ
+Sbjct  1   MVMKVRLEWFDKQTENLEADEYSANLDEDDDILKALDLHDEPQIYAGGFDVLPSWIAVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF   I+    ++ +SF Y+ G W
+Sbjct  61  PYFQRVIEPDLFDFQISFHYQ-GAW  84
+
+
+>ref|WP_008438442.1| cloacin [Pseudomonas sp. Ag1]
+ gb|EJF68664.1| putative colicin-E3 immunity protein [Pseudomonas sp. Ag1]
+Length=92
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 48/85 (56%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS D  D  S  E+LG+  +  +    F+V   W+  +Q
+Sbjct  1   MVMKVRLRWYDKQSNYVKADEYSADIDDAESFFETLGLSQETAIYADVFNVRPSWIATIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+  + +Y +SF Y+ G W
+Sbjct  61  PHFQHVIEPVNFDYQISFSYQ-GTW  84
+
+
+>ref|WP_003210327.1| cloacin [Pseudomonas fluorescens]
+ gb|ESW55738.1| hypothetical protein MHB_003442 [Pseudomonas fluorescens BBc6R8]
+Length=92
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 48/85 (56%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS D  D  S  E+LG+  +  +    F+V   W+  +Q
+Sbjct  1   MVMKVRLRWYDKQSNYVKADEYSGDIDDAESFFETLGLSQETAIYADVFNVRPSWIATIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+  + +Y +SF Y+ G W
+Sbjct  61  PHFQHVIEPVNFDYQISFSYQ-GTW  84
+
+
+>ref|WP_009635203.1| putative colicin-E3 immunity protein [Serratia sp. M24T3]
+ gb|EIC86324.1| putative colicin-E3 immunity protein [Serratia sp. M24T3]
+Length=81
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 25/80 (31%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M  K+ L WF+K   D +G+E+S    D+  +++ LG+  +  + +G +++  EW+  +Q
+Sbjct  1   MSYKMRLQWFNKENFDGEGKEFSAILDDNVYLLDKLGLSTEPRIYDGAYNISNEWLYYIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDY  80
+           PYF HQI++   +Y ++F +
+Sbjct  61  PYFQHQINLQQYDYQLAFRH  80
+
+
+>ref|WP_004242598.1| immunity protein, partial [Klebsiella pneumoniae]
+ gb|ENY55074.1| immunity protein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KpMDU1]
+Length=26
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/26 (77%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDF  26
+           MGLKL + WFDK TE+FKG EYSKDF
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDF  26
+
+
+>ref|XP_003288732.1| hypothetical protein DICPUDRAFT_153006 [Dictyostelium purpureum]
+ gb|EGC34732.1| hypothetical protein DICPUDRAFT_153006 [Dictyostelium purpureum]
+Length=1774
+
+ Score = 38.1 bits (87),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 26/49 (53%), Gaps = 0/49 (0%)
+
+Query  23   SKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISD  71
+            S D  D   ++E L    K N++   FD +   VP+L+P FN  +DI D
+Sbjct  384  SNDVADATKILEDLIEKIKGNISKSEFDRLKSNVPMLKPAFNEIVDIVD  432
+
+
+>ref|YP_008604312.1| exosome complex RNA-binding protein Rrp42 [Aeropyrum camini SY1 
+= JCM 12091]
+ ref|WP_022541651.1| exosome complex RNA-binding protein Rrp42 [Aeropyrum camini]
+ dbj|BAN90378.1| exosome complex RNA-binding protein Rrp42 [Aeropyrum camini SY1 
+= JCM 12091]
+Length=276
+
+ Score = 36.6 bits (83),  Expect = 0.67, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  32  VMESLGVPFKDNVNNGCFDVIAEWVPLLQPYF  63
+           V  S+G PF+D  N G   V AE+VPL  P F
+Sbjct  67  VKASVGAPFRDTPNQGVLTVHAEFVPLASPVF  98
+
+
+>ref|XP_003358926.3| PREDICTED: vitamin K-dependent protein S-like [Sus scrofa]
+Length=153
+
+ Score = 35.8 bits (81),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 34/63 (54%), Gaps = 11/63 (17%)
+
+Query  7    LTWFDK---STEDFKGEEYSKDFGDDGSVMESLG----VPFKDN-VN---NGCFDVIAEW  55
+            LT F+K   S+ED++G+    D   +G+V   LG    VPF    VN   NGC DVI   
+Sbjct  64   LTQFEKRRISSEDYQGQFAILDKAMEGTVATYLGGLPDVPFSATPVNAFYNGCMDVIING  123
+
+Query  56   VPL  58
+            VPL
+Sbjct  124  VPL  126
+
+
+>ref|NP_147948.1| exosome complex RNA-binding protein Rrp42 [Aeropyrum pernix K1]
+ ref|WP_010866375.1| exosome complex exonuclease [Aeropyrum pernix]
+ sp|Q9YC05.1|ECX2_AERPE RecName: Full=Probable exosome complex exonuclease 2
+ dbj|BAA80443.1| exosome complex exonuclease Rrp42 homologue [Aeropyrum pernix 
+K1]
+Length=276
+
+ Score = 35.8 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 18/32 (56%), Gaps = 0/32 (0%)
+
+Query  32  VMESLGVPFKDNVNNGCFDVIAEWVPLLQPYF  63
+           V   +G PFKD  N G   V AE+VPL  P F
+Sbjct  67  VKAGVGAPFKDTPNQGVLTVHAEFVPLASPVF  98
+
+
+>ref|YP_006362976.1| ribosomal RNA-processing protein RRP42 [Thermogladius cellulolyticus 
+1633]
+ ref|WP_014737088.1| exosome complex exonuclease [Thermogladius cellulolyticus]
+ gb|AFK50838.1| ribosomal RNA-processing protein RRP42 [Thermogladius cellulolyticus 
+1633]
+Length=282
+
+ Score = 35.4 bits (80),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 16/32 (50%), Positives = 18/32 (56%), Gaps = 0/32 (0%)
+
+Query  32  VMESLGVPFKDNVNNGCFDVIAEWVPLLQPYF  63
+           V   LG PF+D  N G   V AE+VPL  P F
+Sbjct  67  VKAELGTPFEDRPNEGVLQVHAEFVPLASPSF  98
+
+
+>ref|WP_010747295.1| hypothetical protein [Enterococcus raffinosus]
+ gb|EOH73732.1| hypothetical protein UAK_04141 [Enterococcus raffinosus ATCC 
+49464]
+ gb|EOT82456.1| hypothetical protein I590_00882 [Enterococcus raffinosus ATCC 
+49464]
+Length=301
+
+ Score = 35.0 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 10/30 (33%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  50   DVIAEWVPLLQPYFNHQIDISDNEYFVSFD  79
+            ++++EW+P ++P F++ I IS+ E +   D
+Sbjct  166  EIVSEWIPRMEPQFSYDIQISEKELYYQVD  195
+
+
+>gb|AAA70382.1| protein S, partial [Sus scrofa]
+Length=648
+
+ Score = 34.7 bits (78),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 27/63 (43%), Positives = 34/63 (54%), Gaps = 11/63 (17%)
+
+Query  7    LTWFDK---STEDFKGEEYSKDFGDDGSVMESLG----VPFKDN-VN---NGCFDVIAEW  55
+            LT F+K   S+ED++G+    D   +G+V   LG    VPF    VN   NGC DVI   
+Sbjct  559  LTQFEKRRISSEDYQGQFAILDKAMEGTVATYLGGLPDVPFSATPVNAFYNGCMDVIING  618
+
+Query  56   VPL  58
+            VPL
+Sbjct  619  VPL  621
+
+
+>ref|WP_006209864.1| histidine kinase [Paenibacillus vortex]
+ gb|EFU41020.1| two-component sensor histidine kinase [Paenibacillus vortex V453]
+Length=307
+
+ Score = 34.3 bits (77),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 1/40 (3%)
+
+Query  41   KDNVNNGCFDVIAEWVPLLQP-YFNHQIDISDNEYFVSFD  79
+            + ++N    D++  W+P  +  +F ++IDISD E F+  D
+Sbjct  160  EQDINEFTRDILVNWIPTFEEEHFEYKIDISDKECFIRLD  199
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.142    0.462    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312731037600
+Results from round 2
+
+
+Query= 1E44
+
+Length=85
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_000523383.1|  cloacin [Escherichia coli] >gb|EJE58573.1| i...   147    5e-44
+ref|WP_004146437.1|  cloacin [Klebsiella pneumoniae] >gb|EEW43929...   147    7e-44
+emb|CAA45168.1|  immunity protein [Escherichia coli]                   147    8e-44
+ref|WP_000523382.1|  Cloacin immunity protein [Bacillus cereus] >...   145    4e-43
+ref|WP_022644819.1|  colicin-E3 immunity protein [Klebsiella pneu...   144    1e-42
+ref|YP_001456626.1|  hypothetical protein CKO_pCKO3p06149 [Citrob...   143    3e-42
+ref|NP_052371.1|  cloacin immunity protein [Escherichia coli] >re...   143    3e-42
+ref|WP_001419702.1|  colicin-E3 immunity protein [Escherichia col...   141    1e-41
+ref|WP_008005819.1|  cloacin [Pseudomonas sp. GM50] >gb|EJM70785....   140    5e-41
+ref|YP_003237830.1|  probable colicin immunity protein [Escherich...   139    7e-41
+gb|AAA23081.1|  immunity protein E6 [Plasmid ColE6-CT14]               139    1e-40
+ref|WP_000523346.1|  cloacin [Escherichia coli] >sp|P02984.3|IMM3...   139    1e-40
+sp|P13477.1|IMM6_ECOLX  RecName: Full=Colicin-E6 immunity protein...   138    2e-40
+prf||1615299B  colicin E6 immunity protein                             138    3e-40
+ref|WP_016986577.1|  cloacin [Pseudomonas fluorescens]                 137    4e-40
+ref|WP_023282492.1|  hypothetical protein [Klebsiella pneumoniae]...   137    5e-40
+ref|WP_019454360.1|  cloacin [Serratia marcescens]                     136    1e-39
+emb|CDG14773.1|  bacteriocin immunity protein [Serratia marcescen...   136    2e-39
+ref|WP_003279736.1|  colicin immunity protein [Pseudomonas stutze...   137    2e-39
+pdb|3EIP|A  Chain A, Crystal Structure Of Colicin E3 Immunity Pro...   135    3e-39
+ref|WP_007918564.1|  cloacin [Pseudomonas] >gb|EJL96757.1| Cloaci...   135    4e-39
+ref|WP_004876984.1|  cloacin [Yersinia mollaretii] >gb|EEQ09148.1...   134    6e-39
+ref|WP_008072799.1|  cloacin [Pseudomonas sp. GM79] >gb|EJN21688....   134    8e-39
+ref|WP_021324208.1|  cloacin immunity protein [Photorhabdus tempe...   134    9e-39
+prf||0706253A  colicin E3 B subunit immunity protein                   134    1e-38
+ref|WP_007958170.1|  cloacin [Pseudomonas sp. GM25] >gb|EJM24751....   134    1e-38
+ref|WP_003197959.1|  cloacin [Pseudomonas fluorescens] >gb|EIK701...   134    1e-38
+ref|WP_003222349.1|  cloacin [Pseudomonas fluorescens] >gb|EJZ569...   133    2e-38
+ref|WP_007906701.1|  cloacin [Pseudomonas sp. GM102] >gb|EJL94915...   133    2e-38
+ref|WP_005176239.1|  cloacin [Yersinia enterocolitica] >gb|EKA253...   132    4e-38
+ref|WP_020302007.1|  putative colicin immunity protein [Pseudomon...   130    3e-37
+ref|WP_021326644.1|  cloacin immunity protein [Photorhabdus tempe...   130    4e-37
+ref|WP_005791222.1|  colicin transporter [Pseudomonas synxantha] ...   130    4e-37
+ref|WP_019691250.1|  hypothetical protein [Pseudomonas fluorescens]    129    6e-37
+ref|WP_003238422.1|  Colicin-E3 immunity protein [Pseudomonas flu...   129    6e-37
+ref|WP_023582386.1|  Colicin E6 immunity protein [Proteus hauseri...   129    8e-37
+ref|WP_007895247.1|  cloacin [Pseudomonas sp. GM102] >gb|EJM07312...   128    1e-36
+ref|WP_007939531.1|  cloacin [Pseudomonas sp. GM18] >gb|EJM14840....   128    2e-36
+ref|WP_023315840.1|  hypothetical protein [Enterobacter cloacae] ...   127    3e-36
+ref|WP_017892703.1|  hypothetical protein [Serratia sp. S4]            127    3e-36
+ref|YP_006325818.1|  Colicin-E3 immunity protein [Pseudomonas flu...   127    4e-36
+ref|WP_017253542.1|  hypothetical protein [Pseudomonas tolaasii]       127    6e-36
+ref|WP_004240967.1|  Colicin E6 immunity protein [Morganella morg...   126    8e-36
+ref|NP_931528.1|  hypothetical protein plu4355 [Photorhabdus lumi...   126    1e-35
+ref|WP_021240646.1|  hypothetical protein [Enterobacter cloacae] ...   125    3e-35
+ref|WP_004256948.1|  cloacin [Providencia rettgeri] >gb|EFE54747....   125    4e-35
+ref|WP_021326918.1|  cloacin immunity protein, partial [Photorhab...   124    4e-35
+ref|WP_004909005.1|  hypothetical protein [Providencia rettgeri] ...   124    5e-35
+ref|WP_008438442.1|  cloacin [Pseudomonas sp. Ag1] >gb|EJF68664.1...   124    6e-35
+ref|WP_010176879.1|  cloacin [Pseudomonas sp. PAMC 25886]              124    6e-35
+ref|YP_003713430.1|  Colicin-E3 immunity protein [Xenorhabdus nem...   131    7e-35
+ref|WP_003210327.1|  cloacin [Pseudomonas fluorescens] >gb|ESW557...   123    2e-34
+ref|WP_017135422.1|  cloacin [Pseudomonas fluorescens]                 122    6e-34
+ref|WP_017529170.1|  hypothetical protein [Pseudomonas fluorescens]    121    1e-33
+ref|YP_002874612.1|  putative colicin-E3 immunity protein [Pseudo...   121    2e-33
+ref|WP_016979615.1|  hypothetical protein [Pseudomonas fluorescens]    119    5e-33
+ref|WP_004170380.1|  immunity protein, partial [Klebsiella pneumo...   115    1e-31
+ref|YP_005199079.1|  Cloacin immunity protein [Rahnella aquatilis...   114    6e-31
+ref|YP_002150699.1|  colicin immunity protein [Proteus mirabilis ...   113    9e-31
+ref|WP_009635203.1|  putative colicin-E3 immunity protein [Serrat...   107    2e-28
+ref|WP_023284665.1|  cloacin immunity protein, partial [Klebsiell...   100    1e-25
+ref|YP_007398818.1|  Colicin-E3 immunity protein [Pseudomonas poa...  92.5    2e-22
+ref|WP_023046849.1|  hypothetical protein, partial [Photorhabdus ...  86.8    2e-20
+ref|YP_008427998.1|  cloacin immunity protein [Klebsiella pneumon...  85.2    5e-20
+ref|WP_023046758.1|  hypothetical protein, partial [Photorhabdus ...  82.5    7e-19
+ref|WP_020326704.1|  cloacin immunity domain protein, partial [Kl...  80.6    4e-18
+ref|YP_348016.1|  hypothetical protein Pfl01_2284 [Pseudomonas fl...  79.4    1e-17
+ref|WP_020326636.1|  cloacin immunity domain protein, partial [Kl...  67.5    4e-13
+ref|WP_004242598.1|  immunity protein, partial [Klebsiella pneumo...  47.9    9e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_007062455.1|  hypothetical protein Syn6312_2841 [Synechoco...  36.7    0.11 
+ref|YP_003999961.1|  sam-dependent methyltransferase [Bifidobacte...  36.3    1.1  
+ref|WP_009442211.1|  peptide-binding protein [Selenomonas sp. ora...  35.5    1.8  
+ref|XP_003284465.1|  hypothetical protein DICPUDRAFT_148217 [Dict...  35.9    1.8  
+ref|XP_001265477.1|  glycosyl hydrolase, putative [Neosartorya fi...  35.1    2.2  
+ref|YP_007134064.1|  hypothetical protein Sta7437_3600 [Stanieria...  34.8    2.6  
+ref|XP_003288732.1|  hypothetical protein DICPUDRAFT_153006 [Dict...  35.1    2.6  
+ref|WP_022488805.1|  thioredoxin reductase [Clostridium sp. CAG:9...  34.8    2.6  
+ref|YP_006622302.1|  hypothetical protein Desmer_2514 [Desulfospo...  35.1    2.6  
+gb|EIM23237.1|  hypothetical protein WALSEDRAFT_31385 [Wallemia s...  35.1    2.7  
+ref|WP_022423668.1|  hypothetical protein [Clostridium sp. CAG:44...  34.4    2.8  
+gb|EGW33741.1|  hypothetical protein SPAPADRAFT_147731 [Spathaspo...  34.4    5.6  
+ref|YP_004776450.1|  ArsR family transcriptional regulator [Cyclo...  32.8    6.2  
+ref|WP_018979061.1|  hypothetical protein [Saccharibacillus kuerl...  33.6    6.6  
+
+
+>ref|WP_000523383.1| cloacin [Escherichia coli]
+ gb|EJE58573.1| immunity protein [Escherichia coli O111:H8 str. CVM9602]
+Length=85
+
+ Score =  147 bits (372),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVKKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>ref|WP_004146437.1| cloacin [Klebsiella pneumoniae]
+ gb|EEW43929.1| colicin-E3 immunity protein [Klebsiella pneumoniae subsp. rhinoscleromatis 
+ATCC 13884]
+ emb|CCI69626.1| immC [Klebsiella pneumoniae]
+Length=85
+
+ Score =  147 bits (372),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVEKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>emb|CAA45168.1| immunity protein [Escherichia coli]
+Length=85
+
+ Score =  147 bits (371),  Expect = 8e-44, Method: Composition-based stats.
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TEDFKGEEYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WVPLLQ
+Sbjct  1   MGLKLNLTWFDKKTEDFKGEEYSKDFGDDGSVIESLGMPLKDNINNGGFDVKKSWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF ++I++    Y +SFDYRDG+W
+Sbjct  61  PYFKNKIEVDKYWYQISFDYRDGNW  85
+
+
+>ref|WP_000523382.1| Cloacin immunity protein [Bacillus cereus]
+ gb|AAF05609.1|AF190857_2 Cim [Klebsiella pneumoniae]
+Length=85
+
+ Score =  145 bits (367),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 68/85 (80%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+LTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LLQ
+Sbjct  1   MGLKLNLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H+I++SD+ YFVSFDYRDG+W
+Sbjct  61  PYFKHKINLSDSSYFVSFDYRDGNW  85
+
+
+>ref|WP_022644819.1| colicin-E3 immunity protein [Klebsiella pneumoniae]
+ gb|ERO93702.1| colicin-E3 immunity protein [Klebsiella pneumoniae BIDMC 12C]
+Length=85
+
+ Score =  144 bits (364),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 69/85 (81%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKLDLTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LLQ
+Sbjct  1   MGLKLDLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H+I++SD+ YFVSFDYRDG+W
+Sbjct  61  PYFKHKINLSDSSYFVSFDYRDGNW  85
+
+
+>ref|YP_001456626.1| hypothetical protein CKO_pCKO3p06149 [Citrobacter koseri ATCC 
+BAA-895]
+ ref|YP_002286815.1| immunity protein [Klebsiella pneumoniae]
+ ref|YP_006958617.1| immunnity protein [Klebsiella pneumoniae]
+ ref|YP_006958963.1| immunity protein [Klebsiella pneumoniae]
+ ref|YP_007391612.1| Colicin-E6 immunity protein (ImmE6) (Microcin-E6 immunity protein) 
+[Enterobacter aerogenes EA1509E]
+ ref|YP_008166956.1| immunity protein [Klebsiella pneumoniae]
+ ref|WP_004152553.1| cloacin [Enterobacteriaceae]
+ gb|ABC25557.1| immunnity protein [Klebsiella pneumoniae]
+ gb|ABV16190.1| hypothetical protein CKO_pCKO3p06149 [Citrobacter koseri ATCC 
+BAA-895]
+ gb|ACI63077.1| immunity protein [Klebsiella pneumoniae]
+ gb|AEG74531.1| immunity protein [Klebsiella pneumoniae]
+ gb|EJJ32335.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH1]
+ gb|EJJ32658.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH2]
+ gb|EJJ33578.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH4]
+ gb|EJJ52255.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH7]
+ gb|EJJ65879.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH9]
+ gb|EJJ67241.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH8]
+ gb|EJJ72759.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH10]
+ gb|EJJ82861.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH11]
+ gb|EJJ83631.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH12]
+ gb|EJJ89608.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH14]
+ gb|EJJ99257.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH17]
+ gb|EJJ99673.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH16]
+ gb|EJK09168.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH18]
+ gb|EJK13717.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH20]
+ gb|EJK16673.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH19]
+ gb|EJK21273.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH21]
+ gb|EJK30879.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH22]
+ gb|EJK38225.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KPNIH23]
+ gb|EKB62230.1| cloacin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+WGLW1]
+ gb|EKB72009.1| cloacin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+WGLW3]
+ emb|CCM83921.1| colicin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+ST258-K26BO]
+ emb|CCM87123.1| colicin immunity protein [Klebsiella pneumoniae subsp. pneumoniae 
+ST258-K28BO]
+ emb|CCG28573.1| Colicin-E6 immunity protein (ImmE6) (Microcin-E6 immunity protein) 
+[Enterobacter aerogenes EA1509E]
+ gb|EMI35663.1| colicin-E3 immunity protein [Klebsiella pneumoniae VA360]
+ gb|EMR16144.1| immunity protein [Klebsiella pneumoniae ATCC BAA-1705]
+ gb|ENY54653.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae KpMDU1]
+ gb|EOR17204.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC23]
+ gb|EOY65903.1| cloacin immunity protein [Klebsiella pneumoniae KP-7]
+ gb|EOY70021.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC40]
+ gb|EOY76314.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC09]
+ gb|EOY76908.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC01]
+ gb|EOY83887.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC81]
+ gb|EOY91636.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC27]
+ gb|EOY92902.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC24]
+ gb|EOY95120.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC26]
+ gb|EOZ08834.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC04]
+ gb|EOZ28080.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC269]
+ gb|EOZ29897.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC254]
+ gb|EOZ32194.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC280]
+ gb|EOZ42632.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC270]
+ gb|EOZ47755.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC297]
+ gb|EOZ53251.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC276]
+ gb|EOZ65436.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC309]
+ gb|EOZ66584.1| cloacin immunity protein [Klebsiella pneumoniae 361_1301]
+ gb|EOZ71407.1| cloacin immunity protein [Klebsiella pneumoniae 440_1540]
+ gb|EOZ83268.1| cloacin immunity protein [Klebsiella pneumoniae 500_1420]
+ gb|EOZ95105.1| cloacin immunity protein [Klebsiella pneumoniae 540_1460]
+ gb|EOZ99842.1| cloacin immunity protein [Klebsiella pneumoniae 646_1568]
+ gb|EPA93713.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC57]
+ gb|EPB04226.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC 52]
+ gb|EPB10026.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC05]
+ gb|EPB17918.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC45]
+ gb|EPB20739.1| cloacin immunity protein [Klebsiella pneumoniae VAKPC278]
+ gb|EPB28809.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC29]
+ gb|EPB29123.1| cloacin immunity protein [Klebsiella pneumoniae DMC0526]
+ gb|EPB36065.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC48]
+ gb|EPB42600.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC32]
+ gb|AGO62306.1| immunity protein [Klebsiella pneumoniae]
+ gb|EPN89520.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC47]
+ gb|EPN91582.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC28]
+ gb|EPO03610.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC69]
+ gb|EPO04376.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC77]
+ gb|EPO11983.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC96]
+ gb|EPO19334.1| cloacin immunity protein [Klebsiella pneumoniae DMC1097]
+ gb|EPO19713.1| cloacin immunity protein [Klebsiella pneumoniae DMC0799]
+ gb|EPO27911.1| cloacin immunity protein [Klebsiella pneumoniae DMC1316]
+ gb|EPO28380.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC61]
+ gb|EPO34799.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC33]
+ gb|EPO45686.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC07]
+ gb|EPO48804.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC59]
+ gb|EPO61037.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC18]
+ gb|EPO63941.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC17]
+ gb|EPO69191.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC06]
+ gb|EPO82367.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC02]
+ gb|EPO85481.1| cloacin immunity protein [Klebsiella pneumoniae UHKPC67]
+ gb|EPO94958.1| cloacin immunity protein [Klebsiella pneumoniae 160_1080]
+ gb|EPO98288.1| cloacin immunity protein [Klebsiella pneumoniae 120_1020]
+ gb|EPP11090.1| cloacin immunity protein [Klebsiella pneumoniae 280_1220]
+ gb|EPS05724.1| immunity protein [Klebsiella pneumoniae subsp. pneumoniae MP14]
+ gb|EQN11761.1| cloacin immunity protein [Escherichia coli HVH 4 (4-7276109)]
+ gb|ERO72492.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 16]
+ gb|ERO72922.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 18C]
+ gb|ERO93696.1| cloacin immunity protein [Klebsiella pneumoniae BIDMC 12C]
+ gb|ESE24890.1| colicin-E3 immunity protein [Escherichia coli 908691]
+ gb|ESM44902.1| cloacin immunity protein [Klebsiella pneumoniae BWH 28]
+ gb|ETF14215.1| cloacin immunity protein [Escherichia coli HVH 23 (4-6066488)]
+Length=85
+
+ Score =  143 bits (361),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 60/85 (71%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQ
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKSWVSILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F + IDIS  +YFVSF YRDG+W
+Sbjct  61  PHFKNVIDISKFDYFVSFVYRDGNW  85
+
+
+>ref|NP_052371.1| cloacin immunity protein [Escherichia coli]
+ ref|WP_010891189.1| cloacin immunity protein [Escherichia coli]
+ sp|P02986.1|IMMC_ECOLX RecName: Full=Cloacin immunity protein
+ emb|CAA28146.1| unnamed protein product [Escherichia coli]
+ gb|EQN57609.1| cloacin immunity protein [Escherichia coli HVH 20 (4-5865042)]
+Length=85
+
+ Score =  143 bits (361),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 60/85 (71%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQ
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKPWVSILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F + IDIS  +YFVSF YRDG+W
+Sbjct  61  PHFKNVIDISKFDYFVSFVYRDGNW  85
+
+
+>ref|WP_001419702.1| colicin-E3 immunity protein [Escherichia coli]
+ gb|EMZ99802.1| colicin-E3 immunity protein [Escherichia coli P0299917.1]
+ gb|ENB49103.1| colicin-E3 immunity protein [Escherichia coli MP021561.3]
+ gb|ENC85273.1| colicin-E3 immunity protein [Escherichia coli P0301867.11]
+Length=85
+
+ Score =  141 bits (357),  Expect = 1e-41, Method: Composition-based stats.
+ Identities = 62/85 (73%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK  E+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDV   WVP+LQ
+Sbjct  1   MGLKLHIHWFDKKNEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVEKRWVPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF + IDIS  +YFVSFDYRDGDW
+Sbjct  61  PYFKNVIDISKFDYFVSFDYRDGDW  85
+
+
+>ref|WP_008005819.1| cloacin [Pseudomonas sp. GM50]
+ gb|EJM70785.1| Cloacin immunity protein [Pseudomonas sp. GM50]
+Length=84
+
+ Score =  140 bits (353),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 50/85 (59%), Positives = 67/85 (79%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +GEE SKDFGDDGSV+E+LG+P ++N+NNG FDV + WV  LQ
+Sbjct  1   MGLKIRLEWYDKKTEIGQGEELSKDFGDDGSVIEALGMPIENNINNGGFDVASNWVGTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F+H I++S  +Y V+F YRD +W
+Sbjct  61  PHFHHVINLSSYDYQVAFIYRD-NW  84
+
+
+>ref|YP_003237830.1| probable colicin immunity protein [Escherichia coli O111:H- str. 
+11128]
+ ref|WP_000523347.1| cloacin [Escherichia coli]
+ dbj|BAI39400.1| probable colicin immunity protein [Escherichia coli O111:H- str. 
+11128]
+ gb|EKT96930.1| colicin immunity protein [Escherichia coli O111:H8 str. CFSAN001632]
+Length=85
+
+ Score =  139 bits (352),  Expect = 7e-41, Method: Composition-based stats.
+ Identities = 72/85 (85%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDIS NEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISGNEYFVSFDYRDGDW  85
+
+
+>gb|AAA23081.1| immunity protein E6 [Plasmid ColE6-CT14]
+Length=85
+
+ Score =  139 bits (351),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 73/85 (86%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+P KDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPLKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>ref|WP_000523346.1| cloacin [Escherichia coli]
+ sp|P02984.3|IMM3_ECOLX RecName: Full=Colicin-E3 immunity protein; AltName: Full=Colicin-E3 
+chain B; AltName: Full=ImmE3; AltName: Full=Microcin-E3 
+immunity protein
+ pdb|1E44|A Chain A, Ribonuclease Domain Of Colicin E3 In Complex With Its 
+Immunity Protein
+ emb|CAA26242.1| unnamed protein product [Escherichia coli]
+ gb|AAA88417.1| immunity protein E3 [Escherichia coli]
+ gb|AAA98285.1| immunity protein 2 [Plasmid ColE3-CA38]
+ emb|CAA25608.1| unnamed protein product [Escherichia coli]
+ dbj|BAF99005.1| colicin E3 immunity protein [Positive selection vector pTCS]
+ gb|EIL27485.1| colicin immunity protein [Escherichia coli O111:H8 str. CVM9570]
+Length=85
+
+ Score =  139 bits (350),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 85/85 (100%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ
+Sbjct  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>sp|P13477.1|IMM6_ECOLX RecName: Full=Colicin-E6 immunity protein; AltName: Full=ImmE6; 
+AltName: Full=Microcin-E6 immunity protein
+ emb|CAA33856.1| unnamed protein product [Plasmid ColE6-CT14]
+Length=85
+
+ Score =  138 bits (348),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 74/85 (87%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+E LG+PFKDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKRTEEFKGGEYSKDFGDDGSVIERLGMPFKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>prf||1615299B colicin E6 immunity protein
+Length=85
+
+ Score =  138 bits (348),  Expect = 3e-40, Method: Composition-based stats.
+ Identities = 74/85 (87%), Positives = 80/85 (94%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL + WFDK+TE+FKG EYSKDFGDDGSV+E LG+PFKDN+NNG FDVIAEWVPLLQ
+Sbjct  1   MGLKLHINWFDKTTEEFKGGEYSKDFGDDGSVIERLGMPFKDNINNGWFDVIAEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+
+
+>ref|WP_016986577.1| cloacin [Pseudomonas fluorescens]
+Length=85
+
+ Score =  137 bits (347),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 45/82 (55%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T+  +GEEYSKD GDD +V+ +LG+P ++N+NNG F+V+ EW+P++Q
+Sbjct  2   MGLKLRLEWYDKQTDLCEGEEYSKDLGDDETVLNALGIPVENNINNGGFNVLEEWIPVIQ  61
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H I     +Y +SFDY D
+Sbjct  62  PYFQHSIVFKTYDYQISFDYSD  83
+
+
+>ref|WP_023282492.1| hypothetical protein [Klebsiella pneumoniae]
+ gb|AAT85005.1| klebicin C immunity [Klebsiella pneumoniae]
+ gb|AAT85009.1| klebicin C immunity [Klebsiella oxytoca]
+ gb|ESL40356.1| hypothetical protein L473_01484 [Klebsiella pneumoniae BIDMC 
+36]
+Length=84
+
+ Score =  137 bits (346),  Expect = 5e-40, Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 65/82 (79%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WF+K T+   G+EYSKDFGDDGSV+ESLG+P KDN+NNG FD+   W+PLLQ
+Sbjct  1   MGLKLRLEWFNKQTDLLVGKEYSKDFGDDGSVIESLGIPLKDNINNGGFDLEESWIPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++I+   N Y +SFDYRD
+Sbjct  61  PHFKNKIETDKNLYQISFDYRD  82
+
+
+>ref|WP_019454360.1| cloacin [Serratia marcescens]
+Length=84
+
+ Score =  136 bits (344),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 64/82 (78%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFD  TE F GEEY+ DFGDDGS++E LG+P +DN+NNG FDV  EWVPLLQ
+Sbjct  1   MGLKLHLEWFDYKTEAFIGEEYTNDFGDDGSIIEYLGLPLEDNINNGGFDVTKEWVPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++I+I    Y +SFDYR+
+Sbjct  61  PHFKNKIEIDKYWYQISFDYRE  82
+
+
+>emb|CDG14773.1| bacteriocin immunity protein [Serratia marcescens subsp. marcescens 
+Db11]
+Length=85
+
+ Score =  136 bits (343),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 51/85 (60%), Positives = 64/85 (75%), Gaps = 0/85 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL+L WF+  +  F GEEYSKDFGDDGSV+E LG+P +DN+NNG F+V   W+PLLQ
+Sbjct  1   MGLKLNLVWFEIDSRQFVGEEYSKDFGDDGSVIEGLGLPLEDNINNGGFNVERGWIPLLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF  +I      Y +SFDY+DG+W
+Sbjct  61  PYFKTKISPEKFAYQISFDYQDGNW  85
+
+
+>ref|WP_003279736.1| colicin immunity protein [Pseudomonas stutzeri]
+ gb|EHY75887.1| colicin immunity protein [Pseudomonas stutzeri ATCC 14405 = CCUG 
+16156]
+Length=134
+
+ Score =  137 bits (346),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 41/83 (49%), Positives = 60/83 (72%), Gaps = 0/83 (0%)
+
+Query  1    MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+            MGL++ L W+DK  +   G EYS D GDD S++E L +P  ++VNNG FD+  EW  +LQ
+Sbjct  51   MGLRIRLNWYDKHNDLGVGREYSDDMGDDTSIIELLSLPISESVNNGEFDISIEWSTILQ  110
+
+Query  61   PYFNHQIDISDNEYFVSFDYRDG  83
+            PYF H+I++++++Y V+FDYRD 
+Sbjct  111  PYFKHKINLTEHDYQVAFDYRDA  133
+
+
+>pdb|3EIP|A Chain A, Crystal Structure Of Colicin E3 Immunity Protein: An 
+Inhibitor To A Ribosome-Inactivating Rnase
+ pdb|3EIP|B Chain B, Crystal Structure Of Colicin E3 Immunity Protein: An 
+Inhibitor To A Ribosome-Inactivating Rnase
+ pdb|1JCH|B Chain B, Crystal Structure Of Colicin E3 In Complex With Its 
+Immunity Protein
+ pdb|1JCH|D Chain D, Crystal Structure Of Colicin E3 In Complex With Its 
+Immunity Protein
+ pdb|2B5U|B Chain B, Crystal Structure Of Colicin E3 V206c Mutant In Complex 
+With Its Immunity Protein
+ pdb|2B5U|D Chain D, Crystal Structure Of Colicin E3 V206c Mutant In Complex 
+With Its Immunity Protein
+Length=84
+
+ Score =  135 bits (341),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  2   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  61
+           GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP
+Sbjct  1   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  60
+
+Query  62  YFNHQIDISDNEYFVSFDYRDGDW  85
+           YFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  YFNHQIDISDNEYFVSFDYRDGDW  84
+
+
+>ref|WP_007918564.1| cloacin [Pseudomonas]
+ gb|EJL96757.1| Cloacin immunity protein [Pseudomonas sp. GM16]
+ gb|EJM39722.1| Cloacin immunity protein [Pseudomonas sp. GM24]
+Length=84
+
+ Score =  135 bits (340),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 46/82 (56%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T+  +GEEYSKD GDD  V+ +LG+P ++N+NNG F+V  EWVP++Q
+Sbjct  1   MGLKLRLEWYDKQTDLCEGEEYSKDLGDDEGVLNALGIPVENNINNGGFNVFEEWVPIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H I     +Y +SFDY D
+Sbjct  61  PYFQHGIVFKTYDYQISFDYSD  82
+
+
+>ref|WP_004876984.1| cloacin [Yersinia mollaretii]
+ gb|EEQ09148.1| Colicin-E6 immunity protein [Yersinia mollaretii ATCC 43969]
+Length=84
+
+ Score =  134 bits (339),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFDK TE  KGEEYS D   DGSV+E LG+P +DN+NNG FD+   W+P+LQ
+Sbjct  1   MGLKLHLDWFDKKTELCKGEEYSVDLQTDGSVIEQLGLPLEDNINNGGFDIEDHWIPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            YF+H IDIS  +Y +SFDYRD
+Sbjct  61  KYFSHHIDISKYDYQISFDYRD  82
+
+
+>ref|WP_008072799.1| cloacin [Pseudomonas sp. GM79]
+ gb|EJN21688.1| Cloacin immunity protein [Pseudomonas sp. GM79]
+Length=84
+
+ Score =  134 bits (338),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 42/81 (52%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE   G+EYS D GDDGSV+ +LG+  +  + +G FDV++ WVP LQ
+Sbjct  1   MGLKVRLDWYDKETEIAAGKEYSADLGDDGSVINALGLMAESEIYDGGFDVLSAWVPKLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+I+  +Y V+F YR
+Sbjct  61  PLFKHKINIAAFDYQVAFRYR  81
+
+
+>ref|WP_021324208.1| cloacin immunity protein [Photorhabdus temperata]
+ gb|EQC00700.1| cloacin immunity protein [Photorhabdus temperata subsp. temperata 
+M1021]
+Length=85
+
+ Score =  134 bits (338),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 52/83 (63%), Positives = 64/83 (77%), Gaps = 1/83 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV +L
+Sbjct  1   MGLKLRLEWFDKQTELGEGYEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSVL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRD  82
+           QP+F HQID+S  +Y +SFDYRD
+Sbjct  61  QPHFCHQIDLSAYDYQISFDYRD  83
+
+
+>prf||0706253A colicin E3 B subunit immunity protein
+Length=84
+
+ Score =  134 bits (337),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 83/84 (99%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  2   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  61
+           GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVN+GCFDVIAEWVPLLQP
+Sbjct  1   GLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNDGCFDVIAEWVPLLQP  60
+
+Query  62  YFNHQIDISDNEYFVSFDYRDGDW  85
+           YFNHQIDISDNEYFVSFDYRDGDW
+Sbjct  61  YFNHQIDISDNEYFVSFDYRDGDW  84
+
+
+>ref|WP_007958170.1| cloacin [Pseudomonas sp. GM25]
+ gb|EJM24751.1| Cloacin immunity protein [Pseudomonas sp. GM25]
+Length=84
+
+ Score =  134 bits (337),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 41/81 (51%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +G+EYS D GDDGS++ESLG+  ++ + +G FDV  +W+  LQ
+Sbjct  1   MGLKVRLNWYDKKTELAEGKEYSVDLGDDGSIIESLGLLEENEIYDGGFDVRNDWIAKLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+ +  +Y VSF YR
+Sbjct  61  PLFTHKIEPAVFDYQVSFRYR  81
+
+
+>ref|WP_003197959.1| cloacin [Pseudomonas fluorescens]
+ gb|EIK70121.1| immunity protein, cloacin/colicin family [Pseudomonas fluorescens 
+Q8r1-96]
+Length=84
+
+ Score =  134 bits (337),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 39/85 (46%), Positives = 57/85 (67%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE  +G+EYS D GDD SV+ +L +  +  + +G FDV AEW+P++Q
+Sbjct  1   MGLKIRLDWYDKKTELGEGKEYSNDLGDDLSVITALDLESEPEIYDGGFDVRAEWIPIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I     +Y ++F YR  +W
+Sbjct  61  PFFEHSIAPEKFDYQIAFRYR-ANW  84
+
+
+>ref|WP_003222349.1| cloacin [Pseudomonas fluorescens]
+ gb|EJZ56911.1| Cloacin immunity protein [Pseudomonas fluorescens R124]
+Length=84
+
+ Score =  133 bits (336),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 44/82 (54%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L W+DK T   + EEYSKD GDD SV+ +LG+P ++N+NNG F+V+  W P+LQ
+Sbjct  1   MGLKLRLEWYDKHTHLCEDEEYSKDLGDDESVLNALGIPVENNINNGGFNVVESWTPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF + I ++  +Y +SFDY D
+Sbjct  61  PYFQNNISLTTYDYQISFDYSD  82
+
+
+>ref|WP_007906701.1| cloacin [Pseudomonas sp. GM102]
+ gb|EJL94915.1| Cloacin immunity protein [Pseudomonas sp. GM102]
+Length=84
+
+ Score =  133 bits (335),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 41/81 (51%), Positives = 58/81 (72%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L W+DK TE   G+EYS D GDDGSV+++LG+  +  + +G FDV++ WVP LQ
+Sbjct  1   MGLKIRLDWYDKETEIAAGKEYSADLGDDGSVIDALGLMAESEIYDGGFDVLSAWVPELQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+           P F H+I+ +  +Y V+F YR
+Sbjct  61  PLFKHKINTAAFDYQVAFRYR  81
+
+
+>ref|WP_005176239.1| cloacin [Yersinia enterocolitica]
+ gb|EKA25320.1| hypothetical protein YWA314_20249 [Yersinia enterocolitica subsp. 
+enterocolitica WA-314]
+Length=84
+
+ Score =  132 bits (334),  Expect = 4e-38, Method: Composition-based stats.
+ Identities = 49/82 (60%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL L WFDK TE  KGEEYS D   DGSV+E LG+  ++N+NNG FD+   W+P+LQ
+Sbjct  1   MGLKLHLDWFDKKTELCKGEEYSADLQSDGSVIEQLGLQIENNINNGGFDIEEYWIPILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            YF+HQI+ S+ +Y +SFDYRD
+Sbjct  61  KYFSHQINTSEYDYQISFDYRD  82
+
+
+>ref|WP_020302007.1| putative colicin immunity protein [Pseudomonas sp. CF150]
+ gb|EPL11121.1| putative colicin immunity protein [Pseudomonas sp. CF150]
+Length=85
+
+ Score =  130 bits (327),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 39/84 (46%), Positives = 61/84 (73%), Gaps = 0/84 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+ +LG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKIRLEWFDRTTERLNGTESSADCGDDYSVISTLGLLSAVDVNNGMFELRREWLSVIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGD  84
+           P+F+H+I +S+++YF++FDY   +
+Sbjct  61  PHFSHEIALSESDYFIAFDYEVAN  84
+
+
+>ref|WP_021326644.1| cloacin immunity protein [Photorhabdus temperata]
+ gb|EQB98201.1| cloacin immunity protein [Photorhabdus temperata subsp. temperata 
+M1021]
+ gb|ERT10412.1| hypothetical protein O185_24975 [Photorhabdus temperata J3]
+Length=85
+
+ Score =  130 bits (327),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 52/83 (63%), Positives = 63/83 (76%), Gaps = 1/83 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV  L
+Sbjct  1   MGLKLRLEWFDKQTELGEGYEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSAL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRD  82
+           QP+F HQID+S  +Y +SFDYRD
+Sbjct  61  QPHFYHQIDLSAYDYQISFDYRD  83
+
+
+>ref|WP_005791222.1| colicin transporter [Pseudomonas synxantha]
+ gb|EIK71867.1| colicin-E3 immunity protein [Pseudomonas synxantha BG33R]
+Length=85
+
+ Score =  130 bits (327),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 38/84 (45%), Positives = 60/84 (71%), Gaps = 0/84 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WF+++TE   G   S D GDD +V+ SLG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKVRLEWFNRATERLCGTVNSADLGDDYTVISSLGLSTARDVNNGMFELRTEWLSMIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGD  84
+           PYF+H+I +S+++YF++FDY   +
+Sbjct  61  PYFSHEISLSESDYFIAFDYEVSN  84
+
+
+>ref|WP_019691250.1| hypothetical protein [Pseudomonas fluorescens]
+Length=84
+
+ Score =  129 bits (326),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 38/82 (46%), Positives = 59/82 (72%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG+K+ L W+DK TE    +E+S DFGDD S++ +LG+  +  + +G FDV+ +WV ++Q
+Sbjct  1   MGMKVRLEWYDKETEALAADEFSIDFGDDDSILAALGLSNEPEIFDGGFDVLPKWVAMIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+FNHQID +  +Y +SF YR+
+Sbjct  61  PHFNHQIDTNLFDYQISFRYRN  82
+
+
+>ref|WP_003238422.1| Colicin-E3 immunity protein [Pseudomonas fluorescens]
+ gb|ELQ09950.1| Colicin-E3 immunity protein [Pseudomonas fluorescens BRIP34879]
+Length=85
+
+ Score =  129 bits (326),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 39/84 (46%), Positives = 61/84 (73%), Gaps = 0/84 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+  LG+  ++++NNG F++  EW+ L+Q
+Sbjct  1   MGLKVRLEWFDRTTERLCGMEDSADLGDDYSVISELGLSVREDINNGMFELRPEWLSLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGD  84
+             F+H+I +S+N+YF++FDY + +
+Sbjct  61  TRFSHEIALSENDYFIAFDYENAN  84
+
+
+>ref|WP_023582386.1| Colicin E6 immunity protein [Proteus hauseri]
+ gb|EST59038.1| Colicin E6 immunity protein [Proteus hauseri ZMd44]
+Length=84
+
+ Score =  129 bits (325),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 46/82 (56%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+DLTWFDK TE F GEEYS D GDD +++E    P ++ +N G FDVI+ WVP LQ
+Sbjct  1   MGLKIDLTWFDKKTESFIGEEYSVDLGDDDTIIEQTVNPTENIINAGSFDVISAWVPYLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            Y  H+I+++  +Y V+FDYRD
+Sbjct  61  KYIKHKIELNKYDYQVAFDYRD  82
+
+
+>ref|WP_007895247.1| cloacin [Pseudomonas sp. GM102]
+ gb|EJM07312.1| Cloacin immunity protein [Pseudomonas sp. GM102]
+Length=84
+
+ Score =  128 bits (323),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 46/82 (56%), Positives = 63/82 (77%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGL++ L WFD++T+  KG+EYS+D G+DGSVM++LG+P ++ VNNG FDV   W+P LQ
+Sbjct  1   MGLRIRLHWFDEATDIEKGKEYSRDLGEDGSVMKALGLPIEETVNNGLFDVTQAWLPTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF HQID+S   Y + F YR+
+Sbjct  61  PYFGHQIDLSTFNYQIGFSYRE  82
+
+
+>ref|WP_007939531.1| cloacin [Pseudomonas sp. GM18]
+ gb|EJM14840.1| Cloacin immunity protein [Pseudomonas sp. GM18]
+Length=84
+
+ Score =  128 bits (322),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 44/82 (54%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG+K+ L W++K TE  +G EYSKDFG + S+M++LG+  ++N+NNG FD+  +W  +LQ
+Sbjct  1   MGMKVRLNWYNKKTEIGEGREYSKDFGGNASIMDNLGIAPENNINNGGFDIGEDWAAVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF H ID+S  +Y VSFDYRD
+Sbjct  61  PYFVHTIDLSAYDYQVSFDYRD  82
+
+
+>ref|WP_023315840.1| hypothetical protein [Enterobacter cloacae]
+ gb|ESM44883.1| hypothetical protein L400_04292 [Enterobacter cloacae BWH 29]
+Length=84
+
+ Score =  127 bits (321),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 56/82 (68%), Positives = 67/82 (82%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ ++WFDK TEDFKGEE SKDFG+D SVMESLG+P KDN+NNG FD+   WVP LQ
+Sbjct  1   MGLKIRISWFDKKTEDFKGEEVSKDFGEDSSVMESLGLPMKDNLNNGEFDMDNGWVPFLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F ++ID S   YFV+FDYRD
+Sbjct  61  PHFQNRIDTSKFNYFVAFDYRD  82
+
+
+>ref|WP_017892703.1| hypothetical protein [Serratia sp. S4]
+Length=84
+
+ Score =  127 bits (321),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 48/82 (59%), Positives = 61/82 (74%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL LTWFDK T++F GEEYSKDFGDD +++  LG+P  D +NNG F V   WVPL+Q
+Sbjct  1   MGLKLRLTWFDKKTDEFIGEEYSKDFGDDDTLIGRLGLPEDDTMNNGEFAVAKGWVPLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           PYF +QI     + F++F+YRD
+Sbjct  61  PYFKNQISSEKFDCFLAFNYRD  82
+
+
+>ref|YP_006325818.1| Colicin-E3 immunity protein [Pseudomonas fluorescens A506]
+ ref|WP_014719844.1| colicin transporter [Pseudomonas]
+ gb|AFJ55991.1| Colicin-E3 immunity protein [Pseudomonas fluorescens A506]
+ gb|EPJ85971.1| putative colicin immunity protein [Pseudomonas sp. CFT9]
+Length=85
+
+ Score =  127 bits (320),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 39/84 (46%), Positives = 60/84 (71%), Gaps = 0/84 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++TE   G E S D GDD SV+ +LG+    +VNNG F++  EW+ ++Q
+Sbjct  1   MGLKIRLEWFDRTTERLNGTESSADCGDDYSVISTLGLLSAVDVNNGMFELRREWLSVIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGD  84
+           P+F H+I +S+++YF++FDY   +
+Sbjct  61  PHFFHEIALSESDYFIAFDYEVAN  84
+
+
+>ref|WP_017253542.1| hypothetical protein [Pseudomonas tolaasii]
+Length=90
+
+ Score =  127 bits (320),  Expect = 6e-36, Method: Composition-based stats.
+ Identities = 34/85 (40%), Positives = 51/85 (60%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K + D K +EYS D  D  SV E+LG+  +  +    F+V+  W+  LQ
+Sbjct  1   MVMKIRLRWYEKHSNDLKADEYSADIDDADSVFEALGLSEETAIYADVFNVLQNWITTLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H I+ S  +Y +SF Y+ G W
+Sbjct  61  PYFQHAIEPSLFDYQISFRYQ-GTW  84
+
+
+>ref|WP_004240967.1| Colicin E6 immunity protein [Morganella morganii]
+ gb|EMP51417.1| Colicin E6 immunity protein [Morganella morganii SC01]
+Length=84
+
+ Score =  126 bits (318),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 44/85 (52%), Positives = 58/85 (68%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TEDF  +EYS D GDD +V+     P ++ +NNG FDVI+ WVP LQ
+Sbjct  1   MGLKVHLQWFDKKTEDFIDKEYSVDLGDDDTVITQTVNPTENIINNGWFDVISAWVPYLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+            +  H+ID+   +Y V+F YRD +W
+Sbjct  61  NHLKHKIDLGKYDYQVAFAYRD-NW  84
+
+
+>ref|NP_931528.1| hypothetical protein plu4355 [Photorhabdus luminescens subsp. 
+laumondii TTO1]
+ ref|WP_011148445.1| cloacin [Photorhabdus luminescens]
+ emb|CAE16727.1| unnamed protein product [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=84
+
+ Score =  126 bits (317),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 48/82 (59%), Positives = 60/82 (73%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLKL++ WFDK T +F GEEYS D GDDGSV+E LG+  +DN+NNG FDV  EWVP L+
+Sbjct  1   MGLKLNIAWFDKKTAEFIGEEYSGDLGDDGSVIEKLGLTIEDNINNGAFDVKKEWVPTLE  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+             F ++I+     Y +SFDYRD
+Sbjct  61  SCFKNKIETDKYWYKISFDYRD  82
+
+
+>ref|WP_021240646.1| hypothetical protein [Enterobacter cloacae]
+ gb|EPY98079.1| hypothetical protein L799_04080 [Enterobacter cloacae EC_38VIM1]
+Length=85
+
+ Score =  125 bits (315),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 43/86 (50%), Positives = 61/86 (71%), Gaps = 2/86 (2%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVME-SLGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLK+ L W+D  TE  +  E+S +FGD+  ++   L +P K+NVNNG FD+ AEW+P+L
+Sbjct  1   MGLKIRLQWYDMRTELGESTEFSNNFGDNMEIITICLRIPTKNNVNNGFFDIEAEWIPIL  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYRDGDW  85
+           QP+F H+I  +  +Y VSFDYRD +W
+Sbjct  61  QPHFVHKITPTIYDYQVSFDYRD-NW  85
+
+
+>ref|WP_004256948.1| cloacin [Providencia rettgeri]
+ gb|EFE54747.1| colicin-E3 immunity protein [Providencia rettgeri DSM 1131]
+Length=84
+
+ Score =  125 bits (314),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 43/82 (52%), Positives = 59/82 (72%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TE++ GEEYS D GD+ S++E    P ++ +NNGCFD++++WV  LQ
+Sbjct  1   MGLKIHLVWFDKQTEEYVGEEYSLDLGDNDSIIEETINPEENIINNGCFDMVSDWVSNLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            +  H I+ S  +Y VSFDYRD
+Sbjct  61  NHIKHNIEFSKYDYQVSFDYRD  82
+
+
+>ref|WP_021326918.1| cloacin immunity protein, partial [Photorhabdus temperata]
+ gb|EQB97910.1| cloacin immunity protein, partial [Photorhabdus temperata subsp. 
+temperata M1021]
+Length=76
+
+ Score =  124 bits (313),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 46/76 (61%), Positives = 57/76 (75%), Gaps = 1/76 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV ++WV +L
+Sbjct  1   MGLKLRLEWFDKQTELGEGCEYSKDFGDNADVMASGLGISTEDNINNGGFDVESKWVSVL  60
+
+Query  60  QPYFNHQIDISDNEYF  75
+           QP+F HQID+S  +Y 
+Sbjct  61  QPHFCHQIDLSAYDYQ  76
+
+
+>ref|WP_004909005.1| hypothetical protein [Providencia rettgeri]
+ gb|EKT57651.1| hypothetical protein OOC_07058 [Providencia rettgeri Dmel1]
+Length=84
+
+ Score =  124 bits (313),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 42/82 (51%), Positives = 58/82 (71%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFDK TE++ GEEYS D GDDGS++E    P ++ +NNGCFDV+++W   LQ
+Sbjct  1   MGLKIHLVWFDKQTEEYVGEEYSLDLGDDGSIIEKTINPEENIINNGCFDVLSDWASNLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+            +  H+   +  +Y VSFDYR+
+Sbjct  61  KHIKHKFKFNKYDYQVSFDYRE  82
+
+
+>ref|WP_008438442.1| cloacin [Pseudomonas sp. Ag1]
+ gb|EJF68664.1| putative colicin-E3 immunity protein [Pseudomonas sp. Ag1]
+Length=92
+
+ Score =  124 bits (313),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 30/85 (35%), Positives = 48/85 (56%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS D  D  S  E+LG+  +  +    F+V   W+  +Q
+Sbjct  1   MVMKVRLRWYDKQSNYVKADEYSADIDDAESFFETLGLSQETAIYADVFNVRPSWIATIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+  + +Y +SF Y+ G W
+Sbjct  61  PHFQHVIEPVNFDYQISFSYQ-GTW  84
+
+
+>ref|WP_010176879.1| cloacin [Pseudomonas sp. PAMC 25886]
+Length=92
+
+ Score =  124 bits (313),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 30/85 (35%), Positives = 52/85 (61%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS DF +  S  E+LG+  +  +    F+V+  W+ ++Q
+Sbjct  1   MVMKVRLRWYDKHSNYVKADEYSADFDNAESFFETLGLGQETAIYADVFNVLPSWIAIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+ ++ +Y +SF Y+ G W
+Sbjct  61  PHFQHAIEPANFDYQISFSYQ-GTW  84
+
+
+>ref|YP_003713430.1| Colicin-E3 immunity protein [Xenorhabdus nematophila ATCC 19061]
+ ref|WP_013184934.1| Colicin-E3 immunity protein [Xenorhabdus nematophila]
+ gb|AAZ06277.1| putative hemagglutinin/hemolysin [Xenorhabdus nematophila]
+ emb|CBJ91312.1| Colicin-E3 immunity protein (ImmE3) (Microcin-E3 immunity protein) 
+(Colicin-E3 chain B) (modular protein) [Xenorhabdus nematophila 
+ATCC 19061]
+Length=368
+
+ Score =  131 bits (331),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 46/81 (57%), Positives = 60/81 (74%), Gaps = 0/81 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MG++L LTWFDK  EDF G+EYS+D G D S++E+ G+P  D +NNG FDV+  WVP+LQ
+Sbjct  1   MGIQLKLTWFDKKNEDFVGKEYSQDLGYDDSIIENCGLPLDDTLNNGVFDVLDAWVPVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYR  81
+             FNHQI+   + Y +SFDYR
+Sbjct  61  GNFNHQINFDKHFYQISFDYR  81
+
+
+>ref|WP_003210327.1| cloacin [Pseudomonas fluorescens]
+ gb|ESW55738.1| hypothetical protein MHB_003442 [Pseudomonas fluorescens BBc6R8]
+Length=92
+
+ Score =  123 bits (310),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 30/85 (35%), Positives = 48/85 (56%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W+DK +   K +EYS D  D  S  E+LG+  +  +    F+V   W+  +Q
+Sbjct  1   MVMKVRLRWYDKQSNYVKADEYSGDIDDAESFFETLGLSQETAIYADVFNVRPSWIATIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P+F H I+  + +Y +SF Y+ G W
+Sbjct  61  PHFQHVIEPVNFDYQISFSYQ-GTW  84
+
+
+>ref|WP_017135422.1| cloacin [Pseudomonas fluorescens]
+Length=95
+
+ Score =  122 bits (307),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 29/85 (34%), Positives = 50/85 (59%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K ++D K +EYS D  D     E+LG+  +  +    ++V+  W+ +LQ
+Sbjct  1   MVMKIRLRWYEKHSDDLKADEYSADIVDADRSFEALGLSEESAIYADVYNVLPSWITILQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           P F H I+ +  +Y +SF Y+ G W
+Sbjct  61  PLFQHVIEPNRFDYQISFQYQ-GAW  84
+
+
+>ref|WP_017529170.1| hypothetical protein [Pseudomonas fluorescens]
+Length=85
+
+ Score =  121 bits (303),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 39/83 (47%), Positives = 59/83 (71%), Gaps = 0/83 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGLK+ L WFD++T+   G E S D G+D SV+  LG+   ++VNNG F++  EW+ L+Q
+Sbjct  1   MGLKVRLEWFDRTTKWLSGREDSADLGNDYSVISKLGLSVNEDVNNGMFELRQEWLSLIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDG  83
+            YF+H+I  S+++YF++FDY D 
+Sbjct  61  AYFSHEIVFSESDYFIAFDYEDA  83
+
+
+>ref|YP_002874612.1| putative colicin-E3 immunity protein [Pseudomonas fluorescens 
+SBW25]
+ ref|WP_015885785.1| cloacin [Pseudomonas fluorescens]
+ emb|CAY52126.1| putative colicin-E3 immunity protein [Pseudomonas fluorescens 
+SBW25]
+Length=95
+
+ Score =  121 bits (304),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 31/85 (36%), Positives = 51/85 (60%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L W++K + D K +EYS D  D  +V E+LG+  +  +    F+V   W+ ++Q
+Sbjct  1   MLMKIRLRWYEKHSNDLKADEYSADIADPDNVFEALGLGEETAIYADVFNVQPNWITIIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF H I+   ++Y +SF Y+ G W
+Sbjct  61  PYFQHMIEPDHHDYQLSFRYQ-GAW  84
+
+
+>ref|WP_016979615.1| hypothetical protein [Pseudomonas fluorescens]
+Length=95
+
+ Score =  119 bits (300),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 30/85 (35%), Positives = 52/85 (61%), Gaps = 1/85 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M +K+ L WFDK TE+ + +EYS +  +D  ++++L +  +  +  G FDV+  W+ +LQ
+Sbjct  1   MVMKVRLEWFDKQTENLEADEYSANLDEDDDILKALDLHDEPQIYAGGFDVLPSWIAVLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRDGDW  85
+           PYF   I+    ++ +SF Y+ G W
+Sbjct  61  PYFQRVIEPDLFDFQISFHYQ-GAW  84
+
+
+>ref|WP_004170380.1| immunity protein, partial [Klebsiella pneumoniae]
+ gb|EJK16034.1| immunity protein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KPNIH20]
+Length=71
+
+ Score =  115 bits (289),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  15  EDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEY  74
+           E+FKG EYSKDFGDDGSV+ESLG+P KDN+NNG FDV   WV +LQP+F + IDIS  +Y
+Sbjct  1   EEFKGGEYSKDFGDDGSVIESLGMPLKDNINNGWFDVEKSWVSILQPHFKNVIDISKFDY  60
+
+Query  75  FVSFDYRDGDW  85
+           FVSF YRDG+W
+Sbjct  61  FVSFVYRDGNW  71
+
+
+>ref|YP_005199079.1| Cloacin immunity protein [Rahnella aquatilis CIP 78.65 = ATCC 
+33071]
+ ref|WP_015696196.1| cloacin [Rahnella aquatilis]
+ gb|AEX50939.1| Cloacin immunity protein [Rahnella aquatilis CIP 78.65 = ATCC 
+33071]
+Length=83
+
+ Score =  114 bits (286),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 36/82 (44%), Positives = 50/82 (61%), Gaps = 0/82 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           MGL L L WFDK+ E   G+E S D G+DGS+++   +PF   + +G FDV+  W   LQ
+Sbjct  1   MGLALKLEWFDKADELLVGKEVSVDLGNDGSLIKKFSLPFDGRIYDGGFDVLQAWRSDLQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDYRD  82
+           P+F H+ID S  +Y + F   D
+Sbjct  61  PFFQHRIDFSRYDYQLVFKRTD  82
+
+
+>ref|YP_002150699.1| colicin immunity protein [Proteus mirabilis HI4320]
+ ref|WP_004251549.1| cloacin [Proteus mirabilis]
+ emb|CAR42092.1| colicin immunity protein [Proteus mirabilis HI4320]
+ gb|EKA97091.1| hypothetical protein HMPREF1310_02236 [Proteus mirabilis WGLW4]
+Length=82
+
+ Score =  113 bits (284),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 37/82 (45%), Positives = 55/82 (67%), Gaps = 1/82 (1%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVP-FKDNVNNGCFDVIAEWVPLL  59
+           MGLKL + WF+K T+DF GEEYSKD GDD  ++E    P  ++ +NNG F++  EW+  +
+Sbjct  1   MGLKLRIYWFNKKTKDFSGEEYSKDLGDDDFLIEETISPKNENIINNGEFELKKEWINTI  60
+
+Query  60  QPYFNHQIDISDNEYFVSFDYR  81
+           Q +  H+I+     YF++FDY+
+Sbjct  61  QKHVTHKIEPDKYTYFIAFDYQ  82
+
+
+>ref|WP_009635203.1| putative colicin-E3 immunity protein [Serratia sp. M24T3]
+ gb|EIC86324.1| putative colicin-E3 immunity protein [Serratia sp. M24T3]
+Length=81
+
+ Score =  107 bits (268),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 25/80 (31%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQ  60
+           M  K+ L WF+K   D +G+E+S    D+  +++ LG+  +  + +G +++  EW+  +Q
+Sbjct  1   MSYKMRLQWFNKENFDGEGKEFSAILDDNVYLLDKLGLSTEPRIYDGAYNISNEWLYYIQ  60
+
+Query  61  PYFNHQIDISDNEYFVSFDY  80
+           PYF HQI++   +Y ++F +
+Sbjct  61  PYFQHQINLQQYDYQLAFRH  80
+
+
+>ref|WP_023284665.1| cloacin immunity protein, partial [Klebsiella pneumoniae]
+ gb|ESL44353.1| cloacin immunity protein, partial [Klebsiella pneumoniae BIDMC 
+25]
+Length=59
+
+ Score =  100 bits (249),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 50/59 (85%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLL  59
+           MGLKLDLTWFDK TE+FKGEEYSKDFGDDGSV+ESLG+P KDN+NNGCFDV  EWV LL
+Sbjct  1   MGLKLDLTWFDKKTEEFKGEEYSKDFGDDGSVIESLGMPLKDNINNGCFDVKNEWVSLL  59
+
+
+>ref|YP_007398818.1| Colicin-E3 immunity protein [Pseudomonas poae RE*1-1-14]
+ ref|WP_015372921.1| Colicin-E3 immunity protein [Pseudomonas poae]
+ gb|AGE27322.1| Colicin-E3 immunity protein [Pseudomonas poae RE*1-1-14]
+Length=66
+
+ Score = 92.5 bits (229),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 28/64 (44%), Positives = 47/64 (73%), Gaps = 0/64 (0%)
+
+Query  21  EYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDY  80
+           E S D GDD SV+  LG+  ++++NNG F++  EW+ L+Q  F+H+I +S+N+YF++FDY
+Sbjct  2   EDSADLGDDYSVISELGLSVREDINNGMFELRPEWLSLIQTRFSHEIALSENDYFIAFDY  61
+
+Query  81  RDGD  84
+            + +
+Sbjct  62  ENAN  65
+
+
+>ref|WP_023046849.1| hypothetical protein, partial [Photorhabdus temperata]
+ gb|ERT10057.1| hypothetical protein O185_27925, partial [Photorhabdus temperata 
+J3]
+Length=56
+
+ Score = 86.8 bits (214),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 28/47 (60%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  36  LGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRD  82
+           LG+  +DN+NNG FDV ++WV +LQP+F HQID+S  +Y +SFDYRD
+Sbjct  8   LGISTEDNINNGGFDVESKWVSVLQPHFCHQIDLSAYDYQISFDYRD  54
+
+
+>ref|YP_008427998.1| cloacin immunity protein [Klebsiella pneumoniae JM45]
+ ref|WP_020956932.1| cloacin immunity protein [Klebsiella pneumoniae]
+ gb|AGT26972.1| cloacin immunity protein [Klebsiella pneumoniae JM45]
+Length=48
+
+ Score = 85.2 bits (210),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 29/48 (60%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  38  VPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRDGDW  85
+           +P KDN+NNG FDV   WVPLLQPYF ++I++    Y +SFDYRDG+W
+Sbjct  1   MPLKDNINNGGFDVEKPWVPLLQPYFKNKIEVDKYWYQISFDYRDGNW  48
+
+
+>ref|WP_023046758.1| hypothetical protein, partial [Photorhabdus temperata]
+ gb|ERT10158.1| hypothetical protein O185_27020, partial [Photorhabdus temperata 
+J3]
+Length=52
+
+ Score = 82.5 bits (203),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 34/52 (65%), Positives = 39/52 (75%), Gaps = 1/52 (2%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMES-LGVPFKDNVNNGCFDV  51
+           MGLKL L WFDK TE  +G EYSKDFGD+  VM S LG+  +DN+NNG FDV
+Sbjct  1   MGLKLRLEWFDKQTELGEGCEYSKDFGDNADVMASGLGISTEDNINNGGFDV  52
+
+
+>ref|WP_020326704.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae]
+ gb|EPP05317.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae 
+140_1040]
+Length=47
+
+ Score = 80.6 bits (198),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 30/47 (64%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  39  PFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDNEYFVSFDYRDGDW  85
+           P KDN+NNG FDV   WV +LQP+F + IDIS  +YFVSF YRDG+W
+Sbjct  1   PLKDNINNGWFDVEKSWVSILQPHFKNVIDISKFDYFVSFVYRDGNW  47
+
+
+>ref|YP_348016.1| hypothetical protein Pfl01_2284 [Pseudomonas fluorescens Pf0-1]
+ ref|WP_011333711.1| hypothetical protein [Pseudomonas fluorescens]
+ gb|ABA74027.1| putative colicin immunity protein [Pseudomonas fluorescens Pf0-1]
+Length=53
+
+ Score = 79.4 bits (195),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 26/53 (49%), Positives = 40/53 (75%), Gaps = 0/53 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIA  53
+           MGL+L L W+D +T  F+GEE S++ GD+ SV+ +LG+P + N+NNG F+V+ 
+Sbjct  1   MGLELRLEWYDTATLQFQGEESSRNLGDNESVLNALGIPVEGNINNGSFNVVE  53
+
+
+>ref|WP_020326636.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae]
+ gb|EPP08617.1| cloacin immunity domain protein, partial [Klebsiella pneumoniae 
+140_1040]
+Length=38
+
+ Score = 67.5 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGV  38
+           MGLKL + WFDK TE+FKG EYSKDFGDDGSV+ESLG+
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDFGDDGSVIESLGM  38
+
+
+>ref|WP_004242598.1| immunity protein, partial [Klebsiella pneumoniae]
+ gb|ENY55074.1| immunity protein, partial [Klebsiella pneumoniae subsp. pneumoniae 
+KpMDU1]
+Length=26
+
+ Score = 47.9 bits (113),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 20/26 (77%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  1   MGLKLDLTWFDKSTEDFKGEEYSKDF  26
+           MGLKL + WFDK TE+FKG EYSKDF
+Sbjct  1   MGLKLHIHWFDKKTEEFKGGEYSKDF  26
+
+
+>ref|YP_007062455.1| hypothetical protein Syn6312_2841 [Synechococcus sp. PCC 6312]
+ ref|WP_015125454.1| hypothetical protein [Synechococcus sp. PCC 6312]
+ gb|AFY61912.1| hypothetical protein Syn6312_2841 [Synechococcus sp. PCC 6312]
+Length=79
+
+ Score = 36.7 bits (84),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 21/72 (29%), Positives = 36/72 (50%), Gaps = 2/72 (3%)
+
+Query  5   LDLTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFN  64
+           L+LTW+ K  + F GE   K+  D   +   L +P  D ++     +       LQ + N
+Sbjct  6   LELTWYAKEGDQFIGETVLKEV-DLAKLRNLLNLPPDDPISY-IHPIKEAHASFLQGFTN  63
+
+Query  65  HQIDISDNEYFV  76
+            +ID+S+ +YF+
+Sbjct  64  IKIDLSEYDYFI  75
+
+
+>ref|YP_003999961.1| sam-dependent methyltransferase [Bifidobacterium longum subsp. 
+longum BBMN68]
+ ref|WP_013410812.1| DNA methyltransferase [Bifidobacterium longum]
+ gb|ADQ03058.1| SAM-dependent methyltransferase [Bifidobacterium longum subsp. 
+longum BBMN68]
+Length=431
+
+ Score = 36.3 bits (83),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 27/59 (46%), Gaps = 8/59 (14%)
+
+Query  14   TEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDISDN  72
+            TEDF  EE + DF  D S  + L  P    +  GCFDV+       Q +  H I  + +
+Sbjct  291  TEDFPAEESTNDF--DSSHWKYLYEPNASIMKAGCFDVLE------QRFAVHHISPNSH  341
+
+
+>ref|WP_009442211.1| peptide-binding protein [Selenomonas sp. oral taxon 149]
+ gb|EFM24123.1| putative FeS-containing Cyanobacterial-specific oxidoreductase 
+[Selenomonas sp. oral taxon 149 str. 67H29BP]
+Length=463
+
+ Score = 35.5 bits (81),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 32/70 (46%), Gaps = 6/70 (9%)
+
+Query  15   EDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAE----WVPLLQPYFNHQIDIS  70
+            E   G +    F  D    E LGV F+  V +G  +        +V ++ P+  H + + 
+Sbjct  57   EHADGTQECIAFDKDYD--EELGVEFESAVFDGIRECANHCYFCFVDMIAPHMRHSLSVK  114
+
+Query  71   DNEYFVSFDY  80
+            D++Y +SF Y
+Sbjct  115  DDDYRLSFLY  124
+
+
+>ref|XP_003284465.1| hypothetical protein DICPUDRAFT_148217 [Dictyostelium purpureum]
+ gb|EGC39012.1| hypothetical protein DICPUDRAFT_148217 [Dictyostelium purpureum]
+Length=970
+
+ Score = 35.9 bits (82),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 13/71 (18%), Positives = 27/71 (38%), Gaps = 15/71 (21%)
+
+Query  10   FDKSTEDFKGEE--------YSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQP  61
+            ++K +E +  +E        YS + GD  S++    +  +  + N  F +          
+Sbjct  444  YEKKSELYSSDESDILEFFKYSAEMGDISSLITMAKLSLEGTIMNQDFRMAIN-------  496
+
+Query  62   YFNHQIDISDN  72
+            YF   I+  + 
+Sbjct  497  YFKQAIEEDEY  507
+
+
+>ref|XP_001265477.1| glycosyl hydrolase, putative [Neosartorya fischeri NRRL 181]
+ gb|EAW23580.1| glycosyl hydrolase, putative [Neosartorya fischeri NRRL 181]
+Length=457
+
+ Score = 35.1 bits (80),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 24/81 (30%), Positives = 31/81 (38%), Gaps = 8/81 (10%)
+
+Query  10   FDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQI--  67
+            F K   D+    YS   G+D  V   L       +N    D    WV L Q  FN Q+  
+Sbjct  98   FQKGNNDYFPSNYSNYLGNDDQVFWGLAAMTAAELNYPEEDGQPSWVSLAQGVFNTQVPR  157
+
+Query  68   -DISD----NEYFVSFDYRDG  83
+             D S       + +S  Y+DG
+Sbjct  158  WDTSTCHGGLRWQIS-TYQDG  177
+
+
+>ref|YP_007134064.1| hypothetical protein Sta7437_3600 [Stanieria cyanosphaera PCC 
+7437]
+ ref|WP_015194760.1| hypothetical protein [Stanieria cyanosphaera]
+ gb|AFZ37098.1| hypothetical protein Sta7437_3600 [Stanieria cyanosphaera PCC 
+7437]
+Length=228
+
+ Score = 34.8 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 15/70 (21%), Positives = 31/70 (44%), Gaps = 1/70 (1%)
+
+Query  7    LTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQ  66
+            L WF+K  +D  GE+   +  +   + +  G+  ++ + +       E +  LQ   N +
+Sbjct  36   LRWFEKEGDDLVGEKVISNV-NLEHLQKLFGIDSENPMYDCYLVESPEQINYLQNLLNLE  94
+
+Query  67   IDISDNEYFV  76
+            +D    +Y V
+Sbjct  95   LDTKSYDYLV  104
+
+
+>ref|XP_003288732.1| hypothetical protein DICPUDRAFT_153006 [Dictyostelium purpureum]
+ gb|EGC34732.1| hypothetical protein DICPUDRAFT_153006 [Dictyostelium purpureum]
+Length=1774
+
+ Score = 35.1 bits (80),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 25/48 (52%), Gaps = 0/48 (0%)
+
+Query  22   YSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQIDI  69
+             S D  D   ++E L    K N++   FD +   VP+L+P FN  +DI
+Sbjct  383  SSNDVADATKILEDLIEKIKGNISKSEFDRLKSNVPMLKPAFNEIVDI  430
+
+
+>ref|WP_022488805.1| thioredoxin reductase [Clostridium sp. CAG:914]
+ emb|CDE95315.1| thioredoxin reductase [Clostridium sp. CAG:914]
+Length=297
+
+ Score = 34.8 bits (79),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 18/60 (30%), Positives = 26/60 (43%), Gaps = 6/60 (10%)
+
+Query  23   SKDFGDD--GSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYF-NHQIDISDNEYFVSFD  79
+            SK  GDD    ++   G    + + +G F +    +P  Q  F    ID+    Y VSFD
+Sbjct  199  SKIIGDDKLEKIIIKNGKKENEIIVDGMF-ISIGLMP--QSDFLKGIIDLDKFNYAVSFD  255
+
+
+>ref|YP_006622302.1| hypothetical protein Desmer_2514 [Desulfosporosinus meridiei 
+DSM 13257]
+ ref|WP_014903344.1| hypothetical protein [Desulfosporosinus meridiei]
+ gb|AFQ44431.1| hypothetical protein Desmer_2514 [Desulfosporosinus meridiei 
+DSM 13257]
+Length=916
+
+ Score = 35.1 bits (80),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 8/28 (29%), Positives = 15/28 (54%), Gaps = 0/28 (0%)
+
+Query  49   FDVIAEWVPLLQPYFNHQIDISDNEYFV  76
+            F V+   +   QPY  H+I+++   Y +
+Sbjct  307  FVVLPNELTKEQPYIQHEIEMTRYGYQL  334
+
+
+>gb|EIM23237.1| hypothetical protein WALSEDRAFT_31385 [Wallemia sebi CBS 633.66]
+Length=1089
+
+ Score = 35.1 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 23/53 (43%), Gaps = 9/53 (17%)
+
+Query  12  KSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFN  64
+           K  E  +  E S D  DDG+  E         +NN    V  EW  +++P FN
+Sbjct  24  KQPELLQSRENSLDSLDDGTFRE---------INNVLKHVRNEWAYVMEPNFN  67
+
+
+>ref|WP_022423668.1| hypothetical protein [Clostridium sp. CAG:440]
+ emb|CDE25410.1| unknown [Clostridium sp. CAG:440]
+Length=175
+
+ Score = 34.4 bits (78),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 26/50 (52%), Gaps = 4/50 (8%)
+
+Query  29  DGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYF----NHQIDISDNEY  74
+           D  ++  L    K+N+NN   D++   V  ++ YF      QI+++D EY
+Sbjct  28  DTELITLLQKIEKENINNDEIDLLERTVKNIENYFETKRKMQIEVNDYEY  77
+
+
+>gb|EGW33741.1| hypothetical protein SPAPADRAFT_147731 [Spathaspora passalidarum 
+NRRL Y-27907]
+Length=1096
+
+ Score = 34.4 bits (78),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 13/49 (27%), Positives = 26/49 (53%), Gaps = 7/49 (14%)
+
+Query  10   FDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPL  58
+            FD ++E F   ++S D GDD    + LG+  +       F++++  +P+
+Sbjct  886  FDDNSEQFMTGDFSNDLGDDFFGFKELGLDKE-------FNMLSSSIPI  927
+
+
+>ref|YP_004776450.1| ArsR family transcriptional regulator [Cyclobacterium marinum 
+DSM 745]
+ ref|WP_014022503.1| ArsR family transcriptional regulator [Cyclobacterium marinum]
+ gb|AEL28219.1| transcriptional regulator, ArsR family [Cyclobacterium marinum 
+DSM 745]
+Length=125
+
+ Score = 32.8 bits (74),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 10/23 (43%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  49   FDVIAEWVPLLQPYFNHQIDISD  71
+            + +  E +PLLQP+F H I+ S 
+Sbjct  99   YSLRQEQLPLLQPFFKHIINNSK  121
+
+
+>ref|WP_018979061.1| hypothetical protein [Saccharibacillus kuerlensis]
+Length=245
+
+ Score = 33.6 bits (76),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 31/71 (44%), Gaps = 2/71 (3%)
+
+Query  7    LTWFDKSTEDFKGEEYSKDFGDDGSVMESLGVPFKDNVNNGCFDVIAEWVPLLQPYFNHQ  66
+            L+W  K  +    EE   D G     + +L    +D+   G F ++ + +  LQ    H 
+Sbjct  175  LSW-SKKDDFIIHEEEQLD-GLSLEEIRTLLCLSEDHPMTGHFVIMEQRINQLQQKATHI  232
+
+Query  67   IDISDNEYFVS  77
+            ID    +YF+S
+Sbjct  233  IDTEKFDYFIS  243
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.162    0.601    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0503    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312731037600
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

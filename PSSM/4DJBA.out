@@ -1,0 +1,2502 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4DJBA
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|4DJB|A  Chain A, A Structural Basis For The Assembly And Func...   228    3e-74
+ref|AP_000230.1|  E4 ORF3 [Human adenovirus 5] >sp|P04489.1|E411_...   224    4e-73
+gb|AFS50398.1|  E4 control protein orf3 [Human adenovirus C]           223    1e-72
+ref|NP_040534.1|  control protein E4orf3 [Human adenovirus C] >re...   222    5e-72
+gb|ABH01064.1|  E4 orf 3 [Simian adenovirus 7]                         116    1e-30
+gb|AGK27193.1|  E4 ORF3 [Simian adenovirus C]                          116    1e-30
+ref|YP_213993.1|  E4 ORF3 [Simian adenovirus 1] >gb|AAX19426.1| E...   115    2e-30
+ref|YP_007906027.1|  E4 ORF3 [Simian adenovirus C] >gb|AGK27157.1...   114    5e-30
+gb|AAS10388.1|  E4 ORF 3 [Simian adenovirus 22] >gb|AAS10460.1| E...   111    1e-28
+gb|AAS10424.1|  E4 ORF 3 [Simian adenovirus 23]                        110    2e-28
+ref|AP_000334.1|  E4 ORF3 [Simian adenovirus 25]                       110    3e-28
+gb|AAL35540.1|AF394196_37  12.8 kDa [Simian adenovirus 25]             108    1e-27
+gb|AFD21963.1|  E4 orf3 [Simian adenovirus A1173] >gb|AFD21995.1|...   108    2e-27
+ref|YP_006272977.1|  E4Orf3 [Chimpanzee adenovirus Y25] >gb|AEW43...   107    3e-27
+ref|AP_000296.1|  E4 ORF3 [Simian adenovirus 21]                       107    3e-27
+ref|NP_040936.1|  E4 gene product [Human adenovirus A] >ref|AP_00...   107    4e-27
+ref|YP_068052.1|  control protein E4orf3 [Human adenovirus E] >gb...   106    7e-27
+gb|AGV32788.1|  E4 control protein orf3 [Human adenovirus B]           106    1e-26
+gb|AFD21899.1|  E4 orf3 [Simian adenovirus A1139] >gb|AFD21929.1|...   105    1e-26
+emb|CAO78655.1|  E4 11K homologue protein [Human adenovirus 31] >...   105    1e-26
+gb|ACZ92175.1|  ORF3 protein [Human adenovirus 18]                     105    3e-26
+ref|YP_004300228.1|  unnamed protein product [Simian adenovirus 4...   105    4e-26
+gb|AGT75612.1|  E4 control protein orf3 [Human adenovirus B]           102    4e-25
+ref|YP_002213849.1|  control protein E4orf3 [Human adenovirus B] ...   101    6e-25
+gb|AGT77760.1|  E4 control protein orf3 [Human adenovirus D]           100    2e-24
+gb|AGT76784.1|  E4 control protein orf3 [Human adenovirus D]           100    3e-24
+gb|AAW33144.1|  Orf3 protein [Human adenovirus 14] >gb|ACU57033.1...   100    3e-24
+gb|ACH90463.1|  E4 hypothetical protein 3 [Human adenovirus 41] >...  99.4    6e-24
+ref|NP_040880.1|  control protein E4orf3 [Human adenovirus F] >gb...  99.4    6e-24
+ref|YP_002213838.1|  control protein E4orf3 [Human adenovirus B] ...  99.0    8e-24
+ref|YP_008520247.1|  E4 orf3 [Simian adenovirus 18] >gb|AFD10582....  98.2    2e-23
+gb|AAW33281.1|  11 kDa protein [Human adenovirus 3] >gb|AAW33422....  98.2    2e-23
+gb|AGT76259.1|  E4 control protein orf3 [Human adenovirus B]          97.4    3e-23
+gb|ACY04493.1|  E4 ORF3 [Human adenovirus 36] >gb|ADW95441.1| ORF...  97.1    4e-23
+gb|AAZ32191.2|  E4 ORF3 [Human adenovirus B]                          96.7    5e-23
+gb|ACI04202.1|  ORF3 [Human adenovirus D] >dbj|BAH18802.1| 13.6kD...  96.3    8e-23
+ref|AP_000160.1|  E4 ORF3 [Human adenovirus D] >gb|ADY18449.1| 13...  96.3    8e-23
+ref|YP_003038630.1|  13.6 kDa protein [Human adenovirus 54] >dbj|...  95.5    2e-22
+dbj|BAL63207.1|  E4 ORF3 [Human adenovirus 67]                        95.5    2e-22
+dbj|BAH18874.1|  13.6kDa protein [Human adenovirus 8]                 95.1    2e-22
+gb|ACR78235.1|  hypothetical protein [Human adenovirus 22] >gb|AC...  95.1    2e-22
+ref|YP_001974472.1|  control protein E4orf3 [Human adenovirus D] ...  94.7    3e-22
+gb|AFK92677.1|  Orf3 [Human adenovirus 39]                            94.7    3e-22
+gb|AAB37506.1|  Orf3 [Human adenovirus 9] >prf||1817442C E4 gene ORF  94.7    3e-22
+dbj|BAH19198.1|  13.5kDa protein [Human adenovirus 37]                94.4    4e-22
+dbj|BAJ22308.1|  13.6kDa protein [Human adenovirus 15] >dbj|BAJ22...  94.0    6e-22
+gb|ACQ91174.1|  hypothetical protein 3 [Human adenovirus 28]          93.6    9e-22
+dbj|BAH18946.1|  13.5kDa protein [Human adenovirus 19] >gb|AFA467...  93.2    1e-21
+gb|AGW47863.1|  orf 3 protein [Human adenovirus 23]                   92.0    3e-21
+gb|AGT77454.1|  E4 control protein orf3 [Human adenovirus D]          91.3    7e-21
+dbj|BAL41741.1|  E4 ORF3 [Human adenovirus 65]                        90.9    8e-21
+ref|YP_067934.1|  E4 ORF3 [Simian adenovirus 3] >gb|AAT84644.1| E...  87.4    2e-19
+gb|AFG19611.1|  E4-3 [Simian adenovirus 6]                            85.5    1e-18
+ref|YP_007518094.1|  E4 orf3 [Simian adenovirus 20] >gb|AEF59069....  84.3    3e-18
+gb|AFS50352.1|  E4 control protein orf3/4 [Human adenovirus C]        71.2    7e-14
+gb|AAQ19313.1|  E4 orf 3/4 [Human adenovirus C] >gb|AAW65533.1| 7...  71.2    7e-14
+gb|AFQ34688.1|  E4 control protein orf3/4 [Human adenovirus C] >g...  68.2    1e-12
+ref|YP_007518340.1|  E4 ORF3 [Titi monkey adenovirus ECC-2011] >g...  57.4    2e-08
+ref|YP_068085.1|  E4 ORFE [Tree shrew adenovirus 1]                   38.5    0.15 
+ref|WP_020898133.1|  hypothetical protein [Winogradskyella psychr...  35.0    6.1  
+
+
+>pdb|4DJB|A Chain A, A Structural Basis For The Assembly And Functions Of 
+A Viral Polymer That Inactivates Multiple Tumor Suppressors
+ pdb|4DJB|B Chain B, A Structural Basis For The Assembly And Functions Of 
+A Viral Polymer That Inactivates Multiple Tumor Suppressors
+Length=130
+
+ Score =  228 bits (580),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 117/121 (97%), Positives = 117/121 (97%), Gaps = 0/121 (0%)
+
+Query  10   HSQDPMIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH  69
+            HSQDP IRCLRLKVEGALEQIFT AGLNIRDLLRDILRRWRDENYLG VEGAG FIEEIH
+Sbjct  10   HSQDPXIRCLRLKVEGALEQIFTXAGLNIRDLLRDILRRWRDENYLGXVEGAGXFIEEIH  69
+
+Query  70   PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+            PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL
+Sbjct  70   PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+
+Query  130  E  130
+            E
+Sbjct  130  E  130
+
+
+>ref|AP_000230.1| E4 ORF3 [Human adenovirus 5]
+ sp|P04489.1|E411_ADE05 RecName: Full=Probable early E4 11 kDa protein
+ emb|CAA26757.1| unnamed protein product [Human adenovirus 5]
+ gb|AAQ19315.1| E4 orf 3 [Human adenovirus C]
+ gb|AAW65534.1| E4 11 kDa protein [Human adenovirus 5]
+ gb|AFS50354.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50443.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50533.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50623.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50668.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT75875.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT75961.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT76434.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT78112.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  224 bits (572),  Expect = 4e-73, Method: Compositional matrix adjust.
+ Identities = 113/116 (97%), Positives = 113/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII SLAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICSLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>gb|AFS50398.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  223 bits (569),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 112/116 (97%), Positives = 112/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII  LAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICCLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>ref|NP_040534.1| control protein E4orf3 [Human adenovirus C]
+ ref|AP_000194.1| E4 ORF3 [Human adenovirus 2]
+ ref|AP_000531.1| E4 ORF3 [Human adenovirus 1]
+ sp|P03241.1|E4RF3_ADE02 RecName: Full=Early 4 ORF3 protein; Short=E4-ORF3; AltName: Full=E4 
+ORF3 control protein; AltName: Full=Early 4 11 kDa protein; 
+Short=E4-11k
+ gb|AAA92224.1| nuclear binding protein [Human adenovirus 2]
+ gb|ACN88131.1| nuclear binding protein [Human adenovirus 6]
+ gb|ADM46172.1| orf3 [Human adenovirus C]
+ gb|AFQ34689.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50262.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50308.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50487.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50578.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT76005.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT77097.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  222 bits (565),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 112/116 (97%), Positives = 112/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDIL RWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILIRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII SLAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICSLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>gb|ABH01064.1| E4 orf 3 [Simian adenovirus 7]
+Length=116
+
+ Score =  116 bits (291),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 56/116 (48%), Positives = 79/116 (68%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ VEGAL ++FT+ G+N++ + RDI+R WR+ENYLG+V+   + IEE     F+
+Sbjct  1    MMVCLRMAVEGALSELFTLHGMNLQTICRDIIREWRNENYLGIVQSCSLMIEEFDNSAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V ++VR  +LLEA +  L   I   LAV+F   +GG+R HL DLHF+ L N LE
+Sbjct  61   LLVFVEVRVQALLEAAIDSLENRITFDLAVKFHQGSGGDRCHLRDLHFDPLVNRLE  116
+
+
+>gb|AGK27193.1| E4 ORF3 [Simian adenovirus C]
+Length=116
+
+ Score =  116 bits (290),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 60/116 (52%), Positives = 77/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL Q+F M G+N++DL  +I+R WR ENYLGMV+   + IEE   + F+
+Sbjct  1    MMVCLRMAIEGALTQLFGMRGVNLQDLCCNIIREWRAENYLGMVQNCSVIIEEFEHDAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V LDVR  +LLEA+  HL   I   LAV +   TGGER HL DLHF  L + LE
+Sbjct  61   LLVFLDVRVQALLEAVTDHLENRIHFDLAVLYHQRTGGERCHLRDLHFVTLRDRLE  116
+
+
+>ref|YP_213993.1| E4 ORF3 [Simian adenovirus 1]
+ gb|AAX19426.1| E4 ORF3 [Simian adenovirus 1]
+ gb|ABK35063.1| E4 ORF3 [Human adenovirus 52]
+Length=116
+
+ Score =  115 bits (289),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/116 (47%), Positives = 79/116 (68%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL ++F M G+N++ + RDI+R WR+ENYLG+V+   + IEE     F+
+Sbjct  1    MMVCLRMAIEGALSELFNMHGMNLQTICRDIIREWRNENYLGIVQSCSLMIEEFDNNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V ++VR  +LLEA +  L   I+  LAV+F   +GG+R HL DLHF+ L N LE
+Sbjct  61   LLVFVEVRVQALLEAAIDSLENRIMFDLAVKFHQGSGGDRCHLRDLHFDPLVNRLE  116
+
+
+>ref|YP_007906027.1| E4 ORF3 [Simian adenovirus C]
+ gb|AGK27157.1| E4 ORF3 [Simian adenovirus C]
+ gb|AGK27229.1| E4 ORF3 [Simian adenovirus C]
+Length=116
+
+ Score =  114 bits (286),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 59/116 (51%), Positives = 78/116 (67%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL Q+F M G+N+++L  DI+R WR ENYLGMV+   + IE+   + F+
+Sbjct  1    MMVCLRMSIEGALVQLFQMRGVNLQELCCDIVREWRAENYLGMVQNCSVIIEDFEHDAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V LDVR  +LLEA+V HL   I   LAV +   TGG+R HL DLHF  L + LE
+Sbjct  61   LLVFLDVRVQALLEAVVDHLENRIHFDLAVLYHQRTGGDRCHLRDLHFVTLRDRLE  116
+
+
+>gb|AAS10388.1| E4 ORF 3 [Simian adenovirus 22]
+ gb|AAS10460.1| E4 ORF 3 [Simian adenovirus 24]
+Length=117
+
+ Score =  111 bits (277),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 59/114 (52%), Positives = 79/114 (69%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+ +P  F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPQELVRIIQGWKNENYLGMVQECNMMIEELENPPAFAIV  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  64   LFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>gb|AAS10424.1| E4 ORF 3 [Simian adenovirus 23]
+Length=117
+
+ Score =  110 bits (275),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 58/114 (51%), Positives = 79/114 (69%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M +EE+ +P  F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPQELVRIIQGWKNENYLGMVQECNMMVEELENPPAFAIV  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  64   LFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>ref|AP_000334.1| E4 ORF3 [Simian adenovirus 25]
+Length=117
+
+ Score =  110 bits (275),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 59/114 (52%), Positives = 79/114 (69%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+ +P  F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPHELVRIIQGWKNENYLGMVQECNMMIEELENPPAFAIV  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  64   LFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>gb|AAL35540.1|AF394196_37 12.8 kDa [Simian adenovirus 25]
+Length=117
+
+ Score =  108 bits (271),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 59/114 (52%), Positives = 78/114 (68%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV    M IEE+ +P  F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPHELVRIIQGWKNENYLGMVXECNMMIEELENPPAFAIV  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  64   LFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>gb|AFD21963.1| E4 orf3 [Simian adenovirus A1173]
+ gb|AFD21995.1| E4 orf3 [Simian adenovirus A1258]
+ gb|AFD22028.1| E4 orf3 [Simian adenovirus A1285]
+Length=116
+
+ Score =  108 bits (269),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 53/116 (46%), Positives = 76/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLRL+VE AL ++F M GLN+     DI+R W++ENYLGMV+   + +EE     F+
+Sbjct  1    MKLCLRLQVEAALRELFNMRGLNLITCCSDIIREWKNENYLGMVQSCSLMVEEFEDGSFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + + ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  61   VLLFVEVRVEALVEAVVDHLDNRLTFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>ref|YP_006272977.1| E4Orf3 [Chimpanzee adenovirus Y25]
+ gb|AEW43634.1| E4Orf3 [Chimpanzee adenovirus Y25]
+Length=117
+
+ Score =  107 bits (268),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 58/114 (51%), Positives = 78/114 (68%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+ +   F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPQELIRIIQGWKNENYLGMVQECNMMIEELENAPAFAVL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   +   LAV F   +GGER HL DLHFEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRVTFDLAVIFHQHSGGERCHLRDLHFEVLRDRLE  117
+
+
+>ref|AP_000296.1| E4 ORF3 [Simian adenovirus 21]
+Length=117
+
+ Score =  107 bits (268),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 79/114 (69%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F M GL++++ +  +++ W+DENYLGMV+   M IEE+ H   F++ 
+Sbjct  4    CLRMVVEGALRELFFMCGLDLQEEMTRLIQGWKDENYLGMVQECNMMIEELEHAPSFAVL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA ++HL   I+  LAV F   +GGER HL DLH E+L + LE
+Sbjct  64   LFLDVRVEALLEATIEHLENRIVFDLAVIFHQHSGGERCHLRDLHLEILRDRLE  117
+
+
+>ref|NP_040936.1| E4 gene product [Human adenovirus A]
+ ref|AP_000139.1| E4 ORF3 [Human adenovirus A]
+ sp|P36708.1|E411_ADE12 RecName: Full=Probable early E4 11 kDa protein
+ emb|CAA51903.1| E4 11 KD protein [Human adenovirus 12]
+ emb|CAB57852.1| early E4 11 KD protein [Human adenovirus 12]
+Length=116
+
+ Score =  107 bits (267),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 51/116 (44%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVQIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LLEA+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFIEIRAVALLEAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>ref|YP_068052.1| control protein E4orf3 [Human adenovirus E]
+ gb|AAS66944.1| E4 ORF3 [Human adenovirus E]
+ gb|AAT97471.1| E4 13.7 kDa protein [Human adenovirus 4]
+ gb|AAT97519.1| E4 13.7 kDa protein [Human adenovirus 4]
+ gb|AAW33236.1| 13.7 kDa protein [Human adenovirus 4]
+ gb|AAW33327.1| 13.7 kDa protein [Human adenovirus 4]
+ gb|ABR27526.1| E4-ORF3 [Human adenovirus E]
+ gb|AGT51287.1| E4 13.7 kDa protein [Human adenovirus 4]
+Length=117
+
+ Score =  106 bits (265),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 57/114 (50%), Positives = 77/114 (68%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+ +   F++ 
+Sbjct  4    CLRMPVEGALRELFIMAGLDLPQELIRIIQGWKNENYLGMVQECNMMIEELENAPAFAVL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   +   LAV F   +GGER HL DLHFEV  + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRVTFDLAVIFHQHSGGERCHLRDLHFEVFRDRLE  117
+
+
+>gb|AGV32788.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  106 bits (264),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 54/113 (48%), Positives = 78/113 (69%), Gaps = 1/113 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL ++F M GL++++ +  +++ W+DENYLGMV+   M IEE+ H   F++ 
+Sbjct  4    CLRMVVEGALRELFLMCGLDLQEEMTRLIQGWKDENYLGMVQECNMMIEELEHAPSFAVL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+            + LDVR  +LLEA ++HL   I+  LAV F   +GGER HL DLH E+L + L
+Sbjct  64   LFLDVRVEALLEATIEHLENRIVFDLAVIFHQHSGGERCHLRDLHLEILRDRL  116
+
+
+>gb|AFD21899.1| E4 orf3 [Simian adenovirus A1139]
+ gb|AFD21929.1| E4 orf3 [Simian adenovirus A1163]
+ gb|AFD22060.1| E4 orf3 [Simian adenovirus A1296]
+ gb|AFD22092.1| E4 orf3 [Simian adenovirus A1312]
+ gb|AFD22125.1| E4 orf3 [Simian adenovirus A1327]
+ gb|AFD22158.1| E4 orf3 [Simian adenovirus A1335]
+ gb|AGK27121.1| E4 ORF3 [Simian adenovirus B]
+Length=116
+
+ Score =  105 bits (263),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 51/113 (45%), Positives = 75/113 (66%), Gaps = 0/113 (0%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLRL+VE AL ++F M G+N+     DI+R W++ENYLGMV+   + +EE     F++ +
+Sbjct  4    CLRLQVESALRELFNMRGMNLVTCCTDIIREWKNENYLGMVQSCSLMVEEFEDGSFAVLL  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  64   FVEVRVEALVEAVVDHLDNRMGFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>emb|CAO78655.1| E4 11K homologue protein [Human adenovirus 31]
+ gb|AEK79939.1| E4 ORF3 [Human adenovirus 61]
+ gb|AGT75529.1| E4 control protein orf3 [Human adenovirus A]
+Length=116
+
+ Score =  105 bits (263),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 50/116 (43%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVQIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LL+A+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFVEIRAVALLDAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>gb|ACZ92175.1| ORF3 protein [Human adenovirus 18]
+Length=116
+
+ Score =  105 bits (261),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 50/116 (43%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVHIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LL+A+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFIEIRAVALLDAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>ref|YP_004300228.1| unnamed protein product [Simian adenovirus 49]
+ gb|ADZ39860.1| E4 orf3 [Simian adenovirus 49]
+ gb|ADZ39891.1| E4 orf3 [Simian adenovirus 50]
+Length=116
+
+ Score =  105 bits (261),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 51/113 (45%), Positives = 75/113 (66%), Gaps = 0/113 (0%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLRL+VE AL ++F M G+N+     DI+R W++ENYLGMV+   + +EE     F++ +
+Sbjct  4    CLRLQVESALRELFNMRGMNLVTCCIDIIREWKNENYLGMVQSCSLMVEEFEDGSFAVLL  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  64   FVEVRVEALVEAVVDHLDNRMGFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>gb|AGT75612.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  102 bits (253),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 57/114 (50%), Positives = 73/114 (64%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IEE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQDCNMMIEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>ref|YP_002213849.1| control protein E4orf3 [Human adenovirus B]
+ ref|AP_000605.1| E4 ORF3 [Human adenovirus 35]
+ gb|AAN62503.1| E4 ORF3 13 kDa protein [Human adenovirus 11]
+ gb|AAP49196.1| 117 aa [Human adenovirus 11]
+ gb|AAP92369.1| 117 aa [Human adenovirus 35]
+ gb|AAN17496.1| E4 117R protein [Human adenovirus 35]
+ gb|AAU09069.1| E4 ORF3 13 kDa protein [Human adenovirus B]
+ gb|AAW33506.1| Orf3 protein [Human adenovirus 34]
+ gb|AGT75740.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76300.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  101 bits (252),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 57/114 (50%), Positives = 73/114 (64%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IEE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMIEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>gb|AGT77760.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  100 bits (249),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 56/114 (49%), Positives = 73/114 (64%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IE++ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMIEDLENAPAFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>gb|AGT76784.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  100 bits (248),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 56/117 (48%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     DI++ W++ENYLGMV+   M IEE      F
+Sbjct  1    MKVCLLMKVEGALWELFNMCGVDLHQQFVDIIQGWKNENYLGMVQDCNMMIEEQDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   II  LAV F   +GGER HL DL+F +L + LE
+Sbjct  61   NVLLFLDVRVEPLLEATVEHLENRIIFDLAVCFHQNSGGERCHLRDLNFILLRDRLE  117
+
+
+>gb|AAW33144.1| Orf3 protein [Human adenovirus 14]
+ gb|ACU57033.1| E4 ORF3 13.6 kDa protein [Human adenovirus 55]
+ gb|ACV41307.1| E4 ORF3 protein [Human adenovirus 11a]
+ gb|AFH58054.1| hypothetical protein [Human adenovirus 14]
+ gb|AFP89803.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFP89839.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFP89875.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFQ34486.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34525.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFV48171.1| Orf3 protein [Human adenovirus B]
+ gb|AGE46440.1| hypothetical protein [Human adenovirus 14]
+Length=117
+
+ Score =  100 bits (248),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 73/114 (64%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   +  I++ W+ ENYLGMV+   M IEE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQEMTRIIQGWKAENYLGMVQDCNMMIEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>gb|ACH90463.1| E4 hypothetical protein 3 [Human adenovirus 41]
+ gb|ADN06470.1| E4 hypothetical protein 3 [Human adenovirus 41]
+Length=116
+
+ Score = 99.4 bits (246),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 49/116 (42%), Positives = 75/116 (65%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + G +++++L D+LR W+ ENYLG+++   +  E+     F+
+Sbjct  1    MKVCLRMTVEGALNKLFELHGASLQEILMDVLRGWQAENYLGVIQDCSLMFEDFEENAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++V L+VR  +L+EA++ +L   I   LAV F   +GGER  L DLHF  L N LE
+Sbjct  61   MFVFLEVRVSALVEAVIGNLENRIFFDLAVIFYQRSGGERCDLRDLHFGWLYNRLE  116
+
+
+>ref|NP_040880.1| control protein E4orf3 [Human adenovirus F]
+ gb|AAC13983.1| E4 ORF3 [Human adenovirus F]
+Length=116
+
+ Score = 99.4 bits (246),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 49/116 (42%), Positives = 75/116 (65%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + G +++++L D+LR W+ ENYLG+++   +  E+     F+
+Sbjct  1    MKVCLRMTVEGALNKLFELHGASLQEILMDVLRGWQAENYLGIIQDCSLMFEDFEENAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++V L+VR  +L+EA++ +L   I   LAV F   +GGER  L DLHF  L N LE
+Sbjct  61   MFVFLEVRVPALVEAVIGNLENRIFFDLAVIFHQRSGGERCDLRDLHFGSLYNRLE  116
+
+
+>ref|YP_002213838.1| control protein E4orf3 [Human adenovirus B]
+ ref|AP_000568.1| E4 ORF3 [Human adenovirus 7]
+ gb|AAT97568.1| E4 34 kDa protein [Human adenovirus 7]
+ gb|AAT97606.1| E4 13 kDa protein [Human adenovirus 7]
+ gb|AAW33552.1| Orf3 protein [Human adenovirus 50]
+ gb|AAW33190.1| 11 kDa protein [Human adenovirus 3]
+ gb|AAW33375.1| 13.6 kDa protein [Human adenovirus 21]
+ gb|AAW33466.1| 13 kDa protein [Human adenovirus 16]
+ gb|ABB17794.1| E4 ORF3 [Human adenovirus 3]
+ gb|ACX32429.1| E4 118aa protein [Human adenovirus 7]
+ gb|AET87252.1| ORF3 [Human adenovirus 68]
+ gb|AET87292.1| ORF3 [Human adenovirus 3+7]
+ gb|AET87334.1| ORF3 [Human adenovirus 16]
+ gb|AGT76176.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77318.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score = 99.0 bits (245),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 72/114 (63%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M  EE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMFEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>ref|YP_008520247.1| E4 orf3 [Simian adenovirus 18]
+ gb|AFD10582.1| E4 orf3 [Simian adenovirus 18]
+Length=116
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 72/113 (64%), Gaps = 0/113 (0%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLR+ VEGAL  +F   G N+R++   ILR W++ENYLG+++   +  E+      ++ V
+Sbjct  4    CLRMAVEGALSDLFERHGANLREVFTQILREWKEENYLGVIQSCSLMFEDFEENAVAVLV  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             L+VR  +L+EA++ HL   I+  LAV +   +GG+R HL DLHF+ L + LE
+Sbjct  64   FLEVRVAALVEAVIGHLENRIMFDLAVIYHQRSGGDRCHLRDLHFDPLFDRLE  116
+
+
+>gb|AAW33281.1| 11 kDa protein [Human adenovirus 3]
+ gb|AAW33422.1| 13 kDa protein [Human adenovirus 7]
+ gb|AAZ30940.1| E4 ORF3 [Human adenovirus B]
+ gb|AET87170.1| ORF3 [Human adenovirus 66]
+ gb|AET87211.1| ORF3 [Human adenovirus 7d2]
+ gb|AFI24607.1| 13 kDa protein [Human adenovirus 7]
+ gb|AFQ34329.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34368.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34407.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34447.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34564.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34604.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34644.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFV96312.1| 13 kDa protein [Human adenovirus 7]
+ gb|AGT75450.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75571.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75699.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75785.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75828.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75916.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76047.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76089.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76131.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76220.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76560.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76918.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77006.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77140.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77274.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77363.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 71/114 (62%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>gb|AGT76259.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score = 97.4 bits (241),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 71/114 (62%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPCFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>gb|ACY04493.1| E4 ORF3 [Human adenovirus 36]
+ gb|ADW95441.1| ORF3 [Human adenovirus 58]
+ gb|AGT77408.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT78022.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 97.1 bits (240),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 55/117 (47%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++      I++ W++ENYLGMV+   M IEE      F
+Sbjct  1    MKVCLLMKVEGALWELFNMCGVDLHQQFVAIIQGWKNENYLGMVQDCNMMIEEQDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   II  LAV F   +GGER HL DL+F +L + LE
+Sbjct  61   NVLLFLDVRVEPLLEATVEHLENRIIFDLAVCFHQNSGGERCHLRDLNFILLRDRLE  117
+
+
+>gb|AAZ32191.2| E4 ORF3 [Human adenovirus B]
+Length=117
+
+ Score = 96.7 bits (239),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 55/114 (48%), Positives = 70/114 (61%), Gaps = 1/114 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEI-HPEGFSLY  76
+            CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+ +   F + 
+Sbjct  4    CLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPSFGIL  63
+
+Query  77   VHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL   LE
+Sbjct  64   LFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRVPLE  117
+
+
+>gb|ACI04202.1| ORF3 [Human adenovirus D]
+ dbj|BAH18802.1| 13.6kDa protein [Human adenovirus 8]
+ dbj|BAH18838.1| 13.6kDa protein [Human adenovirus 8]
+ dbj|BAJ46332.1| E4 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46367.1| E4 13.5kDa protein [Human adenovirus 53]
+ dbj|BAJ46403.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAJ46439.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAJ46475.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAM66738.1| Orf3 protein [Human adenovirus 8]
+ gb|AGT75493.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76345.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76388.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76694.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77493.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT78065.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 96.3 bits (238),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 55/117 (47%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>ref|AP_000160.1| E4 ORF3 [Human adenovirus D]
+ gb|ADY18449.1| 13.5 kDa protein [Human adenovirus 17]
+ gb|AGT76830.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 96.3 bits (238),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFNMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>ref|YP_003038630.1| 13.6 kDa protein [Human adenovirus 54]
+ dbj|BAH18910.1| 13.6kDa protein [Human adenovirus 54]
+ dbj|BAH84817.1| 13.6 kDa protein [Human adenovirus 54]
+Length=117
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 55/117 (47%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVDHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAL63207.1| E4 ORF3 [Human adenovirus 67]
+Length=117
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFNMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAH18874.1| 13.6kDa protein [Human adenovirus 8]
+Length=117
+
+ Score = 95.1 bits (235),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GG+R HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGDRCHLRDLHFIVLRDRLE  117
+
+
+>gb|ACR78235.1| hypothetical protein [Human adenovirus 22]
+ gb|ACR81629.1| ORF3 [Human adenovirus 22]
+Length=117
+
+ Score = 95.1 bits (235),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 76/117 (65%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++   + +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQIVEIIQGWKNENYLGMVQECNLMIDEIDGGPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>ref|YP_001974472.1| control protein E4orf3 [Human adenovirus D]
+ emb|CAI05989.1| E4 orf 3 13.6 kDa protein [Human adenovirus 9]
+ gb|AAX70950.1| ORF5(6) [Human adenovirus 46]
+ gb|ABK59083.1| 13.6 kDa [Human adenovirus 37]
+ gb|ACI47080.1| E4 13.5 kDa protein [Human adenovirus 64]
+ dbj|BAH18982.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19018.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19054.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19090.1| 13.5kDa protein [Human adenovirus 37]
+ dbj|BAH19126.1| 13.5kDa protein [Human adenovirus 37]
+ dbj|BAH19162.1| 13.5kDa protein [Human adenovirus 37]
+ gb|ADM66135.1| Orf 3 protein [Human adenovirus 56]
+ dbj|BAJ22379.1| 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46262.1| E4 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46297.1| E4 13.5kDa protein [Human adenovirus D]
+ gb|AEI91309.1| ORF3 protein [Human adenovirus D]
+ gb|AFA46634.1| ORF3 [Human adenovirus 64]
+ gb|AFA46672.1| ORF3 [Human adenovirus 64]
+ gb|AFA46710.1| ORF3 [Human adenovirus 64]
+ gb|AFK92158.1| Orf3 [Human adenovirus 10]
+ gb|AFK92238.1| Orf3 [Human adenovirus 15]
+ gb|AFK92278.1| Orf3 [Human adenovirus 20]
+ gb|AFK92357.1| Orf3 [Human adenovirus 24]
+ gb|AFK92637.1| Orf3 [Human adenovirus 38]
+ gb|AFK92717.1| Orf3 [Human adenovirus 42]
+ dbj|BAM66666.1| Orf3 protein [Human adenovirus 10]
+ dbj|BAM66702.1| Orf3 protein [Human adenovirus 10]
+ dbj|BAM66774.1| Orf3 protein [Human adenovirus 10]
+ gb|AGT75658.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76474.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76518.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76606.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76874.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77052.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77229.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77804.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77937.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77980.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AFK92677.1| Orf3 [Human adenovirus 39]
+Length=117
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/117 (44%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLLMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQDCSLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA ++HL   I   LA+ F   +GGER HL DLHF +L + LE
+Sbjct  61   NVILMLDVRIEPLLEATIEHLENRISFDLAICFHQHSGGERCHLRDLHFIILRDRLE  117
+
+
+>gb|AAB37506.1| Orf3 [Human adenovirus 9]
+ prf||1817442C E4 gene ORF
+Length=117
+
+ Score = 94.7 bits (234),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 76/117 (65%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER+HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERLHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAH19198.1| 13.5kDa protein [Human adenovirus 37]
+Length=117
+
+ Score = 94.4 bits (233),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++      I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVKIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAJ22308.1| 13.6kDa protein [Human adenovirus 15]
+ dbj|BAJ22343.1| 13.5kDa protein [Human adenovirus 29]
+ gb|AEK87045.1| ORF3 [Human adenovirus D]
+ gb|AEL78860.1| orf3 protein [Human adenovirus 62]
+ gb|AEL78896.1| orf3 protein [Human adenovirus 60a]
+ gb|AEV92984.1| Orf 3 protein [Human adenovirus 63]
+ gb|AEY79593.1| Orf3 [Human adenovirus 30]
+ gb|AFK92198.1| Orf3 [Human adenovirus 13]
+ gb|AFK92317.1| Orf3 [Human adenovirus 23]
+ gb|AFK92397.1| Orf3 [Human adenovirus 25]
+ gb|AFK92437.1| Orf3 [Human adenovirus 27]
+ gb|AFK92477.1| Orf3 [Human adenovirus 29]
+ gb|AFK92517.1| Orf3 [Human adenovirus 32]
+ gb|AFK92557.1| Orf3 [Human adenovirus 47]
+ gb|AFK92597.1| Orf3 [Human adenovirus 33]
+ gb|AFK92757.1| Orf3 [Human adenovirus 43]
+ gb|AFK92797.1| Orf3 [Human adenovirus 44]
+ gb|AFK92837.1| Orf3 [Human adenovirus 45]
+ gb|AFK92877.1| Orf3 [Human adenovirus 51]
+ gb|AGF39201.1| hypothetical protein [Human adenovirus 43]
+ gb|AGT76650.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76739.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76962.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77185.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77540.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77583.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77627.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77673.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77719.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77847.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77893.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 94.0 bits (232),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|ACQ91174.1| hypothetical protein 3 [Human adenovirus 28]
+Length=117
+
+ Score = 93.6 bits (231),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 53/117 (45%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF +L + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIILRDRLE  117
+
+
+>dbj|BAH18946.1| 13.5kDa protein [Human adenovirus 19]
+ gb|AFA46749.1| ORF3 [Human adenovirus 19]
+Length=117
+
+ Score = 93.2 bits (230),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/117 (45%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL +++ M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELYHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AGW47863.1| orf 3 protein [Human adenovirus 23]
+Length=117
+
+ Score = 92.0 bits (227),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 51/117 (44%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILILDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>gb|AGT77454.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score = 91.3 bits (225),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + +DVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILIIDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>dbj|BAL41741.1| E4 ORF3 [Human adenovirus 65]
+Length=117
+
+ Score = 90.9 bits (224),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CL +KVEGAL +++ M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELYHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILILDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>ref|YP_067934.1| E4 ORF3 [Simian adenovirus 3]
+ gb|AAT84644.1| E4 ORF3 [Simian adenovirus 3]
+ gb|ADZ39828.1| E4 orf3 [Simian adenovirus 48]
+Length=115
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 48/113 (42%), Positives = 69/113 (61%), Gaps = 1/113 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLR+ VE AL Q+F MAG++++ L+  I+  W+ ENYLG+V+     I+    + F L +
+Sbjct  4    CLRMNVESALSQLFGMAGMDLQGLILQIITDWKRENYLGLVDDCAAMIDPGENQSFVLLM  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             L++R   L+ A+V HL   +I  LAV F H    +R HL DL FEVL + LE
+Sbjct  64   FLNIRVEDLIPAVVNHLENRLIFDLAVMF-HQETHDRCHLRDLVFEVLRDQLE  115
+
+
+>gb|AFG19611.1| E4-3 [Simian adenovirus 6]
+Length=115
+
+ Score = 85.5 bits (210),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 68/113 (60%), Gaps = 1/113 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLR+ VE AL ++F MAGL+++ ++  I+  W+ ENYLG+++     I+      F L V
+Sbjct  4    CLRMHVESALSELFAMAGLDLQGIILQIITDWKRENYLGLIDDCAAMIDPGENRAFVLLV  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             L+VR   L+ A+V HL   ++  LAV F H    +R HL DL FEVL + LE
+Sbjct  64   FLNVRVEDLIPAVVNHLENRLMFDLAVMF-HQETQDRCHLRDLVFEVLRDQLE  115
+
+
+>ref|YP_007518094.1| E4 orf3 [Simian adenovirus 20]
+ gb|AEF59069.1| E4 orf3 [Simian adenovirus 20]
+Length=115
+
+ Score = 84.3 bits (207),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 66/113 (58%), Gaps = 1/113 (1%)
+
+Query  18   CLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYV  77
+            CLR+ VE AL ++F MAG+ ++ ++  I+R W+ ENYLG+++     I+      F L V
+Sbjct  4    CLRMLVESALSELFIMAGMELQGVMLQIIRDWKQENYLGLIDDCAAMIDPGENRAFVLLV  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             L+VR   L+ A V  L   +I  LAV F H    +R HL DL FEVL + LE
+Sbjct  64   FLNVRVRDLIPATVSDLENRLIFDLAVMF-HQETQDRCHLRDLSFEVLHDQLE  115
+
+
+>gb|AFS50352.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=60
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  34
+
+
+>gb|AAQ19313.1| E4 orf 3/4 [Human adenovirus C]
+ gb|AAW65533.1| 7.2 kDa protein [Human adenovirus 5]
+ gb|AFS50396.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50441.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50531.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50621.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50666.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT75874.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT75960.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT76433.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT78111.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=61
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  34
+
+
+>gb|AFQ34688.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50260.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50306.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50485.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50576.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT76004.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT77096.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=61
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/34 (97%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDIL R
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILIR  34
+
+
+>ref|YP_007518340.1| E4 ORF3 [Titi monkey adenovirus ECC-2011]
+ gb|AEK98473.1| E4 ORF3 [Titi monkey adenovirus ECC-2011]
+Length=102
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  40   DLLRDILRRWRDENYLGMVEGAGMFI---EEIHPEGFSLYVHLDVRAVSLLEAIVQHLTE  96
+            D+L  I+  W+ EN L  ++   M+     +++P+  +  ++L +   +L++A+V  L  
+Sbjct  8    DVLTGIVNGWKQENELQQIDECSMYCFEDNDLNPQKVTFLIYLKLHLPALVDAVVSGLEN  67
+
+Query  97   AIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             +   LAV +   +GG R +L DL FE+LD+LL+
+Sbjct  68   RVHFDLAVTYHQHSGGRRCYLRDLQFEILDDLLQ  101
+
+
+>ref|YP_068085.1| E4 ORFE [Tree shrew adenovirus 1]
+Length=114
+
+ Score = 38.5 bits (88),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 32/112 (29%), Positives = 50/112 (45%), Gaps = 4/112 (4%)
+
+Query  19   LRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGFSLYV  77
+            L L  + +L Q+F   GLN+  +LRD L++W             +F + I   E F   V
+Sbjct  6    LMLTPDASLIQLFDAKGLNLCTVLRDSLQKW--VAEEAWAAMEEVFCQLIPCGETFRFLV  63
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+             L V A  +L+ +  HL+  ++  L + +       R  L  + F  L NLL
+Sbjct  64   ILKV-APGMLDRLANHLSNWMLYDLVLSYSSVDQRVRPDLSSIKFTTLTNLL  114
+
+
+>ref|WP_020898133.1| hypothetical protein [Winogradskyella psychrotolerans]
+ gb|EPR73223.1| hypothetical protein ADIWIN_1654 [Winogradskyella psychrotolerans 
+RS-3]
+Length=438
+
+ Score = 35.0 bits (79),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 40/79 (51%), Gaps = 9/79 (11%)
+
+Query  12   QDPMIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPE  71
+            QDP+   + +K   AL +++ + G N  D ++  L++W+       ++    F E+++ E
+Sbjct  239  QDPLFNTMLIKSNAALIELYELIG-NSEDKIK-TLKQWQ-------IKAIKRFNEKLYNE  289
+
+Query  72   GFSLYVHLDVRAVSLLEAI  90
+                YVH D+R    LE I
+Sbjct  290  KLGAYVHYDLRNEKQLEHI  308
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305499710094
+Results from round 2
+
+
+Query= 4DJBA
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AGT76784.1|  E4 control protein orf3 [Human adenovirus D]           180    1e-55
+gb|ACY04493.1|  E4 ORF3 [Human adenovirus 36] >gb|ADW95441.1| ORF...   179    4e-55
+gb|AAS10388.1|  E4 ORF 3 [Simian adenovirus 22] >gb|AAS10460.1| E...   178    5e-55
+ref|AP_000160.1|  E4 ORF3 [Human adenovirus D] >gb|ADY18449.1| 13...   178    7e-55
+gb|AAS10424.1|  E4 ORF 3 [Simian adenovirus 23]                        178    1e-54
+ref|YP_006272977.1|  E4Orf3 [Chimpanzee adenovirus Y25] >gb|AEW43...   177    1e-54
+dbj|BAH18874.1|  13.6kDa protein [Human adenovirus 8]                  177    1e-54
+dbj|BAL63207.1|  E4 ORF3 [Human adenovirus 67]                         177    2e-54
+ref|YP_003038630.1|  13.6 kDa protein [Human adenovirus 54] >dbj|...   177    2e-54
+dbj|BAH19198.1|  13.5kDa protein [Human adenovirus 37]                 177    2e-54
+gb|ACI04202.1|  ORF3 [Human adenovirus D] >dbj|BAH18802.1| 13.6kD...   177    2e-54
+gb|AFD21899.1|  E4 orf3 [Simian adenovirus A1139] >gb|AFD21929.1|...   177    2e-54
+ref|YP_068052.1|  control protein E4orf3 [Human adenovirus E] >gb...   176    3e-54
+gb|AFD21963.1|  E4 orf3 [Simian adenovirus A1173] >gb|AFD21995.1|...   176    3e-54
+ref|YP_001974472.1|  control protein E4orf3 [Human adenovirus D] ...   176    3e-54
+gb|ABH01064.1|  E4 orf 3 [Simian adenovirus 7]                         176    3e-54
+ref|YP_213993.1|  E4 ORF3 [Simian adenovirus 1] >gb|AAX19426.1| E...   176    5e-54
+ref|AP_000334.1|  E4 ORF3 [Simian adenovirus 25]                       176    5e-54
+gb|ACR78235.1|  hypothetical protein [Human adenovirus 22] >gb|AC...   176    6e-54
+gb|AFK92677.1|  Orf3 [Human adenovirus 39]                             176    7e-54
+ref|YP_004300228.1|  unnamed protein product [Simian adenovirus 4...   175    7e-54
+dbj|BAJ22308.1|  13.6kDa protein [Human adenovirus 15] >dbj|BAJ22...   175    8e-54
+gb|ACQ91174.1|  hypothetical protein 3 [Human adenovirus 28]           175    8e-54
+gb|AAW33144.1|  Orf3 protein [Human adenovirus 14] >gb|ACU57033.1...   175    1e-53
+gb|AGT75612.1|  E4 control protein orf3 [Human adenovirus B]           175    1e-53
+gb|AGT77760.1|  E4 control protein orf3 [Human adenovirus D]           175    1e-53
+ref|YP_002213849.1|  control protein E4orf3 [Human adenovirus B] ...   175    2e-53
+dbj|BAH18946.1|  13.5kDa protein [Human adenovirus 19] >gb|AFA467...   174    2e-53
+gb|AGK27193.1|  E4 ORF3 [Simian adenovirus C]                          174    2e-53
+gb|AAL35540.1|AF394196_37  12.8 kDa [Simian adenovirus 25]             174    3e-53
+ref|YP_002213838.1|  control protein E4orf3 [Human adenovirus B] ...   174    3e-53
+gb|AAW33281.1|  11 kDa protein [Human adenovirus 3] >gb|AAW33422....   173    1e-52
+ref|YP_007906027.1|  E4 ORF3 [Simian adenovirus C] >gb|AGK27157.1...   172    1e-52
+gb|AAB37506.1|  Orf3 [Human adenovirus 9] >prf||1817442C E4 gene ORF   172    1e-52
+gb|AGW47863.1|  orf 3 protein [Human adenovirus 23]                    172    2e-52
+gb|AGT77454.1|  E4 control protein orf3 [Human adenovirus D]           171    2e-52
+gb|AGT76259.1|  E4 control protein orf3 [Human adenovirus B]           171    4e-52
+dbj|BAL41741.1|  E4 ORF3 [Human adenovirus 65]                         170    7e-52
+gb|ACH90463.1|  E4 hypothetical protein 3 [Human adenovirus 41] >...   170    1e-51
+ref|YP_008520247.1|  E4 orf3 [Simian adenovirus 18] >gb|AFD10582....   170    1e-51
+ref|NP_040880.1|  control protein E4orf3 [Human adenovirus F] >gb...   169    3e-51
+ref|AP_000296.1|  E4 ORF3 [Simian adenovirus 21]                       169    3e-51
+gb|AAZ32191.2|  E4 ORF3 [Human adenovirus B]                           168    4e-51
+ref|NP_040936.1|  E4 gene product [Human adenovirus A] >ref|AP_00...   168    5e-51
+emb|CAO78655.1|  E4 11K homologue protein [Human adenovirus 31] >...   168    8e-51
+gb|AGV32788.1|  E4 control protein orf3 [Human adenovirus B]           167    2e-50
+gb|ACZ92175.1|  ORF3 protein [Human adenovirus 18]                     165    9e-50
+gb|AFG19611.1|  E4-3 [Simian adenovirus 6]                             159    2e-47
+ref|YP_067934.1|  E4 ORF3 [Simian adenovirus 3] >gb|AAT84644.1| E...   158    3e-47
+ref|YP_007518094.1|  E4 orf3 [Simian adenovirus 20] >gb|AEF59069....   156    4e-46
+ref|AP_000230.1|  E4 ORF3 [Human adenovirus 5] >sp|P04489.1|E411_...   155    1e-45
+ref|NP_040534.1|  control protein E4orf3 [Human adenovirus C] >re...   153    6e-45
+gb|AFS50398.1|  E4 control protein orf3 [Human adenovirus C]           153    7e-45
+pdb|4DJB|A  Chain A, A Structural Basis For The Assembly And Func...   152    2e-44
+ref|YP_007518340.1|  E4 ORF3 [Titi monkey adenovirus ECC-2011] >g...   114    3e-30
+gb|AFS50352.1|  E4 control protein orf3/4 [Human adenovirus C]        53.3    3e-07
+gb|AAQ19313.1|  E4 orf 3/4 [Human adenovirus C] >gb|AAW65533.1| 7...  53.3    3e-07
+gb|AFQ34688.1|  E4 control protein orf3/4 [Human adenovirus C] >g...  51.4    2e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_068085.1|  E4 ORFE [Tree shrew adenovirus 1]                   42.2    0.005
+ref|XP_001219258.1|  hypothetical protein CHGG_00037 [Chaetomium ...  37.2    1.1  
+ref|YP_007549601.1|  mannonate dehydratase [Azoarcus sp. KH32C] >...  35.6    5.0  
+ref|YP_006297674.1|  putative negative regulator of genetic compe...  34.8    8.0  
+
+
+>gb|AGT76784.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  180 bits (457),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     DI++ W++ENYLGMV+   M IEE      F
+Sbjct  1    MKVCLLMKVEGALWELFNMCGVDLHQQFVDIIQGWKNENYLGMVQDCNMMIEEQDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   II  LAV F   +GGER HL DL+F +L + LE
+Sbjct  61   NVLLFLDVRVEPLLEATVEHLENRIIFDLAVCFHQNSGGERCHLRDLNFILLRDRLE  117
+
+
+>gb|ACY04493.1| E4 ORF3 [Human adenovirus 36]
+ gb|ADW95441.1| ORF3 [Human adenovirus 58]
+ gb|AGT77408.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT78022.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  179 bits (454),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 55/117 (47%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++      I++ W++ENYLGMV+   M IEE      F
+Sbjct  1    MKVCLLMKVEGALWELFNMCGVDLHQQFVAIIQGWKNENYLGMVQDCNMMIEEQDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   II  LAV F   +GGER HL DL+F +L + LE
+Sbjct  61   NVLLFLDVRVEPLLEATVEHLENRIIFDLAVCFHQNSGGERCHLRDLNFILLRDRLE  117
+
+
+>gb|AAS10388.1| E4 ORF 3 [Simian adenovirus 22]
+ gb|AAS10460.1| E4 ORF 3 [Simian adenovirus 24]
+Length=117
+
+ Score =  178 bits (453),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 60/117 (51%), Positives = 79/117 (68%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+  P  F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPQELVRIIQGWKNENYLGMVQECNMMIEELENPPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  61   AIVLFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>ref|AP_000160.1| E4 ORF3 [Human adenovirus D]
+ gb|ADY18449.1| 13.5 kDa protein [Human adenovirus 17]
+ gb|AGT76830.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  178 bits (452),  Expect = 7e-55, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFNMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AAS10424.1| E4 ORF 3 [Simian adenovirus 23]
+Length=117
+
+ Score =  178 bits (451),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 59/117 (50%), Positives = 79/117 (68%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M +EE+  P  F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPQELVRIIQGWKNENYLGMVQECNMMVEELENPPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  61   AIVLFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>ref|YP_006272977.1| E4Orf3 [Chimpanzee adenovirus Y25]
+ gb|AEW43634.1| E4Orf3 [Chimpanzee adenovirus Y25]
+Length=117
+
+ Score =  177 bits (450),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 59/117 (50%), Positives = 78/117 (67%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPQELIRIIQGWKNENYLGMVQECNMMIEELENAPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   +   LAV F   +GGER HL DLHFEVL + LE
+Sbjct  61   AVLLFLDVRVEALLEATVEHLENRVTFDLAVIFHQHSGGERCHLRDLHFEVLRDRLE  117
+
+
+>dbj|BAH18874.1| 13.6kDa protein [Human adenovirus 8]
+Length=117
+
+ Score =  177 bits (450),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GG+R HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGDRCHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAL63207.1| E4 ORF3 [Human adenovirus 67]
+Length=117
+
+ Score =  177 bits (450),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFNMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>ref|YP_003038630.1| 13.6 kDa protein [Human adenovirus 54]
+ dbj|BAH18910.1| 13.6kDa protein [Human adenovirus 54]
+ dbj|BAH84817.1| 13.6 kDa protein [Human adenovirus 54]
+Length=117
+
+ Score =  177 bits (450),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 55/117 (47%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVDHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>dbj|BAH19198.1| 13.5kDa protein [Human adenovirus 37]
+Length=117
+
+ Score =  177 bits (449),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++      I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVKIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|ACI04202.1| ORF3 [Human adenovirus D]
+ dbj|BAH18802.1| 13.6kDa protein [Human adenovirus 8]
+ dbj|BAH18838.1| 13.6kDa protein [Human adenovirus 8]
+ dbj|BAJ46332.1| E4 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46367.1| E4 13.5kDa protein [Human adenovirus 53]
+ dbj|BAJ46403.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAJ46439.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAJ46475.1| E4 13.6kDa protein [Human adenovirus 53]
+ dbj|BAM66738.1| Orf3 protein [Human adenovirus 8]
+ gb|AGT75493.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76345.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76388.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76694.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77493.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT78065.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  177 bits (449),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 55/117 (47%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   M I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNMMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AFD21899.1| E4 orf3 [Simian adenovirus A1139]
+ gb|AFD21929.1| E4 orf3 [Simian adenovirus A1163]
+ gb|AFD22060.1| E4 orf3 [Simian adenovirus A1296]
+ gb|AFD22092.1| E4 orf3 [Simian adenovirus A1312]
+ gb|AFD22125.1| E4 orf3 [Simian adenovirus A1327]
+ gb|AFD22158.1| E4 orf3 [Simian adenovirus A1335]
+ gb|AGK27121.1| E4 ORF3 [Simian adenovirus B]
+Length=116
+
+ Score =  177 bits (449),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 52/116 (45%), Positives = 76/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLRL+VE AL ++F M G+N+     DI+R W++ENYLGMV+   + +EE     F+
+Sbjct  1    MKLCLRLQVESALRELFNMRGMNLVTCCTDIIREWKNENYLGMVQSCSLMVEEFEDGSFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + + ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  61   VLLFVEVRVEALVEAVVDHLDNRMGFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>ref|YP_068052.1| control protein E4orf3 [Human adenovirus E]
+ gb|AAS66944.1| E4 ORF3 [Human adenovirus E]
+ gb|AAT97471.1| E4 13.7 kDa protein [Human adenovirus 4]
+ gb|AAT97519.1| E4 13.7 kDa protein [Human adenovirus 4]
+ gb|AAW33236.1| 13.7 kDa protein [Human adenovirus 4]
+ gb|AAW33327.1| 13.7 kDa protein [Human adenovirus 4]
+ gb|ABR27526.1| E4-ORF3 [Human adenovirus E]
+ gb|AGT51287.1| E4 13.7 kDa protein [Human adenovirus 4]
+Length=117
+
+ Score =  176 bits (448),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 77/117 (66%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPQELIRIIQGWKNENYLGMVQECNMMIEELENAPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   +   LAV F   +GGER HL DLHFEV  + LE
+Sbjct  61   AVLLFLDVRVEALLEATVEHLENRVTFDLAVIFHQHSGGERCHLRDLHFEVFRDRLE  117
+
+
+>gb|AFD21963.1| E4 orf3 [Simian adenovirus A1173]
+ gb|AFD21995.1| E4 orf3 [Simian adenovirus A1258]
+ gb|AFD22028.1| E4 orf3 [Simian adenovirus A1285]
+Length=116
+
+ Score =  176 bits (448),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 53/116 (46%), Positives = 76/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLRL+VE AL ++F M GLN+     DI+R W++ENYLGMV+   + +EE     F+
+Sbjct  1    MKLCLRLQVEAALRELFNMRGLNLITCCSDIIREWKNENYLGMVQSCSLMVEEFEDGSFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + + ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  61   VLLFVEVRVEALVEAVVDHLDNRLTFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>ref|YP_001974472.1| control protein E4orf3 [Human adenovirus D]
+ emb|CAI05989.1| E4 orf 3 13.6 kDa protein [Human adenovirus 9]
+ gb|AAX70950.1| ORF5(6) [Human adenovirus 46]
+ gb|ABK59083.1| 13.6 kDa [Human adenovirus 37]
+ gb|ACI47080.1| E4 13.5 kDa protein [Human adenovirus 64]
+ dbj|BAH18982.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19018.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19054.1| 13.5kDa protein [Human adenovirus 19]
+ dbj|BAH19090.1| 13.5kDa protein [Human adenovirus 37]
+ dbj|BAH19126.1| 13.5kDa protein [Human adenovirus 37]
+ dbj|BAH19162.1| 13.5kDa protein [Human adenovirus 37]
+ gb|ADM66135.1| Orf 3 protein [Human adenovirus 56]
+ dbj|BAJ22379.1| 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46262.1| E4 13.6kDa protein [Human adenovirus D]
+ dbj|BAJ46297.1| E4 13.5kDa protein [Human adenovirus D]
+ gb|AEI91309.1| ORF3 protein [Human adenovirus D]
+ gb|AFA46634.1| ORF3 [Human adenovirus 64]
+ gb|AFA46672.1| ORF3 [Human adenovirus 64]
+ gb|AFA46710.1| ORF3 [Human adenovirus 64]
+ gb|AFK92158.1| Orf3 [Human adenovirus 10]
+ gb|AFK92238.1| Orf3 [Human adenovirus 15]
+ gb|AFK92278.1| Orf3 [Human adenovirus 20]
+ gb|AFK92357.1| Orf3 [Human adenovirus 24]
+ gb|AFK92637.1| Orf3 [Human adenovirus 38]
+ gb|AFK92717.1| Orf3 [Human adenovirus 42]
+ dbj|BAM66666.1| Orf3 protein [Human adenovirus 10]
+ dbj|BAM66702.1| Orf3 protein [Human adenovirus 10]
+ dbj|BAM66774.1| Orf3 protein [Human adenovirus 10]
+ gb|AGT75658.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76474.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76518.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76606.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76874.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77052.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77229.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77804.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77937.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77980.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  176 bits (448),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|ABH01064.1| E4 orf 3 [Simian adenovirus 7]
+Length=116
+
+ Score =  176 bits (448),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 56/116 (48%), Positives = 79/116 (68%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ VEGAL ++FT+ G+N++ + RDI+R WR+ENYLG+V+   + IEE     F+
+Sbjct  1    MMVCLRMAVEGALSELFTLHGMNLQTICRDIIREWRNENYLGIVQSCSLMIEEFDNSAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V ++VR  +LLEA +  L   I   LAV+F   +GG+R HL DLHF+ L N LE
+Sbjct  61   LLVFVEVRVQALLEAAIDSLENRITFDLAVKFHQGSGGDRCHLRDLHFDPLVNRLE  116
+
+
+>ref|YP_213993.1| E4 ORF3 [Simian adenovirus 1]
+ gb|AAX19426.1| E4 ORF3 [Simian adenovirus 1]
+ gb|ABK35063.1| E4 ORF3 [Human adenovirus 52]
+Length=116
+
+ Score =  176 bits (446),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 55/116 (47%), Positives = 79/116 (68%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL ++F M G+N++ + RDI+R WR+ENYLG+V+   + IEE     F+
+Sbjct  1    MMVCLRMAIEGALSELFNMHGMNLQTICRDIIREWRNENYLGIVQSCSLMIEEFDNNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V ++VR  +LLEA +  L   I+  LAV+F   +GG+R HL DLHF+ L N LE
+Sbjct  61   LLVFVEVRVQALLEAAIDSLENRIMFDLAVKFHQGSGGDRCHLRDLHFDPLVNRLE  116
+
+
+>ref|AP_000334.1| E4 ORF3 [Simian adenovirus 25]
+Length=117
+
+ Score =  176 bits (446),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 60/117 (51%), Positives = 79/117 (68%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV+   M IEE+  P  F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPHELVRIIQGWKNENYLGMVQECNMMIEELENPPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  61   AIVLFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>gb|ACR78235.1| hypothetical protein [Human adenovirus 22]
+ gb|ACR81629.1| ORF3 [Human adenovirus 22]
+Length=117
+
+ Score =  176 bits (446),  Expect = 6e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 76/117 (65%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++   + +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQIVEIIQGWKNENYLGMVQECNLMIDEIDGGPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AFK92677.1| Orf3 [Human adenovirus 39]
+Length=117
+
+ Score =  176 bits (446),  Expect = 7e-54, Method: Composition-based stats.
+ Identities = 52/117 (44%), Positives = 75/117 (64%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLLMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQDCSLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA ++HL   I   LA+ F   +GGER HL DLHF +L + LE
+Sbjct  61   NVILMLDVRIEPLLEATIEHLENRISFDLAICFHQHSGGERCHLRDLHFIILRDRLE  117
+
+
+>ref|YP_004300228.1| unnamed protein product [Simian adenovirus 49]
+ gb|ADZ39860.1| E4 orf3 [Simian adenovirus 49]
+ gb|ADZ39891.1| E4 orf3 [Simian adenovirus 50]
+Length=116
+
+ Score =  175 bits (445),  Expect = 7e-54, Method: Composition-based stats.
+ Identities = 52/116 (45%), Positives = 76/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLRL+VE AL ++F M G+N+     DI+R W++ENYLGMV+   + +EE     F+
+Sbjct  1    MKLCLRLQVESALRELFNMRGMNLVTCCIDIIREWKNENYLGMVQSCSLMVEEFEDGSFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + + ++VR  +L+EA+V HL   +   LAV +   +GG+R HL DLHFEVL + LE
+Sbjct  61   VLLFVEVRVEALVEAVVDHLDNRMGFDLAVIYHQNSGGDRCHLRDLHFEVLRDRLE  116
+
+
+>dbj|BAJ22308.1| 13.6kDa protein [Human adenovirus 15]
+ dbj|BAJ22343.1| 13.5kDa protein [Human adenovirus 29]
+ gb|AEK87045.1| ORF3 [Human adenovirus D]
+ gb|AEL78860.1| orf3 protein [Human adenovirus 62]
+ gb|AEL78896.1| orf3 protein [Human adenovirus 60a]
+ gb|AEV92984.1| Orf 3 protein [Human adenovirus 63]
+ gb|AEY79593.1| Orf3 [Human adenovirus 30]
+ gb|AFK92198.1| Orf3 [Human adenovirus 13]
+ gb|AFK92317.1| Orf3 [Human adenovirus 23]
+ gb|AFK92397.1| Orf3 [Human adenovirus 25]
+ gb|AFK92437.1| Orf3 [Human adenovirus 27]
+ gb|AFK92477.1| Orf3 [Human adenovirus 29]
+ gb|AFK92517.1| Orf3 [Human adenovirus 32]
+ gb|AFK92557.1| Orf3 [Human adenovirus 47]
+ gb|AFK92597.1| Orf3 [Human adenovirus 33]
+ gb|AFK92757.1| Orf3 [Human adenovirus 43]
+ gb|AFK92797.1| Orf3 [Human adenovirus 44]
+ gb|AFK92837.1| Orf3 [Human adenovirus 45]
+ gb|AFK92877.1| Orf3 [Human adenovirus 51]
+ gb|AGF39201.1| hypothetical protein [Human adenovirus 43]
+ gb|AGT76650.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76739.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT76962.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77185.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77540.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77583.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77627.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77673.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77719.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77847.1| E4 control protein orf3 [Human adenovirus D]
+ gb|AGT77893.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  175 bits (445),  Expect = 8e-54, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|ACQ91174.1| hypothetical protein 3 [Human adenovirus 28]
+Length=117
+
+ Score =  175 bits (445),  Expect = 8e-54, Method: Composition-based stats.
+ Identities = 53/117 (45%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF +L + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIILRDRLE  117
+
+
+>gb|AAW33144.1| Orf3 protein [Human adenovirus 14]
+ gb|ACU57033.1| E4 ORF3 13.6 kDa protein [Human adenovirus 55]
+ gb|ACV41307.1| E4 ORF3 protein [Human adenovirus 11a]
+ gb|AFH58054.1| hypothetical protein [Human adenovirus 14]
+ gb|AFP89803.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFP89839.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFP89875.1| 13.6 kDa protein E4 [Human adenovirus 55]
+ gb|AFQ34486.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34525.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFV48171.1| Orf3 protein [Human adenovirus B]
+ gb|AGE46440.1| hypothetical protein [Human adenovirus 14]
+Length=117
+
+ Score =  175 bits (445),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 73/117 (62%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   +  I++ W+ ENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQEMTRIIQGWKAENYLGMVQDCNMMIEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>gb|AGT75612.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  175 bits (444),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 73/117 (62%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQDCNMMIEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>gb|AGT77760.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  175 bits (443),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 57/117 (49%), Positives = 73/117 (62%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IE++     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMIEDLENAPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>ref|YP_002213849.1| control protein E4orf3 [Human adenovirus B]
+ ref|AP_000605.1| E4 ORF3 [Human adenovirus 35]
+ gb|AAN62503.1| E4 ORF3 13 kDa protein [Human adenovirus 11]
+ gb|AAP49196.1| 117 aa [Human adenovirus 11]
+ gb|AAP92369.1| 117 aa [Human adenovirus 35]
+ gb|AAN17496.1| E4 117R protein [Human adenovirus 35]
+ gb|AAU09069.1| E4 ORF3 13 kDa protein [Human adenovirus B]
+ gb|AAW33506.1| Orf3 protein [Human adenovirus 34]
+ gb|AGT75740.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76300.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  175 bits (443),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 73/117 (62%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMIEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGERCHLRDLQFEVLRDRLE  117
+
+
+>dbj|BAH18946.1| 13.5kDa protein [Human adenovirus 19]
+ gb|AFA46749.1| ORF3 [Human adenovirus 19]
+Length=117
+
+ Score =  174 bits (442),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 53/117 (45%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL +++ M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELYHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERCHLRDLHFIVLRDRLE  117
+
+
+>gb|AGK27193.1| E4 ORF3 [Simian adenovirus C]
+Length=116
+
+ Score =  174 bits (442),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 60/116 (52%), Positives = 77/116 (66%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL Q+F M G+N++DL  +I+R WR ENYLGMV+   + IEE   + F+
+Sbjct  1    MMVCLRMAIEGALTQLFGMRGVNLQDLCCNIIREWRAENYLGMVQNCSVIIEEFEHDAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V LDVR  +LLEA+  HL   I   LAV +   TGGER HL DLHF  L + LE
+Sbjct  61   LLVFLDVRVQALLEAVTDHLENRIHFDLAVLYHQRTGGERCHLRDLHFVTLRDRLE  116
+
+
+>gb|AAL35540.1|AF394196_37 12.8 kDa [Simian adenovirus 25]
+Length=117
+
+ Score =  174 bits (442),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 60/117 (51%), Positives = 78/117 (67%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M  CLR+ VEGAL ++F MAGL++   L  I++ W++ENYLGMV    M IEE+  P  F
+Sbjct  1    MRVCLRMPVEGALRELFIMAGLDLPHELVRIIQGWKNENYLGMVXECNMMIEELENPPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA V+HL   I   LAV F   +GGER HL DLHFEVL + L+
+Sbjct  61   AIVLFLDVRVEALLEATVEHLENRITFDLAVIFHQHSGGERCHLRDLHFEVLRDRLD  117
+
+
+>ref|YP_002213838.1| control protein E4orf3 [Human adenovirus B]
+ ref|AP_000568.1| E4 ORF3 [Human adenovirus 7]
+ gb|AAT97568.1| E4 34 kDa protein [Human adenovirus 7]
+ gb|AAT97606.1| E4 13 kDa protein [Human adenovirus 7]
+ gb|AAW33552.1| Orf3 protein [Human adenovirus 50]
+ gb|AAW33190.1| 11 kDa protein [Human adenovirus 3]
+ gb|AAW33375.1| 13.6 kDa protein [Human adenovirus 21]
+ gb|AAW33466.1| 13 kDa protein [Human adenovirus 16]
+ gb|ABB17794.1| E4 ORF3 [Human adenovirus 3]
+ gb|ACX32429.1| E4 118aa protein [Human adenovirus 7]
+ gb|AET87252.1| ORF3 [Human adenovirus 68]
+ gb|AET87292.1| ORF3 [Human adenovirus 3+7]
+ gb|AET87334.1| ORF3 [Human adenovirus 16]
+ gb|AGT76176.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77318.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  174 bits (441),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 72/117 (62%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I++ W+ ENYLGMV+   M  EE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIQGWKAENYLGMVQECNMMFEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>gb|AAW33281.1| 11 kDa protein [Human adenovirus 3]
+ gb|AAW33422.1| 13 kDa protein [Human adenovirus 7]
+ gb|AAZ30940.1| E4 ORF3 [Human adenovirus B]
+ gb|AET87170.1| ORF3 [Human adenovirus 66]
+ gb|AET87211.1| ORF3 [Human adenovirus 7d2]
+ gb|AFI24607.1| 13 kDa protein [Human adenovirus 7]
+ gb|AFQ34329.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34368.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34407.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34447.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34564.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34604.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFQ34644.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AFV96312.1| 13 kDa protein [Human adenovirus 7]
+ gb|AGT75450.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75571.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75699.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75785.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75828.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT75916.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76047.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76089.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76131.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76220.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76560.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT76918.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77006.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77140.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77274.1| E4 control protein orf3 [Human adenovirus B]
+ gb|AGT77363.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  173 bits (438),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 71/117 (61%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>ref|YP_007906027.1| E4 ORF3 [Simian adenovirus C]
+ gb|AGK27157.1| E4 ORF3 [Simian adenovirus C]
+ gb|AGK27229.1| E4 ORF3 [Simian adenovirus C]
+Length=116
+
+ Score =  172 bits (437),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 59/116 (51%), Positives = 78/116 (67%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+ CLR+ +EGAL Q+F M G+N+++L  DI+R WR ENYLGMV+   + IE+   + F+
+Sbjct  1    MMVCLRMSIEGALVQLFQMRGVNLQELCCDIVREWRAENYLGMVQNCSVIIEDFEHDAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V LDVR  +LLEA+V HL   I   LAV +   TGG+R HL DLHF  L + LE
+Sbjct  61   LLVFLDVRVQALLEAVVDHLENRIHFDLAVLYHQRTGGDRCHLRDLHFVTLRDRLE  116
+
+
+>gb|AAB37506.1| Orf3 [Human adenovirus 9]
+ prf||1817442C E4 gene ORF
+Length=117
+
+ Score =  172 bits (437),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 76/117 (65%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV+   + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVQECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   +   LAV F   +GGER+HL DLHF VL + LE
+Sbjct  61   NVILMLDVRVEPLLEATVEHLENRVGFDLAVCFHQHSGGERLHLRDLHFIVLRDRLE  117
+
+
+>gb|AGW47863.1| orf 3 protein [Human adenovirus 23]
+Length=117
+
+ Score =  172 bits (436),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 51/117 (44%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILILDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>gb|AGT77454.1| E4 control protein orf3 [Human adenovirus D]
+Length=117
+
+ Score =  171 bits (435),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL ++F M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELFHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + +DVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILIIDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>gb|AGT76259.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  171 bits (434),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 71/117 (61%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPCF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL + LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRDRLE  117
+
+
+>dbj|BAL41741.1| E4 ORF3 [Human adenovirus 65]
+Length=117
+
+ Score =  170 bits (432),  Expect = 7e-52, Method: Composition-based stats.
+ Identities = 50/117 (43%), Positives = 74/117 (63%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CL +KVEGAL +++ M G+++     +I++ W++ENYLGMV    + I+EI     F
+Sbjct  1    MKVCLIMKVEGALWELYHMCGVDLHQQFVEIIQGWKNENYLGMVNECNLMIDEIDGGPAF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR   LLEA V+HL   ++  L+V F   +GGER HL DLHF +  + LE
+Sbjct  61   NVILILDVRVEPLLEATVEHLENRVLFDLSVCFHQHSGGERCHLRDLHFTIHRDRLE  117
+
+
+>gb|ACH90463.1| E4 hypothetical protein 3 [Human adenovirus 41]
+ gb|ADN06470.1| E4 hypothetical protein 3 [Human adenovirus 41]
+Length=116
+
+ Score =  170 bits (431),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 49/116 (42%), Positives = 75/116 (65%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + G +++++L D+LR W+ ENYLG+++   +  E+     F+
+Sbjct  1    MKVCLRMTVEGALNKLFELHGASLQEILMDVLRGWQAENYLGVIQDCSLMFEDFEENAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++V L+VR  +L+EA++ +L   I   LAV F   +GGER  L DLHF  L N LE
+Sbjct  61   MFVFLEVRVSALVEAVIGNLENRIFFDLAVIFYQRSGGERCDLRDLHFGWLYNRLE  116
+
+
+>ref|YP_008520247.1| E4 orf3 [Simian adenovirus 18]
+ gb|AFD10582.1| E4 orf3 [Simian adenovirus 18]
+Length=116
+
+ Score =  170 bits (430),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 48/116 (41%), Positives = 73/116 (63%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL  +F   G N+R++   ILR W++ENYLG+++   +  E+      +
+Sbjct  1    MRVCLRMAVEGALSDLFERHGANLREVFTQILREWKEENYLGVIQSCSLMFEDFEENAVA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            + V L+VR  +L+EA++ HL   I+  LAV +   +GG+R HL DLHF+ L + LE
+Sbjct  61   VLVFLEVRVAALVEAVIGHLENRIMFDLAVIYHQRSGGDRCHLRDLHFDPLFDRLE  116
+
+
+>ref|NP_040880.1| control protein E4orf3 [Human adenovirus F]
+ gb|AAC13983.1| E4 ORF3 [Human adenovirus F]
+Length=116
+
+ Score =  169 bits (429),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 49/116 (42%), Positives = 75/116 (65%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + G +++++L D+LR W+ ENYLG+++   +  E+     F+
+Sbjct  1    MKVCLRMTVEGALNKLFELHGASLQEILMDVLRGWQAENYLGIIQDCSLMFEDFEENAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++V L+VR  +L+EA++ +L   I   LAV F   +GGER  L DLHF  L N LE
+Sbjct  61   MFVFLEVRVPALVEAVIGNLENRIFFDLAVIFHQRSGGERCDLRDLHFGSLYNRLE  116
+
+
+>ref|AP_000296.1| E4 ORF3 [Simian adenovirus 21]
+Length=117
+
+ Score =  169 bits (428),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 55/117 (47%), Positives = 79/117 (68%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL ++F M GL++++ +  +++ W+DENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMVVEGALRELFFMCGLDLQEEMTRLIQGWKDENYLGMVQECNMMIEELEHAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            ++ + LDVR  +LLEA ++HL   I+  LAV F   +GGER HL DLH E+L + LE
+Sbjct  61   AVLLFLDVRVEALLEATIEHLENRIVFDLAVIFHQHSGGERCHLRDLHLEILRDRLE  117
+
+
+>gb|AAZ32191.2| E4 ORF3 [Human adenovirus B]
+Length=117
+
+ Score =  168 bits (427),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 56/117 (48%), Positives = 70/117 (60%), Gaps = 1/117 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL  +F M GL++   L  I+  W+ ENYLGMV+   M  EE+     F
+Sbjct  1    MRVCLRMVVEGALRDLFVMCGLDLPQELTRIIEGWKAENYLGMVQECNMMFEELENAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             + + LDVR  +LLEA V+HL   I   LAV F   +GG+R HL DL FEVL   LE
+Sbjct  61   GILLFLDVRVEALLEATVEHLENRISFDLAVLFHQHSGGDRCHLRDLQFEVLRVPLE  117
+
+
+>ref|NP_040936.1| E4 gene product [Human adenovirus A]
+ ref|AP_000139.1| E4 ORF3 [Human adenovirus A]
+ sp|P36708.1|E411_ADE12 RecName: Full=Probable early E4 11 kDa protein
+ emb|CAA51903.1| E4 11 KD protein [Human adenovirus 12]
+ emb|CAB57852.1| early E4 11 KD protein [Human adenovirus 12]
+Length=116
+
+ Score =  168 bits (427),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 51/116 (44%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVQIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LLEA+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFIEIRAVALLEAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>emb|CAO78655.1| E4 11K homologue protein [Human adenovirus 31]
+ gb|AEK79939.1| E4 ORF3 [Human adenovirus 61]
+ gb|AGT75529.1| E4 control protein orf3 [Human adenovirus A]
+Length=116
+
+ Score =  168 bits (425),  Expect = 8e-51, Method: Composition-based stats.
+ Identities = 50/116 (43%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVQIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LL+A+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFVEIRAVALLDAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>gb|AGV32788.1| E4 control protein orf3 [Human adenovirus B]
+Length=117
+
+ Score =  167 bits (423),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 54/116 (47%), Positives = 78/116 (67%), Gaps = 1/116 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHP-EGF  73
+            M  CLR+ VEGAL ++F M GL++++ +  +++ W+DENYLGMV+   M IEE+     F
+Sbjct  1    MRVCLRMVVEGALRELFLMCGLDLQEEMTRLIQGWKDENYLGMVQECNMMIEELEHAPSF  60
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+            ++ + LDVR  +LLEA ++HL   I+  LAV F   +GGER HL DLH E+L + L
+Sbjct  61   AVLLFLDVRVEALLEATIEHLENRIVFDLAVIFHQHSGGERCHLRDLHLEILRDRL  116
+
+
+>gb|ACZ92175.1| ORF3 protein [Human adenovirus 18]
+Length=116
+
+ Score =  165 bits (418),  Expect = 9e-50, Method: Composition-based stats.
+ Identities = 50/116 (43%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VEGAL ++F + GLN+++    I+++W++ENYLGMV+   + IEE H   F+
+Sbjct  1    MKYCLRMAVEGALTELFNIHGLNLQNQCVHIIQQWKNENYLGMVQSGSLMIEEFHDNAFA  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + +++RAV+LL+A+V+HL   +   LAV F   +GG+R HL DL  ++L + L+
+Sbjct  61   LLLFIEIRAVALLDAVVEHLENRLQFDLAVIFHQHSGGDRCHLRDLRIQILADRLD  116
+
+
+>gb|AFG19611.1| E4-3 [Simian adenovirus 6]
+Length=115
+
+ Score =  159 bits (403),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 47/116 (41%), Positives = 68/116 (59%), Gaps = 1/116 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VE AL ++F MAGL+++ ++  I+  W+ ENYLG+++     I+      F 
+Sbjct  1    MRVCLRMHVESALSELFAMAGLDLQGIILQIITDWKRENYLGLIDDCAAMIDPGENRAFV  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V L+VR   L+ A+V HL   ++  LAV F      +R HL DL FEVL + LE
+Sbjct  61   LLVFLNVRVEDLIPAVVNHLENRLMFDLAVMFHQ-ETQDRCHLRDLVFEVLRDQLE  115
+
+
+>ref|YP_067934.1| E4 ORF3 [Simian adenovirus 3]
+ gb|AAT84644.1| E4 ORF3 [Simian adenovirus 3]
+ gb|ADZ39828.1| E4 orf3 [Simian adenovirus 48]
+Length=115
+
+ Score =  158 bits (401),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 48/116 (41%), Positives = 69/116 (59%), Gaps = 1/116 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VE AL Q+F MAG++++ L+  I+  W+ ENYLG+V+     I+    + F 
+Sbjct  1    MRVCLRMNVESALSQLFGMAGMDLQGLILQIITDWKRENYLGLVDDCAAMIDPGENQSFV  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L + L++R   L+ A+V HL   +I  LAV F      +R HL DL FEVL + LE
+Sbjct  61   LLMFLNIRVEDLIPAVVNHLENRLIFDLAVMFHQ-ETHDRCHLRDLVFEVLRDQLE  115
+
+
+>ref|YP_007518094.1| E4 orf3 [Simian adenovirus 20]
+ gb|AEF59069.1| E4 orf3 [Simian adenovirus 20]
+Length=115
+
+ Score =  156 bits (394),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 47/116 (41%), Positives = 66/116 (57%), Gaps = 1/116 (1%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M  CLR+ VE AL ++F MAG+ ++ ++  I+R W+ ENYLG+++     I+      F 
+Sbjct  1    MRVCLRMLVESALSELFIMAGMELQGVMLQIIRDWKQENYLGLIDDCAAMIDPGENRAFV  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            L V L+VR   L+ A V  L   +I  LAV F      +R HL DL FEVL + LE
+Sbjct  61   LLVFLNVRVRDLIPATVSDLENRLIFDLAVMFHQ-ETQDRCHLRDLSFEVLHDQLE  115
+
+
+>ref|AP_000230.1| E4 ORF3 [Human adenovirus 5]
+ sp|P04489.1|E411_ADE05 RecName: Full=Probable early E4 11 kDa protein
+ emb|CAA26757.1| unnamed protein product [Human adenovirus 5]
+ gb|AAQ19315.1| E4 orf 3 [Human adenovirus C]
+ gb|AAW65534.1| E4 11 kDa protein [Human adenovirus 5]
+ gb|AFS50354.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50443.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50533.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50623.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50668.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT75875.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT75961.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT76434.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT78112.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  155 bits (391),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 113/116 (97%), Positives = 113/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII SLAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICSLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>ref|NP_040534.1| control protein E4orf3 [Human adenovirus C]
+ ref|AP_000194.1| E4 ORF3 [Human adenovirus 2]
+ ref|AP_000531.1| E4 ORF3 [Human adenovirus 1]
+ sp|P03241.1|E4RF3_ADE02 RecName: Full=Early 4 ORF3 protein; Short=E4-ORF3; AltName: Full=E4 
+ORF3 control protein; AltName: Full=Early 4 11 kDa protein; 
+Short=E4-11k
+ gb|AAA92224.1| nuclear binding protein [Human adenovirus 2]
+ gb|ACN88131.1| nuclear binding protein [Human adenovirus 6]
+ gb|ADM46172.1| orf3 [Human adenovirus C]
+ gb|AFQ34689.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50262.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50308.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50487.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AFS50578.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT76005.1| E4 control protein orf3 [Human adenovirus C]
+ gb|AGT77097.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  153 bits (386),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 112/116 (97%), Positives = 112/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDIL RWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILIRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII SLAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICSLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>gb|AFS50398.1| E4 control protein orf3 [Human adenovirus C]
+Length=116
+
+ Score =  153 bits (386),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 112/116 (97%), Positives = 112/116 (97%), Gaps = 0/116 (0%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS
+Sbjct  1    MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  60
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+            LYVHLDVRAV LLEAIVQHLT AII  LAVEFDHATGGERVHLIDLHFEVLDNLLE
+Sbjct  61   LYVHLDVRAVCLLEAIVQHLTNAIICCLAVEFDHATGGERVHLIDLHFEVLDNLLE  116
+
+
+>pdb|4DJB|A Chain A, A Structural Basis For The Assembly And Functions Of 
+A Viral Polymer That Inactivates Multiple Tumor Suppressors
+ pdb|4DJB|B Chain B, A Structural Basis For The Assembly And Functions Of 
+A Viral Polymer That Inactivates Multiple Tumor Suppressors
+Length=130
+
+ Score =  152 bits (384),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 117/121 (97%), Positives = 117/121 (97%), Gaps = 0/121 (0%)
+
+Query  10   HSQDPMIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH  69
+            HSQDP IRCLRLKVEGALEQIFT AGLNIRDLLRDILRRWRDENYLG VEGAG FIEEIH
+Sbjct  10   HSQDPXIRCLRLKVEGALEQIFTXAGLNIRDLLRDILRRWRDENYLGXVEGAGXFIEEIH  69
+
+Query  70   PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+            PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL
+Sbjct  70   PEGFSLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+
+Query  130  E  130
+            E
+Sbjct  130  E  130
+
+
+>ref|YP_007518340.1| E4 ORF3 [Titi monkey adenovirus ECC-2011]
+ gb|AEK98473.1| E4 ORF3 [Titi monkey adenovirus ECC-2011]
+Length=102
+
+ Score =  114 bits (287),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 29/94 (31%), Positives = 54/94 (57%), Gaps = 3/94 (3%)
+
+Query  40   DLLRDILRRWRDENYLGMVEGAGMFI---EEIHPEGFSLYVHLDVRAVSLLEAIVQHLTE  96
+            D+L  I+  W+ EN L  ++   M+     +++P+  +  ++L +   +L++A+V  L  
+Sbjct  8    DVLTGIVNGWKQENELQQIDECSMYCFEDNDLNPQKVTFLIYLKLHLPALVDAVVSGLEN  67
+
+Query  97   AIISSLAVEFDHATGGERVHLIDLHFEVLDNLLE  130
+             +   LAV +   +GG R +L DL FE+LD+LL+
+Sbjct  68   RVHFDLAVTYHQHSGGRRCYLRDLQFEILDDLLQ  101
+
+
+>gb|AFS50352.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=60
+
+ Score = 53.3 bits (127),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  34
+
+
+>gb|AAQ19313.1| E4 orf 3/4 [Human adenovirus C]
+ gb|AAW65533.1| 7.2 kDa protein [Human adenovirus 5]
+ gb|AFS50396.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50441.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50531.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50621.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50666.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT75874.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT75960.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT76433.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT78111.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=61
+
+ Score = 53.3 bits (127),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  34
+
+
+>gb|AFQ34688.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50260.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50306.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50485.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AFS50576.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT76004.1| E4 control protein orf3/4 [Human adenovirus C]
+ gb|AGT77096.1| E4 control protein orf3/4 [Human adenovirus C]
+Length=61
+
+ Score = 51.4 bits (122),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 33/34 (97%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+
+Query  15  MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRR  48
+           MIRCLRLKVEGALEQIFTMAGLNIRDLLRDIL R
+Sbjct  1   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILIR  34
+
+
+>ref|YP_068085.1| E4 ORFE [Tree shrew adenovirus 1]
+Length=114
+
+ Score = 42.2 bits (98),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 33/116 (28%), Positives = 51/116 (44%), Gaps = 4/116 (3%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIH-PEGF  73
+            M   L L  + +L Q+F   GLN+  +LRD L++W             +F + I   E F
+Sbjct  2    MQAMLMLTPDASLIQLFDAKGLNLCTVLRDSLQKWVA--EEAWAAMEEVFCQLIPCGETF  59
+
+Query  74   SLYVHLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGERVHLIDLHFEVLDNLL  129
+               V L V A  +L+ +  HL+  ++  L + +       R  L  + F  L NLL
+Sbjct  60   RFLVILKV-APGMLDRLANHLSNWMLYDLVLSYSSVDQRVRPDLSSIKFTTLTNLL  114
+
+
+>ref|XP_001219258.1| hypothetical protein CHGG_00037 [Chaetomium globosum CBS 148.51]
+ gb|EAQ91802.1| hypothetical protein CHGG_00037 [Chaetomium globosum CBS 148.51]
+Length=333
+
+ Score = 37.2 bits (85),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 8/65 (12%), Positives = 22/65 (34%), Gaps = 0/65 (0%)
+
+Query  37   NIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFSLYVHLDVRAVSLLEAIVQHLTE  96
+            +++  + D+   W+        E   +   E       +   ++    + L A V+ L +
+Sbjct  29   DLQQQMTDVTNEWKQHERDRQSECCDLIRSEFRSPDSPIKKIIEASVRAELRATVKSLQK  88
+
+Query  97   AIISS  101
+             +   
+Sbjct  89   RLNPD  93
+
+
+>ref|YP_007549601.1| mannonate dehydratase [Azoarcus sp. KH32C]
+ ref|WP_015433933.1| mannonate dehydratase [Azoarcus sp. KH32C]
+ dbj|BAL22625.1| mannonate dehydratase [Azoarcus sp. KH32C]
+Length=415
+
+ Score = 35.6 bits (81),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 22/37 (59%), Gaps = 2/37 (5%)
+
+Query  78   HLDVRAVSLLEAIVQHLTEAIISSLAVEFDHATGGER  114
+             LD  AV +LEA+ +H    I+  LA++    +GG+R
+Sbjct  364  MLDAVAVPVLEAVREH--NPILFDLALKRHLHSGGKR  398
+
+
+>ref|YP_006297674.1| putative negative regulator of genetic competence ClpC/MecB [Prevotella 
+intermedia 17]
+ ref|WP_014708367.1| ATP-dependent Clp protease ClpC [Prevotella intermedia]
+ gb|AFJ07686.1| putative negative regulator of genetic competence ClpC/MecB [Prevotella 
+intermedia 17]
+Length=841
+
+ Score = 34.8 bits (79),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 39/87 (45%), Gaps = 2/87 (2%)
+
+Query  15   MIRCLRLKVEGALEQIFTMAGLNIRDLLRDILRRWRDENYLGMVEGAGMFIEEIHPEGFS  74
+            M+  LR K EGA+  +F    LN+ ++   +  R R+EN   +     M + E       
+Sbjct  34   MLAILREK-EGAVSNMFGKLHLNLENIKSQLEERVRNENEGQLPLSNDMMLNEQANNILK  92
+
+Query  75   LYVHLDVRAVSLLEAIVQHLTEAIISS  101
+            L V L+ R+       VQHL  AI+  
+Sbjct  93   LAV-LEARSQRTQTVDVQHLLLAILHD  118
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.154    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0471    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305499710094
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

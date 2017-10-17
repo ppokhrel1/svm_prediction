@@ -1,0 +1,442 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1ZAEB
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1ZAE|A  Chain A, Solution Structure Of The Functional Domain ...   143    9e-43
+ref|YP_002004547.1|  hypothetical early protein [Bacillus phage p...   139    2e-40
+pdb|2BNK|A  Chain A, The Structure Of Phage Phi29 Replication Org...   135    2e-39
+sp|P15853.1|VG167_BPPH5  RecName: Full=Early protein GP16.7 >gb|A...   134    2e-38
+sp|P08386.1|VG167_BPPZA  RecName: Full=Early protein GP16.7 >gb|A...   134    3e-38
+gb|ACH57088.1|  DNA replication organizer [Bacillus phage Nf]         90.9    2e-21
+ref|NP_073703.1|  16.7 protein homologue (phi29) [Bacillus phage ...  53.9    1e-07
+ref|YP_008060130.1|  DNA replication organizer [Bacillus phage MG...  43.9    4e-04
+gb|EJW76301.1|  protein-tyrosine phosphatase [Wuchereria bancrofti]   33.9    2.9  
+gb|AAV68648.1|  dissimilatory sulfite reductase alpha subunit, pa...  33.1    7.6  
+
+
+>pdb|1ZAE|A Chain A, Solution Structure Of The Functional Domain Of Phi29 
+Replication Organizer P16.7c
+ pdb|1ZAE|B Chain B, Solution Structure Of The Functional Domain Of Phi29 
+Replication Organizer P16.7c
+Length=70
+
+ Score =  143 bits (361),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN  60
+           HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN
+Sbjct  1   HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN  60
+
+Query  61  QKKLYRGSLK  70
+           QKKLYRGSLK
+Sbjct  61  QKKLYRGSLK  70
+
+
+>ref|YP_002004547.1| hypothetical early protein [Bacillus phage phi29]
+ sp|P16517.1|VG167_BPPH2 RecName: Full=Early protein GP16.7
+ gb|AAA88352.1| ORF-16.7 protein; putative [Bacillus phage phi29]
+ gb|ACE96041.1| hypothetical early protein [Bacillus phage phi29]
+ prf||1204207D ORF 16.7
+Length=130
+
+ Score =  139 bits (351),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 68/69 (99%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ
+Sbjct  62   IDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>pdb|2BNK|A Chain A, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7
+ pdb|2BNK|B Chain B, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7
+ pdb|2C5R|A Chain A, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|B Chain B, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|C Chain C, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|D Chain D, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|E Chain E, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|F Chain F, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+Length=67
+
+ Score =  135 bits (339),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 67/67 (100%), Positives = 67/67 (100%), Gaps = 0/67 (0%)
+
+Query  4   KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK  63
+           KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK
+Sbjct  1   KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK  60
+
+Query  64  LYRGSLK  70
+           LYRGSLK
+Sbjct  61  LYRGSLK  67
+
+
+>sp|P15853.1|VG167_BPPH5 RecName: Full=Early protein GP16.7
+ gb|AAA32332.1| gene 16.7 peptide (put.); putative [Phage phi-15]
+Length=130
+
+ Score =  134 bits (338),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 63/69 (91%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DK+VN+SACE+AVLDLYEQSNIRIPSDIIED+VNQRLQSEQ+VLNYIETQRTYWKLENQ
+Sbjct  62   VDKSVNMSACEIAVLDLYEQSNIRIPSDIIEDMVNQRLQSEQDVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>sp|P08386.1|VG167_BPPZA RecName: Full=Early protein GP16.7
+ gb|AAA88496.1| unknown protein [Bacillus phage PZA]
+Length=130
+
+ Score =  134 bits (336),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 62/69 (90%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DK+VN+SACE+AVLDLYEQSNIRIPSDIIED+VNQRLQ+EQ+VLNYIETQRTYWKLENQ
+Sbjct  62   VDKSVNMSACEIAVLDLYEQSNIRIPSDIIEDMVNQRLQTEQDVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>gb|ACH57088.1| DNA replication organizer [Bacillus phage Nf]
+Length=130
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 41/69 (59%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +D  + LS  E +VLDLY++SNIRIP DIIEDL +++L +E+EV+ Y+E QR +WKLEN 
+Sbjct  62   IDNNIQLSHVESSVLDLYDESNIRIPVDIIEDLHHKKLSTEKEVMEYVENQRNFWKLENT  121
+
+Query  62   KKLYRGSLK  70
+            KKLY+G LK
+Sbjct  122  KKLYKGVLK  130
+
+
+>ref|NP_073703.1| 16.7 protein homologue (phi29) [Bacillus phage GA-1]
+ emb|CAC21541.1| 16.7 protein homologue (phi29) [Bacillus phage GA-1]
+Length=133
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 27/53 (51%), Positives = 38/53 (72%), Gaps = 1/53 (2%)
+
+Query  15   VLDLYEQSNIRIPSDIIEDLVN-QRLQSEQEVLNYIETQRTYWKLENQKKLYR  66
+             LD YE+S I+IP DIIE++     L++++EV+NYIE  R  WKLEN KK+ +
+Sbjct  81   ALDEYEKSGIKIPLDIIEEITFIDNLRTKEEVMNYIENHRANWKLENSKKVGK  133
+
+
+>ref|YP_008060130.1| DNA replication organizer [Bacillus phage MG-B1]
+ gb|AGI10631.1| DNA replication organizer [Bacillus phage MG-B1]
+Length=144
+
+ Score = 43.9 bits (102),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 22/63 (35%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  7    NLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKKLYR  66
+            NL+  +   +DLYE++NIR+P DIIE+L      +    + +IE QR  WK +    + +
+Sbjct  82   NLTVEQEEAIDLYERNNIRLPIDIIEELSYSNNVTYHSAVAFIEMQRKVWKAQFTVTMTK  141
+
+Query  67   GSL  69
+            G +
+Sbjct  142  GMI  144
+
+
+>gb|EJW76301.1| protein-tyrosine phosphatase [Wuchereria bancrofti]
+Length=191
+
+ Score = 33.9 bits (76),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYI  49
+            + +T  L A + A+  L E+  +  P DI++++ +QRL S Q VL YI
+Sbjct  94   IGRTGTLCAVDYAIDRLNEEGTVS-PPDIVKEIRHQRLHSVQSVLQYI  140
+
+
+>gb|AAV68648.1| dissimilatory sulfite reductase alpha subunit, partial [uncultured 
+sulfate-reducing bacterium]
+Length=331
+
+ Score = 33.1 bits (74),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 14/59 (24%), Positives = 34/59 (58%), Gaps = 1/59 (2%)
+
+Query  3    DKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            D   +++  ++A++  + + NIR+ +D++ +  N+ L  + EV+N   T+   W  +N+
+Sbjct  145  DCVASVARSDIAIIGTW-RDNIRVDADVVTEYANEGLDIQGEVINLCPTKCMAWDADNE  202
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+Results from round 2
+
+
+Query= 1ZAEB
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1ZAE|A  Chain A, Solution Structure Of The Functional Domain ...   105    1e-27
+ref|YP_002004547.1|  hypothetical early protein [Bacillus phage p...   104    1e-26
+sp|P08386.1|VG167_BPPZA  RecName: Full=Early protein GP16.7 >gb|A...   103    2e-26
+sp|P15853.1|VG167_BPPH5  RecName: Full=Early protein GP16.7 >gb|A...   101    1e-25
+pdb|2BNK|A  Chain A, The Structure Of Phage Phi29 Replication Org...  99.4    2e-25
+gb|ACH57088.1|  DNA replication organizer [Bacillus phage Nf]         93.6    2e-22
+ref|YP_008060130.1|  DNA replication organizer [Bacillus phage MG...  83.2    2e-18
+ref|NP_073703.1|  16.7 protein homologue (phi29) [Bacillus phage ...  72.5    2e-14
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_004259299.1|  protein serine/threonine kinase, putative [E...  35.5    1.7  
+ref|WP_021188689.1|  hypothetical protein [Sphingobacterium sp. I...  33.6    4.9  
+
+
+>pdb|1ZAE|A Chain A, Solution Structure Of The Functional Domain Of Phi29 
+Replication Organizer P16.7c
+ pdb|1ZAE|B Chain B, Solution Structure Of The Functional Domain Of Phi29 
+Replication Organizer P16.7c
+Length=70
+
+ Score =  105 bits (261),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN  60
+           HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN
+Sbjct  1   HMDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN  60
+
+Query  61  QKKLYRGSLK  70
+           QKKLYRGSLK
+Sbjct  61  QKKLYRGSLK  70
+
+
+>ref|YP_002004547.1| hypothetical early protein [Bacillus phage phi29]
+ sp|P16517.1|VG167_BPPH2 RecName: Full=Early protein GP16.7
+ gb|AAA88352.1| ORF-16.7 protein; putative [Bacillus phage phi29]
+ gb|ACE96041.1| hypothetical early protein [Bacillus phage phi29]
+ prf||1204207D ORF 16.7
+Length=130
+
+ Score =  104 bits (259),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 68/69 (99%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ
+Sbjct  62   IDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>sp|P08386.1|VG167_BPPZA RecName: Full=Early protein GP16.7
+ gb|AAA88496.1| unknown protein [Bacillus phage PZA]
+Length=130
+
+ Score =  103 bits (256),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 62/69 (90%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DK+VN+SACE+AVLDLYEQSNIRIPSDIIED+VNQRLQ+EQ+VLNYIETQRTYWKLENQ
+Sbjct  62   VDKSVNMSACEIAVLDLYEQSNIRIPSDIIEDMVNQRLQTEQDVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>sp|P15853.1|VG167_BPPH5 RecName: Full=Early protein GP16.7
+ gb|AAA32332.1| gene 16.7 peptide (put.); putative [Phage phi-15]
+Length=130
+
+ Score =  101 bits (252),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 63/69 (91%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +DK+VN+SACE+AVLDLYEQSNIRIPSDIIED+VNQRLQSEQ+VLNYIETQRTYWKLENQ
+Sbjct  62   VDKSVNMSACEIAVLDLYEQSNIRIPSDIIEDMVNQRLQSEQDVLNYIETQRTYWKLENQ  121
+
+Query  62   KKLYRGSLK  70
+            KKLYRGSLK
+Sbjct  122  KKLYRGSLK  130
+
+
+>pdb|2BNK|A Chain A, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7
+ pdb|2BNK|B Chain B, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7
+ pdb|2C5R|A Chain A, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|B Chain B, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|C Chain C, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|D Chain D, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|E Chain E, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+ pdb|2C5R|F Chain F, The Structure Of Phage Phi29 Replication Organizer Protein 
+P16.7 In Complex With Double Stranded Dna
+Length=67
+
+ Score = 99.4 bits (246),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 67/67 (100%), Positives = 67/67 (100%), Gaps = 0/67 (0%)
+
+Query  4   KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK  63
+           KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK
+Sbjct  1   KTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKK  60
+
+Query  64  LYRGSLK  70
+           LYRGSLK
+Sbjct  61  LYRGSLK  67
+
+
+>gb|ACH57088.1| DNA replication organizer [Bacillus phage Nf]
+Length=130
+
+ Score = 93.6 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 41/69 (59%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  2    MDKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQ  61
+            +D  + LS  E +VLDLY++SNIRIP DIIEDL +++L +E+EV+ Y+E QR +WKLEN 
+Sbjct  62   IDNNIQLSHVESSVLDLYDESNIRIPVDIIEDLHHKKLSTEKEVMEYVENQRNFWKLENT  121
+
+Query  62   KKLYRGSLK  70
+            KKLY+G LK
+Sbjct  122  KKLYKGVLK  130
+
+
+>ref|YP_008060130.1| DNA replication organizer [Bacillus phage MG-B1]
+ gb|AGI10631.1| DNA replication organizer [Bacillus phage MG-B1]
+Length=144
+
+ Score = 83.2 bits (204),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  7    NLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLENQKKLYR  66
+            NL+  +   +DLYE++NIR+P DIIE+L      +    + +IE QR  WK +    + +
+Sbjct  82   NLTVEQEEAIDLYERNNIRLPIDIIEELSYSNNVTYHSAVAFIEMQRKVWKAQFTVTMTK  141
+
+Query  67   GSL  69
+            G +
+Sbjct  142  GMI  144
+
+
+>ref|NP_073703.1| 16.7 protein homologue (phi29) [Bacillus phage GA-1]
+ emb|CAC21541.1| 16.7 protein homologue (phi29) [Bacillus phage GA-1]
+Length=133
+
+ Score = 72.5 bits (176),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 27/54 (50%), Positives = 38/54 (70%), Gaps = 1/54 (2%)
+
+Query  14   AVLDLYEQSNIRIPSDIIEDLVN-QRLQSEQEVLNYIETQRTYWKLENQKKLYR  66
+              LD YE+S I+IP DIIE++     L++++EV+NYIE  R  WKLEN KK+ +
+Sbjct  80   EALDEYEKSGIKIPLDIIEEITFIDNLRTKEEVMNYIENHRANWKLENSKKVGK  133
+
+
+>ref|XP_004259299.1| protein serine/threonine kinase, putative [Entamoeba invadens 
+IP1]
+ gb|ELP92528.1| protein serine/threonine kinase, putative [Entamoeba invadens 
+IP1]
+Length=1044
+
+ Score = 35.5 bits (80),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 27/58 (47%), Gaps = 0/58 (0%)
+
+Query  3    DKTVNLSACEVAVLDLYEQSNIRIPSDIIEDLVNQRLQSEQEVLNYIETQRTYWKLEN  60
+            +K VN    E   +D+YE+SNI +   II D +    +  + V   +   + Y +  N
+Sbjct  228  NKVVNFVCFETNDMDIYEKSNITLVVYIISDDLYTTFEGYESVQGILLMSKKYLEYSN  285
+
+
+>ref|WP_021188689.1| hypothetical protein [Sphingobacterium sp. IITKGP-BTPF85]
+ gb|EQB83033.1| hypothetical protein L950_18370 [Sphingobacterium sp. IITKGP-BTPF85]
+Length=208
+
+ Score = 33.6 bits (75),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 25/41 (61%), Gaps = 2/41 (5%)
+
+Query  13  VAVLDLYEQSNIRIPSDIIEDLV--NQRLQSEQEVLNYIET  51
+            A+L+ YE    ++P+DI+E +   +  L +  +++NY E+
+Sbjct  10  EAILNQYEVDKTQLPTDILEQIYTLSSNLVTSHDIINYTES  50
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.129    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

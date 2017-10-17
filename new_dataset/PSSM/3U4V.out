@@ -1,0 +1,1277 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3U4V
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3U4V|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   229    5e-75
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   222    5e-71
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   235    5e-71
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   234    7e-71
+ref|XP_004211765.1|  PREDICTED: replication protein A 70 kDa DNA-...  42.7    0.011
+emb|CDI83163.1|  replication factor-A C terminal domain-containin...  40.0    0.11 
+ref|XP_002767426.1|  replication factor a 1, rfa1, putative [Perk...  40.0    0.11 
+ref|XP_002767427.1|  replication factor a 1, rfa1, putative [Perk...  40.0    0.12 
+ref|XP_002779439.1|  replication protein A 70kDa, putative [Perki...  38.9    0.28 
+emb|CDJ26845.1|  replication factor-A C terminal domain-containin...  38.1    0.47 
+emb|CDJ58112.1|  replication factor-A C terminal domain-containin...  37.7    0.59 
+ref|XP_002141610.1|  OB-fold nucleic acid binding domain-containi...  37.4    0.78 
+ref|XP_002767785.1|  conserved hypothetical protein [Perkinsus ma...  36.2    1.1  
+gb|AEM65192.1|  replication protein A 70kDa DNA-binding subunit [...  37.0    1.3  
+gb|EGZ23584.1|  hypothetical protein PHYSODRAFT_556228 [Phytophth...  36.2    2.1  
+ref|XP_666551.1|  replication protein A 70kDa [Cryptosporidium ho...  36.2    2.3  
+ref|XP_002837718.1|  hypothetical protein [Tuber melanosporum Mel...  36.2    2.4  
+ref|XP_628611.1|  Rf-A (OB fold protein) [Cryptosporidium parvum ...  35.8    2.8  
+gb|AAW71479.1|  replication protein A large subunit [Cryptosporid...  35.8    2.8  
+gb|EGB05408.1|  hypothetical protein AURANDRAFT_11223 [Aureococcu...  35.8    3.0  
+ref|XP_005739426.1|  PREDICTED: replication protein A 70 kDa DNA-...  35.4    3.6  
+ref|XP_005739425.1|  PREDICTED: replication protein A 70 kDa DNA-...  35.4    3.7  
+ref|XP_005932076.1|  PREDICTED: replication protein A 70 kDa DNA-...  35.4    3.8  
+ref|XP_005932077.1|  PREDICTED: replication protein A 70 kDa DNA-...  35.4    3.9  
+ref|WP_021084437.1|  hypothetical protein [Campylobacter concisus...  35.0    4.0  
+ref|WP_021085557.1|  hypothetical protein [Campylobacter concisus...  35.0    4.9  
+ref|XP_001733974.1|  replication protein A 70 kDa DNA-binding sub...  35.0    5.1  
+ref|XP_650233.1|  replication factor A protein 1 [Entamoeba histo...  35.0    5.4  
+gb|EMD45158.1|  replication protein 70 kDa DNAbinding subunit, pu...  35.0    5.6  
+ref|XP_005804150.1|  PREDICTED: replication protein A 70 kDa DNA-...  35.0    5.6  
+gb|EKE38631.1|  replication factor A protein 1, putative [Entamoe...  35.0    5.7  
+ref|WP_021092179.1|  hypothetical protein [Campylobacter concisus...  34.7    6.2  
+ref|WP_021089574.1|  hypothetical protein [Campylobacter concisus...  34.7    6.5  
+ref|XP_002999298.1|  replication protein A 70 kDa DNA-binding sub...  34.7    8.2  
+ref|XP_626789.1|  replication protein A1 large subunit [Cryptospo...  34.3    9.2  
+
+
+>pdb|3U4V|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+ pdb|3U4V|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+Length=117
+
+ Score =  229 bits (584),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 116/117 (99%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  61   NQEINXSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  222 bits (566),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 111/112 (99%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  64
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+
+Query  65   NMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  116
+            N+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL
+Sbjct  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  112
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  235 bits (599),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 116/117 (99%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  199  NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  258
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  259  NQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  315
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  234 bits (597),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 116/117 (99%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  190  NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  249
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  250  NQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  306
+
+
+>ref|XP_004211765.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like, 
+partial [Hydra vulgaris]
+Length=398
+
+ Score = 42.7 bits (99),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 34/109 (31%), Positives = 53/109 (49%), Gaps = 12/109 (11%)
+
+Query  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANN  61
+            GS+ D  SK    IS L   +NR++ +   R+  KSS  T+ N + D K F I   D + 
+Sbjct  137  GSVVDSNSKSVFPISSLTPYQNRWTIR--ARITNKSSIRTWSNSRGDGKLFSIDLVDESG  194
+
+Query  62   QEINMSFWQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKF  103
+            +    +F + VD+ Y  L++G+ YY   G +K         KN+ E+  
+Sbjct  195  EIRATAFNEVVDKYYDLLEIGKVYYITKGSLKTANKQYSSLKNDYEMTL  243
+
+
+>emb|CDI83163.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria acervulina]
+Length=484
+
+ Score = 40.0 bits (92),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 35/111 (32%), Positives = 50/111 (45%), Gaps = 11/111 (10%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQK  71
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  72   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKE  114
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E
+Sbjct  67   AAEKWHGALEKGKVYCFCRGRVNVANKRFSTLSNNYELSFS-AEADIKPAE  116
+
+
+>ref|XP_002767426.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00144.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=582
+
+ Score = 40.0 bits (92),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+>ref|XP_002767427.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00145.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=577
+
+ Score = 40.0 bits (92),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  315  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  372
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  373  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  414
+
+
+>ref|XP_002779439.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER11234.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+Length=788
+
+ Score = 38.9 bits (89),  Expect = 0.28, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+>emb|CDJ26845.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria mitis]
+Length=439
+
+ Score = 38.1 bits (87),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 32/100 (32%), Positives = 46/100 (46%), Gaps = 10/100 (10%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQK  71
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  72   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKF  103
+              + +   L+ G+ Y F  G V    K+F    NN EL F
+Sbjct  67   AAEKWHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSF  106
+
+
+>emb|CDJ58112.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria maxima]
+Length=495
+
+ Score = 37.7 bits (86),  Expect = 0.59, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 47/107 (44%), Gaps = 11/107 (10%)
+
+Query  16   LLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQS  75
+            L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW    + 
+Sbjct  13   LSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGDAAEK  70
+
+Query  76   YQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKE  114
+            +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E
+Sbjct  71   WHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSFS-AEADIKPAE  116
+
+
+>ref|XP_002141610.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+ gb|EEA07261.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+Length=475
+
+ Score = 37.4 bits (85),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 34/68 (50%), Gaps = 2/68 (3%)
+
+Query  22  QVGKNRFSFKFEGRVVYKSSTFQN-QQDSKYFFITAQDANNQEINMSFWQK-VDQSYQTL  79
+           +V  NR     +GRV+ KS T Q  + D K+F I   D +   I + FW+   ++ Y  +
+Sbjct  5   EVNVNRQIITLKGRVIEKSRTLQTLRNDLKFFHIDLIDKDGDTIKVKFWRNKAEEYYNKI  64
+
+Query  80  KVGQYYYF  87
+           + G  Y F
+Sbjct  65  EQGDVYIF  72
+
+
+>ref|XP_002767785.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+ gb|EER00503.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+Length=143
+
+ Score = 36.2 bits (82),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 26/100 (26%), Positives = 47/100 (47%), Gaps = 8/100 (8%)
+
+Query  17   LISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSY  76
+            LIS L+VG   +  +  GRVV KS  F      + F     D ++  + + F+ +    +
+Sbjct  34   LISNLRVGSTDWCLR--GRVVSKSEIF-GISTGELFHAHISDEDSNTVKLLFFDEAAHIF  90
+
+Query  77   Q-TLKVGQYYYFIGGEV----KQFKNNLELKFKFGDYQII  111
+              ++++G  YYF  G+V     +F    +++ KF    +I
+Sbjct  91   HDSIQIGAIYYFRNGKVLRAHSKFNKEADVEIKFDTSAVI  130
+
+
+>gb|AEM65192.1| replication protein A 70kDa DNA-binding subunit [Kryptolebias 
+marmoratus]
+Length=610
+
+ Score = 37.0 bits (84),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 29/95 (31%), Positives = 46/95 (48%), Gaps = 11/95 (12%)
+
+Query  30   FKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYYY  86
+            +    RV  KSS  T+ N + D + F +   D + +    +F Q+VD+ Y  ++VG+ YY
+Sbjct  192  WTVRARVTNKSSIRTWSNSRGDGRLFSMEIVDESGEIRVTAFNQEVDKFYSLIEVGKVYY  251
+
+Query  87   FIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+               G +K         KN+ E+    G+  IIP E
+Sbjct  252  VTKGSLKIANKQYTSVKNDYEMTLN-GESTIIPCE  285
+
+
+>gb|EGZ23584.1| hypothetical protein PHYSODRAFT_556228 [Phytophthora sojae]
+Length=629
+
+ Score = 36.2 bits (82),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 19/45 (42%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query  50   KYFFITAQDANNQEINMSFWQK-VDQSYQTLKVGQYYYFIGGEVK  93
+            K F +   DA   EI  +F+   VD+ Y+TL+ G  +YF GG+VK
+Sbjct  231  KLFSVDLLDARGGEIRATFFNDGVDKFYETLRPGGVFYFAGGKVK  275
+
+
+>ref|XP_666551.1| replication protein A 70kDa [Cryptosporidium hominis TU502]
+ gb|EAL36324.1| replication protein A 70kDa [Cryptosporidium hominis]
+Length=686
+
+ Score = 36.2 bits (82),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 5/70 (7%)
+
+Query  30   FKFEGRVVYKSS----TFQNQQDSKYFFITAQDANNQEINMS-FWQKVDQSYQTLKVGQY  84
+            ++  GRVV KS     +    ++ K F     DA+  EI  + F + VD+ Y  LK G+ 
+Sbjct  202  WRIVGRVVSKSDIRKFSSSKTKEGKVFSFEICDADGSEIRATCFTKAVDKFYDVLKEGEV  261
+
+Query  85   YYFIGGEVKQ  94
+            Y F  G+VK+
+Sbjct  262  YSFSRGDVKE  271
+
+
+>ref|XP_002837718.1| hypothetical protein [Tuber melanosporum Mel28]
+ emb|CAZ81909.1| unnamed protein product [Tuber melanosporum]
+Length=614
+
+ Score = 36.2 bits (82),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 32/97 (33%), Positives = 48/97 (49%), Gaps = 12/97 (12%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSST--FQNQ-QDSKYFFITAQDANNQEINMSFWQKVDQ  74
+            I  L   +NR++ +   RV YKS    +QN  +D + F +T  D + +     F  +VD 
+Sbjct  187  IESLSPYQNRWTIR--ARVTYKSPIKLWQNSNRDGRLFNVTLLDESGEVRATGFNDQVDS  244
+
+Query  75   SYQTLKVGQYYYFIGGEV----KQFK---NNLELKFK  104
+             Y+ L+ GQ YY    +V    KQF    N+ EL F+
+Sbjct  245  FYEVLQEGQVYYISNCKVNFAKKQFSNINNDYELAFE  281
+
+
+>ref|XP_628611.1| Rf-A (OB fold protein) [Cryptosporidium parvum Iowa II]
+ gb|EAK90646.1| Rf-A (OB fold protein) [Cryptosporidium parvum Iowa II]
+Length=707
+
+ Score = 35.8 bits (81),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 5/70 (7%)
+
+Query  30   FKFEGRVVYKSS----TFQNQQDSKYFFITAQDANNQEINMS-FWQKVDQSYQTLKVGQY  84
+            ++  GRVV KS     +    ++ K F     DA+  EI  + F + VD+ Y  LK G+ 
+Sbjct  223  WRIVGRVVSKSDIRKFSSSKTKEGKVFSFEICDADGSEIRATCFTKAVDKFYDMLKEGEV  282
+
+Query  85   YYFIGGEVKQ  94
+            Y F  G+VK+
+Sbjct  283  YSFSRGDVKE  292
+
+
+>gb|AAW71479.1| replication protein A large subunit [Cryptosporidium parvum]
+Length=688
+
+ Score = 35.8 bits (81),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 5/70 (7%)
+
+Query  30   FKFEGRVVYKSS----TFQNQQDSKYFFITAQDANNQEINMS-FWQKVDQSYQTLKVGQY  84
+            ++  GRVV KS     +    ++ K F     DA+  EI  + F + VD+ Y  LK G+ 
+Sbjct  204  WRIVGRVVSKSDIRKFSSSKTKEGKVFSFEICDADGSEIRATCFTKAVDKFYDMLKEGEV  263
+
+Query  85   YYFIGGEVKQ  94
+            Y F  G+VK+
+Sbjct  264  YSFSRGDVKE  273
+
+
+>gb|EGB05408.1| hypothetical protein AURANDRAFT_11223 [Aureococcus anophagefferens]
+Length=366
+
+ Score = 35.8 bits (81),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 39/78 (50%), Gaps = 2/78 (3%)
+
+Query  18  ISQLQVGKNRFSFKFEGRVVYKSSTFQNQQ-DSKYFFITAQDANNQEINMSFWQKVDQSY  76
+           ++ L    NR++ K +  V     ++ N + D   F +T  DA+ +EI   F+++    Y
+Sbjct  2   VASLNPYMNRWTLKAKVAVKNDIVSWSNARGDGTLFKVTLADADGEEIEAVFFKEACAKY  61
+
+Query  77  QTLKV-GQYYYFIGGEVK  93
+               V G  YYF GG+VK
+Sbjct  62  HAALVEGGVYYFSGGKVK  79
+
+
+>ref|XP_005739426.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X2 [Pundamilia nyererei]
+Length=601
+
+ Score = 35.4 bits (80),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  167  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  224
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  225  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  276
+
+
+>ref|XP_005739425.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X1 [Pundamilia nyererei]
+Length=602
+
+ Score = 35.4 bits (80),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  168  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  225
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  226  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  277
+
+
+>ref|XP_005932076.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X1 [Haplochromis burtoni]
+Length=602
+
+ Score = 35.4 bits (80),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  168  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  225
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  226  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  277
+
+
+>ref|XP_005932077.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X2 [Haplochromis burtoni]
+Length=601
+
+ Score = 35.4 bits (80),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  167  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  224
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  225  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  276
+
+
+>ref|WP_021084437.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ22460.1| hypothetical protein UNSW3_437 [Campylobacter concisus UNSW3]
+Length=264
+
+ Score = 35.0 bits (79),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  40   SSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  56   ADTFSTKEIAKKFGKNAKDVNEVLLNLGFIKKCDNGYNVTDVGKYY  101
+
+
+>ref|WP_021085557.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ24516.1| hypothetical protein UNSW1_1355 [Campylobacter concisus UNSW1]
+Length=263
+
+ Score = 35.0 bits (79),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  40   SSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  56   ADTFSAKEIAKKFDKNAKDVNEVLLNLGFIKKCDNGYNVTDVGRYY  101
+
+
+>ref|XP_001733974.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba dispar 
+SAW760]
+ gb|EDR29890.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+dispar SAW760]
+Length=588
+
+ Score = 35.0 bits (79),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 44/92 (48%), Gaps = 9/92 (10%)
+
+Query  32   FEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGG  90
+             +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    
+Sbjct  161  IKGRVVSKNDKFKYAKGNLFSFV-LQDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKA  219
+
+Query  91   EVKQFKNN-------LELKFKFGDYQIIPKET  115
+            + KQ           ++L    G Y II K +
+Sbjct  220  DYKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_650233.1| replication factor A protein 1 [Entamoeba histolytica HM-1:IMSS]
+ gb|EAL44846.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS]
+ gb|EMH72322.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS-B]
+ gb|ENY61483.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+histolytica HM-1:IMSS-A]
+Length=588
+
+ Score = 35.0 bits (79),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 44/92 (48%), Gaps = 9/92 (10%)
+
+Query  32   FEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGG  90
+             +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    
+Sbjct  161  IKGRVVSKNDKFKYAKGNLFSFV-LQDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKA  219
+
+Query  91   EVKQFKNN-------LELKFKFGDYQIIPKET  115
+            + KQ           ++L    G Y II K +
+Sbjct  220  DYKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>gb|EMD45158.1| replication protein 70 kDa DNAbinding subunit, putative [Entamoeba 
+histolytica KU27]
+ gb|EMS17034.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba histolytica 
+HM-3:IMSS]
+Length=588
+
+ Score = 35.0 bits (79),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 44/92 (48%), Gaps = 9/92 (10%)
+
+Query  32   FEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGG  90
+             +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    
+Sbjct  161  IKGRVVSKNDKFKYAKGNLFSFV-LQDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKA  219
+
+Query  91   EVKQFKNN-------LELKFKFGDYQIIPKET  115
+            + KQ           ++L    G Y II K +
+Sbjct  220  DYKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_005804150.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+[Xiphophorus maculatus]
+Length=570
+
+ Score = 35.0 bits (79),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 31/113 (27%), Positives = 57/113 (50%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +  GRV  KSS  T+ N + + K F +   D + +     F
+Sbjct  167  SSKIVPIASLNPYQSKWTIR--GRVTNKSSVRTWSNARGEGKLFSMEIVDESGEIRVTCF  224
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ +  ++VG+ YY   G +K         KN+ E+    G+  +IP E
+Sbjct  225  NQEVDKFFSLIEVGKVYYVSKGSLKIANKQYTSVKNDYEMTLN-GESTVIPCE  276
+
+
+>gb|EKE38631.1| replication factor A protein 1, putative [Entamoeba nuttalli 
+P19]
+Length=588
+
+ Score = 35.0 bits (79),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 44/92 (48%), Gaps = 9/92 (10%)
+
+Query  32   FEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGG  90
+             +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    
+Sbjct  161  IKGRVVSKNDKFKYAKGNLFSFV-LQDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKA  219
+
+Query  91   EVKQFKNN-------LELKFKFGDYQIIPKET  115
+            + KQ           ++L    G Y II K +
+Sbjct  220  DYKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|WP_021092179.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ32383.1| hypothetical protein UNSW2_12 [Campylobacter concisus UNSW2]
+Length=263
+
+ Score = 34.7 bits (78),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  40   SSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  56   ADTFSAKEIAKKFGKNAKDVNEILLNLGFIKKCDNGYNVTDVGKYY  101
+
+
+>ref|WP_021089574.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ28343.1| hypothetical protein ATCC51561_548 [Campylobacter concisus ATCC 
+51561]
+Length=198
+
+ Score = 34.7 bits (78),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  40  SSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+           + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  24  ADTFSAKEIAKKFGKNAKDVNEVLLNLGFIKKCDNGYNVTDVGRYY  69
+
+
+>ref|XP_002999298.1| replication protein A 70 kDa DNA-binding subunit, putative [Phytophthora 
+infestans T30-4]
+ gb|EEY69444.1| replication protein A 70 kDa DNA-binding subunit, putative [Phytophthora 
+infestans T30-4]
+Length=629
+
+ Score = 34.7 bits (78),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 36/68 (53%), Gaps = 4/68 (6%)
+
+Query  30   FKFEGRVVYKSS--TFQNQQDS-KYFFITAQDANNQEINMSFWQK-VDQSYQTLKVGQYY  85
+            +  + RV  +S    + N + S K F +   DA   EI  +F+   VD+ Y+ L+ G  +
+Sbjct  208  WTIKARVTTRSPIKNWTNSRGSGKLFSVDLLDAKKGEIRATFFNDGVDKFYEMLRPGGIF  267
+
+Query  86   YFIGGEVK  93
+            YF GG+VK
+Sbjct  268  YFAGGKVK  275
+
+
+>ref|XP_626789.1| replication protein A1 large subunit [Cryptosporidium parvum 
+Iowa II]
+ gb|EAK89268.1| replication protein A1 large subunit [Cryptosporidium parvum 
+Iowa II]
+Length=484
+
+ Score = 34.3 bits (77),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  22  QVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFW-QKVDQSYQTLK  80
+           +V  NR +   +GR++ KSS    +   ++F +   D +N  I + FW QK ++ +  L+
+Sbjct  16  EVNVNRQTISIKGRIIQKSSLQILKSGLRFFHLDIIDKDNDVIRVKFWRQKAEEYHNILQ  75
+
+Query  81  VGQYYYF  87
+            G  Y  
+Sbjct  76  HGSVYIL  82
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310413853827
+Results from round 2
+
+
+Query= 3U4V
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   198    1e-61
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   207    1e-60
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   205    7e-60
+pdb|3U4V|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   187    2e-58
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_004211765.1|  PREDICTED: replication protein A 70 kDa DNA-...  43.1    0.011
+ref|XP_002767427.1|  replication factor a 1, rfa1, putative [Perk...  41.9    0.028
+ref|XP_002767426.1|  replication factor a 1, rfa1, putative [Perk...  41.9    0.028
+ref|XP_002779439.1|  replication protein A 70kDa, putative [Perki...  41.9    0.031
+emb|CDI83163.1|  replication factor-A C terminal domain-containin...  41.5    0.040
+emb|CDJ26845.1|  replication factor-A C terminal domain-containin...  40.4    0.091
+ref|XP_002837718.1|  hypothetical protein [Tuber melanosporum Mel...  39.6    0.17 
+ref|XP_002141610.1|  OB-fold nucleic acid binding domain-containi...  39.2    0.17 
+emb|CDJ58112.1|  replication factor-A C terminal domain-containin...  39.2    0.18 
+ref|XP_002767785.1|  conserved hypothetical protein [Perkinsus ma...  38.1    0.21 
+gb|AEM65192.1|  replication protein A 70kDa DNA-binding subunit [...  38.5    0.38 
+gb|EMD45158.1|  replication protein 70 kDa DNAbinding subunit, pu...  38.1    0.44 
+ref|XP_650233.1|  replication factor A protein 1 [Entamoeba histo...  38.1    0.44 
+gb|EKE38631.1|  replication factor A protein 1, putative [Entamoe...  38.1    0.46 
+ref|XP_005932076.1|  PREDICTED: replication protein A 70 kDa DNA-...  38.1    0.53 
+ref|XP_001733974.1|  replication protein A 70 kDa DNA-binding sub...  38.1    0.53 
+ref|XP_005932077.1|  PREDICTED: replication protein A 70 kDa DNA-...  38.1    0.56 
+ref|XP_005739425.1|  PREDICTED: replication protein A 70 kDa DNA-...  37.7    0.60 
+ref|XP_005739426.1|  PREDICTED: replication protein A 70 kDa DNA-...  37.7    0.69 
+gb|EGZ23584.1|  hypothetical protein PHYSODRAFT_556228 [Phytophth...  37.3    1.0  
+ref|XP_952613.1|  replication factor-a protein 1 [Theileria annul...  36.5    1.8  
+ref|XP_666551.1|  replication protein A 70kDa [Cryptosporidium ho...  36.1    2.0  
+ref|WP_021084437.1|  hypothetical protein [Campylobacter concisus...  35.0    4.1  
+ref|XP_626789.1|  replication protein A1 large subunit [Cryptospo...  35.4    4.3  
+ref|XP_764664.1|  replication factor A protein [Theileria parva s...  35.4    4.5  
+ref|XP_667409.1|  replication protein A large subunit [Cryptospor...  35.0    5.0  
+ref|WP_021085557.1|  hypothetical protein [Campylobacter concisus...  35.0    5.4  
+ref|WP_019807949.1|  hypothetical protein [Osedax symbiont Rs1] >...  34.6    6.8  
+ref|WP_021092179.1|  hypothetical protein [Campylobacter concisus...  34.6    7.3  
+ref|WP_021089574.1|  hypothetical protein [Campylobacter concisus...  34.2    8.7  
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  198 bits (503),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 111/112 (99%), Positives = 112/112 (100%), Gaps = 0/112 (0%)
+
+Query  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  64
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+
+Query  65   NMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  116
+            N+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL
+Sbjct  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  112
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  207 bits (527),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 116/117 (99%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  199  NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  258
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  259  NQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  315
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  205 bits (521),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 116/117 (99%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  190  NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  249
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN+SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  250  NQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  306
+
+
+>pdb|3U4V|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+ pdb|3U4V|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+Length=117
+
+ Score =  187 bits (474),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 116/117 (99%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+            NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN
+Sbjct  1    NFNIGSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDAN  60
+
+Query  61   NQEINMSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+            NQEIN SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS
+Sbjct  61   NQEINXSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+
+
+>ref|XP_004211765.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like, 
+partial [Hydra vulgaris]
+Length=398
+
+ Score = 43.1 bits (100),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 53/107 (50%), Gaps = 12/107 (11%)
+
+Query  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANN  61
+            GS+ D  SK    IS L   +NR++ +   R+  KSS  T+ N + D K F I   D + 
+Sbjct  137  GSVVDSNSKSVFPISSLTPYQNRWTIR--ARITNKSSIRTWSNSRGDGKLFSIDLVDESG  194
+
+Query  62   QEINMSFWQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLEL  101
+            +    +F + VD+ Y  L++G+ YY   G +K         KN+ E+
+Sbjct  195  EIRATAFNEVVDKYYDLLEIGKVYYITKGSLKTANKQYSSLKNDYEM  241
+
+
+>ref|XP_002767427.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00145.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=577
+
+ Score = 41.9 bits (97),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  315  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  372
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  373  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  414
+
+
+>ref|XP_002767426.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00144.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=582
+
+ Score = 41.9 bits (97),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+>ref|XP_002779439.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER11234.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+Length=788
+
+ Score = 41.9 bits (97),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQK-VD  73
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  74   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  111
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+>emb|CDI83163.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria acervulina]
+Length=484
+
+ Score = 41.5 bits (96),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 35/111 (32%), Positives = 50/111 (45%), Gaps = 11/111 (10%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQK  71
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  72   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKE  114
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E
+Sbjct  67   AAEKWHGALEKGKVYCFCRGRVNVANKRFSTLSNNYELSFS-AEADIKPAE  116
+
+
+>emb|CDJ26845.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria mitis]
+Length=439
+
+ Score = 40.4 bits (93),  Expect = 0.091, Method: Composition-based stats.
+ Identities = 32/100 (32%), Positives = 46/100 (46%), Gaps = 10/100 (10%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQK  71
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  72   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKF  103
+              + +   L+ G+ Y F  G V    K+F    NN EL F
+Sbjct  67   AAEKWHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSF  106
+
+
+>ref|XP_002837718.1| hypothetical protein [Tuber melanosporum Mel28]
+ emb|CAZ81909.1| unnamed protein product [Tuber melanosporum]
+Length=614
+
+ Score = 39.6 bits (91),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 32/97 (33%), Positives = 48/97 (49%), Gaps = 12/97 (12%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKS--STFQN-QQDSKYFFITAQDANNQEINMSFWQKVDQ  74
+            I  L   +NR++ +   RV YKS    +QN  +D + F +T  D + +     F  +VD 
+Sbjct  187  IESLSPYQNRWTIR--ARVTYKSPIKLWQNSNRDGRLFNVTLLDESGEVRATGFNDQVDS  244
+
+Query  75   SYQTLKVGQYYYFIGGEV----KQF---KNNLELKFK  104
+             Y+ L+ GQ YY    +V    KQF    N+ EL F+
+Sbjct  245  FYEVLQEGQVYYISNCKVNFAKKQFSNINNDYELAFE  281
+
+
+>ref|XP_002141610.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+ gb|EEA07261.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+Length=475
+
+ Score = 39.2 bits (90),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 35/68 (51%), Gaps = 2/68 (3%)
+
+Query  22  QVGKNRFSFKFEGRVVYKSSTFQN-QQDSKYFFITAQDANNQEINMSFWQ-KVDQSYQTL  79
+           +V  NR     +GRV+ KS T Q  + D K+F I   D +   I + FW+ K ++ Y  +
+Sbjct  5   EVNVNRQIITLKGRVIEKSRTLQTLRNDLKFFHIDLIDKDGDTIKVKFWRNKAEEYYNKI  64
+
+Query  80  KVGQYYYF  87
+           + G  Y F
+Sbjct  65  EQGDVYIF  72
+
+
+>emb|CDJ58112.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria maxima]
+Length=495
+
+ Score = 39.2 bits (90),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 47/107 (44%), Gaps = 11/107 (10%)
+
+Query  16   LLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQS  75
+            L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW    + 
+Sbjct  13   LSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGDAAEK  70
+
+Query  76   YQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKE  114
+            +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E
+Sbjct  71   WHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSFS-AEADIKPAE  116
+
+
+>ref|XP_002767785.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+ gb|EER00503.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+Length=143
+
+ Score = 38.1 bits (87),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 26/100 (26%), Positives = 47/100 (47%), Gaps = 8/100 (8%)
+
+Query  17   LISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSY  76
+            LIS L+VG   +  +  GRVV KS  F      + F     D ++  + + F+ +    +
+Sbjct  34   LISNLRVGSTDWCLR--GRVVSKSEIF-GISTGELFHAHISDEDSNTVKLLFFDEAAHIF  90
+
+Query  77   Q-TLKVGQYYYFIGGEV----KQFKNNLELKFKFGDYQII  111
+              ++++G  YYF  G+V     +F    +++ KF    +I
+Sbjct  91   HDSIQIGAIYYFRNGKVLRAHSKFNKEADVEIKFDTSAVI  130
+
+
+>gb|AEM65192.1| replication protein A 70kDa DNA-binding subunit [Kryptolebias 
+marmoratus]
+Length=610
+
+ Score = 38.5 bits (88),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 29/91 (32%), Positives = 45/91 (49%), Gaps = 11/91 (12%)
+
+Query  34   GRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYYYFIGG  90
+             RV  KSS  T+ N + D + F +   D + +    +F Q+VD+ Y  ++VG+ YY   G
+Sbjct  196  ARVTNKSSIRTWSNSRGDGRLFSMEIVDESGEIRVTAFNQEVDKFYSLIEVGKVYYVTKG  255
+
+Query  91   EVK-------QFKNNLELKFKFGDYQIIPKE  114
+             +K         KN+ E+    G+  IIP E
+Sbjct  256  SLKIANKQYTSVKNDYEMTLN-GESTIIPCE  285
+
+
+>gb|EMD45158.1| replication protein 70 kDa DNAbinding subunit, putative [Entamoeba 
+histolytica KU27]
+ gb|EMS17034.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba histolytica 
+HM-3:IMSS]
+Length=588
+
+ Score = 38.1 bits (87),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  33   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGGE  91
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  92   VKQFKNN-------LELKFKFGDYQIIPKET  115
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_650233.1| replication factor A protein 1 [Entamoeba histolytica HM-1:IMSS]
+ gb|EAL44846.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS]
+ gb|EMH72322.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS-B]
+ gb|ENY61483.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+histolytica HM-1:IMSS-A]
+Length=588
+
+ Score = 38.1 bits (87),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  33   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGGE  91
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  92   VKQFKNN-------LELKFKFGDYQIIPKET  115
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>gb|EKE38631.1| replication factor A protein 1, putative [Entamoeba nuttalli 
+P19]
+Length=588
+
+ Score = 38.1 bits (87),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  33   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGGE  91
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  92   VKQFKNN-------LELKFKFGDYQIIPKET  115
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_005932076.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X1 [Haplochromis burtoni]
+Length=602
+
+ Score = 38.1 bits (87),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  168  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  225
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  226  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  277
+
+
+>ref|XP_001733974.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba dispar 
+SAW760]
+ gb|EDR29890.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+dispar SAW760]
+Length=588
+
+ Score = 38.1 bits (87),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  33   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV-DQSYQTLKVGQYYYFIGGE  91
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  92   VKQFKNN-------LELKFKFGDYQIIPKET  115
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_005932077.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X2 [Haplochromis burtoni]
+Length=601
+
+ Score = 38.1 bits (87),  Expect = 0.56, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  167  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  224
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  225  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  276
+
+
+>ref|XP_005739425.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X1 [Pundamilia nyererei]
+Length=602
+
+ Score = 37.7 bits (86),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  168  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  225
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  226  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  277
+
+
+>ref|XP_005739426.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like 
+isoform X2 [Pundamilia nyererei]
+Length=601
+
+ Score = 37.7 bits (86),  Expect = 0.69, Method: Composition-based stats.
+ Identities = 32/113 (28%), Positives = 55/113 (49%), Gaps = 13/113 (12%)
+
+Query  12   SKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSF  68
+            S + + I+ L   +++++ +   RV  KSS  T+ N + D K F +   D + +     F
+Sbjct  167  SSKVVPIASLNPYQSKWTIR--ARVTNKSSIRTWSNSRGDGKLFSMEIVDESGEIRVTGF  224
+
+Query  69   WQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKFKFGDYQIIPKE  114
+             Q+VD+ Y  ++ G+ YY   G +K         KN+ E+    G+  IIP E
+Sbjct  225  NQEVDKFYSLIEAGKVYYISKGSLKLANKQYTSVKNDYEMTLN-GESTIIPCE  276
+
+
+>gb|EGZ23584.1| hypothetical protein PHYSODRAFT_556228 [Phytophthora sojae]
+Length=629
+
+ Score = 37.3 bits (85),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 27/45 (60%), Gaps = 1/45 (2%)
+
+Query  50   KYFFITAQDANNQEINMSFWQK-VDQSYQTLKVGQYYYFIGGEVK  93
+            K F +   DA   EI  +F+   VD+ Y+TL+ G  +YF GG+VK
+Sbjct  231  KLFSVDLLDARGGEIRATFFNDGVDKFYETLRPGGVFYFAGGKVK  275
+
+
+>ref|XP_952613.1| replication factor-a protein 1 [Theileria annulata strain Ankara]
+ emb|CAI74881.1| replication factor-a protein 1, putative [Theileria annulata]
+Length=625
+
+ Score = 36.5 bits (83),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 22/67 (33%), Positives = 38/67 (57%), Gaps = 3/67 (4%)
+
+Query  30   FKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYYY  86
+            ++   RVV+KS    F NQ+ +S+ F +   D+N +   + F + V++ Y  L+ GQ Y 
+Sbjct  198  WQIRARVVFKSEIRKFNNQRGESQLFSVDLCDSNGEIRAVFFGESVNKWYSFLEEGQVYS  257
+
+Query  87   FIGGEVK  93
+              GG++K
+Sbjct  258  ISGGQLK  264
+
+
+>ref|XP_666551.1| replication protein A 70kDa [Cryptosporidium hominis TU502]
+ gb|EAL36324.1| replication protein A 70kDa [Cryptosporidium hominis]
+Length=686
+
+ Score = 36.1 bits (82),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 5/70 (7%)
+
+Query  30   FKFEGRVVYKSS----TFQNQQDSKYFFITAQDANNQEINMS-FWQKVDQSYQTLKVGQY  84
+            ++  GRVV KS     +    ++ K F     DA+  EI  + F + VD+ Y  LK G+ 
+Sbjct  202  WRIVGRVVSKSDIRKFSSSKTKEGKVFSFEICDADGSEIRATCFTKAVDKFYDVLKEGEV  261
+
+Query  85   YYFIGGEVKQ  94
+            Y F  G+VK+
+Sbjct  262  YSFSRGDVKE  271
+
+
+>ref|WP_021084437.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ22460.1| hypothetical protein UNSW3_437 [Campylobacter concisus UNSW3]
+Length=264
+
+ Score = 35.0 bits (79),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 29/55 (53%), Gaps = 2/55 (4%)
+
+Query  31   KFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            KF  R +  + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  49   KFNQRNI--ADTFSTKEIAKKFGKNAKDVNEVLLNLGFIKKCDNGYNVTDVGKYY  101
+
+
+>ref|XP_626789.1| replication protein A1 large subunit [Cryptosporidium parvum 
+Iowa II]
+ gb|EAK89268.1| replication protein A1 large subunit [Cryptosporidium parvum 
+Iowa II]
+Length=484
+
+ Score = 35.4 bits (80),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 34/65 (52%), Gaps = 1/65 (2%)
+
+Query  22  QVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFW-QKVDQSYQTLK  80
+           +V  NR +   +GR++ KSS    +   ++F +   D +N  I + FW QK ++ +  L+
+Sbjct  16  EVNVNRQTISIKGRIIQKSSLQILKSGLRFFHLDIIDKDNDVIRVKFWRQKAEEYHNILQ  75
+
+Query  81  VGQYY  85
+            G  Y
+Sbjct  76  HGSVY  80
+
+
+>ref|XP_764664.1| replication factor A protein [Theileria parva strain Muguga]
+ gb|EAN32381.1| replication factor A protein, putative [Theileria parva]
+Length=458
+
+ Score = 35.4 bits (80),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 26/79 (33%), Positives = 44/79 (56%), Gaps = 5/79 (6%)
+
+Query  18   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINMSFWQKVDQ  74
+            IS L +   ++S +   RVV+KS    F NQ+ +S+ F +   D+N +   + F + V++
+Sbjct  44   ISDLTLYTPKWSIR--ARVVFKSEIRKFNNQRGESQLFSVDLCDSNGEIRAVFFGESVNK  101
+
+Query  75   SYQTLKVGQYYYFIGGEVK  93
+             Y  L+ GQ Y   GG++K
+Sbjct  102  WYSFLEEGQVYSISGGQLK  120
+
+
+>ref|XP_667409.1| replication protein A large subunit [Cryptosporidium hominis 
+TU502]
+ gb|EAL37178.1| replication protein A large subunit [Cryptosporidium hominis]
+Length=473
+
+ Score = 35.0 bits (79),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 19/65 (29%), Positives = 34/65 (52%), Gaps = 1/65 (2%)
+
+Query  22  QVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFW-QKVDQSYQTLK  80
+           +V  NR +   +GR++ KSS    +   ++F +   D +N  I + FW QK ++ +  L+
+Sbjct  5   EVNVNRQTISIKGRIIQKSSLQILKSGLRFFHLDIIDKDNDVIRVKFWRQKAEEYHNILQ  64
+
+Query  81  VGQYY  85
+            G  Y
+Sbjct  65  HGSVY  69
+
+
+>ref|WP_021085557.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ24516.1| hypothetical protein UNSW1_1355 [Campylobacter concisus UNSW1]
+Length=263
+
+ Score = 35.0 bits (79),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 29/55 (53%), Gaps = 2/55 (4%)
+
+Query  31   KFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            KF  R +  + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  49   KFNQRNI--ADTFSAKEIAKKFDKNAKDVNEVLLNLGFIKKCDNGYNVTDVGRYY  101
+
+
+>ref|WP_019807949.1| hypothetical protein [Osedax symbiont Rs1]
+ gb|EPJ48164.1| hypothetical protein OFPII_07390 [Osedax symbiont Rs1]
+Length=412
+
+ Score = 34.6 bits (78),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 23/90 (26%), Positives = 42/90 (47%), Gaps = 5/90 (6%)
+
+Query  17   LISQLQVGKNRFSF----KFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKV  72
+            L+++L   K RFS+     F G    K +  +   D         +A+ Q++    W+ +
+Sbjct  190  LLTKLATNKGRFSYPALPNFHGTTFVKQALIELIADQSLLSKPVVEADFQQVTAPLWEYL  249
+
+Query  73   DQSYQTL-KVGQYYYFIGGEVKQFKNNLEL  101
+            DQ +  L + G+ +    G++K+  NN EL
+Sbjct  250  DQLHPLLWREGRSFPKNAGQMKKLLNNGEL  279
+
+
+>ref|WP_021092179.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ32383.1| hypothetical protein UNSW2_12 [Campylobacter concisus UNSW2]
+Length=263
+
+ Score = 34.6 bits (78),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  40   SSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+            + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  56   ADTFSAKEIAKKFGKNAKDVNEILLNLGFIKKCDNGYNVTDVGKYY  101
+
+
+>ref|WP_021089574.1| hypothetical protein [Campylobacter concisus]
+ gb|ERJ28343.1| hypothetical protein ATCC51561_548 [Campylobacter concisus ATCC 
+51561]
+Length=198
+
+ Score = 34.2 bits (77),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 29/55 (53%), Gaps = 2/55 (4%)
+
+Query  31  KFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINMSFWQKVDQSYQTLKVGQYY  85
+           KF  R +  + TF  ++ +K F   A+D N   +N+ F +K D  Y    VG+YY
+Sbjct  17  KFNQRNI--ADTFSAKEIAKKFGKNAKDVNEVLLNLGFIKKCDNGYNVTDVGRYY  69
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.139    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0435    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310413853827
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

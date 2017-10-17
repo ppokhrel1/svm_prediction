@@ -1,0 +1,360 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2VQC
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2VQC|A  Chain A, Structure Of A Dna Binding Winged-Helix Prot...   236    9e-78
+ref|NP_039787.1|  hypothetical protein SSV-1p11 [Sulfolobus spind...   228    2e-74
+ref|YP_002837950.1|  hypothetical protein YG5714_1772 [Sulfolobus...   119    2e-32
+ref|YP_319838.1|  hypothetical protein ATV_gp07 [Acidianus two-ta...  45.4    2e-04
+ref|WP_009074649.1|  F-112 protein [Metallosphaera yellowstonensi...  45.1    3e-04
+gb|EOB11809.1|  hypothetical protein NBO_797g0001, partial [Nosem...  35.8    2.6  
+ref|YP_003774195.1|  hypothetical protein Hsero_0768 [Herbaspiril...  35.0    5.4  
+ref|WP_010742371.1|  hypothetical protein [Enterococcus malodorat...  34.7    6.3  
+
+
+>pdb|2VQC|A Chain A, Structure Of A Dna Binding Winged-Helix Protein, F-112, 
+From Sulfolobus Spindle-Shaped Virus 1.
+Length=118
+
+ Score =  236 bits (602),  Expect = 9e-78, Method: Compositional matrix adjust.
+ Identities = 115/117 (98%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  2    HHHHHHAQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP  61
+            HHHHHHAQTLNSYK AEI YKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP
+Sbjct  2    HHHHHHAQTLNSYKXAEIXYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP  61
+
+Query  62   DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+            DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ
+Sbjct  62   DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+
+
+>ref|NP_039787.1| hypothetical protein SSV-1p11 [Sulfolobus spindle-shaped virus 
+1]
+ sp|P20220.1|F112_SSV1 RecName: Full=Protein F-112
+ emb|CAA30220.1| ORF F-112 [Sulfolobus spindle-shaped virus 1]
+Length=112
+
+ Score =  228 bits (580),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 111/111 (100%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  8    AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ  67
+            AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ
+Sbjct  2    AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ  61
+
+Query  68   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+            YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ
+Sbjct  62   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  112
+
+
+>ref|YP_002837950.1| hypothetical protein YG5714_1772 [Sulfolobus islandicus Y.G.57.14]
+ ref|WP_012716352.1| protein F-112 [Sulfolobus islandicus]
+ gb|ACP46028.1| hypothetical protein YG5714_1772 [Sulfolobus islandicus Y.G.57.14]
+Length=95
+
+ Score =  119 bits (299),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 61/93 (66%), Positives = 76/93 (82%), Gaps = 2/93 (2%)
+
+Query  12   NSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQYKNR  71
+            NSY+MAEIMYKIL++K E++LEDILAQFEIS  +AYN+QR L+ ICE+HPDECEVQ KNR
+Sbjct  3    NSYQMAEIMYKILQQKKEISLEDILAQFEISASTAYNVQRTLRMICEKHPDECEVQTKNR  62
+
+Query  72   KTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPA  104
+            +T FKWIK E+  E+ QE+ +    KI +AQPA
+Sbjct  63   RTIFKWIKNEETTEEGQEEQEI--EKILNAQPA  93
+
+
+>ref|YP_319838.1| hypothetical protein ATV_gp07 [Acidianus two-tailed virus]
+ sp|Q3V4T1.1|Y070_ATV RecName: Full=Uncharacterized protein ORF70
+ emb|CAI59883.1| hypothetical protein [Acidianus two-tailed virus]
+Length=70
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 41/67 (61%), Gaps = 2/67 (3%)
+
+Query  9   QTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQY  68
+           Q++N  ++A+ ++  L +K E+T EDI+A + ++   AY I   LK +C++H  EC+   
+Sbjct  2   QSVN--EVAQQLFSKLREKKEITAEDIIAIYNVTPSVAYAIFTVLKVMCQQHQGECQAIK  59
+
+Query  69  KNRKTTF  75
+           + RKT  
+Sbjct  60  RGRKTVI  66
+
+
+>ref|WP_009074649.1| F-112 protein [Metallosphaera yellowstonensis]
+ gb|EHP68345.1| F-112 protein [Metallosphaera yellowstonensis MK1]
+Length=104
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  11  LNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICE  58
+           LN  + A+++ KIL+ KGEL + DI+ QFEIS   A  I +  + ICE
+Sbjct  9   LNDVQRAKLLVKILQAKGELDVYDIMLQFEISYTRAIPIMKLTRKICE  56
+
+
+>gb|EOB11809.1| hypothetical protein NBO_797g0001, partial [Nosema bombycis CQ1]
+Length=286
+
+ Score = 35.8 bits (81),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  68   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKA  116
+            YK  K TF+ IKQ QK++       DNI  IFD +  N E  D G +++
+Sbjct  136  YKFDKYTFRMIKQVQKDDDVVISIYDNIYCIFDGETDNIEFYDNGKLRS  184
+
+
+>ref|YP_003774195.1| hypothetical protein Hsero_0768 [Herbaspirillum seropedicae SmR1]
+ ref|WP_013232804.1| hypothetical protein [Herbaspirillum seropedicae]
+ gb|ADJ62287.1| conserved hypothetical protein [Herbaspirillum seropedicae SmR1]
+Length=720
+
+ Score = 35.0 bits (79),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 20/82 (24%), Positives = 36/82 (44%), Gaps = 9/82 (11%)
+
+Query  40   EISVPSAYNIQRALKAICERHPDECEVQ------YKNRKTTFKWIKQEQKEEQKQEQTQD  93
+            + S   A    +A++ +  R   EC+ Q      +       KW++  Q + Q+Q     
+Sbjct  17   KFSAKEALQRAKAMRCLRARGQTECKGQLFTGLFFDGTGNNDKWVEDGQTKNQRQRNKHS  76
+
+Query  94   NIAKIFDAQPANFEQTDQGFIK  115
+            N+A++FDA     +  D GF +
+Sbjct  77   NVARLFDAY---IDDPDNGFFR  95
+
+
+>ref|WP_010742371.1| hypothetical protein [Enterococcus malodoratus]
+ gb|EOH73484.1| hypothetical protein UAI_03581 [Enterococcus malodoratus ATCC 
+43197]
+ gb|EOT67242.1| hypothetical protein I585_02763 [Enterococcus malodoratus ATCC 
+43197]
+Length=255
+
+ Score = 34.7 bits (78),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 29/43 (67%), Gaps = 3/43 (7%)
+
+Query  18  EIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERH  60
+           +I+  ++EK G +T+E+++A+F +S P+   I+  L A+ E H
+Sbjct  8   QIILNMIEKTGNITVEELVAKFNVSAPT---IRADLNALAENH  47
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.128    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 309255568050
+Results from round 2
+
+
+Query= 2VQC
+
+Length=118
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2VQC|A  Chain A, Structure Of A Dna Binding Winged-Helix Prot...   149    2e-43
+ref|NP_039787.1|  hypothetical protein SSV-1p11 [Sulfolobus spind...   143    2e-41
+ref|YP_002837950.1|  hypothetical protein YG5714_1772 [Sulfolobus...   104    3e-26
+ref|YP_319838.1|  hypothetical protein ATV_gp07 [Acidianus two-ta...  78.3    1e-16
+ref|WP_009074649.1|  F-112 protein [Metallosphaera yellowstonensi...  66.0    1e-11
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_009061544.1|  DNA gyrase subunit A [Methylacidiphilum fuma...  36.3    1.9  
+ref|WP_009370071.1|  glutaminyl-tRNA synthetase [Megasphaera geno...  34.8    7.0  
+ref|WP_007391763.1|  glutaminyl-tRNA synthetase [Megasphaera sp. ...  34.8    7.7  
+
+
+>pdb|2VQC|A Chain A, Structure Of A Dna Binding Winged-Helix Protein, F-112, 
+From Sulfolobus Spindle-Shaped Virus 1.
+Length=118
+
+ Score =  149 bits (375),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 115/117 (98%), Positives = 115/117 (98%), Gaps = 0/117 (0%)
+
+Query  2    HHHHHHAQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP  61
+            HHHHHHAQTLNSYK AEI YKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP
+Sbjct  2    HHHHHHAQTLNSYKXAEIXYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHP  61
+
+Query  62   DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+            DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ
+Sbjct  62   DECEVQYKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+
+
+>ref|NP_039787.1| hypothetical protein SSV-1p11 [Sulfolobus spindle-shaped virus 
+1]
+ sp|P20220.1|F112_SSV1 RecName: Full=Protein F-112
+ emb|CAA30220.1| ORF F-112 [Sulfolobus spindle-shaped virus 1]
+Length=112
+
+ Score =  143 bits (360),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 111/111 (100%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  8    AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ  67
+            AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ
+Sbjct  2    AQTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQ  61
+
+Query  68   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  118
+            YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ
+Sbjct  62   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPANFEQTDQGFIKAKQ  112
+
+
+>ref|YP_002837950.1| hypothetical protein YG5714_1772 [Sulfolobus islandicus Y.G.57.14]
+ ref|WP_012716352.1| protein F-112 [Sulfolobus islandicus]
+ gb|ACP46028.1| hypothetical protein YG5714_1772 [Sulfolobus islandicus Y.G.57.14]
+Length=95
+
+ Score =  104 bits (258),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 61/93 (66%), Positives = 75/93 (81%), Gaps = 2/93 (2%)
+
+Query  12   NSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQYKNR  71
+            NSY+MAEIMYKIL++K E++LEDILAQFEIS  +AYN+QR L+ ICE+HPDECEVQ KNR
+Sbjct  3    NSYQMAEIMYKILQQKKEISLEDILAQFEISASTAYNVQRTLRMICEKHPDECEVQTKNR  62
+
+Query  72   KTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQPA  104
+            +T FKWIK E+  E  + Q +  I KI +AQPA
+Sbjct  63   RTIFKWIKNEETTE--EGQEEQEIEKILNAQPA  93
+
+
+>ref|YP_319838.1| hypothetical protein ATV_gp07 [Acidianus two-tailed virus]
+ sp|Q3V4T1.1|Y070_ATV RecName: Full=Uncharacterized protein ORF70
+ emb|CAI59883.1| hypothetical protein [Acidianus two-tailed virus]
+Length=70
+
+ Score = 78.3 bits (191),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 23/67 (34%), Positives = 41/67 (61%), Gaps = 2/67 (3%)
+
+Query  9   QTLNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQY  68
+           Q++N  ++A+ ++  L +K E+T EDI+A + ++   AY I   LK +C++H  EC+   
+Sbjct  2   QSVN--EVAQQLFSKLREKKEITAEDIIAIYNVTPSVAYAIFTVLKVMCQQHQGECQAIK  59
+
+Query  69  KNRKTTF  75
+           + RKT  
+Sbjct  60  RGRKTVI  66
+
+
+>ref|WP_009074649.1| F-112 protein [Metallosphaera yellowstonensis]
+ gb|EHP68345.1| F-112 protein [Metallosphaera yellowstonensis MK1]
+Length=104
+
+ Score = 66.0 bits (159),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 34/92 (37%), Positives = 51/92 (55%), Gaps = 1/92 (1%)
+
+Query  11   LNSYKMAEIMYKILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQYKN  70
+            LN  + A+++ KIL+ KGEL + DI+ QFEIS   A  I +  + ICE   + C    K 
+Sbjct  9    LNDVQRAKLLVKILQAKGELDVYDIMLQFEISYTRAIPIMKLTRKICEA-QEICTYDEKE  67
+
+Query  71   RKTTFKWIKQEQKEEQKQEQTQDNIAKIFDAQ  102
+             K      K+E+ E+ ++E  ++ I KI DA 
+Sbjct  68   HKLVSLNAKKEKVEQDEEENEREEIEKILDAH  99
+
+
+>ref|WP_009061544.1| DNA gyrase subunit A [Methylacidiphilum fumariolicum]
+ emb|CCG93095.1| DNA gyrase subunit A [Methylacidiphilum fumariolicum SolV]
+Length=868
+
+ Score = 36.3 bits (82),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 17/85 (20%), Positives = 37/85 (44%), Gaps = 9/85 (11%)
+
+Query  22   KILEKKGELTLEDILAQFEISVPSAYNIQRALKAICERHPDECEVQYKNRKTTFKWIKQE  81
+            KIL++ GE++ ED++A   + +   +N       I   + D    Q +  +         
+Sbjct  519  KILQEAGEVSFEDLVANQRVVITLTHNGF-----IKRTNLDNYRSQRRGGRGVVGM----  569
+
+Query  82   QKEEQKQEQTQDNIAKIFDAQPANF  106
+              +E  +E+ QD +  + +A   ++
+Sbjct  570  ATQEVGKEEEQDFVENLINASTHDY  594
+
+
+>ref|WP_009370071.1| glutaminyl-tRNA synthetase [Megasphaera genomosp. type_1]
+ gb|EFD93453.1| glutamine--tRNA ligase [Megasphaera genomosp. type_1 str. 28L]
+Length=557
+
+ Score = 34.8 bits (78),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 17/91 (19%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  10   TLNSYKMAEIMYKILEKKGELTLED--ILAQFEISVPSAYNIQRALKAICERHPDECEVQ  67
+            + N      ++Y+IL  K   T     I   ++ + P +  I+R   +IC        ++
+Sbjct  180  SPNLNMRDPVLYRILHAKHHRTGTTWCIYPMYDFAHPVSDAIERITHSIC-------TLE  232
+
+Query  68   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKI  98
+            ++  +  + W+ +E ++ + Q+  Q   A++
+Sbjct  233  FEAHRPLYNWVLEEWEDPEGQKPQQIEFARL  263
+
+
+>ref|WP_007391763.1| glutaminyl-tRNA synthetase [Megasphaera sp. UPII 199-6]
+ gb|EGL38389.1| glutamine--tRNA ligase [Megasphaera sp. UPII 199-6]
+Length=557
+
+ Score = 34.8 bits (78),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 17/91 (19%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  10   TLNSYKMAEIMYKILEKKGELTLED--ILAQFEISVPSAYNIQRALKAICERHPDECEVQ  67
+            + N      ++Y+IL  K   T     I   ++ + P +  I+R   +IC        ++
+Sbjct  180  SPNLNMRDPVLYRILHAKHHRTGTTWCIYPMYDFAHPVSDAIERITHSIC-------TLE  232
+
+Query  68   YKNRKTTFKWIKQEQKEEQKQEQTQDNIAKI  98
+            ++  +  + W+ +E ++ + Q+  Q   A++
+Sbjct  233  FEAHRPLYNWVLEEWEDPEGQKPQQIEFARL  263
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.125    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 309255568050
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

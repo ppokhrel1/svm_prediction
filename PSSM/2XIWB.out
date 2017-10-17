@@ -1,0 +1,2705 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2XIWB
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2XIW|A  Chain A, Crystal Structure Of The Sac7d-derived Igg1-...   155    5e-47
+pdb|1XYI|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  97.1    2e-24
+pdb|1XX8|A  Chain A, Nmr Structure Of The W24a Mutant Of The Hype...  97.1    2e-24
+pdb|1WTW|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  96.7    3e-24
+pdb|1WTR|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  96.3    3e-24
+ref|YP_254785.1|  DNA-binding protein 7e [Sulfolobus acidocaldari...  95.9    5e-24
+pdb|1SAP|A  Chain A, Hyperthermophile Protein, Relaxation Matrix ...  95.9    5e-24
+pdb|1WTP|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  95.5    7e-24
+pdb|1WTO|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  95.5    8e-24
+pdb|1WVL|A  Chain A, Crystal Structure Of Multimeric Dna-Binding ...  95.9    8e-24
+ref|YP_255071.1|  DNA-bindign protein 7e [Sulfolobus acidocaldari...  88.2    5e-21
+ref|WP_020198893.1|  DNA-binding protein [Sulfolobales archaeon A...  80.5    5e-18
+ref|NP_376529.1|  DNA-binding protein 7e [Sulfolobus tokodaii str...  75.9    3e-16
+ref|YP_004459429.1|  DNA-binding 7 kDa protein [Acidianus hospita...  75.1    6e-16
+ref|YP_004458143.1|  DNA-binding 7 kDa protein [Acidianus hospita...  73.2    3e-15
+ref|YP_002830757.1|  DNA-binding 7 kDa protein [Sulfolobus island...  69.7    8e-14
+ref|YP_003421041.1|  DNA-binding 7 kDa protein [Sulfolobus island...  68.6    2e-13
+ref|YP_007867037.1|  DNA-binding 7 kDa protein [Sulfolobus island...  67.8    4e-13
+pdb|1C8C|A  Chain A, Crystal Structures Of The Chromosomal Protei...  67.8    4e-13
+ref|YP_005645234.1|  DNA-binding 7 kDa protein [Sulfolobus island...  67.4    5e-13
+ref|NP_343889.1|  DNA-binding protein [Sulfolobus solfataricus P2...  66.2    2e-12
+pdb|1BF4|A  Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAA...  66.2    2e-12
+ref|YP_005642249.1|  DNA-binding 7 kDa protein [Sulfolobus solfat...  66.2    2e-12
+ref|YP_002831601.1|  DNA-binding 7 kDa protein [Sulfolobus island...  65.1    4e-12
+ref|NP_343300.1|  DNA-binding protein [Sulfolobus solfataricus P2...  65.1    4e-12
+pdb|1BBX|C  Chain C, Non-Specific Protein-Dna Interactions In The...  65.1    4e-12
+pdb|1JIC|A  Chain A, Solution Nmr Structure Of Recombinant Sso7d ...  64.7    6e-12
+prf||2107210A  RNase                                                  63.2    3e-11
+ref|YP_004458182.1|  DNA-binding 7 kDa protein [Acidianus hospita...  62.8    4e-11
+pdb|2CVR|A  Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l...  62.0    6e-11
+pdb|1B4O|A  Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized A...  61.2    1e-10
+ref|YP_004410040.1|  hypothetical protein Mcup_1453 [Metallosphae...  54.3    5e-08
+ref|YP_001190678.1|  hypothetical protein Msed_0579 [Metallosphae...  54.3    5e-08
+gb|AAB33737.1|  p7ss=7.147 kda in vitro ribosylatable DNA-binding...  38.9    0.015
+ref|WP_017370707.1|  hypothetical protein [Lactococcus garvieae]      35.8    1.5  
+gb|EJY67114.1|  Protein serine/threonine kinase, putative [Oxytri...  34.7    4.0  
+ref|WP_017261055.1|  hypothetical protein [Lactobacillus rossiae]     34.3    4.0  
+ref|XP_006361479.1|  PREDICTED: uncharacterized protein LOC102580...  33.5    6.2  
+
+
+>pdb|2XIW|A Chain A, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+ pdb|2XIW|B Chain B, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+Length=79
+
+ Score =  155 bits (391),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+           RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA
+Sbjct  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+
+Query  62  PKELLDMLARAEREKKLN  79
+           PKELLD LARAEREKKLN
+Sbjct  62  PKELLDXLARAEREKKLN  79
+
+
+>pdb|1XYI|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+Val26alaMET29ALA IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 97.1 bits (240),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1XX8|A Chain A, Nmr Structure Of The W24a Mutant Of The Hyperthermophile 
+Sac7d Protein
+Length=66
+
+ Score = 97.1 bits (240),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V+R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVARVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTW|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gcgatcgc
+ pdb|1WTX|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 96.7 bits (239),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTR|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gcgatcgc
+ pdb|1WTV|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 96.3 bits (238),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|YP_254785.1| DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433189.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435464.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011276993.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13123.3|DN71_SULAC RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sac7d; Contains: RecName: 
+Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Sac7a; Contains: RecName: Full=DNA-binding 
+protein 7b; AltName: Full=7 kDa DNA-binding protein 
+b; AltName: Full=Sac7b
+ pdb|1AZQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1AZP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1CA5|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1CA6|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1WD0|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ pdb|1WD1|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ gb|AAA80315.1| DNA-binding protein [Sulfolobus sp.]
+ gb|AAY79492.1| conserved DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70041.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72316.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=66
+
+ Score = 95.9 bits (237),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1SAP|A Chain A, Hyperthermophile Protein, Relaxation Matrix Refinement 
+Structure
+Length=66
+
+ Score = 95.9 bits (237),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTP|B Chain B, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gtaattac
+Length=66
+
+ Score = 95.5 bits (236),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTO|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+V26fM29F IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 95.5 bits (236),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRFGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WVL|A Chain A, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+ pdb|1WVL|B Chain B, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+Length=80
+
+ Score = 95.9 bits (237),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|YP_255071.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433484.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435759.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011277280.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13125.2|DN72_SULAC RecName: Full=DNA-binding protein 7e; AltName: Full=7 kDa DNA-binding 
+protein e; AltName: Full=Sac7e
+ gb|AAA80316.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ gb|AAY79778.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ gb|AGE70336.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72611.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=65
+
+ Score = 88.2 bits (217),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 50/63 (79%), Gaps = 0/63 (0%)
+
+Query  14  KVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARAE  73
+           KV+F   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKEL+DMLARAE
+Sbjct  3   KVRFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELMDMLARAE  62
+
+Query  74  REK  76
+           ++K
+Sbjct  63  KKK  65
+
+
+>ref|WP_020198893.1| DNA-binding protein [Sulfolobales archaeon Acd1]
+Length=64
+
+ Score = 80.5 bits (197),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 40/63 (63%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   G+EKEVD SKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLA+
+Sbjct  2   AAKVKFKYKGQEKEVDISKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLAK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|NP_376529.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|NP_378090.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|WP_010978621.1| DNA-binding protein [Sulfolobus tokodaii]
+ sp|Q96X56.3|DN71_SULTO RecName: Full=DNA-binding protein 7
+ dbj|BAB65638.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+ dbj|BAB67199.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+Length=64
+
+ Score = 75.9 bits (185),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/60 (63%), Positives = 43/60 (72%), Gaps = 0/60 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           V VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL ML ++
+Sbjct  2   VTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLQMLEKS  61
+
+
+>ref|YP_004459429.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013777046.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE95131.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=62
+
+ Score = 75.1 bits (183),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 38/60 (63%), Positives = 43/60 (72%), Gaps = 0/60 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELLD L +
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLDKLEK  61
+
+
+>ref|YP_004458143.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775761.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93845.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=60
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 37/58 (64%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDML  69
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL+ L
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLEKL  59
+
+
+>ref|YP_002830757.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002833496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002839073.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841926.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002844687.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_002915996.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_005647262.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649907.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|WP_012712662.1| DNA-binding protein [Sulfolobus islandicus]
+ sp|O59632.3|DN72_SULSH RecName: Full=DNA-binding protein 7b; AltName: Full=7 kDa DNA-binding 
+protein B; AltName: Full=Ssh7b
+ dbj|BAA28275.1| Ssh7b [Sulfolobus shibatae]
+ gb|ACP36851.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP39459.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP47151.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP50004.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP56642.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACR43328.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADX86693.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX84048.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+Length=64
+
+ Score = 69.7 bits (169),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 37/63 (59%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEKEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_003421041.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953380.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADB88671.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 68.6 bits (166),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_007867037.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+ ref|WP_015581733.1| DNA-binding 7 kDa protein [Sulfolobus islandicus]
+ gb|AGJ64030.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 67.8 bits (164),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GE+KEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEDKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>pdb|1C8C|A Chain A, Crystal Structures Of The Chromosomal Proteins Sso7dSAC7D 
+Bound To Dna Containing T-G Mismatched Base Pairs
+Length=64
+
+ Score = 67.8 bits (164),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 43/61 (70%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL MLA+ +
+Sbjct  4   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLAKQK  63
+
+Query  74  R  74
+           +
+Sbjct  64  K  64
+
+
+>ref|YP_005645234.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647965.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|YP_007865169.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+ ref|WP_014512200.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADX84751.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX82020.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62165.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 67.4 bits (163),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 43/61 (70%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  4   VKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  63
+
+Query  74  R  74
+           +
+Sbjct  64  K  64
+
+
+>ref|NP_343889.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|WP_010923919.1| DNA-binding protein [Sulfolobus solfataricus]
+ gb|AAK42679.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-1) [Sulfolobus 
+solfataricus P2]
+Length=68
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  8   VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  67
+
+Query  74  R  74
+           +
+Sbjct  68  K  68
+
+
+>pdb|1BF4|A Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAACGC) COMPLEX
+Length=63
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  3   VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  62
+
+Query  74  R  74
+           +
+Sbjct  63  K  63
+
+
+>ref|YP_005642249.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009990119.1| DNA-binding protein [Sulfolobus solfataricus]
+ sp|P39476.2|DN72_SULSO RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sso7d
+ pdb|1BNZ|A Chain A, Sso7d Hyperthermophile ProteinDNA COMPLEX
+ gb|ACX90648.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  4   VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  63
+
+Query  74  R  74
+           +
+Sbjct  64  K  64
+
+
+>ref|YP_002831601.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002914033.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_003418866.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012713334.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ACP34956.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACR41365.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 65.1 bits (157),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 34/61 (56%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  4   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  63
+
+Query  74  R  74
+           +
+Sbjct  64  K  64
+
+
+>ref|NP_343300.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|NP_343422.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|YP_002828838.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002837172.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840877.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842728.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_005644391.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992021.1| DNA-binding protein [Sulfolobus]
+ sp|P61990.2|DN71_SULSH RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=Ssh7a
+ sp|P61991.2|DN71_SULSO RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=p7ss
+ dbj|BAA28274.1| Ssh7a [Sulfolobus shibatae]
+ gb|AAK42090.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-2) [Sulfolobus 
+solfataricus P2]
+ gb|AAK42212.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-3) [Sulfolobus 
+solfataricus P2]
+ gb|ACP37540.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45250.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48955.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54683.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACX92790.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 65.1 bits (157),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 37/64 (58%), Positives = 44/64 (69%), Gaps = 4/64 (6%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML   E
+Sbjct  4   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML---E  60
+
+Query  74  REKK  77
+           ++KK
+Sbjct  61  KQKK  64
+
+
+>pdb|1BBX|C Chain C, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+ pdb|1BBX|D Chain D, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+Length=63
+
+ Score = 65.1 bits (157),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 34/61 (56%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLARAE  73
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML + +
+Sbjct  3   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEKQK  62
+
+Query  74  R  74
+           +
+Sbjct  63  K  63
+
+
+>pdb|1JIC|A Chain A, Solution Nmr Structure Of Recombinant Sso7d With Rnase 
+Activity, Minimized Average Structure
+ pdb|1SSO|A Chain A, Solution Structure And Dna-Binding Properties Of A Thermostable 
+Protein From The Archaeon Sulfolobus Solfataricus
+ gb|AAB25172.1| ribonuclease p2 [Sulfolobus solfataricus, MT-4, ATCC 49155, Peptide, 
+62 aa]
+ prf||1908252A ribonuclease
+Length=62
+
+ Score = 64.7 bits (156),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 40/58 (69%), Gaps = 1/58 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  3   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 63.2 bits (152),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 39/57 (68%), Gaps = 1/57 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLA  70
+           VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL M+ 
+Sbjct  3   VKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMMP  59
+
+
+>ref|YP_004458182.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775800.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93884.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=61
+
+ Score = 62.8 bits (151),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/48 (65%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAP  62
+           VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAP
+Sbjct  4   VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAP  51
+
+
+>pdb|2CVR|A Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l, 12 Conformers
+Length=62
+
+ Score = 62.0 bits (149),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 39/58 (67%), Gaps = 1/58 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           VKF   GEE +VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  3   VKFKYKGEELQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+
+>pdb|1B4O|A Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized Average Structure
+Length=62
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 39/58 (67%), Gaps = 1/58 (2%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           VKF   GEEK+VD SKI+ V R GK +   Y++  GK G G V EKDAPKELL ML +
+Sbjct  3   VKFKYKGEEKQVDISKIKKVWRVGKMISATYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+
+>ref|YP_004410040.1| hypothetical protein Mcup_1453 [Metallosphaera cuprina Ar-4]
+ ref|WP_013738054.1| DNA-binding protein [Metallosphaera cuprina]
+ gb|AEB95556.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=62
+
+ Score = 54.3 bits (129),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 32/60 (53%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLSMIGK  61
+
+
+>ref|YP_001190678.1| hypothetical protein Msed_0579 [Metallosphaera sedula DSM 5348]
+ ref|WP_009071314.1| DNA-binding protein [Metallosphaera]
+ gb|ABP94754.1| nucleoid protein Sul7d [Metallosphaera sedula DSM 5348]
+ gb|EHP70561.1| 7kD DNA-binding domain protein [Metallosphaera yellowstonensis 
+MK1]
+Length=62
+
+ Score = 54.3 bits (129),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 32/60 (53%), Positives = 43/60 (72%), Gaps = 0/60 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL+M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLNMIGK  61
+
+
+>gb|AAB33737.1| p7ss=7.147 kda in vitro ribosylatable DNA-binding protein {N-terminal} 
+[Sulfolobus solfataricus, Peptide Partial, 39 aa]
+Length=39
+
+ Score = 38.9 bits (89),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 18/34 (53%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  15  VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDN  48
+           VKF   GEEK+VD SKI+ V R GK + F Y++ 
+Sbjct  3   VKFKYKGEEKQVDISKIKKVXRVGKMISFTYDEG  36
+
+
+>ref|WP_017370707.1| hypothetical protein [Lactococcus garvieae]
+Length=501
+
+ Score = 35.8 bits (81),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 23/59 (39%), Positives = 34/59 (58%), Gaps = 3/59 (5%)
+
+Query  10   HGSVKVKFLLNGEE--KEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELL  66
+            +GS++V  LLNG+    E DT     V  +   + F   ++GKYGA N++ K+ PK LL
+Sbjct  409  NGSIRVIGLLNGDYVLNETDTPSANYVLLKDGTITFTV-EHGKYGASNLEVKNTPKGLL  466
+
+
+>gb|EJY67114.1| Protein serine/threonine kinase, putative [Oxytricha trifallax]
+Length=773
+
+ Score = 34.7 bits (78),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  33  DVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLD  67
+           D +  G +V+ L  D+G YGAG  D+   PK L+D
+Sbjct  45  DPNGHGDDVQTLDGDDGNYGAGGPDDNSTPKYLMD  79
+
+
+>ref|WP_017261055.1| hypothetical protein [Lactobacillus rossiae]
+Length=679
+
+ Score = 34.3 bits (77),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 26/77 (34%), Positives = 39/77 (51%), Gaps = 4/77 (5%)
+
+Query  1    MRGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYG--AGNVDE  58
+            + G +  HH   V  +F+ N  + + D S+  ++S QG  V FL +DN   G  A     
+Sbjct  442  IEGDYQGHHVAIVNERFV-NENKIDYDQSEFNELSLQGNTVSFLISDNRLLGWVAQGDQL  500
+
+Query  59   KDAPKELLDML-ARAER  74
+            K++ K L+D L AR  R
+Sbjct  501  KESSKALIDGLKARGIR  517
+
+
+>ref|XP_006361479.1| PREDICTED: uncharacterized protein LOC102580026 [Solanum tuberosum]
+Length=211
+
+ Score = 33.5 bits (75),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 24/76 (32%), Positives = 37/76 (49%), Gaps = 8/76 (11%)
+
+Query  5    HHHHHHGSVKVKFLLNGEEKEVDTSKIRDVS-RQGKNVKFLY---NDNGKYGAGNVDEKD  60
+            HHHH +      F L    K   T    DVS RQGK  + L+   ++ G+ G+ NV E  
+Sbjct  93   HHHHQNPKSSSLFALPKSHKTSST----DVSLRQGKQPRSLFRSRSEPGRKGSTNVSEPG  148
+
+Query  61   APKELLDMLARAEREK  76
+            +PK       R+++++
+Sbjct  149  SPKVSCTGRVRSKKDR  164
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307396107185
+Results from round 2
+
+
+Query= 2XIWB
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2XIW|A  Chain A, Crystal Structure Of The Sac7d-derived Igg1-...   105    2e-27
+pdb|1WVL|A  Chain A, Crystal Structure Of Multimeric Dna-Binding ...  96.3    5e-24
+ref|YP_254785.1|  DNA-binding protein 7e [Sulfolobus acidocaldari...  94.8    1e-23
+pdb|1WTP|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  94.4    2e-23
+pdb|1SAP|A  Chain A, Hyperthermophile Protein, Relaxation Matrix ...  94.4    3e-23
+pdb|1WTO|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  93.6    4e-23
+pdb|1WTW|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  93.6    5e-23
+pdb|1WTR|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  93.2    6e-23
+pdb|1XYI|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  91.7    2e-22
+ref|WP_020198893.1|  DNA-binding protein [Sulfolobales archaeon A...  90.9    4e-22
+ref|NP_376529.1|  DNA-binding protein 7e [Sulfolobus tokodaii str...  90.9    5e-22
+ref|YP_255071.1|  DNA-bindign protein 7e [Sulfolobus acidocaldari...  90.5    6e-22
+pdb|1XX8|A  Chain A, Nmr Structure Of The W24a Mutant Of The Hype...  89.8    1e-21
+prf||2107210A  RNase                                                  89.8    1e-21
+ref|YP_004459429.1|  DNA-binding 7 kDa protein [Acidianus hospita...  86.3    3e-20
+pdb|2CVR|A  Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l...  85.9    4e-20
+ref|NP_343889.1|  DNA-binding protein [Sulfolobus solfataricus P2...  85.5    6e-20
+ref|YP_004458143.1|  DNA-binding 7 kDa protein [Acidianus hospita...  85.1    7e-20
+pdb|1C8C|A  Chain A, Crystal Structures Of The Chromosomal Protei...  85.1    8e-20
+ref|YP_002831601.1|  DNA-binding 7 kDa protein [Sulfolobus island...  84.4    2e-19
+ref|YP_002830757.1|  DNA-binding 7 kDa protein [Sulfolobus island...  84.4    2e-19
+ref|YP_007867037.1|  DNA-binding 7 kDa protein [Sulfolobus island...  84.4    2e-19
+ref|YP_003421041.1|  DNA-binding 7 kDa protein [Sulfolobus island...  84.0    2e-19
+pdb|1JIC|A  Chain A, Solution Nmr Structure Of Recombinant Sso7d ...  84.0    2e-19
+ref|YP_005642249.1|  DNA-binding 7 kDa protein [Sulfolobus solfat...  84.0    2e-19
+ref|NP_343300.1|  DNA-binding protein [Sulfolobus solfataricus P2...  84.0    3e-19
+pdb|1BF4|A  Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAA...  83.2    4e-19
+pdb|1BBX|C  Chain C, Non-Specific Protein-Dna Interactions In The...  83.2    4e-19
+ref|YP_005645234.1|  DNA-binding 7 kDa protein [Sulfolobus island...  83.2    5e-19
+ref|YP_004458182.1|  DNA-binding 7 kDa protein [Acidianus hospita...  81.7    2e-18
+pdb|1B4O|A  Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized A...  80.1    7e-18
+ref|YP_001190678.1|  hypothetical protein Msed_0579 [Metallosphae...  70.5    3e-14
+ref|YP_004410040.1|  hypothetical protein Mcup_1453 [Metallosphae...  70.5    3e-14
+
+Sequences not found previously or not previously below threshold:
+
+gb|AAB33737.1|  p7ss=7.147 kda in vitro ribosylatable DNA-binding...  48.9    3e-06
+ref|WP_002471257.1|  30S ribosomal protein S5 [Staphylococcus pet...  34.3    3.0  
+ref|YP_004483276.1|  30S ribosomal protein S5 [Marinomonas posido...  33.9    3.9  
+ref|YP_004311395.1|  30S ribosomal protein S5 [Marinomonas medite...  33.5    4.8  
+ref|WP_005503659.1|  30S ribosomal protein S5 [Shewanella benthic...  33.5    5.5  
+ref|WP_008985232.1|  30S ribosomal protein S5 [Alishewanella agri...  33.1    6.2  
+ref|WP_008609578.1|  30S ribosomal protein S5 [Alishewanella] >gb...  33.1    6.2  
+ref|YP_001092306.1|  30S ribosomal protein S5 [Shewanella loihica...  33.1    6.2  
+ref|YP_001500065.1|  30S ribosomal protein S5 [Shewanella pealean...  33.1    6.4  
+ref|WP_017223599.1|  30S ribosomal protein S5 [Moritella dasanensis]  33.1    6.5  
+ref|WP_019442275.1|  30S ribosomal protein S5 [Moritella marina]      33.1    6.7  
+ref|WP_008224467.1|  30S ribosomal protein S5 [Rheinheimera nanha...  33.1    6.7  
+ref|WP_008899103.1|  30S ribosomal protein S5 [Rheinheimera sp. A...  33.1    7.6  
+ref|YP_001567820.1|  30S ribosomal protein S5 [Petrotoga mobilis ...  33.1    7.7  
+ref|YP_002311371.1|  Ribosomal protein S5 [Shewanella piezotolera...  33.1    7.7  
+ref|YP_001476032.1|  30S ribosomal protein S5 [Shewanella sedimin...  32.7    8.9  
+ref|WP_019677733.1|  30S ribosomal protein S5 [Rheinheimera perlu...  32.7    9.4  
+
+
+>pdb|2XIW|A Chain A, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+ pdb|2XIW|B Chain B, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+Length=79
+
+ Score =  105 bits (261),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+           RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA
+Sbjct  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+
+Query  62  PKELLDMLARAEREKKLN  79
+           PKELLD LARAEREKKLN
+Sbjct  62  PKELLDXLARAEREKKLN  79
+
+
+>pdb|1WVL|A Chain A, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+ pdb|1WVL|B Chain B, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+Length=80
+
+ Score = 96.3 bits (238),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|YP_254785.1| DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433189.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435464.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011276993.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13123.3|DN71_SULAC RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sac7d; Contains: RecName: 
+Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Sac7a; Contains: RecName: Full=DNA-binding 
+protein 7b; AltName: Full=7 kDa DNA-binding protein 
+b; AltName: Full=Sac7b
+ pdb|1AZQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1AZP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1CA5|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1CA6|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1WD0|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ pdb|1WD1|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ gb|AAA80315.1| DNA-binding protein [Sulfolobus sp.]
+ gb|AAY79492.1| conserved DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70041.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72316.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=66
+
+ Score = 94.8 bits (234),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTP|B Chain B, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gtaattac
+Length=66
+
+ Score = 94.4 bits (233),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1SAP|A Chain A, Hyperthermophile Protein, Relaxation Matrix Refinement 
+Structure
+Length=66
+
+ Score = 94.4 bits (233),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTO|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+V26fM29F IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 93.6 bits (231),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRFGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTW|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gcgatcgc
+ pdb|1WTX|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 93.6 bits (231),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTR|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gcgatcgc
+ pdb|1WTV|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 93.2 bits (230),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1XYI|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+Val26alaMET29ALA IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 91.7 bits (226),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|WP_020198893.1| DNA-binding protein [Sulfolobales archaeon Acd1]
+Length=64
+
+ Score = 90.9 bits (224),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 40/63 (63%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   G+EKEVD SKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLA+
+Sbjct  2   AAKVKFKYKGQEKEVDISKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLAK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|NP_376529.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|NP_378090.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|WP_010978621.1| DNA-binding protein [Sulfolobus tokodaii]
+ sp|Q96X56.3|DN71_SULTO RecName: Full=DNA-binding protein 7
+ dbj|BAB65638.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+ dbj|BAB67199.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+Length=64
+
+ Score = 90.9 bits (224),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 38/63 (60%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           V VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL ML ++
+Sbjct  2   VTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLQMLEKS  61
+
+Query  73  ERE  75
+            ++
+Sbjct  62  GKK  64
+
+
+>ref|YP_255071.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433484.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435759.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011277280.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13125.2|DN72_SULAC RecName: Full=DNA-binding protein 7e; AltName: Full=7 kDa DNA-binding 
+protein e; AltName: Full=Sac7e
+ gb|AAA80316.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ gb|AAY79778.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ gb|AGE70336.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72611.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=65
+
+ Score = 90.5 bits (223),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 50/64 (78%), Gaps = 0/64 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+            KV+F   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKEL+DMLARA
+Sbjct  2   AKVRFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELMDMLARA  61
+
+Query  73  EREK  76
+           E++K
+Sbjct  62  EKKK  65
+
+
+>pdb|1XX8|A Chain A, Nmr Structure Of The W24a Mutant Of The Hyperthermophile 
+Sac7d Protein
+Length=66
+
+ Score = 89.8 bits (221),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V+R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVARVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 89.8 bits (221),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 40/63 (63%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL M+  
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMMPE  60
+
+Query  72  AER  74
+             +
+Sbjct  61  TGK  63
+
+
+>ref|YP_004459429.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013777046.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE95131.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=62
+
+ Score = 86.3 bits (212),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 38/61 (62%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELLD L +
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLDKLEK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>pdb|2CVR|A Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l, 12 Conformers
+Length=62
+
+ Score = 85.9 bits (211),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 40/62 (65%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEE +VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEELQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|NP_343889.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|WP_010923919.1| DNA-binding protein [Sulfolobus solfataricus]
+ gb|AAK42679.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-1) [Sulfolobus 
+solfataricus P2]
+Length=68
+
+ Score = 85.5 bits (210),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  6   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  65
+
+Query  72  AER  74
+            ++
+Sbjct  66  QKK  68
+
+
+>ref|YP_004458143.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775761.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93845.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=60
+
+ Score = 85.1 bits (209),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 37/58 (64%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDML  69
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL+ L
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLEKL  59
+
+
+>pdb|1C8C|A Chain A, Crystal Structures Of The Chromosomal Proteins Sso7dSAC7D 
+Bound To Dna Containing T-G Mismatched Base Pairs
+Length=64
+
+ Score = 85.1 bits (209),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL MLA+
+Sbjct  2   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLAK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_002831601.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002914033.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_003418866.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012713334.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ACP34956.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACR41365.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 84.4 bits (207),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   TTVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_002830757.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002833496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002839073.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841926.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002844687.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_002915996.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_005647262.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649907.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|WP_012712662.1| DNA-binding protein [Sulfolobus islandicus]
+ sp|O59632.3|DN72_SULSH RecName: Full=DNA-binding protein 7b; AltName: Full=7 kDa DNA-binding 
+protein B; AltName: Full=Ssh7b
+ dbj|BAA28275.1| Ssh7b [Sulfolobus shibatae]
+ gb|ACP36851.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP39459.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP47151.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP50004.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP56642.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACR43328.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADX86693.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX84048.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+Length=64
+
+ Score = 84.4 bits (207),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 37/63 (59%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEKEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_007867037.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+ ref|WP_015581733.1| DNA-binding 7 kDa protein [Sulfolobus islandicus]
+ gb|AGJ64030.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 84.4 bits (207),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GE+KEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEDKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_003421041.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953380.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADB88671.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>pdb|1JIC|A Chain A, Solution Nmr Structure Of Recombinant Sso7d With Rnase 
+Activity, Minimized Average Structure
+ pdb|1SSO|A Chain A, Solution Structure And Dna-Binding Properties Of A Thermostable 
+Protein From The Archaeon Sulfolobus Solfataricus
+ gb|AAB25172.1| ribonuclease p2 [Sulfolobus solfataricus, MT-4, ATCC 49155, Peptide, 
+62 aa]
+ prf||1908252A ribonuclease
+Length=62
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/62 (55%), Positives = 41/62 (66%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|YP_005642249.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009990119.1| DNA-binding protein [Sulfolobus solfataricus]
+ sp|P39476.2|DN72_SULSO RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sso7d
+ pdb|1BNZ|A Chain A, Sso7d Hyperthermophile ProteinDNA COMPLEX
+ gb|ACX90648.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|NP_343300.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|NP_343422.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|YP_002828838.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002837172.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840877.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842728.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_005644391.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992021.1| DNA-binding protein [Sulfolobus]
+ sp|P61990.2|DN71_SULSH RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=Ssh7a
+ sp|P61991.2|DN71_SULSO RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=p7ss
+ dbj|BAA28274.1| Ssh7a [Sulfolobus shibatae]
+ gb|AAK42090.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-2) [Sulfolobus 
+solfataricus P2]
+ gb|AAK42212.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-3) [Sulfolobus 
+solfataricus P2]
+ gb|ACP37540.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45250.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48955.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54683.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACX92790.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>pdb|1BF4|A Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAACGC) COMPLEX
+Length=63
+
+ Score = 83.2 bits (204),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AER  74
+            ++
+Sbjct  61  QKK  63
+
+
+>pdb|1BBX|C Chain C, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+ pdb|1BBX|D Chain D, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+Length=63
+
+ Score = 83.2 bits (204),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AER  74
+            ++
+Sbjct  61  QKK  63
+
+
+>ref|YP_005645234.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647965.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|YP_007865169.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+ ref|WP_014512200.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADX84751.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX82020.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62165.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 83.2 bits (204),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   TTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_004458182.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775800.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93884.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=61
+
+ Score = 81.7 bits (200),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 31/50 (62%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAP  62
+             VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAP
+Sbjct  2   TTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAP  51
+
+
+>pdb|1B4O|A Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized Average Structure
+Length=62
+
+ Score = 80.1 bits (196),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 40/62 (65%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK +   Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISATYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|YP_001190678.1| hypothetical protein Msed_0579 [Metallosphaera sedula DSM 5348]
+ ref|WP_009071314.1| DNA-binding protein [Metallosphaera]
+ gb|ABP94754.1| nucleoid protein Sul7d [Metallosphaera sedula DSM 5348]
+ gb|EHP70561.1| 7kD DNA-binding domain protein [Metallosphaera yellowstonensis 
+MK1]
+Length=62
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 32/61 (52%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL+M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLNMIGK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>ref|YP_004410040.1| hypothetical protein Mcup_1453 [Metallosphaera cuprina Ar-4]
+ ref|WP_013738054.1| DNA-binding protein [Metallosphaera cuprina]
+ gb|AEB95556.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=62
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 32/61 (52%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLSMIGK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>gb|AAB33737.1| p7ss=7.147 kda in vitro ribosylatable DNA-binding protein {N-terminal} 
+[Sulfolobus solfataricus, Peptide Partial, 39 aa]
+Length=39
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDN  48
+             VKF   GEEK+VD SKI+ V R GK + F Y++ 
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVXRVGKMISFTYDEG  36
+
+
+>ref|WP_002471257.1| 30S ribosomal protein S5 [Staphylococcus pettenkoferi]
+ gb|EHM71640.1| ribosomal protein S5 [Staphylococcus pettenkoferi VCU012]
+Length=166
+
+ Score = 34.3 bits (77),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 30/59 (51%), Gaps = 5/59 (8%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAERE  75
+           EE+ V  +++  V + G+N +F       + NG+ G G    K+ P+ +   +  A++E
+Sbjct  12  EERVVTINRVAKVVKGGRNFRFTALVVVGDKNGRVGFGTGKSKEVPEAIKKAVEDAKKE  70
+
+
+>ref|YP_004483276.1| 30S ribosomal protein S5 [Marinomonas posidonica IVIA-Po-181]
+ ref|WP_013797825.1| 30S ribosomal protein S5 [Marinomonas posidonica]
+ gb|AEF56357.1| ribosomal protein S5 [Marinomonas posidonica IVIA-Po-181]
+Length=166
+
+ Score = 33.9 bits (76),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P+ +   + +A R
+Sbjct  12  QEKLVQVNRVAKVVKGGRIFSFTALTVVGDGNGKVGFGRGKAREVPQAIQKAMEQARR  69
+
+
+>ref|YP_004311395.1| 30S ribosomal protein S5 [Marinomonas mediterranea MMB-1]
+ ref|WP_013659465.1| 30S ribosomal protein S5 [Marinomonas mediterranea]
+ gb|ADZ89559.1| ribosomal protein S5 [Marinomonas mediterranea MMB-1]
+Length=166
+
+ Score = 33.5 bits (75),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P+ +   + +A R
+Sbjct  12  QEKLVQVNRVAKVVKGGRIFSFTALTVVGDGNGKVGFGRGKAREVPQAIQKAMEQARR  69
+
+
+>ref|WP_005503659.1| 30S ribosomal protein S5 [Shewanella benthica]
+ gb|EDP98677.1| ribosomal protein S5 [Shewanella benthica KT99]
+Length=167
+
+ Score = 33.5 bits (75),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_008985232.1| 30S ribosomal protein S5 [Alishewanella agri]
+ gb|EIW88256.1| 30S ribosomal protein S5 [Alishewanella agri BL06]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 30/66 (45%), Gaps = 5/66 (8%)
+
+Query  14  KVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDM  68
+           +VK   + +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   
+Sbjct  5   EVKQQSDLQEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKA  64
+
+Query  69  LARAER  74
+           + +A R
+Sbjct  65  MEKARR  70
+
+
+>ref|WP_008609578.1| 30S ribosomal protein S5 [Alishewanella]
+ gb|EHR40748.1| 30S ribosomal protein S5 [Alishewanella jeotgali KCTC 22429]
+ gb|EJI84515.1| 30S ribosomal protein S5 [Alishewanella aestuarii B11]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 30/66 (45%), Gaps = 5/66 (8%)
+
+Query  14  KVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDM  68
+           +VK   + +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   
+Sbjct  5   EVKQQSDLQEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKA  64
+
+Query  69  LARAER  74
+           + +A R
+Sbjct  65  MEKARR  70
+
+
+>ref|YP_001092306.1| 30S ribosomal protein S5 [Shewanella loihica PV-4]
+ ref|WP_011863983.1| 30S ribosomal protein S5 [Shewanella loihica]
+ sp|A3Q999.1|RS5_SHELP RecName: Full=30S ribosomal protein S5
+ gb|ABO22047.1| SSU ribosomal protein S5P [Shewanella loihica PV-4]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001500065.1| 30S ribosomal protein S5 [Shewanella pealeana ATCC 700345]
+ ref|YP_001676316.1| 30S ribosomal protein S5 [Shewanella halifaxensis HAW-EB4]
+ ref|WP_012153471.1| 30S ribosomal protein S5 [Shewanella]
+ gb|ABV85530.1| ribosomal protein S5 [Shewanella pealeana ATCC 700345]
+ gb|ABZ78657.1| ribosomal protein S5 [Shewanella halifaxensis HAW-EB4]
+Length=168
+
+ Score = 33.1 bits (74),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  14  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  71
+
+
+>ref|WP_017223599.1| 30S ribosomal protein S5 [Moritella dasanensis]
+Length=166
+
+ Score = 33.1 bits (74),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 12/58 (21%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK +  +++  V + G+   F       + NG+ G G    ++ P  +   + +A+R
+Sbjct  12  QEKLIAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKAKR  69
+
+
+>ref|WP_019442275.1| 30S ribosomal protein S5 [Moritella marina]
+Length=166
+
+ Score = 33.1 bits (74),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 12/58 (21%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK +  +++  V + G+   F       + NG+ G G    ++ P  +   + +A+R
+Sbjct  12  QEKLIAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKAKR  69
+
+
+>ref|WP_008224467.1| 30S ribosomal protein S5 [Rheinheimera nanhaiensis]
+ dbj|GAB60685.1| small subunit ribosomal protein S5 [Rheinheimera nanhaiensis 
+E407-8]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_008899103.1| 30S ribosomal protein S5 [Rheinheimera sp. A13L]
+ gb|EGM77683.1| ribosomal protein S5, bacterial/organelle type [Rheinheimera 
+sp. A13L]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRIGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001567820.1| 30S ribosomal protein S5 [Petrotoga mobilis SJ95]
+ ref|WP_012208600.1| 30S ribosomal protein S5 [Petrotoga mobilis]
+ gb|ABX31497.1| ribosomal protein S5 [Petrotoga mobilis SJ95]
+Length=177
+
+ Score = 33.1 bits (74),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 30/57 (53%), Gaps = 5/57 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKF-----LYNDNGKYGAGNVDEKDAPKELLDMLARAE  73
+           EE+ ++  ++  V++ GK + F     + N NGK G G  + ++ P+ +   +  A+
+Sbjct  17  EERVIEIRRVSKVTKGGKTISFRAVSVVGNRNGKVGLGIGNAREVPQAIRKSIENAK  73
+
+
+>ref|YP_002311371.1| Ribosomal protein S5 [Shewanella piezotolerans WP3]
+ ref|WP_020912152.1| 30S ribosomal protein S5 [Shewanella piezotolerans]
+ gb|ACJ28784.1| Ribosomal protein S5 [Shewanella piezotolerans WP3]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001476032.1| 30S ribosomal protein S5 [Shewanella sediminis HAW-EB3]
+ ref|WP_012144633.1| 30S ribosomal protein S5 [Shewanella sediminis]
+ gb|ABV38904.1| ribosomal protein S5 [Shewanella sediminis HAW-EB3]
+Length=167
+
+ Score = 32.7 bits (73),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_019677733.1| 30S ribosomal protein S5 [Rheinheimera perlucida]
+Length=167
+
+ Score = 32.7 bits (73),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307396107185
+Results from round 3
+
+
+Query= 2XIWB
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2XIW|A  Chain A, Crystal Structure Of The Sac7d-derived Igg1-...   104    5e-27
+pdb|1WVL|A  Chain A, Crystal Structure Of Multimeric Dna-Binding ...  95.2    1e-23
+ref|YP_254785.1|  DNA-binding protein 7e [Sulfolobus acidocaldari...  94.0    4e-23
+pdb|1WTP|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  93.2    5e-23
+pdb|1SAP|A  Chain A, Hyperthermophile Protein, Relaxation Matrix ...  93.2    7e-23
+pdb|1WTO|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  92.5    1e-22
+ref|NP_376529.1|  DNA-binding protein 7e [Sulfolobus tokodaii str...  92.5    1e-22
+prf||2107210A  RNase                                                  92.5    1e-22
+pdb|1WTW|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  92.1    2e-22
+pdb|1WTR|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...  91.7    2e-22
+ref|WP_020198893.1|  DNA-binding protein [Sulfolobales archaeon A...  91.3    4e-22
+ref|YP_255071.1|  DNA-bindign protein 7e [Sulfolobus acidocaldari...  90.5    7e-22
+pdb|1XYI|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  90.1    1e-21
+pdb|1XX8|A  Chain A, Nmr Structure Of The W24a Mutant Of The Hype...  88.6    3e-21
+ref|YP_004459429.1|  DNA-binding 7 kDa protein [Acidianus hospita...  86.7    2e-20
+pdb|2CVR|A  Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l...  86.3    2e-20
+ref|NP_343889.1|  DNA-binding protein [Sulfolobus solfataricus P2...  85.9    5e-20
+ref|YP_004458143.1|  DNA-binding 7 kDa protein [Acidianus hospita...  85.1    6e-20
+pdb|1C8C|A  Chain A, Crystal Structures Of The Chromosomal Protei...  85.1    8e-20
+pdb|1JIC|A  Chain A, Solution Nmr Structure Of Recombinant Sso7d ...  84.0    2e-19
+ref|YP_002831601.1|  DNA-binding 7 kDa protein [Sulfolobus island...  84.0    2e-19
+ref|YP_005642249.1|  DNA-binding 7 kDa protein [Sulfolobus solfat...  84.0    2e-19
+ref|NP_343300.1|  DNA-binding protein [Sulfolobus solfataricus P2...  84.0    2e-19
+ref|YP_007867037.1|  DNA-binding 7 kDa protein [Sulfolobus island...  83.6    3e-19
+ref|YP_002830757.1|  DNA-binding 7 kDa protein [Sulfolobus island...  83.6    3e-19
+ref|YP_003421041.1|  DNA-binding 7 kDa protein [Sulfolobus island...  83.6    4e-19
+pdb|1BF4|A  Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAA...  83.2    4e-19
+pdb|1BBX|C  Chain C, Non-Specific Protein-Dna Interactions In The...  83.2    4e-19
+ref|YP_005645234.1|  DNA-binding 7 kDa protein [Sulfolobus island...  82.8    6e-19
+ref|YP_004458182.1|  DNA-binding 7 kDa protein [Acidianus hospita...  81.7    1e-18
+pdb|1B4O|A  Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized A...  80.1    6e-18
+ref|YP_001190678.1|  hypothetical protein Msed_0579 [Metallosphae...  71.3    2e-14
+ref|YP_004410040.1|  hypothetical protein Mcup_1453 [Metallosphae...  70.5    3e-14
+gb|AAB33737.1|  p7ss=7.147 kda in vitro ribosylatable DNA-binding...  49.3    2e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_004483276.1|  30S ribosomal protein S5 [Marinomonas posido...  34.3    3.0  
+ref|WP_002471257.1|  30S ribosomal protein S5 [Staphylococcus pet...  33.9    3.3  
+ref|YP_004311395.1|  30S ribosomal protein S5 [Marinomonas medite...  33.9    3.9  
+ref|WP_005503659.1|  30S ribosomal protein S5 [Shewanella benthic...  33.5    5.0  
+ref|YP_001092306.1|  30S ribosomal protein S5 [Shewanella loihica...  33.5    5.6  
+ref|WP_008985232.1|  30S ribosomal protein S5 [Alishewanella agri...  33.5    5.7  
+ref|WP_008609578.1|  30S ribosomal protein S5 [Alishewanella] >gb...  33.5    5.8  
+ref|YP_001500065.1|  30S ribosomal protein S5 [Shewanella pealean...  33.5    5.8  
+ref|WP_017223599.1|  30S ribosomal protein S5 [Moritella dasanensis]  33.1    5.9  
+ref|WP_019442275.1|  30S ribosomal protein S5 [Moritella marina]      33.1    5.9  
+ref|WP_008224467.1|  30S ribosomal protein S5 [Rheinheimera nanha...  33.1    6.5  
+ref|WP_008899103.1|  30S ribosomal protein S5 [Rheinheimera sp. A...  33.1    6.8  
+ref|YP_003717328.1|  ATPase [Croceibacter atlanticus HTCC2559] >r...  33.5    7.2  
+ref|YP_002311371.1|  Ribosomal protein S5 [Shewanella piezotolera...  33.1    7.3  
+ref|WP_010547029.1|  30S ribosomal protein S5 [gamma proteobacter...  33.1    7.9  
+ref|YP_001476032.1|  30S ribosomal protein S5 [Shewanella sedimin...  33.1    7.9  
+ref|YP_001567820.1|  30S ribosomal protein S5 [Petrotoga mobilis ...  33.1    8.2  
+ref|WP_019677733.1|  30S ribosomal protein S5 [Rheinheimera perlu...  32.8    8.8  
+ref|YP_001052487.1|  30S ribosomal protein S5 [Shewanella baltica...  32.8    9.6  
+ref|YP_001763018.1|  30S ribosomal protein S5 [Shewanella woodyi ...  32.8    9.6  
+
+
+>pdb|2XIW|A Chain A, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+ pdb|2XIW|B Chain B, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+Length=79
+
+ Score =  104 bits (258),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 77/78 (99%), Positives = 77/78 (99%), Gaps = 0/78 (0%)
+
+Query  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+           RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA
+Sbjct  2   RGSHHHHHHGSVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDA  61
+
+Query  62  PKELLDMLARAEREKKLN  79
+           PKELLD LARAEREKKLN
+Sbjct  62  PKELLDXLARAEREKKLN  79
+
+
+>pdb|1WVL|A Chain A, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+ pdb|1WVL|B Chain B, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+Length=80
+
+ Score = 95.2 bits (235),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|YP_254785.1| DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433189.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435464.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011276993.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13123.3|DN71_SULAC RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sac7d; Contains: RecName: 
+Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Sac7a; Contains: RecName: Full=DNA-binding 
+protein 7b; AltName: Full=7 kDa DNA-binding protein 
+b; AltName: Full=Sac7b
+ pdb|1AZQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1AZP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1CA5|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1CA6|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1WD0|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ pdb|1WD1|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ gb|AAA80315.1| DNA-binding protein [Sulfolobus sp.]
+ gb|AAY79492.1| conserved DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70041.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72316.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=66
+
+ Score = 94.0 bits (232),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTP|B Chain B, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gtaattac
+Length=66
+
+ Score = 93.2 bits (230),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1SAP|A Chain A, Hyperthermophile Protein, Relaxation Matrix Refinement 
+Structure
+Length=66
+
+ Score = 93.2 bits (230),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTO|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+V26fM29F IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 92.5 bits (228),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRFGKFVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|NP_376529.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|NP_378090.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|WP_010978621.1| DNA-binding protein [Sulfolobus tokodaii]
+ sp|Q96X56.3|DN71_SULTO RecName: Full=DNA-binding protein 7
+ dbj|BAB65638.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+ dbj|BAB67199.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+Length=64
+
+ Score = 92.5 bits (228),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 38/63 (60%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           V VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL ML ++
+Sbjct  2   VTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLQMLEKS  61
+
+Query  73  ERE  75
+            ++
+Sbjct  62  GKK  64
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 92.5 bits (228),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 33/63 (52%), Positives = 40/63 (63%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL M+  
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMMPE  60
+
+Query  72  AER  74
+             +
+Sbjct  61  TGK  63
+
+
+>pdb|1WTW|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gcgatcgc
+ pdb|1WTX|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 92.1 bits (227),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1WTR|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gcgatcgc
+ pdb|1WTV|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gtaattac
+Length=66
+
+ Score = 91.7 bits (226),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRVGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|WP_020198893.1| DNA-binding protein [Sulfolobales archaeon Acd1]
+Length=64
+
+ Score = 91.3 bits (225),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 40/63 (63%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   G+EKEVD SKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLA+
+Sbjct  2   AAKVKFKYKGQEKEVDISKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLAK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_255071.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433484.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435759.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011277280.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13125.2|DN72_SULAC RecName: Full=DNA-binding protein 7e; AltName: Full=7 kDa DNA-binding 
+protein e; AltName: Full=Sac7e
+ gb|AAA80316.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ gb|AAY79778.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ gb|AGE70336.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72611.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=65
+
+ Score = 90.5 bits (223),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 44/64 (69%), Positives = 50/64 (78%), Gaps = 0/64 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+            KV+F   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKEL+DMLARA
+Sbjct  2   AKVRFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDDNGKTGRGAVSEKDAPKELMDMLARA  61
+
+Query  73  EREK  76
+           E++K
+Sbjct  62  EKKK  65
+
+
+>pdb|1XYI|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+Val26alaMET29ALA IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 90.1 bits (222),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVWRAGKAVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>pdb|1XX8|A Chain A, Nmr Structure Of The W24a Mutant Of The Hyperthermophile 
+Sac7d Protein
+Length=66
+
+ Score = 88.6 bits (218),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 50/65 (77%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARA  72
+           VKVKF   GEEKEVDTSKI+ V+R GK V F Y+DNGK G G V EKDAPKELLDMLARA
+Sbjct  2   VKVKFKYKGEEKEVDTSKIKKVARVGKMVSFTYDDNGKTGRGAVSEKDAPKELLDMLARA  61
+
+Query  73  EREKK  77
+           EREKK
+Sbjct  62  EREKK  66
+
+
+>ref|YP_004459429.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013777046.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE95131.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=62
+
+ Score = 86.7 bits (213),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 38/61 (62%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELLD L +
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLDKLEK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>pdb|2CVR|A Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l, 12 Conformers
+Length=62
+
+ Score = 86.3 bits (212),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 40/62 (65%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEE +VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEELQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|NP_343889.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|WP_010923919.1| DNA-binding protein [Sulfolobus solfataricus]
+ gb|AAK42679.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-1) [Sulfolobus 
+solfataricus P2]
+Length=68
+
+ Score = 85.9 bits (211),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  6   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  65
+
+Query  72  AER  74
+            ++
+Sbjct  66  QKK  68
+
+
+>ref|YP_004458143.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775761.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93845.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=60
+
+ Score = 85.1 bits (209),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 37/58 (64%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDML  69
+           + KVKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAPKELL+ L
+Sbjct  2   ATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAPKELLEKL  59
+
+
+>pdb|1C8C|A Chain A, Crystal Structures Of The Chromosomal Proteins Sso7dSAC7D 
+Bound To Dna Containing T-G Mismatched Base Pairs
+Length=64
+
+ Score = 85.1 bits (209),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL MLA+
+Sbjct  2   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLAK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>pdb|1JIC|A Chain A, Solution Nmr Structure Of Recombinant Sso7d With Rnase 
+Activity, Minimized Average Structure
+ pdb|1SSO|A Chain A, Solution Structure And Dna-Binding Properties Of A Thermostable 
+Protein From The Archaeon Sulfolobus Solfataricus
+ gb|AAB25172.1| ribonuclease p2 [Sulfolobus solfataricus, MT-4, ATCC 49155, Peptide, 
+62 aa]
+ prf||1908252A ribonuclease
+Length=62
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/62 (55%), Positives = 41/62 (66%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|YP_002831601.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002914033.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_003418866.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012713334.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ACP34956.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACR41365.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   TTVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_005642249.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009990119.1| DNA-binding protein [Sulfolobus solfataricus]
+ sp|P39476.2|DN72_SULSO RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sso7d
+ pdb|1BNZ|A Chain A, Sso7d Hyperthermophile ProteinDNA COMPLEX
+ gb|ACX90648.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|NP_343300.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|NP_343422.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|YP_002828838.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002837172.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840877.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842728.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_005644391.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992021.1| DNA-binding protein [Sulfolobus]
+ sp|P61990.2|DN71_SULSH RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=Ssh7a
+ sp|P61991.2|DN71_SULSO RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=p7ss
+ dbj|BAA28274.1| Ssh7a [Sulfolobus shibatae]
+ gb|AAK42090.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-2) [Sulfolobus 
+solfataricus P2]
+ gb|AAK42212.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-3) [Sulfolobus 
+solfataricus P2]
+ gb|ACP37540.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45250.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48955.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54683.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACX92790.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_007867037.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+ ref|WP_015581733.1| DNA-binding 7 kDa protein [Sulfolobus islandicus]
+ gb|AGJ64030.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 83.6 bits (205),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GE+KEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEDKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_002830757.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002833496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002839073.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841926.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002844687.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_002915996.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_005647262.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649907.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|WP_012712662.1| DNA-binding protein [Sulfolobus islandicus]
+ sp|O59632.3|DN72_SULSH RecName: Full=DNA-binding protein 7b; AltName: Full=7 kDa DNA-binding 
+protein B; AltName: Full=Ssh7b
+ dbj|BAA28275.1| Ssh7b [Sulfolobus shibatae]
+ gb|ACP36851.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP39459.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP47151.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP50004.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP56642.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACR43328.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADX86693.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX84048.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+Length=64
+
+ Score = 83.6 bits (205),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 37/63 (59%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEKEVDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_003421041.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953380.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADB88671.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score = 83.6 bits (205),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+           V VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   VTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>pdb|1BF4|A Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAACGC) COMPLEX
+Length=63
+
+ Score = 83.2 bits (204),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AER  74
+            ++
+Sbjct  61  QKK  63
+
+
+>pdb|1BBX|C Chain C, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+ pdb|1BBX|D Chain D, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+Length=63
+
+ Score = 83.2 bits (204),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AER  74
+            ++
+Sbjct  61  QKK  63
+
+
+>ref|YP_005645234.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647965.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|YP_007865169.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+ ref|WP_014512200.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADX84751.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX82020.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62165.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score = 82.8 bits (203),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VDTSKI+ V R GK + F Y++  GK G G V EKDAPKELL ML +
+Sbjct  2   TTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  61
+
+Query  72  AER  74
+            ++
+Sbjct  62  QKK  64
+
+
+>ref|YP_004458182.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775800.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93884.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=61
+
+ Score = 81.7 bits (200),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 31/50 (62%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAP  62
+             VKF   GEEKEVD SKI+ V R GK + F Y+DNGK G G V EKDAP
+Sbjct  2   TTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDDNGKTGRGAVSEKDAP  51
+
+
+>pdb|1B4O|A Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized Average Structure
+Length=62
+
+ Score = 80.1 bits (196),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 33/62 (53%), Positives = 40/62 (65%), Gaps = 1/62 (2%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDMLAR  71
+             VKF   GEEK+VD SKI+ V R GK +   Y++  GK G G V EKDAPKELL ML +
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVWRVGKMISATYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  72  AE  73
+            +
+Sbjct  61  QK  62
+
+
+>ref|YP_001190678.1| hypothetical protein Msed_0579 [Metallosphaera sedula DSM 5348]
+ ref|WP_009071314.1| DNA-binding protein [Metallosphaera]
+ gb|ABP94754.1| nucleoid protein Sul7d [Metallosphaera sedula DSM 5348]
+ gb|EHP70561.1| 7kD DNA-binding domain protein [Metallosphaera yellowstonensis 
+MK1]
+Length=62
+
+ Score = 71.3 bits (173),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 32/61 (52%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL+M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLNMIGK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>ref|YP_004410040.1| hypothetical protein Mcup_1453 [Metallosphaera cuprina Ar-4]
+ ref|WP_013738054.1| DNA-binding protein [Metallosphaera cuprina]
+ gb|AEB95556.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=62
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 32/61 (52%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  12  SVKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDNGKYGAGNVDEKDAPKELLDMLAR  71
+           + K+KF   G++ EVD SK++ V + GK V F Y+DNGK G G V EKDAPKELL M+ +
+Sbjct  2   ATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDDNGKTGRGAVSEKDAPKELLSMIGK  61
+
+Query  72  A  72
+            
+Sbjct  62  K  62
+
+
+>gb|AAB33737.1| p7ss=7.147 kda in vitro ribosylatable DNA-binding protein {N-terminal} 
+[Sulfolobus solfataricus, Peptide Partial, 39 aa]
+Length=39
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  13  VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYNDN  48
+             VKF   GEEK+VD SKI+ V R GK + F Y++ 
+Sbjct  1   ATVKFKYKGEEKQVDISKIKKVXRVGKMISFTYDEG  36
+
+
+>ref|YP_004483276.1| 30S ribosomal protein S5 [Marinomonas posidonica IVIA-Po-181]
+ ref|WP_013797825.1| 30S ribosomal protein S5 [Marinomonas posidonica]
+ gb|AEF56357.1| ribosomal protein S5 [Marinomonas posidonica IVIA-Po-181]
+Length=166
+
+ Score = 34.3 bits (77),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P+ +   + +A R
+Sbjct  12  QEKLVQVNRVAKVVKGGRIFSFTALTVVGDGNGKVGFGRGKAREVPQAIQKAMEQARR  69
+
+
+>ref|WP_002471257.1| 30S ribosomal protein S5 [Staphylococcus pettenkoferi]
+ gb|EHM71640.1| ribosomal protein S5 [Staphylococcus pettenkoferi VCU012]
+Length=166
+
+ Score = 33.9 bits (76),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 15/59 (25%), Positives = 30/59 (51%), Gaps = 5/59 (8%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAERE  75
+           EE+ V  +++  V + G+N +F       + NG+ G G    K+ P+ +   +  A++E
+Sbjct  12  EERVVTINRVAKVVKGGRNFRFTALVVVGDKNGRVGFGTGKSKEVPEAIKKAVEDAKKE  70
+
+
+>ref|YP_004311395.1| 30S ribosomal protein S5 [Marinomonas mediterranea MMB-1]
+ ref|WP_013659465.1| 30S ribosomal protein S5 [Marinomonas mediterranea]
+ gb|ADZ89559.1| ribosomal protein S5 [Marinomonas mediterranea MMB-1]
+Length=166
+
+ Score = 33.9 bits (76),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P+ +   + +A R
+Sbjct  12  QEKLVQVNRVAKVVKGGRIFSFTALTVVGDGNGKVGFGRGKAREVPQAIQKAMEQARR  69
+
+
+>ref|WP_005503659.1| 30S ribosomal protein S5 [Shewanella benthica]
+ gb|EDP98677.1| ribosomal protein S5 [Shewanella benthica KT99]
+Length=167
+
+ Score = 33.5 bits (75),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001092306.1| 30S ribosomal protein S5 [Shewanella loihica PV-4]
+ ref|WP_011863983.1| 30S ribosomal protein S5 [Shewanella loihica]
+ sp|A3Q999.1|RS5_SHELP RecName: Full=30S ribosomal protein S5
+ gb|ABO22047.1| SSU ribosomal protein S5P [Shewanella loihica PV-4]
+Length=167
+
+ Score = 33.5 bits (75),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_008985232.1| 30S ribosomal protein S5 [Alishewanella agri]
+ gb|EIW88256.1| 30S ribosomal protein S5 [Alishewanella agri BL06]
+Length=167
+
+ Score = 33.5 bits (75),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 30/66 (45%), Gaps = 5/66 (8%)
+
+Query  14  KVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDM  68
+           +VK   + +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   
+Sbjct  5   EVKQQSDLQEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKA  64
+
+Query  69  LARAER  74
+           + +A R
+Sbjct  65  MEKARR  70
+
+
+>ref|WP_008609578.1| 30S ribosomal protein S5 [Alishewanella]
+ gb|EHR40748.1| 30S ribosomal protein S5 [Alishewanella jeotgali KCTC 22429]
+ gb|EJI84515.1| 30S ribosomal protein S5 [Alishewanella aestuarii B11]
+Length=167
+
+ Score = 33.5 bits (75),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 15/66 (23%), Positives = 30/66 (45%), Gaps = 5/66 (8%)
+
+Query  14  KVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDM  68
+           +VK   + +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   
+Sbjct  5   EVKQQSDLQEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKA  64
+
+Query  69  LARAER  74
+           + +A R
+Sbjct  65  MEKARR  70
+
+
+>ref|YP_001500065.1| 30S ribosomal protein S5 [Shewanella pealeana ATCC 700345]
+ ref|YP_001676316.1| 30S ribosomal protein S5 [Shewanella halifaxensis HAW-EB4]
+ ref|WP_012153471.1| 30S ribosomal protein S5 [Shewanella]
+ gb|ABV85530.1| ribosomal protein S5 [Shewanella pealeana ATCC 700345]
+ gb|ABZ78657.1| ribosomal protein S5 [Shewanella halifaxensis HAW-EB4]
+Length=168
+
+ Score = 33.5 bits (75),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  14  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  71
+
+
+>ref|WP_017223599.1| 30S ribosomal protein S5 [Moritella dasanensis]
+Length=166
+
+ Score = 33.1 bits (74),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 12/58 (21%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK +  +++  V + G+   F       + NG+ G G    ++ P  +   + +A+R
+Sbjct  12  QEKLIAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKAKR  69
+
+
+>ref|WP_019442275.1| 30S ribosomal protein S5 [Moritella marina]
+Length=166
+
+ Score = 33.1 bits (74),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 12/58 (21%), Positives = 27/58 (47%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK +  +++  V + G+   F       + NG+ G G    ++ P  +   + +A+R
+Sbjct  12  QEKLIAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKAKR  69
+
+
+>ref|WP_008224467.1| 30S ribosomal protein S5 [Rheinheimera nanhaiensis]
+ dbj|GAB60685.1| small subunit ribosomal protein S5 [Rheinheimera nanhaiensis 
+E407-8]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_008899103.1| 30S ribosomal protein S5 [Rheinheimera sp. A13L]
+ gb|EGM77683.1| ribosomal protein S5, bacterial/organelle type [Rheinheimera 
+sp. A13L]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRIGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_003717328.1| ATPase [Croceibacter atlanticus HTCC2559]
+ ref|WP_013188326.1| ABC transporter [Croceibacter atlanticus]
+ gb|EAP86945.1| ATPase [Croceibacter atlanticus HTCC2559]
+Length=585
+
+ Score = 33.5 bits (75),  Expect = 7.2, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+
+Query  39   KNVKFLYNDNGKYGAGNVDEKDAPKELLDMLARAEREK  76
+            KNV F+Y+D G     N+  K +P E L ++ +    K
+Sbjct  346  KNVSFVYDDTGIEALKNISFKVSPNETLAIIGKTGSGK  383
+
+
+>ref|YP_002311371.1| Ribosomal protein S5 [Shewanella piezotolerans WP3]
+ ref|WP_020912152.1| 30S ribosomal protein S5 [Shewanella piezotolerans]
+ gb|ACJ28784.1| Ribosomal protein S5 [Shewanella piezotolerans WP3]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGYGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|WP_010547029.1| 30S ribosomal protein S5 [gamma proteobacterium HIMB30]
+Length=168
+
+ Score = 33.1 bits (74),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 17/69 (25%), Positives = 29/69 (42%), Gaps = 7/69 (10%)
+
+Query  13  VKVKFLLNG--EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKEL  65
+            KV+    G  +EK V  +++  V + G+   F       + NGK G G    ++ P  +
+Sbjct  3   AKVETQQQGDLQEKLVQVNRVAKVVKGGRIFSFTALTVVGDGNGKVGYGRGKAREVPAAI  62
+
+Query  66  LDMLARAER  74
+              +  A R
+Sbjct  63  QKAMESARR  71
+
+
+>ref|YP_001476032.1| 30S ribosomal protein S5 [Shewanella sediminis HAW-EB3]
+ ref|WP_012144633.1| 30S ribosomal protein S5 [Shewanella sediminis]
+ gb|ABV38904.1| ribosomal protein S5 [Shewanella sediminis HAW-EB3]
+Length=167
+
+ Score = 33.1 bits (74),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001567820.1| 30S ribosomal protein S5 [Petrotoga mobilis SJ95]
+ ref|WP_012208600.1| 30S ribosomal protein S5 [Petrotoga mobilis]
+ gb|ABX31497.1| ribosomal protein S5 [Petrotoga mobilis SJ95]
+Length=177
+
+ Score = 33.1 bits (74),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 30/57 (53%), Gaps = 5/57 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKF-----LYNDNGKYGAGNVDEKDAPKELLDMLARAE  73
+           EE+ ++  ++  V++ GK + F     + N NGK G G  + ++ P+ +   +  A+
+Sbjct  17  EERVIEIRRVSKVTKGGKTISFRAVSVVGNRNGKVGLGIGNAREVPQAIRKSIENAK  73
+
+
+>ref|WP_019677733.1| 30S ribosomal protein S5 [Rheinheimera perlucida]
+Length=167
+
+ Score = 32.8 bits (73),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NG+ G G    ++ P  +   + +A R
+Sbjct  13  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001052487.1| 30S ribosomal protein S5 [Shewanella baltica OS155]
+ ref|YP_001364447.1| 30S ribosomal protein S5 [Shewanella baltica OS185]
+ ref|YP_001552659.1| 30S ribosomal protein S5 [Shewanella baltica OS195]
+ ref|YP_002359935.1| 30S ribosomal protein S5 [Shewanella baltica OS223]
+ ref|YP_005271475.1| 30S ribosomal protein S5 [Shewanella baltica OS678]
+ ref|YP_006018858.1| 30S ribosomal protein S5 [Shewanella baltica BA175]
+ ref|YP_006039456.1| 30S ribosomal protein S5 [Shewanella baltica OS117]
+ ref|WP_006083583.1| 30S ribosomal protein S5 [Shewanella baltica]
+ sp|A6WHU5.1|RS5_SHEB8 RecName: Full=30S ribosomal protein S5
+ sp|A3DA55.1|RS5_SHEB5 RecName: Full=30S ribosomal protein S5
+ sp|A9KWB9.1|RS5_SHEB9 RecName: Full=30S ribosomal protein S5
+ sp|B8EBI8.1|RS5_SHEB2 RecName: Full=30S ribosomal protein S5
+ gb|ABN63618.1| SSU ribosomal protein S5P [Shewanella baltica OS155]
+ gb|ABS06384.1| ribosomal protein S5 [Shewanella baltica OS185]
+ gb|ABX47399.1| ribosomal protein S5 [Shewanella baltica OS195]
+ gb|ACK48512.1| ribosomal protein S5 [Shewanella baltica OS223]
+ gb|ADT92423.1| ribosomal protein S5 [Shewanella baltica OS678]
+ gb|AEG09552.1| ribosomal protein S5 [Shewanella baltica BA175]
+ gb|AEH15962.1| ribosomal protein S5 [Shewanella baltica OS117]
+ gb|EHC04993.1| ribosomal protein S5 [Shewanella baltica OS625]
+ gb|EHQ16931.1| ribosomal protein S5 [Shewanella baltica OS183]
+Length=167
+
+ Score = 32.8 bits (73),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 13/58 (22%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK +  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  13  QEKLIAVNRVSKVVKGGRIFSFTALTVVGDGNGKIGYGYGKAREVPAAIQKAMEKARR  70
+
+
+>ref|YP_001763018.1| 30S ribosomal protein S5 [Shewanella woodyi ATCC 51908]
+ ref|WP_012327246.1| 30S ribosomal protein S5 [Shewanella woodyi]
+ gb|ACA88923.1| ribosomal protein S5 [Shewanella woodyi ATCC 51908]
+Length=168
+
+ Score = 32.8 bits (73),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 26/58 (45%), Gaps = 5/58 (9%)
+
+Query  22  EEKEVDTSKIRDVSRQGKNVKFLY-----NDNGKYGAGNVDEKDAPKELLDMLARAER  74
+           +EK V  +++  V + G+   F       + NGK G G    ++ P  +   + +A R
+Sbjct  14  QEKLVAVNRVSKVVKGGRIFSFTALTVVGDGNGKVGFGYGKAREVPAAIQKAMEKARR  71
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.132    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0409    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307396107185
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

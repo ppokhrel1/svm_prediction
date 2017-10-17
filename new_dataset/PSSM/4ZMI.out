@@ -1,0 +1,464 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4ZMI
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...   491    3e-168
+gb|EPY53351.1|  TRF Taz1 [Schizosaccharomyces cryophilus OY26]         198    1e-55 
+gb|EPX71435.1|  TRF Taz1 [Schizosaccharomyces octosporus yFS286]       155    3e-40 
+ref|XP_002173017.1|  predicted protein [Schizosaccharomyces japon...  55.1    8e-06 
+gb|EEB06724.2|  TRF Taz1 [Schizosaccharomyces japonicus yFS275]       55.1    8e-06 
+ref|XP_003291172.1|  hypothetical protein DICPUDRAFT_38584 [Dicty...  40.8    0.16  
+ref|WP_015677597.1|  PF01973 family protein [Leptospira yanagawae...  40.8    0.49  
+ref|YP_001837677.1|  hypothetical protein LEPBI_I0256 [Leptospira...  37.7    4.7   
+ref|YP_001961372.1|  hypothetical protein LBF_0249 [Leptospira bi...  37.7    4.9   
+ref|YP_001884832.1|  hydroxydechloroatrazine ethylaminohydrolase ...  37.4    5.5   
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score =  491 bits (1263),  Expect = 3e-168, Method: Compositional matrix adjust.
+ Identities = 235/235 (100%), Positives = 235/235 (100%), Gaps = 0/235 (0%)
+
+Query  1    SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE  60
+            SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE
+Sbjct  127  SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE  186
+
+Query  61   FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL  120
+            FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL
+Sbjct  187  FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL  246
+
+Query  121  RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN  180
+            RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN
+Sbjct  247  RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN  306
+
+Query  181  VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE  235
+            VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE
+Sbjct  307  VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE  361
+
+
+>gb|EPY53351.1| TRF Taz1 [Schizosaccharomyces cryophilus OY26]
+Length=644
+
+ Score =  198 bits (503),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 104/233 (45%), Positives = 150/233 (64%), Gaps = 1/233 (0%)
+
+Query  3    WDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            W+ EKA  +  +C+ +A +A++   +   +F+E SK+I  P+ + E+     +  + EF+
+Sbjct  73   WEYEKALEMAKECRLLAGLADEMSKVFCKVFAEHSKEIDGPQKYFEKFDDNFLGKVREFS  132
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+              L + YGL+F TIF SYI+  +AY  LFE LE  L +IQFFTG+IDL D +NKH  L  
+Sbjct  133  NDLVSTYGLDFLTIFLSYIQAKEAYRKLFEHLEDSLGTIQFFTGMIDLFDVSNKHFVLME  192
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNP-SIDASEFILSCLPYTSLDALNV  181
+            IV+D LL  DE+  FY D+LVLFEEL++RY  +++ P   +   F+ + LPY S+DALN 
+Sbjct  193  IVIDNLLVLDEDSVFYTDSLVLFEELLVRYCASNNFPYKKNPINFLFNMLPYKSVDALNS  252
+
+Query  182  VCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+            V   VWK Q I DFLK+TI    +SP +  + +P FV AVI FL++ +NV+RL
+Sbjct  253  VARSVWKKQNIFDFLKTTIEKVISSPPKHFSPYPTFVVAVIQFLVQSQNVKRL  305
+
+
+>gb|EPX71435.1| TRF Taz1 [Schizosaccharomyces octosporus yFS286]
+Length=648
+
+ Score =  155 bits (392),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 91/233 (39%), Positives = 137/233 (59%), Gaps = 2/233 (1%)
+
+Query  3    WDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            WD E A  +  DC  +AN+A +   +   +FSE +  I  P+++ E+   + +  + +F+
+Sbjct  76   WDFEHALKMSKDCPLLANLAYEMSKVFCDVFSEFTFQIDGPQNYFEKFDDKFLTKVRDFS  135
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+              L + YGL   T+F SYI+  + Y  LF + E PL  IQFFTG IDL D +NKH  L +
+Sbjct  136  NDLGSTYGLN-STVFLSYIQANEPYRKLFGEAEIPLSEIQFFTGTIDLFDVSNKHFVLMA  194
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNP-SIDASEFILSCLPYTSLDALNV  181
+            IV+D+LL  +E+  FY  AL LFEEL+ RY  +++ P   +  +F+ + +PY +  AL++
+Sbjct  195  IVIDSLLVVEEDSPFYTKALRLFEELISRYCFSNTFPYKKNPEKFLYTLMPYKTQAALDI  254
+
+Query  182  VCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+            V   VWK Q I  FLK+TI    +SP +    +  FV AV  FL + ++VRRL
+Sbjct  255  VGRSVWKKQNIFAFLKNTIEKCISSPPKTINPYRKFVIAVFDFLTDSQSVRRL  307
+
+
+>ref|XP_002173017.1| predicted protein [Schizosaccharomyces japonicus yFS275]
+Length=676
+
+ Score = 55.1 bits (131),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 41/175 (23%), Positives = 86/175 (49%), Gaps = 7/175 (4%)
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+            E+L   Y L   T+ F   + +D  +      E+ + S+Q+ TG+IDL D +  ++ LR+
+Sbjct  181  EELRQIYNLSSGTLIFRCFKGWDKEFPDLYAHEESMSSLQYCTGIIDLFDKSFIYIALRT  240
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEEL---VIRYFGTDSNPSIDASEFILSCLPYTSLDAL  179
+            +++DA+L  + ++  + +   +F ++   VI+++       +D    ++  L + SLD L
+Sbjct  241  MLIDAMLVLENDEDLFQETFDIFIDVCIRVIQHYPVYRKRPLD----LIETLIFGSLDHL  296
+
+Query  180  NVVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+              + G +W+S++  + LK  + +  +      A    FV   I +  + +   RL
+Sbjct  297  KELGGSLWQSRRCEEQLKDALLDLKDDAGVKAADDDVFVRKGIQYFKKLRFANRL  351
+
+
+>gb|EEB06724.2| TRF Taz1 [Schizosaccharomyces japonicus yFS275]
+Length=681
+
+ Score = 55.1 bits (131),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 41/175 (23%), Positives = 86/175 (49%), Gaps = 7/175 (4%)
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+            E+L   Y L   T+ F   + +D  +      E+ + S+Q+ TG+IDL D +  ++ LR+
+Sbjct  186  EELRQIYNLSSGTLIFRCFKGWDKEFPDLYAHEESMSSLQYCTGIIDLFDKSFIYIALRT  245
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEEL---VIRYFGTDSNPSIDASEFILSCLPYTSLDAL  179
+            +++DA+L  + ++  + +   +F ++   VI+++       +D    ++  L + SLD L
+Sbjct  246  MLIDAMLVLENDEDLFQETFDIFIDVCIRVIQHYPVYRKRPLD----LIETLIFGSLDHL  301
+
+Query  180  NVVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+              + G +W+S++  + LK  + +  +      A    FV   I +  + +   RL
+Sbjct  302  KELGGSLWQSRRCEEQLKDALLDLKDDAGVKAADDDVFVRKGIQYFKKLRFANRL  356
+
+
+>ref|XP_003291172.1| hypothetical protein DICPUDRAFT_38584 [Dictyostelium purpureum]
+ gb|EGC32294.1| hypothetical protein DICPUDRAFT_38584 [Dictyostelium purpureum]
+Length=153
+
+ Score = 40.8 bits (94),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  156  DSNPSIDASEFILSCLPYTSLDALNVVCGQVWKSQKICDFLKS  198
+            ++ P+ + S+F ++  P   LD  +VV G+V + Q +CD L S
+Sbjct  110  NAGPNTNGSQFFITTAPAPHLDGKHVVFGKVVQGQNVCDILNS  152
+
+
+>ref|WP_015677597.1| PF01973 family protein [Leptospira yanagawae]
+ gb|EOQ90034.1| PF01973 family protein [Leptospira yanagawae serovar Saopaulo 
+str. Sao Paulo = ATCC 700523]
+Length=628
+
+ Score = 40.8 bits (94),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 33/129 (26%), Positives = 62/129 (48%), Gaps = 24/129 (19%)
+
+Query  9    SLLVNDCQNIANMAEQKVMMVSA-------IFSESSKDIVNPESFSERLGKETVKDLYEF  61
+            +LL  D QN      + V++V         I+++  K+ +NP++FS     E +K + + 
+Sbjct  496  TLLAKDLQNTITSLNEFVILVKQGLTTSQRIYNQIEKNQINPKTFS-----EDIKQMDKI  550
+
+Query  62   NEQLTTKYGLE------FRTIFFSYIRKYDAYWCLFEDLEKPL-----KSIQFFTGLIDL  110
+            +E+++ K GL        + +  +    YD + CL E+ E P      KS+  + GL + 
+Sbjct  551  DEEVSQKKGLNEILSLGIQRVILTITEGYDEHLCL-EEKENPRLGVAKKSLLLYEGLFES  609
+
+Query  111  LDNTNKHLT  119
+            + +T + LT
+Sbjct  610  VRSTKRMLT  618
+
+
+>ref|YP_001837677.1| hypothetical protein LEPBI_I0256 [Leptospira biflexa serovar 
+Patoc strain 'Patoc 1 (Paris)']
+ ref|WP_012387289.1| hypothetical protein [Leptospira biflexa]
+ gb|ABZ96401.1| Conserved hypothetical protein [Leptospira biflexa serovar Patoc 
+strain 'Patoc 1 (Paris)']
+Length=584
+
+ Score = 37.7 bits (86),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 32/127 (25%), Positives = 58/127 (46%), Gaps = 22/127 (17%)
+
+Query  10   LLVNDCQNIAN-------MAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            LL  D QN  +       + +Q +++   I+ +  K+ +NP++FS     E +K +   +
+Sbjct  453  LLTKDIQNTISSLKDFGILVKQGLIVSQRIYQQIQKNQINPKTFS-----EDIKLMDGID  507
+
+Query  63   EQLTTKYGLE------FRTIFFSYIRKYDAYWCLFEDLEKPL----KSIQFFTGLIDLLD  112
+            EQ++ K GL        + +  +    YD +  L E     L    KS+  + GL + + 
+Sbjct  508  EQVSQKKGLNEILSLGIQRVILTITEGYDDHLSLEEKENAQLGVAKKSLLLYEGLYESVQ  567
+
+Query  113  NTNKHLT  119
+            NT + LT
+Sbjct  568  NTKRMLT  574
+
+
+>ref|YP_001961372.1| hypothetical protein LBF_0249 [Leptospira biflexa serovar Patoc 
+strain 'Patoc 1 (Ames)']
+ ref|WP_012476083.1| hypothetical protein [Leptospira biflexa]
+ gb|ABZ92794.1| Conserved hypothetical protein [Leptospira biflexa serovar Patoc 
+strain 'Patoc 1 (Ames)']
+Length=628
+
+ Score = 37.7 bits (86),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 32/127 (25%), Positives = 58/127 (46%), Gaps = 22/127 (17%)
+
+Query  10   LLVNDCQNIAN-------MAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            LL  D QN  +       + +Q +++   I+ +  K+ +NP++FS     E +K +   +
+Sbjct  497  LLTKDIQNTISSLKDFGILVKQGLIVSQRIYQQIQKNQINPKTFS-----EDIKLMDGID  551
+
+Query  63   EQLTTKYGLE------FRTIFFSYIRKYDAYWCLFEDLEKPL----KSIQFFTGLIDLLD  112
+            EQ++ K GL        + +  +    YD +  L E     L    KS+  + GL + + 
+Sbjct  552  EQVSQKKGLNEILSLGIQRVILTITEGYDDHLSLEEKENAQLGVAKKSLLLYEGLYESVQ  611
+
+Query  113  NTNKHLT  119
+            NT + LT
+Sbjct  612  NTKRMLT  618
+
+
+>ref|YP_001884832.1| hydroxydechloroatrazine ethylaminohydrolase [Clostridium botulinum 
+B str. Eklund 17B]
+ ref|WP_012422965.1| hydroxydechloroatrazine ethylaminohydrolase [Clostridium botulinum]
+ gb|ACD22084.1| hydroxydechloroatrazine ethylaminohydrolase [Clostridium botulinum 
+B str. Eklund 17B]
+ emb|CDH89552.1| Guanine deaminase ; Hydroxydechloroatrazine ethylaminohydrolase 
+[Clostridium botulinum B str. Eklund 17B(NRP)]
+Length=453
+
+ Score = 37.4 bits (85),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 22/57 (39%), Positives = 34/57 (60%), Gaps = 5/57 (9%)
+
+Query  115  NKHLTLRSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTD---SNPSIDASEFIL  168
+            NK L +++I   +L+S DE DS Y D  +  E  VI+Y G D   +N +IDA+  ++
+Sbjct  2    NKTLFIKNI--KSLISCDENDSVYEDVNIFVENGVIKYIGKDLYEANETIDATNMLV  56
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 696145668684
+Results from round 2
+
+
+Query= 4ZMI
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|EPY53351.1|  TRF Taz1 [Schizosaccharomyces cryophilus OY26]         353    7e-115
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...   343    8e-111
+gb|EPX71435.1|  TRF Taz1 [Schizosaccharomyces octosporus yFS286]       337    1e-108
+gb|EEB06724.2|  TRF Taz1 [Schizosaccharomyces japonicus yFS275]        235    3e-69 
+ref|XP_002173017.1|  predicted protein [Schizosaccharomyces japon...   235    3e-69 
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_006112712.1|  PREDICTED: interferon-inducible GTPase 5-lik...  37.7    3.4  
+gb|EIE92687.1|  hypothetical protein RO3G_17398 [Rhizopus delemar...  37.0    8.1  
+
+
+>gb|EPY53351.1| TRF Taz1 [Schizosaccharomyces cryophilus OY26]
+Length=644
+
+ Score =  353 bits (907),  Expect = 7e-115, Method: Composition-based stats.
+ Identities = 104/233 (45%), Positives = 150/233 (64%), Gaps = 1/233 (0%)
+
+Query  3    WDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            W+ EKA  +  +C+ +A +A++   +   +F+E SK+I  P+ + E+     +  + EF+
+Sbjct  73   WEYEKALEMAKECRLLAGLADEMSKVFCKVFAEHSKEIDGPQKYFEKFDDNFLGKVREFS  132
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+              L + YGL+F TIF SYI+  +AY  LFE LE  L +IQFFTG+IDL D +NKH  L  
+Sbjct  133  NDLVSTYGLDFLTIFLSYIQAKEAYRKLFEHLEDSLGTIQFFTGMIDLFDVSNKHFVLME  192
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNP-SIDASEFILSCLPYTSLDALNV  181
+            IV+D LL  DE+  FY D+LVLFEEL++RY  +++ P   +   F+ + LPY S+DALN 
+Sbjct  193  IVIDNLLVLDEDSVFYTDSLVLFEELLVRYCASNNFPYKKNPINFLFNMLPYKSVDALNS  252
+
+Query  182  VCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+            V   VWK Q I DFLK+TI    +SP +  + +P FV AVI FL++ +NV+RL
+Sbjct  253  VARSVWKKQNIFDFLKTTIEKVISSPPKHFSPYPTFVVAVIQFLVQSQNVKRL  305
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score =  343 bits (881),  Expect = 8e-111, Method: Composition-based stats.
+ Identities = 235/235 (100%), Positives = 235/235 (100%), Gaps = 0/235 (0%)
+
+Query  1    SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE  60
+            SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE
+Sbjct  127  SIWDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYE  186
+
+Query  61   FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL  120
+            FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL
+Sbjct  187  FNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTL  246
+
+Query  121  RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN  180
+            RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN
+Sbjct  247  RSIVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNPSIDASEFILSCLPYTSLDALN  306
+
+Query  181  VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE  235
+            VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE
+Sbjct  307  VVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRLE  361
+
+
+>gb|EPX71435.1| TRF Taz1 [Schizosaccharomyces octosporus yFS286]
+Length=648
+
+ Score =  337 bits (865),  Expect = 1e-108, Method: Composition-based stats.
+ Identities = 91/233 (39%), Positives = 137/233 (59%), Gaps = 2/233 (1%)
+
+Query  3    WDIEKASLLVNDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERLGKETVKDLYEFN  62
+            WD E A  +  DC  +AN+A +   +   +FSE +  I  P+++ E+   + +  + +F+
+Sbjct  76   WDFEHALKMSKDCPLLANLAYEMSKVFCDVFSEFTFQIDGPQNYFEKFDDKFLTKVRDFS  135
+
+Query  63   EQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDNTNKHLTLRS  122
+              L + YGL   T+F SYI+  + Y  LF + E PL  IQFFTG IDL D +NKH  L +
+Sbjct  136  NDLGSTYGLNS-TVFLSYIQANEPYRKLFGEAEIPLSEIQFFTGTIDLFDVSNKHFVLMA  194
+
+Query  123  IVLDALLSADEEDSFYGDALVLFEELVIRYFGTDSNP-SIDASEFILSCLPYTSLDALNV  181
+            IV+D+LL  +E+  FY  AL LFEEL+ RY  +++ P   +  +F+ + +PY +  AL++
+Sbjct  195  IVIDSLLVVEEDSPFYTKALRLFEELISRYCFSNTFPYKKNPEKFLYTLMPYKTQAALDI  254
+
+Query  182  VCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKNVRRL  234
+            V   VWK Q I  FLK+TI    +SP +    +  FV AV  FL + ++VRRL
+Sbjct  255  VGRSVWKKQNIFAFLKNTIEKCISSPPKTINPYRKFVIAVFDFLTDSQSVRRL  307
+
+
+>gb|EEB06724.2| TRF Taz1 [Schizosaccharomyces japonicus yFS275]
+Length=681
+
+ Score =  235 bits (600),  Expect = 3e-69, Method: Composition-based stats.
+ Identities = 41/184 (22%), Positives = 89/184 (48%), Gaps = 7/184 (4%)
+
+Query  54   TVKDLYEFNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDN  113
+             ++  +   E+L   Y L   T+ F   + +D  +      E+ + S+Q+ TG+IDL D 
+Sbjct  177  FIQKGFLLMEELRQIYNLSSGTLIFRCFKGWDKEFPDLYAHEESMSSLQYCTGIIDLFDK  236
+
+Query  114  TNKHLTLRSIVLDALLSADEEDSFYGDALVLFEEL---VIRYFGTDSNPSIDASEFILSC  170
+            +  ++ LR++++DA+L  + ++  + +   +F ++   VI+++       +D    ++  
+Sbjct  237  SFIYIALRTMLIDAMLVLENDEDLFQETFDIFIDVCIRVIQHYPVYRKRPLD----LIET  292
+
+Query  171  LPYTSLDALNVVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKN  230
+            L + SLD L  + G +W+S++  + LK  + +  +      A    FV   I +  + + 
+Sbjct  293  LIFGSLDHLKELGGSLWQSRRCEEQLKDALLDLKDDAGVKAADDDVFVRKGIQYFKKLRF  352
+
+Query  231  VRRL  234
+              RL
+Sbjct  353  ANRL  356
+
+
+>ref|XP_002173017.1| predicted protein [Schizosaccharomyces japonicus yFS275]
+Length=676
+
+ Score =  235 bits (600),  Expect = 3e-69, Method: Composition-based stats.
+ Identities = 41/184 (22%), Positives = 89/184 (48%), Gaps = 7/184 (4%)
+
+Query  54   TVKDLYEFNEQLTTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTGLIDLLDN  113
+             ++  +   E+L   Y L   T+ F   + +D  +      E+ + S+Q+ TG+IDL D 
+Sbjct  172  FIQKGFLLMEELRQIYNLSSGTLIFRCFKGWDKEFPDLYAHEESMSSLQYCTGIIDLFDK  231
+
+Query  114  TNKHLTLRSIVLDALLSADEEDSFYGDALVLFEEL---VIRYFGTDSNPSIDASEFILSC  170
+            +  ++ LR++++DA+L  + ++  + +   +F ++   VI+++       +D    ++  
+Sbjct  232  SFIYIALRTMLIDAMLVLENDEDLFQETFDIFIDVCIRVIQHYPVYRKRPLD----LIET  287
+
+Query  171  LPYTSLDALNVVCGQVWKSQKICDFLKSTIGNTSNSPLQLRASFPAFVNAVIHFLLEFKN  230
+            L + SLD L  + G +W+S++  + LK  + +  +      A    FV   I +  + + 
+Sbjct  288  LIFGSLDHLKELGGSLWQSRRCEEQLKDALLDLKDDAGVKAADDDVFVRKGIQYFKKLRF  347
+
+Query  231  VRRL  234
+              RL
+Sbjct  348  ANRL  351
+
+
+>ref|XP_006112712.1| PREDICTED: interferon-inducible GTPase 5-like [Pelodiscus sinensis]
+Length=355
+
+ Score = 37.7 bits (86),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 20/87 (23%), Positives = 40/87 (46%), Gaps = 9/87 (10%)
+
+Query  18   IANMAEQKVMMVSAIFSESSKDIVNPES--FSERLGKETVKDLY-EFNEQLTTKYGLEFR  74
+            +A   ++       + S+  KD+ N +   +SE   ++T+  +  +FN +L    G+   
+Sbjct  122  LAREIQKMGKGFCFVRSKVDKDLDNEKKKGYSE---EKTLDQIRKDFNNRL-QTAGISST  177
+
+Query  75   TIFFSYIRKYDAYWCLFEDLEKPLKSI  101
+             +F + IR +D Y      L+  + SI
+Sbjct  178  DVFLTSIRNHDKY--DLPRLKTHISSI  202
+
+
+>gb|EIE92687.1| hypothetical protein RO3G_17398 [Rhizopus delemar RA 99-880]
+Length=1553
+
+ Score = 37.0 bits (84),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 23/135 (17%), Positives = 40/135 (30%), Gaps = 26/135 (19%)
+
+Query  13   NDCQNIANMAEQKVMMVSAIFSESSKDIVNPESFSERL------------GKETVKD---  57
+             +C+   N A++ +   +A+F E    +  P + S RL            G    +    
+Sbjct  111  KECEEKVNRAKEALKSFTAMFEEVKPPVDGPNNHSLRLVVPNDLPTLQLKGDAIWRKKAE  170
+
+Query  58   ----LYEFNEQL-------TTKYGLEFRTIFFSYIRKYDAYWCLFEDLEKPLKSIQFFTG  106
+                 Y+F                  +  +    +      WC    LEK L   Q    
+Sbjct  171  CYDSAYDFCNTFETVLRAHGQALNSNWERLLPLCMNPEQVSWCREALLEKSLSWKQVRPM  230
+
+Query  107  LIDLLDNTNKHLTLR  121
+            ++D  D   +   L 
+Sbjct  231  ILDHFDTPYRKFLLM  245
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.134    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0413    0.140     1.90     42.6     43.6 
+
+Effective search space used: 696145668684
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

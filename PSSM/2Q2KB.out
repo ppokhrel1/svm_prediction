@@ -1,0 +1,365 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2Q2KB
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2Q2K|A  Chain A, Structure Of Nucleic-Acid Binding Protein >p...   144    4e-43
+ref|WP_000358312.1|  recombinase [Staphylococcus aureus] >gb|EFG3...   108    2e-28
+ref|NP_863613.1|  hypothetical protein pSK41_p12 [Staphylococcus ...   108    2e-28
+ref|WP_000358313.1|  recombinase [Staphylococcus aureus] >gb|EHS2...  87.4    2e-20
+ref|YP_006958447.1|  hypothetical protein SUM_0041p2 [Staphylococ...  82.8    3e-19
+
+
+>pdb|2Q2K|A Chain A, Structure Of Nucleic-Acid Binding Protein
+ pdb|2Q2K|B Chain B, Structure Of Nucleic-Acid Binding Protein
+Length=70
+
+ Score =  144 bits (363),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR  60
+           MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR
+Sbjct  1   MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR  60
+
+Query  61  RYIEEIGENP  70
+           RYIEEIGENP
+Sbjct  61  RYIEEIGENP  70
+
+
+>ref|WP_000358312.1| recombinase [Staphylococcus aureus]
+ gb|EFG39185.1| hypothetical protein SKAG_02495 [Staphylococcus aureus A9754]
+ gb|ENK39585.1| hypothetical protein UIE_02845 [Staphylococcus aureus M0510]
+ gb|ENM21322.1| hypothetical protein U5Q_02866 [Staphylococcus aureus M1095]
+Length=109
+
+ Score =  108 bits (269),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  51
+
+
+>ref|NP_863613.1| hypothetical protein pSK41_p12 [Staphylococcus aureus]
+ ref|NP_878036.1| hypothetical protein VRA0061 [Staphylococcus aureus]
+ ref|YP_492721.1| hypothetical protein SAUSA300_pUSA030035 [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ ref|YP_002790908.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ ref|YP_003347969.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ ref|YP_006938304.1| hypothetical protein SAP068A_003 [Staphylococcus aureus]
+ ref|YP_006938384.1| hypothetical protein SAP069A_029 [Staphylococcus aureus]
+ ref|YP_006938487.1| hypothetical protein SAP079A_024 [Staphylococcus aureus]
+ ref|YP_006938557.1| hypothetical protein SAP080A_042 [Staphylococcus aureus]
+ ref|YP_006938586.1| hypothetical protein SAP082A_021 [Staphylococcus aureus]
+ ref|YP_006937642.1| hypothetical protein SAP014A_022 [Staphylococcus aureus]
+ ref|WP_000358311.1| recombinase [Bacilli]
+ gb|AAC61942.1| unknown [Staphylococcus aureus]
+ gb|AAQ17180.1| conserved domain protein [Staphylococcus aureus]
+ gb|ABD22962.1| conserved hypothetical protein [Staphylococcus aureus subsp. 
+aureus USA300_FPR3757]
+ emb|CAR62409.1| DNA-binding protein ParR [Staphylococcus aureus]
+ gb|EEV81915.1| conserved hypothetical protein [Staphylococcus aureus A5948]
+ gb|ACZ68638.1| hypothetical protein SAP068A_003 [Staphylococcus aureus]
+ gb|ACZ68719.1| hypothetical protein SAP069A_029 [Staphylococcus aureus]
+ gb|ADA57927.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ gb|ADA61329.1| hypothetical protein SAP014A_022 [Staphylococcus aureus]
+ gb|ADA62094.1| hypothetical protein SAP079A_024 [Staphylococcus aureus]
+ gb|ADA62165.1| hypothetical protein SAP080A_042 [Staphylococcus aureus]
+ gb|ADA62193.1| hypothetical protein SAP082A_021 [Staphylococcus aureus]
+ gb|ADA62817.1| hypothetical protein SAP015H_003 [Staphylococcus aureus]
+ gb|EHQ75084.1| putative plasmid segregation protein ParR [Staphylococcus epidermidis 
+VCU041]
+ gb|EHT17185.1| hypothetical protein SACIG1165_2808 [Staphylococcus aureus subsp. 
+aureus CIG1165]
+ gb|EHT34405.1| hypothetical protein SACIG1500_3014 [Staphylococcus aureus subsp. 
+aureus CIG1500]
+ gb|EHT35296.1| hypothetical protein SACIG1242_2903 [Staphylococcus aureus subsp. 
+aureus CIG1242]
+ gb|EHT51658.1| hypothetical protein SACIG547_0618 [Staphylococcus aureus subsp. 
+aureus CIG547]
+ gb|EHT61107.1| hypothetical protein SACIG1233_0640 [Staphylococcus aureus subsp. 
+aureus CIG1233]
+ gb|EHT86994.1| hypothetical protein SACIGC341D_0593 [Staphylococcus aureus subsp. 
+aureus CIGC341D]
+ gb|EHT90501.1| hypothetical protein SACIGC128_2727 [Staphylococcus aureus subsp. 
+aureus CIGC128]
+ gb|EIK02749.1| hypothetical protein MQA_02508 [Staphylococcus aureus subsp. 
+aureus VRS1]
+ gb|EIK19455.1| hypothetical protein MQO_02453 [Staphylococcus aureus subsp. 
+aureus VRS8]
+ gb|EIK20843.1| hypothetical protein MQQ_02669 [Staphylococcus aureus subsp. 
+aureus VRS9]
+ gb|EIK28290.1| hypothetical protein MQU_02679 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK29273.1| hypothetical protein MQW_02682 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|EJE36125.1| plasmid segregation protein ParR [Staphylococcus epidermidis 
+NIH06004]
+ gb|ENI44580.1| hypothetical protein SW7_02747 [Staphylococcus aureus HI168]
+ gb|ENJ63328.1| hypothetical protein SYI_02681 [Staphylococcus aureus M0329]
+ gb|ENJ83358.1| hypothetical protein UGW_00034 [Staphylococcus aureus M0351]
+ gb|ENK28793.1| hypothetical protein U19_02602 [Staphylococcus aureus M0478]
+ gb|ENK45480.1| hypothetical protein U1M_02827 [Staphylococcus aureus M0528]
+ gb|ENL09786.1| hypothetical protein U37_00426 [Staphylococcus aureus M0687]
+ gb|ENN00512.1| hypothetical protein U95_02743 [Staphylococcus aureus M1450]
+ gb|ENN43473.1| hypothetical protein WUK_02845 [Staphylococcus aureus M0946]
+ gb|EOK44039.1| hypothetical protein WUG_00370 [Enterococcus faecalis EnGen0332]
+ gb|EOR89947.1| plasmid segregation protein ParR [Staphylococcus aureus subsp. 
+aureus CBD-635]
+ gb|EPR23727.1| recombinase [Staphylococcus aureus SA_ST125_MupR]
+Length=109
+
+ Score =  108 bits (269),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  51
+
+
+>ref|WP_000358313.1| recombinase [Staphylococcus aureus]
+ gb|EHS25217.1| putative plasmid segregation protein ParR [Staphylococcus aureus 
+subsp. aureus IS-88]
+Length=116
+
+ Score = 87.4 bits (215),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 40/51 (78%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKET+HLLKIKK+DYPQIF+FLE +P+GTKTAHIREAL RYI E G  P
+Sbjct  1   MDKKETQHLLKIKKQDYPQIFNFLEGLPKGTKTAHIREALMRYIAEEGNTP  51
+
+
+>ref|YP_006958447.1| hypothetical protein SUM_0041p2 [Staphylococcus aureus]
+ ref|WP_015056201.1| hypothetical protein [Staphylococcus aureus]
+ gb|ADM29117.1| hypothetical protein SUM_0041p2 [Staphylococcus aureus]
+Length=39
+
+ Score = 82.8 bits (203),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA  58
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA  39
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+Results from round 2
+
+
+Query= 2Q2KB
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2Q2K|A  Chain A, Structure Of Nucleic-Acid Binding Protein >p...   115    6e-32
+ref|WP_000358313.1|  recombinase [Staphylococcus aureus] >gb|EHS2...  95.9    1e-23
+ref|WP_000358312.1|  recombinase [Staphylococcus aureus] >gb|EFG3...  92.0    3e-22
+ref|NP_863613.1|  hypothetical protein pSK41_p12 [Staphylococcus ...  92.0    3e-22
+ref|YP_006958447.1|  hypothetical protein SUM_0041p2 [Staphylococ...  73.2    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>pdb|2Q2K|A Chain A, Structure Of Nucleic-Acid Binding Protein
+ pdb|2Q2K|B Chain B, Structure Of Nucleic-Acid Binding Protein
+Length=70
+
+ Score =  115 bits (289),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR  60
+           MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR
+Sbjct  1   MGSSHHHHHHSSGLVPGSHMDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALR  60
+
+Query  61  RYIEEIGENP  70
+           RYIEEIGENP
+Sbjct  61  RYIEEIGENP  70
+
+
+>ref|WP_000358313.1| recombinase [Staphylococcus aureus]
+ gb|EHS25217.1| putative plasmid segregation protein ParR [Staphylococcus aureus 
+subsp. aureus IS-88]
+Length=116
+
+ Score = 95.9 bits (237),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 40/51 (78%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKET+HLLKIKK+DYPQIF+FLE +P+GTKTAHIREAL RYI E G  P
+Sbjct  1   MDKKETQHLLKIKKQDYPQIFNFLEGLPKGTKTAHIREALMRYIAEEGNTP  51
+
+
+>ref|WP_000358312.1| recombinase [Staphylococcus aureus]
+ gb|EFG39185.1| hypothetical protein SKAG_02495 [Staphylococcus aureus A9754]
+ gb|ENK39585.1| hypothetical protein UIE_02845 [Staphylococcus aureus M0510]
+ gb|ENM21322.1| hypothetical protein U5Q_02866 [Staphylococcus aureus M1095]
+Length=109
+
+ Score = 92.0 bits (227),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  51
+
+
+>ref|NP_863613.1| hypothetical protein pSK41_p12 [Staphylococcus aureus]
+ ref|NP_878036.1| hypothetical protein VRA0061 [Staphylococcus aureus]
+ ref|YP_492721.1| hypothetical protein SAUSA300_pUSA030035 [Staphylococcus aureus 
+subsp. aureus USA300_FPR3757]
+ ref|YP_002790908.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ ref|YP_003347969.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ ref|YP_006938304.1| hypothetical protein SAP068A_003 [Staphylococcus aureus]
+ ref|YP_006938384.1| hypothetical protein SAP069A_029 [Staphylococcus aureus]
+ ref|YP_006938487.1| hypothetical protein SAP079A_024 [Staphylococcus aureus]
+ ref|YP_006938557.1| hypothetical protein SAP080A_042 [Staphylococcus aureus]
+ ref|YP_006938586.1| hypothetical protein SAP082A_021 [Staphylococcus aureus]
+ ref|YP_006937642.1| hypothetical protein SAP014A_022 [Staphylococcus aureus]
+ ref|WP_000358311.1| recombinase [Bacilli]
+ gb|AAC61942.1| unknown [Staphylococcus aureus]
+ gb|AAQ17180.1| conserved domain protein [Staphylococcus aureus]
+ gb|ABD22962.1| conserved hypothetical protein [Staphylococcus aureus subsp. 
+aureus USA300_FPR3757]
+ emb|CAR62409.1| DNA-binding protein ParR [Staphylococcus aureus]
+ gb|EEV81915.1| conserved hypothetical protein [Staphylococcus aureus A5948]
+ gb|ACZ68638.1| hypothetical protein SAP068A_003 [Staphylococcus aureus]
+ gb|ACZ68719.1| hypothetical protein SAP069A_029 [Staphylococcus aureus]
+ gb|ADA57927.1| plasmid segregation protein ParR [Staphylococcus aureus]
+ gb|ADA61329.1| hypothetical protein SAP014A_022 [Staphylococcus aureus]
+ gb|ADA62094.1| hypothetical protein SAP079A_024 [Staphylococcus aureus]
+ gb|ADA62165.1| hypothetical protein SAP080A_042 [Staphylococcus aureus]
+ gb|ADA62193.1| hypothetical protein SAP082A_021 [Staphylococcus aureus]
+ gb|ADA62817.1| hypothetical protein SAP015H_003 [Staphylococcus aureus]
+ gb|EHQ75084.1| putative plasmid segregation protein ParR [Staphylococcus epidermidis 
+VCU041]
+ gb|EHT17185.1| hypothetical protein SACIG1165_2808 [Staphylococcus aureus subsp. 
+aureus CIG1165]
+ gb|EHT34405.1| hypothetical protein SACIG1500_3014 [Staphylococcus aureus subsp. 
+aureus CIG1500]
+ gb|EHT35296.1| hypothetical protein SACIG1242_2903 [Staphylococcus aureus subsp. 
+aureus CIG1242]
+ gb|EHT51658.1| hypothetical protein SACIG547_0618 [Staphylococcus aureus subsp. 
+aureus CIG547]
+ gb|EHT61107.1| hypothetical protein SACIG1233_0640 [Staphylococcus aureus subsp. 
+aureus CIG1233]
+ gb|EHT86994.1| hypothetical protein SACIGC341D_0593 [Staphylococcus aureus subsp. 
+aureus CIGC341D]
+ gb|EHT90501.1| hypothetical protein SACIGC128_2727 [Staphylococcus aureus subsp. 
+aureus CIGC128]
+ gb|EIK02749.1| hypothetical protein MQA_02508 [Staphylococcus aureus subsp. 
+aureus VRS1]
+ gb|EIK19455.1| hypothetical protein MQO_02453 [Staphylococcus aureus subsp. 
+aureus VRS8]
+ gb|EIK20843.1| hypothetical protein MQQ_02669 [Staphylococcus aureus subsp. 
+aureus VRS9]
+ gb|EIK28290.1| hypothetical protein MQU_02679 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK29273.1| hypothetical protein MQW_02682 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|EJE36125.1| plasmid segregation protein ParR [Staphylococcus epidermidis 
+NIH06004]
+ gb|ENI44580.1| hypothetical protein SW7_02747 [Staphylococcus aureus HI168]
+ gb|ENJ63328.1| hypothetical protein SYI_02681 [Staphylococcus aureus M0329]
+ gb|ENJ83358.1| hypothetical protein UGW_00034 [Staphylococcus aureus M0351]
+ gb|ENK28793.1| hypothetical protein U19_02602 [Staphylococcus aureus M0478]
+ gb|ENK45480.1| hypothetical protein U1M_02827 [Staphylococcus aureus M0528]
+ gb|ENL09786.1| hypothetical protein U37_00426 [Staphylococcus aureus M0687]
+ gb|ENN00512.1| hypothetical protein U95_02743 [Staphylococcus aureus M1450]
+ gb|ENN43473.1| hypothetical protein WUK_02845 [Staphylococcus aureus M0946]
+ gb|EOK44039.1| hypothetical protein WUG_00370 [Enterococcus faecalis EnGen0332]
+ gb|EOR89947.1| plasmid segregation protein ParR [Staphylococcus aureus subsp. 
+aureus CBD-635]
+ gb|EPR23727.1| recombinase [Staphylococcus aureus SA_ST125_MupR]
+Length=109
+
+ Score = 92.0 bits (227),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  70
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREALRRYIEEIGENP  51
+
+
+>ref|YP_006958447.1| hypothetical protein SUM_0041p2 [Staphylococcus aureus]
+ ref|WP_015056201.1| hypothetical protein [Staphylococcus aureus]
+ gb|ADM29117.1| hypothetical protein SUM_0041p2 [Staphylococcus aureus]
+Length=39
+
+ Score = 73.2 bits (178),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  20  MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA  58
+           MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA
+Sbjct  1   MDKKETKHLLKIKKEDYPQIFDFLENVPRGTKTAHIREA  39
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.136    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

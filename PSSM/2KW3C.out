@@ -1,0 +1,4033 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2KW3C
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2KW3|C  Chain C, Heterotrimeric Interaction Between Rfx5 And ...   121    3e-34
+gb|ABM46752.1|  RFXAP [Gorilla gorilla]                                114    2e-31
+gb|ABM92037.1|  RFXAP [Pan troglodytes]                                115    2e-31
+ref|XP_004054434.1|  PREDICTED: regulatory factor X-associated pr...   119    3e-31
+gb|ELR48342.1|  Regulatory factor X-associated protein, partial [...   115    3e-31
+ref|NP_000529.1|  regulatory factor X-associated protein [Homo sa...   119    3e-31
+gb|AAH26088.1|  Regulatory factor X-associated protein [Homo sapi...   119    3e-31
+gb|ABM89364.1|  RFXAP [Pongo pygmaeus]                                 115    4e-31
+gb|EHH28953.1|  Regulatory factor X-associated protein, partial [...   116    5e-31
+gb|ABM54333.1|  RFXAP [Pan paniscus] >gb|ABM67309.1| RFXAP [Hylob...   113    7e-31
+ref|XP_003314178.1|  PREDICTED: regulatory factor X-associated pr...   117    1e-30
+ref|XP_003826936.1|  PREDICTED: regulatory factor X-associated pr...   117    1e-30
+gb|ELK09272.1|  Regulatory factor X-associated protein [Pteropus ...   116    1e-30
+ref|XP_003913818.1|  PREDICTED: regulatory factor X-associated pr...   117    1e-30
+gb|EAX08574.1|  regulatory factor X-associated protein, isoform C...   117    1e-30
+ref|NP_001252842.1|  regulatory factor X-associated protein [Maca...   117    2e-30
+ref|XP_002824223.1|  PREDICTED: regulatory factor X-associated pr...   117    2e-30
+ref|XP_005977766.1|  PREDICTED: regulatory factor X-associated pr...   116    4e-30
+ref|XP_005906826.1|  PREDICTED: regulatory factor X-associated pr...   116    4e-30
+ref|XP_005687670.1|  PREDICTED: regulatory factor X-associated pr...   116    4e-30
+ref|XP_002691796.2|  PREDICTED: regulatory factor X-associated pr...   116    5e-30
+ref|XP_612997.5|  PREDICTED: regulatory factor X-associated prote...   116    8e-30
+tpg|DAA23978.1|  TPA: regulatory factor X-associated protein-like...   117    9e-30
+ref|XP_006182724.1|  PREDICTED: regulatory factor X-associated pr...   115    9e-30
+gb|ERE88910.1|  regulatory factor X-associated protein [Cricetulu...   110    1e-29
+ref|XP_006210212.1|  PREDICTED: regulatory factor X-associated pr...   115    1e-29
+ref|XP_005344041.1|  PREDICTED: regulatory factor X-associated pr...   113    2e-29
+ref|NP_001037728.1|  regulatory factor X-associated protein [Ratt...   113    2e-29
+ref|XP_005077520.1|  PREDICTED: regulatory factor X-associated pr...   112    2e-29
+ref|XP_004319328.1|  PREDICTED: uncharacterized protein LOC101322...   115    3e-29
+ref|XP_003516032.1|  PREDICTED: regulatory factor X-associated pr...   108    4e-29
+dbj|BAE25979.1|  unnamed protein product [Mus musculus] >gb|EDL35...   111    8e-29
+ref|XP_004282302.1|  PREDICTED: uncharacterized protein LOC101287...   115    9e-29
+ref|XP_002720636.1|  PREDICTED: regulatory factor X-associated pr...   112    1e-28
+ref|NP_573494.1|  regulatory factor X-associated protein [Mus mus...   111    2e-28
+ref|XP_004670579.1|  PREDICTED: uncharacterized protein LOC101606...   111    5e-28
+ref|XP_002939627.1|  PREDICTED: regulatory factor X-associated pr...  85.9    5e-19
+ref|XP_006005274.1|  PREDICTED: regulatory factor X-associated pr...  82.8    7e-18
+ref|XP_006005273.1|  PREDICTED: regulatory factor X-associated pr...  82.8    7e-18
+ref|XP_005516827.1|  PREDICTED: regulatory factor X-associated pr...  79.3    7e-17
+ref|XP_003971381.1|  PREDICTED: regulatory factor X-associated pr...  79.3    1e-16
+ref|XP_003412637.1|  PREDICTED: regulatory factor X-associated pr...  80.9    2e-16
+ref|XP_001923680.1|  PREDICTED: regulatory factor X-associated pr...  76.3    1e-15
+ref|XP_005172788.1|  PREDICTED: regulatory factor X-associated pr...  76.3    1e-15
+ref|XP_004604692.1|  PREDICTED: regulatory factor X-associated pr...  75.5    4e-15
+ref|XP_006267500.1|  PREDICTED: regulatory factor X-associated pr...  70.9    2e-13
+ref|XP_003458304.1|  PREDICTED: regulatory factor X-associated pr...  68.6    8e-13
+ref|XP_004711331.1|  PREDICTED: uncharacterized protein LOC101664...  70.9    9e-13
+gb|EHB03888.1|  Regulatory factor X-associated protein [Heterocep...  66.2    3e-12
+ref|XP_004453366.1|  PREDICTED: regulatory factor X-associated pr...  67.0    3e-12
+ref|XP_003270325.2|  PREDICTED: regulatory factor X-associated pr...  67.4    3e-12
+ref|XP_005808487.1|  PREDICTED: regulatory factor X-associated pr...  67.0    3e-12
+gb|EMP25302.1|  Regulatory factor X-associated protein [Chelonia ...  64.7    4e-12
+ref|XP_005286769.1|  PREDICTED: regulatory factor X-associated pr...  67.0    5e-12
+ref|XP_004435418.1|  PREDICTED: regulatory factor X-associated pr...  68.6    5e-12
+ref|XP_002749059.1|  PREDICTED: regulatory factor X-associated pr...  67.0    6e-12
+ref|XP_004854961.1|  PREDICTED: regulatory factor X-associated pr...  67.8    7e-12
+ref|XP_004770879.1|  PREDICTED: regulatory factor X-associated pr...  67.0    7e-12
+ref|XP_003477323.1|  PREDICTED: regulatory factor X-associated pr...  66.6    1e-11
+ref|XP_005317209.1|  PREDICTED: regulatory factor X-associated pr...  67.0    1e-11
+ref|XP_003980393.1|  PREDICTED: regulatory factor X-associated pr...  67.4    1e-11
+ref|XP_005615125.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  65.5    1e-11
+ref|XP_004399980.1|  PREDICTED: regulatory factor X-associated pr...  67.0    1e-11
+gb|EMC80711.1|  Regulatory factor X-associated protein, partial [...  63.2    2e-11
+ref|XP_003934504.1|  PREDICTED: regulatory factor X-associated pr...  67.0    2e-11
+ref|XP_005635647.1|  PREDICTED: regulatory factor X-associated pr...  67.0    2e-11
+ref|XP_003203430.1|  PREDICTED: regulatory factor X-associated pr...  63.2    2e-11
+gb|ETE66505.1|  Regulatory factor X-associated protein, partial [...  62.4    3e-11
+gb|EOB02134.1|  Regulatory factor X-associated protein [Anas plat...  64.3    3e-11
+ref|XP_005038190.1|  PREDICTED: regulatory factor X-associated pr...  64.3    3e-11
+ref|XP_004577742.1|  PREDICTED: regulatory factor X-associated pr...  65.9    4e-11
+ref|XP_004175129.1|  PREDICTED: regulatory factor X-associated pr...  63.2    4e-11
+ref|XP_005147749.1|  PREDICTED: regulatory factor X-associated pr...  62.8    5e-11
+ref|XP_005668404.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  65.5    6e-11
+ref|XP_004938803.1|  PREDICTED: regulatory factor X-associated pr...  63.9    8e-11
+ref|XP_005387954.1|  PREDICTED: regulatory factor X-associated pr...  64.3    1e-10
+gb|ACO08897.1|  Regulatory factor X-associated protein [Osmerus m...  62.4    1e-10
+gb|EPQ05545.1|  Regulatory factor X-associated protein [Myotis br...  62.4    2e-10
+ref|XP_004886232.1|  PREDICTED: regulatory factor X-associated pr...  63.2    2e-10
+ref|XP_004631196.1|  PREDICTED: regulatory factor X-associated pr...  61.6    3e-10
+ref|XP_003803153.1|  PREDICTED: regulatory factor X-associated pr...  63.5    3e-10
+emb|CAG00430.1|  unnamed protein product [Tetraodon nigroviridis]     61.2    4e-10
+ref|XP_003764571.1|  PREDICTED: regulatory factor X-associated pr...  60.5    5e-10
+ref|XP_005862801.1|  PREDICTED: regulatory factor X-associated pr...  61.6    7e-10
+ref|XP_006085666.1|  PREDICTED: regulatory factor X-associated pr...  61.6    9e-10
+ref|XP_004550174.1|  PREDICTED: regulatory factor X-associated pr...  59.3    1e-09
+ref|XP_001377587.1|  PREDICTED: regulatory factor X-associated pr...  60.5    3e-09
+ref|XP_004076248.1|  PREDICTED: regulatory factor X-associated pr...  56.6    2e-08
+gb|EKC33496.1|  hypothetical protein CGI_10012197 [Crassostrea gi...  50.1    2e-06
+gb|EDM14912.1|  similar to regulatory factor X-associated protein...  50.8    4e-06
+ref|XP_004390023.1|  PREDICTED: regulatory factor X-associated pr...  51.2    4e-06
+ref|XP_417095.4|  PREDICTED: regulatory factor X-associated prote...  47.8    7e-05
+ref|XP_002737823.1|  PREDICTED: regulatory factor X-associated pr...  43.1    0.001
+gb|ESO99104.1|  hypothetical protein LOTGIDRAFT_238912 [Lottia gi...  42.4    0.002
+ref|XP_800163.1|  PREDICTED: uncharacterized protein LOC582158 [S...  42.4    0.003
+gb|ELT89505.1|  hypothetical protein CAPTEDRAFT_196388 [Capitella...  37.7    0.060
+ref|XP_002580060.1|  hypothetical protein [Schistosoma mansoni] >...  38.1    0.068
+ref|XP_005106921.1|  PREDICTED: DPH3 homolog isoform X1 [Aplysia ...  37.0    0.15 
+ref|XP_002570919.1|  hypothetical protein [Schistosoma mansoni]       33.5    0.90 
+dbj|GAA37652.2|  hypothetical protein CLF_110749 [Clonorchis sine...  35.0    1.3  
+ref|XP_002611314.1|  hypothetical protein BRAFLDRAFT_73294 [Branc...  33.5    3.8  
+ref|WP_001348768.1|  hypothetical protein [Escherichia coli] >gb|...  32.0    3.8  
+ref|XP_001845488.1|  conserved hypothetical protein [Culex quinqu...  33.1    4.8  
+
+
+>pdb|2KW3|C Chain C, Heterotrimeric Interaction Between Rfx5 And Rfxap
+Length=62
+
+ Score =  121 bits (303),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT
+Sbjct  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+
+Query  61  SM  62
+           SM
+Sbjct  61  SM  62
+
+
+>gb|ABM46752.1| RFXAP [Gorilla gorilla]
+Length=72
+
+ Score =  114 bits (286),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  72
+
+
+>gb|ABM92037.1| RFXAP [Pan troglodytes]
+Length=103
+
+ Score =  115 bits (287),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  45   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  103
+
+
+>ref|XP_004054434.1| PREDICTED: regulatory factor X-associated protein [Gorilla gorilla 
+gorilla]
+Length=272
+
+ Score =  119 bits (298),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|ELR48342.1| Regulatory factor X-associated protein, partial [Bos mutus]
+Length=141
+
+ Score =  115 bits (289),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  83   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  141
+
+
+>ref|NP_000529.1| regulatory factor X-associated protein [Homo sapiens]
+ sp|O00287.1|RFXAP_HUMAN RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein; AltName: Full=RFX DNA-binding complex 
+36 kDa subunit
+ emb|CAA73338.1| 36kD subunit of RFX DNA-binding complex [Homo sapiens]
+ gb|EAX08575.1| regulatory factor X-associated protein, isoform CRA_b [Homo sapiens]
+ dbj|BAG36635.1| unnamed protein product [Homo sapiens]
+Length=272
+
+ Score =  119 bits (298),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|AAH26088.1| Regulatory factor X-associated protein [Homo sapiens]
+ gb|ABM82095.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM84507.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM85278.1| regulatory factor X-associated protein [synthetic construct]
+Length=272
+
+ Score =  119 bits (298),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|ABM89364.1| RFXAP [Pongo pygmaeus]
+Length=123
+
+ Score =  115 bits (287),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  65   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  123
+
+
+>gb|EHH28953.1| Regulatory factor X-associated protein, partial [Macaca mulatta]
+Length=180
+
+ Score =  116 bits (291),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  122  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  180
+
+
+>gb|ABM54333.1| RFXAP [Pan paniscus]
+ gb|ABM67309.1| RFXAP [Hylobates klossii]
+Length=72
+
+ Score =  113 bits (282),  Expect = 7e-31, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  72
+
+
+>ref|XP_003314178.1| PREDICTED: regulatory factor X-associated protein [Pan troglodytes]
+Length=272
+
+ Score =  117 bits (294),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_003826936.1| PREDICTED: regulatory factor X-associated protein [Pan paniscus]
+Length=272
+
+ Score =  117 bits (293),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>gb|ELK09272.1| Regulatory factor X-associated protein [Pteropus alecto]
+Length=233
+
+ Score =  116 bits (291),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  175  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  233
+
+
+>ref|XP_003913818.1| PREDICTED: regulatory factor X-associated protein [Papio anubis]
+Length=268
+
+ Score =  117 bits (293),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  210  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  268
+
+
+>gb|EAX08574.1| regulatory factor X-associated protein, isoform CRA_a [Homo sapiens]
+Length=272
+
+ Score =  117 bits (293),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSI  272
+
+
+>ref|NP_001252842.1| regulatory factor X-associated protein [Macaca mulatta]
+ ref|XP_005585737.1| PREDICTED: regulatory factor X-associated protein [Macaca fascicularis]
+Length=272
+
+ Score =  117 bits (293),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_002824223.1| PREDICTED: regulatory factor X-associated protein [Pongo abelii]
+Length=272
+
+ Score =  117 bits (292),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_005977766.1| PREDICTED: regulatory factor X-associated protein [Pantholops 
+hodgsonii]
+Length=272
+
+ Score =  116 bits (290),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  272
+
+
+>ref|XP_005906826.1| PREDICTED: regulatory factor X-associated protein [Bos mutus]
+Length=286
+
+ Score =  116 bits (291),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  228  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  286
+
+
+>ref|XP_005687670.1| PREDICTED: regulatory factor X-associated protein [Capra hircus]
+Length=266
+
+ Score =  116 bits (290),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  208  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  266
+
+
+>ref|XP_002691796.2| PREDICTED: regulatory factor X-associated protein, partial [Bos 
+taurus]
+Length=300
+
+ Score =  116 bits (291),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  300
+
+
+>ref|XP_612997.5| PREDICTED: regulatory factor X-associated protein [Bos taurus]
+Length=312
+
+ Score =  116 bits (290),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  254  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  312
+
+
+>tpg|DAA23978.1| TPA: regulatory factor X-associated protein-like [Bos taurus]
+Length=371
+
+ Score =  117 bits (292),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  313  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  371
+
+
+>ref|XP_006182724.1| PREDICTED: regulatory factor X-associated protein [Camelus ferus]
+Length=285
+
+ Score =  115 bits (288),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  227  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  285
+
+
+>gb|ERE88910.1| regulatory factor X-associated protein [Cricetulus griseus]
+Length=111
+
+ Score =  110 bits (276),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  53   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  109
+
+
+>ref|XP_006210212.1| PREDICTED: regulatory factor X-associated protein [Vicugna pacos]
+Length=322
+
+ Score =  115 bits (289),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  264  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  322
+
+
+>ref|XP_005344041.1| PREDICTED: regulatory factor X-associated protein [Microtus ochrogaster]
+Length=205
+
+ Score =  113 bits (282),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  147  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  203
+
+
+>ref|NP_001037728.1| regulatory factor X-associated protein [Rattus norvegicus]
+ gb|AAH98816.1| Regulatory factor X-associated protein [Rattus norvegicus]
+Length=204
+
+ Score =  113 bits (282),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  202
+
+
+>ref|XP_005077520.1| PREDICTED: regulatory factor X-associated protein [Mesocricetus 
+auratus]
+Length=206
+
+ Score =  112 bits (281),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  148  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  204
+
+
+>ref|XP_004319328.1| PREDICTED: uncharacterized protein LOC101322277 [Tursiops truncatus]
+Length=461
+
+ Score =  115 bits (289),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  403  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  461
+
+
+>ref|XP_003516032.1| PREDICTED: regulatory factor X-associated protein-like, partial 
+[Cricetulus griseus]
+Length=72
+
+ Score =  108 bits (270),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  72
+
+
+>dbj|BAE25979.1| unnamed protein product [Mus musculus]
+ gb|EDL35283.1| regulatory factor X-associated protein, isoform CRA_a [Mus musculus]
+Length=204
+
+ Score =  111 bits (277),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG 
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGA  202
+
+
+>ref|XP_004282302.1| PREDICTED: uncharacterized protein LOC101287764 [Orcinus orca]
+Length=558
+
+ Score =  115 bits (288),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  500  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  558
+
+
+>ref|XP_002720636.1| PREDICTED: regulatory factor X-associated protein-like [Oryctolagus 
+cuniculus]
+Length=300
+
+ Score =  112 bits (281),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  298
+
+
+>ref|NP_573494.1| regulatory factor X-associated protein [Mus musculus]
+ sp|Q8VCG9.2|RFXAP_MOUSE RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein
+ gb|AAK38586.1|AF335512_1 regulatory factor X-associated protein [Mus musculus]
+ gb|AAH19935.2| Regulatory factor X-associated protein [Mus musculus]
+Length=231
+
+ Score =  111 bits (277),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG 
+Sbjct  173  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGA  229
+
+
+>ref|XP_004670579.1| PREDICTED: uncharacterized protein LOC101606538 [Jaculus jaculus]
+Length=290
+
+ Score =  111 bits (277),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 56/57 (98%), Positives = 56/57 (98%), Gaps = 0/57 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG 
+Sbjct  19  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGA  75
+
+
+>ref|XP_002939627.1| PREDICTED: regulatory factor X-associated protein [Xenopus (Silurana) 
+tropicalis]
+Length=219
+
+ Score = 85.9 bits (211),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 43/51 (84%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQ  54
+            + S GDRPARPTLLEQVLNQKRLSLLRSPEVV FLQ QQQLL++Q LEQRQ
+Sbjct  162  SSSVGDRPARPTLLEQVLNQKRLSLLRSPEVVHFLQTQQQLLSRQALEQRQ  212
+
+
+>ref|XP_006005274.1| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Latimeria chalumnae]
+Length=220
+
+ Score = 82.8 bits (203),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QR QQF G +M
+Sbjct  164  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQR-QQFQGDAM  220
+
+
+>ref|XP_006005273.1| PREDICTED: regulatory factor X-associated protein isoform X1 
+[Latimeria chalumnae]
+Length=241
+
+ Score = 82.8 bits (203),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QR QQF G +M
+Sbjct  185  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQR-QQFQGDAM  241
+
+
+>ref|XP_005516827.1| PREDICTED: regulatory factor X-associated protein [Pseudopodoces 
+humilis]
+Length=162
+
+ Score = 79.3 bits (194),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 49/57 (86%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            +GS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQ+LL+QQ LEQRQQQF G 
+Sbjct  104  SGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQRLLSQQALEQRQQQFQGA  160
+
+
+>ref|XP_003971381.1| PREDICTED: regulatory factor X-associated protein-like [Takifugu 
+rubripes]
+Length=212
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV++FLQ+QQ  L  Q   Q QQ F G 
+Sbjct  157  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVIRFLQQQQHFLATQTHGQSQQHFQGC  212
+
+
+>ref|XP_003412637.1| PREDICTED: regulatory factor X-associated protein-like [Loxodonta 
+africana]
+Length=429
+
+ Score = 80.9 bits (198),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRP RPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLN+QVLE RQQQFPG  +
+Sbjct  371  TGSFGDRPTRPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNRQVLEHRQQQFPGAPV  429
+
+
+>ref|XP_001923680.1| PREDICTED: regulatory factor X-associated protein-like isoformX1 
+[Danio rerio]
+Length=193
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  141  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  193
+
+
+>ref|XP_005172788.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X2 [Danio rerio]
+Length=192
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  140  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  192
+
+
+>ref|XP_004604692.1| PREDICTED: regulatory factor X-associated protein [Sorex araneus]
+Length=288
+
+ Score = 75.5 bits (184),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            +GSFGDRPARPTLLEQVLNQKRLSLLRSPEVV+FLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  230  SGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVEFLQKQQQLLNQQVLEQRQQQFPGTSV  288
+
+
+>ref|XP_006267500.1| PREDICTED: regulatory factor X-associated protein [Alligator 
+mississippiensis]
+Length=285
+
+ Score = 70.9 bits (172),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFL  38
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFL
+Sbjct  227  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFL  261
+
+
+>ref|XP_003458304.1| PREDICTED: regulatory factor X-associated protein-like [Oreochromis 
+niloticus]
+Length=213
+
+ Score = 68.6 bits (166),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQQLL  Q   Q QQQF G 
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQQQQQLLATQGRSQSQQQFQGC  213
+
+
+>ref|XP_004711331.1| PREDICTED: uncharacterized protein LOC101664682 [Echinops telfairi]
+Length=525
+
+ Score = 70.9 bits (172),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 54/59 (92%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQVLEQRQQ FPG  +
+Sbjct  467  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQVLEQRQQPFPGAPV  525
+
+
+>gb|EHB03888.1| Regulatory factor X-associated protein [Heterocephalus glaber]
+Length=112
+
+ Score = 66.2 bits (160),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  54   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  112
+
+
+>ref|XP_004453366.1| PREDICTED: regulatory factor X-associated protein [Dasypus novemcinctus]
+Length=200
+
+ Score = 67.0 bits (162),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT +
+Sbjct  142  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTPL  200
+
+
+>ref|XP_003270325.2| PREDICTED: regulatory factor X-associated protein [Nomascus leucogenys]
+Length=252
+
+ Score = 67.4 bits (163),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  166  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  224
+
+
+>ref|XP_005808487.1| PREDICTED: regulatory factor X-associated protein-like [Xiphophorus 
+maculatus]
+Length=218
+
+ Score = 67.0 bits (162),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV++FLQ+QQQLL  Q   Q QQ F G 
+Sbjct  163  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVIRFLQQQQQLLAAQSRSQSQQHFQGC  218
+
+
+>gb|EMP25302.1| Regulatory factor X-associated protein [Chelonia mydas]
+Length=84
+
+ Score = 64.7 bits (156),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 53/57 (93%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG 
+Sbjct  26  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGA  82
+
+
+>ref|XP_005286769.1| PREDICTED: regulatory factor X-associated protein [Chrysemys 
+picta bellii]
+Length=274
+
+ Score = 67.0 bits (162),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG  +
+Sbjct  216  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGAPV  274
+
+
+>ref|XP_004435418.1| PREDICTED: regulatory factor X-associated protein [Ceratotherium 
+simum simum]
+Length=403
+
+ Score = 68.6 bits (166),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ+QQQLLNQQVLEQRQQQFPGTS+
+Sbjct  345  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQQQQQLLNQQVLEQRQQQFPGTSV  403
+
+
+>ref|XP_002749059.1| PREDICTED: regulatory factor X-associated protein-like [Callithrix 
+jacchus]
+Length=301
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  243  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  301
+
+
+>ref|XP_004854961.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=385
+
+ Score = 67.8 bits (164),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  327  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  385
+
+
+>ref|XP_004770879.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+ ref|XP_004802270.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+Length=316
+
+ Score = 67.0 bits (162),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  258  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  316
+
+
+>ref|XP_003477323.1| PREDICTED: regulatory factor X-associated protein [Cavia porcellus]
+Length=318
+
+ Score = 66.6 bits (161),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  260  TGSMGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  318
+
+
+>ref|XP_005317209.1| PREDICTED: regulatory factor X-associated protein [Ictidomys 
+tridecemlineatus]
+Length=333
+
+ Score = 67.0 bits (162),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  333
+
+
+>ref|XP_003980393.1| PREDICTED: regulatory factor X-associated protein [Felis catus]
+Length=402
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  344  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  402
+
+
+>ref|XP_005615125.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein, partial [Equus caballus]
+Length=238
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  180  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSL  238
+
+
+>ref|XP_004399980.1| PREDICTED: regulatory factor X-associated protein [Odobenus rosmarus 
+divergens]
+Length=372
+
+ Score = 67.0 bits (162),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  314  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  372
+
+
+>gb|EMC80711.1| Regulatory factor X-associated protein, partial [Columba livia]
+Length=73
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  15  TGSLGDRPARPTLLEQVLNKKRLSLLRSPEVV  46
+
+
+>ref|XP_003934504.1| PREDICTED: regulatory factor X-associated protein [Saimiri boliviensis 
+boliviensis]
+Length=476
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  418  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  476
+
+
+>ref|XP_005635647.1| PREDICTED: regulatory factor X-associated protein [Canis lupus 
+familiaris]
+Length=456
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  398  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  456
+
+
+>ref|XP_003203430.1| PREDICTED: regulatory factor X-associated protein-like [Meleagris 
+gallopavo]
+Length=89
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  31  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  62
+
+
+>gb|ETE66505.1| Regulatory factor X-associated protein, partial [Ophiophagus 
+hannah]
+Length=70
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 50/57 (88%), Positives = 53/57 (93%), Gaps = 1/57 (2%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           TG+ GDRPA+PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQR QQF GT
+Sbjct  14  TGNIGDRPAKPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQR-QQFSGT  69
+
+
+>gb|EOB02134.1| Regulatory factor X-associated protein [Anas platyrhynchos]
+Length=206
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  23  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  54
+
+
+>ref|XP_005038190.1| PREDICTED: regulatory factor X-associated protein [Ficedula albicollis]
+Length=233
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  175  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  206
+
+
+>ref|XP_004577742.1| PREDICTED: regulatory factor X-associated protein [Ochotona princeps]
+Length=387
+
+ Score = 65.9 bits (159),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ QQQLLNQQVLEQRQQQFPG ++
+Sbjct  329  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQTQQQLLNQQVLEQRQQQFPGAAV  387
+
+
+>ref|XP_004175129.1| PREDICTED: regulatory factor X-associated protein [Taeniopygia 
+guttata]
+Length=135
+
+ Score = 63.2 bits (152),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  77   TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  108
+
+
+>ref|XP_005147749.1| PREDICTED: regulatory factor X-associated protein [Melopsittacus 
+undulatus]
+Length=120
+
+ Score = 62.8 bits (151),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  62  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  93
+
+
+>ref|XP_005668404.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein [Sus scrofa]
+Length=469
+
+ Score = 65.5 bits (158),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ PGTS+
+Sbjct  411  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQIPGTSV  469
+
+
+>ref|XP_004938803.1| PREDICTED: regulatory factor X-associated protein isoform X3 
+[Gallus gallus]
+Length=285
+
+ Score = 63.9 bits (154),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVV
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVV  258
+
+
+>ref|XP_005387954.1| PREDICTED: regulatory factor X-associated protein [Chinchilla 
+lanigera]
+Length=365
+
+ Score = 64.3 bits (155),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  307  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  365
+
+
+>gb|ACO08897.1| Regulatory factor X-associated protein [Osmerus mordax]
+Length=219
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQF  37
+            GS GDRP RP+L+EQVLNQKRLSLLRSPEV+ F
+Sbjct  164  GSVGDRPTRPSLIEQVLNQKRLSLLRSPEVISF  196
+
+
+>gb|EPQ05545.1| Regulatory factor X-associated protein [Myotis brandtii]
+Length=233
+
+ Score = 62.4 bits (150),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  175  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  233
+
+
+>ref|XP_004886232.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=335
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  277  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  335
+
+
+>ref|XP_004631196.1| PREDICTED: regulatory factor X-associated protein [Octodon degus]
+Length=230
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  172  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  230
+
+
+>ref|XP_003803153.1| PREDICTED: regulatory factor X-associated protein [Otolemur garnettii]
+Length=433
+
+ Score = 63.5 bits (153),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  375  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  433
+
+
+>emb|CAG00430.1| unnamed protein product [Tetraodon nigroviridis]
+Length=239
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVV  35
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV+
+Sbjct  184  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVI  214
+
+
+>ref|XP_003764571.1| PREDICTED: regulatory factor X-associated protein [Sarcophilus 
+harrisii]
+Length=176
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE  33
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE
+Sbjct  117  TGSVGDRPARPTLLEQVLNQKRLALLRSPE  146
+
+
+>ref|XP_005862801.1| PREDICTED: regulatory factor X-associated protein [Myotis brandtii]
+Length=331
+
+ Score = 61.6 bits (148),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  273  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  331
+
+
+>ref|XP_006085666.1| PREDICTED: regulatory factor X-associated protein [Myotis lucifugus]
+Length=332
+
+ Score = 61.6 bits (148),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  274  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  332
+
+
+>ref|XP_004550174.1| PREDICTED: regulatory factor X-associated protein-like [Maylandia 
+zebra]
+ ref|XP_005750801.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X1 [Pundamilia nyererei]
+ ref|XP_005928153.1| PREDICTED: regulatory factor X-associated protein-like [Haplochromis 
+burtoni]
+Length=213
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/33 (82%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQF  37
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ F
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISF  190
+
+
+>ref|XP_001377587.1| PREDICTED: regulatory factor X-associated protein-like [Monodelphis 
+domestica]
+Length=405
+
+ Score = 60.5 bits (145),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE  33
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE
+Sbjct  346  TGSIGDRPARPTLLEQVLNQKRLALLRSPE  375
+
+
+>ref|XP_004076248.1| PREDICTED: regulatory factor X-associated protein-like [Oryzias 
+latipes]
+Length=215
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/32 (81%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  6    SFGDRPARPTLLEQVLNQKRLSLLRSPEVVQF  37
+            + GDRPARP+L+EQVLNQKRLSLLRSPEV+ F
+Sbjct  161  AMGDRPARPSLIEQVLNQKRLSLLRSPEVISF  192
+
+
+>gb|EKC33496.1| hypothetical protein CGI_10012197 [Crassostrea gigas]
+Length=99
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/42 (62%), Positives = 31/42 (74%), Gaps = 3/42 (7%)
+
+Query  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQ  42
+           GH     GD   RP+LLE+VL QK+L L+RSPEV+QFLQ QQ
+Sbjct  47  GH---DLGDPGLRPSLLEEVLAQKKLELMRSPEVMQFLQSQQ  85
+
+
+>gb|EDM14912.1| similar to regulatory factor X-associated protein [Rattus norvegicus]
+Length=256
+
+ Score = 50.8 bits (120),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRL  168
+
+
+>ref|XP_004390023.1| PREDICTED: regulatory factor X-associated protein [Trichechus 
+manatus latirostris]
+Length=340
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRL  297
+
+
+>ref|XP_417095.4| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Gallus gallus]
+Length=289
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 21/23 (91%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGS GDRPARPTLLEQVLN+KRL
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRL  249
+
+
+>ref|XP_002737823.1| PREDICTED: regulatory factor X-associated protein-like [Saccoglossus 
+kowalevskii]
+Length=211
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   TLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFP  58
+            ++LEQVLN+K+L+L+R+PEV  FLQ+ Q+ +  Q   +R    P
+Sbjct  167  SMLEQVLNEKKLALMRTPEVANFLQQCQRGIKSQHRPERSTSNP  210
+
+
+>gb|ESO99104.1| hypothetical protein LOTGIDRAFT_238912 [Lottia gigantea]
+Length=181
+
+ Score = 42.4 bits (98),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 35/48 (73%), Gaps = 1/48 (2%)
+
+Query  9    DRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+            D   + +LL++VL +K+++L++SPEV+QFL K QQ   Q+  + +QQQ
+Sbjct  130  DNTFKLSLLDEVLTEKKMALMKSPEVMQFL-KDQQAAKQESTKTKQQQ  176
+
+
+>ref|XP_800163.1| PREDICTED: uncharacterized protein LOC582158 [Strongylocentrotus 
+purpuratus]
+Length=208
+
+ Score = 42.4 bits (98),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 18/31 (58%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  17   LEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ  47
+            L+QVLN+K+L+LLRSP +++FLQ+ QQ L+ 
+Sbjct  139  LDQVLNEKKLALLRSPAIIKFLQESQQQLSH  169
+
+
+>gb|ELT89505.1| hypothetical protein CAPTEDRAFT_196388 [Capitella teleta]
+Length=126
+
+ Score = 37.7 bits (86),  Expect = 0.060, Method: Compositional matrix adjust.
+ Identities = 19/45 (42%), Positives = 32/45 (71%), Gaps = 3/45 (7%)
+
+Query  11  PARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ  55
+           P   +LL+ VLN+K+L +L+S +V+++L+K Q+   +  LEQR Q
+Sbjct  3   PNHTSLLDYVLNEKKLEMLQSADVIEYLEKAQE---KTQLEQRLQ  44
+
+
+>ref|XP_002580060.1| hypothetical protein [Schistosoma mansoni]
+ emb|CCD58955.1| hypothetical protein Smp_090340 [Schistosoma mansoni]
+Length=168
+
+ Score = 38.1 bits (87),  Expect = 0.068, Method: Compositional matrix adjust.
+ Identities = 20/50 (40%), Positives = 28/50 (56%), Gaps = 3/50 (6%)
+
+Query  1    GHGTGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ  47
+             + TGS G     P    L+  VL+ K+ +LLRSP V+ FL  QQ+ L +
+Sbjct  105  ANATGSTGPESGSPNYRKLIHAVLDAKKSALLRSPSVIHFLVSQQRSLTE  154
+
+
+>ref|XP_005106921.1| PREDICTED: DPH3 homolog isoform X1 [Aplysia californica]
+Length=143
+
+ Score = 37.0 bits (84),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  14  PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL  45
+           P LL  +L+QK++ +L++PEV+ FLQ+ Q +L
+Sbjct  67  PELLADILHQKQMKILQTPEVMHFLQEHQTML  98
+
+
+>ref|XP_002570919.1| hypothetical protein [Schistosoma mansoni]
+Length=74
+
+ Score = 33.5 bits (75),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 3/47 (6%)
+
+Query  16  LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           L+  VL+ K+ +LLRSP V+ FL  QQ+ L +    +RQ +    +M
+Sbjct  29  LIHAVLDAKKSALLRSPSVIHFLVSQQRSLTEY---KRQTELFCVTM  72
+
+
+>dbj|GAA37652.2| hypothetical protein CLF_110749 [Clonorchis sinensis]
+Length=247
+
+ Score = 35.0 bits (79),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 3/47 (6%)
+
+Query  4    TGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ  47
+            TG+    P+ P    L+E VL+ K+  LLRSP V  +L+ +Q+ L +
+Sbjct  187  TGNPSGDPSSPNYKKLIEAVLDAKKSELLRSPSVCAYLESRQRALAE  233
+
+
+>ref|XP_002611314.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+ gb|EEN67324.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+Length=198
+
+ Score = 33.5 bits (75),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 17/27 (63%), Positives = 22/27 (81%), Gaps = 1/27 (4%)
+
+Query  9    DRPARP-TLLEQVLNQKRLSLLRSPEV  34
+            D P R   +LEQVLN+K+L+LL+SPEV
+Sbjct  152  DAPVRQCNMLEQVLNEKKLTLLQSPEV  178
+
+
+>ref|WP_001348768.1| hypothetical protein [Escherichia coli]
+ gb|EFO55476.1| hypothetical protein HMPREF9348_05442 [Escherichia coli MS 145-7]
+ gb|ESD15947.1| hypothetical protein HMPREF1596_00915 [Escherichia coli 907700]
+ gb|ESD30724.1| hypothetical protein HMPREF1600_00634 [Escherichia coli 907715]
+ gb|ESD44677.1| hypothetical protein HMPREF1603_00103 [Escherichia coli 907892]
+ gb|ESE05601.1| hypothetical protein HMPREF1614_00282 [Escherichia coli 908624]
+ gb|ESE19559.1| hypothetical protein HMPREF1618_02474 [Escherichia coli 908691]
+Length=62
+
+ Score = 32.0 bits (71),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  8   GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ-QVLEQRQ  54
+            +R    TLLE+VL Q  + LLRS +  + LQ  ++ LN+ QV E R+
+Sbjct  9   SERRCWDTLLEEVLRQAGIPLLRSHDARKLLQMTEEWLNKTQVSEMRR  56
+
+
+>ref|XP_001845488.1| conserved hypothetical protein [Culex quinquefasciatus]
+ gb|EDS40521.1| conserved hypothetical protein [Culex quinquefasciatus]
+Length=193
+
+ Score = 33.1 bits (74),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 26/45 (58%), Gaps = 7/45 (16%)
+
+Query  1    GHGTGSFGDRPA-------RPTLLEQVLNQKRLSLLRSPEVVQFL  38
+            G    S GD+ A       +P +   +LN+K+ SL+R PEV++FL
+Sbjct  139  GQAGTSGGDKAAGSKASSSKPDIFTLILNEKKASLMRDPEVIKFL  183
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312520848332
+Results from round 2
+
+
+Query= 2KW3C
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+tpg|DAA23978.1|  TPA: regulatory factor X-associated protein-like...   100    7e-24
+ref|XP_002691796.2|  PREDICTED: regulatory factor X-associated pr...  99.9    8e-24
+ref|XP_003913818.1|  PREDICTED: regulatory factor X-associated pr...  99.5    8e-24
+ref|NP_001252842.1|  regulatory factor X-associated protein [Maca...  99.5    8e-24
+ref|XP_003314178.1|  PREDICTED: regulatory factor X-associated pr...  99.5    9e-24
+ref|XP_003826936.1|  PREDICTED: regulatory factor X-associated pr...  99.5    1e-23
+ref|XP_002824223.1|  PREDICTED: regulatory factor X-associated pr...  99.1    1e-23
+ref|NP_000529.1|  regulatory factor X-associated protein [Homo sa...  99.1    1e-23
+ref|XP_004054434.1|  PREDICTED: regulatory factor X-associated pr...  99.1    1e-23
+gb|AAH26088.1|  Regulatory factor X-associated protein [Homo sapi...  99.1    1e-23
+gb|EAX08574.1|  regulatory factor X-associated protein, isoform C...  98.7    2e-23
+ref|XP_612997.5|  PREDICTED: regulatory factor X-associated prote...  98.7    2e-23
+gb|ELK09272.1|  Regulatory factor X-associated protein [Pteropus ...  97.6    2e-23
+ref|XP_005977766.1|  PREDICTED: regulatory factor X-associated pr...  97.2    6e-23
+ref|XP_006210212.1|  PREDICTED: regulatory factor X-associated pr...  96.4    2e-22
+ref|XP_004282302.1|  PREDICTED: uncharacterized protein LOC101287...  97.6    4e-22
+gb|EHH28953.1|  Regulatory factor X-associated protein, partial [...  93.3    4e-22
+ref|XP_005906826.1|  PREDICTED: regulatory factor X-associated pr...  94.5    7e-22
+ref|XP_004319328.1|  PREDICTED: uncharacterized protein LOC101322...  95.3    1e-21
+ref|XP_006182724.1|  PREDICTED: regulatory factor X-associated pr...  93.3    2e-21
+gb|ELR48342.1|  Regulatory factor X-associated protein, partial [...  90.2    2e-21
+ref|XP_005687670.1|  PREDICTED: regulatory factor X-associated pr...  91.4    8e-21
+ref|XP_003971381.1|  PREDICTED: regulatory factor X-associated pr...  87.2    2e-19
+gb|ABM89364.1|  RFXAP [Pongo pygmaeus]                                84.9    2e-19
+gb|ABM92037.1|  RFXAP [Pan troglodytes]                               83.7    4e-19
+ref|XP_006005273.1|  PREDICTED: regulatory factor X-associated pr...  80.6    5e-17
+ref|XP_005516827.1|  PREDICTED: regulatory factor X-associated pr...  79.1    8e-17
+ref|XP_005172788.1|  PREDICTED: regulatory factor X-associated pr...  79.5    8e-17
+ref|XP_001923680.1|  PREDICTED: regulatory factor X-associated pr...  79.5    1e-16
+ref|XP_003458304.1|  PREDICTED: regulatory factor X-associated pr...  78.7    2e-16
+pdb|2KW3|C  Chain C, Heterotrimeric Interaction Between Rfx5 And ...  75.2    3e-16
+ref|XP_006005274.1|  PREDICTED: regulatory factor X-associated pr...  77.2    6e-16
+ref|XP_003412637.1|  PREDICTED: regulatory factor X-associated pr...  78.7    1e-15
+gb|ABM54333.1|  RFXAP [Pan paniscus] >gb|ABM67309.1| RFXAP [Hylob...  72.9    3e-15
+gb|ABM46752.1|  RFXAP [Gorilla gorilla]                               72.5    4e-15
+ref|XP_005808487.1|  PREDICTED: regulatory factor X-associated pr...  74.5    8e-15
+ref|XP_006267500.1|  PREDICTED: regulatory factor X-associated pr...  71.8    1e-13
+ref|XP_002939627.1|  PREDICTED: regulatory factor X-associated pr...  70.2    2e-13
+emb|CAG00430.1|  unnamed protein product [Tetraodon nigroviridis]     70.2    3e-13
+gb|EMP25302.1|  Regulatory factor X-associated protein [Chelonia ...  66.4    1e-12
+ref|XP_004711331.1|  PREDICTED: uncharacterized protein LOC101664...  70.2    1e-12
+gb|ACO08897.1|  Regulatory factor X-associated protein [Osmerus m...  67.9    2e-12
+dbj|BAE25979.1|  unnamed protein product [Mus musculus] >gb|EDL35...  67.1    3e-12
+ref|NP_573494.1|  regulatory factor X-associated protein [Mus mus...  67.1    3e-12
+ref|XP_004604692.1|  PREDICTED: regulatory factor X-associated pr...  67.9    3e-12
+gb|EOB02134.1|  Regulatory factor X-associated protein [Anas plat...  66.7    4e-12
+ref|XP_003203430.1|  PREDICTED: regulatory factor X-associated pr...  64.8    4e-12
+ref|XP_004670579.1|  PREDICTED: uncharacterized protein LOC101606...  67.1    5e-12
+ref|XP_005286769.1|  PREDICTED: regulatory factor X-associated pr...  66.4    8e-12
+ref|XP_003477323.1|  PREDICTED: regulatory factor X-associated pr...  66.7    1e-11
+ref|XP_004631196.1|  PREDICTED: regulatory factor X-associated pr...  64.8    2e-11
+ref|XP_004550174.1|  PREDICTED: regulatory factor X-associated pr...  64.4    2e-11
+ref|XP_003270325.2|  PREDICTED: regulatory factor X-associated pr...  64.8    2e-11
+ref|XP_002720636.1|  PREDICTED: regulatory factor X-associated pr...  64.4    6e-11
+ref|XP_004886232.1|  PREDICTED: regulatory factor X-associated pr...  64.4    9e-11
+ref|XP_005387954.1|  PREDICTED: regulatory factor X-associated pr...  64.4    1e-10
+ref|XP_005038190.1|  PREDICTED: regulatory factor X-associated pr...  62.9    1e-10
+ref|XP_004854961.1|  PREDICTED: regulatory factor X-associated pr...  64.4    1e-10
+gb|ERE88910.1|  regulatory factor X-associated protein [Cricetulu...  61.4    1e-10
+ref|XP_005147749.1|  PREDICTED: regulatory factor X-associated pr...  61.7    1e-10
+gb|EHB03888.1|  Regulatory factor X-associated protein [Heterocep...  61.4    2e-10
+ref|XP_004938803.1|  PREDICTED: regulatory factor X-associated pr...  62.9    2e-10
+ref|XP_003803153.1|  PREDICTED: regulatory factor X-associated pr...  63.7    2e-10
+ref|NP_001037728.1|  regulatory factor X-associated protein [Ratt...  61.4    3e-10
+ref|XP_004076248.1|  PREDICTED: regulatory factor X-associated pr...  61.4    3e-10
+ref|XP_004453366.1|  PREDICTED: regulatory factor X-associated pr...  61.4    3e-10
+ref|XP_004577742.1|  PREDICTED: regulatory factor X-associated pr...  63.3    4e-10
+ref|XP_005344041.1|  PREDICTED: regulatory factor X-associated pr...  61.0    4e-10
+ref|XP_003980393.1|  PREDICTED: regulatory factor X-associated pr...  62.9    4e-10
+ref|XP_004435418.1|  PREDICTED: regulatory factor X-associated pr...  62.9    5e-10
+ref|XP_005077520.1|  PREDICTED: regulatory factor X-associated pr...  60.6    5e-10
+ref|XP_003516032.1|  PREDICTED: regulatory factor X-associated pr...  59.0    6e-10
+ref|XP_002737823.1|  PREDICTED: regulatory factor X-associated pr...  60.6    6e-10
+ref|XP_003934504.1|  PREDICTED: regulatory factor X-associated pr...  62.9    6e-10
+ref|XP_005635647.1|  PREDICTED: regulatory factor X-associated pr...  62.5    8e-10
+ref|XP_002749059.1|  PREDICTED: regulatory factor X-associated pr...  61.4    8e-10
+ref|XP_005615125.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  60.6    9e-10
+ref|XP_004770879.1|  PREDICTED: regulatory factor X-associated pr...  61.4    9e-10
+gb|EPQ05545.1|  Regulatory factor X-associated protein [Myotis br...  60.2    1e-09
+ref|XP_005317209.1|  PREDICTED: regulatory factor X-associated pr...  61.0    2e-09
+ref|XP_005668404.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  61.4    2e-09
+ref|XP_004399980.1|  PREDICTED: regulatory factor X-associated pr...  60.2    4e-09
+ref|XP_006085666.1|  PREDICTED: regulatory factor X-associated pr...  59.0    7e-09
+ref|XP_005862801.1|  PREDICTED: regulatory factor X-associated pr...  59.0    8e-09
+gb|ETE66505.1|  Regulatory factor X-associated protein, partial [...  56.0    8e-09
+ref|XP_004175129.1|  PREDICTED: regulatory factor X-associated pr...  56.7    1e-08
+gb|EKC33496.1|  hypothetical protein CGI_10012197 [Crassostrea gi...  55.6    1e-08
+ref|XP_003764571.1|  PREDICTED: regulatory factor X-associated pr...  56.3    2e-08
+ref|XP_001377587.1|  PREDICTED: regulatory factor X-associated pr...  57.9    3e-08
+gb|EMC80711.1|  Regulatory factor X-associated protein, partial [...  54.4    3e-08
+gb|ESO99104.1|  hypothetical protein LOTGIDRAFT_238912 [Lottia gi...  52.1    5e-07
+ref|XP_004390023.1|  PREDICTED: regulatory factor X-associated pr...  45.6    4e-04
+ref|XP_417095.4|  PREDICTED: regulatory factor X-associated prote...  45.2    5e-04
+gb|EDM14912.1|  similar to regulatory factor X-associated protein...  44.0    0.001
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_800163.1|  PREDICTED: uncharacterized protein LOC582158 [S...  46.7    9e-05
+ref|XP_002580060.1|  hypothetical protein [Schistosoma mansoni] >...  40.6    0.008
+ref|XP_002570919.1|  hypothetical protein [Schistosoma mansoni]       37.5    0.045
+gb|ELT89505.1|  hypothetical protein CAPTEDRAFT_196388 [Capitella...  36.7    0.14 
+dbj|GAA37652.2|  hypothetical protein CLF_110749 [Clonorchis sine...  37.9    0.17 
+ref|XP_001845488.1|  conserved hypothetical protein [Culex quinqu...  37.1    0.19 
+ref|XP_002611314.1|  hypothetical protein BRAFLDRAFT_73294 [Branc...  37.1    0.23 
+gb|AET86979.1|  hypothetical protein [Schistosoma japonicum]          37.5    0.25 
+ref|XP_005106921.1|  PREDICTED: DPH3 homolog isoform X1 [Aplysia ...  35.9    0.37 
+ref|YP_286919.1|  hypothetical protein Daro_3720 [Dechloromonas a...  32.9    4.8  
+
+
+>tpg|DAA23978.1| TPA: regulatory factor X-associated protein-like [Bos taurus]
+Length=371
+
+ Score =  100 bits (249),  Expect = 7e-24, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  313  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  371
+
+
+>ref|XP_002691796.2| PREDICTED: regulatory factor X-associated protein, partial [Bos 
+taurus]
+Length=300
+
+ Score = 99.9 bits (247),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  300
+
+
+>ref|XP_003913818.1| PREDICTED: regulatory factor X-associated protein [Papio anubis]
+Length=268
+
+ Score = 99.5 bits (246),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  210  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  268
+
+
+>ref|NP_001252842.1| regulatory factor X-associated protein [Macaca mulatta]
+ ref|XP_005585737.1| PREDICTED: regulatory factor X-associated protein [Macaca fascicularis]
+Length=272
+
+ Score = 99.5 bits (246),  Expect = 8e-24, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_003314178.1| PREDICTED: regulatory factor X-associated protein [Pan troglodytes]
+Length=272
+
+ Score = 99.5 bits (246),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_003826936.1| PREDICTED: regulatory factor X-associated protein [Pan paniscus]
+Length=272
+
+ Score = 99.5 bits (246),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_002824223.1| PREDICTED: regulatory factor X-associated protein [Pongo abelii]
+Length=272
+
+ Score = 99.1 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|NP_000529.1| regulatory factor X-associated protein [Homo sapiens]
+ sp|O00287.1|RFXAP_HUMAN RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein; AltName: Full=RFX DNA-binding complex 
+36 kDa subunit
+ emb|CAA73338.1| 36kD subunit of RFX DNA-binding complex [Homo sapiens]
+ gb|EAX08575.1| regulatory factor X-associated protein, isoform CRA_b [Homo sapiens]
+ dbj|BAG36635.1| unnamed protein product [Homo sapiens]
+Length=272
+
+ Score = 99.1 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>ref|XP_004054434.1| PREDICTED: regulatory factor X-associated protein [Gorilla gorilla 
+gorilla]
+Length=272
+
+ Score = 99.1 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|AAH26088.1| Regulatory factor X-associated protein [Homo sapiens]
+ gb|ABM82095.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM84507.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM85278.1| regulatory factor X-associated protein [synthetic construct]
+Length=272
+
+ Score = 99.1 bits (245),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|EAX08574.1| regulatory factor X-associated protein, isoform CRA_a [Homo sapiens]
+Length=272
+
+ Score = 98.7 bits (244),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSI  272
+
+
+>ref|XP_612997.5| PREDICTED: regulatory factor X-associated protein [Bos taurus]
+Length=312
+
+ Score = 98.7 bits (244),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  254  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  312
+
+
+>gb|ELK09272.1| Regulatory factor X-associated protein [Pteropus alecto]
+Length=233
+
+ Score = 97.6 bits (241),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  175  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  233
+
+
+>ref|XP_005977766.1| PREDICTED: regulatory factor X-associated protein [Pantholops 
+hodgsonii]
+Length=272
+
+ Score = 97.2 bits (240),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  272
+
+
+>ref|XP_006210212.1| PREDICTED: regulatory factor X-associated protein [Vicugna pacos]
+Length=322
+
+ Score = 96.4 bits (238),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  264  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  322
+
+
+>ref|XP_004282302.1| PREDICTED: uncharacterized protein LOC101287764 [Orcinus orca]
+Length=558
+
+ Score = 97.6 bits (241),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  500  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  558
+
+
+>gb|EHH28953.1| Regulatory factor X-associated protein, partial [Macaca mulatta]
+Length=180
+
+ Score = 93.3 bits (230),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  122  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  180
+
+
+>ref|XP_005906826.1| PREDICTED: regulatory factor X-associated protein [Bos mutus]
+Length=286
+
+ Score = 94.5 bits (233),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  228  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  286
+
+
+>ref|XP_004319328.1| PREDICTED: uncharacterized protein LOC101322277 [Tursiops truncatus]
+Length=461
+
+ Score = 95.3 bits (235),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  403  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  461
+
+
+>ref|XP_006182724.1| PREDICTED: regulatory factor X-associated protein [Camelus ferus]
+Length=285
+
+ Score = 93.3 bits (230),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  227  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  285
+
+
+>gb|ELR48342.1| Regulatory factor X-associated protein, partial [Bos mutus]
+Length=141
+
+ Score = 90.2 bits (222),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  83   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  141
+
+
+>ref|XP_005687670.1| PREDICTED: regulatory factor X-associated protein [Capra hircus]
+Length=266
+
+ Score = 91.4 bits (225),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  208  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  266
+
+
+>ref|XP_003971381.1| PREDICTED: regulatory factor X-associated protein-like [Takifugu 
+rubripes]
+Length=212
+
+ Score = 87.2 bits (214),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV++FLQ+QQ  L  Q   Q QQ F G 
+Sbjct  157  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVIRFLQQQQHFLATQTHGQSQQHFQGC  212
+
+
+>gb|ABM89364.1| RFXAP [Pongo pygmaeus]
+Length=123
+
+ Score = 84.9 bits (208),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  65   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  123
+
+
+>gb|ABM92037.1| RFXAP [Pan troglodytes]
+Length=103
+
+ Score = 83.7 bits (205),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  45   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  103
+
+
+>ref|XP_006005273.1| PREDICTED: regulatory factor X-associated protein isoform X1 
+[Latimeria chalumnae]
+Length=241
+
+ Score = 80.6 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QRQQ F G +M
+Sbjct  185  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQRQQ-FQGDAM  241
+
+
+>ref|XP_005516827.1| PREDICTED: regulatory factor X-associated protein [Pseudopodoces 
+humilis]
+Length=162
+
+ Score = 79.1 bits (193),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            +GS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQ+LL+QQ LEQRQQQF G  
+Sbjct  104  SGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQRLLSQQALEQRQQQFQGAP  161
+
+
+>ref|XP_005172788.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X2 [Danio rerio]
+Length=192
+
+ Score = 79.5 bits (194),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  140  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  192
+
+
+>ref|XP_001923680.1| PREDICTED: regulatory factor X-associated protein-like isoformX1 
+[Danio rerio]
+Length=193
+
+ Score = 79.5 bits (194),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  141  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  193
+
+
+>ref|XP_003458304.1| PREDICTED: regulatory factor X-associated protein-like [Oreochromis 
+niloticus]
+Length=213
+
+ Score = 78.7 bits (192),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQQLL  Q   Q QQQF G 
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQQQQQLLATQGRSQSQQQFQGC  213
+
+
+>pdb|2KW3|C Chain C, Heterotrimeric Interaction Between Rfx5 And Rfxap
+Length=62
+
+ Score = 75.2 bits (183),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT
+Sbjct  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+
+Query  61  SM  62
+           SM
+Sbjct  61  SM  62
+
+
+>ref|XP_006005274.1| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Latimeria chalumnae]
+Length=220
+
+ Score = 77.2 bits (188),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QRQQ F G +M
+Sbjct  164  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQRQQ-FQGDAM  220
+
+
+>ref|XP_003412637.1| PREDICTED: regulatory factor X-associated protein-like [Loxodonta 
+africana]
+Length=429
+
+ Score = 78.7 bits (192),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRP RPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLN+QVLE RQQQFPG  +
+Sbjct  371  TGSFGDRPTRPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNRQVLEHRQQQFPGAPV  429
+
+
+>gb|ABM54333.1| RFXAP [Pan paniscus]
+ gb|ABM67309.1| RFXAP [Hylobates klossii]
+Length=72
+
+ Score = 72.9 bits (177),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  72
+
+
+>gb|ABM46752.1| RFXAP [Gorilla gorilla]
+Length=72
+
+ Score = 72.5 bits (176),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  72
+
+
+>ref|XP_005808487.1| PREDICTED: regulatory factor X-associated protein-like [Xiphophorus 
+maculatus]
+Length=218
+
+ Score = 74.5 bits (181),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV++FLQ+QQQLL  Q   Q QQ F G 
+Sbjct  163  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVIRFLQQQQQLLAAQSRSQSQQHFQGC  218
+
+
+>ref|XP_006267500.1| PREDICTED: regulatory factor X-associated protein [Alligator 
+mississippiensis]
+Length=285
+
+ Score = 71.8 bits (174),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQ+L+QQ LEQRQQQF G  +
+Sbjct  227  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQMLSQQALEQRQQQFQGAPI  285
+
+
+>ref|XP_002939627.1| PREDICTED: regulatory factor X-associated protein [Xenopus (Silurana) 
+tropicalis]
+Length=219
+
+ Score = 70.2 bits (170),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 43/53 (81%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+            + S GDRPARPTLLEQVLNQKRLSLLRSPEVV FLQ QQQLL++Q LEQRQ  
+Sbjct  162  SSSVGDRPARPTLLEQVLNQKRLSLLRSPEVVHFLQTQQQLLSRQALEQRQSS  214
+
+
+>emb|CAG00430.1| unnamed protein product [Tetraodon nigroviridis]
+Length=239
+
+ Score = 70.2 bits (170),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 43/56 (77%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV+ FLQ+QQQ L  Q   Q  Q F G 
+Sbjct  184  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVISFLQQQQQFLATQNHGQAPQPFQGC  239
+
+
+>gb|EMP25302.1| Regulatory factor X-associated protein [Chelonia mydas]
+Length=84
+
+ Score = 66.4 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG  +
+Sbjct  26  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGAPV  84
+
+
+>ref|XP_004711331.1| PREDICTED: uncharacterized protein LOC101664682 [Echinops telfairi]
+Length=525
+
+ Score = 70.2 bits (170),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 54/59 (92%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQVLEQRQQ FPG  +
+Sbjct  467  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQVLEQRQQPFPGAPV  525
+
+
+>gb|ACO08897.1| Regulatory factor X-associated protein [Osmerus mordax]
+Length=219
+
+ Score = 67.9 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            GS GDRP RP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQ+LL QQ   Q QQ+F G 
+Sbjct  164  GSVGDRPTRPSLIEQVLNQKRLSLLRSPEVISFLQQQQRLLTQQTHSQSQQEFQGC  219
+
+
+>dbj|BAE25979.1| unnamed protein product [Mus musculus]
+ gb|EDL35283.1| regulatory factor X-associated protein, isoform CRA_a [Mus musculus]
+Length=204
+
+ Score = 67.1 bits (162),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG  +
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGAPV  204
+
+
+>ref|NP_573494.1| regulatory factor X-associated protein [Mus musculus]
+ sp|Q8VCG9.2|RFXAP_MOUSE RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein
+ gb|AAK38586.1|AF335512_1 regulatory factor X-associated protein [Mus musculus]
+ gb|AAH19935.2| Regulatory factor X-associated protein [Mus musculus]
+Length=231
+
+ Score = 67.1 bits (162),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG  +
+Sbjct  173  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGAPV  231
+
+
+>ref|XP_004604692.1| PREDICTED: regulatory factor X-associated protein [Sorex araneus]
+Length=288
+
+ Score = 67.9 bits (164),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            +GSFGDRPARPTLLEQVLNQKRLSLLRSPEVV+FLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  230  SGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVEFLQKQQQLLNQQVLEQRQQQFPGTSV  288
+
+
+>gb|EOB02134.1| Regulatory factor X-associated protein [Anas platyrhynchos]
+Length=206
+
+ Score = 66.7 bits (161),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  23  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  80
+
+
+>ref|XP_003203430.1| PREDICTED: regulatory factor X-associated protein-like [Meleagris 
+gallopavo]
+Length=89
+
+ Score = 64.8 bits (156),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  31  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  88
+
+
+>ref|XP_004670579.1| PREDICTED: uncharacterized protein LOC101606538 [Jaculus jaculus]
+Length=290
+
+ Score = 67.1 bits (162),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  19  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  77
+
+
+>ref|XP_005286769.1| PREDICTED: regulatory factor X-associated protein [Chrysemys 
+picta bellii]
+Length=274
+
+ Score = 66.4 bits (160),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG  +
+Sbjct  216  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGAPV  274
+
+
+>ref|XP_003477323.1| PREDICTED: regulatory factor X-associated protein [Cavia porcellus]
+Length=318
+
+ Score = 66.7 bits (161),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  260  TGSMGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  318
+
+
+>ref|XP_004631196.1| PREDICTED: regulatory factor X-associated protein [Octodon degus]
+Length=230
+
+ Score = 64.8 bits (156),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  172  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  230
+
+
+>ref|XP_004550174.1| PREDICTED: regulatory factor X-associated protein-like [Maylandia 
+zebra]
+ ref|XP_005750801.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X1 [Pundamilia nyererei]
+ ref|XP_005928153.1| PREDICTED: regulatory factor X-associated protein-like [Haplochromis 
+burtoni]
+Length=213
+
+ Score = 64.4 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/33 (82%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQF  37
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ F
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISF  190
+
+
+>ref|XP_003270325.2| PREDICTED: regulatory factor X-associated protein [Nomascus leucogenys]
+Length=252
+
+ Score = 64.8 bits (156),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  166  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  224
+
+
+>ref|XP_002720636.1| PREDICTED: regulatory factor X-associated protein-like [Oryctolagus 
+cuniculus]
+Length=300
+
+ Score = 64.4 bits (155),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  300
+
+
+>ref|XP_004886232.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=335
+
+ Score = 64.4 bits (155),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  277  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  335
+
+
+>ref|XP_005387954.1| PREDICTED: regulatory factor X-associated protein [Chinchilla 
+lanigera]
+Length=365
+
+ Score = 64.4 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  307  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  365
+
+
+>ref|XP_005038190.1| PREDICTED: regulatory factor X-associated protein [Ficedula albicollis]
+Length=233
+
+ Score = 62.9 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  175  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  232
+
+
+>ref|XP_004854961.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=385
+
+ Score = 64.4 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  327  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  385
+
+
+>gb|ERE88910.1| regulatory factor X-associated protein [Cricetulus griseus]
+Length=111
+
+ Score = 61.4 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  53   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  111
+
+
+>ref|XP_005147749.1| PREDICTED: regulatory factor X-associated protein [Melopsittacus 
+undulatus]
+Length=120
+
+ Score = 61.7 bits (148),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  62   TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  119
+
+
+>gb|EHB03888.1| Regulatory factor X-associated protein [Heterocephalus glaber]
+Length=112
+
+ Score = 61.4 bits (147),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  54   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  112
+
+
+>ref|XP_004938803.1| PREDICTED: regulatory factor X-associated protein isoform X3 
+[Gallus gallus]
+Length=285
+
+ Score = 62.9 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  284
+
+
+>ref|XP_003803153.1| PREDICTED: regulatory factor X-associated protein [Otolemur garnettii]
+Length=433
+
+ Score = 63.7 bits (153),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  375  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  433
+
+
+>ref|NP_001037728.1| regulatory factor X-associated protein [Rattus norvegicus]
+ gb|AAH98816.1| Regulatory factor X-associated protein [Rattus norvegicus]
+Length=204
+
+ Score = 61.4 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  204
+
+
+>ref|XP_004076248.1| PREDICTED: regulatory factor X-associated protein-like [Oryzias 
+latipes]
+Length=215
+
+ Score = 61.4 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+             + GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQQLL  Q   Q QQQF G 
+Sbjct  160  SAMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQQQQQLLVSQSRSQAQQQFQGC  215
+
+
+>ref|XP_004453366.1| PREDICTED: regulatory factor X-associated protein [Dasypus novemcinctus]
+Length=200
+
+ Score = 61.4 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT +
+Sbjct  142  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTPL  200
+
+
+>ref|XP_004577742.1| PREDICTED: regulatory factor X-associated protein [Ochotona princeps]
+Length=387
+
+ Score = 63.3 bits (152),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ QQQLLNQQVLEQRQQQFPG ++
+Sbjct  329  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQTQQQLLNQQVLEQRQQQFPGAAV  387
+
+
+>ref|XP_005344041.1| PREDICTED: regulatory factor X-associated protein [Microtus ochrogaster]
+Length=205
+
+ Score = 61.0 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  147  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  205
+
+
+>ref|XP_003980393.1| PREDICTED: regulatory factor X-associated protein [Felis catus]
+Length=402
+
+ Score = 62.9 bits (151),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  344  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  402
+
+
+>ref|XP_004435418.1| PREDICTED: regulatory factor X-associated protein [Ceratotherium 
+simum simum]
+Length=403
+
+ Score = 62.9 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ+QQQLLNQQVLEQRQQQFPGTS+
+Sbjct  345  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQQQQQLLNQQVLEQRQQQFPGTSV  403
+
+
+>ref|XP_005077520.1| PREDICTED: regulatory factor X-associated protein [Mesocricetus 
+auratus]
+Length=206
+
+ Score = 60.6 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  148  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  206
+
+
+>ref|XP_003516032.1| PREDICTED: regulatory factor X-associated protein-like, partial 
+[Cricetulus griseus]
+Length=72
+
+ Score = 59.0 bits (141),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  72
+
+
+>ref|XP_002737823.1| PREDICTED: regulatory factor X-associated protein-like [Saccoglossus 
+kowalevskii]
+Length=211
+
+ Score = 60.6 bits (145),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   TLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFP  58
+            ++LEQVLN+K+L+L+R+PEV  FLQ+ Q+ +  Q   +R    P
+Sbjct  167  SMLEQVLNEKKLALMRTPEVANFLQQCQRGIKSQHRPERSTSNP  210
+
+
+>ref|XP_003934504.1| PREDICTED: regulatory factor X-associated protein [Saimiri boliviensis 
+boliviensis]
+Length=476
+
+ Score = 62.9 bits (151),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  418  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  476
+
+
+>ref|XP_005635647.1| PREDICTED: regulatory factor X-associated protein [Canis lupus 
+familiaris]
+Length=456
+
+ Score = 62.5 bits (150),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  398  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  456
+
+
+>ref|XP_002749059.1| PREDICTED: regulatory factor X-associated protein-like [Callithrix 
+jacchus]
+Length=301
+
+ Score = 61.4 bits (147),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  243  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  301
+
+
+>ref|XP_005615125.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein, partial [Equus caballus]
+Length=238
+
+ Score = 60.6 bits (145),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  180  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSL  238
+
+
+>ref|XP_004770879.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+ ref|XP_004802270.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+Length=316
+
+ Score = 61.4 bits (147),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  258  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  316
+
+
+>gb|EPQ05545.1| Regulatory factor X-associated protein [Myotis brandtii]
+Length=233
+
+ Score = 60.2 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  175  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  233
+
+
+>ref|XP_005317209.1| PREDICTED: regulatory factor X-associated protein [Ictidomys 
+tridecemlineatus]
+Length=333
+
+ Score = 61.0 bits (146),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  333
+
+
+>ref|XP_005668404.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein [Sus scrofa]
+Length=469
+
+ Score = 61.4 bits (147),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ PGTS+
+Sbjct  411  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQIPGTSV  469
+
+
+>ref|XP_004399980.1| PREDICTED: regulatory factor X-associated protein [Odobenus rosmarus 
+divergens]
+Length=372
+
+ Score = 60.2 bits (144),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  314  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  372
+
+
+>ref|XP_006085666.1| PREDICTED: regulatory factor X-associated protein [Myotis lucifugus]
+Length=332
+
+ Score = 59.0 bits (141),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  274  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  332
+
+
+>ref|XP_005862801.1| PREDICTED: regulatory factor X-associated protein [Myotis brandtii]
+Length=331
+
+ Score = 59.0 bits (141),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  273  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  331
+
+
+>gb|ETE66505.1| Regulatory factor X-associated protein, partial [Ophiophagus 
+hannah]
+Length=70
+
+ Score = 56.0 bits (133),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 1/58 (2%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TG+ GDRPA+PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQ F GT 
+Sbjct  14  TGNIGDRPAKPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQ-FSGTP  70
+
+
+>ref|XP_004175129.1| PREDICTED: regulatory factor X-associated protein [Taeniopygia 
+guttata]
+Length=135
+
+ Score = 56.7 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ L+QRQQQF G  
+Sbjct  77   TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALQQRQQQFQGAP  134
+
+
+>gb|EKC33496.1| hypothetical protein CGI_10012197 [Crassostrea gigas]
+Length=99
+
+ Score = 55.6 bits (132),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/47 (51%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  6   SFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQ  52
+             GD   RP+LLE+VL QK+L L+RSPEV+QFLQ QQ    ++    
+Sbjct  49  DLGDPGLRPSLLEEVLAQKKLELMRSPEVMQFLQSQQAQKAEKNKTH  95
+
+
+>ref|XP_003764571.1| PREDICTED: regulatory factor X-associated protein [Sarcophilus 
+harrisii]
+Length=176
+
+ Score = 56.3 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 47/60 (78%), Gaps = 1/60 (2%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE-VVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE V     +QQ L  Q + +++QQQFPG S+
+Sbjct  117  TGSVGDRPARPTLLEQVLNQKRLALLRSPEVVQFLQTQQQLLNQQVLEQRQQQQFPGASV  176
+
+
+>ref|XP_001377587.1| PREDICTED: regulatory factor X-associated protein-like [Monodelphis 
+domestica]
+Length=405
+
+ Score = 57.9 bits (138),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE  33
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE
+Sbjct  346  TGSIGDRPARPTLLEQVLNQKRLALLRSPE  375
+
+
+>gb|EMC80711.1| Regulatory factor X-associated protein, partial [Columba livia]
+Length=73
+
+ Score = 54.4 bits (129),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ   QRQQQF G  
+Sbjct  15  TGSLGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQAFAQRQQQFQGAP  72
+
+
+>gb|ESO99104.1| hypothetical protein LOTGIDRAFT_238912 [Lottia gigantea]
+Length=181
+
+ Score = 52.1 bits (123),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 21/48 (44%), Positives = 35/48 (73%), Gaps = 1/48 (2%)
+
+Query  9    DRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+            D   + +LL++VL +K+++L++SPEV+QFL K QQ   Q+  + +QQQ
+Sbjct  130  DNTFKLSLLDEVLTEKKMALMKSPEVMQFL-KDQQAAKQESTKTKQQQ  176
+
+
+>ref|XP_800163.1| PREDICTED: uncharacterized protein LOC582158 [Strongylocentrotus 
+purpuratus]
+Length=208
+
+ Score = 46.7 bits (109),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  17   LEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ  55
+            L+QVLN+K+L+LLRSP +++FLQ+ QQ L+    +Q  +
+Sbjct  139  LDQVLNEKKLALLRSPAIIKFLQESQQQLSHTHHQQSSR  177
+
+
+>ref|XP_004390023.1| PREDICTED: regulatory factor X-associated protein [Trichechus 
+manatus latirostris]
+Length=340
+
+ Score = 45.6 bits (106),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRL  297
+
+
+>ref|XP_417095.4| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Gallus gallus]
+Length=289
+
+ Score = 45.2 bits (105),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 21/23 (91%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGS GDRPARPTLLEQVLN+KRL
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRL  249
+
+
+>gb|EDM14912.1| similar to regulatory factor X-associated protein [Rattus norvegicus]
+Length=256
+
+ Score = 44.0 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRL  168
+
+
+>ref|XP_002580060.1| hypothetical protein [Schistosoma mansoni]
+ emb|CCD58955.1| hypothetical protein Smp_090340 [Schistosoma mansoni]
+Length=168
+
+ Score = 40.6 bits (93),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 29/55 (53%), Gaps = 3/55 (5%)
+
+Query  1    GHGTGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQ  52
+             + TGS G     P    L+  VL+ K+ +LLRSP V+ FL  QQ+ L +   + 
+Sbjct  105  ANATGSTGPESGSPNYRKLIHAVLDAKKSALLRSPSVIHFLVSQQRSLTEYKRQT  159
+
+
+>ref|XP_002570919.1| hypothetical protein [Schistosoma mansoni]
+Length=74
+
+ Score = 37.5 bits (85),  Expect = 0.045, Method: Composition-based stats.
+ Identities = 15/37 (41%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+
+Query  16  LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQ  52
+           L+  VL+ K+ +LLRSP V+ FL  QQ+ L +   + 
+Sbjct  29  LIHAVLDAKKSALLRSPSVIHFLVSQQRSLTEYKRQT  65
+
+
+>gb|ELT89505.1| hypothetical protein CAPTEDRAFT_196388 [Capitella teleta]
+Length=126
+
+ Score = 36.7 bits (83),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 32/46 (70%), Gaps = 3/46 (7%)
+
+Query  11  PARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+           P   +LL+ VLN+K+L +L+S +V+++L+K Q+   +  LEQR Q 
+Sbjct  3   PNHTSLLDYVLNEKKLEMLQSADVIEYLEKAQE---KTQLEQRLQP  45
+
+
+>dbj|GAA37652.2| hypothetical protein CLF_110749 [Clonorchis sinensis]
+Length=247
+
+ Score = 37.9 bits (86),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 3/47 (6%)
+
+Query  4    TGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ  47
+            TG+    P+ P    L+E VL+ K+  LLRSP V  +L+ +Q+ L +
+Sbjct  187  TGNPSGDPSSPNYKKLIEAVLDAKKSELLRSPSVCAYLESRQRALAE  233
+
+
+>ref|XP_001845488.1| conserved hypothetical protein [Culex quinquefasciatus]
+ gb|EDS40521.1| conserved hypothetical protein [Culex quinquefasciatus]
+Length=193
+
+ Score = 37.1 bits (84),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 26/45 (58%), Gaps = 7/45 (16%)
+
+Query  1    GHGTGSFGDRPA-------RPTLLEQVLNQKRLSLLRSPEVVQFL  38
+            G    S GD+ A       +P +   +LN+K+ SL+R PEV++FL
+Sbjct  139  GQAGTSGGDKAAGSKASSSKPDIFTLILNEKKASLMRDPEVIKFL  183
+
+
+>ref|XP_002611314.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+ gb|EEN67324.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+Length=198
+
+ Score = 37.1 bits (84),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEV  34
+            +G       +  +LEQVLN+K+L+LL+SPEV
+Sbjct  148  SGDVDAPVRQCNMLEQVLNEKKLTLLQSPEV  178
+
+
+>gb|AET86979.1| hypothetical protein [Schistosoma japonicum]
+Length=321
+
+ Score = 37.5 bits (85),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 15/37 (41%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  16   LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQ  52
+            L+  VL+ K  +LLRSP V+ FL  QQ  L +   + 
+Sbjct  276  LIYAVLDAKTSALLRSPSVIHFLSNQQHSLTEYKRQT  312
+
+
+>ref|XP_005106921.1| PREDICTED: DPH3 homolog isoform X1 [Aplysia californica]
+Length=143
+
+ Score = 35.9 bits (81),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  14   PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  59
+            P LL  +L+QK++ +L++PEV+ FLQ+ Q +L +   + +     G
+Sbjct  67   PELLADILHQKQMKILQTPEVMHFLQEHQTMLARNGSQCQSTASHG  112
+
+
+>ref|YP_286919.1| hypothetical protein Daro_3720 [Dechloromonas aromatica RCB]
+ ref|WP_011289445.1| hypothetical protein [Dechloromonas aromatica]
+ gb|AAZ48449.1| hypothetical protein Daro_3720 [Dechloromonas aromatica RCB]
+Length=135
+
+ Score = 32.9 bits (73),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 20/55 (36%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  1    GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ  55
+            G       D  AR +LLE    + R  +L S E++Q L +Q  LL  Q+  QRQ+
+Sbjct  49   GESIAPDADFSARLSLLEAANRKLRTQILASSELIQTLSEQNVLLVAQIENQRQR  103
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.123    0.305    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0364    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312520848332
+Results from round 3
+
+
+Query= 2KW3C
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+tpg|DAA23978.1|  TPA: regulatory factor X-associated protein-like...  98.3    4e-23
+ref|XP_002691796.2|  PREDICTED: regulatory factor X-associated pr...  97.9    4e-23
+ref|XP_003913818.1|  PREDICTED: regulatory factor X-associated pr...  97.2    6e-23
+ref|NP_001252842.1|  regulatory factor X-associated protein [Maca...  97.2    6e-23
+ref|XP_003314178.1|  PREDICTED: regulatory factor X-associated pr...  97.2    6e-23
+ref|XP_003826936.1|  PREDICTED: regulatory factor X-associated pr...  97.2    7e-23
+ref|XP_002824223.1|  PREDICTED: regulatory factor X-associated pr...  96.8    7e-23
+ref|NP_000529.1|  regulatory factor X-associated protein [Homo sa...  96.8    8e-23
+ref|XP_004054434.1|  PREDICTED: regulatory factor X-associated pr...  96.8    8e-23
+gb|EAX08574.1|  regulatory factor X-associated protein, isoform C...  96.8    9e-23
+gb|AAH26088.1|  Regulatory factor X-associated protein [Homo sapi...  96.8    1e-22
+ref|XP_612997.5|  PREDICTED: regulatory factor X-associated prote...  96.8    1e-22
+gb|ELK09272.1|  Regulatory factor X-associated protein [Pteropus ...  95.6    2e-22
+ref|XP_005977766.1|  PREDICTED: regulatory factor X-associated pr...  95.2    3e-22
+ref|XP_006210212.1|  PREDICTED: regulatory factor X-associated pr...  94.1    1e-21
+ref|XP_004282302.1|  PREDICTED: uncharacterized protein LOC101287...  96.0    1e-21
+gb|EHH28953.1|  Regulatory factor X-associated protein, partial [...  90.6    4e-21
+ref|XP_004319328.1|  PREDICTED: uncharacterized protein LOC101322...  93.3    7e-21
+ref|XP_005906826.1|  PREDICTED: regulatory factor X-associated pr...  91.4    7e-21
+ref|XP_006182724.1|  PREDICTED: regulatory factor X-associated pr...  91.0    1e-20
+ref|XP_003971381.1|  PREDICTED: regulatory factor X-associated pr...  89.1    3e-20
+gb|ELR48342.1|  Regulatory factor X-associated protein, partial [...  87.1    4e-20
+ref|XP_005687670.1|  PREDICTED: regulatory factor X-associated pr...  89.1    5e-20
+gb|ABM89364.1|  RFXAP [Pongo pygmaeus]                                81.4    5e-18
+gb|ABM92037.1|  RFXAP [Pan troglodytes]                               79.8    1e-17
+ref|XP_005516827.1|  PREDICTED: regulatory factor X-associated pr...  79.8    4e-17
+ref|XP_003458304.1|  PREDICTED: regulatory factor X-associated pr...  80.6    5e-17
+ref|XP_005172788.1|  PREDICTED: regulatory factor X-associated pr...  80.2    5e-17
+ref|XP_001923680.1|  PREDICTED: regulatory factor X-associated pr...  79.8    5e-17
+ref|XP_006005273.1|  PREDICTED: regulatory factor X-associated pr...  79.8    1e-16
+ref|XP_003412637.1|  PREDICTED: regulatory factor X-associated pr...  79.1    8e-16
+ref|XP_006005274.1|  PREDICTED: regulatory factor X-associated pr...  76.4    2e-15
+ref|XP_005808487.1|  PREDICTED: regulatory factor X-associated pr...  75.6    2e-15
+emb|CAG00430.1|  unnamed protein product [Tetraodon nigroviridis]     74.1    1e-14
+pdb|2KW3|C  Chain C, Heterotrimeric Interaction Between Rfx5 And ...  70.2    2e-14
+ref|XP_006267500.1|  PREDICTED: regulatory factor X-associated pr...  73.3    3e-14
+gb|ABM54333.1|  RFXAP [Pan paniscus] >gb|ABM67309.1| RFXAP [Hylob...  68.3    2e-13
+gb|ABM46752.1|  RFXAP [Gorilla gorilla]                               67.9    2e-13
+gb|ACO08897.1|  Regulatory factor X-associated protein [Osmerus m...  69.8    3e-13
+gb|EMP25302.1|  Regulatory factor X-associated protein [Chelonia ...  67.5    4e-13
+ref|XP_004711331.1|  PREDICTED: uncharacterized protein LOC101664...  71.4    6e-13
+ref|XP_002939627.1|  PREDICTED: regulatory factor X-associated pr...  68.3    1e-12
+ref|XP_004670579.1|  PREDICTED: uncharacterized protein LOC101606...  68.7    1e-12
+ref|XP_003203430.1|  PREDICTED: regulatory factor X-associated pr...  66.3    1e-12
+dbj|BAE25979.1|  unnamed protein product [Mus musculus] >gb|EDL35...  67.9    2e-12
+ref|NP_573494.1|  regulatory factor X-associated protein [Mus mus...  67.9    2e-12
+gb|EOB02134.1|  Regulatory factor X-associated protein [Anas plat...  67.5    2e-12
+ref|XP_004604692.1|  PREDICTED: regulatory factor X-associated pr...  67.9    3e-12
+ref|XP_005286769.1|  PREDICTED: regulatory factor X-associated pr...  67.5    3e-12
+ref|XP_004550174.1|  PREDICTED: regulatory factor X-associated pr...  66.0    7e-12
+ref|XP_003477323.1|  PREDICTED: regulatory factor X-associated pr...  66.7    9e-12
+ref|XP_004631196.1|  PREDICTED: regulatory factor X-associated pr...  65.6    1e-11
+ref|XP_003270325.2|  PREDICTED: regulatory factor X-associated pr...  65.6    1e-11
+ref|XP_002720636.1|  PREDICTED: regulatory factor X-associated pr...  65.6    3e-11
+ref|XP_005038190.1|  PREDICTED: regulatory factor X-associated pr...  64.0    5e-11
+ref|XP_005147749.1|  PREDICTED: regulatory factor X-associated pr...  62.9    5e-11
+ref|XP_004886232.1|  PREDICTED: regulatory factor X-associated pr...  65.2    5e-11
+gb|ERE88910.1|  regulatory factor X-associated protein [Cricetulu...  62.5    5e-11
+ref|XP_004076248.1|  PREDICTED: regulatory factor X-associated pr...  63.3    6e-11
+ref|XP_005387954.1|  PREDICTED: regulatory factor X-associated pr...  64.8    7e-11
+ref|XP_004938803.1|  PREDICTED: regulatory factor X-associated pr...  64.0    7e-11
+ref|XP_004854961.1|  PREDICTED: regulatory factor X-associated pr...  65.2    7e-11
+gb|EHB03888.1|  Regulatory factor X-associated protein [Heterocep...  62.1    8e-11
+gb|EKC33496.1|  hypothetical protein CGI_10012197 [Crassostrea gi...  61.7    9e-11
+ref|NP_001037728.1|  regulatory factor X-associated protein [Ratt...  62.5    1e-10
+ref|XP_005344041.1|  PREDICTED: regulatory factor X-associated pr...  62.5    1e-10
+ref|XP_004453366.1|  PREDICTED: regulatory factor X-associated pr...  62.1    1e-10
+ref|XP_003803153.1|  PREDICTED: regulatory factor X-associated pr...  64.4    1e-10
+ref|XP_003516032.1|  PREDICTED: regulatory factor X-associated pr...  60.2    2e-10
+ref|XP_004577742.1|  PREDICTED: regulatory factor X-associated pr...  63.7    3e-10
+ref|XP_005077520.1|  PREDICTED: regulatory factor X-associated pr...  61.3    3e-10
+ref|XP_003980393.1|  PREDICTED: regulatory factor X-associated pr...  63.3    3e-10
+ref|XP_004435418.1|  PREDICTED: regulatory factor X-associated pr...  62.9    4e-10
+ref|XP_003934504.1|  PREDICTED: regulatory factor X-associated pr...  63.3    4e-10
+ref|XP_005635647.1|  PREDICTED: regulatory factor X-associated pr...  62.9    5e-10
+ref|XP_002749059.1|  PREDICTED: regulatory factor X-associated pr...  61.7    6e-10
+ref|XP_004770879.1|  PREDICTED: regulatory factor X-associated pr...  61.7    7e-10
+gb|EPQ05545.1|  Regulatory factor X-associated protein [Myotis br...  60.6    7e-10
+ref|XP_005615125.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  60.6    7e-10
+ref|XP_005317209.1|  PREDICTED: regulatory factor X-associated pr...  61.3    1e-09
+ref|XP_005668404.1|  PREDICTED: LOW QUALITY PROTEIN: regulatory f...  61.7    2e-09
+ref|XP_002737823.1|  PREDICTED: regulatory factor X-associated pr...  59.0    2e-09
+ref|XP_004399980.1|  PREDICTED: regulatory factor X-associated pr...  60.6    3e-09
+ref|XP_004175129.1|  PREDICTED: regulatory factor X-associated pr...  57.9    4e-09
+ref|XP_006085666.1|  PREDICTED: regulatory factor X-associated pr...  59.8    5e-09
+ref|XP_005862801.1|  PREDICTED: regulatory factor X-associated pr...  59.4    6e-09
+ref|XP_003764571.1|  PREDICTED: regulatory factor X-associated pr...  57.1    8e-09
+gb|ETE66505.1|  Regulatory factor X-associated protein, partial [...  55.9    8e-09
+ref|XP_001377587.1|  PREDICTED: regulatory factor X-associated pr...  58.6    1e-08
+gb|EMC80711.1|  Regulatory factor X-associated protein, partial [...  55.2    2e-08
+ref|XP_800163.1|  PREDICTED: uncharacterized protein LOC582158 [S...  54.0    2e-07
+gb|ESO99104.1|  hypothetical protein LOTGIDRAFT_238912 [Lottia gi...  51.3    1e-06
+ref|XP_004390023.1|  PREDICTED: regulatory factor X-associated pr...  45.9    3e-04
+ref|XP_417095.4|  PREDICTED: regulatory factor X-associated prote...  45.5    4e-04
+gb|EDM14912.1|  similar to regulatory factor X-associated protein...  44.8    6e-04
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002580060.1|  hypothetical protein [Schistosoma mansoni] >...  42.5    0.002
+ref|XP_002570919.1|  hypothetical protein [Schistosoma mansoni]       38.6    0.015
+gb|ELT89505.1|  hypothetical protein CAPTEDRAFT_196388 [Capitella...  38.2    0.039
+ref|XP_002611314.1|  hypothetical protein BRAFLDRAFT_73294 [Branc...  38.2    0.099
+dbj|GAA37652.2|  hypothetical protein CLF_110749 [Clonorchis sine...  38.2    0.11 
+ref|XP_005106921.1|  PREDICTED: DPH3 homolog isoform X1 [Aplysia ...  36.3    0.26 
+
+
+>tpg|DAA23978.1| TPA: regulatory factor X-associated protein-like [Bos taurus]
+Length=371
+
+ Score = 98.3 bits (243),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  313  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  371
+
+
+>ref|XP_002691796.2| PREDICTED: regulatory factor X-associated protein, partial [Bos 
+taurus]
+Length=300
+
+ Score = 97.9 bits (242),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  300
+
+
+>ref|XP_003913818.1| PREDICTED: regulatory factor X-associated protein [Papio anubis]
+Length=268
+
+ Score = 97.2 bits (240),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  210  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  268
+
+
+>ref|NP_001252842.1| regulatory factor X-associated protein [Macaca mulatta]
+ ref|XP_005585737.1| PREDICTED: regulatory factor X-associated protein [Macaca fascicularis]
+Length=272
+
+ Score = 97.2 bits (240),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_003314178.1| PREDICTED: regulatory factor X-associated protein [Pan troglodytes]
+Length=272
+
+ Score = 97.2 bits (240),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_003826936.1| PREDICTED: regulatory factor X-associated protein [Pan paniscus]
+Length=272
+
+ Score = 97.2 bits (240),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|XP_002824223.1| PREDICTED: regulatory factor X-associated protein [Pongo abelii]
+Length=272
+
+ Score = 96.8 bits (239),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  272
+
+
+>ref|NP_000529.1| regulatory factor X-associated protein [Homo sapiens]
+ sp|O00287.1|RFXAP_HUMAN RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein; AltName: Full=RFX DNA-binding complex 
+36 kDa subunit
+ emb|CAA73338.1| 36kD subunit of RFX DNA-binding complex [Homo sapiens]
+ gb|EAX08575.1| regulatory factor X-associated protein, isoform CRA_b [Homo sapiens]
+ dbj|BAG36635.1| unnamed protein product [Homo sapiens]
+Length=272
+
+ Score = 96.8 bits (239),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>ref|XP_004054434.1| PREDICTED: regulatory factor X-associated protein [Gorilla gorilla 
+gorilla]
+Length=272
+
+ Score = 96.8 bits (239),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>gb|EAX08574.1| regulatory factor X-associated protein, isoform CRA_a [Homo sapiens]
+Length=272
+
+ Score = 96.8 bits (239),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSI  272
+
+
+>gb|AAH26088.1| Regulatory factor X-associated protein [Homo sapiens]
+ gb|ABM82095.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM84507.1| regulatory factor X-associated protein [synthetic construct]
+ gb|ABM85278.1| regulatory factor X-associated protein [synthetic construct]
+Length=272
+
+ Score = 96.8 bits (239),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  272
+
+
+>ref|XP_612997.5| PREDICTED: regulatory factor X-associated protein [Bos taurus]
+Length=312
+
+ Score = 96.8 bits (239),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  254  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  312
+
+
+>gb|ELK09272.1| Regulatory factor X-associated protein [Pteropus alecto]
+Length=233
+
+ Score = 95.6 bits (236),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  175  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  233
+
+
+>ref|XP_005977766.1| PREDICTED: regulatory factor X-associated protein [Pantholops 
+hodgsonii]
+Length=272
+
+ Score = 95.2 bits (235),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  214  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  272
+
+
+>ref|XP_006210212.1| PREDICTED: regulatory factor X-associated protein [Vicugna pacos]
+Length=322
+
+ Score = 94.1 bits (232),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  264  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  322
+
+
+>ref|XP_004282302.1| PREDICTED: uncharacterized protein LOC101287764 [Orcinus orca]
+Length=558
+
+ Score = 96.0 bits (237),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  500  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  558
+
+
+>gb|EHH28953.1| Regulatory factor X-associated protein, partial [Macaca mulatta]
+Length=180
+
+ Score = 90.6 bits (223),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  122  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  180
+
+
+>ref|XP_004319328.1| PREDICTED: uncharacterized protein LOC101322277 [Tursiops truncatus]
+Length=461
+
+ Score = 93.3 bits (230),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  403  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  461
+
+
+>ref|XP_005906826.1| PREDICTED: regulatory factor X-associated protein [Bos mutus]
+Length=286
+
+ Score = 91.4 bits (225),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  228  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  286
+
+
+>ref|XP_006182724.1| PREDICTED: regulatory factor X-associated protein [Camelus ferus]
+Length=285
+
+ Score = 91.0 bits (224),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  227  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  285
+
+
+>ref|XP_003971381.1| PREDICTED: regulatory factor X-associated protein-like [Takifugu 
+rubripes]
+Length=212
+
+ Score = 89.1 bits (219),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV++FLQ+QQ  L  Q   Q QQ F G 
+Sbjct  157  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVIRFLQQQQHFLATQTHGQSQQHFQGC  212
+
+
+>gb|ELR48342.1| Regulatory factor X-associated protein, partial [Bos mutus]
+Length=141
+
+ Score = 87.1 bits (214),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  83   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  141
+
+
+>ref|XP_005687670.1| PREDICTED: regulatory factor X-associated protein [Capra hircus]
+Length=266
+
+ Score = 89.1 bits (219),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  208  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  266
+
+
+>gb|ABM89364.1| RFXAP [Pongo pygmaeus]
+Length=123
+
+ Score = 81.4 bits (199),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  65   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  123
+
+
+>gb|ABM92037.1| RFXAP [Pan troglodytes]
+Length=103
+
+ Score = 79.8 bits (195),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  45   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  103
+
+
+>ref|XP_005516827.1| PREDICTED: regulatory factor X-associated protein [Pseudopodoces 
+humilis]
+Length=162
+
+ Score = 79.8 bits (195),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            +GS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQ+LL+QQ LEQRQQQF G  
+Sbjct  104  SGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQRLLSQQALEQRQQQFQGAP  161
+
+
+>ref|XP_003458304.1| PREDICTED: regulatory factor X-associated protein-like [Oreochromis 
+niloticus]
+Length=213
+
+ Score = 80.6 bits (197),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQQLL  Q   Q QQQF G 
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQQQQQLLATQGRSQSQQQFQGC  213
+
+
+>ref|XP_005172788.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X2 [Danio rerio]
+Length=192
+
+ Score = 80.2 bits (196),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  140  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  192
+
+
+>ref|XP_001923680.1| PREDICTED: regulatory factor X-associated protein-like isoformX1 
+[Danio rerio]
+Length=193
+
+ Score = 79.8 bits (195),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF  57
+            GS GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ QQ+LL  Q   Q Q  F
+Sbjct  141  GSMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQLQQRLLTTQNRSQTQHNF  193
+
+
+>ref|XP_006005273.1| PREDICTED: regulatory factor X-associated protein isoform X1 
+[Latimeria chalumnae]
+Length=241
+
+ Score = 79.8 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QRQQ F G +M
+Sbjct  185  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQRQQ-FQGDAM  241
+
+
+>ref|XP_003412637.1| PREDICTED: regulatory factor X-associated protein-like [Loxodonta 
+africana]
+Length=429
+
+ Score = 79.1 bits (193),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRP RPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLN+QVLE RQQQFPG  +
+Sbjct  371  TGSFGDRPTRPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNRQVLEHRQQQFPGAPV  429
+
+
+>ref|XP_006005274.1| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Latimeria chalumnae]
+Length=220
+
+ Score = 76.4 bits (186),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%), Gaps = 1/58 (2%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            GS G+RPARPTLLEQVLNQKRLSLLRSP V+QFLQ+QQ++L++Q   QRQQ F G +M
+Sbjct  164  GSVGERPARPTLLEQVLNQKRLSLLRSPAVIQFLQQQQRMLSEQACAQRQQ-FQGDAM  220
+
+
+>ref|XP_005808487.1| PREDICTED: regulatory factor X-associated protein-like [Xiphophorus 
+maculatus]
+Length=218
+
+ Score = 75.6 bits (184),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV++FLQ+QQQLL  Q   Q QQ F G 
+Sbjct  163  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVIRFLQQQQQLLAAQSRSQSQQHFQGC  218
+
+
+>emb|CAG00430.1| unnamed protein product [Tetraodon nigroviridis]
+Length=239
+
+ Score = 74.1 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 43/56 (77%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            G+ GDRPARPTL+EQVLNQKRLSLLRSPEV+ FLQ+QQQ L  Q   Q  Q F G 
+Sbjct  184  GAMGDRPARPTLIEQVLNQKRLSLLRSPEVISFLQQQQQFLATQNHGQAPQPFQGC  239
+
+
+>pdb|2KW3|C Chain C, Heterotrimeric Interaction Between Rfx5 And Rfxap
+Length=62
+
+ Score = 70.2 bits (170),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 62/62 (100%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+           GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT
+Sbjct  1   GHGTGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+
+Query  61  SM  62
+           SM
+Sbjct  61  SM  62
+
+
+>ref|XP_006267500.1| PREDICTED: regulatory factor X-associated protein [Alligator 
+mississippiensis]
+Length=285
+
+ Score = 73.3 bits (178),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQ+L+QQ LEQRQQQF G  +
+Sbjct  227  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQMLSQQALEQRQQQFQGAPI  285
+
+
+>gb|ABM54333.1| RFXAP [Pan paniscus]
+ gb|ABM67309.1| RFXAP [Hylobates klossii]
+Length=72
+
+ Score = 68.3 bits (165),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 58/59 (98%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  72
+
+
+>gb|ABM46752.1| RFXAP [Gorilla gorilla]
+Length=72
+
+ Score = 67.9 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  72
+
+
+>gb|ACO08897.1| Regulatory factor X-associated protein [Osmerus mordax]
+Length=219
+
+ Score = 69.8 bits (169),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+            GS GDRP RP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQ+LL QQ   Q QQ+F G 
+Sbjct  164  GSVGDRPTRPSLIEQVLNQKRLSLLRSPEVISFLQQQQRLLTQQTHSQSQQEFQGC  219
+
+
+>gb|EMP25302.1| Regulatory factor X-associated protein [Chelonia mydas]
+Length=84
+
+ Score = 67.5 bits (163),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG  +
+Sbjct  26  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGAPV  84
+
+
+>ref|XP_004711331.1| PREDICTED: uncharacterized protein LOC101664682 [Echinops telfairi]
+Length=525
+
+ Score = 71.4 bits (173),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 54/59 (92%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQVLEQRQQ FPG  +
+Sbjct  467  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQVLEQRQQPFPGAPV  525
+
+
+>ref|XP_002939627.1| PREDICTED: regulatory factor X-associated protein [Xenopus (Silurana) 
+tropicalis]
+Length=219
+
+ Score = 68.3 bits (165),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 43/53 (81%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+            + S GDRPARPTLLEQVLNQKRLSLLRSPEVV FLQ QQQLL++Q LEQRQ  
+Sbjct  162  SSSVGDRPARPTLLEQVLNQKRLSLLRSPEVVHFLQTQQQLLSRQALEQRQSS  214
+
+
+>ref|XP_004670579.1| PREDICTED: uncharacterized protein LOC101606538 [Jaculus jaculus]
+Length=290
+
+ Score = 68.7 bits (166),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  19  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  77
+
+
+>ref|XP_003203430.1| PREDICTED: regulatory factor X-associated protein-like [Meleagris 
+gallopavo]
+Length=89
+
+ Score = 66.3 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  31  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  88
+
+
+>dbj|BAE25979.1| unnamed protein product [Mus musculus]
+ gb|EDL35283.1| regulatory factor X-associated protein, isoform CRA_a [Mus musculus]
+Length=204
+
+ Score = 67.9 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG  +
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGAPV  204
+
+
+>ref|NP_573494.1| regulatory factor X-associated protein [Mus musculus]
+ sp|Q8VCG9.2|RFXAP_MOUSE RecName: Full=Regulatory factor X-associated protein; Short=RFX-associated 
+protein
+ gb|AAK38586.1|AF335512_1 regulatory factor X-associated protein [Mus musculus]
+ gb|AAH19935.2| Regulatory factor X-associated protein [Mus musculus]
+Length=231
+
+ Score = 67.9 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 56/59 (95%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ FPG  +
+Sbjct  173  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQHFPGAPV  231
+
+
+>gb|EOB02134.1| Regulatory factor X-associated protein [Anas platyrhynchos]
+Length=206
+
+ Score = 67.5 bits (163),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  23  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  80
+
+
+>ref|XP_004604692.1| PREDICTED: regulatory factor X-associated protein [Sorex araneus]
+Length=288
+
+ Score = 67.9 bits (164),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            +GSFGDRPARPTLLEQVLNQKRLSLLRSPEVV+FLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  230  SGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVEFLQKQQQLLNQQVLEQRQQQFPGTSV  288
+
+
+>ref|XP_005286769.1| PREDICTED: regulatory factor X-associated protein [Chrysemys 
+picta bellii]
+Length=274
+
+ Score = 67.5 bits (163),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 53/59 (90%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQFPG  +
+Sbjct  216  TGSIGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFPGAPV  274
+
+
+>ref|XP_004550174.1| PREDICTED: regulatory factor X-associated protein-like [Maylandia 
+zebra]
+ ref|XP_005750801.1| PREDICTED: regulatory factor X-associated protein-like isoform 
+X1 [Pundamilia nyererei]
+ ref|XP_005928153.1| PREDICTED: regulatory factor X-associated protein-like [Haplochromis 
+burtoni]
+Length=213
+
+ Score = 66.0 bits (159),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 27/33 (82%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQF  37
+            G+ GDRPARP+L+EQVLNQKRLSLLRSPEV+ F
+Sbjct  158  GAMGDRPARPSLIEQVLNQKRLSLLRSPEVISF  190
+
+
+>ref|XP_003477323.1| PREDICTED: regulatory factor X-associated protein [Cavia porcellus]
+Length=318
+
+ Score = 66.7 bits (161),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG SM
+Sbjct  260  TGSMGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASM  318
+
+
+>ref|XP_004631196.1| PREDICTED: regulatory factor X-associated protein [Octodon degus]
+Length=230
+
+ Score = 65.6 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  172  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  230
+
+
+>ref|XP_003270325.2| PREDICTED: regulatory factor X-associated protein [Nomascus leucogenys]
+Length=252
+
+ Score = 65.6 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  166  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  224
+
+
+>ref|XP_002720636.1| PREDICTED: regulatory factor X-associated protein-like [Oryctolagus 
+cuniculus]
+Length=300
+
+ Score = 65.6 bits (158),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  242  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  300
+
+
+>ref|XP_005038190.1| PREDICTED: regulatory factor X-associated protein [Ficedula albicollis]
+Length=233
+
+ Score = 64.0 bits (154),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  175  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  232
+
+
+>ref|XP_005147749.1| PREDICTED: regulatory factor X-associated protein [Melopsittacus 
+undulatus]
+Length=120
+
+ Score = 62.9 bits (151),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  62   TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  119
+
+
+>ref|XP_004886232.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=335
+
+ Score = 65.2 bits (157),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  277  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  335
+
+
+>gb|ERE88910.1| regulatory factor X-associated protein [Cricetulus griseus]
+Length=111
+
+ Score = 62.5 bits (150),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  53   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  111
+
+
+>ref|XP_004076248.1| PREDICTED: regulatory factor X-associated protein-like [Oryzias 
+latipes]
+Length=215
+
+ Score = 63.3 bits (152),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  5    GSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT  60
+             + GDRPARP+L+EQVLNQKRLSLLRSPEV+ FLQ+QQQLL  Q   Q QQQF G 
+Sbjct  160  SAMGDRPARPSLIEQVLNQKRLSLLRSPEVISFLQQQQQLLVSQSRSQAQQQFQGC  215
+
+
+>ref|XP_005387954.1| PREDICTED: regulatory factor X-associated protein [Chinchilla 
+lanigera]
+Length=365
+
+ Score = 64.8 bits (156),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  307  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  365
+
+
+>ref|XP_004938803.1| PREDICTED: regulatory factor X-associated protein isoform X3 
+[Gallus gallus]
+Length=285
+
+ Score = 64.0 bits (154),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQQF G  
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQQFQGAP  284
+
+
+>ref|XP_004854961.1| PREDICTED: regulatory factor X-associated protein [Heterocephalus 
+glaber]
+Length=385
+
+ Score = 65.2 bits (157),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  327  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  385
+
+
+>gb|EHB03888.1| Regulatory factor X-associated protein [Heterocephalus glaber]
+Length=112
+
+ Score = 62.1 bits (149),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  54   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  112
+
+
+>gb|EKC33496.1| hypothetical protein CGI_10012197 [Crassostrea gigas]
+Length=99
+
+ Score = 61.7 bits (148),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 24/51 (47%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  6   SFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+             GD   RP+LLE+VL QK+L L+RSPEV+QFLQ QQ    ++      ++
+Sbjct  49  DLGDPGLRPSLLEEVLAQKKLELMRSPEVMQFLQSQQAQKAEKNKTHPPKE  99
+
+
+>ref|NP_001037728.1| regulatory factor X-associated protein [Rattus norvegicus]
+ gb|AAH98816.1| Regulatory factor X-associated protein [Rattus norvegicus]
+Length=204
+
+ Score = 62.5 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  204
+
+
+>ref|XP_005344041.1| PREDICTED: regulatory factor X-associated protein [Microtus ochrogaster]
+Length=205
+
+ Score = 62.5 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  147  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  205
+
+
+>ref|XP_004453366.1| PREDICTED: regulatory factor X-associated protein [Dasypus novemcinctus]
+Length=200
+
+ Score = 62.1 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGT +
+Sbjct  142  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTPL  200
+
+
+>ref|XP_003803153.1| PREDICTED: regulatory factor X-associated protein [Otolemur garnettii]
+Length=433
+
+ Score = 64.4 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  375  TGSLGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  433
+
+
+>ref|XP_003516032.1| PREDICTED: regulatory factor X-associated protein-like, partial 
+[Cricetulus griseus]
+Length=72
+
+ Score = 60.2 bits (144),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+           TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  14  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  72
+
+
+>ref|XP_004577742.1| PREDICTED: regulatory factor X-associated protein [Ochotona princeps]
+Length=387
+
+ Score = 63.7 bits (153),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ QQQLLNQQVLEQRQQQFPG ++
+Sbjct  329  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQTQQQLLNQQVLEQRQQQFPGAAV  387
+
+
+>ref|XP_005077520.1| PREDICTED: regulatory factor X-associated protein [Mesocricetus 
+auratus]
+Length=206
+
+ Score = 61.3 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 56/59 (95%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  +
+Sbjct  148  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGAPV  206
+
+
+>ref|XP_003980393.1| PREDICTED: regulatory factor X-associated protein [Felis catus]
+Length=402
+
+ Score = 63.3 bits (152),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  344  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  402
+
+
+>ref|XP_004435418.1| PREDICTED: regulatory factor X-associated protein [Ceratotherium 
+simum simum]
+Length=403
+
+ Score = 62.9 bits (151),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQ+QQQLLNQQVLEQRQQQFPGTS+
+Sbjct  345  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQQQQQLLNQQVLEQRQQQFPGTSV  403
+
+
+>ref|XP_003934504.1| PREDICTED: regulatory factor X-associated protein [Saimiri boliviensis 
+boliviensis]
+Length=476
+
+ Score = 63.3 bits (152),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  418  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  476
+
+
+>ref|XP_005635647.1| PREDICTED: regulatory factor X-associated protein [Canis lupus 
+familiaris]
+Length=456
+
+ Score = 62.9 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  398  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  456
+
+
+>ref|XP_002749059.1| PREDICTED: regulatory factor X-associated protein-like [Callithrix 
+jacchus]
+Length=301
+
+ Score = 61.7 bits (148),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  243  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASI  301
+
+
+>ref|XP_004770879.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+ ref|XP_004802270.1| PREDICTED: regulatory factor X-associated protein [Mustela putorius 
+furo]
+Length=316
+
+ Score = 61.7 bits (148),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  258  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  316
+
+
+>gb|EPQ05545.1| Regulatory factor X-associated protein [Myotis brandtii]
+Length=233
+
+ Score = 60.6 bits (145),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  175  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  233
+
+
+>ref|XP_005615125.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein, partial [Equus caballus]
+Length=238
+
+ Score = 60.6 bits (145),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  180  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSL  238
+
+
+>ref|XP_005317209.1| PREDICTED: regulatory factor X-associated protein [Ictidomys 
+tridecemlineatus]
+Length=333
+
+ Score = 61.3 bits (147),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG S+
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGASV  333
+
+
+>ref|XP_005668404.1| PREDICTED: LOW QUALITY PROTEIN: regulatory factor X-associated 
+protein [Sus scrofa]
+Length=469
+
+ Score = 61.7 bits (148),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 58/59 (98%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ PGTS+
+Sbjct  411  TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQIPGTSV  469
+
+
+>ref|XP_002737823.1| PREDICTED: regulatory factor X-associated protein-like [Saccoglossus 
+kowalevskii]
+Length=211
+
+ Score = 59.0 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   TLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFP  58
+            ++LEQVLN+K+L+L+R+PEV  FLQ+ Q+ +  Q   +R    P
+Sbjct  167  SMLEQVLNEKKLALMRTPEVANFLQQCQRGIKSQHRPERSTSNP  210
+
+
+>ref|XP_004399980.1| PREDICTED: regulatory factor X-associated protein [Odobenus rosmarus 
+divergens]
+Length=372
+
+ Score = 60.6 bits (145),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 57/59 (97%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+FGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS+
+Sbjct  314  TGTFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSV  372
+
+
+>ref|XP_004175129.1| PREDICTED: regulatory factor X-associated protein [Taeniopygia 
+guttata]
+Length=135
+
+ Score = 57.9 bits (138),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+            TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ L+QRQQQF G  
+Sbjct  77   TGSIGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQALQQRQQQFQGAP  134
+
+
+>ref|XP_006085666.1| PREDICTED: regulatory factor X-associated protein [Myotis lucifugus]
+Length=332
+
+ Score = 59.8 bits (143),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  274  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  332
+
+
+>ref|XP_005862801.1| PREDICTED: regulatory factor X-associated protein [Myotis brandtii]
+Length=331
+
+ Score = 59.4 bits (142),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 55/59 (93%), Positives = 57/59 (97%), Gaps = 0/59 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TG+ GDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQF GTS+
+Sbjct  273  TGALGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFSGTSV  331
+
+
+>ref|XP_003764571.1| PREDICTED: regulatory factor X-associated protein [Sarcophilus 
+harrisii]
+Length=176
+
+ Score = 57.1 bits (136),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 47/60 (78%), Gaps = 1/60 (2%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE-VVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE V     +QQ L  Q + +++QQQFPG S+
+Sbjct  117  TGSVGDRPARPTLLEQVLNQKRLALLRSPEVVQFLQTQQQLLNQQVLEQRQQQQFPGASV  176
+
+
+>gb|ETE66505.1| Regulatory factor X-associated protein, partial [Ophiophagus 
+hannah]
+Length=70
+
+ Score = 55.9 bits (133),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 1/58 (2%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TG+ GDRPA+PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLL+QQ LEQRQQ F GT 
+Sbjct  14  TGNIGDRPAKPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLSQQALEQRQQ-FSGTP  70
+
+
+>ref|XP_001377587.1| PREDICTED: regulatory factor X-associated protein-like [Monodelphis 
+domestica]
+Length=405
+
+ Score = 58.6 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 40/60 (67%), Positives = 48/60 (80%), Gaps = 1/60 (2%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPE-VVQFLQKQQQLLNQQVLEQRQQQFPGTSM  62
+            TGS GDRPARPTLLEQVLNQKRL+LLRSPE V    ++QQ L  Q + +++QQQFPG S+
+Sbjct  346  TGSIGDRPARPTLLEQVLNQKRLALLRSPEVVQFLQRQQQLLNQQVLEQRQQQQFPGASV  405
+
+
+>gb|EMC80711.1| Regulatory factor X-associated protein, partial [Columba livia]
+Length=73
+
+ Score = 55.2 bits (131),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  4   TGSFGDRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPGTS  61
+           TGS GDRPARPTLLEQVLN+KRLSLLRSPEVVQFLQKQQQLL+QQ   QRQQQF G  
+Sbjct  15  TGSLGDRPARPTLLEQVLNKKRLSLLRSPEVVQFLQKQQQLLSQQAFAQRQQQFQGAP  72
+
+
+>ref|XP_800163.1| PREDICTED: uncharacterized protein LOC582158 [Strongylocentrotus 
+purpuratus]
+Length=208
+
+ Score = 54.0 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  17   LEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQ  55
+            L+QVLN+K+L+LLRSP +++FLQ+ QQ L+    +Q  +
+Sbjct  139  LDQVLNEKKLALLRSPAIIKFLQESQQQLSHTHHQQSSR  177
+
+
+>gb|ESO99104.1| hypothetical protein LOTGIDRAFT_238912 [Lottia gigantea]
+Length=181
+
+ Score = 51.3 bits (121),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+
+Query  9    DRPARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQ  56
+            D   + +LL++VL +K+++L++SPEV+QFL+ QQ    +    ++QQQ
+Sbjct  130  DNTFKLSLLDEVLTEKKMALMKSPEVMQFLKDQQAAKQESTKTKQQQQ  177
+
+
+>ref|XP_004390023.1| PREDICTED: regulatory factor X-associated protein [Trichechus 
+manatus latirostris]
+Length=340
+
+ Score = 45.9 bits (107),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  275  TGSFGDRPARPTLLEQVLNQKRL  297
+
+
+>ref|XP_417095.4| PREDICTED: regulatory factor X-associated protein isoform X2 
+[Gallus gallus]
+Length=289
+
+ Score = 45.5 bits (106),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/23 (91%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGS GDRPARPTLLEQVLN+KRL
+Sbjct  227  TGSIGDRPARPTLLEQVLNKKRL  249
+
+
+>gb|EDM14912.1| similar to regulatory factor X-associated protein [Rattus norvegicus]
+Length=256
+
+ Score = 44.8 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRL  26
+            TGSFGDRPARPTLLEQVLNQKRL
+Sbjct  146  TGSFGDRPARPTLLEQVLNQKRL  168
+
+
+>ref|XP_002580060.1| hypothetical protein [Schistosoma mansoni]
+ emb|CCD58955.1| hypothetical protein Smp_090340 [Schistosoma mansoni]
+Length=168
+
+ Score = 42.5 bits (98),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 29/56 (52%), Gaps = 3/56 (5%)
+
+Query  1    GHGTGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQR  53
+             + TGS G     P    L+  VL+ K+ +LLRSP V+ FL  QQ+ L +   +  
+Sbjct  105  ANATGSTGPESGSPNYRKLIHAVLDAKKSALLRSPSVIHFLVSQQRSLTEYKRQTE  160
+
+
+>ref|XP_002570919.1| hypothetical protein [Schistosoma mansoni]
+Length=74
+
+ Score = 38.6 bits (88),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 15/38 (39%), Positives = 23/38 (61%), Gaps = 0/38 (0%)
+
+Query  16  LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQR  53
+           L+  VL+ K+ +LLRSP V+ FL  QQ+ L +   +  
+Sbjct  29  LIHAVLDAKKSALLRSPSVIHFLVSQQRSLTEYKRQTE  66
+
+
+>gb|ELT89505.1| hypothetical protein CAPTEDRAFT_196388 [Capitella teleta]
+Length=126
+
+ Score = 38.2 bits (87),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 31/50 (62%), Gaps = 2/50 (4%)
+
+Query  11  PARPTLLEQVLNQKRLSLLRSPEVVQFLQKQQQ--LLNQQVLEQRQQQFP  58
+           P   +LL+ VLN+K+L +L+S +V+++L+K Q+   L Q++      +  
+Sbjct  3   PNHTSLLDYVLNEKKLEMLQSADVIEYLEKAQEKTQLEQRLQPTSSSEDQ  52
+
+
+>ref|XP_002611314.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+ gb|EEN67324.1| hypothetical protein BRAFLDRAFT_73294 [Branchiostoma floridae]
+Length=198
+
+ Score = 38.2 bits (87),  Expect = 0.099, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    TGSFGDRPARPTLLEQVLNQKRLSLLRSPEV  34
+            +G       +  +LEQVLN+K+L+LL+SPEV
+Sbjct  148  SGDVDAPVRQCNMLEQVLNEKKLTLLQSPEV  178
+
+
+>dbj|GAA37652.2| hypothetical protein CLF_110749 [Clonorchis sinensis]
+Length=247
+
+ Score = 38.2 bits (87),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 3/47 (6%)
+
+Query  4    TGSFGDRPARPT---LLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQ  47
+            TG+    P+ P    L+E VL+ K+  LLRSP V  +L+ +Q+ L +
+Sbjct  187  TGNPSGDPSSPNYKKLIEAVLDAKKSELLRSPSVCAYLESRQRALAE  233
+
+
+>ref|XP_005106921.1| PREDICTED: DPH3 homolog isoform X1 [Aplysia californica]
+Length=143
+
+ Score = 36.3 bits (82),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  14   PTLLEQVLNQKRLSLLRSPEVVQFLQKQQQLLNQQVLEQRQQQFPG  59
+            P LL  +L+QK++ +L++PEV+ FLQ+ Q +L +   + +     G
+Sbjct  67   PELLADILHQKQMKILQTPEVMHFLQEHQTMLARNGSQCQSTASHG  112
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.124    0.319    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0377    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312520848332
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

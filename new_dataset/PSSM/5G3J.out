@@ -1,0 +1,1682 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5G3J
+
+Length=14
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+dbj|BAC39875.1|  unnamed protein product [Mus musculus]               33.1    1.9  
+ref|XP_003797320.1|  PREDICTED: nuclear receptor coactivator 2 [O...  33.1    2.0  
+gb|ELV11818.1|  Nuclear receptor coactivator 2 [Tupaia chinensis]     33.1    2.0  
+ref|XP_005689109.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+gb|EDM11531.1|  nuclear receptor coactivator 2 [Rattus norvegicus]    33.1    2.0  
+ref|XP_006131567.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005008310.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+dbj|BAF69036.1|  glucocorticoid receptor interacting protein 1 [M...  33.1    2.0  
+ref|NP_001071163.1|  nuclear receptor coactivator 2 isoform b [Mu...  33.1    2.0  
+gb|AAH53387.1|  Ncoa2 protein [Mus musculus]                          33.1    2.0  
+gb|ABY60788.1|  transcriptional intermediary factor-2 isoform 2 [...  33.1    2.0  
+ref|XP_006166057.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_006086442.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005866419.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005613129.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005563568.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005392166.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005251190.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_004842124.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.0  
+ref|XP_004637592.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.0  
+ref|XP_004653355.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_004588090.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_004280636.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_006237810.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_006203230.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005689108.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005638094.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_005192644.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_004803820.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_006086441.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+ref|XP_004803819.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.0  
+emb|CAF98038.1|  unnamed protein product [Tetraodon nigroviridis]     33.1    2.0  
+gb|EGW14636.1|  Nuclear receptor coactivator 2 [Cricetulus griseus]   33.1    2.0  
+ref|XP_004893228.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.0  
+ref|XP_005689107.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004762448.1|  PREDICTED: nuclear receptor coactivator 2 [M...  33.1    2.1  
+gb|EDL14319.1|  nuclear receptor coactivator 2 [Mus musculus]         33.1    2.1  
+ref|XP_006274204.1|  PREDICTED: nuclear receptor coactivator 2 [A...  33.1    2.1  
+ref|XP_006015368.1|  PREDICTED: nuclear receptor coactivator 2 [A...  33.1    2.1  
+gb|EMP41214.1|  Nuclear receptor coactivator 2, partial [Chelonia...  33.1    2.1  
+ref|XP_003219661.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.1  
+gb|EHB08475.1|  Nuclear receptor coactivator 2, partial [Heteroce...  33.1    2.1  
+gb|EFB27256.1|  hypothetical protein PANDA_007023 [Ailuropoda mel...  33.1    2.1  
+ref|XP_006191412.1|  PREDICTED: nuclear receptor coactivator 2 [C...  33.1    2.1  
+ref|XP_006131566.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005897985.1|  PREDICTED: LOW QUALITY PROTEIN: nuclear rece...  33.1    2.1  
+ref|XP_005309843.1|  PREDICTED: nuclear receptor coactivator 2 [C...  33.1    2.1  
+ref|XP_003479981.2|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+gb|EHH64225.1|  hypothetical protein EGM_17394, partial [Macaca f...  33.1    2.1  
+gb|EHH28560.1|  hypothetical protein EGK_19025, partial [Macaca m...  33.1    2.1  
+ref|NP_032704.2|  nuclear receptor coactivator 2 isoform a [Mus m...  33.1    2.1  
+gb|AAC53151.1|  glucocorticoid receptor interacting protein 1 [Mu...  33.1    2.1  
+ref|XP_005983259.1|  PREDICTED: LOW QUALITY PROTEIN: nuclear rece...  33.1    2.1  
+ref|XP_004679869.1|  PREDICTED: nuclear receptor coactivator 2 [C...  33.1    2.1  
+ref|XP_004697581.1|  PREDICTED: nuclear receptor coactivator 2 [E...  33.1    2.1  
+gb|AAB61575.1|  nuclear receptor coactivator protein 2 [Mus muscu...  33.1    2.1  
+ref|NP_001107747.1|  nuclear receptor coactivator 2 [Sus scrofa] ...  33.1    2.1  
+ref|XP_006166054.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_006086440.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005866420.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005563560.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005392163.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005361937.1|  PREDICTED: nuclear receptor coactivator 2 [M...  33.1    2.1  
+ref|XP_004842120.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.1  
+ref|XP_004893227.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.1  
+ref|XP_004803818.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004653354.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004588089.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004449692.1|  PREDICTED: LOW QUALITY PROTEIN: nuclear rece...  33.1    2.1  
+ref|XP_004436323.1|  PREDICTED: nuclear receptor coactivator 2 [C...  33.1    2.1  
+ref|XP_004408756.1|  PREDICTED: nuclear receptor coactivator 2 [O...  33.1    2.1  
+ref|XP_004372595.1|  PREDICTED: nuclear receptor coactivator 2 [T...  33.1    2.1  
+ref|XP_004280635.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004047182.1|  PREDICTED: nuclear receptor coactivator 2 [G...  33.1    2.1  
+ref|NP_006531.1|  nuclear receptor coactivator 2 [Homo sapiens] >...  33.1    2.1  
+ref|XP_003999925.1|  PREDICTED: nuclear receptor coactivator 2 [F...  33.1    2.1  
+ref|XP_003942659.1|  PREDICTED: nuclear receptor coactivator 2 [S...  33.1    2.1  
+ref|XP_003902897.1|  PREDICTED: nuclear receptor coactivator 2 [P...  33.1    2.1  
+ref|XP_003831386.1|  PREDICTED: nuclear receptor coactivator 2 [P...  33.1    2.1  
+ref|XP_003274860.1|  PREDICTED: nuclear receptor coactivator 2 [N...  33.1    2.1  
+ref|XP_002918551.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.1  
+ref|XP_002819216.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_002759043.1|  PREDICTED: nuclear receptor coactivator 2 [C...  33.1    2.1  
+dbj|BAG10541.1|  nuclear receptor coactivator 2 [synthetic constr...  33.1    2.1  
+ref|XP_001493287.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+gb|AAI14384.1|  Nuclear receptor coactivator 2 [Homo sapiens]         33.1    2.1  
+ref|XP_001082161.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_006237806.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_006203229.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005689103.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_005323045.1|  PREDICTED: nuclear receptor coactivator 2 [I...  33.1    2.1  
+ref|XP_004011777.1|  PREDICTED: nuclear receptor coactivator 2 [O...  33.1    2.1  
+ref|XP_544118.2|  PREDICTED: nuclear receptor coactivator 2 isofo...  33.1    2.1  
+ref|XP_584905.6|  PREDICTED: nuclear receptor coactivator 2 isofo...  33.1    2.1  
+ref|NP_114010.1|  nuclear receptor coactivator 2 [Rattus norvegic...  33.1    2.1  
+ref|XP_004803817.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_006086435.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_004803814.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_006131562.1|  PREDICTED: nuclear receptor coactivator 2 is...  33.1    2.1  
+ref|XP_001378653.2|  PREDICTED: nuclear receptor coactivator 2 [M...  33.1    2.1  
+gb|ERE81794.1|  nuclear receptor coactivator 2-like protein [Cric...  33.1    2.1  
+ref|XP_004893225.1|  PREDICTED: nuclear receptor coactivator 2-li...  33.1    2.1  
+gb|EPQ07870.1|  Nuclear receptor coactivator 2 [Myotis brandtii]      33.1    2.1  
+ref|XP_003408265.1|  PREDICTED: nuclear receptor coactivator 2 [L...  33.1    2.1  
+ref|XP_003759764.1|  PREDICTED: nuclear receptor coactivator 2 [S...  33.1    2.1  
+ref|XP_004602634.1|  PREDICTED: nuclear receptor coactivator 2 [S...  33.1    2.1  
+gb|ELK02366.1|  Nuclear receptor coactivator 2 [Pteropus alecto]      33.1    2.1  
+gb|EPY76082.1|  nuclear receptor coactivator 2 isoform b [Camelus...  33.1    2.1  
+tpg|DAA22699.1|  TPA: nuclear receptor coactivator 2 [Bos taurus]     33.1    2.1  
+ref|XP_003511388.1|  PREDICTED: LOW QUALITY PROTEIN: nuclear rece...  33.1    2.1  
+ref|XP_005066758.1|  PREDICTED: LOW QUALITY PROTEIN: nuclear rece...  33.1    2.1  
+ref|XP_002710565.1|  PREDICTED: nuclear receptor coactivator 2 [O...  33.1    2.1  
+gb|ETE71093.1|  Nuclear receptor coactivator 2, partial [Ophiopha...  33.1    2.1  
+gb|ELK27481.1|  Nuclear receptor coactivator 2 [Myotis davidii]       33.1    2.1  
+dbj|BAN82181.1|  hypothetical protein, partial [Ovophis okinavensis]  32.7    3.3  
+pdb|1M2Z|B  Chain B, Crystal Structure Of A Dimer Complex Of The ...  29.6    5.1  
+pdb|2AO6|B  Chain B, Crystal Structure Of The Human Androgen Rece...  29.3    7.1  
+pdb|1XLS|I  Chain I, Crystal Structure Of The Mouse CarRXR LBD HE...  29.3    8.7  
+
+
+>dbj|BAC39875.1| unnamed protein product [Mus musculus]
+Length=873
+
+ Score = 33.1 bits (74),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003797320.1| PREDICTED: nuclear receptor coactivator 2 [Otolemur garnettii]
+Length=1051
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  327  KENALLRYLLDKDD  340
+
+
+>gb|ELV11818.1| Nuclear receptor coactivator 2 [Tupaia chinensis]
+Length=1322
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  677  KENALLRYLLDKDD  690
+
+
+>ref|XP_005689109.1| PREDICTED: nuclear receptor coactivator 2 isoform X7 [Capra hircus]
+ ref|XP_005689110.1| PREDICTED: nuclear receptor coactivator 2 isoform X8 [Capra hircus]
+ ref|XP_005689111.1| PREDICTED: nuclear receptor coactivator 2 isoform X9 [Capra hircus]
+Length=1348
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  623  KENALLRYLLDKDD  636
+
+
+>gb|EDM11531.1| nuclear receptor coactivator 2 [Rattus norvegicus]
+Length=1348
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  623  KENALLRYLLDKDD  636
+
+
+>ref|XP_006131567.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Pelodiscus 
+sinensis]
+Length=1360
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  621  KENALLRYLLDKDD  634
+
+
+>ref|XP_005008310.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Cavia porcellus]
+Length=1393
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  739  KENALLRYLLDKDD  752
+
+
+>dbj|BAF69036.1| glucocorticoid receptor interacting protein 1 [Mus musculus]
+Length=1393
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|NP_001071163.1| nuclear receptor coactivator 2 isoform b [Mus musculus]
+Length=1393
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|AAH53387.1| Ncoa2 protein [Mus musculus]
+Length=1393
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|ABY60788.1| transcriptional intermediary factor-2 isoform 2 [Sus scrofa]
+Length=1394
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006166057.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Tupaia 
+chinensis]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006086442.1| PREDICTED: nuclear receptor coactivator 2 isoform X8 [Myotis 
+lucifugus]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005866419.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Myotis 
+brandtii]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005613129.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Equus caballus]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005563568.1| PREDICTED: nuclear receptor coactivator 2 isoform X9 [Macaca 
+fascicularis]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005392166.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Chinchilla 
+lanigera]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005251190.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Homo sapiens]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004842124.1| PREDICTED: nuclear receptor coactivator 2-like isoform X5 [Heterocephalus 
+glaber]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004637592.1| PREDICTED: nuclear receptor coactivator 2-like [Octodon degus]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004653355.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Jaculus 
+jaculus]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  739  KENALLRYLLDKDD  752
+
+
+>ref|XP_004588090.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Ochotona 
+princeps]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004280636.1| PREDICTED: nuclear receptor coactivator 2 isoform 2 [Orcinus 
+orca]
+Length=1395
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006237810.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Rattus 
+norvegicus]
+Length=1396
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006203230.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Vicugna 
+pacos]
+Length=1396
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005689108.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Capra hircus]
+Length=1396
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005638094.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Canis lupus 
+familiaris]
+Length=1396
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005192644.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Bos taurus]
+ ref|XP_005215603.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Bos taurus]
+Length=1396
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004803820.1| PREDICTED: nuclear receptor coactivator 2 isoform X7 [Mustela 
+putorius furo]
+Length=1398
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006086441.1| PREDICTED: nuclear receptor coactivator 2 isoform X7 [Myotis 
+lucifugus]
+Length=1400
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  745  KENALLRYLLDKDD  758
+
+
+>ref|XP_004803819.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Mustela 
+putorius furo]
+Length=1400
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>emb|CAF98038.1| unnamed protein product [Tetraodon nigroviridis]
+Length=1403
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  768  KENALLRYLLDKDD  781
+
+
+>gb|EGW14636.1| Nuclear receptor coactivator 2 [Cricetulus griseus]
+Length=1413
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  739  KENALLRYLLDKDD  752
+
+
+>ref|XP_004893228.1| PREDICTED: nuclear receptor coactivator 2-like isoform X4 [Heterocephalus 
+glaber]
+Length=1417
+
+ Score = 33.1 bits (74),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005689107.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Capra hircus]
+Length=1435
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004762448.1| PREDICTED: nuclear receptor coactivator 2 [Mustela putorius furo]
+Length=1437
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  713  KENALLRYLLDKDD  726
+
+
+>gb|EDL14319.1| nuclear receptor coactivator 2 [Mus musculus]
+Length=1456
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  683  KENALLRYLLDKDD  696
+
+
+>ref|XP_006274204.1| PREDICTED: nuclear receptor coactivator 2 [Alligator mississippiensis]
+Length=1457
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  736  KENALLRYLLDKDD  749
+
+
+>ref|XP_006015368.1| PREDICTED: nuclear receptor coactivator 2 [Alligator sinensis]
+Length=1457
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  736  KENALLRYLLDKDD  749
+
+
+>gb|EMP41214.1| Nuclear receptor coactivator 2, partial [Chelonia mydas]
+Length=1459
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  738  KENALLRYLLDKDD  751
+
+
+>ref|XP_003219661.1| PREDICTED: nuclear receptor coactivator 2-like [Anolis carolinensis]
+Length=1459
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  737  KENALLRYLLDKDD  750
+
+
+>gb|EHB08475.1| Nuclear receptor coactivator 2, partial [Heterocephalus glaber]
+Length=1461
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|EFB27256.1| hypothetical protein PANDA_007023 [Ailuropoda melanoleuca]
+Length=1461
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006191412.1| PREDICTED: nuclear receptor coactivator 2 [Camelus ferus]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006131566.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Pelodiscus 
+sinensis]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  738  KENALLRYLLDKDD  751
+
+
+>ref|XP_005897985.1| PREDICTED: LOW QUALITY PROTEIN: nuclear receptor coactivator 
+2 [Bos mutus]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005309843.1| PREDICTED: nuclear receptor coactivator 2 [Chrysemys picta bellii]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  738  KENALLRYLLDKDD  751
+
+
+>ref|XP_003479981.2| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Cavia porcellus]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  739  KENALLRYLLDKDD  752
+
+
+>gb|EHH64225.1| hypothetical protein EGM_17394, partial [Macaca fascicularis]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|EHH28560.1| hypothetical protein EGK_19025, partial [Macaca mulatta]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|NP_032704.2| nuclear receptor coactivator 2 isoform a [Mus musculus]
+ sp|Q61026.3|NCOA2_MOUSE RecName: Full=Nuclear receptor coactivator 2; Short=NCoA-2; AltName: 
+Full=Glucocorticoid receptor-interacting protein 1; 
+Short=GRIP-1; AltName: Full=Transcriptional intermediary factor 
+2
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|AAC53151.1| glucocorticoid receptor interacting protein 1 [Mus musculus]
+Length=1462
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005983259.1| PREDICTED: LOW QUALITY PROTEIN: nuclear receptor coactivator 
+2 [Pantholops hodgsonii]
+Length=1463
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004679869.1| PREDICTED: nuclear receptor coactivator 2 [Condylura cristata]
+Length=1463
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004697581.1| PREDICTED: nuclear receptor coactivator 2 [Echinops telfairi]
+Length=1463
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|AAB61575.1| nuclear receptor coactivator protein 2 [Mus musculus]
+Length=1463
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|NP_001107747.1| nuclear receptor coactivator 2 [Sus scrofa]
+ gb|ABY60787.1| transcriptional intermediary factor-2 isoform 1 [Sus scrofa]
+Length=1463
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006166054.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Tupaia 
+chinensis]
+ ref|XP_006166055.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Tupaia 
+chinensis]
+ ref|XP_006166056.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Tupaia 
+chinensis]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006086440.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Myotis 
+lucifugus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005866420.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Myotis 
+brandtii]
+ ref|XP_005866415.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Myotis 
+brandtii]
+ ref|XP_005866416.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Myotis 
+brandtii]
+ ref|XP_005866417.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Myotis 
+brandtii]
+ ref|XP_005866418.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Myotis 
+brandtii]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005563560.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Macaca 
+fascicularis]
+ ref|XP_005563561.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Macaca 
+fascicularis]
+ ref|XP_005563562.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Macaca 
+fascicularis]
+ ref|XP_005563563.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Macaca 
+fascicularis]
+ ref|XP_005563564.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Macaca 
+fascicularis]
+ ref|XP_005563565.1| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Macaca 
+fascicularis]
+ ref|XP_005563566.1| PREDICTED: nuclear receptor coactivator 2 isoform X7 [Macaca 
+fascicularis]
+ ref|XP_005563567.1| PREDICTED: nuclear receptor coactivator 2 isoform X8 [Macaca 
+fascicularis]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005392163.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Chinchilla 
+lanigera]
+ ref|XP_005392164.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Chinchilla 
+lanigera]
+ ref|XP_005392165.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Chinchilla 
+lanigera]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005361937.1| PREDICTED: nuclear receptor coactivator 2 [Microtus ochrogaster]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004842120.1| PREDICTED: nuclear receptor coactivator 2-like isoform X1 [Heterocephalus 
+glaber]
+ ref|XP_004842121.1| PREDICTED: nuclear receptor coactivator 2-like isoform X2 [Heterocephalus 
+glaber]
+ ref|XP_004842122.1| PREDICTED: nuclear receptor coactivator 2-like isoform X3 [Heterocephalus 
+glaber]
+ ref|XP_004842123.1| PREDICTED: nuclear receptor coactivator 2-like isoform X4 [Heterocephalus 
+glaber]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004893227.1| PREDICTED: nuclear receptor coactivator 2-like isoform X3 [Heterocephalus 
+glaber]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004803818.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Mustela 
+putorius furo]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004653354.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Jaculus 
+jaculus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  739  KENALLRYLLDKDD  752
+
+
+>ref|XP_004588089.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Ochotona 
+princeps]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004449692.1| PREDICTED: LOW QUALITY PROTEIN: nuclear receptor coactivator 
+2 [Dasypus novemcinctus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004436323.1| PREDICTED: nuclear receptor coactivator 2 [Ceratotherium simum 
+simum]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004408756.1| PREDICTED: nuclear receptor coactivator 2 [Odobenus rosmarus 
+divergens]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004372595.1| PREDICTED: nuclear receptor coactivator 2 [Trichechus manatus 
+latirostris]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004280635.1| PREDICTED: nuclear receptor coactivator 2 isoform 1 [Orcinus 
+orca]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004047182.1| PREDICTED: nuclear receptor coactivator 2 [Gorilla gorilla gorilla]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|NP_006531.1| nuclear receptor coactivator 2 [Homo sapiens]
+ ref|XP_001163706.1| PREDICTED: nuclear receptor coactivator 2 [Pan troglodytes]
+ ref|XP_005251185.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Homo sapiens]
+ ref|XP_005251186.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Homo sapiens]
+ ref|XP_005251187.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Homo sapiens]
+ ref|XP_005251188.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Homo sapiens]
+ ref|XP_005251189.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Homo sapiens]
+ sp|Q15596.2|NCOA2_HUMAN RecName: Full=Nuclear receptor coactivator 2; Short=NCoA-2; AltName: 
+Full=Class E basic helix-loop-helix protein 75; Short=bHLHe75; 
+AltName: Full=Transcriptional intermediary factor 
+2; Short=hTIF2
+ emb|CAA66263.1| transcriptional intermediary factor 2 [Homo sapiens]
+ gb|EAW86963.1| nuclear receptor coactivator 2 [Homo sapiens]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003999925.1| PREDICTED: nuclear receptor coactivator 2 [Felis catus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003942659.1| PREDICTED: nuclear receptor coactivator 2 [Saimiri boliviensis 
+boliviensis]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003902897.1| PREDICTED: nuclear receptor coactivator 2 [Papio anubis]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003831386.1| PREDICTED: nuclear receptor coactivator 2 [Pan paniscus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003274860.1| PREDICTED: nuclear receptor coactivator 2 [Nomascus leucogenys]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_002918551.1| PREDICTED: nuclear receptor coactivator 2-like [Ailuropoda melanoleuca]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_002819216.1| PREDICTED: nuclear receptor coactivator 2 isoform 2 [Pongo abelii]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_002759043.1| PREDICTED: nuclear receptor coactivator 2 [Callithrix jacchus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>dbj|BAG10541.1| nuclear receptor coactivator 2 [synthetic construct]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_001493287.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Equus caballus]
+ ref|XP_005613126.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Equus caballus]
+ ref|XP_005613127.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Equus caballus]
+ ref|XP_005613128.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Equus caballus]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|AAI14384.1| Nuclear receptor coactivator 2 [Homo sapiens]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_001082161.1| PREDICTED: nuclear receptor coactivator 2 isoform 1 [Macaca mulatta]
+ ref|XP_002805423.1| PREDICTED: nuclear receptor coactivator 2 isoform 2 [Macaca mulatta]
+Length=1464
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006237806.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Rattus 
+norvegicus]
+ ref|XP_006237807.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Rattus 
+norvegicus]
+ ref|XP_006237808.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Rattus 
+norvegicus]
+ ref|XP_006237809.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Rattus 
+norvegicus]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006203229.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Vicugna 
+pacos]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005689103.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Capra hircus]
+ ref|XP_005689104.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Capra hircus]
+ ref|XP_005689105.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Capra hircus]
+ ref|XP_005689106.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Capra hircus]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005323045.1| PREDICTED: nuclear receptor coactivator 2 [Ictidomys tridecemlineatus]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004011777.1| PREDICTED: nuclear receptor coactivator 2 [Ovis aries]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_544118.2| PREDICTED: nuclear receptor coactivator 2 isoform X6 [Canis lupus 
+familiaris]
+ ref|XP_005638090.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Canis lupus 
+familiaris]
+ ref|XP_005638091.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Canis lupus 
+familiaris]
+ ref|XP_005638092.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Canis lupus 
+familiaris]
+ ref|XP_005638093.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Canis lupus 
+familiaris]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_584905.6| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Bos taurus]
+ ref|XP_005192642.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Bos taurus]
+ ref|XP_005192643.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Bos taurus]
+ ref|XP_005215601.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Bos taurus]
+ ref|XP_005215602.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Bos taurus]
+ ref|XP_002692770.3| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Bos taurus]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|NP_114010.1| nuclear receptor coactivator 2 [Rattus norvegicus]
+ sp|Q9WUI9.1|NCOA2_RAT RecName: Full=Nuclear receptor coactivator 2; Short=NCoA-2; AltName: 
+Full=Transcriptional intermediary factor 2
+ gb|AAD24587.1|AF136943_1 transcriptional intermediary factor 2 [Rattus norvegicus]
+Length=1465
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004803817.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Mustela 
+putorius furo]
+Length=1467
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006086435.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Myotis 
+lucifugus]
+ ref|XP_006086436.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Myotis 
+lucifugus]
+ ref|XP_006086437.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Myotis 
+lucifugus]
+ ref|XP_006086438.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Myotis 
+lucifugus]
+ ref|XP_006086439.1| PREDICTED: nuclear receptor coactivator 2 isoform X5 [Myotis 
+lucifugus]
+Length=1469
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  745  KENALLRYLLDKDD  758
+
+
+>ref|XP_004803814.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Mustela 
+putorius furo]
+ ref|XP_004803815.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Mustela 
+putorius furo]
+ ref|XP_004803816.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Mustela 
+putorius furo]
+Length=1469
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_006131562.1| PREDICTED: nuclear receptor coactivator 2 isoform X1 [Pelodiscus 
+sinensis]
+ ref|XP_006131563.1| PREDICTED: nuclear receptor coactivator 2 isoform X2 [Pelodiscus 
+sinensis]
+ ref|XP_006131564.1| PREDICTED: nuclear receptor coactivator 2 isoform X3 [Pelodiscus 
+sinensis]
+ ref|XP_006131565.1| PREDICTED: nuclear receptor coactivator 2 isoform X4 [Pelodiscus 
+sinensis]
+Length=1477
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  738  KENALLRYLLDKDD  751
+
+
+>ref|XP_001378653.2| PREDICTED: nuclear receptor coactivator 2 [Monodelphis domestica]
+Length=1480
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|ERE81794.1| nuclear receptor coactivator 2-like protein [Cricetulus griseus]
+Length=1483
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  737  KENALLRYLLDKDD  750
+
+
+>ref|XP_004893225.1| PREDICTED: nuclear receptor coactivator 2-like isoform X1 [Heterocephalus 
+glaber]
+ ref|XP_004893226.1| PREDICTED: nuclear receptor coactivator 2-like isoform X2 [Heterocephalus 
+glaber]
+Length=1486
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|EPQ07870.1| Nuclear receptor coactivator 2 [Myotis brandtii]
+Length=1499
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  760  KENALLRYLLDKDD  773
+
+
+>ref|XP_003408265.1| PREDICTED: nuclear receptor coactivator 2 [Loxodonta africana]
+Length=1500
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003759764.1| PREDICTED: nuclear receptor coactivator 2 [Sarcophilus harrisii]
+Length=1514
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_004602634.1| PREDICTED: nuclear receptor coactivator 2 [Sorex araneus]
+Length=1542
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|ELK02366.1| Nuclear receptor coactivator 2 [Pteropus alecto]
+Length=1546
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  736  KENALLRYLLDKDD  749
+
+
+>gb|EPY76082.1| nuclear receptor coactivator 2 isoform b [Camelus ferus]
+Length=1557
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  776  KENALLRYLLDKDD  789
+
+
+>tpg|DAA22699.1| TPA: nuclear receptor coactivator 2 [Bos taurus]
+Length=1559
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_003511388.1| PREDICTED: LOW QUALITY PROTEIN: nuclear receptor coactivator 
+2-like [Cricetulus griseus]
+Length=1608
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>ref|XP_005066758.1| PREDICTED: LOW QUALITY PROTEIN: nuclear receptor coactivator 
+2 [Mesocricetus auratus]
+Length=1614
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  724  KENALLRYLLDKDD  737
+
+
+>ref|XP_002710565.1| PREDICTED: nuclear receptor coactivator 2 [Oryctolagus cuniculus]
+Length=1637
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  740  KENALLRYLLDKDD  753
+
+
+>gb|ETE71093.1| Nuclear receptor coactivator 2, partial [Ophiophagus hannah]
+Length=1906
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  737  KENALLRYLLDKDD  750
+
+
+>gb|ELK27481.1| Nuclear receptor coactivator 2 [Myotis davidii]
+Length=1930
+
+ Score = 33.1 bits (74),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  698  KENALLRYLLDKDD  711
+
+
+>dbj|BAN82181.1| hypothetical protein, partial [Ovophis okinavensis]
+Length=839
+
+ Score = 32.7 bits (73),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    KENALLRYLLDKDD  14
+            KENALLRYLLDKDD
+Sbjct  736  KENALLRYLLDKDD  749
+
+
+>pdb|1M2Z|B Chain B, Crystal Structure Of A Dimer Complex Of The Human Glucocorticoid 
+Receptor Ligand-Binding Domain Bound To Dexamethasone 
+And A Tif2 Coactivator Motif
+ pdb|1M2Z|E Chain E, Crystal Structure Of A Dimer Complex Of The Human Glucocorticoid 
+Receptor Ligand-Binding Domain Bound To Dexamethasone 
+And A Tif2 Coactivator Motif
+ pdb|3GN8|C Chain C, X-Ray Crystal Structure Of Ancgr2 In Complex With Dexamethasone
+ pdb|3GN8|E Chain E, X-Ray Crystal Structure Of Ancgr2 In Complex With Dexamethasone
+Length=21
+
+ Score = 29.6 bits (65),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   KENALLRYLLDKDD  14
+           KENALLRYLLDKDD
+Sbjct  7   KENALLRYLLDKDD  20
+
+
+>pdb|2AO6|B Chain B, Crystal Structure Of The Human Androgen Receptor Ligand 
+Binding Domain Bound With Tif2(Iii) 740-753 Peptide And 
+R1881
+Length=25
+
+ Score = 29.3 bits (64),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   KENALLRYLLDKDD  14
+           KENALLRYLLDKDD
+Sbjct  1   KENALLRYLLDKDD  14
+
+
+>pdb|1XLS|I Chain I, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|J Chain J, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|K Chain K, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|L Chain L, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|M Chain M, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|N Chain N, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|O Chain O, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+ pdb|1XLS|P Chain P, Crystal Structure Of The Mouse CarRXR LBD HETERODIMER 
+Bound To Tcpobop And 9cra And A Tif2 Peptide Containg The 
+Third Lxxll Motifs
+Length=18
+
+ Score = 29.3 bits (64),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 14/14 (100%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1   KENALLRYLLDKDD  14
+           KENALLRYLLDKDD
+Sbjct  2   KENALLRYLLDKDD  15
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.141    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 172967819010
+Results from round 2
+
+
+Query= 5G3J
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.141    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 172967819010
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

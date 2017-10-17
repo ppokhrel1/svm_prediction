@@ -1,0 +1,460 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2LRDA
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2LRD|A  Chain A, The Solution Structure Of The Monomeric Acan...   113    2e-31
+gb|AEC33273.1|  acanthaporin precursor [Acanthamoeba culbertsoni]      113    5e-30
+ref|XP_004335243.1|  hypothetical protein ACA1_100670 [Acanthamoe...  82.8    3e-18
+ref|XP_004348368.1|  hypothetical protein ACA1_325760 [Acanthamoe...  82.4    4e-18
+ref|XP_004348366.1|  hypothetical protein ACA1_325740 [Acanthamoe...  77.4    3e-16
+ref|XP_004340579.1|  hypothetical protein ACA1_154230 [Acanthamoe...  73.9    6e-15
+ref|XP_004348367.1|  hypothetical protein ACA1_325750 [Acanthamoe...  72.8    1e-14
+ref|XP_004342306.1|  hypothetical protein ACA1_116680, partial [A...  62.4    1e-10
+ref|XP_004342308.1|  hypothetical protein ACA1_116700 [Acanthamoe...  58.2    3e-09
+ref|XP_004342235.1|  hypothetical protein ACA1_115650 [Acanthamoe...  38.9    0.032
+emb|CCC50332.1|  conserved hypothetical protein [Trypanosoma viva...  34.7    2.9  
+ref|XP_002588526.1|  hypothetical protein BRAFLDRAFT_79482 [Branc...  33.5    5.3  
+
+
+>pdb|2LRD|A Chain A, The Solution Structure Of The Monomeric Acanthaporin
+ pdb|2LRE|A Chain A, The Solution Structure Of The Dimeric Acanthaporin
+ pdb|2LRE|B Chain B, The Solution Structure Of The Dimeric Acanthaporin
+Length=61
+
+ Score =  113 bits (283),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 61/61 (100%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  1   AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+           AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL
+Sbjct  1   AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+
+Query  61  C  61
+           C
+Sbjct  61  C  61
+
+
+>gb|AEC33273.1| acanthaporin precursor [Acanthamoeba culbertsoni]
+Length=160
+
+ Score =  113 bits (282),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  61
+             GKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC
+Sbjct  101  QGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  160
+
+
+>ref|XP_004335243.1| hypothetical protein ACA1_100670 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR13230.1| hypothetical protein ACA1_100670 [Acanthamoeba castellanii str. 
+Neff]
+Length=153
+
+ Score = 82.8 bits (203),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 44/61 (72%), Positives = 49/61 (80%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS +KK ACA  IA AVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  93   FGKCSWIKKAACAIGIASAVAACGGPEDILCILAALKALEGCATCFCEDHCHGPCQALHL  152
+
+Query  61   C  61
+            C
+Sbjct  153  C  153
+
+
+>ref|XP_004348368.1| hypothetical protein ACA1_325760 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21994.1| hypothetical protein ACA1_325760 [Acanthamoeba castellanii str. 
+Neff]
+Length=166
+
+ Score = 82.4 bits (202),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 44/61 (72%), Positives = 49/61 (80%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS +KK ACA  IA AVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  106  FGKCSWIKKAACAIGIASAVAACGGPEDIICILAALKALEGCATCFCEDHCHGPCQALHL  165
+
+Query  61   C  61
+            C
+Sbjct  166  C  166
+
+
+>ref|XP_004348366.1| hypothetical protein ACA1_325740 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21992.1| hypothetical protein ACA1_325740 [Acanthamoeba castellanii str. 
+Neff]
+Length=166
+
+ Score = 77.4 bits (189),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 48/61 (79%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS LKK ACA  IAGAVAACGG  D+PC+LAALKA EGCA+CFCEDHCHG CK LHL
+Sbjct  106  FGKCSWLKKAACAVGIAGAVAACGGPEDIPCILAALKALEGCATCFCEDHCHGPCKALHL  165
+
+Query  61   C  61
+            C
+Sbjct  166  C  166
+
+
+>ref|XP_004340579.1| hypothetical protein ACA1_154230 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR18540.1| hypothetical protein ACA1_154230 [Acanthamoeba castellanii str. 
+Neff]
+Length=167
+
+ Score = 73.9 bits (180),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 39/58 (67%), Positives = 43/58 (74%), Gaps = 1/58 (2%)
+
+Query  5    CSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  61
+            CS LKK ACA  IAGA++ACGG  DL C+L  L A  GCA CFC+ HCHG CKDLHLC
+Sbjct  110  CSFLKKAACAVGIAGAISACGGPEDLVCILKILSALHGCAECFCKSHCHGACKDLHLC  167
+
+
+>ref|XP_004348367.1| hypothetical protein ACA1_325750 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21993.1| hypothetical protein ACA1_325750 [Acanthamoeba castellanii str. 
+Neff]
+Length=153
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 46/61 (75%), Positives = 50/61 (82%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS LKK ACA  IAGAVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  93   FGKCSWLKKAACAVGIAGAVAACGGPEDIICILAALKALEGCATCFCEDHCHGPCQALHL  152
+
+Query  61   C  61
+            C
+Sbjct  153  C  153
+
+
+>ref|XP_004342306.1| hypothetical protein ACA1_116680, partial [Acanthamoeba castellanii 
+str. Neff]
+ gb|ELR20196.1| hypothetical protein ACA1_116680, partial [Acanthamoeba castellanii 
+str. Neff]
+Length=162
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/62 (58%), Positives = 44/62 (71%), Gaps = 4/62 (6%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDH-CHGVCKDLH  59
+            M  C+ +KK  CA AIAGA+ ACGG  D+PC+LAAL A EGC +CFCE   C G+CK  H
+Sbjct  103  MAGCNAMKKAMCATAIAGAIVACGGPEDIPCILAALGALEGCVTCFCESKGCRGLCK--H  160
+
+Query  60   LC  61
+            +C
+Sbjct  161  VC  162
+
+
+>ref|XP_004342308.1| hypothetical protein ACA1_116700 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR20198.1| hypothetical protein ACA1_116700 [Acanthamoeba castellanii str. 
+Neff]
+Length=141
+
+ Score = 58.2 bits (139),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/59 (46%), Positives = 41/59 (69%), Gaps = 2/59 (3%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGG-IDLPCVLAALKAAEGCASCFCED-HCHGVCKDL  58
+            M KC+++KK  CA  +A A+++CGG  ++PC+++ LKA  GC  CFC+   C G+CKD 
+Sbjct  82   MSKCNIIKKAECAVGVAAAISSCGGPANIPCIISRLKALHGCGKCFCQTLKCRGLCKDF  140
+
+
+>ref|XP_004342235.1| hypothetical protein ACA1_115650 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR20125.1| hypothetical protein ACA1_115650 [Acanthamoeba castellanii str. 
+Neff]
+Length=163
+
+ Score = 38.9 bits (89),  Expect = 0.032, Method: Compositional matrix adjust.
+ Identities = 24/57 (42%), Positives = 31/57 (54%), Gaps = 5/57 (9%)
+
+Query  3    GKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCED-HCHGVCKDL  58
+             KC  LKK  CA  +A A+  C   D+PC++  LK    CA CFC    C G CK++
+Sbjct  110  SKCKFLKKAKCAVKVALAIKQCSH-DIPCIIQKLK---SCAKCFCSMVKCKGPCKNI  162
+
+
+>emb|CCC50332.1| conserved hypothetical protein [Trypanosoma vivax Y486]
+Length=680
+
+ Score = 34.7 bits (78),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 27/51 (53%), Gaps = 3/51 (6%)
+
+Query  5    CSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVC  55
+            C+ L   AC + ++ +  A     +  V++A +   GC+SC+ ED C G C
+Sbjct  303  CNTLNSSACTSDVSDSNLALSSTSMEYVMSATR---GCSSCYVEDTCLGGC  350
+
+
+>ref|XP_002588526.1| hypothetical protein BRAFLDRAFT_79482 [Branchiostoma floridae]
+ gb|EEN44537.1| hypothetical protein BRAFLDRAFT_79482 [Branchiostoma floridae]
+Length=434
+
+ Score = 33.5 bits (75),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  11   VACAAAIAGAVAACGGIDLPCVLAALKAAEG  41
+            + CA A +G+  ACGG+D  C + +LK  EG
+Sbjct  262  MTCAYAPSGSYVACGGLDNICSIYSLKTREG  292
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.137    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 301359389463
+Results from round 2
+
+
+Query= 2LRDA
+
+Length=61
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2LRD|A  Chain A, The Solution Structure Of The Monomeric Acan...  63.1    1e-11
+gb|AEC33273.1|  acanthaporin precursor [Acanthamoeba culbertsoni]     62.7    7e-11
+ref|XP_004335243.1|  hypothetical protein ACA1_100670 [Acanthamoe...  59.6    9e-10
+ref|XP_004348368.1|  hypothetical protein ACA1_325760 [Acanthamoe...  58.9    2e-09
+ref|XP_004340579.1|  hypothetical protein ACA1_154230 [Acanthamoe...  57.3    6e-09
+ref|XP_004348366.1|  hypothetical protein ACA1_325740 [Acanthamoe...  55.4    3e-08
+ref|XP_004348367.1|  hypothetical protein ACA1_325750 [Acanthamoe...  53.1    2e-07
+ref|XP_004342308.1|  hypothetical protein ACA1_116700 [Acanthamoe...  51.6    6e-07
+ref|XP_004342306.1|  hypothetical protein ACA1_116680, partial [A...  45.0    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_001904919.1|  hypothetical protein [Podospora anserina S m...  33.8    4.8  
+emb|CDJ22820.1|  EGF region [Echinococcus granulosus]                 33.8    5.0  
+
+
+>pdb|2LRD|A Chain A, The Solution Structure Of The Monomeric Acanthaporin
+ pdb|2LRE|A Chain A, The Solution Structure Of The Dimeric Acanthaporin
+ pdb|2LRE|B Chain B, The Solution Structure Of The Dimeric Acanthaporin
+Length=61
+
+ Score = 63.1 bits (152),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 61/61 (100%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  1   AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+           AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL
+Sbjct  1   AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+
+Query  61  C  61
+           C
+Sbjct  61  C  61
+
+
+>gb|AEC33273.1| acanthaporin precursor [Acanthamoeba culbertsoni]
+Length=160
+
+ Score = 62.7 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 59/60 (98%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  61
+             GKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC
+Sbjct  101  QGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  160
+
+
+>ref|XP_004335243.1| hypothetical protein ACA1_100670 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR13230.1| hypothetical protein ACA1_100670 [Acanthamoeba castellanii str. 
+Neff]
+Length=153
+
+ Score = 59.6 bits (143),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 49/61 (80%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS +KK ACA  IA AVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  93   FGKCSWIKKAACAIGIASAVAACGGPEDILCILAALKALEGCATCFCEDHCHGPCQALHL  152
+
+Query  61   C  61
+            C
+Sbjct  153  C  153
+
+
+>ref|XP_004348368.1| hypothetical protein ACA1_325760 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21994.1| hypothetical protein ACA1_325760 [Acanthamoeba castellanii str. 
+Neff]
+Length=166
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 49/61 (80%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS +KK ACA  IA AVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  106  FGKCSWIKKAACAIGIASAVAACGGPEDIICILAALKALEGCATCFCEDHCHGPCQALHL  165
+
+Query  61   C  61
+            C
+Sbjct  166  C  166
+
+
+>ref|XP_004340579.1| hypothetical protein ACA1_154230 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR18540.1| hypothetical protein ACA1_154230 [Acanthamoeba castellanii str. 
+Neff]
+Length=167
+
+ Score = 57.3 bits (137),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 39/58 (67%), Positives = 43/58 (74%), Gaps = 1/58 (2%)
+
+Query  5    CSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  61
+            CS LKK ACA  IAGA++ACGG  DL C+L  L A  GCA CFC+ HCHG CKDLHLC
+Sbjct  110  CSFLKKAACAVGIAGAISACGGPEDLVCILKILSALHGCAECFCKSHCHGACKDLHLC  167
+
+
+>ref|XP_004348366.1| hypothetical protein ACA1_325740 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21992.1| hypothetical protein ACA1_325740 [Acanthamoeba castellanii str. 
+Neff]
+Length=166
+
+ Score = 55.4 bits (132),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 48/61 (79%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS LKK ACA  IAGAVAACGG  D+PC+LAALKA EGCA+CFCEDHCHG CK LHL
+Sbjct  106  FGKCSWLKKAACAVGIAGAVAACGGPEDIPCILAALKALEGCATCFCEDHCHGPCKALHL  165
+
+Query  61   C  61
+            C
+Sbjct  166  C  166
+
+
+>ref|XP_004348367.1| hypothetical protein ACA1_325750 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR21993.1| hypothetical protein ACA1_325750 [Acanthamoeba castellanii str. 
+Neff]
+Length=153
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 46/61 (75%), Positives = 50/61 (82%), Gaps = 1/61 (2%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDHCHGVCKDLHL  60
+             GKCS LKK ACA  IAGAVAACGG  D+ C+LAALKA EGCA+CFCEDHCHG C+ LHL
+Sbjct  93   FGKCSWLKKAACAVGIAGAVAACGGPEDIICILAALKALEGCATCFCEDHCHGPCQALHL  152
+
+Query  61   C  61
+            C
+Sbjct  153  C  153
+
+
+>ref|XP_004342308.1| hypothetical protein ACA1_116700 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR20198.1| hypothetical protein ACA1_116700 [Acanthamoeba castellanii str. 
+Neff]
+Length=141
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 27/59 (46%), Positives = 41/59 (69%), Gaps = 2/59 (3%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCED-HCHGVCKDL  58
+            M KC+++KK  CA  +A A+++CGG  ++PC+++ LKA  GC  CFC+   C G+CKD 
+Sbjct  82   MSKCNIIKKAECAVGVAAAISSCGGPANIPCIISRLKALHGCGKCFCQTLKCRGLCKDF  140
+
+
+>ref|XP_004342306.1| hypothetical protein ACA1_116680, partial [Acanthamoeba castellanii 
+str. Neff]
+ gb|ELR20196.1| hypothetical protein ACA1_116680, partial [Acanthamoeba castellanii 
+str. Neff]
+Length=162
+
+ Score = 45.0 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 34/57 (60%), Positives = 41/57 (72%), Gaps = 2/57 (4%)
+
+Query  2    MGKCSVLKKVACAAAIAGAVAACGGI-DLPCVLAALKAAEGCASCFCEDH-CHGVCK  56
+            M  C+ +KK  CA AIAGA+ ACGG  D+PC+LAAL A EGC +CFCE   C G+CK
+Sbjct  103  MAGCNAMKKAMCATAIAGAIVACGGPEDIPCILAALGALEGCVTCFCESKGCRGLCK  159
+
+
+>ref|XP_001904919.1| hypothetical protein [Podospora anserina S mat+]
+ emb|CAP64826.1| unnamed protein product [Podospora anserina S mat+]
+Length=2538
+
+ Score = 33.8 bits (76),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 18/46 (39%), Gaps = 0/46 (0%)
+
+Query  5    CSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDH  50
+            C  L+   C AA  GA A C   +L   L  + A       F  DH
+Sbjct  149  CQALRNGECEAAFVGASAICFSPNLWITLEKMGALSAEGKSFSYDH  194
+
+
+>emb|CDJ22820.1| EGF region [Echinococcus granulosus]
+Length=3369
+
+ Score = 33.8 bits (76),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 18/37 (49%), Gaps = 0/37 (0%)
+
+Query  25   GGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC  61
+            GG  LP +L A+      A CFC D   G+  D+  C
+Sbjct  945  GGPALPGLLPAVATLHDPAVCFCNDGWRGIKCDVPTC  981
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.518    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 301359389463
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

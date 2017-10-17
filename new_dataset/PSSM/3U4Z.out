@@ -1,0 +1,409 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3U4Z
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3U4Z|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   219    2e-71
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   224    6e-67
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   194    3e-60
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   156    2e-42
+ref|YP_001039403.1|  hydrogenase formation HypD protein [Clostrid...  36.6    1.4  
+ref|WP_022502602.1|  peptide chain release factor 1 [Eubacterium ...  34.3    8.5  
+ref|YP_182257.1|  sensory box sensor histidine kinase [Dehalococc...  34.3    8.6  
+ref|WP_022345375.1|  fic family protein [Clostridium sp. CAG:299]...  33.9    8.7  
+ref|WP_022207177.1|  peptide chain release factor 1 [Eubacterium ...  33.9    9.0  
+ref|WP_022781471.1|  hypothetical protein [Lachnospiraceae bacter...  33.9    9.4  
+ref|WP_022204767.1|  peptide chain release factor 1 [Eubacterium ...  33.9    9.6  
+
+
+>pdb|3U4Z|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+ pdb|3U4Z|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+Length=109
+
+ Score =  219 bits (558),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  224 bits (570),  Expect = 6e-67, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  375  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  434
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  435  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  483
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  194 bits (494),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  119  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  178
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  95
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  179  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  156 bits (394),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 83/109 (76%), Positives = 87/109 (80%), Gaps = 18/109 (17%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVV        +R          +L   ++ DLCYEWRDKF
+Sbjct  368  TLLISEVLKTSKQYLSVLAQVV--------VR----------QLLRGLYVDLCYEWRDKF  409
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  410  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  458
+
+
+>ref|YP_001039403.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+ATCC 27405]
+ ref|YP_005687098.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+DSM 1313]
+ ref|WP_003514876.1| hydrogenase assembly protein HupF [Clostridium thermocellum]
+ gb|ABN54210.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+ATCC 27405]
+ gb|EEU01908.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+DSM 2360]
+ gb|EFB37144.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+JW20]
+ gb|ADU73647.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+DSM 1313]
+ gb|EIC03502.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+YS]
+ gb|EIC11654.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+AD2]
+ emb|CDG37501.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+BC1]
+Length=349
+
+ Score = 36.6 bits (83),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 50/109 (46%), Gaps = 13/109 (12%)
+
+Query  2    LLISEVLKTSKQYLSVLAQVVDIQ-------SSDKNIRLKICDNSCNQELKVVIFPDLCY  54
+            L+I E++K + + L ++  +  I         ++KNI   +C    +  +   ++ D+  
+Sbjct  140  LMIEEIIKNNIKNLKLMTSIKTIIPAISYICENEKNIDAFLCPGHVSVIIGSSVYTDMAL  199
+
+Query  55   EWRDKFSINKW------YYFNEFVRQIYNDEVQLKNNIHSSIKESDDQR  97
+            ++R  F I  +          E +RQI N+E  +KN   S++    +Q+
+Sbjct  200  KYRKPFVIGGFEGGHIIAAIYEIIRQISNNEYSMKNMYQSAVSPEGNQK  248
+
+
+>ref|WP_022502602.1| peptide chain release factor 1 [Eubacterium sp. CAG:76]
+ emb|CDF11219.1| peptide chain release factor 1 [Eubacterium sp. CAG:76]
+Length=359
+
+ Score = 34.3 bits (77),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 57/119 (48%), Gaps = 19/119 (16%)
+
+Query  8    LKTSKQYLSVL--AQVVDIQSSDKNIRLKI---------CDNSCNQELKVVIFPD--LCY  54
+            ++TS   ++V+  A+ VDIQ  DK+IR+ +         C N+ +  +++  +P   + Y
+Sbjct  197  IQTSTASVAVMPEAEEVDIQIDDKDIRIDVMRASGNGGQCVNTTDSAVRLTHYPTGIVIY  256
+
+Query  55   EWRDKFSI-NKWYYFNEFVRQIYNDEVQLKNNIHSSIKES-----DDQRKVITYNQEQG  107
+               +K  I NK   F     ++Y+ E Q  ++  +  + S     D   K+ TYN  QG
+Sbjct  257  SQTEKSQIQNKEKAFALLRAKLYDLETQKAHDAEADARRSQIGTGDRAEKIRTYNFPQG  315
+
+
+>ref|YP_182257.1| sensory box sensor histidine kinase [Dehalococcoides ethenogenes 
+195]
+ ref|WP_010937233.1| sensory box sensor histidine kinase [Dehalococcoides mccartyi]
+ gb|AAW39206.1| sensory box sensor histidine kinase [Dehalococcoides ethenogenes 
+195]
+Length=344
+
+ Score = 34.3 bits (77),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  3    LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVV--IFPDLCYEWRDKF  60
+            ++ E L  +K+Y      VVD+  +DKNI L ICDN     LK V  I P      R + 
+Sbjct  251  IVHEALLNAKKYSQASQIVVDLNRTDKNISLDICDNGIGFCLKNVDWIRPSGLQSMRQRA  310
+
+Query  61   SI  62
+             I
+Sbjct  311  EI  312
+
+
+>ref|WP_022345375.1| fic family protein [Clostridium sp. CAG:299]
+ emb|CDD37923.1| fic family protein [Clostridium sp. CAG:299]
+Length=221
+
+ Score = 33.9 bits (76),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 16/34 (47%), Positives = 20/34 (59%), Gaps = 3/34 (9%)
+
+Query  58   DKFSINKWYYFNEFVRQIYNDEVQLKNNIHSSIK  91
+            D F  N WY+ N  VR  YND   L+N IH++ K
+Sbjct  77   DAFEKNSWYFRNALVRANYND---LQNGIHATTK  107
+
+
+>ref|WP_022207177.1| peptide chain release factor 1 [Eubacterium sp. CAG:252]
+ emb|CDB67810.1| peptide chain release factor 1 [Eubacterium sp. CAG:252]
+Length=359
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 57/119 (48%), Gaps = 19/119 (16%)
+
+Query  8    LKTSKQYLSVL--AQVVDIQSSDKNIRLKI---------CDNSCNQELKVVIFPD--LCY  54
+            ++TS   ++V+  A+ VDIQ  DK+IR+ +         C N+ +  +++  +P   + Y
+Sbjct  197  IQTSTASVAVMPEAEEVDIQIDDKDIRIDVMRASGNGGQCVNTTDSAVRLTHYPTGIVIY  256
+
+Query  55   EWRDKFSI-NKWYYFNEFVRQIYNDEVQLKNNIHSSIKES-----DDQRKVITYNQEQG  107
+               +K  I NK   F     ++Y+ E Q  ++  +  + S     D   K+ TYN  QG
+Sbjct  257  SQTEKSQIQNKEKAFALLRAKLYDLETQKAHDAEADARRSQIGTGDRAEKIRTYNFPQG  315
+
+
+>ref|WP_022781471.1| hypothetical protein [Lachnospiraceae bacterium NK4A136]
+Length=359
+
+ Score = 33.9 bits (76),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 57/119 (48%), Gaps = 19/119 (16%)
+
+Query  8    LKTSKQYLSVL--AQVVDIQSSDKNIRLKI---------CDNSCNQELKVVIFPD--LCY  54
+            + TS   ++V+  A+ VD+Q  +K+IR+ +         C N+ +  +++  +P   + Y
+Sbjct  195  IHTSTASVAVIPEAEEVDVQIDEKDIRIDVMRASGNGGQCVNTTDSAVRLTHYPTGIVIY  254
+
+Query  55   EWRDKFSI-NKWYYFNEFVRQIYNDEVQLKNNIHSSIKES-----DDQRKVITYNQEQG  107
+               +K  I NK   FN    ++Y+ E Q  +N  +  + S     D   K+ TYN  QG
+Sbjct  255  SQTEKSQIQNKEKAFNLLRAKLYDLECQKAHNAEADARRSQIGTGDRSEKIRTYNFPQG  313
+
+
+>ref|WP_022204767.1| peptide chain release factor 1 [Eubacterium sp. CAG:248]
+ emb|CDB65270.1| peptide chain release factor 1 [Eubacterium sp. CAG:248]
+Length=359
+
+ Score = 33.9 bits (76),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 32/119 (27%), Positives = 57/119 (48%), Gaps = 19/119 (16%)
+
+Query  8    LKTSKQYLSVL--AQVVDIQSSDKNIRLKI---------CDNSCNQELKVVIFPD--LCY  54
+            ++TS   ++V+  A+ VDIQ  DK+IR+ +         C N+ +  +++  +P   + Y
+Sbjct  197  IQTSTASVAVMPEAEEVDIQIDDKDIRIDVMRASGNGGQCVNTTDSAVRLTHYPTGIVIY  256
+
+Query  55   EWRDKFSI-NKWYYFNEFVRQIYNDEVQLKNNIHSSIKES-----DDQRKVITYNQEQG  107
+               +K  I NK   F     ++Y+ E Q  ++  +  + S     D   K+ TYN  QG
+Sbjct  257  SQTEKSQIQNKEKAFALLRAKLYDLETQKAHDAEADARRSQIGTGDRAEKIRTYNFPQG  315
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308869676864
+Results from round 2
+
+
+Query= 3U4Z
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3U4Z|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   174    6e-54
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   180    6e-51
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   158    4e-46
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   143    9e-38
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_001039403.1|  hydrogenase formation HypD protein [Clostrid...  37.8    0.42 
+
+
+>pdb|3U4Z|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+ pdb|3U4Z|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+Length=109
+
+ Score =  174 bits (442),  Expect = 6e-54, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  180 bits (456),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  375  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  434
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  435  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  483
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  158 bits (399),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  119  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  178
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  95
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  179  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  143 bits (361),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 82/109 (75%), Positives = 86/109 (79%), Gaps = 18/109 (17%)
+
+Query  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+            TLLISEVLKTSKQYLSVLAQVV                   ++L   ++ DLCYEWRDKF
+Sbjct  368  TLLISEVLKTSKQYLSVLAQVV------------------VRQLLRGLYVDLCYEWRDKF  409
+
+Query  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  109
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF
+Sbjct  410  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDDQRKVITYNQEQGVF  458
+
+
+>ref|YP_001039403.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+ATCC 27405]
+ ref|YP_005687098.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+DSM 1313]
+ ref|WP_003514876.1| hydrogenase assembly protein HupF [Clostridium thermocellum]
+ gb|ABN54210.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+ATCC 27405]
+ gb|EEU01908.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+DSM 2360]
+ gb|EFB37144.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+JW20]
+ gb|ADU73647.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+DSM 1313]
+ gb|EIC03502.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+YS]
+ gb|EIC11654.1| hydrogenase expression/formation protein HypD [Clostridium thermocellum 
+AD2]
+ emb|CDG37501.1| hydrogenase formation HypD protein [Clostridium thermocellum 
+BC1]
+Length=349
+
+ Score = 37.8 bits (86),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 24/109 (22%), Positives = 51/109 (47%), Gaps = 13/109 (12%)
+
+Query  2    LLISEVLKTSKQYL-------SVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCY  54
+            L+I E++K + + L       +++  +  I  ++KNI   +C    +  +   ++ D+  
+Sbjct  140  LMIEEIIKNNIKNLKLMTSIKTIIPAISYICENEKNIDAFLCPGHVSVIIGSSVYTDMAL  199
+
+Query  55   EWRDKFSINKW------YYFNEFVRQIYNDEVQLKNNIHSSIKESDDQR  97
+            ++R  F I  +          E +RQI N+E  +KN   S++    +Q+
+Sbjct  200  KYRKPFVIGGFEGGHIIAAIYEIIRQISNNEYSMKNMYQSAVSPEGNQK  248
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0395    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308869676864
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

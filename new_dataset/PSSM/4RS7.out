@@ -1,0 +1,634 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4RS7
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|YP_145783.1|  hypothetical protein [Sulfolobus sp. NOB8H2] >r...   196    2e-58
+ref|YP_002914899.1|  ParB domain-containing protein nuclease [Sul...   188    1e-55
+ref|YP_002837823.1|  ParB domain-containing protein nuclease [Sul...  54.3    1e-06
+ref|YP_003421099.1|  ParB domain protein nuclease [Sulfolobus isl...  54.3    1e-06
+ref|YP_002842011.1|  ParB domain protein nuclease [Sulfolobus isl...  54.3    1e-06
+ref|NP_377268.1|  hypothetical protein ST1318 [Sulfolobus tokodai...  52.4    6e-06
+ref|XP_002544810.1|  transcription factor steA [Uncinocarpus rees...  37.7    0.52 
+gb|EDZ73598.1|  hypothetical protein AWRI1631_30010 [Saccharomyce...  36.2    1.2  
+gb|EGA76268.1|  hypothetical protein VIN13_5160 [Saccharomyces ce...  35.0    1.6  
+ref|XP_004340399.1|  reverse transcriptase (rna-dependent dna pol...  34.7    3.4  
+ref|YP_393102.1|  group 1 glycosyl transferase [Sulfurimonas deni...  35.0    3.5  
+ref|WP_005299630.1|  hypothetical protein [Photobacterium damsela...  34.7    3.6  
+ref|NP_376587.1|  hypothetical protein ST0690 [Sulfolobus tokodai...  33.9    3.7  
+ref|WP_023388954.1|  thiolase [Youngiibacter fragilis] >gb|ETA793...  34.3    5.0  
+gb|EEU05621.1|  hypothetical protein C1Q_05661 [Saccharomyces cer...  34.3    5.6  
+sp|P25600.2|YCH4_YEAST  RecName: Full=Putative transposon Ty5-1 p...  34.3    5.7  
+gb|EGA80159.1|  hypothetical protein QA23_5298 [Saccharomyces cer...  34.3    5.9  
+gb|EGA72446.1|  hypothetical protein AWRI796_5227 [Saccharomyces ...  34.3    5.9  
+ref|WP_010631388.1|  methionine ABC transporter ATP-binding prote...  33.9    8.4  
+
+
+>ref|YP_145783.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+ ref|WP_011229467.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+ emb|CAA09155.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+Length=470
+
+ Score =  196 bits (499),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 96/96 (100%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1    ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  60
+            ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG
+Sbjct  375  ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  434
+
+Query  61   LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  96
+            LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL
+Sbjct  435  LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  470
+
+
+>ref|YP_002914899.1| ParB domain-containing protein nuclease [Sulfolobus islandicus 
+M.16.4]
+ ref|WP_012736007.1| ParB domain-containing protein nuclease [Sulfolobus islandicus]
+ gb|ACR42231.1| ParB domain protein nuclease [Sulfolobus islandicus M.16.4]
+Length=443
+
+ Score =  188 bits (478),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 91/96 (95%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1    ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  60
+            ADL+SLY+AMPSIKKLVDEGKLTEKDAEK+YEIWRNMEAIYKQASLLWYNTV++LLKRIG
+Sbjct  348  ADLDSLYKAMPSIKKLVDEGKLTEKDAEKIYEIWRNMEAIYKQASLLWYNTVNILLKRIG  407
+
+Query  61   LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  96
+            LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL
+Sbjct  408  LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  443
+
+
+>ref|YP_002837823.1| ParB domain-containing protein nuclease [Sulfolobus islandicus 
+Y.G.57.14]
+ ref|WP_012716275.1| ParB domain-containing protein nuclease [Sulfolobus islandicus]
+ gb|ACP45901.1| ParB domain protein nuclease [Sulfolobus islandicus Y.G.57.14]
+Length=436
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  351  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  409
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  410  QQLEELFYKFVKGNMRLYPKEE  431
+
+
+>ref|YP_003421099.1| ParB domain protein nuclease [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953409.1| ParB domain protein nuclease [Sulfolobus islandicus]
+ gb|ADB88729.1| ParB domain protein nuclease [Sulfolobus islandicus L.D.8.5]
+Length=447
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  362  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  420
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  421  QQLEELFYKFVKGNMRLYPKEE  442
+
+
+>ref|YP_002842011.1| ParB domain protein nuclease [Sulfolobus islandicus Y.N.15.51]
+ ref|WP_012718300.1| ParB domain protein nuclease [Sulfolobus islandicus]
+ gb|ACP50089.1| ParB domain protein nuclease [Sulfolobus islandicus Y.N.15.51]
+Length=436
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  351  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  409
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  410  QQLEELFYKFVKGNMRLYPKEE  431
+
+
+>ref|NP_377268.1| hypothetical protein ST1318 [Sulfolobus tokodaii str. 7]
+ ref|WP_010979355.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB66377.1| hypothetical protein STK_13180 [Sulfolobus tokodaii str. 7]
+Length=427
+
+ Score = 52.4 bits (124),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 27/82 (33%), Positives = 49/82 (60%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E ++   P IK+L DE KL++ +   + E+WRN +  +K  SL W++  + +L    L +
+Sbjct  342  EEMFSYCPEIKQLYDEKKLSDDNIITLAEVWRNFQIAFKNLSLNWHSVAEEVLSPY-LDK  400
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+             + E++FY+ V+   +L+ REE
+Sbjct  401  TQLEDLFYKFVKGTMKLYPREE  422
+
+
+>ref|XP_002544810.1| transcription factor steA [Uncinocarpus reesii 1704]
+ gb|EEP79481.1| transcription factor steA [Uncinocarpus reesii 1704]
+Length=642
+
+ Score = 37.7 bits (86),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 28/84 (33%), Positives = 46/84 (55%), Gaps = 6/84 (7%)
+
+Query  3    LESLYRAMPSI---KKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNT--VDLLLK  57
+            L   YRAMP +   ++LVD  K T+K  E ++   RN++A    ASL    +  +D L K
+Sbjct  98   LRDRYRAMPFLSFPRRLVDPVKNTKKFEEGIFSDLRNLKA-GTDASLEEPKSPFLDFLYK  156
+
+Query  58   RIGLSEKEREEIFYEMVRPYFRLF  81
+               +  ++++++FY    P+ RLF
+Sbjct  157  NNCIRTQKKQKVFYWYSVPHDRLF  180
+
+
+>gb|EDZ73598.1| hypothetical protein AWRI1631_30010 [Saccharomyces cerevisiae 
+AWRI1631]
+Length=269
+
+ Score = 36.2 bits (82),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  23  GFVNERNPDYVWELYGGMYGL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  73
+
+
+>gb|EGA76268.1| hypothetical protein VIN13_5160 [Saccharomyces cerevisiae Vin13]
+Length=142
+
+ Score = 35.0 bits (79),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  12  GFVNERNPDYVWELYGGMYXL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  62
+
+
+>ref|XP_004340399.1| reverse transcriptase (rna-dependent dna polymerase) protein 
+[Acanthamoeba castellanii str. Neff]
+ gb|ELR18371.1| reverse transcriptase (rna-dependent dna polymerase) protein 
+[Acanthamoeba castellanii str. Neff]
+Length=204
+
+ Score = 34.7 bits (78),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 33/62 (53%), Gaps = 5/62 (8%)
+
+Query  12   SIKKLVDEGKLTEKDAEKVYEIWRNMEAIY--KQASLLWYNTVDLLLKRIGLSEKEREEI  69
+            +IK L+ EG + E+  E  Y  W N +++Y  KQA LLW  T+DL L+  G +       
+Sbjct  115  NIKALLWEGFIDEEHPE--YVCWLN-KSLYGLKQAPLLWNKTIDLHLRSSGFNPTNGNPC  171
+
+Query  70   FY  71
+             Y
+Sbjct  172  VY  173
+
+
+>ref|YP_393102.1| group 1 glycosyl transferase [Sulfurimonas denitrificans DSM 
+1251]
+ ref|WP_011372221.1| glycosyl transferase family 1 [Sulfurimonas denitrificans]
+ gb|ABB43867.1| Glycosyl transferase, group 1 [Sulfurimonas denitrificans DSM 
+1251]
+Length=367
+
+ Score = 35.0 bits (79),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 28/50 (56%), Gaps = 0/50 (0%)
+
+Query  28   EKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFYEMVRPY  77
+            E++++  + +EAIYK   L WY T  + L+  G +++     F   VRP+
+Sbjct  147  EQIFDKSKRVEAIYKGHELSWYETSKISLEEFGTNQENFNVAFVANVRPH  196
+
+
+>ref|WP_005299630.1| hypothetical protein [Photobacterium damselae]
+ gb|EEZ41164.1| hypothetical protein VDA_002196 [Photobacterium damselae subsp. 
+damselae CIP 102761]
+Length=277
+
+ Score = 34.7 bits (78),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 26/87 (30%), Positives = 36/87 (41%), Gaps = 4/87 (5%)
+
+Query  3    LESLYRAMPSIKKLVD---EGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRI  59
+            ++S   ++P +   VD   +G  T       YE+WR     Y   S LW    + +LKR 
+Sbjct  20   IDSSKISIPYLTSKVDSLLKGMWTPWFGGPFYEVWRARSGFYNNISELWCPPAECVLKR-  78
+
+Query  60   GLSEKEREEIFYEMVRPYFRLFSREEV  86
+            G      E IFY        L S EE+
+Sbjct  79   GRMNDINESIFYSCFGHNANLGSLEEI  105
+
+
+>ref|NP_376587.1| hypothetical protein ST0690 [Sulfolobus tokodaii str. 7]
+ ref|WP_010978679.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB65696.1| hypothetical protein STK_06900 [Sulfolobus tokodaii str. 7]
+Length=117
+
+ Score = 33.9 bits (76),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 26/46 (57%), Gaps = 4/46 (9%)
+
+Query  3    LESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLW  48
+            L+ L   +P + ++++EGKL EKD     E WR +  IY +   LW
+Sbjct  64   LKKLNEGIPFVLQIIEEGKLIEKDE----EFWRQVMEIYNKVRPLW  105
+
+
+>ref|WP_023388954.1| thiolase [Youngiibacter fragilis]
+ gb|ETA79363.1| thiolase [Youngiibacter fragilis 232.1]
+Length=399
+
+ Score = 34.3 bits (77),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 19/58 (33%), Positives = 30/58 (52%), Gaps = 6/58 (10%)
+
+Query  44   ASLLWYNTVDLLLKRIGLSEKEREEIFYEMVRPYF------RLFSREEVFPKEVLEGK  95
+            A L  Y T +L+ K +G++ +E +EI     + Y       R F +  +FP E+ EGK
+Sbjct  157  AGLQMYQTAELIAKEVGITREECDEIALLRYQQYLDALANDREFQKRYMFPVEIKEGK  214
+
+
+>gb|EEU05621.1| hypothetical protein C1Q_05661 [Saccharomyces cerevisiae JAY291]
+Length=308
+
+ Score = 34.3 bits (77),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  23  GFVNERNPDYVWELYGGMYGL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  73
+
+
+>sp|P25600.2|YCH4_YEAST RecName: Full=Putative transposon Ty5-1 protein YCL074W
+ gb|EDN62222.1| hypothetical protein SCY_0516 [Saccharomyces cerevisiae YJM789]
+Length=308
+
+ Score = 34.3 bits (77),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  23  GFVNERNPDYVWELYGGMYGL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  73
+
+
+>gb|EGA80159.1| hypothetical protein QA23_5298 [Saccharomyces cerevisiae Lalvin 
+QA23]
+ gb|EHN08324.1| hypothetical protein VIN7_0456 [Saccharomyces cerevisiae x Saccharomyces 
+kudriavzevii VIN7]
+Length=297
+
+ Score = 34.3 bits (77),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  12  GFVNERNPDYVWELYGGMYGL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  62
+
+
+>gb|EGA72446.1| hypothetical protein AWRI796_5227 [Saccharomyces cerevisiae AWRI796]
+Length=297
+
+ Score = 34.3 bits (77),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  20  GKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFY  71
+           G + E++ + V+E++  M  + KQA LLW   ++  LK+IG    E E   Y
+Sbjct  12  GFVNERNPDYVWELYGGMYGL-KQAPLLWNEHINNTLKKIGFCRHEGEHGLY  62
+
+
+>ref|WP_010631388.1| methionine ABC transporter ATP-binding protein [Sporolactobacillus 
+vineae]
+Length=341
+
+ Score = 33.9 bits (76),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 24/83 (29%), Positives = 43/83 (52%), Gaps = 5/83 (6%)
+
+Query  17   VDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVD----LLLKRIGLSEKEREEIFYE  72
+            VD   +TE   +++ E  + +  I++  +LLW  TV+      L+  G+ +KER+    E
+Sbjct  64   VDGQTMTELSEKELREARKQIGMIFQHFNLLWSRTVEENISFPLELAGIPKKERKSRVEE  123
+
+Query  73   MVRPYFRLFSREEVFPKEVLEGK  95
+            +VR    L  RE  +P ++  G+
+Sbjct  124  LVR-VVGLEGRESSYPSQLSGGQ  145
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312274539130
+Results from round 2
+
+
+Query= 4RS7
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_002914899.1|  ParB domain-containing protein nuclease [Sul...   141    9e-38
+ref|YP_145783.1|  hypothetical protein [Sulfolobus sp. NOB8H2] >r...   136    5e-36
+ref|YP_003421099.1|  ParB domain protein nuclease [Sulfolobus isl...   116    9e-29
+ref|NP_377268.1|  hypothetical protein ST1318 [Sulfolobus tokodai...   115    2e-28
+ref|YP_002837823.1|  ParB domain-containing protein nuclease [Sul...   113    1e-27
+ref|YP_002842011.1|  ParB domain protein nuclease [Sulfolobus isl...   113    1e-27
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_009470105.1|  dioxygenase, isopenicillin N synthase [gamma...  37.3    0.51 
+dbj|BAJ85865.1|  predicted protein [Hordeum vulgare subsp. vulgar...  35.8    1.7  
+ref|WP_004266426.1|  molecular chaperone Hsp33 [Treponema phagede...  35.0    2.7  
+ref|WP_005299630.1|  hypothetical protein [Photobacterium damsela...  34.6    3.5  
+gb|ELA41722.1|  PLK protein kinase [Vittaforma corneae ATCC 50505]    34.6    4.4  
+ref|WP_016198115.1|  multidrug ABC transporter ATPase [Elizabethk...  33.9    6.5  
+ref|WP_006645763.1|  histidine kinase [Photobacterium sp. SKA34] ...  33.9    8.6  
+ref|WP_023527870.1|  hypothetical protein [Streptomycetaceae bact...  33.5    9.9  
+
+
+>ref|YP_002914899.1| ParB domain-containing protein nuclease [Sulfolobus islandicus 
+M.16.4]
+ ref|WP_012736007.1| ParB domain-containing protein nuclease [Sulfolobus islandicus]
+ gb|ACR42231.1| ParB domain protein nuclease [Sulfolobus islandicus M.16.4]
+Length=443
+
+ Score =  141 bits (355),  Expect = 9e-38, Method: Composition-based stats.
+ Identities = 91/96 (95%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1    ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  60
+            ADL+SLY+AMPSIKKLVDEGKLTEKDAEK+YEIWRNMEAIYKQASLLWYNTV++LLKRIG
+Sbjct  348  ADLDSLYKAMPSIKKLVDEGKLTEKDAEKIYEIWRNMEAIYKQASLLWYNTVNILLKRIG  407
+
+Query  61   LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  96
+            LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL
+Sbjct  408  LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  443
+
+
+>ref|YP_145783.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+ ref|WP_011229467.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+ emb|CAA09155.1| hypothetical protein [Sulfolobus sp. NOB8H2]
+Length=470
+
+ Score =  136 bits (343),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 96/96 (100%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1    ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  60
+            ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG
+Sbjct  375  ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG  434
+
+Query  61   LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  96
+            LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL
+Sbjct  435  LSEKEREEIFYEMVRPYFRLFSREEVFPKEVLEGKL  470
+
+
+>ref|YP_003421099.1| ParB domain protein nuclease [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953409.1| ParB domain protein nuclease [Sulfolobus islandicus]
+ gb|ADB88729.1| ParB domain protein nuclease [Sulfolobus islandicus L.D.8.5]
+Length=447
+
+ Score =  116 bits (290),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  362  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  420
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  421  QQLEELFYKFVKGNMRLYPKEE  442
+
+
+>ref|NP_377268.1| hypothetical protein ST1318 [Sulfolobus tokodaii str. 7]
+ ref|WP_010979355.1| hypothetical protein [Sulfolobus tokodaii]
+ dbj|BAB66377.1| hypothetical protein STK_13180 [Sulfolobus tokodaii str. 7]
+Length=427
+
+ Score =  115 bits (287),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 27/82 (33%), Positives = 49/82 (60%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E ++   P IK+L DE KL++ +   + E+WRN +  +K  SL W++  + +L    L +
+Sbjct  342  EEMFSYCPEIKQLYDEKKLSDDNIITLAEVWRNFQIAFKNLSLNWHSVAEEVLSPY-LDK  400
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+             + E++FY+ V+   +L+ REE
+Sbjct  401  TQLEDLFYKFVKGTMKLYPREE  422
+
+
+>ref|YP_002837823.1| ParB domain-containing protein nuclease [Sulfolobus islandicus 
+Y.G.57.14]
+ ref|WP_012716275.1| ParB domain-containing protein nuclease [Sulfolobus islandicus]
+ gb|ACP45901.1| ParB domain protein nuclease [Sulfolobus islandicus Y.G.57.14]
+Length=436
+
+ Score =  113 bits (282),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  351  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  409
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  410  QQLEELFYKFVKGNMRLYPKEE  431
+
+
+>ref|YP_002842011.1| ParB domain protein nuclease [Sulfolobus islandicus Y.N.15.51]
+ ref|WP_012718300.1| ParB domain protein nuclease [Sulfolobus islandicus]
+ gb|ACP50089.1| ParB domain protein nuclease [Sulfolobus islandicus Y.N.15.51]
+Length=436
+
+ Score =  113 bits (282),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 29/82 (35%), Positives = 48/82 (59%), Gaps = 1/82 (1%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSE  63
+            E +    P IK+L +E KL E+    + E+WRN +  +K  S+ W+N  + LL    L+ 
+Sbjct  351  EEMLSNCPEIKQLYEEKKLDEEAILTMVEVWRNFQIAFKNLSINWHNVAEPLLSS-HLNR  409
+
+Query  64   KEREEIFYEMVRPYFRLFSREE  85
+            ++ EE+FY+ V+   RL+ +EE
+Sbjct  410  QQLEELFYKFVKGNMRLYPKEE  431
+
+
+>ref|WP_009470105.1| dioxygenase, isopenicillin N synthase [gamma proteobacterium 
+HIMB55]
+ gb|EHQ56582.1| dioxygenase, isopenicillin N synthase [gamma proteobacterium 
+HIMB55]
+Length=328
+
+ Score = 37.3 bits (85),  Expect = 0.51, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 40/74 (54%), Gaps = 5/74 (7%)
+
+Query  19   EGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFYEMVRPYF  78
+            +G+LTE  AE+  E+  +    YK+ ++L +  + L+ + +G SE   +++F E      
+Sbjct  111  QGQLTEHGAERFQEVLLDF---YKKQNVLAHEVMQLVCRAMGASEGALDDLFGERHTSTA  167
+
+Query  79   RL--FSREEVFPKE  90
+            RL  +  E+  P+E
+Sbjct  168  RLNNYPTEDPLPEE  181
+
+
+>dbj|BAJ85865.1| predicted protein [Hordeum vulgare subsp. vulgare]
+ dbj|BAJ86952.1| predicted protein [Hordeum vulgare subsp. vulgare]
+ dbj|BAK01351.1| predicted protein [Hordeum vulgare subsp. vulgare]
+Length=290
+
+ Score = 35.8 bits (81),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 19/103 (18%), Positives = 41/103 (40%), Gaps = 20/103 (19%)
+
+Query  1    ADLESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTV--------  52
+            AD + L R M S  K+ +   + +        +W+N    ++  ++ WY+T         
+Sbjct  70   ADQDRLLRQMESTAKIYEVKLVLDVARFGDDPLWKNGSLHFQALNIPWYSTASHGQIVSN  129
+
+Query  53   ---------DLLLKRIGLSEKEREEIFYEMVRPYFRLFSREEV  86
+                     D +L+ +G+     E++ ++         SRE++
+Sbjct  130  FLKKVKMPYDQILEIVGVDTGPLEDLLHD---GKMSNSSREQI  169
+
+
+>ref|WP_004266426.1| molecular chaperone Hsp33 [Treponema phagedenis]
+ gb|EFW37574.1| chaperonin HslO [Treponema phagedenis F0421]
+Length=367
+
+ Score = 35.0 bits (79),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 25/98 (26%), Positives = 42/98 (43%), Gaps = 10/98 (10%)
+
+Query  4    ESLYRAMPSIKKLVDEGKLTEKDAEKVYEIWRNME---AIYKQASLLWYNTVDLLLKRIG  60
+            E  + A PSI +   E    E     +Y ++R ME    + +  S     + +  L++I 
+Sbjct  271  EQAFSACPSIGQWFAENGTRED---IIYGLFRGMEPEVLLERDISFFCPCSAERFLEKIK  327
+
+Query  61   -LSEKEREEIFY---EMVRPYFRLFSREEVFPKEVLEG  94
+             L + E  +++    E +  Y      E  +PKEVL G
+Sbjct  328  TLPKDELRDMYENGPENIETYCHYCGSEYTYPKEVLNG  365
+
+
+>ref|WP_005299630.1| hypothetical protein [Photobacterium damselae]
+ gb|EEZ41164.1| hypothetical protein VDA_002196 [Photobacterium damselae subsp. 
+damselae CIP 102761]
+Length=277
+
+ Score = 34.6 bits (78),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 26/56 (46%), Gaps = 1/56 (2%)
+
+Query  31   YEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFYEMVRPYFRLFSREEV  86
+            YE+WR     Y   S LW    + +LKR  +++   E IFY        L S EE+
+Sbjct  51   YEVWRARSGFYNNISELWCPPAECVLKRGRMNDIN-ESIFYSCFGHNANLGSLEEI  105
+
+
+>gb|ELA41722.1| PLK protein kinase [Vittaforma corneae ATCC 50505]
+Length=479
+
+ Score = 34.6 bits (78),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 34/71 (48%), Gaps = 1/71 (1%)
+
+Query  22   LTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIG-LSEKEREEIFYEMVRPYFRL  80
+            L   +  K+Y  +RN E ++    L     +D LLKR G L EK   +   ++V+    L
+Sbjct  78   LDHPNVVKMYTSFRNSEYVFMVLELCERGALDELLKRNGKLKEKYVSKFVSQLVKGLMYL  137
+
+Query  81   FSREEVFPKEV  91
+              ++ V  +++
+Sbjct  138  HHQKSVVHRDL  148
+
+
+>ref|WP_016198115.1| multidrug ABC transporter ATPase [Elizabethkingia meningoseptica]
+ gb|EOR31025.1| multidrug ABC transporter ATPase [Elizabethkingia meningoseptica 
+ATCC 13253 = NBRC 12535]
+Length=211
+
+ Score = 33.9 bits (76),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 26/62 (42%), Gaps = 5/62 (8%)
+
+Query  37   MEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIFYEMVRP--YFRLFSREEVFPKEVLEG  94
+             ++I    S+ W+N     LKR  +S  E E  FY  +    Y   FS   VF  + L  
+Sbjct  48   YQSIKYNGSINWHNEA---LKREHISYLETENYFYPYITGKEYLSYFSESNVFKYQELSD  104
+
+Query  95   KL  96
+            + 
+Sbjct  105  RF  106
+
+
+>ref|WP_006645763.1| histidine kinase [Photobacterium sp. SKA34]
+ gb|EAR55349.1| putative sensor transduction kinase (copper resistance) [Photobacterium 
+sp. SKA34]
+Length=473
+
+ Score = 33.9 bits (76),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  21   KLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEI  69
+            K+ +      Y+IW+N + IY+  SL  Y  ++LL K++ L+  +  ++
+Sbjct  65   KIRDDTDYAYYQIWKNDDVIYRSTSLNDYPNINLLHKKLPLNSYQIVDV  113
+
+
+>ref|WP_023527870.1| hypothetical protein [Streptomycetaceae bacterium MP113-05]
+ gb|EST39079.1| hypothetical protein N566_03975 [Streptomycetaceae bacterium 
+MP113-05]
+Length=285
+
+ Score = 33.5 bits (75),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 17/76 (22%), Positives = 34/76 (45%), Gaps = 1/76 (1%)
+
+Query  11   PSIKKLVDEGKLTEKDAEKVYEIWRNMEAIYKQASLLWYNTVDLLLKRIGLSEKEREEIF  70
+            P+I+++ ++ +L+E+D     E   +   +   A L   +    LL  +G ++   + I 
+Sbjct  150  PTIRQVAEQAELSEEDVLTGMEALESFRTLSLDAQLTAKDDDYSLLDTLGTADAGYDHIL  209
+
+Query  71   Y-EMVRPYFRLFSREE  85
+            Y E V+P        E
+Sbjct  210  YREAVKPEIEALPERE  225
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.136    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 312274539130
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,343 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3BTPB
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_053402.1|  hypothetical protein pTi-SAKURA_p164 [Agrobacte...   127    1e-36
+ref|YP_002540120.1|  protein secretion chaperone [Agrobacterium v...  99.4    1e-25
+ref|YP_471655.1|  virulence VirE1 protein [Rhizobium etli CFN 42]...  97.4    8e-25
+ref|YP_001967550.1|  VirE1 [Agrobacterium tumefaciens] >ref|WP_01...  68.9    8e-14
+ref|NP_059818.1|  hypothetical protein pTi_146 [Agrobacterium tum...  65.9    1e-12
+ref|YP_007680645.1|  arylsulfatase regulator [Clostridium stercor...  34.7    2.3  
+ref|WP_005470711.1|  23S rRNA methyltransferase [Vibrio sp. 16] >...  34.3    3.2  
+
+
+>ref|NP_053402.1| hypothetical protein pTi-SAKURA_p164 [Agrobacterium tumefaciens]
+ ref|NP_396509.1| type IV secretion system chaperone VirE1 [Agrobacterium fabrum 
+str. C58]
+ ref|WP_010891482.1| type VI secretion protein [Agrobacterium tumefaciens complex]
+ sp|P08063.1|VIRE1_AGRT5 RecName: Full=Protein virE1; AltName: Full=7.1 kDa virulence 
+protein
+ pdb|3BTP|B Chain B, Crystal Structure Of Agrobacterium Tumefaciens Vire2 
+In Complex With Its Chaperone Vire1: A Novel Fold And Implications 
+For Dna Binding
+ gb|AAA98371.1| virulence protein [Plasmid Ti]
+ gb|AAA91609.1| virE2 [Plasmid Ti]
+ dbj|BAA87787.1| tiorf162 [Agrobacterium tumefaciens]
+ gb|AAK90950.1| protein secretion chaperone [Agrobacterium fabrum str. C58]
+ prf||1921363W virE2 protein
+Length=63
+
+ Score =  127 bits (319),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN
+Sbjct  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|YP_002540120.1| protein secretion chaperone [Agrobacterium vitis S4]
+ ref|WP_012649042.1| type VI secretion protein [Agrobacterium vitis]
+ gb|ACM39680.1| protein secretion chaperone [Agrobacterium vitis S4]
+Length=63
+
+ Score = 99.4 bits (246),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 47/63 (75%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M I +LN NKNMPVL+ E+PQ+ H EELSD++Q NGFTSLDL+MIELENFVL CPLPE+N
+Sbjct  1   MAISELNVNKNMPVLSGEEPQKFHMEELSDNYQPNGFTSLDLDMIELENFVLQCPLPEDN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|YP_471655.1| virulence VirE1 protein [Rhizobium etli CFN 42]
+ ref|WP_011427363.1| type VI secretion protein [Rhizobium etli]
+ gb|AAD55074.1|AF176227_8 VirE1 [Rhizobium etli]
+ gb|ABC92928.1| virulence VirE1 protein [Rhizobium etli CFN 42]
+Length=65
+
+ Score = 97.4 bits (241),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 48/63 (76%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIKLNANK  PV   E+P+EIH E  S +H+SNGFTSLDLEMIELENFVL CPLPEEN
+Sbjct  1   MAIIKLNANKTRPVSLPEEPREIHTEAFSINHRSNGFTSLDLEMIELENFVLRCPLPEEN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|YP_001967550.1| VirE1 [Agrobacterium tumefaciens]
+ ref|WP_012478090.1| type IV secretion system chaperone VirE1 [Agrobacterium tumefaciens]
+ gb|AAZ50537.1| VirE1 [Agrobacterium tumefaciens]
+ gb|ABK01312.1| VirE1 [Cloning vector pCAMBIA5105]
+Length=65
+
+ Score = 68.9 bits (167),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 35/63 (56%), Positives = 45/63 (71%), Gaps = 1/63 (2%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIK + NKN     +E+P+ +  EE+S  H  +GFT+LDL MIELE+FV  CPLPE+N
+Sbjct  1   MAIIKPHVNKNRTTSPIERPESL-IEEMSGSHPPSGFTNLDLAMIELEDFVHRCPLPEDN  59
+
+Query  61  LAG  63
+           LAG
+Sbjct  60  LAG  62
+
+
+>ref|NP_059818.1| hypothetical protein pTi_146 [Agrobacterium tumefaciens]
+ ref|WP_010892506.1| type IV secretion system chaperone VirE1 [Agrobacterium tumefaciens]
+ sp|P07543.1|VIRE1_AGRTU RecName: Full=Protein virE1
+ gb|AAA27399.1| virE1 protein [Plasmid pTiA6]
+ gb|AAF77176.1| virE1 [Agrobacterium tumefaciens]
+ emb|CAC15174.1| VirE1 protein [Agrobacterium tumefaciens]
+Length=65
+
+ Score = 65.9 bits (159),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 35/63 (56%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIK +ANKN     +E+P+ +  EE+S  +   GFTSLDL MIELE+FV  CPLP +N
+Sbjct  1   MAIIKPHANKNRTTSPIERPESL-IEEMSGSNPPIGFTSLDLAMIELEDFVHRCPLPGDN  59
+
+Query  61  LAG  63
+           LAG
+Sbjct  60  LAG  62
+
+
+>ref|YP_007680645.1| arylsulfatase regulator [Clostridium stercorarium subsp. stercorarium 
+DSM 8532]
+ ref|WP_015485184.1| arylsulfatase regulator [[Clostridium] stercorarium]
+ gb|AGI40627.1| arylsulfatase regulator [Clostridium stercorarium subsp. stercorarium 
+DSM 8532]
+Length=281
+
+ Score = 34.7 bits (78),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  9   NKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENF  50
+           N+ +P  A E P  +++E+L +++++ GFT L L++ E  NF
+Sbjct  49  NELLPFYAKEMPDVVNEEKLENYYRAQGFTELILKVTEKCNF  90
+
+
+>ref|WP_005470711.1| 23S rRNA methyltransferase [Vibrio sp. 16]
+ gb|EED27741.1| methyltransferase [Vibrio sp. 16]
+Length=341
+
+ Score = 34.3 bits (77),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 19/52 (37%), Positives = 29/52 (56%), Gaps = 2/52 (4%)
+
+Query  11  NMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEENLA  62
+           NM V+ V+    +HK  L  HH    FT L   + EL+N+V+  P  E+++A
+Sbjct  17  NMKVVKVKGKAGLHKNNL--HHGRYDFTKLIAALPELKNYVIKTPKGEQSIA  66
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.133    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311538060400
+Results from round 2
+
+
+Query= 3BTPB
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_471655.1|  virulence VirE1 protein [Rhizobium etli CFN 42]...  99.4    1e-25
+ref|NP_053402.1|  hypothetical protein pTi-SAKURA_p164 [Agrobacte...  98.6    3e-25
+ref|YP_002540120.1|  protein secretion chaperone [Agrobacterium v...  98.2    3e-25
+ref|NP_059818.1|  hypothetical protein pTi_146 [Agrobacterium tum...  96.3    2e-24
+ref|YP_001967550.1|  VirE1 [Agrobacterium tumefaciens] >ref|WP_01...  95.9    3e-24
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_005846908.1|  hypothetical protein CHLNCDRAFT_134789, part...  32.7    9.7  
+
+
+>ref|YP_471655.1| virulence VirE1 protein [Rhizobium etli CFN 42]
+ ref|WP_011427363.1| type VI secretion protein [Rhizobium etli]
+ gb|AAD55074.1|AF176227_8 VirE1 [Rhizobium etli]
+ gb|ABC92928.1| virulence VirE1 protein [Rhizobium etli CFN 42]
+Length=65
+
+ Score = 99.4 bits (246),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 48/63 (76%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIKLNANK  PV   E+P+EIH E  S +H+SNGFTSLDLEMIELENFVL CPLPEEN
+Sbjct  1   MAIIKLNANKTRPVSLPEEPREIHTEAFSINHRSNGFTSLDLEMIELENFVLRCPLPEEN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|NP_053402.1| hypothetical protein pTi-SAKURA_p164 [Agrobacterium tumefaciens]
+ ref|NP_396509.1| type IV secretion system chaperone VirE1 [Agrobacterium fabrum 
+str. C58]
+ ref|WP_010891482.1| type VI secretion protein [Agrobacterium tumefaciens complex]
+ sp|P08063.1|VIRE1_AGRT5 RecName: Full=Protein virE1; AltName: Full=7.1 kDa virulence 
+protein
+ pdb|3BTP|B Chain B, Crystal Structure Of Agrobacterium Tumefaciens Vire2 
+In Complex With Its Chaperone Vire1: A Novel Fold And Implications 
+For Dna Binding
+ gb|AAA98371.1| virulence protein [Plasmid Ti]
+ gb|AAA91609.1| virE2 [Plasmid Ti]
+ dbj|BAA87787.1| tiorf162 [Agrobacterium tumefaciens]
+ gb|AAK90950.1| protein secretion chaperone [Agrobacterium fabrum str. C58]
+ prf||1921363W virE2 protein
+Length=63
+
+ Score = 98.6 bits (244),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN
+Sbjct  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|YP_002540120.1| protein secretion chaperone [Agrobacterium vitis S4]
+ ref|WP_012649042.1| type VI secretion protein [Agrobacterium vitis]
+ gb|ACM39680.1| protein secretion chaperone [Agrobacterium vitis S4]
+Length=63
+
+ Score = 98.2 bits (243),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 47/63 (75%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M I +LN NKNMPVL+ E+PQ+ H EELSD++Q NGFTSLDL+MIELENFVL CPLPE+N
+Sbjct  1   MAISELNVNKNMPVLSGEEPQKFHMEELSDNYQPNGFTSLDLDMIELENFVLQCPLPEDN  60
+
+Query  61  LAG  63
+           LAG
+Sbjct  61  LAG  63
+
+
+>ref|NP_059818.1| hypothetical protein pTi_146 [Agrobacterium tumefaciens]
+ ref|WP_010892506.1| type IV secretion system chaperone VirE1 [Agrobacterium tumefaciens]
+ sp|P07543.1|VIRE1_AGRTU RecName: Full=Protein virE1
+ gb|AAA27399.1| virE1 protein [Plasmid pTiA6]
+ gb|AAF77176.1| virE1 [Agrobacterium tumefaciens]
+ emb|CAC15174.1| VirE1 protein [Agrobacterium tumefaciens]
+Length=65
+
+ Score = 96.3 bits (238),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 44/63 (70%), Gaps = 1/63 (2%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIK +ANKN     +E+P+ +  EE+S  +   GFTSLDL MIELE+FV  CPLP +N
+Sbjct  1   MAIIKPHANKNRTTSPIERPESL-IEEMSGSNPPIGFTSLDLAMIELEDFVHRCPLPGDN  59
+
+Query  61  LAG  63
+           LAG
+Sbjct  60  LAG  62
+
+
+>ref|YP_001967550.1| VirE1 [Agrobacterium tumefaciens]
+ ref|WP_012478090.1| type IV secretion system chaperone VirE1 [Agrobacterium tumefaciens]
+ gb|AAZ50537.1| VirE1 [Agrobacterium tumefaciens]
+ gb|ABK01312.1| VirE1 [Cloning vector pCAMBIA5105]
+Length=65
+
+ Score = 95.9 bits (237),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 45/63 (71%), Gaps = 1/63 (2%)
+
+Query  1   MVIIKLNANKNMPVLAVEKPQEIHKEELSDHHQSNGFTSLDLEMIELENFVLHCPLPEEN  60
+           M IIK + NKN     +E+P+ +  EE+S  H  +GFT+LDL MIELE+FV  CPLPE+N
+Sbjct  1   MAIIKPHVNKNRTTSPIERPESL-IEEMSGSHPPSGFTNLDLAMIELEDFVHRCPLPEDN  59
+
+Query  61  LAG  63
+           LAG
+Sbjct  60  LAG  62
+
+
+>ref|XP_005846908.1| hypothetical protein CHLNCDRAFT_134789, partial [Chlorella variabilis]
+ gb|EFN54806.1| hypothetical protein CHLNCDRAFT_134789, partial [Chlorella variabilis]
+Length=282
+
+ Score = 32.7 bits (73),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 19/40 (48%), Gaps = 1/40 (3%)
+
+Query  15   LAVEKPQEIHKEELSDHHQSNGFTSLDLEMIEL-ENFVLH  53
+            L   KP E  +EE    H   G TSLDL+ I +   FV  
+Sbjct  116  LPPTKPLEAPEEEQYTSHIPEGLTSLDLDTIRMTAQFVAR  155
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311538060400
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

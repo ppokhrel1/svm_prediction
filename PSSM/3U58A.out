@@ -1,0 +1,1112 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3U58A
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   427    6e-150
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   381    3e-125
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   306    1e-96 
+pdb|3U4V|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   220    5e-70 
+pdb|3U4Z|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   194    5e-60 
+emb|CDI83163.1|  replication factor-A C terminal domain-containin...  42.4    0.12  
+emb|CDJ26845.1|  replication factor-A C terminal domain-containin...  42.4    0.12  
+ref|XP_004211765.1|  PREDICTED: replication protein A 70 kDa DNA-...  42.0    0.13  
+emb|CDJ58112.1|  replication factor-A C terminal domain-containin...  41.2    0.29  
+ref|XP_002779439.1|  replication protein A 70kDa, putative [Perki...  39.7    1.0   
+ref|XP_001458582.1|  hypothetical protein [Paramecium tetraurelia...  38.5    2.2   
+ref|WP_023408475.1|  hypothetical protein, partial [uncultured De...  37.7    2.8   
+ref|WP_006722181.1|  hypothetical protein [Collinsella stercoris]...  37.7    2.9   
+ref|XP_002767785.1|  conserved hypothetical protein [Perkinsus ma...  36.6    3.2   
+ref|WP_021874789.1|  Putative Hyaluronidase [Clostridium chauvoei...  37.4    5.2   
+ref|XP_002141610.1|  OB-fold nucleic acid binding domain-containi...  37.4    5.3   
+gb|EGZ23584.1|  hypothetical protein PHYSODRAFT_556228 [Phytophth...  37.0    6.6   
+ref|XP_002767427.1|  replication factor a 1, rfa1, putative [Perk...  36.6    7.6   
+ref|XP_002767426.1|  replication factor a 1, rfa1, putative [Perk...  36.6    7.7   
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  427 bits (1097),  Expect = 6e-150, Method: Compositional matrix adjust.
+ Identities = 213/213 (100%), Positives = 213/213 (100%), Gaps = 0/213 (0%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL  120
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL
+Sbjct  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL  120
+
+Query  121  LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI  180
+            LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI
+Sbjct  121  LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI  180
+
+Query  181  NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  181  NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  381 bits (978),  Expect = 3e-125, Method: Compositional matrix adjust.
+ Identities = 202/267 (76%), Positives = 205/267 (77%), Gaps = 54/267 (20%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  203  GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  262
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGS-----  115
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  +     
+Sbjct  263  NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLSANYVQPL  322
+
+Query  116  -------------GGSTLLISEVL------------------------------------  126
+                         G S   I  ++                                    
+Sbjct  323  ALQPSKQFGNDSIGDSDYSIHNLIEKEESIAQKGYNGQKNNKYRQNNNNSKHTLLISEVL  382
+
+Query  127  KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF  186
+            KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF
+Sbjct  383  KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF  442
+
+Query  187  NEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            NEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  443  NEFVRQIYNDEVQLKNNIHSSIKESDD  469
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  306 bits (784),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 173/269 (64%), Positives = 181/269 (67%), Gaps = 74/269 (28%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  194  GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  253
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGS-----  115
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  +     
+Sbjct  254  NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLSANYVQPL  313
+
+Query  116  -------------GGSTLLISEVLKTSK--------------------------------  130
+                         G S   I  +++  K                                
+Sbjct  314  ALQPSKQFGNDSIGDSDYSIHNLMQNEKEESIAQKGYNGQKNNKYRQNNNNSKHTLLISE  373
+
+Query  131  ------QYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWY  184
+                  QYLSVLAQVV        +R          +L   ++ DLCYEWRDKFSINKWY
+Sbjct  374  VLKTSKQYLSVLAQVV--------VR----------QLLRGLYVDLCYEWRDKFSINKWY  415
+
+Query  185  YFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            YFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  416  YFNEFVRQIYNDEVQLKNNIHSSIKESDD  444
+
+
+>pdb|3U4V|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+ pdb|3U4V|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+Length=117
+
+ Score =  220 bits (561),  Expect = 5e-70, Method: Compositional matrix adjust.
+ Identities = 111/112 (99%), Positives = 111/112 (99%), Gaps = 0/112 (0%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  64
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  112
+            N SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL
+Sbjct  65   NXSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  116
+
+
+>pdb|3U4Z|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+ pdb|3U4Z|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+Length=109
+
+ Score =  194 bits (494),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  119  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  178
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+
+Query  179  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  95
+
+
+>emb|CDI83163.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria acervulina]
+Length=484
+
+ Score = 42.4 bits (98),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 42/148 (28%), Positives = 67/148 (45%), Gaps = 17/148 (11%)
+
+Query  8    SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQK  67
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  68   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKETLGGSGGST  119
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E     G  +
+Sbjct  67   AAEKWHGALEKGKVYCFCRGRVNVANKRFSTLSNNYELSFS-AEADIKPAE---DDGLCS  122
+
+Query  120  LLISEVLKTSKQ---YLSVLAQVVDIQS  144
+            + +  +  ++++      VLA VV++Q 
+Sbjct  123  MPLRNIFNSTRECPFPTDVLAVVVEVQP  150
+
+
+>emb|CDJ26845.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria mitis]
+Length=439
+
+ Score = 42.4 bits (98),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 43/148 (29%), Positives = 67/148 (45%), Gaps = 17/148 (11%)
+
+Query  8    SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQK  67
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  68   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKETLGGSGGST  119
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E     G  +
+Sbjct  67   AAEKWHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSFST-EADIKPAED---DGLCS  122
+
+Query  120  LLISEVLKTSKQ---YLSVLAQVVDIQS  144
+            + +  +  ++++      VLA VVD+Q 
+Sbjct  123  MPLRTIFNSTRECPFPTDVLAVVVDVQP  150
+
+
+>ref|XP_004211765.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like, 
+partial [Hydra vulgaris]
+Length=398
+
+ Score = 42.0 bits (97),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 34/109 (31%), Positives = 53/109 (49%), Gaps = 12/109 (11%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANN  57
+            GS+ D  SK    IS L   +NR++ +   R+  KSS  T+ N + D K F I   D + 
+Sbjct  137  GSVVDSNSKSVFPISSLTPYQNRWTIR--ARITNKSSIRTWSNSRGDGKLFSIDLVDESG  194
+
+Query  58   QEINLSFWQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLELKF  99
+            +    +F + VD+ Y  L++G+ YY   G +K         KN+ E+  
+Sbjct  195  EIRATAFNEVVDKYYDLLEIGKVYYITKGSLKTANKQYSSLKNDYEMTL  243
+
+
+>emb|CDJ58112.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria maxima]
+Length=495
+
+ Score = 41.2 bits (95),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 44/148 (30%), Positives = 64/148 (43%), Gaps = 18/148 (12%)
+
+Query  12   LLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQS  71
+            L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW    + 
+Sbjct  13   LSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGDAAEK  70
+
+Query  72   YQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKETLGGSGGSTLLIS  123
+            +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E  G       L S
+Sbjct  71   WHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSFS-AEADIKPAEDDGSIHAKRSLCS  129
+
+Query  124  EVLK----TSKQ---YLSVLAQVVDIQS  144
+              L+    ++++      VLA VV++Q 
+Sbjct  130  MPLRGIFNSTRECPFPTDVLAVVVEVQP  157
+
+
+>ref|XP_002779439.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER11234.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+Length=788
+
+ Score = 39.7 bits (91),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 35/102 (34%), Positives = 49/102 (48%), Gaps = 10/102 (10%)
+
+Query  14   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLSFWQK-VD  69
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  70   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  107
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+>ref|XP_001458582.1| hypothetical protein [Paramecium tetraurelia strain d4-2]
+ emb|CAK91185.1| unnamed protein product [Paramecium tetraurelia]
+Length=730
+
+ Score = 38.5 bits (88),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 58/214 (27%), Positives = 92/214 (43%), Gaps = 33/214 (15%)
+
+Query  24   FSFKFEGRVV----YKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQSYQTLKVGQ  79
+            F   F GRVV     KS T +NQ+D K F I   D  N    + F    ++ +  +  G+
+Sbjct  315  FQQPFRGRVVKVNEIKSYTTKNQKDGKMFGIQVIDEENLVSAMFFDSAAEKFHDYIVQGR  374
+
+Query  80   YYYFIGGEVKQFKNNLELKFKFG----DY------QIIPKETLGGSGGSTLLISEVLKTS  129
+             Y F G  VK  K NLE   K G    DY      QII  + + G   +T    ++   S
+Sbjct  375  CYIFSGVLVKPAK-NLEQLQKIGCLPFDYTFDQNSQIIEIDDVPGIPLNTFNFVKLNSIS  433
+
+Query  130  KQYLSVLAQVV----------DIQSSDKN-----IRLKICDNSCNQELKVVIFPDLCYEW  174
+            +Q +  +  VV          + Q  +K+     I+L + D+S  QE+++ ++  L  ++
+Sbjct  434  QQKVGSIQDVVVVIKSSSGVKEFQQKNKDEKSTRIQLGVYDDSL-QEIEITLYGHLAQQY  492
+
+Query  175  RDKFSINKWYYFNEFVRQIYNDEVQLKNNIHSSI  208
+               + + + Y F       Y     L+NN  +SI
+Sbjct  493  --PYQVGEIYMFKSLKINEYQGRKSLQNNYQTSI  524
+
+
+>ref|WP_023408475.1| hypothetical protein, partial [uncultured Desulfofustis sp. PB-SRB1]
+ gb|ESQ09135.1| hypothetical protein N839_18740, partial [uncultured Desulfofustis 
+sp. PB-SRB1]
+Length=357
+
+ Score = 37.7 bits (86),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 28/104 (27%), Positives = 54/104 (52%), Gaps = 6/104 (6%)
+
+Query  49   FITAQD-ANNQEINLS-FWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQI  106
+             IT ++ + N EI+L+ F + V +  QT  +G    F+    ++F + L    ++GD  +
+Sbjct  111  LITGREHSTNLEIDLAPFERDVPKMNQTRSIGSGVEFLN---RRFSSRLSNALRYGDDLL  167
+
+Query  107  IPKETLGGSGGSTLLISEVLKTSKQYLSVLAQVVD-IQSSDKNI  149
+            +P   +   G  T LIS  +K S +  + LA  ++ I++ D ++
+Sbjct  168  LPFLQVHAYGDQTFLISPAIKNSTELRAALADALEYIKAQDSDL  211
+
+
+>ref|WP_006722181.1| hypothetical protein [Collinsella stercoris]
+ gb|EEA89277.1| hypothetical protein COLSTE_02564 [Collinsella stercoris DSM 
+13279]
+Length=264
+
+ Score = 37.7 bits (86),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 36/134 (27%), Positives = 61/134 (46%), Gaps = 10/134 (7%)
+
+Query  14   ISQLQVGKNRFSFKFE-GRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQSY  72
+            I+ L  G+N      E G     S T  N  + K+     +DA++ EI    W++++Q+Y
+Sbjct  102  IAYLMPGENEVVLLAEKGDGTVASYTPDNGDEQKFGL---EDASDIEIETGGWEQLEQNY  158
+
+Query  73   QTLKVGQYYYFI-----GGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL-LISEVL  126
+              L   +    I     G       NN E +++  +  +  ++  GG GG+ L + S+ L
+Sbjct  159  DILTPEECDLTIDIAPDGKLSGTITNNTEDRWRKAEVFLRAEDGNGGPGGALLKMASDDL  218
+
+Query  127  KTSKQYLSVLAQVV  140
+            +TS  Y  V A+ V
+Sbjct  219  RTSFSYADVYAEYV  232
+
+
+>ref|XP_002767785.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+ gb|EER00503.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+Length=143
+
+ Score = 36.6 bits (83),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 27/100 (27%), Positives = 47/100 (47%), Gaps = 8/100 (8%)
+
+Query  13   LISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQSY  72
+            LIS L+VG   +  +  GRVV KS  F      + F     D ++  + L F+ +    +
+Sbjct  34   LISNLRVGSTDWCLR--GRVVSKSEIF-GISTGELFHAHISDEDSNTVKLLFFDEAAHIF  90
+
+Query  73   Q-TLKVGQYYYFIGGEV----KQFKNNLELKFKFGDYQII  107
+              ++++G  YYF  G+V     +F    +++ KF    +I
+Sbjct  91   HDSIQIGAIYYFRNGKVLRAHSKFNKEADVEIKFDTSAVI  130
+
+
+>ref|WP_021874789.1| Putative Hyaluronidase [Clostridium chauvoei]
+ emb|CDG00842.1| Putative Hyaluronidase [Clostridium chauvoei JF4335]
+Length=1886
+
+ Score = 37.4 bits (85),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 31/130 (24%), Positives = 62/130 (48%), Gaps = 15/130 (12%)
+
+Query  90    QFKNNLELKFKFGDYQIIPKETLGGSGGSTLLISEVLKTSKQYLS--------VLAQVVD  141
+             +  N+  LK KF +  +I  E    +  S  ++ + LKT+++ L+        +   + D
+Sbjct  1348  ELPNSDNLKAKFDELSLINGENY--TAESFKVLQDALKTAEEVLNNNNALQTEIDKVLAD  1405
+
+Query  142   IQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYFNEFVRQIYNDEVQLK  201
+             + ++++ + L I D S  QEL      D C    DK++++ W  +NE +         L+
+Sbjct  1406  LIAAEEGLVLNIADGSALQELV-----DSCNFVEDKYTVSSWTSYNEVLNLAKGILADLQ  1460
+
+Query  202   NNIHSSIKES  211
+             NN  +++ E+
+Sbjct  1461  NNNQTAVDEA  1470
+
+
+>ref|XP_002141610.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+ gb|EEA07261.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+Length=475
+
+ Score = 37.4 bits (85),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 34/68 (50%), Gaps = 2/68 (3%)
+
+Query  18  QVGKNRFSFKFEGRVVYKSSTFQN-QQDSKYFFITAQDANNQEINLSFWQK-VDQSYQTL  75
+           +V  NR     +GRV+ KS T Q  + D K+F I   D +   I + FW+   ++ Y  +
+Sbjct  5   EVNVNRQIITLKGRVIEKSRTLQTLRNDLKFFHIDLIDKDGDTIKVKFWRNKAEEYYNKI  64
+
+Query  76  KVGQYYYF  83
+           + G  Y F
+Sbjct  65  EQGDVYIF  72
+
+
+>gb|EGZ23584.1| hypothetical protein PHYSODRAFT_556228 [Phytophthora sojae]
+Length=629
+
+ Score = 37.0 bits (84),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 27/46 (59%), Gaps = 1/46 (2%)
+
+Query  45   SKYFFITAQDANNQEINLSFWQK-VDQSYQTLKVGQYYYFIGGEVK  89
+             K F +   DA   EI  +F+   VD+ Y+TL+ G  +YF GG+VK
+Sbjct  230  GKLFSVDLLDARGGEIRATFFNDGVDKFYETLRPGGVFYFAGGKVK  275
+
+
+>ref|XP_002767427.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00145.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=577
+
+ Score = 36.6 bits (83),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 52/109 (48%), Gaps = 10/109 (9%)
+
+Query  7    LSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLS  63
+            ++   + ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +
+Sbjct  308  VASDIIPISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRAT  365
+
+Query  64   FW-QKVDQSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  107
+            F+   V + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  366  FFNSAVTKFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  414
+
+
+>ref|XP_002767426.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00144.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=582
+
+ Score = 36.6 bits (83),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 52/109 (48%), Gaps = 10/109 (9%)
+
+Query  7    LSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLS  63
+            ++   + ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +
+Sbjct  313  VASDIIPISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRAT  370
+
+Query  64   FW-QKVDQSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQII  107
+            F+   V + Y  ++ G+ Y F  G+VKQ    F      +  F D  II
+Sbjct  371  FFNSAVTKFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAII  419
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 553224305176
+Results from round 2
+
+
+Query= 3U58A
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3U58|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   358    6e-123
+gb|ACJ61511.1|  telomerase-associated protein 82 [Tetrahymena the...   337    3e-108
+ref|XP_001020548.1|  hypothetical protein TTHERM_00218760 [Tetrah...   290    1e-90 
+pdb|3U4V|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   188    2e-57 
+pdb|3U4Z|A  Chain A, Crystal Structure Of The Tetrahymena Telomer...   159    4e-46 
+
+Sequences not found previously or not previously below threshold:
+
+emb|CDI83163.1|  replication factor-A C terminal domain-containin...  45.0    0.014
+emb|CDJ26845.1|  replication factor-A C terminal domain-containin...  43.9    0.035
+ref|XP_002767427.1|  replication factor a 1, rfa1, putative [Perk...  42.0    0.15 
+ref|XP_002767426.1|  replication factor a 1, rfa1, putative [Perk...  42.0    0.15 
+ref|XP_002779439.1|  replication protein A 70kDa, putative [Perki...  42.0    0.17 
+ref|XP_004211765.1|  PREDICTED: replication protein A 70 kDa DNA-...  41.6    0.20 
+ref|WP_023408475.1|  hypothetical protein, partial [uncultured De...  39.3    0.88 
+gb|AAD09019.1|  copia protein [Zea mays]                              39.3    1.0  
+ref|XP_002837718.1|  hypothetical protein [Tuber melanosporum Mel...  38.5    2.0  
+ref|XP_002767785.1|  conserved hypothetical protein [Perkinsus ma...  37.3    2.1  
+ref|XP_002141610.1|  OB-fold nucleic acid binding domain-containi...  38.1    2.5  
+gb|ABA08422.1|  polymerase [Zea mays]                                 36.9    4.5  
+gb|ABA08423.1|  polymerase [Zea mays]                                 36.9    4.7  
+gb|EMD45158.1|  replication protein 70 kDa DNAbinding subunit, pu...  36.9    5.8  
+ref|XP_650233.1|  replication factor A protein 1 [Entamoeba histo...  36.9    5.9  
+ref|WP_021903544.1|  v-type ATPase subunit I [Porphyromonas sp. C...  36.9    6.1  
+ref|YP_004972519.1|  cobalt transport protein ATP-binding subunit...  36.6    6.4  
+gb|EKE38631.1|  replication factor A protein 1, putative [Entamoe...  36.9    6.7  
+ref|XP_001733974.1|  replication protein A 70 kDa DNA-binding sub...  36.9    6.7  
+gb|AEJ07927.1|  Opie2 pol protein [Zea mays subsp. mexicana]          36.9    7.3  
+ref|WP_021874789.1|  Putative Hyaluronidase [Clostridium chauvoei...  36.9    7.3  
+gb|AAC49502.1|  Pol [Zea mays]                                        36.9    7.3  
+ref|WP_019252079.1|  ABC transporter ATP-binding protein [Lactoba...  36.6    8.0  
+gb|ABF67947.1|  Opie2 pol protein [Zea mays]                          36.9    8.0  
+gb|AEJ07899.1|  Opie3 putative pol protein [Zea mays subsp. mexic...  36.9    8.1  
+gb|AEJ07931.1|  Opie3 pol protein [Zea mays subsp. mexicana]          36.6    9.3  
+gb|ABF67946.1|  putative Opie4 pol protein [Zea mays]                 36.6    9.6  
+
+
+>pdb|3U58|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|C Chain C, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+ pdb|3U58|D Chain D, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ab
+Length=213
+
+ Score =  358 bits (920),  Expect = 6e-123, Method: Composition-based stats.
+ Identities = 213/213 (100%), Positives = 213/213 (100%), Gaps = 0/213 (0%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL  120
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL
+Sbjct  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTL  120
+
+Query  121  LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI  180
+            LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI
+Sbjct  121  LISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSI  180
+
+Query  181  NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  181  NKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+
+
+>gb|ACJ61511.1| telomerase-associated protein 82 [Tetrahymena thermophila]
+Length=701
+
+ Score =  337 bits (864),  Expect = 3e-108, Method: Composition-based stats.
+ Identities = 203/267 (76%), Positives = 205/267 (77%), Gaps = 54/267 (20%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  203  GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  262
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGS-----  115
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  +     
+Sbjct  263  NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLSANYVQPL  322
+
+Query  116  -------------GGSTLLISEV------------------------------------L  126
+                         G S   I  +                                    L
+Sbjct  323  ALQPSKQFGNDSIGDSDYSIHNLIEKEESIAQKGYNGQKNNKYRQNNNNSKHTLLISEVL  382
+
+Query  127  KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF  186
+            KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF
+Sbjct  383  KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYF  442
+
+Query  187  NEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            NEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  443  NEFVRQIYNDEVQLKNNIHSSIKESDD  469
+
+
+>ref|XP_001020548.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila]
+ gb|EAS00303.1| hypothetical protein TTHERM_00218760 [Tetrahymena thermophila 
+SB210]
+Length=676
+
+ Score =  290 bits (743),  Expect = 1e-90, Method: Composition-based stats.
+ Identities = 175/269 (65%), Positives = 182/269 (68%), Gaps = 74/269 (28%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  194  GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  253
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGS-----  115
+            NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL  +     
+Sbjct  254  NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLSANYVQPL  313
+
+Query  116  -------------GGSTLLISEVL------------------------------------  126
+                         G S   I  ++                                    
+Sbjct  314  ALQPSKQFGNDSIGDSDYSIHNLMQNEKEESIAQKGYNGQKNNKYRQNNNNSKHTLLISE  373
+
+Query  127  --KTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWY  184
+              KTSKQYLSVLAQVV                   ++L   ++ DLCYEWRDKFSINKWY
+Sbjct  374  VLKTSKQYLSVLAQVV------------------VRQLLRGLYVDLCYEWRDKFSINKWY  415
+
+Query  185  YFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            YFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  416  YFNEFVRQIYNDEVQLKNNIHSSIKESDD  444
+
+
+>pdb|3U4V|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+ pdb|3U4V|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-A
+Length=117
+
+ Score =  188 bits (477),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 111/113 (98%), Positives = 111/113 (98%), Gaps = 0/113 (0%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  60
+            GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI
+Sbjct  5    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEI  64
+
+Query  61   NLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLG  113
+            N SFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETL 
+Sbjct  65   NXSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLS  117
+
+
+>pdb|3U4Z|A Chain A, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+ pdb|3U4Z|B Chain B, Crystal Structure Of The Tetrahymena Telomerase Processivity 
+Factor Teb1 Ob-B
+Length=109
+
+ Score =  159 bits (401),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  119  TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  178
+            TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF
+Sbjct  1    TLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKF  60
+
+Query  179  SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  213
+            SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD
+Sbjct  61   SINKWYYFNEFVRQIYNDEVQLKNNIHSSIKESDD  95
+
+
+>emb|CDI83163.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria acervulina]
+Length=484
+
+ Score = 45.0 bits (105),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 46/168 (27%), Positives = 73/168 (43%), Gaps = 22/168 (13%)
+
+Query  8    SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQK  67
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  68   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKETLGGSGGST  119
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E     G  +
+Sbjct  67   AAEKWHGALEKGKVYCFCRGRVNVANKRFSTLSNNYELSFS-AEADIKPAED---DGLCS  122
+
+Query  120  LLISEVLKTSKQY---LSVLAQVVDIQSSDKNIRLKICDNSCNQELKV  164
+            + +  +  ++++      VLA VV++Q         +   S  +ELK 
+Sbjct  123  MPLRNIFNSTRECPFPTDVLAVVVEVQPIS-----SVTARSSGEELKR  165
+
+
+>emb|CDJ26845.1| replication factor-A C terminal domain-containing protein, putative 
+[Eimeria mitis]
+Length=439
+
+ Score = 43.9 bits (102),  Expect = 0.035, Method: Composition-based stats.
+ Identities = 48/165 (29%), Positives = 67/165 (41%), Gaps = 16/165 (10%)
+
+Query  8    SKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQK  67
+            S++ L IS L    +R+  K   RVV KS     + +SK+F +   D+    I   FW  
+Sbjct  9    SERFLSISSLNPYVHRWQIK--ARVVDKSPLQTTKNNSKFFHVDVTDSAGDLIRAKFWGD  66
+
+Query  68   VDQSYQ-TLKVGQYYYFIGGEV----KQF---KNNLELKFKFGDYQIIPKETLGGSGGST  119
+              + +   L+ G+ Y F  G V    K+F    NN EL F   +  I P E  G      
+Sbjct  67   AAEKWHGALEKGKVYCFSRGRVNVANKRFSTLSNNYELSFS-TEADIKPAEDDGLCSMPL  125
+
+Query  120  LLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKICDNSCNQELKV  164
+              I    +       VLA VVD+Q         +   S  +ELK 
+Sbjct  126  RTIFNSTRECPFPTDVLAVVVDVQPIS-----SVTARSSGEELKR  165
+
+
+>ref|XP_002767427.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00145.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=577
+
+ Score = 42.0 bits (97),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 35/110 (32%), Positives = 50/110 (45%), Gaps = 10/110 (9%)
+
+Query  14   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLSFWQK-VD  69
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  315  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  372
+
+Query  70   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQIIPKETLGGS  115
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II +      
+Sbjct  373  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAIIEEANDSAD  422
+
+
+>ref|XP_002767426.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER00144.1| replication factor a 1, rfa1, putative [Perkinsus marinus ATCC 
+50983]
+Length=582
+
+ Score = 42.0 bits (97),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 35/110 (32%), Positives = 50/110 (45%), Gaps = 10/110 (9%)
+
+Query  14   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLSFWQK-VD  69
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  70   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQIIPKETLGGS  115
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II +      
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAIIEEANDSAD  427
+
+
+>ref|XP_002779439.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+ gb|EER11234.1| replication protein A 70kDa, putative [Perkinsus marinus ATCC 
+50983]
+Length=788
+
+ Score = 42.0 bits (97),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 35/110 (32%), Positives = 50/110 (45%), Gaps = 10/110 (9%)
+
+Query  14   ISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANNQEINLSFWQK-VD  69
+            ISQL V   +++ K  GRV  KS   TF N + + + F I   D  N EI  +F+   V 
+Sbjct  320  ISQLSVYSQKWTIK--GRVSSKSDVRTFVNARGEGQLFSIELVDDQNGEIRATFFNSAVT  377
+
+Query  70   QSYQTLKVGQYYYFIGGEVKQ----FKNNLELKFKFGDYQIIPKETLGGS  115
+            + Y  ++ G+ Y F  G+VKQ    F      +  F D  II +      
+Sbjct  378  KFYPAIQQGRVYTFSKGQVKQANARFNPGAAYELTFNDDAIIEEANDSAD  427
+
+
+>ref|XP_004211765.1| PREDICTED: replication protein A 70 kDa DNA-binding subunit-like, 
+partial [Hydra vulgaris]
+Length=398
+
+ Score = 41.6 bits (96),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 34/107 (32%), Positives = 53/107 (50%), Gaps = 12/107 (11%)
+
+Query  1    GSLSDQLSKQTLLISQLQVGKNRFSFKFEGRVVYKSS--TFQNQQ-DSKYFFITAQDANN  57
+            GS+ D  SK    IS L   +NR++ +   R+  KSS  T+ N + D K F I   D + 
+Sbjct  137  GSVVDSNSKSVFPISSLTPYQNRWTIR--ARITNKSSIRTWSNSRGDGKLFSIDLVDESG  194
+
+Query  58   QEINLSFWQKVDQSYQTLKVGQYYYFIGGEVK-------QFKNNLEL  97
+            +    +F + VD+ Y  L++G+ YY   G +K         KN+ E+
+Sbjct  195  EIRATAFNEVVDKYYDLLEIGKVYYITKGSLKTANKQYSSLKNDYEM  241
+
+
+>ref|WP_023408475.1| hypothetical protein, partial [uncultured Desulfofustis sp. PB-SRB1]
+ gb|ESQ09135.1| hypothetical protein N839_18740, partial [uncultured Desulfofustis 
+sp. PB-SRB1]
+Length=357
+
+ Score = 39.3 bits (90),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 28/104 (27%), Positives = 54/104 (52%), Gaps = 6/104 (6%)
+
+Query  49   FITAQD-ANNQEINLS-FWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQI  106
+             IT ++ + N EI+L+ F + V +  QT  +G    F+    ++F + L    ++GD  +
+Sbjct  111  LITGREHSTNLEIDLAPFERDVPKMNQTRSIGSGVEFLN---RRFSSRLSNALRYGDDLL  167
+
+Query  107  IPKETLGGSGGSTLLISEVLKTSKQYLSVLAQVVD-IQSSDKNI  149
+            +P   +   G  T LIS  +K S +  + LA  ++ I++ D ++
+Sbjct  168  LPFLQVHAYGDQTFLISPAIKNSTELRAALADALEYIKAQDSDL  211
+
+
+>gb|AAD09019.1| copia protein [Zea mays]
+Length=447
+
+ Score = 39.3 bits (90),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 53/110 (48%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K++          +L  +FG   
+Sbjct  185  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDDTFITQTKYTQDLLKRFGMKD  244
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G +G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  245  AKPAKTPMGTNGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  294
+
+
+>ref|XP_002837718.1| hypothetical protein [Tuber melanosporum Mel28]
+ emb|CAZ81909.1| unnamed protein product [Tuber melanosporum]
+Length=614
+
+ Score = 38.5 bits (88),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 32/97 (33%), Positives = 48/97 (49%), Gaps = 12/97 (12%)
+
+Query  14   ISQLQVGKNRFSFKFEGRVVYKS--STFQN-QQDSKYFFITAQDANNQEINLSFWQKVDQ  70
+            I  L   +NR++ +   RV YKS    +QN  +D + F +T  D + +     F  +VD 
+Sbjct  187  IESLSPYQNRWTIR--ARVTYKSPIKLWQNSNRDGRLFNVTLLDESGEVRATGFNDQVDS  244
+
+Query  71   SYQTLKVGQYYYFIGGEV----KQF---KNNLELKFK  100
+             Y+ L+ GQ YY    +V    KQF    N+ EL F+
+Sbjct  245  FYEVLQEGQVYYISNCKVNFAKKQFSNINNDYELAFE  281
+
+
+>ref|XP_002767785.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+ gb|EER00503.1| conserved hypothetical protein [Perkinsus marinus ATCC 50983]
+Length=143
+
+ Score = 37.3 bits (85),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 27/100 (27%), Positives = 47/100 (47%), Gaps = 8/100 (8%)
+
+Query  13   LISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQSY  72
+            LIS L+VG   +  +  GRVV KS  F      + F     D ++  + L F+ +    +
+Sbjct  34   LISNLRVGSTDWCLR--GRVVSKSEIF-GISTGELFHAHISDEDSNTVKLLFFDEAAHIF  90
+
+Query  73   Q-TLKVGQYYYFIGGEV----KQFKNNLELKFKFGDYQII  107
+              ++++G  YYF  G+V     +F    +++ KF    +I
+Sbjct  91   HDSIQIGAIYYFRNGKVLRAHSKFNKEADVEIKFDTSAVI  130
+
+
+>ref|XP_002141610.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+ gb|EEA07261.1| OB-fold nucleic acid binding domain-containing protein [Cryptosporidium 
+muris RN66]
+Length=475
+
+ Score = 38.1 bits (87),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 35/68 (51%), Gaps = 2/68 (3%)
+
+Query  18  QVGKNRFSFKFEGRVVYKSSTFQN-QQDSKYFFITAQDANNQEINLSFWQ-KVDQSYQTL  75
+           +V  NR     +GRV+ KS T Q  + D K+F I   D +   I + FW+ K ++ Y  +
+Sbjct  5   EVNVNRQIITLKGRVIEKSRTLQTLRNDLKFFHIDLIDKDGDTIKVKFWRNKAEEYYNKI  64
+
+Query  76  KVGQYYYF  83
+           + G  Y F
+Sbjct  65  EQGDVYIF  72
+
+
+>gb|ABA08422.1| polymerase [Zea mays]
+Length=236
+
+ Score = 36.9 bits (84),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  30   STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  89
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  90   AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  139
+
+
+>gb|ABA08423.1| polymerase [Zea mays]
+Length=236
+
+ Score = 36.9 bits (84),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  30   STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  89
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  90   AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  139
+
+
+>gb|EMD45158.1| replication protein 70 kDa DNAbinding subunit, putative [Entamoeba 
+histolytica KU27]
+ gb|EMS17034.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba histolytica 
+HM-3:IMSS]
+Length=588
+
+ Score = 36.9 bits (84),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  29   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKV-DQSYQTLKVGQYYYFIGGE  87
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  88   VKQFKNN-------LELKFKFGDYQIIPKET  111
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_650233.1| replication factor A protein 1 [Entamoeba histolytica HM-1:IMSS]
+ gb|EAL44846.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS]
+ gb|EMH72322.1| replication factor A protein 1, putative [Entamoeba histolytica 
+HM-1:IMSS-B]
+ gb|ENY61483.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+histolytica HM-1:IMSS-A]
+Length=588
+
+ Score = 36.9 bits (84),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  29   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKV-DQSYQTLKVGQYYYFIGGE  87
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  88   VKQFKNN-------LELKFKFGDYQIIPKET  111
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|WP_021903544.1| v-type ATPase subunit I [Porphyromonas sp. CAG:1061]
+ emb|CCY10502.1| v-type ATPase subunit I [Porphyromonas sp. CAG:1061]
+Length=619
+
+ Score = 36.9 bits (84),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 31/139 (22%), Positives = 64/139 (46%), Gaps = 16/139 (12%)
+
+Query  6    QLSKQTLLISQLQVGKNRFSFKFEGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFW  65
+            +LS Q +L+ Q Q     +   F+ +++ K    +      +F++  Q++ +       W
+Sbjct  108  ELSDQLMLVEQKQKELEVWG-DFDLKLIAK---LRESGHHLHFWVAQQNSYDPA-----W  158
+
+Query  66   QKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTLLISE-  124
+            ++  Q+ +    G+Y YF+     +    LE      D Q +PKE+L        L+ E 
+Sbjct  159  EEAYQAIKIADQGRYIYFVTVSPTEAPPTLE----GADLQKLPKESLSQLSRDEELLHEK  214
+
+Query  125  --VLKTSKQYLSVLAQVVD  141
+              +L+ +++YL+   +V+D
+Sbjct  215  KQLLENTQKYLAYHPEVLD  233
+
+
+>ref|YP_004972519.1| cobalt transport protein ATP-binding subunit [Desulfosporosinus 
+orientis DSM 765]
+ ref|WP_014186811.1| cobalt ABC transporter ATPase [Desulfosporosinus orientis]
+ gb|AET70004.1| cobalt transport protein ATP-binding subunit [Desulfosporosinus 
+orientis DSM 765]
+Length=284
+
+ Score = 36.6 bits (83),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 43/184 (23%), Positives = 73/184 (40%), Gaps = 15/184 (8%)
+
+Query  25   SFKFEGR-VVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKVDQSYQTLKVGQYYYF  83
+            + KF+G+ + YK       +  K   I  QD ++Q  + S WQ  D S+  L +G     
+Sbjct  62   TVKFQGQGISYKKKALIELR--KKVGIVFQDPDSQLFSASVWQ--DVSFGPLNLGLSDEE  117
+
+Query  84   IGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQ  143
+            +   VKQ   + E      D +  P   L       + I+ VL    + +        + 
+Sbjct  118  VAERVKQALADTETS----DLEDKPTHLLSYGQKKRVSIAGVLAMEPEIIIFDEPTAGMD  173
+
+Query  144  SSDKNIRLKICDNSCNQELKVVIF---PDLCYEWRDKFSINKWYYFNEFVRQIYNDEVQL  200
+                +  +++ D    +   +V+     DL Y W DK +I    Y  E + Q   DEV +
+Sbjct  174  PRHAHEFMQLLDKLSCEGKTIVLSTHDVDLAYSWSDKLAI---MYRGEVIAQGLPDEVLV  230
+
+Query  201  KNNI  204
+            + +I
+Sbjct  231  QPDI  234
+
+
+>gb|EKE38631.1| replication factor A protein 1, putative [Entamoeba nuttalli 
+P19]
+Length=588
+
+ Score = 36.9 bits (84),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  29   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKV-DQSYQTLKVGQYYYFIGGE  87
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  88   VKQFKNN-------LELKFKFGDYQIIPKET  111
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>ref|XP_001733974.1| replication protein A 70 kDa DNA-binding subunit [Entamoeba dispar 
+SAW760]
+ gb|EDR29890.1| replication protein A 70 kDa DNA-binding subunit, putative [Entamoeba 
+dispar SAW760]
+Length=588
+
+ Score = 36.9 bits (84),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 26/91 (29%), Positives = 44/91 (48%), Gaps = 9/91 (10%)
+
+Query  29   EGRVVYKSSTFQNQQDSKYFFITAQDANNQEINLSFWQKV-DQSYQTLKVGQYYYFIGGE  87
+            +GRVV K+  F+  + + + F+  QD +  EI  + +  V D+ +  +KVG+ YY    +
+Sbjct  162  KGRVVSKNDKFKYAKGNLFSFVL-QDKDGAEIKATCFNDVCDEKFDQIKVGETYYITKAD  220
+
+Query  88   VKQFKNN-------LELKFKFGDYQIIPKET  111
+             KQ           ++L    G Y II K +
+Sbjct  221  YKQSNGKGYRSAKMIDLDMIIGKYTIIQKSS  251
+
+
+>gb|AEJ07927.1| Opie2 pol protein [Zea mays subsp. mexicana]
+Length=1048
+
+ Score = 36.9 bits (84),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  740  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  799
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  800  AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  849
+
+
+>ref|WP_021874789.1| Putative Hyaluronidase [Clostridium chauvoei]
+ emb|CDG00842.1| Putative Hyaluronidase [Clostridium chauvoei JF4335]
+Length=1886
+
+ Score = 36.9 bits (84),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 30/128 (23%), Positives = 57/128 (45%), Gaps = 11/128 (9%)
+
+Query  90    QFKNNLELKFKFGDYQIIPKETLGGSG-----GSTLLISEVLKTSKQYLSVLAQVV-DIQ  143
+             +  N+  LK KF +  +I  E            +     EVL  +    + + +V+ D+ 
+Sbjct  1348  ELPNSDNLKAKFDELSLINGENYTAESFKVLQDALKTAEEVLNNNNALQTEIDKVLADLI  1407
+
+Query  144   SSDKNIRLKICDNSCNQELKVVIFPDLCYEWRDKFSINKWYYFNEFVRQIYNDEVQLKNN  203
+             ++++ + L I D S  QEL      D C    DK++++ W  +NE +         L+NN
+Sbjct  1408  AAEEGLVLNIADGSALQEL-----VDSCNFVEDKYTVSSWTSYNEVLNLAKGILADLQNN  1462
+
+Query  204   IHSSIKES  211
+               +++ E+
+Sbjct  1463  NQTAVDEA  1470
+
+
+>gb|AAC49502.1| Pol [Zea mays]
+Length=1068
+
+ Score = 36.9 bits (84),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  760  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  819
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  820  AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  869
+
+
+>ref|WP_019252079.1| ABC transporter ATP-binding protein [Lactobacillus reuteri]
+Length=460
+
+ Score = 36.6 bits (83),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 34/138 (25%), Positives = 59/138 (43%), Gaps = 29/138 (21%)
+
+Query  8    SKQTLLISQLQVGKNRFS------FKFEGRVVYKSSTFQNQQDSKYFF---ITAQDANNQ  58
+            +K TLL     +GK+          K+EG++ Y     Q     KY+    +  Q AN+Q
+Sbjct  267  NKITLLTGPNGIGKSTLLKAIARLLKYEGKIDYAGENIQKISPGKYYKHLGLIFQHANDQ  326
+
+Query  59   EINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNLELKFKFGDYQIIPKETLGGSGGS  118
+             +N++  +++D  ++T    Q  YF   +V                Q+I KE LG +G  
+Sbjct  327  FLNVTVGEELDLGFKTC---QNPYFTRSQV----------------QMILKE-LGLNGRE  366
+
+Query  119  TLLISEVLKTSKQYLSVL  136
+              ++  +    K+ L +L
+Sbjct  367  DQVVYSLSGGQKKKLQIL  384
+
+
+>gb|ABF67947.1| Opie2 pol protein [Zea mays]
+Length=1048
+
+ Score = 36.9 bits (84),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  740  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  799
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  800  AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  849
+
+
+>gb|AEJ07899.1| Opie3 putative pol protein [Zea mays subsp. mexicana]
+Length=1048
+
+ Score = 36.9 bits (84),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  740  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  799
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  800  AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  849
+
+
+>gb|AEJ07931.1| Opie3 pol protein [Zea mays subsp. mexicana]
+Length=1048
+
+ Score = 36.6 bits (83),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  740  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  799
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  800  AKPAKTPMGTDGHTDLNKGGKSIDQKAYRSMIGSLLYLCASRPDIMLSVC  849
+
+
+>gb|ABF67946.1| putative Opie4 pol protein [Zea mays]
+Length=1068
+
+ Score = 36.6 bits (83),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 51/110 (46%), Gaps = 10/110 (9%)
+
+Query  55   ANNQEINLSFWQKVDQSYQTLKVGQYYYFIGGEVKQFKNNL---------ELKFKFGDYQ  105
+            + NQ+    F + + Q ++   +G+  YF+G +VKQ K+           +L  +FG   
+Sbjct  760  STNQKSCEEFSRVMTQKFEMSMMGELNYFLGFQVKQLKDGTFISQTKYTQDLLKRFGMKD  819
+
+Query  106  IIPKET-LGGSGGSTLLISEVLKTSKQYLSVLAQVVDIQSSDKNIRLKIC  154
+              P +T +G  G + L         K Y S++  ++ + +S  +I L +C
+Sbjct  820  AKPAKTPMGTDGHTDLNKGGKSVDQKAYRSMIGSLLYLCASRPDIMLSVC  869
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.136    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0420    0.140     1.90     42.6     43.6 
+
+Effective search space used: 553224305176
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

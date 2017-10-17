@@ -1,0 +1,440 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1D0D
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AAA72973.1|  anticoagulant peptide [synthetic construct]            126    3e-36
+sp|P17726.1|TAP_ORNMO  RecName: Full=Tick anticoagulant peptide; ...   125    4e-36
+pdb|1TAP|A  Chain A, Nmr Solution Structure Of Recombinant Tick A...   124    3e-35
+gb|AAN76827.1|AF452887_1  fXa inhibitor fXaI [Ornithodoros savignyi]  73.2    3e-15
+gb|AAD09876.1|  factor Xa inhibitor [Ornithodoros savignyi]           61.2    6e-11
+ref|XP_002959625.1|  hypothetical protein VOLCADRAFT_101124 [Volv...  36.2    0.81 
+ref|NP_001024116.2|  Protein MEC-1, isoform c [Caenorhabditis ele...  33.5    7.3  
+ref|NP_001123006.2|  Protein MEC-1, isoform i [Caenorhabditis ele...  33.1    8.9  
+
+
+>gb|AAA72973.1| anticoagulant peptide [synthetic construct]
+Length=61
+
+ Score =  126 bits (316),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  2   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  61
+
+
+>sp|P17726.1|TAP_ORNMO RecName: Full=Tick anticoagulant peptide; Short=TAP
+ pdb|1KIG|I Chain I, Bovine Factor Xa
+ pdb|1D0D|A Chain A, Crystal Structure Of Tick Anticoagulant Protein Complexed 
+With Bovine Pancreatic Trypsin Inhibitor
+ pdb|1TCP|A Chain A, Nmr Structure Determination Of Tick Anticoagulant Peptide 
+(Tap)
+Length=60
+
+ Score =  125 bits (315),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+
+
+>pdb|1TAP|A Chain A, Nmr Solution Structure Of Recombinant Tick Anticoagulant 
+Protein (Rtap), A Factor Xa Inhibitor From The Tick Ornithodoros 
+Moubata
+Length=60
+
+ Score =  124 bits (310),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  2   NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  2   NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+
+
+>gb|AAN76827.1|AF452887_1 fXa inhibitor fXaI [Ornithodoros savignyi]
+Length=77
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNAC  59
+           YNRLC+KP+D+  +C  +E   + +F + K  C+ FWICPE+  G DYYS+  DC +AC
+Sbjct  18  YNRLCVKPQDFTKQCSDDEDAVKVFFPHDKKSCEPFWICPEEDNGVDYYSTKEDCLSAC  76
+
+
+>gb|AAD09876.1| factor Xa inhibitor [Ornithodoros savignyi]
+Length=55
+
+ Score = 61.2 bits (147),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  6   IKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           +KP+D+  +C  +E   + +F + K  C+ FWICPE+  G DYYS+  DC +AC 
+Sbjct  1   VKPQDFTKQCSDDEDAVKVFFPHDKKSCEPFWICPEEDNGVDYYSTKEDCLSACF  55
+
+
+>ref|XP_002959625.1| hypothetical protein VOLCADRAFT_101124 [Volvox carteri f. nagariensis]
+ gb|EFJ39310.1| hypothetical protein VOLCADRAFT_101124 [Volvox carteri f. nagariensis]
+Length=956
+
+ Score = 36.2 bits (82),  Expect = 0.81, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+
+Query  8    PRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTG  45
+            P D ID CDS+EGGE+       GGC S    P   +G
+Sbjct  264  PVDVIDLCDSDEGGEQNLVERASGGCSSGLGAPVSPSG  301
+
+
+>ref|NP_001024116.2| Protein MEC-1, isoform c [Caenorhabditis elegans]
+ emb|CCD66554.2| Protein MEC-1, isoform c [Caenorhabditis elegans]
+Length=1167
+
+ Score = 33.5 bits (75),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  417  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  467
+
+
+>ref|NP_001123006.2| Protein MEC-1, isoform i [Caenorhabditis elegans]
+ emb|CCD66563.2| Protein MEC-1, isoform i [Caenorhabditis elegans]
+Length=954
+
+ Score = 33.1 bits (74),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  417  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  467
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.144    0.530    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302307077826
+Results from round 2
+
+
+Query= 1D0D
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AAN76827.1|AF452887_1  fXa inhibitor fXaI [Ornithodoros savignyi]   105    6e-28
+gb|AAA72973.1|  anticoagulant peptide [synthetic construct]           96.2    2e-24
+sp|P17726.1|TAP_ORNMO  RecName: Full=Tick anticoagulant peptide; ...  95.0    5e-24
+pdb|1TAP|A  Chain A, Nmr Solution Structure Of Recombinant Tick A...  93.1    3e-23
+gb|AAD09876.1|  factor Xa inhibitor [Ornithodoros savignyi]           85.8    2e-20
+
+Sequences not found previously or not previously below threshold:
+
+ref|NP_001024116.2|  Protein MEC-1, isoform c [Caenorhabditis ele...  37.3    0.42 
+ref|NP_001123006.2|  Protein MEC-1, isoform i [Caenorhabditis ele...  36.9    0.53 
+pir||T33216  hypothetical protein T07H8.4 - Caenorhabditis elegans    36.1    0.93 
+ref|NP_741560.3|  Protein MEC-1, isoform b [Caenorhabditis elegan...  36.1    1.1  
+ref|NP_001024121.2|  Protein MEC-1, isoform h [Caenorhabditis ele...  35.7    1.2  
+ref|NP_741559.3|  Protein MEC-1, isoform a [Caenorhabditis elegan...  35.7    1.2  
+ref|NP_001024117.2|  Protein MEC-1, isoform d [Caenorhabditis ele...  35.7    1.2  
+ref|NP_001024118.1|  Protein MEC-1, isoform e [Caenorhabditis ele...  35.7    1.3  
+ref|NP_001024120.1|  Protein MEC-1, isoform g [Caenorhabditis ele...  35.3    1.5  
+ref|NP_001024119.1|  Protein MEC-1, isoform f [Caenorhabditis ele...  35.3    1.5  
+ref|XP_003114431.1|  CRE-MEC-1 protein [Caenorhabditis remanei] >...  34.2    4.4  
+gb|ESO05190.1|  hypothetical protein HELRODRAFT_171530 [Helobdell...  32.2    8.4  
+gb|EGT47151.1|  CBN-MEC-1 protein [Caenorhabditis brenneri]           33.0    8.8  
+emb|CAP36357.2|  Protein CBR-MEC-1 [Caenorhabditis briggsae]          33.0    9.1  
+
+
+>gb|AAN76827.1|AF452887_1 fXa inhibitor fXaI [Ornithodoros savignyi]
+Length=77
+
+ Score =  105 bits (262),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           YNRLC+KP+D+  +C  +E   + +F + K  C+ FWICPE+  G DYYS+  DC +AC 
+Sbjct  18  YNRLCVKPQDFTKQCSDDEDAVKVFFPHDKKSCEPFWICPEEDNGVDYYSTKEDCLSACF  77
+
+
+>gb|AAA72973.1| anticoagulant peptide [synthetic construct]
+Length=61
+
+ Score = 96.2 bits (238),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  2   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  61
+
+
+>sp|P17726.1|TAP_ORNMO RecName: Full=Tick anticoagulant peptide; Short=TAP
+ pdb|1KIG|I Chain I, Bovine Factor Xa
+ pdb|1D0D|A Chain A, Crystal Structure Of Tick Anticoagulant Protein Complexed 
+With Bovine Pancreatic Trypsin Inhibitor
+ pdb|1TCP|A Chain A, Nmr Structure Determination Of Tick Anticoagulant Peptide 
+(Tap)
+Length=60
+
+ Score = 95.0 bits (235),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  1   YNRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+
+
+>pdb|1TAP|A Chain A, Nmr Solution Structure Of Recombinant Tick Anticoagulant 
+Protein (Rtap), A Factor Xa Inhibitor From The Tick Ornithodoros 
+Moubata
+Length=60
+
+ Score = 93.1 bits (230),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  2   NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI
+Sbjct  2   NRLCIKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+
+
+>gb|AAD09876.1| factor Xa inhibitor [Ornithodoros savignyi]
+Length=55
+
+ Score = 85.8 bits (211),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  6   IKPRDWIDECDSNEGGERAYFRNGKGGCDSFWICPEDHTGADYYSSYRDCFNACI  60
+           +KP+D+  +C  +E   + +F + K  C+ FWICPE+  G DYYS+  DC +AC 
+Sbjct  1   VKPQDFTKQCSDDEDAVKVFFPHDKKSCEPFWICPEEDNGVDYYSTKEDCLSACF  55
+
+
+>ref|NP_001024116.2| Protein MEC-1, isoform c [Caenorhabditis elegans]
+ emb|CCD66554.2| Protein MEC-1, isoform c [Caenorhabditis elegans]
+Length=1167
+
+ Score = 37.3 bits (85),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  417  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  467
+
+
+>ref|NP_001123006.2| Protein MEC-1, isoform i [Caenorhabditis elegans]
+ emb|CCD66563.2| Protein MEC-1, isoform i [Caenorhabditis elegans]
+Length=954
+
+ Score = 36.9 bits (84),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  417  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  467
+
+
+>pir||T33216 hypothetical protein T07H8.4 - Caenorhabditis elegans
+Length=1965
+
+ Score = 36.1 bits (82),  Expect = 0.93, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  398  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  448
+
+
+>ref|NP_741560.3| Protein MEC-1, isoform b [Caenorhabditis elegans]
+ emb|CCD66553.2| Protein MEC-1, isoform b [Caenorhabditis elegans]
+Length=1685
+
+ Score = 36.1 bits (82),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  417  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  467
+
+
+>ref|NP_001024121.2| Protein MEC-1, isoform h [Caenorhabditis elegans]
+ emb|CCD66559.2| Protein MEC-1, isoform h [Caenorhabditis elegans]
+Length=2006
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  421  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  471
+
+
+>ref|NP_741559.3| Protein MEC-1, isoform a [Caenorhabditis elegans]
+ emb|CCD66552.2| Protein MEC-1, isoform a [Caenorhabditis elegans]
+Length=2007
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  421  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  471
+
+
+>ref|NP_001024117.2| Protein MEC-1, isoform d [Caenorhabditis elegans]
+ emb|CCD66555.2| Protein MEC-1, isoform d [Caenorhabditis elegans]
+Length=1995
+
+ Score = 35.7 bits (81),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  409  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  459
+
+
+>ref|NP_001024118.1| Protein MEC-1, isoform e [Caenorhabditis elegans]
+ emb|CCD66556.1| Protein MEC-1, isoform e [Caenorhabditis elegans]
+Length=1954
+
+ Score = 35.7 bits (81),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ ++ DC N C
+Sbjct  368  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  418
+
+
+>ref|NP_001024120.1| Protein MEC-1, isoform g [Caenorhabditis elegans]
+ emb|CCD66558.1| Protein MEC-1, isoform g [Caenorhabditis elegans]
+Length=1604
+
+ Score = 35.3 bits (80),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  13  DECDSNEGGERAYFRNGKGGCDSFW----ICPEDHTGADYYSSYRDCFNAC  59
+           +EC S +  E+ ++ +    C+ FW      P D  G +++ ++ DC N C
+Sbjct  18  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  68
+
+
+>ref|NP_001024119.1| Protein MEC-1, isoform f [Caenorhabditis elegans]
+ emb|CCD66557.1| Protein MEC-1, isoform f [Caenorhabditis elegans]
+Length=1818
+
+ Score = 35.3 bits (80),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFW----ICPEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW      P D  G +++ ++ DC N C
+Sbjct  232  EECISADWAEKFFWNSEFKDCEPFWYDSSCDPRDRAGKNFFETFEDCKNKC  282
+
+
+>ref|XP_003114431.1| CRE-MEC-1 protein [Caenorhabditis remanei]
+ gb|EFP05769.1| CRE-MEC-1 protein [Caenorhabditis remanei]
+Length=2056
+
+ Score = 34.2 bits (77),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S E  E+ ++ +    C+ FW    C P D  G +++ ++ DC   C
+Sbjct  408  EECISAEWAEKFFWNSEFRDCEPFWYDSSCDPRDRAGKNFFGTFDDCKKKC  458
+
+
+>gb|ESO05190.1| hypothetical protein HELRODRAFT_171530 [Helobdella robusta]
+Length=145
+
+ Score = 32.2 bits (72),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 10/44 (23%), Positives = 18/44 (41%), Gaps = 1/44 (2%)
+
+Query  17  SNEGGERAYFRNGKGGCDSFWICP-EDHTGADYYSSYRDCFNAC  59
+            N+   R +F     GC +F   P  +    +++ +   C  AC
+Sbjct  53  ENKPSVRFFFNQDSKGCQAFVHLPCAEQPSVNFFKTAEYCLLAC  96
+
+
+>gb|EGT47151.1| CBN-MEC-1 protein [Caenorhabditis brenneri]
+Length=2046
+
+ Score = 33.0 bits (74),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +Y+ ++ +C   C
+Sbjct  411  EECISADWAEKFFWNSEFRDCEPFWYDSSCDPRDRAGKNYFETFEECKKRC  461
+
+
+>emb|CAP36357.2| Protein CBR-MEC-1 [Caenorhabditis briggsae]
+Length=2101
+
+ Score = 33.0 bits (74),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  13   DECDSNEGGERAYFRNGKGGCDSFWI---C-PEDHTGADYYSSYRDCFNAC  59
+            +EC S +  E+ ++ +    C+ FW    C P D  G +++ S+ DC   C
+Sbjct  452  EECISADWSEKFFWNSDFRDCEPFWYDSSCDPRDRAGKNFFESFDDCKKKC  502
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.143    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302307077826
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,4103 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1T0FC
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1T0F|C  Chain C, Crystal Structure Of The TnsaTNSC(504-555) C...   113    2e-31
+ref|WP_021561542.1|  transposon Tn7 transposition protein tnsC [E...   112    1e-28
+ref|NP_065318.1|  transposition regulator protein [Escherichia co...   113    5e-28
+ref|WP_001276995.1|  ATPase AAA [Escherichia coli] >gb|EIL27973.1...   109    1e-26
+ref|WP_005120012.1|  ATPase AAA [Shigella flexneri] >gb|EIQ21197....  67.0    2e-11
+ref|WP_021534815.1|  transposon Tn7 transposition protein tnsC [E...  52.8    1e-06
+ref|WP_005088744.1|  hypothetical protein [Acinetobacter haemolyt...  51.6    4e-06
+ref|WP_000127266.1|  ATPase AAA [Vibrio cholerae] >gb|EGS60813.1|...  48.1    7e-05
+ref|YP_001984250.1|  Tn7-Cj, transposition protein TnsC [Cellvibr...  44.3    0.001
+ref|YP_001185439.1|  ATPase AAA [Shewanella putrefaciens CN-32] >...  43.9    0.002
+ref|YP_001095951.1|  transposon Tn7 transposition protein TnsC [S...  42.7    0.005
+ref|WP_017048672.1|  transcriptional antiterminator [Vibrio ordalii]  41.2    0.013
+ref|WP_005249555.1|  hypothetical protein [Acinetobacter] >gb|ENX...  41.2    0.014
+ref|WP_010325586.1|  transcriptional antiterminator [Acinetobacte...  41.2    0.014
+ref|WP_004280912.1|  transcriptional antiterminator [Acinetobacte...  41.2    0.014
+ref|WP_006032562.1|  transcriptional antiterminator [Moritella sp...  41.2    0.015
+ref|WP_001128124.1|  ATPase AAA [Acinetobacter baumannii] >gb|EJG...  40.8    0.020
+ref|WP_001136804.1|  hypothetical protein [Vibrio cholerae] >gb|E...  40.0    0.024
+ref|WP_007103541.1|  transposon Tn7 transposition protein tnsC [G...  40.4    0.024
+ref|WP_000174564.1|  transcriptional antiterminator [Vibrio sp. R...  40.4    0.029
+ref|YP_006012086.1|  transposon Tn7 transposition protein, TnsC [...  40.0    0.034
+ref|WP_000056848.1|  transcriptional antiterminator [Vibrio chole...  39.7    0.045
+ref|WP_022992605.1|  transcriptional antiterminator [Marinobacter...  39.7    0.052
+ref|YP_002891521.1|  ATPase AAA [Tolumonas auensis DSM 9187] >ref...  39.7    0.052
+ref|WP_006647580.1|  ATPase AAA [Photobacterium sp. SKA34] >gb|EA...  39.3    0.056
+ref|WP_008897112.1|  ATPase AAA [Rheinheimera sp. A13L] >gb|EGM79...  39.3    0.064
+gb|AHC16015.1|  Transposon Tn7 transposition protein tnsC [Spiroc...  39.3    0.065
+ref|WP_005087289.1|  hypothetical protein [Acinetobacter haemolyt...  39.3    0.067
+ref|WP_004825923.1|  hypothetical protein [Acinetobacter berezini...  38.5    0.10 
+ref|WP_004797832.1|  hypothetical protein [Acinetobacter sp. CIP ...  38.5    0.11 
+ref|WP_018678732.1|  hypothetical protein [Acinetobacter tjernber...  38.5    0.13 
+ref|WP_004910120.1|  hypothetical protein [Acinetobacter junii] >...  38.5    0.13 
+ref|WP_002132421.1|  transposon Tn7 transposition protein TnsC [A...  38.5    0.13 
+ref|WP_004588897.1|  Transposon Tn7 transposition protein tnsC [P...  37.4    0.24 
+ref|WP_017043120.1|  ATPase AAA [Vibrio ordalii]                      37.4    0.29 
+ref|WP_004683630.1|  transcriptional antiterminator [Acinetobacte...  37.0    0.33 
+ref|YP_004122276.1|  Tn7 transposition regulator TnsC [Desulfovib...  37.0    0.33 
+ref|WP_002122473.1|  transposon Tn7 transposition protein TnsC [A...  37.0    0.36 
+ref|WP_005756485.1|  transposon Tn7 transposition protein TnsC [P...  35.8    0.67 
+ref|WP_010377691.1|  transcriptional antiterminator [Pseudoaltero...  36.2    0.72 
+ref|WP_019441331.1|  transcriptional antiterminator [Moritella ma...  35.8    0.78 
+ref|WP_003465080.1|  transporter [Pseudomonas pseudoalcaligenes] ...  35.8    0.90 
+ref|WP_021487185.1|  tn7 transposition regulator TnsC family prot...  33.1    0.98 
+ref|YP_156992.1|  transposon Tn7 transposition protein TnsC [Idio...  35.8    1.0  
+ref|YP_001185449.1|  transposon Tn7 transposition protein TnsC [S...  35.4    1.1  
+ref|YP_004750330.1|  transposon Tn7 transposition protein TnsC [A...  35.4    1.1  
+ref|WP_021702545.1|  hypothetical protein [Pseudomonas alcaligene...  35.4    1.2  
+ref|WP_004777549.1|  hypothetical protein [Acinetobacter sp. CIP ...  35.4    1.3  
+ref|WP_016658870.1|  hypothetical protein [Acinetobacter indicus]...  35.4    1.3  
+ref|WP_016165661.1|  hypothetical protein [Acinetobacter tandoii]...  35.4    1.3  
+ref|WP_022661133.1|  transcriptional antiterminator [Desulfovibri...  35.4    1.4  
+ref|WP_008950575.1|  transporter [Alishewanella jeotgali] >gb|EHR...  35.0    1.7  
+ref|YP_001279362.1|  3-oxoacyl-(acyl-carrier-protein) reductase [...  34.3    2.1  
+ref|WP_023100509.1|  hypothetical protein [Pseudomonas aeruginosa...  34.7    2.3  
+ref|WP_017781028.1|  transporter [Aeromonas hydrophila]               34.7    2.4  
+ref|WP_021263980.1|  transporter [Pseudomonas aeruginosa] >gb|EQL...  34.3    2.9  
+ref|WP_018123628.1|  hypothetical protein [Desulfovibrio oxyclinae]   34.3    3.0  
+ref|WP_019674146.1|  hypothetical protein [Psychrobacter lutiphocae]  33.9    3.5  
+ref|YP_008766028.1|  transporter, AcrB/AcrD/AcrF family protein [...  33.9    4.0  
+ref|WP_023112059.1|  hypothetical protein [Pseudomonas aeruginosa...  33.9    4.0  
+ref|WP_023102029.1|  hypothetical protein [Pseudomonas aeruginosa...  33.9    4.1  
+ref|YP_004716556.1|  transporter, AcrB/AcrD/AcrF family [Pseudomo...  33.9    4.1  
+ref|WP_016782883.1|  transporter [Pseudomonas fragi] >gb|ETF05435...  33.9    4.1  
+ref|WP_000133967.1|  transporter [Enterobacteriaceae] >gb|EFJ9981...  33.5    4.5  
+ref|WP_009810227.1|  heme biosynthesis protein HemY [Roseobacter ...  33.1    7.3  
+ref|YP_006749746.1|  transposon Tn7 transposition protein TnsC [A...  32.7    8.5  
+gb|AGP83587.1|  transposon Tn7 transposition protein TnsC [Altero...  32.7    8.8  
+ref|WP_004666644.1|  transporter [Pseudomonas savastanoi] >gb|EFW...  32.7    8.8  
+
+
+>pdb|1T0F|C Chain C, Crystal Structure Of The TnsaTNSC(504-555) Complex
+ pdb|1T0F|D Chain D, Crystal Structure Of The TnsaTNSC(504-555) Complex
+Length=54
+
+ Score =  113 bits (282),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+           GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+
+
+>ref|WP_021561542.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQX29299.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3172-1]
+Length=301
+
+ Score =  112 bits (280),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  249  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  301
+
+
+>ref|NP_065318.1| transposition regulator protein [Escherichia coli]
+ ref|YP_312667.1| ATP-binding protein [Shigella sonnei Ss046]
+ ref|YP_758701.1| ATP-binding protein [Pseudomonas aeruginosa]
+ ref|YP_005729401.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ ref|WP_001276994.1| ATPase AAA [Gammaproteobacteria]
+ sp|P05846.2|TNSC_ECOLX RecName: Full=Transposon Tn7 transposition protein TnsC; Short=Protein 
+E
+ emb|CAA35685.1| unnamed protein product [Escherichia coli]
+ dbj|BAB12611.1| ATP-binding protein [Escherichia coli]
+ gb|AAW78924.1| Tn7 transposase subunit [T7 transposase expression vector pTNS2]
+ gb|AAZ90432.1| ATP-binding protein [Shigella sonnei Ss046]
+ gb|ABA08396.1| transposition regulator protein [Acinetobacter baumannii]
+ gb|ABA08408.1| TnsC [Acinetobacter baumannii]
+ gb|ABA38899.1| transposition regulator protein [Pseudomonas aeruginosa]
+ gb|ABC47005.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABC47017.1| ATP-dependent DNA-binding protein [Raoultella terrigena]
+ gb|ABE77213.1| TnsC [Tn7 delivery vector pGRG36]
+ emb|CAK12712.1| ATP-binding protein [Pseudomonas aeruginosa]
+ gb|ABK40766.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABW35345.1| TnsC [Tn7 transposase expression vector pTNS3]
+ gb|EDX36747.1| transposon Tn7 transposition protein TnsC [Shigella dysenteriae 
+1012]
+ gb|ACH42107.1| TnsC [Vector pTNS2-Easd]
+ gb|ACN91050.1| TnsC [Mini-Tn7 delivery vector pTNS3-asdEc]
+ gb|ADA76108.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ gb|ADI47043.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EFJ64399.1| hypothetical protein HMPREF9547_04430 [Escherichia coli MS 175-1]
+ gb|EGJ81318.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-671]
+ gb|EGK16694.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-218]
+ gb|EGK32823.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-304]
+ gb|AFM78092.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK]
+ gb|AFM78098.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Cm]
+ gb|AFM78105.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Tp]
+ gb|AFR24692.1| TnsC [Cloning vector pGRG36pir]
+ gb|AFR24699.1| TnsC [Cloning vector pGRG36pir-116]
+ gb|AFR24706.1| TnsC [Cloning vector pGRG36pir-116-FKm]
+ gb|AFR44069.1| transposon Tn7 transposition protein TnsC [uncultured bacterium]
+ gb|EKA97829.1| transposon Tn7 transposition protein tnsC [Proteus mirabilis 
+WGLW6]
+ gb|EKU05091.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O111:H11 
+str. CFSAN001630]
+ gb|ELD07433.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE205]
+ gb|ELI55311.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE129]
+ gb|ELJ67246.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE85]
+ gb|EMD01782.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O08]
+ gb|EMD06561.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SEPT362]
+ gb|EMT92161.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH6]
+ gb|EMT94115.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH7]
+ gb|EMT95657.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH10]
+ gb|EMT99111.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH11]
+ gb|EMU26478.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH19]
+ gb|ENA02625.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299917.1]
+ gb|ENA17165.1| transposon Tn7 transposition protein tnsC [Escherichia coli 201600.1]
+ gb|ENB85504.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.10]
+ gb|ENC00266.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.4]
+ gb|ENC29608.1| transposon Tn7 transposition protein tnsC [Escherichia coli P02997067.6]
+ gb|EOW02680.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE98]
+ gb|EOW93696.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE182]
+ gb|EQP04987.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+53 (4-0631051)]
+ gb|EQT51741.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+187 (4-4471660)]
+ gb|EQY95690.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3318-1]
+ gb|ERA35976.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3899-1]
+ gb|ESA28720.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD2]
+ gb|ESA75410.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 113290]
+ gb|EST88722.1| transposition regulator protein [Escherichia coli ECA-0157]
+Length=555
+
+ Score =  113 bits (282),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  555
+
+
+>ref|WP_001276995.1| ATPase AAA [Escherichia coli]
+ gb|EIL27973.1| transposition regulator protein [Escherichia coli O111:H11 str. 
+CVM9545]
+Length=559
+
+ Score =  109 bits (272),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 51/53 (96%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQ  
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQVS  555
+
+
+>ref|WP_005120012.1| ATPase AAA [Shigella flexneri]
+ gb|EIQ21197.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-404]
+Length=537
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  31
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  532
+
+
+>ref|WP_021534815.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQS35242.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+149 (4-4451880)]
+Length=576
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIY  24
+            SAIKVVKPSDWDSLPDTDLRYIY
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIY  525
+
+
+>ref|WP_005088744.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW22188.1| hypothetical protein F926_00738 [Acinetobacter haemolyticus NIPH 
+261]
+Length=552
+
+ Score = 51.6 bits (122),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 22/51 (43%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            ++ +KP  W++L   DLR+I+SQ   E  +H+ LK KG+I+DM +L  +AG
+Sbjct  502  VEYLKPKQWETLQQEDLRFIHSQYLTEYELHQTLKEKGIILDMKNLVLKAG  552
+
+
+>ref|WP_000127266.1| ATPase AAA [Vibrio cholerae]
+ gb|EGS60813.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-09]
+ gb|EMP94170.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae O1 
+str. 87395]
+Length=554
+
+ Score = 48.1 bits (113),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            V+KP+ WD LP  DLR+I SQ +    +H  L  +G+++D++S+   AG
+Sbjct  506  VIKPNSWDELPSDDLRFIKSQCKNSTDVHTALNKQGMLLDLSSVLNLAG  554
+
+
+>ref|YP_001984250.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+ ref|WP_012489362.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus]
+ gb|ACE82742.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+Length=539
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 22/44 (50%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query  8    KPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            K S WD LP+ D+RYIYSQR    T+HE  K  GVI  ++   K
+Sbjct  495  KVSLWDQLPENDIRYIYSQRG-NSTIHEAFKTAGVIAAVSDCLK  537
+
+
+>ref|YP_001185439.1| ATPase AAA [Shewanella putrefaciens CN-32]
+ ref|WP_011920322.1| ATPase AAA [Shewanella putrefaciens]
+ gb|ABP77640.1| AAA ATPase [Shewanella putrefaciens CN-32]
+Length=546
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 20/45 (44%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            + +K  KP  WD+L   DLRYI SQ+Q    MH  L  KG++ D+
+Sbjct  497  TQVKNTKPDQWDTLDWDDLRYISSQQQSAAAMHSALGTKGLLFDL  541
+
+
+>ref|YP_001095951.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+ ref|WP_011867620.1| transcriptional antiterminator [Shewanella loihica]
+ gb|ABO25692.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+Length=545
+
+ Score = 42.7 bits (99),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/41 (41%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            +VK +DW++L   DLR+IYSQ    ++++E LK  G+++D+
+Sbjct  501  LVKRTDWNTLESDDLRFIYSQVGKSESIYEALKDNGLVLDL  541
+
+
+>ref|WP_017048672.1| transcriptional antiterminator [Vibrio ordalii]
+Length=545
+
+ Score = 41.2 bits (95),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 18/41 (44%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+
+Sbjct  501  VVKRADWSSLETCDLRFVYSQLTKKEDMYSALKANKLILDL  541
+
+
+>ref|WP_005249555.1| hypothetical protein [Acinetobacter]
+ gb|ENX25237.1| hypothetical protein F891_03400 [Acinetobacter sp. CIP 101966]
+ gb|ENX25453.1| hypothetical protein F893_00246 [Acinetobacter sp. CIP 102136]
+Length=560
+
+ Score = 41.2 bits (95),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_010325586.1| transcriptional antiterminator [Acinetobacter lwoffii]
+Length=560
+
+ Score = 41.2 bits (95),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_004280912.1| transcriptional antiterminator [Acinetobacter lwoffii]
+ gb|EEY89331.1| hypothetical protein HMPREF0017_01998 [Acinetobacter lwoffii 
+SH145]
+Length=560
+
+ Score = 41.2 bits (95),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_006032562.1| transcriptional antiterminator [Moritella sp. PE36]
+ gb|EDM66662.1| Transposon Tn7 transposition protein tnsC [Moritella sp. PE36]
+Length=553
+
+ Score = 41.2 bits (95),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 32/50 (64%), Gaps = 1/50 (2%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLFKQAG  54
+            V+K  +W++LP  D+R+++S+      +++E+LK KGVI    S FK  G
+Sbjct  504  VIKKQNWNTLPSDDMRFMHSESDNGSYSVYEQLKLKGVIFSSNSWFKDVG  553
+
+
+>ref|WP_001128124.1| ATPase AAA [Acinetobacter baumannii]
+ gb|EJG23547.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii OIFC143]
+ gb|EJP52285.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii Naval-18]
+Length=416
+
+ Score = 40.8 bits (94),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+            +KP+ WD+L   DLR+I+SQ   EK +H+ L  K +I+++  + 
+Sbjct  370  LKPNQWDTLSQDDLRFIHSQLLTEKDLHKSLLEKNLILEIEKVL  413
+
+
+>ref|WP_001136804.1| hypothetical protein [Vibrio cholerae]
+ gb|EGR09187.1| transposon Tn7 transposition tnsC domain protein [Vibrio cholerae 
+HE48]
+Length=245
+
+ Score = 40.0 bits (92),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 18/41 (44%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+
+Sbjct  201  VVKRADWSSLETGDLRFVYSQLTKKEDMYSALKANKLILDL  241
+
+
+>ref|WP_007103541.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris]
+ dbj|GAC31737.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris 
+LMG 21857]
+Length=544
+
+ Score = 40.4 bits (93),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 18/42 (43%), Positives = 22/42 (52%), Gaps = 0/42 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+             V+ PS W  L   DLRYI+SQ   E  MH  L   G+I  +
+Sbjct  502  NVITPSHWHKLDHDDLRYIHSQSHTESEMHANLVKNGLIASI  543
+
+
+>ref|WP_000174564.1| transcriptional antiterminator [Vibrio sp. RC586]
+ gb|EEY99532.1| transposon Tn7 transposition protein TnsC [Vibrio sp. RC586]
+Length=551
+
+ Score = 40.4 bits (93),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            +K VK +DW +L   DLR+++SQ   E+T  E L   G+  D
+Sbjct  501  LKAVKKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFD  542
+
+
+>ref|YP_006012086.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+ ref|WP_014611869.1| transcriptional antiterminator [Shewanella putrefaciens]
+ gb|ADV56620.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+Length=551
+
+ Score = 40.0 bits (92),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 26/42 (62%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            +K +K +DW +L   DLR+++SQ   E+T  E L   G++ D
+Sbjct  501  LKAMKKADWHTLDSEDLRFLFSQSANEETFQESLGCNGLLFD  542
+
+
+>ref|WP_000056848.1| transcriptional antiterminator [Vibrio cholerae]
+ gb|EJH65279.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-45]
+Length=545
+
+ Score = 39.7 bits (91),  Expect = 0.045, Method: Composition-based stats.
+ Identities = 17/41 (41%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +++D+
+Sbjct  501  VVKRADWASLETGDLRFVYSQLAKKEDMYSALKANKLVLDL  541
+
+
+>ref|WP_022992605.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+ gb|ERS85295.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+Length=551
+
+ Score = 39.7 bits (91),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            +K V+ +DW +L   DLR+++SQ   E+T  E L   G+  D
+Sbjct  501  LKAVRKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFD  542
+
+
+>ref|YP_002891521.1| ATPase AAA [Tolumonas auensis DSM 9187]
+ ref|WP_012728534.1| ATPase AAA [Tolumonas auensis]
+ gb|ACQ91935.1| AAA ATPase [Tolumonas auensis DSM 9187]
+Length=553
+
+ Score = 39.7 bits (91),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 28/49 (57%), Gaps = 0/49 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            ++K  DWD+L    LRY+YSQ      ++  +   G I+ ++ + ++AG
+Sbjct  505  IIKSKDWDTLQTDSLRYMYSQNSAPTAIYNEMVKAGYILKLSDILQKAG  553
+
+
+>ref|WP_006647580.1| ATPase AAA [Photobacterium sp. SKA34]
+ gb|EAR55060.1| ATP-binding protein [Photobacterium sp. SKA34]
+Length=552
+
+ Score = 39.3 bits (90),  Expect = 0.056, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  M+  +   G+I+D+ SL ++A
+Sbjct  499  GKRASAIKQTQWHTLDSEDLRFVHSQSDSDNEMYTAMSKSGLILDIQSLLEKA  551
+
+
+>ref|WP_008897112.1| ATPase AAA [Rheinheimera sp. A13L]
+ gb|EGM79750.1| NACHT domain./Tn7 transposition regulator TnsC [Rheinheimera 
+sp. A13L]
+Length=546
+
+ Score = 39.3 bits (90),  Expect = 0.064, Method: Compositional matrix adjust.
+ Identities = 18/42 (43%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            K  KP  WD+L   DLRYI SQ+     +H  L  KG++ D+
+Sbjct  500  KNTKPDQWDTLDWDDLRYISSQQSSATAVHSALGAKGLLFDL  541
+
+
+>gb|AHC16015.1| Transposon Tn7 transposition protein tnsC [Spirochaeta sp. L21-RPul-D2]
+Length=552
+
+ Score = 39.3 bits (90),  Expect = 0.065, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            GS  K++ P DW +L   DLR++ SQ        E LK  GV+ D
+Sbjct  499  GSTYKIIHPKDWHTLETDDLRFVSSQADNTDEFVEILKSSGVMFD  543
+
+
+>ref|WP_005087289.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW20419.1| hypothetical protein F927_00903 [Acinetobacter haemolyticus CIP 
+64.3]
+ gb|EPR89672.1| Transposon Tn7 transposition protein tnsC [Acinetobacter haemolyticus 
+MTCC 9819]
+Length=560
+
+ Score = 39.3 bits (90),  Expect = 0.067, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            K  KP  W +L   DLR+ +SQ++ E + +E LK +  V+ D+    KQ
+Sbjct  510  KSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNVVFDLDHWIKQ  558
+
+
+>ref|WP_004825923.1| hypothetical protein [Acinetobacter bereziniae]
+ gb|ENV19855.1| hypothetical protein F963_04247 [Acinetobacter bereziniae NIPH 
+3]
+Length=560
+
+ Score = 38.5 bits (88),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ
+Sbjct  510  KSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQ  558
+
+
+>ref|WP_004797832.1| hypothetical protein [Acinetobacter sp. CIP 102637]
+ gb|ENV07046.1| hypothetical protein F967_00406 [Acinetobacter sp. CIP 102637]
+Length=548
+
+ Score = 38.5 bits (88),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFD  540
+
+
+>ref|WP_018678732.1| hypothetical protein [Acinetobacter tjernbergiae]
+ gb|ESK55771.1| hypothetical protein F990_01655 [Acinetobacter tjernbergiae DSM 
+14971 = CIP 107465]
+Length=560
+
+ Score = 38.5 bits (88),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIV-DMASLFKQ  52
+            K  KP  W +L   DLR+ +SQ++ E + +E LK +  IV D+    KQ
+Sbjct  510  KSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTHIVFDIDHWLKQ  558
+
+
+>ref|WP_004910120.1| hypothetical protein [Acinetobacter junii]
+ gb|ENV51244.1| hypothetical protein F953_01385 [Acinetobacter junii CIP 107470]
+ gb|EPR81098.1| Transposon Tn7 transposition protein tnsC [Acinetobacter junii 
+MTCC 11364]
+Length=560
+
+ Score = 38.5 bits (88),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ
+Sbjct  510  KSTKPDQWQTLDTADLRFQFSQKENEHSFYEHLKAQTNIVFDIDHWLKQ  558
+
+
+>ref|WP_002132421.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP68802.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC035]
+ gb|ENU71217.1| hypothetical protein F978_00332 [Acinetobacter baumannii NIPH 
+615]
+Length=548
+
+ Score = 38.5 bits (88),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFD  540
+
+
+>ref|WP_004588897.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans]
+ gb|ENN97653.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans S816]
+Length=552
+
+ Score = 37.4 bits (85),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 30/54 (56%), Gaps = 0/54 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            G+    +K + W +L   DLR+I+SQ   +  MH  +   G+++++ SL ++  
+Sbjct  499  GNKASSIKHTQWHTLDSNDLRFIHSQADVDSDMHSTMLKLGLVLNIQSLLEEVS  552
+
+
+>ref|WP_017043120.1| ATPase AAA [Vibrio ordalii]
+Length=552
+
+ Score = 37.4 bits (85),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++A
+Sbjct  499  GKKASAIKQAQWHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDVQSLLEKA  551
+
+
+>ref|WP_004683630.1| transcriptional antiterminator [Acinetobacter]
+ gb|ENU35138.1| hypothetical protein F988_02754 [Acinetobacter parvus DSM 16617 
+= CIP 108168]
+ gb|ENU83766.1| hypothetical protein F974_01117 [Acinetobacter sp. CIP 102159]
+ gb|ENU86605.1| hypothetical protein F973_00812 [Acinetobacter sp. CIP 102129]
+Length=548
+
+ Score = 37.0 bits (84),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFD  540
+
+
+>ref|YP_004122276.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+ ref|WP_013515442.1| transcriptional antiterminator [Desulfovibrio aespoeensis]
+ gb|ADU63530.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+Length=546
+
+ Score = 37.0 bits (84),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K +   DW SL   DLR+++SQ    K M+E LK   +I DM    ++ G
+Sbjct  498  KSIPRKDWHSLGSEDLRFVFSQTD-SKDMYEHLKQNSMIFDMEDWLRKPG  546
+
+
+>ref|WP_002122473.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP64798.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-82]
+Length=548
+
+ Score = 37.0 bits (84),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFD  540
+
+
+>ref|WP_005756485.1| transposon Tn7 transposition protein TnsC [Pseudomonas amygdali]
+ gb|EGH22936.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. mori str. 301020]
+Length=352
+
+ Score = 35.8 bits (81),  Expect = 0.67, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  LP+ DLR  Y+   P+   ++RLK  G+++D+  L K
+Sbjct  304  ISKVKRTEWGCLPEEDLRRRYAD-GPDNECYDRLKLAGLVLDLRPLLK  350
+
+
+>ref|WP_010377691.1| transcriptional antiterminator [Pseudoalteromonas piscicida]
+ gb|ERG32897.1| transposon Tn7 transposition protein TnsC [Pseudoalteromonas 
+piscicida JCM 20779]
+Length=556
+
+ Score = 36.2 bits (82),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 30/49 (61%), Gaps = 1/49 (2%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVDMASLFKQA  53
+            ++K  DW +LP  DLR+ YSQ + +   +++  K +G I D+ +  KQ+
+Sbjct  507  LIKLKDWHTLPSDDLRFGYSQHKKQSDELYQYYKQQGKIFDVTAWLKQS  555
+
+
+>ref|WP_019441331.1| transcriptional antiterminator [Moritella marina]
+Length=553
+
+ Score = 35.8 bits (81),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLFKQAG  54
+            S   V+K  +W++LP  D+R+++S+  +   +++E+LK KG+I    S  +  G
+Sbjct  500  SPTPVIKKQNWNTLPSDDMRFMHSESDKGPYSVYEQLKLKGMIFSSDSWLEYVG  553
+
+
+>ref|WP_003465080.1| transporter [Pseudomonas pseudoalcaligenes]
+ emb|CCH40425.1| Transposon Tn7 transposition protein tnsC;Protein E [Pseudomonas 
+pseudoalcaligenes CECT 5344]
+Length=536
+
+ Score = 35.8 bits (81),  Expect = 0.90, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W SL + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGSLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_021487185.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus]
+ gb|EQM36639.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus 
+VPCR-2010]
+Length=45
+
+ Score = 33.1 bits (74),  Expect = 0.98, Method: Compositional matrix adjust.
+ Identities = 12/42 (29%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  12  WDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+           W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++ 
+Sbjct  3   WHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDIQSLLEKV  44
+
+
+>ref|YP_156992.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+L2TR]
+ ref|YP_008036121.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+ ref|WP_011235834.1| transcriptional antiterminator [Idiomarina loihiensis]
+ gb|AAV83443.1| Transposon Tn7 transposition protein tnsC [Idiomarina loihiensis 
+L2TR]
+ gb|AGM37487.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+Length=555
+
+ Score = 35.8 bits (81),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 27/50 (54%), Gaps = 2/50 (4%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K +K  +W +LP  DLR+ YSQR+ +   +  L     I DM +  KQ G
+Sbjct  508  KTIKSKEWHTLPSDDLRFKYSQRKSQ--FYGELAVGRDIFDMEARLKQVG  555
+
+
+>ref|YP_001185449.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+ ref|WP_011920332.1| transporter [Shewanella putrefaciens]
+ gb|ABP77650.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+Length=536
+
+ Score = 35.4 bits (80),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            I  +K + W  LP  DLRY+Y+    +  +++  K +G+I D+ S+  + G
+Sbjct  487  INRIKRTQWLELPTNDLRYLYASSD-KNNVYQLFKNQGLIYDLKSVSNRTG  536
+
+
+>ref|YP_004750330.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+ ref|WP_014003726.1| transcriptional antiterminator [Acidithiobacillus caldus]
+ gb|AEK59630.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+Length=551
+
+ Score = 35.4 bits (80),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMAS  48
+            + VVK   W +L   DLR+++SQ   E+ +++ L  KG+  D  S
+Sbjct  501  VPVVKKEKWHALDSHDLRFLFSQASSEEDVYKSLGQKGLFFDTES  545
+
+
+>ref|WP_021702545.1| hypothetical protein [Pseudomonas alcaligenes]
+ dbj|GAD64464.1| hypothetical protein PA6_038_00350 [Pseudomonas alcaligenes NBRC 
+14159]
+Length=536
+
+ Score = 35.4 bits (80),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK +DW  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTDWGCLSEEDLRRHYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_004777549.1| hypothetical protein [Acinetobacter sp. CIP 102082]
+ gb|ENU95462.1| hypothetical protein F970_01926 [Acinetobacter sp. CIP 102082]
+Length=560
+
+ Score = 35.4 bits (80),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 1/49 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            K  K   W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ
+Sbjct  510  KSTKADQWQTLDTVDLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQ  558
+
+
+>ref|WP_016658870.1| hypothetical protein [Acinetobacter indicus]
+ gb|EPF73089.1| hypothetical protein F956_01198 [Acinetobacter indicus ANC 4215]
+ gb|ESK46984.1| hypothetical protein P253_02703 [Acinetobacter indicus CIP 110367]
+Length=560
+
+ Score = 35.4 bits (80),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 33/52 (63%), Gaps = 1/52 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQ  558
+
+
+>ref|WP_016165661.1| hypothetical protein [Acinetobacter tandoii]
+ gb|EOR10855.1| hypothetical protein I593_00505 [Acinetobacter tandoii DSM 14970 
+= CIP 107469]
+Length=560
+
+ Score = 35.4 bits (80),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 33/52 (63%), Gaps = 1/52 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQ  52
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQ  558
+
+
+>ref|WP_022661133.1| transcriptional antiterminator [Desulfovibrio longus]
+Length=551
+
+ Score = 35.4 bits (80),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 30/50 (60%), Gaps = 1/50 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K +   +WD+L  TD+R++++Q + +K+MH RL   G I ++     + G
+Sbjct  503  KRIPEKEWDALDPTDIRHVFAQGE-DKSMHLRLSSCGYIFNVEGWMGKVG  551
+
+
+>ref|WP_008950575.1| transporter [Alishewanella jeotgali]
+ gb|EHR40949.1| transposon Tn7 transposition protein TnsC [Alishewanella jeotgali 
+KCTC 22429]
+Length=536
+
+ Score = 35.0 bits (79),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            I  +K + W  LP  DLRY+Y+    +  +++  K +G+I D+ S+  + G
+Sbjct  487  INRIKRTQWLELPTNDLRYLYASSD-KNNVYQLFKKQGLIYDLKSVSNRTG  536
+
+
+>ref|YP_001279362.1| 3-oxoacyl-(acyl-carrier-protein) reductase [Psychrobacter sp. 
+PRwf-1]
+ ref|WP_011959739.1| 3-ketoacyl-ACP reductase [Psychrobacter sp. PRwf-1]
+ gb|ABQ93412.1| 3-oxoacyl-[acyl-carrier-protein] reductase [Psychrobacter sp. 
+PRwf-1]
+Length=242
+
+ Score = 34.3 bits (77),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 29/49 (59%), Gaps = 3/49 (6%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKG-KGVIVDMASLFKQAG  54
+            +K  DWD + DT+L  IY  R  ++ M   +KG KG I+++ S+  Q G
+Sbjct  97   MKDEDWDKVVDTNLTSIY--RMSKRAMRGMMKGRKGRIINITSVVGQMG  143
+
+
+>ref|WP_023100509.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV23304.1| hypothetical protein Q068_06450 [Pseudomonas aeruginosa BL14]
+ gb|ERV23665.1| hypothetical protein Q068_06364 [Pseudomonas aeruginosa BL14]
+ gb|ERV23852.1| hypothetical protein Q068_06132 [Pseudomonas aeruginosa BL14]
+ gb|ERV24692.1| hypothetical protein Q068_06098 [Pseudomonas aeruginosa BL14]
+Length=536
+
+ Score = 34.7 bits (78),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L + +
+Sbjct  487  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLRAS  536
+
+
+>ref|WP_017781028.1| transporter [Aeromonas hydrophila]
+Length=536
+
+ Score = 34.7 bits (78),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L + +
+Sbjct  487  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLRAS  536
+
+
+>ref|WP_021263980.1| transporter [Pseudomonas aeruginosa]
+ gb|EQL42763.1| transporter [Pseudomonas aeruginosa VRFPA03]
+Length=466
+
+ Score = 34.3 bits (77),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 29/51 (57%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L + +
+Sbjct  417  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLRAS  466
+
+
+>ref|WP_018123628.1| hypothetical protein [Desulfovibrio oxyclinae]
+Length=546
+
+ Score = 34.3 bits (77),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 31/50 (62%), Gaps = 1/50 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K++    W +L   DLR+++SQ  PE+ M+E+ + + +I D+ +   ++G
+Sbjct  498  KLLPQRKWHTLDSEDLRFMFSQGGPEE-MYEQFEKRSLIFDVENWLSKSG  546
+
+
+>ref|WP_019674146.1| hypothetical protein [Psychrobacter lutiphocae]
+Length=560
+
+ Score = 33.9 bits (76),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIV  44
+            K +K  DW +L   DLR+ +SQ+   +T +E LK    ++
+Sbjct  510  KSIKQKDWHTLDSDDLRFQFSQKDESETFYEHLKTNTSLI  549
+
+
+>ref|YP_008766028.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ ref|WP_023383126.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ gb|AGZ37901.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+Length=536
+
+ Score = 33.9 bits (76),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_023112059.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV90354.1| hypothetical protein Q039_03725 [Pseudomonas aeruginosa BWHPSA026]
+Length=536
+
+ Score = 33.9 bits (76),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_023102029.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERY38989.1| hypothetical protein Q066_03640 [Pseudomonas aeruginosa BL12]
+Length=536
+
+ Score = 33.9 bits (76),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|YP_004716556.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+ ref|WP_013984537.1| transporter [Pseudomonas stutzeri]
+ gb|AEJ07467.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+Length=536
+
+ Score = 33.9 bits (76),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_016782883.1| transporter [Pseudomonas fragi]
+ gb|ETF05435.1| transporter [Pseudomonas moraviensis R28]
+Length=536
+
+ Score = 33.9 bits (76),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_000133967.1| transporter [Enterobacteriaceae]
+ gb|EFJ99811.1| hypothetical protein HMPREF9540_00064 [Escherichia coli MS 115-1]
+ gb|EIL57895.1| transposon Tn7 transposition protein TnsC [Escherichia coli 541-1]
+ gb|ESA24958.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD1]
+ gb|ESA99636.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 909945-2]
+ gb|ESF51442.1| transposon Tn7 transposition protein TnsC [Salmonella enterica 
+subsp. enterica serovar Senftenberg str. ATCC 43845]
+Length=536
+
+ Score = 33.5 bits (75),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (55%), Gaps = 1/51 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+             I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L + +
+Sbjct  487  GISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLRAS  536
+
+
+>ref|WP_009810227.1| heme biosynthesis protein HemY [Roseobacter sp. MED193]
+ gb|EAQ46235.1| HemY domain protein [Roseobacter sp. MED193]
+Length=503
+
+ Score = 33.1 bits (74),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 28/37 (76%), Gaps = 1/37 (3%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLK  38
+            +AIKV+K + W++ P  DL +++++ +PE+T  +R+K
+Sbjct  291  NAIKVLKKA-WEAQPHPDLAHVFAEVEPEETAPQRVK  326
+
+
+>ref|YP_006749746.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+ ref|WP_014951231.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii]
+ gb|AFS39192.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+Length=540
+
+ Score = 32.7 bits (73),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 17/43 (40%), Positives = 23/43 (53%), Gaps = 0/43 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIV  44
+            S  KVV    W  L   DLRYI+SQ +    +H+ L  K +I+
+Sbjct  496  SESKVVPFRKWSKLAHDDLRYIHSQSKTTSELHKSLVEKDLII  538
+
+
+>gb|AGP83587.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+str. 'Aegean Sea MED64']
+Length=541
+
+ Score = 32.7 bits (73),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 19/42 (45%), Gaps = 0/42 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+             VV    W  L   DLRYI SQ   E  MH  L   G+I  +
+Sbjct  499  NVVPYGKWSKLDHDDLRYIRSQSNTESEMHSNLVKAGLIASL  540
+
+
+>ref|WP_004666644.1| transporter [Pseudomonas savastanoi]
+ gb|EFW77761.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. glycinea str. B076]
+Length=536
+
+ Score = 32.7 bits (73),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   P+   ++R K  G+I+D+  L K
+Sbjct  488  ISRVKRTEWGCLSEEDLRRHYAD-GPQSEAYDRFKQAGLILDLRPLLK  534
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307993208004
+Results from round 2
+
+
+Query= 1T0FC
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1T0F|C  Chain C, Crystal Structure Of The TnsaTNSC(504-555) C...  92.1    5e-23
+ref|NP_065318.1|  transposition regulator protein [Escherichia co...  94.8    3e-21
+ref|WP_021561542.1|  transposon Tn7 transposition protein tnsC [E...  91.7    5e-21
+ref|WP_001276995.1|  ATPase AAA [Escherichia coli] >gb|EIL27973.1...  92.1    3e-20
+ref|WP_005088744.1|  hypothetical protein [Acinetobacter haemolyt...  82.1    8e-17
+ref|WP_000127266.1|  ATPase AAA [Vibrio cholerae] >gb|EGS60813.1|...  79.8    6e-16
+ref|YP_001185439.1|  ATPase AAA [Shewanella putrefaciens CN-32] >...  75.9    1e-14
+ref|YP_001984250.1|  Tn7-Cj, transposition protein TnsC [Cellvibr...  67.1    2e-11
+ref|WP_005120012.1|  ATPase AAA [Shigella flexneri] >gb|EIQ21197....  58.6    1e-08
+ref|WP_021534815.1|  transposon Tn7 transposition protein tnsC [E...  47.8    8e-05
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_008897112.1|  ATPase AAA [Rheinheimera sp. A13L] >gb|EGM79...  68.2    7e-12
+ref|WP_001128124.1|  ATPase AAA [Acinetobacter baumannii] >gb|EJG...  61.7    8e-10
+ref|WP_006647580.1|  ATPase AAA [Photobacterium sp. SKA34] >gb|EA...  55.9    1e-07
+ref|WP_017043120.1|  ATPase AAA [Vibrio ordalii]                      55.5    2e-07
+ref|YP_001095951.1|  transposon Tn7 transposition protein TnsC [S...  54.0    7e-07
+ref|WP_004588897.1|  Transposon Tn7 transposition protein tnsC [P...  53.2    1e-06
+ref|YP_002891521.1|  ATPase AAA [Tolumonas auensis DSM 9187] >ref...  52.4    2e-06
+ref|WP_007103541.1|  transposon Tn7 transposition protein tnsC [G...  51.3    6e-06
+ref|WP_000174564.1|  transcriptional antiterminator [Vibrio sp. R...  50.1    1e-05
+ref|YP_006012086.1|  transposon Tn7 transposition protein, TnsC [...  49.7    2e-05
+gb|AHC16015.1|  Transposon Tn7 transposition protein tnsC [Spiroc...  49.3    2e-05
+ref|WP_006032562.1|  transcriptional antiterminator [Moritella sp...  49.3    3e-05
+ref|WP_021487185.1|  tn7 transposition regulator TnsC family prot...  45.9    3e-05
+ref|WP_022992605.1|  transcriptional antiterminator [Marinobacter...  48.6    4e-05
+ref|WP_004910120.1|  hypothetical protein [Acinetobacter junii] >...  48.2    7e-05
+ref|WP_010377691.1|  transcriptional antiterminator [Pseudoaltero...  47.8    7e-05
+ref|WP_005087289.1|  hypothetical protein [Acinetobacter haemolyt...  47.8    8e-05
+ref|WP_004825923.1|  hypothetical protein [Acinetobacter berezini...  47.8    9e-05
+ref|YP_004750330.1|  transposon Tn7 transposition protein TnsC [A...  47.4    1e-04
+ref|WP_018678732.1|  hypothetical protein [Acinetobacter tjernber...  47.0    1e-04
+ref|YP_004122276.1|  Tn7 transposition regulator TnsC [Desulfovib...  46.6    2e-04
+ref|WP_008950575.1|  transporter [Alishewanella jeotgali] >gb|EHR...  46.6    2e-04
+ref|YP_001144002.1|  transposon Tn7 transposition protein TnsC [A...  46.3    3e-04
+ref|WP_016658870.1|  hypothetical protein [Acinetobacter indicus]...  46.3    3e-04
+ref|WP_016165661.1|  hypothetical protein [Acinetobacter tandoii]...  46.3    3e-04
+ref|WP_019441331.1|  transcriptional antiterminator [Moritella ma...  46.3    3e-04
+ref|WP_023008483.1|  hypothetical protein [Marinobacter sp. EVN1]...  45.9    4e-04
+ref|YP_001185449.1|  transposon Tn7 transposition protein TnsC [S...  45.9    4e-04
+ref|WP_018123628.1|  hypothetical protein [Desulfovibrio oxyclinae]   45.9    4e-04
+ref|WP_017048672.1|  transcriptional antiterminator [Vibrio ordalii]  45.5    5e-04
+ref|WP_010672249.1|  transcriptional antiterminator [Aeromonas ca...  45.5    5e-04
+ref|YP_156992.1|  transposon Tn7 transposition protein TnsC [Idio...  45.1    7e-04
+ref|WP_001136804.1|  hypothetical protein [Vibrio cholerae] >gb|E...  44.3    7e-04
+ref|WP_000056848.1|  transcriptional antiterminator [Vibrio chole...  44.7    8e-04
+gb|AGP83587.1|  transposon Tn7 transposition protein TnsC [Altero...  44.7    9e-04
+ref|YP_006749746.1|  transposon Tn7 transposition protein TnsC [A...  44.7    0.001
+ref|WP_005249555.1|  hypothetical protein [Acinetobacter] >gb|ENX...  44.3    0.001
+ref|WP_004280912.1|  transcriptional antiterminator [Acinetobacte...  44.3    0.001
+ref|WP_010325586.1|  transcriptional antiterminator [Acinetobacte...  44.3    0.001
+ref|WP_004777549.1|  hypothetical protein [Acinetobacter sp. CIP ...  44.0    0.002
+ref|WP_004683630.1|  transcriptional antiterminator [Acinetobacte...  43.2    0.003
+ref|WP_002122473.1|  transposon Tn7 transposition protein TnsC [A...  43.2    0.003
+ref|WP_004797832.1|  hypothetical protein [Acinetobacter sp. CIP ...  42.4    0.006
+ref|WP_002132421.1|  transposon Tn7 transposition protein TnsC [A...  42.4    0.006
+ref|WP_019674146.1|  hypothetical protein [Psychrobacter lutiphocae]  42.0    0.007
+ref|WP_004647624.1|  hypothetical protein [Acinetobacter] >gb|ENU...  41.6    0.009
+ref|YP_004515333.1|  transposon Tn7 transposition protein TnsC [M...  41.6    0.011
+ref|YP_006560206.1|  transposon Tn7 transposition protein tnsC [M...  41.3    0.012
+ref|WP_004637214.1|  ATPase AAA [Acinetobacter] >gb|EFF84238.1| h...  40.5    0.023
+ref|WP_019602989.1|  hypothetical protein [Teredinibacter turnerae]   40.1    0.030
+ref|WP_003465080.1|  transporter [Pseudomonas pseudoalcaligenes] ...  39.7    0.040
+ref|WP_001061231.1|  ATPase AAA [Acinetobacter baumannii] >gb|ABO...  39.7    0.043
+ref|WP_005181320.1|  hypothetical protein [Acinetobacter sp. CIP ...  39.7    0.043
+ref|YP_001085571.1|  ATPase [Acinetobacter baumannii ATCC 17978] ...  39.7    0.050
+ref|WP_021263980.1|  transporter [Pseudomonas aeruginosa] >gb|EQL...  39.3    0.054
+ref|WP_004777583.1|  hypothetical protein [Acinetobacter sp. CIP ...  39.3    0.056
+ref|WP_004910202.1|  hypothetical protein [Acinetobacter junii] >...  39.3    0.057
+ref|WP_023100509.1|  hypothetical protein [Pseudomonas aeruginosa...  39.3    0.057
+ref|WP_017781028.1|  transporter [Aeromonas hydrophila]               39.3    0.057
+ref|WP_005756485.1|  transposon Tn7 transposition protein TnsC [P...  38.6    0.078
+ref|WP_021702545.1|  hypothetical protein [Pseudomonas alcaligene...  38.9    0.082
+ref|WP_005142110.1|  hypothetical protein [Acinetobacter] >gb|ENW...  38.9    0.089
+ref|WP_004679135.1|  hypothetical protein [Acinetobacter parvus] ...  38.9    0.092
+ref|WP_004965076.1|  hypothetical protein [Acinetobacter] >gb|ENV...  38.6    0.098
+ref|WP_005403457.1|  transcriptional antiterminator [Acinetobacte...  38.6    0.098
+ref|YP_001708575.1|  transposon Tn7-like transposition protein [A...  38.6    0.11 
+ref|WP_022661133.1|  transcriptional antiterminator [Desulfovibri...  38.6    0.13 
+ref|WP_000181345.1|  ATPase AAA [Acinetobacter calcoaceticus/baum...  38.2    0.13 
+ref|YP_008766028.1|  transporter, AcrB/AcrD/AcrF family protein [...  38.2    0.14 
+ref|WP_023102029.1|  hypothetical protein [Pseudomonas aeruginosa...  38.2    0.14 
+ref|WP_023112059.1|  hypothetical protein [Pseudomonas aeruginosa...  38.2    0.14 
+ref|WP_016782883.1|  transporter [Pseudomonas fragi] >gb|ETF05435...  38.2    0.14 
+ref|YP_004716556.1|  transporter, AcrB/AcrD/AcrF family [Pseudomo...  38.2    0.14 
+ref|WP_000133967.1|  transporter [Enterobacteriaceae] >gb|EFJ9981...  38.2    0.14 
+ref|WP_000181344.1|  ATPase AAA [Acinetobacter] >gb|EKB37183.1| h...  38.2    0.14 
+ref|WP_004666644.1|  transporter [Pseudomonas savastanoi] >gb|EFW...  38.2    0.16 
+ref|WP_008315653.1|  Transposon Tn7 transposition protein tnsC [W...  37.8    0.22 
+ref|WP_005268146.1|  hypothetical protein [Acinetobacter sp. CIP ...  37.4    0.29 
+ref|WP_017397692.1|  hypothetical protein [Acinetobacter lwoffii]     37.0    0.30 
+ref|YP_003477679.1|  Tn7-like transposition protein C [Thermoanae...  35.1    1.8  
+ref|YP_004003338.1|  tn7-like transposition protein c [Caldicellu...  34.3    2.6  
+
+
+>pdb|1T0F|C Chain C, Crystal Structure Of The TnsaTNSC(504-555) Complex
+ pdb|1T0F|D Chain D, Crystal Structure Of The TnsaTNSC(504-555) Complex
+Length=54
+
+ Score = 92.1 bits (227),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+           GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+
+
+>ref|NP_065318.1| transposition regulator protein [Escherichia coli]
+ ref|YP_312667.1| ATP-binding protein [Shigella sonnei Ss046]
+ ref|YP_758701.1| ATP-binding protein [Pseudomonas aeruginosa]
+ ref|YP_005729401.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ ref|WP_001276994.1| ATPase AAA [Gammaproteobacteria]
+ sp|P05846.2|TNSC_ECOLX RecName: Full=Transposon Tn7 transposition protein TnsC; Short=Protein 
+E
+ emb|CAA35685.1| unnamed protein product [Escherichia coli]
+ dbj|BAB12611.1| ATP-binding protein [Escherichia coli]
+ gb|AAW78924.1| Tn7 transposase subunit [T7 transposase expression vector pTNS2]
+ gb|AAZ90432.1| ATP-binding protein [Shigella sonnei Ss046]
+ gb|ABA08396.1| transposition regulator protein [Acinetobacter baumannii]
+ gb|ABA08408.1| TnsC [Acinetobacter baumannii]
+ gb|ABA38899.1| transposition regulator protein [Pseudomonas aeruginosa]
+ gb|ABC47005.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABC47017.1| ATP-dependent DNA-binding protein [Raoultella terrigena]
+ gb|ABE77213.1| TnsC [Tn7 delivery vector pGRG36]
+ emb|CAK12712.1| ATP-binding protein [Pseudomonas aeruginosa]
+ gb|ABK40766.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABW35345.1| TnsC [Tn7 transposase expression vector pTNS3]
+ gb|EDX36747.1| transposon Tn7 transposition protein TnsC [Shigella dysenteriae 
+1012]
+ gb|ACH42107.1| TnsC [Vector pTNS2-Easd]
+ gb|ACN91050.1| TnsC [Mini-Tn7 delivery vector pTNS3-asdEc]
+ gb|ADA76108.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ gb|ADI47043.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EFJ64399.1| hypothetical protein HMPREF9547_04430 [Escherichia coli MS 175-1]
+ gb|EGJ81318.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-671]
+ gb|EGK16694.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-218]
+ gb|EGK32823.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-304]
+ gb|AFM78092.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK]
+ gb|AFM78098.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Cm]
+ gb|AFM78105.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Tp]
+ gb|AFR24692.1| TnsC [Cloning vector pGRG36pir]
+ gb|AFR24699.1| TnsC [Cloning vector pGRG36pir-116]
+ gb|AFR24706.1| TnsC [Cloning vector pGRG36pir-116-FKm]
+ gb|AFR44069.1| transposon Tn7 transposition protein TnsC [uncultured bacterium]
+ gb|EKA97829.1| transposon Tn7 transposition protein tnsC [Proteus mirabilis 
+WGLW6]
+ gb|EKU05091.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O111:H11 
+str. CFSAN001630]
+ gb|ELD07433.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE205]
+ gb|ELI55311.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE129]
+ gb|ELJ67246.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE85]
+ gb|EMD01782.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O08]
+ gb|EMD06561.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SEPT362]
+ gb|EMT92161.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH6]
+ gb|EMT94115.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH7]
+ gb|EMT95657.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH10]
+ gb|EMT99111.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH11]
+ gb|EMU26478.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH19]
+ gb|ENA02625.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299917.1]
+ gb|ENA17165.1| transposon Tn7 transposition protein tnsC [Escherichia coli 201600.1]
+ gb|ENB85504.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.10]
+ gb|ENC00266.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.4]
+ gb|ENC29608.1| transposon Tn7 transposition protein tnsC [Escherichia coli P02997067.6]
+ gb|EOW02680.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE98]
+ gb|EOW93696.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE182]
+ gb|EQP04987.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+53 (4-0631051)]
+ gb|EQT51741.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+187 (4-4471660)]
+ gb|EQY95690.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3318-1]
+ gb|ERA35976.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3899-1]
+ gb|ESA28720.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD2]
+ gb|ESA75410.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 113290]
+ gb|EST88722.1| transposition regulator protein [Escherichia coli ECA-0157]
+Length=555
+
+ Score = 94.8 bits (234),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  555
+
+
+>ref|WP_021561542.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQX29299.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3172-1]
+Length=301
+
+ Score = 91.7 bits (226),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  249  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  301
+
+
+>ref|WP_001276995.1| ATPase AAA [Escherichia coli]
+ gb|EIL27973.1| transposition regulator protein [Escherichia coli O111:H11 str. 
+CVM9545]
+Length=559
+
+ Score = 92.1 bits (227),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 51/53 (96%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQ  
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQVS  555
+
+
+>ref|WP_005088744.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW22188.1| hypothetical protein F926_00738 [Acinetobacter haemolyticus NIPH 
+261]
+Length=552
+
+ Score = 82.1 bits (201),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 22/52 (42%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             ++ +KP  W++L   DLR+I+SQ   E  +H+ LK KG+I+DM +L  +AG
+Sbjct  501  KVEYLKPKQWETLQQEDLRFIHSQYLTEYELHQTLKEKGIILDMKNLVLKAG  552
+
+
+>ref|WP_000127266.1| ATPase AAA [Vibrio cholerae]
+ gb|EGS60813.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-09]
+ gb|EMP94170.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae O1 
+str. 87395]
+Length=554
+
+ Score = 79.8 bits (195),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            V+KP+ WD LP  DLR+I SQ +    +H  L  +G+++D++S+   AG
+Sbjct  506  VIKPNSWDELPSDDLRFIKSQCKNSTDVHTALNKQGMLLDLSSVLNLAG  554
+
+
+>ref|YP_001185439.1| ATPase AAA [Shewanella putrefaciens CN-32]
+ ref|WP_011920322.1| ATPase AAA [Shewanella putrefaciens]
+ gb|ABP77640.1| AAA ATPase [Shewanella putrefaciens CN-32]
+Length=546
+
+ Score = 75.9 bits (185),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMA  47
+            + +K  KP  WD+L   DLRYI SQ+Q    MH  L  KG++ D+ 
+Sbjct  497  TQVKNTKPDQWDTLDWDDLRYISSQQQSAAAMHSALGTKGLLFDLR  542
+
+
+>ref|WP_008897112.1| ATPase AAA [Rheinheimera sp. A13L]
+ gb|EGM79750.1| NACHT domain./Tn7 transposition regulator TnsC [Rheinheimera 
+sp. A13L]
+Length=546
+
+ Score = 68.2 bits (165),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 18/42 (43%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            K  KP  WD+L   DLRYI SQ+     +H  L  KG++ D+
+Sbjct  500  KNTKPDQWDTLDWDDLRYISSQQSSATAVHSALGAKGLLFDL  541
+
+
+>ref|YP_001984250.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+ ref|WP_012489362.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus]
+ gb|ACE82742.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+Length=539
+
+ Score = 67.1 bits (162),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 22/44 (50%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query  8    KPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            K S WD LP+ D+RYIYSQR    T+HE  K  GVI  ++   K
+Sbjct  495  KVSLWDQLPENDIRYIYSQRG-NSTIHEAFKTAGVIAAVSDCLK  537
+
+
+>ref|WP_001128124.1| ATPase AAA [Acinetobacter baumannii]
+ gb|EJG23547.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii OIFC143]
+ gb|EJP52285.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii Naval-18]
+Length=416
+
+ Score = 61.7 bits (148),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQ  52
+            + +KP+ WD+L   DLR+I+SQ   EK +H+ L  K +I+++  +  +
+Sbjct  368  EYLKPNQWDTLSQDDLRFIHSQLLTEKDLHKSLLEKNLILEIEKVLLK  415
+
+
+>ref|WP_005120012.1| ATPase AAA [Shigella flexneri]
+ gb|EIQ21197.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-404]
+Length=537
+
+ Score = 58.6 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  31
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  532
+
+
+>ref|WP_006647580.1| ATPase AAA [Photobacterium sp. SKA34]
+ gb|EAR55060.1| ATP-binding protein [Photobacterium sp. SKA34]
+Length=552
+
+ Score = 55.9 bits (133),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  M+  +   G+I+D+ SL ++A
+Sbjct  499  GKRASAIKQTQWHTLDSEDLRFVHSQSDSDNEMYTAMSKSGLILDIQSLLEKA  551
+
+
+>ref|WP_017043120.1| ATPase AAA [Vibrio ordalii]
+Length=552
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++A
+Sbjct  499  GKKASAIKQAQWHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDVQSLLEKA  551
+
+
+>ref|YP_001095951.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+ ref|WP_011867620.1| transcriptional antiterminator [Shewanella loihica]
+ gb|ABO25692.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+Length=545
+
+ Score = 54.0 bits (128),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+            VK +DW++L   DLR+IYSQ    ++++E LK  G+++D+  +
+Sbjct  502  VKRTDWNTLESDDLRFIYSQVGKSESIYEALKDNGLVLDLKKV  544
+
+
+>ref|WP_004588897.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans]
+ gb|ENN97653.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans S816]
+Length=552
+
+ Score = 53.2 bits (126),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 30/54 (56%), Gaps = 0/54 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            G+    +K + W +L   DLR+I+SQ   +  MH  +   G+++++ SL ++  
+Sbjct  499  GNKASSIKHTQWHTLDSNDLRFIHSQADVDSDMHSTMLKLGLVLNIQSLLEEVS  552
+
+
+>ref|YP_002891521.1| ATPase AAA [Tolumonas auensis DSM 9187]
+ ref|WP_012728534.1| ATPase AAA [Tolumonas auensis]
+ gb|ACQ91935.1| AAA ATPase [Tolumonas auensis DSM 9187]
+Length=553
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 28/52 (54%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+               ++K  DWD+L    LRY+YSQ      ++  +   G I+ ++ + ++AG
+Sbjct  502  QTSIIKSKDWDTLQTDSLRYMYSQNSAPTAIYNEMVKAGYILKLSDILQKAG  553
+
+
+>ref|WP_007103541.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris]
+ dbj|GAC31737.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris 
+LMG 21857]
+Length=544
+
+ Score = 51.3 bits (121),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMA  47
+            +   V+ PS W  L   DLRYI+SQ   E  MH  L   G+I  + 
+Sbjct  499  TKSNVITPSHWHKLDHDDLRYIHSQSHTESEMHANLVKNGLIASIK  544
+
+
+>ref|WP_000174564.1| transcriptional antiterminator [Vibrio sp. RC586]
+ gb|EEY99532.1| transposon Tn7 transposition protein TnsC [Vibrio sp. RC586]
+Length=551
+
+ Score = 50.1 bits (118),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K VK +DW +L   DLR+++SQ   E+T  E L   G+  D        G
+Sbjct  500  KLKAVKKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFDAQDWVNSFG  551
+
+
+>ref|YP_006012086.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+ ref|WP_014611869.1| transcriptional antiterminator [Shewanella putrefaciens]
+ gb|ADV56620.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+Length=551
+
+ Score = 49.7 bits (117),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K +K +DW +L   DLR+++SQ   E+T  E L   G++ D        G
+Sbjct  500  KLKAMKKADWHTLDSEDLRFLFSQSANEETFQESLGCNGLLFDAQDWVNSFG  551
+
+
+>gb|AHC16015.1| Transposon Tn7 transposition protein tnsC [Spirochaeta sp. L21-RPul-D2]
+Length=552
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            GS  K++ P DW +L   DLR++ SQ        E LK  GV+ D
+Sbjct  499  GSTYKIIHPKDWHTLETDDLRFVSSQADNTDEFVEILKSSGVMFD  543
+
+
+>ref|WP_006032562.1| transcriptional antiterminator [Moritella sp. PE36]
+ gb|EDM66662.1| Transposon Tn7 transposition protein tnsC [Moritella sp. PE36]
+Length=553
+
+ Score = 49.3 bits (116),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 32/50 (64%), Gaps = 1/50 (2%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQP-EKTMHERLKGKGVIVDMASLFKQAG  54
+            V+K  +W++LP  D+R+++S+      +++E+LK KGVI    S FK  G
+Sbjct  504  VIKKQNWNTLPSDDMRFMHSESDNGSYSVYEQLKLKGVIFSSNSWFKDVG  553
+
+
+>ref|WP_021487185.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus]
+ gb|EQM36639.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus 
+VPCR-2010]
+Length=45
+
+ Score = 45.9 bits (107),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 25/43 (58%), Gaps = 0/43 (0%)
+
+Query  11  DWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++ 
+Sbjct  2   QWHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDIQSLLEKV  44
+
+
+>ref|WP_022992605.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+ gb|ERS85295.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+Length=551
+
+ Score = 48.6 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K V+ +DW +L   DLR+++SQ   E+T  E L   G+  D        G
+Sbjct  500  KLKAVRKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFDAQDWVNSFG  551
+
+
+>ref|WP_004910120.1| hypothetical protein [Acinetobacter junii]
+ gb|ENV51244.1| hypothetical protein F953_01385 [Acinetobacter junii CIP 107470]
+ gb|EPR81098.1| Transposon Tn7 transposition protein tnsC [Acinetobacter junii 
+MTCC 11364]
+Length=560
+
+ Score = 48.2 bits (113),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 28/53 (53%), Gaps = 1/53 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+              K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  508  QAKSTKPDQWQTLDTADLRFQFSQKENEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>ref|WP_010377691.1| transcriptional antiterminator [Pseudoalteromonas piscicida]
+ gb|ERG32897.1| transposon Tn7 transposition protein TnsC [Pseudoalteromonas 
+piscicida JCM 20779]
+Length=556
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLFKQA  53
+            +K  DW +LP  DLR+ YSQ + +   +++  K +G I D+ +  KQ+
+Sbjct  508  IKLKDWHTLPSDDLRFGYSQHKKQSDELYQYYKQQGKIFDVTAWLKQS  555
+
+
+>ref|WP_021534815.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQS35242.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+149 (4-4451880)]
+Length=576
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  31
+            SAIKVVKPSDWDSLPDTDLRYIY +   + 
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYLKWSTKT  532
+
+
+>ref|WP_005087289.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW20419.1| hypothetical protein F927_00903 [Acinetobacter haemolyticus CIP 
+64.3]
+ gb|EPR89672.1| Transposon Tn7 transposition protein tnsC [Acinetobacter haemolyticus 
+MTCC 9819]
+Length=560
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  V+ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNVVFDLDHWIKQVS  560
+
+
+>ref|WP_004825923.1| hypothetical protein [Acinetobacter bereziniae]
+ gb|ENV19855.1| hypothetical protein F963_04247 [Acinetobacter bereziniae NIPH 
+3]
+Length=560
+
+ Score = 47.8 bits (112),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>ref|YP_004750330.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+ ref|WP_014003726.1| transcriptional antiterminator [Acidithiobacillus caldus]
+ gb|AEK59630.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+Length=551
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + VVK   W +L   DLR+++SQ   E+ +++ L  KG+  D  S     G
+Sbjct  500  KVPVVKKEKWHALDSHDLRFLFSQASSEEDVYKSLGQKGLFFDTESWVDSYG  551
+
+
+>ref|WP_018678732.1| hypothetical protein [Acinetobacter tjernbergiae]
+ gb|ESK55771.1| hypothetical protein F990_01655 [Acinetobacter tjernbergiae DSM 
+14971 = CIP 107465]
+Length=560
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTHIVFDIDHWLKQVS  560
+
+
+>ref|YP_004122276.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+ ref|WP_013515442.1| transcriptional antiterminator [Desulfovibrio aespoeensis]
+ gb|ADU63530.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+Length=546
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 28/53 (53%), Gaps = 1/53 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            +  K +   DW SL   DLR+++SQ    K M+E LK   +I DM    ++ G
+Sbjct  495  TKAKSIPRKDWHSLGSEDLRFVFSQ-TDSKDMYEHLKQNSMIFDMEDWLRKPG  546
+
+
+>ref|WP_008950575.1| transporter [Alishewanella jeotgali]
+ gb|EHR40949.1| transposon Tn7 transposition protein TnsC [Alishewanella jeotgali 
+KCTC 22429]
+Length=536
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             I  +K + W  LP  DLRY+Y+       +++  K +G+I D+ S+  + G
+Sbjct  486  KINRIKRTQWLELPTNDLRYLYASSDKN-NVYQLFKKQGLIYDLKSVSNRTG  536
+
+
+>ref|YP_001144002.1| transposon Tn7 transposition protein TnsC [Aeromonas salmonicida 
+subsp. salmonicida A449]
+ ref|WP_011899254.1| transcriptional antiterminator [Aeromonas salmonicida]
+ gb|ABO92254.1| Transposon Tn7 transposition protein TnsC [Aeromonas salmonicida 
+subsp. salmonicida A449]
+Length=556
+
+ Score = 46.3 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            ++  +W +L   DLR+ +SQ      ++   K  G+  D+    ++ G
+Sbjct  509  IRQKEWHTLHSDDLRFKFSQCGKGNLLYPAFKKAGLTFDVDDWLRRMG  556
+
+
+>ref|WP_016658870.1| hypothetical protein [Acinetobacter indicus]
+ gb|EPF73089.1| hypothetical protein F956_01198 [Acinetobacter indicus ANC 4215]
+ gb|ESK46984.1| hypothetical protein P253_02703 [Acinetobacter indicus CIP 110367]
+Length=560
+
+ Score = 46.3 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ  
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQVS  560
+
+
+>ref|WP_016165661.1| hypothetical protein [Acinetobacter tandoii]
+ gb|EOR10855.1| hypothetical protein I593_00505 [Acinetobacter tandoii DSM 14970 
+= CIP 107469]
+Length=560
+
+ Score = 46.3 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ  
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQVS  560
+
+
+>ref|WP_019441331.1| transcriptional antiterminator [Moritella marina]
+Length=553
+
+ Score = 46.3 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLFKQAG  54
+            S   V+K  +W++LP  D+R+++S+  +   +++E+LK KG+I    S  +  G
+Sbjct  500  SPTPVIKKQNWNTLPSDDMRFMHSESDKGPYSVYEQLKLKGMIFSSDSWLEYVG  553
+
+
+>ref|WP_023008483.1| hypothetical protein [Marinobacter sp. EVN1]
+ gb|ERS86224.1| hypothetical protein Q672_15155 [Marinobacter sp. EVN1]
+Length=553
+
+ Score = 45.9 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 13/43 (30%), Positives = 24/43 (56%), Gaps = 0/43 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+             IK +K  +W +L   DLR+++SQ   E  M +  +  G++ +
+Sbjct  500  KIKSIKVKEWHTLESDDLRFLHSQAANEDEMLDAARQSGLVFN  542
+
+
+>ref|YP_001185449.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+ ref|WP_011920332.1| transporter [Shewanella putrefaciens]
+ gb|ABP77650.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+Length=536
+
+ Score = 45.9 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             I  +K + W  LP  DLRY+Y+       +++  K +G+I D+ S+  + G
+Sbjct  486  KINRIKRTQWLELPTNDLRYLYASSDKN-NVYQLFKNQGLIYDLKSVSNRTG  536
+
+
+>ref|WP_018123628.1| hypothetical protein [Desulfovibrio oxyclinae]
+Length=546
+
+ Score = 45.9 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 30/50 (60%), Gaps = 1/50 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K++    W +L   DLR+++SQ  PE  M+E+ + + +I D+ +   ++G
+Sbjct  498  KLLPQRKWHTLDSEDLRFMFSQGGPE-EMYEQFEKRSLIFDVENWLSKSG  546
+
+
+>ref|WP_017048672.1| transcriptional antiterminator [Vibrio ordalii]
+Length=545
+
+ Score = 45.5 bits (106),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+  +
+Sbjct  501  VVKRADWSSLETCDLRFVYSQLTKKEDMYSALKANKLILDLKKV  544
+
+
+>ref|WP_010672249.1| transcriptional antiterminator [Aeromonas caviae]
+Length=556
+
+ Score = 45.5 bits (106),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 11/45 (24%), Positives = 21/45 (47%), Gaps = 0/45 (0%)
+
+Query  10   SDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +W +L   DLR+ +SQ      ++   K  G+  D+    ++ G
+Sbjct  512  KEWHTLHSDDLRFKFSQCGKGNLLYPAFKKAGITFDVDDWLRRMG  556
+
+
+>ref|YP_156992.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+L2TR]
+ ref|YP_008036121.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+ ref|WP_011235834.1| transcriptional antiterminator [Idiomarina loihiensis]
+ gb|AAV83443.1| Transposon Tn7 transposition protein tnsC [Idiomarina loihiensis 
+L2TR]
+ gb|AGM37487.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+Length=555
+
+ Score = 45.1 bits (105),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 18/50 (36%), Positives = 26/50 (52%), Gaps = 2/50 (4%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K +K  +W +LP  DLR+ YSQR+ +      +     I DM +  KQ G
+Sbjct  508  KTIKSKEWHTLPSDDLRFKYSQRKSQFYGELAVGRD--IFDMEARLKQVG  555
+
+
+>ref|WP_001136804.1| hypothetical protein [Vibrio cholerae]
+ gb|EGR09187.1| transposon Tn7 transposition tnsC domain protein [Vibrio cholerae 
+HE48]
+Length=245
+
+ Score = 44.3 bits (103),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+  +
+Sbjct  201  VVKRADWSSLETGDLRFVYSQLTKKEDMYSALKANKLILDLKKV  244
+
+
+>ref|WP_000056848.1| transcriptional antiterminator [Vibrio cholerae]
+ gb|EJH65279.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-45]
+Length=545
+
+ Score = 44.7 bits (104),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+            VVK +DW SL   DLR++YSQ   ++ M+  LK   +++D+  +
+Sbjct  501  VVKRADWASLETGDLRFVYSQLAKKEDMYSALKANKLVLDLKKV  544
+
+
+>gb|AGP83587.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+str. 'Aegean Sea MED64']
+Length=541
+
+ Score = 44.7 bits (104),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 17/41 (41%), Positives = 19/41 (46%), Gaps = 0/41 (0%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            VV    W  L   DLRYI SQ   E  MH  L   G+I  +
+Sbjct  500  VVPYGKWSKLDHDDLRYIRSQSNTESEMHSNLVKAGLIASL  540
+
+
+>ref|YP_006749746.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+ ref|WP_014951231.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii]
+ gb|AFS39192.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+Length=540
+
+ Score = 44.7 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            S  KVV    W  L   DLRYI+SQ +    +H+ L  K +I+ +
+Sbjct  496  SESKVVPFRKWSKLAHDDLRYIHSQSKTTSELHKSLVEKDLIIKV  540
+
+
+>ref|WP_005249555.1| hypothetical protein [Acinetobacter]
+ gb|ENX25237.1| hypothetical protein F891_03400 [Acinetobacter sp. CIP 101966]
+ gb|ENX25453.1| hypothetical protein F893_00246 [Acinetobacter sp. CIP 102136]
+Length=560
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_004280912.1| transcriptional antiterminator [Acinetobacter lwoffii]
+ gb|EEY89331.1| hypothetical protein HMPREF0017_01998 [Acinetobacter lwoffii 
+SH145]
+Length=560
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_010325586.1| transcriptional antiterminator [Acinetobacter lwoffii]
+Length=560
+
+ Score = 44.3 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_004777549.1| hypothetical protein [Acinetobacter sp. CIP 102082]
+ gb|ENU95462.1| hypothetical protein F970_01926 [Acinetobacter sp. CIP 102082]
+Length=560
+
+ Score = 44.0 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  K   W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKADQWQTLDTVDLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>ref|WP_004683630.1| transcriptional antiterminator [Acinetobacter]
+ gb|ENU35138.1| hypothetical protein F988_02754 [Acinetobacter parvus DSM 16617 
+= CIP 108168]
+ gb|ENU83766.1| hypothetical protein F974_01117 [Acinetobacter sp. CIP 102159]
+ gb|ENU86605.1| hypothetical protein F973_00812 [Acinetobacter sp. CIP 102129]
+Length=548
+
+ Score = 43.2 bits (100),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            + ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  497  TNLRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFD  540
+
+
+>ref|WP_002122473.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP64798.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-82]
+Length=548
+
+ Score = 43.2 bits (100),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            + ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  497  TNLRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFD  540
+
+
+>ref|WP_004797832.1| hypothetical protein [Acinetobacter sp. CIP 102637]
+ gb|ENV07046.1| hypothetical protein F967_00406 [Acinetobacter sp. CIP 102637]
+Length=548
+
+ Score = 42.4 bits (98),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFD  540
+
+
+>ref|WP_002132421.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP68802.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC035]
+ gb|ENU71217.1| hypothetical protein F978_00332 [Acinetobacter baumannii NIPH 
+615]
+Length=548
+
+ Score = 42.4 bits (98),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVD  45
+            ++ +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D
+Sbjct  499  LRKIKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFD  540
+
+
+>ref|WP_019674146.1| hypothetical protein [Psychrobacter lutiphocae]
+Length=560
+
+ Score = 42.0 bits (97),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 26/51 (51%), Gaps = 1/51 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            K +K  DW +L   DLR+ +SQ+   +T +E LK    +I  +     +A 
+Sbjct  510  KSIKQKDWHTLDSDDLRFQFSQKDESETFYEHLKTNTSLIFAVDDWLPKAS  560
+
+
+>ref|WP_004647624.1| hypothetical protein [Acinetobacter]
+ gb|ENU15157.1| hypothetical protein F995_03070 [Acinetobacter sp. CIP A162]
+ gb|ESJ94588.1| hypothetical protein P800_02681 [Acinetobacter lwoffii NIPH 512]
+Length=560
+
+ Score = 41.6 bits (96),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 30/54 (56%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++  ++ ++ LK +  +I D+    KQ  
+Sbjct  507  SKPKLLKYDQWHTLDSVDLRFQFSQKKSGQSFYDHLKTETDLIFDIPDWIKQVS  560
+
+
+>ref|YP_004515333.1| transposon Tn7 transposition protein TnsC [Methylomonas methanica 
+MC09]
+ ref|WP_013821047.1| transcriptional antiterminator [Methylomonas methanica]
+ gb|AEG02834.1| transposon Tn7 transposition protein TnsC [Methylomonas methanica 
+MC09]
+Length=551
+
+ Score = 41.6 bits (96),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 28/46 (61%), Gaps = 3/46 (7%)
+
+Query  5    KVVKPS--DWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMAS  48
+            KVVK S  +W SL   DLRY+YS+      +++ L+ +G++ ++  
+Sbjct  502  KVVKVSRKEWQSLKSDDLRYLYSESGG-SEIYQALQQRGLMFELED  546
+
+
+>ref|YP_006560206.1| transposon Tn7 transposition protein tnsC [Marinobacter sp. BSs20148]
+ ref|WP_014873126.1| transporter [Marinobacter sp. BSs20148]
+ gb|AFP32793.1| Transposon Tn7 transposition protein tnsC [Marinobacter sp. BSs20148]
+Length=536
+
+ Score = 41.3 bits (95),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  +K ++W  L + DLR  Y+   PE  +++R K  G+I D+  L K
+Sbjct  488  IARLKRTEWGRLSEDDLRRRYAD-GPESEVYDRFKQAGLIFDLRPLLK  534
+
+
+>ref|WP_004637214.1| ATPase AAA [Acinetobacter]
+ gb|EFF84238.1| hypothetical protein HMP0015_0294 [Acinetobacter haemolyticus 
+ATCC 19194]
+ gb|EKU54126.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+WC-487]
+ gb|ENW22217.1| hypothetical protein F926_00767 [Acinetobacter haemolyticus NIPH 
+261]
+Length=550
+
+ Score = 40.5 bits (93),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            +    W+ L DTDLR+I+S        ++ +L  +G+I+ M+ L 
+Sbjct  505  ISLKQWNELADTDLRHIFSMNPTSSESIYTQLDRQGLILQMSDLL  549
+
+
+>ref|WP_019602989.1| hypothetical protein [Teredinibacter turnerae]
+Length=554
+
+ Score = 40.1 bits (92),  Expect = 0.030, Method: Composition-based stats.
+ Identities = 12/44 (27%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            +I ++K  DW+ L   D+R++YSQ    +++   L+ +   +D+
+Sbjct  503  SINLIKLKDWNRLDSDDIRFMYSQNDSPESLWAALQQQDKTLDL  546
+
+
+>ref|WP_003465080.1| transporter [Pseudomonas pseudoalcaligenes]
+ emb|CCH40425.1| Transposon Tn7 transposition protein tnsC;Protein E [Pseudomonas 
+pseudoalcaligenes CECT 5344]
+Length=536
+
+ Score = 39.7 bits (91),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W SL + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGSLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_001061231.1| ATPase AAA [Acinetobacter baumannii]
+ gb|ABO12969.2| ATPase [Acinetobacter baumannii ATCC 17978]
+ gb|EGJ62247.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter baumannii 6013150]
+ gb|EGJ62787.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter baumannii 6013113]
+ gb|EJG23263.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC143]
+ gb|EJP49495.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-18]
+ dbj|BAN86069.1| ATPase [Acinetobacter baumannii NCGM 237]
+Length=549
+
+ Score = 39.7 bits (91),  Expect = 0.043, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 27/57 (47%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            S + V K          W+ L DTDLR+I+S        ++ +L   G+I+ M+ L 
+Sbjct  492  SQVTVTKKKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  548
+
+
+>ref|WP_005181320.1| hypothetical protein [Acinetobacter sp. CIP 53.82]
+ gb|ENW87945.1| hypothetical protein F905_02494 [Acinetobacter sp. CIP 53.82]
+Length=549
+
+ Score = 39.7 bits (91),  Expect = 0.043, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 27/57 (47%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            S + V K          W+ L DTDLR+I+S        ++ +L   G+I+ M+ L 
+Sbjct  492  SQVTVTKKKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  548
+
+
+>ref|YP_001085571.1| ATPase [Acinetobacter baumannii ATCC 17978]
+ ref|WP_011859946.1| ATPase AAA [Acinetobacter baumannii]
+Length=475
+
+ Score = 39.7 bits (91),  Expect = 0.050, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 27/57 (47%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            S + V K          W+ L DTDLR+I+S        ++ +L   G+I+ M+ L 
+Sbjct  418  SQVTVTKKKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  474
+
+
+>ref|WP_021263980.1| transporter [Pseudomonas aeruginosa]
+ gb|EQL42763.1| transporter [Pseudomonas aeruginosa VRFPA03]
+Length=466
+
+ Score = 39.3 bits (90),  Expect = 0.054, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  417  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLR  464
+
+
+>ref|WP_004777583.1| hypothetical protein [Acinetobacter sp. CIP 102082]
+ gb|ENU95487.1| hypothetical protein F970_01951 [Acinetobacter sp. CIP 102082]
+Length=550
+
+ Score = 39.3 bits (90),  Expect = 0.056, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 29/57 (51%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            S + V K          W+ L DTDLR+++S  Q     ++ +L  +G+I+ ++ L 
+Sbjct  493  SQVPVTKKKNQRISLKQWNELEDTDLRHVFSMNQTSPESIYTQLDHQGLILQISDLL  549
+
+
+>ref|WP_004910202.1| hypothetical protein [Acinetobacter junii]
+ gb|ENV51143.1| hypothetical protein F953_01415 [Acinetobacter junii CIP 107470]
+ gb|EPR86623.1| Transposon Tn7 transposition protein tnsC [Acinetobacter junii 
+MTCC 11364]
+Length=550
+
+ Score = 39.3 bits (90),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            +    W+ L DTDLR+I+S        ++ +L  +G+I+ M+ L 
+Sbjct  505  ISLKQWNELEDTDLRHIFSMNPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_023100509.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV23304.1| hypothetical protein Q068_06450 [Pseudomonas aeruginosa BL14]
+ gb|ERV23665.1| hypothetical protein Q068_06364 [Pseudomonas aeruginosa BL14]
+ gb|ERV23852.1| hypothetical protein Q068_06132 [Pseudomonas aeruginosa BL14]
+ gb|ERV24692.1| hypothetical protein Q068_06098 [Pseudomonas aeruginosa BL14]
+Length=536
+
+ Score = 39.3 bits (90),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  487  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLR  534
+
+
+>ref|WP_017781028.1| transporter [Aeromonas hydrophila]
+Length=536
+
+ Score = 39.3 bits (90),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 28/49 (57%), Gaps = 1/49 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            ++  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  487  SVSRVKRTEWRCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDMRPLLR  534
+
+
+>ref|WP_005756485.1| transposon Tn7 transposition protein TnsC [Pseudomonas amygdali]
+ gb|EGH22936.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. mori str. 301020]
+Length=352
+
+ Score = 38.6 bits (88),  Expect = 0.078, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  LP+ DLR  Y+   P+   ++RLK  G+++D+  L K
+Sbjct  304  ISKVKRTEWGCLPEEDLRRRYAD-GPDNECYDRLKLAGLVLDLRPLLK  350
+
+
+>ref|WP_021702545.1| hypothetical protein [Pseudomonas alcaligenes]
+ dbj|GAD64464.1| hypothetical protein PA6_038_00350 [Pseudomonas alcaligenes NBRC 
+14159]
+Length=536
+
+ Score = 38.9 bits (89),  Expect = 0.082, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK +DW  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTDWGCLSEEDLRRHYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_005142110.1| hypothetical protein [Acinetobacter]
+ gb|ENW67770.1| hypothetical protein F912_03812 [Acinetobacter baumannii ANC 
+4097]
+ gb|ENX56260.1| hypothetical protein F885_03635 [Acinetobacter sp. ANC 3880]
+Length=550
+
+ Score = 38.9 bits (89),  Expect = 0.089, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 29/57 (51%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            S + VVK          W+ L DTDLR+++S        ++ +L  +G+I+ M+ L 
+Sbjct  493  SQVPVVKKKNQRISLKQWNELEDTDLRHVFSMNPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_004679135.1| hypothetical protein [Acinetobacter parvus]
+ gb|ENU33290.1| hypothetical protein F989_01714 [Acinetobacter parvus NIPH 1103]
+Length=555
+
+ Score = 38.9 bits (89),  Expect = 0.092, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 27/51 (53%), Gaps = 1/51 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  505  KRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|WP_004965076.1| hypothetical protein [Acinetobacter]
+ gb|ENV65557.1| hypothetical protein F948_02930 [Acinetobacter junii CIP 64.5]
+ emb|CDH40610.1| transposon Tn7 transposition protein TnsC [Acinetobacter pittii 
+42F]
+Length=555
+
+ Score = 38.6 bits (88),  Expect = 0.098, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 27/51 (53%), Gaps = 1/51 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  505  KRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|WP_005403457.1| transcriptional antiterminator [Acinetobacter junii]
+ gb|EEY92672.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter junii SH205]
+Length=555
+
+ Score = 38.6 bits (88),  Expect = 0.098, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 27/51 (53%), Gaps = 1/51 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  505  KRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|YP_001708575.1| transposon Tn7-like transposition protein [Acinetobacter baumannii 
+SDF]
+ ref|WP_000181346.1| ATPase AAA [Acinetobacter baumannii]
+ emb|CAP02823.1| putative transposon Tn7-like transposition protein (tnsC-like 
+(Protein E)) [Acinetobacter baumannii SDF]
+Length=550
+
+ Score = 38.6 bits (88),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            +    W+ L DTDLR+I+S        ++ +L  +G+I+ M+ L 
+Sbjct  505  ISLKQWNELEDTDLRHIFSMNPASPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_022661133.1| transcriptional antiterminator [Desulfovibrio longus]
+Length=551
+
+ Score = 38.6 bits (88),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            K +   +WD+L  TD+R++++Q   +K+MH RL   G I ++     + G
+Sbjct  503  KRIPEKEWDALDPTDIRHVFAQ-GEDKSMHLRLSSCGYIFNVEGWMGKVG  551
+
+
+>ref|WP_000181345.1| ATPase AAA [Acinetobacter calcoaceticus/baumannii complex]
+ gb|EKL38852.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC074]
+ gb|EKP53149.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-21]
+Length=550
+
+ Score = 38.2 bits (87),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            +    W+ L DTDLR+I+S        ++ +L  +G+I+ M+ L 
+Sbjct  505  ISLKQWNELEDTDLRHIFSINPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|YP_008766028.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ ref|WP_023383126.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ gb|AGZ37901.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_023102029.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERY38989.1| hypothetical protein Q066_03640 [Pseudomonas aeruginosa BL12]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_023112059.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV90354.1| hypothetical protein Q039_03725 [Pseudomonas aeruginosa BWHPSA026]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_016782883.1| transporter [Pseudomonas fragi]
+ gb|ETF05435.1| transporter [Pseudomonas moraviensis R28]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|YP_004716556.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+ ref|WP_013984537.1| transporter [Pseudomonas stutzeri]
+ gb|AEJ07467.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_000133967.1| transporter [Enterobacteriaceae]
+ gb|EFJ99811.1| hypothetical protein HMPREF9540_00064 [Escherichia coli MS 115-1]
+ gb|EIL57895.1| transposon Tn7 transposition protein TnsC [Escherichia coli 541-1]
+ gb|ESA24958.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD1]
+ gb|ESA99636.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 909945-2]
+ gb|ESF51442.1| transposon Tn7 transposition protein TnsC [Salmonella enterica 
+subsp. enterica serovar Senftenberg str. ATCC 43845]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYAD-GPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_000181344.1| ATPase AAA [Acinetobacter]
+ gb|EKB37183.1| hypothetical protein W9G_02429 [Acinetobacter baumannii Ab11111]
+ gb|ENU44889.1| hypothetical protein F985_00085 [Acinetobacter sp. NIPH 973]
+ gb|ENU71207.1| hypothetical protein F978_00322 [Acinetobacter baumannii NIPH 
+615]
+Length=550
+
+ Score = 38.2 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 1/45 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLF  50
+            +    W+ L DTDLR+I+S        ++ +L  +G+I+ M+ L 
+Sbjct  505  ISLKQWNELEDTDLRHIFSINPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_004666644.1| transporter [Pseudomonas savastanoi]
+ gb|EFW77761.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. glycinea str. B076]
+Length=536
+
+ Score = 38.2 bits (87),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   P+   ++R K  G+I+D+  L K
+Sbjct  488  ISRVKRTEWGCLSEEDLRRHYAD-GPQSEAYDRFKQAGLILDLRPLLK  534
+
+
+>ref|WP_008315653.1| Transposon Tn7 transposition protein tnsC [Wohlfahrtiimonas chitiniclastica]
+ gb|ELV07888.1| Transposon Tn7 transposition protein tnsC [Wohlfahrtiimonas chitiniclastica 
+SH04]
+Length=558
+
+ Score = 37.8 bits (86),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 30/56 (54%), Gaps = 2/56 (4%)
+
+Query  1    GSAI-KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            G+ I K +K  +W +L   DLR+ ++QR+  +  +E L+    +I ++     + G
+Sbjct  503  GTKISKPIKQKEWHTLDSDDLRFQFTQREEGEPFYEYLRDNTSLIFEIDDWLPKVG  558
+
+
+>ref|WP_005268146.1| hypothetical protein [Acinetobacter sp. CIP 64.7]
+ gb|ENX26473.1| hypothetical protein F890_03520 [Acinetobacter sp. CIP 64.7]
+Length=560
+
+ Score = 37.4 bits (85),  Expect = 0.29, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 26/45 (58%), Gaps = 1/45 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVD  45
+            ++ KV+KP +W S    DLR  +SQ ++ E  ++E LK    + D
+Sbjct  509  TSRKVMKPEEWKSTEANDLRVFFSQAQEQEVDVYELLKSSHYLFD  553
+
+
+>ref|WP_017397692.1| hypothetical protein [Acinetobacter lwoffii]
+Length=417
+
+ Score = 37.0 bits (84),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 26/45 (58%), Gaps = 1/45 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVD  45
+            ++ KV+KP +W S    DLR  +SQ ++ E  ++E LK    + D
+Sbjct  366  TSRKVMKPEEWKSTEANDLRVFFSQAQEQEVDVYELLKSSHYLFD  410
+
+
+>ref|YP_003477679.1| Tn7-like transposition protein C [Thermoanaerobacter italicus 
+Ab9]
+ ref|WP_012995828.1| ATPase AAA [Thermoanaerobacter italicus]
+ gb|ADD03117.1| Tn7-like transposition protein C [Thermoanaerobacter italicus 
+Ab9]
+Length=553
+
+ Score = 35.1 bits (79),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 25/42 (60%), Gaps = 1/42 (2%)
+
+Query  14   SLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + + D+R+I  + R+ + T +E LK KG+I  + ++  Q G
+Sbjct  512  KMDENDIRFIVEEGRKKQLTAYEALKEKGLIKGIDNVIFQVG  553
+
+
+>ref|YP_004003338.1| tn7-like transposition protein c [Caldicellulosiruptor owensensis 
+OL]
+ ref|WP_013412859.1| ATPase AAA [Caldicellulosiruptor owensensis]
+ gb|ADQ05538.1| Tn7-like transposition protein C [Caldicellulosiruptor owensensis 
+OL]
+Length=553
+
+ Score = 34.3 bits (77),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 25/42 (60%), Gaps = 1/42 (2%)
+
+Query  14   SLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + + D+R+I  + R+ + T +E LK KG+I  + ++  Q G
+Sbjct  512  KMDENDIRFIVEEGRKKQMTAYEALKAKGLIKGIDNVIFQVG  553
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.129    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307993208004
+Results from round 3
+
+
+Query= 1T0FC
+
+Length=54
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1T0F|C  Chain C, Crystal Structure Of The TnsaTNSC(504-555) C...  76.5    7e-17
+ref|NP_065318.1|  transposition regulator protein [Escherichia co...  80.3    4e-16
+ref|WP_021561542.1|  transposon Tn7 transposition protein tnsC [E...  78.0    4e-16
+ref|WP_001276995.1|  ATPase AAA [Escherichia coli] >gb|EIL27973.1...  78.8    1e-15
+ref|YP_004122276.1|  Tn7 transposition regulator TnsC [Desulfovib...  78.4    2e-15
+ref|WP_017043120.1|  ATPase AAA [Vibrio ordalii]                      77.2    4e-15
+ref|WP_006647580.1|  ATPase AAA [Photobacterium sp. SKA34] >gb|EA...  77.2    5e-15
+ref|WP_000174564.1|  transcriptional antiterminator [Vibrio sp. R...  74.9    3e-14
+ref|WP_019441331.1|  transcriptional antiterminator [Moritella ma...  73.8    6e-14
+ref|WP_000127266.1|  ATPase AAA [Vibrio cholerae] >gb|EGS60813.1|...  73.8    8e-14
+ref|WP_022992605.1|  transcriptional antiterminator [Marinobacter...  73.4    8e-14
+ref|WP_005088744.1|  hypothetical protein [Acinetobacter haemolyt...  73.4    9e-14
+ref|WP_004588897.1|  Transposon Tn7 transposition protein tnsC [P...  73.4    9e-14
+ref|YP_004750330.1|  transposon Tn7 transposition protein TnsC [A...  73.4    1e-13
+ref|YP_001144002.1|  transposon Tn7 transposition protein TnsC [A...  73.0    1e-13
+ref|WP_004825923.1|  hypothetical protein [Acinetobacter berezini...  73.0    2e-13
+ref|YP_006012086.1|  transposon Tn7 transposition protein, TnsC [...  72.6    2e-13
+ref|WP_004910120.1|  hypothetical protein [Acinetobacter junii] >...  72.2    2e-13
+gb|AHC16015.1|  Transposon Tn7 transposition protein tnsC [Spiroc...  72.2    2e-13
+ref|WP_018678732.1|  hypothetical protein [Acinetobacter tjernber...  71.8    3e-13
+ref|WP_005087289.1|  hypothetical protein [Acinetobacter haemolyt...  71.8    3e-13
+ref|WP_018123628.1|  hypothetical protein [Desulfovibrio oxyclinae]   71.5    4e-13
+ref|WP_006032562.1|  transcriptional antiterminator [Moritella sp...  71.1    7e-13
+ref|WP_010672249.1|  transcriptional antiterminator [Aeromonas ca...  70.7    8e-13
+ref|WP_008897112.1|  ATPase AAA [Rheinheimera sp. A13L] >gb|EGM79...  70.3    1e-12
+ref|WP_004777549.1|  hypothetical protein [Acinetobacter sp. CIP ...  69.9    2e-12
+ref|WP_016658870.1|  hypothetical protein [Acinetobacter indicus]...  69.5    2e-12
+ref|WP_016165661.1|  hypothetical protein [Acinetobacter tandoii]...  69.5    2e-12
+ref|YP_001095951.1|  transposon Tn7 transposition protein TnsC [S...  69.5    2e-12
+ref|YP_002891521.1|  ATPase AAA [Tolumonas auensis DSM 9187] >ref...  69.5    2e-12
+ref|WP_010377691.1|  transcriptional antiterminator [Pseudoaltero...  68.8    4e-12
+ref|WP_023008483.1|  hypothetical protein [Marinobacter sp. EVN1]...  68.4    5e-12
+ref|YP_001185439.1|  ATPase AAA [Shewanella putrefaciens CN-32] >...  68.0    7e-12
+ref|WP_007103541.1|  transposon Tn7 transposition protein tnsC [G...  66.5    2e-11
+ref|WP_017048672.1|  transcriptional antiterminator [Vibrio ordalii]  65.3    6e-11
+ref|YP_156992.1|  transposon Tn7 transposition protein TnsC [Idio...  64.1    2e-10
+ref|WP_008950575.1|  transporter [Alishewanella jeotgali] >gb|EHR...  64.1    2e-10
+ref|WP_001128124.1|  ATPase AAA [Acinetobacter baumannii] >gb|EJG...  63.8    2e-10
+ref|WP_001136804.1|  hypothetical protein [Vibrio cholerae] >gb|E...  61.4    2e-10
+ref|WP_000056848.1|  transcriptional antiterminator [Vibrio chole...  63.8    3e-10
+ref|YP_001185449.1|  transposon Tn7 transposition protein TnsC [S...  63.0    4e-10
+ref|WP_010325586.1|  transcriptional antiterminator [Acinetobacte...  62.6    5e-10
+ref|WP_004280912.1|  transcriptional antiterminator [Acinetobacte...  62.6    5e-10
+ref|WP_005249555.1|  hypothetical protein [Acinetobacter] >gb|ENX...  62.6    5e-10
+ref|WP_021487185.1|  tn7 transposition regulator TnsC family prot...  58.0    7e-10
+gb|AGP83587.1|  transposon Tn7 transposition protein TnsC [Altero...  60.3    4e-09
+ref|YP_006749746.1|  transposon Tn7 transposition protein TnsC [A...  57.6    3e-08
+ref|YP_001984250.1|  Tn7-Cj, transposition protein TnsC [Cellvibr...  57.2    4e-08
+ref|WP_005120012.1|  ATPase AAA [Shigella flexneri] >gb|EIQ21197....  52.6    2e-06
+ref|WP_021534815.1|  transposon Tn7 transposition protein tnsC [E...  48.0    8e-05
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_019674146.1|  hypothetical protein [Psychrobacter lutiphocae]  69.9    2e-12
+ref|WP_004679135.1|  hypothetical protein [Acinetobacter parvus] ...  69.9    2e-12
+ref|WP_005403457.1|  transcriptional antiterminator [Acinetobacte...  69.5    2e-12
+ref|WP_004965076.1|  hypothetical protein [Acinetobacter] >gb|ENV...  69.5    2e-12
+ref|WP_004647624.1|  hypothetical protein [Acinetobacter] >gb|ENU...  67.2    1e-11
+ref|WP_008315653.1|  Transposon Tn7 transposition protein tnsC [W...  64.1    2e-10
+ref|WP_004797832.1|  hypothetical protein [Acinetobacter sp. CIP ...  62.2    8e-10
+ref|WP_004683630.1|  transcriptional antiterminator [Acinetobacte...  62.2    8e-10
+ref|WP_002122473.1|  transposon Tn7 transposition protein TnsC [A...  62.2    8e-10
+ref|WP_002132421.1|  transposon Tn7 transposition protein TnsC [A...  61.8    1e-09
+ref|WP_019602989.1|  hypothetical protein [Teredinibacter turnerae]   59.1    8e-09
+ref|YP_004515333.1|  transposon Tn7 transposition protein TnsC [M...  55.3    2e-07
+ref|WP_022661133.1|  transcriptional antiterminator [Desulfovibri...  52.2    2e-06
+ref|WP_005233261.1|  hypothetical protein [Acinetobacter sp. NIPH...  50.7    9e-06
+ref|YP_006560206.1|  transposon Tn7 transposition protein tnsC [M...  47.2    1e-04
+ref|YP_001052688.1|  transposon Tn7 transposition protein TnsC [S...  46.4    2e-04
+ref|WP_003465080.1|  transporter [Pseudomonas pseudoalcaligenes] ...  46.0    3e-04
+ref|WP_005142110.1|  hypothetical protein [Acinetobacter] >gb|ENW...  45.3    6e-04
+ref|WP_004910202.1|  hypothetical protein [Acinetobacter junii] >...  44.9    7e-04
+ref|YP_001708575.1|  transposon Tn7-like transposition protein [A...  44.9    7e-04
+ref|WP_004637214.1|  ATPase AAA [Acinetobacter] >gb|EFF84238.1| h...  44.9    8e-04
+ref|WP_023100509.1|  hypothetical protein [Pseudomonas aeruginosa...  44.9    8e-04
+ref|WP_021702545.1|  hypothetical protein [Pseudomonas alcaligene...  44.9    8e-04
+ref|WP_017781028.1|  transporter [Aeromonas hydrophila]               44.9    8e-04
+ref|WP_021263980.1|  transporter [Pseudomonas aeruginosa] >gb|EQL...  44.5    0.001
+ref|WP_005756485.1|  transposon Tn7 transposition protein TnsC [P...  44.1    0.001
+ref|WP_000181345.1|  ATPase AAA [Acinetobacter calcoaceticus/baum...  44.1    0.001
+ref|WP_000181344.1|  ATPase AAA [Acinetobacter] >gb|EKB37183.1| h...  44.1    0.001
+ref|YP_008766028.1|  transporter, AcrB/AcrD/AcrF family protein [...  44.1    0.001
+ref|WP_023102029.1|  hypothetical protein [Pseudomonas aeruginosa...  44.1    0.001
+ref|WP_023112059.1|  hypothetical protein [Pseudomonas aeruginosa...  44.1    0.001
+ref|WP_016782883.1|  transporter [Pseudomonas fragi] >gb|ETF05435...  44.1    0.001
+ref|YP_004716556.1|  transporter, AcrB/AcrD/AcrF family [Pseudomo...  44.1    0.001
+ref|WP_000133967.1|  transporter [Enterobacteriaceae] >gb|EFJ9981...  44.1    0.001
+ref|WP_004777583.1|  hypothetical protein [Acinetobacter sp. CIP ...  44.1    0.001
+ref|WP_005181320.1|  hypothetical protein [Acinetobacter sp. CIP ...  44.1    0.002
+ref|WP_001061231.1|  ATPase AAA [Acinetobacter baumannii] >gb|ABO...  44.1    0.002
+ref|YP_001085571.1|  ATPase [Acinetobacter baumannii ATCC 17978] ...  43.7    0.002
+ref|WP_004666644.1|  transporter [Pseudomonas savastanoi] >gb|EFW...  43.3    0.003
+ref|WP_005268146.1|  hypothetical protein [Acinetobacter sp. CIP ...  42.6    0.006
+ref|WP_017397692.1|  hypothetical protein [Acinetobacter lwoffii]     42.2    0.006
+ref|WP_018277470.1|  transcriptional antiterminator [Teredinibact...  42.2    0.006
+ref|YP_008372919.1|  Transposon Tn7 transposition protein TnsC [C...  41.4    0.012
+ref|WP_004728829.1|  hypothetical protein [Acinetobacter lwoffii]...  40.3    0.028
+ref|WP_005094703.1|  hypothetical protein [Acinetobacter lwoffii]...  40.3    0.031
+ref|WP_005401633.1|  ATPase [Acinetobacter johnsonii] >gb|EEY9512...  40.3    0.032
+ref|WP_004684274.1|  hypothetical protein [Acinetobacter johnsoni...  39.5    0.051
+gb|EKE22328.1|  hypothetical protein ACD_6C00864G0003 [uncultured...  39.1    0.067
+ref|WP_005105056.1|  hypothetical protein [Acinetobacter lwoffii]...  38.3    0.13 
+ref|WP_010179399.1|  Tn7 transposition protein C [Glaciecola sp. ...  38.0    0.17 
+ref|WP_018416536.1|  Tn7 transposition protein C [Teredinibacter ...  37.2    0.31 
+ref|YP_438102.1|  Tn7-like transposition protein C [Hahella cheju...  35.6    0.89 
+ref|YP_004003338.1|  tn7-like transposition protein c [Caldicellu...  35.3    1.5  
+ref|YP_003477679.1|  Tn7-like transposition protein C [Thermoanae...  34.9    1.6  
+ref|YP_007073193.1|  cell wall hydrolase/autolysin [Leptolyngbya ...  34.9    1.7  
+gb|EIW65618.1|  hypothetical protein TREMEDRAFT_66343 [Tremella m...  33.7    3.2  
+ref|WP_023404365.1|  hypothetical protein [Vibrio halioticoli] >d...  33.7    4.9  
+
+
+>pdb|1T0F|C Chain C, Crystal Structure Of The TnsaTNSC(504-555) Complex
+ pdb|1T0F|D Chain D, Crystal Structure Of The TnsaTNSC(504-555) Complex
+Length=54
+
+ Score = 76.5 bits (187),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 54/54 (100%), Positives = 54/54 (100%), Gaps = 0/54 (0%)
+
+Query  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+           GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  1   GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+
+
+>ref|NP_065318.1| transposition regulator protein [Escherichia coli]
+ ref|YP_312667.1| ATP-binding protein [Shigella sonnei Ss046]
+ ref|YP_758701.1| ATP-binding protein [Pseudomonas aeruginosa]
+ ref|YP_005729401.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ ref|WP_001276994.1| ATPase AAA [Gammaproteobacteria]
+ sp|P05846.2|TNSC_ECOLX RecName: Full=Transposon Tn7 transposition protein TnsC; Short=Protein 
+E
+ emb|CAA35685.1| unnamed protein product [Escherichia coli]
+ dbj|BAB12611.1| ATP-binding protein [Escherichia coli]
+ gb|AAW78924.1| Tn7 transposase subunit [T7 transposase expression vector pTNS2]
+ gb|AAZ90432.1| ATP-binding protein [Shigella sonnei Ss046]
+ gb|ABA08396.1| transposition regulator protein [Acinetobacter baumannii]
+ gb|ABA08408.1| TnsC [Acinetobacter baumannii]
+ gb|ABA38899.1| transposition regulator protein [Pseudomonas aeruginosa]
+ gb|ABC47005.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABC47017.1| ATP-dependent DNA-binding protein [Raoultella terrigena]
+ gb|ABE77213.1| TnsC [Tn7 delivery vector pGRG36]
+ emb|CAK12712.1| ATP-binding protein [Pseudomonas aeruginosa]
+ gb|ABK40766.1| ATP-dependent DNA-binding protein [Enterobacter cloacae]
+ gb|ABW35345.1| TnsC [Tn7 transposase expression vector pTNS3]
+ gb|EDX36747.1| transposon Tn7 transposition protein TnsC [Shigella dysenteriae 
+1012]
+ gb|ACH42107.1| TnsC [Vector pTNS2-Easd]
+ gb|ACN91050.1| TnsC [Mini-Tn7 delivery vector pTNS3-asdEc]
+ gb|ADA76108.1| Transposon Tn7 transposition protein tnsC [Shigella flexneri 
+2002017]
+ gb|ADI47043.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EFJ64399.1| hypothetical protein HMPREF9547_04430 [Escherichia coli MS 175-1]
+ gb|EGJ81318.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-671]
+ gb|EGK16694.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-218]
+ gb|EGK32823.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-304]
+ gb|AFM78092.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK]
+ gb|AFM78098.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Cm]
+ gb|AFM78105.1| Tn7 transposase subunit [Tn7 transposase expression vector pSTNSK-Tp]
+ gb|AFR24692.1| TnsC [Cloning vector pGRG36pir]
+ gb|AFR24699.1| TnsC [Cloning vector pGRG36pir-116]
+ gb|AFR24706.1| TnsC [Cloning vector pGRG36pir-116-FKm]
+ gb|AFR44069.1| transposon Tn7 transposition protein TnsC [uncultured bacterium]
+ gb|EKA97829.1| transposon Tn7 transposition protein tnsC [Proteus mirabilis 
+WGLW6]
+ gb|EKU05091.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O111:H11 
+str. CFSAN001630]
+ gb|ELD07433.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE205]
+ gb|ELI55311.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE129]
+ gb|ELJ67246.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE85]
+ gb|EMD01782.1| Transposon Tn7 transposition protein tnsC [Escherichia coli O08]
+ gb|EMD06561.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SEPT362]
+ gb|EMT92161.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH6]
+ gb|EMT94115.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH7]
+ gb|EMT95657.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH10]
+ gb|EMT99111.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH11]
+ gb|EMU26478.1| Transposon Tn7 transposition protein tnsC [Acinetobacter baumannii 
+ABNIH19]
+ gb|ENA02625.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299917.1]
+ gb|ENA17165.1| transposon Tn7 transposition protein tnsC [Escherichia coli 201600.1]
+ gb|ENB85504.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.10]
+ gb|ENC00266.1| transposon Tn7 transposition protein tnsC [Escherichia coli P0299438.4]
+ gb|ENC29608.1| transposon Tn7 transposition protein tnsC [Escherichia coli P02997067.6]
+ gb|EOW02680.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE98]
+ gb|EOW93696.1| transposon Tn7 transposition protein tnsC [Escherichia coli KTE182]
+ gb|EQP04987.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+53 (4-0631051)]
+ gb|EQT51741.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+187 (4-4471660)]
+ gb|EQY95690.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3318-1]
+ gb|ERA35976.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3899-1]
+ gb|ESA28720.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD2]
+ gb|ESA75410.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 113290]
+ gb|EST88722.1| transposition regulator protein [Escherichia coli ECA-0157]
+Length=555
+
+ Score = 80.3 bits (197),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  555
+
+
+>ref|WP_021561542.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQX29299.1| transposon Tn7 transposition protein tnsC [Escherichia coli UMEA 
+3172-1]
+Length=301
+
+ Score = 78.0 bits (191),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG
+Sbjct  249  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  301
+
+
+>ref|WP_001276995.1| ATPase AAA [Escherichia coli]
+ gb|EIL27973.1| transposition regulator protein [Escherichia coli O111:H11 str. 
+CVM9545]
+Length=559
+
+ Score = 78.8 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 51/53 (96%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQ  
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQVS  555
+
+
+>ref|YP_004122276.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+ ref|WP_013515442.1| transcriptional antiterminator [Desulfovibrio aespoeensis]
+ gb|ADU63530.1| Tn7 transposition regulator TnsC [Desulfovibrio aespoeensis Aspo-2]
+Length=546
+
+ Score = 78.4 bits (192),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 28/53 (53%), Gaps = 1/53 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            +  K +   DW SL   DLR+++SQ   +  M+E LK   +I DM    ++ G
+Sbjct  495  TKAKSIPRKDWHSLGSEDLRFVFSQTDSK-DMYEHLKQNSMIFDMEDWLRKPG  546
+
+
+>ref|WP_017043120.1| ATPase AAA [Vibrio ordalii]
+Length=552
+
+ Score = 77.2 bits (189),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++A
+Sbjct  499  GKKASAIKQAQWHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDVQSLLEKA  551
+
+
+>ref|WP_006647580.1| ATPase AAA [Photobacterium sp. SKA34]
+ gb|EAR55060.1| ATP-binding protein [Photobacterium sp. SKA34]
+Length=552
+
+ Score = 77.2 bits (189),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            G     +K + W +L   DLR+++SQ   +  M+  +   G+I+D+ SL ++A
+Sbjct  499  GKRASAIKQTQWHTLDSEDLRFVHSQSDSDNEMYTAMSKSGLILDIQSLLEKA  551
+
+
+>ref|WP_000174564.1| transcriptional antiterminator [Vibrio sp. RC586]
+ gb|EEY99532.1| transposon Tn7 transposition protein TnsC [Vibrio sp. RC586]
+Length=551
+
+ Score = 74.9 bits (183),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K VK +DW +L   DLR+++SQ   E+T  E L   G+  D        G
+Sbjct  500  KLKAVKKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFDAQDWVNSFG  551
+
+
+>ref|WP_019441331.1| transcriptional antiterminator [Moritella marina]
+Length=553
+
+ Score = 73.8 bits (180),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 32/54 (59%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQP-EKTMHERLKGKGVIVDMASLFKQAG  54
+            S   V+K  +W++LP  D+R+++S+      +++E+LK KG+I    S  +  G
+Sbjct  500  SPTPVIKKQNWNTLPSDDMRFMHSESDKGPYSVYEQLKLKGMIFSSDSWLEYVG  553
+
+
+>ref|WP_000127266.1| ATPase AAA [Vibrio cholerae]
+ gb|EGS60813.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-09]
+ gb|EMP94170.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae O1 
+str. 87395]
+Length=554
+
+ Score = 73.8 bits (180),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 32/52 (62%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+               V+KP+ WD LP  DLR+I SQ +    +H  L  +G+++D++S+   AG
+Sbjct  503  KSTVIKPNSWDELPSDDLRFIKSQCKNSTDVHTALNKQGMLLDLSSVLNLAG  554
+
+
+>ref|WP_022992605.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+ gb|ERS85295.1| transcriptional antiterminator [Marinobacter sp. C1S70]
+Length=551
+
+ Score = 73.4 bits (179),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K V+ +DW +L   DLR+++SQ   E+T  E L   G+  D        G
+Sbjct  500  KLKAVRKADWHTLDSEDLRFLFSQSANEETFQESLGRNGLFFDAQDWVNSFG  551
+
+
+>ref|WP_005088744.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW22188.1| hypothetical protein F926_00738 [Acinetobacter haemolyticus NIPH 
+261]
+Length=552
+
+ Score = 73.4 bits (179),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 22/52 (42%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             ++ +KP  W++L   DLR+I+SQ   E  +H+ LK KG+I+DM +L  +AG
+Sbjct  501  KVEYLKPKQWETLQQEDLRFIHSQYLTEYELHQTLKEKGIILDMKNLVLKAG  552
+
+
+>ref|WP_004588897.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans]
+ gb|ENN97653.1| Transposon Tn7 transposition protein tnsC [Pseudoalteromonas 
+agarivorans S816]
+Length=552
+
+ Score = 73.4 bits (179),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 30/54 (56%), Gaps = 0/54 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            G+    +K + W +L   DLR+I+SQ   +  MH  +   G+++++ SL ++  
+Sbjct  499  GNKASSIKHTQWHTLDSNDLRFIHSQADVDSDMHSTMLKLGLVLNIQSLLEEVS  552
+
+
+>ref|YP_004750330.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+ ref|WP_014003726.1| transcriptional antiterminator [Acidithiobacillus caldus]
+ gb|AEK59630.1| transposon Tn7 transposition protein TnsC [Acidithiobacillus 
+caldus SM-1]
+Length=551
+
+ Score = 73.4 bits (179),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + VVK   W +L   DLR+++SQ   E+ +++ L  KG+  D  S     G
+Sbjct  500  KVPVVKKEKWHALDSHDLRFLFSQASSEEDVYKSLGQKGLFFDTESWVDSYG  551
+
+
+>ref|YP_001144002.1| transposon Tn7 transposition protein TnsC [Aeromonas salmonicida 
+subsp. salmonicida A449]
+ ref|WP_011899254.1| transcriptional antiterminator [Aeromonas salmonicida]
+ gb|ABO92254.1| Transposon Tn7 transposition protein TnsC [Aeromonas salmonicida 
+subsp. salmonicida A449]
+Length=556
+
+ Score = 73.0 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            ++  +W +L   DLR+ +SQ      ++   K  G+  D+    ++ G
+Sbjct  509  IRQKEWHTLHSDDLRFKFSQCGKGNLLYPAFKKAGLTFDVDDWLRRMG  556
+
+
+>ref|WP_004825923.1| hypothetical protein [Acinetobacter bereziniae]
+ gb|ENV19855.1| hypothetical protein F963_04247 [Acinetobacter bereziniae NIPH 
+3]
+Length=560
+
+ Score = 73.0 bits (178),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>ref|YP_006012086.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+ ref|WP_014611869.1| transcriptional antiterminator [Shewanella putrefaciens]
+ gb|ADV56620.1| transposon Tn7 transposition protein, TnsC [Shewanella putrefaciens 
+200]
+Length=551
+
+ Score = 72.6 bits (177),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 0/52 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             +K +K +DW +L   DLR+++SQ   E+T  E L   G++ D        G
+Sbjct  500  KLKAMKKADWHTLDSEDLRFLFSQSANEETFQESLGCNGLLFDAQDWVNSFG  551
+
+
+>ref|WP_004910120.1| hypothetical protein [Acinetobacter junii]
+ gb|ENV51244.1| hypothetical protein F953_01385 [Acinetobacter junii CIP 107470]
+ gb|EPR81098.1| Transposon Tn7 transposition protein tnsC [Acinetobacter junii 
+MTCC 11364]
+Length=560
+
+ Score = 72.2 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 28/53 (53%), Gaps = 1/53 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+              K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  508  QAKSTKPDQWQTLDTADLRFQFSQKENEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>gb|AHC16015.1| Transposon Tn7 transposition protein tnsC [Spirochaeta sp. L21-RPul-D2]
+Length=552
+
+ Score = 72.2 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 26/54 (48%), Gaps = 0/54 (0%)
+
+Query  1    GSAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            GS  K++ P DW +L   DLR++ SQ        E LK  GV+ D  +     G
+Sbjct  499  GSTYKIIHPKDWHTLETDDLRFVSSQADNTDEFVEILKSSGVMFDTDAWIDTYG  552
+
+
+>ref|WP_018678732.1| hypothetical protein [Acinetobacter tjernbergiae]
+ gb|ESK55771.1| hypothetical protein F990_01655 [Acinetobacter tjernbergiae DSM 
+14971 = CIP 107465]
+Length=560
+
+ Score = 71.8 bits (175),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTHIVFDIDHWLKQVS  560
+
+
+>ref|WP_005087289.1| hypothetical protein [Acinetobacter haemolyticus]
+ gb|ENW20419.1| hypothetical protein F927_00903 [Acinetobacter haemolyticus CIP 
+64.3]
+ gb|EPR89672.1| Transposon Tn7 transposition protein tnsC [Acinetobacter haemolyticus 
+MTCC 9819]
+Length=560
+
+ Score = 71.8 bits (175),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 29/54 (54%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  KP  W +L   DLR+ +SQ++ E + +E LK +  V+ D+    KQ  
+Sbjct  507  SQGKSTKPDQWQTLDTADLRFQFSQKESEHSFYEHLKAQTNVVFDLDHWIKQVS  560
+
+
+>ref|WP_018123628.1| hypothetical protein [Desulfovibrio oxyclinae]
+Length=546
+
+ Score = 71.5 bits (174),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 30/52 (58%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+              K++    W +L   DLR+++SQ  PE  M+E+ + + +I D+ +   ++G
+Sbjct  496  KCKLLPQRKWHTLDSEDLRFMFSQGGPE-EMYEQFEKRSLIFDVENWLSKSG  546
+
+
+>ref|WP_006032562.1| transcriptional antiterminator [Moritella sp. PE36]
+ gb|EDM66662.1| Transposon Tn7 transposition protein tnsC [Moritella sp. PE36]
+Length=553
+
+ Score = 71.1 bits (173),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 19/53 (36%), Positives = 32/53 (60%), Gaps = 1/53 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQP-EKTMHERLKGKGVIVDMASLFKQAG  54
+               V+K  +W++LP  D+R+++S+      +++E+LK KGVI    S FK  G
+Sbjct  501  PTSVIKKQNWNTLPSDDMRFMHSESDNGSYSVYEQLKLKGVIFSSNSWFKDVG  553
+
+
+>ref|WP_010672249.1| transcriptional antiterminator [Aeromonas caviae]
+Length=556
+
+ Score = 70.7 bits (172),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 22/48 (46%), Gaps = 0/48 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+            +   +W +L   DLR+ +SQ      ++   K  G+  D+    ++ G
+Sbjct  509  IGQKEWHTLHSDDLRFKFSQCGKGNLLYPAFKKAGITFDVDDWLRRMG  556
+
+
+>ref|WP_008897112.1| ATPase AAA [Rheinheimera sp. A13L]
+ gb|EGM79750.1| NACHT domain./Tn7 transposition regulator TnsC [Rheinheimera 
+sp. A13L]
+Length=546
+
+ Score = 70.3 bits (171),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+              K  KP  WD+L   DLRYI SQ+     +H  L  KG++ D+    
+Sbjct  498  RAKNTKPDQWDTLDWDDLRYISSQQSSATAVHSALGAKGLLFDLNKWV  545
+
+
+>ref|WP_019674146.1| hypothetical protein [Psychrobacter lutiphocae]
+Length=560
+
+ Score = 69.9 bits (170),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 26/53 (49%), Gaps = 1/53 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+              K +K  DW +L   DLR+ +SQ+   +T +E LK    +I  +     +A 
+Sbjct  508  KPKSIKQKDWHTLDSDDLRFQFSQKDESETFYEHLKTNTSLIFAVDDWLPKAS  560
+
+
+>ref|WP_004679135.1| hypothetical protein [Acinetobacter parvus]
+ gb|ENU33290.1| hypothetical protein F989_01714 [Acinetobacter parvus NIPH 1103]
+Length=555
+
+ Score = 69.9 bits (170),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            +  K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  502  NKSKRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|WP_004777549.1| hypothetical protein [Acinetobacter sp. CIP 102082]
+ gb|ENU95462.1| hypothetical protein F970_01926 [Acinetobacter sp. CIP 102082]
+Length=560
+
+ Score = 69.9 bits (170),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K  K   W +L   DLR+ +SQ++ E + +E LK +  ++ D+    KQ  
+Sbjct  507  SQGKSTKADQWQTLDTVDLRFQFSQKESEHSFYEHLKAQTNIVFDIDHWLKQVS  560
+
+
+>ref|WP_016658870.1| hypothetical protein [Acinetobacter indicus]
+ gb|EPF73089.1| hypothetical protein F956_01198 [Acinetobacter indicus ANC 4215]
+ gb|ESK46984.1| hypothetical protein P253_02703 [Acinetobacter indicus CIP 110367]
+Length=560
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ  
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQVS  560
+
+
+>ref|WP_016165661.1| hypothetical protein [Acinetobacter tandoii]
+ gb|EOR10855.1| hypothetical protein I593_00505 [Acinetobacter tandoii DSM 14970 
+= CIP 107469]
+Length=560
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 33/54 (61%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++ +++ ++ LK +  +I D+++  KQ  
+Sbjct  507  SKTKLLKYDQWQTLDSVDLRFQFSQKENDQSFYDHLKTQTDLIFDISNWIKQVS  560
+
+
+>ref|WP_005403457.1| transcriptional antiterminator [Acinetobacter junii]
+ gb|EEY92672.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter junii SH205]
+Length=555
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            +  K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  502  NKSKRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|YP_001095951.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+ ref|WP_011867620.1| transcriptional antiterminator [Shewanella loihica]
+ gb|ABO25692.1| transposon Tn7 transposition protein TnsC [Shewanella loihica 
+PV-4]
+Length=545
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+            +   +VK +DW++L   DLR+IYSQ    ++++E LK  G+++D+  +
+Sbjct  497  AKAALVKRTDWNTLESDDLRFIYSQVGKSESIYEALKDNGLVLDLKKV  544
+
+
+>ref|YP_002891521.1| ATPase AAA [Tolumonas auensis DSM 9187]
+ ref|WP_012728534.1| ATPase AAA [Tolumonas auensis]
+ gb|ACQ91935.1| AAA ATPase [Tolumonas auensis DSM 9187]
+Length=553
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 28/53 (53%), Gaps = 0/53 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+                ++K  DWD+L    LRY+YSQ      ++  +   G I+ ++ + ++AG
+Sbjct  501  KQTSIIKSKDWDTLQTDSLRYMYSQNSAPTAIYNEMVKAGYILKLSDILQKAG  553
+
+
+>ref|WP_004965076.1| hypothetical protein [Acinetobacter]
+ gb|ENV65557.1| hypothetical protein F948_02930 [Acinetobacter junii CIP 64.5]
+ emb|CDH40610.1| transposon Tn7 transposition protein TnsC [Acinetobacter pittii 
+42F]
+Length=555
+
+ Score = 69.5 bits (169),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQAG  54
+            +  K VK   W +L   DLR+ +SQ+  ++  ++ LK    +I +M   F+Q  
+Sbjct  502  NKSKRVKQDQWHTLDTEDLRFQFSQKDEKQNFYQHLKEHTQLIFNMERWFEQVS  555
+
+
+>ref|WP_010377691.1| transcriptional antiterminator [Pseudoalteromonas piscicida]
+ gb|ERG32897.1| transposon Tn7 transposition protein TnsC [Pseudoalteromonas 
+piscicida JCM 20779]
+Length=556
+
+ Score = 68.8 bits (167),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 30/52 (58%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKT-MHERLKGKGVIVDMASLFKQA  53
+               ++K  DW +LP  DLR+ YSQ + +   +++  K +G I D+ +  KQ+
+Sbjct  504  KPALIKLKDWHTLPSDDLRFGYSQHKKQSDELYQYYKQQGKIFDVTAWLKQS  555
+
+
+>ref|WP_023008483.1| hypothetical protein [Marinobacter sp. EVN1]
+ gb|ERS86224.1| hypothetical protein Q672_15155 [Marinobacter sp. EVN1]
+Length=553
+
+ Score = 68.4 bits (166),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+             IK +K  +W +L   DLR+++SQ   E  M +  +  G++ +     
+Sbjct  500  KIKSIKVKEWHTLESDDLRFLHSQAANEDEMLDAARQSGLVFNSDEWL  547
+
+
+>ref|YP_001185439.1| ATPase AAA [Shewanella putrefaciens CN-32]
+ ref|WP_011920322.1| ATPase AAA [Shewanella putrefaciens]
+ gb|ABP77640.1| AAA ATPase [Shewanella putrefaciens CN-32]
+Length=546
+
+ Score = 68.0 bits (165),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 27/46 (59%), Gaps = 0/46 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMA  47
+            + +K  KP  WD+L   DLRYI SQ+Q    MH  L  KG++ D+ 
+Sbjct  497  TQVKNTKPDQWDTLDWDDLRYISSQQQSAAAMHSALGTKGLLFDLR  542
+
+
+>ref|WP_004647624.1| hypothetical protein [Acinetobacter]
+ gb|ENU15157.1| hypothetical protein F995_03070 [Acinetobacter sp. CIP A162]
+ gb|ESJ94588.1| hypothetical protein P800_02681 [Acinetobacter lwoffii NIPH 512]
+Length=560
+
+ Score = 67.2 bits (163),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 30/54 (56%), Gaps = 1/54 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            S  K++K   W +L   DLR+ +SQ++  ++ ++ LK +  +I D+    KQ  
+Sbjct  507  SKPKLLKYDQWHTLDSVDLRFQFSQKKSGQSFYDHLKTETDLIFDIPDWIKQVS  560
+
+
+>ref|WP_007103541.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris]
+ dbj|GAC31737.1| transposon Tn7 transposition protein tnsC [Glaciecola polaris 
+LMG 21857]
+Length=544
+
+ Score = 66.5 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMA  47
+            +   V+ PS W  L   DLRYI+SQ   E  MH  L   G+I  + 
+Sbjct  499  TKSNVITPSHWHKLDHDDLRYIHSQSHTESEMHANLVKNGLIASIK  544
+
+
+>ref|WP_017048672.1| transcriptional antiterminator [Vibrio ordalii]
+Length=545
+
+ Score = 65.3 bits (158),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+               VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+  +
+Sbjct  498  KATVVKRADWSSLETCDLRFVYSQLTKKEDMYSALKANKLILDLKKV  544
+
+
+>ref|YP_156992.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+L2TR]
+ ref|YP_008036121.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+ ref|WP_011235834.1| transcriptional antiterminator [Idiomarina loihiensis]
+ gb|AAV83443.1| Transposon Tn7 transposition protein tnsC [Idiomarina loihiensis 
+L2TR]
+ gb|AGM37487.1| transposon Tn7 transposition protein TnsC [Idiomarina loihiensis 
+GSL 199]
+Length=555
+
+ Score = 64.1 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 18/52 (35%), Positives = 26/52 (50%), Gaps = 2/52 (4%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+              K +K  +W +LP  DLR+ YSQR+ +      +     I DM +  KQ G
+Sbjct  506  KAKTIKSKEWHTLPSDDLRFKYSQRKSQFYGELAVGRD--IFDMEARLKQVG  555
+
+
+>ref|WP_008315653.1| Transposon Tn7 transposition protein tnsC [Wohlfahrtiimonas chitiniclastica]
+ gb|ELV07888.1| Transposon Tn7 transposition protein tnsC [Wohlfahrtiimonas chitiniclastica 
+SH04]
+Length=558
+
+ Score = 64.1 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 30/56 (54%), Gaps = 2/56 (4%)
+
+Query  1    GSAI-KVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            G+ I K +K  +W +L   DLR+ ++QR+  +  +E L+    +I ++     + G
+Sbjct  503  GTKISKPIKQKEWHTLDSDDLRFQFTQREEGEPFYEYLRDNTSLIFEIDDWLPKVG  558
+
+
+>ref|WP_008950575.1| transporter [Alishewanella jeotgali]
+ gb|EHR40949.1| transposon Tn7 transposition protein TnsC [Alishewanella jeotgali 
+KCTC 22429]
+Length=536
+
+ Score = 64.1 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             I  +K + W  LP  DLRY+Y+       +++  K +G+I D+ S+  + G
+Sbjct  486  KINRIKRTQWLELPTNDLRYLYASSDKN-NVYQLFKKQGLIYDLKSVSNRTG  536
+
+
+>ref|WP_001128124.1| ATPase AAA [Acinetobacter baumannii]
+ gb|EJG23547.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii OIFC143]
+ gb|EJP52285.1| putative transposon Tn7 transposition protein TnsC [Acinetobacter 
+baumannii Naval-18]
+Length=416
+
+ Score = 63.8 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 31/51 (61%), Gaps = 0/51 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+              + +KP+ WD+L   DLR+I+SQ   EK +H+ L  K +I+++  +  + 
+Sbjct  366  KSEYLKPNQWDTLSQDDLRFIHSQLLTEKDLHKSLLEKNLILEIEKVLLKT  416
+
+
+>ref|WP_001136804.1| hypothetical protein [Vibrio cholerae]
+ gb|EGR09187.1| transposon Tn7 transposition tnsC domain protein [Vibrio cholerae 
+HE48]
+Length=245
+
+ Score = 61.4 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+               VVK +DW SL   DLR++YSQ   ++ M+  LK   +I+D+  +
+Sbjct  198  KATVVKRADWSSLETGDLRFVYSQLTKKEDMYSALKANKLILDLKKV  244
+
+
+>ref|WP_000056848.1| transcriptional antiterminator [Vibrio cholerae]
+ gb|EJH65279.1| transposon Tn7 transposition protein tnsC [Vibrio cholerae HE-45]
+Length=545
+
+ Score = 63.8 bits (154),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+               VVK +DW SL   DLR++YSQ   ++ M+  LK   +++D+  +
+Sbjct  498  KATVVKRADWASLETGDLRFVYSQLAKKEDMYSALKANKLVLDLKKV  544
+
+
+>ref|YP_001185449.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+ ref|WP_011920332.1| transporter [Shewanella putrefaciens]
+ gb|ABP77650.1| transposon Tn7 transposition protein TnsC [Shewanella putrefaciens 
+CN-32]
+Length=536
+
+ Score = 63.0 bits (152),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             I  +K + W  LP  DLRY+Y+       +++  K +G+I D+ S+  + G
+Sbjct  486  KINRIKRTQWLELPTNDLRYLYASSDKN-NVYQLFKNQGLIYDLKSVSNRTG  536
+
+
+>ref|WP_010325586.1| transcriptional antiterminator [Acinetobacter lwoffii]
+Length=560
+
+ Score = 62.6 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_004280912.1| transcriptional antiterminator [Acinetobacter lwoffii]
+ gb|EEY89331.1| hypothetical protein HMPREF0017_01998 [Acinetobacter lwoffii 
+SH145]
+Length=560
+
+ Score = 62.6 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_005249555.1| hypothetical protein [Acinetobacter]
+ gb|ENX25237.1| hypothetical protein F891_03400 [Acinetobacter sp. CIP 101966]
+ gb|ENX25453.1| hypothetical protein F893_00246 [Acinetobacter sp. CIP 102136]
+Length=560
+
+ Score = 62.6 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGK-GVIVDMASLFKQAG  54
+            ++P  W SL + DLR+ +SQ++ +++ +E LK +   +++M +L K+AG
+Sbjct  512  IQPKLWHSLDNDDLRFQFSQKENKQSFYEHLKNQTDYVINMETLIKEAG  560
+
+
+>ref|WP_021487185.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus]
+ gb|EQM36639.1| tn7 transposition regulator TnsC family protein [Vibrio parahaemolyticus 
+VPCR-2010]
+Length=45
+
+ Score = 58.0 bits (139),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 25/43 (58%), Gaps = 0/43 (0%)
+
+Query  11  DWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            W +L   DLR+++SQ   +  ++  +   G+I+D+ SL ++ 
+Sbjct  2   QWHTLDSEDLRFVHSQSDSDSEVYSAMSKSGLILDIQSLLEKV  44
+
+
+>ref|WP_004797832.1| hypothetical protein [Acinetobacter sp. CIP 102637]
+ gb|ENV07046.1| hypothetical protein F967_00406 [Acinetobacter sp. CIP 102637]
+Length=548
+
+ Score = 62.2 bits (150),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D  +  +  
+Sbjct  502  IKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFDTQTWVQSM  548
+
+
+>ref|WP_004683630.1| transcriptional antiterminator [Acinetobacter]
+ gb|ENU35138.1| hypothetical protein F988_02754 [Acinetobacter parvus DSM 16617 
+= CIP 108168]
+ gb|ENU83766.1| hypothetical protein F974_01117 [Acinetobacter sp. CIP 102159]
+ gb|ENU86605.1| hypothetical protein F973_00812 [Acinetobacter sp. CIP 102129]
+Length=548
+
+ Score = 62.2 bits (150),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            + ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D  +  +  
+Sbjct  497  TNLRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFDTQTWIQSM  548
+
+
+>ref|WP_002122473.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP64798.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-82]
+Length=548
+
+ Score = 62.2 bits (150),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            + ++ +K S+W +LP  DLR+ +SQ+Q  +  ++ L+   +I D  +  +  
+Sbjct  497  TNLRKIKQSEWITLPSDDLRFKFSQKQKSQNFYDVLQSSELIFDTQTWIQSM  548
+
+
+>ref|WP_002132421.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii]
+ gb|EKP68802.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC035]
+ gb|ENU71217.1| hypothetical protein F978_00332 [Acinetobacter baumannii NIPH 
+615]
+Length=548
+
+ Score = 61.8 bits (149),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 27/47 (57%), Gaps = 0/47 (0%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQA  53
+            +K S+W SLP  DLR+ +SQ+Q  +  ++ L+   +I D  +  +  
+Sbjct  502  IKQSEWISLPSDDLRFKFSQKQKSQNFYDVLQSSDLIFDSQTWVQSM  548
+
+
+>gb|AGP83587.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+str. 'Aegean Sea MED64']
+Length=541
+
+ Score = 60.3 bits (145),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 19/45 (42%), Gaps = 0/45 (0%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMA  47
+               VV    W  L   DLRYI SQ   E  MH  L   G+I  + 
+Sbjct  497  KTNVVPYGKWSKLDHDDLRYIRSQSNTESEMHSNLVKAGLIASLD  541
+
+
+>ref|WP_019602989.1| hypothetical protein [Teredinibacter turnerae]
+Length=554
+
+ Score = 59.1 bits (142),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+             +I ++K  DW+ L   D+R++YSQ    +++   L+ +   +D+ +  
+Sbjct  502  KSINLIKLKDWNRLDSDDIRFMYSQNDSPESLWAALQQQDKTLDLDAWL  550
+
+
+>ref|YP_006749746.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+ ref|WP_014951231.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii]
+ gb|AFS39192.1| transposon Tn7 transposition protein TnsC [Alteromonas macleodii 
+ATCC 27126]
+Length=540
+
+ Score = 57.6 bits (138),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDM  46
+            S  KVV    W  L   DLRYI+SQ +    +H+ L  K +I+ +
+Sbjct  496  SESKVVPFRKWSKLAHDDLRYIHSQSKTTSELHKSLVEKDLIIKV  540
+
+
+>ref|YP_001984250.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+ ref|WP_012489362.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus]
+ gb|ACE82742.1| Tn7-Cj, transposition protein TnsC [Cellvibrio japonicus Ueda107]
+Length=539
+
+ Score = 57.2 bits (137),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            +  K  K S WD LP+ D+RYIYSQR    T+HE  K  GVI  ++   K
+Sbjct  489  NPSKKPKVSLWDQLPENDIRYIYSQRGN-STIHEAFKTAGVIAAVSDCLK  537
+
+
+>ref|YP_004515333.1| transposon Tn7 transposition protein TnsC [Methylomonas methanica 
+MC09]
+ ref|WP_013821047.1| transcriptional antiterminator [Methylomonas methanica]
+ gb|AEG02834.1| transposon Tn7 transposition protein TnsC [Methylomonas methanica 
+MC09]
+Length=551
+
+ Score = 55.3 bits (132),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 27/49 (55%), Gaps = 3/49 (6%)
+
+Query  3    AIKVVK--PSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASL  49
+              KVVK    +W SL   DLRY+YS+      +++ L+ +G++ ++   
+Sbjct  500  KPKVVKVSRKEWQSLKSDDLRYLYSESGG-SEIYQALQQRGLMFELEDW  547
+
+
+>ref|WP_005120012.1| ATPase AAA [Shigella flexneri]
+ gb|EIQ21197.1| transposon Tn7 transposition protein tnsC [Shigella flexneri 
+K-404]
+Length=537
+
+ Score = 52.6 bits (125),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  31
+            SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  532
+
+
+>ref|WP_022661133.1| transcriptional antiterminator [Desulfovibrio longus]
+Length=551
+
+ Score = 52.2 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/52 (31%), Positives = 29/52 (56%), Gaps = 1/52 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFKQAG  54
+              K +   +WD+L  TD+R++++Q   +K+MH RL   G I ++     + G
+Sbjct  501  PTKRIPEKEWDALDPTDIRHVFAQ-GEDKSMHLRLSSCGYIFNVEGWMGKVG  551
+
+
+>ref|WP_005233261.1| hypothetical protein [Acinetobacter sp. NIPH 2171]
+ gb|ENX10991.1| hypothetical protein F897_00675 [Acinetobacter sp. NIPH 2171]
+Length=558
+
+ Score = 50.7 bits (120),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 11/43 (26%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  12   WDSLPDTDLRYIYSQRQPEKTMHERLKGKG-VIVDMASLFKQA  53
+            W  L   DLR+ YSQ++   + ++ LK     ++D+    +++
+Sbjct  516  WHRLESADLRFQYSQKESHLSFYQHLKNHTEYVLDIEQWLRES  558
+
+
+>ref|WP_021534815.1| transposon Tn7 transposition protein tnsC [Escherichia coli]
+ gb|EQS35242.1| transposon Tn7 transposition protein tnsC [Escherichia coli HVH 
+149 (4-4451880)]
+Length=576
+
+ Score = 48.0 bits (113),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 23/30 (77%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK  31
+            SAIKVVKPSDWDSLPDTDLRYIY +   + 
+Sbjct  503  SAIKVVKPSDWDSLPDTDLRYIYLKWSTKT  532
+
+
+>ref|YP_006560206.1| transposon Tn7 transposition protein tnsC [Marinobacter sp. BSs20148]
+ ref|WP_014873126.1| transporter [Marinobacter sp. BSs20148]
+ gb|AFP32793.1| Transposon Tn7 transposition protein tnsC [Marinobacter sp. BSs20148]
+Length=536
+
+ Score = 47.2 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  +K ++W  L + DLR  Y+   PE  +++R K  G+I D+  L K
+Sbjct  488  IARLKRTEWGRLSEDDLRRRYA-DGPESEVYDRFKQAGLIFDLRPLLK  534
+
+
+>ref|YP_001052688.1| transposon Tn7 transposition protein TnsC [Shewanella baltica 
+OS155]
+ ref|YP_006039652.1| transposon Tn7 transposition protein TnsC [Shewanella baltica 
+OS117]
+ ref|WP_011848287.1| transcriptional antiterminator [Shewanella baltica]
+ gb|ABN63819.1| transposon Tn7 transposition protein TnsC [Shewanella baltica 
+OS155]
+ gb|AEH16158.1| transposon Tn7 transposition protein TnsC [Shewanella baltica 
+OS117]
+Length=552
+
+ Score = 46.4 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 2/49 (4%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVDMASL  49
+            +  K +K  DW  L  +DLRY Y+  + E+ ++ ERL+  G + D+   
+Sbjct  501  TKTK-IKQKDWHDLDVSDLRYQYAYCKEERLSLVERLEQNGQMFDLDGW  548
+
+
+>ref|WP_003465080.1| transporter [Pseudomonas pseudoalcaligenes]
+ emb|CCH40425.1| Transposon Tn7 transposition protein tnsC;Protein E [Pseudomonas 
+pseudoalcaligenes CECT 5344]
+Length=536
+
+ Score = 46.0 bits (108),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W SL + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGSLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_005142110.1| hypothetical protein [Acinetobacter]
+ gb|ENW67770.1| hypothetical protein F912_03812 [Acinetobacter baumannii ANC 
+4097]
+ gb|ENX56260.1| hypothetical protein F885_03635 [Acinetobacter sp. ANC 3880]
+Length=550
+
+ Score = 45.3 bits (106),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 31/57 (54%), Gaps = 8/57 (14%)
+
+Query  2    SAIKVVKPS-------DWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLF  50
+            S + VVK          W+ L DTDLR+++S      ++++ +L  +G+I+ M+ L 
+Sbjct  493  SQVPVVKKKNQRISLKQWNELEDTDLRHVFSMNPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_004910202.1| hypothetical protein [Acinetobacter junii]
+ gb|ENV51143.1| hypothetical protein F953_01415 [Acinetobacter junii CIP 107470]
+ gb|EPR86623.1| Transposon Tn7 transposition protein tnsC [Acinetobacter junii 
+MTCC 11364]
+Length=550
+
+ Score = 44.9 bits (105),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L  +G+I+ M+ L 
+Sbjct  500  KKNQRISLKQWNELEDTDLRHIFSMNPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|YP_001708575.1| transposon Tn7-like transposition protein [Acinetobacter baumannii 
+SDF]
+ ref|WP_000181346.1| ATPase AAA [Acinetobacter baumannii]
+ emb|CAP02823.1| putative transposon Tn7-like transposition protein (tnsC-like 
+(Protein E)) [Acinetobacter baumannii SDF]
+Length=550
+
+ Score = 44.9 bits (105),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L  +G+I+ M+ L 
+Sbjct  500  KKNQRISLKQWNELEDTDLRHIFSMNPASPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_004637214.1| ATPase AAA [Acinetobacter]
+ gb|EFF84238.1| hypothetical protein HMP0015_0294 [Acinetobacter haemolyticus 
+ATCC 19194]
+ gb|EKU54126.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+WC-487]
+ gb|ENW22217.1| hypothetical protein F926_00767 [Acinetobacter haemolyticus NIPH 
+261]
+Length=550
+
+ Score = 44.9 bits (105),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQR-QPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L  +G+I+ M+ L 
+Sbjct  500  KKKQRISLKQWNELADTDLRHIFSMNPTSSESIYTQLDRQGLILQMSDLL  549
+
+
+>ref|WP_023100509.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV23304.1| hypothetical protein Q068_06450 [Pseudomonas aeruginosa BL14]
+ gb|ERV23665.1| hypothetical protein Q068_06364 [Pseudomonas aeruginosa BL14]
+ gb|ERV23852.1| hypothetical protein Q068_06132 [Pseudomonas aeruginosa BL14]
+ gb|ERV24692.1| hypothetical protein Q068_06098 [Pseudomonas aeruginosa BL14]
+Length=536
+
+ Score = 44.9 bits (105),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            +  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  488  VSRVKRTEWRCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDMRPLLR  534
+
+
+>ref|WP_021702545.1| hypothetical protein [Pseudomonas alcaligenes]
+ dbj|GAD64464.1| hypothetical protein PA6_038_00350 [Pseudomonas alcaligenes NBRC 
+14159]
+Length=536
+
+ Score = 44.9 bits (105),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK +DW  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTDWGCLSEEDLRRHYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_017781028.1| transporter [Aeromonas hydrophila]
+Length=536
+
+ Score = 44.9 bits (105),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            +  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  488  VSRVKRTEWRCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDMRPLLR  534
+
+
+>ref|WP_021263980.1| transporter [Pseudomonas aeruginosa]
+ gb|EQL42763.1| transporter [Pseudomonas aeruginosa VRFPA03]
+Length=466
+
+ Score = 44.5 bits (104),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            +  VK ++W  L + DLR  Y+   PE   ++R K  G+I+DM  L +
+Sbjct  418  VSRVKRTEWRCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDMRPLLR  464
+
+
+>ref|WP_005756485.1| transposon Tn7 transposition protein TnsC [Pseudomonas amygdali]
+ gb|EGH22936.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. mori str. 301020]
+Length=352
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 29/49 (59%), Gaps = 1/49 (2%)
+
+Query  3    AIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+             I  VK ++W  LP+ DLR  Y+   P+   ++RLK  G+++D+  L K
+Sbjct  303  RISKVKRTEWGCLPEEDLRRRYA-DGPDNECYDRLKLAGLVLDLRPLLK  350
+
+
+>ref|WP_000181345.1| ATPase AAA [Acinetobacter calcoaceticus/baumannii complex]
+ gb|EKL38852.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC074]
+ gb|EKP53149.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-21]
+Length=550
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYS-QRQPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L  +G+I+ M+ L 
+Sbjct  500  KKNQRISLKQWNELEDTDLRHIFSINPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|WP_000181344.1| ATPase AAA [Acinetobacter]
+ gb|EKB37183.1| hypothetical protein W9G_02429 [Acinetobacter baumannii Ab11111]
+ gb|ENU44889.1| hypothetical protein F985_00085 [Acinetobacter sp. NIPH 973]
+ gb|ENU71207.1| hypothetical protein F978_00322 [Acinetobacter baumannii NIPH 
+615]
+Length=550
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYS-QRQPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L  +G+I+ M+ L 
+Sbjct  500  KKNQRISLKQWNELEDTDLRHIFSINPTSPESIYTQLDHQGLILQMSDLL  549
+
+
+>ref|YP_008766028.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ ref|WP_023383126.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+ gb|AGZ37901.1| transporter, AcrB/AcrD/AcrF family protein [Pseudomonas sp. VLB120]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_023102029.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERY38989.1| hypothetical protein Q066_03640 [Pseudomonas aeruginosa BL12]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_023112059.1| hypothetical protein [Pseudomonas aeruginosa]
+ gb|ERV90354.1| hypothetical protein Q039_03725 [Pseudomonas aeruginosa BWHPSA026]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_016782883.1| transporter [Pseudomonas fragi]
+ gb|ETF05435.1| transporter [Pseudomonas moraviensis R28]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|YP_004716556.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+ ref|WP_013984537.1| transporter [Pseudomonas stutzeri]
+ gb|AEJ07467.1| transporter, AcrB/AcrD/AcrF family [Pseudomonas stutzeri ATCC 
+17588 = LMG 11199]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_000133967.1| transporter [Enterobacteriaceae]
+ gb|EFJ99811.1| hypothetical protein HMPREF9540_00064 [Escherichia coli MS 115-1]
+ gb|EIL57895.1| transposon Tn7 transposition protein TnsC [Escherichia coli 541-1]
+ gb|ESA24958.1| Transposon Tn7 transposition protein tnsC [Escherichia coli SCD1]
+ gb|ESA99636.1| transporter, AcrB/AcrD/AcrF family [Escherichia coli 909945-2]
+ gb|ESF51442.1| transposon Tn7 transposition protein TnsC [Salmonella enterica 
+subsp. enterica serovar Senftenberg str. ATCC 43845]
+Length=536
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   PE   ++R K  G+I+D+  L +
+Sbjct  488  ISRVKRTEWGCLSEEDLRRRYA-DGPESEAYDRFKQAGLILDLRPLLR  534
+
+
+>ref|WP_004777583.1| hypothetical protein [Acinetobacter sp. CIP 102082]
+ gb|ENU95487.1| hypothetical protein F970_01951 [Acinetobacter sp. CIP 102082]
+Length=550
+
+ Score = 44.1 bits (103),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQP-EKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+++S  Q   ++++ +L  +G+I+ ++ L 
+Sbjct  500  KKNQRISLKQWNELEDTDLRHVFSMNQTSPESIYTQLDHQGLILQISDLL  549
+
+
+>ref|WP_005181320.1| hypothetical protein [Acinetobacter sp. CIP 53.82]
+ gb|ENW87945.1| hypothetical protein F905_02494 [Acinetobacter sp. CIP 53.82]
+Length=549
+
+ Score = 44.1 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYS-QRQPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L   G+I+ M+ L 
+Sbjct  499  KKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  548
+
+
+>ref|WP_001061231.1| ATPase AAA [Acinetobacter baumannii]
+ gb|ABO12969.2| ATPase [Acinetobacter baumannii ATCC 17978]
+ gb|EGJ62247.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter baumannii 6013150]
+ gb|EGJ62787.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter baumannii 6013113]
+ gb|EJG23263.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+OIFC143]
+ gb|EJP49495.1| transposon Tn7 transposition protein TnsC [Acinetobacter baumannii 
+Naval-18]
+ dbj|BAN86069.1| ATPase [Acinetobacter baumannii NCGM 237]
+Length=549
+
+ Score = 44.1 bits (103),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYS-QRQPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L   G+I+ M+ L 
+Sbjct  499  KKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  548
+
+
+>ref|YP_001085571.1| ATPase [Acinetobacter baumannii ATCC 17978]
+ ref|WP_011859946.1| ATPase AAA [Acinetobacter baumannii]
+Length=475
+
+ Score = 43.7 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 27/50 (54%), Gaps = 1/50 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYS-QRQPEKTMHERLKGKGVIVDMASLF  50
+               + +    W+ L DTDLR+I+S      ++++ +L   G+I+ M+ L 
+Sbjct  425  KKNQRIGLKQWNELEDTDLRHIFSMNSTSPESIYTQLNHHGLILQMSDLL  474
+
+
+>ref|WP_004666644.1| transporter [Pseudomonas savastanoi]
+ gb|EFW77761.1| transposon Tn7 transposition protein TnsC [Pseudomonas syringae 
+pv. glycinea str. B076]
+Length=536
+
+ Score = 43.3 bits (101),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  4    IKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLFK  51
+            I  VK ++W  L + DLR  Y+   P+   ++R K  G+I+D+  L K
+Sbjct  488  ISRVKRTEWGCLSEEDLRRHYA-DGPQSEAYDRFKQAGLILDLRPLLK  534
+
+
+>ref|WP_005268146.1| hypothetical protein [Acinetobacter sp. CIP 64.7]
+ gb|ENX26473.1| hypothetical protein F890_03520 [Acinetobacter sp. CIP 64.7]
+Length=560
+
+ Score = 42.6 bits (99),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            KV+KP +W S    DLR  +SQ Q ++  ++E LK    + D
+Sbjct  512  KVMKPEEWKSTEANDLRVFFSQAQEQEVDVYELLKSSHYLFD  553
+
+
+>ref|WP_017397692.1| hypothetical protein [Acinetobacter lwoffii]
+Length=417
+
+ Score = 42.2 bits (98),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            KV+KP +W S    DLR  +SQ Q ++  ++E LK    + D
+Sbjct  369  KVMKPEEWKSTEANDLRVFFSQAQEQEVDVYELLKSSHYLFD  410
+
+
+>ref|WP_018277470.1| transcriptional antiterminator [Teredinibacter turnerae]
+Length=552
+
+ Score = 42.2 bits (98),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 13/46 (28%), Positives = 21/46 (46%), Gaps = 1/46 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVDMASL  49
+              ++  DW  L   D RY Y+    E  ++ E+L   G + D+ S 
+Sbjct  503  NRIREKDWFDLATDDFRYQYAYCMEENISLVEQLDKNGEMFDLDSW  548
+
+
+>ref|YP_008372919.1| Transposon Tn7 transposition protein TnsC [Cycloclasticus zancles 
+7-ME]
+ ref|YP_008375166.1| Transposon Tn7 transposition protein TnsC [Cycloclasticus zancles 
+7-ME]
+ ref|WP_020931878.1| Transposon Tn7 transposition protein TnsC [Cycloclasticus zancles]
+ gb|AGS38560.1| Transposon Tn7 transposition protein TnsC [Cycloclasticus zancles 
+7-ME]
+ gb|AGS40807.1| Transposon Tn7 transposition protein TnsC [Cycloclasticus zancles 
+7-ME]
+Length=552
+
+ Score = 41.4 bits (96),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query  7    VKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVDMASLFK  51
+            VK  +W  L   DLRY Y+  + EK ++ E+L+  G + D+    +
+Sbjct  505  VKEKNWLDLDVKDLRYQYAYCKEEKLSLVEQLEQNGQMFDLDGWAE  550
+
+
+>ref|WP_004728829.1| hypothetical protein [Acinetobacter lwoffii]
+ gb|ENU64119.1| hypothetical protein F980_00113 [Acinetobacter lwoffii NIPH 715]
+Length=560
+
+ Score = 40.3 bits (93),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 22/42 (52%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            KV+K  +W S    DLR  +SQ Q +   ++E LK    + D
+Sbjct  512  KVMKVEEWKSTETNDLRNFFSQAQEQDVDVYELLKSSHYLFD  553
+
+
+>ref|WP_005094703.1| hypothetical protein [Acinetobacter lwoffii]
+ gb|ENW25287.1| hypothetical protein F925_00621 [Acinetobacter lwoffii NCTC 5866 
+= CIP 64.10]
+Length=560
+
+ Score = 40.3 bits (93),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 22/42 (52%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            KV+K  +W S    DLR  +SQ Q +   ++E LK    + D
+Sbjct  512  KVMKVEEWKSTETNDLRNFFSQAQEQDVDVYELLKSSHYLFD  553
+
+
+>ref|WP_005401633.1| ATPase [Acinetobacter johnsonii]
+ gb|EEY95121.1| transporter, AcrB/AcrD/AcrF family [Acinetobacter johnsonii SH046]
+Length=560
+
+ Score = 40.3 bits (93),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 23/42 (55%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVD  45
+            KV+K  +W S    DLR  +SQ ++ E  ++E LK    + D
+Sbjct  512  KVMKVEEWKSTEANDLRNFFSQAQEKEVDVYELLKSSHYLFD  553
+
+
+>ref|WP_004684274.1| hypothetical protein [Acinetobacter johnsonii]
+ gb|ENU38371.1| hypothetical protein F986_02995 [Acinetobacter johnsonii CIP 
+64.6]
+Length=560
+
+ Score = 39.5 bits (91),  Expect = 0.051, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 23/42 (55%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVD  45
+            KV+K  +W S    DLR  +SQ ++ E  ++E LK    + D
+Sbjct  512  KVMKAEEWKSTEANDLRNFFSQAQEKEVDVYELLKSSHYLFD  553
+
+
+>gb|EKE22328.1| hypothetical protein ACD_6C00864G0003 [uncultured bacterium]
+Length=560
+
+ Score = 39.1 bits (90),  Expect = 0.067, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 22/42 (52%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            K++K  +W S    DLR  +SQ Q +   +++ LK    + D
+Sbjct  512  KIMKVEEWKSTETNDLRNFFSQAQEQDVDVYQLLKSSHYLFD  553
+
+
+>ref|WP_005105056.1| hypothetical protein [Acinetobacter lwoffii]
+ gb|ENW27131.1| hypothetical protein F924_02335 [Acinetobacter lwoffii CIP 70.31]
+Length=560
+
+ Score = 38.3 bits (88),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQPEK-TMHERLKGKGVIVD  45
+            KV+K  +W S   TDLR  +SQ Q ++  ++E LK    + D
+Sbjct  512  KVMKAEEWKSTEATDLRNFFSQAQEQEIDVYELLKSSHYLFD  553
+
+
+>ref|WP_010179399.1| Tn7 transposition protein C [Glaciecola sp. HTCC2999]
+Length=548
+
+ Score = 38.0 bits (87),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+            +  K V    W  L D DLR +++      TM+E+L  +G I  + +L 
+Sbjct  500  ATSKYVSKKAWGRLDDHDLRKLHA--SKSGTMYEQLCDEGFIFPVQNLM  546
+
+
+>ref|WP_018416536.1| Tn7 transposition protein C [Teredinibacter turnerae]
+Length=549
+
+ Score = 37.2 bits (85),  Expect = 0.31, Method: Composition-based stats.
+ Identities = 13/49 (27%), Positives = 23/49 (47%), Gaps = 2/49 (4%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+            S         W  L   DLR +Y+      +M+E L+ +G++  + +LF
+Sbjct  501  SKPVYTARDSWGQLQTADLRKVYA--DKTGSMYEVLQERGLVYPVQNLF  547
+
+
+>ref|YP_438102.1| Tn7-like transposition protein C [Hahella chejuensis KCTC 2396]
+ ref|WP_011400727.1| Tn7 transposition protein C [Hahella chejuensis]
+ gb|ABC33677.1| Tn7-like transposition protein C [Hahella chejuensis KCTC 2396]
+Length=549
+
+ Score = 35.6 bits (81),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 21/49 (43%), Gaps = 2/49 (4%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+            S       S W  L   DLR +++      +M+E ++ KG+   +  L 
+Sbjct  501  SKPVYTSRSSWAQLSSNDLRKMHA--DKSGSMYEVIQEKGIGYPIQELL  547
+
+
+>ref|YP_004003338.1| tn7-like transposition protein c [Caldicellulosiruptor owensensis 
+OL]
+ ref|WP_013412859.1| ATPase AAA [Caldicellulosiruptor owensensis]
+ gb|ADQ05538.1| Tn7-like transposition protein C [Caldicellulosiruptor owensensis 
+OL]
+Length=553
+
+ Score = 35.3 bits (80),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 25/42 (60%), Gaps = 1/42 (2%)
+
+Query  14   SLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + + D+R+I  + R+ + T +E LK KG+I  + ++  Q G
+Sbjct  512  KMDENDIRFIVEEGRKKQMTAYEALKAKGLIKGIDNVIFQVG  553
+
+
+>ref|YP_003477679.1| Tn7-like transposition protein C [Thermoanaerobacter italicus 
+Ab9]
+ ref|WP_012995828.1| ATPase AAA [Thermoanaerobacter italicus]
+ gb|ADD03117.1| Tn7-like transposition protein C [Thermoanaerobacter italicus 
+Ab9]
+Length=553
+
+ Score = 34.9 bits (79),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 25/42 (60%), Gaps = 1/42 (2%)
+
+Query  14   SLPDTDLRYIYSQ-RQPEKTMHERLKGKGVIVDMASLFKQAG  54
+             + + D+R+I  + R+ + T +E LK KG+I  + ++  Q G
+Sbjct  512  KMDENDIRFIVEEGRKKQLTAYEALKEKGLIKGIDNVIFQVG  553
+
+
+>ref|YP_007073193.1| cell wall hydrolase/autolysin [Leptolyngbya sp. PCC 7376]
+ ref|WP_015136075.1| cell wall hydrolase/autolysin [Leptolyngbya sp. PCC 7376]
+ gb|AFY40359.1| cell wall hydrolase/autolysin [Leptolyngbya sp. PCC 7376]
+Length=588
+
+ Score = 34.9 bits (79),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 24/48 (50%), Gaps = 1/48 (2%)
+
+Query  2    SAIKVVKPSDWDSLPDTDLRYIYSQRQPEKTMHE-RLKGKGVIVDMAS  48
+            S   V++  DW  +    +RY +  +Q ++  +E R +G  +I+ +  
+Sbjct  347  SQSPVIRRLDWHPVDTDTIRYDFRLKQSQQWGYELRYEGTNLILSLRH  394
+
+
+>gb|EIW65618.1| hypothetical protein TREMEDRAFT_66343 [Tremella mesenterica DSM 
+1558]
+Length=286
+
+ Score = 33.7 bits (76),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 7/24 (29%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  5    KVVKPSDWDSLPDTDLRYIYSQRQ  28
+            K ++  DW++L   +LR+++ Q  
+Sbjct  212  KNLQDIDWETLDSDELRFVHVQWN  235
+
+
+>ref|WP_023404365.1| hypothetical protein [Vibrio halioticoli]
+ dbj|GAD90011.1| hypothetical protein VHA01S_031_00240 [Vibrio halioticoli NBRC 
+102217]
+Length=549
+
+ Score = 33.7 bits (76),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 13/45 (29%), Positives = 20/45 (44%), Gaps = 2/45 (4%)
+
+Query  6    VVKPSDWDSLPDTDLRYIYSQRQPEKTMHERLKGKGVIVDMASLF  50
+                S+W  L + DLR IYS      + +E L  + +I  +  L 
+Sbjct  505  YTSSSNWGQLSERDLRKIYS--DKTGSQYEALSERQLIYPIDELL  547
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.151    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0467    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307993208004
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

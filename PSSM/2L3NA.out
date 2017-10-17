@@ -1,0 +1,412 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2L3NA
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2L3N|A  Chain A, Solution Structure Of Rap1-Taz1 Fusion Protein    203    2e-65
+pir||T39684  hypothetical protein SPBC1778.02 - fission yeast  (S...   114    2e-27
+ref|NP_596285.1|  telomere binding protein Rap1 [Schizosaccharomy...   114    3e-27
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...  71.2    4e-12
+gb|EPY53991.1|  telomere binding protein Rap1 [Schizosaccharomyce...  57.4    2e-07
+gb|EPX72438.1|  telomere binding protein Rap1 [Schizosaccharomyce...  56.6    3e-07
+gb|EEB07965.2|  telomere binding protein Rap1 [Schizosaccharomyce...  36.2    1.7  
+ref|XP_002174258.1|  DNA-binding protein rap1 [Schizosaccharomyce...  36.2    1.8  
+ref|WP_023797935.1|  hypothetical protein [Mesorhizobium sp. L48C...  34.3    7.5  
+ref|WP_010250887.1|  beta-ketoacyl synthase [Acetivibrio cellulol...  33.9    8.9  
+
+
+>pdb|2L3N|A Chain A, Solution Structure Of Rap1-Taz1 Fusion Protein
+Length=104
+
+ Score =  203 bits (517),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG  60
+            SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG
+Sbjct  1    SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG  60
+
+Query  61   GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+            GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA
+Sbjct  61   GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+
+
+>pir||T39684 hypothetical protein SPBC1778.02 - fission yeast  (Schizosaccharomyces 
+pombe)
+Length=612
+
+ Score =  114 bits (285),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  2    VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  56
+            VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS
+Sbjct  558  VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  612
+
+
+>ref|NP_596285.1| telomere binding protein Rap1 [Schizosaccharomyces pombe 972h-]
+ sp|Q96TL7.1|RAP1_SCHPO RecName: Full=DNA-binding protein rap1
+ emb|CAC39280.1| telomere binding protein Rap1 [Schizosaccharomyces pombe]
+ dbj|BAB70735.1| Rap1 [Schizosaccharomyces pombe]
+ gb|AAK57740.1| Rap1 [Schizosaccharomyces pombe]
+Length=693
+
+ Score =  114 bits (285),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  2    VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  56
+            VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS
+Sbjct  639  VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  693
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score = 71.2 bits (173),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  71   RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+            RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA
+Sbjct  362  RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  395
+
+
+>gb|EPY53991.1| telomere binding protein Rap1 [Schizosaccharomyces cryophilus 
+OY26]
+Length=708
+
+ Score = 57.4 bits (137),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 29/48 (60%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  4    ILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLL  51
+            ++ SS N ++VDEAID ILRYT S+EQQFL+A+E   G +  AIAKLL
+Sbjct  658  VVNSSSNKQKVDEAIDMILRYTRSSEQQFLDALELAEGNISAAIAKLL  705
+
+
+>gb|EPX72438.1| telomere binding protein Rap1 [Schizosaccharomyces octosporus 
+yFS286]
+Length=709
+
+ Score = 56.6 bits (135),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 27/47 (57%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  5    LRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLL  51
+            + SS N +E+D+AID IL+YT S+EQQFL+ +EST G +  AIA+LL
+Sbjct  660  IESSSNKQEIDDAIDMILQYTQSSEQQFLDVLESTEGNISAAIARLL  706
+
+
+>gb|EEB07965.2| telomere binding protein Rap1 [Schizosaccharomyces japonicus 
+yFS275]
+Length=727
+
+ Score = 36.2 bits (82),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 17/40 (43%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+
+Query  15   DEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQ  54
+            D  +D++L Y  +TE+  L A+E TG  VR A+  LL K+
+Sbjct  674  DAVLDDLLEYVGATEEDLLRALEETGRSVRKAVTVLLWKK  713
+
+
+>ref|XP_002174258.1| DNA-binding protein rap1 [Schizosaccharomyces japonicus yFS275]
+Length=690
+
+ Score = 36.2 bits (82),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 17/40 (43%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+
+Query  15   DEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQ  54
+            D  +D++L Y  +TE+  L A+E TG  VR A+  LL K+
+Sbjct  637  DAVLDDLLEYVGATEEDLLRALEETGRSVRKAVTVLLWKK  676
+
+
+>ref|WP_023797935.1| hypothetical protein [Mesorhizobium sp. L48C026A00]
+ gb|ESZ21137.1| hypothetical protein X737_06470 [Mesorhizobium sp. L48C026A00]
+Length=382
+
+ Score = 34.3 bits (77),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 28/86 (33%), Positives = 44/86 (51%), Gaps = 10/86 (12%)
+
+Query  13   EVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRK  72
+            E+D+ I+ +L  T +  +  LE  E    R+R    KL S+     S   +L G+ GS+ 
+Sbjct  216  ELDKKIERLL-ATLADREDKLERREKEIARLR---EKLKSESVENASAAVRLVGAQGSQA  271
+
+Query  73   DLSVKGML------YDSDSQQILNRL  92
+            D++VKG +       DSD +Q+  RL
+Sbjct  272  DVAVKGDMEKAIARLDSDREQLEARL  297
+
+
+>ref|WP_010250887.1| beta-ketoacyl synthase [Acetivibrio cellulolyticus]
+Length=1028
+
+ Score = 33.9 bits (76),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 34/60 (57%), Gaps = 4/60 (7%)
+
+Query  13   EVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRK  72
+            EV + ++NIL++ +  E+ F E  E   G+V I+   L S QT G SG   +GGS   +K
+Sbjct  865  EVKQQLENILKFKDDLEK-FCEGNEHIKGKVEISPLGLKSLQTDGQSG---VGGSEQLKK  920
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.125    0.321    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303569846018
+Results from round 2
+
+
+Query= 2L3NA
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2L3N|A  Chain A, Solution Structure Of Rap1-Taz1 Fusion Protein    152    4e-45
+ref|NP_596285.1|  telomere binding protein Rap1 [Schizosaccharomy...  99.4    5e-22
+pir||T39684  hypothetical protein SPBC1778.02 - fission yeast  (S...  97.5    2e-21
+gb|EPY53991.1|  telomere binding protein Rap1 [Schizosaccharomyce...  88.7    4e-18
+gb|EPX72438.1|  telomere binding protein Rap1 [Schizosaccharomyce...  87.5    9e-18
+ref|NP_594047.1|  telomere length regulator [Schizosaccharomyces ...  68.6    3e-11
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_018809996.1|  hydrogenase expression protein [Salinispora ...  38.2    0.41 
+ref|WP_018826120.1|  hydrogenase expression protein [Salinispora ...  38.2    0.42 
+ref|WP_018222836.1|  hydrogenase expression protein [Salinispora ...  38.2    0.42 
+ref|WP_018820522.1|  hydrogenase expression protein [Salinispora ...  38.2    0.45 
+emb|CAA31663.1|  hsp70 (AA 6 - 651) [Petunia x hybrida]               35.5    2.7  
+sp|P09189.1|HSP7C_PETHY  RecName: Full=Heat shock cognate 70 kDa ...  35.5    2.7  
+
+
+>pdb|2L3N|A Chain A, Solution Structure Of Rap1-Taz1 Fusion Protein
+Length=104
+
+ Score =  152 bits (383),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG  60
+            SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG
+Sbjct  1    SVSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSG  60
+
+Query  61   GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+            GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA
+Sbjct  61   GSKLGGSGGSRKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+
+
+>ref|NP_596285.1| telomere binding protein Rap1 [Schizosaccharomyces pombe 972h-]
+ sp|Q96TL7.1|RAP1_SCHPO RecName: Full=DNA-binding protein rap1
+ emb|CAC39280.1| telomere binding protein Rap1 [Schizosaccharomyces pombe]
+ dbj|BAB70735.1| Rap1 [Schizosaccharomyces pombe]
+ gb|AAK57740.1| Rap1 [Schizosaccharomyces pombe]
+Length=693
+
+ Score = 99.4 bits (246),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  2    VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  56
+            VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS
+Sbjct  639  VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  693
+
+
+>pir||T39684 hypothetical protein SPBC1778.02 - fission yeast  (Schizosaccharomyces 
+pombe)
+Length=612
+
+ Score = 97.5 bits (241),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  2    VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  56
+            VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS
+Sbjct  558  VSILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTS  612
+
+
+>gb|EPY53991.1| telomere binding protein Rap1 [Schizosaccharomyces cryophilus 
+OY26]
+Length=708
+
+ Score = 88.7 bits (218),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 29/48 (60%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  4    ILRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLL  51
+            ++ SS N ++VDEAID ILRYT S+EQQFL+A+E   G +  AIAKLL
+Sbjct  658  VVNSSSNKQKVDEAIDMILRYTRSSEQQFLDALELAEGNISAAIAKLL  705
+
+
+>gb|EPX72438.1| telomere binding protein Rap1 [Schizosaccharomyces octosporus 
+yFS286]
+Length=709
+
+ Score = 87.5 bits (215),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 27/47 (57%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  5    LRSSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLL  51
+            + SS N +E+D+AID IL+YT S+EQQFL+ +EST G +  AIA+LL
+Sbjct  660  IESSSNKQEIDDAIDMILQYTQSSEQQFLDVLESTEGNISAAIARLL  706
+
+
+>ref|NP_594047.1| telomere length regulator [Schizosaccharomyces pombe 972h-]
+ sp|P79005.1|TAZ1_SCHPO RecName: Full=Telomere length regulator taz1
+ emb|CAA70568.1| Myb-domain protein [Schizosaccharomyces pombe]
+ emb|CAB10000.1| human TRF ortholog Taz1 [Schizosaccharomyces pombe]
+Length=663
+
+ Score = 68.6 bits (166),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  71   RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  104
+            RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA
+Sbjct  362  RKDLSVKGMLYDSDSQQILNRLRERVSGSTAQSA  395
+
+
+>ref|WP_018809996.1| hydrogenase expression protein [Salinispora pacifica]
+Length=1102
+
+ Score = 38.2 bits (87),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 9/80 (11%)
+
+Query  25   TNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRKDLSVKGMLYDSD  84
+            T++  +Q  E +  T G        + + Q + G+GG+   G+GG+    S    L D+D
+Sbjct  577  TDAAARQVEEVLAETEG--------IETYQVTAGAGGNPWAGAGGNNV-ASWSLTLTDTD  627
+
+Query  85   SQQILNRLRERVSGSTAQSA  104
+            ++Q+   LRER  G  A++ 
+Sbjct  628  AEQMRAVLRERFDGFGAEAG  647
+
+
+>ref|WP_018826120.1| hydrogenase expression protein [Salinispora pacifica]
+Length=1102
+
+ Score = 38.2 bits (87),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 9/80 (11%)
+
+Query  25   TNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRKDLSVKGMLYDSD  84
+            T++  +Q  E +  T G        + + Q + G+GG+   G+GG+    S    L D+D
+Sbjct  577  TDAAARQVEEVLAETEG--------IETYQVTAGAGGNPWAGAGGNNV-ASWSLTLTDTD  627
+
+Query  85   SQQILNRLRERVSGSTAQSA  104
+            ++Q+   LRER  G  A++ 
+Sbjct  628  AEQMRAVLRERFDGFGAEAG  647
+
+
+>ref|WP_018222836.1| hydrogenase expression protein [Salinispora pacifica]
+Length=1102
+
+ Score = 38.2 bits (87),  Expect = 0.42, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 9/80 (11%)
+
+Query  25   TNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRKDLSVKGMLYDSD  84
+            T++  +Q  E +  T G        + + Q + G+GG+   G+GG+    S    L D+D
+Sbjct  577  TDAAARQVEEVLAETEG--------IETYQVTAGAGGNPWAGAGGNNV-ASWSLTLTDTD  627
+
+Query  85   SQQILNRLRERVSGSTAQSA  104
+            ++Q+   LRER  G  A++ 
+Sbjct  628  AEQMRAVLRERFDGFGAEAG  647
+
+
+>ref|WP_018820522.1| hydrogenase expression protein [Salinispora pacifica]
+Length=1102
+
+ Score = 38.2 bits (87),  Expect = 0.45, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 9/80 (11%)
+
+Query  25   TNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKLGGSGGSRKDLSVKGMLYDSD  84
+            T++  +Q  E +  T G        + + Q + G+GG+   G+GG+    S    L D+D
+Sbjct  577  TDAAARQVEEVLAETEG--------IETYQVTAGAGGNPWAGAGGNSV-ASWSLTLTDTD  627
+
+Query  85   SQQILNRLRERVSGSTAQSA  104
+            ++Q+   LRER  G  A++ 
+Sbjct  628  AEQMRAVLRERFDGFGAEAG  647
+
+
+>emb|CAA31663.1| hsp70 (AA 6 - 651) [Petunia x hybrida]
+Length=646
+
+ Score = 35.5 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 36/72 (50%), Gaps = 7/72 (10%)
+
+Query  7    SSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKL--  64
+            S+ + + +++AID  +++ ++ +    +  E     +      +++K   GG+GG+ +  
+Sbjct  564  SAADKKRIEDAIDEAIKWLDNNQLAEADEFEDKMKELESICNPIIAKMYQGGAGGATMDE  623
+
+Query  65   -----GGSGGSR  71
+                 GGS GS+
+Sbjct  624  DGPSVGGSAGSQ  635
+
+
+>sp|P09189.1|HSP7C_PETHY RecName: Full=Heat shock cognate 70 kDa protein
+ emb|CAA30018.1| heat shock protein 70 [Petunia x hybrida]
+Length=651
+
+ Score = 35.5 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 36/72 (50%), Gaps = 7/72 (10%)
+
+Query  7    SSVNHREVDEAIDNILRYTNSTEQQFLEAMESTGGRVRIAIAKLLSKQTSGGSGGSKL--  64
+            S+ + + +++AID  +++ ++ +    +  E     +      +++K   GG+GG+ +  
+Sbjct  569  SAADKKRIEDAIDEAIKWLDNNQLAEADEFEDKMKELESICNPIIAKMYQGGAGGATMDE  628
+
+Query  65   -----GGSGGSR  71
+                 GGS GS+
+Sbjct  629  DGPSVGGSAGSQ  640
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.127    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303569846018
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

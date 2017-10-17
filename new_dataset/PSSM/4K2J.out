@@ -1,0 +1,2622 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4K2J
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AAC55944.1|  Herpesvirus saimiri ORF73 homolog [Human herpesvi...   323    7e-101
+gb|ACY00477.1|  ORF73 [Human herpesvirus 8]                            323    8e-101
+ref|YP_001129431.1|  LANA [Human herpesvirus 8] >sp|Q9QR71.1|ORF7...   322    1e-100
+gb|AAB62657.1|  ORF 73 [Human herpesvirus 8]                           321    2e-100
+gb|AFQ99208.1|  LANA, partial [Human herpesvirus 8]                    300    1e-99 
+gb|ADQ57959.1|  LANA [Human herpesvirus 8]                             317    7e-99 
+pdb|4K2J|A  Chain A, Decameric Ring Structure Of Kshv (hhv-8) Lat...   289    5e-98 
+gb|AFU08336.1|  ORF73 [Human herpesvirus 8]                            290    2e-97 
+pdb|2YQ0|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Octamer...   288    2e-97 
+pdb|2YPY|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Decamer...   283    1e-95 
+gb|AAK50002.1|  ORF73 [Human herpesvirus 8]                            271    1e-82 
+gb|AAG27458.1|AF305694_1  latent nuclear antigen [Human herpesvir...   271    2e-82 
+gb|AAG01636.1|  Orf73 [Human herpesvirus 8]                            268    2e-81 
+gb|ABH07414.1|  latency-associated nuclear antigen [Retroperitone...   146    1e-37 
+gb|ABH07415.1|  latency-associated nuclear antigen [Macaca nemest...  90.5    7e-19 
+gb|AAF60071.1|AF210726_92  latency-associated nuclear antigen [Rh...  89.7    2e-18 
+ref|NP_570820.1|  latent nuclear antigen [Macacine herpesvirus 5]...  89.7    2e-18 
+pdb|2YQ1|A  Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Tricl...  55.8    1e-07 
+gb|AAP32203.1|  latency associated nuclear antigen [Saimiriine he...  57.8    2e-07 
+emb|CAC84371.1|  hypothetical protein [Saimiriine herpesvirus 2]      57.8    2e-07 
+pdb|4BLG|A  Chain A, Crystal Structure Of Mhv-68 Latency-associat...  53.9    6e-07 
+gb|ACY41142.1|  nuclear antigen LANA [Wood mouse herpesvirus]         54.7    2e-06 
+gb|AAY21858.1|  ORF73 [Bovine herpesvirus 4] >gb|AAY21860.1| ORF7...  53.5    2e-06 
+gb|AAY21856.1|  ORF73 [Bovine herpesvirus 4]                          53.1    3e-06 
+ref|NP_076567.1|  unknown [Bovine herpesvirus 4] >gb|AAK07994.1|A...  53.1    4e-06 
+gb|AAY21854.1|  ORF73 [Bovine herpesvirus 4]                          52.4    7e-06 
+gb|AAY21855.1|  ORF73 [Bovine herpesvirus 4]                          52.4    8e-06 
+ref|NP_040275.1|  unnamed protein product [Saimiriine herpesvirus...  52.8    1e-05 
+prf||1804350B  ECLF2 upstream ORF                                     52.4    1e-05 
+ref|NP_044913.1|  nuclear antigen LANA [Murid herpesvirus 4] >gb|...  52.0    1e-05 
+ref|NP_048045.1|  orf 73 [Ateline herpesvirus 3] >gb|AAC95598.1| ...  52.0    2e-05 
+gb|AAY21859.1|  ORF73 [Bovine herpesvirus 4]                          49.7    6e-05 
+ref|YP_004207909.1|  LANA-like protein [Rodent herpesvirus Peru] ...  42.4    0.021 
+
+
+>gb|AAC55944.1| Herpesvirus saimiri ORF73 homolog [Human herpesvirus 8]
+ gb|AAC57158.1| ORF 73 [Human herpesvirus 8 type M]
+Length=1162
+
+ Score =  323 bits (828),  Expect = 7e-101, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  1011  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1070
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1071  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1130
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1131  NLQSSIVKFKKPLPLTQPG  1149
+
+
+>gb|ACY00477.1| ORF73 [Human herpesvirus 8]
+Length=1123
+
+ Score =  323 bits (827),  Expect = 8e-101, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  972   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1031
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1032  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1091
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1092  NLQSSIVKFKKPLPLTQPG  1110
+
+
+>ref|YP_001129431.1| LANA [Human herpesvirus 8]
+ sp|Q9QR71.1|ORF73_HHV8P RecName: Full=Protein ORF73
+ gb|AAD46501.1|AF148805_6 ORF73 [Human herpesvirus 8]
+Length=1129
+
+ Score =  322 bits (826),  Expect = 1e-100, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  978   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1037
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1038  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1097
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1098  NLQSSIVKFKKPLPLTQPG  1116
+
+
+>gb|AAB62657.1| ORF 73 [Human herpesvirus 8]
+Length=1089
+
+ Score =  321 bits (823),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  938   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  997
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  998   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1057
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1058  NLQSSIVKFKKPLPLTQPG  1076
+
+
+>gb|AFQ99208.1| LANA, partial [Human herpesvirus 8]
+Length=306
+
+ Score =  300 bits (767),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  155  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  214
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  215  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  274
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  275  NLQSSIVKFKKPLPLTQPG  293
+
+
+>gb|ADQ57959.1| LANA [Human herpesvirus 8]
+Length=1117
+
+ Score =  317 bits (813),  Expect = 7e-99, Method: Compositional matrix adjust.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  966   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1025
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1026  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1085
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1086  NLQSSIVKFKKPLPLTQPG  1104
+
+
+>pdb|4K2J|A Chain A, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|B Chain B, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|C Chain C, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|D Chain D, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|E Chain E, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|F Chain F, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|G Chain G, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|H Chain H, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|I Chain I, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|J Chain J, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+Length=140
+
+ Score =  289 bits (740),  Expect = 5e-98, Method: Compositional matrix adjust.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+            SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK
+Sbjct  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+
+Query  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+            KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA
+Sbjct  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+
+Query  121  GNLQSSIVKFKKPLPLTQPG  140
+            GNLQSSIVKFKKPLPLTQPG
+Sbjct  121  GNLQSSIVKFKKPLPLTQPG  140
+
+
+>gb|AFU08336.1| ORF73 [Human herpesvirus 8]
+Length=215
+
+ Score =  290 bits (743),  Expect = 2e-97, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  64   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  123
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  124  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  183
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  184  NLQSSIVKFKKPLPLTQPG  202
+
+
+>pdb|2YQ0|A Chain A, Kshv Lana (orf73) C-terminal Domain, Octameric Ring: 
+Cubic Crystal Form
+Length=160
+
+ Score =  288 bits (738),  Expect = 2e-97, Method: Compositional matrix adjust.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  18   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  77
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  78   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  137
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  138  NLQSSIVKFKKPLPLTQPG  156
+
+
+>pdb|2YPY|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPZ|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+Length=139
+
+ Score =  283 bits (723),  Expect = 1e-95, Method: Compositional matrix adjust.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  4    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  63
+            RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS
+Sbjct  3    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  62
+
+Query  64   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  123
+            QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL
+Sbjct  63   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  122
+
+Query  124  QSSIVKFKKPLPLTQPG  140
+            QSSIVKFKKPLPLTQPG
+Sbjct  123  QSSIVKFKKPLPLTQPG  139
+
+
+>gb|AAK50002.1| ORF73 [Human herpesvirus 8]
+Length=1003
+
+ Score =  271 bits (694),  Expect = 1e-82, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  852  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  911
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  912  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  971
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  972  NLQSSIVKFKKPLPLTQPG  990
+
+
+>gb|AAG27458.1|AF305694_1 latent nuclear antigen [Human herpesvirus 8]
+Length=1036
+
+ Score =  271 bits (694),  Expect = 2e-82, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  885   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  944
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  945   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1004
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1005  NLQSSIVKFKKPLPLTQPG  1023
+
+
+>gb|AAG01636.1| Orf73 [Human herpesvirus 8]
+Length=976
+
+ Score =  268 bits (686),  Expect = 2e-81, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  825  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  884
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  885  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  944
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  945  NLQSSIVKFKKPLPLTQPG  963
+
+
+>gb|ABH07414.1| latency-associated nuclear antigen [Retroperitoneal fibromatosis-associated 
+herpesvirus]
+ gb|AGY30760.1| ORF73 [Retroperitoneal fibromatosis-associated herpesvirus]
+Length=1071
+
+ Score =  146 bits (369),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 74/138 (54%), Positives = 91/138 (66%), Gaps = 2/138 (1%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             H R+Q P +PY+  D CP KARP H FY RFLG      P   W+ A IFW   PY LKK
+Sbjct  912   HARFQSPMMPYQTPDGCPPKARPLHRFYLRFLGPLTMYRPDRHWRHAAIFWTPRPYPLKK  971
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQ--SPITYCVYVYCQNKDTSKKVQMARLAWEASHPL  119
+             ++QA QFGG++ GPV+CLPHPG      P  YC+YVYCQ+K T++KV + R AWEA+H  
+Sbjct  972   MAQALQFGGIRCGPVTCLPHPGRPGVPGPHMYCIYVYCQSKATAQKVILGREAWEANHGA  1031
+
+Query  120   AGNLQSSIVKFKKPLPLT  137
+             A  L+SS VKFK  +PL 
+Sbjct  1032  AVILESSRVKFKDSMPLN  1049
+
+
+>gb|ABH07415.1| latency-associated nuclear antigen [Macaca nemestrina rhadinovirus 
+2]
+Length=438
+
+ Score = 90.5 bits (223),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 48/124 (39%), Positives = 72/124 (58%), Gaps = 5/124 (4%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPK-CQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG  74
+            D+ P K RPQ  FYR+ LG D    P+   W+  VIF  +DPY L +L++  QF G+++ 
+Sbjct  315  DEVPRKYRPQRRFYRQALGNDKIDPPRPGPWRHGVIFCNDDPYSLYRLARCLQFPGIRSS  374
+
+Query  75   PVSCLPHPGPDQSPIT--YCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKK  132
+             V  LP      SP+   +C+ V+CQ++ T+K V+ AR  WE  H  A   Q+SI++  +
+Sbjct  375  SVRVLP--DAPNSPVIPPFCITVFCQSRGTAKAVKRARRRWEQLHTSAPKFQASIIRMDR  432
+
+Query  133  PLPL  136
+             LP+
+Sbjct  433  GLPI  436
+
+
+>gb|AAF60071.1|AF210726_92 latency-associated nuclear antigen [Rhesus monkey rhadinovirus 
+H26-95]
+Length=448
+
+ Score = 89.7 bits (221),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 53/126 (42%), Positives = 75/126 (60%), Gaps = 10/126 (8%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPK--CQWKFAVIFWGNDPYGLKKLSQAFQFGGVKA  73
+            ++ P K RPQ  FYR+ LG   R DP     W   VIF  +DPY L +L++  QF G++A
+Sbjct  326  EEVPRKYRPQRRFYRQVLGP--RIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRA  383
+
+Query  74   GPVSCLPH-PGPDQSPI--TYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKF  130
+              V  LP  PG   SP+   +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+ 
+Sbjct  384  SSVRVLPDAPG---SPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRM  440
+
+Query  131  KKPLPL  136
+             + LP+
+Sbjct  441  DRGLPI  446
+
+
+>ref|NP_570820.1| latent nuclear antigen [Macacine herpesvirus 5]
+ gb|AAD21406.1| latent nuclear antigen [Macaca mulatta rhadinovirus 17577]
+Length=448
+
+ Score = 89.7 bits (221),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 53/126 (42%), Positives = 75/126 (60%), Gaps = 10/126 (8%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPK--CQWKFAVIFWGNDPYGLKKLSQAFQFGGVKA  73
+            ++ P K RPQ  FYR+ LG   R DP     W   VIF  +DPY L +L++  QF G++A
+Sbjct  326  EEVPRKYRPQRRFYRQVLGP--RIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRA  383
+
+Query  74   GPVSCLPH-PGPDQSPI--TYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKF  130
+              V  LP  PG   SP+   +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+ 
+Sbjct  384  SSVRVLPDAPG---SPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRM  440
+
+Query  131  KKPLPL  136
+             + LP+
+Sbjct  441  DRGLPI  446
+
+
+>pdb|2YQ1|A Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|B Chain B, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|C Chain C, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|D Chain D, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+Length=139
+
+ Score = 55.8 bits (133),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 54/103 (52%), Gaps = 5/103 (5%)
+
+Query  36   DGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVY  94
+            D    P   +K AV+F    PY L KL +  Q   V + PVSCLP  PG  Q  +TY + 
+Sbjct  38   DPEGHPPTHFKSAVMFSSTHPYTLNKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLL  97
+
+Query  95   VYCQNKDTSKKVQMARLAW-EASHPLAGNLQSSIVKFKKPLPL  136
+             + ++K  +KK++   LA+ E  H    +++ +IVK K   PL
+Sbjct  98   SFVEDKKQAKKLKRVVLAYCEKYH---SSVEGTIVKAKPYFPL  137
+
+
+>gb|AAP32203.1| latency associated nuclear antigen [Saimiriine herpesvirus 2]
+Length=501
+
+ Score = 57.8 bits (138),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/121 (30%), Positives = 59/121 (49%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + +H F+ +         P+ +W+  V FWG     L +LS+A  F G  A  
+Sbjct  382  DKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPTS-ALYRLSKALLFPGAVASG  439
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P       P  Y + VYC+ +  +K++  A+  +E  +P +  LQ+S+ KF K LP
+Sbjct  440  LQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSAKLQASLGKFSKSLP  499
+
+Query  136  L  136
+            +
+Sbjct  500  I  500
+
+
+>emb|CAC84371.1| hypothetical protein [Saimiriine herpesvirus 2]
+Length=501
+
+ Score = 57.8 bits (138),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/121 (30%), Positives = 59/121 (49%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + +H F+ +         P+ +W+  V FWG     L +LS+A  F G  A  
+Sbjct  382  DKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPTS-ALYRLSKALLFPGAVASG  439
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P       P  Y + VYC+ +  +K++  A+  +E  +P +  LQ+S+ KF K LP
+Sbjct  440  LQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSAKLQASLGKFSKSLP  499
+
+Query  136  L  136
+            +
+Sbjct  500  I  500
+
+
+>pdb|4BLG|A Chain A, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+ pdb|4BLG|B Chain B, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+Length=141
+
+ Score = 53.9 bits (128),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 35/98 (36%), Positives = 52/98 (53%), Gaps = 5/98 (5%)
+
+Query  36   DGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVY  94
+            D    P   +K AV+F    PY L KL +  Q   V + PVSCLP  PG  Q  +TY + 
+Sbjct  28   DPEGHPPTHFKSAVMFSSTHPYTLNKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLL  87
+
+Query  95   VYCQNKDTSKKVQMARLAW-EASHPLAGNLQSSIVKFK  131
+             + ++K  +KK++   LA+ E  H    +++ +IVK K
+Sbjct  88   SFVEDKKQAKKLKRVVLAYCEKYH---SSVEGTIVKAK  122
+
+
+>gb|ACY41142.1| nuclear antigen LANA [Wood mouse herpesvirus]
+Length=327
+
+ Score = 54.7 bits (130),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 47/142 (33%), Positives = 65/142 (46%), Gaps = 10/142 (7%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYG  58
+            S+PRYQ+P   Y +    PAK R    H+        D  R     +K AV+F    PY 
+Sbjct  157  SYPRYQKP---YNEKSTLPAKYRGMRNHMVIAAPRLFDPERPAPTHFKSAVMFSCTKPYS  213
+
+Query  59   LKKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASH  117
+            L KL +  Q   V    VSCLP  PG   + + Y +  + +NK  +K ++   L + A  
+Sbjct  214  LTKLHKVLQSKQVVTSTVSCLPFVPGGQPTLVKYFILSFVENKKLAKMLRKVVLTYCAK-  272
+
+Query  118  PLAGNLQSSIVKFKK--PLPLT  137
+                N+  +IVK K   PLP T
+Sbjct  273  -FHSNIDGTIVKAKPWFPLPGT  293
+
+
+>gb|AAY21858.1| ORF73 [Bovine herpesvirus 4]
+ gb|AAY21860.1| ORF73 [Bovine herpesvirus 4]
+ gb|AEL29819.1| genome maintenance protein [Bovine herpesvirus 4]
+Length=253
+
+ Score = 53.5 bits (127),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 39/119 (33%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+                P  +   Y + VYC  K T KK++  +  +E  +P  G+  SS+   +  +P+ Q
+Sbjct  199  ----PGSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNSSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21856.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score = 53.1 bits (126),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 41/119 (34%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+  +  WK+ VIFWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRKPGRRLWKYYVIFWGPDPRVLYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P        IT    VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  PGSNNGNFNIT----VYCAKKTTPKKLKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>ref|NP_076567.1| unknown [Bovine herpesvirus 4]
+ gb|AAK07994.1|AF318573_74 unknown [Bovine herpesvirus 4]
+ gb|AAY21857.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score = 53.1 bits (126),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 38/119 (32%), Positives = 61/119 (51%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGTDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+                P  +   Y + VYC  K T KK++  +  +E  +P  G+   S+   +  +P+ Q
+Sbjct  199  ----PGSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21854.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score = 52.4 bits (124),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 60/118 (51%), Gaps = 3/118 (3%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGPVSCLP  80
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V         
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCS-TGVQR  197
+
+Query  81   HPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+             PG + S   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  198  MPGSNNS--NFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21855.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score = 52.4 bits (124),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 60/118 (51%), Gaps = 3/118 (3%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGPVSCLP  80
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V         
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCS-TGVQR  197
+
+Query  81   HPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+             PG + S   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  198  MPGSNNS--NFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>ref|NP_040275.1| unnamed protein product [Saimiriine herpesvirus 2]
+ sp|Q01042.1|ICP22_SHV21 RecName: Full=Transcriptional regulator ICP22 homolog; AltName: 
+Full=Immediate-early protein
+ pir||EDBEQ3 immediate-early protein - saimiriine herpesvirus 1 (strain 11)
+ emb|CAA45696.1| unnamed protein product [Saimiriine herpesvirus 2]
+ gb|AAB21116.1| ORF 5' of ECRF3 [Saimiriine herpesvirus 2]
+ gb|AAA46149.1| first methionine codon in the ECLF1 ORF [Saimiriine herpesvirus 
+2]
+Length=407
+
+ Score = 52.8 bits (125),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 35/121 (29%), Positives = 58/121 (48%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + ++ F+ +         PK  W + V FWG     L +LS++  F G  +  
+Sbjct  288  DKVPKKYQARNKFFSQAAPSVLDLSPK-SWCWVVDFWGPTD-ALYRLSRSLSFPGAVSSG  345
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L++S+ KF K LP
+Sbjct  346  IQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKLKASLGKFSKSLP  405
+
+Query  136  L  136
+            +
+Sbjct  406  I  406
+
+
+>prf||1804350B ECLF2 upstream ORF
+Length=407
+
+ Score = 52.4 bits (124),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 35/121 (29%), Positives = 58/121 (48%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + ++ F+ +         PK  W + V FWG     L +LS++  F G  +  
+Sbjct  288  DKVPKKYQARNKFFSQAAPSVLDLSPK-SWCWVVDFWGPTD-ALYRLSRSLSFPGAVSSG  345
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L++S+ KF K LP
+Sbjct  346  IQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKLKASLGKFSKSLP  405
+
+Query  136  L  136
+            +
+Sbjct  406  I  406
+
+
+>ref|NP_044913.1| nuclear antigen LANA [Murid herpesvirus 4]
+ gb|AAF19337.1|AF105037_69 73 [murid herpesvirus 4]
+ gb|AAB66457.1| immediate-early protein [murid herpesvirus 4]
+ gb|ACV65508.1| immediate-early protein [Murid herpesvirus 4]
+ gb|ACV74549.1| immediate-early protein [Murine herpesvirus strain 72]
+Length=314
+
+ Score = 52.0 bits (123),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 45/134 (34%), Positives = 65/134 (49%), Gaps = 14/134 (10%)
+
+Query  4    RYQQPPVPYRQIDDCPAK----ARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGL  59
+            RYQ+P  P    D  P K     R   +   R    +G   P   +K AV+F    PY L
+Sbjct  128  RYQKPHNPS---DPLPKKYQGMRRHLQVTAPRLFDPEGH--PPTHFKSAVMFSSTHPYTL  182
+
+Query  60   KKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAW-EASH  117
+             KL +  Q   V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+ E  H
+Sbjct  183  NKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKYH  242
+
+Query  118  PLAGNLQSSIVKFK  131
+                +++ +IVK K
+Sbjct  243  ---SSVEGTIVKAK  253
+
+
+>ref|NP_048045.1| orf 73 [Ateline herpesvirus 3]
+ gb|AAC95598.1| orf 73 [Ateline herpesvirus 3]
+Length=447
+
+ Score = 52.0 bits (123),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 33/121 (27%), Positives = 61/121 (50%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + +H F+R+ +           WK+ V  WG DP  L +LS+A    G  +  
+Sbjct  328  DKIPTKCQARHQFFRQNV-PSALTTGSTVWKWIVYVWG-DPSVLFRLSRALTLPGAVSSG  385
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P  G       Y + V+C +KDT+K++  A+  ++  +P + +L++S+ +  + LP
+Sbjct  386  LQTFPVSGDPPVDWKYYISVFCNSKDTAKQIIKAQKKYKKKYPRSASLKTSLARCSRGLP  445
+
+Query  136  L  136
+            +
+Sbjct  446  I  446
+
+
+>gb|AAY21859.1| ORF73 [Bovine herpesvirus 4]
+Length=259
+
+ Score = 49.7 bits (117),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   +   +  WK+ ++FWG DP  L KL++A Q   V ++  V  L
+Sbjct  145  KYKGRNAFFRRHLGPGYKEPGRPLWKYYILFWGPDPRVLYKLARALQIQDVCRSTGVQRL  204
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+                P  +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  205  ----PGSNNGNFNITVYCPKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  259
+
+
+>ref|YP_004207909.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24414.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24496.1| LANA-like protein [Rodent herpesvirus Peru]
+Length=294
+
+ Score = 42.4 bits (98),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 39/142 (27%), Positives = 58/142 (41%), Gaps = 14/142 (10%)
+
+Query  1    SHPRYQQPPVPYRQID---DCPAKARPQHIFYRRFLGKDGRRD--PKCQWKFAVIFWGND  55
+            S  RYQQP      ID     P K R    F  R +G+  + D  P   +K  V      
+Sbjct  161  STSRYQQP------IDVNKALPKKYRAMRRFLEREIGEPMKPDATPPVTFKGCVFIQNVS  214
+
+Query  56   PYGLKKLSQAFQFGGVKAGPVSCLPHP-GPDQSPITYCVYVYCQNKDTSKKVQMARLAWE  114
+            P+ L + ++A Q   +       +P P G       Y    YC+NK  ++K++  R   +
+Sbjct  215  PFSLNRTAKALQSPAITTCKPCAMPKPMGATARSTRYFAMCYCENKAIARKIK--RALDK  272
+
+Query  115  ASHPLAGNLQSSIVKFKKPLPL  136
+             S        + I+K KKP P+
+Sbjct  273  HSAIFETKTTTMILKSKKPFPV  294
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.471    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303428631450
+Results from round 2
+
+
+Query= 4K2J
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AFQ99208.1|  LANA, partial [Human herpesvirus 8]                    211    3e-65
+gb|AAG27458.1|AF305694_1  latent nuclear antigen [Human herpesvir...   219    8e-64
+gb|AAK50002.1|  ORF73 [Human herpesvirus 8]                            218    2e-63
+gb|AAG01636.1|  Orf73 [Human herpesvirus 8]                            214    4e-62
+gb|AAB62657.1|  ORF 73 [Human herpesvirus 8]                           213    2e-61
+gb|ACY00477.1|  ORF73 [Human herpesvirus 8]                            213    2e-61
+gb|ADQ57959.1|  LANA [Human herpesvirus 8]                             212    8e-61
+gb|AAC55944.1|  Herpesvirus saimiri ORF73 homolog [Human herpesvi...   211    2e-60
+pdb|4K2J|A  Chain A, Decameric Ring Structure Of Kshv (hhv-8) Lat...   194    2e-60
+ref|YP_001129431.1|  LANA [Human herpesvirus 8] >sp|Q9QR71.1|ORF7...   209    1e-59
+pdb|2YQ0|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Octamer...   191    3e-59
+pdb|2YPY|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Decamer...   190    3e-59
+gb|AFU08336.1|  ORF73 [Human herpesvirus 8]                            186    1e-56
+gb|ABH07414.1|  latency-associated nuclear antigen [Retroperitone...   176    4e-48
+gb|ABH07415.1|  latency-associated nuclear antigen [Macaca nemest...   145    2e-38
+gb|AAY21856.1|  ORF73 [Bovine herpesvirus 4]                           138    2e-37
+ref|NP_570820.1|  latent nuclear antigen [Macacine herpesvirus 5]...   141    3e-37
+gb|AAF60071.1|AF210726_92  latency-associated nuclear antigen [Rh...   141    4e-37
+ref|NP_048045.1|  orf 73 [Ateline herpesvirus 3] >gb|AAC95598.1| ...   136    2e-35
+ref|NP_076567.1|  unknown [Bovine herpesvirus 4] >gb|AAK07994.1|A...   132    3e-35
+gb|AAY21859.1|  ORF73 [Bovine herpesvirus 4]                           132    5e-35
+prf||1804350B  ECLF2 upstream ORF                                      133    2e-34
+gb|AAY21854.1|  ORF73 [Bovine herpesvirus 4]                           130    2e-34
+gb|AAP32203.1|  latency associated nuclear antigen [Saimiriine he...   134    2e-34
+emb|CAC84371.1|  hypothetical protein [Saimiriine herpesvirus 2]       134    2e-34
+ref|NP_040275.1|  unnamed protein product [Saimiriine herpesvirus...   133    2e-34
+gb|AAY21855.1|  ORF73 [Bovine herpesvirus 4]                           130    3e-34
+gb|AAY21858.1|  ORF73 [Bovine herpesvirus 4] >gb|AAY21860.1| ORF7...   127    3e-33
+pdb|2YQ1|A  Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Tricl...   124    3e-33
+ref|NP_044913.1|  nuclear antigen LANA [Murid herpesvirus 4] >gb|...   125    4e-32
+gb|ACY41142.1|  nuclear antigen LANA [Wood mouse herpesvirus]          122    1e-30
+pdb|4BLG|A  Chain A, Crystal Structure Of Mhv-68 Latency-associat...   109    2e-27
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_004207909.1|  LANA-like protein [Rodent herpesvirus Peru] ...  60.9    9e-09
+ref|WP_020722102.1|  hypothetical protein [Acidobacteriaceae bact...  40.5    0.11 
+ref|NP_733892.1|  ORF39 [callitrichine herpesvirus 3] >gb|AAK3824...  38.2    0.61 
+ref|WP_008746836.1|  serine/threonine protein kinase, partial [St...  37.4    1.5  
+gb|ETE61107.1|  hypothetical protein L345_13144, partial [Ophioph...  35.9    5.2  
+
+
+>gb|AFQ99208.1| LANA, partial [Human herpesvirus 8]
+Length=306
+
+ Score =  211 bits (538),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  155  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  214
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  215  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  274
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  275  NLQSSIVKFKKPLPLTQPG  293
+
+
+>gb|AAG27458.1|AF305694_1 latent nuclear antigen [Human herpesvirus 8]
+Length=1036
+
+ Score =  219 bits (558),  Expect = 8e-64, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  885   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  944
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  945   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1004
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1005  NLQSSIVKFKKPLPLTQPG  1023
+
+
+>gb|AAK50002.1| ORF73 [Human herpesvirus 8]
+Length=1003
+
+ Score =  218 bits (556),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  852  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  911
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  912  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  971
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  972  NLQSSIVKFKKPLPLTQPG  990
+
+
+>gb|AAG01636.1| Orf73 [Human herpesvirus 8]
+Length=976
+
+ Score =  214 bits (545),  Expect = 4e-62, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  825  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  884
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  885  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  944
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  945  NLQSSIVKFKKPLPLTQPG  963
+
+
+>gb|AAB62657.1| ORF 73 [Human herpesvirus 8]
+Length=1089
+
+ Score =  213 bits (543),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  938   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  997
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  998   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1057
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1058  NLQSSIVKFKKPLPLTQPG  1076
+
+
+>gb|ACY00477.1| ORF73 [Human herpesvirus 8]
+Length=1123
+
+ Score =  213 bits (543),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  972   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1031
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1032  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1091
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1092  NLQSSIVKFKKPLPLTQPG  1110
+
+
+>gb|ADQ57959.1| LANA [Human herpesvirus 8]
+Length=1117
+
+ Score =  212 bits (539),  Expect = 8e-61, Method: Composition-based stats.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  966   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1025
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1026  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1085
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1086  NLQSSIVKFKKPLPLTQPG  1104
+
+
+>gb|AAC55944.1| Herpesvirus saimiri ORF73 homolog [Human herpesvirus 8]
+ gb|AAC57158.1| ORF 73 [Human herpesvirus 8 type M]
+Length=1162
+
+ Score =  211 bits (537),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  1011  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1070
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1071  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1130
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1131  NLQSSIVKFKKPLPLTQPG  1149
+
+
+>pdb|4K2J|A Chain A, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|B Chain B, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|C Chain C, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|D Chain D, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|E Chain E, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|F Chain F, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|G Chain G, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|H Chain H, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|I Chain I, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|J Chain J, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+Length=140
+
+ Score =  194 bits (492),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+            SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK
+Sbjct  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+
+Query  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+            KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA
+Sbjct  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+
+Query  121  GNLQSSIVKFKKPLPLTQPG  140
+            GNLQSSIVKFKKPLPLTQPG
+Sbjct  121  GNLQSSIVKFKKPLPLTQPG  140
+
+
+>ref|YP_001129431.1| LANA [Human herpesvirus 8]
+ sp|Q9QR71.1|ORF73_HHV8P RecName: Full=Protein ORF73
+ gb|AAD46501.1|AF148805_6 ORF73 [Human herpesvirus 8]
+Length=1129
+
+ Score =  209 bits (531),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  978   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1037
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1038  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1097
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1098  NLQSSIVKFKKPLPLTQPG  1116
+
+
+>pdb|2YQ0|A Chain A, Kshv Lana (orf73) C-terminal Domain, Octameric Ring: 
+Cubic Crystal Form
+Length=160
+
+ Score =  191 bits (485),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  18   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  77
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  78   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  137
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  138  NLQSSIVKFKKPLPLTQPG  156
+
+
+>pdb|2YPY|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPZ|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+Length=139
+
+ Score =  190 bits (483),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  4    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  63
+            RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS
+Sbjct  3    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  62
+
+Query  64   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  123
+            QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL
+Sbjct  63   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  122
+
+Query  124  QSSIVKFKKPLPLTQPG  140
+            QSSIVKFKKPLPLTQPG
+Sbjct  123  QSSIVKFKKPLPLTQPG  139
+
+
+>gb|AFU08336.1| ORF73 [Human herpesvirus 8]
+Length=215
+
+ Score =  186 bits (473),  Expect = 1e-56, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  64   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  123
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  124  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  183
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  184  NLQSSIVKFKKPLPLTQPG  202
+
+
+>gb|ABH07414.1| latency-associated nuclear antigen [Retroperitoneal fibromatosis-associated 
+herpesvirus]
+ gb|AGY30760.1| ORF73 [Retroperitoneal fibromatosis-associated herpesvirus]
+Length=1071
+
+ Score =  176 bits (445),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 74/138 (54%), Positives = 91/138 (66%), Gaps = 2/138 (1%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             H R+Q P +PY+  D CP KARP H FY RFLG      P   W+ A IFW   PY LKK
+Sbjct  912   HARFQSPMMPYQTPDGCPPKARPLHRFYLRFLGPLTMYRPDRHWRHAAIFWTPRPYPLKK  971
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPD--QSPITYCVYVYCQNKDTSKKVQMARLAWEASHPL  119
+             ++QA QFGG++ GPV+CLPHPG      P  YC+YVYCQ+K T++KV + R AWEA+H  
+Sbjct  972   MAQALQFGGIRCGPVTCLPHPGRPGVPGPHMYCIYVYCQSKATAQKVILGREAWEANHGA  1031
+
+Query  120   AGNLQSSIVKFKKPLPLT  137
+             A  L+SS VKFK  +PL 
+Sbjct  1032  AVILESSRVKFKDSMPLN  1049
+
+
+>gb|ABH07415.1| latency-associated nuclear antigen [Macaca nemestrina rhadinovirus 
+2]
+Length=438
+
+ Score =  145 bits (365),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 46/122 (38%), Positives = 68/122 (56%), Gaps = 1/122 (1%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDP-KCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG  74
+            D+ P K RPQ  FYR+ LG D    P    W+  VIF  +DPY L +L++  QF G+++ 
+Sbjct  315  DEVPRKYRPQRRFYRQALGNDKIDPPRPGPWRHGVIFCNDDPYSLYRLARCLQFPGIRSS  374
+
+Query  75   PVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPL  134
+             V  LP          +C+ V+CQ++ T+K V+ AR  WE  H  A   Q+SI++  + L
+Sbjct  375  SVRVLPDAPNSPVIPPFCITVFCQSRGTAKAVKRARRRWEQLHTSAPKFQASIIRMDRGL  434
+
+Query  135  PL  136
+            P+
+Sbjct  435  PI  436
+
+
+>gb|AAY21856.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  138 bits (347),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 63/119 (53%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+  +  WK+ VIFWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRKPGRRLWKYYVIFWGPDPRVLYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNGNFNITVYCAKKTTPKKLKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>ref|NP_570820.1| latent nuclear antigen [Macacine herpesvirus 5]
+ gb|AAD21406.1| latent nuclear antigen [Macaca mulatta rhadinovirus 17577]
+Length=448
+
+ Score =  141 bits (356),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 46/121 (38%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            ++ P K RPQ  FYR+ LG          W   VIF  +DPY L +L++  QF G++A  
+Sbjct  326  EEVPRKYRPQRRFYRQVLGPRIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRASS  385
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            V  LP          +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+  + LP
+Sbjct  386  VRVLPDAPGSPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRMDRGLP  445
+
+Query  136  L  136
+            +
+Sbjct  446  I  446
+
+
+>gb|AAF60071.1|AF210726_92 latency-associated nuclear antigen [Rhesus monkey rhadinovirus 
+H26-95]
+Length=448
+
+ Score =  141 bits (355),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 46/121 (38%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            ++ P K RPQ  FYR+ LG          W   VIF  +DPY L +L++  QF G++A  
+Sbjct  326  EEVPRKYRPQRRFYRQVLGPRIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRASS  385
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            V  LP          +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+  + LP
+Sbjct  386  VRVLPDAPGSPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRMDRGLP  445
+
+Query  136  L  136
+            +
+Sbjct  446  I  446
+
+
+>ref|NP_048045.1| orf 73 [Ateline herpesvirus 3]
+ gb|AAC95598.1| orf 73 [Ateline herpesvirus 3]
+Length=447
+
+ Score =  136 bits (342),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 33/121 (27%), Positives = 61/121 (50%), Gaps = 2/121 (2%)
+
+Query  16   DDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGP  75
+            D  P K + +H F+R+ +           WK+ V  WG DP  L +LS+A    G  +  
+Sbjct  328  DKIPTKCQARHQFFRQNV-PSALTTGSTVWKWIVYVWG-DPSVLFRLSRALTLPGAVSSG  385
+
+Query  76   VSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLP  135
+            +   P  G       Y + V+C +KDT+K++  A+  ++  +P + +L++S+ +  + LP
+Sbjct  386  LQTFPVSGDPPVDWKYYISVFCNSKDTAKQIIKAQKKYKKKYPRSASLKTSLARCSRGLP  445
+
+Query  136  L  136
+            +
+Sbjct  446  I  446
+
+
+>ref|NP_076567.1| unknown [Bovine herpesvirus 4]
+ gb|AAK07994.1|AF318573_74 unknown [Bovine herpesvirus 4]
+ gb|AAY21857.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  132 bits (332),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 38/119 (32%), Positives = 61/119 (51%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGTDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   Y + VYC  K T KK++  +  +E  +P  G+   S+   +  +P+ Q
+Sbjct  199  P----GSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21859.1| ORF73 [Bovine herpesvirus 4]
+Length=259
+
+ Score =  132 bits (331),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   +   +  WK+ ++FWG DP  L KL++A Q   V ++  V  L
+Sbjct  145  KYKGRNAFFRRHLGPGYKEPGRPLWKYYILFWGPDPRVLYKLARALQIQDVCRSTGVQRL  204
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  205  P----GSNNGNFNITVYCPKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  259
+
+
+>prf||1804350B ECLF2 upstream ORF
+Length=407
+
+ Score =  133 bits (335),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 36/129 (28%), Positives = 60/129 (47%), Gaps = 2/129 (2%)
+
+Query  9    PVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQF  68
+            P   +  D  P K + ++ F+ +         PK  W + V FWG     L +LS++  F
+Sbjct  281  PKGKQSHDKVPKKYQARNKFFSQAAPSVLDLSPKS-WCWVVDFWGPTD-ALYRLSRSLSF  338
+
+Query  69   GGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIV  128
+             G  +  +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L++S+ 
+Sbjct  339  PGAVSSGIQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKLKASLG  398
+
+Query  129  KFKKPLPLT  137
+            KF K LP+ 
+Sbjct  399  KFSKSLPIE  407
+
+
+>gb|AAY21854.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  130 bits (326),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 60/119 (50%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG-PVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V     V  +
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCSTGVQRM  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNSNFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAP32203.1| latency associated nuclear antigen [Saimiriine herpesvirus 2]
+Length=501
+
+ Score =  134 bits (336),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 38/136 (28%), Positives = 63/136 (46%), Gaps = 2/136 (1%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            H    + P   +  D  P K + +H F+ +         P+ +W+  V FWG     L +
+Sbjct  368  HRHRSRLPKGKQSHDKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPT-SALYR  425
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LS+A  F G  A  +   P       P  Y + VYC+ +  +K++  A+  +E  +P + 
+Sbjct  426  LSKALLFPGAVASGLQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSA  485
+
+Query  122  NLQSSIVKFKKPLPLT  137
+             LQ+S+ KF K LP+ 
+Sbjct  486  KLQASLGKFSKSLPIE  501
+
+
+>emb|CAC84371.1| hypothetical protein [Saimiriine herpesvirus 2]
+Length=501
+
+ Score =  134 bits (336),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 38/136 (28%), Positives = 63/136 (46%), Gaps = 2/136 (1%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            H    + P   +  D  P K + +H F+ +         P+ +W+  V FWG     L +
+Sbjct  368  HRHRSRLPKGKQSHDKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPT-SALYR  425
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LS+A  F G  A  +   P       P  Y + VYC+ +  +K++  A+  +E  +P + 
+Sbjct  426  LSKALLFPGAVASGLQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSA  485
+
+Query  122  NLQSSIVKFKKPLPLT  137
+             LQ+S+ KF K LP+ 
+Sbjct  486  KLQASLGKFSKSLPIE  501
+
+
+>ref|NP_040275.1| unnamed protein product [Saimiriine herpesvirus 2]
+ sp|Q01042.1|ICP22_SHV21 RecName: Full=Transcriptional regulator ICP22 homolog; AltName: 
+Full=Immediate-early protein
+ pir||EDBEQ3 immediate-early protein - saimiriine herpesvirus 1 (strain 11)
+ emb|CAA45696.1| unnamed protein product [Saimiriine herpesvirus 2]
+ gb|AAB21116.1| ORF 5' of ECRF3 [Saimiriine herpesvirus 2]
+ gb|AAA46149.1| first methionine codon in the ECLF1 ORF [Saimiriine herpesvirus 
+2]
+Length=407
+
+ Score =  133 bits (334),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 36/129 (28%), Positives = 60/129 (47%), Gaps = 2/129 (2%)
+
+Query  9    PVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQF  68
+            P   +  D  P K + ++ F+ +         PK  W + V FWG     L +LS++  F
+Sbjct  281  PKGKQSHDKVPKKYQARNKFFSQAAPSVLDLSPKS-WCWVVDFWGPTD-ALYRLSRSLSF  338
+
+Query  69   GGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIV  128
+             G  +  +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L++S+ 
+Sbjct  339  PGAVSSGIQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKLKASLG  398
+
+Query  129  KFKKPLPLT  137
+            KF K LP+ 
+Sbjct  399  KFSKSLPIE  407
+
+
+>gb|AAY21855.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  130 bits (326),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 60/119 (50%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG-PVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V     V  +
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCSTGVQRM  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNSNFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21858.1| ORF73 [Bovine herpesvirus 4]
+ gb|AAY21860.1| ORF73 [Bovine herpesvirus 4]
+ gb|AEL29819.1| genome maintenance protein [Bovine herpesvirus 4]
+Length=253
+
+ Score =  127 bits (319),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   Y + VYC  K T KK++  +  +E  +P  G+  SS+   +  +P+ Q
+Sbjct  199  P----GSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNSSLGSCRPGIPVDQ  253
+
+
+>pdb|2YQ1|A Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|B Chain B, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|C Chain C, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|D Chain D, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+Length=139
+
+ Score =  124 bits (311),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 44/140 (31%), Positives = 68/140 (49%), Gaps = 8/140 (6%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGL  59
+            + RYQ+P  P    D  P K +   +H+        D    P   +K AV+F    PY L
+Sbjct  5    YSRYQKPHNPS---DPLPKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTL  61
+
+Query  60   KKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHP  118
+             KL +  Q   V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   + 
+Sbjct  62   NKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY-  120
+
+Query  119  LAGNLQSSIVKFKKPLPLTQ  138
+               +++ +IVK K   PL +
+Sbjct  121  -HSSVEGTIVKAKPYFPLPE  139
+
+
+>ref|NP_044913.1| nuclear antigen LANA [Murid herpesvirus 4]
+ gb|AAF19337.1|AF105037_69 73 [murid herpesvirus 4]
+ gb|AAB66457.1| immediate-early protein [murid herpesvirus 4]
+ gb|ACV65508.1| immediate-early protein [Murid herpesvirus 4]
+ gb|ACV74549.1| immediate-early protein [Murine herpesvirus strain 72]
+Length=314
+
+ Score =  125 bits (314),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 42/136 (31%), Positives = 65/136 (48%), Gaps = 8/136 (6%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGL  59
+            + RYQ+P  P    D  P K +   +H+        D    P   +K AV+F    PY L
+Sbjct  126  YSRYQKPHNPS---DPLPKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTL  182
+
+Query  60   KKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHP  118
+             KL +  Q   V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   + 
+Sbjct  183  NKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY-  241
+
+Query  119  LAGNLQSSIVKFKKPL  134
+               +++ +IVK K   
+Sbjct  242  -HSSVEGTIVKAKPYF  256
+
+
+>gb|ACY41142.1| nuclear antigen LANA [Wood mouse herpesvirus]
+Length=327
+
+ Score =  122 bits (305),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 45/139 (32%), Positives = 63/139 (45%), Gaps = 8/139 (6%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYG  58
+            S+PRYQ+P   Y +    PAK R    H+        D  R     +K AV+F    PY 
+Sbjct  157  SYPRYQKP---YNEKSTLPAKYRGMRNHMVIAAPRLFDPERPAPTHFKSAVMFSCTKPYS  213
+
+Query  59   LKKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASH  117
+            L KL +  Q   V    VSCLP  PG   + + Y +  + +NK  +K ++   L + A  
+Sbjct  214  LTKLHKVLQSKQVVTSTVSCLPFVPGGQPTLVKYFILSFVENKKLAKMLRKVVLTYCAKF  273
+
+Query  118  PLAGNLQSSIVKFKKPLPL  136
+                N+  +IVK K   PL
+Sbjct  274  --HSNIDGTIVKAKPWFPL  290
+
+
+>pdb|4BLG|A Chain A, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+ pdb|4BLG|B Chain B, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+Length=141
+
+ Score =  109 bits (272),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 39/127 (31%), Positives = 60/127 (47%), Gaps = 6/127 (5%)
+
+Query  11   PYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQF  68
+            P  Q D  P K +   +H+        D    P   +K AV+F    PY L KL +  Q 
+Sbjct  2    PGYQKDP-PKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTLNKLHKCIQS  60
+
+Query  69   GGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSI  127
+              V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   +    +++ +I
+Sbjct  61   KHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY--HSSVEGTI  118
+
+Query  128  VKFKKPL  134
+            VK K   
+Sbjct  119  VKAKPYF  125
+
+
+>ref|YP_004207909.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24414.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24496.1| LANA-like protein [Rodent herpesvirus Peru]
+Length=294
+
+ Score = 60.9 bits (146),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 36/139 (26%), Positives = 54/139 (39%), Gaps = 8/139 (6%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGK--DGRRDPKCQWKFAVIFWGNDPYG  58
+            S  RYQQP    +     P K R    F  R +G+       P   +K  V      P+ 
+Sbjct  161  STSRYQQPIDVNKA---LPKKYRAMRRFLEREIGEPMKPDATPPVTFKGCVFIQNVSPFS  217
+
+Query  59   LKKLSQAFQFGGVKAGPVSCLPHP-GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASH  117
+            L + ++A Q   +       +P P G       Y    YC+NK  ++K++ A     A  
+Sbjct  218  LNRTAKALQSPAITTCKPCAMPKPMGATARSTRYFAMCYCENKAIARKIKRALDKHSAIF  277
+
+Query  118  PLAGNLQSSIVKFKKPLPL  136
+                   + I+K KKP P+
+Sbjct  278  ET--KTTTMILKSKKPFPV  294
+
+
+>ref|WP_020722102.1| hypothetical protein [Acidobacteriaceae bacterium KBS 96]
+Length=280
+
+ Score = 40.5 bits (93),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/70 (21%), Positives = 21/70 (30%), Gaps = 4/70 (6%)
+
+Query  27   IFYRRFLGKDGRRDPKCQWKFAVIFWGN-DPYGLKKLSQAFQFGGVKAGPVSCLPHPGPD  85
+             F+        R      WK +V+F     P  L +    F    +    +   P  G  
+Sbjct  179  RFFLLDRRPLKRTSTDGGWKTSVVFSTPNHPGSLFRAMACFALRDLNLTKIESRPLRGK-  237
+
+Query  86   QSPITYCVYV  95
+              P  Y  YV
+Sbjct  238  --PWEYLFYV  245
+
+
+>ref|NP_733892.1| ORF39 [callitrichine herpesvirus 3]
+ gb|AAK38247.1|AF319782_41 ORF39 [callitrichine herpesvirus 3]
+Length=327
+
+ Score = 38.2 bits (87),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 41/117 (35%), Gaps = 17/117 (15%)
+
+Query  19   PAKARPQHIFYRRFLGK------DGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFG--G  70
+            PAK   ++      L          R   + +W   V+      + L  L +A       
+Sbjct  165  PAKCHGKYTTTAEGLTALLNRRHSPRTSNEGRWMNGVMAVNLSKWPLYSLRRALALAANE  224
+
+Query  71   VKAGPVSCLPH-----PGPDQSPI----TYCVYVYCQNKDTSKKVQMARLAWEASHP  118
+            V+  P+  LP+     PGP   PI    T+   V+ Q    +  +  A   +  +HP
+Sbjct  225  VRISPLFRLPYGSAFGPGPQPGPILESSTWGFLVFTQTSLFADDIADAIRDYCTTHP  281
+
+
+>ref|WP_008746836.1| serine/threonine protein kinase, partial [Streptomyces sp. SPB74]
+ gb|EFG64963.1| serine/threonine protein kinase [Streptomyces sp. SPB74]
+Length=331
+
+ Score = 37.4 bits (85),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 22/120 (18%), Positives = 41/120 (34%), Gaps = 8/120 (7%)
+
+Query  20   AKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAGPVSCL  79
+              A+     Y R +    R  P   W+        DP    + + A       A     L
+Sbjct  210  PDAQGLVAAYARGIPSAPRDVPAALWEVLGPLLHPDPRHRFRTATAV--RKALAEAARLL  267
+
+Query  80   PHPGPDQSPITYCVYV------YCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKP  133
+            P PGP + P+     +      + +     + ++  RL +E S P   +  ++  + + P
+Sbjct  268  PGPGPYEEPVEVFDQLGPPPPGFTEQGPLPRPLRSPRLPFEESTPPHPHGDAAPARLRAP  327
+
+
+>gb|ETE61107.1| hypothetical protein L345_13144, partial [Ophiophagus hannah]
+Length=420
+
+ Score = 35.9 bits (81),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 7/40 (18%), Positives = 14/40 (35%), Gaps = 0/40 (0%)
+
+Query  35  KDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG  74
+              +   +C W +  ++W        +L   FQ   + A 
+Sbjct  12  PGYKWPARCHWCWGHLWWPKHSASENRLPSCFQLQQLPAT  51
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.128    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303428631450
+Results from round 3
+
+
+Query= 4K2J
+
+Length=140
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AFQ99208.1|  LANA, partial [Human herpesvirus 8]                    194    1e-58
+gb|AAG27458.1|AF305694_1  latent nuclear antigen [Human herpesvir...   201    3e-57
+gb|AAK50002.1|  ORF73 [Human herpesvirus 8]                            200    5e-57
+gb|AAG01636.1|  Orf73 [Human herpesvirus 8]                            197    9e-56
+gb|AAB62657.1|  ORF 73 [Human herpesvirus 8]                           196    4e-55
+gb|ACY00477.1|  ORF73 [Human herpesvirus 8]                            196    4e-55
+gb|ADQ57959.1|  LANA [Human herpesvirus 8]                             194    1e-54
+pdb|4K2J|A  Chain A, Decameric Ring Structure Of Kshv (hhv-8) Lat...   178    2e-54
+gb|AAC55944.1|  Herpesvirus saimiri ORF73 homolog [Human herpesvi...   194    2e-54
+pdb|2YPY|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Decamer...   176    9e-54
+ref|YP_001129431.1|  LANA [Human herpesvirus 8] >sp|Q9QR71.1|ORF7...   191    1e-53
+pdb|2YQ0|A  Chain A, Kshv Lana (orf73) C-terminal Domain, Octamer...   176    4e-53
+gb|AFU08336.1|  ORF73 [Human herpesvirus 8]                            172    6e-51
+gb|ABH07414.1|  latency-associated nuclear antigen [Retroperitone...   163    1e-43
+gb|ABH07415.1|  latency-associated nuclear antigen [Macaca nemest...   146    7e-39
+ref|NP_570820.1|  latent nuclear antigen [Macacine herpesvirus 5]...   143    6e-38
+gb|AAF60071.1|AF210726_92  latency-associated nuclear antigen [Rh...   143    8e-38
+gb|AAP32203.1|  latency associated nuclear antigen [Saimiriine he...   141    4e-37
+emb|CAC84371.1|  hypothetical protein [Saimiriine herpesvirus 2]       141    4e-37
+prf||1804350B  ECLF2 upstream ORF                                      138    3e-36
+ref|NP_040275.1|  unnamed protein product [Saimiriine herpesvirus...   137    4e-36
+pdb|2YQ1|A  Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Tricl...   129    4e-35
+ref|NP_048045.1|  orf 73 [Ateline herpesvirus 3] >gb|AAC95598.1| ...   134    1e-34
+ref|NP_044913.1|  nuclear antigen LANA [Murid herpesvirus 4] >gb|...   129    3e-33
+gb|AAY21856.1|  ORF73 [Bovine herpesvirus 4]                           126    9e-33
+ref|NP_076567.1|  unknown [Bovine herpesvirus 4] >gb|AAK07994.1|A...   122    4e-31
+gb|ACY41142.1|  nuclear antigen LANA [Wood mouse herpesvirus]          122    7e-31
+gb|AAY21859.1|  ORF73 [Bovine herpesvirus 4]                           120    9e-31
+gb|AAY21854.1|  ORF73 [Bovine herpesvirus 4]                           119    3e-30
+gb|AAY21855.1|  ORF73 [Bovine herpesvirus 4]                           119    4e-30
+pdb|4BLG|A  Chain A, Crystal Structure Of Mhv-68 Latency-associat...   115    9e-30
+gb|AAY21858.1|  ORF73 [Bovine herpesvirus 4] >gb|AAY21860.1| ORF7...   116    4e-29
+ref|YP_004207909.1|  LANA-like protein [Rodent herpesvirus Peru] ...   108    1e-25
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_020722102.1|  hypothetical protein [Acidobacteriaceae bact...  37.8    0.98 
+ref|XP_422426.4|  PREDICTED: protein patched homolog 1 isoform X1...  37.8    0.99 
+ref|XP_004936788.1|  PREDICTED: protein patched homolog 1 isoform...  37.8    1.2  
+ref|XP_004936790.1|  PREDICTED: protein patched homolog 1 isoform...  37.8    1.3  
+ref|XP_004936789.1|  PREDICTED: protein patched homolog 1 isoform...  37.8    1.3  
+ref|XP_004936786.1|  PREDICTED: protein patched homolog 1 isoform...  37.4    1.5  
+ref|XP_004936782.1|  PREDICTED: protein patched homolog 1 isoform...  37.4    1.5  
+ref|XP_004936787.1|  PREDICTED: protein patched homolog 1 isoform...  37.4    1.5  
+ref|XP_004936785.1|  PREDICTED: protein patched homolog 1 isoform...  37.4    1.6  
+pdb|1VHI|A  Chain A, Epstein Barr Virus Nuclear Antigen-1 Dna-Bin...  35.8    3.0  
+pdb|1B3T|A  Chain A, Ebna-1 Nuclear ProteinDNA COMPLEX >pdb|1B3T|...  35.8    3.3  
+ref|NP_733892.1|  ORF39 [callitrichine herpesvirus 3] >gb|AAK3824...  35.5    6.9  
+gb|EJP70351.1|  hypothetical protein BBA_01220 [Beauveria bassian...  35.1    7.9  
+gb|AAA67279.1|  nuclear antigen EBNA-1, partial [Human herpesviru...  34.7    8.5  
+gb|AAA67285.1|  nuclear antigen EBNA-1, partial [Human herpesviru...  34.7    8.8  
+gb|AAA67280.1|  nuclear antigen EBNA-1, partial [Human herpesviru...  34.7    8.9  
+
+
+>gb|AFQ99208.1| LANA, partial [Human herpesvirus 8]
+Length=306
+
+ Score =  194 bits (494),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  155  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  214
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  215  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  274
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  275  NLQSSIVKFKKPLPLTQPG  293
+
+
+>gb|AAG27458.1|AF305694_1 latent nuclear antigen [Human herpesvirus 8]
+Length=1036
+
+ Score =  201 bits (512),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  885   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  944
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  945   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1004
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1005  NLQSSIVKFKKPLPLTQPG  1023
+
+
+>gb|AAK50002.1| ORF73 [Human herpesvirus 8]
+Length=1003
+
+ Score =  200 bits (509),  Expect = 5e-57, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  852  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  911
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  912  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  971
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  972  NLQSSIVKFKKPLPLTQPG  990
+
+
+>gb|AAG01636.1| Orf73 [Human herpesvirus 8]
+Length=976
+
+ Score =  197 bits (500),  Expect = 9e-56, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  825  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  884
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  885  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  944
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  945  NLQSSIVKFKKPLPLTQPG  963
+
+
+>gb|AAB62657.1| ORF 73 [Human herpesvirus 8]
+Length=1089
+
+ Score =  196 bits (497),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  938   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  997
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  998   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1057
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1058  NLQSSIVKFKKPLPLTQPG  1076
+
+
+>gb|ACY00477.1| ORF73 [Human herpesvirus 8]
+Length=1123
+
+ Score =  196 bits (497),  Expect = 4e-55, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  972   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1031
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1032  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1091
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1092  NLQSSIVKFKKPLPLTQPG  1110
+
+
+>gb|ADQ57959.1| LANA [Human herpesvirus 8]
+Length=1117
+
+ Score =  194 bits (493),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 138/139 (99%), Positives = 138/139 (99%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  966   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1025
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPH GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1026  LSQAFQFGGVKAGPVSCLPHLGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1085
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1086  NLQSSIVKFKKPLPLTQPG  1104
+
+
+>pdb|4K2J|A Chain A, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|B Chain B, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|C Chain C, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|D Chain D, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|E Chain E, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|F Chain F, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|G Chain G, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|H Chain H, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|I Chain I, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+ pdb|4K2J|J Chain J, Decameric Ring Structure Of Kshv (hhv-8) Latency-associated 
+Nuclear Antigen (lana) Dna Binding Domain
+Length=140
+
+ Score =  178 bits (452),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+            SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK
+Sbjct  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLK  60
+
+Query  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+            KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA
+Sbjct  61   KLSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLA  120
+
+Query  121  GNLQSSIVKFKKPLPLTQPG  140
+            GNLQSSIVKFKKPLPLTQPG
+Sbjct  121  GNLQSSIVKFKKPLPLTQPG  140
+
+
+>gb|AAC55944.1| Herpesvirus saimiri ORF73 homolog [Human herpesvirus 8]
+ gb|AAC57158.1| ORF 73 [Human herpesvirus 8 type M]
+Length=1162
+
+ Score =  194 bits (492),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  1011  HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1070
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1071  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1130
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1131  NLQSSIVKFKKPLPLTQPG  1149
+
+
+>pdb|2YPY|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPY|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Monoclinic Crystal Form
+ pdb|2YPZ|A Chain A, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|B Chain B, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|C Chain C, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|D Chain D, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|E Chain E, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|F Chain F, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|G Chain G, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|H Chain H, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|I Chain I, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+ pdb|2YPZ|J Chain J, Kshv Lana (orf73) C-terminal Domain, Decameric Ring: 
+Orthorhombic Crystal Form
+Length=139
+
+ Score =  176 bits (447),  Expect = 9e-54, Method: Composition-based stats.
+ Identities = 137/138 (99%), Positives = 137/138 (99%), Gaps = 0/138 (0%)
+
+Query  3    PRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL  62
+             RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL
+Sbjct  2    SRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL  61
+
+Query  63   SQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGN  122
+            SQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGN
+Sbjct  62   SQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGN  121
+
+Query  123  LQSSIVKFKKPLPLTQPG  140
+            LQSSIVKFKKPLPLTQPG
+Sbjct  122  LQSSIVKFKKPLPLTQPG  139
+
+
+>ref|YP_001129431.1| LANA [Human herpesvirus 8]
+ sp|Q9QR71.1|ORF73_HHV8P RecName: Full=Protein ORF73
+ gb|AAD46501.1|AF148805_6 ORF73 [Human herpesvirus 8]
+Length=1129
+
+ Score =  191 bits (486),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  978   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  1037
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+             LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  1038  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  1097
+
+Query  122   NLQSSIVKFKKPLPLTQPG  140
+             NLQSSIVKFKKPLPLTQPG
+Sbjct  1098  NLQSSIVKFKKPLPLTQPG  1116
+
+
+>pdb|2YQ0|A Chain A, Kshv Lana (orf73) C-terminal Domain, Octameric Ring: 
+Cubic Crystal Form
+Length=160
+
+ Score =  176 bits (445),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  18   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  77
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  78   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  137
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  138  NLQSSIVKFKKPLPLTQPG  156
+
+
+>gb|AFU08336.1| ORF73 [Human herpesvirus 8]
+Length=215
+
+ Score =  172 bits (435),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 139/139 (100%), Positives = 139/139 (100%), Gaps = 0/139 (0%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK
+Sbjct  64   HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  123
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG
+Sbjct  124  LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  183
+
+Query  122  NLQSSIVKFKKPLPLTQPG  140
+            NLQSSIVKFKKPLPLTQPG
+Sbjct  184  NLQSSIVKFKKPLPLTQPG  202
+
+
+>gb|ABH07414.1| latency-associated nuclear antigen [Retroperitoneal fibromatosis-associated 
+herpesvirus]
+ gb|AGY30760.1| ORF73 [Retroperitoneal fibromatosis-associated herpesvirus]
+Length=1071
+
+ Score =  163 bits (412),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 74/138 (54%), Positives = 91/138 (66%), Gaps = 2/138 (1%)
+
+Query  2     HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+             H R+Q P +PY+  D CP KARP H FY RFLG      P   W+ A IFW   PY LKK
+Sbjct  912   HARFQSPMMPYQTPDGCPPKARPLHRFYLRFLGPLTMYRPDRHWRHAAIFWTPRPYPLKK  971
+
+Query  62    LSQAFQFGGVKAGPVSCLPHPGPD--QSPITYCVYVYCQNKDTSKKVQMARLAWEASHPL  119
+             ++QA QFGG++ GPV+CLPHPG      P  YC+YVYCQ+K T++KV + R AWEA+H  
+Sbjct  972   MAQALQFGGIRCGPVTCLPHPGRPGVPGPHMYCIYVYCQSKATAQKVILGREAWEANHGA  1031
+
+Query  120   AGNLQSSIVKFKKPLPLT  137
+             A  L+SS VKFK  +PL 
+Sbjct  1032  AVILESSRVKFKDSMPLN  1049
+
+
+>gb|ABH07415.1| latency-associated nuclear antigen [Macaca nemestrina rhadinovirus 
+2]
+Length=438
+
+ Score =  146 bits (367),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 46/126 (37%), Positives = 68/126 (54%), Gaps = 1/126 (1%)
+
+Query  14   QIDDCPAKARPQHIFYRRFLGKDGRRDP-KCQWKFAVIFWGNDPYGLKKLSQAFQFGGVK  72
+              D+ P K RPQ  FYR+ LG D    P    W+  VIF  +DPY L +L++  QF G++
+Sbjct  313  SEDEVPRKYRPQRRFYRQALGNDKIDPPRPGPWRHGVIFCNDDPYSLYRLARCLQFPGIR  372
+
+Query  73   AGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKK  132
+            +  V  LP          +C+ V+CQ++ T+K V+ AR  WE  H  A   Q+SI++  +
+Sbjct  373  SSSVRVLPDAPNSPVIPPFCITVFCQSRGTAKAVKRARRRWEQLHTSAPKFQASIIRMDR  432
+
+Query  133  PLPLTQ  138
+             LP+  
+Sbjct  433  GLPIQH  438
+
+
+>ref|NP_570820.1| latent nuclear antigen [Macacine herpesvirus 5]
+ gb|AAD21406.1| latent nuclear antigen [Macaca mulatta rhadinovirus 17577]
+Length=448
+
+ Score =  143 bits (361),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 46/125 (37%), Positives = 67/125 (54%), Gaps = 0/125 (0%)
+
+Query  14   QIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKA  73
+              ++ P K RPQ  FYR+ LG          W   VIF  +DPY L +L++  QF G++A
+Sbjct  324  SEEEVPRKYRPQRRFYRQVLGPRIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRA  383
+
+Query  74   GPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKP  133
+              V  LP          +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+  + 
+Sbjct  384  SSVRVLPDAPGSPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRMDRG  443
+
+Query  134  LPLTQ  138
+            LP+  
+Sbjct  444  LPIQH  448
+
+
+>gb|AAF60071.1|AF210726_92 latency-associated nuclear antigen [Rhesus monkey rhadinovirus 
+H26-95]
+Length=448
+
+ Score =  143 bits (360),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 46/125 (37%), Positives = 67/125 (54%), Gaps = 0/125 (0%)
+
+Query  14   QIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKA  73
+              ++ P K RPQ  FYR+ LG          W   VIF  +DPY L +L++  QF G++A
+Sbjct  324  SEEEVPRKYRPQRRFYRQVLGPRIDPPRPGPWCHGVIFCNSDPYSLYRLARCLQFPGIRA  383
+
+Query  74   GPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKP  133
+              V  LP          +C+ V+CQ++ T+K V+ AR  WE  HP A + Q+SIV+  + 
+Sbjct  384  SSVRVLPDAPGSPVIPAFCITVFCQSRGTAKAVKKARRRWERHHPSAPHFQASIVRMDRG  443
+
+Query  134  LPLTQ  138
+            LP+  
+Sbjct  444  LPIQH  448
+
+
+>gb|AAP32203.1| latency associated nuclear antigen [Saimiriine herpesvirus 2]
+Length=501
+
+ Score =  141 bits (356),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 38/136 (28%), Positives = 63/136 (46%), Gaps = 2/136 (1%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            H    + P   +  D  P K + +H F+ +         P+ +W+  V FWG     L +
+Sbjct  368  HRHRSRLPKGKQSHDKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPT-SALYR  425
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LS+A  F G  A  +   P       P  Y + VYC+ +  +K++  A+  +E  +P + 
+Sbjct  426  LSKALLFPGAVASGLQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSA  485
+
+Query  122  NLQSSIVKFKKPLPLT  137
+             LQ+S+ KF K LP+ 
+Sbjct  486  KLQASLGKFSKSLPIE  501
+
+
+>emb|CAC84371.1| hypothetical protein [Saimiriine herpesvirus 2]
+Length=501
+
+ Score =  141 bits (356),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 38/136 (28%), Positives = 63/136 (46%), Gaps = 2/136 (1%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKK  61
+            H    + P   +  D  P K + +H F+ +         P+ +W+  V FWG     L +
+Sbjct  368  HRHRSRLPKGKQSHDKIPQKCQARHQFFAKEAPSVFSLTPR-KWRHVVYFWGPT-SALYR  425
+
+Query  62   LSQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAG  121
+            LS+A  F G  A  +   P       P  Y + VYC+ +  +K++  A+  +E  +P + 
+Sbjct  426  LSKALLFPGAVASGLQTFPKGPRAVGPWIYFICVYCRTRRIAKEIITAQKKYEKLYPRSA  485
+
+Query  122  NLQSSIVKFKKPLPLT  137
+             LQ+S+ KF K LP+ 
+Sbjct  486  KLQASLGKFSKSLPIE  501
+
+
+>prf||1804350B ECLF2 upstream ORF
+Length=407
+
+ Score =  138 bits (348),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 36/134 (27%), Positives = 61/134 (46%), Gaps = 2/134 (1%)
+
+Query  4    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  63
+               + P   +  D  P K + ++ F+ +         PK  W + V FWG     L +LS
+Sbjct  276  HRSRLPKGKQSHDKVPKKYQARNKFFSQAAPSVLDLSPKS-WCWVVDFWGPTD-ALYRLS  333
+
+Query  64   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  123
+            ++  F G  +  +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L
+Sbjct  334  RSLSFPGAVSSGIQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKL  393
+
+Query  124  QSSIVKFKKPLPLT  137
+            ++S+ KF K LP+ 
+Sbjct  394  KASLGKFSKSLPIE  407
+
+
+>ref|NP_040275.1| unnamed protein product [Saimiriine herpesvirus 2]
+ sp|Q01042.1|ICP22_SHV21 RecName: Full=Transcriptional regulator ICP22 homolog; AltName: 
+Full=Immediate-early protein
+ pir||EDBEQ3 immediate-early protein - saimiriine herpesvirus 1 (strain 11)
+ emb|CAA45696.1| unnamed protein product [Saimiriine herpesvirus 2]
+ gb|AAB21116.1| ORF 5' of ECRF3 [Saimiriine herpesvirus 2]
+ gb|AAA46149.1| first methionine codon in the ECLF1 ORF [Saimiriine herpesvirus 
+2]
+Length=407
+
+ Score =  137 bits (346),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 36/134 (27%), Positives = 61/134 (46%), Gaps = 2/134 (1%)
+
+Query  4    RYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLS  63
+               + P   +  D  P K + ++ F+ +         PK  W + V FWG     L +LS
+Sbjct  276  HRSRLPKGKQSHDKVPKKYQARNKFFSQAAPSVLDLSPKS-WCWVVDFWGPTD-ALYRLS  333
+
+Query  64   QAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNL  123
+            ++  F G  +  +   P       P  Y + VYC+   T+K+V  A+  +E  +P +  L
+Sbjct  334  RSLSFPGAVSSGIQTFPKGPHATGPWVYFITVYCRTFQTAKEVIKAQKKYEKKYPRSAKL  393
+
+Query  124  QSSIVKFKKPLPLT  137
+            ++S+ KF K LP+ 
+Sbjct  394  KASLGKFSKSLPIE  407
+
+
+>pdb|2YQ1|A Chain A, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|B Chain B, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|C Chain C, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+ pdb|2YQ1|D Chain D, Mhv-68 Lana (orf73) C-terminal Domain: Triclinic Crystal 
+Form
+Length=139
+
+ Score =  129 bits (324),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 44/140 (31%), Positives = 68/140 (49%), Gaps = 8/140 (6%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGL  59
+            + RYQ+P  P    D  P K +   +H+        D    P   +K AV+F    PY L
+Sbjct  5    YSRYQKPHNPS---DPLPKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTL  61
+
+Query  60   KKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHP  118
+             KL +  Q   V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   + 
+Sbjct  62   NKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY-  120
+
+Query  119  LAGNLQSSIVKFKKPLPLTQ  138
+               +++ +IVK K   PL +
+Sbjct  121  -HSSVEGTIVKAKPYFPLPE  139
+
+
+>ref|NP_048045.1| orf 73 [Ateline herpesvirus 3]
+ gb|AAC95598.1| orf 73 [Ateline herpesvirus 3]
+Length=447
+
+ Score =  134 bits (338),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 34/135 (25%), Positives = 63/135 (47%), Gaps = 2/135 (1%)
+
+Query  3    PRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL  62
+                + P      D  P K + +H F+R+ +           WK+ V  WG DP  L +L
+Sbjct  315  KHRSRLPRGRWSGDKIPTKCQARHQFFRQNV-PSALTTGSTVWKWIVYVWG-DPSVLFRL  372
+
+Query  63   SQAFQFGGVKAGPVSCLPHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGN  122
+            S+A    G  +  +   P  G       Y + V+C +KDT+K++  A+  ++  +P + +
+Sbjct  373  SRALTLPGAVSSGLQTFPVSGDPPVDWKYYISVFCNSKDTAKQIIKAQKKYKKKYPRSAS  432
+
+Query  123  LQSSIVKFKKPLPLT  137
+            L++S+ +  + LP+ 
+Sbjct  433  LKTSLARCSRGLPIQ  447
+
+
+>ref|NP_044913.1| nuclear antigen LANA [Murid herpesvirus 4]
+ gb|AAF19337.1|AF105037_69 73 [murid herpesvirus 4]
+ gb|AAB66457.1| immediate-early protein [murid herpesvirus 4]
+ gb|ACV65508.1| immediate-early protein [Murid herpesvirus 4]
+ gb|ACV74549.1| immediate-early protein [Murine herpesvirus strain 72]
+Length=314
+
+ Score =  129 bits (323),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 42/136 (31%), Positives = 65/136 (48%), Gaps = 8/136 (6%)
+
+Query  2    HPRYQQPPVPYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGL  59
+            + RYQ+P  P    D  P K +   +H+        D    P   +K AV+F    PY L
+Sbjct  126  YSRYQKPHNPS---DPLPKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTL  182
+
+Query  60   KKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHP  118
+             KL +  Q   V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   + 
+Sbjct  183  NKLHKCIQSKHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY-  241
+
+Query  119  LAGNLQSSIVKFKKPL  134
+               +++ +IVK K   
+Sbjct  242  -HSSVEGTIVKAKPYF  256
+
+
+>gb|AAY21856.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  126 bits (316),  Expect = 9e-33, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 63/119 (53%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+  +  WK+ VIFWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRKPGRRLWKYYVIFWGPDPRVLYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNGNFNITVYCAKKTTPKKLKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>ref|NP_076567.1| unknown [Bovine herpesvirus 4]
+ gb|AAK07994.1|AF318573_74 unknown [Bovine herpesvirus 4]
+ gb|AAY21857.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  122 bits (305),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 38/119 (32%), Positives = 61/119 (51%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGTDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   Y + VYC  K T KK++  +  +E  +P  G+   S+   +  +P+ Q
+Sbjct  199  P----GSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNCSLGSCRPGIPVDQ  253
+
+
+>gb|ACY41142.1| nuclear antigen LANA [Wood mouse herpesvirus]
+Length=327
+
+ Score =  122 bits (307),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 45/140 (32%), Positives = 63/140 (45%), Gaps = 8/140 (6%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQ--HIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYG  58
+            S+PRYQ+P   Y +    PAK R    H+        D  R     +K AV+F    PY 
+Sbjct  157  SYPRYQKP---YNEKSTLPAKYRGMRNHMVIAAPRLFDPERPAPTHFKSAVMFSCTKPYS  213
+
+Query  59   LKKLSQAFQFGGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASH  117
+            L KL +  Q   V    VSCLP  PG   + + Y +  + +NK  +K ++   L + A  
+Sbjct  214  LTKLHKVLQSKQVVTSTVSCLPFVPGGQPTLVKYFILSFVENKKLAKMLRKVVLTYCAKF  273
+
+Query  118  PLAGNLQSSIVKFKKPLPLT  137
+                N+  +IVK K   PL 
+Sbjct  274  --HSNIDGTIVKAKPWFPLP  291
+
+
+>gb|AAY21859.1| ORF73 [Bovine herpesvirus 4]
+Length=259
+
+ Score =  120 bits (302),  Expect = 9e-31, Method: Composition-based stats.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   +   +  WK+ ++FWG DP  L KL++A Q   V ++  V  L
+Sbjct  145  KYKGRNAFFRRHLGPGYKEPGRPLWKYYILFWGPDPRVLYKLARALQIQDVCRSTGVQRL  204
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  205  P----GSNNGNFNITVYCPKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  259
+
+
+>gb|AAY21854.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  119 bits (299),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 60/119 (50%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG-PVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V     V  +
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCSTGVQRM  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNSNFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>gb|AAY21855.1| ORF73 [Bovine herpesvirus 4]
+Length=253
+
+ Score =  119 bits (298),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 37/119 (31%), Positives = 60/119 (50%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGVKAG-PVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V     V  +
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIRDVCCSTGVQRM  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   + + VYC  K T KK++  +  +E  +P  G+L  S+   +  +P+ Q
+Sbjct  199  P----GSNNSNFNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHLNCSLGSCRPGIPVDQ  253
+
+
+>pdb|4BLG|A Chain A, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+ pdb|4BLG|B Chain B, Crystal Structure Of Mhv-68 Latency-associated Nuclear 
+Antigen (lana) C-terminal Dna Binding Domain
+Length=141
+
+ Score =  115 bits (288),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 39/127 (31%), Positives = 60/127 (47%), Gaps = 6/127 (5%)
+
+Query  11   PYRQIDDCPAKARP--QHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQF  68
+            P  Q D  P K +   +H+        D    P   +K AV+F    PY L KL +  Q 
+Sbjct  2    PGYQKDP-PKKYQGMRRHLQVTAPRLFDPEGHPPTHFKSAVMFSSTHPYTLNKLHKCIQS  60
+
+Query  69   GGVKAGPVSCLPH-PGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSI  127
+              V + PVSCLP  PG  Q  +TY +  + ++K  +KK++   LA+   +    +++ +I
+Sbjct  61   KHVLSTPVSCLPLVPGTTQQCVTYYLLSFVEDKKQAKKLKRVVLAYCEKY--HSSVEGTI  118
+
+Query  128  VKFKKPL  134
+            VK K   
+Sbjct  119  VKAKPYF  125
+
+
+>gb|AAY21858.1| ORF73 [Bovine herpesvirus 4]
+ gb|AAY21860.1| ORF73 [Bovine herpesvirus 4]
+ gb|AEL29819.1| genome maintenance protein [Bovine herpesvirus 4]
+Length=253
+
+ Score =  116 bits (291),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 39/119 (33%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  21   KARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGGV-KAGPVSCL  79
+            K + ++ F+RR LG   R+     WK+ V+FWG DP  L KL++A Q   V ++  V  L
+Sbjct  139  KYKGRNAFFRRHLGPGYRQPGLSFWKYYVLFWGPDPRALYKLARALQIQDVCRSTGVQRL  198
+
+Query  80   PHPGPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASHPLAGNLQSSIVKFKKPLPLTQ  138
+            P      +   Y + VYC  K T KK++  +  +E  +P  G+  SS+   +  +P+ Q
+Sbjct  199  P----GSNNGNYNITVYCAKKKTPKKIKKIQRLYEHCYPTTGHFNSSLGSCRPGIPVDQ  253
+
+
+>ref|YP_004207909.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24414.1| LANA-like protein [Rodent herpesvirus Peru]
+ gb|ADW24496.1| LANA-like protein [Rodent herpesvirus Peru]
+Length=294
+
+ Score =  108 bits (269),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 36/139 (26%), Positives = 54/139 (39%), Gaps = 8/139 (6%)
+
+Query  1    SHPRYQQPPVPYRQIDDCPAKARPQHIFYRRFLGK--DGRRDPKCQWKFAVIFWGNDPYG  58
+            S  RYQQP    +     P K R    F  R +G+       P   +K  V      P+ 
+Sbjct  161  STSRYQQPIDVNKA---LPKKYRAMRRFLEREIGEPMKPDATPPVTFKGCVFIQNVSPFS  217
+
+Query  59   LKKLSQAFQFGGVKAGPVSCLPHP-GPDQSPITYCVYVYCQNKDTSKKVQMARLAWEASH  117
+            L + ++A Q   +       +P P G       Y    YC+NK  ++K++ A     A  
+Sbjct  218  LNRTAKALQSPAITTCKPCAMPKPMGATARSTRYFAMCYCENKAIARKIKRALDKHSAIF  277
+
+Query  118  PLAGNLQSSIVKFKKPLPL  136
+                   + I+K KKP P+
+Sbjct  278  ET--KTTTMILKSKKPFPV  294
+
+
+>ref|WP_020722102.1| hypothetical protein [Acidobacteriaceae bacterium KBS 96]
+Length=280
+
+ Score = 37.8 bits (86),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 15/70 (21%), Positives = 21/70 (30%), Gaps = 4/70 (6%)
+
+Query  27   IFYRRFLGKDGRRDPKCQWKFAVIFWGN-DPYGLKKLSQAFQFGGVKAGPVSCLPHPGPD  85
+             F+        R      WK +V+F     P  L +    F    +    +   P  G  
+Sbjct  179  RFFLLDRRPLKRTSTDGGWKTSVVFSTPNHPGSLFRAMACFALRDLNLTKIESRPLRGK-  237
+
+Query  86   QSPITYCVYV  95
+              P  Y  YV
+Sbjct  238  --PWEYLFYV  245
+
+
+>ref|XP_422426.4| PREDICTED: protein patched homolog 1 isoform X10 [Gallus gallus]
+Length=1384
+
+ Score = 37.8 bits (86),  Expect = 0.99, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1262  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1321
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1322  LQRLASLSGPPASLQHPPAGPR  1343
+
+
+>ref|XP_004936788.1| PREDICTED: protein patched homolog 1 isoform X17 [Gallus gallus]
+Length=1576
+
+ Score = 37.8 bits (86),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1454  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1513
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1514  LQRLASLSGPPASLQHPPAGPR  1535
+
+
+>ref|XP_004936790.1| PREDICTED: protein patched homolog 1 isoform X19 [Gallus gallus]
+Length=1523
+
+ Score = 37.8 bits (86),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1401  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1460
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1461  LQRLASLSGPPASLQHPPAGPR  1482
+
+
+>ref|XP_004936789.1| PREDICTED: protein patched homolog 1 isoform X18 [Gallus gallus]
+Length=1552
+
+ Score = 37.8 bits (86),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1430  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1489
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1490  LQRLASLSGPPASLQHPPAGPR  1511
+
+
+>ref|XP_004936786.1| PREDICTED: protein patched homolog 1 isoform X15 [Gallus gallus]
+Length=1579
+
+ Score = 37.4 bits (85),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1457  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1516
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1517  LQRLASLSGPPASLQHPPAGPR  1538
+
+
+>ref|XP_004936782.1| PREDICTED: protein patched homolog 1 isoform X11 [Gallus gallus]
+ ref|XP_004936783.1| PREDICTED: protein patched homolog 1 isoform X12 [Gallus gallus]
+Length=1606
+
+ Score = 37.4 bits (85),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1484  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1543
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1544  LQRLASLSGPPASLQHPPAGPR  1565
+
+
+>ref|XP_004936787.1| PREDICTED: protein patched homolog 1 isoform X16 [Gallus gallus]
+Length=1578
+
+ Score = 37.4 bits (85),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1456  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1515
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1516  LQRLASLSGPPASLQHPPAGPR  1537
+
+
+>ref|XP_004936785.1| PREDICTED: protein patched homolog 1 isoform X14 [Gallus gallus]
+Length=1580
+
+ Score = 37.4 bits (85),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 15/82 (18%), Positives = 24/82 (29%), Gaps = 11/82 (13%)
+
+Query  17    DCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKL-----------SQA  65
+               P  +       R+  G       +      V FWG  P+  ++L           +  
+Sbjct  1458  PPPRSSLGAEALQRQPGGPGKEGAARPPACSLVAFWGAVPHSAQRLPTPHGIASARSALL  1517
+
+Query  66    FQFGGVKAGPVSCLPHPGPDQS  87
+              Q     +GP + L HP     
+Sbjct  1518  LQRLASLSGPPASLQHPPAGPR  1539
+
+
+>pdb|1VHI|A Chain A, Epstein Barr Virus Nuclear Antigen-1 Dna-Binding Domain, 
+Residues 470-607
+ pdb|1VHI|B Chain B, Epstein Barr Virus Nuclear Antigen-1 Dna-Binding Domain, 
+Residues 470-607
+Length=142
+
+ Score = 35.8 bits (81),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 19/112 (17%), Positives = 35/112 (31%), Gaps = 12/112 (11%)
+
+Query  38   RRDPKCQWKFAVIFWGNDPYGLKKLSQ--AFQFGGVKAGPVSCLPHPGPDQS--------  87
+            R   +  W   V  +G     L  L +  A      +  P+S LP               
+Sbjct  31   RTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLTPLSRLPFGMAPGPGPQPGPLR  90
+
+Query  88   -PITYCVYVYCQNKDTSKKVQMARLAWEASHPL-AGNLQSSIVKFKKPLPLT  137
+              I     V+ Q    ++ ++ A      + P    N++ ++  F   + L 
+Sbjct  91   ESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIRVTVCSFDDGVDLP  142
+
+
+>pdb|1B3T|A Chain A, Ebna-1 Nuclear ProteinDNA COMPLEX
+ pdb|1B3T|B Chain B, Ebna-1 Nuclear ProteinDNA COMPLEX
+Length=147
+
+ Score = 35.8 bits (81),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 19/112 (17%), Positives = 35/112 (31%), Gaps = 12/112 (11%)
+
+Query  38   RRDPKCQWKFAVIFWGNDPYGLKKLSQ--AFQFGGVKAGPVSCLPHPGPDQS--------  87
+            R   +  W   V  +G     L  L +  A      +  P+S LP               
+Sbjct  36   RTTDEGTWVAGVFVYGGSKTSLYNLRRGTALAIPQCRLTPLSRLPFGMAPGPGPQPGPLR  95
+
+Query  88   -PITYCVYVYCQNKDTSKKVQMARLAWEASHPL-AGNLQSSIVKFKKPLPLT  137
+              I     V+ Q    ++ ++ A      + P    N++ ++  F   + L 
+Sbjct  96   ESIVCYFMVFLQTHIFAEVLKDAIKDLVMTKPAPTCNIRVTVCSFDDGVDLP  147
+
+
+>ref|NP_733892.1| ORF39 [callitrichine herpesvirus 3]
+ gb|AAK38247.1|AF319782_41 ORF39 [callitrichine herpesvirus 3]
+Length=327
+
+ Score = 35.5 bits (80),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 26/115 (23%), Positives = 44/115 (38%), Gaps = 13/115 (11%)
+
+Query  36   DGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQFGG--VKAGPVSCLPH-----PGPDQSP  88
+              R   + +W   V+      + L  L +A       V+  P+  LP+     PGP   P
+Sbjct  188  SPRTSNEGRWMNGVMAVNLSKWPLYSLRRALALAANEVRISPLFRLPYGSAFGPGPQPGP  247
+
+Query  89   I----TYCVYVYCQNKDTSKKVQMARLAWEASHP-LAGNLQSSIVKFK-KPLPLT  137
+            I    T+   V+ Q    +  +  A   +  +HP    N Q  ++ F+   +PL 
+Sbjct  248  ILESSTWGFLVFTQTSLFADDIADAIRDYCTTHPGPTRNTQVVLMNFEGSGVPLP  302
+
+
+>gb|EJP70351.1| hypothetical protein BBA_01220 [Beauveria bassiana ARSEF 2860]
+Length=488
+
+ Score = 35.1 bits (79),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 17/80 (21%), Positives = 22/80 (28%), Gaps = 0/80 (0%)
+
+Query  8    PPVPYRQIDDCPAKARPQHIFYRRFLGKDGRRDPKCQWKFAVIFWGNDPYGLKKLSQAFQ  67
+            P  P    +  P K    H  +  F G  G   PK   K      G  P+   +   A Q
+Sbjct  375  PHHPPAIPEGGPKKCPFDHTKFASFAGGRGEETPKPPQKGGPALQGLPPFTPFRDETARQ  434
+
+Query  68   FGGVKAGPVSCLPHPGPDQS  87
+                 A P   +        
+Sbjct  435  SPAHGAQPPQPVFVAPDAVR  454
+
+
+>gb|AAA67279.1| nuclear antigen EBNA-1, partial [Human herpesvirus 4]
+Length=203
+
+ Score = 34.7 bits (78),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 19/112 (17%), Positives = 34/112 (30%), Gaps = 12/112 (11%)
+
+Query  38   RRDPKCQWKFAVIFWGNDPYGLKKLSQ--AFQFGGVKAGPVSCLPHPGPDQS--------  87
+            R      W   V  +G     L  L +  A      +  P+S LP               
+Sbjct  58   RTTEDGNWVAGVFVYGGSKTSLYNLRRGIALAIPQCRLTPLSRLPFGMAPGPGPQPGPLR  117
+
+Query  88   -PITYCVYVYCQNKDTSKKVQMARLAWEASHPL-AGNLQSSIVKFKKPLPLT  137
+              I     V+ Q    ++ ++ A        P    N+++++  F   + L 
+Sbjct  118  ESIVCYFMVFLQTHIFAEVLKDAIKDLVMPKPAPTCNIKATVCSFDDGVDLP  169
+
+
+>gb|AAA67285.1| nuclear antigen EBNA-1, partial [Human herpesvirus 4]
+Length=203
+
+ Score = 34.7 bits (78),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 20/113 (18%), Positives = 39/113 (35%), Gaps = 14/113 (12%)
+
+Query  38   RRDPKCQWKFAVIFWGNDPYGLKKLSQ--AFQFGGVKAGPVSCLPHPGPD----------  85
+            R   +  W   V  +G     L  L +  A      +  P+S LP               
+Sbjct  58   RTTDEGTWVAGVFVYGGSKTSLYNLRRGIALAIPQCRLTPLSRLPFGMAPGPGPQPGPLR  117
+
+Query  86   QSPITYCVYVYCQNKDTSKKVQMARLAWEASHPL-AGNLQSSIVKFKKPLPLT  137
+            +S + Y + V+ Q    ++ ++ A        P    N+++++  F   + L 
+Sbjct  118  ESIVCYFI-VFLQTHIFAEGLKDAIKDLVMPKPAPTCNIKATVCSFDDGVDLP  169
+
+
+>gb|AAA67280.1| nuclear antigen EBNA-1, partial [Human herpesvirus 4]
+Length=203
+
+ Score = 34.7 bits (78),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 20/113 (18%), Positives = 39/113 (35%), Gaps = 14/113 (12%)
+
+Query  38   RRDPKCQWKFAVIFWGNDPYGLKKLSQ--AFQFGGVKAGPVSCLPHPGPD----------  85
+            R   +  W   V  +G     L  L +  A      +  P+S LP               
+Sbjct  58   RTTDEGTWVAGVFVYGGSKTSLYNLRRGIALAIPQCRLTPLSRLPFGMAPGPGPQPGPLR  117
+
+Query  86   QSPITYCVYVYCQNKDTSKKVQMARLAWEASHPL-AGNLQSSIVKFKKPLPLT  137
+            +S + Y + V+ Q    ++ ++ A        P    N+++++  F   + L 
+Sbjct  118  ESIVCYFI-VFLQTHIFAEGLKDAIKDLVMPKPAPTCNIKATVCSFDDGVDLP  169
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.131    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0396    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303428631450
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

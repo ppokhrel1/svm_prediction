@@ -1,0 +1,1187 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4XGC
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_477319.1|  origin recognition complex subunit 6 [Drosophil...   145    3e-41
+gb|AAD39474.1|AF139064_1  origin recognition complex subunit 6 [D...   144    8e-41
+ref|XP_002080819.1|  GD10047 [Drosophila simulans] >gb|EDX06404.1...   127    3e-34
+ref|XP_002033151.1|  GM20574 [Drosophila sechellia] >gb|EDW47164....   121    4e-34
+ref|XP_002045329.1|  GM24395 [Drosophila sechellia] >gb|EDW49402....   124    4e-33
+ref|XP_002089850.1|  GE22006 [Drosophila yakuba] >gb|EDW89562.1| ...   120    8e-32
+ref|XP_001969142.1|  GG25256 [Drosophila erecta] >gb|EDV58201.1| ...   115    6e-30
+ref|XP_002086934.1|  GE14906 [Drosophila yakuba] >gb|EDX00287.1| ...   112    1e-29
+ref|XP_001959983.1|  GF13143 [Drosophila ananassae] >gb|EDV36805....  81.6    3e-17
+ref|XP_002026017.1|  GL10239 [Drosophila persimilis] >gb|EDW32924...  65.1    3e-11
+ref|XP_002138917.1|  GA24134 [Drosophila pseudoobscura pseudoobsc...  62.8    2e-10
+ref|XP_002061565.1|  GK20964 [Drosophila willistoni] >gb|EDW72551...  58.9    5e-09
+ref|XP_002005920.1|  GI20744 [Drosophila mojavensis] >gb|EDW09855...  40.0    0.035
+ref|XP_001986374.1|  GH21326 [Drosophila grimshawi] >gb|EDW01241....  39.7    0.048
+ref|XP_003193215.1|  hypothetical protein CGB_C4595C [Cryptococcu...  38.5    0.060
+ref|XP_001997546.1|  GH23282 [Drosophila grimshawi] >gb|EDW04562....  38.1    0.14 
+ref|XP_002049922.1|  GJ20481 [Drosophila virilis] >gb|EDW61115.1|...  37.7    0.23 
+gb|EGE07501.1|  AGC/NDR protein kinase [Trichophyton equinum CBS ...  34.7    3.0  
+gb|EGD93253.1|  AGC/NDR protein kinase [Trichophyton tonsurans CB...  34.7    3.0  
+ref|XP_005181317.1|  PREDICTED: origin recognition complex subuni...  34.3    3.1  
+ref|XP_003239350.1|  AGC/NDR protein kinase [Trichophyton rubrum ...  34.7    3.1  
+ref|XP_003019425.1|  hypothetical protein TRV_06539 [Trichophyton...  34.7    3.2  
+ref|XP_003012035.1|  hypothetical protein ARB_01791 [Arthroderma ...  34.7    3.3  
+
+
+>ref|NP_477319.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ sp|Q9Y1B2.2|ORC6_DROME RecName: Full=Origin recognition complex subunit 6
+ gb|AAF58890.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ gb|AAL49065.1| RE52740p [Drosophila melanogaster]
+ gb|ACL86994.1| CG1584-PA [synthetic construct]
+ gb|ACL91374.1| Orc6-PA [synthetic construct]
+Length=257
+
+ Score =  145 bits (366),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>gb|AAD39474.1|AF139064_1 origin recognition complex subunit 6 [Drosophila melanogaster]
+Length=257
+
+ Score =  144 bits (363),  Expect = 8e-41, Method: Compositional matrix adjust.
+ Identities = 70/71 (99%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGH+AKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHDAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>ref|XP_002080819.1| GD10047 [Drosophila simulans]
+ gb|EDX06404.1| GD10047 [Drosophila simulans]
+Length=246
+
+ Score =  127 bits (318),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 63/70 (90%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KES VPSSTDM+GKLKENQNENIKG  AKKA+KPP EDYEIWKARMLAKAQAKLKELEAS
+Sbjct  176  KESTVPSSTDMDGKLKENQNENIKGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAS  235
+
+Query  62   QSHMDSQLLE  71
+            QSHMDSQL E
+Sbjct  236  QSHMDSQLSE  245
+
+
+>ref|XP_002033151.1| GM20574 [Drosophila sechellia]
+ gb|EDW47164.1| GM20574 [Drosophila sechellia]
+Length=77
+
+ Score =  121 bits (304),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2   KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+           KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  7   KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  66
+
+Query  62  QSHMDSQLLE  71
+            SHMDSQL E
+Sbjct  67  HSHMDSQLSE  76
+
+
+>ref|XP_002045329.1| GM24395 [Drosophila sechellia]
+ gb|EDW49402.1| GM24395 [Drosophila sechellia]
+Length=246
+
+ Score =  124 bits (310),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  176  KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  235
+
+Query  62   QSHMDSQLLE  71
+             SHMDSQL E
+Sbjct  236  HSHMDSQLSE  245
+
+
+>ref|XP_002089850.1| GE22006 [Drosophila yakuba]
+ gb|EDW89562.1| GE22006 [Drosophila yakuba]
+Length=246
+
+ Score =  120 bits (301),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 61/71 (86%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTD++GKLK+ QNENIKG EAKKA KP  EDYEIWKARMLA AQAKLKELEA 
+Sbjct  176  KESKVPSSTDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKARMLAMAQAKLKELEAP  235
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  236  QSHMDSQLLEA  246
+
+
+>ref|XP_001969142.1| GG25256 [Drosophila erecta]
+ gb|EDV58201.1| GG25256 [Drosophila erecta]
+Length=257
+
+ Score =  115 bits (289),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SSTD++GKL ENQNENIKGH AKKA KP  EDYEIWK+RMLA AQ KLKELEAS
+Sbjct  187  KESKVSSSTDVDGKLMENQNENIKGHGAKKAQKPQAEDYEIWKSRMLATAQTKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            Q+H D+QLLEA
+Sbjct  247  QAHTDNQLLEA  257
+
+
+>ref|XP_002086934.1| GE14906 [Drosophila yakuba]
+ gb|EDX00287.1| GE14906 [Drosophila yakuba]
+Length=159
+
+ Score =  112 bits (281),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SS D++GKLK+ QNENIKG EAKKA KP  EDYEIWK RMLA AQAKLK+LEA 
+Sbjct  89   KESKVASSIDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKTRMLAMAQAKLKKLEAP  148
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  149  QSHMDSQLLEA  159
+
+
+>ref|XP_001959983.1| GF13143 [Drosophila ananassae]
+ gb|EDV36805.1| GF13143 [Drosophila ananassae]
+Length=253
+
+ Score = 81.6 bits (200),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 41/62 (66%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S +D+EGKLK++Q ENI G E+KK+ KP  EDYE WKARMLA AQAKL E+EA+
+Sbjct  187  KENKVVSVSDLEGKLKQSQQENILGQESKKSLKPQVEDYEKWKARMLASAQAKLIEMEAT  246
+
+Query  62   QS  63
+             S
+Sbjct  247  NS  248
+
+
+>ref|XP_002026017.1| GL10239 [Drosophila persimilis]
+ gb|EDW32924.1| GL10239 [Drosophila persimilis]
+Length=252
+
+ Score = 65.1 bits (157),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 36/63 (57%), Positives = 47/63 (75%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EAS
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENLT-NGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAS  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_002138917.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY69475.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+Length=252
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 35/63 (56%), Positives = 46/63 (73%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EA 
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENL-TNGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAP  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_002061565.1| GK20964 [Drosophila willistoni]
+ gb|EDW72551.1| GK20964 [Drosophila willistoni]
+Length=254
+
+ Score = 58.9 bits (141),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/54 (54%), Positives = 40/54 (74%), Gaps = 0/54 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            S+ ++E KLK++Q +NI   +  K  +P  EDY+ WK+RMLA AQAKLKELEA+
+Sbjct  195  SANNLEDKLKQSQQDNILRTQTSKKSEPETEDYDKWKSRMLAMAQAKLKELEAT  248
+
+
+>ref|XP_002005920.1| GI20744 [Drosophila mojavensis]
+ gb|EDW09855.1| GI20744 [Drosophila mojavensis]
+Length=243
+
+ Score = 40.0 bits (92),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+            ++  ++ K  + + +N    + K + K   E+YE WK+RMLA A+AKLKELE
+Sbjct  189  TTAGVKNKFTQQEEQNGLSKKQKSSEKTEIEEYEKWKSRMLATAEAKLKELE  240
+
+
+>ref|XP_001986374.1| GH21326 [Drosophila grimshawi]
+ gb|EDW01241.1| GH21326 [Drosophila grimshawi]
+Length=246
+
+ Score = 39.7 bits (91),  Expect = 0.048, Method: Compositional matrix adjust.
+ Identities = 19/29 (66%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  32   AHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+            + K   EDYE WK+RMLA A+AKLKELE+
+Sbjct  210  SQKVEIEDYEKWKSRMLASAEAKLKELES  238
+
+
+>ref|XP_003193215.1| hypothetical protein CGB_C4595C [Cryptococcus gattii WM276]
+ gb|ADV21428.1| Hypothetical Protein CGB_C4595C [Cryptococcus gattii WM276]
+Length=153
+
+ Score = 38.5 bits (88),  Expect = 0.060, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  24  IKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKEL  58
+           +K  +  K   PPP+DY  WKA+ L  A AK+++L
+Sbjct  48  LKAQQYTKTLSPPPQDYSNWKAKRLVMADAKIQQL  82
+
+
+>ref|XP_001997546.1| GH23282 [Drosophila grimshawi]
+ gb|EDW04562.1| GH23282 [Drosophila grimshawi]
+Length=226
+
+ Score = 38.1 bits (87),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 20/34 (59%), Positives = 26/34 (76%), Gaps = 1/34 (3%)
+
+Query  34   KPPPEDYEIWKARMLAKAQAKLKELEA-SQSHMD  66
+            K   EDYE WK+R+LA A+AKLKELE+  Q ++D
+Sbjct  192  KVEIEDYEKWKSRILASAEAKLKELESIEQQNID  225
+
+
+>ref|XP_002049922.1| GJ20481 [Drosophila virilis]
+ gb|EDW61115.1| GJ20481 [Drosophila virilis]
+Length=247
+
+ Score = 37.7 bits (86),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 26/60 (43%), Positives = 35/60 (58%), Gaps = 4/60 (7%)
+
+Query  1    MKESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+             KE+ V SS  +  KL   Q  ++     K +  P  E+YE WK+RMLA A+AKLKE E+
+Sbjct  183  FKEANVGSS--LNNKLDLQQENSVINK--KSSQTPEIEEYEKWKSRMLALAEAKLKESES  238
+
+
+>gb|EGE07501.1| AGC/NDR protein kinase [Trichophyton equinum CBS 127.97]
+Length=650
+
+ Score = 34.7 bits (78),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  16   LKENQNENIKGHEAKKAHKPPPE----DYEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            L   QN  I+  +   A+ PPPE    +YE+ + + L + +A L++      H D Q+L
+Sbjct  205  LSYVQNRQIRSAQFAAAYPPPPETDEAEYEVARHKYLGRERANLRKRRTRLRHGDFQIL  263
+
+
+>gb|EGD93253.1| AGC/NDR protein kinase [Trichophyton tonsurans CBS 112818]
+Length=663
+
+ Score = 34.7 bits (78),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  16   LKENQNENIKGHEAKKAHKPPPE----DYEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            L   QN  I+  +   A+ PPPE    +YE+ + + L + +A L++      H D Q+L
+Sbjct  205  LSYVQNRQIRSAQFAAAYPPPPETDEAEYEVARHKYLGRERANLRKRRTRLRHGDFQIL  263
+
+
+>ref|XP_005181317.1| PREDICTED: origin recognition complex subunit 6-like [Musca domestica]
+Length=272
+
+ Score = 34.3 bits (77),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 19/36 (53%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  28   EAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQS  63
+            + KK  +   EDYE WK RML  A+AKLKE E   S
+Sbjct  215  DTKKERRIEIEDYEKWKKRMLEMAKAKLKEEEQRSS  250
+
+
+>ref|XP_003239350.1| AGC/NDR protein kinase [Trichophyton rubrum CBS 118892]
+ gb|EGD85059.1| AGC/NDR protein kinase [Trichophyton rubrum CBS 118892]
+Length=663
+
+ Score = 34.7 bits (78),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  16   LKENQNENIKGHEAKKAHKPPPE----DYEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            L   QN  I+  +   A+ PPPE    +YE+ + + L + +A L++      H D Q+L
+Sbjct  205  LSYVQNRQIRSAQFAAAYPPPPETDEAEYEVARHKYLGRERANLRKRRTRLRHGDFQIL  263
+
+
+>ref|XP_003019425.1| hypothetical protein TRV_06539 [Trichophyton verrucosum HKI 0517]
+ gb|EFE38780.1| hypothetical protein TRV_06539 [Trichophyton verrucosum HKI 0517]
+Length=640
+
+ Score = 34.7 bits (78),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  16   LKENQNENIKGHEAKKAHKPPPE----DYEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            L   QN  I+  +   A+ PPPE    +YE+ + + L + +A L++      H D Q+L
+Sbjct  205  LSYVQNRQIRSAQFAAAYPPPPETDEAEYEVARHKYLGRERANLRKRRTRLRHGDFQIL  263
+
+
+>ref|XP_003012035.1| hypothetical protein ARB_01791 [Arthroderma benhamiae CBS 112371]
+ gb|EFE31395.1| hypothetical protein ARB_01791 [Arthroderma benhamiae CBS 112371]
+Length=640
+
+ Score = 34.7 bits (78),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 4/59 (7%)
+
+Query  16   LKENQNENIKGHEAKKAHKPPPE----DYEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            L   QN  I+  +   A+ PPPE    +YE+ + + L + +A L++      H D Q+L
+Sbjct  205  LSYVQNRQIRSAQFAAAYPPPPETDEAEYEVARHKYLGRERANLRKRRTRLRHGDFQIL  263
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.118    0.318    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302692969012
+Results from round 2
+
+
+Query= 4XGC
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_002089850.1|  GE22006 [Drosophila yakuba] >gb|EDW89562.1| ...   120    8e-32
+ref|NP_477319.1|  origin recognition complex subunit 6 [Drosophil...   120    1e-31
+gb|AAD39474.1|AF139064_1  origin recognition complex subunit 6 [D...   119    2e-31
+ref|XP_002080819.1|  GD10047 [Drosophila simulans] >gb|EDX06404.1...   117    1e-30
+ref|XP_001969142.1|  GG25256 [Drosophila erecta] >gb|EDV58201.1| ...   116    4e-30
+ref|XP_002045329.1|  GM24395 [Drosophila sechellia] >gb|EDW49402....   116    6e-30
+ref|XP_002086934.1|  GE14906 [Drosophila yakuba] >gb|EDX00287.1| ...   105    8e-27
+ref|XP_002138917.1|  GA24134 [Drosophila pseudoobscura pseudoobsc...  98.0    3e-23
+ref|XP_002026017.1|  GL10239 [Drosophila persimilis] >gb|EDW32924...  98.0    4e-23
+ref|XP_001959983.1|  GF13143 [Drosophila ananassae] >gb|EDV36805....  97.6    5e-23
+ref|XP_002033151.1|  GM20574 [Drosophila sechellia] >gb|EDW47164....  84.6    2e-19
+ref|XP_002061565.1|  GK20964 [Drosophila willistoni] >gb|EDW72551...  81.9    2e-17
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002005920.1|  GI20744 [Drosophila mojavensis] >gb|EDW09855...  51.0    4e-06
+ref|XP_001986374.1|  GH21326 [Drosophila grimshawi] >gb|EDW01241....  49.9    1e-05
+ref|XP_002049922.1|  GJ20481 [Drosophila virilis] >gb|EDW61115.1|...  48.7    3e-05
+ref|XP_001997546.1|  GH23282 [Drosophila grimshawi] >gb|EDW04562....  46.4    2e-04
+ref|XP_005181317.1|  PREDICTED: origin recognition complex subuni...  44.1    0.001
+ref|XP_003193215.1|  hypothetical protein CGB_C4595C [Cryptococcu...  39.9    0.017
+gb|EHJ65065.1|  origin recognition complex subunit 6 [Danaus plex...  39.9    0.042
+ref|XP_004925348.1|  PREDICTED: origin recognition complex subuni...  38.3    0.13 
+ref|XP_004925347.1|  PREDICTED: origin recognition complex subuni...  38.3    0.15 
+ref|XP_004517422.1|  PREDICTED: origin recognition complex subuni...  36.4    0.68 
+gb|ADD10142.1|  origin recognition complex subunit 6 [Bombyx mori]    35.6    1.2  
+ref|XP_004196602.1|  Piso0_003824 [Millerozyma farinosa CBS 7064]...  33.7    6.5  
+ref|XP_003869308.1|  hypothetical protein CORT_0D03290 [Candida o...  32.9    9.3  
+
+
+>ref|XP_002089850.1| GE22006 [Drosophila yakuba]
+ gb|EDW89562.1| GE22006 [Drosophila yakuba]
+Length=246
+
+ Score =  120 bits (301),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 61/71 (86%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTD++GKLK+ QNENIKG EAKKA KP  EDYEIWKARMLA AQAKLKELEA 
+Sbjct  176  KESKVPSSTDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKARMLAMAQAKLKELEAP  235
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  236  QSHMDSQLLEA  246
+
+
+>ref|NP_477319.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ sp|Q9Y1B2.2|ORC6_DROME RecName: Full=Origin recognition complex subunit 6
+ gb|AAF58890.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ gb|AAL49065.1| RE52740p [Drosophila melanogaster]
+ gb|ACL86994.1| CG1584-PA [synthetic construct]
+ gb|ACL91374.1| Orc6-PA [synthetic construct]
+Length=257
+
+ Score =  120 bits (300),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>gb|AAD39474.1|AF139064_1 origin recognition complex subunit 6 [Drosophila melanogaster]
+Length=257
+
+ Score =  119 bits (298),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 70/71 (99%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGH+AKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHDAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>ref|XP_002080819.1| GD10047 [Drosophila simulans]
+ gb|EDX06404.1| GD10047 [Drosophila simulans]
+Length=246
+
+ Score =  117 bits (292),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 63/70 (90%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KES VPSSTDM+GKLKENQNENIKG  AKKA+KPP EDYEIWKARMLAKAQAKLKELEAS
+Sbjct  176  KESTVPSSTDMDGKLKENQNENIKGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAS  235
+
+Query  62   QSHMDSQLLE  71
+            QSHMDSQL E
+Sbjct  236  QSHMDSQLSE  245
+
+
+>ref|XP_001969142.1| GG25256 [Drosophila erecta]
+ gb|EDV58201.1| GG25256 [Drosophila erecta]
+Length=257
+
+ Score =  116 bits (290),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SSTD++GKL ENQNENIKGH AKKA KP  EDYEIWK+RMLA AQ KLKELEAS
+Sbjct  187  KESKVSSSTDVDGKLMENQNENIKGHGAKKAQKPQAEDYEIWKSRMLATAQTKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            Q+H D+QLLEA
+Sbjct  247  QAHTDNQLLEA  257
+
+
+>ref|XP_002045329.1| GM24395 [Drosophila sechellia]
+ gb|EDW49402.1| GM24395 [Drosophila sechellia]
+Length=246
+
+ Score =  116 bits (289),  Expect = 6e-30, Method: Composition-based stats.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  176  KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  235
+
+Query  62   QSHMDSQLLE  71
+             SHMDSQL E
+Sbjct  236  HSHMDSQLSE  245
+
+
+>ref|XP_002086934.1| GE14906 [Drosophila yakuba]
+ gb|EDX00287.1| GE14906 [Drosophila yakuba]
+Length=159
+
+ Score =  105 bits (262),  Expect = 8e-27, Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SS D++GKLK+ QNENIKG EAKKA KP  EDYEIWK RMLA AQAKLK+LEA 
+Sbjct  89   KESKVASSIDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKTRMLAMAQAKLKKLEAP  148
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  149  QSHMDSQLLEA  159
+
+
+>ref|XP_002138917.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY69475.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+Length=252
+
+ Score = 98.0 bits (242),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 46/63 (73%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EA 
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENLT-NGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAP  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_002026017.1| GL10239 [Drosophila persimilis]
+ gb|EDW32924.1| GL10239 [Drosophila persimilis]
+Length=252
+
+ Score = 98.0 bits (242),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 47/63 (75%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EAS
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENLT-NGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAS  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_001959983.1| GF13143 [Drosophila ananassae]
+ gb|EDV36805.1| GF13143 [Drosophila ananassae]
+Length=253
+
+ Score = 97.6 bits (241),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 41/62 (66%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S +D+EGKLK++Q ENI G E+KK+ KP  EDYE WKARMLA AQAKL E+EA+
+Sbjct  187  KENKVVSVSDLEGKLKQSQQENILGQESKKSLKPQVEDYEKWKARMLASAQAKLIEMEAT  246
+
+Query  62   QS  63
+             S
+Sbjct  247  NS  248
+
+
+>ref|XP_002033151.1| GM20574 [Drosophila sechellia]
+ gb|EDW47164.1| GM20574 [Drosophila sechellia]
+Length=77
+
+ Score = 84.6 bits (207),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2   KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+           KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  7   KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  66
+
+Query  62  QSHMDSQLLE  71
+            SHMDSQL E
+Sbjct  67  HSHMDSQLSE  76
+
+
+>ref|XP_002061565.1| GK20964 [Drosophila willistoni]
+ gb|EDW72551.1| GK20964 [Drosophila willistoni]
+Length=254
+
+ Score = 81.9 bits (200),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 29/54 (54%), Positives = 40/54 (74%), Gaps = 0/54 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            S+ ++E KLK++Q +NI   +  K  +P  EDY+ WK+RMLA AQAKLKELEA+
+Sbjct  195  SANNLEDKLKQSQQDNILRTQTSKKSEPETEDYDKWKSRMLAMAQAKLKELEAT  248
+
+
+>ref|XP_002005920.1| GI20744 [Drosophila mojavensis]
+ gb|EDW09855.1| GI20744 [Drosophila mojavensis]
+Length=243
+
+ Score = 51.0 bits (120),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 21/53 (40%), Positives = 33/53 (62%), Gaps = 0/53 (0%)
+
+Query  7    PSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+             ++  ++ K  + + +N    + K + K   E+YE WK+RMLA A+AKLKELE
+Sbjct  188  VTTAGVKNKFTQQEEQNGLSKKQKSSEKTEIEEYEKWKSRMLATAEAKLKELE  240
+
+
+>ref|XP_001986374.1| GH21326 [Drosophila grimshawi]
+ gb|EDW01241.1| GH21326 [Drosophila grimshawi]
+Length=246
+
+ Score = 49.9 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/29 (66%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  32   AHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+            + K   EDYE WK+RMLA A+AKLKELE+
+Sbjct  210  SQKVEIEDYEKWKSRMLASAEAKLKELES  238
+
+
+>ref|XP_002049922.1| GJ20481 [Drosophila virilis]
+ gb|EDW61115.1| GJ20481 [Drosophila virilis]
+Length=247
+
+ Score = 48.7 bits (114),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 28/59 (47%), Positives = 38/59 (64%), Gaps = 4/59 (7%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+            KE+ V SS  +  KL + Q EN   ++ K +  P  E+YE WK+RMLA A+AKLKE E+
+Sbjct  184  KEANVGSS--LNNKL-DLQQENSVINK-KSSQTPEIEEYEKWKSRMLALAEAKLKESES  238
+
+
+>ref|XP_001997546.1| GH23282 [Drosophila grimshawi]
+ gb|EDW04562.1| GH23282 [Drosophila grimshawi]
+Length=226
+
+ Score = 46.4 bits (108),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 22/28 (79%), Gaps = 0/28 (0%)
+
+Query  33   HKPPPEDYEIWKARMLAKAQAKLKELEA  60
+             K   EDYE WK+R+LA A+AKLKELE+
+Sbjct  191  QKVEIEDYEKWKSRILASAEAKLKELES  218
+
+
+>ref|XP_005181317.1| PREDICTED: origin recognition complex subunit 6-like [Musca domestica]
+Length=272
+
+ Score = 44.1 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 25/44 (57%), Gaps = 0/44 (0%)
+
+Query  28   EAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQSHMDSQLLE  71
+            + KK  +   EDYE WK RML  A+AKLKE E   S     ++E
+Sbjct  215  DTKKERRIEIEDYEKWKKRMLEMAKAKLKEEEQRSSTETPDVVE  258
+
+
+>ref|XP_003193215.1| hypothetical protein CGB_C4595C [Cryptococcus gattii WM276]
+ gb|ADV21428.1| Hypothetical Protein CGB_C4595C [Cryptococcus gattii WM276]
+Length=153
+
+ Score = 39.9 bits (91),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 23/42 (55%), Gaps = 0/42 (0%)
+
+Query  24  IKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQSHM  65
+           +K  +  K   PPP+DY  WKA+ L  A AK+++L      +
+Sbjct  48  LKAQQYTKTLSPPPQDYSNWKAKRLVMADAKIQQLTLENRRL  89
+
+
+>gb|EHJ65065.1| origin recognition complex subunit 6 [Danaus plexippus]
+Length=295
+
+ Score = 39.9 bits (91),  Expect = 0.042, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 33/55 (60%), Gaps = 1/55 (2%)
+
+Query  5    KVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+            KV +S +++   ++ +N  +     +K+ +P  E+YE WK RML  A  +L+ELE
+Sbjct  191  KVRTSKNIQNN-EQIENMEVDQRPEEKSSEPKIEEYEDWKKRMLEAAYRELRELE  244
+
+
+>ref|XP_004925348.1| PREDICTED: origin recognition complex subunit 6-like isoform 
+X2 [Bombyx mori]
+Length=290
+
+ Score = 38.3 bits (87),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 21/49 (43%), Positives = 26/49 (53%), Gaps = 3/49 (6%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQS  63
+            EN  EN+         + P E    YE WK RML  A ++LKELE +QS
+Sbjct  200  ENVEENVPMEVDSSKQEEPIETFEPYEQWKKRMLDSAYSELKELEKTQS  248
+
+
+>ref|XP_004925347.1| PREDICTED: origin recognition complex subunit 6-like isoform 
+X1 [Bombyx mori]
+Length=291
+
+ Score = 38.3 bits (87),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 21/49 (43%), Positives = 26/49 (53%), Gaps = 3/49 (6%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQS  63
+            EN  EN+         + P E    YE WK RML  A ++LKELE +QS
+Sbjct  201  ENVEENVPMEVDSSKQEEPIETFEPYEQWKKRMLDSAYSELKELEKTQS  249
+
+
+>ref|XP_004517422.1| PREDICTED: origin recognition complex subunit 6-like [Ceratitis 
+capitata]
+Length=264
+
+ Score = 36.4 bits (82),  Expect = 0.68, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  31   KAHKPPPEDYEIWKARMLAKAQAKLK  56
+            K      EDYE WK RMLA A+ KL+
+Sbjct  217  KRSTATIEDYEKWKRRMLAMAEEKLR  242
+
+
+>gb|ADD10142.1| origin recognition complex subunit 6 [Bombyx mori]
+Length=290
+
+ Score = 35.6 bits (80),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 20/49 (41%), Positives = 25/49 (51%), Gaps = 3/49 (6%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQS  63
+            EN  EN+         +   E    YE WK RML  A ++LKELE +QS
+Sbjct  200  ENVEENVPMEVDSSKQEELIETFEPYEQWKKRMLDSAYSELKELEKTQS  248
+
+
+>ref|XP_004196602.1| Piso0_003824 [Millerozyma farinosa CBS 7064]
+ ref|XP_004197633.1| Piso0_003824 [Millerozyma farinosa CBS 7064]
+ emb|CCE84283.1| Piso0_003824 [Millerozyma farinosa CBS 7064]
+ emb|CCE83252.1| Piso0_003824 [Millerozyma farinosa CBS 7064]
+Length=688
+
+ Score = 33.7 bits (75),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 17/66 (26%), Positives = 38/66 (58%), Gaps = 3/66 (5%)
+
+Query  10   TDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAK---AQAKLKELEASQSHMD  66
+            TD++ K +E Q +N K   + ++ +   E++ + ++ +L+     + KL+ELE   +  D
+Sbjct  333  TDLKKKAQEIQEDNEKISNSIRSLESNMENFSMIRSNLLSDLSDEETKLRELERVNNSWD  392
+
+Query  67   SQLLEA  72
+            ++L +A
+Sbjct  393  TKLAQA  398
+
+
+>ref|XP_003869308.1| hypothetical protein CORT_0D03290 [Candida orthopsilosis Co 90-125]
+ emb|CCG23172.1| hypothetical protein CORT_0D03290 [Candida orthopsilosis]
+Length=352
+
+ Score = 32.9 bits (73),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 16/56 (29%), Positives = 27/56 (48%), Gaps = 0/56 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQS  63
+            S  +++ KL   Q    + +  KK       DYE+ K R+  + Q K  E+E +Q+
+Sbjct  46   SLHELQNKLASLQQGTNEEYVTKKTQLEEVRDYELTKLRLWEEYQVKSIEMEYNQA  101
+
+
+
+Lambda      K        H        a         alpha
+   0.290    0.116    0.292    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0357    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302692969012
+Results from round 3
+
+
+Query= 4XGC
+
+Length=72
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_002089850.1|  GE22006 [Drosophila yakuba] >gb|EDW89562.1| ...   109    1e-27
+gb|AAD39474.1|AF139064_1  origin recognition complex subunit 6 [D...   105    5e-26
+ref|NP_477319.1|  origin recognition complex subunit 6 [Drosophil...   105    6e-26
+ref|XP_001969142.1|  GG25256 [Drosophila erecta] >gb|EDV58201.1| ...   103    3e-25
+ref|XP_002080819.1|  GD10047 [Drosophila simulans] >gb|EDX06404.1...   103    3e-25
+ref|XP_002045329.1|  GM24395 [Drosophila sechellia] >gb|EDW49402....   102    8e-25
+ref|XP_002086934.1|  GE14906 [Drosophila yakuba] >gb|EDX00287.1| ...  95.8    5e-23
+ref|XP_002138917.1|  GA24134 [Drosophila pseudoobscura pseudoobsc...  90.0    3e-20
+ref|XP_001959983.1|  GF13143 [Drosophila ananassae] >gb|EDV36805....  89.6    4e-20
+ref|XP_002026017.1|  GL10239 [Drosophila persimilis] >gb|EDW32924...  89.2    7e-20
+ref|XP_002033151.1|  GM20574 [Drosophila sechellia] >gb|EDW47164....  71.9    1e-14
+ref|XP_002061565.1|  GK20964 [Drosophila willistoni] >gb|EDW72551...  74.2    2e-14
+ref|XP_002005920.1|  GI20744 [Drosophila mojavensis] >gb|EDW09855...  65.0    3e-11
+ref|XP_002049922.1|  GJ20481 [Drosophila virilis] >gb|EDW61115.1|...  59.2    5e-09
+ref|XP_005181317.1|  PREDICTED: origin recognition complex subuni...  59.2    6e-09
+ref|XP_001986374.1|  GH21326 [Drosophila grimshawi] >gb|EDW01241....  54.2    3e-07
+ref|XP_001997546.1|  GH23282 [Drosophila grimshawi] >gb|EDW04562....  50.7    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+gb|EHJ65065.1|  origin recognition complex subunit 6 [Danaus plex...  40.3    0.037
+ref|XP_004925348.1|  PREDICTED: origin recognition complex subuni...  38.4    0.14 
+ref|XP_004925347.1|  PREDICTED: origin recognition complex subuni...  38.4    0.16 
+ref|XP_004517422.1|  PREDICTED: origin recognition complex subuni...  36.8    0.44 
+ref|XP_003193215.1|  hypothetical protein CGB_C4595C [Cryptococcu...  35.7    0.75 
+gb|ADD10142.1|  origin recognition complex subunit 6 [Bombyx mori]    36.1    0.89 
+ref|XP_003869308.1|  hypothetical protein CORT_0D03290 [Candida o...  33.4    8.0  
+
+
+>ref|XP_002089850.1| GE22006 [Drosophila yakuba]
+ gb|EDW89562.1| GE22006 [Drosophila yakuba]
+Length=246
+
+ Score =  109 bits (272),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 61/71 (86%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTD++GKLK+ QNENIKG EAKKA KP  EDYEIWKARMLA AQAKLKELEA 
+Sbjct  176  KESKVPSSTDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKARMLAMAQAKLKELEAP  235
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  236  QSHMDSQLLEA  246
+
+
+>gb|AAD39474.1|AF139064_1 origin recognition complex subunit 6 [Drosophila melanogaster]
+Length=257
+
+ Score =  105 bits (262),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 70/71 (99%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGH+AKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHDAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>ref|NP_477319.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ sp|Q9Y1B2.2|ORC6_DROME RecName: Full=Origin recognition complex subunit 6
+ gb|AAF58890.1| origin recognition complex subunit 6 [Drosophila melanogaster]
+ gb|AAL49065.1| RE52740p [Drosophila melanogaster]
+ gb|ACL86994.1| CG1584-PA [synthetic construct]
+ gb|ACL91374.1| Orc6-PA [synthetic construct]
+Length=257
+
+ Score =  105 bits (262),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS
+Sbjct  187  KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  247  QSHMDSQLLEA  257
+
+
+>ref|XP_001969142.1| GG25256 [Drosophila erecta]
+ gb|EDV58201.1| GG25256 [Drosophila erecta]
+Length=257
+
+ Score =  103 bits (257),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SSTD++GKL ENQNENIKGH AKKA KP  EDYEIWK+RMLA AQ KLKELEAS
+Sbjct  187  KESKVSSSTDVDGKLMENQNENIKGHGAKKAQKPQAEDYEIWKSRMLATAQTKLKELEAS  246
+
+Query  62   QSHMDSQLLEA  72
+            Q+H D+QLLEA
+Sbjct  247  QAHTDNQLLEA  257
+
+
+>ref|XP_002080819.1| GD10047 [Drosophila simulans]
+ gb|EDX06404.1| GD10047 [Drosophila simulans]
+Length=246
+
+ Score =  103 bits (256),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 63/70 (90%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KES VPSSTDM+GKLKENQNENIKG  AKKA+KPP EDYEIWKARMLAKAQAKLKELEAS
+Sbjct  176  KESTVPSSTDMDGKLKENQNENIKGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAS  235
+
+Query  62   QSHMDSQLLE  71
+            QSHMDSQL E
+Sbjct  236  QSHMDSQLSE  245
+
+
+>ref|XP_002045329.1| GM24395 [Drosophila sechellia]
+ gb|EDW49402.1| GM24395 [Drosophila sechellia]
+Length=246
+
+ Score =  102 bits (253),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  176  KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  235
+
+Query  62   QSHMDSQLLE  71
+             SHMDSQL E
+Sbjct  236  HSHMDSQLSE  245
+
+
+>ref|XP_002086934.1| GE14906 [Drosophila yakuba]
+ gb|EDX00287.1| GE14906 [Drosophila yakuba]
+Length=159
+
+ Score = 95.8 bits (236),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KESKV SS D++GKLK+ QNENIKG EAKKA KP  EDYEIWK RMLA AQAKLK+LEA 
+Sbjct  89   KESKVASSIDVDGKLKDIQNENIKGQEAKKAQKPQAEDYEIWKTRMLAMAQAKLKKLEAP  148
+
+Query  62   QSHMDSQLLEA  72
+            QSHMDSQLLEA
+Sbjct  149  QSHMDSQLLEA  159
+
+
+>ref|XP_002138917.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY69475.1| GA24134 [Drosophila pseudoobscura pseudoobscura]
+Length=252
+
+ Score = 90.0 bits (221),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 35/63 (56%), Positives = 46/63 (73%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EA 
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENLT-NGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAP  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_001959983.1| GF13143 [Drosophila ananassae]
+ gb|EDV36805.1| GF13143 [Drosophila ananassae]
+Length=253
+
+ Score = 89.6 bits (220),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 41/64 (64%), Positives = 50/64 (78%), Gaps = 0/64 (0%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S +D+EGKLK++Q ENI G E+KK+ KP  EDYE WKARMLA AQAKL E+EA+
+Sbjct  187  KENKVVSVSDLEGKLKQSQQENILGQESKKSLKPQVEDYEKWKARMLASAQAKLIEMEAT  246
+
+Query  62   QSHM  65
+             S  
+Sbjct  247  NSEE  250
+
+
+>ref|XP_002026017.1| GL10239 [Drosophila persimilis]
+ gb|EDW32924.1| GL10239 [Drosophila persimilis]
+Length=252
+
+ Score = 89.2 bits (219),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 36/63 (57%), Positives = 47/63 (75%), Gaps = 1/63 (2%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+KV S  D++ KLK +Q EN+  + +KK+ KP  EDYE WK+RMLA AQAKL+E+EAS
+Sbjct  187  KENKVVSPGDLDEKLKPSQQENLT-NGSKKSLKPEIEDYEKWKSRMLAMAQAKLREMEAS  245
+
+Query  62   QSH  64
+              H
+Sbjct  246  NDH  248
+
+
+>ref|XP_002033151.1| GM20574 [Drosophila sechellia]
+ gb|EDW47164.1| GM20574 [Drosophila sechellia]
+Length=77
+
+ Score = 71.9 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2   KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+           KESKVPSSTDM+GKLKENQNENI+G  AKKA+KPP EDYEIWKARMLAKAQAKLKELEA+
+Sbjct  7   KESKVPSSTDMDGKLKENQNENIQGQVAKKAYKPPAEDYEIWKARMLAKAQAKLKELEAA  66
+
+Query  62  QSHMDSQLLE  71
+            SHMDSQL E
+Sbjct  67  HSHMDSQLSE  76
+
+
+>ref|XP_002061565.1| GK20964 [Drosophila willistoni]
+ gb|EDW72551.1| GK20964 [Drosophila willistoni]
+Length=254
+
+ Score = 74.2 bits (180),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 29/54 (54%), Positives = 40/54 (74%), Gaps = 0/54 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            S+ ++E KLK++Q +NI   +  K  +P  EDY+ WK+RMLA AQAKLKELEA+
+Sbjct  195  SANNLEDKLKQSQQDNILRTQTSKKSEPETEDYDKWKSRMLAMAQAKLKELEAT  248
+
+
+>ref|XP_002005920.1| GI20744 [Drosophila mojavensis]
+ gb|EDW09855.1| GI20744 [Drosophila mojavensis]
+Length=243
+
+ Score = 65.0 bits (156),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 21/53 (40%), Positives = 33/53 (62%), Gaps = 0/53 (0%)
+
+Query  7    PSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+             ++  ++ K  + + +N    + K + K   E+YE WK+RMLA A+AKLKELE
+Sbjct  188  VTTAGVKNKFTQQEEQNGLSKKQKSSEKTEIEEYEKWKSRMLATAEAKLKELE  240
+
+
+>ref|XP_002049922.1| GJ20481 [Drosophila virilis]
+ gb|EDW61115.1| GJ20481 [Drosophila virilis]
+Length=247
+
+ Score = 59.2 bits (141),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 28/60 (47%), Positives = 38/60 (63%), Gaps = 4/60 (7%)
+
+Query  2    KESKVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEAS  61
+            KE+ V SS  +  KL + Q EN   ++ K +  P  E+YE WK+RMLA A+AKLKE E+ 
+Sbjct  184  KEANVGSS--LNNKL-DLQQENSVINK-KSSQTPEIEEYEKWKSRMLALAEAKLKESESK  239
+
+
+>ref|XP_005181317.1| PREDICTED: origin recognition complex subunit 6-like [Musca domestica]
+Length=272
+
+ Score = 59.2 bits (141),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 20/44 (45%), Positives = 25/44 (57%), Gaps = 0/44 (0%)
+
+Query  28   EAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQSHMDSQLLE  71
+            + KK  +   EDYE WK RML  A+AKLKE E   S     ++E
+Sbjct  215  DTKKERRIEIEDYEKWKKRMLEMAKAKLKEEEQRSSTETPDVVE  258
+
+
+>ref|XP_001986374.1| GH21326 [Drosophila grimshawi]
+ gb|EDW01241.1| GH21326 [Drosophila grimshawi]
+Length=246
+
+ Score = 54.2 bits (128),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 30/50 (60%), Gaps = 1/50 (2%)
+
+Query  11   DMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+            ++  KL +   +     +   + K   EDYE WK+RMLA A+AKLKELE+
+Sbjct  190  NVAAKLTDKHQKKDIIVK-NNSQKVEIEDYEKWKSRMLASAEAKLKELES  238
+
+
+>ref|XP_001997546.1| GH23282 [Drosophila grimshawi]
+ gb|EDW04562.1| GH23282 [Drosophila grimshawi]
+Length=226
+
+ Score = 50.7 bits (119),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 29/50 (58%), Gaps = 1/50 (2%)
+
+Query  11   DMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEA  60
+            ++  KL +   +     +     K   EDYE WK+R+LA A+AKLKELE+
+Sbjct  170  NVAAKLTDKHQKKDIIVK-NNGQKVEIEDYEKWKSRILASAEAKLKELES  218
+
+
+>gb|EHJ65065.1| origin recognition complex subunit 6 [Danaus plexippus]
+Length=295
+
+ Score = 40.3 bits (92),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 19/55 (35%), Positives = 33/55 (60%), Gaps = 1/55 (2%)
+
+Query  5    KVPSSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+            KV +S +++   ++ +N  +     +K+ +P  E+YE WK RML  A  +L+ELE
+Sbjct  191  KVRTSKNIQNN-EQIENMEVDQRPEEKSSEPKIEEYEDWKKRMLEAAYRELRELE  244
+
+
+>ref|XP_004925348.1| PREDICTED: origin recognition complex subunit 6-like isoform 
+X2 [Bombyx mori]
+Length=290
+
+ Score = 38.4 bits (87),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 28/56 (50%), Gaps = 3/56 (5%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            EN  EN+         + P E    YE WK RML  A ++LKELE +QS     ++
+Sbjct  200  ENVEENVPMEVDSSKQEEPIETFEPYEQWKKRMLDSAYSELKELEKTQSDKLKDMV  255
+
+
+>ref|XP_004925347.1| PREDICTED: origin recognition complex subunit 6-like isoform 
+X1 [Bombyx mori]
+Length=291
+
+ Score = 38.4 bits (87),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 28/56 (50%), Gaps = 3/56 (5%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            EN  EN+         + P E    YE WK RML  A ++LKELE +QS     ++
+Sbjct  201  ENVEENVPMEVDSSKQEEPIETFEPYEQWKKRMLDSAYSELKELEKTQSDKLKDMV  256
+
+
+>ref|XP_004517422.1| PREDICTED: origin recognition complex subunit 6-like [Ceratitis 
+capitata]
+Length=264
+
+ Score = 36.8 bits (83),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  31   KAHKPPPEDYEIWKARMLAKAQAKLKELE  59
+            K      EDYE WK RMLA A+ KL+  +
+Sbjct  217  KRSTATIEDYEKWKRRMLAMAEEKLRSEQ  245
+
+
+>ref|XP_003193215.1| hypothetical protein CGB_C4595C [Cryptococcus gattii WM276]
+ gb|ADV21428.1| Hypothetical Protein CGB_C4595C [Cryptococcus gattii WM276]
+Length=153
+
+ Score = 35.7 bits (80),  Expect = 0.75, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  24  IKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKEL  58
+           +K  +  K   PPP+DY  WKA+ L  A AK+++L
+Sbjct  48  LKAQQYTKTLSPPPQDYSNWKAKRLVMADAKIQQL  82
+
+
+>gb|ADD10142.1| origin recognition complex subunit 6 [Bombyx mori]
+Length=290
+
+ Score = 36.1 bits (81),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 20/56 (36%), Positives = 27/56 (48%), Gaps = 3/56 (5%)
+
+Query  18   ENQNENIKGHEAKKAHKPPPED---YEIWKARMLAKAQAKLKELEASQSHMDSQLL  70
+            EN  EN+         +   E    YE WK RML  A ++LKELE +QS     ++
+Sbjct  200  ENVEENVPMEVDSSKQEELIETFEPYEQWKKRMLDSAYSELKELEKTQSDKLKDMV  255
+
+
+>ref|XP_003869308.1| hypothetical protein CORT_0D03290 [Candida orthopsilosis Co 90-125]
+ emb|CCG23172.1| hypothetical protein CORT_0D03290 [Candida orthopsilosis]
+Length=352
+
+ Score = 33.4 bits (74),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 16/56 (29%), Positives = 27/56 (48%), Gaps = 0/56 (0%)
+
+Query  8    SSTDMEGKLKENQNENIKGHEAKKAHKPPPEDYEIWKARMLAKAQAKLKELEASQS  63
+            S  +++ KL   Q    + +  KK       DYE+ K R+  + Q K  E+E +Q+
+Sbjct  46   SLHELQNKLASLQQGTNEEYVTKKTQLEEVRDYELTKLRLWEEYQVKSIEMEYNQA  101
+
+
+
+Lambda      K        H        a         alpha
+   0.292    0.112    0.271    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0327    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302692969012
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

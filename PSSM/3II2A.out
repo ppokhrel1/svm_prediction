@@ -1,0 +1,466 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3II2A
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3II2|A  Chain A, Structure Of Orf157 From Acidianus Filamento...   324    2e-111
+pdb|3ILD|A  Chain A, Structure Of Orf157-k57a From Acidianus Fila...   323    1e-110
+pdb|3ILE|A  Chain A, Crystal Structure Of Orf157-E86a Of Acidianu...   323    1e-110
+ref|YP_003730.1|  hypothetical protein AFV1_ORF157 [Acidianus fil...   322    2e-110
+pdb|3VB8|A  Chain A, Crystal Structure Of Engineered Protein, Nor...   291    4e-98 
+ref|NP_963945.1|  ORF A158 [Sulfolobus virus Ragged Hills] >gb|AA...   160    1e-46 
+ref|XP_002260996.1|  CGI-201 protein, short form [Plasmodium know...  37.7    1.9   
+ref|YP_005005107.1|  asparagine synthase [Pediococcus claussenii ...  36.6    4.3   
+ref|WP_010854537.1|  hypothetical protein [Cyclobacteriaceae bact...  36.2    4.7   
+ref|XP_679113.1|  CGI-201 protein, short form [Plasmodium berghei...  35.8    7.3   
+ref|XP_672749.1|  hypothetical protein [Plasmodium berghei strain...  35.0    9.6   
+
+
+>pdb|3II2|A Chain A, Structure Of Orf157 From Acidianus Filamentous Virus 
+1
+ pdb|3II3|A Chain A, Structure Of Orf157 From Acidianus Filamentous Virus 
+1
+Length=157
+
+ Score =  324 bits (831),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 157/157 (100%), Positives = 157/157 (100%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3ILD|A Chain A, Structure Of Orf157-k57a From Acidianus Filamentous 
+Virus 1
+Length=157
+
+ Score =  323 bits (827),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 156/157 (99%), Positives = 156/157 (99%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYI FGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIAFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3ILE|A Chain A, Crystal Structure Of Orf157-E86a Of Acidianus Filamentous 
+Virus 1
+Length=157
+
+ Score =  323 bits (827),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 156/157 (99%), Positives = 156/157 (99%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIE RTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEARTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>ref|YP_003730.1| hypothetical protein AFV1_ORF157 [Acidianus filamentous virus 
+1]
+ sp|Q70LE6.1|Y157_AFV1Y RecName: Full=Uncharacterized protein ORF157
+ emb|CAD98934.1| hypothetical protein [Acidianus filamentous virus 1]
+Length=157
+
+ Score =  322 bits (825),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+            SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY
+Sbjct  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+
+Query  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+            VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE
+Sbjct  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+
+Query  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3VB8|A Chain A, Crystal Structure Of Engineered Protein, Northeast Structural 
+Genomics Consortium Target Or43
+ pdb|3VB8|B Chain B, Crystal Structure Of Engineered Protein, Northeast Structural 
+Genomics Consortium Target Or43
+Length=161
+
+ Score =  291 bits (745),  Expect = 4e-98, Method: Compositional matrix adjust.
+ Identities = 142/156 (91%), Positives = 145/156 (93%), Gaps = 0/156 (0%)
+
+Query  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+            SEMSVV+Y V S N TS+MSHELLFSVKKRWFVKPF H R+ G L Y LLPGNYIKFGLY
+Sbjct  6    SEMSVVDYVVTSFNSTSQMSHELLFSVKKRWFVKPFEHSRRYGLLAYMLLPGNYIKFGLY  65
+
+Query  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+            VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE
+Sbjct  66   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  125
+
+Query  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            F KTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  126  FEKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  161
+
+
+>ref|NP_963945.1| ORF A158 [Sulfolobus virus Ragged Hills]
+ gb|AAR27917.1| ORF A158 [Sulfolobus virus Ragged Hills]
+Length=158
+
+ Score =  160 bits (404),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 74/151 (49%), Positives = 107/151 (71%), Gaps = 0/151 (0%)
+
+Query  6    VVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLYVLKN  65
+             VEY   SK+LTSK+ HELLFS K+R F+KP++ D+  GKL+Y+LLPGNY+KF L+ LK 
+Sbjct  7    TVEYVCFSKHLTSKVEHELLFSFKQRKFLKPYKPDKYDGKLYYRLLPGNYLKFSLHALKK  66
+
+Query  66   QDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFHKT  125
+             DYARF +  V++  +G++EE+ VYS+E  +  F +I  + + PY L +F+ M PE+H+ 
+Sbjct  67   SDYARFSLVHVYISPNGEVEEKEVYSVELSYSKFREIAIEFDVPYQLKEFVRMEPEYHRV  126
+
+Query  126  AWVEESNYSIAEDDIQMVESIKRYLERKIAS  156
+            A V+ESNY   ED + +  +I +YLERK+ S
+Sbjct  127  AKVDESNYPAVEDTLTIANNIMKYLERKVTS  157
+
+
+>ref|XP_002260996.1| CGI-201 protein, short form [Plasmodium knowlesi strain H]
+ emb|CAQ38184.1| CGI-201 protein, short form, putative [Plasmodium knowlesi strain 
+H]
+Length=722
+
+ Score = 37.7 bits (86),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 28/102 (27%), Positives = 48/102 (47%), Gaps = 16/102 (16%)
+
+Query  60   LYVLKNQD---------YARFEIAWVHVDKDGKIEERTVYSI------ETYWHIFIDIEN  104
+            L +LKNQ+         YA FEI  + + K   I  R + S+      E Y  + + + N
+Sbjct  398  LKILKNQNFTFKKIYLLYANFEIRQMDIPKVRSIFNRAIESVKKEEIFEEYCEMELRLGN  457
+
+Query  105  DLNCPYVLAKFIEMRPEFHKTAWVEESNYSIAEDDIQMVESI  146
+               C  + AK++E  P F+  AW+   N+ ++ D+++    I
+Sbjct  458  IKECRDIYAKYVEAFP-FNSKAWISMINFELSLDEVERARQI  498
+
+
+>ref|YP_005005107.1| asparagine synthase [Pediococcus claussenii ATCC BAA-344]
+ ref|WP_014215627.1| asparagine synthase [Pediococcus claussenii]
+ gb|AEV95431.1| asparagine synthase [Pediococcus claussenii ATCC BAA-344]
+Length=626
+
+ Score = 36.6 bits (83),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 31/112 (28%), Positives = 52/112 (46%), Gaps = 13/112 (12%)
+
+Query  48   YKLLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEE-----RTVYSIETYWHIFIDI  102
+            YKLLPG Y  F     K + +  F+  + H+D++  IEE     RT+       H+  D+
+Sbjct  197  YKLLPGTY--FIHRNGKTETHTYFKFNYDHIDENQTIEEDAKKIRTIVHDSVDAHMIADV  254
+
+Query  103  E------NDLNCPYVLAKFIEMRPEFHKTAWVEESNYSIAEDDIQMVESIKR  148
+            E      + ++  YVLA+  + +P    +   E+S YS      +  + IK+
+Sbjct  255  EVGSFLSSGIDSSYVLAEAAKFKPIQSFSIGFEDSKYSELSYSTEFAKEIKQ  306
+
+
+>ref|WP_010854537.1| hypothetical protein [Cyclobacteriaceae bacterium AK24]
+ gb|EON77090.1| hypothetical protein ADIS_2400 [Cyclobacteriaceae bacterium AK24]
+Length=325
+
+ Score = 36.2 bits (82),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  37   FRHDRQLGKLHYKLLPGNYIKFGLYVLKNQDYARFEIAW  75
+            F++ R + +L  K L G    FG +VLK QD   F+++W
+Sbjct  271  FQNQRNIPQLSIKYLRGGVFNFGPHVLKGQDLTPFQLSW  309
+
+
+>ref|XP_679113.1| CGI-201 protein, short form [Plasmodium berghei strain ANKA]
+ emb|CAH93604.1| CGI-201 protein, short form, putative [Plasmodium berghei]
+Length=695
+
+ Score = 35.8 bits (81),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 32/128 (25%), Positives = 59/128 (46%), Gaps = 12/128 (9%)
+
+Query  26   FSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFG-LYVLKNQDYARFEIAWVHVDKDGKI  84
+            +SV +  +       RQ+    +K+L      F  +Y+L    YA FEI  + +DK   I
+Sbjct  388  YSVFEELYADNIDRARQVYSNIFKILSKQNFTFKKMYIL----YANFEIRQMGIDKARAI  443
+
+Query  85   EERTVYSI--ETYWHIFIDIE----NDLNCPYVLAKFIEMRPEFHKTAWVEESNYSIAED  138
+                + ++  E  +  + D+E    N   C  + +K++E  P F+  AW+   N+ ++ D
+Sbjct  444  FNHAIENVKNEKIFQEYCDMELRLGNVKECRTIYSKYVEAFP-FNSKAWIAMINFELSLD  502
+
+Query  139  DIQMVESI  146
+            +I+    I
+Sbjct  503  EIERARQI  510
+
+
+>ref|XP_672749.1| hypothetical protein [Plasmodium berghei strain ANKA]
+ emb|CAI03669.1| hypothetical protein PB301280.00.0 [Plasmodium berghei]
+Length=275
+
+ Score = 35.0 bits (79),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 32/128 (25%), Positives = 59/128 (46%), Gaps = 12/128 (9%)
+
+Query  26   FSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFG-LYVLKNQDYARFEIAWVHVDKDGKI  84
+            +SV +  +       RQ+    +K+L      F  +Y+L    YA FEI  + +DK   I
+Sbjct  37   YSVFEELYAYNIDRARQVYSNIFKILSKQNFTFKKMYIL----YANFEIRQMGIDKARAI  92
+
+Query  85   EERTVYSI--ETYWHIFIDIE----NDLNCPYVLAKFIEMRPEFHKTAWVEESNYSIAED  138
+                + ++  E  +  + D+E    N   C  + +K++E  P F+  AW+   N+ ++ D
+Sbjct  93   FNHAIENVKNEKIFQEYCDMELRFGNVKECRTIYSKYVEAFP-FNSKAWIAMINFELSLD  151
+
+Query  139  DIQMVESI  146
+            +I+    I
+Sbjct  152  EIERARQI  159
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310763829152
+Results from round 2
+
+
+Query= 3II2A
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3ILD|A  Chain A, Structure Of Orf157-k57a From Acidianus Fila...   264    9e-88
+pdb|3II2|A  Chain A, Structure Of Orf157 From Acidianus Filamento...   264    1e-87
+pdb|3ILE|A  Chain A, Crystal Structure Of Orf157-E86a Of Acidianu...   264    2e-87
+ref|YP_003730.1|  hypothetical protein AFV1_ORF157 [Acidianus fil...   261    2e-86
+pdb|3VB8|A  Chain A, Crystal Structure Of Engineered Protein, Nor...   254    9e-84
+ref|NP_963945.1|  ORF A158 [Sulfolobus virus Ragged Hills] >gb|AA...   215    2e-68
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_660307.1|  phage integrase [Pseudoalteromonas atlantica T6...  38.4    0.88 
+
+
+>pdb|3ILD|A Chain A, Structure Of Orf157-k57a From Acidianus Filamentous 
+Virus 1
+Length=157
+
+ Score =  264 bits (676),  Expect = 9e-88, Method: Composition-based stats.
+ Identities = 156/157 (99%), Positives = 156/157 (99%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYI FGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIAFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3II2|A Chain A, Structure Of Orf157 From Acidianus Filamentous Virus 
+1
+ pdb|3II3|A Chain A, Structure Of Orf157 From Acidianus Filamentous Virus 
+1
+Length=157
+
+ Score =  264 bits (675),  Expect = 1e-87, Method: Composition-based stats.
+ Identities = 157/157 (100%), Positives = 157/157 (100%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3ILE|A Chain A, Crystal Structure Of Orf157-E86a Of Acidianus Filamentous 
+Virus 1
+Length=157
+
+ Score =  264 bits (674),  Expect = 2e-87, Method: Composition-based stats.
+ Identities = 156/157 (99%), Positives = 156/157 (99%), Gaps = 0/157 (0%)
+
+Query  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+            GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL
+Sbjct  1    GSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGL  60
+
+Query  61   YVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+            YVLKNQDYARFEIAWVHVDKDGKIE RTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP
+Sbjct  61   YVLKNQDYARFEIAWVHVDKDGKIEARTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRP  120
+
+Query  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  121  EFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>ref|YP_003730.1| hypothetical protein AFV1_ORF157 [Acidianus filamentous virus 
+1]
+ sp|Q70LE6.1|Y157_AFV1Y RecName: Full=Uncharacterized protein ORF157
+ emb|CAD98934.1| hypothetical protein [Acidianus filamentous virus 1]
+Length=157
+
+ Score =  261 bits (667),  Expect = 2e-86, Method: Composition-based stats.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+            SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY
+Sbjct  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+
+Query  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+            VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE
+Sbjct  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+
+Query  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+
+
+>pdb|3VB8|A Chain A, Crystal Structure Of Engineered Protein, Northeast Structural 
+Genomics Consortium Target Or43
+ pdb|3VB8|B Chain B, Crystal Structure Of Engineered Protein, Northeast Structural 
+Genomics Consortium Target Or43
+Length=161
+
+ Score =  254 bits (650),  Expect = 9e-84, Method: Composition-based stats.
+ Identities = 142/156 (91%), Positives = 145/156 (93%), Gaps = 0/156 (0%)
+
+Query  2    SEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLY  61
+            SEMSVV+Y V S N TS+MSHELLFSVKKRWFVKPF H R+ G L Y LLPGNYIKFGLY
+Sbjct  6    SEMSVVDYVVTSFNSTSQMSHELLFSVKKRWFVKPFEHSRRYGLLAYMLLPGNYIKFGLY  65
+
+Query  62   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  121
+            VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE
+Sbjct  66   VLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPE  125
+
+Query  122  FHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  157
+            F KTAWVEESNYSIAEDDIQMVESIKRYLERKIASD
+Sbjct  126  FEKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD  161
+
+
+>ref|NP_963945.1| ORF A158 [Sulfolobus virus Ragged Hills]
+ gb|AAR27917.1| ORF A158 [Sulfolobus virus Ragged Hills]
+Length=158
+
+ Score =  215 bits (548),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 74/151 (49%), Positives = 107/151 (71%), Gaps = 0/151 (0%)
+
+Query  6    VVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLYVLKN  65
+             VEY   SK+LTSK+ HELLFS K+R F+KP++ D+  GKL+Y+LLPGNY+KF L+ LK 
+Sbjct  7    TVEYVCFSKHLTSKVEHELLFSFKQRKFLKPYKPDKYDGKLYYRLLPGNYLKFSLHALKK  66
+
+Query  66   QDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFHKT  125
+             DYARF +  V++  +G++EE+ VYS+E  +  F +I  + + PY L +F+ M PE+H+ 
+Sbjct  67   SDYARFSLVHVYISPNGEVEEKEVYSVELSYSKFREIAIEFDVPYQLKEFVRMEPEYHRV  126
+
+Query  126  AWVEESNYSIAEDDIQMVESIKRYLERKIAS  156
+            A V+ESNY   ED + +  +I +YLERK+ S
+Sbjct  127  AKVDESNYPAVEDTLTIANNIMKYLERKVTS  157
+
+
+>ref|YP_660307.1| phage integrase [Pseudoalteromonas atlantica T6c]
+ ref|WP_011573614.1| phage integrase [Pseudoalteromonas atlantica]
+ gb|ABG39253.1| phage integrase [Pseudoalteromonas atlantica T6c]
+Length=619
+
+ Score = 38.4 bits (88),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 33/134 (25%), Positives = 58/134 (43%), Gaps = 16/134 (12%)
+
+Query  16   LTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLYVLKNQDYARFEIAW  75
+            L  K  H   +S K R  VKP  H   L +++ + L     K  L +   +DY R+ I W
+Sbjct  273  LNKKTRHR--YSEKTRKDVKP--HSPLLSEVYKEFLQHKINKENLTLKMQKDYERYWIVW  328
+
+Query  76   VHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFHKTAWVEESNYSI  135
+              +  D  I +          ++  DI   ++  + L K    +  ++K  W E  N  +
+Sbjct  329  TAIGPDKAIND----------YLPKDIGIFIDRCFELPKM--NKSPYNKMGWEERLNCDV  376
+
+Query  136  AEDDIQMVESIKRY  149
+            +EDD+   ++++ Y
+Sbjct  377  SEDDLVTPKTVQHY  390
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0436    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310763829152
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

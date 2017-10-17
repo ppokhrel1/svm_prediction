@@ -1,0 +1,4399 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1D7M
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1D7M|A  Chain A, Coiled-Coil Dimerization Domain From Cortexi...   179    7e-56
+ref|XP_636175.1|  actin bundling protein [Dictyostelium discoideu...   182    2e-53
+ref|XP_003289516.1|  cortexillin I [Dictyostelium purpureum] >gb|...   162    7e-46
+sp|Q9Y0T4.1|CTXA_POLPA  RecName: Full=Cortexillin-1; AltName: Ful...   143    2e-38
+ref|XP_004362574.1|  actin bundling protein [Dictyostelium fascic...   115    2e-28
+ref|XP_003284206.1|  hypothetical protein DICPUDRAFT_52744 [Dicty...  97.8    5e-22
+ref|XP_642870.1|  cortexillin II [Dictyostelium discoideum AX4] >...  93.6    2e-20
+sp|Q9Y0T3.1|CTXB_POLPA  RecName: Full=Cortexillin-2; AltName: Ful...  87.4    4e-18
+gb|EFA75257.1|  cortexillin II [Polysphondylium pallidum PN500]       87.8    8e-18
+ref|XP_004351138.1|  cortexillin II [Dictyostelium fasciculatum] ...  84.7    4e-17
+ref|XP_004071883.1|  PREDICTED: myosin-9-like [Oryzias latipes]       38.9    0.25 
+ref|XP_004562998.1|  PREDICTED: myosin-9-like isoform X3 [Mayland...  38.5    0.28 
+ref|XP_004562997.1|  PREDICTED: myosin-9-like isoform X2 [Mayland...  38.5    0.28 
+ref|XP_005738101.1|  PREDICTED: myosin-9-like isoform X2 [Pundami...  38.5    0.29 
+ref|XP_005738100.1|  PREDICTED: myosin-9-like isoform X1 [Pundami...  38.5    0.29 
+ref|XP_004562996.1|  PREDICTED: myosin-9-like isoform X1 [Mayland...  38.5    0.29 
+ref|XP_005468556.1|  PREDICTED: myosin-9-like isoform X2 [Oreochr...  38.5    0.29 
+ref|XP_003443121.1|  PREDICTED: myosin-9-like isoform X1 [Oreochr...  38.5    0.29 
+ref|XP_005802858.1|  PREDICTED: myosin-9-like [Xiphophorus macula...  38.5    0.30 
+ref|XP_005926770.1|  PREDICTED: myosin-9-like isoform X2 [Haploch...  37.7    0.49 
+ref|XP_005926769.1|  PREDICTED: myosin-9-like isoform X1 [Haploch...  37.7    0.49 
+ref|XP_005815544.1|  PREDICTED: myosin heavy chain, fast skeletal...  35.4    3.4  
+emb|CAG02247.1|  unnamed protein product [Tetraodon nigroviridis]     34.3    8.4  
+emb|CAG10585.1|  unnamed protein product [Tetraodon nigroviridis]     33.9    9.5  
+
+
+>pdb|1D7M|A Chain A, Coiled-Coil Dimerization Domain From Cortexillin I
+ pdb|1D7M|B Chain B, Coiled-Coil Dimerization Domain From Cortexillin I
+Length=101
+
+ Score =  179 bits (454),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK
+Sbjct  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE
+Sbjct  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+
+
+>ref|XP_636175.1| actin bundling protein [Dictyostelium discoideum AX4]
+ sp|Q54HG2.1|CTXA_DICDI RecName: Full=Cortexillin-1; AltName: Full=Cortexillin I
+ gb|AAB62275.1| cortexillin I [Dictyostelium discoideum]
+ gb|EAL62673.1| actin bundling protein [Dictyostelium discoideum AX4]
+Length=444
+
+ Score =  182 bits (463),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK
+Sbjct  243  EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  302
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE
+Sbjct  303  NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  343
+
+
+>ref|XP_003289516.1| cortexillin I [Dictyostelium purpureum]
+ gb|EGC33934.1| cortexillin I [Dictyostelium purpureum]
+Length=431
+
+ Score =  162 bits (411),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 91/101 (90%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ANRLAGL+NSLE+EKVSREQLIKQKD+L SLLASLE EGAEREKRLRELEAKL++TLK
+Sbjct  228  EIANRLAGLQNSLENEKVSREQLIKQKDELKSLLASLEFEGAEREKRLRELEAKLEDTLK  287
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEA +EKSKLE
+Sbjct  288  NLELEKLARMELEARLAKTEKDRAILELKLAEATEEKSKLE  328
+
+
+>sp|Q9Y0T4.1|CTXA_POLPA RecName: Full=Cortexillin-1; AltName: Full=Cortexillin I
+ gb|AAD40020.1|AF151101_1 cortexillin I [Polysphondylium pallidum]
+ gb|EFA76383.1| actin bundling protein [Polysphondylium pallidum PN500]
+Length=440
+
+ Score =  143 bits (360),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 80/101 (79%), Positives = 94/101 (93%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++A++LAGL+NSLESEK+SREQLIKQKD+L SLLASLE E AEREK LRELEAKL+E LK
+Sbjct  243  DLASKLAGLQNSLESEKLSREQLIKQKDELKSLLASLEGEAAEREKFLRELEAKLEEILK  302
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELE+LARMELE+RL+K EKD+AILELKLAEA DEK++LE
+Sbjct  303  NLELERLARMELESRLSKMEKDKAILELKLAEAQDEKARLE  343
+
+
+>ref|XP_004362574.1| actin bundling protein [Dictyostelium fasciculatum]
+ gb|EGG24723.1| actin bundling protein [Dictyostelium fasciculatum]
+Length=445
+
+ Score =  115 bits (288),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 75/100 (75%), Positives = 88/100 (88%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +A+RLAGL++SLE+EK+SRE LIKQK++L SLLASLE E A RE  LRELEAKLDE LKN
+Sbjct  244  IASRLAGLQSSLENEKMSRELLIKQKEELKSLLASLEGEAASREHHLRELEAKLDEVLKN  303
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            LELEKLAR+ELE RLAKTEKD+A+LEL LAEA D K++LE
+Sbjct  304  LELEKLARLELENRLAKTEKDKALLELALAEATDAKNRLE  343
+
+
+>ref|XP_003284206.1| hypothetical protein DICPUDRAFT_52744 [Dictyostelium purpureum]
+ gb|EGC39302.1| hypothetical protein DICPUDRAFT_52744 [Dictyostelium purpureum]
+Length=443
+
+ Score = 97.8 bits (242),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 54/100 (54%), Positives = 78/100 (78%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N+LA LE SLE EK S+E+L+KQK +L + L  + SE   R  R+ +L++++D+ L+ 
+Sbjct  246  LNNKLASLEQSLEGEKHSQEELLKQKQELENALNKIRSENENRNNRITDLQSRIDDALRG  305
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            L+ EKLA+++LE+RLAKTEKD+AILELKLAE +DEK +LE
+Sbjct  306  LDDEKLAKLDLESRLAKTEKDKAILELKLAEILDEKDRLE  345
+
+
+>ref|XP_642870.1| cortexillin II [Dictyostelium discoideum AX4]
+ sp|Q550R2.1|CTXB_DICDI RecName: Full=Cortexillin-2; AltName: Full=Cortexillin II
+ gb|AAB62274.1| cortexillin II [Dictyostelium discoideum]
+ gb|EAL68948.1| cortexillin II [Dictyostelium discoideum AX4]
+Length=441
+
+ Score = 93.6 bits (231),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 52/100 (52%), Positives = 74/100 (74%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N+LA LE SLE EK S+E+L+KQK  L   L  +  +   R  R+ +L++K+D+ L+ 
+Sbjct  246  LNNKLASLEQSLEGEKHSQEELVKQKKDLEDALNKIREQNDNRNSRITDLQSKIDDALRG  305
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            L+ EKLA+++LE+RLAK EKD+AILELKLAE +DEK +LE
+Sbjct  306  LDDEKLAKLDLESRLAKCEKDKAILELKLAEILDEKDRLE  345
+
+
+>sp|Q9Y0T3.1|CTXB_POLPA RecName: Full=Cortexillin-2; AltName: Full=Cortexillin II
+ gb|AAD40021.1|AF151102_1 cortexillin II [Polysphondylium pallidum]
+Length=449
+
+ Score = 87.4 bits (215),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 46/99 (46%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +AN+LA LE SLE EK S+++L +QK +L   L  +  +  +R +R+ ++++K+D+ L+ 
+Sbjct  248  LANKLASLEQSLEGEKTSQDELARQKKELEESLRLIRQQNEQRNQRIADIQSKIDDALRG  307
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+            ++ EK+A+++LE+RL+KTEKD+AILELKLAE +DE  +L
+Sbjct  308  IDDEKMAKLDLESRLSKTEKDKAILELKLAETLDENERL  346
+
+
+>gb|EFA75257.1| cortexillin II [Polysphondylium pallidum PN500]
+Length=816
+
+ Score = 87.8 bits (216),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 46/99 (46%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +AN+LA LE SLE EK S+++L +QK +L   L  +  +  +R +R+ ++++K+D+ L+ 
+Sbjct  599  LANKLASLEQSLEGEKTSQDELARQKKELEESLRLIRQQNEQRNQRIADIQSKIDDALRG  658
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+            ++ EK+A+++LE+RL+KTEKD+AILELKLAE +DE  +L
+Sbjct  659  IDDEKMAKLDLESRLSKTEKDKAILELKLAETLDENERL  697
+
+
+>ref|XP_004351138.1| cortexillin II [Dictyostelium fasciculatum]
+ gb|EGG14630.1| cortexillin II [Dictyostelium fasciculatum]
+Length=454
+
+ Score = 84.7 bits (208),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 46/100 (46%), Positives = 75/100 (75%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N L+ LE +L+ EK+S+E+L KQK  L + L  L ++   R K++ +++A++D+ L+ 
+Sbjct  247  LQNTLSSLEGALQGEKLSQEELAKQKKDLENTLNELRAQNEARNKKISDIQARIDDALRG  306
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            ++ E++A+++LEARL+KTEKD+AILELKL E  DEK +LE
+Sbjct  307  IDDERMAKLDLEARLSKTEKDKAILELKLQEMRDEKERLE  346
+
+
+>ref|XP_004071883.1| PREDICTED: myosin-9-like [Oryzias latipes]
+Length=1962
+
+ Score = 38.9 bits (89),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNMAQKKIRELEAQLSELQEDLELEKQAR-------  1130
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1131  AKAEKHR  1137
+
+
+>ref|XP_004562998.1| PREDICTED: myosin-9-like isoform X3 [Maylandia zebra]
+Length=1918
+
+ Score = 38.5 bits (88),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1123
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1124  AKAEKHR  1130
+
+
+>ref|XP_004562997.1| PREDICTED: myosin-9-like isoform X2 [Maylandia zebra]
+Length=1956
+
+ Score = 38.5 bits (88),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1123
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1124  AKAEKHR  1130
+
+
+>ref|XP_005738101.1| PREDICTED: myosin-9-like isoform X2 [Pundamilia nyererei]
+Length=1956
+
+ Score = 38.5 bits (88),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1123
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1124  AKAEKHR  1130
+
+
+>ref|XP_005738100.1| PREDICTED: myosin-9-like isoform X1 [Pundamilia nyererei]
+Length=1963
+
+ Score = 38.5 bits (88),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1130
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1131  AKAEKHR  1137
+
+
+>ref|XP_004562996.1| PREDICTED: myosin-9-like isoform X1 [Maylandia zebra]
+Length=1963
+
+ Score = 38.5 bits (88),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1130
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1131  AKAEKHR  1137
+
+
+>ref|XP_005468556.1| PREDICTED: myosin-9-like isoform X2 [Oreochromis niloticus]
+Length=1956
+
+ Score = 38.5 bits (88),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1123
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1124  AKAEKHR  1130
+
+
+>ref|XP_003443121.1| PREDICTED: myosin-9-like isoform X1 [Oreochromis niloticus]
+Length=1963
+
+ Score = 38.5 bits (88),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 44/67 (66%), Gaps = 10/67 (15%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR       
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQAR-------  1130
+
+Query  77    AKTEKDR  83
+             AK EK R
+Sbjct  1131  AKAEKHR  1137
+
+
+>ref|XP_005802858.1| PREDICTED: myosin-9-like [Xiphophorus maculatus]
+Length=1882
+
+ Score = 38.5 bits (88),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 42/57 (74%), Gaps = 3/57 (5%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELE  73
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR++ E
+Sbjct  999   RAQLAKKEEELQAALARIEEEAAQKNMAQKKIRELEAQLSELQEDLELEKQARVKAE  1055
+
+
+>ref|XP_005926770.1| PREDICTED: myosin-9-like isoform X2 [Haplochromis burtoni]
+Length=1956
+
+ Score = 37.7 bits (86),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 41/57 (72%), Gaps = 3/57 (5%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELE  73
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR + E
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARTKAE  1127
+
+
+>ref|XP_005926769.1| PREDICTED: myosin-9-like isoform X1 [Haplochromis burtoni]
+Length=1963
+
+ Score = 37.7 bits (86),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 41/57 (72%), Gaps = 3/57 (5%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDETLKNLELEKLARMELE  73
+             R QL K++++L + LA +E E A++   +K++RELEA+L E  ++LELEK AR + E
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARTKAE  1134
+
+
+>ref|XP_005815544.1| PREDICTED: myosin heavy chain, fast skeletal muscle-like [Xiphophorus 
+maculatus]
+Length=1123
+
+ Score = 35.4 bits (80),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 31/84 (37%), Positives = 55/84 (65%), Gaps = 9/84 (11%)
+
+Query  13   LESEKVSREQLIKQKD-QLNSLLASLESE---GAEREKRLRELEAK---LDETLKNLELE  65
+            LE++K   ++ IK+KD +++ LL+ +E E   GA+ +K+++EL+A+   L+E +  LE E
+Sbjct  684  LENDKQQSDEKIKKKDFEISQLLSKIEDEQSLGAQLQKKIKELQARIEELEEEIGTLEHE  743
+
+Query  66   --KLARMELEARLAKTEKDRAILE  87
+              K+ R++LE    K+E DR + E
+Sbjct  744  ESKILRVQLELNQVKSEIDRKLAE  767
+
+
+>emb|CAG02247.1| unnamed protein product [Tetraodon nigroviridis]
+Length=2046
+
+ Score = 34.3 bits (77),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 39/58 (67%), Gaps = 3/58 (5%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEA  74
+             R QL  ++++L +  ASLE E ++R    KR+RELEA + E  ++LE E+ AR ++EA
+Sbjct  1115  RAQLAAKEEELQATQASLEEESSQRGAAVKRVRELEALISELQEDLEAERSARAKVEA  1172
+
+
+>emb|CAG10585.1| unnamed protein product [Tetraodon nigroviridis]
+Length=980
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 31/97 (32%), Positives = 52/97 (54%), Gaps = 2/97 (2%)
+
+Query  1    EMANRLAGLENSLE--SEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDET  58
+            EM+ R+A LE  +E  ++    E L ++K  L S L   E E A     +REL+ +L ET
+Sbjct  831  EMSQRVAALEQEIERLTDGAELENLRREKQHLESELERAERESATYVTEVRELKTQLTET  890
+
+Query  59   LKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+            L  LE E+  R ++   L K ++   +++ +L++  D
+Sbjct  891  LSKLETEENERQKVAGDLYKAQQSLDLIQEELSKVTD  927
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.123    0.289    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 306834105935
+Results from round 2
+
+
+Query= 1D7M
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|EFA75257.1|  cortexillin II [Polysphondylium pallidum PN500]        136    5e-35
+ref|XP_642870.1|  cortexillin II [Dictyostelium discoideum AX4] >...   133    5e-35
+ref|XP_003284206.1|  hypothetical protein DICPUDRAFT_52744 [Dicty...   125    5e-32
+ref|XP_004351138.1|  cortexillin II [Dictyostelium fasciculatum] ...   125    6e-32
+ref|XP_636175.1|  actin bundling protein [Dictyostelium discoideu...   124    2e-31
+sp|Q9Y0T3.1|CTXB_POLPA  RecName: Full=Cortexillin-2; AltName: Ful...   122    7e-31
+ref|XP_003289516.1|  cortexillin I [Dictyostelium purpureum] >gb|...   121    1e-30
+sp|Q9Y0T4.1|CTXA_POLPA  RecName: Full=Cortexillin-1; AltName: Ful...   119    7e-30
+ref|XP_004362574.1|  actin bundling protein [Dictyostelium fascic...   104    1e-24
+pdb|1D7M|A  Chain A, Coiled-Coil Dimerization Domain From Cortexi...  90.6    4e-21
+
+Sequences not found previously or not previously below threshold:
+
+gb|EIW55097.1|  hypothetical protein TRAVEDRAFT_172756 [Trametes ...  44.3    0.005
+ref|WP_022409144.1|  putative uncharacterized protein [Clostridiu...  43.2    0.008
+emb|CAF99582.1|  unnamed protein product [Tetraodon nigroviridis]     42.8    0.015
+gb|ELW52371.1|  Myosin-9 [Tupaia chinensis]                           42.4    0.017
+gb|ETE72120.1|  Myosin-11, partial [Ophiophagus hannah]               42.4    0.017
+gb|EFA01522.1|  hypothetical protein TcasGA2_TC007082 [Tribolium ...  41.6    0.026
+ref|XP_970309.2|  PREDICTED: similar to disheveled associated act...  41.6    0.027
+ref|XP_002872478.1|  hypothetical protein ARALYDRAFT_911268 [Arab...  41.6    0.030
+emb|CCA16034.1|  AlNc14C17G1821 [Albugo laibachii Nc14]               40.9    0.055
+ref|XP_005634823.1|  PREDICTED: kinesin family member 16B isoform...  40.5    0.072
+pdb|1I84|S  Chain S, Cryo-Em Structure Of The Heavy Meromyosin Su...  40.1    0.087
+ref|YP_005167889.1|  metal dependent phosphohydrolase [Desulfovib...  39.7    0.094
+ref|XP_005797606.1|  PREDICTED: myosin-9-like [Xiphophorus macula...  39.7    0.11 
+ref|WP_005028355.1|  ribonuclease [Bilophila] >gb|EFV43731.1| 2',...  39.7    0.11 
+gb|ENH77034.1|  intracellular protein transport-like protein [Col...  39.3    0.14 
+ref|XP_006156597.1|  PREDICTED: myosin-9-like, partial [Tupaia ch...  39.3    0.15 
+ref|WP_009138925.1|  chromosome segregation protein SMC [Slackia ...  39.3    0.16 
+gb|AAA59888.1|  cellular myosin heavy chain, partial [Homo sapiens]   39.3    0.18 
+ref|WP_021292144.1|  hypothetical protein [Virgibacillus sp. CM-4...  38.6    0.18 
+ref|XP_002879515.1|  EMB1611/MEE22 [Arabidopsis lyrata subsp. lyr...  38.9    0.21 
+gb|AAH49849.1|  MYH9 protein [Homo sapiens]                           38.9    0.23 
+ref|XP_003977504.1|  PREDICTED: myosin-6 [Takifugu rubripes]          38.9    0.24 
+emb|CDJ86566.1|  Protein SAS-6 [Haemonchus contortus]                 38.6    0.25 
+ref|YP_001630312.1|  chromosome partition protein [Bordetella pet...  38.6    0.31 
+ref|YP_004122842.1|  YmdA/YtgF protein [Desulfovibrio aespoeensis...  38.2    0.32 
+ref|XP_006286856.1|  hypothetical protein CARUB_v10003913mg [Caps...  38.2    0.32 
+ref|XP_005921652.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.35 
+ref|XP_005731099.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.35 
+ref|XP_003771178.1|  PREDICTED: myosin-9 [Sarcophilus harrisii]       38.2    0.36 
+ref|XP_004568814.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.37 
+ref|XP_003458292.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.38 
+ref|WP_004566403.1|  putative chromosome partition protein [Borde...  38.2    0.39 
+gb|ETF01644.1|  chromosome partitioning protein Smc [Advenella ka...  38.2    0.41 
+ref|XP_004568813.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.41 
+gb|ERE76407.1|  myosin-15-like protein [Cricetulus griseus]           38.2    0.41 
+ref|WP_008870939.1|  ribonuclease [Desulfonatronospira thiodismut...  37.8    0.41 
+ref|WP_023853152.1|  chromosome segregation protein SMC [Bordetel...  38.2    0.43 
+ref|WP_007570506.1|  hypothetical protein [Bacteroides coprocola]...  37.8    0.43 
+ref|XP_005921653.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.43 
+ref|XP_005731100.1|  PREDICTED: rho-associated protein kinase 2-l...  38.2    0.43 
+ref|XP_001248446.1|  hypothetical protein CIMG_02217 [Coccidioide...  37.8    0.46 
+ref|XP_004078214.1|  PREDICTED: myosin-10-like [Oryzias latipes]      37.8    0.47 
+ref|XP_004568815.1|  PREDICTED: rho-associated protein kinase 2-l...  37.8    0.48 
+ref|XP_005762429.1|  hypothetical protein EMIHUDRAFT_465321 [Emil...  37.8    0.49 
+gb|AGO12400.1|  AaceriAER045Cp [Saccharomycetaceae sp. 'Ashbya ac...  37.8    0.56 
+ref|WP_019390531.1|  hypothetical protein [Bacillus endophyticus]     37.4    0.62 
+gb|ESS29577.1|  putative transmembrane protein [Toxoplasma gondii...  37.4    0.63 
+ref|WP_022125830.1|  m protein repeat protein [Bacteroides coproc...  37.4    0.70 
+ref|XP_003070766.1|  hypothetical protein CPC735_038850 [Coccidio...  37.4    0.72 
+ref|XP_005921654.1|  PREDICTED: rho-associated protein kinase 2-l...  37.4    0.72 
+ref|XP_004568816.1|  PREDICTED: rho-associated protein kinase 2-l...  37.4    0.72 
+ref|NP_885521.1|  chromosome partition protein [Bordetella parape...  37.4    0.72 
+ref|XP_004501205.1|  PREDICTED: tropomyosin-2-like [Cicer arietinum]  37.0    0.75 
+ref|YP_006901705.1|  chromosome partition protein [Bordetella bro...  37.4    0.77 
+ref|WP_003821311.1|  putative chromosome partition protein [Borde...  37.0    0.79 
+ref|XP_004568818.1|  PREDICTED: rho-associated protein kinase 2-l...  37.0    0.80 
+gb|EFW22173.1|  conserved hypothetical protein [Coccidioides posa...  37.0    0.82 
+gb|ESO87244.1|  hypothetical protein LOTGIDRAFT_229356 [Lottia gi...  37.0    0.87 
+sp|A9II65.2|SMC_BORPD  RecName: Full=Chromosome partition protein...  37.0    0.87 
+ref|XP_005921655.1|  PREDICTED: rho-associated protein kinase 2-l...  37.0    0.88 
+ref|XP_005731101.1|  PREDICTED: rho-associated protein kinase 2-l...  37.0    0.88 
+ref|XP_004568819.1|  PREDICTED: rho-associated protein kinase 2-l...  37.0    0.88 
+gb|ELW69260.1|  Myosin-6 [Tupaia chinensis]                           37.0    0.89 
+ref|XP_005663885.1|  PREDICTED: myosin-9 [Sus scrofa]                 37.0    0.90 
+gb|EPR57833.1|  hypothetical protein TGGT1_321410 [Toxoplasma gon...  37.0    0.95 
+ref|NP_001070932.2|  ventricular myosin heavy chain-like [Danio r...  37.0    0.97 
+ref|XP_691467.5|  PREDICTED: myosin-10 isoform X5 [Danio rerio]       37.0    0.98 
+gb|EPT32231.1|  hypothetical protein TGME49_321410 [Toxoplasma go...  37.0    0.98 
+ref|XP_005157988.1|  PREDICTED: myosin-10 isoform X1 [Danio rerio]    37.0    1.0  
+ref|WP_004051060.1|  chromosome segregation protein SMC [Halococc...  37.0    1.0  
+ref|XP_005157989.1|  PREDICTED: myosin-10 isoform X2 [Danio rerio]    36.6    1.1  
+ref|XP_005157990.1|  PREDICTED: myosin-10 isoform X3 [Danio rerio]    36.6    1.1  
+ref|NP_882071.1|  chromosome partition protein [Bordetella pertus...  36.6    1.2  
+ref|YP_007494959.1|  2',3'-cyclic-nucleotide 2'-phosphodiesterase...  36.3    1.3  
+gb|EKC37351.1|  Switch-associated protein 70 [Crassostrea gigas]      36.6    1.3  
+gb|ERE84443.1|  myosin-9 [Cricetulus griseus]                         36.6    1.3  
+ref|XP_005157991.1|  PREDICTED: myosin-10 isoform X4 [Danio rerio]    36.6    1.3  
+ref|XP_001901629.1|  Myosin tail family protein [Brugia malayi] >...  36.6    1.4  
+ref|WP_018874334.1|  hypothetical protein [Thioalkalivibrio sp. A...  36.3    1.4  
+ref|XP_005163758.1|  PREDICTED: myosin-9 isoform X2 [Danio rerio]     36.3    1.5  
+ref|WP_006223775.1|  chromosome partitioning protein Smc [Achromo...  36.3    1.5  
+ref|XP_001920098.4|  PREDICTED: myosin-9 isoform X1 [Danio rerio]     36.3    1.5  
+gb|AAH72844.1|  LOC443585 protein, partial [Xenopus laevis]           36.3    1.6  
+ref|WP_018141943.1|  hypothetical protein [Thioalkalivibrio sp. A...  36.3    1.6  
+ref|YP_330860.1|  rad50 ATPase [Natronomonas pharaonis DSM 2160] ...  35.9    1.9  
+ref|XP_004416282.1|  PREDICTED: kinesin-like protein KIF16B-like ...  35.9    1.9  
+ref|XP_003924689.1|  PREDICTED: myosin-7 [Saimiri boliviensis bol...  35.9    1.9  
+ref|XP_004007576.1|  PREDICTED: myosin-9 [Ovis aries]                 35.9    1.9  
+ref|XP_002371682.1|  hypothetical protein TGME49_121410 [Toxoplas...  35.9    1.9  
+ref|XP_005753700.1|  PREDICTED: myosin-6-like [Pundamilia nyererei]   35.9    1.9  
+ref|WP_000714399.1|  hypothetical protein [Streptococcus agalacti...  35.9    2.1  
+ref|XP_005950939.1|  PREDICTED: myosin-6-like [Haplochromis burtoni]  35.9    2.1  
+ref|XP_004572893.1|  PREDICTED: myosin-6-like [Maylandia zebra]       35.9    2.1  
+ref|XP_005634824.1|  PREDICTED: kinesin family member 16B isoform...  35.9    2.1  
+ref|XP_003225065.1|  PREDICTED: myosin-10-like [Anolis carolinensis]  35.9    2.1  
+ref|XP_004878233.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-15-li...  35.9    2.3  
+ref|XP_006248354.1|  PREDICTED: myosin-15 [Rattus norvegicus]         35.9    2.3  
+ref|XP_003446686.1|  PREDICTED: myosin-6-like [Oreochromis niloti...  35.9    2.3  
+ref|XP_005737648.1|  PREDICTED: myosin-7-like [Pundamilia nyererei]   35.9    2.5  
+gb|ERE84441.1|  myosin-9 [Cricetulus griseus]                         35.9    2.5  
+emb|CAF92967.1|  unnamed protein product [Tetraodon nigroviridis]     35.9    2.5  
+gb|ELV09780.1|  Myosin-15 [Tupaia chinensis]                          35.5    2.5  
+ref|XP_005994465.1|  PREDICTED: myosin-7-like [Latimeria chalumnae]   35.5    2.5  
+ref|XP_003924690.1|  PREDICTED: myosin-6 [Saimiri boliviensis bol...  35.5    2.6  
+ref|XP_005994466.1|  PREDICTED: myosin-6 isoform X1 [Latimeria ch...  35.5    2.7  
+ref|XP_005994467.1|  PREDICTED: myosin-6 isoform X2 [Latimeria ch...  35.5    2.7  
+ref|XP_005802858.1|  PREDICTED: myosin-9-like [Xiphophorus macula...  35.5    2.8  
+ref|XP_002647833.1|  Hypothetical protein CBG23621 [Caenorhabditi...  35.5    2.8  
+gb|EHH27758.1|  hypothetical protein EGK_18032 [Macaca mulatta]       35.5    2.8  
+ref|XP_004864273.1|  PREDICTED: myosin-7 [Heterocephalus glaber]      35.5    2.8  
+ref|YP_004002345.1|  chromosome segregation protein smc [Caldicel...  35.5    2.8  
+gb|EJD76606.1|  myosin tail family protein [Loa loa]                  35.5    2.9  
+ref|XP_004416283.1|  PREDICTED: kinesin-like protein KIF16B-like ...  35.5    3.0  
+ref|WP_008389057.1|  chromosome segregation protein SMC [Halosarc...  35.5    3.1  
+ref|XP_005926769.1|  PREDICTED: myosin-9-like isoform X1 [Haploch...  35.5    3.2  
+ref|XP_004416284.1|  PREDICTED: kinesin-like protein KIF16B-like ...  35.5    3.2  
+ref|XP_005377236.1|  PREDICTED: myosin-7 [Chinchilla lanigera]        35.5    3.3  
+ref|XP_004699133.1|  PREDICTED: protein Daple [Echinops telfairi]     35.5    3.3  
+ref|YP_004026273.1|  chromosome segregation protein smc [Caldicel...  35.1    3.3  
+gb|EFR23745.1|  hypothetical protein AND_12320 [Anopheles darlingi]   35.1    3.4  
+ref|XP_005926770.1|  PREDICTED: myosin-9-like isoform X2 [Haploch...  35.1    3.4  
+ref|XP_005738100.1|  PREDICTED: myosin-9-like isoform X1 [Pundami...  35.1    3.5  
+ref|XP_004324771.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-9-lik...  35.1    3.5  
+ref|WP_007107797.1|  chromosome segregation protein SMC [Natrinem...  35.1    3.6  
+ref|XP_004562996.1|  PREDICTED: myosin-9-like isoform X1 [Mayland...  35.1    3.6  
+gb|EKM55976.1|  hypothetical protein PHACADRAFT_209484 [Phaneroch...  35.1    3.6  
+ref|XP_005283657.1|  PREDICTED: myosin-6-like [Chrysemys picta be...  35.1    3.7  
+ref|XP_005738101.1|  PREDICTED: myosin-9-like isoform X2 [Pundami...  35.1    3.7  
+ref|XP_005074837.1|  PREDICTED: myosin-15 [Mesocricetus auratus]      35.1    3.7  
+ref|XP_005808736.1|  PREDICTED: myosin-6-like [Xiphophorus macula...  35.1    3.7  
+ref|XP_003443121.1|  PREDICTED: myosin-9-like isoform X1 [Oreochr...  35.1    3.8  
+ref|XP_004562997.1|  PREDICTED: myosin-9-like isoform X2 [Mayland...  35.1    3.8  
+ref|XP_001928768.1|  PREDICTED: protein Daple [Sus scrofa]            35.1    3.8  
+ref|WP_019248144.1|  chromosome partitioning protein Smc, partial...  35.1    3.8  
+ref|WP_002019569.1|  S-layer protein [Bacillus cereus] >gb|EEK765...  35.1    3.8  
+ref|XP_005468556.1|  PREDICTED: myosin-9-like isoform X2 [Oreochr...  35.1    4.0  
+ref|XP_006170826.1|  PREDICTED: myosin-15 [Tupaia chinensis]          35.1    4.1  
+ref|XP_006005261.1|  PREDICTED: myosin-9-like [Latimeria chalumnae]   35.1    4.2  
+gb|ELW48690.1|  Protein Daple, partial [Tupaia chinensis]             35.1    4.3  
+ref|XP_003502143.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-7-lik...  34.7    4.5  
+ref|XP_003500116.1|  PREDICTED: myosin-15-like [Cricetulus griseus]   34.7    4.7  
+ref|YP_004798208.1|  chromosome segregation protein SMC [Caldicel...  34.7    4.8  
+ref|XP_005606793.1|  PREDICTED: myosin-9 [Equus caballus]             34.7    4.8  
+ref|XP_004562998.1|  PREDICTED: myosin-9-like isoform X3 [Mayland...  34.7    5.3  
+ref|XP_006252015.1|  PREDICTED: myosin-7 isoform X3 [Rattus norve...  34.7    5.4  
+ref|XP_003689340.1|  PREDICTED: myosin-6-like [Mus musculus]          34.7    5.5  
+ref|XP_003953928.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-9 [Pa...  34.7    5.5  
+ref|XP_005685399.1|  PREDICTED: uncharacterized protein LOC102181...  34.7    5.6  
+ref|XP_006252014.1|  PREDICTED: myosin-7 isoform X2 [Rattus norve...  34.7    5.7  
+ref|XP_005267751.1|  PREDICTED: myosin-6 isoform X1 [Homo sapiens]    34.7    5.7  
+ref|XP_003200959.2|  PREDICTED: myosin heavy chain, fast skeletal...  34.7    5.9  
+dbj|BAA08111.1|  embryonic muscle myosin heavy chain [Halocynthia...  34.7    6.0  
+gb|ERE84442.1|  myosin-9 [Cricetulus griseus]                         34.7    6.0  
+gb|EDL36311.1|  mCG142372 [Mus musculus]                              34.3    6.1  
+ref|XP_003970832.1|  PREDICTED: actin filament-associated protein...  34.3    6.1  
+ref|XP_003802038.1|  PREDICTED: myosin-6 [Otolemur garnettii]         34.3    6.2  
+ref|WP_023499724.1|  condensin subunit Smc [uncultured archaeon A...  34.3    6.3  
+ref|WP_006650262.1|  chromosome segregation protein SMC [Haloterr...  34.3    6.3  
+dbj|BAA00791.1|  cardiac alpha-myosin heavy chain [Homo sapiens]      34.3    6.5  
+gb|ELK11238.1|  Myosin-7 [Pteropus alecto]                            34.3    6.5  
+ref|XP_006221235.1|  PREDICTED: myosin-15 [Rattus norvegicus]         34.3    6.6  
+ref|XP_006144588.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Tu...  34.3    6.6  
+ref|XP_003783303.1|  PREDICTED: myosin-9 [Otolemur garnettii]         34.3    6.6  
+ref|XP_003514078.1|  PREDICTED: myosin-9 [Cricetulus griseus]         34.3    6.7  
+ref|WP_018718923.1|  hypothetical protein [Arhodomonas aquaeolei]     34.3    6.7  
+ref|XP_004071883.1|  PREDICTED: myosin-9-like [Oryzias latipes]       34.3    7.0  
+ref|XP_006270573.1|  PREDICTED: myosin-6-like [Alligator mississi...  34.3    7.1  
+ref|NP_002462.2|  myosin-6 [Homo sapiens] >sp|P13533.5|MYH6_HUMAN...  34.3    7.1  
+emb|CAA79675.1|  cardiac alpha-myosin heavy chain [Homo sapiens]      34.3    7.1  
+gb|EAW66155.1|  myosin, heavy polypeptide 6, cardiac muscle, alph...  34.3    7.1  
+ref|XP_002711459.1|  PREDICTED: myosin heavy chain [Oryctolagus c...  34.3    7.3  
+ref|XP_006133871.1|  PREDICTED: myosin-9 [Pelodiscus sinensis]        34.3    7.3  
+ref|XP_005438971.1|  PREDICTED: protein Daple [Falco cherrug]         34.3    7.3  
+gb|EHB00030.1|  Myosin-6 [Heterocephalus glaber]                      34.3    7.4  
+gb|EAW66151.1|  myosin, heavy polypeptide 7, cardiac muscle, beta...  34.3    7.7  
+ref|XP_005978098.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-7 [Pa...  34.3    7.9  
+gb|ESU36667.1|  Hypothetical protein DHA2_152535 [Giardia intesti...  33.9    8.1  
+ref|YP_003825447.1|  chromosome segregation protein SMC [Thermose...  33.9    8.1  
+ref|XP_004279478.1|  PREDICTED: myosin-9 [Orcinus orca]               33.9    8.2  
+emb|CAJ20719.1|  hypothetical protein TgIb.2440c [Toxoplasma gond...  33.9    8.2  
+ref|XP_004055016.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Go...  33.9    8.2  
+ref|XP_747962.1|  spindle pole body associated protein SnaD [Aspe...  33.9    8.3  
+gb|EMP39877.1|  Protein Daple [Chelonia mydas]                        33.9    8.4  
+ref|NP_058936.1|  myosin-7 [Rattus norvegicus] >sp|P02564.2|MYH7_...  33.9    8.7  
+ref|WP_019249159.1|  chromosome partitioning protein Smc [Bordete...  33.9    8.8  
+ref|XP_005165786.1|  PREDICTED: myosin-11 isoform X1 [Danio rerio]    33.9    8.8  
+gb|EPY73257.1|  myosin, heavy polypeptide 9, non-muscle isoform 1...  33.9    8.9  
+ref|XP_002824640.1|  PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Po...  33.9    8.9  
+gb|ABQ59035.1|  MYH7 protein [Homo sapiens]                           33.9    9.0  
+emb|CAC20413.1|  beta-myosin heavy chain [Homo sapiens]               33.9    9.0  
+ref|XP_005560928.1|  PREDICTED: myosin-7 isoform X1 [Macaca fasci...  33.9    9.0  
+gb|ABS19438.1|  multivalent antigen sjGAPDH-97 [synthetic construct]  33.9    9.0  
+gb|ABS19447.1|  multivalent antigen sj97-GAPDH [synthetic construct]  33.9    9.0  
+ref|XP_005165787.1|  PREDICTED: myosin-11 isoform X2 [Danio rerio]    33.9    9.3  
+gb|AAI62152.1|  Myosin, heavy polypeptide 11, smooth muscle [Dani...  33.9    9.3  
+ref|NP_001019619.1|  myosin-11 [Danio rerio] >gb|AAY42972.1| smoo...  33.9    9.3  
+gb|AAA51837.1|  beta-myosin heavy chain [Homo sapiens] >gb|AAA628...  33.9    9.5  
+ref|NP_000248.2|  myosin-7 [Homo sapiens] >ref|XP_005267753.1| PR...  33.9    9.5  
+ref|XP_003808134.1|  PREDICTED: myosin-7 [Pan paniscus]               33.9    9.5  
+gb|EHH27757.1|  hypothetical protein EGK_18031 [Macaca mulatta]       33.9    9.5  
+ref|XP_001376000.1|  PREDICTED: myosin-9 [Monodelphis domestica]      33.9    9.5  
+ref|WP_021040919.1|  chromosome segregation protein SMC [Halonoti...  33.9    9.5  
+gb|ACH92815.1|  mutant cardiac muscle beta-myosin heavy chain 7 [...  33.9    9.6  
+ref|XP_005343045.1|  PREDICTED: LOW QUALITY PROTEIN: myosin, heav...  33.9    9.6  
+gb|EDP51229.1|  spindle pole body associated protein SnaD, putati...  33.9    9.8  
+ref|XP_004646741.1|  PREDICTED: myosin-6 [Octodon degus]              33.9    9.8  
+ref|XP_004485267.1|  PREDICTED: LOW QUALITY PROTEIN: myosin, heav...  33.9    9.8  
+
+
+>gb|EFA75257.1| cortexillin II [Polysphondylium pallidum PN500]
+Length=816
+
+ Score =  136 bits (343),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 46/99 (46%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +AN+LA LE SLE EK S+++L +QK +L   L  +  +  +R +R+ ++++K+D+ L+ 
+Sbjct  599  LANKLASLEQSLEGEKTSQDELARQKKELEESLRLIRQQNEQRNQRIADIQSKIDDALRG  658
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+            ++ EK+A+++LE+RL+KTEKD+AILELKLAE +DE  +L
+Sbjct  659  IDDEKMAKLDLESRLSKTEKDKAILELKLAETLDENERL  697
+
+
+>ref|XP_642870.1| cortexillin II [Dictyostelium discoideum AX4]
+ sp|Q550R2.1|CTXB_DICDI RecName: Full=Cortexillin-2; AltName: Full=Cortexillin II
+ gb|AAB62274.1| cortexillin II [Dictyostelium discoideum]
+ gb|EAL68948.1| cortexillin II [Dictyostelium discoideum AX4]
+Length=441
+
+ Score =  133 bits (335),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 52/100 (52%), Positives = 74/100 (74%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N+LA LE SLE EK S+E+L+KQK  L   L  +  +   R  R+ +L++K+D+ L+ 
+Sbjct  246  LNNKLASLEQSLEGEKHSQEELVKQKKDLEDALNKIREQNDNRNSRITDLQSKIDDALRG  305
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            L+ EKLA+++LE+RLAK EKD+AILELKLAE +DEK +LE
+Sbjct  306  LDDEKLAKLDLESRLAKCEKDKAILELKLAEILDEKDRLE  345
+
+
+>ref|XP_003284206.1| hypothetical protein DICPUDRAFT_52744 [Dictyostelium purpureum]
+ gb|EGC39302.1| hypothetical protein DICPUDRAFT_52744 [Dictyostelium purpureum]
+Length=443
+
+ Score =  125 bits (314),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 54/100 (54%), Positives = 78/100 (78%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N+LA LE SLE EK S+E+L+KQK +L + L  + SE   R  R+ +L++++D+ L+ 
+Sbjct  246  LNNKLASLEQSLEGEKHSQEELLKQKQELENALNKIRSENENRNNRITDLQSRIDDALRG  305
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            L+ EKLA+++LE+RLAKTEKD+AILELKLAE +DEK +LE
+Sbjct  306  LDDEKLAKLDLESRLAKTEKDKAILELKLAEILDEKDRLE  345
+
+
+>ref|XP_004351138.1| cortexillin II [Dictyostelium fasciculatum]
+ gb|EGG14630.1| cortexillin II [Dictyostelium fasciculatum]
+Length=454
+
+ Score =  125 bits (314),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 46/100 (46%), Positives = 75/100 (75%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N L+ LE +L+ EK+S+E+L KQK  L + L  L ++   R K++ +++A++D+ L+ 
+Sbjct  247  LQNTLSSLEGALQGEKLSQEELAKQKKDLENTLNELRAQNEARNKKISDIQARIDDALRG  306
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            ++ E++A+++LEARL+KTEKD+AILELKL E  DEK +LE
+Sbjct  307  IDDERMAKLDLEARLSKTEKDKAILELKLQEMRDEKERLE  346
+
+
+>ref|XP_636175.1| actin bundling protein [Dictyostelium discoideum AX4]
+ sp|Q54HG2.1|CTXA_DICDI RecName: Full=Cortexillin-1; AltName: Full=Cortexillin I
+ gb|AAB62275.1| cortexillin I [Dictyostelium discoideum]
+ gb|EAL62673.1| actin bundling protein [Dictyostelium discoideum AX4]
+Length=444
+
+ Score =  124 bits (310),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK
+Sbjct  243  EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  302
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE
+Sbjct  303  NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  343
+
+
+>sp|Q9Y0T3.1|CTXB_POLPA RecName: Full=Cortexillin-2; AltName: Full=Cortexillin II
+ gb|AAD40021.1|AF151102_1 cortexillin II [Polysphondylium pallidum]
+Length=449
+
+ Score =  122 bits (306),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 46/99 (46%), Positives = 76/99 (77%), Gaps = 0/99 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +AN+LA LE SLE EK S+++L +QK +L   L  +  +  +R +R+ ++++K+D+ L+ 
+Sbjct  248  LANKLASLEQSLEGEKTSQDELARQKKELEESLRLIRQQNEQRNQRIADIQSKIDDALRG  307
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+            ++ EK+A+++LE+RL+KTEKD+AILELKLAE +DE  +L
+Sbjct  308  IDDEKMAKLDLESRLSKTEKDKAILELKLAETLDENERL  346
+
+
+>ref|XP_003289516.1| cortexillin I [Dictyostelium purpureum]
+ gb|EGC33934.1| cortexillin I [Dictyostelium purpureum]
+Length=431
+
+ Score =  121 bits (304),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 91/101 (90%), Positives = 98/101 (97%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ANRLAGL+NSLE+EKVSREQLIKQKD+L SLLASLE EGAEREKRLRELEAKL++TLK
+Sbjct  228  EIANRLAGLQNSLENEKVSREQLIKQKDELKSLLASLEFEGAEREKRLRELEAKLEDTLK  287
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEA +EKSKLE
+Sbjct  288  NLELEKLARMELEARLAKTEKDRAILELKLAEATEEKSKLE  328
+
+
+>sp|Q9Y0T4.1|CTXA_POLPA RecName: Full=Cortexillin-1; AltName: Full=Cortexillin I
+ gb|AAD40020.1|AF151101_1 cortexillin I [Polysphondylium pallidum]
+ gb|EFA76383.1| actin bundling protein [Polysphondylium pallidum PN500]
+Length=440
+
+ Score =  119 bits (298),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 80/101 (79%), Positives = 94/101 (93%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++A++LAGL+NSLESEK+SREQLIKQKD+L SLLASLE E AEREK LRELEAKL+E LK
+Sbjct  243  DLASKLAGLQNSLESEKLSREQLIKQKDELKSLLASLEGEAAEREKFLRELEAKLEEILK  302
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELE+LARMELE+RL+K EKD+AILELKLAEA DEK++LE
+Sbjct  303  NLELERLARMELESRLSKMEKDKAILELKLAEAQDEKARLE  343
+
+
+>ref|XP_004362574.1| actin bundling protein [Dictyostelium fasciculatum]
+ gb|EGG24723.1| actin bundling protein [Dictyostelium fasciculatum]
+Length=445
+
+ Score =  104 bits (260),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 75/100 (75%), Positives = 88/100 (88%), Gaps = 0/100 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +A+RLAGL++SLE+EK+SRE LIKQK++L SLLASLE E A RE  LRELEAKLDE LKN
+Sbjct  244  IASRLAGLQSSLENEKMSRELLIKQKEELKSLLASLEGEAASREHHLRELEAKLDEVLKN  303
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            LELEKLAR+ELE RLAKTEKD+A+LEL LAEA D K++LE
+Sbjct  304  LELEKLARLELENRLAKTEKDKALLELALAEATDAKNRLE  343
+
+
+>pdb|1D7M|A Chain A, Coiled-Coil Dimerization Domain From Cortexillin I
+ pdb|1D7M|B Chain B, Coiled-Coil Dimerization Domain From Cortexillin I
+Length=101
+
+ Score = 90.6 bits (223),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK
+Sbjct  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE
+Sbjct  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+
+
+>gb|EIW55097.1| hypothetical protein TRAVEDRAFT_172756 [Trametes versicolor FP-101664 
+SS1]
+Length=1378
+
+ Score = 44.3 bits (103),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 28/100 (28%), Positives = 50/100 (50%), Gaps = 4/100 (4%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+AN LA         +  R +L++ +++    + SLE+  AE+   L E +A    TL+
+Sbjct  625  ELANALAEATEQARVAEHLRHELLQVQEEFE-AVKSLEARNAEKVATLLEDQA---NTLR  680
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE  +    +LE ++     +  +++  LAEA  EK +L
+Sbjct  681  RLEEARARGEDLETQIQDARSESDVVKQALAEASKEKDRL  720
+
+
+>ref|WP_022409144.1| putative uncharacterized protein [Clostridium sp. CAG:354]
+ emb|CDE11606.1| putative uncharacterized protein [Clostridium sp. CAG:354]
+Length=431
+
+ Score = 43.2 bits (100),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 24/85 (28%), Positives = 47/85 (55%), Gaps = 0/85 (0%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            LE  +  ++Q+ + K  L +  A +E+  +E+E + +EL A   E  K ++  +    +L
+Sbjct  154  LEQIQNEQKQIEETKKSLENDKAEVETLKSEKEVKTQELNATKQEKEKYIDDLEGEAKDL  213
+
+Query  73   EARLAKTEKDRAILELKLAEAIDEK  97
+            +A LA+ EKD+A ++ +L E  +  
+Sbjct  214  QADLAQFEKDKAAIDKRLEEIANAN  238
+
+
+>emb|CAF99582.1| unnamed protein product [Tetraodon nigroviridis]
+Length=1905
+
+ Score = 42.8 bits (99),  Expect = 0.015, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 52/103 (50%), Gaps = 7/103 (7%)
+
+Query  5     RLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEG-------AEREKRLRELEAKLDE  57
+              +  L+ SLE  K S   ++++K ++ +   ++E +            +R +ELE ++ +
+Sbjct  1374  EIGRLQLSLEEAKQSSAAVVREKAEVEAAKGAVEGQAGRLTLETERLRRRAQELENEVAK  1433
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+               + ++  KL    L  R+ + EK++  LE  LAE  +++ ++
+Sbjct  1434  LNRIIDEAKLQESRLGDRVGRLEKEKKQLEESLAEIREQEEEM  1476
+
+
+ Score = 39.7 bits (91),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 25/95 (26%), Positives = 42/95 (44%), Gaps = 2/95 (2%)
+
+Query  7     AGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEK  66
+             A L+ S   ++V R  L K+K QL   LA +  +  E  +  R L  +L++  +NL    
+Sbjct  1441  AKLQESRLGDRVGR--LEKEKKQLEESLAEIREQEEEMSRANRALTVRLEDVQRNLNRLS  1498
+
+Query  67    LARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +   ELE  L +    +   +       DE+  L+
+Sbjct  1499  VTHKELEEMLQEERSQKEQFKNMKNNIEDERRLLD  1533
+
+
+>gb|ELW52371.1| Myosin-9 [Tupaia chinensis]
+Length=1449
+
+ Score = 42.4 bits (98),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1084  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1140
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1141  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1178
+
+
+ Score = 34.7 bits (78),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 53/100 (53%), Gaps = 6/100 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+             ++ N+   +   LE E++ RE+  KQ+ +L      LE +  +   ++ EL+A++ E   
+Sbjct  1045  KLKNKHEAMITDLE-ERLRREE--KQRQELEKTRRKLEGDSTDLSDQIAELQAQIAELKM  1101
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+              L  ++    EL+A LA+ E++ A   + L +  + +S++
+Sbjct  1102  QLAKKE---EELQAALARVEEEAAQKNMALKKIRELESQI  1138
+
+
+>gb|ETE72120.1| Myosin-11, partial [Ophiophagus hannah]
+Length=2061
+
+ Score = 42.4 bits (98),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 57/98 (58%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++  ++A L+  +   K+   QL K++++L + LA LE E +++    K++RELEA + +
+Sbjct  1315  DLHEQIADLQAQIAELKM---QLAKKEEELQAALARLEDEMSQKNNALKKIRELEAHISD  1371
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++L+ E+ AR + E +     ++   L+ +L + +D
+Sbjct  1372  LQEDLDSERAARNKAEKQKRDLGEELEALKTELEDTLD  1409
+
+
+>gb|EFA01522.1| hypothetical protein TcasGA2_TC007082 [Tribolium castaneum]
+Length=1127
+
+ Score = 41.6 bits (96),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 53/101 (52%), Gaps = 1/101 (1%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ + LA  E   E+ K + E+L ++   +++ LA  E E  +R +   ++E+ L    +
+Sbjct  471  EIVHLLAKEEELTEARKKA-EELERENTDMSNKLAKKEQELDQRTQEKEDIESSLVRIKE  529
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             LE E  A +E + RL + E   A L+ +++    E+ +LE
+Sbjct  530  RLEKETAAHIETQQRLNELEYRAADLDRQVSCERGERFRLE  570
+
+
+>ref|XP_970309.2| PREDICTED: similar to disheveled associated activator of morphogenesis 
+[Tribolium castaneum]
+Length=1132
+
+ Score = 41.6 bits (96),  Expect = 0.027, Method: Composition-based stats.
+ Identities = 28/101 (28%), Positives = 53/101 (52%), Gaps = 1/101 (1%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ + LA  E   E+ K + E+L ++   +++ LA  E E  +R +   ++E+ L    +
+Sbjct  471  EIVHLLAKEEELTEARKKA-EELERENTDMSNKLAKKEQELDQRTQEKEDIESSLVRIKE  529
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             LE E  A +E + RL + E   A L+ +++    E+ +LE
+Sbjct  530  RLEKETAAHIETQQRLNELEYRAADLDRQVSCERGERFRLE  570
+
+
+>ref|XP_002872478.1| hypothetical protein ARALYDRAFT_911268 [Arabidopsis lyrata subsp. 
+lyrata]
+ gb|EFH48737.1| hypothetical protein ARALYDRAFT_911268 [Arabidopsis lyrata subsp. 
+lyrata]
+Length=628
+
+ Score = 41.6 bits (96),  Expect = 0.030, Method: Composition-based stats.
+ Identities = 31/107 (29%), Positives = 57/107 (53%), Gaps = 6/107 (6%)
+
+Query  1    EMANRLAGLENSLESEKVSR------EQLIKQKDQLNSLLASLESEGAEREKRLRELEAK  54
+            EM+ +L  +E S E++++ +       QL + K++L   L   ++   E EKR +E+E +
+Sbjct  424  EMSQKLKDMERSFENQQLRQMMERVETQLRETKERLEQQLNQEQASRLEMEKRAKEVEKQ  483
+
+Query  55   LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              + +K L  E+ AR+ELE R  + +   + +  KL E    + +LE
+Sbjct  484  SSDVVKKLNEEQTARLELEKRAKEADMQLSDVVKKLNEEQAARLELE  530
+
+
+ Score = 40.9 bits (94),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 31/100 (31%), Positives = 52/100 (52%), Gaps = 7/100 (7%)
+
+Query  9    LENSLESEKVSREQLIKQKDQLN----SLLASLESEGAER---EKRLRELEAKLDETLKN  61
+            LE  L  E+ SR ++ K+  ++      ++  L  E   R   EKR +E + +L + +K 
+Sbjct  459  LEQQLNQEQASRLEMEKRAKEVEKQSSDVVKKLNEEQTARLELEKRAKEADMQLSDVVKK  518
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            L  E+ AR+ELE R  + EK  + +  KL E +  + +LE
+Sbjct  519  LNEEQAARLELEKRANEVEKQSSDVVKKLNEELAARLELE  558
+
+
+ Score = 35.5 bits (80),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 53/108 (49%), Gaps = 7/108 (6%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQ----LNSLLASLESEGAER---EKRLRELEA  53
+            E+  + + +   L  E+ +R +L K+  +    L+ ++  L  E A R   EKR  E+E 
+Sbjct  479  EVEKQSSDVVKKLNEEQTARLELEKRAKEADMQLSDVVKKLNEEQAARLELEKRANEVEK  538
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            +  + +K L  E  AR+ELE R  + E+    +  KL E    + +LE
+Sbjct  539  QSSDVVKKLNEELAARLELEKRAKEAEEHSTDVVKKLNEEQAARLELE  586
+
+
+ Score = 34.7 bits (78),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 54/107 (50%), Gaps = 7/107 (7%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLN----SLLASLESEGAER---EKRLRELEA  53
+            E   +L+ +   L  E+ +R +L K+ +++      ++  L  E A R   EKR +E E 
+Sbjct  507  EADMQLSDVVKKLNEEQAARLELEKRANEVEKQSSDVVKKLNEELAARLELEKRAKEAEE  566
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+               + +K L  E+ AR+ELE R  + E+    +  KL E +++  K+
+Sbjct  567  HSTDVVKKLNEEQAARLELERRAKEAEEHSTDVVKKLREDLEKAEKM  613
+
+
+>emb|CCA16034.1| AlNc14C17G1821 [Albugo laibachii Nc14]
+Length=1104
+
+ Score = 40.9 bits (94),  Expect = 0.055, Method: Composition-based stats.
+ Identities = 21/99 (21%), Positives = 44/99 (44%), Gaps = 0/99 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + NR+    N+++ E++    L K+  +L + LA  +      + ++  L+ K DE    
+Sbjct  433  LQNRVNSTSNAIKEERIRSHTLQKRILELETELARTKEIAHANQNQVSTLQNKTDEASSQ  492
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+               E+  R + E + +  E +  +LE +L        +L
+Sbjct  493  ASQERTKRCDAEQKASVFETNMRLLETELTSLKATNEQL  531
+
+
+>ref|XP_005634823.1| PREDICTED: kinesin family member 16B isoform X1 [Canis lupus 
+familiaris]
+Length=1885
+
+ Score = 40.5 bits (93),  Expect = 0.072, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 51/89 (57%), Gaps = 6/89 (7%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            L+ +K   E +++ K++L  L     +E AE+ +  +EL     + LK  + E+ A++EL
+Sbjct  703  LQKKKQEEESVLRVKEELQRLQELNNNEKAEKLQIFQEL-----DRLKREKDEQYAKLEL  757
+
+Query  73   EA-RLAKTEKDRAILELKLAEAIDEKSKL  100
+            E  RL + EK++ +L + L E + EK ++
+Sbjct  758  EKKRLEEQEKEQVMLVVHLEEQLREKQEM  786
+
+
+>pdb|1I84|S Chain S, Cryo-Em Structure Of The Heavy Meromyosin Subfragment 
+Of Chicken Gizzard Smooth Muscle Myosin With Regulatory Light 
+Chain In The Dephosphorylated State. Only C Alphas Provided 
+For Regulatory Light Chain. Only Backbone Atoms Provided 
+For S2 Fragment.
+ pdb|1I84|V Chain V, Cryo-Em Structure Of The Heavy Meromyosin Subfragment 
+Of Chicken Gizzard Smooth Muscle Myosin With Regulatory Light 
+Chain In The Dephosphorylated State. Only C Alphas Provided 
+For Regulatory Light Chain. Only Backbone Atoms Provided 
+For S2 Fragment.
+Length=1184
+
+ Score = 40.1 bits (92),  Expect = 0.087, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 56/98 (57%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++  ++A L+  +   K    QL K++++L + LA LE E +++    K++RELE+ + +
+Sbjct  1071  DLHEQIAELQAQIAELKA---QLAKKEEELQAALARLEDETSQKNNALKKIRELESHISD  1127
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE EK AR + E +     ++   L+ +L + +D
+Sbjct  1128  LQEDLESEKAARNKAEKQKRDLSEELEALKTELEDTLD  1165
+
+
+>ref|YP_005167889.1| metal dependent phosphohydrolase [Desulfovibrio desulfuricans 
+ND132]
+ ref|WP_014322513.1| ribonuclease [Desulfovibrio desulfuricans]
+ gb|EGB15086.1| metal dependent phosphohydrolase [Desulfovibrio desulfuricans 
+ND132]
+Length=518
+
+ Score = 39.7 bits (91),  Expect = 0.094, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 43/86 (50%), Gaps = 0/86 (0%)
+
+Query  14   ESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELE  73
+            ES   +++++  QK +L       ES+    EKRL   E +LD   + +  ++   +ELE
+Sbjct  55   ESRLQAQDEIFNQKKELEREFKDRESQLKSEEKRLHSKEERLDAKREKVADKEAQVVELE  114
+
+Query  74   ARLAKTEKDRAILELKLAEAIDEKSK  99
+             +L K EK  + LE  L +  DE  +
+Sbjct  115  KQLIKQEKHLSELEEDLTQKSDEHER  140
+
+
+>ref|XP_005797606.1| PREDICTED: myosin-9-like [Xiphophorus maculatus]
+Length=1382
+
+ Score = 39.7 bits (91),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 30/98 (31%), Positives = 58/98 (59%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             E+ +++A L+  +      R QL K++++L + LA +E E A +    K++RELEA++ E
+Sbjct  1061  ELHDQIADLQAQIAE---LRAQLAKKEEELLAALARIEEEAAAKNTAQKKIRELEAQISE  1117
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LELE+ AR + E +     ++   L+ +L + +D
+Sbjct  1118  LQEDLELERQARSKAEKQRRDLGEELEALKTELEDTLD  1155
+
+
+>ref|WP_005028355.1| ribonuclease [Bilophila]
+ gb|EFV43731.1| 2',3'-cyclic-nucleotide 2'-phosphodiesterase [Bilophila wadsworthia 
+3_1_6]
+ gb|EGW45331.1| 2',3'-cyclic-nucleotide 2'-phosphodiesterase [Bilophila sp. 4_1_30]
+Length=519
+
+ Score = 39.7 bits (91),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 42/79 (53%), Gaps = 0/79 (0%)
+
+Query  20   REQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAKT  79
+            +++L  QK +L       E E   R+++L+E   +L+E L+    ++   + +E  L+K 
+Sbjct  62   QDELFNQKRELEHEFKERERELKARDRKLQEQGERLEEKLEKATEKEHELLSVEKDLSKK  121
+
+Query  80   EKDRAILELKLAEAIDEKS  98
+            E+  A LE  L E IDE+ 
+Sbjct  122  ERKLAELEETLNERIDEQE  140
+
+
+>gb|ENH77034.1| intracellular protein transport-like protein [Colletotrichum 
+orbiculare MAFF 240422]
+Length=1096
+
+ Score = 39.3 bits (90),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 48/103 (47%), Gaps = 10/103 (10%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASL---ESEGAEREKRLRELEAKLDE  57
+            E A+    L N L+ E+  R QL +Q  +L    + +   + +  +   RLR+LE   ++
+Sbjct  461  EKASMRLELTNKLQDERTRRNQLDQQIKELADKASRIDVAQIDNEDANNRLRDLEHTCED  520
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+              + L  E L +   E  L+       +L+++L +  +E+  L
+Sbjct  521  LRRRLGEEMLVKSNFEDLLS-------VLKVELQDTTNERDNL  556
+
+
+>ref|XP_006156597.1| PREDICTED: myosin-9-like, partial [Tupaia chinensis]
+Length=1348
+
+ Score = 39.3 bits (90),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1037  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1093
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1094  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1131
+
+
+>ref|WP_009138925.1| chromosome segregation protein SMC [Slackia piriformis]
+ gb|EJZ84387.1| chromosome segregation protein SMC [Slackia piriformis YIT 12062]
+Length=1178
+
+ Score = 39.3 bits (90),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 52/86 (60%), Gaps = 0/86 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E++   A  + + +S +  R++L K+   L + LASL ++  + E++L E++ +++E   
+Sbjct  708  ELSQAHAQRKGANKSAEAERQRLAKRVGVLEATLASLATQLRQTEEQLSEVQPRIEELST  767
+
+Query  61   NLELEKLARMELEARLAKTEKDRAIL  86
+             ++  ++AR ELE RL+    +RA+L
+Sbjct  768  VVDSCRVARTELEERLSSLNGNRAML  793
+
+
+>gb|AAA59888.1| cellular myosin heavy chain, partial [Homo sapiens]
+Length=1337
+
+ Score = 39.3 bits (90),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|WP_021292144.1| hypothetical protein [Virgibacillus sp. CM-4]
+ gb|EQB35059.1| hypothetical protein M948_18345 [Virgibacillus sp. CM-4]
+Length=210
+
+ Score = 38.6 bits (88),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 24/95 (25%), Positives = 52/95 (55%), Gaps = 0/95 (0%)
+
+Query  7    AGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEK  66
+            +G + +L+ EKV+ ++L  + ++L   L   ES+  + EKRL E ++++DETL  ++   
+Sbjct  29   SGAKVTLDEEKVAHDELTSKINKLEGKLEETESKLQDEEKRLSERQSEVDETLALVDDRD  88
+
+Query  67   LARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              + E++    +    +A L+   +    ++ +LE
+Sbjct  89   TIKSEIDNLDTELSDKKAELDDMNSNIESKEEELE  123
+
+
+>ref|XP_002879515.1| EMB1611/MEE22 [Arabidopsis lyrata subsp. lyrata]
+ gb|EFH55774.1| EMB1611/MEE22 [Arabidopsis lyrata subsp. lyrata]
+Length=1287
+
+ Score = 38.9 bits (89),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 33/96 (34%), Positives = 47/96 (49%), Gaps = 1/96 (1%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N LA      ESE+   E   K+ DQ  S L  L +   +    L  L + L+   K 
+Sbjct  177  VKNLLASERQKTESERKKAESEKKKADQYLSELEVLRTSAHKTSSDLLTLTSNLETIKKQ  236
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEK  97
+            LELEK   ++ E + A TE  +A  ++KLAE + EK
+Sbjct  237  LELEKQKTLK-EKKRADTESAKARDQMKLAEGLSEK  271
+
+
+>gb|AAH49849.1| MYH9 protein [Homo sapiens]
+Length=1374
+
+ Score = 38.9 bits (89),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_003977504.1| PREDICTED: myosin-6 [Takifugu rubripes]
+Length=2541
+
+ Score = 38.9 bits (89),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 48/103 (47%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             L  L++SLESE  SR + ++ K ++   L  +E        + A+ +K+++ L+  + + 
+Sbjct  2200  LDSLQSSLESETRSRNEALRLKKKMEGDLNEMEIQLSQANRQAADAQKQIKNLQTFMKDL  2259
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                L+    A  ++    A  E+   +++ +L E      + E
+Sbjct  2260  QMQLDDAHHANDDMRENTALLERRHNLIQAELEEVRAAFEQTE  2302
+
+
+ Score = 35.5 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 51/105 (49%), Gaps = 7/105 (7%)
+
+Query  4     NRLAGLENSLESEKVSREQLIKQKDQLNSL-------LASLESEGAEREKRLRELEAKLD  56
+             N++  L   + S+  +  +L K+K  L  +       L S E +     K   +LE ++D
+Sbjct  1579  NKVKNLTEEMASQDDNIMKLTKEKKALQEVHQQTLDDLQSEEDKANSLTKAKAKLEQQVD  1638
+
+Query  57    ETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +   +LE EK  RM++E    K E D  +++  L +  ++K +LE
+Sbjct  1639  DLEGSLEQEKKVRMDIERSKRKLEGDFKLMQESLMDLENDKQQLE  1683
+
+
+>emb|CDJ86566.1| Protein SAS-6 [Haemonchus contortus]
+Length=604
+
+ Score = 38.6 bits (88),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 29/107 (27%), Positives = 56/107 (52%), Gaps = 7/107 (7%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            + N +  L+  L      R+ + K++D+LN ++  L+    + ++R+ ELE ++ +  K 
+Sbjct  154  IINNMRSLQKQLCKLNKERKDVEKERDELNCMVDDLKEFRLKADQRIAELEQRVKDAEKR  213
+
+Query  62   LELEKLARMELEA--RLAKTEKDRAI-----LELKLAEAIDEKSKLE  101
+               E L R E E   +L + E+D A+     L+ +LA+A  +  +LE
+Sbjct  214  AADETLRREEFEQDLQLERDERDSALSTIEHLKDELADAEKKVRELE  260
+
+
+>ref|YP_001630312.1| chromosome partition protein [Bordetella petrii DSM 12804]
+ ref|WP_012248627.1| chromosome partitioning protein Smc [Bordetella petrii]
+ emb|CAP42043.1| putative chromosome partition protein [Bordetella petrii]
+Length=1241
+
+ Score = 38.6 bits (88),  Expect = 0.31, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 48/102 (47%), Gaps = 3/102 (3%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+             + +   AGL+++LE      E L + + +L++L A L     ER   E+ L  L A++ E
+Sbjct  917   DASASQAGLQDALEVRAEREEALSRARQELDNLSALLRGADEERMQQERALEPLRARITE  976
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+                  +  +LA  +   +L   E DR  L  +LA   DE  +
+Sbjct  977   LQLQEQAARLAEEQFTEQLNAREVDREALAQELAAMPDEWRR  1018
+
+
+>ref|YP_004122842.1| YmdA/YtgF protein [Desulfovibrio aespoeensis Aspo-2]
+ ref|WP_013515997.1| ribonuclease [Desulfovibrio aespoeensis]
+ gb|ADU64096.1| YmdA/YtgF protein [Desulfovibrio aespoeensis Aspo-2]
+Length=518
+
+ Score = 38.2 bits (87),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 43/86 (50%), Gaps = 0/86 (0%)
+
+Query  14   ESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELE  73
+            ES   +++++  QK +L       E++    EKRL+  E +LD   + +  ++   +ELE
+Sbjct  55   ESRLQAQDEIFSQKKELEREFKDRENQLKNEEKRLQGKEERLDAKREKVADKEAQVVELE  114
+
+Query  74   ARLAKTEKDRAILELKLAEAIDEKSK  99
+             +L K EK  A LE  L +   E  +
+Sbjct  115  KQLIKQEKQLAELEEDLEQKAGEHER  140
+
+
+>ref|XP_006286856.1| hypothetical protein CARUB_v10003913mg [Capsella rubella]
+ gb|EOA19754.1| hypothetical protein CARUB_v10003913mg [Capsella rubella]
+Length=518
+
+ Score = 38.2 bits (87),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 50/99 (51%), Gaps = 6/99 (6%)
+
+Query  9    LENSLESEKVS------REQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNL  62
+            +E   E+E++         QL + K+ L   L + ++   E EKR +E E +  + +K L
+Sbjct  378  MERCFENEQLKHMMERVETQLRETKESLEQKLNAEQAARVELEKRAKESEKQASDVVKKL  437
+
+Query  63   ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              E+ AR+ELE R  + E+  + +  KL E    + ++E
+Sbjct  438  NDEQAARLELERRTKEAEEQSSDVVKKLNEEQAARVEME  476
+
+
+>ref|XP_005921652.1| PREDICTED: rho-associated protein kinase 2-like isoform X1 [Haplochromis 
+burtoni]
+Length=1591
+
+ Score = 38.2 bits (87),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.5 bits (80),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_005731099.1| PREDICTED: rho-associated protein kinase 2-like isoform X1 [Pundamilia 
+nyererei]
+Length=1591
+
+ Score = 38.2 bits (87),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_003771178.1| PREDICTED: myosin-9 [Sarcophilus harrisii]
+Length=1882
+
+ Score = 38.2 bits (87),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 59/98 (60%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ +++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLNDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNLALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_004568814.1| PREDICTED: rho-associated protein kinase 2-like isoform X2 [Maylandia 
+zebra]
+Length=1591
+
+ Score = 38.2 bits (87),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.5 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_003458292.1| PREDICTED: rho-associated protein kinase 2-like [Oreochromis 
+niloticus]
+Length=1515
+
+ Score = 38.2 bits (87),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTRADTEKLARSVVEEQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+>ref|WP_004566403.1| putative chromosome partition protein [Bordetella bronchiseptica]
+ emb|CCN17446.1| putative chromosome partition protein [Bordetella bronchiseptica 
+D445]
+Length=988
+
+ Score = 38.2 bits (87),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  665  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  724
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  725  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  763
+
+
+>gb|ETF01644.1| chromosome partitioning protein Smc [Advenella kashmirensis W13003]
+Length=1175
+
+ Score = 38.2 bits (87),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 54/97 (56%), Gaps = 3/97 (3%)
+
+Query  7    AGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEK  66
+            AGL+++LE+  +  E L   + +L++L A+L      R +  + LE + +   +    E+
+Sbjct  858  AGLQDALEARAIREEALAAARLELDNLAATLRGADETRMRTEQSLEPRRNRITQLQLDEQ  917
+
+Query  67   LARMELEA---RLAKTEKDRAILELKLAEAIDEKSKL  100
+             AR+ +E    +L + E DRA L+L++ +  ++ SK+
+Sbjct  918  AARLAVEQFSEQLDQAEVDRAALKLEMNDLPEDWSKV  954
+
+
+>ref|XP_004568813.1| PREDICTED: rho-associated protein kinase 2-like isoform X1 [Maylandia 
+zebra]
+Length=1603
+
+ Score = 38.2 bits (87),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.5 bits (80),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>gb|ERE76407.1| myosin-15-like protein [Cricetulus griseus]
+Length=2890
+
+ Score = 38.2 bits (87),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 50/103 (49%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDET  58
+             L  L++SL+SE  SR +  + + ++   L  +E +     +++ +       L+++L + 
+Sbjct  2493  LGSLQSSLDSEASSRIEATRLRKKMEGDLKEVEIQLCAANRQVSQTARALGQLQSQLKDL  2552
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              + L+       +L+ ++A  E+   +L+ +L E    + + E
+Sbjct  2553  QQQLDDSTYQNKDLKQQVAVAEQRNTLLQSELEELRSLQEQTE  2595
+
+
+ Score = 34.7 bits (78),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 44/100 (44%), Gaps = 0/100 (0%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+             ++  +L   + +L + +   E LIK + +L + +  L     E E    EL A+  +   
+Sbjct  1861  DLLLKLQAEQETLANAEEQCESLIKSRMELEARVKELSGRVEEEEAINSELTARGRKLED  1920
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+                  K    +LE  LAK+EK++   E K+    +E   L
+Sbjct  1921  ECSELKKEIYDLETILAKSEKEKCAAEHKVRILTEEVHSL  1960
+
+
+>ref|WP_008870939.1| ribonuclease [Desulfonatronospira thiodismutans]
+ gb|EFI33589.1| metal dependent phosphohydrolase [Desulfonatronospira thiodismutans 
+ASO3-1]
+Length=519
+
+ Score = 37.8 bits (86),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 44/81 (54%), Gaps = 0/81 (0%)
+
+Query  19   SREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAK  78
+            ++++  KQK +L       E E  ++E+RL+E E +L+  L+ +  ++   +  E +L K
+Sbjct  61   AKDEAFKQKKELEEDAREREKELKKQEQRLQEKEERLENKLEKVAQKESEVVAWENQLTK  120
+
+Query  79   TEKDRAILELKLAEAIDEKSK  99
+             E+  A  E  L E ID +SK
+Sbjct  121  QERTFAEKEEHLQELIDNQSK  141
+
+
+>ref|WP_023853152.1| chromosome segregation protein SMC [Bordetella pertussis]
+ gb|ETA64151.1| chromosome segregation protein SMC [Bordetella pertussis CHLA-11]
+Length=1226
+
+ Score = 38.2 bits (87),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+             + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  903   DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  962
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                  +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  963   LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  1001
+
+
+>ref|WP_007570506.1| hypothetical protein [Bacteroides coprocola]
+ gb|EDV00201.1| M protein repeat protein [Bacteroides coprocola DSM 17136]
+Length=696
+
+ Score = 37.8 bits (86),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 29/98 (30%), Positives = 42/98 (43%), Gaps = 0/98 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +A     LE  L       E +   K +L   L   E +        +ELEA+L E  K 
+Sbjct  195  IAASKKELEEKLTEAGKQIETIAASKKELEEKLTEAEKQKETITASKKELEARLTEAAKQ  254
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+             E    ++ ELE +LA+ EK + ILE    E  ++  K
+Sbjct  255  KETITASKKELEEKLAEVEKQKEILEANKKELEEQSEK  292
+
+
+>ref|XP_005921653.1| PREDICTED: rho-associated protein kinase 2-like isoform X2 [Haplochromis 
+burtoni]
+Length=1515
+
+ Score = 38.2 bits (87),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.1 bits (79),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_005731100.1| PREDICTED: rho-associated protein kinase 2-like isoform X2 [Pundamilia 
+nyererei]
+Length=1515
+
+ Score = 38.2 bits (87),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.1 bits (79),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_001248446.1| hypothetical protein CIMG_02217 [Coccidioides immitis RS]
+ gb|EAS37015.2| RNA polymerase Rpb1 C-terminal repeat domain-containing protein 
+[Coccidioides immitis RS]
+Length=1260
+
+ Score = 37.8 bits (86),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 27/101 (27%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ +R   LE      +  +E++ + K +L S +A LE +  E E++  ELE+K  E   
+Sbjct  736  ELVDRQKELEEKQSEVEAKQEEINRLKSELESKIAELEDKRRELEQKQGELESKQTELQA  795
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  +  + ELE + ++ E  +A L+ K  E   ++++L+
+Sbjct  796  IQDELREVKAELEEKKSQLESKQADLDKKQEELTAKQAELD  836
+
+
+>ref|XP_004078214.1| PREDICTED: myosin-10-like [Oryzias latipes]
+Length=1978
+
+ Score = 37.8 bits (86),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 30/102 (29%), Positives = 49/102 (48%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE-------KRLRELEAK  54
+             ++ ++  LE  LE E+  R Q +  K QL + L   E+             K+LR L+ +
+Sbjct  1581  LSKQVKELEIQLEEERTQRSQAVLSKKQLEAELQEAEAHVEASSRSKDEAMKQLRRLQGQ  1640
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E L+ L+  KLAR E+ A+   +EK    LE  +    +E
+Sbjct  1641  MKEVLRELDDSKLAREEVVAQSKDSEKKIQTLEADMLHLTEE  1682
+
+
+>ref|XP_004568815.1| PREDICTED: rho-associated protein kinase 2-like isoform X3 [Maylandia 
+zebra]
+Length=1527
+
+ Score = 37.8 bits (86),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 35.1 bits (79),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_005762429.1| hypothetical protein EMIHUDRAFT_465321 [Emiliania huxleyi CCMP1516]
+ gb|EOD10000.1| hypothetical protein EMIHUDRAFT_465321 [Emiliania huxleyi CCMP1516]
+Length=1205
+
+ Score = 37.8 bits (86),  Expect = 0.49, Method: Composition-based stats.
+ Identities = 31/106 (29%), Positives = 49/106 (46%), Gaps = 7/106 (7%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKL-------  55
+            A  L   + + +  ++  + L+ Q       LA      AE E  L E+EA++       
+Sbjct  809  AKALEKAQQAEQKLRLQLQSLVDQTGAAEEALAETRKRSAEGEAELVEIEARVTAAKAAF  868
+
+Query  56   DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            DE    L+  K A+   EARLA+  + R  LE ++A+A  E  +LE
+Sbjct  869  DEATGGLKSHKEAQQAHEARLAQIGERREALEQEVADAEVELKQLE  914
+
+
+>gb|AGO12400.1| AaceriAER045Cp [Saccharomycetaceae sp. 'Ashbya aceri']
+Length=1292
+
+ Score = 37.8 bits (86),  Expect = 0.56, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 53/101 (52%), Gaps = 5/101 (5%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+             E++++L+  E  L ++K   EQL++++ +L + L   E +  E  ++L  ++++L ET  
+Sbjct  1014  ELSSKLSKAEKDLANQKTKVEQLLQERSELKANLNVSEKQLQESSQKLANIQSELAET--  1071
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                 +KL   E + + +K E ++   +     A  +  KLE
+Sbjct  1072  ---KDKLKANEHDLKTSKQEAEKLKKQNLQQPAKKDTEKLE  1109
+
+
+>ref|WP_019390531.1| hypothetical protein [Bacillus endophyticus]
+Length=417
+
+ Score = 37.4 bits (85),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 22/62 (35%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  20   REQLIKQKDQ-LNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAK  78
+            +E+++K+K + L+   ASL+ + A+RE+ L +L+AK  + +K+L+L +  +  LEA++ K
+Sbjct  184  QEKVLKEKQESLSESQASLQEDSAKREEILTDLQAKYGDIVKDLDLSQKEQSSLEAQMQK  243
+
+Query  79   TE  80
+             E
+Sbjct  244  IE  245
+
+
+>gb|ESS29577.1| putative transmembrane protein [Toxoplasma gondii VEG]
+Length=1921
+
+ Score = 37.4 bits (85),  Expect = 0.63, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 51/99 (52%), Gaps = 2/99 (2%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+             ++ RLA L  + E EK   E + + +++       L  +  + +++L E+ A+LDE +K+
+Sbjct  1311  LSARLAALSATFEKEK--NELVAQVREREKGEANELAEKLQQTQRQLSEVHARLDENVKS  1368
+
+Query  62    LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE E   R ELE  L   EK+     L L EA +  + L
+Sbjct  1369  LEEELRRRQELERTLEAREKEAEEASLALHEATERIAAL  1407
+
+
+>ref|WP_022125830.1| m protein repeat protein [Bacteroides coprocola CAG:162]
+ emb|CDA70438.1| m protein repeat protein [Bacteroides coprocola CAG:162]
+Length=696
+
+ Score = 37.4 bits (85),  Expect = 0.70, Method: Composition-based stats.
+ Identities = 29/98 (30%), Positives = 45/98 (46%), Gaps = 0/98 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +A     LE  L   +  +E +   K +L + L   E +        +ELEA+L E  K 
+Sbjct  195  IAASKKELEEKLTEAEKLKETITASKKELEAKLTEAEKQKETIAASKKELEARLTEAEKQ  254
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+             E    ++ ELE +LA+ EK + ILE    E  ++  K
+Sbjct  255  KETIAASKKELEEKLAEVEKQKEILEANKKELEEQSEK  292
+
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 34/100 (34%), Positives = 44/100 (44%), Gaps = 7/100 (7%)
+
+Query  9    LENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLA  68
+            LE  L   +  +E +   K +L   L   E          +ELEAKL E  K  E    +
+Sbjct  181  LEEKLTEAEKQKETIAASKKELEEKLTEAEKLKETITASKKELEAKLTEAEKQKETIAAS  240
+
+Query  69   RMELEARLAKTEKDRAI-------LELKLAEAIDEKSKLE  101
+            + ELEARL + EK +         LE KLAE   +K  LE
+Sbjct  241  KKELEARLTEAEKQKETIAASKKELEEKLAEVEKQKEILE  280
+
+
+>ref|XP_003070766.1| hypothetical protein CPC735_038850 [Coccidioides posadasii C735 
+delta SOWgp]
+ gb|EER28621.1| hypothetical protein CPC735_038850 [Coccidioides posadasii C735 
+delta SOWgp]
+Length=1252
+
+ Score = 37.4 bits (85),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 27/101 (27%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ +R   LE      +  +E++ + K +L S +A LE +  E E++  ELE+K  E   
+Sbjct  728  ELVDRQKELEEKQSEVEAKQEEINRLKSELESKIAELEDKRRELEQKQGELESKQTELQA  787
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  +  + ELE + ++ E  +A L+ K  E   ++++L+
+Sbjct  788  IQDELQEVKAELEEKKSQLESKQADLDKKQEELTAKQAELD  828
+
+
+>ref|XP_005921654.1| PREDICTED: rho-associated protein kinase 2-like isoform X3 [Haplochromis 
+burtoni]
+Length=1502
+
+ Score = 37.4 bits (85),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_004568816.1| PREDICTED: rho-associated protein kinase 2-like isoform X4 [Maylandia 
+zebra]
+ ref|XP_004568817.1| PREDICTED: rho-associated protein kinase 2-like isoform X5 [Maylandia 
+zebra]
+Length=1502
+
+ Score = 37.4 bits (85),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|NP_885521.1| chromosome partition protein [Bordetella parapertussis 12822]
+ ref|NP_890341.1| chromosome partition protein [Bordetella bronchiseptica RB50]
+ ref|YP_006897128.1| chromosome partition protein [Bordetella parapertussis Bpp5]
+ ref|YP_006970640.1| chromosome partition protein [Bordetella bronchiseptica 253]
+ ref|WP_003813877.1| chromosome partitioning protein Smc [Bordetella]
+ emb|CAE38640.1| putative chromosome partition protein [Bordetella parapertussis]
+ emb|CAE35780.1| putative chromosome partition protein [Bordetella bronchiseptica 
+RB50]
+ emb|CCJ50652.1| putative chromosome partition protein [Bordetella parapertussis 
+Bpp5]
+ emb|CCJ56523.1| putative chromosome partition protein [Bordetella bronchiseptica 
+253]
+ emb|CCN24366.1| putative chromosome partition protein [Bordetella bronchiseptica 
+1289]
+Length=1195
+
+ Score = 37.4 bits (85),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  872  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  931
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  932  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  970
+
+
+>ref|XP_004501205.1| PREDICTED: tropomyosin-2-like [Cicer arietinum]
+Length=439
+
+ Score = 37.0 bits (84),  Expect = 0.75, Method: Composition-based stats.
+ Identities = 34/108 (31%), Positives = 54/108 (50%), Gaps = 13/108 (12%)
+
+Query  2    MANRLAGLE--NSLESEKVSRE------QLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            + N +A L+   SL++E+   +      +L KQ D L S L +  +E    E R+ ELE 
+Sbjct  85   LQNEVASLQKKGSLDAEEQVGKAHARAGELQKQVDNLKSELKTQNNEKVNWESRVAELEK  144
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            K+ +    LE  +    E + ++ KTE+      LK+AE    K+KLE
+Sbjct  145  KIHDLNSKLEDVQKVNEEQKKQIRKTER-----ALKIAEEEMMKAKLE  187
+
+
+>ref|YP_006901705.1| chromosome partition protein [Bordetella bronchiseptica MO149]
+ ref|WP_015041779.1| chromosome partition protein [Bordetella bronchiseptica]
+ emb|CCJ60234.1| putative chromosome partition protein [Bordetella bronchiseptica 
+MO149]
+Length=1195
+
+ Score = 37.4 bits (85),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  872  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  931
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  932  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  970
+
+
+>ref|WP_003821311.1| putative chromosome partition protein [Bordetella bronchiseptica]
+ emb|CCN06152.1| putative chromosome partition protein [Bordetella bronchiseptica 
+Bbr77]
+Length=1220
+
+ Score = 37.0 bits (84),  Expect = 0.79, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  897  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  956
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  957  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  995
+
+
+>ref|XP_004568818.1| PREDICTED: rho-associated protein kinase 2-like isoform X6 [Maylandia 
+zebra]
+Length=1485
+
+ Score = 37.0 bits (84),  Expect = 0.80, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>gb|EFW22173.1| conserved hypothetical protein [Coccidioides posadasii str. Silveira]
+Length=1259
+
+ Score = 37.0 bits (84),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 27/101 (27%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ +R   LE      +  +E++ + K +L S +A LE +  E E++  ELE+K  E   
+Sbjct  735  ELVDRQKELEEKQSEVEAKQEEINRLKSELESKIAELEDKRRELEQKQGELESKQTELQA  794
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  +  + ELE + ++ E  +A L+ K  E   ++++L+
+Sbjct  795  IQDELQEVKAELEEKKSQLESKQADLDKKQEELTAKQAELD  835
+
+
+>gb|ESO87244.1| hypothetical protein LOTGIDRAFT_229356 [Lottia gigantea]
+Length=957
+
+ Score = 37.0 bits (84),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 21/77 (27%), Positives = 45/77 (58%), Gaps = 0/77 (0%)
+
+Query  25   KQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAKTEKDRA  84
+            K+  +    +  ++ E  +++KR+R++  K  E  ++  L++LA  + E RLAK  K+R 
+Sbjct  710  KRLKEEEEYINRIKQEQEDKDKRIRDMFQKKKEQAEHSRLKRLAEQKEEERLAKERKERE  769
+
+Query  85   ILELKLAEAIDEKSKLE  101
+            + E +  E ID +++++
+Sbjct  770  LKEREHQEKIDREARIQ  786
+
+
+>sp|A9II65.2|SMC_BORPD RecName: Full=Chromosome partition protein Smc
+Length=1176
+
+ Score = 37.0 bits (84),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 48/102 (47%), Gaps = 3/102 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A L     ER   E+ L  L A++ E
+Sbjct  852  DASASQAGLQDALEVRAEREEALSRARQELDNLSALLRGADEERMQQERALEPLRARITE  911
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+                 +  +LA  +   +L   E DR  L  +LA   DE  +
+Sbjct  912  LQLQEQAARLAEEQFTEQLNAREVDREALAQELAAMPDEWRR  953
+
+
+>ref|XP_005921655.1| PREDICTED: rho-associated protein kinase 2-like isoform X4 [Haplochromis 
+burtoni]
+Length=1475
+
+ Score = 37.0 bits (84),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_005731101.1| PREDICTED: rho-associated protein kinase 2-like isoform X3 [Pundamilia 
+nyererei]
+Length=1475
+
+ Score = 37.0 bits (84),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>ref|XP_004568819.1| PREDICTED: rho-associated protein kinase 2-like isoform X7 [Maylandia 
+zebra]
+Length=1475
+
+ Score = 37.0 bits (84),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 21/78 (27%), Positives = 46/78 (59%), Gaps = 0/78 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K    +L  ++D+ N L   ++ + AE ++  + L  +L+E+L   + EKLAR  +E + 
+Sbjct  870  KTQIRELTDERDEKNKLYEEVQQQLAEYQEERKSLTTRLEESLTKADAEKLARSVVEDQF  929
+
+Query  77   AKTEKDRAILELKLAEAI  94
+            +  EK++ + EL++++ +
+Sbjct  930  SNLEKEKIMKELEISDMM  947
+
+
+ Score = 34.3 bits (77),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 51/98 (52%), Gaps = 3/98 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++  R++GLE  ++  K S  ++  +K +L   L+ LE + + +E    +L  KL    +
+Sbjct  636  DLQGRISGLEEEVKEVKSSLSKVQTEKKELQEKLSELEKKKSNQE---IDLTFKLKSLQQ  692
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+            +LE E++     +A+LA  +K    +E   +EA+ E  
+Sbjct  693  SLEQEEVEHKATKAKLADKKKTDQSIEEAKSEALKEME  730
+
+
+>gb|ELW69260.1| Myosin-6 [Tupaia chinensis]
+Length=4781
+
+ Score = 37.0 bits (84),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  3906  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  3965
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  LA  E+   +L+ +L E      + E
+Sbjct  3966  QLDDAVRANDDLKENLAIVERRNNLLQAELEELRAVVEQTE  4006
+
+
+>ref|XP_005663885.1| PREDICTED: myosin-9 [Sus scrofa]
+Length=1878
+
+ Score = 37.0 bits (84),  Expect = 0.90, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>gb|EPR57833.1| hypothetical protein TGGT1_321410 [Toxoplasma gondii GT1]
+Length=1923
+
+ Score = 37.0 bits (84),  Expect = 0.95, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 51/99 (52%), Gaps = 2/99 (2%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+             ++ RLA L  + E EK   E + + +++       L  +  + +++L E+ A+LDE +K+
+Sbjct  1313  LSARLAALSATFEKEK--NELVAQVREREKGEANELAEKLQQTQRQLSEVHARLDENVKS  1370
+
+Query  62    LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE E   R ELE  L   EK+     L L EA +  + L
+Sbjct  1371  LEEELRRRQELERTLEAREKEAEEASLALHEATERIAAL  1409
+
+
+>ref|NP_001070932.2| ventricular myosin heavy chain-like [Danio rerio]
+Length=1936
+
+ Score = 37.0 bits (84),  Expect = 0.97, Method: Composition-based stats.
+ Identities = 25/106 (24%), Positives = 52/106 (49%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKL  55
+                +  L+++LESE  SR + ++ K ++   L  +E        + AE +K+L+ ++A L
+Sbjct  1591  QRTIDTLQSALESETHSRNEALRIKKKMEGDLNEMEIQLSQANRQAAEAQKQLKSVQAHL  1650
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              ++   L+    +  +L+   A  E+  A+L+ +L E      + E
+Sbjct  1651  KDSQLQLDDSLRSNDDLKENTAIVERRNALLQAELEELRAVLEQTE  1696
+
+
+>ref|XP_691467.5| PREDICTED: myosin-10 isoform X5 [Danio rerio]
+Length=2051
+
+ Score = 37.0 bits (84),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 51/102 (50%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEAK  54
+             +  ++  LE  LE EK  R Q +  K QL + L   E++     +       +++ L+ +
+Sbjct  1654  LNKQVRELETMLEEEKTQRAQALTVKKQLETELQEAEAQVEAANRGREEAFRQMKRLQTQ  1713
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E ++ L+  KLAR E+ A+   +EK    LE +L +  ++
+Sbjct  1714  MKELIRELDETKLARDEIVAQSKDSEKRLQTLEAELLQLTED  1755
+
+
+>gb|EPT32231.1| hypothetical protein TGME49_321410 [Toxoplasma gondii ME49]
+Length=1920
+
+ Score = 37.0 bits (84),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 51/99 (52%), Gaps = 2/99 (2%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+             ++ RLA L  + E EK   E + + +++       L  +  + +++L E+ A+LDE +K+
+Sbjct  1310  LSARLAALSATFEKEK--NELVAQVREREKREGNELAEKLQQTQRQLSEVHARLDENVKS  1367
+
+Query  62    LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE E   R ELE  L   EK+     L L EA +  + L
+Sbjct  1368  LEEELRRRQELERTLEAREKEAEEASLALHEATERIAAL  1406
+
+
+>ref|XP_005157988.1| PREDICTED: myosin-10 isoform X1 [Danio rerio]
+Length=2060
+
+ Score = 37.0 bits (84),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 51/102 (50%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEAK  54
+             +  ++  LE  LE EK  R Q +  K QL + L   E++     +       +++ L+ +
+Sbjct  1654  LNKQVRELETMLEEEKTQRAQALTVKKQLETELQEAEAQVEAANRGREEAFRQMKRLQTQ  1713
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E ++ L+  KLAR E+ A+   +EK    LE +L +  ++
+Sbjct  1714  MKELIRELDETKLARDEIVAQSKDSEKRLQTLEAELLQLTED  1755
+
+
+>ref|WP_004051060.1| chromosome segregation protein SMC [Halococcus morrhuae]
+ gb|EMA51643.1| chromosome segregation protein SMC [Halococcus morrhuae DSM 1307]
+Length=1190
+
+ Score = 37.0 bits (84),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 56/99 (57%), Gaps = 0/99 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E+ +R+  L+  L   ++ ++   +  D+L+  L S ++  AE E+R+ E + K+DE  +
+Sbjct  828  ELDDRMDDLDGELNELQLEKQYAEESIDELHETLESAQNRKAEGEERIEEFDGKIDEQEE  887
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+             L+  + A  +LE  LA  + +R  L+ +LA+A + + +
+Sbjct  888  KLDEREAAVADLEDELADLKDERVELKAELADAKESRDE  926
+
+
+>ref|XP_005157989.1| PREDICTED: myosin-10 isoform X2 [Danio rerio]
+Length=2056
+
+ Score = 36.6 bits (83),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 51/102 (50%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEAK  54
+             +  ++  LE  LE EK  R Q +  K QL + L   E++     +       +++ L+ +
+Sbjct  1650  LNKQVRELETMLEEEKTQRAQALTVKKQLETELQEAEAQVEAANRGREEAFRQMKRLQTQ  1709
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E ++ L+  KLAR E+ A+   +EK    LE +L +  ++
+Sbjct  1710  MKELIRELDETKLARDEIVAQSKDSEKRLQTLEAELLQLTED  1751
+
+
+>ref|XP_005157990.1| PREDICTED: myosin-10 isoform X3 [Danio rerio]
+Length=2044
+
+ Score = 36.6 bits (83),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 51/102 (50%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEAK  54
+             +  ++  LE  LE EK  R Q +  K QL + L   E++     +       +++ L+ +
+Sbjct  1638  LNKQVRELETMLEEEKTQRAQALTVKKQLETELQEAEAQVEAANRGREEAFRQMKRLQTQ  1697
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E ++ L+  KLAR E+ A+   +EK    LE +L +  ++
+Sbjct  1698  MKELIRELDETKLARDEIVAQSKDSEKRLQTLEAELLQLTED  1739
+
+
+>ref|NP_882071.1| chromosome partition protein [Bordetella pertussis Tohama I]
+ ref|YP_005591463.1| putative chromosome partition protein [Bordetella pertussis CS]
+ ref|YP_006627220.1| chromosome partition protein [Bordetella pertussis 18323]
+ ref|WP_010931537.1| chromosome partitioning protein Smc [Bordetella pertussis]
+ emb|CAD66592.1| SMC protein [Bordetella pertussis]
+ emb|CAE43817.1| putative chromosome partition protein [Bordetella pertussis Tohama 
+I]
+ gb|AEE68685.1| putative chromosome partition protein [Bordetella pertussis CS]
+ emb|CCJ64126.1| putative chromosome partition protein [Bordetella pertussis 18323]
+Length=1175
+
+ Score = 36.6 bits (83),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  852  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  911
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  912  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  950
+
+
+>ref|YP_007494959.1| 2',3'-cyclic-nucleotide 2'-phosphodiesterase [Desulfovibrio piezophilus 
+C1TLV30]
+ ref|WP_015415851.1| 2',3'-cyclic-nucleotide 2'-phosphodiesterase [Desulfovibrio piezophilus]
+ emb|CCH49808.1| 2',3'-cyclic-nucleotide 2'-phosphodiesterase [Desulfovibrio piezophilus 
+C1TLV30]
+Length=518
+
+ Score = 36.3 bits (82),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 41/86 (48%), Gaps = 0/86 (0%)
+
+Query  14   ESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELE  73
+            ES   +++++  QK  L       E      EKRL   E +LD   + +  ++   +EL+
+Sbjct  55   ESRLQAQDEIYSQKQALERDFKDREGHLKGEEKRLHSKEERLDAKREKVADKEAQVVELQ  114
+
+Query  74   ARLAKTEKDRAILELKLAEAIDEKSK  99
+             +L K EK    LE +L+E  DE  +
+Sbjct  115  KQLIKQEKHLDDLEEELSEKADEHER  140
+
+
+>gb|EKC37351.1| Switch-associated protein 70 [Crassostrea gigas]
+Length=716
+
+ Score = 36.6 bits (83),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 30/92 (33%), Positives = 47/92 (51%), Gaps = 2/92 (2%)
+
+Query  10   ENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLAR  69
+              +   EK  REQ   QK   +    +L     E  +R R+ E +L E ++ LE EKLAR
+Sbjct  335  RQAKRREKKKREQEEVQKKMADE--ETLRRLQEEYNERHRQDELRLQEQIEALEAEKLAR  392
+
+Query  70   MELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +LE+RL K    R + + ++ E  + K +L+
+Sbjct  393  EDLESRLLKEAALREVEKRRMRELEEVKRELQ  424
+
+
+>gb|ERE84443.1| myosin-9 [Cricetulus griseus]
+Length=2343
+
+ Score = 36.6 bits (83),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELEA++ E
+Sbjct  1001  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELEAQISE  1057
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1058  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1095
+
+
+>ref|XP_005157991.1| PREDICTED: myosin-10 isoform X4 [Danio rerio]
+Length=2036
+
+ Score = 36.6 bits (83),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 51/102 (50%), Gaps = 7/102 (7%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEAK  54
+             +  ++  LE  LE EK  R Q +  K QL + L   E++     +       +++ L+ +
+Sbjct  1630  LNKQVRELETMLEEEKTQRAQALTVKKQLETELQEAEAQVEAANRGREEAFRQMKRLQTQ  1689
+
+Query  55    LDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+             + E ++ L+  KLAR E+ A+   +EK    LE +L +  ++
+Sbjct  1690  MKELIRELDETKLARDEIVAQSKDSEKRLQTLEAELLQLTED  1731
+
+
+>ref|XP_001901629.1| Myosin tail family protein [Brugia malayi]
+ gb|EDP29188.1| Myosin tail family protein [Brugia malayi]
+Length=1985
+
+ Score = 36.6 bits (83),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 52/103 (50%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             L  ++ +LE+E  ++++ ++ K +L   +  LE          A+ +K ++  + ++ E 
+Sbjct  1628  LESMQATLEAEMKAKQEALRIKKKLEQDINELEVALDHANKANADAQKTIKRYQEQIREL  1687
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                +E E+  + +L  +L+ T+K  AIL+ +  E  ++    E
+Sbjct  1688  QMQIEDEQRQKDDLAEQLSNTQKRAAILQAEKDELANQAEMAE  1730
+
+
+>ref|WP_018874334.1| hypothetical protein [Thioalkalivibrio sp. ALJ6]
+Length=394
+
+ Score = 36.3 bits (82),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 39/68 (57%), Gaps = 2/68 (3%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +  RL  LE + E+    R  L +Q++Q    +A LE E A + + + ELEA +++  + 
+Sbjct  162  LNERLEALEEAREALAHERAVLAEQEEQAREAVAGLEQEEARQRQAMAELEAAIED--EA  219
+
+Query  62   LELEKLAR  69
+            LELE+L R
+Sbjct  220  LELERLQR  227
+
+
+>ref|XP_005163758.1| PREDICTED: myosin-9 isoform X2 [Danio rerio]
+Length=1691
+
+ Score = 36.3 bits (82),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 30/98 (31%), Positives = 57/98 (58%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             E+ +++A L+  +   K    QL K++++L   LA +E E A++    K++RELE++L E
+Sbjct  1055  ELHDQIAELQAQIAELKA---QLAKKEEELQEALARIEEEAAQKNLAQKKIRELESQLSE  1111
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LELE+ AR + E       ++   L+ +L + +D
+Sbjct  1112  LQEDLELERAARTKAEKHRRDLGEELEALKTELEDTLD  1149
+
+
+>ref|WP_006223775.1| chromosome partitioning protein Smc [Achromobacter piechaudii]
+ gb|EJO32025.1| chromosome segregation protein SMC [Achromobacter piechaudii 
+HLE]
+Length=1159
+
+ Score = 36.3 bits (82),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 27/102 (26%), Positives = 50/102 (49%), Gaps = 3/102 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELE---AKLDE  57
+            + +   AGL+++LE+     E L + + ++ +L A L     +R+++ + LE   A++ E
+Sbjct  834  DASASQAGLQDALEARAEREEALSRARQEMENLAALLRGADEDRQQQEQTLEPRRARIME  893
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+                 +  +LA  +   +L   E DR  L   LA A DE  +
+Sbjct  894  LQLQEQAARLAEEQFTEQLNAREVDREALAQDLANAPDEWRR  935
+
+
+>ref|XP_001920098.4| PREDICTED: myosin-9 isoform X1 [Danio rerio]
+Length=1698
+
+ Score = 36.3 bits (82),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 30/98 (31%), Positives = 57/98 (58%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             E+ +++A L+  +   K    QL K++++L   LA +E E A++    K++RELE++L E
+Sbjct  1062  ELHDQIAELQAQIAELKA---QLAKKEEELQEALARIEEEAAQKNLAQKKIRELESQLSE  1118
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LELE+ AR + E       ++   L+ +L + +D
+Sbjct  1119  LQEDLELERAARTKAEKHRRDLGEELEALKTELEDTLD  1156
+
+
+>gb|AAH72844.1| LOC443585 protein, partial [Xenopus laevis]
+Length=1388
+
+ Score = 36.3 bits (82),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 22/79 (28%), Positives = 50/79 (63%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             ++QL +++++L + LA ++ E  ++    K+LR+L+++L E  ++LE EK+AR + E + 
+Sbjct  1089  KQQLARKEEELQAALARIDDEVGQKNNLLKQLRDLQSQLAEFHEDLESEKVARAKAEKQR  1148
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1149  RDLGEELEALKTELEDTLD  1167
+
+
+>ref|WP_018141943.1| hypothetical protein [Thioalkalivibrio sp. ALJ7]
+Length=394
+
+ Score = 36.3 bits (82),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 39/68 (57%), Gaps = 2/68 (3%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +  RL  LE + E+    R  L +Q++Q    +A LE E A + + + ELEA +++  + 
+Sbjct  162  LNERLEALEEAREALAHERAVLAEQEEQAREAVAGLEQEEARQRQAMAELEAAIED--EA  219
+
+Query  62   LELEKLAR  69
+            LELE+L R
+Sbjct  220  LELERLQR  227
+
+
+>ref|YP_330860.1| rad50 ATPase [Natronomonas pharaonis DSM 2160]
+ ref|WP_011323838.1| chromosome segregation protein SMC [Natronomonas pharaonis]
+ emb|CAI50222.1| SMC-like protein Sph2 [Natronomonas pharaonis DSM 2160]
+Length=644
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 28/98 (29%), Positives = 46/98 (47%), Gaps = 0/98 (0%)
+
+Query  4    NRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLE  63
+            +RL+   N ++ E  + + L  +   L      L  E  E E  L ++EA+LDE   ++E
+Sbjct  143  DRLSERRNEIDDELSTLDSLKDRLPSLEERRTQLRGEIEETEAELADVEARLDERDADIE  202
+
+Query  64   LEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  + ELE RL +    R+ LE    +   E+  LE
+Sbjct  203  QTREEKAELEERLTELRTKRSELEDVRYDLETERESLE  240
+
+
+>ref|XP_004416282.1| PREDICTED: kinesin-like protein KIF16B-like isoform 1 [Odobenus 
+rosmarus divergens]
+Length=1397
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 50/89 (56%), Gaps = 6/89 (7%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            L+ +K   E  ++ K++L  L     +E AE+ +  +EL     + LK  + E+ A++EL
+Sbjct  692  LQKKKQEEESFLRVKEELQRLQELNNNEKAEKLQIFQEL-----DRLKREKDEQYAKLEL  746
+
+Query  73   EA-RLAKTEKDRAILELKLAEAIDEKSKL  100
+            E  RL + EK++ +L + L E + EK ++
+Sbjct  747  EKKRLEEQEKEQVMLVVHLEEQLREKQEM  775
+
+
+>ref|XP_003924689.1| PREDICTED: myosin-7 [Saimiri boliviensis boliviensis]
+Length=1730
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1391  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1450
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1451  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1491
+
+
+>ref|XP_004007576.1| PREDICTED: myosin-9 [Ovis aries]
+Length=1654
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 58/98 (59%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ +++A L+  +   K+   QL K++++L + LA +E E  ++    K++RELE+++ E
+Sbjct  1059  DLNDQIAELQAQIAELKM---QLAKKEEELQAALARVEEETTQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_002371682.1| hypothetical protein TGME49_121410 [Toxoplasma gondii ME49]
+Length=1854
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 51/99 (52%), Gaps = 2/99 (2%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+             ++ RLA L  + E EK   E + + +++       L  +  + +++L E+ A+LDE +K+
+Sbjct  1310  LSARLAALSATFEKEK--NELVAQVREREKREGNELAEKLQQTQRQLSEVHARLDENVKS  1367
+
+Query  62    LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE E   R ELE  L   EK+     L L EA +  + L
+Sbjct  1368  LEEELRRRQELERTLEAREKEAEEASLALHEATERIAAL  1406
+
+
+>ref|XP_005753700.1| PREDICTED: myosin-6-like [Pundamilia nyererei]
+Length=1934
+
+ Score = 35.9 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDETLK  60
+              L++SLESE  SR + ++ K ++   L  +E        + AE +K+++ L+A L +T  
+Sbjct  1595  SLQSSLESETRSRNEAMRVKKKMEGDLNEMEIQLSQANRQAAEAQKQVKTLQAFLKDTQL  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+  +    +L+  +A  E+   +++ +L E      + E
+Sbjct  1655  QLDDTQHGNDDLKENIALLERRNNLIQAELEEVRAALEQTE  1695
+
+
+>ref|WP_000714399.1| hypothetical protein [Streptococcus agalactiae]
+ gb|EPX40218.1| hypothetical protein SAG0341_10860 [Streptococcus agalactiae 
+GB00865]
+Length=807
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 48/101 (48%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++    +  +  LE+EK   ++   +  ++   L SLE E A++ K + + + K+ +  K
+Sbjct  423  KLKENYSSTKWELEAEKEKTDKNENKVKEMQEKLESLEGELAKKTKEIEDKDNKIKDLEK  482
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            NL+ +     ELE +  +TE  ++    K+ E       L+
+Sbjct  483  NLDEKDNKIKELENKKKETENSKSEGFKKIEELQKAIDSLK  523
+
+
+>ref|XP_005950939.1| PREDICTED: myosin-6-like [Haplochromis burtoni]
+Length=1934
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDETLK  60
+              L++SLESE  SR + ++ K ++   L  +E        + AE +K+++ L+A L +T  
+Sbjct  1595  SLQSSLESETRSRNEAMRVKKKMEGDLNEMEIQLSQANRQAAEAQKQVKTLQAFLKDTQL  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+  +    +L+  +A  E+   +++ +L E      + E
+Sbjct  1655  QLDDTQHGNDDLKENIALLERRNNLIQAELEEVRAALEQTE  1695
+
+
+>ref|XP_004572893.1| PREDICTED: myosin-6-like [Maylandia zebra]
+Length=1934
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDETLK  60
+              L++SLESE  SR + ++ K ++   L  +E        + AE +K+++ L+A L +T  
+Sbjct  1595  SLQSSLESETRSRNEAMRVKKKMEGDLNEMEIQLSQANRQAAEAQKQVKTLQAFLKDTQL  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+  +    +L+  +A  E+   +++ +L E      + E
+Sbjct  1655  QLDDTQHGNDDLKENIALLERRNNLIQAELEEVRAALEQTE  1695
+
+
+>ref|XP_005634824.1| PREDICTED: kinesin family member 16B isoform X2 [Canis lupus 
+familiaris]
+Length=1329
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 51/89 (57%), Gaps = 6/89 (7%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            L+ +K   E +++ K++L  L     +E AE+ +  +EL     + LK  + E+ A++EL
+Sbjct  704  LQKKKQEEESVLRVKEELQRLQELNNNEKAEKLQIFQEL-----DRLKREKDEQYAKLEL  758
+
+Query  73   EA-RLAKTEKDRAILELKLAEAIDEKSKL  100
+            E  RL + EK++ +L + L E + EK ++
+Sbjct  759  EKKRLEEQEKEQVMLVVHLEEQLREKQEM  787
+
+
+>ref|XP_003225065.1| PREDICTED: myosin-10-like [Anolis carolinensis]
+Length=1999
+
+ Score = 35.9 bits (81),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 30/98 (31%), Positives = 57/98 (58%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++  ++A L+  LE     R+ L +++ +L + LA +E E A++    K LREL+A+L E
+Sbjct  1076  DLQEQVAELQQQLEE---LRQALARKEAELQAALARVEDEAAQKNAVLKSLRELQAQLAE  1132
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               +++E EKLAR + E +     ++   L+ +L + +D
+Sbjct  1133  LQEDMESEKLARAKAEKQRRDLGEELEALKTELEDTLD  1170
+
+
+>ref|XP_004878233.1| PREDICTED: LOW QUALITY PROTEIN: myosin-15-like [Heterocephalus 
+glaber]
+Length=1886
+
+ Score = 35.9 bits (81),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 20/104 (19%), Positives = 49/104 (47%), Gaps = 7/104 (7%)
+
+Query  5     RLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDE  57
+              +  L++ L+SE  SR + I+ K ++   L  +E +      ++ E       L++++ +
+Sbjct  1592  TIDALQSILDSEARSRIEAIQLKQKMEENLKDMELQICSANHQVSEGIKSLGQLQSQMKD  1651
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                 L+       +L+ ++A  E+  ++L+ +L E    + + E
+Sbjct  1652  MQMKLDDSTHLNSDLKEQVAVAEQHNSLLQSELEELRSLQEQTE  1695
+
+
+>ref|XP_006248354.1| PREDICTED: myosin-15 [Rattus norvegicus]
+Length=1926
+
+ Score = 35.9 bits (81),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 51/106 (48%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKL  55
+                L  L++SL+SE  SR +  K + ++   L  +E +     +++ +       L++++
+Sbjct  1578  QQALGSLQSSLDSEASSRIEATKMRKKIEGDLKEMEIQLCTANRQVSQTTRALGQLQSQM  1637
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  ++L+       +L+ ++A  E+   +L+ +L E    + + E
+Sbjct  1638  KDLQQHLDDSIYQNKDLKDQVALAEQRNILLQSELEELRSLQEQTE  1683
+
+
+>ref|XP_003446686.1| PREDICTED: myosin-6-like [Oreochromis niloticus]
+Length=1934
+
+ Score = 35.9 bits (81),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDETLK  60
+              L++SLESE  SR + ++ K ++   L  +E        + AE +K+++ L+A L +T  
+Sbjct  1595  SLQSSLESETRSRNEAMRVKKKMEGDLNEMEIQLSQANRQAAEAQKQVKTLQAFLKDTQL  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+  +    +L+  +A  E+   +++ +L E      + E
+Sbjct  1655  QLDDTQHGNDDLKENIALLERRNNLIQAELEEVRAALEQTE  1695
+
+
+>ref|XP_005737648.1| PREDICTED: myosin-7-like [Pundamilia nyererei]
+Length=1181
+
+ Score = 35.9 bits (81),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 29/105 (28%), Positives = 49/105 (47%), Gaps = 7/105 (7%)
+
+Query  4     NRLAGLENSLESEKVSREQLIKQKDQLNSL----LASLESEGAERE---KRLRELEAKLD  56
+             N++  L   + +      +L K+K  L       L  L+SE  +     K   +LE ++D
+Sbjct  977   NKVKNLTEEMAALDEIIAKLTKEKKALQEAHQQTLDDLQSEEDKVNSLTKAKTKLEQQVD  1036
+
+Query  57    ETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +   +LE EK  RM+LE    K E D  + +  L +  ++K +LE
+Sbjct  1037  DLEGSLEQEKKVRMDLERAKRKLEGDLKLAQESLMDLENDKQQLE  1081
+
+
+ Score = 34.7 bits (78),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 44/99 (44%), Gaps = 7/99 (7%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNL  62
+             + L   E   E    S+ QL  +  +L   L   E   AE   + R+LE +  E  K++
+Sbjct  899  QDNLGDAEERCEGLIKSKIQLEAKIKELTERLEDEEEMNAELTAKKRKLEDECSELKKDI  958
+
+Query  63   ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            +       +LE  LAK EK++   E K+    +E + L+
+Sbjct  959  D-------DLELTLAKVEKEKHATENKVKNLTEEMAALD  990
+
+
+>gb|ERE84441.1| myosin-9 [Cricetulus griseus]
+Length=2280
+
+ Score = 35.9 bits (81),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELEA++ E
+Sbjct  1001  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELEAQISE  1057
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1058  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1095
+
+
+>emb|CAF92967.1| unnamed protein product [Tetraodon nigroviridis]
+Length=1881
+
+ Score = 35.9 bits (81),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 27/103 (26%), Positives = 49/103 (48%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             L  L+ SLESE  SR + ++ K ++ S L  +E        + AE +K++R L+A L + 
+Sbjct  1549  LDSLQASLESETRSRNEALRVKKKMESDLNEMEIQLSQANRQAAEGQKQVRSLQASLKDL  1608
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                L+    A  +     A  E+   +L+ +L E      +++
+Sbjct  1609  QTQLDEAHHANQDSRENAALLERRHNLLQAELEEVRAALEQMD  1651
+
+
+>gb|ELV09780.1| Myosin-15 [Tupaia chinensis]
+Length=1850
+
+ Score = 35.5 bits (80),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 49/101 (49%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDETLK  60
+              L++SL+SE  SR +  + K ++   L  +E + +   +++ E       L+ ++ +   
+Sbjct  1510  SLQSSLDSEARSRIEATRLKKKMEGDLNEMELQLSYANRQVSESTKSLGQLQNQIKDLQV  1569
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+       +L+ ++A  E+  A+L+ +L E    + + E
+Sbjct  1570  QLDDSTRLNRDLQEQVAAAERYSALLQSELEELRSLQEQTE  1610
+
+
+>ref|XP_005994465.1| PREDICTED: myosin-7-like [Latimeria chalumnae]
+Length=1936
+
+ Score = 35.5 bits (80),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 49/103 (48%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             +  L+ SLESE  SR + ++ K ++   L  +E        + AE +K+++ L+  L + 
+Sbjct  1594  IESLQTSLESETRSRNEALRLKKKMEGDLNEMEIQLSQANRQAAEAQKQVKNLQTHLKDA  1653
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                ++    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1654  QMQVDDVLRANEDLKENIAIVERRNNLLQAELEELQSAVEQSE  1696
+
+
+>ref|XP_003924690.1| PREDICTED: myosin-6 [Saimiri boliviensis boliviensis]
+Length=1732
+
+ Score = 35.5 bits (80),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1391  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1450
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1451  QLDDAVHANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1491
+
+
+>ref|XP_005994466.1| PREDICTED: myosin-6 isoform X1 [Latimeria chalumnae]
+Length=1936
+
+ Score = 35.5 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 23/96 (24%), Positives = 49/96 (51%), Gaps = 7/96 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDET  58
+             +  L++SLESE  SR + ++ K ++   L  +E + ++  ++  E       ++A L ++
+Sbjct  1594  IESLQSSLESETRSRNEALRVKKKMEGDLNEMEIQLSQANRQATEALKQLKIVQAHLKDS  1653
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAI  94
+                L+    A  +L+  +A TE+   +L+ +L E  
+Sbjct  1654  QLQLDDSLRANDDLKENIAITERRNNLLQAELEELR  1689
+
+
+>ref|XP_005994467.1| PREDICTED: myosin-6 isoform X2 [Latimeria chalumnae]
+Length=1880
+
+ Score = 35.5 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 23/96 (24%), Positives = 49/96 (51%), Gaps = 7/96 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDET  58
+             +  L++SLESE  SR + ++ K ++   L  +E + ++  ++  E       ++A L ++
+Sbjct  1538  IESLQSSLESETRSRNEALRVKKKMEGDLNEMEIQLSQANRQATEALKQLKIVQAHLKDS  1597
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAI  94
+                L+    A  +L+  +A TE+   +L+ +L E  
+Sbjct  1598  QLQLDDSLRANDDLKENIAITERRNNLLQAELEELR  1633
+
+
+>ref|XP_005802858.1| PREDICTED: myosin-9-like [Xiphophorus maculatus]
+Length=1882
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 29/85 (34%), Positives = 53/85 (62%), Gaps = 3/85 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR++ E   
+Sbjct  999   RAQLAKKEEELQAALARIEEEAAQKNMAQKKIRELEAQLSELQEDLELEKQARVKAEKHR  1058
+
+Query  77    AKTEKDRAILELKLAEAIDEKSKLE  101
+                 ++   L+ +L + +D  + ++
+Sbjct  1059  RDLGEELEALKTELEDTLDSTAAMQ  1083
+
+
+>ref|XP_002647833.1| Hypothetical protein CBG23621 [Caenorhabditis briggsae]
+ emb|CAP20429.1| Protein CBG23621 [Caenorhabditis briggsae]
+Length=1651
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 26/92 (28%), Positives = 52/92 (57%), Gaps = 7/92 (8%)
+
+Query  17    KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLE--LEKLARMELEA  74
+             K S ++L  +K+ + +  + L  +    E+RL++L+ KL++  +  E   EKL+ +E + 
+Sbjct  1290  KCSVQELETEKNAIKATNSELHKKLGTSEERLKDLQEKLEKARRKGEKLQEKLSNLEEQR  1349
+
+Query  75    RLAKTEKDRAI-----LELKLAEAIDEKSKLE  101
+             +  + + ++A+     LE KL EA  +K KL+
+Sbjct  1350  KAGQKDSEKAVEHMLDLEKKLLEATTQKEKLQ  1381
+
+
+>gb|EHH27758.1| hypothetical protein EGK_18032 [Macaca mulatta]
+Length=1857
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1653  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1712
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1713  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1753
+
+
+>ref|XP_004864273.1| PREDICTED: myosin-7 [Heterocephalus glaber]
+Length=1372
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1029  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1088
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1089  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1129
+
+
+>ref|YP_004002345.1| chromosome segregation protein smc [Caldicellulosiruptor owensensis 
+OL]
+ ref|WP_013411934.1| chromosome segregation protein SMC [Caldicellulosiruptor owensensis]
+ gb|ADQ04545.1| chromosome segregation protein SMC [Caldicellulosiruptor owensensis 
+OL]
+Length=1177
+
+ Score = 35.5 bits (80),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++ ++++ LE  +E      +QLI+ KD L +    +  +    E  ++  + +L+   K
+Sbjct  721  DLLSKMSELEREIEMYDYKIKQLIQNKDALENEKNLIYEQLITLECDIKSSQERLENLKK  780
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            + E  +     L+  L+K ++D   L+ K  +AI+EK+K+E
+Sbjct  781  SKEGFEKEISNLKTALSKLKEDYNFLDSKFTKAIEEKNKIE  821
+
+
+>gb|EJD76606.1| myosin tail family protein [Loa loa]
+Length=1759
+
+ Score = 35.5 bits (80),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 22/103 (21%), Positives = 51/103 (50%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             L  ++ +LE+E  ++++ ++ K +L   +  LE          A+ +K +R  + ++ E 
+Sbjct  1548  LESMQATLEAEVKAKQEALRIKKKLEQDINELEIALDHANKANADAQKTIRRYQDQIREL  1607
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                +E E+  + +L  +L+  +K  AIL+ +  E  ++    E
+Sbjct  1608  QMQVEDEQRQKDDLAEQLSNIQKRAAILQAEKDELANQAEVAE  1650
+
+
+>ref|XP_004416283.1| PREDICTED: kinesin-like protein KIF16B-like isoform 2 [Odobenus 
+rosmarus divergens]
+Length=1317
+
+ Score = 35.5 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 50/89 (56%), Gaps = 6/89 (7%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            L+ +K   E  ++ K++L  L     +E AE+ +  +EL     + LK  + E+ A++EL
+Sbjct  692  LQKKKQEEESFLRVKEELQRLQELNNNEKAEKLQIFQEL-----DRLKREKDEQYAKLEL  746
+
+Query  73   EA-RLAKTEKDRAILELKLAEAIDEKSKL  100
+            E  RL + EK++ +L + L E + EK ++
+Sbjct  747  EKKRLEEQEKEQVMLVVHLEEQLREKQEM  775
+
+
+>ref|WP_008389057.1| chromosome segregation protein SMC [Halosarcina pallida]
+ gb|ELZ27144.1| chromosome segregation protein SMC [Halosarcina pallida JCM 14848]
+Length=1198
+
+ Score = 35.5 bits (80),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 23/93 (25%), Positives = 46/93 (49%), Gaps = 0/93 (0%)
+
+Query  9    LENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLA  68
+            L+  L  +K   E+L  +++ L      L  +   R   + E + K++E  + L   K +
+Sbjct  406  LKEDLAEKKSELEELKTERNDLQREKDRLLDDTRRRSSEISETQEKIEEIREELPELKAS  465
+
+Query  69   RMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +L + L K EK++A ++  + +  DE+S L+
+Sbjct  466  LSDLHSELDKAEKNKAKIDGVIEDLRDERSDLK  498
+
+
+>ref|XP_005926769.1| PREDICTED: myosin-9-like isoform X1 [Haplochromis burtoni]
+Length=1963
+
+ Score = 35.5 bits (80),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARTKAEKHR  1137
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1138  RDLGEELEALKTELEDTLD  1156
+
+
+>ref|XP_004416284.1| PREDICTED: kinesin-like protein KIF16B-like isoform 3 [Odobenus 
+rosmarus divergens]
+Length=1266
+
+ Score = 35.5 bits (80),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 27/89 (30%), Positives = 50/89 (56%), Gaps = 6/89 (7%)
+
+Query  13   LESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMEL  72
+            L+ +K   E  ++ K++L  L     +E AE+ +  +EL     + LK  + E+ A++EL
+Sbjct  692  LQKKKQEEESFLRVKEELQRLQELNNNEKAEKLQIFQEL-----DRLKREKDEQYAKLEL  746
+
+Query  73   EA-RLAKTEKDRAILELKLAEAIDEKSKL  100
+            E  RL + EK++ +L + L E + EK ++
+Sbjct  747  EKKRLEEQEKEQVMLVVHLEEQLREKQEM  775
+
+
+>ref|XP_005377236.1| PREDICTED: myosin-7 [Chinchilla lanigera]
+Length=1694
+
+ Score = 35.5 bits (80),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1355  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1414
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1415  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1455
+
+
+>ref|XP_004699133.1| PREDICTED: protein Daple [Echinops telfairi]
+Length=1925
+
+ Score = 35.5 bits (80),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 33/109 (30%), Positives = 59/109 (54%), Gaps = 11/109 (10%)
+
+Query  1    EMANRLAGLENSLESEKVSR-------EQLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            ++  ++  L+  LE EK S        E+LIK+K+QL S +  L+   A+R +++++LE 
+Sbjct  454  QLEKKIEKLQAQLEREKQSNQDLETLSEELIKEKEQLQSDMDMLK---ADRARQIKDLEQ  510
+
+Query  54   KLDETLKNL-ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            + D   + +  L + A++  EAR+   EK+   L   +AE     S+LE
+Sbjct  511  ERDHLNQVVWSLRERAQVSSEARVRDVEKENKALHQAVAETSGRLSRLE  559
+
+
+>ref|YP_004026273.1| chromosome segregation protein smc [Caldicellulosiruptor kristjanssonii 
+I77R1B]
+ ref|WP_013432462.1| chromosome segregation protein SMC [Caldicellulosiruptor kristjanssonii]
+ gb|ADQ40660.1| chromosome segregation protein SMC [Caldicellulosiruptor kristjanssonii 
+I77R1B]
+Length=1177
+
+ Score = 35.1 bits (79),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++ ++++ LE  +E      +QL + KD L +    ++ +    E  ++  +  L+   K
+Sbjct  721  DLLSKMSELEREIEMYDYKMKQLAQNKDALENEKNLIDQQLITLECDIKSSQENLENLKK  780
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            + E  +     L+  L+K ++D  +L+ K  +AI+EK+K+E
+Sbjct  781  SKEELEKEISNLKTILSKLKEDYNLLDSKFTKAIEEKNKIE  821
+
+
+>gb|EFR23745.1| hypothetical protein AND_12320 [Anopheles darlingi]
+Length=655
+
+ Score = 35.1 bits (79),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 23/70 (33%), Positives = 38/70 (54%), Gaps = 0/70 (0%)
+
+Query  30   LNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAKTEKDRAILELK  89
+            L     +L+S+    ++ + +++ KL    K LE+EK    EL       EK  AILELK
+Sbjct  194  LEEKQQNLKSQRQIAQENVSDIKKKLHTIAKELEIEKQRSTELSKAHNALEKKSAILELK  253
+
+Query  90   LAEAIDEKSK  99
+            LA+ ++E+ +
+Sbjct  254  LADILEEQKR  263
+
+
+>ref|XP_005926770.1| PREDICTED: myosin-9-like isoform X2 [Haplochromis burtoni]
+Length=1956
+
+ Score = 35.1 bits (79),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARTKAEKHR  1130
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1131  RDLGEELEALKTELEDTLD  1149
+
+
+>ref|XP_005738100.1| PREDICTED: myosin-9-like isoform X1 [Pundamilia nyererei]
+Length=1963
+
+ Score = 35.1 bits (79),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1137
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1138  RDLGEELEALKTELEDTLD  1156
+
+
+>ref|XP_004324771.1| PREDICTED: LOW QUALITY PROTEIN: myosin-9-like [Tursiops truncatus]
+Length=1967
+
+ Score = 35.1 bits (79),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1066  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1122
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1123  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1160
+
+
+>ref|WP_007107797.1| chromosome segregation protein SMC [Natrinema altunense]
+ gb|ELY91280.1| chromosome segregation protein SMC [Natrinema altunense JCM 12890]
+Length=1190
+
+ Score = 35.1 bits (79),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 51/99 (52%), Gaps = 0/99 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            E  +R+  L+  L    +  E      + L+  + + ++  A+ E+ + E EA+++    
+Sbjct  828  EREDRIQELDAELNELSLEAEYAADAIEDLHDDIEAAQNRKADHEECIAEYEAEIETKQD  887
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+             LE ++ A  ELEA L + + DR+ L+  L+EA  E+ K
+Sbjct  888  GLEEKREAVAELEAELTELKADRSDLKEALSEARTERDK  926
+
+
+>ref|XP_004562996.1| PREDICTED: myosin-9-like isoform X1 [Maylandia zebra]
+Length=1963
+
+ Score = 35.1 bits (79),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1137
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1138  RDLGEELEALKTELEDTLD  1156
+
+
+>gb|EKM55976.1| hypothetical protein PHACADRAFT_209484 [Phanerochaete carnosa 
+HHB-10118-sp]
+Length=759
+
+ Score = 35.1 bits (79),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 34/65 (52%), Gaps = 0/65 (0%)
+
+Query  17   KVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARL  76
+            K+ R+ L+ Q+++L    A LE +    E  L   +A+  + L  LE EK    +LE RL
+Sbjct  408  KLERDMLLGQEEELEVKCAELERQAQTSEGELMSEKARASDALNQLETEKRKSADLEDRL  467
+
+Query  77   AKTEK  81
+              +++
+Sbjct  468  TDSQQ  472
+
+
+>ref|XP_005283657.1| PREDICTED: myosin-6-like [Chrysemys picta bellii]
+Length=1937
+
+ Score = 35.1 bits (79),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 22/106 (21%), Positives = 50/106 (47%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKL  55
+                +  L+++L+SE  SR + I+ K ++   L  +E + +   +   E       L+A++
+Sbjct  1592  QRTIDSLQSTLDSEAKSRNEAIRLKKKMEGDLNEMEIQLSHANRHASEAIKSARILQAQI  1651
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +    L+  +    +L+ +LA T++   +L+ +L E      + E
+Sbjct  1652  KDLQVQLDDSEHLNEDLKEQLAVTDRRNNLLQSELDELRALLDQTE  1697
+
+
+>ref|XP_005738101.1| PREDICTED: myosin-9-like isoform X2 [Pundamilia nyererei]
+Length=1956
+
+ Score = 35.1 bits (79),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1130
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1131  RDLGEELEALKTELEDTLD  1149
+
+
+>ref|XP_005074837.1| PREDICTED: myosin-15 [Mesocricetus auratus]
+Length=1925
+
+ Score = 35.1 bits (79),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 19/106 (18%), Positives = 50/106 (47%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKL  55
+                L  L++SL+SE  SR +  + + ++   L  +E +     +++ +       L++++
+Sbjct  1582  QQALGSLQSSLDSEASSRIEATRLRKKMEGDLKEVEIQLCAANRQVSQTARSLGQLQSQM  1641
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  + L+       +L+ ++A  E+   +L+ +L E    + + E
+Sbjct  1642  KDLQQQLDDSMYQNKDLKEQVAAAEQRNTLLQSELEEMRSLQEQTE  1687
+
+
+>ref|XP_005808736.1| PREDICTED: myosin-6-like [Xiphophorus maculatus]
+Length=1934
+
+ Score = 35.1 bits (79),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 49/103 (48%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLE-------SEGAEREKRLRELEAKLDET  58
+             L  L++SLESE  SR + ++ K ++   L  +E        + A+ +K+++ L+A L + 
+Sbjct  1593  LESLQSSLESETRSRNEALRVKKKMEGDLNEMEIQLSQANRQAADAQKQVKTLQAFLKDA  1652
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+                L+  +    +L   +   E+   +++ +L E      + E
+Sbjct  1653  QLQLDDTQHGNDDLRENIGLLERRSNLIQAELEEVRAALEQTE  1695
+
+
+>ref|XP_003443121.1| PREDICTED: myosin-9-like isoform X1 [Oreochromis niloticus]
+Length=1963
+
+ Score = 35.1 bits (79),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1137
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1138  RDLGEELEALKTELEDTLD  1156
+
+
+>ref|XP_004562997.1| PREDICTED: myosin-9-like isoform X2 [Maylandia zebra]
+Length=1956
+
+ Score = 35.1 bits (79),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1130
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1131  RDLGEELEALKTELEDTLD  1149
+
+
+>ref|XP_001928768.1| PREDICTED: protein Daple [Sus scrofa]
+Length=2004
+
+ Score = 35.1 bits (79),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 33/109 (30%), Positives = 64/109 (59%), Gaps = 11/109 (10%)
+
+Query  1    EMANRLAGLENSLESEKVSR-------EQLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            +++ ++  L+  LE EK S        E+LIK+K+QL S + +L+   A+R +++R+LE 
+Sbjct  505  QLSKKIEKLQTQLEREKQSNQDLETLSEELIKEKEQLQSDMEALK---ADRARQIRDLEQ  561
+
+Query  54   KLDETLKNL-ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            + D   + +  L + +++  EAR+   E++   L+ K+AEA    ++LE
+Sbjct  562  EKDHLNQAVWTLRERSQVSGEARVKDVEQENRALQQKVAEAGGRLNRLE  610
+
+
+>ref|WP_019248144.1| chromosome partitioning protein Smc, partial [Bordetella pertussis]
+Length=773
+
+ Score = 35.1 bits (79),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  450  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  509
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  510  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  548
+
+
+>ref|WP_002019569.1| S-layer protein [Bacillus cereus]
+ gb|EEK76521.1| S-layer y domain protein [Bacillus cereus R309803]
+Length=888
+
+ Score = 35.1 bits (79),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 40/74 (54%), Gaps = 1/74 (1%)
+
+Query  25   KQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAKTEKDRA  84
+            K+KD+L      L  +  E +K+  E+E ++ + L+  + E+ A+ +LE +  K E+ + 
+Sbjct  172  KKKDELKKQQDELRKQQEELKKQQLEMEQQIKQELEVKQKEEQAKQKLELK-QKEEQAKQ  230
+
+Query  85   ILELKLAEAIDEKS  98
+             LELK  E   ++ 
+Sbjct  231  KLELKQKEEQAKQE  244
+
+
+>ref|XP_005468556.1| PREDICTED: myosin-9-like isoform X2 [Oreochromis niloticus]
+Length=1956
+
+ Score = 35.1 bits (79),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1130
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1131  RDLGEELEALKTELEDTLD  1149
+
+
+>ref|XP_006170826.1| PREDICTED: myosin-15 [Tupaia chinensis]
+Length=1925
+
+ Score = 35.1 bits (79),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 49/101 (49%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDETLK  60
+              L++SL+SE  SR +  + K ++   L  +E + +   +++ E       L+ ++ +   
+Sbjct  1587  SLQSSLDSEARSRIEATRLKKKMEGDLNEMELQLSYANRQVSESTKSLGQLQNQIKDLQV  1646
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+       +L+ ++A  E+  A+L+ +L E    + + E
+Sbjct  1647  QLDDSTRLNRDLQEQVAAAERYSALLQSELEELRSLQEQTE  1687
+
+
+>ref|XP_006005261.1| PREDICTED: myosin-9-like [Latimeria chalumnae]
+Length=2002
+
+ Score = 35.1 bits (79),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 28/98 (29%), Positives = 57/98 (58%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ ++LA L+  +   K   +QL K++++L + LA +E E  ++    K++RELE++L E
+Sbjct  1112  DLHDQLAELQAQINELK---QQLAKKEEELQAALARIEEESGQKNMALKKIRELESQLSE  1168
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E       ++   L+ +L + +D
+Sbjct  1169  LQEDLESERAARNKAEKLKRDLGEELEALKTELEDTLD  1206
+
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 50/108 (46%), Gaps = 7/108 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEA  53
+             ++  ++  +E  LE E+  R   I  K +L      LE +     K       +LR+L+A
+Sbjct  1639  QLVRQVREMEAELEDERKQRSMAIAAKKKLEMDFKDLEGQIEAANKGREEAIKQLRKLQA  1698
+
+Query  54    KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             ++ +  + LE  + +R E+  +  +TEK    +E ++    +E +  E
+Sbjct  1699  QMKDYQRELEDARTSREEILTQAKETEKKLKSMEAEMIHVQEELAAAE  1746
+
+
+>gb|ELW48690.1| Protein Daple, partial [Tupaia chinensis]
+Length=2016
+
+ Score = 35.1 bits (79),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 59/108 (55%), Gaps = 9/108 (8%)
+
+Query  1    EMANRLAGLENSLESEKVSR-------EQLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            +++ ++  L+  LE EK S        E+LI++K+QL S + +L+++ A + K L + + 
+Sbjct  674  QLSKKIEKLQTQLEREKQSNQDLETLSEELIREKEQLQSDMETLKADKARQIKDLEQEKD  733
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             L++ +  L     A++  EAR+   EK+   L   + EA  + S+LE
+Sbjct  734  HLNQAMWTLRER--AQVGSEARVKDVEKENKALHQTVTEASSKLSRLE  779
+
+
+>ref|XP_003502143.1| PREDICTED: LOW QUALITY PROTEIN: myosin-7-like, partial [Cricetulus 
+griseus]
+Length=1774
+
+ Score = 34.7 bits (78),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1595  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1655  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1695
+
+
+>ref|XP_003500116.1| PREDICTED: myosin-15-like [Cricetulus griseus]
+Length=1925
+
+ Score = 34.7 bits (78),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 50/103 (49%), Gaps = 7/103 (7%)
+
+Query  6     LAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKLDET  58
+             L  L++SL+SE  SR +  + + ++   L  +E +     +++ +       L+++L + 
+Sbjct  1585  LGSLQSSLDSEASSRIEATRLRKKMEGDLKEVEIQLCAANRQVSQTARALGQLQSQLKDL  1644
+
+Query  59    LKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              + L+       +L+ ++A  E+   +L+ +L E    + + E
+Sbjct  1645  QQQLDDSTYQNKDLKQQVAVAEQRNTLLQSELEELRSLQEQTE  1687
+
+
+>ref|YP_004798208.1| chromosome segregation protein SMC [Caldicellulosiruptor lactoaceticus 
+6A]
+ ref|WP_014042124.1| chromosome segregation protein SMC [Caldicellulosiruptor lactoaceticus]
+ gb|AEM73231.1| chromosome segregation protein SMC [Caldicellulosiruptor lactoaceticus 
+6A]
+Length=1177
+
+ Score = 34.7 bits (78),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 53/101 (52%), Gaps = 0/101 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            ++ ++++ LE  +E      +QL + KD L +    ++ +    E  ++  +  L+   K
+Sbjct  721  DLLSKMSVLEREIEMYDYKMKQLAQNKDALENEKNLIDQQLITLECDIKSSQENLENLKK  780
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            + E  +     L+  L+K ++D  +L+ K  +AI+EK+K+E
+Sbjct  781  SKEELEKEISNLKTILSKLKEDYNLLDSKFTKAIEEKNKIE  821
+
+
+>ref|XP_005606793.1| PREDICTED: myosin-9 [Equus caballus]
+Length=1827
+
+ Score = 34.7 bits (78),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 59/98 (60%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ +++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLNDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_004562998.1| PREDICTED: myosin-9-like isoform X3 [Maylandia zebra]
+Length=1918
+
+ Score = 34.7 bits (78),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1071  RAQLAKKEEELQAALARIEEEAAQKNLAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1130
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1131  RDLGEELEALKTELEDTLD  1149
+
+
+>ref|XP_006252015.1| PREDICTED: myosin-7 isoform X3 [Rattus norvegicus]
+Length=1875
+
+ Score = 34.7 bits (78),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|XP_003689340.1| PREDICTED: myosin-6-like [Mus musculus]
+Length=1830
+
+ Score = 34.7 bits (78),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1491  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1550
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1551  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1591
+
+
+>ref|XP_003953928.1| PREDICTED: LOW QUALITY PROTEIN: myosin-9 [Pan troglodytes]
+Length=1872
+
+ Score = 34.7 bits (78),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1080  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1136
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1137  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1174
+
+
+>ref|XP_005685399.1| PREDICTED: uncharacterized protein LOC102181869 [Capra hircus]
+Length=3706
+
+ Score = 34.7 bits (78),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1502  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1561
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1562  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1602
+
+
+>ref|XP_006252014.1| PREDICTED: myosin-7 isoform X2 [Rattus norvegicus]
+Length=1889
+
+ Score = 34.7 bits (78),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|XP_005267751.1| PREDICTED: myosin-6 isoform X1 [Homo sapiens]
+Length=1979
+
+ Score = 34.7 bits (78),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR ++++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1638  SLQTSLDAETRSRNEVLRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1697
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1698  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1738
+
+
+>ref|XP_003200959.2| PREDICTED: myosin heavy chain, fast skeletal muscle-like [Danio 
+rerio]
+Length=1491
+
+ Score = 34.7 bits (78),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 50/105 (48%), Gaps = 7/105 (7%)
+
+Query  4     NRLAGLENSLESEKVSREQLIKQKDQLNSL----LASLESEGAERE---KRLRELEAKLD  56
+             N++  L   + S+  S  +L K+K  L       L  L++E  +     K   +LE ++D
+Sbjct  1046  NKVKNLTEEMASQDESIAKLTKEKKALQEAHQQTLDDLQAEEDKVNTLTKSKSKLEQQVD  1105
+
+Query  57    ETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +   +LE EK  RM+LE    K E D  + +  + +  ++K + E
+Sbjct  1106  DLEGSLEQEKKLRMDLERAKRKLEGDLKLAQESIMDLENDKQQSE  1150
+
+
+>dbj|BAA08111.1| embryonic muscle myosin heavy chain [Halocynthia roretzi]
+Length=1927
+
+ Score = 34.7 bits (78),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 30/105 (29%), Positives = 50/105 (48%), Gaps = 7/105 (7%)
+
+Query  4     NRLAGLENSLESEKVSREQLIKQKDQLNSL-------LASLESEGAEREKRLRELEAKLD  56
+             N+L  L+  L S+     +L K+K  L          L S E +     K+  +LE ++D
+Sbjct  973   NKLKNLQEELASQDEQIAKLQKEKKALQEAHQQTLDDLQSEEDKANSLTKQKAKLEQQVD  1032
+
+Query  57    ETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             +   +LE EK  RM+LE    K E D  + +  + +  ++K +LE
+Sbjct  1033  DLEASLEQEKKLRMDLERTKRKLEGDLRLTQETVMDLENDKQRLE  1077
+
+
+>gb|ERE84442.1| myosin-9 [Cricetulus griseus]
+Length=1989
+
+ Score = 34.7 bits (78),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELEA++ E
+Sbjct  1001  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELEAQISE  1057
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1058  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1095
+
+
+>gb|EDL36311.1| mCG142372 [Mus musculus]
+Length=1806
+
+ Score = 34.3 bits (77),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1466  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1525
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1526  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1566
+
+
+>ref|XP_003970832.1| PREDICTED: actin filament-associated protein 1-like 1-like [Takifugu 
+rubripes]
+Length=738
+
+ Score = 34.3 bits (77),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 37/70 (53%), Gaps = 13/70 (19%)
+
+Query  26   QKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNLELEKLARMELEARLAKTEKDRAI  85
+            QK+ L S L SL      REKR      ++ E +K+   ++LAR  LE    + E+DR  
+Sbjct  611  QKEDLRSALVSLR-----REKR------EVKEEMKSRTDQRLAR--LETLCKQKEEDRVE  657
+
+Query  86   LELKLAEAID  95
+            LELKL E  D
+Sbjct  658  LELKLTEVKD  667
+
+
+>ref|XP_003802038.1| PREDICTED: myosin-6 [Otolemur garnettii]
+Length=1709
+
+ Score = 34.3 bits (77),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1368  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1427
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1428  QLDDAVHANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1468
+
+
+>ref|WP_023499724.1| condensin subunit Smc [uncultured archaeon A07HB70]
+ gb|ESS07641.1| condensin subunit Smc [uncultured archaeon A07HB70]
+Length=1195
+
+ Score = 34.3 bits (77),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 47/98 (48%), Gaps = 0/98 (0%)
+
+Query  2    MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+            +  R+  L+  L   ++ RE   +  + L   +   +   A  E+R+ ELE++     + 
+Sbjct  830  LEGRVDDLDGRLNELELEREYATEAAEDLRETVDRAQERKASAEERIAELESEAAAHEER  889
+
+Query  62   LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSK  99
+            LE ++    ELEA LA+ + +R  L   L EA  E+ +
+Sbjct  890  LEEKRAQVAELEADLAELKSEREDLAADLREARSERDR  927
+
+
+>ref|WP_006650262.1| chromosome segregation protein SMC [Haloterrigena thermotolerans]
+ gb|ELZ10564.1| chromosome segregation protein SMC [Haloterrigena thermotolerans 
+DSM 11522]
+Length=1196
+
+ Score = 34.3 bits (77),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 40/80 (50%), Gaps = 0/80 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            + A+ +  +E  LE     REQ+  + D L + LA L  E    ++R+ E+ A +DE   
+Sbjct  733  DAADEVRSIEAELEGLDEKREQVESEIDDLEAELADLREERESVDERMNEISATIDEKTA  792
+
+Query  61   NLELEKLARMELEARLAKTE  80
+             +E  +    +LE  LA ++
+Sbjct  793  AIEEIEAEIDDLETELADSK  812
+
+
+>dbj|BAA00791.1| cardiac alpha-myosin heavy chain [Homo sapiens]
+Length=1939
+
+ Score = 34.3 bits (77),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR ++++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1598  SLQTSLDAETRSRNEVLRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1657
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1658  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1698
+
+
+>gb|ELK11238.1| Myosin-7 [Pteropus alecto]
+Length=1914
+
+ Score = 34.3 bits (77),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1563  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAESQKQVKSLQSLLKDTQI  1622
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1623  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1663
+
+
+>ref|XP_006221235.1| PREDICTED: myosin-15 [Rattus norvegicus]
+Length=1931
+
+ Score = 34.3 bits (77),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 51/106 (48%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKL  55
+                L  L++SL+SE  SR +  K + ++   L  +E +     +++ +       L++++
+Sbjct  1583  QQALGSLQSSLDSEASSRIEATKMRKKIEGDLKEMEIQLCTANRQVSQTTRALGQLQSQM  1642
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              +  ++L+       +L+ ++A  E+   +L+ +L E    + + E
+Sbjct  1643  KDLQQHLDDSIYQNKDLKDQVALAEQRNILLQSELEELRSLQEQTE  1688
+
+
+>ref|XP_006144588.1| PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Tupaia chinensis]
+Length=1936
+
+ Score = 34.3 bits (77),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 25/101 (25%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1595  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  LA  E+   +L+ +L E      + E
+Sbjct  1655  QLDDAVRANDDLKENLAIVERRNNLLQAELEELRAVVEQTE  1695
+
+
+>ref|XP_003783303.1| PREDICTED: myosin-9 [Otolemur garnettii]
+Length=1960
+
+ Score = 34.3 bits (77),  Expect = 6.6, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_003514078.1| PREDICTED: myosin-9 [Cricetulus griseus]
+Length=1880
+
+ Score = 34.3 bits (77),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELEA++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELEAQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|WP_018718923.1| hypothetical protein [Arhodomonas aquaeolei]
+Length=359
+
+ Score = 34.3 bits (77),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 28/98 (29%), Positives = 43/98 (44%), Gaps = 0/98 (0%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNL  62
+              R+ GLEN L   +   + L  Q D     + SLE +  ER      L  +LD+  + +
+Sbjct  46   QTRITGLENDLSDARDRADNLESQLDDARERVESLEQQLTERTDARDRLRNELDKAKEQV  105
+
+Query  63   ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+               +    EL  +L  T+  R   E +LAE  D + +L
+Sbjct  106  GSLEAETAELRKQLTATQGKRDAFEQQLAERTDTRDRL  143
+
+
+>ref|XP_004071883.1| PREDICTED: myosin-9-like [Oryzias latipes]
+Length=1962
+
+ Score = 34.3 bits (77),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 29/79 (37%), Positives = 49/79 (62%), Gaps = 3/79 (4%)
+
+Query  20    REQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDETLKNLELEKLARMELEARL  76
+             R QL K++++L + LA +E E A++    K++RELEA+L E  ++LELEK AR + E   
+Sbjct  1078  RAQLAKKEEELQAALARIEEEAAQKNMAQKKIRELEAQLSELQEDLELEKQARAKAEKHR  1137
+
+Query  77    AKTEKDRAILELKLAEAID  95
+                 ++   L+ +L + +D
+Sbjct  1138  RDLGEELEALKTELEDTLD  1156
+
+
+>ref|XP_006270573.1| PREDICTED: myosin-6-like [Alligator mississippiensis]
+Length=1936
+
+ Score = 34.3 bits (77),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 49/106 (46%), Gaps = 7/106 (7%)
+
+Query  3     ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRE-------LEAKL  55
+                +  L+++L+SE  SR + I+ K ++   L  +E + +   +   E       L+A++
+Sbjct  1591  QRTIDTLQSTLDSEAKSRNEAIRLKKKMEGDLNEMEIQLSHANRHASEATKSARILQAQI  1650
+
+Query  56    DETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              E    L+       +L+ +LA T++   +L+ +L E      + E
+Sbjct  1651  KELQVQLDDSSHLNEDLKEQLAVTDRRNNLLQAELDELRALLDQTE  1696
+
+
+>ref|NP_002462.2| myosin-6 [Homo sapiens]
+ sp|P13533.5|MYH6_HUMAN RecName: Full=Myosin-6; AltName: Full=Myosin heavy chain 6; AltName: 
+Full=Myosin heavy chain, cardiac muscle alpha isoform; 
+Short=MyHC-alpha
+ gb|EAW66154.1| myosin, heavy polypeptide 6, cardiac muscle, alpha (cardiomyopathy, 
+hypertrophic 1), isoform CRA_a [Homo sapiens]
+ gb|AAI32668.1| Myosin, heavy chain 6, cardiac muscle, alpha [Homo sapiens]
+ gb|ADL14490.1| myosin, heavy chain 6, cardiac muscle, alpha [Homo sapiens]
+Length=1939
+
+ Score = 34.3 bits (77),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR ++++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1598  SLQTSLDAETRSRNEVLRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1657
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1658  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1698
+
+
+>emb|CAA79675.1| cardiac alpha-myosin heavy chain [Homo sapiens]
+Length=1939
+
+ Score = 34.3 bits (77),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR ++++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1598  SLQTSLDAETRSRNEVLRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1657
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1658  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1698
+
+
+>gb|EAW66155.1| myosin, heavy polypeptide 6, cardiac muscle, alpha (cardiomyopathy, 
+hypertrophic 1), isoform CRA_b [Homo sapiens]
+Length=1940
+
+ Score = 34.3 bits (77),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR ++++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1599  SLQTSLDAETRSRNEVLRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1658
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1659  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1699
+
+
+>ref|XP_002711459.1| PREDICTED: myosin heavy chain [Oryctolagus cuniculus]
+Length=1962
+
+ Score = 34.3 bits (77),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|XP_006133871.1| PREDICTED: myosin-9 [Pelodiscus sinensis]
+Length=1980
+
+ Score = 34.3 bits (77),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 59/98 (60%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ +++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1079  DLHDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQITE  1135
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1136  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1173
+
+
+>ref|XP_005438971.1| PREDICTED: protein Daple [Falco cherrug]
+Length=2182
+
+ Score = 34.3 bits (77),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 30/108 (28%), Positives = 60/108 (56%), Gaps = 9/108 (8%)
+
+Query  1    EMANRLAGLENSLESEKVSR-------EQLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            +++ ++  L+N +E EK S        E+LIK K+QL  ++ +L+++   + K L++   
+Sbjct  651  QLSKKIEKLQNQIEKEKQSNQDLETLSEELIKDKEQLQVVMETLKADKDRQIKDLKQEND  710
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             L++ +  L L + +++  EAR+   EK+  IL   + E   + +KLE
+Sbjct  711  HLNQVV--LSLRQRSQVSSEARVKDIEKENKILHETVTETSSKLNKLE  756
+
+
+>gb|EHB00030.1| Myosin-6 [Heterocephalus glaber]
+Length=4163
+
+ Score = 34.3 bits (77),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1852  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1911
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1912  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1952
+
+
+>gb|EAW66151.1| myosin, heavy polypeptide 7, cardiac muscle, beta, isoform CRA_a 
+[Homo sapiens]
+Length=1945
+
+ Score = 34.3 bits (77),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1597  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1656
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1657  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1697
+
+
+>ref|XP_005978098.1| PREDICTED: LOW QUALITY PROTEIN: myosin-7 [Pantholops hodgsonii]
+Length=3848
+
+ Score = 34.3 bits (77),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1634  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1693
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1694  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1734
+
+
+>gb|ESU36667.1| Hypothetical protein DHA2_152535 [Giardia intestinalis]
+Length=878
+
+ Score = 33.9 bits (76),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 26/87 (30%), Positives = 45/87 (52%), Gaps = 2/87 (2%)
+
+Query  9    LENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDET-LKNLELEKL  67
+            L++ L+ EK+ R+QL  Q  ++   L+S++ E   R   +  L    ++T LK  +LE+ 
+Sbjct  732  LKSELQGEKLVRQQLQLQLKKVEETLSSVQQESDTRGTEIVSLRTIQEQTRLKVEDLEQC  791
+
+Query  68   ARMELEARLAKTEKDRAILELKLAEAI  94
+             R   E  L+    +  +L+ KL EA 
+Sbjct  792  LRAR-ENELSLKNTEVQLLKTKLNEAQ  817
+
+
+>ref|YP_003825447.1| chromosome segregation protein SMC [Thermosediminibacter oceani 
+DSM 16646]
+ ref|WP_013275864.1| chromosome segregation protein SMC [Thermosediminibacter oceani]
+ gb|ADL07824.1| chromosome segregation protein SMC [Thermosediminibacter oceani 
+DSM 16646]
+Length=1185
+
+ Score = 33.9 bits (76),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 49/113 (43%), Gaps = 14/113 (12%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESE--------------GAEREKRL  48
+             +R+  L+  +   K S+++L  + + L ++L SL  +                E +K  
+Sbjct  793  QSRVETLQREIAESKKSKDELETEINDLRAVLNSLRQQELGLKYQIQNLEQNKEEWQKEK  852
+
+Query  49   RELEAKLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            RELE  +D   + LE       EL+ RL    +D A L   L E   +K ++E
+Sbjct  853  RELEQNMDAIREALESTVEKMRELQLRLEDNARDEANLHNALIEMKKQKEEVE  905
+
+
+>ref|XP_004279478.1| PREDICTED: myosin-9 [Orcinus orca]
+Length=1960
+
+ Score = 33.9 bits (76),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ AR + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERAARNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>emb|CAJ20719.1| hypothetical protein TgIb.2440c [Toxoplasma gondii RH]
+Length=1613
+
+ Score = 33.9 bits (76),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 31/99 (31%), Positives = 51/99 (52%), Gaps = 2/99 (2%)
+
+Query  2     MANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKN  61
+             ++ RLA L  + E EK   E + + +++       L  +  + +++L E+ A+LDE +K+
+Sbjct  1069  LSARLAALSATFEKEK--NELVAQVREREKGEANELAEKLQQTQRQLSEVHARLDENVKS  1126
+
+Query  62    LELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE E   R ELE  L   EK+     L L EA +  + L
+Sbjct  1127  LEEELRRRQELERTLEAREKEAEEASLALHEATERIAAL  1165
+
+
+>ref|XP_004055016.1| PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Gorilla gorilla gorilla]
+Length=1934
+
+ Score = 33.9 bits (76),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1593  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1652
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1653  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAMVEQTE  1693
+
+
+>ref|XP_747962.1| spindle pole body associated protein SnaD [Aspergillus fumigatus 
+Af293]
+ gb|EAL85924.1| spindle pole body associated protein SnaD, putative [Aspergillus 
+fumigatus Af293]
+Length=832
+
+ Score = 33.9 bits (76),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 45/99 (45%), Gaps = 0/99 (0%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNL  62
+            A RL  +    +   +++EQL K+   L   LA L    A +E +LRE  A++D     +
+Sbjct  383  AERLETIAYLRQQLDLAQEQLRKRDAALEDTLAKLRDVTAAKELQLREKNAEIDGLKAQI  442
+
+Query  63   ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            +   +    LE  L +  ++  ILE K+     +   LE
+Sbjct  443  DDNLMEIDRLETELGQANQEYRILEEKVESLETKNRPLE  481
+
+
+>gb|EMP39877.1| Protein Daple [Chelonia mydas]
+Length=2179
+
+ Score = 33.9 bits (76),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 30/108 (28%), Positives = 61/108 (56%), Gaps = 9/108 (8%)
+
+Query  1    EMANRLAGLENSLESEKVS-------REQLIKQKDQLNSLLASLESEGAEREKRLRELEA  53
+            +++ ++  L+N +E EK S        E+LIK+K+QL  ++ +++++   + K L++   
+Sbjct  588  QLSKKIEKLQNQIEKEKQSTQDLETLSEELIKEKEQLQGVMETVKADKDRQIKDLKQEND  647
+
+Query  54   KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             L++ +  L L + A++  EAR+   EK+  +L   + E   + SKLE
+Sbjct  648  HLNQVV--LSLRQRAQVSSEARVKDIEKENKMLHETVTETSSKLSKLE  693
+
+
+>ref|NP_058936.1| myosin-7 [Rattus norvegicus]
+ sp|P02564.2|MYH7_RAT RecName: Full=Myosin-7; AltName: Full=Myosin heavy chain 7; AltName: 
+Full=Myosin heavy chain slow isoform; Short=MyHC-slow; 
+AltName: Full=Myosin heavy chain, cardiac muscle beta isoform; 
+Short=MyHC-beta
+ emb|CAA34065.1| unnamed protein product [Rattus norvegicus]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|WP_019249159.1| chromosome partitioning protein Smc [Bordetella pertussis]
+Length=498
+
+ Score = 33.9 bits (76),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 29/99 (29%), Positives = 48/99 (48%), Gaps = 3/99 (3%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAER---EKRLRELEAKLDE  57
+            + +   AGL+++LE      E L + + +L++L A +     ER   E+ L  L A++ E
+Sbjct  175  DASASQAGLQDALELRAEREEALTRARLELDNLSALMRGADEERMQQERGLEPLRARITE  234
+
+Query  58   TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDE  96
+                 +  +LA  +   +L   E DR  L  +LAE  DE
+Sbjct  235  LQLQEQAARLAEEQFTEQLNAREVDRETLARELAEMPDE  273
+
+
+>ref|XP_005165786.1| PREDICTED: myosin-11 isoform X1 [Danio rerio]
+Length=1983
+
+ Score = 33.9 bits (76),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 50/108 (46%), Gaps = 7/108 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEA  53
+             ++  ++  LE  LE E+  R  L   K +L   L  LE +     K       +LR+L+A
+Sbjct  1600  QLVKQVRELETELEDERKQRTALAASKKKLEGDLKDLEGQIETSNKGRDEAIKQLRKLQA  1659
+
+Query  54    KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             ++ +  + L+    AR E+ +   + E+    LE +L +  ++ +  E
+Sbjct  1660  QMKDFQRELDDAHAAREEVLSSAKENERKAKTLEAELLQLQEDLAAAE  1707
+
+
+>gb|EPY73257.1| myosin, heavy polypeptide 9, non-muscle isoform 1-like protein 
+[Camelus ferus]
+Length=2035
+
+ Score = 33.9 bits (76),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 25/98 (26%), Positives = 60/98 (61%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++++++A L+  +   K+   QL K++++L + LA +E E +++    K++RELE+++ E
+Sbjct  1066  DLSDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEASQKNIALKKIRELESQISE  1122
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1123  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1160
+
+
+>ref|XP_002824640.1| PREDICTED: LOW QUALITY PROTEIN: myosin-6 [Pongo abelii]
+Length=1774
+
+ Score = 33.9 bits (76),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1433  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1492
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1493  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1533
+
+
+>gb|ABQ59035.1| MYH7 protein [Homo sapiens]
+Length=1934
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1595  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1654
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1655  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1695
+
+
+>emb|CAC20413.1| beta-myosin heavy chain [Homo sapiens]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|XP_005560928.1| PREDICTED: myosin-7 isoform X1 [Macaca fascicularis]
+Length=1938
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>gb|ABS19438.1| multivalent antigen sjGAPDH-97 [synthetic construct]
+Length=1254
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 50/111 (45%), Gaps = 14/111 (13%)
+
+Query  4    NRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEG--------------AEREKRLR  49
+            ++L GL++ L   K   + L +Q  +LN+  + L SE                   K   
+Sbjct  551  SKLEGLDSQLNRLKTLTDDLQRQLTELNNAKSRLTSENFELLHINQDYEAQILNYSKAKS  610
+
+Query  50   ELEAKLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE+++D+  ++L+ E   R  L+A+L   + D   L+ K  E  +E S L
+Sbjct  611  SLESQVDDLKRSLDDESRNRFNLQAQLTSLQMDYDNLQAKYDEESEEASNL  661
+
+
+>gb|ABS19447.1| multivalent antigen sj97-GAPDH [synthetic construct]
+Length=1254
+
+ Score = 33.9 bits (76),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 50/111 (45%), Gaps = 14/111 (13%)
+
+Query  4    NRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEG--------------AEREKRLR  49
+            ++L GL++ L   K   + L +Q  +LN+  + L SE                   K   
+Sbjct  163  SKLEGLDSQLNRLKTLTDDLQRQLTELNNAKSRLTSENFELLHINQDYEAQILNYSKAKS  222
+
+Query  50   ELEAKLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKL  100
+             LE+++D+  ++L+ E   R  L+A+L   + D   L+ K  E  +E S L
+Sbjct  223  SLESQVDDLKRSLDDESRNRFNLQAQLTSLQMDYDNLQAKYDEESEEASNL  273
+
+
+>ref|XP_005165787.1| PREDICTED: myosin-11 isoform X2 [Danio rerio]
+Length=1943
+
+ Score = 33.9 bits (76),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 50/108 (46%), Gaps = 7/108 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEA  53
+             ++  ++  LE  LE E+  R  L   K +L   L  LE +     K       +LR+L+A
+Sbjct  1600  QLVKQVRELETELEDERKQRTALAASKKKLEGDLKDLEGQIETSNKGRDEAIKQLRKLQA  1659
+
+Query  54    KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             ++ +  + L+    AR E+ +   + E+    LE +L +  ++ +  E
+Sbjct  1660  QMKDFQRELDDAHAAREEVLSSAKENERKAKTLEAELLQLQEDLAAAE  1707
+
+
+>gb|AAI62152.1| Myosin, heavy polypeptide 11, smooth muscle [Danio rerio]
+Length=1974
+
+ Score = 33.9 bits (76),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 50/108 (46%), Gaps = 7/108 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEA  53
+             ++  ++  LE  LE E+  R  L   K +L   L  LE +     K       +LR+L+A
+Sbjct  1591  QLVKQVRELETELEDERKQRTALAASKKKLEGDLKDLEGQIETSNKGRDEAIKQLRKLQA  1650
+
+Query  54    KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             ++ +  + L+    AR E+ +   + E+    LE +L +  ++ +  E
+Sbjct  1651  QMKDFQRELDDAHAAREEVLSSAKENERKAKTLEAELLQLQEDLAAAE  1698
+
+
+>ref|NP_001019619.1| myosin-11 [Danio rerio]
+ gb|AAY42972.1| smooth muscle myosin heavy chain [Danio rerio]
+Length=1974
+
+ Score = 33.9 bits (76),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 26/108 (24%), Positives = 50/108 (46%), Gaps = 7/108 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREK-------RLRELEA  53
+             ++  ++  LE  LE E+  R  L   K +L   L  LE +     K       +LR+L+A
+Sbjct  1591  QLVKQVRELETELEDERKQRTALAASKKKLEGDLKDLEGQIETSNKGRDEAIKQLRKLQA  1650
+
+Query  54    KLDETLKNLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+             ++ +  + L+    AR E+ +   + E+    LE +L +  ++ +  E
+Sbjct  1651  QMKDFQRELDDAHAAREEVLSSAKENERKAKTLEAELLQLQEDLAAAE  1698
+
+
+>gb|AAA51837.1| beta-myosin heavy chain [Homo sapiens]
+ gb|AAA62830.1| beta-myosin heavy chain [Homo sapiens]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|NP_000248.2| myosin-7 [Homo sapiens]
+ ref|XP_005267753.1| PREDICTED: myosin-7 isoform X1 [Homo sapiens]
+ sp|P12883.5|MYH7_HUMAN RecName: Full=Myosin-7; AltName: Full=Myosin heavy chain 7; AltName: 
+Full=Myosin heavy chain slow isoform; Short=MyHC-slow; 
+AltName: Full=Myosin heavy chain, cardiac muscle beta isoform; 
+Short=MyHC-beta
+ gb|AAI12174.1| Myosin, heavy chain 7, cardiac muscle, beta [Homo sapiens]
+ gb|AAI12172.1| Myosin, heavy chain 7, cardiac muscle, beta [Homo sapiens]
+ gb|EAW66152.1| myosin, heavy polypeptide 7, cardiac muscle, beta, isoform CRA_b 
+[Homo sapiens]
+ gb|ABN05283.1| myosin, heavy chain 7, cardiac muscle, beta [Homo sapiens]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|XP_003808134.1| PREDICTED: myosin-7 [Pan paniscus]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>gb|EHH27757.1| hypothetical protein EGK_18031 [Macaca mulatta]
+Length=1939
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1598  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1657
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1658  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1698
+
+
+>ref|XP_001376000.1| PREDICTED: myosin-9 [Monodelphis domestica]
+Length=1960
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 26/98 (27%), Positives = 59/98 (60%), Gaps = 6/98 (6%)
+
+Query  1     EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAERE---KRLRELEAKLDE  57
+             ++ +++A L+  +   K+   QL K++++L + LA +E E A++    K++RELE+++ E
+Sbjct  1059  DLNDQIAELQAQIAELKM---QLAKKEEELQAALARVEEEAAQKNMALKKIRELESQISE  1115
+
+Query  58    TLKNLELEKLARMELEARLAKTEKDRAILELKLAEAID  95
+               ++LE E+ +R + E +     ++   L+ +L + +D
+Sbjct  1116  LQEDLESERASRNKAEKQKRDLGEELEALKTELEDTLD  1153
+
+
+>ref|WP_021040919.1| chromosome segregation protein SMC [Halonotius sp. J07HN4]
+ gb|ERH07029.1| chromosome segregation protein SMC [Halonotius sp. J07HN4]
+Length=1196
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 22/98 (22%), Positives = 52/98 (53%), Gaps = 0/98 (0%)
+
+Query  1    EMANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLK  60
+            +  +R+  L++ L  +++ ++   +  D L+  +   +   A+ +  + ELE++++   +
+Sbjct  827  DHEDRMDDLDSKLNEQQLEQQYTEEAIDDLHETVEVAQERKADAQDEIGELESEIEAKEE  886
+
+Query  61   NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKS  98
+             L+ ++ A  ELEA L   + DR  L+  + EA D++ 
+Sbjct  887  TLDEKRAAIEELEAELVDLKSDRKELKATVGEAKDDRD  924
+
+
+>gb|ACH92815.1| mutant cardiac muscle beta-myosin heavy chain 7 [Homo sapiens]
+Length=1935
+
+ Score = 33.9 bits (76),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1696
+
+
+>ref|XP_005343045.1| PREDICTED: LOW QUALITY PROTEIN: myosin, heavy chain 7, cardiac 
+muscle, beta [Ictidomys tridecemlineatus]
+Length=1938
+
+ Score = 33.9 bits (76),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1596  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1655
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1656  QLDDAVRANDDLKENIAIVERRNTLLQAELEELRAVVEQTE  1696
+
+
+>gb|EDP51229.1| spindle pole body associated protein SnaD, putative [Aspergillus 
+fumigatus A1163]
+Length=832
+
+ Score = 33.9 bits (76),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 45/99 (45%), Gaps = 0/99 (0%)
+
+Query  3    ANRLAGLENSLESEKVSREQLIKQKDQLNSLLASLESEGAEREKRLRELEAKLDETLKNL  62
+            A RL  +    +   +++EQL K+   L   LA L    A +E +LRE  A++D     +
+Sbjct  383  AERLETIAYLRQQLDLAQEQLRKRDAALEDTLAKLRDVTAAKELQLREKNAEIDGLKAQI  442
+
+Query  63   ELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+            +   +    LE  L +  ++  ILE K+     +   LE
+Sbjct  443  DDNLMEIDRLETELGQANQEYRILEEKVESLETKNRPLE  481
+
+
+>ref|XP_004646741.1| PREDICTED: myosin-6 [Octodon degus]
+Length=1895
+
+ Score = 33.9 bits (76),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1554  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRLAAEAQKQVKSLQSLLKDTQI  1613
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1614  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1654
+
+
+>ref|XP_004485267.1| PREDICTED: LOW QUALITY PROTEIN: myosin, heavy chain 7, cardiac 
+muscle, beta [Dasypus novemcinctus]
+Length=1939
+
+ Score = 33.9 bits (76),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 24/101 (24%), Positives = 50/101 (50%), Gaps = 7/101 (7%)
+
+Query  8     GLENSLESEKVSREQLIKQKDQLNSLLASLESE-------GAEREKRLRELEAKLDETLK  60
+              L+ SL++E  SR + ++ K ++   L  +E +        AE +K+++ L++ L +T  
+Sbjct  1600  SLQTSLDAETRSRNEALRVKKKMEGDLNEMEIQLSHANRMAAEAQKQVKSLQSLLKDTQI  1659
+
+Query  61    NLELEKLARMELEARLAKTEKDRAILELKLAEAIDEKSKLE  101
+              L+    A  +L+  +A  E+   +L+ +L E      + E
+Sbjct  1660  QLDDAVRANDDLKENIAIVERRNNLLQAELEELRAVVEQTE  1700
+
+
+
+Lambda      K        H        a         alpha
+   0.293    0.129    0.288    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 306834105935
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

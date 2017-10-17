@@ -1,0 +1,439 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5NR5
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|XP_636365.1|  hypothetical protein DDB_G0289165 [Dictyosteliu...   212    2e-68
+emb|CBA34794.1|  MatB protein [Dictyostelium discoideum] >emb|CBA...   117    3e-31
+ref|WP_016858664.1|  hypothetical protein [Fischerella muscicola]     38.1    0.42 
+ref|WP_017310882.1|  hypothetical protein [Fischerella sp. PCC 9339]  36.2    1.7  
+ref|WP_009455249.1|  hypothetical protein [Fischerella] >gb|EHC17...  36.2    1.9  
+ref|NP_436202.1|  LysR family transcriptional regulator [Sinorhiz...  35.8    2.1  
+ref|YP_004551774.1|  LysR family transcriptional regulator [Sinor...  35.8    2.2  
+ref|WP_017264087.1|  LysR family transcriptional regulator [Sinor...  35.8    2.2  
+ref|YP_007572915.1|  Transcriptional regulator,LysR family [Sinor...  35.8    2.2  
+gb|EIE84793.1|  hypothetical protein RO3G_09503 [Rhizopus delemar...  35.8    3.0  
+gb|EQC57311.1|  hypothetical protein LLT6_11015 [Lactococcus lact...  34.3    6.4  
+
+
+>ref|XP_636365.1| hypothetical protein DDB_G0289165 [Dictyostelium discoideum AX4]
+ gb|EAL62861.1| hypothetical protein DDB_G0289165 [Dictyostelium discoideum AX4]
+ emb|CBA34802.1| MatA protein [Dictyostelium discoideum]
+Length=107
+
+ Score =  212 bits (539),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  7    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  66
+            MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL
+Sbjct  1    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  60
+
+Query  67   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW  113
+            SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW
+Sbjct  61   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW  107
+
+
+>emb|CBA34794.1| MatB protein [Dictyostelium discoideum]
+ emb|CBA34806.1| MatB protein [Dictyostelium discoideum]
+Length=107
+
+ Score =  117 bits (292),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 61/103 (59%), Positives = 78/103 (76%), Gaps = 0/103 (0%)
+
+Query  7    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  66
+            MD LD+II  I+KEA +S V L    VP  K  ELSE+QK I+A+YI+EVGL N+ A  L
+Sbjct  1    MDQLDEIIEQIQKEAINSNVVLKNPRVPTQKTGELSEEQKKIVADYISEVGLNNLNATEL  60
+
+Query  67   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAK  109
+            SK+LNITV+K+K YIKNSNR+GRTNN KTI + +++VSS  A+
+Sbjct  61   SKRLNITVDKSKTYIKNSNRMGRTNNFKTIKMFEDDVSSASAQ  103
+
+
+>ref|WP_016858664.1| hypothetical protein [Fischerella muscicola]
+Length=486
+
+ Score = 38.1 bits (87),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 39/73 (53%), Gaps = 6/73 (8%)
+
+Query  19   KEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAK  78
+            ++ ND G     +  P P +E+L++Q    L E +A+ G Q + A T+ K L +  E AK
+Sbjct  246  RKHNDDGSVQEWMEQPAPDIEQLTQQ----LGETLAQQGQQLVWATTMRKALLLKAE-AK  300
+
+Query  79   NYIKNSNRLGRTN  91
+            NY+ N  R  R N
+Sbjct  301  NYL-NGVRCDRAN  312
+
+
+>ref|WP_017310882.1| hypothetical protein [Fischerella sp. PCC 9339]
+Length=491
+
+ Score = 36.2 bits (82),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 39/73 (53%), Gaps = 6/73 (8%)
+
+Query  19   KEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAK  78
+            ++ ND G     +  P P +E+L++Q    L E +A+ G Q + A T+ K L +  E AK
+Sbjct  250  RKHNDDGSVQEWMEQPAPDIEQLTQQ----LGETLAQQGQQLVWATTMRKALLLKAE-AK  304
+
+Query  79   NYIKNSNRLGRTN  91
+            N++ N  R  R N
+Sbjct  305  NWL-NGVRCDRAN  316
+
+
+>ref|WP_009455249.1| hypothetical protein [Fischerella]
+ gb|EHC17907.1| hypothetical protein FJSC11DRAFT_0969 [Fischerella sp. JSC-11]
+Length=487
+
+ Score = 36.2 bits (82),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 24/73 (33%), Positives = 40/73 (55%), Gaps = 6/73 (8%)
+
+Query  19   KEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAK  78
+            ++ ND G     +  P P++++L++Q    L E +A+ G Q + A T+ K L +  E AK
+Sbjct  246  RKHNDDGSVQEWMEQPAPEIQQLTQQ----LGETLAQQGQQLVWATTMRKALLLKAE-AK  300
+
+Query  79   NYIKNSNRLGRTN  91
+            NY+ N  R  R +
+Sbjct  301  NYL-NGVRCDRAH  312
+
+
+>ref|NP_436202.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+1021]
+ ref|YP_005718504.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+BL225C]
+ ref|YP_005724571.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+SM11]
+ ref|YP_006814781.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+Rm41]
+ ref|WP_010967918.1| LysR family transcriptional regulator [Sinorhizobium meliloti]
+ gb|AAK65614.1| Transcriptional regulator, LysR family [Sinorhizobium meliloti 
+1021]
+ gb|AEG07744.1| transcriptional regulator, LysR family [Sinorhizobium meliloti 
+BL225C]
+ gb|AEH81762.1| Transcriptional regulator, LysR family [Sinorhizobium meliloti 
+SM11]
+ emb|CCM70974.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+Rm41]
+Length=293
+
+ Score = 35.8 bits (81),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  12   KIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITA  63
+            +II+D+   A D GV  AP  +P   +EE+  Q+ ++++   A VG  N+TA
+Sbjct  130  QIISDLANGAIDIGVVFAPKFLPDLSIEEIGAQRLVMVSTEFANVG--NVTA  179
+
+
+>ref|YP_004551774.1| LysR family transcriptional regulator [Sinorhizobium meliloti 
+AK83]
+ ref|WP_013845618.1| LysR family transcriptional regulator [Sinorhizobium meliloti]
+ gb|AEG57651.1| transcriptional regulator, LysR family [Sinorhizobium meliloti 
+AK83]
+Length=293
+
+ Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  12   KIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITA  63
+            +II+D+   A D GV  AP  +P   +EE+  Q+ ++++   A VG  N+TA
+Sbjct  130  QIISDLANGAIDIGVVFAPKFLPDLSIEEIGAQRLVMVSTEFANVG--NVTA  179
+
+
+>ref|WP_017264087.1| LysR family transcriptional regulator [Sinorhizobium meliloti]
+Length=293
+
+ Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  12   KIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITA  63
+            +II+D+   A D GV  AP  +P   +EE+  Q+ ++++   A VG  N+TA
+Sbjct  130  QIISDLANGAIDIGVVFAPKFLPDLSIEEIGAQRLVMVSTEFANVG--NVTA  179
+
+
+>ref|YP_007572915.1| Transcriptional regulator,LysR family [Sinorhizobium meliloti 
+2011]
+ ref|WP_015445480.1| Transcriptional regulator,LysR family [Sinorhizobium meliloti]
+ gb|AGG70647.1| Transcriptional regulator,LysR family [Sinorhizobium meliloti 
+2011]
+Length=297
+
+ Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 2/52 (4%)
+
+Query  12   KIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITA  63
+            +II+D+   A D GV  AP  +P   +EE+  Q+ ++++   A VG  N+TA
+Sbjct  134  QIISDLANGAIDIGVVFAPKFLPDLSIEEIGAQRLVMVSTEFANVG--NVTA  183
+
+
+>gb|EIE84793.1| hypothetical protein RO3G_09503 [Rhizopus delemar RA 99-880]
+Length=756
+
+ Score = 35.8 bits (81),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 44/86 (51%), Gaps = 11/86 (13%)
+
+Query  6    SMDPLDKIINDIKKEANDSGVTLAPLSVP-------KPKLEELSEQQKIILAEYIAEVGL  58
+            S  PL K +ND K     + +  A  ++P       +P  E  ++ ++II+AEY +  G+
+Sbjct  179  SRHPLHKKMNDTKHAPLPTPIQFASAAIPLLYFLFNQPMRENGTDFREIIIAEYSSTKGM  238
+
+Query  59   QNITAITLSKKL--NITVEK--AKNY  80
+                 + L KK+  NI +E+  +KNY
+Sbjct  239  IQQIEVILRKKIKDNIEIERVFSKNY  264
+
+
+>gb|EQC57311.1| hypothetical protein LLT6_11015 [Lactococcus lactis subsp. cremoris 
+TIFN6]
+Length=161
+
+ Score = 34.3 bits (77),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 50/94 (53%), Gaps = 12/94 (13%)
+
+Query  2   SHMASMDPLDKIINDIKK--EAND----SGVTLAPLSVPKPKLEELSEQQKIILAEYIAE  55
+           S++  +DP++++I+D KK  +A+     S + +     P P + +  E+    +A+ I E
+Sbjct  11  SNIVPIDPVEELIDDAKKLPKADQDRLVSKMEIYSGQFPHPDILKEFEKLSPGIAKKIFE  70
+
+Query  56  VGLQNITAITLSKKLNITVEKAKNYIKNSNRLGR  89
+            GL+N      SKK N   EKA +Y +  NR G+
+Sbjct  71  AGLEN------SKKRNELDEKAMDYTQKDNRRGQ  98
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.126    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304376932032
+Results from round 2
+
+
+Query= 5NR5
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_636365.1|  hypothetical protein DDB_G0289165 [Dictyosteliu...   156    1e-46
+emb|CBA34794.1|  MatB protein [Dictyostelium discoideum] >emb|CBA...   146    9e-43
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_007136361.1|  hypothetical protein Cal6303_1329 [Calothrix...  35.1    4.6  
+ref|WP_020774127.1|  hypothetical protein [Leptospira alstoni] >g...  34.7    6.8  
+ref|YP_007832258.1|  Methyl-accepting chemotaxis protein [Rosebur...  34.3    7.7  
+ref|XP_003284912.1|  hypothetical protein DICPUDRAFT_75881 [Dicty...  34.3    8.0  
+ref|WP_006858032.1|  putative sigma-54 dependent transcriptional ...  34.3    8.2  
+ref|WP_022113025.1|  methyl-accepting chemotaxis protein [Rosebur...  34.3    8.4  
+ref|YP_007777923.1|  Methyl-accepting chemotaxis protein [Rosebur...  34.3    8.4  
+
+
+>ref|XP_636365.1| hypothetical protein DDB_G0289165 [Dictyostelium discoideum AX4]
+ gb|EAL62861.1| hypothetical protein DDB_G0289165 [Dictyostelium discoideum AX4]
+ emb|CBA34802.1| MatA protein [Dictyostelium discoideum]
+Length=107
+
+ Score =  156 bits (395),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  7    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  66
+            MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL
+Sbjct  1    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  60
+
+Query  67   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW  113
+            SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW
+Sbjct  61   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSMTW  107
+
+
+>emb|CBA34794.1| MatB protein [Dictyostelium discoideum]
+ emb|CBA34806.1| MatB protein [Dictyostelium discoideum]
+Length=107
+
+ Score =  146 bits (369),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 61/103 (59%), Positives = 78/103 (76%), Gaps = 0/103 (0%)
+
+Query  7    MDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITL  66
+            MD LD+II  I+KEA +S V L    VP  K  ELSE+QK I+A+YI+EVGL N+ A  L
+Sbjct  1    MDQLDEIIEQIQKEAINSNVVLKNPRVPTQKTGELSEEQKKIVADYISEVGLNNLNATEL  60
+
+Query  67   SKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAK  109
+            SK+LNITV+K+K YIKNSNR+GRTNN KTI + +++VSS  A+
+Sbjct  61   SKRLNITVDKSKTYIKNSNRMGRTNNFKTIKMFEDDVSSASAQ  103
+
+
+>ref|YP_007136361.1| hypothetical protein Cal6303_1329 [Calothrix sp. PCC 6303]
+ ref|WP_015197039.1| hypothetical protein [Calothrix parietina]
+ gb|AFZ00389.1| hypothetical protein Cal6303_1329 [Calothrix sp. PCC 6303]
+Length=1028
+
+ Score = 35.1 bits (79),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 22/109 (20%), Positives = 54/109 (50%), Gaps = 6/109 (6%)
+
+Query  6    SMDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAIT  65
+            S + +++II+  +K    S +  AP  +   + ++  +  +  + EY+ + G Q +    
+Sbjct  752  SEEQVNEIIDSTQKSI--SNLVRAPRRIAA-RTQQQVQNYQAYVEEYLRQTGKQELNPEG  808
+
+Query  66   LSKKLNITVEKAKNYIKN-SNRLGRTNNLKTIGILQ--EEVSSMEAKSM  111
+            + + LN+ +   K  ++N  +RL   +    + +L+  E++S  EA+ +
+Sbjct  809  IKRDLNLLLHDPKLGVENLGDRLNHFDRDTIVALLKIREDISDEEAEQI  857
+
+
+>ref|WP_020774127.1| hypothetical protein [Leptospira alstoni]
+ gb|EMJ93489.1| hypothetical protein LEP1GSC194_1203 [Leptospira alstoni serovar 
+Sichuan str. 79601]
+ gb|EQA81626.1| hypothetical protein LEP1GSC193_2995 [Leptospira alstoni serovar 
+Pingchang str. 80-412]
+Length=1121
+
+ Score = 34.7 bits (78),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 27/106 (25%), Positives = 51/106 (48%), Gaps = 9/106 (8%)
+
+Query  6    SMDPLDKIINDIKKEANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAIT  65
+            S++ L     +I K   D  +T   L + + KL+E  E +K    E ++E   +   A  
+Sbjct  758  SLEELSDAFEEISKRTLDETLTGENLYMIRKKLKEFMESEK---TELVSE---EFKIADD  811
+
+Query  66   LSKKLNITVEKAKNYIKNSNRLGRTNNLKTIGILQEEVSSMEAKSM  111
+            L+K+L+  V+K   + ++S R+G   N   I   +EE+  +  + +
+Sbjct  812  LNKRLDKYVKK---FSEDSERIGLVGNADYIESFEEELEKIRKERL  854
+
+
+>ref|YP_007832258.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis M50/1]
+ ref|WP_015560495.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis]
+ emb|CBL09217.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis M50/1]
+Length=642
+
+ Score = 34.3 bits (77),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 25/94 (27%), Positives = 44/94 (47%), Gaps = 11/94 (12%)
+
+Query  20   EANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAKN  79
+            EA  +G      +V   ++ ELS+  K ++ E        N  A  +  K+N +++  K+
+Sbjct  547  EAARAGEAGRGFAVVASEIRELSDSTKKLIVE-------NNAKAEEIIPKINASIDSIKD  599
+
+Query  80   YIKNSNRLGRTNNLKTIGILQEEVSSMEA--KSM  111
+             I+N N +     + TI    EE+SS  +  +SM
+Sbjct  600  LIENINEM--NEKVATIAATSEEISSQTSCVQSM  631
+
+
+>ref|XP_003284912.1| hypothetical protein DICPUDRAFT_75881 [Dictyostelium purpureum]
+ gb|EGC38541.1| hypothetical protein DICPUDRAFT_75881 [Dictyostelium purpureum]
+Length=1134
+
+ Score = 34.3 bits (77),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 18/64 (28%), Positives = 35/64 (55%), Gaps = 1/64 (2%)
+
+Query  38   LEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAKNYIKNSNRLGRTNNLKTIG  97
+                +E+Q+ ++ E  + + L  +++   +K+LNIT+E  KNYI  SN     ++   I 
+Sbjct  153  TATTTEEQQKVIDELFSLILLNTLSSNQ-TKELNITIEFFKNYICQSNFNNYLSSYNFIQ  211
+
+Query  98   ILQE  101
+             ++E
+Sbjct  212  FIRE  215
+
+
+>ref|WP_006858032.1| putative sigma-54 dependent transcriptional regulator [Roseburia 
+intestinalis]
+ gb|EEV00137.1| 4Fe-4S binding domain protein [Roseburia intestinalis L1-82]
+Length=642
+
+ Score = 34.3 bits (77),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 25/94 (27%), Positives = 44/94 (47%), Gaps = 11/94 (12%)
+
+Query  20   EANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAKN  79
+            EA  +G      +V   ++ ELS+  K ++ E        N  A  +  K+N +++  K+
+Sbjct  547  EAARAGEAGRGFAVVASEIRELSDSTKKLIVE-------NNAKAEEIIPKINASIDSIKD  599
+
+Query  80   YIKNSNRLGRTNNLKTIGILQEEVSSMEA--KSM  111
+             I+N N +     + TI    EE+SS  +  +SM
+Sbjct  600  LIENINEM--NEKVATIAATSEEISSQTSCVQSM  631
+
+
+>ref|WP_022113025.1| methyl-accepting chemotaxis protein [Roseburia intestinalis CAG:13]
+ emb|CDA55655.1| methyl-accepting chemotaxis protein [Roseburia intestinalis CAG:13]
+Length=642
+
+ Score = 34.3 bits (77),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 25/94 (27%), Positives = 44/94 (47%), Gaps = 11/94 (12%)
+
+Query  20   EANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAKN  79
+            EA  +G      +V   ++ ELS+  K ++ E        N  A  +  K+N +++  K+
+Sbjct  547  EAARAGEAGRGFAVVASEIRELSDSTKKLIVE-------NNAKAEEIIPKINASIDSIKD  599
+
+Query  80   YIKNSNRLGRTNNLKTIGILQEEVSSMEA--KSM  111
+             I+N N +     + TI    EE+SS  +  +SM
+Sbjct  600  LIENINEM--NEKVATIAATSEEISSQTSCVQSM  631
+
+
+>ref|YP_007777923.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis XB6B4]
+ ref|WP_015520804.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis]
+ emb|CBL12146.1| Methyl-accepting chemotaxis protein [Roseburia intestinalis XB6B4]
+Length=642
+
+ Score = 34.3 bits (77),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 25/94 (27%), Positives = 44/94 (47%), Gaps = 11/94 (12%)
+
+Query  20   EANDSGVTLAPLSVPKPKLEELSEQQKIILAEYIAEVGLQNITAITLSKKLNITVEKAKN  79
+            EA  +G      +V   ++ ELS+  K ++ E        N  A  +  K+N +++  K+
+Sbjct  547  EAARAGEAGRGFAVVASEIRELSDSTKKLIVE-------NNAKAEEIIPKINASIDSIKD  599
+
+Query  80   YIKNSNRLGRTNNLKTIGILQEEVSSMEA--KSM  111
+             I+N N +     + TI    EE+SS  +  +SM
+Sbjct  600  LIENINEM--NEKVATIAATSEEISSQTSCVQSM  631
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.334    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304376932032
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

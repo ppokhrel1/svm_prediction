@@ -1,0 +1,2675 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5B02
+
+Length=343
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_016823897.1|  hypothetical protein [Streptomyces viridospo...   524    0.0  
+gb|ABJ90163.1|  MoeN5 [Streptomyces ghanaensis ATCC 14672]             521    0.0  
+ref|WP_004981193.1|  predicted protein [Streptomyces ghanaensis] ...   522    0.0  
+ref|WP_018569830.1|  hypothetical protein [Streptomyces sp. PsTaA...   281    8e-90
+ref|WP_003963603.1|  Moenomycin biosynthesis protein MoeN5 [Strep...   263    2e-82
+ref|WP_003958099.1|  MoeN5 [Streptomyces clavuligerus] >gb|EDY524...   261    3e-82
+ref|NP_343889.1|  DNA-binding protein [Sulfolobus solfataricus P2...   132    6e-35
+ref|YP_005642249.1|  DNA-binding 7 kDa protein [Sulfolobus solfat...   131    1e-34
+ref|NP_343300.1|  DNA-binding protein [Sulfolobus solfataricus P2...   130    3e-34
+ref|YP_002831601.1|  DNA-binding 7 kDa protein [Sulfolobus island...   130    5e-34
+pdb|1BF4|A  Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAA...   129    9e-34
+pdb|1BBX|C  Chain C, Non-Specific Protein-Dna Interactions In The...   128    2e-33
+ref|YP_002830757.1|  DNA-binding 7 kDa protein [Sulfolobus island...   128    2e-33
+pdb|1C8C|A  Chain A, Crystal Structures Of The Chromosomal Protei...   127    3e-33
+ref|YP_003421041.1|  DNA-binding 7 kDa protein [Sulfolobus island...   127    5e-33
+ref|YP_005645234.1|  DNA-binding 7 kDa protein [Sulfolobus island...   127    5e-33
+pdb|1JIC|A  Chain A, Solution Nmr Structure Of Recombinant Sso7d ...   126    8e-33
+ref|YP_007867037.1|  DNA-binding 7 kDa protein [Sulfolobus island...   126    1e-32
+pdb|2CVR|A  Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l...   124    8e-32
+pdb|1B4O|A  Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized A...   121    8e-31
+prf||2107210A  RNase                                                   119    4e-30
+ref|NP_376529.1|  DNA-binding protein 7e [Sulfolobus tokodaii str...   115    9e-29
+ref|WP_020198893.1|  DNA-binding protein [Sulfolobales archaeon A...   108    4e-26
+ref|YP_004459429.1|  DNA-binding 7 kDa protein [Acidianus hospita...   105    6e-25
+ref|YP_004458143.1|  DNA-binding 7 kDa protein [Acidianus hospita...   103    4e-24
+pdb|1WVL|A  Chain A, Crystal Structure Of Multimeric Dna-Binding ...   103    4e-24
+ref|YP_255071.1|  DNA-bindign protein 7e [Sulfolobus acidocaldari...   102    6e-24
+pdb|1WTW|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   101    2e-23
+ref|YP_254785.1|  DNA-binding protein 7e [Sulfolobus acidocaldari...   101    2e-23
+pdb|1WTR|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   100    3e-23
+pdb|1WTP|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   100    5e-23
+pdb|1SAP|A  Chain A, Hyperthermophile Protein, Relaxation Matrix ...  99.4    8e-23
+pdb|1WTO|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  99.4    1e-22
+pdb|1XYI|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...  99.0    1e-22
+pdb|1XX8|A  Chain A, Nmr Structure Of The W24a Mutant Of The Hype...  98.6    2e-22
+ref|YP_004458182.1|  DNA-binding 7 kDa protein [Acidianus hospita...  98.2    2e-22
+gb|AAB33737.1|  p7ss=7.147 kda in vitro ribosylatable DNA-binding...  76.6    1e-14
+ref|YP_001190678.1|  hypothetical protein Msed_0579 [Metallosphae...  70.5    3e-12
+ref|YP_004410040.1|  hypothetical protein Mcup_1453 [Metallosphae...  69.7    5e-12
+pdb|2XIW|A  Chain A, Crystal Structure Of The Sac7d-derived Igg1-...  62.0    5e-09
+ref|WP_018157000.1|  hypothetical protein [Demetria terragena]        41.6    0.38 
+ref|YP_004097971.1|  polyprenyl synthetase [Intrasporangium calvu...  41.6    0.40 
+ref|WP_010849784.1|  putative polyprenyl diphosphate synthase [Te...  40.8    0.65 
+ref|WP_002730358.1|  putative Mechanosensitive ion channel protei...  39.3    3.3  
+ref|WP_008756843.1|  hemolysin-type calcium-binding protein [Rhod...  39.3    3.5  
+gb|EPE08225.1|  hypothetical protein F503_01008 [Ophiostoma picea...  38.9    4.2  
+ref|WP_020145004.1|  geranylgeranyl pyrophosphate synthase [Terra...  38.1    4.9  
+ref|YP_328453.1|  dimethylallyltransferase [Chlamydia trachomatis...  38.1    5.3  
+ref|NP_220145.1|  dimethylallyltransferase [Chlamydia trachomatis...  38.1    5.3  
+ref|YP_005809854.1|  dimethylallyltransferase [Chlamydia trachoma...  38.1    5.5  
+ref|YP_001654961.1|  dimethylallyltransferase [Chlamydia trachoma...  38.1    5.5  
+ref|YP_007715266.1|  geranyltranstransferase [Chlamydia trachomat...  38.1    5.5  
+ref|YP_007726869.1|  geranyltranstransferase [Chlamydia trachomat...  37.7    6.0  
+
+
+>ref|WP_016823897.1| hypothetical protein [Streptomyces viridosporus]
+Length=276
+
+ Score =  524 bits (1349),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 261/265 (98%), Positives = 262/265 (99%), Gaps = 0/265 (0%)
+
+Query  10   DDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  69
+            D  + MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV
+Sbjct  12   DYTETMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  71
+
+Query  70   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  129
+            SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ
+Sbjct  72   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  131
+
+Query  130  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  189
+            DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE
+Sbjct  132  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  191
+
+Query  190  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  249
+            AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA
+Sbjct  192  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  251
+
+Query  250  PGLVPVVHLYTDDVLVRLLPRHLGE  274
+            PGLVPVVHLYTDDVLVRLLPRHLGE
+Sbjct  252  PGLVPVVHLYTDDVLVRLLPRHLGE  276
+
+
+>gb|ABJ90163.1| MoeN5 [Streptomyces ghanaensis ATCC 14672]
+Length=260
+
+ Score =  521 bits (1343),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 260/260 (100%), Positives = 260/260 (100%), Gaps = 0/260 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA
+Sbjct  1    MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  60
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL
+Sbjct  61   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  120
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT
+Sbjct  121  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  180
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP
+Sbjct  181  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  240
+
+Query  255  VVHLYTDDVLVRLLPRHLGE  274
+            VVHLYTDDVLVRLLPRHLGE
+Sbjct  241  VVHLYTDDVLVRLLPRHLGE  260
+
+
+>ref|WP_004981193.1| predicted protein [Streptomyces ghanaensis]
+ gb|EFE66077.1| predicted protein [Streptomyces ghanaensis ATCC 14672]
+Length=409
+
+ Score =  522 bits (1345),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 261/265 (98%), Positives = 262/265 (99%), Gaps = 0/265 (0%)
+
+Query  10   DDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  69
+            D  + MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV
+Sbjct  145  DYTETMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  204
+
+Query  70   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  129
+            SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ
+Sbjct  205  SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  264
+
+Query  130  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  189
+            DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE
+Sbjct  265  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  324
+
+Query  190  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  249
+            AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA
+Sbjct  325  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  384
+
+Query  250  PGLVPVVHLYTDDVLVRLLPRHLGE  274
+            PGLVPVVHLYTDDVLVRLLPRHLGE
+Sbjct  385  PGLVPVVHLYTDDVLVRLLPRHLGE  409
+
+
+>ref|WP_018569830.1| hypothetical protein [Streptomyces sp. PsTaAH-124]
+Length=272
+
+ Score =  281 bits (720),  Expect = 8e-90, Method: Compositional matrix adjust.
+ Identities = 173/257 (67%), Positives = 191/257 (74%), Gaps = 0/257 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            MLA E+ANRD VT  VA+ GGSP+LVAHTAALRLYLRVPHFLTEW  DP  RA V+RALA
+Sbjct  13   MLATESANRDQVTDFVARNGGSPELVAHTAALRLYLRVPHFLTEWIGDPPLRARVARALA  72
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            LDIV+MKLLDDLMDDDTGL RVELAC+CL LHL AL E+ +LA DP++VTD+LE D   +
+Sbjct  73   LDIVAMKLLDDLMDDDTGLSRVELACLCLHLHLTALREMCALAEDPRSVTDLLEHDFTTV  132
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            C GQIR K  RA +L  WRA ASTYG++FLG YGALAA CG         R FAEAF   
+Sbjct  133  CTGQIRVKSHRARDLDGWRAGASTYGASFLGCYGALAAICGRATGSVGPARRFAEAFGTI  192
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            IT+ADDLTDYDRNGER GNL HLMRTGAV   +V  LL +LR  AL AV   P A GL  
+Sbjct  193  ITIADDLTDYDRNGERAGNLGHLMRTGAVPAAEVAALLGQLRADALDAVRERPAALGLEA  252
+
+Query  255  VVHLYTDDVLVRLLPRH  271
+            V  LYT DVL RLLP H
+Sbjct  253  VTELYTTDVLDRLLPLH  269
+
+
+>ref|WP_003963603.1| Moenomycin biosynthesis protein MoeN5 [Streptomyces clavuligerus]
+ gb|EFG04771.1| Moenomycin biosynthesis protein MoeN5 [Streptomyces clavuligerus 
+ATCC 27064]
+Length=275
+
+ Score =  263 bits (671),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 161/262 (61%), Positives = 192/262 (73%), Gaps = 0/262 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            ML  E+ANRD +T  VA  GGSP+LVAH AA+RLYLRVPHFLTEW  +P+ RA V+ AL 
+Sbjct  13   MLRTESANRDRITAFVAANGGSPELVAHVAAIRLYLRVPHFLTEWIGEPELRAEVASALV  72
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            +DIV+MKLLDDLMDDD+GLDR++LAC+CL LHL AL E+ +L+RDP+AV D+LE D   +
+Sbjct  73   MDIVAMKLLDDLMDDDSGLDRIQLACLCLHLHLTALREMCALSRDPQAVVDLLEHDFTQV  132
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            C GQIRTKR RA NL EW A+ASTYG+ FLG YGALAA CG         REFAEA+   
+Sbjct  133  CTGQIRTKRERARNLDEWCANASTYGAAFLGVYGALAALCGRRPGSIGPAREFAEAYGTL  192
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            IT+ADDLTDYDR+GER GN+ HL+ TGAV   ++  L++ L  RA  A    P A GLVP
+Sbjct  193  ITLADDLTDYDRDGERAGNIGHLLLTGAVTLDELTGLVDRLTTRAERAAYEQPVARGLVP  252
+
+Query  255  VVHLYTDDVLVRLLPRHLGEAG  276
+            V  +Y DDVL RLLPR   E G
+Sbjct  253  VPGIYRDDVLHRLLPRFRAELG  274
+
+
+>ref|WP_003958099.1| MoeN5 [Streptomyces clavuligerus]
+ gb|EDY52406.1| MoeN5 [Streptomyces clavuligerus ATCC 27064]
+Length=263
+
+ Score =  261 bits (668),  Expect = 3e-82, Method: Compositional matrix adjust.
+ Identities = 161/262 (61%), Positives = 192/262 (73%), Gaps = 0/262 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            ML  E+ANRD +T  VA  GGSP+LVAH AA+RLYLRVPHFLTEW  +P+ RA V+ AL 
+Sbjct  1    MLRTESANRDRITAFVAANGGSPELVAHVAAIRLYLRVPHFLTEWIGEPELRAEVASALV  60
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            +DIV+MKLLDDLMDDD+GLDR++LAC+CL LHL AL E+ +L+RDP+AV D+LE D   +
+Sbjct  61   MDIVAMKLLDDLMDDDSGLDRIQLACLCLHLHLTALREMCALSRDPQAVVDLLEHDFTQV  120
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            C GQIRTKR RA NL EW A+ASTYG+ FLG YGALAA CG         REFAEA+   
+Sbjct  121  CTGQIRTKRERARNLDEWCANASTYGAAFLGVYGALAALCGRRPGSIGPAREFAEAYGTL  180
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            IT+ADDLTDYDR+GER GN+ HL+ TGAV   ++  L++ L  RA  A    P A GLVP
+Sbjct  181  ITLADDLTDYDRDGERAGNIGHLLLTGAVTLDELTGLVDRLTTRAERAAYEQPVARGLVP  240
+
+Query  255  VVHLYTDDVLVRLLPRHLGEAG  276
+            V  +Y DDVL RLLPR   E G
+Sbjct  241  VPGIYRDDVLHRLLPRFRAELG  262
+
+
+>ref|NP_343889.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|WP_010923919.1| DNA-binding protein [Sulfolobus solfataricus]
+ gb|AAK42679.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-1) [Sulfolobus 
+solfataricus P2]
+Length=68
+
+ Score =  132 bits (333),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 64/65 (98%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  279  AMATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            +MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML
+Sbjct  4    SMATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  63
+
+Query  339  EKQKK  343
+            EKQKK
+Sbjct  64   EKQKK  68
+
+
+>ref|YP_005642249.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009990119.1| DNA-binding protein [Sulfolobus solfataricus]
+ sp|P39476.2|DN72_SULSO RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sso7d
+ pdb|1BNZ|A Chain A, Sso7d Hyperthermophile ProteinDNA COMPLEX
+ gb|ACX90648.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score =  131 bits (330),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|NP_343300.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|NP_343422.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|YP_002828838.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002837172.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840877.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842728.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_005644391.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992021.1| DNA-binding protein [Sulfolobus]
+ sp|P61990.2|DN71_SULSH RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=Ssh7a
+ sp|P61991.2|DN71_SULSO RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=p7ss
+ dbj|BAA28274.1| Ssh7a [Sulfolobus shibatae]
+ gb|AAK42090.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-2) [Sulfolobus 
+solfataricus P2]
+ gb|AAK42212.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-3) [Sulfolobus 
+solfataricus P2]
+ gb|ACP37540.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45250.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48955.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54683.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACX92790.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score =  130 bits (328),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 63/64 (98%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_002831601.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002914033.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_003418866.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012713334.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ACP34956.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACR41365.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MTTVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1BF4|A Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAACGC) COMPLEX
+Length=63
+
+ Score =  129 bits (324),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QKK  343
+            QKK
+Sbjct  61   QKK  63
+
+
+>pdb|1BBX|C Chain C, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+ pdb|1BBX|D Chain D, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+Length=63
+
+ Score =  128 bits (322),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 62/63 (98%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QKK  343
+            QKK
+Sbjct  61   QKK  63
+
+
+>ref|YP_002830757.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002833496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002839073.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841926.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002844687.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_002915996.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_005647262.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649907.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|WP_012712662.1| DNA-binding protein [Sulfolobus islandicus]
+ sp|O59632.3|DN72_SULSH RecName: Full=DNA-binding protein 7b; AltName: Full=7 kDa DNA-binding 
+protein B; AltName: Full=Ssh7b
+ dbj|BAA28275.1| Ssh7b [Sulfolobus shibatae]
+ gb|ACP36851.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP39459.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP47151.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP50004.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP56642.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACR43328.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADX86693.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX84048.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+Length=64
+
+ Score =  128 bits (321),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEKEVD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1C8C|A Chain A, Crystal Structures Of The Chromosomal Proteins Sso7dSAC7D 
+Bound To Dna Containing T-G Mismatched Base Pairs
+Length=64
+
+ Score =  127 bits (320),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML 
+Sbjct  1    MATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLA  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_003421041.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953380.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADB88671.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score =  127 bits (319),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_005645234.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647965.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|YP_007865169.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+ ref|WP_014512200.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADX84751.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX82020.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62165.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score =  127 bits (319),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MTTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1JIC|A Chain A, Solution Nmr Structure Of Recombinant Sso7d With Rnase 
+Activity, Minimized Average Structure
+ pdb|1SSO|A Chain A, Solution Structure And Dna-Binding Properties Of A Thermostable 
+Protein From The Archaeon Sulfolobus Solfataricus
+ gb|AAB25172.1| ribonuclease p2 [Sulfolobus solfataricus, MT-4, ATCC 49155, Peptide, 
+62 aa]
+ prf||1908252A ribonuclease
+Length=62
+
+ Score =  126 bits (317),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 61/62 (98%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>ref|YP_007867037.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+ ref|WP_015581733.1| DNA-binding 7 kDa protein [Sulfolobus islandicus]
+ gb|AGJ64030.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score =  126 bits (316),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGE+KEVD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEDKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|2CVR|A Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l, 12 Conformers
+Length=62
+
+ Score =  124 bits (310),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 60/62 (97%), Positives = 61/62 (98%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEE +VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEELQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>pdb|1B4O|A Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized Average Structure
+Length=62
+
+ Score =  121 bits (303),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 60/62 (97%), Positives = 61/62 (98%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMIS TYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISATYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score =  119 bits (299),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 60/63 (95%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQM+ +
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMMPE  60
+
+Query  341  QKK  343
+              K
+Sbjct  61   TGK  63
+
+
+>ref|NP_376529.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|NP_378090.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|WP_010978621.1| DNA-binding protein [Sulfolobus tokodaii]
+ sp|Q96X56.3|DN71_SULTO RecName: Full=DNA-binding protein 7
+ dbj|BAB65638.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+ dbj|BAB67199.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+Length=64
+
+ Score =  115 bits (289),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 58/64 (91%), Positives = 59/64 (92%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLQMLE  59
+
+Query  340  KQKK  343
+            K  K
+Sbjct  60   KSGK  63
+
+
+>ref|WP_020198893.1| DNA-binding protein [Sulfolobales archaeon Acd1]
+Length=64
+
+ Score =  108 bits (270),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 55/63 (87%), Positives = 58/63 (92%), Gaps = 1/63 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            A VKFKYKG+EKEVDISKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML K
+Sbjct  3    AKVKFKYKGQEKEVDISKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLAK  61
+
+Query  341  QKK  343
+            QKK
+Sbjct  62   QKK  64
+
+
+>ref|YP_004459429.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013777046.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE95131.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=62
+
+ Score =  105 bits (261),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 56/63 (89%), Positives = 58/63 (92%), Gaps = 2/63 (3%)
+
+Query  280  MAT-VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            MAT VKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELL  L
+Sbjct  1    MATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLDKL  59
+
+Query  339  EKQ  341
+            EK+
+Sbjct  60   EKK  62
+
+
+>ref|YP_004458143.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775761.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93845.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=60
+
+ Score =  103 bits (256),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 54/61 (89%), Positives = 57/61 (93%), Gaps = 2/61 (3%)
+
+Query  280  MAT-VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            MAT VKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELL+ L
+Sbjct  1    MATKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLEKL  59
+
+Query  339  E  339
+            +
+Sbjct  60   K  60
+
+
+>pdb|1WVL|A Chain A, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+ pdb|1WVL|B Chain B, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+Length=80
+
+ Score =  103 bits (257),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 54/67 (81%), Positives = 58/67 (87%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>ref|YP_255071.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433484.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435759.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011277280.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13125.2|DN72_SULAC RecName: Full=DNA-binding protein 7e; AltName: Full=7 kDa DNA-binding 
+protein e; AltName: Full=Sac7e
+ gb|AAA80316.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ gb|AAY79778.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ gb|AGE70336.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72611.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=65
+
+ Score =  102 bits (255),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 53/66 (80%), Positives = 58/66 (88%), Gaps = 4/66 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            MA V+FKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKEL+ ML 
+Sbjct  1    MAKVRFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELMDMLA  59
+
+Query  339  --EKQK  342
+              EK+K
+Sbjct  60   RAEKKK  65
+
+
+>pdb|1WTW|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gcgatcgc
+ pdb|1WTX|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gtaattac
+Length=66
+
+ Score =  101 bits (252),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 53/67 (79%), Positives = 57/67 (85%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWR GKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRAGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>ref|YP_254785.1| DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433189.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435464.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011276993.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13123.3|DN71_SULAC RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sac7d; Contains: RecName: 
+Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Sac7a; Contains: RecName: Full=DNA-binding 
+protein 7b; AltName: Full=7 kDa DNA-binding protein 
+b; AltName: Full=Sac7b
+ pdb|1AZQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1AZP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1CA5|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1CA6|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1WD0|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ pdb|1WD1|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ gb|AAA80315.1| DNA-binding protein [Sulfolobus sp.]
+ gb|AAY79492.1| conserved DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70041.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72316.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=66
+
+ Score =  101 bits (251),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 54/67 (81%), Positives = 58/67 (87%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>pdb|1WTR|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gcgatcgc
+ pdb|1WTV|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gtaattac
+Length=66
+
+ Score =  100 bits (249),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 53/67 (79%), Positives = 57/67 (85%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWRVGK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKAVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>pdb|1WTP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTP|B Chain B, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gtaattac
+Length=66
+
+ Score =  100 bits (248),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 53/67 (79%), Positives = 57/67 (85%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWRVGK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKFVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>pdb|1SAP|A Chain A, Hyperthermophile Protein, Relaxation Matrix Refinement 
+Structure
+Length=66
+
+ Score = 99.4 bits (246),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 53/64 (83%), Positives = 57/64 (89%), Gaps = 4/64 (6%)
+
+Query  283  VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML---E  339
+            VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML   E
+Sbjct  4    VKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLARAE  62
+
+Query  340  KQKK  343
+            ++KK
+Sbjct  63   REKK  66
+
+
+>pdb|1WTO|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+V26fM29F IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 99.4 bits (246),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 52/67 (78%), Positives = 56/67 (84%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWR GK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRFGKFVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>pdb|1XYI|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+Val26alaMET29ALA IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score = 99.0 bits (245),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 52/67 (78%), Positives = 56/67 (84%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKVWR GK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRAGKAVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>pdb|1XX8|A Chain A, Nmr Structure Of The W24a Mutant Of The Hyperthermophile 
+Sac7d Protein
+Length=66
+
+ Score = 98.6 bits (244),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 53/67 (79%), Positives = 57/67 (85%), Gaps = 4/67 (6%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML-  338
+            M  VKFKYKGEEKEVD SKIKKV RVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVARVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  339  --EKQKK  343
+              E++KK
+Sbjct  60   RAEREKK  66
+
+
+>ref|YP_004458182.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775800.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93884.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=61
+
+ Score = 98.2 bits (243),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 48/52 (92%), Positives = 49/52 (94%), Gaps = 1/52 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAP  331
+            M TVKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAP
+Sbjct  1    MTTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAP  51
+
+
+>gb|AAB33737.1| p7ss=7.147 kda in vitro ribosylatable DNA-binding protein {N-terminal} 
+[Sulfolobus solfataricus, Peptide Partial, 39 aa]
+Length=39
+
+ Score = 76.6 bits (187),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 36/39 (92%), Positives = 37/39 (95%), Gaps = 0/39 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGK  319
+            ATVKFKYKGEEK+VDISKIKKV RVGKMISFTYDEG GK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVXRVGKMISFTYDEGXGK  39
+
+
+>ref|YP_001190678.1| hypothetical protein Msed_0579 [Metallosphaera sedula DSM 5348]
+ ref|WP_009071314.1| DNA-binding protein [Metallosphaera]
+ gb|ABP94754.1| nucleoid protein Sul7d [Metallosphaera sedula DSM 5348]
+ gb|EHP70561.1| 7kD DNA-binding domain protein [Metallosphaera yellowstonensis 
+MK1]
+Length=62
+
+ Score = 70.5 bits (171),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 48/63 (76%), Positives = 57/63 (90%), Gaps = 2/63 (3%)
+
+Query  280  MAT-VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            MAT +KFKYKG++ EVDISK+KKVW+VGKM+SFTYD+  GKTGRGAVSEKDAPKELL M+
+Sbjct  1    MATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLNMI  59
+
+Query  339  EKQ  341
+             K+
+Sbjct  60   GKK  62
+
+
+>ref|YP_004410040.1| hypothetical protein Mcup_1453 [Metallosphaera cuprina Ar-4]
+ ref|WP_013738054.1| DNA-binding protein [Metallosphaera cuprina]
+ gb|AEB95556.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=62
+
+ Score = 69.7 bits (169),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 48/63 (76%), Positives = 57/63 (90%), Gaps = 2/63 (3%)
+
+Query  280  MAT-VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            MAT +KFKYKG++ EVDISK+KKVW+VGKM+SFTYD+  GKTGRGAVSEKDAPKELL M+
+Sbjct  1    MATKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLSMI  59
+
+Query  339  EKQ  341
+             K+
+Sbjct  60   GKK  62
+
+
+>pdb|2XIW|A Chain A, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+ pdb|2XIW|B Chain B, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+Length=79
+
+ Score = 62.0 bits (149),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 37/64 (58%), Positives = 43/64 (67%), Gaps = 4/64 (6%)
+
+Query  283  VKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML---E  339
+            VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL  L   E
+Sbjct  15   VKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDXLARAE  73
+
+Query  340  KQKK  343
+            ++KK
+Sbjct  74   REKK  77
+
+
+>ref|WP_018157000.1| hypothetical protein [Demetria terragena]
+Length=333
+
+ Score = 41.6 bits (96),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 30/94 (32%), Positives = 41/94 (44%), Gaps = 8/94 (9%)
+
+Query  126  ILEQDAVHLCGGQIRTKRS---RATNLREW-RAHASTYGSTFL--GRYGALAAACGGEGQ  179
+            I  Q  V LC GQI+  R     A  L  + +  A   G       RYGA+ A C  E  
+Sbjct  144  IQAQTFVRLCAGQIQDDRQSTDEANPLEHYLKVLADKTGVLIATAARYGAMFAGCPSER-  202
+
+Query  180  PADSVREFAEAFAMTITMADDLTDYDRNGERDGN  213
+              D++RE+ E   M   ++DD+ D   + E  G 
+Sbjct  203  -IDTLREYGELIGMVFQLSDDILDIVSDAEESGK  235
+
+
+>ref|YP_004097971.1| polyprenyl synthetase [Intrasporangium calvum DSM 43043]
+ ref|WP_013491564.1| geranylgeranyl pyrophosphate synthase [Intrasporangium calvum]
+ gb|ADU47244.1| Polyprenyl synthetase [Intrasporangium calvum DSM 43043]
+Length=336
+
+ Score = 41.6 bits (96),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 37/120 (31%), Positives = 53/120 (44%), Gaps = 14/120 (12%)
+
+Query  126  ILEQDAVHLCGGQIRTKRSRATNLREWRAH----ASTYGS--TFLGRYGALAAACGGEGQ  179
+            I  Q  V LC GQIR  R    ++     +    A   GS      RYGA+ +  GG  +
+Sbjct  146  IQAQTFVRLCSGQIRDDRPCPPDVDPIDYYLGVLADKTGSLTATACRYGAMFS--GGSPE  203
+
+Query  180  PADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRA  239
+              +++R + E   MT  +ADDL D   + E  G      +T     ++ VD L  LR +A
+Sbjct  204  LVETMRSYGEKVGMTFQLADDLIDIASDSEASG------KTPGTDLREGVDTLAVLRAKA  257
+
+
+>ref|WP_010849784.1| putative polyprenyl diphosphate synthase [Tetrasphaera elongata]
+ emb|CCH69908.1| putative polyprenyl diphosphate synthase [Tetrasphaera elongata 
+Lp2]
+Length=347
+
+ Score = 40.8 bits (94),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 31/100 (31%), Positives = 44/100 (44%), Gaps = 9/100 (9%)
+
+Query  120  PKAVTDILEQDAVHLCGGQIRTKR---SRATNLREWRAHASTYGSTFL---GRYGALAAA  173
+            P+AV  I  Q  + LC GQIR  R   + A  L  +R   +      +    RYGA+   
+Sbjct  153  PEAVK-IQAQTFIRLCAGQIRDDRPAPADADPLEYYRGVLADKTGVLIATAARYGAMFGG  211
+
+Query  174  CGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGN  213
+            C  E    +++R + E   M   +ADDL D   + E  G 
+Sbjct  212  CPPE--VVETMRVYGEHLGMAFQLADDLIDIASDAEETGK  249
+
+
+>ref|WP_002730358.1| putative Mechanosensitive ion channel protein [Phaeospirillum 
+molischianum]
+ emb|CCG42613.1| putative Mechanosensitive ion channel protein [Phaeospirillum 
+molischianum DSM 120]
+Length=733
+
+ Score = 39.3 bits (90),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 51/143 (36%), Positives = 62/143 (43%), Gaps = 14/143 (10%)
+
+Query  153  RAHASTYGSTFLGRYGALAAACGGEGQPA-DSVREFAE-AFAMTITMADDLTDYDRNGER  210
+            RA  +    T LGR      A G +   A DSVR+  E A A+   +AD LT   R G+ 
+Sbjct  70   RATETAPEETLLGRLTEQIGAFGDQVMEAVDSVRDAPELAAAVGQRLADQLTR-QRMGQL  128
+
+Query  211  DGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA--PGLVPVVHLYTDDVLVRLL  268
+               LA +M  G  A + V   +   R       A PPG   PGL P  H  T  +L  L 
+Sbjct  129  LTMLAGIMAAGIFADRLVAFAIRRWRK------AYPPGPVMPGLAPAAHALTVRLLCDLA  182
+
+Query  269  PRHLGEAGAGAMATV-KFKYKGE  290
+            P  L   G GA A V +F  KG 
+Sbjct  183  P--LAAFGLGAWAAVWQFDMKGN  203
+
+
+>ref|WP_008756843.1| hemolysin-type calcium-binding protein [Rhodobacteraceae bacterium 
+KLH11]
+ gb|EEE37667.1| hemolysin-type calcium-binding protein [Rhodobacteraceae bacterium 
+KLH11]
+Length=4932
+
+ Score = 39.3 bits (90),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 24/63 (38%), Positives = 34/63 (54%), Gaps = 2/63 (3%)
+
+Query  184   VREFAEAFAMTITMADDLTDYDR--NGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALA  241
+             V EFA+    TI     L +     + + +GN+A L R+GA+A  DVVD L+ LR +  A
+Sbjct  1050  VNEFAQGLVDTIATYATLEETQEFIDAQGEGNVAELQRSGAIADSDVVDNLDALRAQPEA  1109
+
+Query  242   AVA  244
+               A
+Sbjct  1110  VTA  1112
+
+
+>gb|EPE08225.1| hypothetical protein F503_01008 [Ophiostoma piceae UAMH 11346]
+Length=707
+
+ Score = 38.9 bits (89),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 32/63 (51%), Gaps = 9/63 (14%)
+
+Query  108  RALHELESLARDPKAVTDILEQDAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRY  167
+            R + EL SLARDP    +IL + A+H C G  R         R W A +ST  + +  ++
+Sbjct  628  RRMEELVSLARDPDGGHEILNKSALHRCIGCTR---------RAWEARSSTSPTAWSSQF  678
+
+Query  168  GAL  170
+            G L
+Sbjct  679  GDL  681
+
+
+>ref|WP_020145004.1| geranylgeranyl pyrophosphate synthase [Terracoccus sp. 273MFTsu3.1]
+Length=338
+
+ Score = 38.1 bits (87),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 49/123 (40%), Gaps = 16/123 (13%)
+
+Query  126  ILEQDAVHLCGGQIRTKRSRATNLREWRAHASTYGS------TFLGRYGALAAACGGEGQ  179
+            I  Q  V LC GQIR  R     +     +               GRYG + +  GG  +
+Sbjct  146  IQAQTFVRLCNGQIRDDRPCPEGVDPVDYYLGVLADKTGVLIATAGRYGVMFS--GGSPE  203
+
+Query  180  PADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHL-MRTGAVAGQDVVDLLEELRGR  238
+              + +R + E   +   +ADDL D   + +  G +    +R G       VD L  LR R
+Sbjct  204  SVEIMRSYGEKLGIAFQLADDLIDIASDADDSGKIPGTDLREG-------VDTLAVLRFR  256
+
+Query  239  ALA  241
+            A+A
+Sbjct  257  AMA  259
+
+
+>ref|YP_328453.1| dimethylallyltransferase [Chlamydia trachomatis A/HAR-13]
+ ref|WP_011324802.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AAX50905.1| dimethylallyltransferase [Chlamydia trachomatis A/HAR-13]
+Length=291
+
+ Score = 38.1 bits (87),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|NP_220145.1| dimethylallyltransferase [Chlamydia trachomatis D/UW-3/CX]
+ ref|YP_002888251.1| dimethylallyltransferase [Chlamydia trachomatis B/Jali20/OT]
+ ref|YP_002889132.1| dimethylallyltransferase [Chlamydia trachomatis B/TZ1A828/OT]
+ ref|YP_005156463.1| dimethylallyltransferase [Chlamydia trachomatis A2497]
+ ref|YP_005808002.1| dimethylallyltransferase [Chlamydia trachomatis G/9768]
+ ref|YP_005808926.1| dimethylallyltransferase [Chlamydia trachomatis G/11222]
+ ref|YP_005810778.1| dimethylallyltransferase [Chlamydia trachomatis G/9301]
+ ref|YP_005811681.1| Dimethylallyltransferase [Chlamydia trachomatis D-EC]
+ ref|YP_005812559.1| Dimethylallyltransferase [Chlamydia trachomatis D-LC]
+ ref|YP_005815368.1| dimethylallyltransferase [Chlamydia trachomatis G/11074]
+ ref|YP_005813502.1| Dimethylallyltransferase [Chlamydia trachomatis A2497]
+ ref|YP_006360564.1| dimethylallyltransferase [Chlamydia trachomatis F/SW4]
+ ref|YP_007724187.1| geranyltranstransferase [Chlamydia trachomatis A/5291]
+ ref|YP_007727761.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD5]
+ ref|YP_007725972.1| geranyltranstransferase [Chlamydia trachomatis G/SotonG1]
+ ref|YP_007731475.1| geranyltranstransferase [Chlamydia trachomatis K/SotonK1]
+ ref|YP_007732376.1| geranyltranstransferase [Chlamydia trachomatis A/363]
+ ref|YP_007734161.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD6]
+ ref|YP_007735948.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa1]
+ ref|YP_007728659.1| geranyltranstransferase [Chlamydia trachomatis A/7249]
+ ref|YP_007725081.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa3]
+ ref|YP_008346543.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/953]
+ ref|YP_008348409.1| dimethylallyltransferase [Chlamydia trachomatis RC-J(s)/122]
+ ref|YP_008349353.1| dimethylallyltransferase [Chlamydia trachomatis J/6276tet1]
+ ref|YP_008354212.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/966]
+ ref|YP_008355138.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/971]
+ ref|YP_008442775.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008467140.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008469000.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008469925.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|WP_009871997.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AAC68232.1| Geranylgeranyl pyrophosphate synthase [Chlamydia trachomatis 
+D/UW-3/CX]
+ emb|CAX10193.1| dimethylallyltransferase [Chlamydia trachomatis B/TZ1A828/OT]
+ emb|CAX11086.1| dimethylallyltransferase [Chlamydia trachomatis B/Jali20/OT]
+ gb|ADH18339.1| dimethylallyltransferase [Chlamydia trachomatis G/9768]
+ gb|ADH19263.1| dimethylallyltransferase [Chlamydia trachomatis G/11222]
+ gb|ADH20186.1| dimethylallyltransferase [Chlamydia trachomatis G/11074]
+ gb|ADH97285.1| dimethylallyltransferase [Chlamydia trachomatis G/9301]
+ gb|ADI51304.1| Dimethylallyltransferase [Chlamydia trachomatis D-EC]
+ gb|ADI52316.1| Dimethylallyltransferase [Chlamydia trachomatis D-LC]
+ gb|AEP35503.1| Dimethylallyltransferase [Chlamydia trachomatis A2497]
+ emb|CAX09299.1| dimethylallyltransferase [Chlamydia trachomatis A2497]
+ emb|CCE13801.1| dimethylallyltransferase [Chlamydia trachomatis F/SW4]
+ emb|CCP49822.1| geranyltranstransferase [Chlamydia trachomatis A/7249]
+ emb|CCP48924.1| geranyltranstransferase [Chlamydia trachomatis A/5291]
+ emb|CCP48025.1| geranyltranstransferase [Chlamydia trachomatis A/363]
+ emb|CCP50806.1| geranyltranstransferase [Chlamydia trachomatis K/SotonK1]
+ emb|CCP53715.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD5]
+ emb|CCP54606.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD6]
+ emb|CCP58205.1| geranyltranstransferase [Chlamydia trachomatis G/SotonG1]
+ emb|CCP59100.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa1]
+ emb|CCP59994.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa3]
+ gb|AGR97791.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/953]
+ gb|AGS00577.1| dimethylallyltransferase [Chlamydia trachomatis RC-J(s)/122]
+ gb|AGS01521.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/966]
+ gb|AGS02447.1| dimethylallyltransferase [Chlamydia trachomatis J/6276tet1]
+ gb|AGS03403.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/971]
+ gb|AGT66455.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT70160.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT71082.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT72924.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AHC17482.1| diguanylate cyclase [Chlamydia trachomatis C/TW-3]
+Length=291
+
+ Score = 38.1 bits (87),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_005809854.1| dimethylallyltransferase [Chlamydia trachomatis E/11023]
+ ref|YP_005814445.1| dimethylallyltransferase [Chlamydia trachomatis E/150]
+ ref|YP_005816262.1| dimethylallyltransferase [Chlamydia trachomatis Sweden2]
+ ref|YP_006361439.1| dimethylallyltransferase [Chlamydia trachomatis E/SW3]
+ ref|YP_006362314.1| dimethylallyltransferase [Chlamydia trachomatis F/SW5]
+ ref|YP_007540327.1| dimethylallyltransferase [Chlamydia trachomatis IU824]
+ ref|YP_007541203.1| dimethylallyltransferase [Chlamydia trachomatis IU888]
+ ref|YP_007736843.1| geranyltranstransferase [Chlamydia trachomatis E/Bour]
+ ref|YP_007733269.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD1]
+ ref|YP_007735051.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE4]
+ ref|YP_007730582.1| geranyltranstransferase [Chlamydia trachomatis F/SotonF3]
+ ref|YP_008345588.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/852]
+ ref|YP_008347462.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/342]
+ ref|YP_008351441.1| dimethylallyltransferase [Chlamydia trachomatis RC-F/69]
+ ref|YP_008440007.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008440934.1| diguanylate cyclase [Chlamydia trachomatis F/11-96]
+ ref|YP_008466214.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008468072.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008635141.1| dimethylallyltransferase [Chlamydia trachomatis E/C599]
+ ref|YP_008655797.1| dimethylallyltransferase [Chlamydia trachomatis F/SWFPminus]
+ ref|WP_009872802.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CBJ15152.1| dimethylallyltransferase [Chlamydia trachomatis Sweden2]
+ gb|ADH17416.1| dimethylallyltransferase [Chlamydia trachomatis E/150]
+ gb|ADH21110.1| dimethylallyltransferase [Chlamydia trachomatis E/11023]
+ emb|CCE14690.1| dimethylallyltransferase [Chlamydia trachomatis F/SW5]
+ emb|CCE12912.1| dimethylallyltransferase [Chlamydia trachomatis E/SW3]
+ emb|CCP52823.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD1]
+ emb|CCP55496.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE4]
+ emb|CCP57312.1| geranyltranstransferase [Chlamydia trachomatis F/SotonF3]
+ emb|CCP60889.1| geranyltranstransferase [Chlamydia trachomatis E/Bour]
+ emb|CCP28426.1| dimethylallyltransferase [Chlamydia trachomatis IU824]
+ emb|CCP29327.1| dimethylallyltransferase [Chlamydia trachomatis IU888]
+ gb|AGR94064.1| dimethylallyltransferase [Chlamydia trachomatis RC-F/69]
+ gb|AGR95910.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/852]
+ gb|AGR99629.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/342]
+ gb|AGT64600.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT65529.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT67384.1| diguanylate cyclase [Chlamydia trachomatis F/11-96]
+ gb|AGT69237.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CDG43529.1| dimethylallyltransferase [Chlamydia trachomatis E/C599]
+ emb|CDG42640.1| dimethylallyltransferase [Chlamydia trachomatis F/SWFPminus]
+Length=291
+
+ Score = 38.1 bits (87),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_001654961.1| dimethylallyltransferase [Chlamydia trachomatis 434/Bu]
+ ref|YP_001653973.1| dimethylallyltransferase [Chlamydia trachomatis L2b/UCH-1/proctitis]
+ ref|YP_004717801.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2c]
+ ref|YP_007716157.1| geranyltranstransferase [Chlamydia trachomatis L2/25667R]
+ ref|YP_007722395.1| geranyltranstransferase [Chlamydia trachomatis L1/440/LN]
+ ref|YP_007719716.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams2]
+ ref|YP_007721502.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams5]
+ ref|YP_007720607.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada1]
+ ref|YP_007717935.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada2]
+ ref|YP_007717044.1| geranyltranstransferase [Chlamydia trachomatis L2b/UCH-2]
+ ref|YP_007739510.1| geranyltranstransferase [Chlamydia trachomatis L3/404/LN]
+ ref|YP_007741287.1| geranyltranstransferase [Chlamydia trachomatis L2b/CV204]
+ ref|YP_007742177.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams3]
+ ref|YP_007718826.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams1]
+ ref|YP_007743068.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams4]
+ ref|YP_007737730.1| geranyltranstransferase [Chlamydia trachomatis L1/1322/p2]
+ ref|YP_007723284.1| geranyltranstransferase [Chlamydia trachomatis L2b/795]
+ ref|YP_007729544.1| geranyltranstransferase [Chlamydia trachomatis L2b/8200/07]
+ ref|YP_007740397.1| geranyltranstransferase [Chlamydia trachomatis L2b/LST]
+ ref|YP_007851932.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2/434/Bu(i)]
+ ref|YP_007852873.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2/434/Bu(f)]
+ ref|YP_008344667.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/46]
+ ref|YP_008350311.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2/55]
+ ref|YP_008352367.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/943]
+ ref|YP_008353288.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/3]
+ ref|WP_009873960.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CAP04329.1| dimethylallyltransferase [Chlamydia trachomatis 434/Bu]
+ emb|CAP07283.1| dimethylallyltransferase [Chlamydia trachomatis L2b/UCH-1/proctitis]
+ gb|AEJ77563.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2c]
+ emb|CCP51925.1| geranyltranstransferase [Chlamydia trachomatis L2b/8200/07]
+ emb|CCP61779.1| geranyltranstransferase [Chlamydia trachomatis L2b/795]
+ emb|CCP62673.1| geranyltranstransferase [Chlamydia trachomatis L1/440/LN]
+ emb|CCP63562.1| geranyltranstransferase [Chlamydia trachomatis L1/1322/p2]
+ emb|CCP66233.1| geranyltranstransferase [Chlamydia trachomatis L2/25667R]
+ emb|CCP67121.1| geranyltranstransferase [Chlamydia trachomatis L3/404/LN]
+ emb|CCP68008.1| geranyltranstransferase [Chlamydia trachomatis L2b/UCH-2]
+ emb|CCP68899.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada2]
+ emb|CCP69790.1| geranyltranstransferase [Chlamydia trachomatis L2b/LST]
+ emb|CCP70680.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams1]
+ emb|CCP71570.1| geranyltranstransferase [Chlamydia trachomatis L2b/CV204]
+ emb|CCP90735.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams2]
+ emb|CCP91625.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams3]
+ emb|CCP92516.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada1]
+ emb|CCP93411.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams4]
+ emb|CCP94301.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams5]
+ gb|AGJ65951.1| diguanylate cyclase [Chlamydia trachomatis L2/434/Bu(f)]
+ gb|AGJ65010.1| diguanylate cyclase [Chlamydia trachomatis L2/434/Bu(i)]
+ gb|AGR94989.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/46]
+ gb|AGR96869.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/943]
+ gb|AGR98710.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/3]
+ gb|AGS04330.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2/55]
+Length=291
+
+ Score = 38.1 bits (87),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_007715266.1| geranyltranstransferase [Chlamydia trachomatis L1/115]
+ ref|YP_007738620.1| geranyltranstransferase [Chlamydia trachomatis L1/224]
+ ref|WP_015505723.1| geranyltranstransferase [Chlamydia trachomatis]
+ emb|CCP64452.1| geranyltranstransferase [Chlamydia trachomatis L1/115]
+ emb|CCP65341.1| geranyltranstransferase [Chlamydia trachomatis L1/224]
+Length=291
+
+ Score = 38.1 bits (87),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_007726869.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE8]
+ ref|WP_015506265.1| geranyltranstransferase [Chlamydia trachomatis]
+ emb|CCP56395.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE8]
+Length=291
+
+ Score = 37.7 bits (86),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1424370506777
+Results from round 2
+
+
+Query= 5B02
+
+Length=343
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_016823897.1|  hypothetical protein [Streptomyces viridospo...   442    1e-152
+gb|ABJ90163.1|  MoeN5 [Streptomyces ghanaensis ATCC 14672]             435    4e-150
+ref|WP_004981193.1|  predicted protein [Streptomyces ghanaensis] ...   438    4e-149
+ref|WP_003963603.1|  Moenomycin biosynthesis protein MoeN5 [Strep...   382    5e-129
+ref|WP_003958099.1|  MoeN5 [Streptomyces clavuligerus] >gb|EDY524...   378    1e-127
+ref|WP_018569830.1|  hypothetical protein [Streptomyces sp. PsTaA...   376    5e-127
+ref|NP_343889.1|  DNA-binding protein [Sulfolobus solfataricus P2...   124    8e-32 
+ref|NP_343300.1|  DNA-binding protein [Sulfolobus solfataricus P2...   122    4e-31 
+ref|YP_005642249.1|  DNA-binding 7 kDa protein [Sulfolobus solfat...   122    4e-31 
+ref|YP_002831601.1|  DNA-binding 7 kDa protein [Sulfolobus island...   122    6e-31 
+ref|YP_002830757.1|  DNA-binding 7 kDa protein [Sulfolobus island...   121    1e-30 
+ref|YP_003421041.1|  DNA-binding 7 kDa protein [Sulfolobus island...   121    1e-30 
+ref|YP_005645234.1|  DNA-binding 7 kDa protein [Sulfolobus island...   120    2e-30 
+pdb|1C8C|A  Chain A, Crystal Structures Of The Chromosomal Protei...   120    2e-30 
+pdb|1BF4|A  Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAA...   120    2e-30 
+pdb|1BBX|C  Chain C, Non-Specific Protein-Dna Interactions In The...   120    3e-30 
+ref|YP_007867037.1|  DNA-binding 7 kDa protein [Sulfolobus island...   119    4e-30 
+pdb|1JIC|A  Chain A, Solution Nmr Structure Of Recombinant Sso7d ...   118    1e-29 
+ref|NP_376529.1|  DNA-binding protein 7e [Sulfolobus tokodaii str...   116    5e-29 
+pdb|2CVR|A  Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l...   116    6e-29 
+prf||2107210A  RNase                                                   115    1e-28 
+pdb|1B4O|A  Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized A...   112    1e-27 
+ref|WP_020198893.1|  DNA-binding protein [Sulfolobales archaeon A...   111    3e-27 
+ref|YP_004459429.1|  DNA-binding 7 kDa protein [Acidianus hospita...   108    6e-26 
+ref|YP_255071.1|  DNA-bindign protein 7e [Sulfolobus acidocaldari...   106    2e-25 
+ref|YP_254785.1|  DNA-binding protein 7e [Sulfolobus acidocaldari...   106    2e-25 
+pdb|1WVL|A  Chain A, Crystal Structure Of Multimeric Dna-Binding ...   105    5e-25 
+pdb|1WTP|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   105    6e-25 
+pdb|1WTO|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...   104    1e-24 
+ref|YP_004458143.1|  DNA-binding 7 kDa protein [Acidianus hospita...   104    1e-24 
+pdb|1SAP|A  Chain A, Hyperthermophile Protein, Relaxation Matrix ...   104    1e-24 
+pdb|1WTW|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   104    2e-24 
+pdb|1WTR|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d S...   103    3e-24 
+pdb|1XYI|A  Chain A, Hyperthermophile Chromosomal Protein Sac7d D...   101    2e-23 
+pdb|1XX8|A  Chain A, Nmr Structure Of The W24a Mutant Of The Hype...   100    4e-23 
+ref|YP_004458182.1|  DNA-binding 7 kDa protein [Acidianus hospita...  98.9    1e-22 
+pdb|2XIW|A  Chain A, Crystal Structure Of The Sac7d-derived Igg1-...  85.1    2e-17 
+ref|YP_001190678.1|  hypothetical protein Msed_0579 [Metallosphae...  76.2    2e-14 
+ref|YP_004410040.1|  hypothetical protein Mcup_1453 [Metallosphae...  75.1    7e-14 
+gb|AAB33737.1|  p7ss=7.147 kda in vitro ribosylatable DNA-binding...  72.4    4e-13 
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_004097971.1|  polyprenyl synthetase [Intrasporangium calvu...  43.9    0.080
+ref|WP_009224040.1|  heptaprenyl diphosphate synthase [Paenibacil...  42.7    0.17 
+ref|WP_020145004.1|  geranylgeranyl pyrophosphate synthase [Terra...  42.3    0.28 
+ref|YP_007726869.1|  geranyltranstransferase [Chlamydia trachomat...  40.8    0.78 
+ref|YP_003318770.1|  polyprenyl synthetase [Sphaerobacter thermop...  40.4    0.85 
+ref|WP_016313636.1|  hypothetical protein [Paenibacillus barengol...  40.8    0.85 
+ref|YP_328453.1|  dimethylallyltransferase [Chlamydia trachomatis...  40.4    0.87 
+ref|YP_005809854.1|  dimethylallyltransferase [Chlamydia trachoma...  40.4    0.88 
+ref|YP_001654961.1|  dimethylallyltransferase [Chlamydia trachoma...  40.4    0.88 
+ref|NP_220145.1|  dimethylallyltransferase [Chlamydia trachomatis...  40.4    0.89 
+ref|YP_007715266.1|  geranyltranstransferase [Chlamydia trachomat...  40.4    0.94 
+gb|EJD48271.1|  C-terminal kinesin [Auricularia delicata TFB-1004...  40.0    1.4  
+ref|WP_010849784.1|  putative polyprenyl diphosphate synthase [Te...  38.5    4.4  
+ref|WP_008296994.1|  Heptaprenyl diphosphate synthase component 2...  38.1    5.3  
+ref|WP_009095365.1|  Polyprenyl synthetase [Rhodopirellula sp. SW...  38.1    6.0  
+ref|WP_016655223.1|  octaprenyl-diphosphate synthase [Acinetobact...  37.7    6.5  
+gb|EHJ64432.1|  putative Ran-binding protein [Danaus plexippus]       37.7    7.0  
+ref|WP_018157000.1|  hypothetical protein [Demetria terragena]        37.7    7.6  
+ref|WP_018108116.1|  hypothetical protein [Bacteroides propionici...  37.7    8.0  
+ref|WP_006212060.1|  hypothetical protein [Paenibacillus vortex] ...  37.7    8.3  
+ref|WP_008677081.1|  Polyprenyl synthetase [Rhodopirellula sallen...  37.3    9.4  
+
+
+>ref|WP_016823897.1| hypothetical protein [Streptomyces viridosporus]
+Length=276
+
+ Score =  442 bits (1136),  Expect = 1e-152, Method: Composition-based stats.
+ Identities = 261/265 (98%), Positives = 262/265 (99%), Gaps = 0/265 (0%)
+
+Query  10   DDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  69
+            D  + MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV
+Sbjct  12   DYTETMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  71
+
+Query  70   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  129
+            SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ
+Sbjct  72   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  131
+
+Query  130  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  189
+            DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE
+Sbjct  132  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  191
+
+Query  190  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  249
+            AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA
+Sbjct  192  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  251
+
+Query  250  PGLVPVVHLYTDDVLVRLLPRHLGE  274
+            PGLVPVVHLYTDDVLVRLLPRHLGE
+Sbjct  252  PGLVPVVHLYTDDVLVRLLPRHLGE  276
+
+
+>gb|ABJ90163.1| MoeN5 [Streptomyces ghanaensis ATCC 14672]
+Length=260
+
+ Score =  435 bits (1118),  Expect = 4e-150, Method: Composition-based stats.
+ Identities = 260/260 (100%), Positives = 260/260 (100%), Gaps = 0/260 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA
+Sbjct  1    MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  60
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL
+Sbjct  61   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  120
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT
+Sbjct  121  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  180
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP
+Sbjct  181  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  240
+
+Query  255  VVHLYTDDVLVRLLPRHLGE  274
+            VVHLYTDDVLVRLLPRHLGE
+Sbjct  241  VVHLYTDDVLVRLLPRHLGE  260
+
+
+>ref|WP_004981193.1| predicted protein [Streptomyces ghanaensis]
+ gb|EFE66077.1| predicted protein [Streptomyces ghanaensis ATCC 14672]
+Length=409
+
+ Score =  438 bits (1126),  Expect = 4e-149, Method: Composition-based stats.
+ Identities = 261/265 (98%), Positives = 262/265 (99%), Gaps = 0/265 (0%)
+
+Query  10   DDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  69
+            D  + MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV
+Sbjct  145  DYTETMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  204
+
+Query  70   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  129
+            SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ
+Sbjct  205  SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  264
+
+Query  130  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  189
+            DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE
+Sbjct  265  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  324
+
+Query  190  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  249
+            AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA
+Sbjct  325  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  384
+
+Query  250  PGLVPVVHLYTDDVLVRLLPRHLGE  274
+            PGLVPVVHLYTDDVLVRLLPRHLGE
+Sbjct  385  PGLVPVVHLYTDDVLVRLLPRHLGE  409
+
+
+>ref|WP_003963603.1| Moenomycin biosynthesis protein MoeN5 [Streptomyces clavuligerus]
+ gb|EFG04771.1| Moenomycin biosynthesis protein MoeN5 [Streptomyces clavuligerus 
+ATCC 27064]
+Length=275
+
+ Score =  382 bits (980),  Expect = 5e-129, Method: Composition-based stats.
+ Identities = 161/267 (60%), Positives = 194/267 (73%), Gaps = 0/267 (0%)
+
+Query  10   DDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAV  69
+            + +  ML  E+ANRD +T  VA  GGSP+LVAH AA+RLYLRVPHFLTEW  +P+ RA V
+Sbjct  8    EYEAGMLRTESANRDRITAFVAANGGSPELVAHVAAIRLYLRVPHFLTEWIGEPELRAEV  67
+
+Query  70   SRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQ  129
+            + AL +DIV+MKLLDDLMDDD+GLDR++LAC+CL LHL AL E+ +L+RDP+AV D+LE 
+Sbjct  68   ASALVMDIVAMKLLDDLMDDDSGLDRIQLACLCLHLHLTALREMCALSRDPQAVVDLLEH  127
+
+Query  130  DAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAE  189
+            D   +C GQIRTKR RA NL EW A+ASTYG+ FLG YGALAA CG         REFAE
+Sbjct  128  DFTQVCTGQIRTKRERARNLDEWCANASTYGAAFLGVYGALAALCGRRPGSIGPAREFAE  187
+
+Query  190  AFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGA  249
+            A+   IT+ADDLTDYDR+GER GN+ HL+ TGAV   ++  L++ L  RA  A    P A
+Sbjct  188  AYGTLITLADDLTDYDRDGERAGNIGHLLLTGAVTLDELTGLVDRLTTRAERAAYEQPVA  247
+
+Query  250  PGLVPVVHLYTDDVLVRLLPRHLGEAG  276
+             GLVPV  +Y DDVL RLLPR   E G
+Sbjct  248  RGLVPVPGIYRDDVLHRLLPRFRAELG  274
+
+
+>ref|WP_003958099.1| MoeN5 [Streptomyces clavuligerus]
+ gb|EDY52406.1| MoeN5 [Streptomyces clavuligerus ATCC 27064]
+Length=263
+
+ Score =  378 bits (970),  Expect = 1e-127, Method: Composition-based stats.
+ Identities = 161/262 (61%), Positives = 192/262 (73%), Gaps = 0/262 (0%)
+
+Query  15   MLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVSRALA  74
+            ML  E+ANRD +T  VA  GGSP+LVAH AA+RLYLRVPHFLTEW  +P+ RA V+ AL 
+Sbjct  1    MLRTESANRDRITAFVAANGGSPELVAHVAAIRLYLRVPHFLTEWIGEPELRAEVASALV  60
+
+Query  75   LDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQDAVHL  134
+            +DIV+MKLLDDLMDDD+GLDR++LAC+CL LHL AL E+ +L+RDP+AV D+LE D   +
+Sbjct  61   MDIVAMKLLDDLMDDDSGLDRIQLACLCLHLHLTALREMCALSRDPQAVVDLLEHDFTQV  120
+
+Query  135  CGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMT  194
+            C GQIRTKR RA NL EW A+ASTYG+ FLG YGALAA CG         REFAEA+   
+Sbjct  121  CTGQIRTKRERARNLDEWCANASTYGAAFLGVYGALAALCGRRPGSIGPAREFAEAYGTL  180
+
+Query  195  ITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAPGLVP  254
+            IT+ADDLTDYDR+GER GN+ HL+ TGAV   ++  L++ L  RA  A    P A GLVP
+Sbjct  181  ITLADDLTDYDRDGERAGNIGHLLLTGAVTLDELTGLVDRLTTRAERAAYEQPVARGLVP  240
+
+Query  255  VVHLYTDDVLVRLLPRHLGEAG  276
+            V  +Y DDVL RLLPR   E G
+Sbjct  241  VPGIYRDDVLHRLLPRFRAELG  262
+
+
+>ref|WP_018569830.1| hypothetical protein [Streptomyces sp. PsTaAH-124]
+Length=272
+
+ Score =  376 bits (966),  Expect = 5e-127, Method: Composition-based stats.
+ Identities = 173/261 (66%), Positives = 191/261 (73%), Gaps = 0/261 (0%)
+
+Query  11   DDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAAVS  70
+                MLA E+ANRD VT  VA+ GGSP+LVAHTAALRLYLRVPHFLTEW  DP  RA V+
+Sbjct  9    YTTAMLATESANRDQVTDFVARNGGSPELVAHTAALRLYLRVPHFLTEWIGDPPLRARVA  68
+
+Query  71   RALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVTDILEQD  130
+            RALALDIV+MKLLDDLMDDDTGL RVELAC+CL LHL AL E+ +LA DP++VTD+LE D
+Sbjct  69   RALALDIVAMKLLDDLMDDDTGLSRVELACLCLHLHLTALREMCALAEDPRSVTDLLEHD  128
+
+Query  131  AVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSVREFAEA  190
+               +C GQIR K  RA +L  WRA ASTYG++FLG YGALAA CG         R FAEA
+Sbjct  129  FTTVCTGQIRVKSHRARDLDGWRAGASTYGASFLGCYGALAAICGRATGSVGPARRFAEA  188
+
+Query  191  FAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVAAPPGAP  250
+            F   IT+ADDLTDYDRNGER GNL HLMRTGAV   +V  LL +LR  AL AV   P A 
+Sbjct  189  FGTIITIADDLTDYDRNGERAGNLGHLMRTGAVPAAEVAALLGQLRADALDAVRERPAAL  248
+
+Query  251  GLVPVVHLYTDDVLVRLLPRH  271
+            GL  V  LYT DVL RLLP H
+Sbjct  249  GLEAVTELYTTDVLDRLLPLH  269
+
+
+>ref|NP_343889.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|WP_010923919.1| DNA-binding protein [Sulfolobus solfataricus]
+ gb|AAK42679.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-1) [Sulfolobus 
+solfataricus P2]
+Length=68
+
+ Score =  124 bits (311),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 64/65 (98%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  279  AMATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  338
+            +MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML
+Sbjct  4    SMATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML  63
+
+Query  339  EKQKK  343
+            EKQKK
+Sbjct  64   EKQKK  68
+
+
+>ref|NP_343300.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|NP_343422.1| DNA-binding protein [Sulfolobus solfataricus P2]
+ ref|YP_002828838.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002837172.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840877.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002842728.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_005644391.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992021.1| DNA-binding protein [Sulfolobus]
+ sp|P61990.2|DN71_SULSH RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=Ssh7a
+ sp|P61991.2|DN71_SULSO RecName: Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Endoribonuclease P2; AltName: 
+Full=p7ss
+ dbj|BAA28274.1| Ssh7a [Sulfolobus shibatae]
+ gb|AAK42090.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-2) [Sulfolobus 
+solfataricus P2]
+ gb|AAK42212.1| 7 KD DNA-binding protein (SSO7D) (SSH7A) (ssh7A /Sso7d-3) [Sulfolobus 
+solfataricus P2]
+ gb|ACP37540.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45250.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48955.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP54683.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACX92790.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score =  122 bits (306),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 63/64 (98%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_005642249.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009990119.1| DNA-binding protein [Sulfolobus solfataricus]
+ sp|P39476.2|DN72_SULSO RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sso7d
+ pdb|1BNZ|A Chain A, Sso7d Hyperthermophile ProteinDNA COMPLEX
+ gb|ACX90648.1| DNA-binding 7 kDa protein [Sulfolobus solfataricus 98/2]
+Length=64
+
+ Score =  122 bits (306),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_002831601.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002914033.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_003418866.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012713334.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ACP34956.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACR41365.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADB86496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score =  122 bits (305),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MTTVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_002830757.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ ref|YP_002833496.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002839073.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002841926.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002844687.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ ref|YP_002915996.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ ref|YP_005647262.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005649907.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|WP_012712662.1| DNA-binding protein [Sulfolobus islandicus]
+ sp|O59632.3|DN72_SULSH RecName: Full=DNA-binding protein 7b; AltName: Full=7 kDa DNA-binding 
+protein B; AltName: Full=Ssh7b
+ dbj|BAA28275.1| Ssh7b [Sulfolobus shibatae]
+ gb|ACP36851.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP39459.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.14.25]
+ gb|ACP47151.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP50004.1| DNA-binding 7 kDa protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP56642.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.27]
+ gb|ACR43328.1| DNA-binding 7 kDa protein [Sulfolobus islandicus M.16.4]
+ gb|ADX86693.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX84048.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+Length=64
+
+ Score =  121 bits (303),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEKEVD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_003421041.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+ ref|WP_012953380.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADB88671.1| DNA-binding 7 kDa protein [Sulfolobus islandicus L.D.8.5]
+Length=64
+
+ Score =  121 bits (303),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>ref|YP_005645234.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ ref|YP_005647965.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ ref|YP_007865169.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+ ref|WP_014512200.1| DNA-binding protein [Sulfolobus islandicus]
+ gb|ADX84751.1| DNA-binding 7 kDa protein [Sulfolobus islandicus REY15A]
+ gb|ADX82020.1| DNA-binding 7 kDa protein [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62165.1| Hypothetical Protein SiL_0707 [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score =  120 bits (301),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEK+VD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MTTVKFKYKGEEKQVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1C8C|A Chain A, Crystal Structures Of The Chromosomal Proteins Sso7dSAC7D 
+Bound To Dna Containing T-G Mismatched Base Pairs
+Length=64
+
+ Score =  120 bits (300),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 62/64 (97%), Positives = 63/64 (98%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQML 
+Sbjct  1    MATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLA  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1BF4|A Chain A, Chromosomal Dna-Binding Protein Sso7dD(GCGAACGC) COMPLEX
+Length=63
+
+ Score =  120 bits (300),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QKK  343
+            QKK
+Sbjct  61   QKK  63
+
+
+>pdb|1BBX|C Chain C, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+ pdb|1BBX|D Chain D, Non-Specific Protein-Dna Interactions In The Sso7d-Dna 
+Complex, Nmr, 1 Structure
+Length=63
+
+ Score =  120 bits (300),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 62/63 (98%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QKK  343
+            QKK
+Sbjct  61   QKK  63
+
+
+>ref|YP_007867037.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+ ref|WP_015581733.1| DNA-binding 7 kDa protein [Sulfolobus islandicus]
+ gb|AGJ64030.1| DNA-binding 7 kDa protein [Sulfolobus islandicus LAL14/1]
+Length=64
+
+ Score =  119 bits (299),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 61/64 (95%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGE+KEVD SKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEDKEVDTSKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  60
+
+Query  340  KQKK  343
+            KQKK
+Sbjct  61   KQKK  64
+
+
+>pdb|1JIC|A Chain A, Solution Nmr Structure Of Recombinant Sso7d With Rnase 
+Activity, Minimized Average Structure
+ pdb|1SSO|A Chain A, Solution Structure And Dna-Binding Properties Of A Thermostable 
+Protein From The Archaeon Sulfolobus Solfataricus
+ gb|AAB25172.1| ribonuclease p2 [Sulfolobus solfataricus, MT-4, ATCC 49155, Peptide, 
+62 aa]
+ prf||1908252A ribonuclease
+Length=62
+
+ Score =  118 bits (295),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 61/62 (98%), Positives = 62/62 (100%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>ref|NP_376529.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|NP_378090.1| DNA-binding protein 7e [Sulfolobus tokodaii str. 7]
+ ref|WP_010978621.1| DNA-binding protein [Sulfolobus tokodaii]
+ sp|Q96X56.3|DN71_SULTO RecName: Full=DNA-binding protein 7
+ dbj|BAB65638.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+ dbj|BAB67199.1| DNA-binding protein 7d [Sulfolobus tokodaii str. 7]
+Length=64
+
+ Score =  116 bits (291),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 58/64 (91%), Positives = 59/64 (92%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M TVKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELLQMLE
+Sbjct  1    MVTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLQMLE  59
+
+Query  340  KQKK  343
+            K  K
+Sbjct  60   KSGK  63
+
+
+>pdb|2CVR|A Chain A, Nmr Solution Structure Of Sso7d Mutant, K12l, 12 Conformers
+Length=62
+
+ Score =  116 bits (290),  Expect = 6e-29, Method: Composition-based stats.
+ Identities = 60/62 (97%), Positives = 61/62 (98%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEE +VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEELQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score =  115 bits (289),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 57/63 (90%), Positives = 60/63 (95%), Gaps = 0/63 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQM+ +
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMMPE  60
+
+Query  341  QKK  343
+              K
+Sbjct  61   TGK  63
+
+
+>pdb|1B4O|A Chain A, Nmr Study Of Sso7d Mutant (F31a) Minimized Average Structure
+Length=62
+
+ Score =  112 bits (281),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 60/62 (97%), Positives = 61/62 (98%), Gaps = 0/62 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            ATVKFKYKGEEK+VDISKIKKVWRVGKMIS TYDEGGGKTGRGAVSEKDAPKELLQMLEK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVWRVGKMISATYDEGGGKTGRGAVSEKDAPKELLQMLEK  60
+
+Query  341  QK  342
+            QK
+Sbjct  61   QK  62
+
+
+>ref|WP_020198893.1| DNA-binding protein [Sulfolobales archaeon Acd1]
+Length=64
+
+ Score =  111 bits (278),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 55/63 (87%), Positives = 58/63 (92%), Gaps = 1/63 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+            A VKFKYKG+EKEVDISKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML K
+Sbjct  3    AKVKFKYKGQEKEVDISKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLAK  61
+
+Query  341  QKK  343
+            QKK
+Sbjct  62   QKK  64
+
+
+>ref|YP_004459429.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013777046.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE95131.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=62
+
+ Score =  108 bits (269),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 53/61 (87%), Positives = 55/61 (90%), Gaps = 1/61 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+              VKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELL  LEK
+Sbjct  3    TKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLDKLEK  61
+
+Query  341  Q  341
+            +
+Sbjct  62   K  62
+
+
+>ref|YP_255071.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433484.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435759.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011277280.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13125.2|DN72_SULAC RecName: Full=DNA-binding protein 7e; AltName: Full=7 kDa DNA-binding 
+protein e; AltName: Full=Sac7e
+ gb|AAA80316.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ gb|AAY79778.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius DSM 639]
+ gb|AGE70336.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72611.1| DNA-bindign protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=65
+
+ Score =  106 bits (265),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 57/64 (89%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            MA V+FKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKEL+ ML 
+Sbjct  1    MAKVRFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELMDMLA  59
+
+Query  340  KQKK  343
+            + +K
+Sbjct  60   RAEK  63
+
+
+>ref|YP_254785.1| DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 639]
+ ref|YP_007433189.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ ref|YP_007435464.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+ ref|WP_011276993.1| DNA-binding protein [Sulfolobus acidocaldarius]
+ sp|P13123.3|DN71_SULAC RecName: Full=DNA-binding protein 7d; AltName: Full=7 kDa DNA-binding 
+protein d; AltName: Full=Sac7d; Contains: RecName: 
+Full=DNA-binding protein 7a; AltName: Full=7 kDa DNA-binding 
+protein a; AltName: Full=Sac7a; Contains: RecName: Full=DNA-binding 
+protein 7b; AltName: Full=7 kDa DNA-binding protein 
+b; AltName: Full=Sac7b
+ pdb|1AZQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1AZP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Bound With 
+Kinked Dna Duplex
+ pdb|1CA5|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1CA6|A Chain A, Intercalation Site Of Hyperthermophile Chromosomal Protein 
+Sso7dSAC7D Bound To Dna
+ pdb|1WD0|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ pdb|1WD1|A Chain A, Crystal Structures Of The Hyperthermophilic Chromosomal 
+Protein Sac7d In Complex With Dna Decamers
+ gb|AAA80315.1| DNA-binding protein [Sulfolobus sp.]
+ gb|AAY79492.1| conserved DNA-binding protein 7e [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE70041.1| DNA-binding protein 7e [Sulfolobus acidocaldarius N8]
+ gb|AGE72316.1| DNA-binding protein 7e [Sulfolobus acidocaldarius Ron12/I]
+Length=66
+
+ Score =  106 bits (265),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 56/64 (88%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1WVL|A Chain A, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+ pdb|1WVL|B Chain B, Crystal Structure Of Multimeric Dna-Binding Protein 
+Sac7d- Gcn4 With Dna Decamer
+Length=80
+
+ Score =  105 bits (263),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 51/64 (80%), Positives = 56/64 (88%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1WTP|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTP|B Chain B, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gcga(Ubr)cgc
+ pdb|1WTQ|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29f In Complex With Dna Gtaattac
+Length=66
+
+ Score =  105 bits (262),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 55/64 (86%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWRVGK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKFVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1WTO|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+V26fM29F IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score =  104 bits (260),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 49/64 (77%), Positives = 54/64 (84%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWR GK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRFGKFVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>ref|YP_004458143.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775761.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93845.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=60
+
+ Score =  104 bits (259),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 51/59 (86%), Positives = 54/59 (92%), Gaps = 1/59 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+              VKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAPKELL+ L+
+Sbjct  3    TKVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAPKELLEKLK  60
+
+
+>pdb|1SAP|A Chain A, Hyperthermophile Protein, Relaxation Matrix Refinement 
+Structure
+Length=66
+
+ Score =  104 bits (259),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 50/63 (79%), Positives = 55/63 (87%), Gaps = 1/63 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+              VKFKYKGEEKEVD SKIKKVWRVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML +
+Sbjct  2    VKVKFKYKGEEKEVDTSKIKKVWRVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLAR  60
+
+Query  341  QKK  343
+             ++
+Sbjct  61   AER  63
+
+
+>pdb|1WTW|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gcgatcgc
+ pdb|1WTX|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+V26a In Complex With Dna Gtaattac
+Length=66
+
+ Score =  104 bits (259),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 55/64 (86%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWR GKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRAGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1WTR|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gcgatcgc
+ pdb|1WTV|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Single Mutant 
+M29a In Complex With Dna Gtaattac
+Length=66
+
+ Score =  103 bits (257),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 55/64 (86%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWRVGK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRVGKAVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1XYI|A Chain A, Hyperthermophile Chromosomal Protein Sac7d Double Mutant 
+Val26alaMET29ALA IN COMPLEX WITH DNA GCGATCGC
+Length=66
+
+ Score =  101 bits (251),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 49/64 (77%), Positives = 54/64 (84%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKVWR GK +SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVWRAGKAVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>pdb|1XX8|A Chain A, Nmr Structure Of The W24a Mutant Of The Hyperthermophile 
+Sac7d Protein
+Length=66
+
+ Score =  100 bits (249),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 50/64 (78%), Positives = 55/64 (86%), Gaps = 1/64 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLE  339
+            M  VKFKYKGEEKEVD SKIKKV RVGKM+SFTYD+  GKTGRGAVSEKDAPKELL ML 
+Sbjct  1    MVKVKFKYKGEEKEVDTSKIKKVARVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLDMLA  59
+
+Query  340  KQKK  343
+            + ++
+Sbjct  60   RAER  63
+
+
+>ref|YP_004458182.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+ ref|WP_013775800.1| DNA-binding protein [Acidianus hospitalis]
+ gb|AEE93884.1| DNA-binding 7 kDa protein [Acidianus hospitalis W1]
+Length=61
+
+ Score = 98.9 bits (245),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 48/52 (92%), Positives = 49/52 (94%), Gaps = 1/52 (2%)
+
+Query  280  MATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAP  331
+            M TVKFKYKGEEKEVDISKIKKVWRVGKMISFTYD+  GKTGRGAVSEKDAP
+Sbjct  1    MTTVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDD-NGKTGRGAVSEKDAP  51
+
+
+>pdb|2XIW|A Chain A, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+ pdb|2XIW|B Chain B, Crystal Structure Of The Sac7d-derived Igg1-binder C3-c24s
+Length=79
+
+ Score = 85.1 bits (209),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 34/63 (54%), Positives = 41/63 (65%), Gaps = 1/63 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+              VKF   GEEKEVD SKI+ V R GK + F Y++  GK G G V EKDAPKELL  L +
+Sbjct  13   VKVKFLLNGEEKEVDTSKIRDVSRQGKNVKFLYND-NGKYGAGNVDEKDAPKELLDXLAR  71
+
+Query  341  QKK  343
+             ++
+Sbjct  72   AER  74
+
+
+>ref|YP_001190678.1| hypothetical protein Msed_0579 [Metallosphaera sedula DSM 5348]
+ ref|WP_009071314.1| DNA-binding protein [Metallosphaera]
+ gb|ABP94754.1| nucleoid protein Sul7d [Metallosphaera sedula DSM 5348]
+ gb|EHP70561.1| 7kD DNA-binding domain protein [Metallosphaera yellowstonensis 
+MK1]
+Length=62
+
+ Score = 76.2 bits (186),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 45/61 (74%), Positives = 54/61 (89%), Gaps = 1/61 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+              +KFKYKG++ EVDISK+KKVW+VGKM+SFTYD+  GKTGRGAVSEKDAPKELL M+ K
+Sbjct  3    TKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLNMIGK  61
+
+Query  341  Q  341
+            +
+Sbjct  62   K  62
+
+
+>ref|YP_004410040.1| hypothetical protein Mcup_1453 [Metallosphaera cuprina Ar-4]
+ ref|WP_013738054.1| DNA-binding protein [Metallosphaera cuprina]
+ gb|AEB95556.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=62
+
+ Score = 75.1 bits (183),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 45/61 (74%), Positives = 54/61 (89%), Gaps = 1/61 (2%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGKTGRGAVSEKDAPKELLQMLEK  340
+              +KFKYKG++ EVDISK+KKVW+VGKM+SFTYD+  GKTGRGAVSEKDAPKELL M+ K
+Sbjct  3    TKIKFKYKGQDLEVDISKVKKVWKVGKMVSFTYDD-NGKTGRGAVSEKDAPKELLSMIGK  61
+
+Query  341  Q  341
+            +
+Sbjct  62   K  62
+
+
+>gb|AAB33737.1| p7ss=7.147 kda in vitro ribosylatable DNA-binding protein {N-terminal} 
+[Sulfolobus solfataricus, Peptide Partial, 39 aa]
+Length=39
+
+ Score = 72.4 bits (176),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 36/39 (92%), Positives = 37/39 (95%), Gaps = 0/39 (0%)
+
+Query  281  ATVKFKYKGEEKEVDISKIKKVWRVGKMISFTYDEGGGK  319
+            ATVKFKYKGEEK+VDISKIKKV RVGKMISFTYDEG GK
+Sbjct  1    ATVKFKYKGEEKQVDISKIKKVXRVGKMISFTYDEGXGK  39
+
+
+>ref|YP_004097971.1| polyprenyl synthetase [Intrasporangium calvum DSM 43043]
+ ref|WP_013491564.1| geranylgeranyl pyrophosphate synthase [Intrasporangium calvum]
+ gb|ADU47244.1| Polyprenyl synthetase [Intrasporangium calvum DSM 43043]
+Length=336
+
+ Score = 43.9 bits (102),  Expect = 0.080, Method: Composition-based stats.
+ Identities = 34/117 (29%), Positives = 51/117 (44%), Gaps = 14/117 (12%)
+
+Query  129  QDAVHLCGGQIRTKRSRATNLR------EWRAHASTYGSTFLGRYGALAAACGGEGQPAD  182
+            Q  V LC GQIR  R    ++          A  +   +    RYGA+ +  GG  +  +
+Sbjct  149  QTFVRLCSGQIRDDRPCPPDVDPIDYYLGVLADKTGSLTATACRYGAMFS--GGSPELVE  206
+
+Query  183  SVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRA  239
+            ++R + E   MT  +ADDL D   + E  G      +T     ++ VD L  LR +A
+Sbjct  207  TMRSYGEKVGMTFQLADDLIDIASDSEASG------KTPGTDLREGVDTLAVLRAKA  257
+
+
+>ref|WP_009224040.1| heptaprenyl diphosphate synthase [Paenibacillus sp. oral taxon 
+786]
+ gb|EES74271.1| putative heptaprenyl diphosphate synthase component 2 [Paenibacillus 
+sp. oral taxon 786 str. D14]
+Length=326
+
+ Score = 42.7 bits (99),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 32/145 (22%), Positives = 58/145 (40%), Gaps = 5/145 (3%)
+
+Query  117  ARDPKAVTDILEQDAVHLCGGQIRTKRS---RATNLREWRAHASTYGSTFLG-RYGALAA  172
+            A   K V D+       LC G+ +           + E+   +    +  +       A 
+Sbjct  131  AEREKFVYDLSSLATTKLCLGEYQQLSHLFDYDVTIDEYLEKSKNKTAQLMATCLQIGAK  190
+
+Query  173  ACGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGN-LAHLMRTGAVAGQDVVDL  231
+            A G + + A+ +  F E   M+  + DD+ DY ++ E+ G      +R+G V    +  L
+Sbjct  191  AAGADTETAELLYSFGEKLGMSFQIRDDVLDYTQSAEKLGKPAGSDLRSGQVTLPVLFAL  250
+
+Query  232  LEELRGRALAAVAAPPGAPGLVPVV  256
+             +E    A+ A++A   A  +  VV
+Sbjct  251  QDETLAPAIRAISADSPAEEVDAVV  275
+
+
+>ref|WP_020145004.1| geranylgeranyl pyrophosphate synthase [Terracoccus sp. 273MFTsu3.1]
+Length=338
+
+ Score = 42.3 bits (98),  Expect = 0.28, Method: Composition-based stats.
+ Identities = 37/140 (26%), Positives = 54/140 (39%), Gaps = 14/140 (10%)
+
+Query  129  QDAVHLCGGQIRTKRSRATNLR------EWRAHASTYGSTFLGRYGALAAACGGEGQPAD  182
+            Q  V LC GQIR  R     +          A  +       GRYG + +  GG  +  +
+Sbjct  149  QTFVRLCNGQIRDDRPCPEGVDPVDYYLGVLADKTGVLIATAGRYGVMFS--GGSPESVE  206
+
+Query  183  SVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAA  242
+             +R + E   +   +ADDL D   + +  G +           ++ VD L  LR RA+A 
+Sbjct  207  IMRSYGEKLGIAFQLADDLIDIASDADDSGKIP------GTDLREGVDTLAVLRFRAMAD  260
+
+Query  243  VAAPPGAPGLVPVVHLYTDD  262
+             A    A  L  +    T D
+Sbjct  261  PADASDARLLELLDGDLTGD  280
+
+
+>ref|YP_007726869.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE8]
+ ref|WP_015506265.1| geranyltranstransferase [Chlamydia trachomatis]
+ emb|CCP56395.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE8]
+Length=291
+
+ Score = 40.8 bits (94),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_003318770.1| polyprenyl synthetase [Sphaerobacter thermophilus DSM 20745]
+ ref|WP_012870995.1| heptaprenyl diphosphate synthase [Sphaerobacter thermophilus]
+ gb|ACZ37948.1| Polyprenyl synthetase [Sphaerobacter thermophilus DSM 20745]
+Length=321
+
+ Score = 40.4 bits (93),  Expect = 0.85, Method: Composition-based stats.
+ Identities = 24/118 (20%), Positives = 49/118 (42%), Gaps = 6/118 (5%)
+
+Query  113  LESLARDPKAVTDILEQDAVHLCGGQIR---TKRSRATNLREWRAHASTYGSTFLGRYGA  169
+            + +  ++P+ V  +      H+C GQ+R   T R    ++ ++R       ++       
+Sbjct  117  MAAATQNPR-VVQVFASSLAHICDGQLREIFTARELQQSIDDYRKRIFGKTASLFAGSAE  175
+
+Query  170  LAAACGGEG-QPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHL-MRTGAVAG  225
+            + A  G    +  D++R F     M   + DD+ D   + ++ G  A L +R G +  
+Sbjct  176  MGAILGEANDEQIDALRRFGGHLGMAFQIVDDVLDLRESTDQIGKPAGLDLRQGTITL  233
+
+
+>ref|WP_016313636.1| hypothetical protein [Paenibacillus barengoltzii]
+ gb|EOS54818.1| hypothetical protein C812_03214 [Paenibacillus barengoltzii G22]
+Length=326
+
+ Score = 40.8 bits (94),  Expect = 0.85, Method: Composition-based stats.
+ Identities = 29/145 (20%), Positives = 55/145 (38%), Gaps = 5/145 (3%)
+
+Query  117  ARDPKAVTDILEQDAVHLCGGQIRTKRS---RATNLREWRAHASTYGSTFLG-RYGALAA  172
+            A   K V D+       LC G+ +           +  +   +    +  +       A 
+Sbjct  131  AEQEKFVYDLSSLATTKLCLGEYQQLAHLFDYDVTIDNYLEKSKNKTAQLMATCLQIGAK  190
+
+Query  173  ACGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGN-LAHLMRTGAVAGQDVVDL  231
+            A G +   A+ +  F E   M+  + DD+ D+ ++ E+ G      +R+G V    +  L
+Sbjct  191  AAGADTGTAELLYRFGEKLGMSFQIRDDVLDFTQSAEKLGKPAGSDLRSGQVTLPVLFAL  250
+
+Query  232  LEELRGRALAAVAAPPGAPGLVPVV  256
+             +E     + A++A   A  +  VV
+Sbjct  251  QDETLAPTIRAISADSPAEEVDAVV  275
+
+
+>ref|YP_328453.1| dimethylallyltransferase [Chlamydia trachomatis A/HAR-13]
+ ref|WP_011324802.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AAX50905.1| dimethylallyltransferase [Chlamydia trachomatis A/HAR-13]
+Length=291
+
+ Score = 40.4 bits (93),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_005809854.1| dimethylallyltransferase [Chlamydia trachomatis E/11023]
+ ref|YP_005814445.1| dimethylallyltransferase [Chlamydia trachomatis E/150]
+ ref|YP_005816262.1| dimethylallyltransferase [Chlamydia trachomatis Sweden2]
+ ref|YP_006361439.1| dimethylallyltransferase [Chlamydia trachomatis E/SW3]
+ ref|YP_006362314.1| dimethylallyltransferase [Chlamydia trachomatis F/SW5]
+ ref|YP_007540327.1| dimethylallyltransferase [Chlamydia trachomatis IU824]
+ ref|YP_007541203.1| dimethylallyltransferase [Chlamydia trachomatis IU888]
+ ref|YP_007736843.1| geranyltranstransferase [Chlamydia trachomatis E/Bour]
+ ref|YP_007733269.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD1]
+ ref|YP_007735051.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE4]
+ ref|YP_007730582.1| geranyltranstransferase [Chlamydia trachomatis F/SotonF3]
+ ref|YP_008345588.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/852]
+ ref|YP_008347462.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/342]
+ ref|YP_008351441.1| dimethylallyltransferase [Chlamydia trachomatis RC-F/69]
+ ref|YP_008440007.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008440934.1| diguanylate cyclase [Chlamydia trachomatis F/11-96]
+ ref|YP_008466214.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008468072.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008635141.1| dimethylallyltransferase [Chlamydia trachomatis E/C599]
+ ref|YP_008655797.1| dimethylallyltransferase [Chlamydia trachomatis F/SWFPminus]
+ ref|WP_009872802.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CBJ15152.1| dimethylallyltransferase [Chlamydia trachomatis Sweden2]
+ gb|ADH17416.1| dimethylallyltransferase [Chlamydia trachomatis E/150]
+ gb|ADH21110.1| dimethylallyltransferase [Chlamydia trachomatis E/11023]
+ emb|CCE14690.1| dimethylallyltransferase [Chlamydia trachomatis F/SW5]
+ emb|CCE12912.1| dimethylallyltransferase [Chlamydia trachomatis E/SW3]
+ emb|CCP52823.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD1]
+ emb|CCP55496.1| geranyltranstransferase [Chlamydia trachomatis E/SotonE4]
+ emb|CCP57312.1| geranyltranstransferase [Chlamydia trachomatis F/SotonF3]
+ emb|CCP60889.1| geranyltranstransferase [Chlamydia trachomatis E/Bour]
+ emb|CCP28426.1| dimethylallyltransferase [Chlamydia trachomatis IU824]
+ emb|CCP29327.1| dimethylallyltransferase [Chlamydia trachomatis IU888]
+ gb|AGR94064.1| dimethylallyltransferase [Chlamydia trachomatis RC-F/69]
+ gb|AGR95910.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/852]
+ gb|AGR99629.1| dimethylallyltransferase [Chlamydia trachomatis RC-F(s)/342]
+ gb|AGT64600.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT65529.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT67384.1| diguanylate cyclase [Chlamydia trachomatis F/11-96]
+ gb|AGT69237.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CDG43529.1| dimethylallyltransferase [Chlamydia trachomatis E/C599]
+ emb|CDG42640.1| dimethylallyltransferase [Chlamydia trachomatis F/SWFPminus]
+Length=291
+
+ Score = 40.4 bits (93),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_001654961.1| dimethylallyltransferase [Chlamydia trachomatis 434/Bu]
+ ref|YP_001653973.1| dimethylallyltransferase [Chlamydia trachomatis L2b/UCH-1/proctitis]
+ ref|YP_004717801.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2c]
+ ref|YP_007716157.1| geranyltranstransferase [Chlamydia trachomatis L2/25667R]
+ ref|YP_007722395.1| geranyltranstransferase [Chlamydia trachomatis L1/440/LN]
+ ref|YP_007719716.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams2]
+ ref|YP_007721502.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams5]
+ ref|YP_007720607.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada1]
+ ref|YP_007717935.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada2]
+ ref|YP_007717044.1| geranyltranstransferase [Chlamydia trachomatis L2b/UCH-2]
+ ref|YP_007739510.1| geranyltranstransferase [Chlamydia trachomatis L3/404/LN]
+ ref|YP_007741287.1| geranyltranstransferase [Chlamydia trachomatis L2b/CV204]
+ ref|YP_007742177.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams3]
+ ref|YP_007718826.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams1]
+ ref|YP_007743068.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams4]
+ ref|YP_007737730.1| geranyltranstransferase [Chlamydia trachomatis L1/1322/p2]
+ ref|YP_007723284.1| geranyltranstransferase [Chlamydia trachomatis L2b/795]
+ ref|YP_007729544.1| geranyltranstransferase [Chlamydia trachomatis L2b/8200/07]
+ ref|YP_007740397.1| geranyltranstransferase [Chlamydia trachomatis L2b/LST]
+ ref|YP_007851932.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2/434/Bu(i)]
+ ref|YP_007852873.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2/434/Bu(f)]
+ ref|YP_008344667.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/46]
+ ref|YP_008350311.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2/55]
+ ref|YP_008352367.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/943]
+ ref|YP_008353288.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/3]
+ ref|WP_009873960.1| diguanylate cyclase [Chlamydia trachomatis]
+ emb|CAP04329.1| dimethylallyltransferase [Chlamydia trachomatis 434/Bu]
+ emb|CAP07283.1| dimethylallyltransferase [Chlamydia trachomatis L2b/UCH-1/proctitis]
+ gb|AEJ77563.1| polyprenyl synthetase family protein [Chlamydia trachomatis L2c]
+ emb|CCP51925.1| geranyltranstransferase [Chlamydia trachomatis L2b/8200/07]
+ emb|CCP61779.1| geranyltranstransferase [Chlamydia trachomatis L2b/795]
+ emb|CCP62673.1| geranyltranstransferase [Chlamydia trachomatis L1/440/LN]
+ emb|CCP63562.1| geranyltranstransferase [Chlamydia trachomatis L1/1322/p2]
+ emb|CCP66233.1| geranyltranstransferase [Chlamydia trachomatis L2/25667R]
+ emb|CCP67121.1| geranyltranstransferase [Chlamydia trachomatis L3/404/LN]
+ emb|CCP68008.1| geranyltranstransferase [Chlamydia trachomatis L2b/UCH-2]
+ emb|CCP68899.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada2]
+ emb|CCP69790.1| geranyltranstransferase [Chlamydia trachomatis L2b/LST]
+ emb|CCP70680.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams1]
+ emb|CCP71570.1| geranyltranstransferase [Chlamydia trachomatis L2b/CV204]
+ emb|CCP90735.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams2]
+ emb|CCP91625.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams3]
+ emb|CCP92516.1| geranyltranstransferase [Chlamydia trachomatis L2b/Canada1]
+ emb|CCP93411.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams4]
+ emb|CCP94301.1| geranyltranstransferase [Chlamydia trachomatis L2b/Ams5]
+ gb|AGJ65951.1| diguanylate cyclase [Chlamydia trachomatis L2/434/Bu(f)]
+ gb|AGJ65010.1| diguanylate cyclase [Chlamydia trachomatis L2/434/Bu(i)]
+ gb|AGR94989.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/46]
+ gb|AGR96869.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/943]
+ gb|AGR98710.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2(s)/3]
+ gb|AGS04330.1| dimethylallyltransferase [Chlamydia trachomatis RC-L2/55]
+Length=291
+
+ Score = 40.4 bits (93),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|NP_220145.1| dimethylallyltransferase [Chlamydia trachomatis D/UW-3/CX]
+ ref|YP_002888251.1| dimethylallyltransferase [Chlamydia trachomatis B/Jali20/OT]
+ ref|YP_002889132.1| dimethylallyltransferase [Chlamydia trachomatis B/TZ1A828/OT]
+ ref|YP_005156463.1| dimethylallyltransferase [Chlamydia trachomatis A2497]
+ ref|YP_005808002.1| dimethylallyltransferase [Chlamydia trachomatis G/9768]
+ ref|YP_005808926.1| dimethylallyltransferase [Chlamydia trachomatis G/11222]
+ ref|YP_005810778.1| dimethylallyltransferase [Chlamydia trachomatis G/9301]
+ ref|YP_005811681.1| Dimethylallyltransferase [Chlamydia trachomatis D-EC]
+ ref|YP_005812559.1| Dimethylallyltransferase [Chlamydia trachomatis D-LC]
+ ref|YP_005815368.1| dimethylallyltransferase [Chlamydia trachomatis G/11074]
+ ref|YP_005813502.1| Dimethylallyltransferase [Chlamydia trachomatis A2497]
+ ref|YP_006360564.1| dimethylallyltransferase [Chlamydia trachomatis F/SW4]
+ ref|YP_007724187.1| geranyltranstransferase [Chlamydia trachomatis A/5291]
+ ref|YP_007727761.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD5]
+ ref|YP_007725972.1| geranyltranstransferase [Chlamydia trachomatis G/SotonG1]
+ ref|YP_007731475.1| geranyltranstransferase [Chlamydia trachomatis K/SotonK1]
+ ref|YP_007732376.1| geranyltranstransferase [Chlamydia trachomatis A/363]
+ ref|YP_007734161.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD6]
+ ref|YP_007735948.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa1]
+ ref|YP_007728659.1| geranyltranstransferase [Chlamydia trachomatis A/7249]
+ ref|YP_007725081.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa3]
+ ref|YP_008346543.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/953]
+ ref|YP_008348409.1| dimethylallyltransferase [Chlamydia trachomatis RC-J(s)/122]
+ ref|YP_008349353.1| dimethylallyltransferase [Chlamydia trachomatis J/6276tet1]
+ ref|YP_008354212.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/966]
+ ref|YP_008355138.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/971]
+ ref|YP_008442775.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008467140.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008469000.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|YP_008469925.1| diguanylate cyclase [Chlamydia trachomatis]
+ ref|WP_009871997.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AAC68232.1| Geranylgeranyl pyrophosphate synthase [Chlamydia trachomatis 
+D/UW-3/CX]
+ emb|CAX10193.1| dimethylallyltransferase [Chlamydia trachomatis B/TZ1A828/OT]
+ emb|CAX11086.1| dimethylallyltransferase [Chlamydia trachomatis B/Jali20/OT]
+ gb|ADH18339.1| dimethylallyltransferase [Chlamydia trachomatis G/9768]
+ gb|ADH19263.1| dimethylallyltransferase [Chlamydia trachomatis G/11222]
+ gb|ADH20186.1| dimethylallyltransferase [Chlamydia trachomatis G/11074]
+ gb|ADH97285.1| dimethylallyltransferase [Chlamydia trachomatis G/9301]
+ gb|ADI51304.1| Dimethylallyltransferase [Chlamydia trachomatis D-EC]
+ gb|ADI52316.1| Dimethylallyltransferase [Chlamydia trachomatis D-LC]
+ gb|AEP35503.1| Dimethylallyltransferase [Chlamydia trachomatis A2497]
+ emb|CAX09299.1| dimethylallyltransferase [Chlamydia trachomatis A2497]
+ emb|CCE13801.1| dimethylallyltransferase [Chlamydia trachomatis F/SW4]
+ emb|CCP49822.1| geranyltranstransferase [Chlamydia trachomatis A/7249]
+ emb|CCP48924.1| geranyltranstransferase [Chlamydia trachomatis A/5291]
+ emb|CCP48025.1| geranyltranstransferase [Chlamydia trachomatis A/363]
+ emb|CCP50806.1| geranyltranstransferase [Chlamydia trachomatis K/SotonK1]
+ emb|CCP53715.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD5]
+ emb|CCP54606.1| geranyltranstransferase [Chlamydia trachomatis D/SotonD6]
+ emb|CCP58205.1| geranyltranstransferase [Chlamydia trachomatis G/SotonG1]
+ emb|CCP59100.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa1]
+ emb|CCP59994.1| geranyltranstransferase [Chlamydia trachomatis Ia/SotonIa3]
+ gb|AGR97791.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/953]
+ gb|AGS00577.1| dimethylallyltransferase [Chlamydia trachomatis RC-J(s)/122]
+ gb|AGS01521.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/966]
+ gb|AGS02447.1| dimethylallyltransferase [Chlamydia trachomatis J/6276tet1]
+ gb|AGS03403.1| dimethylallyltransferase [Chlamydia trachomatis RC-J/971]
+ gb|AGT66455.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT70160.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT71082.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AGT72924.1| diguanylate cyclase [Chlamydia trachomatis]
+ gb|AHC17482.1| diguanylate cyclase [Chlamydia trachomatis C/TW-3]
+Length=291
+
+ Score = 40.4 bits (93),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>ref|YP_007715266.1| geranyltranstransferase [Chlamydia trachomatis L1/115]
+ ref|YP_007738620.1| geranyltranstransferase [Chlamydia trachomatis L1/224]
+ ref|WP_015505723.1| geranyltranstransferase [Chlamydia trachomatis]
+ emb|CCP64452.1| geranyltranstransferase [Chlamydia trachomatis L1/115]
+ emb|CCP65341.1| geranyltranstransferase [Chlamydia trachomatis L1/224]
+Length=291
+
+ Score = 40.4 bits (93),  Expect = 0.94, Method: Composition-based stats.
+ Identities = 17/56 (30%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  175  GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVD  230
+            GGE + +  V EFAE F +   + DDL D  ++ + + ++ + +  G VA ++++D
+Sbjct  200  GGERESSTLVAEFAEHFGLLFQIRDDLADLSQDDQEEKHMNYALLFGEVAAKELLD  255
+
+
+>gb|EJD48271.1| C-terminal kinesin [Auricularia delicata TFB-10046 SS5]
+Length=506
+
+ Score = 40.0 bits (92),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 44/186 (24%), Positives = 69/186 (37%), Gaps = 34/186 (18%)
+
+Query  65   RRAAVSRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALHELESLARDPKAVT  124
+            RR  ++    +D +  K  ++LMD +    R+E              E   L  D +   
+Sbjct  16   RRVIIANNDEIDALKKKHANELMDFELAQTRLE-------------RENRQLKDDVR---  59
+
+Query  125  DILEQDAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAACGGEGQPADSV  184
+             +LE D         R K      L+E  A  ST   T   +  AL +  G   Q  D+V
+Sbjct  60   -VLEDD--------CRRKDDTIRTLKETIAQQSTAHITLTAQITALQSQTGATTQQLDAV  110
+
+Query  185  REFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQDVVDLLEELRGRALAAVA  244
+            R  A         AD L+  + +  R   L H +R G    + + ++++EL+G       
+Sbjct  111  RAHA---------ADLLSQLNESNARAAQLEHDLREGETMRRKLHNMVQELKGNIRVFCR  161
+
+Query  245  APPGAP  250
+              P  P
+Sbjct  162  VRPALP  167
+
+
+>ref|WP_010849784.1| putative polyprenyl diphosphate synthase [Tetrasphaera elongata]
+ emb|CCH69908.1| putative polyprenyl diphosphate synthase [Tetrasphaera elongata 
+Lp2]
+Length=347
+
+ Score = 38.5 bits (88),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 28/99 (28%), Positives = 40/99 (40%), Gaps = 9/99 (9%)
+
+Query  120  PKAVTDILEQDAVHLCGGQIRTKRSRATNLR------EWRAHASTYGSTFLGRYGALAAA  173
+            P+AV  I  Q  + LC GQIR  R    +           A  +        RYGA+   
+Sbjct  153  PEAV-KIQAQTFIRLCAGQIRDDRPAPADADPLEYYRGVLADKTGVLIATAARYGAMFGG  211
+
+Query  174  CGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDG  212
+            C    +  +++R + E   M   +ADDL D   + E  G
+Sbjct  212  C--PPEVVETMRVYGEHLGMAFQLADDLIDIASDAEETG  248
+
+
+>ref|WP_008296994.1| Heptaprenyl diphosphate synthase component 2 [Bhargavaea cecembensis]
+ gb|EMR07408.1| Heptaprenyl diphosphate synthase component 2 [Bhargavaea cecembensis 
+DSE10]
+Length=324
+
+ Score = 38.1 bits (87),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 43/221 (19%), Positives = 87/221 (39%), Gaps = 18/221 (8%)
+
+Query  62   DPDRRAAVSRALALDIVSMKLLDDLMDDDTGLDRVELACVCLRLHLRALH----------  111
+            +P   A  +  L L  ++  + DD++DD   L R E     +  +  A++          
+Sbjct  65   NPAVTAKAAVPLELIHMASLVHDDVIDD-ADLRRGERTVKSMYGNHAAMYVGDFLLGRSL  123
+
+Query  112  ELESLARDPKAVTDILEQDAVHLCGG---QIRTKRSRATNLREWRAHASTYGSTFLGRYG  168
+            E+     DP+ +  +L Q  + +C G   QI  K +   NLR++        +  +    
+Sbjct  124  EIIGELEDPE-IHRVLSQTMIEICVGEIIQIEDKFATEQNLRDYLRRIKRKTALLIASSC  182
+
+Query  169  ALAAA-CGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGN-LAHLMRTGAVAGQ  226
+             L     G + +    ++ F     M+  + DDL D+  + ++ G      + +G +   
+Sbjct  183  ELGGLVAGADPRTVRKLKRFGYYVGMSFQITDDLLDFTGSEKQLGKPAGGDLLSGNITLP  242
+
+Query  227  DVVDLLEE-LRGRALAAVAAPPGAPGLVPVVHLYTDDVLVR  266
+             ++ L +  LR + L A+    G   +  ++    D   +R
+Sbjct  243  AIIGLRDPGLRPQLLDALEGRMGTEEMAQLLDSMRDSEAIR  283
+
+
+>ref|WP_009095365.1| Polyprenyl synthetase [Rhodopirellula sp. SWK7]
+ gb|EMI45824.1| Polyprenyl synthetase [Rhodopirellula sp. SWK7]
+Length=344
+
+ Score = 38.1 bits (87),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 28/58 (48%), Gaps = 0/58 (0%)
+
+Query  155  HASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDG  212
+            H    G+ F+      A A GG  +  D++  FA+AF +   + DD+ D+  N E  G
+Sbjct  184  HRRKTGALFIACAKMGAIAAGGNEEQVDALGRFADAFGLAFQITDDVLDFTSNAEELG  241
+
+
+>ref|WP_016655223.1| octaprenyl-diphosphate synthase [Acinetobacter rudis]
+ gb|EPF79905.1| octaprenyl-diphosphate synthase [Acinetobacter rudis CIP 110305]
+Length=325
+
+ Score = 37.7 bits (86),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 25/62 (40%), Gaps = 1/62 (2%)
+
+Query  171  AAACGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDG-NLAHLMRTGAVAGQDVV  229
+            AA   G  Q  + +R FA  F     + DD+ DY  + E  G N+   +  G      + 
+Sbjct  186  AAILAGTPQYREPLRRFAGHFGNAFQIIDDILDYTSDAETLGKNIGDDLMEGKPTLPLIA  245
+
+Query  230  DL  231
+             L
+Sbjct  246  AL  247
+
+
+>gb|EHJ64432.1| putative Ran-binding protein [Danaus plexippus]
+Length=410
+
+ Score = 37.7 bits (86),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 37/154 (24%), Positives = 57/154 (37%), Gaps = 25/154 (16%)
+
+Query  176  GEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDG--------NL---AHLMRTGAVA  224
+            G GQP        +     + + D+   Y +NG   G        NL     L   G V 
+Sbjct  162  GTGQPYGPTFTTGDVIGCGVNLVDNTCFYTKNGHHLGIAFRGLPPNLYPTVGLQTPGEVV  221
+
+Query  225  GQ---------DVVDLLEELRGRALAAVAAPPGAPGLVPVVHLYTDDVLVRLLPRHLGEA  275
+                       D+ D+L ELR R   A+   P     +P        VL R++  +L   
+Sbjct  222  DANFGQQPFVFDIEDMLRELRARTRLAIDDFP-----LPTEQGQWQQVLHRMVSSYLVHH  276
+
+Query  276  GAGAMATVKFKYKGEEKEVDISKIKKVWRVGKMI  309
+            G  + A    +  G+  + DI+ IK   R+ K++
+Sbjct  277  GYCSTAQAFSRATGQTIDEDIASIKNRQRISKLV  310
+
+
+>ref|WP_018157000.1| hypothetical protein [Demetria terragena]
+Length=333
+
+ Score = 37.7 bits (86),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 30/104 (29%), Positives = 43/104 (41%), Gaps = 9/104 (9%)
+
+Query  129  QDAVHLCGGQIRTKRS---RATNLREWR---AHASTYGSTFLGRYGALAAACGGEGQPAD  182
+            Q  V LC GQI+  R     A  L  +    A  +        RYGA+ A C  E    D
+Sbjct  147  QTFVRLCAGQIQDDRQSTDEANPLEHYLKVLADKTGVLIATAARYGAMFAGCPSE--RID  204
+
+Query  183  SVREFAEAFAMTITMADDLTDYDRNGERDGNL-AHLMRTGAVAG  225
+            ++RE+ E   M   ++DD+ D   + E  G      +R G +  
+Sbjct  205  TLREYGELIGMVFQLSDDILDIVSDAEESGKTPGTDLREGVLTL  248
+
+
+>ref|WP_018108116.1| hypothetical protein [Bacteroides propionicifaciens]
+Length=326
+
+ Score = 37.7 bits (86),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 33/158 (21%), Positives = 58/158 (37%), Gaps = 13/158 (8%)
+
+Query  115  SLARDPKAVTDILEQDAVHLCGGQIRTKRSRATNLREWRAHASTYGSTFLGRYGALAAAC  174
+            SL+RD + + D++ +    L  G+I     + +N+         Y S    +  AL AAC
+Sbjct  127  SLSRDYR-IIDVVAKLGQQLADGEIL----QLSNIANREFSEEVYFSVIYKKTAALFAAC  181
+
+Query  175  --------GGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDGNLAHLMRTGAVAGQ  226
+                    G   Q  D   +F E   +   + DD+ DY  + +      + M  G +   
+Sbjct  182  TRVAALSAGASDQEVDLATKFGEYMGICFQIRDDIFDYYASSDIGKPTGNDMLEGKLTLP  241
+
+Query  227  DVVDLLEELRGRALAAVAAPPGAPGLVPVVHLYTDDVL  264
+             +  L  +     + A     G       ++ + D VL
+Sbjct  242  SLYVLNNKATAEVIDAAYRIKGGDATSEEINQFIDFVL  279
+
+
+>ref|WP_006212060.1| hypothetical protein [Paenibacillus vortex]
+ gb|EFU39170.1| hypothetical protein PVOR_26588 [Paenibacillus vortex V453]
+Length=402
+
+ Score = 37.7 bits (86),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 22/80 (28%), Positives = 37/80 (46%), Gaps = 5/80 (6%)
+
+Query  9    VDDDDKMLAAEAANRDHVTRCVAQTGGSPDLVAHTAALRLYLRVPHFLTEWTTDPDRRAA  68
+            V D   ++      R  VT CV + G    + ++        R+   L++W  DP RRA+
+Sbjct  227  VHDYRMLVQKNGTGRWQVTGCVGRVGAPKSVTSNLHGGGRATRMEELLSKWIADPARRAS  286
+
+Query  69   V---SRALALDIVSMKLLDD  85
+            +   + AL +D+   K LD+
+Sbjct  287  IREEADALGVDVA--KFLDE  304
+
+
+>ref|WP_008677081.1| Polyprenyl synthetase [Rhodopirellula sallentina]
+ gb|EMI56558.1| Polyprenyl synthetase [Rhodopirellula sallentina SM41]
+Length=344
+
+ Score = 37.3 bits (85),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 17/58 (29%), Positives = 28/58 (48%), Gaps = 0/58 (0%)
+
+Query  155  HASTYGSTFLGRYGALAAACGGEGQPADSVREFAEAFAMTITMADDLTDYDRNGERDG  212
+            H    G+ F+      A A GG  +  D++  FA+AF +   + DD+ D+  + E  G
+Sbjct  184  HRRKTGALFIACAKMGAIAAGGSQEQVDALARFADAFGLAFQITDDVLDFTSDAETLG  241
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1424370506777
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

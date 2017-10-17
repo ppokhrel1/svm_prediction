@@ -1,0 +1,631 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2JMPA
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2JMP|A  Chain A, Structure For The N-Terminus Of Chromosomal ...   213    6e-69
+ref|YP_006601515.1|  chromosomal replication initiation protein [...   201    3e-60
+ref|NP_073140.1|  chromosomal replication initiation protein [Myc...   201    3e-60
+ref|NP_110375.1|  chromosome replication initiator DnaA [Mycoplas...   140    3e-37
+ref|YP_005175937.1|  chromosomal replication initiation protein D...   140    3e-37
+ref|YP_007235809.1|  oxidoreductase-aldo/keto reductase family pr...  35.0    3.6  
+ref|YP_006704478.1|  oxidoreductase-aldo/keto reductase family [B...  35.0    3.6  
+ref|YP_003785120.1|  oxidoreductase-aldo/keto reductase family [B...  35.0    3.7  
+ref|YP_006706842.1|  aldo/keto reductase family oxidoreductase [B...  35.0    4.0  
+ref|YP_002720453.1|  aldo/keto reductase family oxidoreductase [B...  34.3    6.3  
+ref|YP_003632745.1|  aldo/keto reductase [Brachyspira murdochii D...  34.3    7.2  
+ref|WP_020063461.1|  aldo/keto reductase [Brachyspira hyodysenter...  34.3    7.5  
+ref|WP_020005684.1|  aldo/keto reductase [Brachyspira innocens]       33.9    8.3  
+ref|WP_008273708.1|  hypothetical protein [Cyanothece sp. CCY0110...  33.5    8.6  
+
+
+>pdb|2JMP|A Chain A, Structure For The N-Terminus Of Chromosomal Replication 
+Initiation Protein Dnaa From M. Genitalium
+Length=107
+
+ Score =  213 bits (541),  Expect = 6e-69, Method: Compositional matrix adjust.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  1    MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN  60
+            MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN
+Sbjct  1    MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN  60
+
+Query  61   DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+
+
+>ref|YP_006601515.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2288]
+ ref|WP_014894707.1| chromosomal replication initiation protein [Mycoplasma genitalium]
+ gb|AFQ04807.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2288]
+Length=437
+
+ Score =  201 bits (510),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH
+Sbjct  1    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  100
+
+
+>ref|NP_073140.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+G37]
+ ref|YP_006600016.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2321]
+ ref|YP_006600500.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6282]
+ ref|YP_006601009.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6320]
+ ref|WP_010869493.1| chromosomal replication initiation protein [Mycoplasma genitalium]
+ sp|P35888.2|DNAA_MYCGE RecName: Full=Chromosomal replication initiator protein DnaA
+ gb|AAC72490.1| chromosomal replication initiator protein DnaA [Mycoplasma genitalium 
+G37]
+ gb|ABY79668.1| chromosomal replication initiator protein DnaA [synthetic Mycoplasma 
+genitalium JCVI-1.0]
+ gb|AFQ03308.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2321]
+ gb|AFQ03792.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6282]
+ gb|AFQ04301.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6320]
+Length=437
+
+ Score =  201 bits (510),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH
+Sbjct  1    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  100
+
+
+>ref|NP_110375.1| chromosome replication initiator DnaA [Mycoplasma pneumoniae 
+M129]
+ ref|YP_007348242.1| Chromosomal replication initiator protein [Mycoplasma pneumoniae 
+M129-B7]
+ ref|WP_010875043.1| chromosomal replication initiation protein [Mycoplasma pneumoniae]
+ sp|Q59549.1|DNAA_MYCPN RecName: Full=Chromosomal replication initiator protein DnaA
+ gb|AAC43648.1| DnaA protein [Mycoplasma pneumoniae]
+ gb|AAB95804.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+M129]
+ gb|AGC04555.1| Chromosomal replication initiator protein [Mycoplasma pneumoniae 
+M129-B7]
+Length=439
+
+ Score =  140 bits (352),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 65/100 (65%), Positives = 84/100 (84%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQF+AFK LLKK YE T+GF+DKYIK++ RF  KNNVL ++++NEFAR +LN N +I+ 
+Sbjct  1    MEQFSAFKLLLKKQYETTLGFYDKYIKNLKRFALKNNVLFVIVDNEFARETLNSNPDIVG  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LA  LY+ I++V FVNEQDFF NLAKLEE++R+TLYQ+SG
+Sbjct  61   LASKLYDDIRAVRFVNEQDFFINLAKLEEDNRETLYQSSG  100
+
+
+>ref|YP_005175937.1| chromosomal replication initiation protein DnaA [Mycoplasma pneumoniae 
+309]
+ ref|YP_005881673.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+FH]
+ ref|WP_014325680.1| chromosomal replication initiation protein [Mycoplasma pneumoniae]
+ gb|ADK87119.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+FH]
+ dbj|BAL22273.1| chromosomal replication initiation protein DnaA [Mycoplasma pneumoniae 
+309]
+Length=439
+
+ Score =  140 bits (352),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 65/100 (65%), Positives = 84/100 (84%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQF+AFK LLKK YE T+GF+DKYIK++ RF  KNNVL ++++NEFAR +LN N +I+ 
+Sbjct  1    MEQFSAFKLLLKKQYETTLGFYDKYIKNLKRFALKNNVLFVIVDNEFARETLNSNPDIVG  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LA  LY+ I++V FVNEQDFF NLAKLEE++R+TLYQ+SG
+Sbjct  61   LASKLYDDIRAVRFVNEQDFFINLAKLEEDNRETLYQSSG  100
+
+
+>ref|YP_007235809.1| oxidoreductase-aldo/keto reductase family protein [Brachyspira 
+pilosicoli P43/6/78]
+ ref|WP_015275009.1| oxidoreductase-aldo/keto reductase family protein [Brachyspira 
+pilosicoli]
+ gb|AGA67554.1| oxidoreductase-aldo/keto reductase family protein [Brachyspira 
+pilosicoli P43/6/78]
+Length=295
+
+ Score = 35.0 bits (79),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+             G   +E + A +  +K+   K+IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  136  PGNNDVEAYKAIEKAVKEGKIKSIGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQD  193
+
+Query  63   SEIIHLAESL  72
+            +E++   +SL
+Sbjct  194  TEVVEYIQSL  203
+
+
+>ref|YP_006704478.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli 
+WesB]
+ ref|WP_014933574.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli]
+ emb|CCG57390.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli 
+WesB]
+Length=295
+
+ Score = 35.0 bits (79),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+             G   +E + A +  +K+   K+IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  136  PGNNDVEAYKAIEKAVKEGKIKSIGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQD  193
+
+Query  63   SEIIHLAESL  72
+            +E++   +SL
+Sbjct  194  TEVVEYIQSL  203
+
+
+>ref|YP_003785120.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli 
+95/1000]
+ ref|WP_013243573.1| aldo/keto reductase [Brachyspira pilosicoli]
+ gb|ADK30619.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli 
+95/1000]
+Length=295
+
+ Score = 35.0 bits (79),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+             G   +E + A +  +K+   K+IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  136  PGNNDVEAYKAIEKAVKEGKIKSIGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQD  193
+
+Query  63   SEIIHLAESL  72
+            +E++   +SL
+Sbjct  194  TEVVEYIQSL  203
+
+
+>ref|YP_006706842.1| aldo/keto reductase family oxidoreductase [Brachyspira pilosicoli 
+B2904]
+ ref|WP_014935571.1| aldo/keto reductase [Brachyspira pilosicoli]
+ gb|AFR70094.1| oxidoreductase-aldo/keto reductase family [Brachyspira pilosicoli 
+B2904]
+Length=295
+
+ Score = 35.0 bits (79),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+             G   +E + A +  +K+   K+IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  136  PGNNDVEAYKAIEKAVKEGKIKSIGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQD  193
+
+Query  63   SEIIHLAESL  72
+            +E++   +SL
+Sbjct  194  TEVVEYIQSL  203
+
+
+>ref|YP_002720453.1| aldo/keto reductase family oxidoreductase [Brachyspira hyodysenteriae 
+WA1]
+ ref|WP_012669833.1| aldo/keto reductase [Brachyspira hyodysenteriae]
+ gb|ACN82780.1| oxidoreductase, aldo/keto reductase family protein [Brachyspira 
+hyodysenteriae WA1]
+Length=287
+
+ Score = 34.3 bits (77),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 39/69 (57%), Gaps = 2/69 (3%)
+
+Query  4    GGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNS  63
+            G   +E + A +  +K+   +++G  + YIK++  F+ K N++  L++NE   +    ++
+Sbjct  129  GNNDVEAYKAIEKAIKEGKIRSVGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQDT  186
+
+Query  64   EIIHLAESL  72
+            E+I   +SL
+Sbjct  187  EVIEYIQSL  195
+
+
+>ref|YP_003632745.1| aldo/keto reductase [Brachyspira murdochii DSM 12563]
+ ref|WP_013112973.1| aldo/keto reductase [Brachyspira murdochii]
+ gb|ADG70546.1| aldo/keto reductase [Brachyspira murdochii DSM 12563]
+Length=276
+
+ Score = 34.3 bits (77),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 18/70 (26%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+              G  +E + A +  +K+   ++IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  117  PSGNDVEAYKAMEKAVKEGKIRSIGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQD  174
+
+Query  63   SEIIHLAESL  72
+            +++I   +SL
+Sbjct  175  TDVIEYIQSL  184
+
+
+>ref|WP_020063461.1| aldo/keto reductase [Brachyspira hyodysenteriae]
+Length=299
+
+ Score = 34.3 bits (77),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 39/69 (57%), Gaps = 2/69 (3%)
+
+Query  4    GGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNS  63
+            G   +E + A +  +K+   +++G  + YIK++  F+ K N++  L++NE   +    ++
+Sbjct  141  GNNDVEAYKAIEKAIKEGKIRSVGLSNWYIKELKEFLPKINIMPALVQNEI--HPYYQDT  198
+
+Query  64   EIIHLAESL  72
+            E+I   +SL
+Sbjct  199  EVIEYIQSL  207
+
+
+>ref|WP_020005684.1| aldo/keto reductase [Brachyspira innocens]
+Length=306
+
+ Score = 33.9 bits (76),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  3    GGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN  62
+             G   +E + A +  +K+   ++IG  + YIK++  F+ K N++  L++NE   +    +
+Sbjct  147  PGQNDVEAYKAIEKAVKEGKIRSIGLSNWYIKELKEFLPKINIIPALVQNEI--HPYYQD  204
+
+Query  63   SEIIHLAESL  72
+            S++I   +SL
+Sbjct  205  SDVIEYIQSL  214
+
+
+>ref|WP_008273708.1| hypothetical protein [Cyanothece sp. CCY0110]
+ gb|EAZ93038.1| hypothetical protein CY0110_03179 [Cyanothece sp. CCY0110]
+Length=129
+
+ Score = 33.5 bits (75),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 21/71 (30%), Positives = 37/71 (52%), Gaps = 6/71 (8%)
+
+Query  9   EQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNV--LLILLENEFARNSLNDNSEII  66
+           + +NA KS +KK +    G     I  + +   K +     +LL+ E     +ND++EII
+Sbjct  22  DSYNALKSAIKKKF----GSESDLIDAVEKLEKKPDSEGRKVLLQEEIENAKVNDDAEII  77
+
+Query  67  HLAESLYEGIK  77
+            LA++L + +K
+Sbjct  78  QLAQNLLDKLK  88
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311116049280
+Results from round 2
+
+
+Query= 2JMPA
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2JMP|A  Chain A, Structure For The N-Terminus Of Chromosomal ...   169    8e-52
+ref|NP_110375.1|  chromosome replication initiator DnaA [Mycoplas...   169    4e-48
+ref|YP_005175937.1|  chromosomal replication initiation protein D...   169    4e-48
+ref|NP_073140.1|  chromosomal replication initiation protein [Myc...   167    1e-47
+ref|YP_006601515.1|  chromosomal replication initiation protein [...   167    2e-47
+
+Sequences not found previously or not previously below threshold:
+
+emb|CCO14416.1|  nicastrin-related [Bathycoccus prasinos]             36.1    1.7  
+ref|WP_006391425.1|  lysine decarboxylase [Achromobacter xylosoxi...  35.3    3.2  
+ref|WP_006221743.1|  lysine decarboxylase [Achromobacter piechaud...  35.3    3.4  
+ref|WP_006226191.1|  lysine decarboxylase [Achromobacter piechaud...  35.3    3.4  
+ref|XP_001318879.1|  hypothetical protein [Trichomonas vaginalis ...  34.1    8.4  
+ref|YP_008075970.1|  acetylornithine aminotransferase ArgD [Metha...  34.1    9.1  
+ref|WP_010764333.1|  RpiR family phosphosugar-binding transcripti...  33.8    9.1  
+ref|WP_002042449.1|  hypothetical protein [Bacillus cereus] >gb|E...  33.0    9.4  
+
+
+>pdb|2JMP|A Chain A, Structure For The N-Terminus Of Chromosomal Replication 
+Initiation Protein Dnaa From M. Genitalium
+Length=107
+
+ Score =  169 bits (428),  Expect = 8e-52, Method: Composition-based stats.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  1    MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN  60
+            MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN
+Sbjct  1    MGGGGGGMEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLN  60
+
+Query  61   DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   DNSEIIHLAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+
+
+>ref|NP_110375.1| chromosome replication initiator DnaA [Mycoplasma pneumoniae 
+M129]
+ ref|YP_007348242.1| Chromosomal replication initiator protein [Mycoplasma pneumoniae 
+M129-B7]
+ ref|WP_010875043.1| chromosomal replication initiation protein [Mycoplasma pneumoniae]
+ sp|Q59549.1|DNAA_MYCPN RecName: Full=Chromosomal replication initiator protein DnaA
+ gb|AAC43648.1| DnaA protein [Mycoplasma pneumoniae]
+ gb|AAB95804.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+M129]
+ gb|AGC04555.1| Chromosomal replication initiator protein [Mycoplasma pneumoniae 
+M129-B7]
+Length=439
+
+ Score =  169 bits (428),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 65/100 (65%), Positives = 84/100 (84%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQF+AFK LLKK YE T+GF+DKYIK++ RF  KNNVL ++++NEFAR +LN N +I+ 
+Sbjct  1    MEQFSAFKLLLKKQYETTLGFYDKYIKNLKRFALKNNVLFVIVDNEFARETLNSNPDIVG  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LA  LY+ I++V FVNEQDFF NLAKLEE++R+TLYQ+SG
+Sbjct  61   LASKLYDDIRAVRFVNEQDFFINLAKLEEDNRETLYQSSG  100
+
+
+>ref|YP_005175937.1| chromosomal replication initiation protein DnaA [Mycoplasma pneumoniae 
+309]
+ ref|YP_005881673.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+FH]
+ ref|WP_014325680.1| chromosomal replication initiation protein [Mycoplasma pneumoniae]
+ gb|ADK87119.1| chromosomal replication initiator protein DnaA [Mycoplasma pneumoniae 
+FH]
+ dbj|BAL22273.1| chromosomal replication initiation protein DnaA [Mycoplasma pneumoniae 
+309]
+Length=439
+
+ Score =  169 bits (428),  Expect = 4e-48, Method: Composition-based stats.
+ Identities = 65/100 (65%), Positives = 84/100 (84%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQF+AFK LLKK YE T+GF+DKYIK++ RF  KNNVL ++++NEFAR +LN N +I+ 
+Sbjct  1    MEQFSAFKLLLKKQYETTLGFYDKYIKNLKRFALKNNVLFVIVDNEFARETLNSNPDIVG  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LA  LY+ I++V FVNEQDFF NLAKLEE++R+TLYQ+SG
+Sbjct  61   LASKLYDDIRAVRFVNEQDFFINLAKLEEDNRETLYQSSG  100
+
+
+>ref|NP_073140.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+G37]
+ ref|YP_006600016.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2321]
+ ref|YP_006600500.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6282]
+ ref|YP_006601009.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6320]
+ ref|WP_010869493.1| chromosomal replication initiation protein [Mycoplasma genitalium]
+ sp|P35888.2|DNAA_MYCGE RecName: Full=Chromosomal replication initiator protein DnaA
+ gb|AAC72490.1| chromosomal replication initiator protein DnaA [Mycoplasma genitalium 
+G37]
+ gb|ABY79668.1| chromosomal replication initiator protein DnaA [synthetic Mycoplasma 
+genitalium JCVI-1.0]
+ gb|AFQ03308.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2321]
+ gb|AFQ03792.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6282]
+ gb|AFQ04301.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M6320]
+Length=437
+
+ Score =  167 bits (424),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH
+Sbjct  1    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  100
+
+
+>ref|YP_006601515.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2288]
+ ref|WP_014894707.1| chromosomal replication initiation protein [Mycoplasma genitalium]
+ gb|AFQ04807.1| chromosomal replication initiation protein [Mycoplasma genitalium 
+M2288]
+Length=437
+
+ Score =  167 bits (424),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  8    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  67
+            MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH
+Sbjct  1    MEQFNAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEIIH  60
+
+Query  68   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  107
+            LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG
+Sbjct  61   LAESLYEGIKSVNFVNEQDFFFNLAKLEENSRDTLYQNSG  100
+
+
+>emb|CCO14416.1| nicastrin-related [Bathycoccus prasinos]
+Length=703
+
+ Score = 36.1 bits (82),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 22/68 (32%), Positives = 38/68 (56%), Gaps = 6/68 (9%)
+
+Query  33   IKDINRFVFKNNVLLILLENEFARNSLNDNSEIIHLAESLYE---GIKSVNFVNEQDFFF  89
+            +KD  +F  K +VL  L++N+F + ++   SE   LAE L +   G++  +F  + D F 
+Sbjct  488  MKDKEQFAVKEDVLNKLVDNDFVQQTIATASE---LAECLVDPKVGLRKCSFSQKYDVFG  544
+
+Query  90   NLAKLEEN  97
+            + A  EE+
+Sbjct  545  SNAPSEED  552
+
+
+>ref|WP_006391425.1| lysine decarboxylase [Achromobacter xylosoxidans]
+ gb|EGP47448.1| Orn/Lys/Arg decarboxylase, C-terminal domain-containing protein 
+1 [Achromobacter xylosoxidans AXX-A]
+Length=753
+
+ Score = 35.3 bits (80),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 26/44 (59%), Gaps = 1/44 (2%)
+
+Query  43   NNVLLILLENEFARNSLNDNSEIIHLAESLYEG-IKSVNFVNEQ  85
+            +N+   +  N FAR ++N N  I+ L +S Y+G I +V  + EQ
+Sbjct  304  DNIRKKIEANPFAREAVNKNPRILTLTQSTYDGVIYNVEMIKEQ  347
+
+
+>ref|WP_006221743.1| lysine decarboxylase [Achromobacter piechaudii]
+ gb|EFF72972.1| Orn/Lys/Arg decarboxylase, major domain protein [Achromobacter 
+piechaudii ATCC 43553]
+Length=753
+
+ Score = 35.3 bits (80),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 26/44 (59%), Gaps = 1/44 (2%)
+
+Query  43   NNVLLILLENEFARNSLNDNSEIIHLAESLYEG-IKSVNFVNEQ  85
+            +N+   +  N FAR ++N N  I+ L +S Y+G I +V  + EQ
+Sbjct  304  DNIRKKIEANPFAREAVNKNPRILTLTQSTYDGVIYNVEMIKEQ  347
+
+
+>ref|WP_006226191.1| lysine decarboxylase [Achromobacter piechaudii]
+ gb|EJO29490.1| Orn/Lys/Arg decarboxylase, C-terminal domain-containing protein 
+1 [Achromobacter piechaudii HLE]
+Length=753
+
+ Score = 35.3 bits (80),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 26/44 (59%), Gaps = 1/44 (2%)
+
+Query  43   NNVLLILLENEFARNSLNDNSEIIHLAESLYEG-IKSVNFVNEQ  85
+            +N+   +  N FAR ++N N  I+ L +S Y+G I +V  + EQ
+Sbjct  304  DNIRKKIEANPFAREAVNKNPRILTLTQSTYDGVIYNVEMIKEQ  347
+
+
+>ref|XP_001318879.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAY06656.1| hypothetical protein TVAG_322760 [Trichomonas vaginalis G3]
+Length=4994
+
+ Score = 34.1 bits (77),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 29/103 (28%), Positives = 52/103 (50%), Gaps = 5/103 (5%)
+
+Query  8     MEQFNAFKSLLK--KHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDNSEI  65
+             +++F++  SL K  K Y        +++  +N+   K + L I+ E+E   N L ++   
+Sbjct  2125  LDEFSSLISLKKSFKEYSNKFEIPCEFMDMLNQLQIKFDELNIISEDEKKWNKLKEDYPD  2184
+
+Query  66    IHLAESLYEGIKSVNFVNEQDFFFNLAKLEEN---SRDTLYQN  105
+             +    +L EGI  V   N Q+   NLAK+E+    ++ +LY N
+Sbjct  2185  LGYLFTLTEGISWVPKSNIQNTIINLAKMEKPISYNKLSLYVN  2227
+
+
+>ref|YP_008075970.1| acetylornithine aminotransferase ArgD [Methanobrevibacter sp. 
+AbM4]
+ ref|WP_016359223.1| acetylornithine aminotransferase ArgD [Methanobrevibacter sp. 
+AbM4]
+ gb|AGN17526.1| acetylornithine aminotransferase ArgD [Methanobrevibacter sp. 
+AbM4]
+Length=390
+
+ Score = 34.1 bits (77),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 18/55 (33%), Positives = 30/55 (55%), Gaps = 9/55 (16%)
+
+Query  31   KYIKDINRFVFKNNVLLILLENE---------FARNSLNDNSEIIHLAESLYEGI  76
+            KY+KD+ +  + NN+LLI+ E +         FA  + +   +II LA+ L  G+
+Sbjct  198  KYMKDVEKLCYDNNILLIIDEVQTGIGRCGTLFAYENFDIKPDIISLAKGLGGGV  252
+
+
+>ref|WP_010764333.1| RpiR family phosphosugar-binding transcriptional regulator [Enterococcus 
+moraviensis]
+ gb|EOI02690.1| RpiR family phosphosugar-binding transcriptional regulator [Enterococcus 
+moraviensis ATCC BAA-383]
+ gb|EOT73933.1| RpiR family phosphosugar-binding transcriptional regulator [Enterococcus 
+moraviensis ATCC BAA-383]
+Length=247
+
+ Score = 33.8 bits (76),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 22/68 (32%), Positives = 31/68 (46%), Gaps = 2/68 (3%)
+
+Query  7    GMEQFNAFKSLLKKHYEKTIGFH--DKYIKDINRFVFKNNVLLILLENEFARNSLNDNSE  64
+            G E F +FK  LK     TI F   +K   +I R + KN   +I   N     S+ D  +
+Sbjct  50   GYEGFTSFKHYLKDQSNTTINFSGVEKIDAEIKRAILKNEQEVIRTINRLDSGSIEDAIQ  109
+
+Query  65   IIHLAESL  72
+             IH A+ +
+Sbjct  110  KIHAAQKI  117
+
+
+>ref|WP_002042449.1| hypothetical protein [Bacillus cereus]
+ gb|EEL36684.1| hypothetical protein bcere0019_10 [Bacillus cereus Rock3-28]
+Length=101
+
+ Score = 33.0 bits (74),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 26/78 (33%), Positives = 43/78 (55%), Gaps = 9/78 (12%)
+
+Query  12  NAFKSLLKKHYEKTIGFHDKYIKDINRFVFKNNVLLILLENEFARNSLNDN-SEIIHLAE  70
+           +A K L KK  + +   ++ ++K       K +VL I   NEFAR+ L  + SE+I  +E
+Sbjct  10  SALKELEKKVSKPS---YETWLKSTTAHNLKKDVLTITAPNEFARDWLESHYSELI--SE  64
+
+Query  71  SLYE--GIK-SVNFVNEQ  85
+           +LY+  G K ++ F+  Q
+Sbjct  65  TLYDLTGAKLAIRFIIPQ  82
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.146    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311116049280
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

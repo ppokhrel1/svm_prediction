@@ -1,0 +1,250 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5DOI
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|XP_001012582.1|  hypothetical protein TTHERM_00083360 [Tetrah...   265    3e-85
+gb|AAQ21363.1|  telomerase associated protein p45 [Tetrahymena th...   264    3e-85
+ref|YP_002430102.1|  DNA polymerase III subunit alpha [Desulfatib...  35.8    3.8  
+
+
+>ref|XP_001012582.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila]
+ gb|EAR92337.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila 
+SB210]
+Length=373
+
+ Score =  265 bits (676),  Expect = 3e-85, Method: Compositional matrix adjust.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  60
+            EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL
+Sbjct  2    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  61
+
+Query  61   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  120
+            FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK
+Sbjct  62   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  121
+
+Query  121  YKLSKTLN  128
+            YKLSKTLN
+Sbjct  122  YKLSKTLN  129
+
+
+>gb|AAQ21363.1| telomerase associated protein p45 [Tetrahymena thermophila]
+Length=373
+
+ Score =  264 bits (675),  Expect = 3e-85, Method: Compositional matrix adjust.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  60
+            EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL
+Sbjct  2    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  61
+
+Query  61   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  120
+            FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK
+Sbjct  62   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  121
+
+Query  121  YKLSKTLN  128
+            YKLSKTLN
+Sbjct  122  YKLSKTLN  129
+
+
+>ref|YP_002430102.1| DNA polymerase III subunit alpha [Desulfatibacillum alkenivorans 
+AK-01]
+ ref|WP_012610072.1| DNA polymerase III subunit alpha [Desulfatibacillum alkenivorans]
+ gb|ACL02634.1| DNA polymerase III, alpha subunit [Desulfatibacillum alkenivorans 
+AK-01]
+Length=1168
+
+ Score = 35.8 bits (81),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 49/110 (45%), Gaps = 11/110 (10%)
+
+Query  12    LPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAE--LFLDMYKFCQ  69
+             LP +PD S V   G+ILS  N  +     +K  P     ++D  G  E  +F + YK   
+Sbjct  975   LPEMPDKSAVRVGGMILSTKNLVT-----KKGDPMAFITLEDMKGSVEVVVFPECYKASS  1029
+
+Query  70    EEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQ  119
+               + V  A+   G L+K+  G     KI+ ++   I  AD E    + I+
+Sbjct  1030  HLLVVENALLVEGQLQKEEKGT----KILADKIVPIEDADSEWTASVHIR  1075
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307886480786
+Results from round 2
+
+
+Query= 5DOI
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_001012582.1|  hypothetical protein TTHERM_00083360 [Tetrah...   251    5e-80
+gb|AAQ21363.1|  telomerase associated protein p45 [Tetrahymena th...   251    5e-80
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_002430102.1|  DNA polymerase III subunit alpha [Desulfatib...  36.1    2.6  
+ref|NP_963580.1|  hypothetical protein NEQ293 [Nanoarchaeum equit...  35.8    3.8  
+ref|YP_005061710.1|  hypothetical protein [Sphaerochaeta pleomorp...  35.4    5.4  
+
+
+>ref|XP_001012582.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila]
+ gb|EAR92337.1| hypothetical protein TTHERM_00083360 [Tetrahymena thermophila 
+SB210]
+Length=373
+
+ Score =  251 bits (640),  Expect = 5e-80, Method: Composition-based stats.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  60
+            EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL
+Sbjct  2    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  61
+
+Query  61   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  120
+            FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK
+Sbjct  62   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  121
+
+Query  121  YKLSKTLN  128
+            YKLSKTLN
+Sbjct  122  YKLSKTLN  129
+
+
+>gb|AAQ21363.1| telomerase associated protein p45 [Tetrahymena thermophila]
+Length=373
+
+ Score =  251 bits (640),  Expect = 5e-80, Method: Composition-based stats.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  60
+            EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL
+Sbjct  2    EDNFELVFLKELPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAEL  61
+
+Query  61   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  120
+            FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK
+Sbjct  62   FLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEEMLQYLLIQK  121
+
+Query  121  YKLSKTLN  128
+            YKLSKTLN
+Sbjct  122  YKLSKTLN  129
+
+
+>ref|YP_002430102.1| DNA polymerase III subunit alpha [Desulfatibacillum alkenivorans 
+AK-01]
+ ref|WP_012610072.1| DNA polymerase III subunit alpha [Desulfatibacillum alkenivorans]
+ gb|ACL02634.1| DNA polymerase III, alpha subunit [Desulfatibacillum alkenivorans 
+AK-01]
+Length=1168
+
+ Score = 36.1 bits (82),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 31/102 (30%), Positives = 46/102 (45%), Gaps = 11/102 (11%)
+
+Query  12    LPSLPDFSKVCFTGLILSFSNFPSSEQNQQKDVPHKIAIIQDSTGEAE--LFLDMYKFCQ  69
+             LP +PD S V   G+ILS  N  +     +K  P     ++D  G  E  +F + YK   
+Sbjct  975   LPEMPDKSAVRVGGMILSTKNLVT-----KKGDPMAFITLEDMKGSVEVVVFPECYKASS  1029
+
+Query  70    EEISVFKAITGIGVLKKKNIGAGQVCKIIVERFRIIHSADEE  111
+               + V  A+   G L+K+  G     KI+ ++   I  AD E
+Sbjct  1030  HLLVVENALLVEGQLQKEEKGT----KILADKIVPIEDADSE  1067
+
+
+>ref|NP_963580.1| hypothetical protein NEQ293 [Nanoarchaeum equitans Kin4-M]
+ ref|WP_011153282.1| tRNA pseudouridine synthase D [Nanoarchaeum equitans]
+ sp|P60348.1|TRUD_NANEQ RecName: Full=Probable tRNA pseudouridine synthase D; AltName: 
+Full=tRNA pseudouridine(13) synthase; AltName: Full=tRNA pseudouridylate 
+synthase D; AltName: Full=tRNA-uridine isomerase 
+D
+ gb|AAR39141.1| NEQ293 [Nanoarchaeum equitans Kin4-M]
+Length=374
+
+ Score = 35.8 bits (81),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 28/94 (30%), Positives = 42/94 (45%), Gaps = 10/94 (11%)
+
+Query  42   KDVPHKIAIIQD---STGEAELFLDMYKFCQEEISVFKAITGIGVLKKKNIGAGQVCKII  98
+            K+ P    +I+    S  E   + D +KF   + +       I VLKKKN+   Q  KII
+Sbjct  4    KEKPEDFVVIEKTNFSIAEPSKYYDQFKFMGIKDNGIPGDYTIYVLKKKNLSTTQAIKII  63
+
+Query  99   VERFRIIH-------SADEEMLQYLLIQKYKLSK  125
+             ++FR+           D++ + Y LI  YK  K
+Sbjct  64   AKQFRLSKYRISFSGEKDKKAITYQLISIYKGPK  97
+
+
+>ref|YP_005061710.1| hypothetical protein [Sphaerochaeta pleomorpha str. Grapes]
+ ref|WP_014269549.1| hypothetical protein [Sphaerochaeta pleomorpha]
+ gb|AEV28700.1| hypothetical protein SpiGrapes_0874 [Sphaerochaeta pleomorpha 
+str. Grapes]
+Length=1151
+
+ Score = 35.4 bits (80),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 29/53 (55%), Gaps = 0/53 (0%)
+
+Query  36   SEQNQQKDVPHKIAIIQDSTGEAELFLDMYKFCQEEISVFKAITGIGVLKKKN  88
+            ++Q  QKD+  +IA +QD+     +      FC++E  + +  + IG L+ K+
+Sbjct  177  AQQESQKDIHERIAALQDAVDSTSILQKQKAFCEQERQLLQFRSNIGDLEAKS  229
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0454    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307886480786
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

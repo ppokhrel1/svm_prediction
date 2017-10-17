@@ -1,0 +1,4005 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3V68A
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_579779.1|  hypothetical protein PF2050 [Pyrococcus furiosu...   496    3e-176
+ref|YP_006353817.1|  hypothetical protein Py04_0137 [Pyrococcus s...   330    1e-110
+ref|NP_125764.1|  hypothetical protein PAB0036 [Pyrococcus abyssi...   316    4e-105
+ref|NP_142081.1|  hypothetical protein PH0063 [Pyrococcus horikos...   279    2e-90 
+ref|YP_004423520.1|  hypothetical protein PNA2_0600 [Pyrococcus s...   275    7e-89 
+ref|YP_183676.1|  hypothetical protein TK1263 [Thermococcus kodak...   246    2e-77 
+ref|YP_004071108.1|  hypothetical protein TERMP_00909 [Thermococc...   244    1e-76 
+ref|YP_004624432.1|  hypothetical protein PYCH_14920 [Pyrococcus ...   236    1e-73 
+ref|YP_002958835.1|  hypothetical protein TGAM_0469 [Thermococcus...   228    3e-70 
+ref|YP_002582892.1|  hypothetical protein [Thermococcus sp. AM4] ...   226    1e-69 
+ref|WP_010480142.1|  hypothetical protein [Thermococcus zilligii]      221    2e-67 
+ref|YP_002993505.1|  hypothetical protein TSIB_0088 [Thermococcus...   220    2e-67 
+ref|YP_002306912.1|  hypothetical protein TON_0528 [Thermococcus ...   216    6e-66 
+ref|YP_008428911.1|  hypothetical protein OCC_06796 [Thermococcus...   216    1e-65 
+ref|YP_004762080.1|  hypothetical protein GQS_02510 [Thermococcus...   214    4e-65 
+ref|YP_006424161.1|  hypothetical protein CL1_0152 [Thermococcus ...   211    5e-64 
+ref|NP_247578.1|  hypothetical protein MJ_0596 [Methanocaldococcu...  70.9    3e-12 
+ref|YP_003128690.1|  hypothetical protein Mefer_1383 [Methanocald...  68.6    2e-11 
+ref|YP_003458986.1|  hypothetical protein MFS40622_1578 [Methanoc...  68.2    2e-11 
+ref|WP_018153767.1|  hypothetical protein [Methanothermococcus th...  66.6    1e-10 
+ref|YP_001323586.1|  hypothetical protein Mevan_1074 [Methanococc...  66.2    1e-10 
+ref|WP_004589982.1|  hypothetical protein [Methanocaldococcus vil...  64.3    6e-10 
+ref|WP_007044473.1|  hypothetical protein [Methanotorris formicic...  64.3    7e-10 
+ref|YP_004484894.1|  hypothetical protein [Methanotorris igneus K...  63.9    8e-10 
+ref|YP_003247923.1|  hypothetical protein Metvu_1588 [Methanocald...  62.8    2e-09 
+ref|YP_003616893.1|  hypothetical protein Metin_1279 [methanocald...  61.2    9e-09 
+ref|YP_001098129.1|  hypothetical protein MmarC5_1618 [Methanococ...  60.8    1e-08 
+ref|YP_001330273.1|  hypothetical protein MmarC7_1056 [Methanococ...  59.3    5e-08 
+ref|NP_987179.1|  hypothetical protein MMP0059 [Methanococcus mar...  58.2    1e-07 
+ref|YP_001548938.1|  hypothetical protein MmarC6_0891 [Methanococ...  57.8    1e-07 
+ref|YP_004576971.1|  hypothetical protein Metok_1225 [Methanother...  53.1    7e-06 
+ref|YP_003708002.1|  hypothetical protein Mvol_1373 [Methanococcu...  51.6    2e-05 
+ref|YP_001324638.1|  hypothetical protein Maeo_0440 [Methanococcu...  48.5    3e-04 
+ref|YP_007942619.1|  nitrogenase molybdenum-iron protein, alpha a...  42.7    0.12  
+ref|YP_006417355.1|  pyridoxine 5'-phosphate synthase [Aequorivit...  38.9    1.4   
+gb|EGV62391.1|  hypothetical protein CANTEDRAFT_126271 [Candida t...  38.9    2.1   
+ref|WP_022027043.1|  ribonuclease R [Dialister invisus CAG:218] >...  38.9    2.4   
+ref|YP_003703105.1|  hypothetical protein Slip_1785 [Syntrophothe...  36.6    5.3   
+gb|ETF03748.1|  LysR family transcriptional regulator [Advenella ...  36.6    9.5   
+
+
+>ref|NP_579779.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ ref|YP_006492883.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+ ref|WP_011013196.1| hypothetical protein [Pyrococcus furiosus]
+ pdb|3V68|A Chain A, Crystal Structure Of Pyrococcus Furiosus Pf2050, A Member 
+Of Duf2666 Family Protein
+ gb|AAL82174.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ gb|AFN04591.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+Length=252
+
+ Score =  496 bits (1278),  Expect = 3e-176, Method: Compositional matrix adjust.
+ Identities = 252/252 (100%), Positives = 252/252 (100%), Gaps = 0/252 (0%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI
+Sbjct  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG
+Sbjct  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD
+Sbjct  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+            FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP
+Sbjct  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+
+Query  241  SKNLEKYLEKAG  252
+            SKNLEKYLEKAG
+Sbjct  241  SKNLEKYLEKAG  252
+
+
+>ref|YP_006353817.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+ ref|WP_014733268.1| hypothetical protein [Pyrococcus sp. ST04]
+ gb|AFK21742.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+Length=251
+
+ Score =  330 bits (846),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 169/249 (68%), Positives = 205/249 (82%), Gaps = 1/249 (0%)
+
+Query  5    ILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIEG  64
+            +LEFT KH +W VG+ V++FTNENIA FL++VSNTV  K P YL EKID++GLL++K EG
+Sbjct  3    VLEFTVKHRDWNVGDEVKEFTNENIASFLAKVSNTVLDKFPQYLTEKIDIDGLLTLKPEG  62
+
+Query  65   SLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIE  124
+            ++EE+LK L SP  SR+IG  V+EDDKKLKKLLV+VAKAVL RE LK+ LPIEF  GKIE
+Sbjct  63   TVEERLKLLKSPGTSRKIGSYVIEDDKKLKKLLVDVAKAVLVRESLKDVLPIEFALGKIE  122
+
+Query  125  GLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADV  184
+             +KI+PRYEEDHINFTA+YG WIVVKR+IIDEKTPLLDIARLLASINETA+NKI +FA +
+Sbjct  123  EMKIRPRYEEDHINFTAKYGRWIVVKRLIIDEKTPLLDIARLLASINETAINKIPEFAGI  182
+
+Query  185  DDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDVPSKN  243
+            + K I E+F  FK+V+K+E+IK +V+ F EF+  N FE RYA   MLSKL L +D P+KN
+Sbjct  183  EIKDIKEHFKEFKRVRKDEDIKRLVEKFNEFQPKNSFESRYAVSIMLSKLNLTIDPPAKN  242
+
+Query  244  LEKYLEKAG  252
+            LEKYLEKAG
+Sbjct  243  LEKYLEKAG  251
+
+
+>ref|NP_125764.1| hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ ref|WP_010867196.1| hypothetical protein [Pyrococcus abyssi]
+ emb|CAB48995.1| Hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ tpe|CCE69444.1| TPA: hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+Length=253
+
+ Score =  316 bits (810),  Expect = 4e-105, Method: Compositional matrix adjust.
+ Identities = 161/253 (64%), Positives = 205/253 (81%), Gaps = 2/253 (1%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL-SI  60
+            ++ I EFT K ++ IVGE +++  +EN++ FL+RVSNTV  +IP YL EKIDV+G++  I
+Sbjct  1    MQDIAEFTLKIKDMIVGEALDEINDENMSRFLARVSNTVRQEIPKYLIEKIDVDGMIKGI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KI+G+LEEKLKAL SP  SR+IG  + EDDKKL+KLL +VAK VL    L+++LP++FP 
+Sbjct  61   KIQGTLEEKLKALKSPGTSRKIGNYIKEDDKKLRKLLQDVAKVVLVWNTLRDDLPLDFPV  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            G+IE L  QPRYEE+HINFT +YG WIVVKR+IIDEKTP+LDIARLLASINE+AV KI +
+Sbjct  121  GRIESLSTQPRYEEEHINFTVKYGKWIVVKRLIIDEKTPMLDIARLLASINESAVGKIPE  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDV  239
+            FA +D K+I +YFGGFK+V+K+EEI+E+V+ FR FK  NE  +RYA  EMLSKLGL +DV
+Sbjct  181  FAGIDMKEIKDYFGGFKRVRKDEEIEELVRAFRNFKPENELAIRYAVGEMLSKLGLSIDV  240
+
+Query  240  PSKNLEKYLEKAG  252
+            PSKNLEKYLEK G
+Sbjct  241  PSKNLEKYLEKTG  253
+
+
+>ref|NP_142081.1| hypothetical protein PH0063 [Pyrococcus horikoshii OT3]
+ ref|WP_010884180.1| hypothetical protein [Pyrococcus horikoshii]
+ dbj|BAA29132.1| 254aa long hypothetical protein [Pyrococcus horikoshii OT3]
+Length=254
+
+ Score =  279 bits (714),  Expect = 2e-90, Method: Compositional matrix adjust.
+ Identities = 160/254 (63%), Positives = 195/254 (77%), Gaps = 2/254 (1%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-  59
+            M   I+EFT K     VGE  ++   + IA+FL+RVSNTV  +IP YL E+IDV+ +L  
+Sbjct  1    MTGDIVEFTLKLGGLEVGEAPKELREDQIAIFLARVSNTVRHEIPKYLQERIDVDRMLKE  60
+
+Query  60   IKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+            + I G+LEEKLK L SP  SR+I   ++EDD+KLKKLL++VAK +L    LK++LPI+FP
+Sbjct  61   LTINGALEEKLKKLKSPGTSRKINSYILEDDRKLKKLLLDVAKVILVWNTLKDDLPIDFP  120
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             GKI  LKI PRY+EDHINFTA+YG WIVVKR+IIDEKTP LDIARLLASINETAVNKI 
+Sbjct  121  VGKISELKITPRYKEDHINFTAKYGRWIVVKRLIIDEKTPKLDIARLLASINETAVNKIP  180
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFK-GNEFEVRYAAREMLSKLGLKVD  238
+            +FA +D  +I E+F  FKKVKKEEEIK +++ FR FK  NE EVRYA  EM+SKLGL +D
+Sbjct  181  EFAGIDIGRIREHFRDFKKVKKEEEIKRLMEKFRSFKPTNELEVRYAISEMISKLGLSID  240
+
+Query  239  VPSKNLEKYLEKAG  252
+            +PSKNLEKYLEK G
+Sbjct  241  IPSKNLEKYLEKTG  254
+
+
+>ref|YP_004423520.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+ ref|WP_013748070.1| hypothetical protein [Pyrococcus sp. NA2]
+ gb|AEC51516.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+Length=255
+
+ Score =  275 bits (703),  Expect = 7e-89, Method: Compositional matrix adjust.
+ Identities = 154/250 (62%), Positives = 200/250 (80%), Gaps = 2/250 (1%)
+
+Query  5    ILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-IKIE  63
+            I EFT K     +GE   +  +  +++FL+RVSNTV + IP YL E+IDV+ +LS IK+E
+Sbjct  6    IAEFTVKLGNMEIGEAPRELNDYELSIFLARVSNTVRALIPDYLQERIDVSRMLSEIKVE  65
+
+Query  64   GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKI  123
+            GS+EEKLK L SP  SR+I   VME+DKKLKKLL++VAK V+   +LK+ELP++FP GKI
+Sbjct  66   GSIEEKLKFLRSPGTSRKINTYVMEEDKKLKKLLLDVAKVVVVWNVLKDELPLDFPVGKI  125
+
+Query  124  EGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD  183
+            E LKI+PRYEE+HINFT ++G WIVVKR+I+DEKTP+LDIARLLASINET VNKI +FA 
+Sbjct  126  EELKIKPRYEEEHINFTVKFGKWIVVKRLIVDEKTPMLDIARLLASINETTVNKIPEFAR  185
+
+Query  184  VDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDVPSK  242
+            +D K+I E+F  FKKV+KEE+IK++V+ FR+F+  NE E+RYA +EMLSKL L +D+P+K
+Sbjct  186  IDVKRIEEHFKEFKKVRKEEDIKKLVEKFRKFEPKNELEIRYAVKEMLSKLNLSIDIPAK  245
+
+Query  243  NLEKYLEKAG  252
+            NLEKYLE+ G
+Sbjct  246  NLEKYLERTG  255
+
+
+>ref|YP_183676.1| hypothetical protein TK1263 [Thermococcus kodakarensis KOD1]
+ ref|WP_011250214.1| hypothetical protein [Thermococcus kodakarensis]
+ dbj|BAD85452.1| hypothetical protein, conserved [Thermococcus kodakarensis KOD1]
+Length=262
+
+ Score =  246 bits (627),  Expect = 2e-77, Method: Compositional matrix adjust.
+ Identities = 131/261 (50%), Positives = 185/261 (71%), Gaps = 12/261 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH +W V + + +  +EN+A FL+ ++N+V+S+IPGY+GEKID++G+  + 
+Sbjct  3    IEEHVAFTAKHNDWRVAKKLTELEDENVAHFLAGIANSVNSRIPGYMGEKIDIDGIRKLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E    +L + + AL SP  SR++G LV E+DKKLKKLLV+ AKAVL R  L+  +PI +
+Sbjct  63   EEVRKDTLSDTIVALKSPGTSRKLGGLVRENDKKLKKLLVDAAKAVLVRMTLEGVVPINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G++ G++++  YEEDH+NFTA++G WIVVKR+IIDEKTPLLD+ARLLASINET   K+
+Sbjct  123  PEGELTGVEVEFPYEEDHVNFTAKHGKWIVVKRLIIDEKTPLLDVARLLASINETVTLKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF-------EVR-YAAREML  230
+              +A +D + I   F  FKKVKK  +I ++V+ +  F+ + +         R YA R  L
+Sbjct  183  PAYAHIDVEGIEGEFSAFKKVKK-SDIPKVVEAYEAFEPSAYADEPFLEHARVYALRVAL  241
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +DVPSK+LEKYLEKA
+Sbjct  242  EKIGLPLDVPSKSLEKYLEKA  262
+
+
+>ref|YP_004071108.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+ ref|WP_013467183.1| hypothetical protein [Thermococcus barophilus]
+ gb|ADT83885.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+Length=264
+
+ Score =  244 bits (623),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 139/262 (53%), Positives = 178/262 (68%), Gaps = 11/262 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH+ W VG+ +    +ENIA FL+ +SNTV+ KI  YL + IDV  ++S+ 
+Sbjct  3    IEEHVMFTAKHKNWKVGDKLLVMRDENIAHFLASISNTVNMKISEYLIDVIDVAAVMSLA  62
+
+Query  62   ---IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+                EG L E +K L SPK SR+IG++V E DKKLKK LV+VAKA+L RE L   L + +
+Sbjct  63   EDLAEGELWEVVKVLKSPKTSRKIGKMVFESDKKLKKQLVDVAKALLVRETLSRMLSVYY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  LKI   Y+EDHINFTA++GSWIVVKR+IIDEKT L D+ARLLASINET  +K+
+Sbjct  123  PEDPIMELKIMLPYKEDHINFTAKHGSWIVVKRLIIDEKTELADVARLLASINETITSKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN-----EFEVR---YAAREML  230
+              +A++D K I E+F G KK K + EIK +V  +  F  +     EFE     YA R+ML
+Sbjct  183  PIYAEIDLKGIDEWFAGVKKAKSDVEIKTLVDKYLHFPAHRYAPSEFEKHARIYALRKML  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKAG  252
+             K+GL +DVP+K LEKYLEK G
+Sbjct  243  EKVGLSLDVPAKPLEKYLEKKG  264
+
+
+>ref|YP_004624432.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+ ref|WP_013906216.1| hypothetical protein [Pyrococcus yayanosii]
+ gb|AEH25160.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+Length=261
+
+ Score =  236 bits (602),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 132/255 (52%), Positives = 179/255 (70%), Gaps = 8/255 (3%)
+
+Query  6    LEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIEGS  65
+            +EFTA+H  W+VGE +E+   E IA FL+R+SNTV++K+P YL   IDV G+ ++  EG 
+Sbjct  7    IEFTARHGPWLVGERLEEMEEEKIAKFLARISNTVNNKLPDYLTVVIDVEGVRALLGEGE  66
+
+Query  66   LEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEG  125
+            L E LK L SP  SR++  L+ E+DKKL+K+L +VAKA+L R  L N  P+++P   I  
+Sbjct  67   LWEVLKHLRSPGTSRKLNALIREEDKKLRKILGDVAKALLVRLSLANLAPVDYPVEPISE  126
+
+Query  126  LKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVD  185
+            ++++  YEE+H+NFTA++  WIVVKR++IDEKT  LD+ARLLASINETAV+KI  +A +D
+Sbjct  127  VRVKLPYEEEHVNFTAKHDRWIVVKRLMIDEKTSQLDVARLLASINETAVSKIPVYARID  186
+
+Query  186  DKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR----YAARE----MLSKLGLKV  237
+             K I  YF  FKKV+KEE+IK + +    F   EF  +    +AAR      LSKLGL +
+Sbjct  187  VKGIKNYFSTFKKVRKEEDIKALAESLEAFPAEEFAPKEFKGFAARHALGVALSKLGLPL  246
+
+Query  238  DVPSKNLEKYLEKAG  252
+            DVP+K LEKYLEK+G
+Sbjct  247  DVPAKVLEKYLEKSG  261
+
+
+ Score = 38.9 bits (89),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 22/58 (38%), Positives = 34/58 (59%), Gaps = 5/58 (9%)
+
+Query  3    ERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            E  + FTAKH+ WIV + +   E  +  ++A  L+ ++ T  SKIP Y   +IDV G+
+Sbjct  135  EEHVNFTAKHDRWIVVKRLMIDEKTSQLDVARLLASINETAVSKIPVY--ARIDVKGI  190
+
+
+ Score = 38.5 bits (88),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 31/50 (62%), Gaps = 3/50 (6%)
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADV  184
+            DHI FTAR+G W+V +R+   E+     IA+ LA I+ T  NK+ D+  V
+Sbjct  5    DHIEFTARHGPWLVGERLEEMEEE---KIAKFLARISNTVNNKLPDYLTV  51
+
+
+>ref|YP_002958835.1| hypothetical protein TGAM_0469 [Thermococcus gammatolerans EJ3]
+ ref|WP_015858089.1| hypothetical protein [Thermococcus gammatolerans]
+ gb|ACS32971.1| Conserved hypothetical protein [Thermococcus gammatolerans EJ3]
+Length=263
+
+ Score =  228 bits (580),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 124/258 (48%), Positives = 179/258 (69%), Gaps = 10/258 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E IA FL+RV NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADKLIDVEDEKIARFLARVGNTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   --IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+              I+G L + + +L SP +SR++G LV E+DKKLKKLLV+ A+A+L R  L   +P+++P
+Sbjct  65   EGIDGDLTKVIVSLKSPGISRKLGALVFEEDKKLKKLLVDAARALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G ++ +++   + +DH+NFTA++GSWIVVKR+IID+ TP +D+ARLLASINET   K+ 
+Sbjct  125  DGLLKEVRVVFPFPDDHVNFTAKHGSWIVVKRLIIDDSTPKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF------EVR-YAAREMLSK  232
+             +A +D   I E+FG  KKVKK  EI  IV+ +  F+ +EF        R YA R  L +
+Sbjct  185  AYAGIDVNGIEEWFGPRKKVKK-SEIPSIVERYLNFQPSEFAPGFEEHARVYALRIALER  243
+
+Query  233  LGLKVDVPSKNLEKYLEK  250
+            +GL +DVP+K+LEKYLEK
+Sbjct  244  IGLSLDVPAKSLEKYLEK  261
+
+
+ Score = 42.4 bits (98),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 33/55 (60%), Gaps = 7/55 (13%)
+
+Query  129  QPRYEEDHINFTARYGSWIVVKRMII--DEKTPLLDIARLLASINETAVNKIKDF  181
+             PR  EDH+ FTA++G+W V  ++I   DEK     IAR LA +  T  +KI ++
+Sbjct  1    MPRSVEDHVMFTAKHGNWKVADKLIDVEDEK-----IARFLARVGNTVNSKIPEY  50
+
+
+>ref|YP_002582892.1| hypothetical protein [Thermococcus sp. AM4]
+ ref|WP_014123194.1| hypothetical protein [Thermococcus sp. AM4]
+ gb|EEB74642.1| hypothetical protein TAM4_587 [Thermococcus sp. AM4]
+Length=263
+
+ Score =  226 bits (575),  Expect = 1e-69, Method: Compositional matrix adjust.
+ Identities = 123/258 (48%), Positives = 177/258 (69%), Gaps = 10/258 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E +A FL+RV+NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADRLMDMEDEGVARFLARVANTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   --IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+               +G L + + +L SP  SR++G LV E+DKKLKKLLV+ AKA+L R  L   +P+++P
+Sbjct  65   EGFDGDLTKVIVSLKSPGTSRKLGALVFEEDKKLKKLLVDAAKALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G +E +++   + EDH+NFTA++G WIVVKR+IID+ T  +D+ARLLASINET   K+ 
+Sbjct  125  DGLLEEVRVMFPFPEDHVNFTAKHGRWIVVKRLIIDDSTQKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF------EVR-YAAREMLSK  232
+             +A +D K I E+FG  KKVKK  EI  +V+ +  F+ +EF        R YA R+ L  
+Sbjct  185  AYAGIDVKGIEEWFGPRKKVKK-SEIPSVVERYLNFQPSEFAPGFEEHARVYALRKALEL  243
+
+Query  233  LGLKVDVPSKNLEKYLEK  250
+            +GL +DVP+K+LEKYLEK
+Sbjct  244  IGLSLDVPAKSLEKYLEK  261
+
+
+ Score = 41.2 bits (95),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 31/52 (60%), Gaps = 3/52 (6%)
+
+Query  130  PRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDF  181
+            PR  EDH+ FTA++G+W V  R++  E      +AR LA +  T  +KI ++
+Sbjct  2    PRAVEDHVMFTAKHGNWKVADRLMDMEDE---GVARFLARVANTVNSKIPEY  50
+
+
+>ref|WP_010480142.1| hypothetical protein [Thermococcus zilligii]
+Length=265
+
+ Score =  221 bits (562),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 121/261 (46%), Positives = 174/261 (67%), Gaps = 13/261 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNE-NIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            +E  + FTAKH  W V + + D  +   IA FL+ VSNTV+SKIP YL   ++V G++S+
+Sbjct  5    VEDHVMFTAKHGSWKVADKLLDVDDRARIAHFLAMVSNTVNSKIPEYLTGVMNVAGIMSL  64
+
+Query  61   KIE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIE  117
+              E   G L + + +L SP  S+++G LV EDDK LKKLLV+VA+AVL R  L   +P+ 
+Sbjct  65   AEELARGDLTKVVSSLKSPGTSKKLGDLVFEDDKTLKKLLVDVARAVLVRMTLSRFVPVS  124
+
+Query  118  FPGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNK  177
+            +P G++  +++   + +DH+NFTA++G WIVVKR+IID+ TP++D+ARLLASINET   K
+Sbjct  125  YPEGELAEVRVVFPFPDDHVNFTAKHGEWIVVKRLIIDDATPMVDVARLLASINETTTLK  184
+
+Query  178  IKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YAAREM  229
+            I  +AD+D + I E+FGG KKVKK  EI  +++ +  F+ + F           YA R+ 
+Sbjct  185  IPVYADIDLEGIEEWFGGLKKVKK-SEIPTVIEKYLHFQPSSFAPAEFEGHARVYALRKA  243
+
+Query  230  LSKLGLKVDVPSKNLEKYLEK  250
+            L  + L +DVP+K+LEKYLEK
+Sbjct  244  LEVIDLPLDVPAKSLEKYLEK  264
+
+
+ Score = 38.9 bits (89),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 33/52 (63%), Gaps = 4/52 (8%)
+
+Query  131  RYEEDHINFTARYGSWIVVKRMI-IDEKTPLLDIARLLASINETAVNKIKDF  181
+            R  EDH+ FTA++GSW V  +++ +D++     IA  LA ++ T  +KI ++
+Sbjct  3    RSVEDHVMFTAKHGSWKVADKLLDVDDRA---RIAHFLAMVSNTVNSKIPEY  51
+
+
+>ref|YP_002993505.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+ ref|WP_012766117.1| hypothetical protein [Thermococcus sibiricus]
+ gb|ACS89156.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+Length=263
+
+ Score =  220 bits (560),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 124/260 (48%), Positives = 169/260 (65%), Gaps = 11/260 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +    +  IA FL+ VSNTV+ K+P YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMDDRQIAHFLAMVSNTVTLKLPEYLTEVMNVAGIMSLA  62
+
+Query  62   ---IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+                E  + E LK L SP  SR++  ++ E++KKLK  L+ VAKA+LTRE L  ++ I +
+Sbjct  63   EEMTEKDVWELLKTLKSPGTSRKLNPMIFEENKKLKNHLLNVAKALLTREALSKKVSINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G I  LK    Y ++HINFTA+ GSWIVVKR+IID KTP+ DIAR+LASINETAV+KI
+Sbjct  123  PEGVITELKTTLIYHDEHINFTAKNGSWIVVKRLIIDNKTPMADIARILASINETAVSKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEFEVR---YAAREML  230
+              +  +D   I ++FG  KK + E EIK +V+ F       +  NEF+     YA R  L
+Sbjct  183  PLYGKIDLDGIRKWFGDIKKARSEAEIKTLVEKFFHIPVENYAPNEFKDHAKIYALRVAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEK  250
+             K+GL +D+P+K LEKYLEK
+Sbjct  243  EKVGLTIDIPAKPLEKYLEK  262
+
+
+>ref|YP_002306912.1| hypothetical protein TON_0528 [Thermococcus onnurineus NA1]
+ ref|WP_012571487.1| hypothetical protein [Thermococcus onnurineus]
+ gb|ACJ16015.1| hypothetical protein, conserved [Thermococcus onnurineus NA1]
+Length=267
+
+ Score =  216 bits (551),  Expect = 6e-66, Method: Compositional matrix adjust.
+ Identities = 119/259 (46%), Positives = 171/259 (66%), Gaps = 17/259 (7%)
+
+Query  8    FTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIE---G  64
+            FTA+H  W VG+ + +  +E +A FL+ ++NTV+ KIP YL E +++ G++S+  E    
+Sbjct  9    FTARHGSWKVGDRLRNMEDEMVAHFLASIANTVNPKIPEYLTEVMNIAGIMSLAEEIARK  68
+
+Query  65   SLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIE  124
+             L + + AL SP  +R++G LV E+DKKLKK LVEVAKA+L RE+L+ ++ +++P   + 
+Sbjct  69   DLSDAVVALKSPGTARKLGALVFEEDKKLKKHLVEVAKAILVREVLEKKVTVDYPEEPLR  128
+
+Query  125  GLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             +KI   Y EDH+NFT     A +G W VVKR+IIDEKTP+ D+ARLLASINET   K+ 
+Sbjct  129  EVKIALPYNEDHVNFTAFHLSAEHGKWRVVKRLIIDEKTPMADVARLLASINETITLKLP  188
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YAAREMLS  231
+             +A +D K I  +F  FKKVKK  +I  +V+ ++ F+   +           YA R+ L 
+Sbjct  189  VYAGIDVKGIDAWFAEFKKVKK-ADIPAVVEKYKHFQAENYAREGFEEHAKVYALRKALE  247
+
+Query  232  KLGLKVDVPSKNLEKYLEK  250
+            K+GL +DVP+KNLEKYLEK
+Sbjct  248  KIGLPLDVPAKNLEKYLEK  266
+
+
+>ref|YP_008428911.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+ ref|WP_004067673.1| hypothetical protein [Thermococcus litoralis]
+ gb|EHR78974.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+Length=263
+
+ Score =  216 bits (549),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 125/261 (48%), Positives = 170/261 (65%), Gaps = 11/261 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +       IA FL+ VSNTV+ KIP YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMEKHEIAHFLASVSNTVTLKIPKYLTEVMNVAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L E LK L SP  SR++  ++ E+DKKLKKLL++VAKA+LTRE L  +  + +
+Sbjct  63   EEIGKKELWEALKTLKSPGTSRKLNPMIFEEDKKLKKLLLDVAKALLTREALSKKFSVSY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  L+    Y ++H+NFTA++GSWIVVKR+IID+KTP+ D+AR+LASINET V KI
+Sbjct  123  PEDPITDLRTTLIYHDEHVNFTAKHGSWIVVKRLIIDDKTPMADVARILASINETTVAKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEFEVR---YAAREML  230
+              +A++D K I ++FG  KK K E EIK +V          +   EF      YA R  L
+Sbjct  183  PVYAEIDLKGIEQWFGDIKKAKSEREIKTLVDKLLHIPIEHYAPKEFAEHAKIYALRTAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +D+PSK+LEKYLEK+
+Sbjct  243  QKMGLSIDIPSKSLEKYLEKS  263
+
+
+>ref|YP_004762080.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+ ref|WP_014012088.1| hypothetical protein [Thermococcus sp. 4557]
+ gb|AEK72403.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+Length=267
+
+ Score =  214 bits (546),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 115/265 (43%), Positives = 173/265 (65%), Gaps = 17/265 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA H  W V + + D  +E +A F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTAHHGNWKVADRLLDMNDEKVAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   ---IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+                + +L + + AL SP  +R++G+LV EDDKKL+K LV+VAKA+L RE+L  ++P+++
+Sbjct  63   EELAQKNLSDAVVALKSPGTARKLGQLVFEDDKKLRKHLVDVAKALLVREVLSKKVPVDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P  ++  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEQLSEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YA  225
+               K+  +A +D   I  +FG FKKVKK  EI  +V+ +  F    +  R        YA
+Sbjct  183  ITLKLPVYAGIDVDGIDAWFGEFKKVKK-AEIPAVVEKYMHFPAENYAPRPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEK  250
+             R+ L K+GL +DVP+K+LEKYLEK
+Sbjct  242  LRKALEKIGLPLDVPAKSLEKYLEK  266
+
+
+>ref|YP_006424161.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+ ref|WP_014788008.1| hypothetical protein [Thermococcus sp. CL1]
+ gb|AFL94367.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+Length=267
+
+ Score =  211 bits (538),  Expect = 5e-64, Method: Compositional matrix adjust.
+ Identities = 115/265 (43%), Positives = 172/265 (65%), Gaps = 17/265 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA+H  W V + + D  +E IA F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTARHGSWKVADRLIDMEDEKIAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L + + AL SP  +R++G+LV E+DKKLKKLLV+VA+A+L R +L  ++PI++
+Sbjct  63   EEMGRKDLSDAIVALKSPGTARKLGQLVFEEDKKLKKLLVDVARALLVRGVLSGKVPIDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P   +  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEPLTEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YA  225
+               K+  +A +D   I  +FG FKKV+K  +I  +V+ +R F    +           YA
+Sbjct  183  ITAKLPVYAGIDVDGIDSWFGEFKKVRK-SDIPAVVEKYRHFPAENYASEPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEK  250
+             R+ L K+GL +DVP+K+LEKYLEK
+Sbjct  242  LRKALEKIGLSLDVPAKSLEKYLEK  266
+
+
+>ref|NP_247578.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+ ref|WP_010870100.1| hypothetical protein [Methanocaldococcus jannaschii]
+ sp|Q58013.1|Y596_METJA RecName: Full=Uncharacterized protein MJ0596
+ gb|AAB98596.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+Length=141
+
+ Score = 70.9 bits (172),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 50/135 (37%), Positives = 74/135 (55%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGFKKVKK----EEEIKEIVQLFRE----FKGNEFEVRYAAREMLS---------KLGLK  236
+             G  + KK    EEEI E+++  +      K NE       +E+L          +LG++
+Sbjct  62   DGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEKA  251
+              V  K +EKY+E +
+Sbjct  122  TRVSPKVIEKYIENS  136
+
+
+ Score = 44.7 bits (104),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 40/122 (33%), Positives = 55/122 (45%), Gaps = 28/122 (23%)
+
+Query  6    LEFTAKHEEWIV------GENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS  59
+            +EF AKH++W V       EN ED     IA  L+ +  TV +KIP YL    D+N L  
+Sbjct  5    IEFMAKHKKWFVVKKLKIDENTEDI---EIARLLASIDETVLNKIPEYLP--FDMNKLYE  59
+
+Query  60   IK-----------IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+            I             E  + E LK L SP  +R++  +    + K      E+ KA+L   
+Sbjct  60   IADGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNI  113
+
+Query  109  IL  110
+            IL
+Sbjct  114  IL  115
+
+
+>ref|YP_003128690.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+ ref|WP_015791923.1| hypothetical protein [Methanocaldococcus fervens]
+ gb|ACV25190.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+Length=141
+
+ Score = 68.6 bits (166),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 73/134 (54%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKITEYLPFDMNKLYEIA  61
+
+Query  194  GGFKKVKK----EEEIKEIVQLFRE----FKGNEFEVRYAARE---------MLSKLGLK  236
+                + KK    EEEI E+++  +      K NE       +E         +L +LG++
+Sbjct  62   DNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKVILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKIIEKYIEK  135
+
+
+ Score = 39.7 bits (91),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 32/98 (33%), Positives = 44/98 (45%), Gaps = 22/98 (22%)
+
+Query  6   LEFTAKHEEWIV------GENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS  59
+           +EF AKH++W V       EN ED     IA  L+ +  TV +KI  YL    D+N L  
+Sbjct  5   IEFMAKHKKWFVVKKLKIDENTEDI---EIARLLASIDETVLNKITEYLP--FDMNKLYE  59
+
+Query  60  IK-----------IEGSLEEKLKALISPKVSRQIGRLV  86
+           I             E  + E LK L SP  +R++  + 
+Sbjct  60  IADNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEIT  97
+
+
+>ref|YP_003458986.1| hypothetical protein MFS40622_1578 [Methanocaldococcus sp. FS406-22]
+ ref|WP_012981154.1| hypothetical protein [Methanocaldococcus sp. FS406-22]
+ gb|ADC70250.1| conserved hypothetical protein [Methanocaldococcus sp. FS406-22]
+Length=141
+
+ Score = 68.2 bits (165),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 50/134 (37%), Positives = 73/134 (54%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGFKKVKK----EEEIKEIVQLFRE----FKGNEFEVRYAARE---------MLSKLGLK  236
+                + KK    EEEI E+++  +      K NE       +E         +L +LG++
+Sbjct  62   DEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              V  K +EKY+EK
+Sbjct  122  TRVSPKVIEKYIEK  135
+
+
+ Score = 45.1 bits (105),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 40/122 (33%), Positives = 55/122 (45%), Gaps = 28/122 (23%)
+
+Query  6    LEFTAKHEEWIV------GENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS  59
+            +EF AKH++W V       EN ED     IA  L+ +  TV +KIP YL    D+N L  
+Sbjct  5    IEFMAKHKKWFVVKKLKIDENTEDI---EIARLLASIDETVLNKIPEYLP--FDMNKLYE  59
+
+Query  60   IK-----------IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+            I             E  + E LK L SP  +R++  +    + K      E+ KA+L   
+Sbjct  60   IADEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNI  113
+
+Query  109  IL  110
+            IL
+Sbjct  114  IL  115
+
+
+>ref|WP_018153767.1| hypothetical protein [Methanothermococcus thermolithotrophicus]
+Length=139
+
+ Score = 66.6 bits (161),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 48/135 (36%), Positives = 72/135 (53%), Gaps = 17/135 (13%)
+
+Query  133  EEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE-  191
+            +E+ I F A+ G W VVK+M IDEKT  ++IARLLA+INET  NKI  F   D K + E 
+Sbjct  2    QEEKIQFMAKKGKWFVVKKMNIDEKTEDIEIARLLAAINETTHNKIGQFLPFDMKALEEI  61
+
+Query  192  ----YFGGFKKVKKEE------------EIKEIVQLFREFKGNEFEVRYAAREMLSKLGL  235
+                Y     ++K++E              +++  + +  +G E         +L +LG+
+Sbjct  62   ADEIYTKKKGRIKEDELANVLMKLKSPSTTRKLNNITKSKEGKEILKIILNNIILERLGI  121
+
+Query  236  KVDVPSKNLEKYLEK  250
+            K  V +K +EKY+EK
+Sbjct  122  KTRVDAKLIEKYIEK  136
+
+
+>ref|YP_001323586.1| hypothetical protein Mevan_1074 [Methanococcus vannielii SB]
+ ref|WP_012065889.1| hypothetical protein [Methanococcus vannielii]
+ gb|ABR54974.1| conserved hypothetical protein [Methanococcus vannielii SB]
+Length=138
+
+ Score = 66.2 bits (160),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 52/135 (39%), Positives = 74/135 (55%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE--  191
+            E+ I FTA+ G W V K++ IDE T  ++IAR+LA INET   KIK+F   D +K+ E  
+Sbjct  3    EERILFTAKKGKWYVSKKLKIDENTRNVEIARILAGINETISLKIKEFLPFDMQKLEEIA  62
+
+Query  192  ---YFGGFKKVKKEEEIKEIVQL-----------FREFK-GNEFEVRYAAREMLSKLGLK  236
+               Y     KVK+EE  + +V+L             E K G E   R     +L +LG K
+Sbjct  63   DEIYVAKKGKVKEEEVSEALVKLKSPATTKKMNAITESKEGKEILKRILTEIVLERLGFK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+            + V +K +EK++EK+
+Sbjct  123  LHVEAKMIEKFIEKS  137
+
+
+>ref|WP_004589982.1| hypothetical protein [Methanocaldococcus villosus]
+ gb|ENN96579.1| hypothetical protein J422_01615 [Methanocaldococcus villosus 
+KIN24-T80]
+Length=141
+
+ Score = 64.3 bits (155),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 48/135 (36%), Positives = 74/135 (55%), Gaps = 19/135 (14%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI ET  NK  ++   D  K+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDEHTEDIEIARLLASIGETVDNKFIEYLPFDVNKLYEIA  61
+
+Query  194  GGFKKVKKEEEIKE--IVQLFREFKG-------NEFEVRYAAREM---------LSKLGL  235
+                + KK+ +IKE  I+   ++ K        NE +     +E+         L +LG+
+Sbjct  62   DSIYQ-KKKGKIKEEDIINALKKLKSPATTKKLNEIDASKEGKEILKIMLNNIVLKRLGI  120
+
+Query  236  KVDVPSKNLEKYLEK  250
+            +  VP+K +EKY+EK
+Sbjct  121  ETKVPAKLIEKYIEK  135
+
+
+>ref|WP_007044473.1| hypothetical protein [Methanotorris formicicus]
+ gb|EHP86601.1| hypothetical protein MetfoDRAFT_1041 [Methanotorris formicicus 
+Mc-S-70]
+Length=145
+
+ Score = 64.3 bits (155),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 43/134 (32%), Positives = 70/134 (52%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE--  191
+            E+ I F A++ SW VVK+M ID+KT  ++IARLL+SI+ET ++K+ ++   D KK+ E  
+Sbjct  8    ENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLPFDMKKLEEIA  67
+
+Query  192  ---------------YFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  68   DEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEITNSKEGKEILKIILNNIILERLGIK  127
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  128  TRIDPKLIEKYMEK  141
+
+
+ Score = 38.9 bits (89),  Expect = 0.76, Method: Compositional matrix adjust.
+ Identities = 32/99 (32%), Positives = 51/99 (52%), Gaps = 16/99 (16%)
+
+Query  2    IERILEFTAKHEEWIVGE--NVEDFTNE-NIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  ++F AKH  W V +  N++D T +  IA  LS +  TV SK+P YL    D+  L 
+Sbjct  7    MENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLP--FDMKKLE  64
+
+Query  59   SI------KIEGSLEEK-----LKALISPKVSRQIGRLV  86
+             I      K +G ++E+     L  L SP  ++++G + 
+Sbjct  65   EIADEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEIT  103
+
+
+>ref|YP_004484894.1| hypothetical protein [Methanotorris igneus Kol 5]
+ ref|WP_013799426.1| hypothetical protein [Methanotorris igneus]
+ gb|AEF96829.1| hypothetical protein Metig_1292 [Methanotorris igneus Kol 5]
+Length=139
+
+ Score = 63.9 bits (154),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 44/136 (32%), Positives = 69/136 (51%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE--  191
+            E+ I F A++  W VVK+M ID+KT  ++IARLL+SI+ET +NK+ ++   D KK+ E  
+Sbjct  2    ENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLPFDMKKLEEIA  61
+
+Query  192  ---------------YFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  62   DEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEITDSKEGKEILKVILNNIILERLGIK  121
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              V  K +EKY+EK  
+Sbjct  122  TRVDPKLIEKYIEKMN  137
+
+
+ Score = 38.1 bits (87),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 36/110 (33%), Positives = 59/110 (54%), Gaps = 18/110 (16%)
+
+Query  2    IERILEFTAKHEEWIVGE--NVEDFT-NENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  ++F AKH +W V +  N++D T N  IA  LS +  TV +K+P YL    D+  L 
+Sbjct  1    MENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLP--FDMKKLE  58
+
+Query  59   SI------KIEGSLEEK-----LKALISPKVSRQIGRLVMEDDKKLKKLL  97
+             I      K +G ++E+     L  L SP  ++++G +   D K+ K++L
+Sbjct  59   EIADEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEIT--DSKEGKEIL  106
+
+
+>ref|YP_003247923.1| hypothetical protein Metvu_1588 [Methanocaldococcus vulcanius 
+M7]
+ ref|WP_015733660.1| hypothetical protein [Methanocaldococcus vulcanius]
+ gb|ACX73441.1| conserved hypothetical protein [Methanocaldococcus vulcanius 
+M7]
+Length=141
+
+ Score = 62.8 bits (151),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 47/134 (35%), Positives = 72/134 (54%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV---  190
+            E+ I F A++G W  VK++ IDE    ++IARLLASI+ET +NKI ++   D +K+    
+Sbjct  2    ENKIEFIAKHGKWFTVKKLKIDENVEDIEIARLLASIDETVLNKIPEYLPFDIEKLNIIA  61
+
+Query  191  -EYFGGFKKVKKEEEIKEIVQLFRE----FKGNEFEVRYAAREMLS---------KLGLK  236
+             E F   K   KEE+I E ++  +      K NE       +E+L          +LG++
+Sbjct  62   DEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGKEILKILLNSIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKVIEKYIEK  135
+
+
+ Score = 40.4 bits (93),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 51/106 (48%), Gaps = 18/106 (17%)
+
+Query  2    IERILEFTAKHEEWI------VGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVN  55
+            +E  +EF AKH +W       + ENVED     IA  L+ +  TV +KIP YL   I+  
+Sbjct  1    MENKIEFIAKHGKWFTVKKLKIDENVEDI---EIARLLASIDETVLNKIPEYLPFDIEKL  57
+
+Query  56   GLLSIKI---------EGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+             +++ +I         E  + E LK L SP  +R++  +    + K
+Sbjct  58   NIIADEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGK  103
+
+
+>ref|YP_003616893.1| hypothetical protein Metin_1279 [methanocaldococcus infernus 
+ME]
+ ref|WP_013100674.1| hypothetical protein [Methanocaldococcus infernus]
+ gb|ADG13929.1| conserved hypothetical protein [Methanocaldococcus infernus ME]
+Length=141
+
+ Score = 61.2 bits (147),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 48/135 (36%), Positives = 72/135 (53%), Gaps = 19/135 (14%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE--  191
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI+ET   K  ++   D KK+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDENTEDIEIARLLASIDETVSRKFLEYLPFDLKKLEEIA  61
+
+Query  192  ---YFGGFKKVKKEEEIKEIV-------------QLFREFKGNEFEVRYAAREMLSKLGL  235
+               Y     +V KEEEI E +             ++    +G E         +L +LG+
+Sbjct  62   DQIYVKKKGRV-KEEEIAEALKKLKSPAVSRKLNEITESKEGKEILKIILNNIILERLGI  120
+
+Query  236  KVDVPSKNLEKYLEK  250
+            +  VPS+ +EKY+EK
+Sbjct  121  ETRVPSRLIEKYIEK  135
+
+
+ Score = 39.3 bits (90),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 34/101 (34%), Positives = 46/101 (46%), Gaps = 20/101 (20%)
+
+Query  2   IERILEFTAKHEEWIV------GENVEDFTNENIAMFLSRVSNTVSSKIPGYL-------  48
+           +E  +EF AKH+ W V       EN ED     IA  L+ +  TVS K   YL       
+Sbjct  1   MEEKIEFLAKHKNWFVVKKLKIDENTEDI---EIARLLASIDETVSRKFLEYLPFDLKKL  57
+
+Query  49  ---GEKIDVNGLLSIKIEGSLEEKLKALISPKVSRQIGRLV  86
+               ++I V     +K E  + E LK L SP VSR++  + 
+Sbjct  58  EEIADQIYVKKKGRVK-EEEIAEALKKLKSPAVSRKLNEIT  97
+
+
+>ref|YP_001098129.1| hypothetical protein MmarC5_1618 [Methanococcus maripaludis C5]
+ ref|WP_011869362.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABO35915.1| conserved hypothetical protein [Methanococcus maripaludis C5]
+Length=140
+
+ Score = 60.8 bits (146),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 47/135 (35%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D KKI E  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMKKIGEIA  62
+
+Query  194  -----------------GGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                             G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALVKLKSPGTTKKLGTIDDAKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+>ref|YP_001330273.1| hypothetical protein MmarC7_1056 [Methanococcus maripaludis C7]
+ ref|WP_011977435.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABR66122.1| conserved hypothetical protein [Methanococcus maripaludis C7]
+Length=140
+
+ Score = 59.3 bits (142),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV---  190
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSVKIKDFLPFDMEKLAKIA  62
+
+Query  191  --------------EYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +  G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+>ref|NP_987179.1| hypothetical protein MMP0059 [Methanococcus maripaludis S2]
+ ref|YP_004741695.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+ ref|WP_011170003.1| hypothetical protein [Methanococcus maripaludis]
+ emb|CAF29615.1| conserved hypothetical archaeal protein [Methanococcus maripaludis 
+S2]
+ gb|AEK18952.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+Length=140
+
+ Score = 58.2 bits (139),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV---  190
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMEKLRAIA  62
+
+Query  191  --------------EYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +  G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALTKLKSPGTTKKLGTIDDTKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+>ref|YP_001548938.1| hypothetical protein MmarC6_0891 [Methanococcus maripaludis C6]
+ ref|WP_012193660.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABX01706.1| conserved hypothetical protein [Methanococcus maripaludis C6]
+Length=140
+
+ Score = 57.8 bits (138),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKI----  189
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSIKIKDFLPFDMEKLEKIA  62
+
+Query  190  -------------VEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +  G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEVYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+>ref|YP_004576971.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+ ref|WP_013867376.1| hypothetical protein [Methanothermococcus okinawensis]
+ gb|AEH07193.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+Length=146
+
+ Score = 53.1 bits (126),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 46/135 (34%), Positives = 68/135 (50%), Gaps = 17/135 (13%)
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYFG  194
+            + I F A+ G W VVK+M I+E T  ++IARLL SI++T   KI +F   D KKI E   
+Sbjct  11   EKIQFRAKRGKWFVVKKMDINENTEDIEIARLLNSIDKTINKKILEFLPFDIKKIEEMAD  70
+
+Query  195  GFKKVK----KEEEIKEIVQLFR------------EFK-GNEFEVRYAAREMLSKLGLKV  237
+               + K    KEE+I   +   +            E K G E         +L +LG+K 
+Sbjct  71   EIYQKKKGRVKEEDIANALSKLKSPSTTRKLNNITELKEGKEILKIILNNIILERLGIKT  130
+
+Query  238  DVPSKNLEKYLEKAG  252
+             + +K ++KY+EK+ 
+Sbjct  131  KLDTKLIDKYIEKSS  145
+
+
+>ref|YP_003708002.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+ ref|WP_013180757.1| hypothetical protein [Methanococcus voltae]
+ gb|ADI37029.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+Length=138
+
+ Score = 51.6 bits (122),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 67/135 (50%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVD--------  185
+            E+ I F A+ G W V K++ IDEKT  ++I+R+L SI ET   KIKD+   D        
+Sbjct  3    EEKITFNAKKGKWYVSKKLKIDEKTQDVEISRILISIEETLGKKIKDYLPFDMIQLEEIA  62
+
+Query  186  DKKIVEYFGGFK---------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+            D+  V   G  K         K+K     K++ +L    +G +         +L +LG+K
+Sbjct  63   DEIYVSKKGRVKEEDISQALAKLKSPATTKKLGKLTDLKEGKDILKVVLTNIILERLGIK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              +  K ++K++EK+
+Sbjct  123  THIDVKTMDKFIEKS  137
+
+
+>ref|YP_001324638.1| hypothetical protein Maeo_0440 [Methanococcus aeolicus Nankai-3]
+ ref|WP_011973158.1| hypothetical protein [Methanococcus aeolicus]
+ gb|ABR56026.1| conserved hypothetical protein [Methanococcus aeolicus Nankai-3]
+Length=137
+
+ Score = 48.5 bits (114),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 38/134 (28%), Positives = 62/134 (46%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVE--  191
+            E  I F A+ G W V+K++ IDE T   ++ARLL SI+ET   K+ +F   D  KI E  
+Sbjct  2    EQSIQFRAKKGKWTVIKKINIDENTTDTEVARLLNSIDETVNKKVYEFLPFDLDKIEEIA  61
+
+Query  192  ---------------YFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     +++  + +  +G           +L +LG+K
+Sbjct  62   NEIYEKKKGKVKEEDITNALLKLKSPATTRKLNAITKSKEGKAIVKIILNNIVLERLGIK  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              + +K ++KY+EK
+Sbjct  122  TRLETKLIDKYMEK  135
+
+
+>ref|YP_007942619.1| nitrogenase molybdenum-iron protein, alpha and beta chains [Clostridium 
+pasteurianum BC1]
+ ref|WP_015617216.1| nitrogenase molybdenum-iron protein, alpha and beta chains [Clostridium 
+pasteurianum]
+ gb|AGK98942.1| nitrogenase molybdenum-iron protein, alpha and beta chains [Clostridium 
+pasteurianum BC1]
+Length=440
+
+ Score = 42.7 bits (99),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 56/213 (26%), Positives = 96/213 (45%), Gaps = 34/213 (16%)
+
+Query  17   VGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIEGSLEEKLKALISP  76
+            +G  V DF  ++I +  +    T   K   Y G ++ +  +++  ++   EEK+  L++ 
+Sbjct  110  IGNVVRDFQRQDIPIVYAE---TAGFKGDAYKGHELVLEAIINQYLKAD-EEKIPGLVNV  165
+
+Query  77   KVSRQIGRLVMEDD-KKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKIQPRYEED  135
+              S  I     E D K++K+LL  +         LK  +   + GG IE + + P+ E  
+Sbjct  166  FASVPIHDPFWEGDLKEIKRLLESIG--------LKANILFGYNGGGIEAINLIPKAE--  215
+
+Query  136  HINFTARYGSWIVVKRMIIDEK---TPLLDIARLLASINETA--VNKIKDFADVDDKKIV  190
+               F      WI +K + + EK   TP L    L     ET+  +NK+ D+A + DKK+V
+Sbjct  216  ---FNIVISPWIGIKTVKLLEKKFNTPYLHYPILPIGAVETSKFLNKVADYAGI-DKKVV  271
+
+Query  191  EYFGGFKKVKKEEE-----IKEIVQLFREFKGN  218
+            +     + +KKEE      +  +     EF+ N
+Sbjct  272  D-----EVIKKEENEYYHYLTRLADFLVEFRFN  299
+
+
+>ref|YP_006417355.1| pyridoxine 5'-phosphate synthase [Aequorivita sublithincola DSM 
+14238]
+ ref|WP_014781598.1| pyridoxamine 5'-phosphate oxidase [Aequorivita sublithincola]
+ gb|AFL80340.1| pyridoxine 5'-phosphate synthase [Aequorivita sublithincola DSM 
+14238]
+Length=237
+
+ Score = 38.9 bits (89),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 41/90 (46%), Gaps = 5/90 (6%)
+
+Query  124  EGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD  183
+            +G+ I PR +E HI +   Y    +V      E  P+ D  +++  I  T V  + D  D
+Sbjct  38   QGITIHPRPDERHIRYQDAYDLKSIVSTEYNIEGNPMDDFTKMVLKIKPTQVTLVPDAVD  97
+
+Query  184  VDDKKIVEYFGGFKKVKKEEEIKEIVQLFR  213
+                  +    G+  VK ++ +KEI+  F+
+Sbjct  98   A-----ITSNAGWDTVKHKDYLKEIISEFK  122
+
+
+>gb|EGV62391.1| hypothetical protein CANTEDRAFT_126271 [Candida tenuis ATCC 10573]
+Length=655
+
+ Score = 38.9 bits (89),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 55/254 (22%), Positives = 108/254 (43%), Gaps = 45/254 (18%)
+
+Query  27   ENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS--IKIEGSLEEKLKALISPK-----VS  79
+            E +   LS+ S  VS  +PG+   + D +   +   KI    +E++   ++        S
+Sbjct  151  EPLMALLSQCSEIVSLDLPGFGDSRADFSTASARLTKISPEDQERISTSVASMADGDFTS  210
+
+Query  80   RQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPI----EFPGGKIEGLKI--QPRYE  133
+              I  ++ E    + + +    K VL    +   L +    + P  K+EGL +   P ++
+Sbjct  211  NNISVIITE---FINQTIPPNKKVVLIAHSMGCHLSVRVAKKLPSSKVEGLILLTSPGFQ  267
+
+Query  134  ED--------HINFTARYGSWI-----VVKRMIIDEKTPLLDIARLLASINETAVN----  176
+            +D        + + T+ + +W+     VV  M + ++   L+ + +   I +T++     
+Sbjct  268  DDIYTNEQVKNSHKTSIFANWMTKFPSVVNLMRVWDRLEGLESSSVFRQIGDTSLYPPHT  327
+
+Query  177  ----KIKDF---ADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR-YAARE  228
+                K++ F    DVD K I++Y  GF++ K      ++V   + F  N F+ R Y    
+Sbjct  328  SLYIKLRQFRWNLDVDTKVILKYIKGFERCK----YSDLVAAIKRFNNNPFDTRVYEKTV  383
+
+Query  229  MLSKLGLKVDVPSK  242
+            +++    KV  P K
+Sbjct  384  LVAGTDDKVTPPQK  397
+
+
+>ref|WP_022027043.1| ribonuclease R [Dialister invisus CAG:218]
+ emb|CCZ54762.1| ribonuclease R [Dialister invisus CAG:218]
+Length=679
+
+ Score = 38.9 bits (89),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 34/64 (53%), Gaps = 4/64 (6%)
+
+Query  163  IARLLASINETAVNKIKDFADVDD----KKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN  218
+            +AR L +   T+V +I D  D D     KK++  FG  +K+ KE E K++ +L    KG 
+Sbjct  398  VARFLEATGHTSVYRIHDHPDGDKLLSLKKMMAIFGVAEKLPKEPEPKDMQRLMESMKGK  457
+
+Query  219  EFEV  222
+            E E 
+Sbjct  458  EIEA  461
+
+
+>ref|YP_003703105.1| hypothetical protein Slip_1785 [Syntrophothermus lipocalidus 
+DSM 12680]
+ ref|WP_013175942.1| membrane protein [Syntrophothermus lipocalidus]
+ gb|ADI02540.1| CBS domain containing membrane protein [Syntrophothermus lipocalidus 
+DSM 12680]
+Length=149
+
+ Score = 36.6 bits (83),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 38/123 (31%), Positives = 61/123 (50%), Gaps = 10/123 (8%)
+
+Query  57   LLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPI  116
+            +++++ E S+EE  K L   ++S   G  V++D  KL  ++ E    +  R++   ELP 
+Sbjct  11   VITVRPEQSVEEVAKILADNRIS---GVPVVDDAGKLVGVVTESDLMIKARDL---ELPF  64
+
+Query  117  EFP-GGKIEGLKIQPRYEEDHINFTA-RYGSWIVVKRMIIDEKTPLLDIARLLA--SINE  172
+                   I  L+   R+ E+   FTA +    +  +   +DE TPL DIARL+   SIN 
+Sbjct  65   YITLFDSIIFLQSPRRFNEELKRFTASKVKDIMTTQVAAVDEDTPLFDIARLMTAKSINR  124
+
+Query  173  TAV  175
+              V
+Sbjct  125  VPV  127
+
+
+>gb|ETF03748.1| LysR family transcriptional regulator [Advenella kashmirensis 
+W13003]
+Length=293
+
+ Score = 36.6 bits (83),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 45/211 (21%), Positives = 94/211 (45%), Gaps = 30/211 (14%)
+
+Query  26   NENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK-IEGSLEEKLKALISPKVSRQIGR  84
+            N+ +   +  V +T+   +P  + +  ++N  + I  +E +  ++  AL S ++   +GR
+Sbjct  88   NDRMWFGVGFVPSTLYGHMPALIRQLREMNNQVEIGLVEMTTLQQFDALKSGRIDIGVGR  147
+
+Query  85   LVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKI---------------Q  129
+            ++++D+        E+ + VLT E L   LPI  P      +KI               +
+Sbjct  148  ILLKDE--------EIERLVLTDEPLALALPIRHPLAHRRSVKISDILNEPLILYPARPR  199
+
+Query  130  PRYEEDHINFTARYGSWIVVKRMIIDEKTPL-LDIARLLASINETAVNKIKD----FADV  184
+            P Y +  +N   + G   VV + + + +T + L  A +  SI   +V ++      + D+
+Sbjct  200  PSYADHVLNLFKQKGHSPVVAQEVNELQTAIGLVTAGIGVSIVPESVRRLHREDVVYIDL  259
+
+Query  185  DDKKIVE-YFGGFKKVKKEEEIKEIVQLFRE  214
+            D+          ++K  +   +KE++ LFR+
+Sbjct  260  DESGFTSPIMLSWRKNDQSAFLKEVIALFRQ  290
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 810777595870
+Results from round 2
+
+
+Query= 3V68A
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_002582892.1|  hypothetical protein [Thermococcus sp. AM4] ...   346    1e-116
+ref|YP_002958835.1|  hypothetical protein TGAM_0469 [Thermococcus...   343    2e-115
+ref|WP_010480142.1|  hypothetical protein [Thermococcus zilligii]      333    2e-111
+ref|YP_004762080.1|  hypothetical protein GQS_02510 [Thermococcus...   330    2e-110
+ref|YP_006424161.1|  hypothetical protein CL1_0152 [Thermococcus ...   328    1e-109
+ref|NP_579779.1|  hypothetical protein PF2050 [Pyrococcus furiosu...   316    5e-105
+ref|YP_002993505.1|  hypothetical protein TSIB_0088 [Thermococcus...   316    8e-105
+ref|YP_002306912.1|  hypothetical protein TON_0528 [Thermococcus ...   316    1e-104
+ref|YP_004071108.1|  hypothetical protein TERMP_00909 [Thermococc...   315    1e-104
+ref|YP_004624432.1|  hypothetical protein PYCH_14920 [Pyrococcus ...   313    1e-103
+ref|YP_183676.1|  hypothetical protein TK1263 [Thermococcus kodak...   312    2e-103
+ref|NP_125764.1|  hypothetical protein PAB0036 [Pyrococcus abyssi...   310    1e-102
+ref|YP_008428911.1|  hypothetical protein OCC_06796 [Thermococcus...   308    1e-101
+ref|YP_006353817.1|  hypothetical protein Py04_0137 [Pyrococcus s...   306    3e-101
+ref|NP_142081.1|  hypothetical protein PH0063 [Pyrococcus horikos...   298    6e-98 
+ref|YP_004423520.1|  hypothetical protein PNA2_0600 [Pyrococcus s...   269    2e-86 
+ref|NP_247578.1|  hypothetical protein MJ_0596 [Methanocaldococcu...   132    5e-35 
+ref|YP_004484894.1|  hypothetical protein [Methanotorris igneus K...   130    2e-34 
+ref|YP_003458986.1|  hypothetical protein MFS40622_1578 [Methanoc...   127    5e-33 
+ref|YP_003128690.1|  hypothetical protein Mefer_1383 [Methanocald...   126    2e-32 
+ref|YP_003247923.1|  hypothetical protein Metvu_1588 [Methanocald...   124    8e-32 
+ref|WP_007044473.1|  hypothetical protein [Methanotorris formicic...   121    8e-31 
+ref|WP_004589982.1|  hypothetical protein [Methanocaldococcus vil...   121    1e-30 
+ref|YP_001323586.1|  hypothetical protein Mevan_1074 [Methanococc...   120    3e-30 
+ref|YP_001324638.1|  hypothetical protein Maeo_0440 [Methanococcu...   119    5e-30 
+ref|YP_001098129.1|  hypothetical protein MmarC5_1618 [Methanococ...   117    2e-29 
+ref|NP_987179.1|  hypothetical protein MMP0059 [Methanococcus mar...   116    5e-29 
+ref|YP_001548938.1|  hypothetical protein MmarC6_0891 [Methanococ...   116    1e-28 
+ref|WP_018153767.1|  hypothetical protein [Methanothermococcus th...   116    1e-28 
+ref|YP_001330273.1|  hypothetical protein MmarC7_1056 [Methanococ...   115    2e-28 
+ref|YP_003708002.1|  hypothetical protein Mvol_1373 [Methanococcu...   113    7e-28 
+ref|YP_003616893.1|  hypothetical protein Metin_1279 [methanocald...   109    3e-26 
+ref|YP_004576971.1|  hypothetical protein Metok_1225 [Methanother...   106    5e-25 
+
+Sequences not found previously or not previously below threshold:
+
+gb|EET90504.1|  hypothetical protein UNLARM2_0038 [Candidatus Mic...  51.1    5e-05
+ref|WP_007485472.1|  hypothetical protein [Bacteroides nordii] >g...  41.5    0.36 
+ref|WP_007547628.1|  hypothetical protein [Sulfurihydrogenibium y...  41.1    0.37 
+ref|WP_002560515.1|  hypothetical protein [Bacteroides sp. HPS004...  41.1    0.56 
+ref|YP_001930948.1|  radical SAM protein [Sulfurihydrogenibium sp...  39.2    1.3  
+ref|WP_018645808.1|  hypothetical protein [Bradyrhizobium japonicum]  39.2    1.5  
+dbj|BAF46986.1|  hypothetical protein [Klebsiella pneumoniae subs...  38.8    2.0  
+dbj|BAF47002.1|  hypothetical protein [Klebsiella pneumoniae] >db...  38.8    2.0  
+ref|WP_001334744.1|  hypothetical protein [Escherichia coli] >gb|...  38.4    2.3  
+ref|YP_002729608.1|  [pyruvate formate-lyase]-activating enzyme [...  38.4    2.4  
+ref|WP_023509095.1|  haloacid dehalogenase [Sporolactobacillus la...  38.8    2.4  
+ref|WP_008897927.1|  integrase [Rheinheimera sp. A13L] >gb|EGM787...  37.6    5.3  
+ref|XP_001581043.1|  hypothetical protein [Trichomonas vaginalis ...  37.6    6.2  
+gb|EJC98884.1|  Cullin-domain-containing protein [Fomitiporia med...  37.2    8.6  
+
+
+>ref|YP_002582892.1| hypothetical protein [Thermococcus sp. AM4]
+ ref|WP_014123194.1| hypothetical protein [Thermococcus sp. AM4]
+ gb|EEB74642.1| hypothetical protein TAM4_587 [Thermococcus sp. AM4]
+Length=263
+
+ Score =  346 bits (888),  Expect = 1e-116, Method: Composition-based stats.
+ Identities = 122/259 (47%), Positives = 176/259 (68%), Gaps = 10/259 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E +A FL+RV+NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADRLMDMEDEGVARFLARVANTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   I--EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+               +G L + + +L SP  SR++G LV E+DKKLKKLLV+ AKA+L R  L   +P+++P
+Sbjct  65   EGFDGDLTKVIVSLKSPGTSRKLGALVFEEDKKLKKLLVDAAKALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G +E +++   + EDH+NFTA++G WIVVKR+IID+ T  +D+ARLLASINET   K+ 
+Sbjct  125  DGLLEEVRVMFPFPEDHVNFTAKHGRWIVVKRLIIDDSTQKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEV-------RYAAREMLSK  232
+             +A +D K I E+FG  KKVKK  EI  +V+ +  F+ +EF          YA R+ L  
+Sbjct  185  AYAGIDVKGIEEWFGPRKKVKK-SEIPSVVERYLNFQPSEFAPGFEEHARVYALRKALEL  243
+
+Query  233  LGLKVDVPSKNLEKYLEKA  251
+            +GL +DVP+K+LEKYLEK 
+Sbjct  244  IGLSLDVPAKSLEKYLEKK  262
+
+
+ Score = 56.1 bits (134),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 33/134 (25%), Positives = 56/134 (42%), Gaps = 20/134 (15%)
+
+Query  129  QPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD--VDD  186
+             PR  EDH+ FTA++G+W V  R++         +AR LA +  T  +KI ++    ++ 
+Sbjct  1    MPRAVEDHVMFTAKHGNWKVADRLM---DMEDEGVARFLARVANTVNSKIPEYLTDVMNV  57
+
+Query  187  KKIVEYFGGF--------KKVKKEEEIKEIVQLF--REFKGNEFE----VRYAAREMLSK  232
+              I+    GF          +K     +++  L    + K  +           R  LS+
+Sbjct  58   AGIMSLAEGFDGDLTKVIVSLKSPGTSRKLGALVFEEDKKLKKLLVDAAKALLVRLTLSR  117
+
+Query  233  LGLKVDVPSKNLEK  246
+              + VD P   LE+
+Sbjct  118  F-VPVDYPDGLLEE  130
+
+
+>ref|YP_002958835.1| hypothetical protein TGAM_0469 [Thermococcus gammatolerans EJ3]
+ ref|WP_015858089.1| hypothetical protein [Thermococcus gammatolerans]
+ gb|ACS32971.1| Conserved hypothetical protein [Thermococcus gammatolerans EJ3]
+Length=263
+
+ Score =  343 bits (880),  Expect = 2e-115, Method: Composition-based stats.
+ Identities = 122/259 (47%), Positives = 177/259 (68%), Gaps = 10/259 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E IA FL+RV NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADKLIDVEDEKIARFLARVGNTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   I--EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+               +G L + + +L SP +SR++G LV E+DKKLKKLLV+ A+A+L R  L   +P+++P
+Sbjct  65   EGIDGDLTKVIVSLKSPGISRKLGALVFEEDKKLKKLLVDAARALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G ++ +++   + +DH+NFTA++GSWIVVKR+IID+ TP +D+ARLLASINET   K+ 
+Sbjct  125  DGLLKEVRVVFPFPDDHVNFTAKHGSWIVVKRLIIDDSTPKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEV-------RYAAREMLSK  232
+             +A +D   I E+FG  KKVKK  EI  IV+ +  F+ +EF          YA R  L +
+Sbjct  185  AYAGIDVNGIEEWFGPRKKVKK-SEIPSIVERYLNFQPSEFAPGFEEHARVYALRIALER  243
+
+Query  233  LGLKVDVPSKNLEKYLEKA  251
+            +GL +DVP+K+LEKYLEK 
+Sbjct  244  IGLSLDVPAKSLEKYLEKK  262
+
+
+ Score = 56.5 bits (135),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 37/123 (30%), Positives = 56/123 (46%), Gaps = 14/123 (11%)
+
+Query  129  QPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD--VDD  186
+             PR  EDH+ FTA++G+W V  ++I         IAR LA +  T  +KI ++    ++ 
+Sbjct  1    MPRSVEDHVMFTAKHGNWKVADKLI---DVEDEKIARFLARVGNTVNSKIPEYLTDVMNV  57
+
+Query  187  KKI----VEYFGGFKKV----KKEEEIKEIVQL-FREFKGNEFEVRYAAREMLSKLGLKV  237
+              I        G   KV    K     +++  L F E K  +  +  AAR +L +L L  
+Sbjct  58   AGIMSLAEGIDGDLTKVIVSLKSPGISRKLGALVFEEDKKLKKLLVDAARALLVRLTLSR  117
+
+Query  238  DVP  240
+             VP
+Sbjct  118  FVP  120
+
+
+>ref|WP_010480142.1| hypothetical protein [Thermococcus zilligii]
+Length=265
+
+ Score =  333 bits (853),  Expect = 2e-111, Method: Composition-based stats.
+ Identities = 121/262 (46%), Positives = 174/262 (66%), Gaps = 13/262 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNE-NIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            +E  + FTAKH  W V + + D  +   IA FL+ VSNTV+SKIP YL   ++V G++S+
+Sbjct  5    VEDHVMFTAKHGSWKVADKLLDVDDRARIAHFLAMVSNTVNSKIPEYLTGVMNVAGIMSL  64
+
+Query  61   KIE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIE  117
+              E   G L + + +L SP  S+++G LV EDDK LKKLLV+VA+AVL R  L   +P+ 
+Sbjct  65   AEELARGDLTKVVSSLKSPGTSKKLGDLVFEDDKTLKKLLVDVARAVLVRMTLSRFVPVS  124
+
+Query  118  FPGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNK  177
+            +P G++  +++   + +DH+NFTA++G WIVVKR+IID+ TP++D+ARLLASINET   K
+Sbjct  125  YPEGELAEVRVVFPFPDDHVNFTAKHGEWIVVKRLIIDDATPMVDVARLLASINETTTLK  184
+
+Query  178  IKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEV--------RYAAREM  229
+            I  +AD+D + I E+FGG KKVKK  EI  +++ +  F+ + F           YA R+ 
+Sbjct  185  IPVYADIDLEGIEEWFGGLKKVKK-SEIPTVIEKYLHFQPSSFAPAEFEGHARVYALRKA  243
+
+Query  230  LSKLGLKVDVPSKNLEKYLEKA  251
+            L  + L +DVP+K+LEKYLEK 
+Sbjct  244  LEVIDLPLDVPAKSLEKYLEKK  265
+
+
+>ref|YP_004762080.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+ ref|WP_014012088.1| hypothetical protein [Thermococcus sp. 4557]
+ gb|AEK72403.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+Length=267
+
+ Score =  330 bits (846),  Expect = 2e-110, Method: Composition-based stats.
+ Identities = 116/266 (44%), Positives = 173/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA H  W V + + D  +E +A F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTAHHGNWKVADRLLDMNDEKVAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E    +L + + AL SP  +R++G+LV EDDKKL+K LV+VAKA+L RE+L  ++P+++
+Sbjct  63   EELAQKNLSDAVVALKSPGTARKLGQLVFEDDKKLRKHLVDVAKALLVREVLSKKVPVDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P  ++  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEQLSEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YA  225
+               K+  +A +D   I  +FG FKKVKK  EI  +V+ +  F    +  R        YA
+Sbjct  183  ITLKLPVYAGIDVDGIDAWFGEFKKVKK-AEIPAVVEKYMHFPAENYAPRPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+K+LEKYLEK 
+Sbjct  242  LRKALEKIGLPLDVPAKSLEKYLEKK  267
+
+
+>ref|YP_006424161.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+ ref|WP_014788008.1| hypothetical protein [Thermococcus sp. CL1]
+ gb|AFL94367.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+Length=267
+
+ Score =  328 bits (842),  Expect = 1e-109, Method: Composition-based stats.
+ Identities = 115/266 (43%), Positives = 172/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA+H  W V + + D  +E IA F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTARHGSWKVADRLIDMEDEKIAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L + + AL SP  +R++G+LV E+DKKLKKLLV+VA+A+L R +L  ++PI++
+Sbjct  63   EEMGRKDLSDAIVALKSPGTARKLGQLVFEEDKKLKKLLVDVARALLVRGVLSGKVPIDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P   +  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEPLTEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF--------EVRYA  225
+               K+  +A +D   I  +FG FKKV+K  +I  +V+ +R F    +           YA
+Sbjct  183  ITAKLPVYAGIDVDGIDSWFGEFKKVRK-SDIPAVVEKYRHFPAENYASEPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+K+LEKYLEK 
+Sbjct  242  LRKALEKIGLSLDVPAKSLEKYLEKK  267
+
+
+>ref|NP_579779.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ ref|YP_006492883.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+ ref|WP_011013196.1| hypothetical protein [Pyrococcus furiosus]
+ pdb|3V68|A Chain A, Crystal Structure Of Pyrococcus Furiosus Pf2050, A Member 
+Of Duf2666 Family Protein
+ gb|AAL82174.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ gb|AFN04591.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+Length=252
+
+ Score =  316 bits (809),  Expect = 5e-105, Method: Composition-based stats.
+ Identities = 252/252 (100%), Positives = 252/252 (100%), Gaps = 0/252 (0%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI
+Sbjct  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG
+Sbjct  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD
+Sbjct  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+            FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP
+Sbjct  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+
+Query  241  SKNLEKYLEKAG  252
+            SKNLEKYLEKAG
+Sbjct  241  SKNLEKYLEKAG  252
+
+
+>ref|YP_002993505.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+ ref|WP_012766117.1| hypothetical protein [Thermococcus sibiricus]
+ gb|ACS89156.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+Length=263
+
+ Score =  316 bits (809),  Expect = 8e-105, Method: Composition-based stats.
+ Identities = 124/260 (48%), Positives = 168/260 (65%), Gaps = 11/260 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +    +  IA FL+ VSNTV+ K+P YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMDDRQIAHFLAMVSNTVTLKLPEYLTEVMNVAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     + E LK L SP  SR++  ++ E++KKLK  L+ VAKA+LTRE L  ++ I +
+Sbjct  63   EEMTEKDVWELLKTLKSPGTSRKLNPMIFEENKKLKNHLLNVAKALLTREALSKKVSINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G I  LK    Y ++HINFTA+ GSWIVVKR+IID KTP+ DIAR+LASINETAV+KI
+Sbjct  123  PEGVITELKTTLIYHDEHINFTAKNGSWIVVKRLIIDNKTPMADIARILASINETAVSKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEF---EVRYAAREML  230
+              +  +D   I ++FG  KK + E EIK +V+ F       +  NEF      YA R  L
+Sbjct  183  PLYGKIDLDGIRKWFGDIKKARSEAEIKTLVEKFFHIPVENYAPNEFKDHAKIYALRVAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEK  250
+             K+GL +D+P+K LEKYLEK
+Sbjct  243  EKVGLTIDIPAKPLEKYLEK  262
+
+
+>ref|YP_002306912.1| hypothetical protein TON_0528 [Thermococcus onnurineus NA1]
+ ref|WP_012571487.1| hypothetical protein [Thermococcus onnurineus]
+ gb|ACJ16015.1| hypothetical protein, conserved [Thermococcus onnurineus NA1]
+Length=267
+
+ Score =  316 bits (809),  Expect = 1e-104, Method: Composition-based stats.
+ Identities = 120/266 (45%), Positives = 174/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA+H  W VG+ + +  +E +A FL+ ++NTV+ KIP YL E +++ G++S+ 
+Sbjct  3    VEDQIIFTARHGSWKVGDRLRNMEDEMVAHFLASIANTVNPKIPEYLTEVMNIAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L + + AL SP  +R++G LV E+DKKLKK LVEVAKA+L RE+L+ ++ +++
+Sbjct  63   EEIARKDLSDAVVALKSPGTARKLGALVFEEDKKLKKHLVEVAKAILVREVLEKKVTVDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P   +  +KI   Y EDH+NFT     A +G W VVKR+IIDEKTP+ D+ARLLASINET
+Sbjct  123  PEEPLREVKIALPYNEDHVNFTAFHLSAEHGKWRVVKRLIIDEKTPMADVARLLASINET  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF--------EVRYA  225
+               K+  +A +D K I  +F  FKKVKK  +I  +V+ ++ F+   +           YA
+Sbjct  183  ITLKLPVYAGIDVKGIDAWFAEFKKVKK-ADIPAVVEKYKHFQAENYAREGFEEHAKVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+KNLEKYLEK 
+Sbjct  242  LRKALEKIGLPLDVPAKNLEKYLEKK  267
+
+
+>ref|YP_004071108.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+ ref|WP_013467183.1| hypothetical protein [Thermococcus barophilus]
+ gb|ADT83885.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+Length=264
+
+ Score =  315 bits (808),  Expect = 1e-104, Method: Composition-based stats.
+ Identities = 139/262 (53%), Positives = 178/262 (68%), Gaps = 11/262 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH+ W VG+ +    +ENIA FL+ +SNTV+ KI  YL + IDV  ++S+ 
+Sbjct  3    IEEHVMFTAKHKNWKVGDKLLVMRDENIAHFLASISNTVNMKISEYLIDVIDVAAVMSLA  62
+
+Query  62   I---EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+                EG L E +K L SPK SR+IG++V E DKKLKK LV+VAKA+L RE L   L + +
+Sbjct  63   EDLAEGELWEVVKVLKSPKTSRKIGKMVFESDKKLKKQLVDVAKALLVRETLSRMLSVYY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  LKI   Y+EDHINFTA++GSWIVVKR+IIDEKT L D+ARLLASINET  +K+
+Sbjct  123  PEDPIMELKIMLPYKEDHINFTAKHGSWIVVKRLIIDEKTELADVARLLASINETITSKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFK-----GNEFEVR---YAAREML  230
+              +A++D K I E+F G KK K + EIK +V  +  F       +EFE     YA R+ML
+Sbjct  183  PIYAEIDLKGIDEWFAGVKKAKSDVEIKTLVDKYLHFPAHRYAPSEFEKHARIYALRKML  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKAG  252
+             K+GL +DVP+K LEKYLEK G
+Sbjct  243  EKVGLSLDVPAKPLEKYLEKKG  264
+
+
+>ref|YP_004624432.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+ ref|WP_013906216.1| hypothetical protein [Pyrococcus yayanosii]
+ gb|AEH25160.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+Length=261
+
+ Score =  313 bits (801),  Expect = 1e-103, Method: Composition-based stats.
+ Identities = 131/259 (51%), Positives = 178/259 (69%), Gaps = 8/259 (3%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +   +EFTA+H  W+VGE +E+   E IA FL+R+SNTV++K+P YL   IDV G+ ++ 
+Sbjct  3    VVDHIEFTARHGPWLVGERLEEMEEEKIAKFLARISNTVNNKLPDYLTVVIDVEGVRALL  62
+
+Query  62   IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGG  121
+             EG L E LK L SP  SR++  L+ E+DKKL+K+L +VAKA+L R  L N  P+++P  
+Sbjct  63   GEGELWEVLKHLRSPGTSRKLNALIREEDKKLRKILGDVAKALLVRLSLANLAPVDYPVE  122
+
+Query  122  KIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDF  181
+             I  ++++  YEE+H+NFTA++  WIVVKR++IDEKT  LD+ARLLASINETAV+KI  +
+Sbjct  123  PISEVRVKLPYEEEHVNFTAKHDRWIVVKRLMIDEKTSQLDVARLLASINETAVSKIPVY  182
+
+Query  182  ADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEV--------RYAAREMLSKL  233
+            A +D K I  YF  FKKV+KEE+IK + +    F   EF          R+A    LSKL
+Sbjct  183  ARIDVKGIKNYFSTFKKVRKEEDIKALAESLEAFPAEEFAPKEFKGFAARHALGVALSKL  242
+
+Query  234  GLKVDVPSKNLEKYLEKAG  252
+            GL +DVP+K LEKYLEK+G
+Sbjct  243  GLPLDVPAKVLEKYLEKSG  261
+
+
+>ref|YP_183676.1| hypothetical protein TK1263 [Thermococcus kodakarensis KOD1]
+ ref|WP_011250214.1| hypothetical protein [Thermococcus kodakarensis]
+ dbj|BAD85452.1| hypothetical protein, conserved [Thermococcus kodakarensis KOD1]
+Length=262
+
+ Score =  312 bits (800),  Expect = 2e-103, Method: Composition-based stats.
+ Identities = 131/261 (50%), Positives = 184/261 (70%), Gaps = 12/261 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH +W V + + +  +EN+A FL+ ++N+V+S+IPGY+GEKID++G+  + 
+Sbjct  3    IEEHVAFTAKHNDWRVAKKLTELEDENVAHFLAGIANSVNSRIPGYMGEKIDIDGIRKLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E    +L + + AL SP  SR++G LV E+DKKLKKLLV+ AKAVL R  L+  +PI +
+Sbjct  63   EEVRKDTLSDTIVALKSPGTSRKLGGLVRENDKKLKKLLVDAAKAVLVRMTLEGVVPINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G++ G++++  YEEDH+NFTA++G WIVVKR+IIDEKTPLLD+ARLLASINET   K+
+Sbjct  123  PEGELTGVEVEFPYEEDHVNFTAKHGKWIVVKRLIIDEKTPLLDVARLLASINETVTLKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN--------EFEVRYAAREML  230
+              +A +D + I   F  FKKVKK  +I ++V+ +  F+ +        E    YA R  L
+Sbjct  183  PAYAHIDVEGIEGEFSAFKKVKK-SDIPKVVEAYEAFEPSAYADEPFLEHARVYALRVAL  241
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +DVPSK+LEKYLEKA
+Sbjct  242  EKIGLPLDVPSKSLEKYLEKA  262
+
+
+>ref|NP_125764.1| hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ ref|WP_010867196.1| hypothetical protein [Pyrococcus abyssi]
+ emb|CAB48995.1| Hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ tpe|CCE69444.1| TPA: hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+Length=253
+
+ Score =  310 bits (794),  Expect = 1e-102, Method: Composition-based stats.
+ Identities = 161/253 (64%), Positives = 205/253 (81%), Gaps = 2/253 (1%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-I  60
+            ++ I EFT K ++ IVGE +++  +EN++ FL+RVSNTV  +IP YL EKIDV+G++  I
+Sbjct  1    MQDIAEFTLKIKDMIVGEALDEINDENMSRFLARVSNTVRQEIPKYLIEKIDVDGMIKGI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KI+G+LEEKLKAL SP  SR+IG  + EDDKKL+KLL +VAK VL    L+++LP++FP 
+Sbjct  61   KIQGTLEEKLKALKSPGTSRKIGNYIKEDDKKLRKLLQDVAKVVLVWNTLRDDLPLDFPV  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            G+IE L  QPRYEE+HINFT +YG WIVVKR+IIDEKTP+LDIARLLASINE+AV KI +
+Sbjct  121  GRIESLSTQPRYEEEHINFTVKYGKWIVVKRLIIDEKTPMLDIARLLASINESAVGKIPE  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDV  239
+            FA +D K+I +YFGGFK+V+K+EEI+E+V+ FR FK  NE  +RYA  EMLSKLGL +DV
+Sbjct  181  FAGIDMKEIKDYFGGFKRVRKDEEIEELVRAFRNFKPENELAIRYAVGEMLSKLGLSIDV  240
+
+Query  240  PSKNLEKYLEKAG  252
+            PSKNLEKYLEK G
+Sbjct  241  PSKNLEKYLEKTG  253
+
+
+>ref|YP_008428911.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+ ref|WP_004067673.1| hypothetical protein [Thermococcus litoralis]
+ gb|EHR78974.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+Length=263
+
+ Score =  308 bits (788),  Expect = 1e-101, Method: Composition-based stats.
+ Identities = 125/261 (48%), Positives = 170/261 (65%), Gaps = 11/261 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +       IA FL+ VSNTV+ KIP YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMEKHEIAHFLASVSNTVTLKIPKYLTEVMNVAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L E LK L SP  SR++  ++ E+DKKLKKLL++VAKA+LTRE L  +  + +
+Sbjct  63   EEIGKKELWEALKTLKSPGTSRKLNPMIFEEDKKLKKLLLDVAKALLTREALSKKFSVSY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  L+    Y ++H+NFTA++GSWIVVKR+IID+KTP+ D+AR+LASINET V KI
+Sbjct  123  PEDPITDLRTTLIYHDEHVNFTAKHGSWIVVKRLIIDDKTPMADVARILASINETTVAKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEF---EVRYAAREML  230
+              +A++D K I ++FG  KK K E EIK +V          +   EF      YA R  L
+Sbjct  183  PVYAEIDLKGIEQWFGDIKKAKSEREIKTLVDKLLHIPIEHYAPKEFAEHAKIYALRTAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +D+PSK+LEKYLEK+
+Sbjct  243  QKMGLSIDIPSKSLEKYLEKS  263
+
+
+>ref|YP_006353817.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+ ref|WP_014733268.1| hypothetical protein [Pyrococcus sp. ST04]
+ gb|AFK21742.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+Length=251
+
+ Score =  306 bits (785),  Expect = 3e-101, Method: Composition-based stats.
+ Identities = 168/250 (67%), Positives = 204/250 (82%), Gaps = 1/250 (0%)
+
+Query  4    RILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIE  63
+             +LEFT KH +W VG+ V++FTNENIA FL++VSNTV  K P YL EKID++GLL++K E
+Sbjct  2    EVLEFTVKHRDWNVGDEVKEFTNENIASFLAKVSNTVLDKFPQYLTEKIDIDGLLTLKPE  61
+
+Query  64   GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKI  123
+            G++EE+LK L SP  SR+IG  V+EDDKKLKKLLV+VAKAVL RE LK+ LPIEF  GKI
+Sbjct  62   GTVEERLKLLKSPGTSRKIGSYVIEDDKKLKKLLVDVAKAVLVRESLKDVLPIEFALGKI  121
+
+Query  124  EGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD  183
+            E +KI+PRYEEDHINFTA+YG WIVVKR+IIDEKTPLLDIARLLASINETA+NKI +FA 
+Sbjct  122  EEMKIRPRYEEDHINFTAKYGRWIVVKRLIIDEKTPLLDIARLLASINETAINKIPEFAG  181
+
+Query  184  VDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNE-FEVRYAAREMLSKLGLKVDVPSK  242
+            ++ K I E+F  FK+V+K+E+IK +V+ F EF+    FE RYA   MLSKL L +D P+K
+Sbjct  182  IEIKDIKEHFKEFKRVRKDEDIKRLVEKFNEFQPKNSFESRYAVSIMLSKLNLTIDPPAK  241
+
+Query  243  NLEKYLEKAG  252
+            NLEKYLEKAG
+Sbjct  242  NLEKYLEKAG  251
+
+
+>ref|NP_142081.1| hypothetical protein PH0063 [Pyrococcus horikoshii OT3]
+ ref|WP_010884180.1| hypothetical protein [Pyrococcus horikoshii]
+ dbj|BAA29132.1| 254aa long hypothetical protein [Pyrococcus horikoshii OT3]
+Length=254
+
+ Score =  298 bits (763),  Expect = 6e-98, Method: Composition-based stats.
+ Identities = 160/254 (63%), Positives = 195/254 (77%), Gaps = 2/254 (1%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-  59
+            M   I+EFT K     VGE  ++   + IA+FL+RVSNTV  +IP YL E+IDV+ +L  
+Sbjct  1    MTGDIVEFTLKLGGLEVGEAPKELREDQIAIFLARVSNTVRHEIPKYLQERIDVDRMLKE  60
+
+Query  60   IKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+            + I G+LEEKLK L SP  SR+I   ++EDD+KLKKLL++VAK +L    LK++LPI+FP
+Sbjct  61   LTINGALEEKLKKLKSPGTSRKINSYILEDDRKLKKLLLDVAKVILVWNTLKDDLPIDFP  120
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             GKI  LKI PRY+EDHINFTA+YG WIVVKR+IIDEKTP LDIARLLASINETAVNKI 
+Sbjct  121  VGKISELKITPRYKEDHINFTAKYGRWIVVKRLIIDEKTPKLDIARLLASINETAVNKIP  180
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVD  238
+            +FA +D  +I E+F  FKKVKKEEEIK +++ FR FK  NE EVRYA  EM+SKLGL +D
+Sbjct  181  EFAGIDIGRIREHFRDFKKVKKEEEIKRLMEKFRSFKPTNELEVRYAISEMISKLGLSID  240
+
+Query  239  VPSKNLEKYLEKAG  252
+            +PSKNLEKYLEK G
+Sbjct  241  IPSKNLEKYLEKTG  254
+
+
+>ref|YP_004423520.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+ ref|WP_013748070.1| hypothetical protein [Pyrococcus sp. NA2]
+ gb|AEC51516.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+Length=255
+
+ Score =  269 bits (687),  Expect = 2e-86, Method: Composition-based stats.
+ Identities = 154/252 (61%), Positives = 200/252 (79%), Gaps = 2/252 (1%)
+
+Query  3    ERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-IK  61
+              I EFT K     +GE   +  +  +++FL+RVSNTV + IP YL E+IDV+ +LS IK
+Sbjct  4    GDIAEFTVKLGNMEIGEAPRELNDYELSIFLARVSNTVRALIPDYLQERIDVSRMLSEIK  63
+
+Query  62   IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGG  121
+            +EGS+EEKLK L SP  SR+I   VME+DKKLKKLL++VAK V+   +LK+ELP++FP G
+Sbjct  64   VEGSIEEKLKFLRSPGTSRKINTYVMEEDKKLKKLLLDVAKVVVVWNVLKDELPLDFPVG  123
+
+Query  122  KIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDF  181
+            KIE LKI+PRYEE+HINFT ++G WIVVKR+I+DEKTP+LDIARLLASINET VNKI +F
+Sbjct  124  KIEELKIKPRYEEEHINFTVKFGKWIVVKRLIVDEKTPMLDIARLLASINETTVNKIPEF  183
+
+Query  182  ADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDVP  240
+            A +D K+I E+F  FKKV+KEE+IK++V+ FR+F+  NE E+RYA +EMLSKL L +D+P
+Sbjct  184  ARIDVKRIEEHFKEFKKVRKEEDIKKLVEKFRKFEPKNELEIRYAVKEMLSKLNLSIDIP  243
+
+Query  241  SKNLEKYLEKAG  252
+            +KNLEKYLE+ G
+Sbjct  244  AKNLEKYLERTG  255
+
+
+>ref|NP_247578.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+ ref|WP_010870100.1| hypothetical protein [Methanocaldococcus jannaschii]
+ sp|Q58013.1|Y596_METJA RecName: Full=Uncharacterized protein MJ0596
+ gb|AAB98596.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+Length=141
+
+ Score =  132 bits (333),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 69/135 (51%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+             G                  KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEKA  251
+              V  K +EKY+E +
+Sbjct  122  TRVSPKVIEKYIENS  136
+
+
+ Score = 53.0 bits (126),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 36/123 (29%), Positives = 60/123 (49%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KIP YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEI  60
+
+Query  54   VNGLLSIK----IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+             +G+   K     E  + E LK L SP  +R++  +    + K      E+ KA+L   I
+Sbjct  61   ADGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_004484894.1| hypothetical protein [Methanotorris igneus Kol 5]
+ ref|WP_013799426.1| hypothetical protein [Methanotorris igneus]
+ gb|AEF96829.1| hypothetical protein Metig_1292 [Methanotorris igneus Kol 5]
+Length=139
+
+ Score =  130 bits (328),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 44/136 (32%), Positives = 69/136 (51%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++  W VVK+M ID+KT  ++IARLL+SI+ET +NK+ ++   D KK+ E  
+Sbjct  2    ENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLPFDMKKLEEIA  61
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  62   DEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEITDSKEGKEILKVILNNIILERLGIK  121
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              V  K +EKY+EK  
+Sbjct  122  TRVDPKLIEKYIEKMN  137
+
+
+ Score = 38.8 bits (89),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 46/105 (44%), Gaps = 16/105 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  ++F AKH +W V + +   +   N  IA  LS +  TV +K+P YL    D+  L 
+Sbjct  1    MENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLP--FDMKKLE  58
+
+Query  59   SIKI-----------EGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+             I             E  +   L  L SP  ++++G +    + K
+Sbjct  59   EIADEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEITDSKEGK  103
+
+
+>ref|YP_003458986.1| hypothetical protein MFS40622_1578 [Methanocaldococcus sp. FS406-22]
+ ref|WP_012981154.1| hypothetical protein [Methanocaldococcus sp. FS406-22]
+ gb|ADC70250.1| conserved hypothetical protein [Methanocaldococcus sp. FS406-22]
+Length=141
+
+ Score =  127 bits (320),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 44/134 (33%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              V  K +EKY+EK
+Sbjct  122  TRVSPKVIEKYIEK  135
+
+
+ Score = 48.4 bits (114),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KIP YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  + E LK L SP  +R++  +    + K      E+ KA+L   I
+Sbjct  61   ADEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_003128690.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+ ref|WP_015791923.1| hypothetical protein [Methanocaldococcus fervens]
+ gb|ACV25190.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+Length=141
+
+ Score =  126 bits (316),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 43/134 (32%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKITEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKVILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKIIEKYIEK  135
+
+
+ Score = 46.1 bits (108),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 27/103 (26%), Positives = 46/103 (45%), Gaps = 12/103 (12%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KI  YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKITEYLPFDMNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+                         E  + E LK L SP  +R++  +    + K
+Sbjct  61   ADNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK  103
+
+
+>ref|YP_003247923.1| hypothetical protein Metvu_1588 [Methanocaldococcus vulcanius 
+M7]
+ ref|WP_015733660.1| hypothetical protein [Methanocaldococcus vulcanius]
+ gb|ACX73441.1| conserved hypothetical protein [Methanocaldococcus vulcanius 
+M7]
+Length=141
+
+ Score =  124 bits (311),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 40/134 (30%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKI----  189
+            E+ I F A++G W  VK++ IDE    ++IARLLASI+ET +NKI ++   D +K+    
+Sbjct  2    ENKIEFIAKHGKWFTVKKLKIDENVEDIEIARLLASIDETVLNKIPEYLPFDIEKLNIIA  61
+
+Query  190  -------------VEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +     KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGKEILKILLNSIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKVIEKYIEK  135
+
+
+ Score = 49.2 bits (116),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 31/111 (28%), Positives = 57/111 (51%), Gaps = 13/111 (12%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  +EF AKH +W   + +   E+  +  IA  L+ +  TV +KIP YL   I+   ++
+Sbjct  1    MENKIEFIAKHGKWFTVKKLKIDENVEDIEIARLLASIDETVLNKIPEYLPFDIEKLNII  60
+
+Query  59   SIKI---------EGSLEEKLKALISPKVSRQIGRLVM-EDDKKLKKLLVE  99
+            + +I         E  + E LK L SP  +R++  +   ++ K++ K+L+ 
+Sbjct  61   ADEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGKEILKILLN  111
+
+
+>ref|WP_007044473.1| hypothetical protein [Methanotorris formicicus]
+ gb|EHP86601.1| hypothetical protein MetfoDRAFT_1041 [Methanotorris formicicus 
+Mc-S-70]
+Length=145
+
+ Score =  121 bits (305),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 43/136 (32%), Positives = 70/136 (51%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ SW VVK+M ID+KT  ++IARLL+SI+ET ++K+ ++   D KK+ E  
+Sbjct  8    ENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLPFDMKKLEEIA  67
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  68   DEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEITNSKEGKEILKIILNNIILERLGIK  127
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              +  K +EKY+EK  
+Sbjct  128  TRIDPKLIEKYMEKMN  143
+
+
+ Score = 41.1 bits (95),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 16/105 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  ++F AKH  W V + +   +   +  IA  LS +  TV SK+P YL    D+  L 
+Sbjct  7    MENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLP--FDMKKLE  64
+
+Query  59   SIKI-----------EGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+             I             E  +   L  L SP  ++++G +    + K
+Sbjct  65   EIADEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEITNSKEGK  109
+
+
+>ref|WP_004589982.1| hypothetical protein [Methanocaldococcus villosus]
+ gb|ENN96579.1| hypothetical protein J422_01615 [Methanocaldococcus villosus 
+KIN24-T80]
+Length=141
+
+ Score =  121 bits (303),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 44/136 (32%), Positives = 68/136 (50%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI ET  NK  ++   D  K+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDEHTEDIEIARLLASIGETVDNKFIEYLPFDVNKLYEIA  61
+
+Query  194  -----------------GGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     K++ ++    +G E         +L +LG++
+Sbjct  62   DSIYQKKKGKIKEEDIINALKKLKSPATTKKLNEIDASKEGKEILKIMLNNIVLKRLGIE  121
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              VP+K +EKY+EK  
+Sbjct  122  TKVPAKLIEKYIEKKN  137
+
+
+ Score = 44.2 bits (103),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 36/139 (26%), Positives = 63/139 (45%), Gaps = 19/139 (14%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  +EF AKH+ W V + +   E   +  IA  L+ +  TV +K   YL    DVN L 
+Sbjct  1    MEEKIEFLAKHKNWFVVKKLKIDEHTEDIEIARLLASIGETVDNKFIEYLP--FDVNKLY  58
+
+Query  59   SIKI-----------EGSLEEKLKALISPKVSRQIGRL-VMEDDKKLKKLLVEVAKAVLT  106
+             I             E  +   LK L SP  ++++  +   ++ K++ K+++     VL 
+Sbjct  59   EIADSIYQKKKGKIKEEDIINALKKLKSPATTKKLNEIDASKEGKEILKIMLN--NIVLK  116
+
+Query  107  REILKNELPIEFPGGKIEG  125
+            R  ++ ++P +     IE 
+Sbjct  117  RLGIETKVPAKLIEKYIEK  135
+
+
+>ref|YP_001323586.1| hypothetical protein Mevan_1074 [Methanococcus vannielii SB]
+ ref|WP_012065889.1| hypothetical protein [Methanococcus vannielii]
+ gb|ABR54974.1| conserved hypothetical protein [Methanococcus vannielii SB]
+Length=138
+
+ Score =  120 bits (300),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 45/135 (33%), Positives = 68/135 (50%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I FTA+ G W V K++ IDE T  ++IAR+LA INET   KIK+F   D +K+ E  
+Sbjct  3    EERILFTAKKGKWYVSKKLKIDENTRNVEIARILAGINETISLKIKEFLPFDMQKLEEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG K
+Sbjct  63   DEIYVAKKGKVKEEEVSEALVKLKSPATTKKMNAITESKEGKEILKRILTEIVLERLGFK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+            + V +K +EK++EK+
+Sbjct  123  LHVEAKMIEKFIEKS  137
+
+
+ Score = 41.5 bits (96),  Expect = 0.075, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 55/115 (48%), Gaps = 16/115 (14%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYL---------  48
+            M E  + FTAK  +W V + +   E+  N  IA  L+ ++ T+S KI  +L         
+Sbjct  1    MSEERILFTAKKGKWYVSKKLKIDENTRNVEIARILAGINETISLKIKEFLPFDMQKLEE  60
+
+Query  49   -GEKIDVNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK--LKKLLVEV  100
+              ++I V     +K E  + E L  L SP  ++++  +    + K  LK++L E+
+Sbjct  61   IADEIYVAKKGKVKEE-EVSEALVKLKSPATTKKMNAITESKEGKEILKRILTEI  114
+
+
+>ref|YP_001324638.1| hypothetical protein Maeo_0440 [Methanococcus aeolicus Nankai-3]
+ ref|WP_011973158.1| hypothetical protein [Methanococcus aeolicus]
+ gb|ABR56026.1| conserved hypothetical protein [Methanococcus aeolicus Nankai-3]
+Length=137
+
+ Score =  119 bits (299),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 38/134 (28%), Positives = 62/134 (46%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E  I F A+ G W V+K++ IDE T   ++ARLL SI+ET   K+ +F   D  KI E  
+Sbjct  2    EQSIQFRAKKGKWTVIKKINIDENTTDTEVARLLNSIDETVNKKVYEFLPFDLDKIEEIA  61
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     +++  + +  +G           +L +LG+K
+Sbjct  62   NEIYEKKKGKVKEEDITNALLKLKSPATTRKLNAITKSKEGKAIVKIILNNIVLERLGIK  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              + +K ++KY+EK
+Sbjct  122  TRLETKLIDKYMEK  135
+
+
+ Score = 38.4 bits (88),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 23/105 (22%), Positives = 47/105 (45%), Gaps = 16/105 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E+ ++F AK  +W V + +   E+ T+  +A  L+ +  TV+ K+  +L    D++ + 
+Sbjct  1    MEQSIQFRAKKGKWTVIKKINIDENTTDTEVARLLNSIDETVNKKVYEFLP--FDLDKIE  58
+
+Query  59   SIKIE-----------GSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+             I  E             +   L  L SP  +R++  +    + K
+Sbjct  59   EIANEIYEKKKGKVKEEDITNALLKLKSPATTRKLNAITKSKEGK  103
+
+
+>ref|YP_001098129.1| hypothetical protein MmarC5_1618 [Methanococcus maripaludis C5]
+ ref|WP_011869362.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABO35915.1| conserved hypothetical protein [Methanococcus maripaludis C5]
+Length=140
+
+ Score =  117 bits (294),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 46/135 (34%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D KKI E  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMKKIGEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALVKLKSPGTTKKLGTIDDAKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 40.7 bits (94),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 32/114 (28%), Positives = 56/114 (49%), Gaps = 14/114 (12%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L   +   G 
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMKKIGE  60
+
+Query  58   LSIKI---------EGSLEEKLKALISPKVSRQIGRL--VMEDDKKLKKLLVEV  100
+            ++ +I         E  +   L  L SP  ++++G +    E  + LK+LL E+
+Sbjct  61   IADEIYEKKKGRVKEEDISGALVKLKSPGTTKKLGTIDDAKEGKEILKRLLTEI  114
+
+
+>ref|NP_987179.1| hypothetical protein MMP0059 [Methanococcus maripaludis S2]
+ ref|YP_004741695.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+ ref|WP_011170003.1| hypothetical protein [Methanococcus maripaludis]
+ emb|CAF29615.1| conserved hypothetical archaeal protein [Methanococcus maripaludis 
+S2]
+ gb|AEK18952.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+Length=140
+
+ Score =  116 bits (292),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKI----  189
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMEKLRAIA  62
+
+Query  190  -------------VEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +  G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALTKLKSPGTTKKLGTIDDTKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 40.3 bits (93),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 33/116 (28%), Positives = 55/116 (47%), Gaps = 18/116 (16%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L    D+  L
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLP--FDMEKL  58
+
+Query  58   LSIKIE-----------GSLEEKLKALISPKVSRQIGRL--VMEDDKKLKKLLVEV  100
+             +I  E             +   L  L SP  ++++G +    E  + LK+LL E+
+Sbjct  59   RAIADEIYEKKKGRVKEEDISGALTKLKSPGTTKKLGTIDDTKEGKEILKRLLTEI  114
+
+
+>ref|YP_001548938.1| hypothetical protein MmarC6_0891 [Methanococcus maripaludis C6]
+ ref|WP_012193660.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABX01706.1| conserved hypothetical protein [Methanococcus maripaludis C6]
+Length=140
+
+ Score =  116 bits (290),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 42/135 (31%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+ +  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSIKIKDFLPFDMEKLEKIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEVYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 36.8 bits (84),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 33/116 (28%), Positives = 54/116 (47%), Gaps = 18/116 (16%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L    D+  L
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSIKIKDFLP--FDMEKL  58
+
+Query  58   LSIK-----------IEGSLEEKLKALISPKVSRQIGRL--VMEDDKKLKKLLVEV  100
+              I             E  +   L  L SP  ++++G +    E  + LK+LL E+
+Sbjct  59   EKIADEVYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEI  114
+
+
+>ref|WP_018153767.1| hypothetical protein [Methanothermococcus thermolithotrophicus]
+Length=139
+
+ Score =  116 bits (290),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 47/135 (35%), Positives = 68/135 (50%), Gaps = 17/135 (13%)
+
+Query  133  EEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEY  192
+            +E+ I F A+ G W VVK+M IDEKT  ++IARLLA+INET  NKI  F   D K + E 
+Sbjct  2    QEEKIQFMAKKGKWFVVKKMNIDEKTEDIEIARLLAAINETTHNKIGQFLPFDMKALEEI  61
+
+Query  193  FGGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGL  235
+                                  K+K     +++  + +  +G E         +L +LG+
+Sbjct  62   ADEIYTKKKGRIKEDELANVLMKLKSPSTTRKLNNITKSKEGKEILKIILNNIILERLGI  121
+
+Query  236  KVDVPSKNLEKYLEK  250
+            K  V +K +EKY+EK
+Sbjct  122  KTRVDAKLIEKYIEK  136
+
+
+ Score = 35.7 bits (81),  Expect = 7.2, Method: Composition-based stats.
+ Identities = 26/106 (25%), Positives = 43/106 (41%), Gaps = 16/106 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E   +  IA  L+ ++ T  +KI  +L    D+  L
+Sbjct  1    MQEEKIQFMAKKGKWFVVKKMNIDEKTEDIEIARLLAAINETTHNKIGQFLP--FDMKAL  58
+
+Query  58   LSIKIE-----------GSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+              I  E             L   L  L SP  +R++  +    + K
+Sbjct  59   EEIADEIYTKKKGRIKEDELANVLMKLKSPSTTRKLNNITKSKEGK  104
+
+
+>ref|YP_001330273.1| hypothetical protein MmarC7_1056 [Methanococcus maripaludis C7]
+ ref|WP_011977435.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABR66122.1| conserved hypothetical protein [Methanococcus maripaludis C7]
+Length=140
+
+ Score =  115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 43/135 (32%), Positives = 66/135 (49%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKI----  189
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSVKIKDFLPFDMEKLAKIA  62
+
+Query  190  -------------VEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +  G   K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 37.2 bits (85),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 33/116 (28%), Positives = 54/116 (47%), Gaps = 18/116 (16%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L    D+  L
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSVKIKDFLP--FDMEKL  58
+
+Query  58   LSIK-----------IEGSLEEKLKALISPKVSRQIGRL--VMEDDKKLKKLLVEV  100
+              I             E  +   L  L SP  ++++G +    E  + LK+LL E+
+Sbjct  59   AKIADEIYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEI  114
+
+
+>ref|YP_003708002.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+ ref|WP_013180757.1| hypothetical protein [Methanococcus voltae]
+ gb|ADI37029.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+Length=138
+
+ Score =  113 bits (284),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 39/135 (29%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDEKT  ++I+R+L SI ET   KIKD+   D  ++ E  
+Sbjct  3    EEKITFNAKKGKWYVSKKLKIDEKTQDVEISRILISIEETLGKKIKDYLPFDMIQLEEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ +L    +G +         +L +LG+K
+Sbjct  63   DEIYVSKKGRVKEEDISQALAKLKSPATTKKLGKLTDLKEGKDILKVVLTNIILERLGIK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              +  K ++K++EK+
+Sbjct  123  THIDVKTMDKFIEKS  137
+
+
+ Score = 36.8 bits (84),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 32/125 (26%), Positives = 55/125 (44%), Gaps = 20/125 (16%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYL---------  48
+            M E  + F AK  +W V + +   E   +  I+  L  +  T+  KI  YL         
+Sbjct  1    MSEEKITFNAKKGKWYVSKKLKIDEKTQDVEISRILISIEETLGKKIKDYLPFDMIQLEE  60
+
+Query  49   -GEKIDVNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTR  107
+              ++I V+    +K E  + + L  L SP  ++++G+L    + K      ++ K VLT 
+Sbjct  61   IADEIYVSKKGRVKEE-DISQALAKLKSPATTKKLGKLTDLKEGK------DILKVVLTN  113
+
+Query  108  EILKN  112
+             IL+ 
+Sbjct  114  IILER  118
+
+
+>ref|YP_003616893.1| hypothetical protein Metin_1279 [methanocaldococcus infernus 
+ME]
+ ref|WP_013100674.1| hypothetical protein [Methanocaldococcus infernus]
+ gb|ADG13929.1| conserved hypothetical protein [Methanocaldococcus infernus ME]
+Length=141
+
+ Score =  109 bits (273),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 43/134 (32%), Positives = 69/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI+ET   K  ++   D KK+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDENTEDIEIARLLASIDETVSRKFLEYLPFDLKKLEEIA  61
+
+Query  194  G-----------------GFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DQIYVKKKGRVKEEEIAEALKKLKSPAVSRKLNEITESKEGKEILKIILNNIILERLGIE  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              VPS+ +EKY+EK
+Sbjct  122  TRVPSRLIEKYIEK  135
+
+
+ Score = 42.2 bits (98),  Expect = 0.045, Method: Composition-based stats.
+ Identities = 32/104 (31%), Positives = 49/104 (47%), Gaps = 14/104 (13%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYL----------  48
+            +E  +EF AKH+ W V + +   E+  +  IA  L+ +  TVS K   YL          
+Sbjct  1    MEEKIEFLAKHKNWFVVKKLKIDENTEDIEIARLLASIDETVSRKFLEYLPFDLKKLEEI  60
+
+Query  49   GEKIDVNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+             ++I V     +K E  + E LK L SP VSR++  +    + K
+Sbjct  61   ADQIYVKKKGRVKEE-EIAEALKKLKSPAVSRKLNEITESKEGK  103
+
+
+>ref|YP_004576971.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+ ref|WP_013867376.1| hypothetical protein [Methanothermococcus okinawensis]
+ gb|AEH07193.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+Length=146
+
+ Score =  106 bits (265),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 41/135 (30%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYFG  194
+            + I F A+ G W VVK+M I+E T  ++IARLL SI++T   KI +F   D KKI E   
+Sbjct  11   EKIQFRAKRGKWFVVKKMDINENTEDIEIARLLNSIDKTINKKILEFLPFDIKKIEEMAD  70
+
+Query  195  GFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKV  237
+                                K+K     +++  +    +G E         +L +LG+K 
+Sbjct  71   EIYQKKKGRVKEEDIANALSKLKSPSTTRKLNNITELKEGKEILKIILNNIILERLGIKT  130
+
+Query  238  DVPSKNLEKYLEKAG  252
+             + +K ++KY+EK+ 
+Sbjct  131  KLDTKLIDKYIEKSS  145
+
+
+>gb|EET90504.1| hypothetical protein UNLARM2_0038 [Candidatus Micrarchaeum acidiphilum 
+ARMAN-2]
+Length=154
+
+ Score = 51.1 bits (121),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 24/129 (19%), Positives = 48/129 (37%), Gaps = 15/129 (12%)
+
+Query  133  EEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEY  192
+             E+++ F A+Y  W+ +KRM I   T   ++   +A I  T   K      +D + +  Y
+Sbjct  5    PEEYVEFMAKYKDWVSIKRMSIGPSTKPEEVVYHMAGIRSTIDGKAFKLLGIDTEMLDAY  64
+
+Query  193  FGGFKK--------------VKKEEEIKEIVQLF-REFKGNEFEVRYAAREMLSKLGLKV  237
+                 +              + +  + K I++   +    + F   Y    ++S +  + 
+Sbjct  65   AESSTRSAGRGYSGLSKAVLIMESNDTKSIIEKACQSQTMSPFARSYLLNRIISAMKFET  124
+
+Query  238  DVPSKNLEK  246
+             V    L K
+Sbjct  125  SVSQLGLSK  133
+
+
+>ref|WP_007485472.1| hypothetical protein [Bacteroides nordii]
+ gb|EIY49818.1| hypothetical protein HMPREF1068_02377 [Bacteroides nordii CL02T12C05]
+Length=1075
+
+ Score = 41.5 bits (96),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 29/154 (19%), Positives = 61/154 (40%), Gaps = 10/154 (6%)
+
+Query  10   AKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLG--EKIDVNGLLSIKIEGSLE  67
+             +  ++ V   ++   N  I  F  +++N+     P Y+   + +D +G      +    
+Sbjct  245  LRISDFKVESPLDADYNNGILKFKIKIANSGKPVYPSYVISYKLLDKDGQQVATSD----  300
+
+Query  68   EKLKALISPKVSRQIGRLVMEDD--KKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEG  125
+              +KA+ +P +S+ +   V +D+  K  K+   E     L   ++  + P      +   
+Sbjct  301  YAVKAMPAPGISQSLNEFVFDDNIIKSPKQWTAETPD--LYTLVISLKKPESGEVMEATS  358
+
+Query  126  LKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTP  159
+            +K+  R  E   N     G  I+VK + + E   
+Sbjct  359  VKVGFRTVEMKNNQLCVNGKPILVKGVNVHEHNE  392
+
+
+>ref|WP_007547628.1| hypothetical protein [Sulfurihydrogenibium yellowstonense]
+ gb|EEP60159.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+yellowstonense SS-5]
+Length=340
+
+ Score = 41.1 bits (95),  Expect = 0.37, Method: Composition-based stats.
+ Identities = 24/77 (31%), Positives = 38/77 (49%), Gaps = 5/77 (6%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            D I +T + G WI +  +II    D K  L DIAR +ASI++     +  F  +  K + 
+Sbjct  204  DAIEYTYKQGIWIEITTLIIPGENDSKEELRDIARFIASIDKNIPWHVSRFYPM-YKMLD  262
+
+Query  191  EYFGGFKKVKKEEEIKE  207
+                  +K+K+  EI +
+Sbjct  263  RPPTPIEKLKEAYEIGK  279
+
+
+>ref|WP_002560515.1| hypothetical protein [Bacteroides sp. HPS0048]
+ gb|EOA57536.1| hypothetical protein HMPREF1214_02571 [Bacteroides sp. HPS0048]
+Length=1075
+
+ Score = 41.1 bits (95),  Expect = 0.56, Method: Composition-based stats.
+ Identities = 31/156 (20%), Positives = 63/156 (40%), Gaps = 13/156 (8%)
+
+Query  10   AKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLG--EKIDVNGLLSIKIEGSLE  67
+             +  ++ V   ++   N  I  F  +++N+     P Y+   + +D +G      +    
+Sbjct  245  LRIADFKVESPLDADYNNGILKFKIKIANSGKPVYPSYVISYKLLDKDGQQVATSD----  300
+
+Query  68   EKLKALISPKVSRQIGRLVMEDD--KKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEG  125
+              +KA+ +P +S+ +   V +D+  K  K+   E     L   ++  + P      +   
+Sbjct  301  YAVKAMPAPGISQSLNEFVFDDNIIKSPKQWTAETP--YLYTLVISLKKPESGEVMEATS  358
+
+Query  126  LKIQPRYEEDHINFTARYGSWIVVKRMII---DEKT  158
+            +K+  R  E   N     G  I+VK + +   DE T
+Sbjct  359  VKVGFRSVEMKNNQLCVNGKPILVKGVNVHEHDEHT  394
+
+
+>ref|YP_001930948.1| radical SAM protein [Sulfurihydrogenibium sp. YO3AOP1]
+ ref|WP_012459471.1| hypothetical protein [Sulfurihydrogenibium sp. YO3AOP1]
+ gb|ACD66394.1| Radical SAM domain protein [Sulfurihydrogenibium sp. YO3AOP1]
+Length=340
+
+ Score = 39.2 bits (90),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 5/77 (6%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            D I +T + G WI +  +II    D K  L +IAR +ASI++     +  F  +  K + 
+Sbjct  204  DSIEYTYKQGIWIEITTLIIPGENDSKEELRNIARFIASIDKNIPWHVSRFYPM-YKMLD  262
+
+Query  191  EYFGGFKKVKKEEEIKE  207
+                  +K+K+  EI +
+Sbjct  263  RPPTPIEKLKEAYEIGK  279
+
+
+>ref|WP_018645808.1| hypothetical protein [Bradyrhizobium japonicum]
+Length=423
+
+ Score = 39.2 bits (90),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 24/106 (23%), Positives = 47/106 (44%), Gaps = 5/106 (5%)
+
+Query  21   VEDFTNENIAMF---LSRVSNTVSSKIPGYLGEKIDVNGLLSIKIEGSLEEKLKALISPK  77
+            + D  +EN  +F    +   N VS K+   +   IDVN  + +   G        L  P+
+Sbjct  218  LLDRADENAGVFDPLFAAYKNAVSFKVSDAIRLIIDVNTFVGLLAVGVALLAFAVLSGPE  277
+
+Query  78   VSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKI  123
+                +  L  E+ K   + ++ ++ A+L    L +++ +++P G I
+Sbjct  278  EKPSLASL--EERKSNLQRMIMLSSAILVVATLASKVVMDWPLGLI  321
+
+
+>dbj|BAF46986.1| hypothetical protein [Klebsiella pneumoniae subsp. ozaenae]
+Length=284
+
+ Score = 38.8 bits (89),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 29/135 (21%), Positives = 54/135 (40%), Gaps = 25/135 (19%)
+
+Query  81   QIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKIQPRYEEDHINFT  140
+            ++   + ++DKK K              +  + LP  +P G+ +   I  + + + +NF 
+Sbjct  163  KVYAYLPQEDKKQK------------WGVGLSGLPWFYPRGEWQN--ITLKVKLNTVNFQ  208
+
+Query  141  ARYGSWIVVKRMIIDE------KTPLLDIARLLASI-----NETAVNKIKDFADVDDKKI  189
+                   V  +++ID       KTP L I  +L S      N +   K   + D  D KI
+Sbjct  209  NGIVKLWVNNKLVIDRRDVLFRKTPNLKIDGVLFSTFFGGNNPSFAPKELQYLDFKDIKI  268
+
+Query  190  VEYFGGFKKVKKEEE  204
+             ++F    + + +E 
+Sbjct  269  SDWFSKQMRCEHDET  283
+
+
+>dbj|BAF47002.1| hypothetical protein [Klebsiella pneumoniae]
+ dbj|BAI43763.1| hypothetical protein [Klebsiella pneumoniae]
+Length=284
+
+ Score = 38.8 bits (89),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 29/135 (21%), Positives = 54/135 (40%), Gaps = 25/135 (19%)
+
+Query  81   QIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKIQPRYEEDHINFT  140
+            ++   + ++DKK K              +  + LP  +P G+ +   I  + + + +NF 
+Sbjct  163  KVYAYLPQEDKKQK------------WGVGLSGLPWFYPRGEWQN--ITLKVKLNTVNFQ  208
+
+Query  141  ARYGSWIVVKRMIIDE------KTPLLDIARLLASI-----NETAVNKIKDFADVDDKKI  189
+                   V  +++ID       KTP L I  +L S      N +   K   + D  D KI
+Sbjct  209  NGIVKLWVNNKLVIDRRDVLFRKTPNLKIDGVLFSTFFGGNNPSFAPKELQYLDFKDIKI  268
+
+Query  190  VEYFGGFKKVKKEEE  204
+             ++F    + + +E 
+Sbjct  269  SDWFSKQMRCEHDET  283
+
+
+>ref|WP_001334744.1| hypothetical protein [Escherichia coli]
+ gb|EFJ67768.1| hypothetical protein HMPREF9547_00978 [Escherichia coli MS 175-1]
+Length=258
+
+ Score = 38.4 bits (88),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 29/135 (21%), Positives = 54/135 (40%), Gaps = 25/135 (19%)
+
+Query  81   QIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKIQPRYEEDHINFT  140
+            ++   + ++DKK K              +  + LP  +P G+ +   I  + + + +NF 
+Sbjct  137  KVYAYLPQEDKKQK------------WGVGLSGLPWFYPRGEWQN--ITLKVKLNTVNFQ  182
+
+Query  141  ARYGSWIVVKRMIIDE------KTPLLDIARLLASI-----NETAVNKIKDFADVDDKKI  189
+                   V  +++ID       KTP L I  +L S      N +   K   + D  D KI
+Sbjct  183  NGIVKLWVNNKLVIDRRDVLFRKTPNLKIDGVLFSTFFGGNNPSFAPKELQYLDFKDIKI  242
+
+Query  190  VEYFGGFKKVKKEEE  204
+             ++F    + + +E 
+Sbjct  243  SDWFSKQMRCEHDET  257
+
+
+>ref|YP_002729608.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+azorense Az-Fu1]
+ ref|WP_012675105.1| hypothetical protein [Sulfurihydrogenibium azorense]
+ gb|ACN99798.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+azorense Az-Fu1]
+Length=340
+
+ Score = 38.4 bits (88),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 39/101 (39%), Gaps = 14/101 (14%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            + I +  + G WI +  +II    D K  L DIAR +ASI++     I  F      K+ 
+Sbjct  204  EAIEYAYKLGIWIEITTLIIPGENDSKEELRDIARFIASIDKDIPWHISRFYP--MYKMT  261
+
+Query  191  EYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLS  231
+            ++            + ++++ +   K       Y    +  
+Sbjct  262  DH--------PPTPVSKLIEAYEIGKEEGLNYIYVGNIIDE  294
+
+
+>ref|WP_023509095.1| haloacid dehalogenase [Sporolactobacillus laevolacticus]
+ gb|EST12809.1| haloacid dehalogenase [Sporolactobacillus laevolacticus DSM 442]
+Length=382
+
+ Score = 38.8 bits (89),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 29/161 (18%), Positives = 56/161 (35%), Gaps = 34/161 (21%)
+
+Query  101  AKAVLTREIL----------KNELPIEFPGGKIEGLKIQPRYEEDHINFTARYG---SW-  146
+            A A+  RE+L                E+   +I  ++ +    +D +NF    G   +W 
+Sbjct  22   ASALTVRELLLSENYLGLGNSRNFQTEYSDEEIAEIRSKLFLNDDVLNFLKSRGMNANWD  81
+
+Query  147  -----IVVKRMIIDEKTPL---LDIARLLASINETAVNKIKDFADVDDKKIVEYFGGFKK  198
+                 I V+ + + E+ P     + A+LL     T   K          +   +F  +  
+Sbjct  82   MIYITISVQLIHLTEQLPSDVRAEAAKLLT---RTIDQKT-------LDQFRAWFKNYP-  130
+
+Query  199  VKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDV  239
+              K +  + ++         +  + Y       +LG+K DV
+Sbjct  131  -VKPDFSQFMIDFRESKAVKQELILYLNEIAERRLGIKTDV  170
+
+
+>ref|WP_008897927.1| integrase [Rheinheimera sp. A13L]
+ gb|EGM78700.1| integrase family protein [Rheinheimera sp. A13L]
+Length=343
+
+ Score = 37.6 bits (86),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 25/99 (25%), Positives = 42/99 (42%), Gaps = 5/99 (5%)
+
+Query  159  PLLDIARLLASINETAVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN  218
+            P  +IARLL +   +    IK +   D   +     G K       I E+++L   F+  
+Sbjct  42   PKAEIARLLQAARSSVNRWIKWYLADDLDGLQADMPGKKVRFPPTFIGELLKLLISFRPQ  101
+
+Query  219  EF--EVRYAAREMLS---KLGLKVDVPSKNLEKYLEKAG  252
+             F  +    + E+LS   +  L + V S  + ++L K G
+Sbjct  102  NFGYQRSRWSSELLSIVIREALNIVVHSSTIRRWLPKHG  140
+
+
+>ref|XP_001581043.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAY20057.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=568
+
+ Score = 37.6 bits (86),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 14/60 (23%), Positives = 25/60 (42%), Gaps = 3/60 (5%)
+
+Query  165  RLLASINETAVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRY  224
+            R++  IN+    K+ D+  +  +     F    K+K  +E K  ++LF   K  E     
+Sbjct  206  RIIEKINDYIS-KLPDYEPITVENFKSAFDEAGKLKNPQEFK--LRLFHSKKDKELLPEL  262
+
+
+>gb|EJC98884.1| Cullin-domain-containing protein [Fomitiporia mediterranea MF3/22]
+Length=781
+
+ Score = 37.2 bits (85),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 18/93 (19%), Positives = 37/93 (40%), Gaps = 3/93 (3%)
+
+Query  159  PLLDIARLLASINETAVNKIKD---FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREF  215
+              ++I R   SI+ET V +I D   +  +D +   E      K   E       + + + 
+Sbjct  174  EQIEIERNGGSIDETLVKRIIDSFVYLGIDTENANEESLDIYKDHFENPFIAATEEYYKA  233
+
+Query  216  KGNEFEVRYAAREMLSKLGLKVDVPSKNLEKYL  248
+            +   F    +  + L K+  ++    + ++ YL
+Sbjct  234  ESEAFLAENSVSDYLKKVEGRLKEEQERVDMYL  266
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.146    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 810777595870
+Results from round 3
+
+
+Query= 3V68A
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_002582892.1|  hypothetical protein [Thermococcus sp. AM4] ...   343    1e-115
+ref|YP_002958835.1|  hypothetical protein TGAM_0469 [Thermococcus...   340    2e-114
+ref|WP_010480142.1|  hypothetical protein [Thermococcus zilligii]      329    3e-110
+ref|YP_004762080.1|  hypothetical protein GQS_02510 [Thermococcus...   326    8e-109
+ref|YP_006424161.1|  hypothetical protein CL1_0152 [Thermococcus ...   325    1e-108
+ref|YP_002306912.1|  hypothetical protein TON_0528 [Thermococcus ...   314    6e-104
+ref|YP_183676.1|  hypothetical protein TK1263 [Thermococcus kodak...   312    3e-103
+ref|YP_004624432.1|  hypothetical protein PYCH_14920 [Pyrococcus ...   310    1e-102
+ref|YP_004071108.1|  hypothetical protein TERMP_00909 [Thermococc...   310    1e-102
+ref|YP_002993505.1|  hypothetical protein TSIB_0088 [Thermococcus...   308    7e-102
+ref|NP_579779.1|  hypothetical protein PF2050 [Pyrococcus furiosu...   306    4e-101
+ref|NP_125764.1|  hypothetical protein PAB0036 [Pyrococcus abyssi...   303    5e-100
+ref|YP_008428911.1|  hypothetical protein OCC_06796 [Thermococcus...   302    2e-99 
+ref|YP_006353817.1|  hypothetical protein Py04_0137 [Pyrococcus s...   301    3e-99 
+ref|NP_142081.1|  hypothetical protein PH0063 [Pyrococcus horikos...   292    9e-96 
+ref|YP_004423520.1|  hypothetical protein PNA2_0600 [Pyrococcus s...   262    8e-84 
+ref|NP_247578.1|  hypothetical protein MJ_0596 [Methanocaldococcu...   132    5e-35 
+ref|YP_004484894.1|  hypothetical protein [Methanotorris igneus K...   131    1e-34 
+ref|YP_003458986.1|  hypothetical protein MFS40622_1578 [Methanoc...   127    4e-33 
+ref|YP_003128690.1|  hypothetical protein Mefer_1383 [Methanocald...   126    1e-32 
+ref|WP_004589982.1|  hypothetical protein [Methanocaldococcus vil...   123    2e-31 
+ref|YP_003247923.1|  hypothetical protein Metvu_1588 [Methanocald...   123    2e-31 
+ref|YP_001323586.1|  hypothetical protein Mevan_1074 [Methanococc...   121    1e-30 
+ref|YP_001324638.1|  hypothetical protein Maeo_0440 [Methanococcu...   120    3e-30 
+ref|WP_007044473.1|  hypothetical protein [Methanotorris formicic...   120    3e-30 
+ref|YP_001098129.1|  hypothetical protein MmarC5_1618 [Methanococ...   118    2e-29 
+ref|NP_987179.1|  hypothetical protein MMP0059 [Methanococcus mar...   117    3e-29 
+ref|YP_001548938.1|  hypothetical protein MmarC6_0891 [Methanococ...   116    5e-29 
+ref|WP_018153767.1|  hypothetical protein [Methanothermococcus th...   115    2e-28 
+ref|YP_001330273.1|  hypothetical protein MmarC7_1056 [Methanococ...   115    2e-28 
+ref|YP_003708002.1|  hypothetical protein Mvol_1373 [Methanococcu...   113    6e-28 
+ref|YP_003616893.1|  hypothetical protein Metin_1279 [methanocald...   108    7e-26 
+gb|EET90504.1|  hypothetical protein UNLARM2_0038 [Candidatus Mic...   106    1e-24 
+ref|YP_004576971.1|  hypothetical protein Metok_1225 [Methanother...   105    2e-24 
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_007547628.1|  hypothetical protein [Sulfurihydrogenibium y...  43.0    0.095
+ref|YP_001930948.1|  radical SAM protein [Sulfurihydrogenibium sp...  41.1    0.34 
+ref|WP_023509095.1|  haloacid dehalogenase [Sporolactobacillus la...  41.1    0.40 
+ref|NP_001270039.1|  uncharacterized protein LOC101926150 precurs...  39.2    1.2  
+ref|WP_007391510.1|  tRNA modification GTPase [Megasphaera sp. UP...  38.4    2.5  
+ref|YP_002729608.1|  [pyruvate formate-lyase]-activating enzyme [...  37.6    4.1  
+ref|WP_009369611.1|  tRNA modification GTPase [Megasphaera genomo...  38.0    4.2  
+ref|WP_007639432.1|  hypothetical protein [Cellvibrio sp. BR] >gb...  37.6    5.5  
+ref|WP_010653787.1|  polyprenyl-pyrophosphate binding protein [Fl...  36.5    7.3  
+ref|YP_006441202.1|  TRAP dicarboxylate transporter, DctM subunit...  36.9    9.8  
+
+
+>ref|YP_002582892.1| hypothetical protein [Thermococcus sp. AM4]
+ ref|WP_014123194.1| hypothetical protein [Thermococcus sp. AM4]
+ gb|EEB74642.1| hypothetical protein TAM4_587 [Thermococcus sp. AM4]
+Length=263
+
+ Score =  343 bits (880),  Expect = 1e-115, Method: Composition-based stats.
+ Identities = 122/259 (47%), Positives = 176/259 (68%), Gaps = 10/259 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E +A FL+RV+NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADRLMDMEDEGVARFLARVANTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   I--EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+               +G L + + +L SP  SR++G LV E+DKKLKKLLV+ AKA+L R  L   +P+++P
+Sbjct  65   EGFDGDLTKVIVSLKSPGTSRKLGALVFEEDKKLKKLLVDAAKALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G +E +++   + EDH+NFTA++G WIVVKR+IID+ T  +D+ARLLASINET   K+ 
+Sbjct  125  DGLLEEVRVMFPFPEDHVNFTAKHGRWIVVKRLIIDDSTQKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF-------EVRYAAREMLSK  232
+             +A +D K I E+FG  KKVKK  EI  +V+ +  F+ +EF          YA R+ L  
+Sbjct  185  AYAGIDVKGIEEWFGPRKKVKK-SEIPSVVERYLNFQPSEFAPGFEEHARVYALRKALEL  243
+
+Query  233  LGLKVDVPSKNLEKYLEKA  251
+            +GL +DVP+K+LEKYLEK 
+Sbjct  244  IGLSLDVPAKSLEKYLEKK  262
+
+
+ Score = 58.8 bits (141),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 33/134 (25%), Positives = 55/134 (41%), Gaps = 20/134 (15%)
+
+Query  129  QPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD--VDD  186
+             PR  EDH+ FTA++G+W V  R++         +AR LA +  T  +KI ++    ++ 
+Sbjct  1    MPRAVEDHVMFTAKHGNWKVADRLM---DMEDEGVARFLARVANTVNSKIPEYLTDVMNV  57
+
+Query  187  KKIVEYFGGFK--------KVKKEEEIKEIVQLFREFKGN------EFEVRYAAREMLSK  232
+              I+    GF          +K     +++  L  E          +       R  LS+
+Sbjct  58   AGIMSLAEGFDGDLTKVIVSLKSPGTSRKLGALVFEEDKKLKKLLVDAAKALLVRLTLSR  117
+
+Query  233  LGLKVDVPSKNLEK  246
+              + VD P   LE+
+Sbjct  118  F-VPVDYPDGLLEE  130
+
+
+>ref|YP_002958835.1| hypothetical protein TGAM_0469 [Thermococcus gammatolerans EJ3]
+ ref|WP_015858089.1| hypothetical protein [Thermococcus gammatolerans]
+ gb|ACS32971.1| Conserved hypothetical protein [Thermococcus gammatolerans EJ3]
+Length=263
+
+ Score =  340 bits (873),  Expect = 2e-114, Method: Composition-based stats.
+ Identities = 122/259 (47%), Positives = 177/259 (68%), Gaps = 10/259 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTAKH  W V + + D  +E IA FL+RV NTV+SKIP YL + ++V G++S+ 
+Sbjct  5    VEDHVMFTAKHGNWKVADKLIDVEDEKIARFLARVGNTVNSKIPEYLTDVMNVAGIMSLA  64
+
+Query  62   I--EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+               +G L + + +L SP +SR++G LV E+DKKLKKLLV+ A+A+L R  L   +P+++P
+Sbjct  65   EGIDGDLTKVIVSLKSPGISRKLGALVFEEDKKLKKLLVDAARALLVRLTLSRFVPVDYP  124
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             G ++ +++   + +DH+NFTA++GSWIVVKR+IID+ TP +D+ARLLASINET   K+ 
+Sbjct  125  DGLLKEVRVVFPFPDDHVNFTAKHGSWIVVKRLIIDDSTPKVDVARLLASINETVTLKLP  184
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF-------EVRYAAREMLSK  232
+             +A +D   I E+FG  KKVKK  EI  IV+ +  F+ +EF          YA R  L +
+Sbjct  185  AYAGIDVNGIEEWFGPRKKVKK-SEIPSIVERYLNFQPSEFAPGFEEHARVYALRIALER  243
+
+Query  233  LGLKVDVPSKNLEKYLEKA  251
+            +GL +DVP+K+LEKYLEK 
+Sbjct  244  IGLSLDVPAKSLEKYLEKK  262
+
+
+ Score = 56.9 bits (136),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 36/123 (29%), Positives = 56/123 (46%), Gaps = 14/123 (11%)
+
+Query  129  QPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD--VDD  186
+             PR  EDH+ FTA++G+W V  ++I         IAR LA +  T  +KI ++    ++ 
+Sbjct  1    MPRSVEDHVMFTAKHGNWKVADKLI---DVEDEKIARFLARVGNTVNSKIPEYLTDVMNV  57
+
+Query  187  KKI----VEYFGGFKKV----KKEEEIKEIVQ-LFREFKGNEFEVRYAAREMLSKLGLKV  237
+              I        G   KV    K     +++   +F E K  +  +  AAR +L +L L  
+Sbjct  58   AGIMSLAEGIDGDLTKVIVSLKSPGISRKLGALVFEEDKKLKKLLVDAARALLVRLTLSR  117
+
+Query  238  DVP  240
+             VP
+Sbjct  118  FVP  120
+
+
+>ref|WP_010480142.1| hypothetical protein [Thermococcus zilligii]
+Length=265
+
+ Score =  329 bits (845),  Expect = 3e-110, Method: Composition-based stats.
+ Identities = 121/262 (46%), Positives = 174/262 (66%), Gaps = 13/262 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNE-NIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            +E  + FTAKH  W V + + D  +   IA FL+ VSNTV+SKIP YL   ++V G++S+
+Sbjct  5    VEDHVMFTAKHGSWKVADKLLDVDDRARIAHFLAMVSNTVNSKIPEYLTGVMNVAGIMSL  64
+
+Query  61   KIE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIE  117
+              E   G L + + +L SP  S+++G LV EDDK LKKLLV+VA+AVL R  L   +P+ 
+Sbjct  65   AEELARGDLTKVVSSLKSPGTSKKLGDLVFEDDKTLKKLLVDVARAVLVRMTLSRFVPVS  124
+
+Query  118  FPGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNK  177
+            +P G++  +++   + +DH+NFTA++G WIVVKR+IID+ TP++D+ARLLASINET   K
+Sbjct  125  YPEGELAEVRVVFPFPDDHVNFTAKHGEWIVVKRLIIDDATPMVDVARLLASINETTTLK  184
+
+Query  178  IKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEF--------EVRYAAREM  229
+            I  +AD+D + I E+FGG KKVKK  EI  +++ +  F+ + F           YA R+ 
+Sbjct  185  IPVYADIDLEGIEEWFGGLKKVKK-SEIPTVIEKYLHFQPSSFAPAEFEGHARVYALRKA  243
+
+Query  230  LSKLGLKVDVPSKNLEKYLEKA  251
+            L  + L +DVP+K+LEKYLEK 
+Sbjct  244  LEVIDLPLDVPAKSLEKYLEKK  265
+
+
+>ref|YP_004762080.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+ ref|WP_014012088.1| hypothetical protein [Thermococcus sp. 4557]
+ gb|AEK72403.1| hypothetical protein GQS_02510 [Thermococcus sp. 4557]
+Length=267
+
+ Score =  326 bits (836),  Expect = 8e-109, Method: Composition-based stats.
+ Identities = 116/266 (44%), Positives = 173/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA H  W V + + D  +E +A F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTAHHGNWKVADRLLDMNDEKVAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E    +L + + AL SP  +R++G+LV EDDKKL+K LV+VAKA+L RE+L  ++P+++
+Sbjct  63   EELAQKNLSDAVVALKSPGTARKLGQLVFEDDKKLRKHLVDVAKALLVREVLSKKVPVDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P  ++  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEQLSEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVR--------YA  225
+               K+  +A +D   I  +FG FKKVKK  EI  +V+ +  F    +  R        YA
+Sbjct  183  ITLKLPVYAGIDVDGIDAWFGEFKKVKK-AEIPAVVEKYMHFPAENYAPRPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+K+LEKYLEK 
+Sbjct  242  LRKALEKIGLPLDVPAKSLEKYLEKK  267
+
+
+>ref|YP_006424161.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+ ref|WP_014788008.1| hypothetical protein [Thermococcus sp. CL1]
+ gb|AFL94367.1| hypothetical protein CL1_0152 [Thermococcus sp. CL1]
+Length=267
+
+ Score =  325 bits (834),  Expect = 1e-108, Method: Composition-based stats.
+ Identities = 116/266 (44%), Positives = 172/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA+H  W V + + D  +E IA F++ ++NTV++KIP YL E ++V G+ S+ 
+Sbjct  3    VEDQIVFTARHGSWKVADRLIDMEDEKIAHFIASIANTVNAKIPEYLTEVMNVAGIASLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L + + AL SP  +R++G+LV E+DKKLKKLLV+VA+A+L R +L  ++PI++
+Sbjct  63   EEMGRKDLSDAIVALKSPGTARKLGQLVFEEDKKLKKLLVDVARALLVRGVLSGKVPIDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P   +  ++I   Y EDH+NFT     A +G W  V+R+IID+KTP+ D+ARLLASINE+
+Sbjct  123  PEEPLTEVRIVFPYNEDHVNFTAFHLSAEHGKWRAVRRLIIDDKTPMADVARLLASINES  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN--------EFEVRYA  225
+               K+  +A +D   I  +FG FKKV+K  +I  +V+ +R F           E    YA
+Sbjct  183  ITAKLPVYAGIDVDGIDSWFGEFKKVRK-SDIPAVVEKYRHFPAENYASEPFVEHARVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+K+LEKYLEK 
+Sbjct  242  LRKALEKIGLSLDVPAKSLEKYLEKK  267
+
+
+>ref|YP_002306912.1| hypothetical protein TON_0528 [Thermococcus onnurineus NA1]
+ ref|WP_012571487.1| hypothetical protein [Thermococcus onnurineus]
+ gb|ACJ16015.1| hypothetical protein, conserved [Thermococcus onnurineus NA1]
+Length=267
+
+ Score =  314 bits (804),  Expect = 6e-104, Method: Composition-based stats.
+ Identities = 121/266 (45%), Positives = 174/266 (65%), Gaps = 17/266 (6%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +E  + FTA+H  W VG+ + +  +E +A FL+ ++NTV+ KIP YL E +++ G++S+ 
+Sbjct  3    VEDQIIFTARHGSWKVGDRLRNMEDEMVAHFLASIANTVNPKIPEYLTEVMNIAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L + + AL SP  +R++G LV E+DKKLKK LVEVAKA+L RE+L+ ++ +++
+Sbjct  63   EEIARKDLSDAVVALKSPGTARKLGALVFEEDKKLKKHLVEVAKAILVREVLEKKVTVDY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFT-----ARYGSWIVVKRMIIDEKTPLLDIARLLASINET  173
+            P   +  +KI   Y EDH+NFT     A +G W VVKR+IIDEKTP+ D+ARLLASINET
+Sbjct  123  PEEPLREVKIALPYNEDHVNFTAFHLSAEHGKWRVVKRLIIDEKTPMADVARLLASINET  182
+
+Query  174  AVNKIKDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG--------NEFEVRYA  225
+               K+  +A +D K I  +F  FKKVKK  +I  +V+ ++ F+          E    YA
+Sbjct  183  ITLKLPVYAGIDVKGIDAWFAEFKKVKK-ADIPAVVEKYKHFQAENYAREGFEEHAKVYA  241
+
+Query  226  AREMLSKLGLKVDVPSKNLEKYLEKA  251
+             R+ L K+GL +DVP+KNLEKYLEK 
+Sbjct  242  LRKALEKIGLPLDVPAKNLEKYLEKK  267
+
+
+>ref|YP_183676.1| hypothetical protein TK1263 [Thermococcus kodakarensis KOD1]
+ ref|WP_011250214.1| hypothetical protein [Thermococcus kodakarensis]
+ dbj|BAD85452.1| hypothetical protein, conserved [Thermococcus kodakarensis KOD1]
+Length=262
+
+ Score =  312 bits (799),  Expect = 3e-103, Method: Composition-based stats.
+ Identities = 131/261 (50%), Positives = 184/261 (70%), Gaps = 12/261 (5%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH +W V + + +  +EN+A FL+ ++N+V+S+IPGY+GEKID++G+  + 
+Sbjct  3    IEEHVAFTAKHNDWRVAKKLTELEDENVAHFLAGIANSVNSRIPGYMGEKIDIDGIRKLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E    +L + + AL SP  SR++G LV E+DKKLKKLLV+ AKAVL R  L+  +PI +
+Sbjct  63   EEVRKDTLSDTIVALKSPGTSRKLGGLVRENDKKLKKLLVDAAKAVLVRMTLEGVVPINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G++ G++++  YEEDH+NFTA++G WIVVKR+IIDEKTPLLD+ARLLASINET   K+
+Sbjct  123  PEGELTGVEVEFPYEEDHVNFTAKHGKWIVVKRLIIDEKTPLLDVARLLASINETVTLKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN--------EFEVRYAAREML  230
+              +A +D + I   F  FKKVKK  +I ++V+ +  F+ +        E    YA R  L
+Sbjct  183  PAYAHIDVEGIEGEFSAFKKVKK-SDIPKVVEAYEAFEPSAYADEPFLEHARVYALRVAL  241
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +DVPSK+LEKYLEKA
+Sbjct  242  EKIGLPLDVPSKSLEKYLEKA  262
+
+
+>ref|YP_004624432.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+ ref|WP_013906216.1| hypothetical protein [Pyrococcus yayanosii]
+ gb|AEH25160.1| hypothetical protein PYCH_14920 [Pyrococcus yayanosii CH1]
+Length=261
+
+ Score =  310 bits (794),  Expect = 1e-102, Method: Composition-based stats.
+ Identities = 131/259 (51%), Positives = 178/259 (69%), Gaps = 8/259 (3%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            +   +EFTA+H  W+VGE +E+   E IA FL+R+SNTV++K+P YL   IDV G+ ++ 
+Sbjct  3    VVDHIEFTARHGPWLVGERLEEMEEEKIAKFLARISNTVNNKLPDYLTVVIDVEGVRALL  62
+
+Query  62   IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGG  121
+             EG L E LK L SP  SR++  L+ E+DKKL+K+L +VAKA+L R  L N  P+++P  
+Sbjct  63   GEGELWEVLKHLRSPGTSRKLNALIREEDKKLRKILGDVAKALLVRLSLANLAPVDYPVE  122
+
+Query  122  KIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDF  181
+             I  ++++  YEE+H+NFTA++  WIVVKR++IDEKT  LD+ARLLASINETAV+KI  +
+Sbjct  123  PISEVRVKLPYEEEHVNFTAKHDRWIVVKRLMIDEKTSQLDVARLLASINETAVSKIPVY  182
+
+Query  182  ADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEV--------RYAAREMLSKL  233
+            A +D K I  YF  FKKV+KEE+IK + +    F   EF          R+A    LSKL
+Sbjct  183  ARIDVKGIKNYFSTFKKVRKEEDIKALAESLEAFPAEEFAPKEFKGFAARHALGVALSKL  242
+
+Query  234  GLKVDVPSKNLEKYLEKAG  252
+            GL +DVP+K LEKYLEK+G
+Sbjct  243  GLPLDVPAKVLEKYLEKSG  261
+
+
+>ref|YP_004071108.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+ ref|WP_013467183.1| hypothetical protein [Thermococcus barophilus]
+ gb|ADT83885.1| hypothetical protein TERMP_00909 [Thermococcus barophilus MP]
+Length=264
+
+ Score =  310 bits (794),  Expect = 1e-102, Method: Composition-based stats.
+ Identities = 138/262 (53%), Positives = 177/262 (68%), Gaps = 11/262 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTAKH+ W VG+ +    +ENIA FL+ +SNTV+ KI  YL + IDV  ++S+ 
+Sbjct  3    IEEHVMFTAKHKNWKVGDKLLVMRDENIAHFLASISNTVNMKISEYLIDVIDVAAVMSLA  62
+
+Query  62   I---EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+                EG L E +K L SPK SR+IG++V E DKKLKK LV+VAKA+L RE L   L + +
+Sbjct  63   EDLAEGELWEVVKVLKSPKTSRKIGKMVFESDKKLKKQLVDVAKALLVRETLSRMLSVYY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  LKI   Y+EDHINFTA++GSWIVVKR+IIDEKT L D+ARLLASINET  +K+
+Sbjct  123  PEDPIMELKIMLPYKEDHINFTAKHGSWIVVKRLIIDEKTELADVARLLASINETITSKL  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFK-----GNEF---EVRYAAREML  230
+              +A++D K I E+F G KK K + EIK +V  +  F       +EF      YA R+ML
+Sbjct  183  PIYAEIDLKGIDEWFAGVKKAKSDVEIKTLVDKYLHFPAHRYAPSEFEKHARIYALRKML  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKAG  252
+             K+GL +DVP+K LEKYLEK G
+Sbjct  243  EKVGLSLDVPAKPLEKYLEKKG  264
+
+
+>ref|YP_002993505.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+ ref|WP_012766117.1| hypothetical protein [Thermococcus sibiricus]
+ gb|ACS89156.1| hypothetical protein TSIB_0088 [Thermococcus sibiricus MM 739]
+Length=263
+
+ Score =  308 bits (789),  Expect = 7e-102, Method: Composition-based stats.
+ Identities = 124/261 (48%), Positives = 168/261 (64%), Gaps = 11/261 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +    +  IA FL+ VSNTV+ K+P YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMDDRQIAHFLAMVSNTVTLKLPEYLTEVMNVAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     + E LK L SP  SR++  ++ E++KKLK  L+ VAKA+LTRE L  ++ I +
+Sbjct  63   EEMTEKDVWELLKTLKSPGTSRKLNPMIFEENKKLKNHLLNVAKALLTREALSKKVSINY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P G I  LK    Y ++HINFTA+ GSWIVVKR+IID KTP+ DIAR+LASINETAV+KI
+Sbjct  123  PEGVITELKTTLIYHDEHINFTAKNGSWIVVKRLIIDNKTPMADIARILASINETAVSKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEF---EVRYAAREML  230
+              +  +D   I ++FG  KK + E EIK +V+ F       +  NEF      YA R  L
+Sbjct  183  PLYGKIDLDGIRKWFGDIKKARSEAEIKTLVEKFFHIPVENYAPNEFKDHAKIYALRVAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +D+P+K LEKYLEK 
+Sbjct  243  EKVGLTIDIPAKPLEKYLEKR  263
+
+
+>ref|NP_579779.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ ref|YP_006492883.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+ ref|WP_011013196.1| hypothetical protein [Pyrococcus furiosus]
+ pdb|3V68|A Chain A, Crystal Structure Of Pyrococcus Furiosus Pf2050, A Member 
+Of Duf2666 Family Protein
+ gb|AAL82174.1| hypothetical protein PF2050 [Pyrococcus furiosus DSM 3638]
+ gb|AFN04591.1| hypothetical protein PFC_08305 [Pyrococcus furiosus COM1]
+Length=252
+
+ Score =  306 bits (784),  Expect = 4e-101, Method: Composition-based stats.
+ Identities = 252/252 (100%), Positives = 252/252 (100%), Gaps = 0/252 (0%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI
+Sbjct  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG
+Sbjct  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD
+Sbjct  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+            FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP
+Sbjct  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDVP  240
+
+Query  241  SKNLEKYLEKAG  252
+            SKNLEKYLEKAG
+Sbjct  241  SKNLEKYLEKAG  252
+
+
+>ref|NP_125764.1| hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ ref|WP_010867196.1| hypothetical protein [Pyrococcus abyssi]
+ emb|CAB48995.1| Hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+ tpe|CCE69444.1| TPA: hypothetical protein PAB0036 [Pyrococcus abyssi GE5]
+Length=253
+
+ Score =  303 bits (776),  Expect = 5e-100, Method: Composition-based stats.
+ Identities = 161/253 (64%), Positives = 205/253 (81%), Gaps = 2/253 (1%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-I  60
+            ++ I EFT K ++ IVGE +++  +EN++ FL+RVSNTV  +IP YL EKIDV+G++  I
+Sbjct  1    MQDIAEFTLKIKDMIVGEALDEINDENMSRFLARVSNTVRQEIPKYLIEKIDVDGMIKGI  60
+
+Query  61   KIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPG  120
+            KI+G+LEEKLKAL SP  SR+IG  + EDDKKL+KLL +VAK VL    L+++LP++FP 
+Sbjct  61   KIQGTLEEKLKALKSPGTSRKIGNYIKEDDKKLRKLLQDVAKVVLVWNTLRDDLPLDFPV  120
+
+Query  121  GKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKD  180
+            G+IE L  QPRYEE+HINFT +YG WIVVKR+IIDEKTP+LDIARLLASINE+AV KI +
+Sbjct  121  GRIESLSTQPRYEEEHINFTVKYGKWIVVKRLIIDEKTPMLDIARLLASINESAVGKIPE  180
+
+Query  181  FADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVDV  239
+            FA +D K+I +YFGGFK+V+K+EEI+E+V+ FR FK  NE  +RYA  EMLSKLGL +DV
+Sbjct  181  FAGIDMKEIKDYFGGFKRVRKDEEIEELVRAFRNFKPENELAIRYAVGEMLSKLGLSIDV  240
+
+Query  240  PSKNLEKYLEKAG  252
+            PSKNLEKYLEK G
+Sbjct  241  PSKNLEKYLEKTG  253
+
+
+>ref|YP_008428911.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+ ref|WP_004067673.1| hypothetical protein [Thermococcus litoralis]
+ gb|EHR78974.1| hypothetical protein OCC_06796 [Thermococcus litoralis DSM 5473]
+Length=263
+
+ Score =  302 bits (774),  Expect = 2e-99, Method: Composition-based stats.
+ Identities = 125/261 (48%), Positives = 170/261 (65%), Gaps = 11/261 (4%)
+
+Query  2    IERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIK  61
+            IE  + FTA H+ W VG+ +       IA FL+ VSNTV+ KIP YL E ++V G++S+ 
+Sbjct  3    IEDHIAFTANHKNWKVGDKLLAMEKHEIAHFLASVSNTVTLKIPKYLTEVMNVAGIMSLA  62
+
+Query  62   IE---GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEF  118
+             E     L E LK L SP  SR++  ++ E+DKKLKKLL++VAKA+LTRE L  +  + +
+Sbjct  63   EEIGKKELWEALKTLKSPGTSRKLNPMIFEEDKKLKKLLLDVAKALLTREALSKKFSVSY  122
+
+Query  119  PGGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKI  178
+            P   I  L+    Y ++H+NFTA++GSWIVVKR+IID+KTP+ D+AR+LASINET V KI
+Sbjct  123  PEDPITDLRTTLIYHDEHVNFTAKHGSWIVVKRLIIDDKTPMADVARILASINETTVAKI  182
+
+Query  179  KDFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLF-----REFKGNEF---EVRYAAREML  230
+              +A++D K I ++FG  KK K E EIK +V          +   EF      YA R  L
+Sbjct  183  PVYAEIDLKGIEQWFGDIKKAKSEREIKTLVDKLLHIPIEHYAPKEFAEHAKIYALRTAL  242
+
+Query  231  SKLGLKVDVPSKNLEKYLEKA  251
+             K+GL +D+PSK+LEKYLEK+
+Sbjct  243  QKMGLSIDIPSKSLEKYLEKS  263
+
+
+>ref|YP_006353817.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+ ref|WP_014733268.1| hypothetical protein [Pyrococcus sp. ST04]
+ gb|AFK21742.1| hypothetical protein Py04_0137 [Pyrococcus sp. ST04]
+Length=251
+
+ Score =  301 bits (771),  Expect = 3e-99, Method: Composition-based stats.
+ Identities = 168/250 (67%), Positives = 204/250 (82%), Gaps = 1/250 (0%)
+
+Query  4    RILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKIE  63
+             +LEFT KH +W VG+ V++FTNENIA FL++VSNTV  K P YL EKID++GLL++K E
+Sbjct  2    EVLEFTVKHRDWNVGDEVKEFTNENIASFLAKVSNTVLDKFPQYLTEKIDIDGLLTLKPE  61
+
+Query  64   GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKI  123
+            G++EE+LK L SP  SR+IG  V+EDDKKLKKLLV+VAKAVL RE LK+ LPIEF  GKI
+Sbjct  62   GTVEERLKLLKSPGTSRKIGSYVIEDDKKLKKLLVDVAKAVLVRESLKDVLPIEFALGKI  121
+
+Query  124  EGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFAD  183
+            E +KI+PRYEEDHINFTA+YG WIVVKR+IIDEKTPLLDIARLLASINETA+NKI +FA 
+Sbjct  122  EEMKIRPRYEEDHINFTAKYGRWIVVKRLIIDEKTPLLDIARLLASINETAINKIPEFAG  181
+
+Query  184  VDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGNE-FEVRYAAREMLSKLGLKVDVPSK  242
+            ++ K I E+F  FK+V+K+E+IK +V+ F EF+    FE RYA   MLSKL L +D P+K
+Sbjct  182  IEIKDIKEHFKEFKRVRKDEDIKRLVEKFNEFQPKNSFESRYAVSIMLSKLNLTIDPPAK  241
+
+Query  243  NLEKYLEKAG  252
+            NLEKYLEKAG
+Sbjct  242  NLEKYLEKAG  251
+
+
+ Score = 42.6 bits (99),  Expect = 0.083, Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 28/53 (53%), Gaps = 3/53 (6%)
+
+Query  3    ERILEFTAKHEEWIVGENVEDFTNE---NIAMFLSRVSNTVSSKIPGYLGEKI  52
+            E  + FTAK+  WIV + +         +IA  L+ ++ T  +KIP + G +I
+Sbjct  132  EDHINFTAKYGRWIVVKRLIIDEKTPLLDIARLLASINETAINKIPEFAGIEI  184
+
+
+>ref|NP_142081.1| hypothetical protein PH0063 [Pyrococcus horikoshii OT3]
+ ref|WP_010884180.1| hypothetical protein [Pyrococcus horikoshii]
+ dbj|BAA29132.1| 254aa long hypothetical protein [Pyrococcus horikoshii OT3]
+Length=254
+
+ Score =  292 bits (748),  Expect = 9e-96, Method: Composition-based stats.
+ Identities = 160/254 (63%), Positives = 195/254 (77%), Gaps = 2/254 (1%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-  59
+            M   I+EFT K     VGE  ++   + IA+FL+RVSNTV  +IP YL E+IDV+ +L  
+Sbjct  1    MTGDIVEFTLKLGGLEVGEAPKELREDQIAIFLARVSNTVRHEIPKYLQERIDVDRMLKE  60
+
+Query  60   IKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFP  119
+            + I G+LEEKLK L SP  SR+I   ++EDD+KLKKLL++VAK +L    LK++LPI+FP
+Sbjct  61   LTINGALEEKLKKLKSPGTSRKINSYILEDDRKLKKLLLDVAKVILVWNTLKDDLPIDFP  120
+
+Query  120  GGKIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIK  179
+             GKI  LKI PRY+EDHINFTA+YG WIVVKR+IIDEKTP LDIARLLASINETAVNKI 
+Sbjct  121  VGKISELKITPRYKEDHINFTAKYGRWIVVKRLIIDEKTPKLDIARLLASINETAVNKIP  180
+
+Query  180  DFADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG-NEFEVRYAAREMLSKLGLKVD  238
+            +FA +D  +I E+F  FKKVKKEEEIK +++ FR FK  NE EVRYA  EM+SKLGL +D
+Sbjct  181  EFAGIDIGRIREHFRDFKKVKKEEEIKRLMEKFRSFKPTNELEVRYAISEMISKLGLSID  240
+
+Query  239  VPSKNLEKYLEKAG  252
+            +PSKNLEKYLEK G
+Sbjct  241  IPSKNLEKYLEKTG  254
+
+
+>ref|YP_004423520.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+ ref|WP_013748070.1| hypothetical protein [Pyrococcus sp. NA2]
+ gb|AEC51516.1| hypothetical protein PNA2_0600 [Pyrococcus sp. NA2]
+Length=255
+
+ Score =  262 bits (669),  Expect = 8e-84, Method: Composition-based stats.
+ Identities = 153/252 (61%), Positives = 199/252 (79%), Gaps = 2/252 (1%)
+
+Query  3    ERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLS-IK  61
+              I EFT K     +GE   +  +  +++FL+RVSNTV + IP YL E+IDV+ +LS IK
+Sbjct  4    GDIAEFTVKLGNMEIGEAPRELNDYELSIFLARVSNTVRALIPDYLQERIDVSRMLSEIK  63
+
+Query  62   IEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGG  121
+            +EGS+EEKLK L SP  SR+I   VME+DKKLKKLL++VAK V+   +LK+ELP++FP G
+Sbjct  64   VEGSIEEKLKFLRSPGTSRKINTYVMEEDKKLKKLLLDVAKVVVVWNVLKDELPLDFPVG  123
+
+Query  122  KIEGLKIQPRYEEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDF  181
+            KIE LKI+PRYEE+HINFT ++G WIVVKR+I+DEKTP+LDIARLLASINET VNKI +F
+Sbjct  124  KIEELKIKPRYEEEHINFTVKFGKWIVVKRLIVDEKTPMLDIARLLASINETTVNKIPEF  183
+
+Query  182  ADVDDKKIVEYFGGFKKVKKEEEIKEIVQLFREFKGN-EFEVRYAAREMLSKLGLKVDVP  240
+            A +D K+I E+F  FKKV+KEE+IK++V+ FR+F+   E E+RYA +EMLSKL L +D+P
+Sbjct  184  ARIDVKRIEEHFKEFKKVRKEEDIKKLVEKFRKFEPKNELEIRYAVKEMLSKLNLSIDIP  243
+
+Query  241  SKNLEKYLEKAG  252
+            +KNLEKYLE+ G
+Sbjct  244  AKNLEKYLERTG  255
+
+
+>ref|NP_247578.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+ ref|WP_010870100.1| hypothetical protein [Methanocaldococcus jannaschii]
+ sp|Q58013.1|Y596_METJA RecName: Full=Uncharacterized protein MJ0596
+ gb|AAB98596.1| hypothetical protein MJ_0596 [Methanocaldococcus jannaschii DSM 
+2661]
+Length=141
+
+ Score =  132 bits (333),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 69/135 (51%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+             G                  KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEKA  251
+              V  K +EKY+E +
+Sbjct  122  TRVSPKVIEKYIENS  136
+
+
+ Score = 95.0 bits (235),  Expect = 8e-21, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KIP YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  + E LK L SP  +R++  +    + K      E+ KA+L   I
+Sbjct  61   ADGIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_004484894.1| hypothetical protein [Methanotorris igneus Kol 5]
+ ref|WP_013799426.1| hypothetical protein [Methanotorris igneus]
+ gb|AEF96829.1| hypothetical protein Metig_1292 [Methanotorris igneus Kol 5]
+Length=139
+
+ Score =  131 bits (330),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 44/136 (32%), Positives = 69/136 (51%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++  W VVK+M ID+KT  ++IARLL+SI+ET +NK+ ++   D KK+ E  
+Sbjct  2    ENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLPFDMKKLEEIA  61
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  62   DEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEITDSKEGKEILKVILNNIILERLGIK  121
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              V  K +EKY+EK  
+Sbjct  122  TRVDPKLIEKYIEKMN  137
+
+
+ Score = 73.8 bits (180),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 30/123 (24%), Positives = 51/123 (41%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  ++F AKH +W V + +   +   N  IA  LS +  TV +K+P YL   +      
+Sbjct  1    MENRIQFIAKHNDWFVVKKMNIDDKTENIEIARLLSSIDETVLNKLPEYLPFDMKKLEEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  +   L  L SP  ++++G +    + K      E+ K +L   I
+Sbjct  61   ADEIYQKKKGRVKEEDVVNALMKLKSPSTTKKLGEITDSKEGK------EILKVILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_003458986.1| hypothetical protein MFS40622_1578 [Methanocaldococcus sp. FS406-22]
+ ref|WP_012981154.1| hypothetical protein [Methanocaldococcus sp. FS406-22]
+ gb|ADC70250.1| conserved hypothetical protein [Methanocaldococcus sp. FS406-22]
+Length=141
+
+ Score =  127 bits (320),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 44/134 (33%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKAILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              V  K +EKY+EK
+Sbjct  122  TRVSPKVIEKYIEK  135
+
+
+ Score = 90.0 bits (222),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KIP YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKIPEYLPFDMNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  + E LK L SP  +R++  +    + K      E+ KA+L   I
+Sbjct  61   ADEIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKAILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_003128690.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+ ref|WP_015791923.1| hypothetical protein [Methanocaldococcus fervens]
+ gb|ACV25190.1| hypothetical protein Mefer_1383 [Methanocaldococcus fervens AG86]
+Length=141
+
+ Score =  126 bits (317),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 43/134 (32%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            ED I F A++  W VVK++ IDE T  ++IARLLASI+ET +NKI ++   D  K+ E  
+Sbjct  2    EDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKITEYLPFDMNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGKEILKVILNNIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKIIEKYIEK  135
+
+
+ Score = 88.1 bits (217),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 54/123 (44%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH++W V + +   E+  +  IA  L+ +  TV +KI  YL   ++     
+Sbjct  1    MEDKIEFMAKHKKWFVVKKLKIDENTEDIEIARLLASIDETVLNKITEYLPFDMNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  + E LK L SP  +R++  +    + K      E+ K +L   I
+Sbjct  61   ADNIYQKKKGRITEEEIAEVLKKLKSPATTRKLNEITESKEGK------EILKVILNNII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|WP_004589982.1| hypothetical protein [Methanocaldococcus villosus]
+ gb|ENN96579.1| hypothetical protein J422_01615 [Methanocaldococcus villosus 
+KIN24-T80]
+Length=141
+
+ Score =  123 bits (309),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 44/136 (32%), Positives = 68/136 (50%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI ET  NK  ++   D  K+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDEHTEDIEIARLLASIGETVDNKFIEYLPFDVNKLYEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     K++ ++    +G E         +L +LG++
+Sbjct  62   DSIYQKKKGKIKEEDIINALKKLKSPATTKKLNEIDASKEGKEILKIMLNNIVLKRLGIE  121
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              VP+K +EKY+EK  
+Sbjct  122  TKVPAKLIEKYIEKKN  137
+
+
+ Score = 73.4 bits (179),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 29/123 (24%), Positives = 50/123 (41%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH+ W V + +   E   +  IA  L+ +  TV +K   YL   ++     
+Sbjct  1    MEEKIEFLAKHKNWFVVKKLKIDEHTEDIEIARLLASIGETVDNKFIEYLPFDVNKLYEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  +   LK L SP  ++++  +    + K      E+ K +L   +
+Sbjct  61   ADSIYQKKKGKIKEEDIINALKKLKSPATTKKLNEIDASKEGK------EILKIMLNNIV  114
+
+Query  110  LKN  112
+            LK 
+Sbjct  115  LKR  117
+
+
+>ref|YP_003247923.1| hypothetical protein Metvu_1588 [Methanocaldococcus vulcanius 
+M7]
+ ref|WP_015733660.1| hypothetical protein [Methanocaldococcus vulcanius]
+ gb|ACX73441.1| conserved hypothetical protein [Methanocaldococcus vulcanius 
+M7]
+Length=141
+
+ Score =  123 bits (309),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 40/134 (30%), Positives = 68/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKI----  189
+            E+ I F A++G W  VK++ IDE    ++IARLLASI+ET +NKI ++   D +K+    
+Sbjct  2    ENKIEFIAKHGKWFTVKKLKIDENVEDIEIARLLASIDETVLNKIPEYLPFDIEKLNIIA  61
+
+Query  190  -------------VEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                          +     KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGKEILKILLNSIILERLGIQ  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              +  K +EKY+EK
+Sbjct  122  TRISPKVIEKYIEK  135
+
+
+ Score = 85.8 bits (211),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 34/123 (28%), Positives = 58/123 (47%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLL  58
+            +E  +EF AKH +W   + +   E+  +  IA  L+ +  TV +KIP YL   I+   ++
+Sbjct  1    MENKIEFIAKHGKWFTVKKLKIDENVEDIEIARLLASIDETVLNKIPEYLPFDIEKLNII  60
+
+Query  59   SIKI---------EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+            + +I         E  + E LK L SP  +R++  +    + K      E+ K +L   I
+Sbjct  61   ADEIFPKKKGRIKEEDIIEALKKLKSPATTRKLNEITTSKEGK------EILKILLNSII  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|YP_001323586.1| hypothetical protein Mevan_1074 [Methanococcus vannielii SB]
+ ref|WP_012065889.1| hypothetical protein [Methanococcus vannielii]
+ gb|ABR54974.1| conserved hypothetical protein [Methanococcus vannielii SB]
+Length=138
+
+ Score =  121 bits (303),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 45/135 (33%), Positives = 68/135 (50%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I FTA+ G W V K++ IDE T  ++IAR+LA INET   KIK+F   D +K+ E  
+Sbjct  3    EERILFTAKKGKWYVSKKLKIDENTRNVEIARILAGINETISLKIKEFLPFDMQKLEEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG K
+Sbjct  63   DEIYVAKKGKVKEEEVSEALVKLKSPATTKKMNAITESKEGKEILKRILTEIVLERLGFK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+            + V +K +EK++EK+
+Sbjct  123  LHVEAKMIEKFIEKS  137
+
+
+ Score = 63.8 bits (154),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 52/124 (42%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  + FTAK  +W V + +   E+  N  IA  L+ ++ T+S KI  +L   +     
+Sbjct  1    MSEERILFTAKKGKWYVSKKLKIDENTRNVEIARILAGINETISLKIKEFLPFDMQKLEE  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+                          E  + E L  L SP  ++++  +    + K      E+ K +LT  
+Sbjct  61   IADEIYVAKKGKVKEEEVSEALVKLKSPATTKKMNAITESKEGK------EILKRILTEI  114
+
+Query  109  ILKN  112
+            +L+ 
+Sbjct  115  VLER  118
+
+
+>ref|YP_001324638.1| hypothetical protein Maeo_0440 [Methanococcus aeolicus Nankai-3]
+ ref|WP_011973158.1| hypothetical protein [Methanococcus aeolicus]
+ gb|ABR56026.1| conserved hypothetical protein [Methanococcus aeolicus Nankai-3]
+Length=137
+
+ Score =  120 bits (300),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 38/134 (28%), Positives = 62/134 (46%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E  I F A+ G W V+K++ IDE T   ++ARLL SI+ET   K+ +F   D  KI E  
+Sbjct  2    EQSIQFRAKKGKWTVIKKINIDENTTDTEVARLLNSIDETVNKKVYEFLPFDLDKIEEIA  61
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     +++  + +  +G           +L +LG+K
+Sbjct  62   NEIYEKKKGKVKEEDITNALLKLKSPATTRKLNAITKSKEGKAIVKIILNNIVLERLGIK  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              + +K ++KY+EK
+Sbjct  122  TRLETKLIDKYMEK  135
+
+
+ Score = 61.5 bits (148),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 25/123 (20%), Positives = 51/123 (41%), Gaps = 18/123 (15%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E+ ++F AK  +W V + +   E+ T+  +A  L+ +  TV+ K+  +L   +D     
+Sbjct  1    MEQSIQFRAKKGKWTVIKKINIDENTTDTEVARLLNSIDETVNKKVYEFLPFDLDKIEEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREI  109
+                         E  +   L  L SP  +R++  +    + K       + K +L   +
+Sbjct  61   ANEIYEKKKGKVKEEDITNALLKLKSPATTRKLNAITKSKEGKA------IVKIILNNIV  114
+
+Query  110  LKN  112
+            L+ 
+Sbjct  115  LER  117
+
+
+>ref|WP_007044473.1| hypothetical protein [Methanotorris formicicus]
+ gb|EHP86601.1| hypothetical protein MetfoDRAFT_1041 [Methanotorris formicicus 
+Mc-S-70]
+Length=145
+
+ Score =  120 bits (301),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 43/136 (32%), Positives = 70/136 (51%), Gaps = 17/136 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ SW VVK+M ID+KT  ++IARLL+SI+ET ++K+ ++   D KK+ E  
+Sbjct  8    ENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLPFDMKKLEEIA  67
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ ++    +G E         +L +LG+K
+Sbjct  68   DEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEITNSKEGKEILKIILNNIILERLGIK  127
+
+Query  237  VDVPSKNLEKYLEKAG  252
+              +  K +EKY+EK  
+Sbjct  128  TRIDPKLIEKYMEKMN  143
+
+
+ Score = 71.9 bits (175),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 42/103 (41%), Gaps = 12/103 (12%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  ++F AKH  W V + +   +   +  IA  LS +  TV SK+P YL   +      
+Sbjct  7    MENKIQFIAKHNSWFVVKKMNIDDKTEDIEIARLLSSIDETVLSKLPEYLPFDMKKLEEI  66
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+                         E  +   L  L SP  ++++G +    + K
+Sbjct  67   ADEIYQKKKGRIKEEDIVNALMKLKSPSTTKKLGEITNSKEGK  109
+
+
+>ref|YP_001098129.1| hypothetical protein MmarC5_1618 [Methanococcus maripaludis C5]
+ ref|WP_011869362.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABO35915.1| conserved hypothetical protein [Methanococcus maripaludis C5]
+Length=140
+
+ Score =  118 bits (295),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 46/135 (34%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D KKI E  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMKKIGEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALVKLKSPGTTKKLGTIDDAKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 59.6 bits (143),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 32/124 (26%), Positives = 58/124 (47%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGL  57
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L   +   G 
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMKKIGE  60
+
+Query  58   LSIKI---------EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+            ++ +I         E  +   L  L SP  ++++G +    + K      E+ K +LT  
+Sbjct  61   IADEIYEKKKGRVKEEDISGALVKLKSPGTTKKLGTIDDAKEGK------EILKRLLTEI  114
+
+Query  109  ILKN  112
+            +L+ 
+Sbjct  115  VLER  118
+
+
+>ref|NP_987179.1| hypothetical protein MMP0059 [Methanococcus maripaludis S2]
+ ref|YP_004741695.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+ ref|WP_011170003.1| hypothetical protein [Methanococcus maripaludis]
+ emb|CAF29615.1| conserved hypothetical archaeal protein [Methanococcus maripaludis 
+S2]
+ gb|AEK18952.1| hypothetical protein GYY_00300 [Methanococcus maripaludis X1]
+Length=140
+
+ Score =  117 bits (294),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 43/135 (32%), Positives = 64/135 (47%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LASI ET   KIKDF   D +K+    
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMEKLRAIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVKEEDISGALTKLKSPGTTKKLGTIDDTKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 59.6 bits (143),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 54/124 (44%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L   ++    
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLASIEETLSIKIKDFLPFDMEKLRA  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+                          E  +   L  L SP  ++++G +    + K      E+ K +LT  
+Sbjct  61   IADEIYEKKKGRVKEEDISGALTKLKSPGTTKKLGTIDDTKEGK------EILKRLLTEI  114
+
+Query  109  ILKN  112
+            +L+ 
+Sbjct  115  VLER  118
+
+
+>ref|YP_001548938.1| hypothetical protein MmarC6_0891 [Methanococcus maripaludis C6]
+ ref|WP_012193660.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABX01706.1| conserved hypothetical protein [Methanococcus maripaludis C6]
+Length=140
+
+ Score =  116 bits (292),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 42/135 (31%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+ +  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSIKIKDFLPFDMEKLEKIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEVYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 58.0 bits (139),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 54/124 (44%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L   ++    
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSIKIKDFLPFDMEKLEK  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+                          E  +   L  L SP  ++++G +    + K      E+ K +LT  
+Sbjct  61   IADEVYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGK------EILKRLLTEI  114
+
+Query  109  ILKN  112
+            +L+ 
+Sbjct  115  VLER  118
+
+
+>ref|WP_018153767.1| hypothetical protein [Methanothermococcus thermolithotrophicus]
+Length=139
+
+ Score =  115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 47/135 (35%), Positives = 68/135 (50%), Gaps = 17/135 (13%)
+
+Query  133  EEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEY  192
+            +E+ I F A+ G W VVK+M IDEKT  ++IARLLA+INET  NKI  F   D K + E 
+Sbjct  2    QEEKIQFMAKKGKWFVVKKMNIDEKTEDIEIARLLAAINETTHNKIGQFLPFDMKALEEI  61
+
+Query  193  FGGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGL  235
+                                  K+K     +++  + +  +G E         +L +LG+
+Sbjct  62   ADEIYTKKKGRIKEDELANVLMKLKSPSTTRKLNNITKSKEGKEILKIILNNIILERLGI  121
+
+Query  236  KVDVPSKNLEKYLEK  250
+            K  V +K +EKY+EK
+Sbjct  122  KTRVDAKLIEKYIEK  136
+
+
+ Score = 63.4 bits (153),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/104 (22%), Positives = 40/104 (38%), Gaps = 12/104 (12%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  ++F AK  +W V + +   E   +  IA  L+ ++ T  +KI  +L   +     
+Sbjct  1    MQEEKIQFMAKKGKWFVVKKMNIDEKTEDIEIARLLAAINETTHNKIGQFLPFDMKALEE  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+                          E  L   L  L SP  +R++  +    + K
+Sbjct  61   IADEIYTKKKGRIKEDELANVLMKLKSPSTTRKLNNITKSKEGK  104
+
+
+>ref|YP_001330273.1| hypothetical protein MmarC7_1056 [Methanococcus maripaludis C7]
+ ref|WP_011977435.1| hypothetical protein [Methanococcus maripaludis]
+ gb|ABR66122.1| conserved hypothetical protein [Methanococcus maripaludis C7]
+Length=140
+
+ Score =  115 bits (288),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 42/135 (31%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDE T   +IAR+LA+I ET   KIKDF   D +K+ +  
+Sbjct  3    EERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSVKIKDFLPFDMEKLAKIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++  +    +G E   R     +L +LG+ 
+Sbjct  63   DEIYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGKEILKRLLTEIVLERLGIT  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              + +K +EKY+EK+
+Sbjct  123  SKIEAKMIEKYIEKS  137
+
+
+ Score = 58.0 bits (139),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 30/124 (24%), Positives = 54/124 (44%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  ++F AK  +W V + +   E+ +NE IA  L+ +  T+S KI  +L   ++    
+Sbjct  1    MSEERIQFNAKKGKWYVSKKIKIDENTSNEEIARVLAAIEETLSVKIKDFLPFDMEKLAK  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+                          E  +   L  L SP  ++++G +    + K      E+ K +LT  
+Sbjct  61   IADEIYEKKKGRVSEEDISGALAKLKSPATTKKLGTIDETKEGK------EILKRLLTEI  114
+
+Query  109  ILKN  112
+            +L+ 
+Sbjct  115  VLER  118
+
+
+>ref|YP_003708002.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+ ref|WP_013180757.1| hypothetical protein [Methanococcus voltae]
+ gb|ADI37029.1| hypothetical protein Mvol_1373 [Methanococcus voltae A3]
+Length=138
+
+ Score =  113 bits (284),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 39/135 (29%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A+ G W V K++ IDEKT  ++I+R+L SI ET   KIKD+   D  ++ E  
+Sbjct  3    EEKITFNAKKGKWYVSKKLKIDEKTQDVEISRILISIEETLGKKIKDYLPFDMIQLEEIA  62
+
+Query  194  GGFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                 K+K     K++ +L    +G +         +L +LG+K
+Sbjct  63   DEIYVSKKGRVKEEDISQALAKLKSPATTKKLGKLTDLKEGKDILKVVLTNIILERLGIK  122
+
+Query  237  VDVPSKNLEKYLEKA  251
+              +  K ++K++EK+
+Sbjct  123  THIDVKTMDKFIEKS  137
+
+
+ Score = 60.4 bits (145),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 29/124 (23%), Positives = 49/124 (40%), Gaps = 18/124 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID----  53
+            M E  + F AK  +W V + +   E   +  I+  L  +  T+  KI  YL   +     
+Sbjct  1    MSEEKITFNAKKGKWYVSKKLKIDEKTQDVEISRILISIEETLGKKIKDYLPFDMIQLEE  60
+
+Query  54   -----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTRE  108
+                          E  + + L  L SP  ++++G+L    + K      ++ K VLT  
+Sbjct  61   IADEIYVSKKGRVKEEDISQALAKLKSPATTKKLGKLTDLKEGK------DILKVVLTNI  114
+
+Query  109  ILKN  112
+            IL+ 
+Sbjct  115  ILER  118
+
+
+>ref|YP_003616893.1| hypothetical protein Metin_1279 [methanocaldococcus infernus 
+ME]
+ ref|WP_013100674.1| hypothetical protein [Methanocaldococcus infernus]
+ gb|ADG13929.1| conserved hypothetical protein [Methanocaldococcus infernus ME]
+Length=141
+
+ Score =  108 bits (270),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 43/134 (32%), Positives = 69/134 (51%), Gaps = 17/134 (13%)
+
+Query  134  EDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYF  193
+            E+ I F A++ +W VVK++ IDE T  ++IARLLASI+ET   K  ++   D KK+ E  
+Sbjct  2    EEKIEFLAKHKNWFVVKKLKIDENTEDIEIARLLASIDETVSRKFLEYLPFDLKKLEEIA  61
+
+Query  194  GGF-----------------KKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+                                KK+K     +++ ++    +G E         +L +LG++
+Sbjct  62   DQIYVKKKGRVKEEEIAEALKKLKSPAVSRKLNEITESKEGKEILKIILNNIILERLGIE  121
+
+Query  237  VDVPSKNLEKYLEK  250
+              VPS+ +EKY+EK
+Sbjct  122  TRVPSRLIEKYIEK  135
+
+
+ Score = 70.8 bits (172),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/103 (28%), Positives = 44/103 (43%), Gaps = 12/103 (12%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+            +E  +EF AKH+ W V + +   E+  +  IA  L+ +  TVS K   YL   +      
+Sbjct  1    MEEKIEFLAKHKNWFVVKKLKIDENTEDIEIARLLASIDETVSRKFLEYLPFDLKKLEEI  60
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+                         E  + E LK L SP VSR++  +    + K
+Sbjct  61   ADQIYVKKKGRVKEEEIAEALKKLKSPAVSRKLNEITESKEGK  103
+
+
+>gb|EET90504.1| hypothetical protein UNLARM2_0038 [Candidatus Micrarchaeum acidiphilum 
+ARMAN-2]
+Length=154
+
+ Score =  106 bits (264),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 24/129 (19%), Positives = 48/129 (37%), Gaps = 15/129 (12%)
+
+Query  133  EEDHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEY  192
+             E+++ F A+Y  W+ +KRM I   T   ++   +A I  T   K      +D + +  Y
+Sbjct  5    PEEYVEFMAKYKDWVSIKRMSIGPSTKPEEVVYHMAGIRSTIDGKAFKLLGIDTEMLDAY  64
+
+Query  193  FGGFKK--------------VKKEEEIKEIVQLF-REFKGNEFEVRYAAREMLSKLGLKV  237
+                 +              + +  + K I++   +    + F   Y    ++S +  + 
+Sbjct  65   AESSTRSAGRGYSGLSKAVLIMESNDTKSIIEKACQSQTMSPFARSYLLNRIISAMKFET  124
+
+Query  238  DVPSKNLEK  246
+             V    L K
+Sbjct  125  SVSQLGLSK  133
+
+
+>ref|YP_004576971.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+ ref|WP_013867376.1| hypothetical protein [Methanothermococcus okinawensis]
+ gb|AEH07193.1| hypothetical protein Metok_1225 [Methanothermococcus okinawensis 
+IH1]
+Length=146
+
+ Score =  105 bits (261),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 41/135 (30%), Positives = 65/135 (48%), Gaps = 17/135 (13%)
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYFG  194
+            + I F A+ G W VVK+M I+E T  ++IARLL SI++T   KI +F   D KKI E   
+Sbjct  11   EKIQFRAKRGKWFVVKKMDINENTEDIEIARLLNSIDKTINKKILEFLPFDIKKIEEMAD  70
+
+Query  195  GFK-----------------KVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKV  237
+                                K+K     +++  +    +G E         +L +LG+K 
+Sbjct  71   EIYQKKKGRVKEEDIANALSKLKSPSTTRKLNNITELKEGKEILKIILNNIILERLGIKT  130
+
+Query  238  DVPSKNLEKYLEKAG  252
+             + +K ++KY+EK+ 
+Sbjct  131  KLDTKLIDKYIEKSS  145
+
+
+ Score = 60.0 bits (144),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/103 (20%), Positives = 39/103 (38%), Gaps = 12/103 (12%)
+
+Query  2    IERILEFTAKHEEWIVGENV---EDFTNENIAMFLSRVSNTVSSKIPGYLGEKID-----  53
+                ++F AK  +W V + +   E+  +  IA  L+ +  T++ KI  +L   I      
+Sbjct  9    TGEKIQFRAKRGKWFVVKKMDINENTEDIEIARLLNSIDKTINKKILEFLPFDIKKIEEM  68
+
+Query  54   ----VNGLLSIKIEGSLEEKLKALISPKVSRQIGRLVMEDDKK  92
+                         E  +   L  L SP  +R++  +    + K
+Sbjct  69   ADEIYQKKKGRVKEEDIANALSKLKSPSTTRKLNNITELKEGK  111
+
+
+>ref|WP_007547628.1| hypothetical protein [Sulfurihydrogenibium yellowstonense]
+ gb|EEP60159.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+yellowstonense SS-5]
+Length=340
+
+ Score = 43.0 bits (100),  Expect = 0.095, Method: Composition-based stats.
+ Identities = 24/77 (31%), Positives = 38/77 (49%), Gaps = 5/77 (6%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            D I +T + G WI +  +II    D K  L DIAR +ASI++     +  F  +  K + 
+Sbjct  204  DAIEYTYKQGIWIEITTLIIPGENDSKEELRDIARFIASIDKNIPWHVSRFYPM-YKMLD  262
+
+Query  191  EYFGGFKKVKKEEEIKE  207
+                  +K+K+  EI +
+Sbjct  263  RPPTPIEKLKEAYEIGK  279
+
+
+>ref|YP_001930948.1| radical SAM protein [Sulfurihydrogenibium sp. YO3AOP1]
+ ref|WP_012459471.1| hypothetical protein [Sulfurihydrogenibium sp. YO3AOP1]
+ gb|ACD66394.1| Radical SAM domain protein [Sulfurihydrogenibium sp. YO3AOP1]
+Length=340
+
+ Score = 41.1 bits (95),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 5/77 (6%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            D I +T + G WI +  +II    D K  L +IAR +ASI++     +  F  +  K + 
+Sbjct  204  DSIEYTYKQGIWIEITTLIIPGENDSKEELRNIARFIASIDKNIPWHVSRFYPM-YKMLD  262
+
+Query  191  EYFGGFKKVKKEEEIKE  207
+                  +K+K+  EI +
+Sbjct  263  RPPTPIEKLKEAYEIGK  279
+
+
+>ref|WP_023509095.1| haloacid dehalogenase [Sporolactobacillus laevolacticus]
+ gb|EST12809.1| haloacid dehalogenase [Sporolactobacillus laevolacticus DSM 442]
+Length=382
+
+ Score = 41.1 bits (95),  Expect = 0.40, Method: Composition-based stats.
+ Identities = 29/161 (18%), Positives = 56/161 (35%), Gaps = 34/161 (21%)
+
+Query  101  AKAVLTREIL----------KNELPIEFPGGKIEGLKIQPRYEEDHINFTARYG---SW-  146
+            A A+  RE+L                E+   +I  ++ +    +D +NF    G   +W 
+Sbjct  22   ASALTVRELLLSENYLGLGNSRNFQTEYSDEEIAEIRSKLFLNDDVLNFLKSRGMNANWD  81
+
+Query  147  -----IVVKRMIIDEKTPL---LDIARLLASINETAVNKIKDFADVDDKKIVEYFGGFKK  198
+                 I V+ + + E+ P     + A+LL     T   K          +   +F  +  
+Sbjct  82   MIYITISVQLIHLTEQLPSDVRAEAAKLLT---RTIDQKT-------LDQFRAWFKNYP-  130
+
+Query  199  VKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLKVDV  239
+              K +  + ++         +  + Y       +LG+K DV
+Sbjct  131  -VKPDFSQFMIDFRESKAVKQELILYLNEIAERRLGIKTDV  170
+
+
+>ref|NP_001270039.1| uncharacterized protein LOC101926150 precursor [Macaca fascicularis]
+ dbj|BAE90059.1| unnamed protein product [Macaca fascicularis]
+Length=240
+
+ Score = 39.2 bits (90),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 14/78 (18%), Positives = 30/78 (38%), Gaps = 2/78 (3%)
+
+Query  137  INFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAVNKIKDFADVDDKKIVEYFGGF  196
+            + F +   +W  +KR++I      L+I  L  +I+ET  N++      D   +       
+Sbjct  98   VPFNSAVHNWTEIKRLLIGHNNLSLEIQELTQNISETFRNQLPLLTGADL--MTSIAQSL  155
+
+Query  197  KKVKKEEEIKEIVQLFRE  214
+              +     +K ++     
+Sbjct  156  TSLNPMSPVKTLLTSVSS  173
+
+
+>ref|WP_007391510.1| tRNA modification GTPase [Megasphaera sp. UPII 199-6]
+ gb|EGL39554.1| tRNA modification GTPase TrmE [Megasphaera sp. UPII 199-6]
+Length=459
+
+ Score = 38.4 bits (88),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 24/126 (19%), Positives = 56/126 (44%), Gaps = 16/126 (13%)
+
+Query  3    ERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKI  62
+            E +LE    H    V + +     E     L+R         PG   E+  VNG + +  
+Sbjct  84   EDVLEIQC-HGGIKVIQKILTLVLEQGVR-LAR---------PGEFTERAFVNGRIDLAQ  132
+
+Query  63   EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGK  122
+              ++ + ++A     V+R + +L    + KL +++ ++ + + T    + E+ +++P   
+Sbjct  133  AEAVMDIIQAKSEAGVTRAVRQL----EGKLSEVVNDMLQNLTTFIT-RLEVTVDYPEED  187
+
+Query  123  IEGLKI  128
+            +E +++
+Sbjct  188  LEEIEV  193
+
+
+>ref|YP_002729608.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+azorense Az-Fu1]
+ ref|WP_012675105.1| hypothetical protein [Sulfurihydrogenibium azorense]
+ gb|ACN99798.1| [pyruvate formate-lyase]-activating enzyme [Sulfurihydrogenibium 
+azorense Az-Fu1]
+Length=340
+
+ Score = 37.6 bits (86),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 21/101 (21%), Positives = 39/101 (39%), Gaps = 14/101 (14%)
+
+Query  135  DHINFTARYGSWIVVKRMII----DEKTPLLDIARLLASINETAVNKIKDFADVDDKKIV  190
+            + I +  + G WI +  +II    D K  L DIAR +ASI++     I  F      K+ 
+Sbjct  204  EAIEYAYKLGIWIEITTLIIPGENDSKEELRDIARFIASIDKDIPWHISRFYP--MYKMT  261
+
+Query  191  EYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLS  231
+            ++            + ++++ +   K       Y    +  
+Sbjct  262  DH--------PPTPVSKLIEAYEIGKEEGLNYIYVGNIIDE  294
+
+
+>ref|WP_009369611.1| tRNA modification GTPase [Megasphaera genomosp. type_1]
+ gb|EFD94418.1| tRNA modification GTPase TrmE [Megasphaera genomosp. type_1 str. 
+28L]
+Length=459
+
+ Score = 38.0 bits (87),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 24/126 (19%), Positives = 56/126 (44%), Gaps = 16/126 (13%)
+
+Query  3    ERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSIKI  62
+            E +LE    H    V + +     E     L+R         PG   E+  VNG + +  
+Sbjct  84   EDVLEIQC-HGGIKVIQKILTLVLEQGVR-LAR---------PGEFTERAFVNGRIDLAQ  132
+
+Query  63   EGSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGK  122
+              ++ + ++A     V+R + +L    + KL +++ ++ + + T    + E+ +++P   
+Sbjct  133  AEAVMDIIQAKSEAGVTRAVRQL----EGKLSEVVNDMLQNLTTFIT-RLEVTVDYPEED  187
+
+Query  123  IEGLKI  128
+            +E +++
+Sbjct  188  LEEIEV  193
+
+
+>ref|WP_007639432.1| hypothetical protein [Cellvibrio sp. BR]
+ gb|EIK46672.1| hypothetical protein O59_000693 [Cellvibrio sp. BR]
+Length=516
+
+ Score = 37.6 bits (86),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 34/212 (16%), Positives = 70/212 (33%), Gaps = 34/212 (16%)
+
+Query  19   ENVEDFTNENIAMFLSRVSNTVSSKIPG----YLGEKIDVNGLLSIKIEGSLEEKLKALI  74
+              ++D +N +IA  L+ +     S  P     Y  +K++   +    +E        +  
+Sbjct  274  NALDDLSNYDIASVLASIRIQGLSNFPELSKYYYTDKLNRLNIKLKGLEYEASSVRDSYR  333
+
+Query  75   SPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELPIEFPGGKIEGLKIQPRYEE  134
+             P  S  +G     +++ L           L  +IL     +    G +E  K    Y +
+Sbjct  334  QPNTSAGLGADGNTNNQMLAPQ--------LNSDILDKLASLS---GDLEREK----YNQ  378
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTPLLDIARLLASINETAV---------NKIKDFADVD  185
+                       W+ + R I   K+ + +  +LLA+I               + K      
+Sbjct  379  QLNQ------RWLSLTRQISTVKSTIAETEQLLAAIKHPTNANPGAIEALAQAKARLPGI  432
+
+Query  186  DKKIVEYFGGFKKVKKEEEIKEIVQLFREFKG  217
+              ++ EYF   +++  +   + +      F  
+Sbjct  433  LNQLTEYFDVSERIASQMRTELVGIKDELFVP  464
+
+
+>ref|WP_010653787.1| polyprenyl-pyrophosphate binding protein [Fluoribacter dumoffii]
+Length=193
+
+ Score = 36.5 bits (83),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 23/109 (21%), Positives = 41/109 (38%), Gaps = 10/109 (9%)
+
+Query  135  DHINFTARYGSWIVVKRMIIDEKTP-------LLDIARLLASINETAVNKIKDFADVDDK  187
+            DH+ F+ +YG W    ++I+D+  P        +D+A ++  I E     +K     D  
+Sbjct  41   DHLGFSTQYGKWYGTGQLILDKDNPSQSKVNVKIDVADMITGIPE-LDKHLKSKLFFDTA  99
+
+Query  188  KIVEYFGGFKKVKKEEEIKEIVQLFREFKGNEFEVRYAAREMLSKLGLK  236
+            +         KV  + + K  V+      G            L+K G+ 
+Sbjct  100  QFPTATFVSNKVTPKGDNKATVEGTLTLHG--VSKPVVLDVTLNKEGMS  146
+
+
+>ref|YP_006441202.1| TRAP dicarboxylate transporter, DctM subunit [Turneriella parva 
+DSM 21527]
+ ref|WP_014804197.1| C4-dicarboxylate ABC transporter permease [Turneriella parva]
+ gb|AFM13696.1| TRAP dicarboxylate transporter, DctM subunit [Turneriella parva 
+DSM 21527]
+Length=542
+
+ Score = 36.9 bits (84),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 43/116 (37%), Gaps = 17/116 (15%)
+
+Query  1    MIERILEFTAKHEEWIVGENVEDFTNENIAMFLSRVSNTVSSKIPGYLGEKIDVNGLLSI  60
+            + E    F     +W       + T++ IA     +    S  +P      +++ GL SI
+Sbjct  443  LTEEQQVFV---GKWKSASGTLEITDDGIARLAPPIGGVGSKYLPKMAEATLEIEGLKSI  499
+
+Query  61   KIE-GSLEEKLKALISPKVSRQIGRLVMEDDKKLKKLLVEVAKAVLTREILKNELP  115
+             ++ G   +  K + +PK              K +K  + + K V T+E    E P
+Sbjct  500  TVKSGETVKTFKVVKAPKT-------------KGEKTTMTLDKVVYTKETTAEEEP  542
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.145    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 810777595870
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

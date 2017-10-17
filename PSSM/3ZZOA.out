@@ -1,0 +1,3180 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3ZZOA
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3ZZO|A  Chain A, Crystal Structure Of The Cg11501 Protein In ...   196    8e-63
+ref|NP_651695.1|  diedel [Drosophila melanogaster] >gb|AAF56898.1...   187    5e-59
+ref|XP_002037199.1|  GM12788 [Drosophila sechellia] >gb|EDW53358....   178    2e-55
+ref|XP_002105346.1|  GD21438 [Drosophila simulans] >gb|EDX14849.1...   176    1e-54
+ref|XP_001981352.1|  GG11665 [Drosophila erecta] >gb|EDV53222.1| ...   144    4e-42
+ref|XP_002098589.1|  GE23853 [Drosophila yakuba] >gb|EDW98301.1| ...   136    7e-39
+ref|XP_002098587.1|  GE23854 [Drosophila yakuba] >gb|EDW98299.1| ...   135    1e-38
+ref|XP_001967296.1|  GF15937 [Drosophila ananassae] >gb|EDV30096....  89.7    6e-21
+ref|XP_002101688.1|  GE17767 [Drosophila yakuba] >gb|EDX02796.1| ...  89.0    2e-20
+ref|XP_001998948.1|  GI24242 [Drosophila mojavensis] >gb|EDW14409...  86.7    1e-19
+ref|XP_001967293.1|  GF15938 [Drosophila ananassae] >gb|EDV30093....  84.3    8e-19
+ref|XP_002107356.1|  GD17420 [Drosophila simulans] >gb|EDX18339.1...  82.0    7e-18
+ref|XP_001977731.1|  GG19205 [Drosophila erecta] >gb|EDV46658.1| ...  81.3    1e-17
+ref|XP_002098576.1|  GE23861 [Drosophila yakuba] >gb|EDW98288.1| ...  79.7    8e-17
+ref|XP_002008436.1|  GI11819 [Drosophila mojavensis] >gb|EDW18912...  79.3    1e-16
+ref|NP_001097028.1|  diedel 3 [Drosophila melanogaster] >gb|AAF48...  78.2    3e-16
+gb|AAY55557.1|  IP03566p [Drosophila melanogaster]                    78.2    3e-16
+gb|AAY55596.1|  IP03266p [Drosophila melanogaster]                    77.8    3e-16
+gb|AAY55568.1|  IP03466p [Drosophila melanogaster]                    77.8    3e-16
+ref|XP_002105358.1|  GD21443 [Drosophila simulans] >gb|EDX14861.1...  77.8    4e-16
+ref|XP_002047577.1|  GJ11856 [Drosophila virilis] >ref|XP_0020475...  77.8    4e-16
+ref|NP_001247357.1|  diedel 2 [Drosophila melanogaster] >gb|AFH06...  76.3    1e-15
+ref|XP_002037211.1|  GM12796 [Drosophila sechellia] >gb|EDW53370....  76.3    1e-15
+ref|XP_001967307.1|  GF16013 [Drosophila ananassae] >gb|EDV30107....  71.2    7e-14
+gb|AAY55580.1|  IP03366p [Drosophila melanogaster]                    66.6    5e-12
+ref|XP_002058610.1|  GJ14220 [Drosophila virilis] >gb|EDW58578.1|...  66.6    5e-12
+ref|XP_001998949.1|  GI24243 [Drosophila mojavensis] >gb|EDW14410...  65.9    8e-12
+ref|XP_002000761.1|  GI22343 [Drosophila mojavensis] >gb|EDW16222...  65.5    1e-11
+ref|YP_001649090.1|  hypothetical protein HaGV_gp108 [Helicoverpa...  64.7    2e-11
+ref|NP_059254.1|  ORF106 [Xestia c-nigrum granulovirus] >gb|AAF05...  63.9    3e-11
+ref|YP_003422448.1|  hypothetical protein PsunGV_gp109 [Pseudalet...  64.3    3e-11
+ref|YP_008003682.1|  unknown similar to XecnGV orf106 [Mythimna s...  64.3    4e-11
+gb|AFV50353.1|  hypothetical protein [Heliothis virescens ascovir...  58.2    6e-09
+ref|YP_001110948.1|  hypothetical protein HVAV3e_gp095 [Heliothis...  57.0    2e-08
+gb|AFV50420.1|  hypothetical protein [Heliothis virescens ascovir...  53.5    3e-07
+ref|XP_002072743.1|  GK18957 [Drosophila willistoni] >gb|EDW83729...  52.4    7e-07
+ref|XP_001944353.1|  PREDICTED: hypothetical protein LOC100163992...  48.5    2e-05
+ref|XP_001357741.3|  GA11037 [Drosophila pseudoobscura pseudoobsc...  47.8    3e-05
+ref|XP_002058609.1|  GJ14221 [Drosophila virilis] >gb|EDW58577.1|...  45.4    2e-04
+ref|XP_002021585.1|  GL26589 [Drosophila persimilis] >ref|XP_0021...  44.7    2e-04
+ref|XP_002020264.1|  GL13595 [Drosophila persimilis] >gb|EDW39076...  42.7    0.001
+tpg|DAA04418.1|  TPA: HDC16240 [Drosophila melanogaster]              43.5    0.002
+ref|XP_002599848.1|  hypothetical protein BRAFLDRAFT_95538 [Branc...  42.0    0.007
+ref|XP_002020266.1|  GL13593 [Drosophila persimilis] >ref|XP_0021...  38.5    0.059
+ref|XP_003190997.1|  hypothetical protein AOR_1_252024 [Aspergill...  37.0    0.11 
+ref|YP_762476.1|  15.0 kDa [Spodoptera frugiperda ascovirus 1a] >...  37.7    0.13 
+ref|XP_002136974.1|  GA26838 [Drosophila pseudoobscura pseudoobsc...  37.4    0.16 
+ref|XP_002020265.1|  GL13594 [Drosophila persimilis] >gb|EDW39077...  37.4    0.16 
+ref|XP_002013860.1|  GL24362 [Drosophila persimilis] >gb|EDW24846...  34.3    1.0  
+ref|XP_003736249.1|  GA30102 [Drosophila pseudoobscura pseudoobsc...  35.4    1.3  
+ref|XP_003720090.1|  hypothetical protein MGG_03806 [Magnaporthe ...  34.3    3.7  
+ref|WP_007349055.1|  TetR family transcriptional regulator [Marin...  33.9    6.3  
+ref|XP_002593937.1|  hypothetical protein BRAFLDRAFT_128535 [Bran...  33.5    7.1  
+
+
+>pdb|3ZZO|A Chain A, Crystal Structure Of The Cg11501 Protein In P212121 
+Spacegroup
+ pdb|3ZZR|A Chain A, Crystal Structure Of The Cg11501 Protein In P21212 Spacegroup
+Length=95
+
+ Score =  196 bits (498),  Expect = 8e-63, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+           ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD
+Sbjct  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+
+Query  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+           GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL
+Sbjct  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+
+
+>ref|NP_651695.1| diedel [Drosophila melanogaster]
+ gb|AAF56898.1| diedel [Drosophila melanogaster]
+ gb|AAL48174.1| RH38110p [Drosophila melanogaster]
+Length=115
+
+ Score =  187 bits (475),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 90/91 (99%), Positives = 90/91 (99%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQG CNIFGCNCD
+Sbjct  25   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGSCNIFGCNCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF
+Sbjct  85   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  115
+
+
+>ref|XP_002037199.1| GM12788 [Drosophila sechellia]
+ gb|EDW53358.1| GM12788 [Drosophila sechellia]
+Length=116
+
+ Score =  178 bits (452),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 82/91 (90%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDCEAVRAIENYP+GCEVTICADGVAQLG YCGQGPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCEAVRAIENYPHGCEVTICADGVAQLGTYCGQGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRHYGIQIIKVTRMPL  116
+
+
+>ref|XP_002105346.1| GD21438 [Drosophila simulans]
+ gb|EDX14849.1| GD21438 [Drosophila simulans]
+Length=116
+
+ Score =  176 bits (447),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 81/91 (89%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDC AVRAIENYP+GCEVTICADGVAQLGAYCG+GPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCAAVRAIENYPHGCEVTICADGVAQLGAYCGKGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRDYGIQIIKVTRMPL  116
+
+
+>ref|XP_001981352.1| GG11665 [Drosophila erecta]
+ gb|EDV53222.1| GG11665 [Drosophila erecta]
+Length=115
+
+ Score =  144 bits (363),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 66/91 (73%), Positives = 77/91 (85%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRE V++KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGC+CD
+Sbjct  25   ECCTSREEVKYKMDRGDCEDVGGSGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWS+EFVR+NQ YGI I++V R+P 
+Sbjct  85   GGCLTGDWSEEFVRKNQAYGIHIVEVRRIPI  115
+
+
+>ref|XP_002098589.1| GE23853 [Drosophila yakuba]
+ gb|EDW98301.1| GE23853 [Drosophila yakuba]
+Length=114
+
+ Score =  136 bits (342),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 63/91 (69%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC+SR+ V +KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGCNCD
+Sbjct  24   ECCSSRQEVTYKMDRGDCEDVGGHGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCNCD  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+G+WS +FVR+NQ+YGI+II V  +P+
+Sbjct  84   GGCLTGEWSDDFVRKNQKYGIEIISVRWIPW  114
+
+
+>ref|XP_002098587.1| GE23854 [Drosophila yakuba]
+ gb|EDW98299.1| GE23854 [Drosophila yakuba]
+Length=115
+
+ Score =  135 bits (340),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 60/91 (66%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCT+RE+V +KMDRGDC+ V    +YP  CEVTICADGVAQ+G +CGQG CNIFGC+CD
+Sbjct  25   ECCTAREVVSYKMDRGDCQDVGGHGDYPLRCEVTICADGVAQVGTFCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL G+WS++F R+NQ+YGI I+ V R+P 
+Sbjct  85   GGCLFGEWSEDFARKNQKYGIHIVDVRRIPL  115
+
+
+>ref|XP_001967296.1| GF15937 [Drosophila ananassae]
+ gb|EDV30096.1| GF15937 [Drosophila ananassae]
+Length=113
+
+ Score = 89.7 bits (221),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 39/88 (44%), Positives = 57/88 (65%), Gaps = 1/88 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CCTS   +++ ++ GDC AV       +GC +TIC +G A +G +CG+GPCNIFGC C 
+Sbjct  25   DCCTSMSHLKYTIEGGDCGAVGG-SRTSDGCSITICGNGKALVGTFCGRGPCNIFGCACK  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GGCLSGD++ +F++ N  Y I +     
+Sbjct  84   GGCLSGDFALDFIKNNPGYKIHVTSTVH  111
+
+
+>ref|XP_002101688.1| GE17767 [Drosophila yakuba]
+ gb|EDX02796.1| GE17767 [Drosophila yakuba]
+Length=121
+
+ Score = 89.0 bits (219),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 42/85 (49%), Positives = 57/85 (67%), Gaps = 1/85 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC ++  + F M  G C  V A ++  NGCEVTIC DG A +G +CG G CN+FGC+C G
+Sbjct  26   CCRTKAKLIFTMGYGSCGMVNA-KSTKNGCEVTICPDGRALVGTFCGVGSCNLFGCHCRG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GCLSG++ + FV RN++Y I +I  
+Sbjct  85   GCLSGNFGESFVERNRKYEINLIST  109
+
+
+>ref|XP_001998948.1| GI24242 [Drosophila mojavensis]
+ gb|EDW14409.1| GI24242 [Drosophila mojavensis]
+Length=113
+
+ Score = 86.7 bits (213),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 36/84 (43%), Positives = 54/84 (64%), Gaps = 0/84 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC   + V F ++ G C+ V  + +  + C +TICADG   +G+YCG   CN+FGCNC 
+Sbjct  25   DCCRRTKNVSFTVESGRCKDVGGVNSSISTCTITICADGTRLIGSYCGHYSCNLFGCNCG  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQII  84
+            GGCL G W + F+ R+ +Y I+I+
+Sbjct  85   GGCLKGKWEKNFIERHPKYKIRIL  108
+
+
+>ref|XP_001967293.1| GF15938 [Drosophila ananassae]
+ gb|EDV30093.1| GF15938 [Drosophila ananassae]
+Length=113
+
+ Score = 84.3 bits (207),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 38/89 (43%), Positives = 56/89 (63%), Gaps = 1/89 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC S+  +++ ++ GDC AV       +GC +TIC +G A +G +CG+G CNIFGC C G
+Sbjct  26   CCRSKANLKYTIEGGDCGAVGG-RRTSDGCTITICGNGRAVVGTWCGRGSCNIFGCACKG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLP  90
+            GCLSGD++ +F++ N  Y I +      P
+Sbjct  85   GCLSGDFALDFIKNNPGYKIHVTSTVHKP  113
+
+
+>ref|XP_002107356.1| GD17420 [Drosophila simulans]
+ gb|EDX18339.1| GD17420 [Drosophila simulans]
+Length=121
+
+ Score = 82.0 bits (201),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 39/86 (45%), Positives = 53/86 (62%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M +G C  V A +    GCE T+CADG    G+YCG G CNIFGC C 
+Sbjct  25   DCCWTKAKLLFTMGKGSCGMVNA-KTTKYGCEATVCADGRVLKGSYCGVGSCNIFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  84   GGCLAGNYGESFVEINNKYQINLIST  109
+
+
+>ref|XP_001977731.1| GG19205 [Drosophila erecta]
+ gb|EDV46658.1| GG19205 [Drosophila erecta]
+Length=121
+
+ Score = 81.3 bits (199),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 38/86 (44%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC +R  + F M  G C  V A  +   GCE+T+CADG+  +G+YCG+G CN+FGC C 
+Sbjct  25   DCCWTRAKLIFTMGNGSCGMVNA-RSTRYGCEITVCADGMVLVGSYCGKGSCNLFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGC  G++ + FV  N++Y I +I  
+Sbjct  84   GGCRRGNFGESFVEINRRYEINLIST  109
+
+
+>ref|XP_002098576.1| GE23861 [Drosophila yakuba]
+ gb|EDW98288.1| GE23861 [Drosophila yakuba]
+Length=125
+
+ Score = 79.7 bits (195),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 36/83 (43%), Positives = 56/83 (67%), Gaps = 1/83 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TICA+G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGVVGAKSN-GTGCKITICANGEALVGSYCGRAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQII  84
+            GCL G ++ +F+++N  +GI+++
+Sbjct  80   GCLQGSFASDFLKKNYIHGIELL  102
+
+
+>ref|XP_002008436.1| GI11819 [Drosophila mojavensis]
+ gb|EDW18912.1| GI11819 [Drosophila mojavensis]
+Length=140
+
+ Score = 79.3 bits (194),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/94 (38%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC   ++V++K+  G C A+R   +    C + IC DG    G YCG+G CN+ GC+CDG
+Sbjct  28   CCAEAKVVKYKVLNGQCAAIRGQRSDDGNCVIKICGDGRPLRGTYCGRGSCNLAGCDCDG  87
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+            GCL GDW +  V     Y ++I+++    +W+ L
+Sbjct  88   GCLPGDWEKSLVSDTGIYRVEILEI----YWQDL  117
+
+
+>ref|NP_001097028.1| diedel 3 [Drosophila melanogaster]
+ gb|AAF48909.2| diedel 3 [Drosophila melanogaster]
+Length=121
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/85 (45%), Positives = 50/85 (59%), Gaps = 1/85 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A +    GCE T+CADG    G YCG G CNI GC C 
+Sbjct  25   DCCWTKAKLLFTMGTGSCGMVNA-KTTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIK  85
+            GGCL+G++ + FV  N +Y I +I 
+Sbjct  84   GGCLTGNYGESFVEINNRYQINLIS  108
+
+
+>gb|AAY55557.1| IP03566p [Drosophila melanogaster]
+Length=120
+
+ Score = 78.2 bits (191),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/85 (45%), Positives = 50/85 (59%), Gaps = 1/85 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A +    GCE T+CADG    G YCG G CNI GC C 
+Sbjct  24   DCCWTKAKLLFTMGTGSCGMVNA-KTTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  82
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIK  85
+            GGCL+G++ + FV  N +Y I +I 
+Sbjct  83   GGCLTGNYGESFVEINNRYQINLIS  107
+
+
+>gb|AAY55596.1| IP03266p [Drosophila melanogaster]
+Length=118
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/85 (45%), Positives = 50/85 (59%), Gaps = 1/85 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A +    GCE T+CADG    G YCG G CNI GC C 
+Sbjct  22   DCCWTKAKLLFTMGTGSCGMVNA-KTTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  80
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIK  85
+            GGCL+G++ + FV  N +Y I +I 
+Sbjct  81   GGCLTGNYGESFVEINNRYQINLIS  105
+
+
+>gb|AAY55568.1| IP03466p [Drosophila melanogaster]
+Length=113
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/86 (44%), Positives = 50/86 (58%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A +    GCE T+CADG    G YCG G CNI GC C 
+Sbjct  17   DCCWTKAKLLFTMGTGSCGMVNA-KTTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  75
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  76   GGCLTGNYGESFVEINNRYQINLIST  101
+
+
+>ref|XP_002105358.1| GD21443 [Drosophila simulans]
+ gb|EDX14861.1| GD21443 [Drosophila simulans]
+Length=125
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGIVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTER  106
+
+
+>ref|XP_002047577.1| GJ11856 [Drosophila virilis]
+ ref|XP_002047578.1| GJ11855 [Drosophila virilis]
+ gb|EDW69919.1| GJ11856 [Drosophila virilis]
+ gb|EDW69920.1| GJ11855 [Drosophila virilis]
+Length=131
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 51/84 (61%), Gaps = 0/84 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC   + +++ ++ G C +     +    C +TIC +G A  GAYCG+G CN+FGC+CD
+Sbjct  19   ECCVDAKKLDYTVEDGTCASAGGKASGNGKCVITICGNGEALRGAYCGRGSCNVFGCDCD  78
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQII  84
+            GGCL   W Q F++   QY + ++
+Sbjct  79   GGCLGSGWEQTFLQNAAQYKVSLL  102
+
+
+>ref|NP_001247357.1| diedel 2 [Drosophila melanogaster]
+ gb|AFH06674.1| diedel 2 [Drosophila melanogaster]
+Length=125
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 35/87 (40%), Positives = 56/87 (64%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLKKNYIHGIELLGTER  106
+
+
+>ref|XP_002037211.1| GM12796 [Drosophila sechellia]
+ gb|EDW53370.1| GM12796 [Drosophila sechellia]
+Length=125
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/87 (38%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+ RG    +   ++   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKI-RGGVSGIVGAKSNGTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTER  106
+
+
+>ref|XP_001967307.1| GF16013 [Drosophila ananassae]
+ gb|EDV30107.1| GF16013 [Drosophila ananassae]
+Length=109
+
+ Score = 71.2 bits (173),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 41/84 (49%), Positives = 49/84 (58%), Gaps = 3/84 (4%)
+
+Query  3    CTSRELVEFKMDRGDCEAVRAIEN-YPNGCEVTICADGV-AQLGAYCGQGPCNIFGCNCD  60
+            C   + + FK + G CE V AI++ Y   CE TICADG     G YC QG CN+FGCNCD
+Sbjct  27   CCKAQFIRFKTN-GFCETVDAIKHEYYAYCETTICADGKRIGKGRYCAQGRCNVFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQII  84
+            GGC  GDW + F  R  +  I  I
+Sbjct  86   GGCRQGDWERSFRNRYPKKQIWFI  109
+
+
+>gb|AAY55580.1| IP03366p [Drosophila melanogaster]
+Length=118
+
+ Score = 66.6 bits (161),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 37/57 (65%), Gaps = 0/57 (0%)
+
+Query  30   GCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GCE T+CADG    G YCG G CNI GC C GGCL+G++ + FV  N +Y I +I  
+Sbjct  50   GCEATVCADGRVLKGTYCGVGSCNIIGCFCRGGCLTGNYGESFVEINNRYQINLIST  106
+
+
+>ref|XP_002058610.1| GJ14220 [Drosophila virilis]
+ gb|EDW58578.1| GJ14220 [Drosophila virilis]
+Length=113
+
+ Score = 66.6 bits (161),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 35/88 (40%), Positives = 48/88 (55%), Gaps = 1/88 (1%)
+
+Query  1    ECCTSRELV-EFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNC  59
+            ECC S+ +  +   +  DC    +       C+++IC DG A  G +CGQGPCNIFGCNC
+Sbjct  26   ECCHSKTIAFQLADNEDDCSLYDSKLTKGGVCKMSICDDGSAVEGNFCGQGPCNIFGCNC  85
+
+Query  60   DGGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            DGGC  GD  Q F      Y ++ + + 
+Sbjct  86   DGGCRRGDGVQIFRDFYGDYHVRNVHIV  113
+
+
+>ref|XP_001998949.1| GI24243 [Drosophila mojavensis]
+ gb|EDW14410.1| GI24243 [Drosophila mojavensis]
+Length=112
+
+ Score = 65.9 bits (159),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 39/72 (54%), Gaps = 0/72 (0%)
+
+Query  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+           +CC    ++ + + RG C            C + ICA G  ++G YCG+  CNIFGCNC 
+Sbjct  23  QCCRRSMVLTYTVGRGRCGDAGGRAGRGGTCSIVICAHGKRKVGTYCGRRSCNIFGCNCG  82
+
+Query  61  GGCLSGDWSQEF  72
+           GGC+ G W + F
+Sbjct  83  GGCIEGQWQRSF  94
+
+
+>ref|XP_002000761.1| GI22343 [Drosophila mojavensis]
+ gb|EDW16222.1| GI22343 [Drosophila mojavensis]
+Length=117
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 37/85 (44%), Positives = 47/85 (55%), Gaps = 1/85 (1%)
+
+Query  2    CCTSRELVEFKMDRGD-CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            CC SR +    +DR D C    A ++    C ++IC DG A  G YCGQGPCNIFGCNC+
+Sbjct  31   CCPSRVIAFQLIDRDDECRLYGAKQSQFGMCTMSICNDGTAVQGTYCGQGPCNIFGCNCE  90
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIK  85
+             GC  G+  Q F      Y I+ + 
+Sbjct  91   NGCRRGNPLQIFQDYYGDYHIRQVH  115
+
+
+>ref|YP_001649090.1| hypothetical protein HaGV_gp108 [Helicoverpa armigera granulovirus]
+ gb|ABY47799.1| unknown [Helicoverpa armigera granulovirus]
+Length=111
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 41/66 (62%), Gaps = 1/66 (2%)
+
+Query  28   PNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQ-IIKV  86
+            P  C+V +C DG+   G +CG+G CNIFGCNCDGGC+ GD +  F  ++  Y  Q ++  
+Sbjct  46   PILCKVKVCNDGLPNKGFFCGKGDCNIFGCNCDGGCIEGDAAYNFREKSGLYQAQPMVDF  105
+
+Query  87   TRLPFW  92
+            T L  W
+Sbjct  106  TDLSIW  111
+
+
+>ref|NP_059254.1| ORF106 [Xestia c-nigrum granulovirus]
+ gb|AAF05220.1|AF162221_106 ORF106 [Xestia c-nigrum granulovirus]
+Length=90
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 41/66 (62%), Gaps = 1/66 (2%)
+
+Query  28  PNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQ-IIKV  86
+           P  C+V +C DG+   G YCG+G CNIFGCNCDGGC+ G+ +  F  ++  Y  Q ++  
+Sbjct  25  PILCKVKVCNDGLPNRGFYCGKGDCNIFGCNCDGGCIQGNAAYNFREKSGLYQAQPMVDF  84
+
+Query  87  TRLPFW  92
+           T L  W
+Sbjct  85  TDLSIW  90
+
+
+>ref|YP_003422448.1| hypothetical protein PsunGV_gp109 [Pseudaletia unipuncta granulovirus]
+ gb|ACH69459.1| unknown [Pseudaletia unipuncta granulovirus]
+Length=113
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 36/75 (48%), Positives = 43/75 (57%), Gaps = 7/75 (9%)
+
+Query  22   RAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGI  81
+            R+++N P  C+V IC DG    G YCG+G CNIFGCNCDGGC+ G     F    +  GI
+Sbjct  42   RSVDNEPVLCKVKICEDGKPNRGYYCGKGDCNIFGCNCDGGCIEGYGVYNF---REISGI  98
+
+Query  82   Q----IIKVTRLPFW  92
+            Q    II  T L  W
+Sbjct  99   QRAKPIIDFTDLSIW  113
+
+
+>ref|YP_008003682.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+ emb|CCU56363.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+Length=132
+
+ Score = 64.3 bits (155),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 28/67 (42%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +  ++F  D    +      +Y N C++ +C DG    G YCG GPCN+FG NCDGGC+S
+Sbjct  52   KHCIDFGGDYNTVDTSYGRFDYENDCKIEVCGDGRVHEGHYCGVGPCNVFGYNCDGGCIS  111
+
+Query  66   GDWSQEF  72
+            G+  +EF
+Sbjct  112  GNPVEEF  118
+
+
+>gb|AFV50353.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=127
+
+ Score = 58.2 bits (139),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 36/67 (54%), Gaps = 0/67 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +   +F  D    +       Y   C++ +C DG    G YCG+GPCN+FG NC+GGC+ 
+Sbjct  47   KHCSDFGADYNPLDQSYGRNTYEGMCKIKVCGDGRKHDGYYCGRGPCNVFGHNCEGGCIG  106
+
+Query  66   GDWSQEF  72
+            GD +  F
+Sbjct  107  GDAAASF  113
+
+
+>ref|YP_001110948.1| hypothetical protein HVAV3e_gp095 [Heliothis virescens ascovirus 
+3e]
+ gb|ABO37282.1| hypothetical protein [Heliothis virescens ascovirus 3e]
+ gb|AFV50360.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=130
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/50 (50%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  23   AIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEF  72
+             + +Y   C+V++C DG    G YCG GPCNIFG NC+GGC  GD    F
+Sbjct  67   GVNSYEGICKVSVCGDGKVHEGHYCGIGPCNIFGSNCEGGCHRGDPVVSF  116
+
+
+>gb|AFV50420.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=155
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/40 (60%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  28   PNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGD  67
+            P+GCE  +C DG +    YCG G CN  GCNCDGGCL GD
+Sbjct  87   PDGCETKVCNDGKSHGLFYCGVGRCNAVGCNCDGGCLGGD  126
+
+
+>ref|XP_002072743.1| GK18957 [Drosophila willistoni]
+ gb|EDW83729.1| GK18957 [Drosophila willistoni]
+Length=113
+
+ Score = 52.4 bits (124),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 25/76 (33%), Positives = 40/76 (53%), Gaps = 2/76 (3%)
+
+Query  3    CTSRELVEFKMDRGD--CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            C  R  ++FK+  G+  C    A +  P  C + +C +G   +  +CG   CN F CNC 
+Sbjct  26   CCPRRTLQFKVKSGEDSCFKFSARKISPKVCTMKVCNNGHEPMRRHCGIDSCNFFNCNCM  85
+
+Query  61   GGCLSGDWSQEFVRRN  76
+            GGC  G+ ++ F++ N
+Sbjct  86   GGCFRGNAAKMFIQSN  101
+
+
+>ref|XP_001944353.1| PREDICTED: hypothetical protein LOC100163992 [Acyrthosiphon pisum]
+Length=177
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 41/74 (55%), Gaps = 10/74 (14%)
+
+Query  5    SRELVEFKM--------DRGDCEAVRAIENYPNG-CEVTICADG-VAQLGAYCGQGPCNI  54
+            S+ + E K+        D G   +V  I +  +G C  ++CA G + + G YC  G CN+
+Sbjct  40   SKSVAEIKLLAPTDERRDVGMPSSVDIITDLASGLCSYSLCAPGYIKKKGVYCATGSCNV  99
+
+Query  55   FGCNCDGGCLSGDW  68
+            FGCNCDG C++ ++
+Sbjct  100  FGCNCDGECINENY  113
+
+
+>ref|XP_001357741.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+ gb|EAL26875.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+Length=121
+
+ Score = 47.8 bits (112),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 28/80 (35%), Positives = 40/80 (50%), Gaps = 5/80 (6%)
+
+Query  1   ECCTSRELVEFKMDRGD----CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFG  56
+           ECC     V F + + +    CE     ++    C+  IC DG+   GA+CGQG CN  G
+Sbjct  22  ECCRPFP-VTFHLAKTNSLLNCEMFGGTQDINYACKSNICGDGMNVWGAWCGQGACNPRG  80
+
+Query  57  CNCDGGCLSGDWSQEFVRRN  76
+           C+C  GC+ GD    F  ++
+Sbjct  81  CSCVKGCIEGDPIMNFRLKH  100
+
+
+>ref|XP_002058609.1| GJ14221 [Drosophila virilis]
+ gb|EDW58577.1| GJ14221 [Drosophila virilis]
+Length=114
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/87 (25%), Positives = 43/87 (49%), Gaps = 3/87 (3%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   +++    + G   +C+      +    CE  +C +G   +G +CG+G CN  GC
+Sbjct  25   DCCRPSKILYKLANNGKDHNCQTYGGKYHNKETCEKKVCGNGDGIVGTWCGRGKCNPRGC  84
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQII  84
+            +C  GCL G+ +  F  ++  +  + +
+Sbjct  85   HCRNGCLPGEATASFREKHGYFNFEYV  111
+
+
+>ref|XP_002021585.1| GL26589 [Drosophila persimilis]
+ ref|XP_002133086.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW25428.1| GL26589 [Drosophila persimilis]
+ gb|EDY70488.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+Length=61
+
+ Score = 44.7 bits (104),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  33  VTICADGVAQLGAYCGQGPCNIFGCNCDGGC  63
+           + IC DG   +GAYCG G CN+FGCNC GGC
+Sbjct  26  LPICGDGQMVVGAYCGVGGCNVFGCNCSGGC  56
+
+
+>ref|XP_002020264.1| GL13595 [Drosophila persimilis]
+ gb|EDW39076.1| GL13595 [Drosophila persimilis]
+Length=73
+
+ Score = 42.7 bits (99),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 21/46 (46%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  31  CEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRN  76
+           C+  IC DG+   GA+CGQG CN  GC+C  GC+ GD    F  ++
+Sbjct  12  CKSRICGDGMNVWGAWCGQGACNPRGCSCLKGCIEGDPIMNFRLKH  57
+
+
+>tpg|DAA04418.1| TPA_inf: HDC16240 [Drosophila melanogaster]
+Length=156
+
+ Score = 43.5 bits (101),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 1/53 (2%)
+
+Query  2   CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNI  54
+           CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C+ 
+Sbjct  21  CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDF  72
+
+
+>ref|XP_002599848.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+ gb|EEN55860.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+Length=179
+
+ Score = 42.0 bits (97),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 20/28 (71%), Gaps = 1/28 (4%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGC  63
+           C DG  Q   YCG GPCNIFGCNC GGC
+Sbjct  55  CHDGT-QGTPYCGYGPCNIFGCNCRGGC  81
+
+
+>ref|XP_002020266.1| GL13593 [Drosophila persimilis]
+ ref|XP_002136975.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW39078.1| GL13593 [Drosophila persimilis]
+ gb|EDY67533.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+Length=116
+
+ Score = 38.5 bits (88),  Expect = 0.059, Method: Compositional matrix adjust.
+ Identities = 27/89 (30%), Positives = 37/89 (42%), Gaps = 3/89 (3%)
+
+Query  1    ECCTSREL-VEFKMDRGD--CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   ++  E   + G   CE           C+  IC DG    G +CG+G CN  GC
+Sbjct  25   DCCKPTKIRFELAANNGTHTCETYGGKPGKNYTCKAKICNDGNNVRGTWCGKGRCNPSGC  84
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            +C  GCL+   S     R +      I V
+Sbjct  85   HCKKGCLASGASAIDSFREKHGFFNFIYV  113
+
+
+>ref|XP_003190997.1| hypothetical protein AOR_1_252024 [Aspergillus oryzae RIB40]
+Length=73
+
+ Score = 37.0 bits (84),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 19/28 (68%), Gaps = 1/28 (4%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGC  63
+           C DG  Q   YCG   CNIFGCNCDGGC
+Sbjct  44  CEDGT-QGTPYCGYRSCNIFGCNCDGGC  70
+
+
+>ref|YP_762476.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+ emb|CAC19162.1| hypothetical protein [Spodoptera frugiperda ascovirus 1a]
+ emb|CAL44721.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+Length=135
+
+ Score = 37.7 bits (86),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 29/55 (53%), Gaps = 4/55 (7%)
+
+Query  24   IENYPNGCEVTICADGVAQLG-AYCGQGPCNIFGCNCDGGCLS---GDWSQEFVR  74
+            I+  P+GC   +C D   +   +  G G CNIFGCNCD   +S   GD  + F R
+Sbjct  60   IQRMPDGCVAHVCNDRANRTACSTVGVGKCNIFGCNCDARAVSAGDGDALENFKR  114
+
+
+>ref|XP_002136974.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY67532.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+Length=114
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 30/62 (48%), Gaps = 4/62 (6%)
+
+Query  31   CEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS--GDWSQEFVRRNQQYGIQIIKVTR  88
+            C+  IC +G    G +CG G CN  GC C  GC+    D  + F+ +N     + + V R
+Sbjct  50   CKAAICNNGQPVAGQWCGIGKCNATGCRCKNGCIKPRSDAVRTFLDKNGHS--KFVFVRR  107
+
+Query  89   LP  90
+             P
+Sbjct  108  AP  109
+
+
+>ref|XP_002020265.1| GL13594 [Drosophila persimilis]
+ gb|EDW39077.1| GL13594 [Drosophila persimilis]
+Length=114
+
+ Score = 37.4 bits (85),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 30/62 (48%), Gaps = 4/62 (6%)
+
+Query  31   CEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS--GDWSQEFVRRNQQYGIQIIKVTR  88
+            C+  IC +G    G +CG G CN  GC C  GC+    D  + F+ +N     + + V R
+Sbjct  50   CKAAICNNGQPVAGQWCGIGKCNATGCRCKNGCIKPRSDAVRTFLDKNGHS--KFVFVRR  107
+
+Query  89   LP  90
+             P
+Sbjct  108  AP  109
+
+
+>ref|XP_002013860.1| GL24362 [Drosophila persimilis]
+ gb|EDW24846.1| GL24362 [Drosophila persimilis]
+Length=75
+
+ Score = 34.3 bits (77),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 25/57 (44%), Gaps = 6/57 (11%)
+
+Query  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+           ECC +   + + +D  D          P  C       G AQ G + G+G CNIFGC
+Sbjct  17  ECCRASLTISYTVDNHDACGTVGGHGSPYSC------GGRAQAGTFSGRGSCNIFGC  67
+
+
+>ref|XP_003736249.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+ gb|EIM52322.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+Length=134
+
+ Score = 35.4 bits (80),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 22/48 (46%), Gaps = 0/48 (0%)
+
+Query  17  DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+            CE      N    C  +IC DG A    +C +G C+  GC C  GC+
+Sbjct  46  SCEYFGGTSNEDGSCLASICNDGKAVKNKWCSRGNCDSSGCRCKRGCI  93
+
+
+>ref|XP_003720090.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|EHA47723.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|ELQ37772.1| hypothetical protein OOU_Y34scaffold00578g2 [Magnaporthe oryzae 
+Y34]
+ gb|ELQ67857.1| hypothetical protein OOW_P131scaffold00282g2 [Magnaporthe oryzae 
+P131]
+Length=161
+
+ Score = 34.3 bits (77),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 14/17 (82%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  47  CGQGPCNIFGCNCDGGC  63
+           CG+G CNIF CNCDGGC
+Sbjct  30  CGKGKCNIFCCNCDGGC  46
+
+
+>ref|WP_007349055.1| TetR family transcriptional regulator [Marinobacter sp. ELB17]
+ gb|EBA00594.1| transcriptional regulator, TetR family protein [Marinobacter 
+sp. ELB17]
+Length=195
+
+ Score = 33.9 bits (76),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 21/79 (27%), Positives = 37/79 (47%), Gaps = 8/79 (10%)
+
+Query  8    LVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGD  67
+            +++   D  D +  R + +    C        V +L AY   G  N+  C+C  GCL G+
+Sbjct  56   IIDTFADEYDAKLDRMLNDSSRSC--------VDRLRAYFDIGFENMTNCDCTRGCLIGN  107
+
+Query  68   WSQEFVRRNQQYGIQIIKV  86
+              QE   +N+ + +++ KV
+Sbjct  108  LGQELAGQNETFRVRLDKV  126
+
+
+>ref|XP_002593937.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+ gb|EEN49948.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+Length=169
+
+ Score = 33.5 bits (75),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 17/28 (61%), Positives = 18/28 (64%), Gaps = 1/28 (4%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGC  63
+           C DG  Q   +CG G CN FGCNC GGC
+Sbjct  45  CLDGT-QGSPFCGIGHCNCFGCNCYGGC  71
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.143    0.500    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+Results from round 2
+
+
+Query= 3ZZOA
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3ZZO|A  Chain A, Crystal Structure Of The Cg11501 Protein In ...   127    1e-35
+ref|XP_002105346.1|  GD21438 [Drosophila simulans] >gb|EDX14849.1...   125    9e-35
+ref|NP_651695.1|  diedel [Drosophila melanogaster] >gb|AAF56898.1...   123    4e-34
+ref|XP_002037199.1|  GM12788 [Drosophila sechellia] >gb|EDW53358....   122    3e-33
+ref|XP_001981352.1|  GG11665 [Drosophila erecta] >gb|EDV53222.1| ...   118    5e-32
+ref|XP_002098589.1|  GE23853 [Drosophila yakuba] >gb|EDW98301.1| ...   117    2e-31
+ref|XP_002098587.1|  GE23854 [Drosophila yakuba] >gb|EDW98299.1| ...   113    3e-30
+ref|XP_001977731.1|  GG19205 [Drosophila erecta] >gb|EDV46658.1| ...   104    2e-26
+ref|XP_002107356.1|  GD17420 [Drosophila simulans] >gb|EDX18339.1...   103    6e-26
+ref|XP_001967293.1|  GF15938 [Drosophila ananassae] >gb|EDV30093....   102    1e-25
+ref|XP_001998948.1|  GI24242 [Drosophila mojavensis] >gb|EDW14409...   101    2e-25
+ref|XP_002101688.1|  GE17767 [Drosophila yakuba] >gb|EDX02796.1| ...   101    2e-25
+ref|NP_001097028.1|  diedel 3 [Drosophila melanogaster] >gb|AAF48...   101    4e-25
+gb|AAY55557.1|  IP03566p [Drosophila melanogaster]                     100    5e-25
+gb|AAY55596.1|  IP03266p [Drosophila melanogaster]                     100    7e-25
+ref|XP_001967296.1|  GF15937 [Drosophila ananassae] >gb|EDV30096....  98.9    2e-24
+gb|AAY55568.1|  IP03466p [Drosophila melanogaster]                    98.9    2e-24
+ref|XP_002008436.1|  GI11819 [Drosophila mojavensis] >gb|EDW18912...  99.3    3e-24
+ref|XP_002105358.1|  GD21443 [Drosophila simulans] >gb|EDX14861.1...  97.4    1e-23
+ref|XP_002047577.1|  GJ11856 [Drosophila virilis] >ref|XP_0020475...  97.0    2e-23
+ref|XP_002098576.1|  GE23861 [Drosophila yakuba] >gb|EDW98288.1| ...  96.2    3e-23
+ref|NP_001247357.1|  diedel 2 [Drosophila melanogaster] >gb|AFH06...  95.8    5e-23
+ref|XP_002037211.1|  GM12796 [Drosophila sechellia] >gb|EDW53370....  95.8    5e-23
+ref|XP_002000761.1|  GI22343 [Drosophila mojavensis] >gb|EDW16222...  91.2    2e-21
+ref|XP_002058610.1|  GJ14220 [Drosophila virilis] >gb|EDW58578.1|...  88.5    2e-20
+ref|XP_002058609.1|  GJ14221 [Drosophila virilis] >gb|EDW58577.1|...  87.4    6e-20
+ref|NP_059254.1|  ORF106 [Xestia c-nigrum granulovirus] >gb|AAF05...  86.2    1e-19
+ref|XP_002072743.1|  GK18957 [Drosophila willistoni] >gb|EDW83729...  84.7    6e-19
+ref|XP_001967307.1|  GF16013 [Drosophila ananassae] >gb|EDV30107....  83.5    2e-18
+gb|AFV50353.1|  hypothetical protein [Heliothis virescens ascovir...  82.4    6e-18
+ref|XP_001357741.3|  GA11037 [Drosophila pseudoobscura pseudoobsc...  82.4    6e-18
+ref|YP_001649090.1|  hypothetical protein HaGV_gp108 [Helicoverpa...  81.6    9e-18
+ref|YP_003422448.1|  hypothetical protein PsunGV_gp109 [Pseudalet...  81.6    9e-18
+ref|YP_008003682.1|  unknown similar to XecnGV orf106 [Mythimna s...  81.2    2e-17
+gb|AAY55580.1|  IP03366p [Drosophila melanogaster]                    80.8    3e-17
+ref|YP_001110948.1|  hypothetical protein HVAV3e_gp095 [Heliothis...  74.7    7e-15
+ref|XP_001998949.1|  GI24243 [Drosophila mojavensis] >gb|EDW14410...  72.7    2e-14
+gb|AFV50420.1|  hypothetical protein [Heliothis virescens ascovir...  73.5    2e-14
+ref|XP_002020264.1|  GL13595 [Drosophila persimilis] >gb|EDW39076...  68.5    4e-13
+tpg|DAA04418.1|  TPA: HDC16240 [Drosophila melanogaster]              64.6    5e-11
+ref|XP_001944353.1|  PREDICTED: hypothetical protein LOC100163992...  64.3    6e-11
+ref|XP_002021585.1|  GL26589 [Drosophila persimilis] >ref|XP_0021...  45.8    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002020266.1|  GL13593 [Drosophila persimilis] >ref|XP_0021...  67.7    2e-12
+ref|XP_002136974.1|  GA26838 [Drosophila pseudoobscura pseudoobsc...  60.0    1e-09
+ref|XP_002020265.1|  GL13594 [Drosophila persimilis] >gb|EDW39077...  60.0    1e-09
+ref|XP_003736249.1|  GA30102 [Drosophila pseudoobscura pseudoobsc...  57.3    1e-08
+ref|XP_002137373.1|  GA26589 [Drosophila pseudoobscura pseudoobsc...  45.0    3e-04
+ref|XP_002599848.1|  hypothetical protein BRAFLDRAFT_95538 [Branc...  45.4    4e-04
+ref|XP_002013860.1|  GL24362 [Drosophila persimilis] >gb|EDW24846...  41.5    0.003
+ref|XP_002599849.1|  hypothetical protein BRAFLDRAFT_95539 [Branc...  39.6    0.062
+ref|XP_003720090.1|  hypothetical protein MGG_03806 [Magnaporthe ...  37.7    0.24 
+ref|XP_002593937.1|  hypothetical protein BRAFLDRAFT_128535 [Bran...  37.7    0.24 
+ref|XP_003190997.1|  hypothetical protein AOR_1_252024 [Aspergill...  35.8    0.32 
+ref|XP_004989334.1|  hypothetical protein PTSG_12970 [Salpingoeca...  36.5    1.3  
+ref|XP_004979540.1|  PREDICTED: glucan endo-1,3-beta-glucosidase ...  36.1    1.4  
+ref|YP_762476.1|  15.0 kDa [Spodoptera frugiperda ascovirus 1a] >...  35.0    1.5  
+ref|XP_002278728.1|  PREDICTED: histone-lysine N-methyltransferas...  36.1    1.6  
+emb|CAN79045.1|  hypothetical protein VITISV_043758 [Vitis vinifera]  36.1    1.7  
+ref|WP_022166289.1|  uncharacterized protein [Eubacterium sp. CAG...  35.8    1.9  
+ref|XP_004307309.1|  PREDICTED: histone-lysine N-methyltransferas...  35.4    2.9  
+ref|YP_007364034.1|  hypothetical protein MYSTI_07078 [Myxococcus...  35.0    2.9  
+emb|CBI32864.3|  unnamed protein product [Vitis vinifera]             35.0    3.1  
+ref|XP_004019304.1|  PREDICTED: LOW QUALITY PROTEIN: tenascin-X [...  34.6    5.5  
+ref|XP_003624859.1|  Histone-lysine N-methyltransferase, H3 lysin...  34.2    6.5  
+ref|YP_762433.1|  25.4 kDa [Spodoptera frugiperda ascovirus 1a] >...  33.8    6.7  
+ref|WP_002637042.1|  hypothetical protein [Myxococcus sp. (contam...  34.2    6.8  
+ref|XP_002517173.1|  pepsin A, putative [Ricinus communis] >gb|EE...  33.8    8.2  
+ref|XP_005901692.1|  PREDICTED: LOW QUALITY PROTEIN: tenascin-X, ...  33.8    8.4  
+ref|XP_004144645.1|  PREDICTED: histone-lysine N-methyltransferas...  33.8    8.6  
+ref|YP_004665825.1|  hypothetical protein LILAB_14210 [Myxococcus...  33.4    9.8  
+
+
+>pdb|3ZZO|A Chain A, Crystal Structure Of The Cg11501 Protein In P212121 
+Spacegroup
+ pdb|3ZZR|A Chain A, Crystal Structure Of The Cg11501 Protein In P21212 Spacegroup
+Length=95
+
+ Score =  127 bits (318),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+           ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD
+Sbjct  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+
+Query  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+           GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL
+Sbjct  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+
+
+>ref|XP_002105346.1| GD21438 [Drosophila simulans]
+ gb|EDX14849.1| GD21438 [Drosophila simulans]
+Length=116
+
+ Score =  125 bits (315),  Expect = 9e-35, Method: Composition-based stats.
+ Identities = 81/91 (89%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDC AVRAIENYP+GCEVTICADGVAQLGAYCG+GPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCAAVRAIENYPHGCEVTICADGVAQLGAYCGKGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRDYGIQIIKVTRMPL  116
+
+
+>ref|NP_651695.1| diedel [Drosophila melanogaster]
+ gb|AAF56898.1| diedel [Drosophila melanogaster]
+ gb|AAL48174.1| RH38110p [Drosophila melanogaster]
+Length=115
+
+ Score =  123 bits (310),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 90/91 (99%), Positives = 90/91 (99%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQG CNIFGCNCD
+Sbjct  25   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGSCNIFGCNCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF
+Sbjct  85   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  115
+
+
+>ref|XP_002037199.1| GM12788 [Drosophila sechellia]
+ gb|EDW53358.1| GM12788 [Drosophila sechellia]
+Length=116
+
+ Score =  122 bits (305),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 82/91 (90%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDCEAVRAIENYP+GCEVTICADGVAQLG YCGQGPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCEAVRAIENYPHGCEVTICADGVAQLGTYCGQGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRHYGIQIIKVTRMPL  116
+
+
+>ref|XP_001981352.1| GG11665 [Drosophila erecta]
+ gb|EDV53222.1| GG11665 [Drosophila erecta]
+Length=115
+
+ Score =  118 bits (296),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 66/91 (73%), Positives = 77/91 (85%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRE V++KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGC+CD
+Sbjct  25   ECCTSREEVKYKMDRGDCEDVGGSGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWS+EFVR+NQ YGI I++V R+P 
+Sbjct  85   GGCLTGDWSEEFVRKNQAYGIHIVEVRRIPI  115
+
+
+>ref|XP_002098589.1| GE23853 [Drosophila yakuba]
+ gb|EDW98301.1| GE23853 [Drosophila yakuba]
+Length=114
+
+ Score =  117 bits (292),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 63/91 (69%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC+SR+ V +KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGCNCD
+Sbjct  24   ECCSSRQEVTYKMDRGDCEDVGGHGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCNCD  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+G+WS +FVR+NQ+YGI+II V  +P+
+Sbjct  84   GGCLTGEWSDDFVRKNQKYGIEIISVRWIPW  114
+
+
+>ref|XP_002098587.1| GE23854 [Drosophila yakuba]
+ gb|EDW98299.1| GE23854 [Drosophila yakuba]
+Length=115
+
+ Score =  113 bits (284),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 60/91 (66%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCT+RE+V +KMDRGDC+ V    +YP  CEVTICADGVAQ+G +CGQG CNIFGC+CD
+Sbjct  25   ECCTAREVVSYKMDRGDCQDVGGHGDYPLRCEVTICADGVAQVGTFCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL G+WS++F R+NQ+YGI I+ V R+P 
+Sbjct  85   GGCLFGEWSEDFARKNQKYGIHIVDVRRIPL  115
+
+
+>ref|XP_001977731.1| GG19205 [Drosophila erecta]
+ gb|EDV46658.1| GG19205 [Drosophila erecta]
+Length=121
+
+ Score =  104 bits (260),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 38/86 (44%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC +R  + F M  G C  V A  +   GCE+T+CADG+  +G+YCG+G CN+FGC C 
+Sbjct  25   DCCWTRAKLIFTMGNGSCGMVNAR-STRYGCEITVCADGMVLVGSYCGKGSCNLFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGC  G++ + FV  N++Y I +I  
+Sbjct  84   GGCRRGNFGESFVEINRRYEINLIST  109
+
+
+>ref|XP_002107356.1| GD17420 [Drosophila simulans]
+ gb|EDX18339.1| GD17420 [Drosophila simulans]
+Length=121
+
+ Score =  103 bits (256),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 39/86 (45%), Positives = 52/86 (60%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M +G C  V A      GCE T+CADG    G+YCG G CNIFGC C 
+Sbjct  25   DCCWTKAKLLFTMGKGSCGMVNAK-TTKYGCEATVCADGRVLKGSYCGVGSCNIFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  84   GGCLAGNYGESFVEINNKYQINLIST  109
+
+
+>ref|XP_001967293.1| GF15938 [Drosophila ananassae]
+ gb|EDV30093.1| GF15938 [Drosophila ananassae]
+Length=113
+
+ Score =  102 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 38/89 (43%), Positives = 56/89 (63%), Gaps = 1/89 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC S+  +++ ++ GDC AV       +GC +TIC +G A +G +CG+G CNIFGC C G
+Sbjct  26   CCRSKANLKYTIEGGDCGAVGGRRTS-DGCTITICGNGRAVVGTWCGRGSCNIFGCACKG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLP  90
+            GCLSGD++ +F++ N  Y I +      P
+Sbjct  85   GCLSGDFALDFIKNNPGYKIHVTSTVHKP  113
+
+
+>ref|XP_001998948.1| GI24242 [Drosophila mojavensis]
+ gb|EDW14409.1| GI24242 [Drosophila mojavensis]
+Length=113
+
+ Score =  101 bits (252),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC   + V F ++ G C+ V  + +  + C +TICADG   +G+YCG   CN+FGCNC 
+Sbjct  25   DCCRRTKNVSFTVESGRCKDVGGVNSSISTCTITICADGTRLIGSYCGHYSCNLFGCNCG  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GGCL G W + F+ R+ +Y I+I+    
+Sbjct  85   GGCLKGKWEKNFIERHPKYKIRILSSKW  112
+
+
+>ref|XP_002101688.1| GE17767 [Drosophila yakuba]
+ gb|EDX02796.1| GE17767 [Drosophila yakuba]
+Length=121
+
+ Score =  101 bits (252),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 42/85 (49%), Positives = 56/85 (66%), Gaps = 1/85 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC ++  + F M  G C  V A  +  NGCEVTIC DG A +G +CG G CN+FGC+C G
+Sbjct  26   CCRTKAKLIFTMGYGSCGMVNAK-STKNGCEVTICPDGRALVGTFCGVGSCNLFGCHCRG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GCLSG++ + FV RN++Y I +I  
+Sbjct  85   GCLSGNFGESFVERNRKYEINLIST  109
+
+
+>ref|NP_001097028.1| diedel 3 [Drosophila melanogaster]
+ gb|AAF48909.2| diedel 3 [Drosophila melanogaster]
+Length=121
+
+ Score =  101 bits (251),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 38/86 (44%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  25   DCCWTKAKLLFTMGTGSCGMVNAK-TTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  84   GGCLTGNYGESFVEINNRYQINLIST  109
+
+
+>gb|AAY55557.1| IP03566p [Drosophila melanogaster]
+Length=120
+
+ Score =  100 bits (249),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 38/86 (44%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  24   DCCWTKAKLLFTMGTGSCGMVNAK-TTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  82
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  83   GGCLTGNYGESFVEINNRYQINLIST  108
+
+
+>gb|AAY55596.1| IP03266p [Drosophila melanogaster]
+Length=118
+
+ Score =  100 bits (248),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 38/86 (44%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  22   DCCWTKAKLLFTMGTGSCGMVNAK-TTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  80
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  81   GGCLTGNYGESFVEINNRYQINLIST  106
+
+
+>ref|XP_001967296.1| GF15937 [Drosophila ananassae]
+ gb|EDV30096.1| GF15937 [Drosophila ananassae]
+Length=113
+
+ Score = 98.9 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 1/90 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CCTS   +++ ++ GDC AV       +GC +TIC +G A +G +CG+GPCNIFGC C 
+Sbjct  25   DCCTSMSHLKYTIEGGDCGAVGGSRTS-DGCSITICGNGKALVGTFCGRGPCNIFGCACK  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLP  90
+            GGCLSGD++ +F++ N  Y I +       
+Sbjct  84   GGCLSGDFALDFIKNNPGYKIHVTSTVHRS  113
+
+
+>gb|AAY55568.1| IP03466p [Drosophila melanogaster]
+Length=113
+
+ Score = 98.9 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 38/86 (44%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  17   DCCWTKAKLLFTMGTGSCGMVNAK-TTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  75
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+            GGCL+G++ + FV  N +Y I +I  
+Sbjct  76   GGCLTGNYGESFVEINNRYQINLIST  101
+
+
+>ref|XP_002008436.1| GI11819 [Drosophila mojavensis]
+ gb|EDW18912.1| GI11819 [Drosophila mojavensis]
+Length=140
+
+ Score = 99.3 bits (246),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 36/94 (38%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC   ++V++K+  G C A+R   +    C + IC DG    G YCG+G CN+ GC+CDG
+Sbjct  28   CCAEAKVVKYKVLNGQCAAIRGQRSDDGNCVIKICGDGRPLRGTYCGRGSCNLAGCDCDG  87
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+            GCL GDW +  V     Y ++I+++    +W+ L
+Sbjct  88   GCLPGDWEKSLVSDTGIYRVEILEI----YWQDL  117
+
+
+>ref|XP_002105358.1| GD21443 [Drosophila simulans]
+ gb|EDX14861.1| GD21443 [Drosophila simulans]
+Length=125
+
+ Score = 97.4 bits (241),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 36/87 (41%), Positives = 57/87 (66%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGIVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTER  106
+
+
+>ref|XP_002047577.1| GJ11856 [Drosophila virilis]
+ ref|XP_002047578.1| GJ11855 [Drosophila virilis]
+ gb|EDW69919.1| GJ11856 [Drosophila virilis]
+ gb|EDW69920.1| GJ11855 [Drosophila virilis]
+Length=131
+
+ Score = 97.0 bits (240),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 33/91 (36%), Positives = 52/91 (57%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC   + +++ ++ G C +     +    C +TIC +G A  GAYCG+G CN+FGC+CD
+Sbjct  19   ECCVDAKKLDYTVEDGTCASAGGKASGNGKCVITICGNGEALRGAYCGRGSCNVFGCDCD  78
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL   W Q F++   QY + ++  +    
+Sbjct  79   GGCLGSGWEQTFLQNAAQYKVSLLGWSWTSL  109
+
+
+>ref|XP_002098576.1| GE23861 [Drosophila yakuba]
+ gb|EDW98288.1| GE23861 [Drosophila yakuba]
+Length=125
+
+ Score = 96.2 bits (238),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 56/86 (65%), Gaps = 1/86 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TICA+G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGVVGAKSN-GTGCKITICANGEALVGSYCGRAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GCL G ++ +F+++N  +GI+++   
+Sbjct  80   GCLQGSFASDFLKKNYIHGIELLGTE  105
+
+
+>ref|NP_001247357.1| diedel 2 [Drosophila melanogaster]
+ gb|AFH06674.1| diedel 2 [Drosophila melanogaster]
+Length=125
+
+ Score = 95.8 bits (237),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 35/87 (40%), Positives = 56/87 (64%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLKKNYIHGIELLGTER  106
+
+
+>ref|XP_002037211.1| GM12796 [Drosophila sechellia]
+ gb|EDW53370.1| GM12796 [Drosophila sechellia]
+Length=125
+
+ Score = 95.8 bits (237),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 35/87 (40%), Positives = 56/87 (64%), Gaps = 1/87 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G    V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVSGIVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GCL G ++++F+++N  +GI+++   R
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTER  106
+
+
+>ref|XP_002000761.1| GI22343 [Drosophila mojavensis]
+ gb|EDW16222.1| GI22343 [Drosophila mojavensis]
+Length=117
+
+ Score = 91.2 bits (225),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 37/86 (43%), Positives = 47/86 (55%), Gaps = 1/86 (1%)
+
+Query  2    CCTSRELVEFKMDRGD-CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            CC SR +    +DR D C    A ++    C ++IC DG A  G YCGQGPCNIFGCNC+
+Sbjct  31   CCPSRVIAFQLIDRDDECRLYGAKQSQFGMCTMSICNDGTAVQGTYCGQGPCNIFGCNCE  90
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+             GC  G+  Q F      Y I+ +  
+Sbjct  91   NGCRRGNPLQIFQDYYGDYHIRQVHF  116
+
+
+>ref|XP_002058610.1| GJ14220 [Drosophila virilis]
+ gb|EDW58578.1| GJ14220 [Drosophila virilis]
+Length=113
+
+ Score = 88.5 bits (218),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 47/88 (53%), Gaps = 1/88 (1%)
+
+Query  1    ECCTSRELVEFKMDR-GDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNC  59
+            ECC S+ +     D   DC    +       C+++IC DG A  G +CGQGPCNIFGCNC
+Sbjct  26   ECCHSKTIAFQLADNEDDCSLYDSKLTKGGVCKMSICDDGSAVEGNFCGQGPCNIFGCNC  85
+
+Query  60   DGGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            DGGC  GD  Q F      Y ++ + + 
+Sbjct  86   DGGCRRGDGVQIFRDFYGDYHVRNVHIV  113
+
+
+>ref|XP_002058609.1| GJ14221 [Drosophila virilis]
+ gb|EDW58577.1| GJ14221 [Drosophila virilis]
+Length=114
+
+ Score = 87.4 bits (215),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 43/88 (49%), Gaps = 3/88 (3%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   +++    + G   +C+      +    CE  +C +G   +G +CG+G CN  GC
+Sbjct  25   DCCRPSKILYKLANNGKDHNCQTYGGKYHNKETCEKKVCGNGDGIVGTWCGRGKCNPRGC  84
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQIIK  85
+            +C  GCL G+ +  F  ++  +  + + 
+Sbjct  85   HCRNGCLPGEATASFREKHGYFNFEYVG  112
+
+
+>ref|NP_059254.1| ORF106 [Xestia c-nigrum granulovirus]
+ gb|AAF05220.1|AF162221_106 ORF106 [Xestia c-nigrum granulovirus]
+Length=90
+
+ Score = 86.2 bits (212),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 30/70 (43%), Positives = 41/70 (59%), Gaps = 1/70 (1%)
+
+Query  24  IENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQ-  82
+               P  C+V +C DG+   G YCG+G CNIFGCNCDGGC+ G+ +  F  ++  Y  Q 
+Sbjct  21  QSERPILCKVKVCNDGLPNRGFYCGKGDCNIFGCNCDGGCIQGNAAYNFREKSGLYQAQP  80
+
+Query  83  IIKVTRLPFW  92
+           ++  T L  W
+Sbjct  81  MVDFTDLSIW  90
+
+
+>ref|XP_002072743.1| GK18957 [Drosophila willistoni]
+ gb|EDW83729.1| GK18957 [Drosophila willistoni]
+Length=113
+
+ Score = 84.7 bits (208),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 40/77 (52%), Gaps = 2/77 (3%)
+
+Query  3    CTSRELVEFKMDRGD--CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            C  R  ++FK+  G+  C    A +  P  C + +C +G   +  +CG   CN F CNC 
+Sbjct  26   CCPRRTLQFKVKSGEDSCFKFSARKISPKVCTMKVCNNGHEPMRRHCGIDSCNFFNCNCM  85
+
+Query  61   GGCLSGDWSQEFVRRNQ  77
+            GGC  G+ ++ F++ N 
+Sbjct  86   GGCFRGNAAKMFIQSNG  102
+
+
+>ref|XP_001967307.1| GF16013 [Drosophila ananassae]
+ gb|EDV30107.1| GF16013 [Drosophila ananassae]
+Length=109
+
+ Score = 83.5 bits (205),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 41/84 (49%), Positives = 49/84 (58%), Gaps = 3/84 (4%)
+
+Query  3    CTSRELVEFKMDRGDCEAVRAIEN-YPNGCEVTICADGVAQ-LGAYCGQGPCNIFGCNCD  60
+            C   + + FK + G CE V AI++ Y   CE TICADG     G YC QG CN+FGCNCD
+Sbjct  27   CCKAQFIRFKTN-GFCETVDAIKHEYYAYCETTICADGKRIGKGRYCAQGRCNVFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQII  84
+            GGC  GDW + F  R  +  I  I
+Sbjct  86   GGCRQGDWERSFRNRYPKKQIWFI  109
+
+
+>gb|AFV50353.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=127
+
+ Score = 82.4 bits (202),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 38/71 (54%), Gaps = 0/71 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +   +F  D    +       Y   C++ +C DG    G YCG+GPCN+FG NC+GGC+ 
+Sbjct  47   KHCSDFGADYNPLDQSYGRNTYEGMCKIKVCGDGRKHDGYYCGRGPCNVFGHNCEGGCIG  106
+
+Query  66   GDWSQEFVRRN  76
+            GD +  F + +
+Sbjct  107  GDAAASFKQIH  117
+
+
+>ref|XP_001357741.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+ gb|EAL26875.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+Length=121
+
+ Score = 82.4 bits (202),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 26/88 (30%), Positives = 38/88 (43%), Gaps = 3/88 (3%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            ECC    +           +CE     ++    C+  IC DG+   GA+CGQG CN  GC
+Sbjct  22   ECCRPFPVTFHLAKTNSLLNCEMFGGTQDINYACKSNICGDGMNVWGAWCGQGACNPRGC  81
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQIIK  85
+            +C  GC+ GD    F  ++       + 
+Sbjct  82   SCVKGCIEGDPIMNFRLKHGLDNFVYVG  109
+
+
+>ref|YP_001649090.1| hypothetical protein HaGV_gp108 [Helicoverpa armigera granulovirus]
+ gb|ABY47799.1| unknown [Helicoverpa armigera granulovirus]
+Length=111
+
+ Score = 81.6 bits (200),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 34/93 (37%), Positives = 49/93 (53%), Gaps = 5/93 (5%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENY-PNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            CC    +  +     DC      ++  P  C+V +C DG+   G +CG+G CNIFGCNCD
+Sbjct  22   CCRKLVMSWY---SSDCSPYAKDQSEIPILCKVKVCNDGLPNKGFFCGKGDCNIFGCNCD  78
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQ-IIKVTRLPFW  92
+            GGC+ GD +  F  ++  Y  Q ++  T L  W
+Sbjct  79   GGCIEGDAAYNFREKSGLYQAQPMVDFTDLSIW  111
+
+
+>ref|YP_003422448.1| hypothetical protein PsunGV_gp109 [Pseudaletia unipuncta granulovirus]
+ gb|ACH69459.1| unknown [Pseudaletia unipuncta granulovirus]
+Length=113
+
+ Score = 81.6 bits (200),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 35/92 (38%), Positives = 46/92 (50%), Gaps = 1/92 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC    +  +  +       R+++N P  C+V IC DG    G YCG+G CNIFGCNCDG
+Sbjct  22   CCRKIVVAWYASNCSPYSNDRSVDNEPVLCKVKICEDGKPNRGYYCGKGDCNIFGCNCDG  81
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQ-IIKVTRLPFW  92
+            GC+ G     F   +     + II  T L  W
+Sbjct  82   GCIEGYGVYNFREISGIQRAKPIIDFTDLSIW  113
+
+
+>ref|YP_008003682.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+ emb|CCU56363.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+Length=132
+
+ Score = 81.2 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +  ++F  D    +      +Y N C++ +C DG    G YCG GPCN+FG NCDGGC+S
+Sbjct  52   KHCIDFGGDYNTVDTSYGRFDYENDCKIEVCGDGRVHEGHYCGVGPCNVFGYNCDGGCIS  111
+
+Query  66   GDWSQEF  72
+            G+  +EF
+Sbjct  112  GNPVEEF  118
+
+
+>gb|AAY55580.1| IP03366p [Drosophila melanogaster]
+Length=118
+
+ Score = 80.8 bits (198),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 40/69 (58%), Gaps = 1/69 (1%)
+
+Query  18   CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQ  77
+            C  V A      GCE T+CADG    G YCG G CNI GC C GGCL+G++ + FV  N 
+Sbjct  39   CGMVNAK-TTKYGCEATVCADGRVLKGTYCGVGSCNIIGCFCRGGCLTGNYGESFVEINN  97
+
+Query  78   QYGIQIIKV  86
+            +Y I +I  
+Sbjct  98   RYQINLIST  106
+
+
+>ref|YP_001110948.1| hypothetical protein HVAV3e_gp095 [Heliothis virescens ascovirus 
+3e]
+ gb|ABO37282.1| hypothetical protein [Heliothis virescens ascovirus 3e]
+ gb|AFV50360.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=130
+
+ Score = 74.7 bits (182),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 25/62 (40%), Positives = 32/62 (52%), Gaps = 0/62 (0%)
+
+Query  15   RGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVR  74
+                +    + +Y   C+V++C DG    G YCG GPCNIFG NC+GGC  GD    F  
+Sbjct  59   YNPIQQSYGVNSYEGICKVSVCGDGKVHEGHYCGIGPCNIFGSNCEGGCHRGDPVVSFKE  118
+
+Query  75   RN  76
+              
+Sbjct  119  LY  120
+
+
+>ref|XP_001998949.1| GI24243 [Drosophila mojavensis]
+ gb|EDW14410.1| GI24243 [Drosophila mojavensis]
+Length=112
+
+ Score = 72.7 bits (177),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 31/89 (35%), Positives = 46/89 (52%), Gaps = 0/89 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC    ++ + + RG C            C + ICA G  ++G YCG+  CNIFGCNC 
+Sbjct  23   QCCRRSMVLTYTVGRGRCGDAGGRAGRGGTCSIVICAHGKRKVGTYCGRRSCNIFGCNCG  82
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRL  89
+            GGC+ G W + F+  N+   I+I     +
+Sbjct  83   GGCIEGQWQRSFINNNRNQNIRITNTRWI  111
+
+
+>gb|AFV50420.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=155
+
+ Score = 73.5 bits (179),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 44/103 (43%), Gaps = 13/103 (13%)
+
+Query  3    CTSRELVEFKMDRGDCEAVR----------AIENYPNGCEVTICADGVAQLGAYCGQGPC  52
+            C  R  + +  D  DC                   P+GCE  +C DG +    YCG G C
+Sbjct  52   CCPRSHLVWSSDTQDCANYDKRFFINTSGAGFNAMPDGCETKVCNDGKSHGLFYCGVGRC  111
+
+Query  53   NIFGCNCDGGCLSG--DWSQEFVRRNQQ-YGIQIIKVTRLPFW  92
+            N  GCNCDGGCL G  D    F + +   + +++I +     W
+Sbjct  112  NAVGCNCDGGCLGGDADAVDSFRKISGITHAVRLIDIKDPTTW  154
+
+
+>ref|XP_002020264.1| GL13595 [Drosophila persimilis]
+ gb|EDW39076.1| GL13595 [Drosophila persimilis]
+Length=73
+
+ Score = 68.5 bits (166),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 0/66 (0%)
+
+Query  20  AVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQY  79
+                ++    C+  IC DG+   GA+CGQG CN  GC+C  GC+ GD    F  ++   
+Sbjct  1   MFGGTQDINYACKSRICGDGMNVWGAWCGQGACNPRGCSCLKGCIEGDPIMNFRLKHGLD  60
+
+Query  80  GIQIIK  85
+               + 
+Sbjct  61  NFVYVG  66
+
+
+>ref|XP_002020266.1| GL13593 [Drosophila persimilis]
+ ref|XP_002136975.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW39078.1| GL13593 [Drosophila persimilis]
+ gb|EDY67533.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+Length=116
+
+ Score = 67.7 bits (164),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 24/90 (27%), Positives = 36/90 (40%), Gaps = 5/90 (6%)
+
+Query  1    ECCTSREL-VEFKMDRGD--CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   ++  E   + G   CE           C+  IC DG    G +CG+G CN  GC
+Sbjct  25   DCCKPTKIRFELAANNGTHTCETYGGKPGKNYTCKAKICNDGNNVRGTWCGKGRCNPSGC  84
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQIIK  85
+            +C  GCL         F  ++  +    + 
+Sbjct  85   HCKKGCLASGASAIDSFREKHGFFNFIYVG  114
+
+
+>tpg|DAA04418.1| TPA_inf: HDC16240 [Drosophila melanogaster]
+Length=156
+
+ Score = 64.6 bits (156),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 1/53 (2%)
+
+Query  2   CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNI  54
+           CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C+ 
+Sbjct  21  CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDF  72
+
+
+>ref|XP_001944353.1| PREDICTED: hypothetical protein LOC100163992 [Acyrthosiphon pisum]
+Length=177
+
+ Score = 64.3 bits (155),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 38/64 (59%), Gaps = 2/64 (3%)
+
+Query  14   DRGDCEAVRAIENYPNG-CEVTICADG-VAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQE  71
+            D G   +V  I +  +G C  ++CA G + + G YC  G CN+FGCNCDG C++ ++   
+Sbjct  57   DVGMPSSVDIITDLASGLCSYSLCAPGYIKKKGVYCATGSCNVFGCNCDGECINENYVDG  116
+
+Query  72   FVRR  75
+             ++R
+Sbjct  117  NLQR  120
+
+
+>ref|XP_002136974.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY67532.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+Length=114
+
+ Score = 60.0 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 36/89 (40%), Gaps = 6/89 (7%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYP-NGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            CC    +   V   ++  +C     + +     C+  IC +G    G +CG G CN  GC
+Sbjct  17   CCRPTRIRFAVMPSIEERNCNTYGGVPDKRQKTCKAAICNNGQPVAGQWCGIGKCNATGC  76
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQII  84
+             C  GC+    D  + F+ +N       +
+Sbjct  77   RCKNGCIKPRSDAVRTFLDKNGHSKFVFV  105
+
+
+>ref|XP_002020265.1| GL13594 [Drosophila persimilis]
+ gb|EDW39077.1| GL13594 [Drosophila persimilis]
+Length=114
+
+ Score = 60.0 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 36/89 (40%), Gaps = 6/89 (7%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYP-NGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            CC    +   V   ++  +C     + +     C+  IC +G    G +CG G CN  GC
+Sbjct  17   CCRPTRIRFAVMPSIEERNCNTYGGVPDKRQKTCKAAICNNGQPVAGQWCGIGKCNATGC  76
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQII  84
+             C  GC+    D  + F+ +N       +
+Sbjct  77   RCKNGCIKPRSDAVRTFLDKNGHSKFVFV  105
+
+
+>ref|XP_003736249.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+ gb|EIM52322.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+Length=134
+
+ Score = 57.3 bits (137),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/81 (26%), Positives = 30/81 (37%), Gaps = 5/81 (6%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCN  58
+            CC    +   +    +   CE      N    C  +IC DG A    +C +G C+  GC 
+Sbjct  28   CCKPTVISFELSVSAEGESCEYFGGTSNEDGSCLASICNDGKAVKNKWCSRGNCDSSGCR  87
+
+Query  59   CDGGCLSG--DWSQEFVRRNQ  77
+            C  GC+    D    F   + 
+Sbjct  88   CKRGCIRRKFDPVASFNEIHG  108
+
+
+>ref|XP_002021585.1| GL26589 [Drosophila persimilis]
+ ref|XP_002133086.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW25428.1| GL26589 [Drosophila persimilis]
+ gb|EDY70488.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+Length=61
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 23/33 (70%), Gaps = 0/33 (0%)
+
+Query  33  VTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+           + IC DG   +GAYCG G CN+FGCNC GGC  
+Sbjct  26  LPICGDGQMVVGAYCGVGGCNVFGCNCSGGCRK  58
+
+
+>ref|XP_002137373.1| GA26589 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY67931.1| GA26589 [Drosophila pseudoobscura pseudoobscura]
+Length=155
+
+ Score = 45.0 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 19/58 (33%), Positives = 27/58 (47%), Gaps = 8/58 (14%)
+
+Query  1    ECCTSRELVEFKMD-RGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            ECC +   + + +D    C  V    + P  C       G  Q+G + G+G CNIFGC
+Sbjct  97   ECCRASLTISYTVDIHDACGTVGGHGS-PYSC------GGRGQVGTFSGRGSCNIFGC  147
+
+
+>ref|XP_002599848.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+ gb|EEN55860.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+Length=179
+
+ Score = 45.4 bits (106),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 20/29 (69%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   YCG GPCNIFGCNC GGC 
+Sbjct  55  CHDGT-QGTPYCGYGPCNIFGCNCRGGCR  82
+
+
+>ref|XP_002013860.1| GL24362 [Drosophila persimilis]
+ gb|EDW24846.1| GL24362 [Drosophila persimilis]
+Length=75
+
+ Score = 41.5 bits (96),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 28/58 (48%), Gaps = 8/58 (14%)
+
+Query  1   ECCTSRELVEFKMDRGD-CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+           ECC +   + + +D  D C  V    + P  C       G AQ G + G+G CNIFGC
+Sbjct  17  ECCRASLTISYTVDNHDACGTVGGHGS-PYSC------GGRAQAGTFSGRGSCNIFGC  67
+
+
+>ref|XP_002599849.1| hypothetical protein BRAFLDRAFT_95539 [Branchiostoma floridae]
+ gb|EEN55861.1| hypothetical protein BRAFLDRAFT_95539 [Branchiostoma floridae]
+Length=206
+
+ Score = 39.6 bits (91),  Expect = 0.062, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 16/29 (55%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG      YC  G C+  GCNC+GGC 
+Sbjct  37  CNDGT-HGTPYCAYGSCDWLGCNCNGGCR  64
+
+
+>ref|XP_003720090.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|EHA47723.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|ELQ37772.1| hypothetical protein OOU_Y34scaffold00578g2 [Magnaporthe oryzae 
+Y34]
+ gb|ELQ67857.1| hypothetical protein OOW_P131scaffold00282g2 [Magnaporthe oryzae 
+P131]
+Length=161
+
+ Score = 37.7 bits (86),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 14/18 (78%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  47  CGQGPCNIFGCNCDGGCL  64
+           CG+G CNIF CNCDGGC 
+Sbjct  30  CGKGKCNIFCCNCDGGCR  47
+
+
+>ref|XP_002593937.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+ gb|EEN49948.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+Length=169
+
+ Score = 37.7 bits (86),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 18/29 (62%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   +CG G CN FGCNC GGC 
+Sbjct  45  CLDGT-QGSPFCGIGHCNCFGCNCYGGCR  72
+
+
+>ref|XP_003190997.1| hypothetical protein AOR_1_252024 [Aspergillus oryzae RIB40]
+Length=73
+
+ Score = 35.8 bits (81),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 19/29 (66%), Positives = 19/29 (66%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   YCG   CNIFGCNCDGGC 
+Sbjct  44  CEDGT-QGTPYCGYRSCNIFGCNCDGGCR  71
+
+
+>ref|XP_004989334.1| hypothetical protein PTSG_12970 [Salpingoeca rosetta]
+ gb|EGD79249.1| hypothetical protein PTSG_12970 [Salpingoeca rosetta]
+Length=10593
+
+ Score = 36.5 bits (83),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 28/69 (41%), Gaps = 9/69 (13%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICAD-GVAQLGAYC----GQGPC---  52
+            +C   + +V  K D      V    + P+GCE+  C   G     + C    G  PC   
+Sbjct  685  QCACKQNVVGIKCDTCAPGFVNLQASNPDGCELCTCNPTGTVDGASVCSAEDGADPCTCK  744
+
+Query  53   -NIFGCNCD  60
+             N+ G +CD
+Sbjct  745  PNVRGFSCD  753
+
+
+>ref|XP_004979540.1| PREDICTED: glucan endo-1,3-beta-glucosidase 8-like [Setaria italica]
+Length=490
+
+ Score = 36.1 bits (82),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 16/45 (36%), Positives = 21/45 (47%), Gaps = 7/45 (16%)
+
+Query  42   QLGAYCGQGPCNI--FGCNCDGGCL--SGDWSQEFVRRNQQYGIQ  82
+             +G  CG+  C    +GC+C GG L   G+ S  F   N  Y  Q
+Sbjct  390  NVGYACGRADCTPLGYGCSCGGGALDARGNASYAF---NAYYQSQ  431
+
+
+>ref|YP_762476.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+ emb|CAC19162.1| hypothetical protein [Spodoptera frugiperda ascovirus 1a]
+ emb|CAL44721.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+Length=135
+
+ Score = 35.0 bits (79),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 23/60 (38%), Positives = 29/60 (48%), Gaps = 8/60 (13%)
+
+Query  24   IENYPNGCEVTICADGVAQLGAYC---GQGPCNIFGCNCDGGCLS---GDWSQEFVRRNQ  77
+            I+  P+GC   +C D        C   G G CNIFGCNCD   +S   GD  + F R + 
+Sbjct  60   IQRMPDGCVAHVCND--RANRTACSTVGVGKCNIFGCNCDARAVSAGDGDALENFKRISG  117
+
+
+>ref|XP_002278728.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1 [Vitis vinifera]
+Length=737
+
+ Score = 36.1 bits (82),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  511  FSCNCQGGCLPGNSNCSCIKKNGGY  535
+
+
+>emb|CAN79045.1| hypothetical protein VITISV_043758 [Vitis vinifera]
+Length=666
+
+ Score = 36.1 bits (82),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  511  FSCNCQGGCLPGNSNCSCIKKNGGY  535
+
+
+>ref|WP_022166289.1| uncharacterized protein [Eubacterium sp. CAG:192]
+ emb|CDB13957.1| uncharacterized protein BN525_01795 [Eubacterium sp. CAG:192]
+Length=353
+
+ Score = 35.8 bits (81),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 22/57 (39%), Gaps = 4/57 (7%)
+
+Query  38   DGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRP  94
+            DG +    YCG+  C    C  D G  S  W    V          I++ ++P W+ 
+Sbjct  220  DGKSIKVKYCGKEHCKFAHCVGDRGVFSSAWELASVIDKGI----QIELEKIPVWQE  272
+
+
+>ref|XP_004307309.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1-like [Fragaria vesca subsp. vesca]
+Length=663
+
+ Score = 35.4 bits (80),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  56   GCNCDGGCLSGDWSQEFVRRNQQY  79
+            GCNC GGCL G+ +   +++N  Y
+Sbjct  438  GCNCTGGCLPGNSNCLCIQKNGGY  461
+
+
+>ref|YP_007364034.1| hypothetical protein MYSTI_07078 [Myxococcus stipitatus DSM 14675]
+ ref|WP_015352604.1| hypothetical protein [Myxococcus stipitatus]
+ gb|AGC48350.1| hypothetical protein MYSTI_07078 [Myxococcus stipitatus DSM 14675]
+Length=443
+
+ Score = 35.0 bits (79),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 27/77 (35%), Gaps = 4/77 (5%)
+
+Query  4    TSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGC  63
+             +   V F M          + +  N C    C  G +  G  C  G C  +GC  D   
+Sbjct  84   RTAASVPFDMRY--LYVASGLVDSANVCTS--CTTGCSTKGTSCAGGGCMWWGCWQDTSQ  139
+
+Query  64   LSGDWSQEFVRRNQQYG  80
+              GD+ + FV R+    
+Sbjct  140  APGDYVRGFVSRSGDRQ  156
+
+
+>emb|CBI32864.3| unnamed protein product [Vitis vinifera]
+Length=477
+
+ Score = 35.0 bits (79),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  303  FSCNCQGGCLPGNSNCSCIKKNGGY  327
+
+
+>ref|XP_004019304.1| PREDICTED: LOW QUALITY PROTEIN: tenascin-X [Ovis aries]
+Length=3949
+
+ Score = 34.6 bits (78),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 20/54 (37%), Gaps = 3/54 (6%)
+
+Query  15   RGDCEAVR--AIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSG  66
+              DC + R          CE  +C+  V   G  CG   C   GC   G CL G
+Sbjct  522  GDDCGSRRCPGDCRGRGRCEDGVCSCDVGYEGEDCGTRSC-PRGCQGRGQCLEG  574
+
+
+>ref|XP_003624859.1| Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH1 
+[Medicago truncatula]
+ gb|AES81077.1| Histone-lysine N-methyltransferase, H3 lysine-9 specific SUVH1 
+[Medicago truncatula]
+Length=705
+
+ Score = 34.2 bits (77),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 10/25 (40%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            FGC+C GGC  G+ +   +++N  Y
+Sbjct  480  FGCSCIGGCQPGNRNCPCIQKNGGY  504
+
+
+>ref|YP_762433.1| 25.4 kDa [Spodoptera frugiperda ascovirus 1a]
+ emb|CAL44678.1| 25.4 kDa [Spodoptera frugiperda ascovirus 1a]
+Length=226
+
+ Score = 33.8 bits (76),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 21/47 (45%), Gaps = 8/47 (17%)
+
+Query  31   CEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQ  77
+            CEV +CADG   L  +C            DG CL+GD  Q F   + 
+Sbjct  63   CEVDVCADGRHHL--FCTVDN------TSDGECLTGDPVQNFKNIHG  101
+
+
+>ref|WP_002637042.1| hypothetical protein [Myxococcus sp. (contaminant ex DSM 436)]
+ gb|ERK90566.1| hypothetical protein A176_06024 [Myxococcus sp. (contaminant 
+ex DSM 436)]
+Length=446
+
+ Score = 34.2 bits (77),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 17/60 (28%), Positives = 23/60 (38%), Gaps = 2/60 (3%)
+
+Query  21   VRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYG  80
+               + +  N C    C  G +  G  C  G C  +GC  D     GD+ + FV R Q   
+Sbjct  98   AGGLFDSNNACTS--CNSGCSASGTSCQGGACAWWGCWQDTSRPPGDYVRGFVSRAQGRQ  155
+
+
+>ref|XP_002517173.1| pepsin A, putative [Ricinus communis]
+ gb|EEF45336.1| pepsin A, putative [Ricinus communis]
+Length=449
+
+ Score = 33.8 bits (76),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 16/35 (46%), Gaps = 4/35 (11%)
+
+Query  36   CADGVAQLGAY----CGQGPCNIFGCNCDGGCLSG  66
+            C DG      +    CG  PC++    C GGC+ G
+Sbjct  73   CDDGSYVSSTFRQSLCGSAPCSVAKATCTGGCVPG  107
+
+
+>ref|XP_005901692.1| PREDICTED: LOW QUALITY PROTEIN: tenascin-X, partial [Bos mutus]
+Length=4048
+
+ Score = 33.8 bits (76),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 17/38 (45%), Gaps = 1/38 (3%)
+
+Query  29   NGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSG  66
+              CE  +C+  V   G  CG+  C   GC   G CL G
+Sbjct  537  GRCEDGVCSCDVGYEGEDCGKRSC-PRGCQGRGQCLEG  573
+
+
+>ref|XP_004144645.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1-like [Cucumis sativus]
+ ref|XP_004165212.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1-like [Cucumis sativus]
+Length=713
+
+ Score = 33.8 bits (76),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  56   GCNCDGGCLSGDWSQEFVRRNQQY  79
+            GCNC GGCL G+ +   +++N  Y
+Sbjct  488  GCNCAGGCLPGNINCLCMQKNGGY  511
+
+
+>ref|YP_004665825.1| hypothetical protein LILAB_14210 [Myxococcus fulvus HW-1]
+ ref|WP_013937903.1| hypothetical protein [Myxococcus fulvus]
+ gb|AEI64747.1| hypothetical protein LILAB_14210 [Myxococcus fulvus HW-1]
+Length=424
+
+ Score = 33.4 bits (75),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 19/60 (32%), Positives = 25/60 (42%), Gaps = 2/60 (3%)
+
+Query  21   VRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYG  80
+               + + PN C    C  G +  G  C  G C  +GC  D     GD+ + FV R Q  G
+Sbjct  78   AGGLFDSPNVCTS--CTSGCSASGTSCQGGGCAWWGCWQDTTLPPGDYVRGFVSRAQGRG  135
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.139    0.530    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+Results from round 3
+
+
+Query= 3ZZOA
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|3ZZO|A  Chain A, Crystal Structure Of The Cg11501 Protein In ...   119    1e-32
+ref|XP_002105346.1|  GD21438 [Drosophila simulans] >gb|EDX14849.1...   119    3e-32
+ref|NP_651695.1|  diedel [Drosophila melanogaster] >gb|AAF56898.1...   116    3e-31
+ref|XP_002037199.1|  GM12788 [Drosophila sechellia] >gb|EDW53358....   115    7e-31
+ref|XP_002098589.1|  GE23853 [Drosophila yakuba] >gb|EDW98301.1| ...   114    1e-30
+ref|XP_001981352.1|  GG11665 [Drosophila erecta] >gb|EDV53222.1| ...   114    2e-30
+ref|XP_002098587.1|  GE23854 [Drosophila yakuba] >gb|EDW98299.1| ...   111    2e-29
+ref|XP_001998948.1|  GI24242 [Drosophila mojavensis] >gb|EDW14409...   101    1e-25
+ref|XP_001977731.1|  GG19205 [Drosophila erecta] >gb|EDV46658.1| ...   100    7e-25
+ref|XP_002047577.1|  GJ11856 [Drosophila virilis] >ref|XP_0020475...  99.7    2e-24
+ref|XP_001967293.1|  GF15938 [Drosophila ananassae] >gb|EDV30093....  98.9    2e-24
+ref|XP_002107356.1|  GD17420 [Drosophila simulans] >gb|EDX18339.1...  98.1    6e-24
+ref|XP_002101688.1|  GE17767 [Drosophila yakuba] >gb|EDX02796.1| ...  97.7    9e-24
+ref|XP_001967296.1|  GF15937 [Drosophila ananassae] >gb|EDV30096....  97.0    1e-23
+ref|NP_001097028.1|  diedel 3 [Drosophila melanogaster] >gb|AAF48...  96.2    3e-23
+gb|AAY55557.1|  IP03566p [Drosophila melanogaster]                    95.8    4e-23
+ref|XP_002008436.1|  GI11819 [Drosophila mojavensis] >gb|EDW18912...  96.2    5e-23
+gb|AAY55596.1|  IP03266p [Drosophila melanogaster]                    95.4    5e-23
+gb|AAY55568.1|  IP03466p [Drosophila melanogaster]                    94.3    2e-22
+ref|XP_002000761.1|  GI22343 [Drosophila mojavensis] >gb|EDW16222...  92.7    5e-22
+ref|YP_003422448.1|  hypothetical protein PsunGV_gp109 [Pseudalet...  92.7    5e-22
+ref|XP_002105358.1|  GD21443 [Drosophila simulans] >gb|EDX14861.1...  92.7    6e-22
+ref|XP_002058609.1|  GJ14221 [Drosophila virilis] >gb|EDW58577.1|...  92.0    1e-21
+ref|XP_002098576.1|  GE23861 [Drosophila yakuba] >gb|EDW98288.1| ...  92.0    1e-21
+ref|XP_001357741.3|  GA11037 [Drosophila pseudoobscura pseudoobsc...  92.0    1e-21
+ref|NP_001247357.1|  diedel 2 [Drosophila melanogaster] >gb|AFH06...  91.6    2e-21
+ref|XP_002037211.1|  GM12796 [Drosophila sechellia] >gb|EDW53370....  91.2    3e-21
+ref|YP_001649090.1|  hypothetical protein HaGV_gp108 [Helicoverpa...  90.4    4e-21
+ref|XP_002058610.1|  GJ14220 [Drosophila virilis] >gb|EDW58578.1|...  90.0    6e-21
+ref|NP_059254.1|  ORF106 [Xestia c-nigrum granulovirus] >gb|AAF05...  86.2    1e-19
+gb|AFV50420.1|  hypothetical protein [Heliothis virescens ascovir...  85.4    8e-19
+ref|XP_002072743.1|  GK18957 [Drosophila willistoni] >gb|EDW83729...  83.1    2e-18
+gb|AFV50353.1|  hypothetical protein [Heliothis virescens ascovir...  83.1    4e-18
+ref|XP_002020266.1|  GL13593 [Drosophila persimilis] >ref|XP_0021...  81.2    2e-17
+ref|XP_001967307.1|  GF16013 [Drosophila ananassae] >gb|EDV30107....  80.0    4e-17
+ref|XP_003736249.1|  GA30102 [Drosophila pseudoobscura pseudoobsc...  78.9    2e-16
+ref|YP_008003682.1|  unknown similar to XecnGV orf106 [Mythimna s...  78.9    2e-16
+gb|AAY55580.1|  IP03366p [Drosophila melanogaster]                    78.1    3e-16
+ref|YP_001110948.1|  hypothetical protein HVAV3e_gp095 [Heliothis...  76.2    2e-15
+ref|XP_002136974.1|  GA26838 [Drosophila pseudoobscura pseudoobsc...  75.4    2e-15
+ref|XP_002020265.1|  GL13594 [Drosophila persimilis] >gb|EDW39077...  75.4    2e-15
+ref|XP_002020264.1|  GL13595 [Drosophila persimilis] >gb|EDW39076...  73.9    4e-15
+ref|XP_001998949.1|  GI24243 [Drosophila mojavensis] >gb|EDW14410...  72.3    3e-14
+ref|XP_001944353.1|  PREDICTED: hypothetical protein LOC100163992...  64.2    7e-11
+tpg|DAA04418.1|  TPA: HDC16240 [Drosophila melanogaster]              60.8    1e-09
+ref|XP_002137373.1|  GA26589 [Drosophila pseudoobscura pseudoobsc...  55.0    1e-07
+ref|XP_002599848.1|  hypothetical protein BRAFLDRAFT_95538 [Branc...  49.6    1e-05
+ref|XP_002021585.1|  GL26589 [Drosophila persimilis] >ref|XP_0021...  45.0    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_002013860.1|  GL24362 [Drosophila persimilis] >gb|EDW24846...  50.4    3e-06
+ref|XP_002599849.1|  hypothetical protein BRAFLDRAFT_95539 [Branc...  42.3    0.008
+ref|YP_762476.1|  15.0 kDa [Spodoptera frugiperda ascovirus 1a] >...  40.0    0.020
+ref|XP_002593937.1|  hypothetical protein BRAFLDRAFT_128535 [Bran...  40.0    0.039
+ref|XP_003190997.1|  hypothetical protein AOR_1_252024 [Aspergill...  37.7    0.065
+ref|XP_003720090.1|  hypothetical protein MGG_03806 [Magnaporthe ...  37.7    0.22 
+ref|YP_762433.1|  25.4 kDa [Spodoptera frugiperda ascovirus 1a] >...  38.0    0.25 
+ref|WP_007314835.1|  von Willebrand factor type A [Methanolinea t...  36.9    0.87 
+ref|XP_004979540.1|  PREDICTED: glucan endo-1,3-beta-glucosidase ...  36.5    1.1  
+ref|WP_007830881.1|  hypothetical protein [Variovorax sp. CF313] ...  35.7    1.8  
+ref|XP_002278728.1|  PREDICTED: histone-lysine N-methyltransferas...  35.3    2.5  
+emb|CAN79045.1|  hypothetical protein VITISV_043758 [Vitis vinifera]  35.3    2.7  
+ref|XP_001742149.1|  hypothetical protein [Monosiga brevicollis M...  35.3    3.0  
+ref|WP_019655969.1|  hypothetical protein [Variovorax paradoxus]      34.6    3.8  
+ref|WP_022166289.1|  uncharacterized protein [Eubacterium sp. CAG...  34.6    4.7  
+emb|CBI32864.3|  unnamed protein product [Vitis vinifera]             34.6    5.1  
+ref|XP_004307309.1|  PREDICTED: histone-lysine N-methyltransferas...  34.6    5.5  
+ref|YP_007364034.1|  hypothetical protein MYSTI_07078 [Myxococcus...  34.2    6.5  
+ref|XP_003231437.1|  hypothetical protein TERG_08980 [Trichophyto...  33.4    7.3  
+ref|XP_004185990.1|  serine-threonine protein kinase, putative [E...  34.2    7.4  
+ref|WP_002637042.1|  hypothetical protein [Myxococcus sp. (contam...  33.8    7.9  
+ref|YP_004154480.1|  hypothetical protein Varpa_2163 [Variovorax ...  33.4    9.5  
+
+
+>pdb|3ZZO|A Chain A, Crystal Structure Of The Cg11501 Protein In P212121 
+Spacegroup
+ pdb|3ZZR|A Chain A, Crystal Structure Of The Cg11501 Protein In P21212 Spacegroup
+Length=95
+
+ Score =  119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+           ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD
+Sbjct  1   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+
+Query  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+           GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL
+Sbjct  61  GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+
+
+>ref|XP_002105346.1| GD21438 [Drosophila simulans]
+ gb|EDX14849.1| GD21438 [Drosophila simulans]
+Length=116
+
+ Score =  119 bits (298),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 81/91 (89%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDC AVRAIENYP+GCEVTICADGVAQLGAYCG+GPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCAAVRAIENYPHGCEVTICADGVAQLGAYCGKGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRDYGIQIIKVTRMPL  116
+
+
+>ref|NP_651695.1| diedel [Drosophila melanogaster]
+ gb|AAF56898.1| diedel [Drosophila melanogaster]
+ gb|AAL48174.1| RH38110p [Drosophila melanogaster]
+Length=115
+
+ Score =  116 bits (291),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 90/91 (99%), Positives = 90/91 (99%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQG CNIFGCNCD
+Sbjct  25   ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGSCNIFGCNCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF
+Sbjct  85   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  115
+
+
+>ref|XP_002037199.1| GM12788 [Drosophila sechellia]
+ gb|EDW53358.1| GM12788 [Drosophila sechellia]
+Length=116
+
+ Score =  115 bits (289),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 82/91 (90%), Positives = 88/91 (97%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSREL+EFKMDRGDCEAVRAIENYP+GCEVTICADGVAQLG YCGQGPCNIFGCNCD
+Sbjct  26   ECCTSRELLEFKMDRGDCEAVRAIENYPHGCEVTICADGVAQLGTYCGQGPCNIFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWSQ+FVRRN+ YGIQIIKVTR+P 
+Sbjct  86   GGCLTGDWSQDFVRRNRHYGIQIIKVTRMPL  116
+
+
+>ref|XP_002098589.1| GE23853 [Drosophila yakuba]
+ gb|EDW98301.1| GE23853 [Drosophila yakuba]
+Length=114
+
+ Score =  114 bits (286),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 63/91 (69%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC+SR+ V +KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGCNCD
+Sbjct  24   ECCSSRQEVTYKMDRGDCEDVGGHGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCNCD  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+G+WS +FVR+NQ+YGI+II V  +P+
+Sbjct  84   GGCLTGEWSDDFVRKNQKYGIEIISVRWIPW  114
+
+
+>ref|XP_001981352.1| GG11665 [Drosophila erecta]
+ gb|EDV53222.1| GG11665 [Drosophila erecta]
+Length=115
+
+ Score =  114 bits (286),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 66/91 (73%), Positives = 77/91 (85%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCTSRE V++KMDRGDCE V    +YP  CEVTICADGVAQ+G YCGQG CNIFGC+CD
+Sbjct  25   ECCTSREEVKYKMDRGDCEDVGGSGDYPLKCEVTICADGVAQVGTYCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL+GDWS+EFVR+NQ YGI I++V R+P 
+Sbjct  85   GGCLTGDWSEEFVRKNQAYGIHIVEVRRIPI  115
+
+
+>ref|XP_002098587.1| GE23854 [Drosophila yakuba]
+ gb|EDW98299.1| GE23854 [Drosophila yakuba]
+Length=115
+
+ Score =  111 bits (279),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 60/91 (66%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECCT+RE+V +KMDRGDC+ V    +YP  CEVTICADGVAQ+G +CGQG CNIFGC+CD
+Sbjct  25   ECCTAREVVSYKMDRGDCQDVGGHGDYPLRCEVTICADGVAQVGTFCGQGSCNIFGCHCD  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL G+WS++F R+NQ+YGI I+ V R+P 
+Sbjct  85   GGCLFGEWSEDFARKNQKYGIHIVDVRRIPL  115
+
+
+>ref|XP_001998948.1| GI24242 [Drosophila mojavensis]
+ gb|EDW14409.1| GI24242 [Drosophila mojavensis]
+Length=113
+
+ Score =  101 bits (253),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC   + V F ++ G C+ V  + +  + C +TICADG   +G+YCG   CN+FGCNC 
+Sbjct  25   DCCRRTKNVSFTVESGRCKDVGGVNSSISTCTITICADGTRLIGSYCGHYSCNLFGCNCG  84
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTR  88
+            GGCL G W + F+ R+ +Y I+I+    
+Sbjct  85   GGCLKGKWEKNFIERHPKYKIRILSSKW  112
+
+
+>ref|XP_001977731.1| GG19205 [Drosophila erecta]
+ gb|EDV46658.1| GG19205 [Drosophila erecta]
+Length=121
+
+ Score =  100 bits (249),  Expect = 7e-25, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 54/87 (62%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC +R  + F M  G C  V A      GCE+T+CADG+  +G+YCG+G CN+FGC C 
+Sbjct  25   DCCWTRAKLIFTMGNGSCGMVNARSTR-YGCEITVCADGMVLVGSYCGKGSCNLFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGC  G++ + FV  N++Y I +I   
+Sbjct  84   GGCRRGNFGESFVEINRRYEINLISTQ  110
+
+
+>ref|XP_002047577.1| GJ11856 [Drosophila virilis]
+ ref|XP_002047578.1| GJ11855 [Drosophila virilis]
+ gb|EDW69919.1| GJ11856 [Drosophila virilis]
+ gb|EDW69920.1| GJ11855 [Drosophila virilis]
+Length=131
+
+ Score = 99.7 bits (247),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 33/91 (36%), Positives = 52/91 (57%), Gaps = 0/91 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            ECC   + +++ ++ G C +     +    C +TIC +G A  GAYCG+G CN+FGC+CD
+Sbjct  19   ECCVDAKKLDYTVEDGTCASAGGKASGNGKCVITICGNGEALRGAYCGRGSCNVFGCDCD  78
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GGCL   W Q F++   QY + ++  +    
+Sbjct  79   GGCLGSGWEQTFLQNAAQYKVSLLGWSWTSL  109
+
+
+>ref|XP_001967293.1| GF15938 [Drosophila ananassae]
+ gb|EDV30093.1| GF15938 [Drosophila ananassae]
+Length=113
+
+ Score = 98.9 bits (245),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 38/89 (43%), Positives = 55/89 (62%), Gaps = 1/89 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC S+  +++ ++ GDC AV        GC +TIC +G A +G +CG+G CNIFGC C G
+Sbjct  26   CCRSKANLKYTIEGGDCGAVGGRRTSD-GCTITICGNGRAVVGTWCGRGSCNIFGCACKG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLP  90
+            GCLSGD++ +F++ N  Y I +      P
+Sbjct  85   GCLSGDFALDFIKNNPGYKIHVTSTVHKP  113
+
+
+>ref|XP_002107356.1| GD17420 [Drosophila simulans]
+ gb|EDX18339.1| GD17420 [Drosophila simulans]
+Length=121
+
+ Score = 98.1 bits (243),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 39/87 (45%), Positives = 52/87 (60%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M +G C  V A      GCE T+CADG    G+YCG G CNIFGC C 
+Sbjct  25   DCCWTKAKLLFTMGKGSCGMVNAKTTK-YGCEATVCADGRVLKGSYCGVGSCNIFGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGCL+G++ + FV  N +Y I +I   
+Sbjct  84   GGCLAGNYGESFVEINNKYQINLISTQ  110
+
+
+>ref|XP_002101688.1| GE17767 [Drosophila yakuba]
+ gb|EDX02796.1| GE17767 [Drosophila yakuba]
+Length=121
+
+ Score = 97.7 bits (242),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 41/86 (48%), Positives = 54/86 (63%), Gaps = 1/86 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC ++  + F M  G C  V A      GCEVTIC DG A +G +CG G CN+FGC+C G
+Sbjct  26   CCRTKAKLIFTMGYGSCGMVNAKSTKN-GCEVTICPDGRALVGTFCGVGSCNLFGCHCRG  84
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GCLSG++ + FV RN++Y I +I   
+Sbjct  85   GCLSGNFGESFVERNRKYEINLISTQ  110
+
+
+>ref|XP_001967296.1| GF15937 [Drosophila ananassae]
+ gb|EDV30096.1| GF15937 [Drosophila ananassae]
+Length=113
+
+ Score = 97.0 bits (240),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 39/90 (43%), Positives = 56/90 (62%), Gaps = 1/90 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CCTS   +++ ++ GDC AV        GC +TIC +G A +G +CG+GPCNIFGC C 
+Sbjct  25   DCCTSMSHLKYTIEGGDCGAVGGSRTSD-GCSITICGNGKALVGTFCGRGPCNIFGCACK  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRLP  90
+            GGCLSGD++ +F++ N  Y I +       
+Sbjct  84   GGCLSGDFALDFIKNNPGYKIHVTSTVHRS  113
+
+
+>ref|NP_001097028.1| diedel 3 [Drosophila melanogaster]
+ gb|AAF48909.2| diedel 3 [Drosophila melanogaster]
+Length=121
+
+ Score = 96.2 bits (238),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 49/87 (56%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  25   DCCWTKAKLLFTMGTGSCGMVNAKTTK-YGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  83
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGCL+G++ + FV  N +Y I +I   
+Sbjct  84   GGCLTGNYGESFVEINNRYQINLISTQ  110
+
+
+>gb|AAY55557.1| IP03566p [Drosophila melanogaster]
+Length=120
+
+ Score = 95.8 bits (237),  Expect = 4e-23, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 49/87 (56%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  24   DCCWTKAKLLFTMGTGSCGMVNAKTTK-YGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  82
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGCL+G++ + FV  N +Y I +I   
+Sbjct  83   GGCLTGNYGESFVEINNRYQINLISTQ  109
+
+
+>ref|XP_002008436.1| GI11819 [Drosophila mojavensis]
+ gb|EDW18912.1| GI11819 [Drosophila mojavensis]
+Length=140
+
+ Score = 96.2 bits (238),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 36/94 (38%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC   ++V++K+  G C A+R   +    C + IC DG    G YCG+G CN+ GC+CDG
+Sbjct  28   CCAEAKVVKYKVLNGQCAAIRGQRSDDGNCVIKICGDGRPLRGTYCGRGSCNLAGCDCDG  87
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRPL  95
+            GCL GDW +  V     Y ++I+++    +W+ L
+Sbjct  88   GCLPGDWEKSLVSDTGIYRVEILEI----YWQDL  117
+
+
+>gb|AAY55596.1| IP03266p [Drosophila melanogaster]
+Length=118
+
+ Score = 95.4 bits (236),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 49/87 (56%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  22   DCCWTKAKLLFTMGTGSCGMVNAKTTK-YGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  80
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGCL+G++ + FV  N +Y I +I   
+Sbjct  81   GGCLTGNYGESFVEINNRYQINLISTQ  107
+
+
+>gb|AAY55568.1| IP03466p [Drosophila melanogaster]
+Length=113
+
+ Score = 94.3 bits (233),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 38/87 (44%), Positives = 49/87 (56%), Gaps = 1/87 (1%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC ++  + F M  G C  V A      GCE T+CADG    G YCG G CNI GC C 
+Sbjct  17   DCCWTKAKLLFTMGTGSCGMVNAKTTK-YGCEATVCADGRVLKGTYCGVGSCNIIGCFCR  75
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GGCL+G++ + FV  N +Y I +I   
+Sbjct  76   GGCLTGNYGESFVEINNRYQINLISTQ  102
+
+
+>ref|XP_002000761.1| GI22343 [Drosophila mojavensis]
+ gb|EDW16222.1| GI22343 [Drosophila mojavensis]
+Length=117
+
+ Score = 92.7 bits (229),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 37/86 (43%), Positives = 47/86 (55%), Gaps = 1/86 (1%)
+
+Query  2    CCTSRELVEFKMDRGD-CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            CC SR +    +DR D C    A ++    C ++IC DG A  G YCGQGPCNIFGCNC+
+Sbjct  31   CCPSRVIAFQLIDRDDECRLYGAKQSQFGMCTMSICNDGTAVQGTYCGQGPCNIFGCNCE  90
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKV  86
+             GC  G+  Q F      Y I+ +  
+Sbjct  91   NGCRRGNPLQIFQDYYGDYHIRQVHF  116
+
+
+>ref|YP_003422448.1| hypothetical protein PsunGV_gp109 [Pseudaletia unipuncta granulovirus]
+ gb|ACH69459.1| unknown [Pseudaletia unipuncta granulovirus]
+Length=113
+
+ Score = 92.7 bits (229),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 35/92 (38%), Positives = 46/92 (50%), Gaps = 1/92 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC    +  +  +       R+++N P  C+V IC DG    G YCG+G CNIFGCNCDG
+Sbjct  22   CCRKIVVAWYASNCSPYSNDRSVDNEPVLCKVKICEDGKPNRGYYCGKGDCNIFGCNCDG  81
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQ-IIKVTRLPFW  92
+            GC+ G     F   +     + II  T L  W
+Sbjct  82   GCIEGYGVYNFREISGIQRAKPIIDFTDLSIW  113
+
+
+>ref|XP_002105358.1| GD21443 [Drosophila simulans]
+ gb|EDX14861.1| GD21443 [Drosophila simulans]
+Length=125
+
+ Score = 92.7 bits (229),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 36/90 (40%), Positives = 57/90 (63%), Gaps = 1/90 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGIVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GCL G ++++F+++N  +GI+++   R   
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTERTEL  109
+
+
+>ref|XP_002058609.1| GJ14221 [Drosophila virilis]
+ gb|EDW58577.1| GJ14221 [Drosophila virilis]
+Length=114
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 43/88 (49%), Gaps = 3/88 (3%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   +++    + G   +C+      +    CE  +C +G   +G +CG+G CN  GC
+Sbjct  25   DCCRPSKILYKLANNGKDHNCQTYGGKYHNKETCEKKVCGNGDGIVGTWCGRGKCNPRGC  84
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQIIK  85
+            +C  GCL G+ +  F  ++  +  + + 
+Sbjct  85   HCRNGCLPGEATASFREKHGYFNFEYVG  112
+
+
+>ref|XP_002098576.1| GE23861 [Drosophila yakuba]
+ gb|EDW98288.1| GE23861 [Drosophila yakuba]
+Length=125
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 36/86 (42%), Positives = 56/86 (65%), Gaps = 1/86 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G C  V A  N   GC++TICA+G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVCGVVGAKSN-GTGCKITICANGEALVGSYCGRAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            GCL G ++ +F+++N  +GI+++   
+Sbjct  80   GCLQGSFASDFLKKNYIHGIELLGTE  105
+
+
+>ref|XP_001357741.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+ gb|EAL26875.3| GA11037 [Drosophila pseudoobscura pseudoobscura]
+Length=121
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/88 (30%), Positives = 38/88 (43%), Gaps = 3/88 (3%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            ECC    +           +CE     ++    C+  IC DG+   GA+CGQG CN  GC
+Sbjct  22   ECCRPFPVTFHLAKTNSLLNCEMFGGTQDINYACKSNICGDGMNVWGAWCGQGACNPRGC  81
+
+Query  58   NCDGGCLSGDWSQEFVRRNQQYGIQIIK  85
+            +C  GC+ GD    F  ++       + 
+Sbjct  82   SCVKGCIEGDPIMNFRLKHGLDNFVYVG  109
+
+
+>ref|NP_001247357.1| diedel 2 [Drosophila melanogaster]
+ gb|AFH06674.1| diedel 2 [Drosophila melanogaster]
+Length=125
+
+ Score = 91.6 bits (226),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 35/90 (39%), Positives = 56/90 (62%), Gaps = 1/90 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GCL G ++++F+++N  +GI+++   R   
+Sbjct  80   GCLQGSFAKDFLKKNYIHGIELLGTERTEL  109
+
+
+>ref|XP_002037211.1| GM12796 [Drosophila sechellia]
+ gb|EDW53370.1| GM12796 [Drosophila sechellia]
+Length=125
+
+ Score = 91.2 bits (225),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 35/90 (39%), Positives = 56/90 (62%), Gaps = 1/90 (1%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CCTS   + FK+  G    V A  N   GC++TIC +G A +G+YCG+  C++FGC C  
+Sbjct  21   CCTSAATLHFKIRGGVSGIVGAKSN-GTGCKITICPNGEALVGSYCGKAACDVFGCQCIR  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQIIKVTRLPF  91
+            GCL G ++++F+++N  +GI+++   R   
+Sbjct  80   GCLQGSFAKDFLQKNYIHGIELLGTERTEL  109
+
+
+>ref|YP_001649090.1| hypothetical protein HaGV_gp108 [Helicoverpa armigera granulovirus]
+ gb|ABY47799.1| unknown [Helicoverpa armigera granulovirus]
+Length=111
+
+ Score = 90.4 bits (223),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 33/92 (36%), Positives = 46/92 (50%), Gaps = 3/92 (3%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDG  61
+            CC    +  +  D             P  C+V +C DG+   G +CG+G CNIFGCNCDG
+Sbjct  22   CCRKLVMSWYSSDCSPYAKD--QSEIPILCKVKVCNDGLPNKGFFCGKGDCNIFGCNCDG  79
+
+Query  62   GCLSGDWSQEFVRRNQQYGIQ-IIKVTRLPFW  92
+            GC+ GD +  F  ++  Y  Q ++  T L  W
+Sbjct  80   GCIEGDAAYNFREKSGLYQAQPMVDFTDLSIW  111
+
+
+>ref|XP_002058610.1| GJ14220 [Drosophila virilis]
+ gb|EDW58578.1| GJ14220 [Drosophila virilis]
+Length=113
+
+ Score = 90.0 bits (222),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 36/88 (41%), Positives = 47/88 (53%), Gaps = 1/88 (1%)
+
+Query  1    ECCTSRELVEFKMDR-GDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNC  59
+            ECC S+ +     D   DC    +       C+++IC DG A  G +CGQGPCNIFGCNC
+Sbjct  26   ECCHSKTIAFQLADNEDDCSLYDSKLTKGGVCKMSICDDGSAVEGNFCGQGPCNIFGCNC  85
+
+Query  60   DGGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+            DGGC  GD  Q F      Y ++ + + 
+Sbjct  86   DGGCRRGDGVQIFRDFYGDYHVRNVHIV  113
+
+
+>ref|NP_059254.1| ORF106 [Xestia c-nigrum granulovirus]
+ gb|AAF05220.1|AF162221_106 ORF106 [Xestia c-nigrum granulovirus]
+Length=90
+
+ Score = 86.2 bits (212),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 30/70 (43%), Positives = 41/70 (59%), Gaps = 1/70 (1%)
+
+Query  24  IENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQ-  82
+               P  C+V +C DG+   G YCG+G CNIFGCNCDGGC+ G+ +  F  ++  Y  Q 
+Sbjct  21  QSERPILCKVKVCNDGLPNRGFYCGKGDCNIFGCNCDGGCIQGNAAYNFREKSGLYQAQP  80
+
+Query  83  IIKVTRLPFW  92
+           ++  T L  W
+Sbjct  81  MVDFTDLSIW  90
+
+
+>gb|AFV50420.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=155
+
+ Score = 85.4 bits (210),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 44/103 (43%), Gaps = 13/103 (13%)
+
+Query  3    CTSRELVEFKMDRGDCEAVR----------AIENYPNGCEVTICADGVAQLGAYCGQGPC  52
+            C  R  + +  D  DC                   P+GCE  +C DG +    YCG G C
+Sbjct  52   CCPRSHLVWSSDTQDCANYDKRFFINTSGAGFNAMPDGCETKVCNDGKSHGLFYCGVGRC  111
+
+Query  53   NIFGCNCDGGCLSG--DWSQEFVRRNQQ-YGIQIIKVTRLPFW  92
+            N  GCNCDGGCL G  D    F + +   + +++I +     W
+Sbjct  112  NAVGCNCDGGCLGGDADAVDSFRKISGITHAVRLIDIKDPTTW  154
+
+
+>ref|XP_002072743.1| GK18957 [Drosophila willistoni]
+ gb|EDW83729.1| GK18957 [Drosophila willistoni]
+Length=113
+
+ Score = 83.1 bits (204),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 25/77 (32%), Positives = 39/77 (51%), Gaps = 2/77 (3%)
+
+Query  3    CTSRELVEFKMDRG--DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            C  R  ++FK+  G   C    A +  P  C + +C +G   +  +CG   CN F CNC 
+Sbjct  26   CCPRRTLQFKVKSGEDSCFKFSARKISPKVCTMKVCNNGHEPMRRHCGIDSCNFFNCNCM  85
+
+Query  61   GGCLSGDWSQEFVRRNQ  77
+            GGC  G+ ++ F++ N 
+Sbjct  86   GGCFRGNAAKMFIQSNG  102
+
+
+>gb|AFV50353.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=127
+
+ Score = 83.1 bits (204),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 38/71 (54%), Gaps = 0/71 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +   +F  D    +       Y   C++ +C DG    G YCG+GPCN+FG NC+GGC+ 
+Sbjct  47   KHCSDFGADYNPLDQSYGRNTYEGMCKIKVCGDGRKHDGYYCGRGPCNVFGHNCEGGCIG  106
+
+Query  66   GDWSQEFVRRN  76
+            GD +  F + +
+Sbjct  107  GDAAASFKQIH  117
+
+
+>ref|XP_002020266.1| GL13593 [Drosophila persimilis]
+ ref|XP_002136975.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW39078.1| GL13593 [Drosophila persimilis]
+ gb|EDY67533.1| GA26837 [Drosophila pseudoobscura pseudoobscura]
+Length=116
+
+ Score = 81.2 bits (199),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 22/90 (24%), Positives = 33/90 (37%), Gaps = 5/90 (6%)
+
+Query  1    ECCTSRELVEFKMDRG---DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            +CC   ++            CE           C+  IC DG    G +CG+G CN  GC
+Sbjct  25   DCCKPTKIRFELAANNGTHTCETYGGKPGKNYTCKAKICNDGNNVRGTWCGKGRCNPSGC  84
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQIIK  85
+            +C  GCL         F  ++  +    + 
+Sbjct  85   HCKKGCLASGASAIDSFREKHGFFNFIYVG  114
+
+
+>ref|XP_001967307.1| GF16013 [Drosophila ananassae]
+ gb|EDV30107.1| GF16013 [Drosophila ananassae]
+Length=109
+
+ Score = 80.0 bits (196),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 40/84 (48%), Positives = 48/84 (57%), Gaps = 3/84 (4%)
+
+Query  3    CTSRELVEFKMDRGDCEAVRAIENYPNG-CEVTICADGVAQ-LGAYCGQGPCNIFGCNCD  60
+            C   + + FK + G CE V AI++     CE TICADG     G YC QG CN+FGCNCD
+Sbjct  27   CCKAQFIRFKTN-GFCETVDAIKHEYYAYCETTICADGKRIGKGRYCAQGRCNVFGCNCD  85
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQII  84
+            GGC  GDW + F  R  +  I  I
+Sbjct  86   GGCRQGDWERSFRNRYPKKQIWFI  109
+
+
+>ref|XP_003736249.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+ gb|EIM52322.1| GA30102 [Drosophila pseudoobscura pseudoobscura]
+Length=134
+
+ Score = 78.9 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/89 (24%), Positives = 31/89 (35%), Gaps = 5/89 (6%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCN  58
+            CC    +   +    +   CE      N    C  +IC DG A    +C +G C+  GC 
+Sbjct  28   CCKPTVISFELSVSAEGESCEYFGGTSNEDGSCLASICNDGKAVKNKWCSRGNCDSSGCR  87
+
+Query  59   CDGGCLSG--DWSQEFVRRNQQYGIQIIK  85
+            C  GC+    D    F   +       + 
+Sbjct  88   CKRGCIRRKFDPVASFNEIHGFLNFLSVS  116
+
+
+>ref|YP_008003682.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+ emb|CCU56363.1| unknown similar to XecnGV orf106 [Mythimna separata entomopoxvirus 
+'L']
+Length=132
+
+ Score = 78.9 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 28/71 (39%), Positives = 41/71 (58%), Gaps = 0/71 (0%)
+
+Query  6    RELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+            +  ++F  D    +      +Y N C++ +C DG    G YCG GPCN+FG NCDGGC+S
+Sbjct  52   KHCIDFGGDYNTVDTSYGRFDYENDCKIEVCGDGRVHEGHYCGVGPCNVFGYNCDGGCIS  111
+
+Query  66   GDWSQEFVRRN  76
+            G+  +EF   +
+Sbjct  112  GNPVEEFKILH  122
+
+
+>gb|AAY55580.1| IP03366p [Drosophila melanogaster]
+Length=118
+
+ Score = 78.1 bits (191),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 33/70 (47%), Positives = 40/70 (57%), Gaps = 1/70 (1%)
+
+Query  18   CEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQ  77
+            C  V A      GCE T+CADG    G YCG G CNI GC C GGCL+G++ + FV  N 
+Sbjct  39   CGMVNAKTTK-YGCEATVCADGRVLKGTYCGVGSCNIIGCFCRGGCLTGNYGESFVEINN  97
+
+Query  78   QYGIQIIKVT  87
+            +Y I +I   
+Sbjct  98   RYQINLISTQ  107
+
+
+>ref|YP_001110948.1| hypothetical protein HVAV3e_gp095 [Heliothis virescens ascovirus 
+3e]
+ gb|ABO37282.1| hypothetical protein [Heliothis virescens ascovirus 3e]
+ gb|AFV50360.1| hypothetical protein [Heliothis virescens ascovirus 3g]
+Length=130
+
+ Score = 76.2 bits (186),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 25/65 (38%), Positives = 32/65 (49%), Gaps = 0/65 (0%)
+
+Query  12   KMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQE  71
+                   +    + +Y   C+V++C DG    G YCG GPCNIFG NC+GGC  GD    
+Sbjct  56   GATYNPIQQSYGVNSYEGICKVSVCGDGKVHEGHYCGIGPCNIFGSNCEGGCHRGDPVVS  115
+
+Query  72   FVRRN  76
+            F    
+Sbjct  116  FKELY  120
+
+
+>ref|XP_002136974.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY67532.1| GA26838 [Drosophila pseudoobscura pseudoobscura]
+Length=114
+
+ Score = 75.4 bits (184),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 36/89 (40%), Gaps = 6/89 (7%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYP-NGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            CC    +   V   ++  +C     + +     C+  IC +G    G +CG G CN  GC
+Sbjct  17   CCRPTRIRFAVMPSIEERNCNTYGGVPDKRQKTCKAAICNNGQPVAGQWCGIGKCNATGC  76
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQII  84
+             C  GC+    D  + F+ +N       +
+Sbjct  77   RCKNGCIKPRSDAVRTFLDKNGHSKFVFV  105
+
+
+>ref|XP_002020265.1| GL13594 [Drosophila persimilis]
+ gb|EDW39077.1| GL13594 [Drosophila persimilis]
+Length=114
+
+ Score = 75.4 bits (184),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 22/89 (25%), Positives = 36/89 (40%), Gaps = 6/89 (7%)
+
+Query  2    CCTSREL---VEFKMDRGDCEAVRAIENYP-NGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            CC    +   V   ++  +C     + +     C+  IC +G    G +CG G CN  GC
+Sbjct  17   CCRPTRIRFAVMPSIEERNCNTYGGVPDKRQKTCKAAICNNGQPVAGQWCGIGKCNATGC  76
+
+Query  58   NCDGGCL--SGDWSQEFVRRNQQYGIQII  84
+             C  GC+    D  + F+ +N       +
+Sbjct  77   RCKNGCIKPRSDAVRTFLDKNGHSKFVFV  105
+
+
+>ref|XP_002020264.1| GL13595 [Drosophila persimilis]
+ gb|EDW39076.1| GL13595 [Drosophila persimilis]
+Length=73
+
+ Score = 73.9 bits (180),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 0/66 (0%)
+
+Query  20  AVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQY  79
+                ++    C+  IC DG+   GA+CGQG CN  GC+C  GC+ GD    F  ++   
+Sbjct  1   MFGGTQDINYACKSRICGDGMNVWGAWCGQGACNPRGCSCLKGCIEGDPIMNFRLKHGLD  60
+
+Query  80  GIQIIK  85
+               + 
+Sbjct  61  NFVYVG  66
+
+
+>ref|XP_001998949.1| GI24243 [Drosophila mojavensis]
+ gb|EDW14410.1| GI24243 [Drosophila mojavensis]
+Length=112
+
+ Score = 72.3 bits (176),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 31/89 (35%), Positives = 46/89 (52%), Gaps = 0/89 (0%)
+
+Query  1    ECCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCD  60
+            +CC    ++ + + RG C            C + ICA G  ++G YCG+  CNIFGCNC 
+Sbjct  23   QCCRRSMVLTYTVGRGRCGDAGGRAGRGGTCSIVICAHGKRKVGTYCGRRSCNIFGCNCG  82
+
+Query  61   GGCLSGDWSQEFVRRNQQYGIQIIKVTRL  89
+            GGC+ G W + F+  N+   I+I     +
+Sbjct  83   GGCIEGQWQRSFINNNRNQNIRITNTRWI  111
+
+
+>ref|XP_001944353.1| PREDICTED: hypothetical protein LOC100163992 [Acyrthosiphon pisum]
+Length=177
+
+ Score = 64.2 bits (155),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 24/64 (38%), Positives = 38/64 (59%), Gaps = 2/64 (3%)
+
+Query  14   DRGDCEAVRAIENYPNG-CEVTICADG-VAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQE  71
+            D G   +V  I +  +G C  ++CA G + + G YC  G CN+FGCNCDG C++ ++   
+Sbjct  57   DVGMPSSVDIITDLASGLCSYSLCAPGYIKKKGVYCATGSCNVFGCNCDGECINENYVDG  116
+
+Query  72   FVRR  75
+             ++R
+Sbjct  117  NLQR  120
+
+
+>tpg|DAA04418.1| TPA_inf: HDC16240 [Drosophila melanogaster]
+Length=156
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/53 (42%), Positives = 31/53 (58%), Gaps = 1/53 (2%)
+
+Query  2   CCTSRELVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNI  54
+           CCT    + FK+  G C  V A  N   GC++TIC +G A +G+YCG+  C+ 
+Sbjct  21  CCTFAATLHFKIRGGVCGVVGAKSN-GTGCKITICPNGEALVGSYCGKAACDF  72
+
+
+>ref|XP_002137373.1| GA26589 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDY67931.1| GA26589 [Drosophila pseudoobscura pseudoobscura]
+Length=155
+
+ Score = 55.0 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/58 (33%), Positives = 27/58 (47%), Gaps = 8/58 (14%)
+
+Query  1    ECCTSRELVEFKMD-RGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+            ECC +   + + +D    C  V    + P  C       G  Q+G + G+G CNIFGC
+Sbjct  97   ECCRASLTISYTVDIHDACGTVGGHGS-PYSC------GGRGQVGTFSGRGSCNIFGC  147
+
+
+>ref|XP_002013860.1| GL24362 [Drosophila persimilis]
+ gb|EDW24846.1| GL24362 [Drosophila persimilis]
+Length=75
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 27/58 (47%), Gaps = 8/58 (14%)
+
+Query  1   ECCTSRELVEFKMD-RGDCEAVRAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGC  57
+           ECC +   + + +D    C  V    + P  C       G AQ G + G+G CNIFGC
+Sbjct  17  ECCRASLTISYTVDNHDACGTVGGHGS-PYSC------GGRAQAGTFSGRGSCNIFGC  67
+
+
+>ref|XP_002599848.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+ gb|EEN55860.1| hypothetical protein BRAFLDRAFT_95538 [Branchiostoma floridae]
+Length=179
+
+ Score = 49.6 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 20/29 (69%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   YCG GPCNIFGCNC GGC 
+Sbjct  55  CHDGT-QGTPYCGYGPCNIFGCNCRGGCR  82
+
+
+>ref|XP_002021585.1| GL26589 [Drosophila persimilis]
+ ref|XP_002133086.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+ gb|EDW25428.1| GL26589 [Drosophila persimilis]
+ gb|EDY70488.1| GA28989 [Drosophila pseudoobscura pseudoobscura]
+Length=61
+
+ Score = 45.0 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/33 (61%), Positives = 23/33 (70%), Gaps = 0/33 (0%)
+
+Query  33  VTICADGVAQLGAYCGQGPCNIFGCNCDGGCLS  65
+           + IC DG   +GAYCG G CN+FGCNC GGC  
+Sbjct  26  LPICGDGQMVVGAYCGVGGCNVFGCNCSGGCRK  58
+
+
+>ref|XP_002599849.1| hypothetical protein BRAFLDRAFT_95539 [Branchiostoma floridae]
+ gb|EEN55861.1| hypothetical protein BRAFLDRAFT_95539 [Branchiostoma floridae]
+Length=206
+
+ Score = 42.3 bits (98),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 16/29 (55%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG      YC  G C+  GCNC+GGC 
+Sbjct  37  CNDGT-HGTPYCAYGSCDWLGCNCNGGCR  64
+
+
+>ref|YP_762476.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+ emb|CAC19162.1| hypothetical protein [Spodoptera frugiperda ascovirus 1a]
+ emb|CAL44721.1| 15.0 kDa [Spodoptera frugiperda ascovirus 1a]
+Length=135
+
+ Score = 40.0 bits (92),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 39/107 (36%), Gaps = 17/107 (16%)
+
+Query  2    CCTSRELVEFKMDRGDCEAVRA----------IENYPNGCEVTICAD-GVAQLGAYCGQG  50
+            CC    +V    ++G C               I+  P+GC   +C D       +  G G
+Sbjct  29   CCKRTRIVWTNPEQG-CGKYPREFYVNSSWWRIQRMPDGCVAHVCNDRANRTACSTVGVG  87
+
+Query  51   PCNIFGCNCDGGCLS---GDWSQEFVRRNQQYGIQ--IIKVTRLPFW  92
+             CNIFGCNCD   +S   GD  + F R +        +        W
+Sbjct  88   KCNIFGCNCDARAVSAGDGDALENFKRISGVQNAAGPLFNYKDPTTW  134
+
+
+>ref|XP_002593937.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+ gb|EEN49948.1| hypothetical protein BRAFLDRAFT_128535 [Branchiostoma floridae]
+Length=169
+
+ Score = 40.0 bits (92),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 18/29 (62%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   +CG G CN FGCNC GGC 
+Sbjct  45  CLDGT-QGSPFCGIGHCNCFGCNCYGGCR  72
+
+
+>ref|XP_003190997.1| hypothetical protein AOR_1_252024 [Aspergillus oryzae RIB40]
+Length=73
+
+ Score = 37.7 bits (86),  Expect = 0.065, Method: Composition-based stats.
+ Identities = 19/29 (66%), Positives = 19/29 (66%), Gaps = 1/29 (3%)
+
+Query  36  CADGVAQLGAYCGQGPCNIFGCNCDGGCL  64
+           C DG  Q   YCG   CNIFGCNCDGGC 
+Sbjct  44  CEDGT-QGTPYCGYRSCNIFGCNCDGGCR  71
+
+
+>ref|XP_003720090.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|EHA47723.1| hypothetical protein MGG_03806 [Magnaporthe oryzae 70-15]
+ gb|ELQ37772.1| hypothetical protein OOU_Y34scaffold00578g2 [Magnaporthe oryzae 
+Y34]
+ gb|ELQ67857.1| hypothetical protein OOW_P131scaffold00282g2 [Magnaporthe oryzae 
+P131]
+Length=161
+
+ Score = 37.7 bits (86),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 14/18 (78%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  47  CGQGPCNIFGCNCDGGCL  64
+           CG+G CNIF CNCDGGC 
+Sbjct  30  CGKGKCNIFCCNCDGGCR  47
+
+
+>ref|YP_762433.1| 25.4 kDa [Spodoptera frugiperda ascovirus 1a]
+ emb|CAL44678.1| 25.4 kDa [Spodoptera frugiperda ascovirus 1a]
+Length=226
+
+ Score = 38.0 bits (87),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 23/103 (22%), Positives = 34/103 (33%), Gaps = 27/103 (26%)
+
+Query  4    TSRELVEFKMDRGDCEAVR-AIENYPNG------------------CEVTICADGVAQLG  44
+             S   + F    G+C        ++P                    CEV +CADG   L 
+Sbjct  17   CSTTTLSFVRKTGNCFDYEQGSVSHPTSYTSDPYRINYFADTVLPFCEVDVCADGRHHL-  75
+
+Query  45   AYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQIIKVT  87
+             +C     +      DG CL+GD  Q F   +    +  + V 
+Sbjct  76   -FCTVDNTS------DGECLTGDPVQNFKNIHGPDKVGSVAVK  111
+
+
+>ref|WP_007314835.1| von Willebrand factor type A [Methanolinea tarda]
+ gb|EHF09699.1| von Willebrand factor type A [Methanolinea tarda NOBI-1]
+Length=1104
+
+ Score = 36.9 bits (84),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 14/70 (20%), Positives = 25/70 (36%), Gaps = 4/70 (6%)
+
+Query  8    LVEFKMDRGDCEAVRAIENYPNGCEVTICADGVAQLGAY-CGQGPCNIFGCNCDGGCLSG  66
+              ++  + G C    +       C    C  G  +   + C  G C    C CD  C  G
+Sbjct  717  CTQWSCNEGGCID-GSCSCMNWQCSAPSCGGGCDKTRNWKCSSGNC--VNCQCDWKCYDG  773
+
+Query  67   DWSQEFVRRN  76
+            +++ + + R 
+Sbjct  774  EFTNQNMSRY  783
+
+
+>ref|XP_004979540.1| PREDICTED: glucan endo-1,3-beta-glucosidase 8-like [Setaria italica]
+Length=490
+
+ Score = 36.5 bits (83),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 15/44 (34%), Positives = 20/44 (45%), Gaps = 4/44 (9%)
+
+Query  41   AQLGAYCGQGPCNI--FGCNCDGGCL--SGDWSQEFVRRNQQYG  80
+              +G  CG+  C    +GC+C GG L   G+ S  F    Q  G
+Sbjct  389  GNVGYACGRADCTPLGYGCSCGGGALDARGNASYAFNAYYQSQG  432
+
+
+>ref|WP_007830881.1| hypothetical protein [Variovorax sp. CF313]
+ gb|EJL77713.1| hypothetical protein PMI12_01641 [Variovorax sp. CF313]
+Length=320
+
+ Score = 35.7 bits (81),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 21/46 (46%), Gaps = 4/46 (9%)
+
+Query  53   NIFGCNCDGGCLSGDWSQEFVRRN----QQYGIQIIKVTRLPFWRP  94
+            +  GCN DGG    D +  F +R          +I+ +T   FWRP
+Sbjct  79   DFSGCNFDGGAHPTDPAHHFRKRTVVLMDNAQWRIVGMTLPTFWRP  124
+
+
+>ref|XP_002278728.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1 [Vitis vinifera]
+Length=737
+
+ Score = 35.3 bits (80),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  511  FSCNCQGGCLPGNSNCSCIKKNGGY  535
+
+
+>emb|CAN79045.1| hypothetical protein VITISV_043758 [Vitis vinifera]
+Length=666
+
+ Score = 35.3 bits (80),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  511  FSCNCQGGCLPGNSNCSCIKKNGGY  535
+
+
+>ref|XP_001742149.1| hypothetical protein [Monosiga brevicollis MX1]
+ gb|EDQ92387.1| predicted protein [Monosiga brevicollis MX1]
+Length=718
+
+ Score = 35.3 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  48   GQGPCNIFGCNCDGGCLSGDWSQEFVRRNQ--QYGIQIIKVTRLPFWR  93
+            G G C     NC  GC  G W+   +  N    Y   +++    P W+
+Sbjct  537  GTGHCRQCAANCTEGCYGG-WADMCIEANGDVDYQGVLLETESPPAWQ  583
+
+
+>ref|WP_019655969.1| hypothetical protein [Variovorax paradoxus]
+Length=325
+
+ Score = 34.6 bits (78),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 21/46 (46%), Gaps = 4/46 (9%)
+
+Query  53   NIFGCNCDGGCLSGDWSQEFVRRN----QQYGIQIIKVTRLPFWRP  94
+            +  GCN DGG    D +  F +R          +++ +T   FWRP
+Sbjct  84   DFSGCNFDGGEHPTDPAYRFRKRTVVLMDNAQWRVVGMTLPSFWRP  129
+
+
+>ref|WP_022166289.1| uncharacterized protein [Eubacterium sp. CAG:192]
+ emb|CDB13957.1| uncharacterized protein BN525_01795 [Eubacterium sp. CAG:192]
+Length=353
+
+ Score = 34.6 bits (78),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 15/57 (26%), Positives = 22/57 (39%), Gaps = 4/57 (7%)
+
+Query  38   DGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYGIQIIKVTRLPFWRP  94
+            DG +    YCG+  C    C  D G  S  W    V          I++ ++P W+ 
+Sbjct  220  DGKSIKVKYCGKEHCKFAHCVGDRGVFSSAWELASVIDKGIQ----IELEKIPVWQE  272
+
+
+>emb|CBI32864.3| unnamed protein product [Vitis vinifera]
+Length=477
+
+ Score = 34.6 bits (78),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  55   FGCNCDGGCLSGDWSQEFVRRNQQY  79
+            F CNC GGCL G+ +   +++N  Y
+Sbjct  303  FSCNCQGGCLPGNSNCSCIKKNGGY  327
+
+
+>ref|XP_004307309.1| PREDICTED: histone-lysine N-methyltransferase, H3 lysine-9 specific 
+SUVH1-like [Fragaria vesca subsp. vesca]
+Length=663
+
+ Score = 34.6 bits (78),  Expect = 5.5, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  56   GCNCDGGCLSGDWSQEFVRRNQQY  79
+            GCNC GGCL G+ +   +++N  Y
+Sbjct  438  GCNCTGGCLPGNSNCLCIQKNGGY  461
+
+
+>ref|YP_007364034.1| hypothetical protein MYSTI_07078 [Myxococcus stipitatus DSM 14675]
+ ref|WP_015352604.1| hypothetical protein [Myxococcus stipitatus]
+ gb|AGC48350.1| hypothetical protein MYSTI_07078 [Myxococcus stipitatus DSM 14675]
+Length=443
+
+ Score = 34.2 bits (77),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 16/59 (27%), Positives = 23/59 (39%), Gaps = 2/59 (3%)
+
+Query  22   RAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRRNQQYG  80
+              + +  N C    C  G +  G  C  G C  +GC  D     GD+ + FV R+    
+Sbjct  100  SGLVDSANVCTS--CTTGCSTKGTSCAGGGCMWWGCWQDTSQAPGDYVRGFVSRSGDRQ  156
+
+
+>ref|XP_003231437.1| hypothetical protein TERG_08980 [Trichophyton rubrum CBS 118892]
+ gb|EGD92006.1| hypothetical protein TERG_08980 [Trichophyton rubrum CBS 118892]
+Length=158
+
+ Score = 33.4 bits (75),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 15/37 (41%), Gaps = 1/37 (3%)
+
+Query  32   EVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDW  68
+            +   C DG       CG G CN F C C GGC     
+Sbjct  123  KYNKCEDGTT-GTPCCGYGKCNGFCCACKGGCRRAKA  158
+
+
+>ref|XP_004185990.1| serine-threonine protein kinase, putative [Entamoeba invadens 
+IP1]
+ gb|ELP86644.1| serine-threonine protein kinase, putative [Entamoeba invadens 
+IP1]
+Length=1063
+
+ Score = 34.2 bits (77),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 14/52 (27%), Positives = 20/52 (38%), Gaps = 2/52 (4%)
+
+Query  17   DCEAVRAIENYPNGCEVTICADGVAQLGAYCGQG-PCNIFGCNCDGGCLSGD  67
+            +C      ++    C +  C +G    G  C     CN F C CD G +  D
+Sbjct  479  NCYCASGYKSKNGYCILETCGNGKRDGGEECDNSTNCN-FRCKCDEGYIWSD  529
+
+
+>ref|WP_002637042.1| hypothetical protein [Myxococcus sp. (contaminant ex DSM 436)]
+ gb|ERK90566.1| hypothetical protein A176_06024 [Myxococcus sp. (contaminant 
+ex DSM 436)]
+Length=446
+
+ Score = 33.8 bits (76),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 22/54 (41%), Gaps = 2/54 (4%)
+
+Query  22   RAIENYPNGCEVTICADGVAQLGAYCGQGPCNIFGCNCDGGCLSGDWSQEFVRR  75
+              + +  N C    C  G +  G  C  G C  +GC  D     GD+ + FV R
+Sbjct  99   GGLFDSNNACTS--CNSGCSASGTSCQGGACAWWGCWQDTSRPPGDYVRGFVSR  150
+
+
+>ref|YP_004154480.1| hypothetical protein Varpa_2163 [Variovorax paradoxus EPS]
+ ref|WP_013540604.1| hypothetical protein [Variovorax paradoxus]
+ gb|ADU36369.1| hypothetical protein Varpa_2163 [Variovorax paradoxus EPS]
+Length=324
+
+ Score = 33.4 bits (75),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 21/46 (46%), Gaps = 4/46 (9%)
+
+Query  53   NIFGCNCDGGCLSGDWSQEFVRRN----QQYGIQIIKVTRLPFWRP  94
+            +  GCN DGG    D +  F +R          +I+ +T   FWRP
+Sbjct  83   DFSGCNFDGGTHPTDPAHRFKKRTVVLLDNAEWRIVGMTLPTFWRP  128
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.142    0.543    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302201166900
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

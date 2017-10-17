@@ -1,0 +1,2629 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2JTM
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_342459.1|  hypothetical protein SSO6901 [Sulfolobus solfat...   119    9e-34
+ref|YP_002829301.1|  hypothetical protein M1425_1248 [Sulfolobus ...   117    7e-33
+pdb|3KXT|A  Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna ...   110    5e-30
+sp|P0C836.2|CREN7_SULTO  RecName: Full=Chromatin protein Cren7 >d...   103    2e-27
+ref|WP_020199553.1|  chorismate-binding protein [Sulfolobales arc...   102    6e-27
+ref|YP_004409057.1|  hypothetical protein Mcup_0466 [Metallosphae...   101    2e-26
+ref|YP_001191841.1|  hypothetical protein Msed_1762 [Metallosphae...   101    2e-26
+ref|YP_004458609.1|  chromatin protein Cren7 [Acidianus hospitali...  99.8    7e-26
+ref|YP_255938.1|  hypothetical protein Saci_1307 [Sulfolobus acid...  99.0    1e-25
+ref|WP_009074945.1|  chorismate-binding protein [Metallosphaera y...  97.4    6e-25
+ref|YP_003668606.1|  hypothetical protein Shell_0581 [Staphylothe...  96.7    1e-24
+ref|YP_001040258.1|  hypothetical protein Smar_0237 [Staphylother...  95.5    4e-24
+ref|YP_003859986.1|  hypothetical protein [Ignisphaera aggregans ...  94.0    1e-23
+ref|YP_006363932.1|  hypothetical protein TCELL_1372 [Thermogladi...  91.3    2e-22
+ref|YP_001013074.1|  hypothetical protein Hbut_0878 [Hyperthermus...  89.7    6e-22
+ref|YP_001013312.1|  hypothetical protein Hbut_1128 [Hyperthermus...  89.4    1e-21
+ref|YP_004176628.1|  hypothetical protein [Desulfurococcus mucosu...  85.9    2e-20
+ref|YP_003649532.1|  hypothetical protein Tagg_0304 [Thermosphaer...  85.1    4e-20
+ref|WP_023424369.1|  Chromatin protein Cren7 [environmental sampl...  85.1    4e-20
+ref|WP_023425655.1|  Chromatin protein Cren7 [uncultured Acidilob...  84.7    5e-20
+ref|YP_004782029.1|  hypothetical protein Pyrfu_1924 [Pyrolobus f...  84.0    1e-19
+ref|YP_002427877.1|  hypothetical protein DKAM_0182 [Desulfurococ...  83.6    2e-19
+ref|NP_147243.1|  hypothetical protein APE_0450a [Aeropyrum perni...  82.0    7e-19
+ref|YP_008603733.1|  hypothetical protein ACAM_0330 [Aeropyrum ca...  79.3    7e-18
+ref|YP_007174716.1|  Chromatin protein Cren7 [Caldisphaera lagune...  79.0    1e-17
+ref|YP_003816469.1|  hypothetical protein ASAC_1033 [Acidilobus s...  77.8    2e-17
+ref|YP_005842233.1|  chromatin protein Cren7 [Fervidicoccus fonti...  70.1    3e-14
+ref|YP_007174249.1|  Chromatin protein Cren7 [Caldisphaera lagune...  68.6    9e-14
+ref|YP_001434630.1|  hypothetical protein Igni_0039 [Ignicoccus h...  43.9    2e-04
+ref|YP_003860172.1|  hypothetical protein [Ignisphaera aggregans ...  43.5    3e-04
+ref|YP_004244524.1|  hypothetical protein VMUT_0812 [Vulcanisaeta...  42.0    8e-04
+prf||2107210A  RNase                                                  42.0    0.001
+ref|YP_003902870.1|  hypothetical protein Vdis_2454 [Vulcanisaeta...  41.6    0.001
+sp|A8MCT2.2|CREN7_CALMQ  RecName: Full=Chromatin protein Cren7        41.2    0.002
+ref|YP_001540578.1|  hypothetical protein Cmaq_0752 [Caldivirga m...  41.2    0.002
+ref|WP_018031784.1|  hypothetical protein [unclassified Crenarcha...  40.8    0.002
+ref|WP_018193759.1|  hypothetical protein [candidate division YNP...  38.9    0.012
+ref|WP_023425008.1|  Chromatin protein Cren7 [environmental sampl...  37.7    0.035
+ref|WP_023426685.1|  Chromatin protein Cren7 [environmental sampl...  37.4    0.042
+ref|YP_004337505.1|  hypothetical protein TUZN_0703 [Thermoproteu...  35.0    0.24 
+ref|YP_003901906.1|  hypothetical protein Vdis_1469 [Vulcanisaeta...  34.7    0.40 
+ref|YP_003902154.1|  hypothetical protein Vdis_1729 [Vulcanisaeta...  34.7    0.42 
+ref|YP_004243861.1|  hypothetical protein VMUT_0143 [Vulcanisaeta...  34.7    0.42 
+ref|YP_004245333.1|  hypothetical protein VMUT_1627 [Vulcanisaeta...  34.3    0.48 
+ref|YP_003901223.1|  hypothetical protein Vdis_0780 [Vulcanisaeta...  34.3    0.52 
+ref|YP_004892743.1|  hypothetical protein TTX_1020 [Thermoproteus...  33.9    0.57 
+ref|YP_003902376.1|  hypothetical protein Vdis_1953 [Vulcanisaeta...  33.5    0.89 
+ref|YP_004244081.1|  hypothetical protein VMUT_0366 [Vulcanisaeta...  32.7    1.7  
+ref|WP_016290638.1|  hypothetical protein [Lachnospiraceae bacter...  33.9    2.2  
+ref|YP_001794014.1|  hypothetical protein Tneu_0629 [Pyrobaculum ...  32.0    3.3  
+ref|YP_931095.1|  hypothetical protein Pisl_1598 [Pyrobaculum isl...  32.0    3.6  
+ref|YP_177354.1|  uracil phosphoribosyltransferase [Bacillus clau...  33.1    4.6  
+ref|XP_004978965.1|  PREDICTED: probably inactive leucine-rich re...  33.5    6.5  
+ref|WP_016301627.1|  hypothetical protein [Lachnospiraceae bacter...  32.7    7.1  
+ref|YP_001055770.1|  conserved hypothetical protein [Pyrobaculum ...  30.8    8.0  
+
+
+>ref|NP_342459.1| hypothetical protein SSO6901 [Sulfolobus solfataricus P2]
+ ref|YP_005643766.1| hypothetical protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992425.1| chorismate-binding protein [Sulfolobus solfataricus]
+ sp|Q97ZE3.1|CREN7_SULSO RecName: Full=Chromatin protein Cren7
+ pdb|2JTM|A Chain A, Solution Structure Of Sso6901 From Sulfolobus Solfataricus 
+P2
+ pdb|3LWH|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|B Chain B, Crystal Structure Of Cren7-Dsdna Complex
+ gb|AAK41249.1| Conserved hypothetical protein [Sulfolobus solfataricus P2]
+ gb|ACX92165.1| conserved hypothetical protein [Sulfolobus solfataricus 98/2]
+Length=60
+
+ Score =  119 bits (299),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>ref|YP_002829301.1| hypothetical protein M1425_1248 [Sulfolobus islandicus M.14.25]
+ ref|YP_002831988.1| hypothetical protein LS215_1335 [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002837421.1| hypothetical protein YG5714_1233 [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840625.1| hypothetical protein YN1551_1615 [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002843226.1| hypothetical protein M1627_1298 [Sulfolobus islandicus M.16.27]
+ ref|YP_002914504.1| hypothetical protein M164_1232 [Sulfolobus islandicus M.16.4]
+ ref|YP_003419397.1| hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ ref|YP_005645756.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ ref|YP_005648392.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ ref|YP_007865562.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+ ref|WP_012711256.1| chorismate-binding protein [Sulfolobus islandicus]
+ sp|P0C835.1|CREN7_SULSH RecName: Full=Chromatin protein Cren7
+ sp|C3N5A6.1|CREN7_SULIA RecName: Full=Chromatin protein Cren7
+ sp|C4KGX2.1|CREN7_SULIK RecName: Full=Chromatin protein Cren7
+ sp|C3MPN0.1|CREN7_SULIL RecName: Full=Chromatin protein Cren7
+ sp|C3MYM4.1|CREN7_SULIM RecName: Full=Chromatin protein Cren7
+ sp|C3NHU3.1|CREN7_SULIN RecName: Full=Chromatin protein Cren7
+ sp|C3NDW0.1|CREN7_SULIY RecName: Full=Chromatin protein Cren7
+ gb|ACP35343.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP38003.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45499.1| conserved hypothetical protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48703.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP55181.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+ gb|ACR41836.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+ gb|ADB87027.1| conserved hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ gb|ADX85178.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ gb|ADX82542.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62557.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+Length=60
+
+ Score =  117 bits (294),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 59/60 (98%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKK VKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKAVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>pdb|3KXT|A Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna Complex
+Length=56
+
+ Score =  110 bits (274),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  6   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  2   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  56
+
+
+>sp|P0C836.2|CREN7_SULTO RecName: Full=Chromatin protein Cren7
+ dbj|BAK54515.1| chromatin protein Cren7 [Sulfolobus tokodaii str. 7]
+Length=61
+
+ Score =  103 bits (257),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 50/60 (83%), Positives = 54/60 (90%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           +   +K VKVKTP+GKEAEL PEKVW LAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP+
+Sbjct  2   IGMAEKKVKVKTPSGKEAELAPEKVWVLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPV  61
+
+
+>ref|WP_020199553.1| chorismate-binding protein [Sulfolobales archaeon Acd1]
+Length=59
+
+ Score =  102 bits (254),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 48/57 (84%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+            +KPVKVKTP+GKE ELVPEKVW LAP+GRKGVKIGLFKDPETG+YFR KLPDDYP+
+Sbjct  2   SRKPVKVKTPSGKEVELVPEKVWELAPRGRKGVKIGLFKDPETGRYFRSKLPDDYPV  58
+
+
+>ref|YP_004409057.1| hypothetical protein Mcup_0466 [Metallosphaera cuprina Ar-4]
+ ref|WP_013737071.1| chorismate-binding protein [Metallosphaera cuprina]
+ gb|AEB94573.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=59
+
+ Score =  101 bits (251),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKQVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_001191841.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+ ref|WP_012021704.1| chorismate-binding protein [Metallosphaera sedula]
+ sp|A4YHL5.1|CREN7_METS5 RecName: Full=Chromatin protein Cren7
+ gb|ABP95917.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+Length=59
+
+ Score =  101 bits (251),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKAVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_004458609.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+ ref|WP_013776226.1| chorismate-binding protein [Acidianus hospitalis]
+ gb|AEE94311.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+Length=59
+
+ Score = 99.8 bits (247),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 48/58 (83%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK +KVKTP+GKE EL PEK W+LAPKGRKGVKIGLFKDPETGKYFR KLPDDY I
+Sbjct  2   SSKKAIKVKTPSGKEVELAPEKAWSLAPKGRKGVKIGLFKDPETGKYFRRKLPDDYQI  59
+
+
+>ref|YP_255938.1| hypothetical protein Saci_1307 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|YP_007434389.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ ref|YP_007436658.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_011278147.1| chorismate-binding protein [Sulfolobus acidocaldarius]
+ sp|Q4J985.1|CREN7_SULAC RecName: Full=Chromatin protein Cren7
+ gb|AAY80645.1| conserved Crenarchaeal protein [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE71241.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ gb|AGE73510.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=59
+
+ Score = 99.0 bits (245),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 47/58 (81%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK V+V+TP GKE EL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  2   SEKKRVRVRTPGGKELELTPEKTWVLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|WP_009074945.1| chorismate-binding protein [Metallosphaera yellowstonensis]
+ gb|EHP68483.1| Chromatin protein Cren7 [Metallosphaera yellowstonensis MK1]
+Length=61
+
+ Score = 97.4 bits (241),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 47/56 (84%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VKVKTP GKE +L PEK W LAPKGRKGVKIGLFKDPETGKYFRHKLPDDY +
+Sbjct  6   KKAVKVKTPGGKEMDLTPEKAWTLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYAV  61
+
+
+>ref|YP_003668606.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+ ref|WP_013142905.1| chorismate-binding protein [Staphylothermus hellenicus]
+ gb|ADI31707.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+Length=62
+
+ Score = 96.7 bits (239),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M +  K VKV+TP+GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MPACTKSVKVRTPSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_001040258.1| hypothetical protein Smar_0237 [Staphylothermus marinus F1]
+ ref|WP_011838541.1| chorismate-binding protein [Staphylothermus marinus]
+ sp|A3DL40.1|CREN7_STAMF RecName: Full=Chromatin protein Cren7
+ gb|ABN69350.1| conserved hypothetical protein [Staphylothermus marinus F1]
+Length=62
+
+ Score = 95.5 bits (236),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M++ K  VKVKT +GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MAACKDAVKVKTLSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_003859986.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|YP_003860498.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303756.1| chorismate-binding protein [Ignisphaera aggregans]
+ gb|ADM28106.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+ gb|ADM28618.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=62
+
+ Score = 94.0 bits (232),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 45/59 (76%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           M++  KPV+VKTP G E ELVP+KVW LAPKGRKGVKIGLF+DP TGKYFR K+PDDYP
+Sbjct  1   MAACTKPVRVKTPDGAEKELVPKKVWGLAPKGRKGVKIGLFQDPATGKYFRGKVPDDYP  59
+
+
+>ref|YP_006363932.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+ ref|WP_014738044.1| chorismate-binding protein [Thermogladius cellulolyticus]
+ gb|AFK51794.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+Length=65
+
+ Score = 91.3 bits (225),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           K  VKV+TP+GKE EL+P KVW L P GRKGVK+GLF+DPETGK+FR K+PDDYP+
+Sbjct  8   KNAVKVRTPSGKELELIPRKVWQLTPSGRKGVKVGLFQDPETGKFFRQKVPDDYPL  63
+
+
+>ref|YP_001013074.1| hypothetical protein Hbut_0878 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822047.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BL68.1|CRN71_HYPBU RecName: Full=Chromatin protein Cren7 1
+ gb|ABM80729.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 89.7 bits (221),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 46/59 (78%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAPKGRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPKGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_001013312.1| hypothetical protein Hbut_1128 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822285.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BLV6.1|CRN72_HYPBU RecName: Full=Chromatin protein Cren7 2
+ gb|ABM80967.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 89.4 bits (220),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 45/59 (76%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAP+GRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPRGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_004176628.1| hypothetical protein [Desulfurococcus mucosus DSM 2162]
+ ref|WP_013562368.1| chorismate-binding protein [Desulfurococcus mucosus]
+ gb|ADV65146.1| hypothetical protein Desmu_0842 [Desulfurococcus mucosus DSM 
+2162]
+Length=61
+
+ Score = 85.9 bits (211),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 37/53 (70%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  8   VKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           VKVKTP+G+E ELVP KVW L P+GRKGVK+GLF+DPE+G+YFR K+P++YP+
+Sbjct  7   VKVKTPSGRELELVPVKVWQLNPRGRKGVKVGLFQDPESGRYFRTKVPENYPL  59
+
+
+>ref|YP_003649532.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+ ref|WP_013129173.1| chorismate-binding protein [Thermosphaera aggregans]
+ gb|ADG90580.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+Length=61
+
+ Score = 85.1 bits (209),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 38/55 (69%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  6   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KPVKVKT  GKE EL+P+KVW L P+G+KGVK+GLF+DPETG +FR K+P+DYP+
+Sbjct  5   KPVKVKTATGKELELIPKKVWQLNPRGKKGVKVGLFQDPETGTFFRAKVPEDYPL  59
+
+
+>ref|WP_023424369.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ23056.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ24671.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+ gb|ESQ25866.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=62
+
+ Score = 85.1 bits (209),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSAKLPPVKVKDPTTGKEVELTPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|WP_023425655.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ21997.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+Length=62
+
+ Score = 84.7 bits (208),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSARLPPVKVKDPTTGKEVELAPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|YP_004782029.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+ ref|WP_014027454.1| chorismate-binding protein [Pyrolobus fumarii]
+ gb|AEM39777.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+Length=67
+
+ Score = 84.0 bits (206),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 48/56 (86%), Gaps = 1/56 (2%)
+
+Query  6   KPVKVK-TPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KPV+V+ +  G+E ELVP KVW LAP+GRKGVKIGLFK P+TGKYFR K+PDDYPI
+Sbjct  10  KPVRVRDSSTGEEVELVPIKVWVLAPRGRKGVKIGLFKSPKTGKYFRAKVPDDYPI  65
+
+
+>ref|YP_002427877.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ ref|YP_006401745.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+ ref|WP_012607852.1| chorismate-binding protein [Desulfurococcus]
+ gb|ACL10510.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ gb|AFL66170.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+Length=65
+
+ Score = 83.6 bits (205),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 37/53 (70%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  8   VKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           VKVKTP G+E ELVP KVW L P+GRKGVKIGLF+DP TG+YFR ++P++YP+
+Sbjct  11  VKVKTPGGRELELVPVKVWQLNPRGRKGVKIGLFQDPGTGRYFRTRVPEEYPL  63
+
+
+>ref|NP_147243.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+ ref|WP_010865756.1| chorismate-binding protein [Aeropyrum pernix]
+ sp|Q9YEY2.1|CREN7_AERPE RecName: Full=Chromatin protein Cren7
+ dbj|BAA79414.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+Length=64
+
+ Score = 82.0 bits (201),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 40/54 (74%), Positives = 45/54 (83%), Gaps = 1/54 (2%)
+
+Query  7   PVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK PETGKYFR K+PDDYP
+Sbjct  8   PVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSPETGKYFRAKVPDDYP  61
+
+
+>ref|YP_008603733.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+ ref|WP_022541076.1| hypothetical protein [Aeropyrum camini]
+ dbj|BAN89799.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+Length=64
+
+ Score = 79.3 bits (194),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 39/54 (72%), Positives = 44/54 (81%), Gaps = 1/54 (2%)
+
+Query  7   PVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK  ETGKYFR K+PDDYP
+Sbjct  8   PVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSQETGKYFRAKVPDDYP  61
+
+
+>ref|YP_007174716.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015232165.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ70267.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=61
+
+ Score = 79.0 bits (193),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 40/54 (74%), Positives = 45/54 (83%), Gaps = 1/54 (2%)
+
+Query  7   PVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           PVKVK P+ GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+P++YP
+Sbjct  8   PVKVKDPSSGKEVELSPIKVWTLAPKSRKGVKIGLFKSPETGKFFRAKVPENYP  61
+
+
+>ref|YP_003816469.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+ ref|WP_013266950.1| chorismate-binding protein [Acidilobus saccharovorans]
+ gb|ADL19438.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+Length=61
+
+ Score = 77.8 bits (190),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/53 (75%), Positives = 43/53 (81%), Gaps = 1/53 (2%)
+
+Query  8   VKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           VKVK P  GKE EL P KVW LAPK RKGVKIGLFK PE+GK+FR K+PDDYP
+Sbjct  7   VKVKDPTTGKEVELSPIKVWTLAPKTRKGVKIGLFKSPESGKFFRAKVPDDYP  59
+
+
+>ref|YP_005842233.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+ ref|WP_014557930.1| chorismate-binding protein [Fervidicoccus fontis]
+ gb|AFH42781.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+Length=60
+
+ Score = 70.1 bits (170),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 34/56 (61%), Positives = 44/56 (79%), Gaps = 1/56 (2%)
+
+Query  5   KKPVKVKTP-AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           K+PVKVK    GKE ELVP KVW L+P  ++G+K+GLF++PET  YFR ++PDDYP
+Sbjct  3   KRPVKVKDRITGKEYELVPIKVWKLSPNKKRGIKMGLFQNPETKIYFRARVPDDYP  58
+
+
+>ref|YP_007174249.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015231698.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ69800.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=56
+
+ Score = 68.6 bits (166),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 39/55 (71%), Positives = 40/55 (73%), Gaps = 1/55 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           MSS   PVKVK P  GKE  L P KVW LAPK  KGVKIGLFK PETGKYFR K+
+Sbjct  1   MSSKLPPVKVKDPTTGKEVTLTPIKVWTLAPKKGKGVKIGLFKSPETGKYFRAKV  55
+
+
+>ref|YP_001434630.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+ ref|WP_011998075.1| chorismate-binding protein [Ignicoccus hospitalis]
+ sp|A8A8H1.1|CREN7_IGNH4 RecName: Full=Chromatin protein Cren7
+ gb|ABU81223.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+Length=55
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 26/38 (68%), Gaps = 1/38 (3%)
+
+Query  22  PEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           P K W LAPKGRKGV IGLF+ P  G YFR K+ +  P
+Sbjct  14  PIKTWVLAPKGRKGVIIGLFRCP-NGHYFRAKVGEAPP  50
+
+
+>ref|YP_003860172.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303942.1| hypothetical protein [Ignisphaera aggregans]
+ gb|ADM28292.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=61
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 22/52 (42%), Positives = 30/52 (58%), Gaps = 1/52 (2%)
+
+Query  8   VKVKTPAGK-EAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDY  58
+           VKVK P    E  + P+KV+ +       +KIG+F  P+TG+ FR  LPD Y
+Sbjct  7   VKVKDPTTHLEISIAPKKVYVIKNHRGNTIKIGVFVSPKTGQLFRALLPDSY  58
+
+
+>ref|YP_004244524.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604184.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01022.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+Length=53
+
+ Score = 42.0 bits (97),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 27/40 (68%), Gaps = 1/40 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  +
+Sbjct  11  GQSMKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAI  49
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  44  PETGKYFRHKLPDDYPI  60
+           PETGKYFRHKLPDDYPI
+Sbjct  59  PETGKYFRHKLPDDYPI  75
+
+
+>ref|YP_003902870.1| hypothetical protein Vdis_2454 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337544.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51819.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=60
+
+ Score = 41.6 bits (96),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 27/40 (68%), Gaps = 1/40 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  +
+Sbjct  18  GQIVKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAI  56
+
+
+>sp|A8MCT2.2|CREN7_CALMQ RecName: Full=Chromatin protein Cren7
+Length=61
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/37 (59%), Positives = 23/37 (62%), Gaps = 1/37 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           G+   L P K W L PKGRKGV IGLFK P  GK  R
+Sbjct  19  GQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLR  54
+
+
+>ref|YP_001540578.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+ ref|WP_012185807.1| chorismate-binding protein [Caldivirga maquilingensis]
+ gb|ABW01588.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+Length=77
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/37 (59%), Positives = 23/37 (62%), Gaps = 1/37 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           G+   L P K W L PKGRKGV IGLFK P  GK  R
+Sbjct  35  GQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLR  70
+
+
+>ref|WP_018031784.1| hypothetical protein [unclassified Crenarchaeota (miscellaneous)]
+Length=49
+
+ Score = 40.8 bits (94),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 16/30 (53%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  22  PEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           P+K W LAPKG+K   IGL++  + G YFR
+Sbjct  14  PQKTWVLAPKGKKSQTIGLYRCSKCGTYFR  43
+
+
+>ref|WP_018193759.1| hypothetical protein [candidate division YNPFFA]
+Length=46
+
+ Score = 38.9 bits (89),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 21/30 (70%), Gaps = 1/30 (3%)
+
+Query  22  PEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           P K W LAPKG+K + IGLFK P  G YFR
+Sbjct  14  PIKTWVLAPKGKKPLNIGLFKCPN-GHYFR  42
+
+
+>ref|WP_023425008.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ22212.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ25199.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+Length=81
+
+ Score = 37.7 bits (86),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLVKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|WP_023426685.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ20417.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ25705.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=81
+
+ Score = 37.4 bits (85),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLIKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|YP_004337505.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ ref|YP_004338171.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+ ref|WP_013679529.1| chorismate-binding protein [Thermoproteus uzoniensis]
+ gb|AEA12193.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ gb|AEA12859.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+Length=58
+
+ Score = 35.0 bits (79),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 19/38 (50%), Positives = 24/38 (63%), Gaps = 1/38 (3%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+            G++  L PEK+W L P G+ GV I LFK P+ GK  R
+Sbjct  14  GGEKYRLKPEKIWVLQPPGKPGVVIALFKTPD-GKKVR  50
+
+
+>ref|YP_003901906.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336580.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50855.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+Length=77
+
+ Score = 34.7 bits (78),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 21/32 (66%), Gaps = 1/32 (3%)
+
+Query  20  LVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           L P KVW + PKGRKG  + LFK P+ GK  R
+Sbjct  33  LRPTKVWKVQPKGRKGFVMALFKTPD-GKTVR  63
+
+
+>ref|YP_003902154.1| hypothetical protein Vdis_1729 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336828.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51103.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 34.7 bits (78),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 21/32 (66%), Gaps = 1/32 (3%)
+
+Query  20  LVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           L P KVW + PKGRKG  + LFK P+ GK  R
+Sbjct  19  LRPTKVWKVQPKGRKGFVMALFKTPD-GKTVR  49
+
+
+>ref|YP_004243861.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ ref|YP_004243896.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603523.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00359.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ gb|ADY00394.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 34.7 bits (78),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 21/32 (66%), Gaps = 1/32 (3%)
+
+Query  20  LVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           L P KVW + PKGRKG  + LFK P+ GK  R
+Sbjct  19  LKPSKVWKVQPKGRKGFVMALFKTPD-GKTVR  49
+
+
+>ref|YP_004245333.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604993.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01831.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 34.3 bits (77),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 21/32 (66%), Gaps = 1/32 (3%)
+
+Query  20  LVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           L P KVW + PKGRKG  + LFK P+ GK  R
+Sbjct  19  LKPTKVWKVQPKGRKGFVMALFKTPD-GKTVR  49
+
+
+>ref|YP_003901223.1| hypothetical protein Vdis_0780 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013335897.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50172.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 34.3 bits (77),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 21/32 (66%), Gaps = 1/32 (3%)
+
+Query  20  LVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           L P KVW + PKGRKG  + LFK P+ GK  R
+Sbjct  19  LKPTKVWKVQPKGRKGFVMALFKTPD-GKTVR  49
+
+
+>ref|YP_004892743.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+ ref|WP_014126920.1| chorismate-binding protein [Thermoproteus tenax]
+ emb|CCC81665.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+Length=59
+
+ Score = 33.9 bits (76),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 17/40 (43%), Positives = 23/40 (58%), Gaps = 1/40 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           G+   L PEK W L P G+ GV + LF+ P+ GK  R  +
+Sbjct  15  GRRYMLKPEKAWVLQPPGKPGVVVALFRTPD-GKVVRRVI  53
+
+
+>ref|YP_003902376.1| hypothetical protein Vdis_1953 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337050.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51325.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=67
+
+ Score = 33.5 bits (75),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 16/30 (53%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LFK P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFKLP  47
+
+
+>ref|YP_004244081.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603742.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00579.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+Length=67
+
+ Score = 32.7 bits (73),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LF+ P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFRLP  47
+
+
+>ref|WP_016290638.1| hypothetical protein [Lachnospiraceae bacterium 28-4]
+ gb|EOS32112.1| hypothetical protein C807_00835 [Lachnospiraceae bacterium 28-4]
+Length=185
+
+ Score = 33.9 bits (76),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  13  PAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRH  52
+           P G+ AEL+  K++A+AP   K  ++  F D E G Y +H
+Sbjct  20  PDGERAELIDGKLYAMAPPNTKHQRLVHFFDREIGNYIQH  59
+
+
+>ref|YP_001794014.1| hypothetical protein Tneu_0629 [Pyrobaculum neutrophilum V24Sta]
+ ref|WP_012349988.1| chorismate-binding protein [Pyrobaculum neutrophilum]
+ sp|B1YCQ5.1|CREN7_THENV RecName: Full=Chromatin protein Cren7
+ gb|ACB39568.1| conserved hypothetical protein [Pyrobaculum neutrophilum V24Sta]
+Length=59
+
+ Score = 32.0 bits (71),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 16/31 (52%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPE  45
+           GK   L P K W L P G+ GV I LFK P+
+Sbjct  16  GKRYWLRPSKAWVLQPPGKPGVVIALFKLPD  46
+
+
+>ref|YP_931095.1| hypothetical protein Pisl_1598 [Pyrobaculum islandicum DSM 4184]
+ ref|WP_011763327.1| chorismate-binding protein [Pyrobaculum islandicum]
+ sp|A1RUX0.1|CREN7_PYRIL RecName: Full=Chromatin protein Cren7
+ gb|ABL88752.1| conserved hypothetical protein [Pyrobaculum islandicum DSM 4184]
+Length=59
+
+ Score = 32.0 bits (71),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 18/38 (47%), Positives = 22/38 (58%), Gaps = 1/38 (3%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+            G++  L P K W L P G+ GV I LFK P+ GK  R
+Sbjct  14  GGRKYRLKPVKAWVLQPPGKPGVVIALFKLPD-GKTIR  50
+
+
+>ref|YP_177354.1| uracil phosphoribosyltransferase [Bacillus clausii KSM-K16]
+ ref|WP_011248696.1| uracil phosphoribosyltransferase [Bacillus clausii]
+ sp|Q5WB67.1|UPP_BACSK RecName: Full=Uracil phosphoribosyltransferase; AltName: Full=UMP 
+pyrophosphorylase; AltName: Full=UPRTase
+ dbj|BAD66393.1| uracil phosphoribosyltransferase [Bacillus clausii KSM-K16]
+Length=209
+
+ Score = 33.1 bits (74),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 33/62 (53%), Gaps = 12/62 (19%)
+
+Query  7    PVKVKTPAGKEAELVP---------EKVWALAPKGRKGVKIGLFKDPETGK--YFRHKLP  55
+            P KVK  AGK+  LVP         E +  + P  R G  +GL++DPET K   +  KLP
+Sbjct  61   PAKVKKLAGKKLGLVPILRAGIGMSEGILRMIPAARVG-HVGLYRDPETLKPHEYYVKLP  119
+
+Query  56   DD  57
+            +D
+Sbjct  120  ND  121
+
+
+>ref|XP_004978965.1| PREDICTED: probably inactive leucine-rich repeat receptor-like 
+protein kinase At5g48380-like [Setaria italica]
+Length=604
+
+ Score = 33.5 bits (75),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  11   KTPAGKEAELVPEKVWALAPKGRKGVKIGLFK  42
+            K PA K+ + V E  WA   KG KGVK+ +F+
+Sbjct  247  KMPAKKKGKDVEENKWAKTIKGAKGVKVSMFE  278
+
+
+>ref|WP_016301627.1| hypothetical protein [Lachnospiraceae bacterium COE1]
+ gb|EOS45184.1| hypothetical protein C809_03023 [Lachnospiraceae bacterium COE1]
+Length=177
+
+ Score = 32.7 bits (73),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  13  PAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHK  53
+           P G+ AEL+  K++ +AP   K  ++  F D E G Y + K
+Sbjct  19  PNGERAELIDGKIYYMAPPNTKHQRLVHFFDREIGNYIQSK  59
+
+
+>ref|YP_001055770.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+ ref|WP_011849562.1| chorismate-binding protein [Pyrobaculum calidifontis]
+ sp|A3MUI7.1|CREN7_PYRCJ RecName: Full=Chromatin protein Cren7
+ gb|ABO08304.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+Length=63
+
+ Score = 30.8 bits (68),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 18/37 (49%), Positives = 20/37 (54%), Gaps = 1/37 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFR  51
+           GK   L P K W L P G+ GV + LFK P  GK  R
+Sbjct  20  GKRFLLKPAKAWVLQPPGKPGVIVALFKLP-NGKTVR  55
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302307077826
+Results from round 2
+
+
+Query= 2JTM
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_001040258.1|  hypothetical protein Smar_0237 [Staphylother...  95.1    5e-24
+ref|YP_003668606.1|  hypothetical protein Shell_0581 [Staphylothe...  93.9    2e-23
+ref|YP_001013312.1|  hypothetical protein Hbut_1128 [Hyperthermus...  91.2    2e-22
+ref|YP_006363932.1|  hypothetical protein TCELL_1372 [Thermogladi...  91.2    2e-22
+ref|YP_002829301.1|  hypothetical protein M1425_1248 [Sulfolobus ...  90.4    3e-22
+ref|YP_001013074.1|  hypothetical protein Hbut_0878 [Hyperthermus...  90.4    4e-22
+ref|NP_342459.1|  hypothetical protein SSO6901 [Sulfolobus solfat...  90.1    5e-22
+ref|YP_003859986.1|  hypothetical protein [Ignisphaera aggregans ...  89.3    9e-22
+ref|YP_002427877.1|  hypothetical protein DKAM_0182 [Desulfurococ...  89.3    1e-21
+sp|P0C836.2|CREN7_SULTO  RecName: Full=Chromatin protein Cren7 >d...  87.7    3e-21
+ref|YP_004176628.1|  hypothetical protein [Desulfurococcus mucosu...  87.4    5e-21
+ref|WP_020199553.1|  chorismate-binding protein [Sulfolobales arc...  87.0    6e-21
+ref|YP_003649532.1|  hypothetical protein Tagg_0304 [Thermosphaer...  86.6    9e-21
+ref|YP_255938.1|  hypothetical protein Saci_1307 [Sulfolobus acid...  86.2    1e-20
+ref|YP_004782029.1|  hypothetical protein Pyrfu_1924 [Pyrolobus f...  86.2    1e-20
+pdb|3KXT|A  Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna ...  84.7    4e-20
+ref|YP_001191841.1|  hypothetical protein Msed_1762 [Metallosphae...  84.7    5e-20
+ref|YP_004458609.1|  chromatin protein Cren7 [Acidianus hospitali...  84.7    6e-20
+ref|YP_004409057.1|  hypothetical protein Mcup_0466 [Metallosphae...  84.3    7e-20
+ref|WP_009074945.1|  chorismate-binding protein [Metallosphaera y...  84.3    8e-20
+ref|WP_023425655.1|  Chromatin protein Cren7 [uncultured Acidilob...  81.6    1e-18
+ref|NP_147243.1|  hypothetical protein APE_0450a [Aeropyrum perni...  80.8    2e-18
+ref|WP_023424369.1|  Chromatin protein Cren7 [environmental sampl...  80.4    2e-18
+ref|YP_008603733.1|  hypothetical protein ACAM_0330 [Aeropyrum ca...  79.3    6e-18
+ref|YP_003816469.1|  hypothetical protein ASAC_1033 [Acidilobus s...  76.2    1e-16
+ref|YP_007174716.1|  Chromatin protein Cren7 [Caldisphaera lagune...  75.8    1e-16
+ref|YP_005842233.1|  chromatin protein Cren7 [Fervidicoccus fonti...  75.8    2e-16
+ref|YP_003860172.1|  hypothetical protein [Ignisphaera aggregans ...  73.9    8e-16
+ref|YP_007174249.1|  Chromatin protein Cren7 [Caldisphaera lagune...  68.1    1e-13
+sp|A8MCT2.2|CREN7_CALMQ  RecName: Full=Chromatin protein Cren7        53.5    6e-08
+ref|YP_003902870.1|  hypothetical protein Vdis_2454 [Vulcanisaeta...  51.2    4e-07
+ref|YP_001434630.1|  hypothetical protein Igni_0039 [Ignicoccus h...  51.2    4e-07
+ref|YP_004244524.1|  hypothetical protein VMUT_0812 [Vulcanisaeta...  50.0    8e-07
+prf||2107210A  RNase                                                  36.1    0.11 
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_001540578.1|  hypothetical protein Cmaq_0752 [Caldivirga m...  58.1    2e-09
+ref|WP_018193759.1|  hypothetical protein [candidate division YNP...  42.7    5e-04
+ref|WP_018031784.1|  hypothetical protein [unclassified Crenarcha...  41.9    0.001
+ref|WP_023426685.1|  Chromatin protein Cren7 [environmental sampl...  38.8    0.014
+ref|WP_023425008.1|  Chromatin protein Cren7 [environmental sampl...  38.4    0.016
+ref|YP_003901906.1|  hypothetical protein Vdis_1469 [Vulcanisaeta...  37.7    0.033
+ref|YP_004337505.1|  hypothetical protein TUZN_0703 [Thermoproteu...  37.7    0.037
+ref|YP_004243861.1|  hypothetical protein VMUT_0143 [Vulcanisaeta...  37.3    0.044
+ref|YP_931095.1|  hypothetical protein Pisl_1598 [Pyrobaculum isl...  37.3    0.049
+ref|YP_003902376.1|  hypothetical protein Vdis_1953 [Vulcanisaeta...  36.9    0.058
+ref|YP_005086430.1|  hypothetical protein P186_2802 [Pyrobaculum ...  36.9    0.071
+ref|YP_004244081.1|  hypothetical protein VMUT_0366 [Vulcanisaeta...  36.5    0.072
+ref|YP_004245333.1|  hypothetical protein VMUT_1627 [Vulcanisaeta...  36.5    0.074
+ref|YP_003902154.1|  hypothetical protein Vdis_1729 [Vulcanisaeta...  36.5    0.079
+ref|YP_001794014.1|  hypothetical protein Tneu_0629 [Pyrobaculum ...  36.5    0.086
+ref|YP_004892743.1|  hypothetical protein TTX_1020 [Thermoproteus...  36.5    0.092
+ref|YP_003901223.1|  hypothetical protein Vdis_0780 [Vulcanisaeta...  36.1    0.099
+ref|YP_001055770.1|  conserved hypothetical protein [Pyrobaculum ...  36.1    0.12 
+ref|YP_001152874.1|  hypothetical protein Pars_0631 [Pyrobaculum ...  36.1    0.12 
+ref|NP_559350.1|  hypothetical protein PAE1516 [Pyrobaculum aerop...  35.4    0.23 
+ref|XP_001687579.1|  conserved hypothetical protein [Leishmania m...  36.1    0.83 
+ref|XP_003245119.1|  PREDICTED: SUMO-conjugating enzyme UBC9-A-li...  35.0    0.84 
+
+
+>ref|YP_001040258.1| hypothetical protein Smar_0237 [Staphylothermus marinus F1]
+ ref|WP_011838541.1| chorismate-binding protein [Staphylothermus marinus]
+ sp|A3DL40.1|CREN7_STAMF RecName: Full=Chromatin protein Cren7
+ gb|ABN69350.1| conserved hypothetical protein [Staphylothermus marinus F1]
+Length=62
+
+ Score = 95.1 bits (235),  Expect = 5e-24, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M++ K  VKVKT +GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MAACKDAVKVKTLSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_003668606.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+ ref|WP_013142905.1| chorismate-binding protein [Staphylothermus hellenicus]
+ gb|ADI31707.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+Length=62
+
+ Score = 93.9 bits (232),  Expect = 2e-23, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M +  K VKV+TP+GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MPACTKSVKVRTPSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_001013312.1| hypothetical protein Hbut_1128 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822285.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BLV6.1|CRN72_HYPBU RecName: Full=Chromatin protein Cren7 2
+ gb|ABM80967.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 91.2 bits (225),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 45/59 (76%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAP+GRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPRGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_006363932.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+ ref|WP_014738044.1| chorismate-binding protein [Thermogladius cellulolyticus]
+ gb|AFK51794.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+Length=65
+
+ Score = 91.2 bits (225),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 40/57 (70%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+            K  VKV+TP+GKE EL+P KVW L P GRKGVK+GLF+DPETGK+FR K+PDDYP+
+Sbjct  7   CKNAVKVRTPSGKELELIPRKVWQLTPSGRKGVKVGLFQDPETGKFFRQKVPDDYPL  63
+
+
+>ref|YP_002829301.1| hypothetical protein M1425_1248 [Sulfolobus islandicus M.14.25]
+ ref|YP_002831988.1| hypothetical protein LS215_1335 [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002837421.1| hypothetical protein YG5714_1233 [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840625.1| hypothetical protein YN1551_1615 [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002843226.1| hypothetical protein M1627_1298 [Sulfolobus islandicus M.16.27]
+ ref|YP_002914504.1| hypothetical protein M164_1232 [Sulfolobus islandicus M.16.4]
+ ref|YP_003419397.1| hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ ref|YP_005645756.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ ref|YP_005648392.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ ref|YP_007865562.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+ ref|WP_012711256.1| chorismate-binding protein [Sulfolobus islandicus]
+ sp|P0C835.1|CREN7_SULSH RecName: Full=Chromatin protein Cren7
+ sp|C3N5A6.1|CREN7_SULIA RecName: Full=Chromatin protein Cren7
+ sp|C4KGX2.1|CREN7_SULIK RecName: Full=Chromatin protein Cren7
+ sp|C3MPN0.1|CREN7_SULIL RecName: Full=Chromatin protein Cren7
+ sp|C3MYM4.1|CREN7_SULIM RecName: Full=Chromatin protein Cren7
+ sp|C3NHU3.1|CREN7_SULIN RecName: Full=Chromatin protein Cren7
+ sp|C3NDW0.1|CREN7_SULIY RecName: Full=Chromatin protein Cren7
+ gb|ACP35343.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP38003.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45499.1| conserved hypothetical protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48703.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP55181.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+ gb|ACR41836.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+ gb|ADB87027.1| conserved hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ gb|ADX85178.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ gb|ADX82542.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62557.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+Length=60
+
+ Score = 90.4 bits (223),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 59/60 (98%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKK VKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKAVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>ref|YP_001013074.1| hypothetical protein Hbut_0878 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822047.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BL68.1|CRN71_HYPBU RecName: Full=Chromatin protein Cren7 1
+ gb|ABM80729.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 90.4 bits (223),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 46/59 (78%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAPKGRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPKGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|NP_342459.1| hypothetical protein SSO6901 [Sulfolobus solfataricus P2]
+ ref|YP_005643766.1| hypothetical protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992425.1| chorismate-binding protein [Sulfolobus solfataricus]
+ sp|Q97ZE3.1|CREN7_SULSO RecName: Full=Chromatin protein Cren7
+ pdb|2JTM|A Chain A, Solution Structure Of Sso6901 From Sulfolobus Solfataricus 
+P2
+ pdb|3LWH|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|B Chain B, Crystal Structure Of Cren7-Dsdna Complex
+ gb|AAK41249.1| Conserved hypothetical protein [Sulfolobus solfataricus P2]
+ gb|ACX92165.1| conserved hypothetical protein [Sulfolobus solfataricus 98/2]
+Length=60
+
+ Score = 90.1 bits (222),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>ref|YP_003859986.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|YP_003860498.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303756.1| chorismate-binding protein [Ignisphaera aggregans]
+ gb|ADM28106.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+ gb|ADM28618.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=62
+
+ Score = 89.3 bits (220),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 45/59 (76%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           M++  KPV+VKTP G E ELVP+KVW LAPKGRKGVKIGLF+DP TGKYFR K+PDDYP
+Sbjct  1   MAACTKPVRVKTPDGAEKELVPKKVWGLAPKGRKGVKIGLFQDPATGKYFRGKVPDDYP  59
+
+
+>ref|YP_002427877.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ ref|YP_006401745.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+ ref|WP_012607852.1| chorismate-binding protein [Desulfurococcus]
+ gb|ACL10510.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ gb|AFL66170.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+Length=65
+
+ Score = 89.3 bits (220),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 37/57 (65%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             + VKVKTP G+E ELVP KVW L P+GRKGVKIGLF+DP TG+YFR ++P++YP+
+Sbjct  7   CTEKVKVKTPGGRELELVPVKVWQLNPRGRKGVKIGLFQDPGTGRYFRTRVPEEYPL  63
+
+
+>sp|P0C836.2|CREN7_SULTO RecName: Full=Chromatin protein Cren7
+ dbj|BAK54515.1| chromatin protein Cren7 [Sulfolobus tokodaii str. 7]
+Length=61
+
+ Score = 87.7 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 50/60 (83%), Positives = 54/60 (90%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           +   +K VKVKTP+GKEAEL PEKVW LAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP+
+Sbjct  2   IGMAEKKVKVKTPSGKEAELAPEKVWVLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPV  61
+
+
+>ref|YP_004176628.1| hypothetical protein [Desulfurococcus mucosus DSM 2162]
+ ref|WP_013562368.1| chorismate-binding protein [Desulfurococcus mucosus]
+ gb|ADV65146.1| hypothetical protein Desmu_0842 [Desulfurococcus mucosus DSM 
+2162]
+Length=61
+
+ Score = 87.4 bits (215),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 37/57 (65%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             + VKVKTP+G+E ELVP KVW L P+GRKGVK+GLF+DPE+G+YFR K+P++YP+
+Sbjct  3   CTEKVKVKTPSGRELELVPVKVWQLNPRGRKGVKVGLFQDPESGRYFRTKVPENYPL  59
+
+
+>ref|WP_020199553.1| chorismate-binding protein [Sulfolobales archaeon Acd1]
+Length=59
+
+ Score = 87.0 bits (214),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             +KPVKVKTP+GKE ELVPEKVW LAP+GRKGVKIGLFKDPETG+YFR KLPDDYP+
+Sbjct  1   MSRKPVKVKTPSGKEVELVPEKVWELAPRGRKGVKIGLFKDPETGRYFRSKLPDDYPV  58
+
+
+>ref|YP_003649532.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+ ref|WP_013129173.1| chorismate-binding protein [Thermosphaera aggregans]
+ gb|ADG90580.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+Length=61
+
+ Score = 86.6 bits (213),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 38/57 (67%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             KPVKVKT  GKE EL+P+KVW L P+G+KGVK+GLF+DPETG +FR K+P+DYP+
+Sbjct  3   CDKPVKVKTATGKELELIPKKVWQLNPRGKKGVKVGLFQDPETGTFFRAKVPEDYPL  59
+
+
+>ref|YP_255938.1| hypothetical protein Saci_1307 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|YP_007434389.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ ref|YP_007436658.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_011278147.1| chorismate-binding protein [Sulfolobus acidocaldarius]
+ sp|Q4J985.1|CREN7_SULAC RecName: Full=Chromatin protein Cren7
+ gb|AAY80645.1| conserved Crenarchaeal protein [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE71241.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ gb|AGE73510.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=59
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK V+V+TP GKE EL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  2   SEKKRVRVRTPGGKELELTPEKTWVLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_004782029.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+ ref|WP_014027454.1| chorismate-binding protein [Pyrolobus fumarii]
+ gb|AEM39777.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+Length=67
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 41/58 (71%), Positives = 47/58 (81%), Gaps = 1/58 (2%)
+
+Query  4   GKKPVKVKTP-AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             KPV+V+    G+E ELVP KVW LAP+GRKGVKIGLFK P+TGKYFR K+PDDYPI
+Sbjct  8   CTKPVRVRDSSTGEEVELVPIKVWVLAPRGRKGVKIGLFKSPKTGKYFRAKVPDDYPI  65
+
+
+>pdb|3KXT|A Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna Complex
+Length=56
+
+ Score = 84.7 bits (208),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  6   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  2   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  56
+
+
+>ref|YP_001191841.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+ ref|WP_012021704.1| chorismate-binding protein [Metallosphaera sedula]
+ sp|A4YHL5.1|CREN7_METS5 RecName: Full=Chromatin protein Cren7
+ gb|ABP95917.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+Length=59
+
+ Score = 84.7 bits (208),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKAVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_004458609.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+ ref|WP_013776226.1| chorismate-binding protein [Acidianus hospitalis]
+ gb|AEE94311.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+Length=59
+
+ Score = 84.7 bits (208),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK +KVKTP+GKE EL PEK W+LAPKGRKGVKIGLFKDPETGKYFR KLPDDY I
+Sbjct  2   SSKKAIKVKTPSGKEVELAPEKAWSLAPKGRKGVKIGLFKDPETGKYFRRKLPDDYQI  59
+
+
+>ref|YP_004409057.1| hypothetical protein Mcup_0466 [Metallosphaera cuprina Ar-4]
+ ref|WP_013737071.1| chorismate-binding protein [Metallosphaera cuprina]
+ gb|AEB94573.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=59
+
+ Score = 84.3 bits (207),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKQVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|WP_009074945.1| chorismate-binding protein [Metallosphaera yellowstonensis]
+ gb|EHP68483.1| Chromatin protein Cren7 [Metallosphaera yellowstonensis MK1]
+Length=61
+
+ Score = 84.3 bits (207),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 47/56 (84%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VKVKTP GKE +L PEK W LAPKGRKGVKIGLFKDPETGKYFRHKLPDDY +
+Sbjct  6   KKAVKVKTPGGKEMDLTPEKAWTLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYAV  61
+
+
+>ref|WP_023425655.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ21997.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+Length=62
+
+ Score = 81.6 bits (200),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSARLPPVKVKDPTTGKEVELAPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|NP_147243.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+ ref|WP_010865756.1| chorismate-binding protein [Aeropyrum pernix]
+ sp|Q9YEY2.1|CREN7_AERPE RecName: Full=Chromatin protein Cren7
+ dbj|BAA79414.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+Length=64
+
+ Score = 80.8 bits (198),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 40/55 (73%), Positives = 45/55 (82%), Gaps = 1/55 (2%)
+
+Query  6   KPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK PETGKYFR K+PDDYP
+Sbjct  7   PPVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSPETGKYFRAKVPDDYP  61
+
+
+>ref|WP_023424369.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ23056.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ24671.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+ gb|ESQ25866.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=62
+
+ Score = 80.4 bits (197),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSAKLPPVKVKDPTTGKEVELTPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|YP_008603733.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+ ref|WP_022541076.1| hypothetical protein [Aeropyrum camini]
+ dbj|BAN89799.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+Length=64
+
+ Score = 79.3 bits (194),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 44/55 (80%), Gaps = 1/55 (2%)
+
+Query  6   KPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK  ETGKYFR K+PDDYP
+Sbjct  7   PPVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSQETGKYFRAKVPDDYP  61
+
+
+>ref|YP_003816469.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+ ref|WP_013266950.1| chorismate-binding protein [Acidilobus saccharovorans]
+ gb|ADL19438.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+Length=61
+
+ Score = 76.2 bits (186),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 41/58 (71%), Positives = 44/58 (76%), Gaps = 1/58 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           S    VKVK P  GKE EL P KVW LAPK RKGVKIGLFK PE+GK+FR K+PDDYP
+Sbjct  2   SKLPAVKVKDPTTGKEVELSPIKVWTLAPKTRKGVKIGLFKSPESGKFFRAKVPDDYP  59
+
+
+>ref|YP_007174716.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015232165.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ70267.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=61
+
+ Score = 75.8 bits (185),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 46/60 (77%), Gaps = 1/60 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           M     PVKVK P+ GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+P++YP
+Sbjct  2   MPEKFPPVKVKDPSSGKEVELSPIKVWTLAPKSRKGVKIGLFKSPETGKFFRAKVPENYP  61
+
+
+>ref|YP_005842233.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+ ref|WP_014557930.1| chorismate-binding protein [Fervidicoccus fontis]
+ gb|AFH42781.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+Length=60
+
+ Score = 75.8 bits (185),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 1/58 (2%)
+
+Query  3   SGKKPVKVKTP-AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+             K+PVKVK    GKE ELVP KVW L+P  ++G+K+GLF++PET  YFR ++PDDYP
+Sbjct  1   MEKRPVKVKDRITGKEYELVPIKVWKLSPNKKRGIKMGLFQNPETKIYFRARVPDDYP  58
+
+
+>ref|YP_003860172.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303942.1| hypothetical protein [Ignisphaera aggregans]
+ gb|ADM28292.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=61
+
+ Score = 73.9 bits (180),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 31/57 (54%), Gaps = 1/57 (2%)
+
+Query  3   SGKKPVKVKTPAGK-EAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDY  58
+           +    VKVK P    E  + P+KV+ +       +KIG+F  P+TG+ FR  LPD Y
+Sbjct  2   TCTTEVKVKDPTTHLEISIAPKKVYVIKNHRGNTIKIGVFVSPKTGQLFRALLPDSY  58
+
+
+>ref|YP_007174249.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015231698.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ69800.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=56
+
+ Score = 68.1 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 40/55 (73%), Gaps = 1/55 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           MSS   PVKVK P  GKE  L P KVW LAPK  KGVKIGLFK PETGKYFR K+
+Sbjct  1   MSSKLPPVKVKDPTTGKEVTLTPIKVWTLAPKKGKGVKIGLFKSPETGKYFRAKV  55
+
+
+>ref|YP_001540578.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+ ref|WP_012185807.1| chorismate-binding protein [Caldivirga maquilingensis]
+ gb|ABW01588.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+Length=77
+
+ Score = 58.1 bits (139),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+   L P K W L PKGRKGV IGLFK P  GK  R  + 
+Sbjct  34  DGQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLRKAIG  74
+
+
+>sp|A8MCT2.2|CREN7_CALMQ RecName: Full=Chromatin protein Cren7
+Length=61
+
+ Score = 53.5 bits (127),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+   L P K W L PKGRKGV IGLFK P  GK  R  + 
+Sbjct  18  DGQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLRKAIG  58
+
+
+>ref|YP_003902870.1| hypothetical protein Vdis_2454 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337544.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51819.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=60
+
+ Score = 51.2 bits (121),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 23/42 (55%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  + 
+Sbjct  17  DGQIVKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAIG  57
+
+
+>ref|YP_001434630.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+ ref|WP_011998075.1| chorismate-binding protein [Ignicoccus hospitalis]
+ sp|A8A8H1.1|CREN7_IGNH4 RecName: Full=Chromatin protein Cren7
+ gb|ABU81223.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+Length=55
+
+ Score = 51.2 bits (121),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 23/38 (61%), Positives = 26/38 (68%), Gaps = 1/38 (3%)
+
+Query  22  PEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           P K W LAPKGRKGV IGLF+ P  G YFR K+ +  P
+Sbjct  14  PIKTWVLAPKGRKGVIIGLFRCP-NGHYFRAKVGEAPP  50
+
+
+>ref|YP_004244524.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604184.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01022.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+Length=53
+
+ Score = 50.0 bits (118),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 23/42 (55%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  + 
+Sbjct  10  DGQSMKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAIG  50
+
+
+>ref|WP_018193759.1| hypothetical protein [candidate division YNPFFA]
+Length=46
+
+ Score = 42.7 bits (99),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 19/34 (56%), Positives = 22/34 (65%), Gaps = 1/34 (3%)
+
+Query  21  VPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+            P K W LAPKG+K + IGLFK P  G YFR  +
+Sbjct  13  KPIKTWVLAPKGKKPLNIGLFKCP-NGHYFRKAV  45
+
+
+>ref|WP_018031784.1| hypothetical protein [unclassified Crenarchaeota (miscellaneous)]
+Length=49
+
+ Score = 41.9 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 25/40 (63%), Gaps = 1/40 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           G E +  P+K W LAPKG+K   IGL++  + G YFR  +
+Sbjct  8   GAEVD-RPQKTWVLAPKGKKSQTIGLYRCSKCGTYFRKAV  46
+
+
+>ref|WP_023426685.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ20417.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ25705.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=81
+
+ Score = 38.8 bits (89),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLIKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|WP_023425008.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ22212.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ25199.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+Length=81
+
+ Score = 38.4 bits (88),  Expect = 0.016, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLVKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|YP_003901906.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336580.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50855.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+Length=77
+
+ Score = 37.7 bits (86),  Expect = 0.033, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  32  KLRPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  66
+
+
+>ref|YP_004337505.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ ref|YP_004338171.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+ ref|WP_013679529.1| chorismate-binding protein [Thermoproteus uzoniensis]
+ gb|AEA12193.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ gb|AEA12859.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+Length=58
+
+ Score = 37.7 bits (86),  Expect = 0.037, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 26/46 (57%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G++  L PEK+W L P G+ GV I LFK P+ GK  R  +    P
+Sbjct  14  GGEKYRLKPEKIWVLQPPGKPGVVIALFKTPD-GKKVRKVVARLPP  58
+
+
+>ref|YP_004243861.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ ref|YP_004243896.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603523.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00359.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ gb|ADY00394.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 37.3 bits (85),  Expect = 0.044, Method: Composition-based stats.
+ Identities = 23/52 (44%), Positives = 29/52 (56%), Gaps = 6/52 (12%)
+
+Query  8   VKVKTPAGKEAE-----LVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           V ++  A KE E     L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  2   VSLEDLARKEYEVEGRRLKPSKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_931095.1| hypothetical protein Pisl_1598 [Pyrobaculum islandicum DSM 4184]
+ ref|WP_011763327.1| chorismate-binding protein [Pyrobaculum islandicum]
+ sp|A1RUX0.1|CREN7_PYRIL RecName: Full=Chromatin protein Cren7
+ gb|ABL88752.1| conserved hypothetical protein [Pyrobaculum islandicum DSM 4184]
+Length=59
+
+ Score = 37.3 bits (85),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G++  L P K W L P G+ GV I LFK P+ GK  R  +    P
+Sbjct  14  GGRKYRLKPVKAWVLQPPGKPGVVIALFKLPD-GKTIRKVIMKLPP  58
+
+
+>ref|YP_003902376.1| hypothetical protein Vdis_1953 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337050.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51325.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=67
+
+ Score = 36.9 bits (84),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LFK P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFKLP  47
+
+
+>ref|YP_005086430.1| hypothetical protein P186_2802 [Pyrobaculum sp. 1860]
+ ref|WP_014290003.1| hypothetical protein [Pyrobaculum sp. 1860]
+ gb|AET34178.1| hypothetical protein P186_2802 [Pyrobaculum sp. 1860]
+Length=84
+
+ Score = 36.9 bits (84),  Expect = 0.071, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G+   L P K W L P G+ GV + LF+ P+ G+  R  +    P
+Sbjct  40  GGRVYRLRPVKAWILQPPGKPGVVVALFRLPD-GRTVRRVIMRLPP  84
+
+
+>ref|YP_004244081.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603742.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00579.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+Length=67
+
+ Score = 36.5 bits (83),  Expect = 0.072, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LF+ P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFRLP  47
+
+
+>ref|YP_004245333.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604993.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01831.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 36.5 bits (83),  Expect = 0.074, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLKPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_003902154.1| hypothetical protein Vdis_1729 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336828.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51103.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 36.5 bits (83),  Expect = 0.079, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLRPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_001794014.1| hypothetical protein Tneu_0629 [Pyrobaculum neutrophilum V24Sta]
+ ref|WP_012349988.1| chorismate-binding protein [Pyrobaculum neutrophilum]
+ sp|B1YCQ5.1|CREN7_THENV RecName: Full=Chromatin protein Cren7
+ gb|ACB39568.1| conserved hypothetical protein [Pyrobaculum neutrophilum V24Sta]
+Length=59
+
+ Score = 36.5 bits (83),  Expect = 0.086, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            GK   L P K W L P G+ GV I LFK P+ G+  R  +    P
+Sbjct  15  GGKRYWLRPSKAWVLQPPGKPGVVIALFKLPD-GRTVRKAIMRLPP  59
+
+
+>ref|YP_004892743.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+ ref|WP_014126920.1| chorismate-binding protein [Thermoproteus tenax]
+ emb|CCC81665.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+Length=59
+
+ Score = 36.5 bits (83),  Expect = 0.092, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           G+   L PEK W L P G+ GV + LF+ P+ GK  R  +    P
+Sbjct  15  GRRYMLKPEKAWVLQPPGKPGVVVALFRTPD-GKVVRRVIARVPP  58
+
+
+>ref|YP_003901223.1| hypothetical protein Vdis_0780 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013335897.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50172.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 36.1 bits (82),  Expect = 0.099, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLKPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 36.1 bits (82),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  44  PETGKYFRHKLPDDYPI  60
+           PETGKYFRHKLPDDYPI
+Sbjct  59  PETGKYFRHKLPDDYPI  75
+
+
+>ref|YP_001055770.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+ ref|WP_011849562.1| chorismate-binding protein [Pyrobaculum calidifontis]
+ sp|A3MUI7.1|CREN7_PYRCJ RecName: Full=Chromatin protein Cren7
+ gb|ABO08304.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+Length=63
+
+ Score = 36.1 bits (82),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 22/45 (49%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           GK   L P K W L P G+ GV + LFK P  GK  R  +    P
+Sbjct  20  GKRFLLKPAKAWVLQPPGKPGVIVALFKLP-NGKTVRKVIARLPP  63
+
+
+>ref|YP_001152874.1| hypothetical protein Pars_0631 [Pyrobaculum arsenaticum DSM 13514]
+ ref|YP_005260355.1| Chromatin protein Cren7 [Pyrobaculum oguniense TE7]
+ ref|WP_011900129.1| chorismate-binding protein [Pyrobaculum]
+ sp|A4WIK5.1|CREN7_PYRAR RecName: Full=Chromatin protein Cren7
+ gb|ABP50222.1| conserved hypothetical protein [Pyrobaculum arsenaticum DSM 13514]
+ gb|AFA39748.1| Chromatin protein Cren7 [Pyrobaculum oguniense TE7]
+Length=59
+
+ Score = 36.1 bits (82),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            GK   L P K W L P G+ GV + LF+ P+ GK  R  +    P
+Sbjct  15  GGKRYILRPIKAWVLQPPGKPGVVVALFRLPD-GKTVRKVVMKLPP  59
+
+
+>ref|NP_559350.1| hypothetical protein PAE1516 [Pyrobaculum aerophilum str. IM2]
+ ref|WP_011008005.1| chorismate-binding protein [Pyrobaculum aerophilum]
+ sp|Q8ZX17.1|CREN7_PYRAE RecName: Full=Chromatin protein Cren7
+ gb|AAL63532.1| hypothetical protein PAE1516 [Pyrobaculum aerophilum str. IM2]
+Length=59
+
+ Score = 35.4 bits (80),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           G++  L P K W L P G+ GV + LFK P  GK  R  +    P
+Sbjct  16  GRKYFLRPVKAWVLQPPGKPGVVVALFKLP-NGKSIRKVIMRLPP  59
+
+
+>ref|XP_001687579.1| conserved hypothetical protein [Leishmania major strain Friedlin]
+ emb|CAJ02022.1| conserved hypothetical protein [Leishmania major strain Friedlin]
+Length=919
+
+ Score = 36.1 bits (82),  Expect = 0.83, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 23/49 (47%), Gaps = 1/49 (2%)
+
+Query  2    SSGKKPVKVKTPAGKEAELVPEKVWALA-PKGRKGVKIGLFKDPETGKY  49
+            S+   P  + TP  +   + P   W L  P GR+ V   +F +P TG+ 
+Sbjct  233  SASDYPKDIDTPNVRGGAVKPIHSWVLVLPDGRRSVSKAVFVEPSTGQL  281
+
+
+>ref|XP_003245119.1| PREDICTED: SUMO-conjugating enzyme UBC9-A-like [Acyrthosiphon 
+pisum]
+Length=165
+
+ Score = 35.0 bits (79),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 27/46 (59%), Gaps = 3/46 (7%)
+
+Query  16  KEAELVPEKVWALAPKGRKGVKIGLFKDP-ETGKYF-RHKLPDDYP  59
+            E  + PEKV+ ++P+  K +KI  +K P E G YF R    DDYP
+Sbjct  30  HEIVVAPEKVFLISPEKLKMLKIK-WKTPWENGLYFLRMTFKDDYP  74
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.140    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302307077826
+Results from round 3
+
+
+Query= 2JTM
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_001040258.1|  hypothetical protein Smar_0237 [Staphylother...  96.2    2e-24
+ref|YP_003668606.1|  hypothetical protein Shell_0581 [Staphylothe...  95.9    2e-24
+ref|YP_001013312.1|  hypothetical protein Hbut_1128 [Hyperthermus...  92.0    7e-23
+ref|YP_006363932.1|  hypothetical protein TCELL_1372 [Thermogladi...  92.0    8e-23
+ref|YP_003859986.1|  hypothetical protein [Ignisphaera aggregans ...  92.0    9e-23
+ref|YP_002427877.1|  hypothetical protein DKAM_0182 [Desulfurococ...  92.0    1e-22
+ref|YP_002829301.1|  hypothetical protein M1425_1248 [Sulfolobus ...  91.2    1e-22
+ref|YP_001013074.1|  hypothetical protein Hbut_0878 [Hyperthermus...  91.2    2e-22
+ref|NP_342459.1|  hypothetical protein SSO6901 [Sulfolobus solfat...  90.5    3e-22
+sp|P0C836.2|CREN7_SULTO  RecName: Full=Chromatin protein Cren7 >d...  90.1    4e-22
+ref|YP_004176628.1|  hypothetical protein [Desulfurococcus mucosu...  90.1    5e-22
+ref|WP_020199553.1|  chorismate-binding protein [Sulfolobales arc...  88.5    1e-21
+ref|YP_004782029.1|  hypothetical protein Pyrfu_1924 [Pyrolobus f...  88.9    2e-21
+ref|YP_255938.1|  hypothetical protein Saci_1307 [Sulfolobus acid...  87.8    3e-21
+ref|YP_003649532.1|  hypothetical protein Tagg_0304 [Thermosphaer...  87.8    3e-21
+pdb|3KXT|A  Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna ...  86.2    1e-20
+ref|YP_004458609.1|  chromatin protein Cren7 [Acidianus hospitali...  86.2    1e-20
+ref|YP_001191841.1|  hypothetical protein Msed_1762 [Metallosphae...  85.8    2e-20
+ref|YP_004409057.1|  hypothetical protein Mcup_0466 [Metallosphae...  85.5    3e-20
+ref|WP_009074945.1|  chorismate-binding protein [Metallosphaera y...  85.1    4e-20
+ref|WP_023425655.1|  Chromatin protein Cren7 [uncultured Acidilob...  82.8    3e-19
+ref|NP_147243.1|  hypothetical protein APE_0450a [Aeropyrum perni...  82.4    5e-19
+ref|WP_023424369.1|  Chromatin protein Cren7 [environmental sampl...  81.2    1e-18
+ref|YP_008603733.1|  hypothetical protein ACAM_0330 [Aeropyrum ca...  80.8    2e-18
+ref|YP_007174716.1|  Chromatin protein Cren7 [Caldisphaera lagune...  78.9    9e-18
+ref|YP_003816469.1|  hypothetical protein ASAC_1033 [Acidilobus s...  77.8    2e-17
+ref|YP_003860172.1|  hypothetical protein [Ignisphaera aggregans ...  77.4    4e-17
+ref|YP_005842233.1|  chromatin protein Cren7 [Fervidicoccus fonti...  76.6    7e-17
+ref|YP_007174249.1|  Chromatin protein Cren7 [Caldisphaera lagune...  69.3    4e-14
+ref|YP_001540578.1|  hypothetical protein Cmaq_0752 [Caldivirga m...  63.1    2e-11
+sp|A8MCT2.2|CREN7_CALMQ  RecName: Full=Chromatin protein Cren7        58.1    9e-10
+ref|YP_003902870.1|  hypothetical protein Vdis_2454 [Vulcanisaeta...  56.2    4e-09
+ref|YP_001434630.1|  hypothetical protein Igni_0039 [Ignicoccus h...  55.0    1e-08
+ref|WP_018031784.1|  hypothetical protein [unclassified Crenarcha...  53.5    5e-08
+ref|YP_004244524.1|  hypothetical protein VMUT_0812 [Vulcanisaeta...  53.5    5e-08
+ref|WP_018193759.1|  hypothetical protein [candidate division YNP...  48.5    3e-06
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_023426685.1|  Chromatin protein Cren7 [environmental sampl...  41.6    0.002
+ref|WP_023425008.1|  Chromatin protein Cren7 [environmental sampl...  41.2    0.002
+ref|YP_003901906.1|  hypothetical protein Vdis_1469 [Vulcanisaeta...  39.6    0.008
+ref|YP_001794014.1|  hypothetical protein Tneu_0629 [Pyrobaculum ...  39.2    0.010
+ref|YP_004337505.1|  hypothetical protein TUZN_0703 [Thermoproteu...  38.9    0.010
+ref|YP_005086430.1|  hypothetical protein P186_2802 [Pyrobaculum ...  39.2    0.012
+ref|YP_931095.1|  hypothetical protein Pisl_1598 [Pyrobaculum isl...  38.9    0.013
+ref|YP_004243861.1|  hypothetical protein VMUT_0143 [Vulcanisaeta...  38.9    0.014
+ref|YP_001152874.1|  hypothetical protein Pars_0631 [Pyrobaculum ...  38.5    0.019
+ref|YP_003902154.1|  hypothetical protein Vdis_1729 [Vulcanisaeta...  38.1    0.021
+ref|YP_001055770.1|  conserved hypothetical protein [Pyrobaculum ...  38.1    0.026
+ref|YP_004892743.1|  hypothetical protein TTX_1020 [Thermoproteus...  37.7    0.029
+ref|YP_004245333.1|  hypothetical protein VMUT_1627 [Vulcanisaeta...  37.7    0.030
+ref|YP_003902376.1|  hypothetical protein Vdis_1953 [Vulcanisaeta...  37.7    0.031
+ref|YP_004244081.1|  hypothetical protein VMUT_0366 [Vulcanisaeta...  37.7    0.032
+ref|NP_559350.1|  hypothetical protein PAE1516 [Pyrobaculum aerop...  37.7    0.033
+ref|YP_003901223.1|  hypothetical protein Vdis_0780 [Vulcanisaeta...  37.3    0.038
+prf||2107210A  RNase                                                  36.5    0.087
+ref|XP_003245119.1|  PREDICTED: SUMO-conjugating enzyme UBC9-A-li...  35.8    0.44 
+
+
+>ref|YP_001040258.1| hypothetical protein Smar_0237 [Staphylothermus marinus F1]
+ ref|WP_011838541.1| chorismate-binding protein [Staphylothermus marinus]
+ sp|A3DL40.1|CREN7_STAMF RecName: Full=Chromatin protein Cren7
+ gb|ABN69350.1| conserved hypothetical protein [Staphylothermus marinus F1]
+Length=62
+
+ Score = 96.2 bits (238),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M++ K  VKVKT +GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MAACKDAVKVKTLSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_003668606.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+ ref|WP_013142905.1| chorismate-binding protein [Staphylothermus hellenicus]
+ gb|ADI31707.1| hypothetical protein Shell_0581 [Staphylothermus hellenicus DSM 
+12710]
+Length=62
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 53/60 (88%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           M +  K VKV+TP+GKE ELVP+KVW L+PKGRKGVK+GLF+DPETGKYFR K+PDDYPI
+Sbjct  1   MPACTKSVKVRTPSGKEVELVPKKVWQLSPKGRKGVKVGLFQDPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_001013312.1| hypothetical protein Hbut_1128 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822285.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BLV6.1|CRN72_HYPBU RecName: Full=Chromatin protein Cren7 2
+ gb|ABM80967.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 92.0 bits (227),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 45/59 (76%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAP+GRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPRGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|YP_006363932.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+ ref|WP_014738044.1| chorismate-binding protein [Thermogladius cellulolyticus]
+ gb|AFK51794.1| hypothetical protein TCELL_1372 [Thermogladius cellulolyticus 
+1633]
+Length=65
+
+ Score = 92.0 bits (227),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 40/57 (70%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+            K  VKV+TP+GKE EL+P KVW L P GRKGVK+GLF+DPETGK+FR K+PDDYP+
+Sbjct  7   CKNAVKVRTPSGKELELIPRKVWQLTPSGRKGVKVGLFQDPETGKFFRQKVPDDYPL  63
+
+
+>ref|YP_003859986.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|YP_003860498.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303756.1| chorismate-binding protein [Ignisphaera aggregans]
+ gb|ADM28106.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+ gb|ADM28618.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=62
+
+ Score = 92.0 bits (227),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 45/59 (76%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           M++  KPV+VKTP G E ELVP+KVW LAPKGRKGVKIGLF+DP TGKYFR K+PDDYP
+Sbjct  1   MAACTKPVRVKTPDGAEKELVPKKVWGLAPKGRKGVKIGLFQDPATGKYFRGKVPDDYP  59
+
+
+>ref|YP_002427877.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ ref|YP_006401745.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+ ref|WP_012607852.1| chorismate-binding protein [Desulfurococcus]
+ gb|ACL10510.1| hypothetical protein DKAM_0182 [Desulfurococcus kamchatkensis 
+1221n]
+ gb|AFL66170.1| Chromatin protein Cren7 [Desulfurococcus fermentans DSM 16532]
+Length=65
+
+ Score = 92.0 bits (227),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 37/57 (65%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             + VKVKTP G+E ELVP KVW L P+GRKGVKIGLF+DP TG+YFR ++P++YP+
+Sbjct  7   CTEKVKVKTPGGRELELVPVKVWQLNPRGRKGVKIGLFQDPGTGRYFRTRVPEEYPL  63
+
+
+>ref|YP_002829301.1| hypothetical protein M1425_1248 [Sulfolobus islandicus M.14.25]
+ ref|YP_002831988.1| hypothetical protein LS215_1335 [Sulfolobus islandicus L.S.2.15]
+ ref|YP_002837421.1| hypothetical protein YG5714_1233 [Sulfolobus islandicus Y.G.57.14]
+ ref|YP_002840625.1| hypothetical protein YN1551_1615 [Sulfolobus islandicus Y.N.15.51]
+ ref|YP_002843226.1| hypothetical protein M1627_1298 [Sulfolobus islandicus M.16.27]
+ ref|YP_002914504.1| hypothetical protein M164_1232 [Sulfolobus islandicus M.16.4]
+ ref|YP_003419397.1| hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ ref|YP_005645756.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ ref|YP_005648392.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ ref|YP_007865562.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+ ref|WP_012711256.1| chorismate-binding protein [Sulfolobus islandicus]
+ sp|P0C835.1|CREN7_SULSH RecName: Full=Chromatin protein Cren7
+ sp|C3N5A6.1|CREN7_SULIA RecName: Full=Chromatin protein Cren7
+ sp|C4KGX2.1|CREN7_SULIK RecName: Full=Chromatin protein Cren7
+ sp|C3MPN0.1|CREN7_SULIL RecName: Full=Chromatin protein Cren7
+ sp|C3MYM4.1|CREN7_SULIM RecName: Full=Chromatin protein Cren7
+ sp|C3NHU3.1|CREN7_SULIN RecName: Full=Chromatin protein Cren7
+ sp|C3NDW0.1|CREN7_SULIY RecName: Full=Chromatin protein Cren7
+ gb|ACP35343.1| conserved hypothetical protein [Sulfolobus islandicus L.S.2.15]
+ gb|ACP38003.1| conserved hypothetical protein [Sulfolobus islandicus M.14.25]
+ gb|ACP45499.1| conserved hypothetical protein [Sulfolobus islandicus Y.G.57.14]
+ gb|ACP48703.1| conserved hypothetical protein [Sulfolobus islandicus Y.N.15.51]
+ gb|ACP55181.1| conserved hypothetical protein [Sulfolobus islandicus M.16.27]
+ gb|ACR41836.1| conserved hypothetical protein [Sulfolobus islandicus M.16.4]
+ gb|ADB87027.1| conserved hypothetical protein [Sulfolobus islandicus L.D.8.5]
+ gb|ADX85178.1| chromatin protein Cren7 [Sulfolobus islandicus REY15A]
+ gb|ADX82542.1| chromatin protein Cren7 [Sulfolobus islandicus HVE10/4]
+ gb|AGJ62557.1| chromatin protein Cren7 [Sulfolobus islandicus LAL14/1]
+Length=60
+
+ Score = 91.2 bits (225),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 59/60 (98%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKK VKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKAVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>ref|YP_001013074.1| hypothetical protein Hbut_0878 [Hyperthermus butylicus DSM 5456]
+ ref|WP_011822047.1| chorismate-binding protein [Hyperthermus butylicus]
+ sp|A2BL68.1|CRN71_HYPBU RecName: Full=Chromatin protein Cren7 1
+ gb|ABM80729.1| conserved crenarchaeal protein [Hyperthermus butylicus DSM 5456]
+Length=62
+
+ Score = 91.2 bits (225),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 46/59 (78%), Positives = 50/59 (85%), Gaps = 1/59 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           + +KPVKV+ P  GKE ELVP KVW LAPKGRKGVKIGLFK PETGKYFR K+PDDYPI
+Sbjct  2   ACEKPVKVRDPTTGKEVELVPIKVWQLAPKGRKGVKIGLFKSPETGKYFRAKVPDDYPI  60
+
+
+>ref|NP_342459.1| hypothetical protein SSO6901 [Sulfolobus solfataricus P2]
+ ref|YP_005643766.1| hypothetical protein [Sulfolobus solfataricus 98/2]
+ ref|WP_009992425.1| chorismate-binding protein [Sulfolobus solfataricus]
+ sp|Q97ZE3.1|CREN7_SULSO RecName: Full=Chromatin protein Cren7
+ pdb|2JTM|A Chain A, Solution Structure Of Sso6901 From Sulfolobus Solfataricus 
+P2
+ pdb|3LWH|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|A Chain A, Crystal Structure Of Cren7-Dsdna Complex
+ pdb|3LWI|B Chain B, Crystal Structure Of Cren7-Dsdna Complex
+ gb|AAK41249.1| Conserved hypothetical protein [Sulfolobus solfataricus P2]
+ gb|ACX92165.1| conserved hypothetical protein [Sulfolobus solfataricus 98/2]
+Length=60
+
+ Score = 90.5 bits (223),  Expect = 3e-22, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+
+
+>sp|P0C836.2|CREN7_SULTO RecName: Full=Chromatin protein Cren7
+ dbj|BAK54515.1| chromatin protein Cren7 [Sulfolobus tokodaii str. 7]
+Length=61
+
+ Score = 90.1 bits (222),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 50/60 (83%), Positives = 54/60 (90%), Gaps = 0/60 (0%)
+
+Query  1   MSSGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           +   +K VKVKTP+GKEAEL PEKVW LAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP+
+Sbjct  2   IGMAEKKVKVKTPSGKEAELAPEKVWVLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPV  61
+
+
+>ref|YP_004176628.1| hypothetical protein [Desulfurococcus mucosus DSM 2162]
+ ref|WP_013562368.1| chorismate-binding protein [Desulfurococcus mucosus]
+ gb|ADV65146.1| hypothetical protein Desmu_0842 [Desulfurococcus mucosus DSM 
+2162]
+Length=61
+
+ Score = 90.1 bits (222),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 37/57 (65%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             + VKVKTP+G+E ELVP KVW L P+GRKGVK+GLF+DPE+G+YFR K+P++YP+
+Sbjct  3   CTEKVKVKTPSGRELELVPVKVWQLNPRGRKGVKVGLFQDPESGRYFRTKVPENYPL  59
+
+
+>ref|WP_020199553.1| chorismate-binding protein [Sulfolobales archaeon Acd1]
+Length=59
+
+ Score = 88.5 bits (218),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             +KPVKVKTP+GKE ELVPEKVW LAP+GRKGVKIGLFKDPETG+YFR KLPDDYP+
+Sbjct  1   MSRKPVKVKTPSGKEVELVPEKVWELAPRGRKGVKIGLFKDPETGRYFRSKLPDDYPV  58
+
+
+>ref|YP_004782029.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+ ref|WP_014027454.1| chorismate-binding protein [Pyrolobus fumarii]
+ gb|AEM39777.1| hypothetical protein Pyrfu_1924 [Pyrolobus fumarii 1A]
+Length=67
+
+ Score = 88.9 bits (219),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 41/58 (71%), Positives = 47/58 (81%), Gaps = 1/58 (2%)
+
+Query  4   GKKPVKVKTP-AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             KPV+V+    G+E ELVP KVW LAP+GRKGVKIGLFK P+TGKYFR K+PDDYPI
+Sbjct  8   CTKPVRVRDSSTGEEVELVPIKVWVLAPRGRKGVKIGLFKSPKTGKYFRAKVPDDYPI  65
+
+
+>ref|YP_255938.1| hypothetical protein Saci_1307 [Sulfolobus acidocaldarius DSM 
+639]
+ ref|YP_007434389.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ ref|YP_007436658.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+ ref|WP_011278147.1| chorismate-binding protein [Sulfolobus acidocaldarius]
+ sp|Q4J985.1|CREN7_SULAC RecName: Full=Chromatin protein Cren7
+ gb|AAY80645.1| conserved Crenarchaeal protein [Sulfolobus acidocaldarius DSM 
+639]
+ gb|AGE71241.1| hypothetical protein SacN8_06380 [Sulfolobus acidocaldarius N8]
+ gb|AGE73510.1| hypothetical protein SacRon12I_06370 [Sulfolobus acidocaldarius 
+Ron12/I]
+Length=59
+
+ Score = 87.8 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK V+V+TP GKE EL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  2   SEKKRVRVRTPGGKELELTPEKTWVLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_003649532.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+ ref|WP_013129173.1| chorismate-binding protein [Thermosphaera aggregans]
+ gb|ADG90580.1| hypothetical protein Tagg_0304 [Thermosphaera aggregans DSM 11486]
+Length=61
+
+ Score = 87.8 bits (216),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 38/57 (67%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  4   GKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+             KPVKVKT  GKE EL+P+KVW L P+G+KGVK+GLF+DPETG +FR K+P+DYP+
+Sbjct  3   CDKPVKVKTATGKELELIPKKVWQLNPRGKKGVKVGLFQDPETGTFFRAKVPEDYPL  59
+
+
+>pdb|3KXT|A Chain A, Crystal Structure Of Sulfolobus Cren7-Dsdna Complex
+Length=56
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 55/55 (100%), Positives = 55/55 (100%), Gaps = 0/55 (0%)
+
+Query  6   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI
+Sbjct  2   KPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  56
+
+
+>ref|YP_004458609.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+ ref|WP_013776226.1| chorismate-binding protein [Acidianus hospitalis]
+ gb|AEE94311.1| chromatin protein Cren7 [Acidianus hospitalis W1]
+Length=59
+
+ Score = 86.2 bits (212),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  3   SGKKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           S KK +KVKTP+GKE EL PEK W+LAPKGRKGVKIGLFKDPETGKYFR KLPDDY I
+Sbjct  2   SSKKAIKVKTPSGKEVELAPEKAWSLAPKGRKGVKIGLFKDPETGKYFRRKLPDDYQI  59
+
+
+>ref|YP_001191841.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+ ref|WP_012021704.1| chorismate-binding protein [Metallosphaera sedula]
+ sp|A4YHL5.1|CREN7_METS5 RecName: Full=Chromatin protein Cren7
+ gb|ABP95917.1| hypothetical protein Msed_1762 [Metallosphaera sedula DSM 5348]
+Length=59
+
+ Score = 85.8 bits (211),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKAVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|YP_004409057.1| hypothetical protein Mcup_0466 [Metallosphaera cuprina Ar-4]
+ ref|WP_013737071.1| chorismate-binding protein [Metallosphaera cuprina]
+ gb|AEB94573.1| conserved hypothetical protein [Metallosphaera cuprina Ar-4]
+Length=59
+
+ Score = 85.5 bits (210),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 48/56 (86%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VK+KTP GKEAEL PEK W LAPKGRKGVKIGLFKDPE+GKYFRHKLPDDYP+
+Sbjct  4   KKQVKIKTPGGKEAELAPEKAWTLAPKGRKGVKIGLFKDPESGKYFRHKLPDDYPV  59
+
+
+>ref|WP_009074945.1| chorismate-binding protein [Metallosphaera yellowstonensis]
+ gb|EHP68483.1| Chromatin protein Cren7 [Metallosphaera yellowstonensis MK1]
+Length=61
+
+ Score = 85.1 bits (209),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 47/56 (84%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  5   KKPVKVKTPAGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYPI  60
+           KK VKVKTP GKE +L PEK W LAPKGRKGVKIGLFKDPETGKYFRHKLPDDY +
+Sbjct  6   KKAVKVKTPGGKEMDLTPEKAWTLAPKGRKGVKIGLFKDPETGKYFRHKLPDDYAV  61
+
+
+>ref|WP_023425655.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ21997.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+Length=62
+
+ Score = 82.8 bits (203),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSARLPPVKVKDPTTGKEVELAPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|NP_147243.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+ ref|WP_010865756.1| chorismate-binding protein [Aeropyrum pernix]
+ sp|Q9YEY2.1|CREN7_AERPE RecName: Full=Chromatin protein Cren7
+ dbj|BAA79414.1| hypothetical protein APE_0450a [Aeropyrum pernix K1]
+Length=64
+
+ Score = 82.4 bits (202),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 40/55 (73%), Positives = 45/55 (82%), Gaps = 1/55 (2%)
+
+Query  6   KPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK PETGKYFR K+PDDYP
+Sbjct  7   PPVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSPETGKYFRAKVPDDYP  61
+
+
+>ref|WP_023424369.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ23056.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ24671.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+ gb|ESQ25866.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=62
+
+ Score = 81.2 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 44/61 (72%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           MS+   PVKVK P  GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+PDDYP
+Sbjct  1   MSAKLPPVKVKDPTTGKEVELTPIKVWTLAPKTRKGVKIGLFKSPETGKFFRAKVPDDYP  60
+
+Query  60  I  60
+           +
+Sbjct  61  V  61
+
+
+>ref|YP_008603733.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+ ref|WP_022541076.1| hypothetical protein [Aeropyrum camini]
+ dbj|BAN89799.1| hypothetical protein ACAM_0330 [Aeropyrum camini SY1 = JCM 12091]
+Length=64
+
+ Score = 80.8 bits (198),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 44/55 (80%), Gaps = 1/55 (2%)
+
+Query  6   KPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            PVKV+ P  GKE EL P KVW L+P+GR+GVKIGLFK  ETGKYFR K+PDDYP
+Sbjct  7   PPVKVRDPTTGKEVELTPIKVWKLSPRGRRGVKIGLFKSQETGKYFRAKVPDDYP  61
+
+
+>ref|YP_007174716.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015232165.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ70267.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=61
+
+ Score = 78.9 bits (193),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 41/60 (68%), Positives = 46/60 (77%), Gaps = 1/60 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           M     PVKVK P+ GKE EL P KVW LAPK RKGVKIGLFK PETGK+FR K+P++YP
+Sbjct  2   MPEKFPPVKVKDPSSGKEVELSPIKVWTLAPKSRKGVKIGLFKSPETGKFFRAKVPENYP  61
+
+
+>ref|YP_003816469.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+ ref|WP_013266950.1| chorismate-binding protein [Acidilobus saccharovorans]
+ gb|ADL19438.1| hypothetical protein ASAC_1033 [Acidilobus saccharovorans 345-15]
+Length=61
+
+ Score = 77.8 bits (190),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 41/58 (71%), Positives = 44/58 (76%), Gaps = 1/58 (2%)
+
+Query  3   SGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           S    VKVK P  GKE EL P KVW LAPK RKGVKIGLFK PE+GK+FR K+PDDYP
+Sbjct  2   SKLPAVKVKDPTTGKEVELSPIKVWTLAPKTRKGVKIGLFKSPESGKFFRAKVPDDYP  59
+
+
+>ref|YP_003860172.1| hypothetical protein [Ignisphaera aggregans DSM 17230]
+ ref|WP_013303942.1| hypothetical protein [Ignisphaera aggregans]
+ gb|ADM28292.1| conserved hypothetical protein [Ignisphaera aggregans DSM 17230]
+Length=61
+
+ Score = 77.4 bits (189),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 31/57 (54%), Gaps = 1/57 (2%)
+
+Query  3   SGKKPVKVKTPAGK-EAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDY  58
+           +    VKVK P    E  + P+KV+ +       +KIG+F  P+TG+ FR  LPD Y
+Sbjct  2   TCTTEVKVKDPTTHLEISIAPKKVYVIKNHRGNTIKIGVFVSPKTGQLFRALLPDSY  58
+
+
+>ref|YP_005842233.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+ ref|WP_014557930.1| chorismate-binding protein [Fervidicoccus fontis]
+ gb|AFH42781.1| chromatin protein Cren7 [Fervidicoccus fontis Kam940]
+Length=60
+
+ Score = 76.6 bits (187),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 1/58 (2%)
+
+Query  3   SGKKPVKVKTP-AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+             K+PVKVK    GKE ELVP KVW L+P  ++G+K+GLF++PET  YFR ++PDDYP
+Sbjct  1   MEKRPVKVKDRITGKEYELVPIKVWKLSPNKKRGIKMGLFQNPETKIYFRARVPDDYP  58
+
+
+>ref|YP_007174249.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+ ref|WP_015231698.1| Chromatin protein Cren7 [Caldisphaera lagunensis]
+ gb|AFZ69800.1| Chromatin protein Cren7 [Caldisphaera lagunensis DSM 15908]
+Length=56
+
+ Score = 69.3 bits (168),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 39/55 (71%), Positives = 40/55 (73%), Gaps = 1/55 (2%)
+
+Query  1   MSSGKKPVKVKTPA-GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           MSS   PVKVK P  GKE  L P KVW LAPK  KGVKIGLFK PETGKYFR K+
+Sbjct  1   MSSKLPPVKVKDPTTGKEVTLTPIKVWTLAPKKGKGVKIGLFKSPETGKYFRAKV  55
+
+
+>ref|YP_001540578.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+ ref|WP_012185807.1| chorismate-binding protein [Caldivirga maquilingensis]
+ gb|ABW01588.1| hypothetical protein Cmaq_0752 [Caldivirga maquilingensis IC-167]
+Length=77
+
+ Score = 63.1 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+   L P K W L PKGRKGV IGLFK P  GK  R  + 
+Sbjct  34  DGQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLRKAIG  74
+
+
+>sp|A8MCT2.2|CREN7_CALMQ RecName: Full=Chromatin protein Cren7
+Length=61
+
+ Score = 58.1 bits (139),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 22/42 (52%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+   L P K W L PKGRKGV IGLFK P  GK  R  + 
+Sbjct  18  DGQMVRLKPVKAWVLQPKGRKGVVIGLFKCP-NGKTLRKAIG  58
+
+
+>ref|YP_003902870.1| hypothetical protein Vdis_2454 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337544.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51819.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=60
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 23/42 (55%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  + 
+Sbjct  17  DGQIVKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAIG  57
+
+
+>ref|YP_001434630.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+ ref|WP_011998075.1| chorismate-binding protein [Ignicoccus hospitalis]
+ sp|A8A8H1.1|CREN7_IGNH4 RecName: Full=Chromatin protein Cren7
+ gb|ABU81223.1| hypothetical protein Igni_0039 [Ignicoccus hospitalis KIN4/I]
+Length=55
+
+ Score = 55.0 bits (131),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/45 (56%), Positives = 29/45 (64%), Gaps = 2/45 (4%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           G E +  P K W LAPKGRKGV IGLF+ P  G YFR K+ +  P
+Sbjct  8   GAEVK-EPIKTWVLAPKGRKGVIIGLFRCP-NGHYFRAKVGEAPP  50
+
+
+>ref|WP_018031784.1| hypothetical protein [unclassified Crenarchaeota (miscellaneous)]
+Length=49
+
+ Score = 53.5 bits (127),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 25/40 (63%), Gaps = 1/40 (3%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           G E +  P+K W LAPKG+K   IGL++  + G YFR  +
+Sbjct  8   GAEVD-RPQKTWVLAPKGKKSQTIGLYRCSKCGTYFRKAV  46
+
+
+>ref|YP_004244524.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604184.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01022.1| hypothetical protein VMUT_0812 [Vulcanisaeta moutnovskia 768-28]
+Length=53
+
+ Score = 53.5 bits (127),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 23/42 (55%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+            G+  +L P KVW LAPKGR+GV IGLFK P  GK  R  + 
+Sbjct  10  DGQSMKLKPVKVWMLAPKGRRGVIIGLFKCP-GGKVVRKAIG  50
+
+
+>ref|WP_018193759.1| hypothetical protein [candidate division YNPFFA]
+Length=46
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/34 (56%), Positives = 22/34 (65%), Gaps = 1/34 (3%)
+
+Query  21  VPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+            P K W LAPKG+K + IGLFK P  G YFR  +
+Sbjct  13  KPIKTWVLAPKGKKPLNIGLFKCP-NGHYFRKAV  45
+
+
+>ref|WP_023426685.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ20417.1| Chromatin protein Cren7 [uncultured Acidilobus sp. CIS]
+ gb|ESQ25705.1| Chromatin protein Cren7 [uncultured Acidilobus sp. JCHS]
+Length=81
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLIKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|WP_023425008.1| Chromatin protein Cren7 [environmental samples]
+ gb|ESQ22212.1| Chromatin protein Cren7 [uncultured Acidilobus sp. MG]
+ gb|ESQ25199.1| Chromatin protein Cren7 [uncultured Acidilobus sp. OSP8]
+Length=81
+
+ Score = 41.2 bits (95),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLP  55
+           G+EA     K W LAPK  K +K  LF+D  TGKY R  +P
+Sbjct  40  GQEAGYKLVKSWTLAPKHVKALKAQLFRDKSTGKYVRKIVP  80
+
+
+>ref|YP_003901906.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336580.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50855.1| hypothetical protein Vdis_1469 [Vulcanisaeta distributa DSM 14429]
+Length=77
+
+ Score = 39.6 bits (91),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  32  KLRPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  66
+
+
+>ref|YP_001794014.1| hypothetical protein Tneu_0629 [Pyrobaculum neutrophilum V24Sta]
+ ref|WP_012349988.1| chorismate-binding protein [Pyrobaculum neutrophilum]
+ sp|B1YCQ5.1|CREN7_THENV RecName: Full=Chromatin protein Cren7
+ gb|ACB39568.1| conserved hypothetical protein [Pyrobaculum neutrophilum V24Sta]
+Length=59
+
+ Score = 39.2 bits (90),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            GK   L P K W L P G+ GV I LFK P+ G+  R  +    P
+Sbjct  15  GGKRYWLRPSKAWVLQPPGKPGVVIALFKLPD-GRTVRKAIMRLPP  59
+
+
+>ref|YP_004337505.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ ref|YP_004338171.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+ ref|WP_013679529.1| chorismate-binding protein [Thermoproteus uzoniensis]
+ gb|AEA12193.1| hypothetical protein TUZN_0703 [Thermoproteus uzoniensis 768-20]
+ gb|AEA12859.1| hypothetical protein TUZN_1383 [Thermoproteus uzoniensis 768-20]
+Length=58
+
+ Score = 38.9 bits (89),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 26/46 (57%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G++  L PEK+W L P G+ GV I LFK P+ GK  R  +    P
+Sbjct  14  GGEKYRLKPEKIWVLQPPGKPGVVIALFKTPD-GKKVRKVVARLPP  58
+
+
+>ref|YP_005086430.1| hypothetical protein P186_2802 [Pyrobaculum sp. 1860]
+ ref|WP_014290003.1| hypothetical protein [Pyrobaculum sp. 1860]
+ gb|AET34178.1| hypothetical protein P186_2802 [Pyrobaculum sp. 1860]
+Length=84
+
+ Score = 39.2 bits (90),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G+   L P K W L P G+ GV + LF+ P+ G+  R  +    P
+Sbjct  40  GGRVYRLRPVKAWILQPPGKPGVVVALFRLPD-GRTVRRVIMRLPP  84
+
+
+>ref|YP_931095.1| hypothetical protein Pisl_1598 [Pyrobaculum islandicum DSM 4184]
+ ref|WP_011763327.1| chorismate-binding protein [Pyrobaculum islandicum]
+ sp|A1RUX0.1|CREN7_PYRIL RecName: Full=Chromatin protein Cren7
+ gb|ABL88752.1| conserved hypothetical protein [Pyrobaculum islandicum DSM 4184]
+Length=59
+
+ Score = 38.9 bits (89),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            G++  L P K W L P G+ GV I LFK P+ GK  R  +    P
+Sbjct  14  GGRKYRLKPVKAWVLQPPGKPGVVIALFKLPD-GKTIRKVIMKLPP  58
+
+
+>ref|YP_004243861.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ ref|YP_004243896.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603523.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00359.1| hypothetical protein VMUT_0143 [Vulcanisaeta moutnovskia 768-28]
+ gb|ADY00394.1| hypothetical protein VMUT_0178 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 38.9 bits (89),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 23/52 (44%), Positives = 29/52 (56%), Gaps = 6/52 (12%)
+
+Query  8   VKVKTPAGKEAE-----LVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           V ++  A KE E     L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  2   VSLEDLARKEYEVEGRRLKPSKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_001152874.1| hypothetical protein Pars_0631 [Pyrobaculum arsenaticum DSM 13514]
+ ref|YP_005260355.1| Chromatin protein Cren7 [Pyrobaculum oguniense TE7]
+ ref|WP_011900129.1| chorismate-binding protein [Pyrobaculum]
+ sp|A4WIK5.1|CREN7_PYRAR RecName: Full=Chromatin protein Cren7
+ gb|ABP50222.1| conserved hypothetical protein [Pyrobaculum arsenaticum DSM 13514]
+ gb|AFA39748.1| Chromatin protein Cren7 [Pyrobaculum oguniense TE7]
+Length=59
+
+ Score = 38.5 bits (88),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 23/46 (50%), Gaps = 1/46 (2%)
+
+Query  14  AGKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+            GK   L P K W L P G+ GV + LF+ P+ GK  R  +    P
+Sbjct  15  GGKRYILRPIKAWVLQPPGKPGVVVALFRLPD-GKTVRKVVMKLPP  59
+
+
+>ref|YP_003902154.1| hypothetical protein Vdis_1729 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013336828.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51103.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 38.1 bits (87),  Expect = 0.021, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLRPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_001055770.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+ ref|WP_011849562.1| chorismate-binding protein [Pyrobaculum calidifontis]
+ sp|A3MUI7.1|CREN7_PYRCJ RecName: Full=Chromatin protein Cren7
+ gb|ABO08304.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+Length=63
+
+ Score = 38.1 bits (87),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 19/45 (42%), Positives = 22/45 (49%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           GK   L P K W L P G+ GV + LFK P  GK  R  +    P
+Sbjct  20  GKRFLLKPAKAWVLQPPGKPGVIVALFKLP-NGKTVRKVIARLPP  63
+
+
+>ref|YP_004892743.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+ ref|WP_014126920.1| chorismate-binding protein [Thermoproteus tenax]
+ emb|CCC81665.1| hypothetical protein TTX_1020 [Thermoproteus tenax Kra 1]
+Length=59
+
+ Score = 37.7 bits (86),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           G+   L PEK W L P G+ GV + LF+ P+ GK  R  +    P
+Sbjct  15  GRRYMLKPEKAWVLQPPGKPGVVVALFRTPD-GKVVRRVIARVPP  58
+
+
+>ref|YP_004245333.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013604993.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY01831.1| hypothetical protein VMUT_1627 [Vulcanisaeta moutnovskia 768-28]
+Length=63
+
+ Score = 37.7 bits (86),  Expect = 0.030, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLKPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>ref|YP_003902376.1| hypothetical protein Vdis_1953 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337050.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN51325.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=67
+
+ Score = 37.7 bits (86),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LFK P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFKLP  47
+
+
+>ref|YP_004244081.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603742.1| chorismate-binding protein [Vulcanisaeta moutnovskia]
+ gb|ADY00579.1| hypothetical protein VMUT_0366 [Vulcanisaeta moutnovskia 768-28]
+Length=67
+
+ Score = 37.7 bits (86),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDP  44
+           G + +L P KVW + PKGRKG  + LF+ P
+Sbjct  18  GSKYKLKPTKVWKVQPKGRKGFVMALFRLP  47
+
+
+>ref|NP_559350.1| hypothetical protein PAE1516 [Pyrobaculum aerophilum str. IM2]
+ ref|WP_011008005.1| chorismate-binding protein [Pyrobaculum aerophilum]
+ sp|Q8ZX17.1|CREN7_PYRAE RecName: Full=Chromatin protein Cren7
+ gb|AAL63532.1| hypothetical protein PAE1516 [Pyrobaculum aerophilum str. IM2]
+Length=59
+
+ Score = 37.7 bits (86),  Expect = 0.033, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 1/45 (2%)
+
+Query  15  GKEAELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKLPDDYP  59
+           G++  L P K W L P G+ GV + LFK P  GK  R  +    P
+Sbjct  16  GRKYFLRPVKAWVLQPPGKPGVVVALFKLP-NGKSIRKVIMRLPP  59
+
+
+>ref|YP_003901223.1| hypothetical protein Vdis_0780 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013335897.1| chorismate-binding protein [Vulcanisaeta distributa]
+ gb|ADN50172.1| conserved hypothetical protein [Vulcanisaeta distributa DSM 14429]
+Length=63
+
+ Score = 37.3 bits (85),  Expect = 0.038, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  19  ELVPEKVWALAPKGRKGVKIGLFKDPETGKYFRHKL  54
+           +L P KVW + PKGRKG  + LFK P+ GK  R  +
+Sbjct  18  KLKPTKVWKVQPKGRKGFVMALFKTPD-GKTVRKVI  52
+
+
+>prf||2107210A RNase
+Length=75
+
+ Score = 36.5 bits (83),  Expect = 0.087, Method: Composition-based stats.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  44  PETGKYFRHKLPDDYPI  60
+           PETGKYFRHKLPDDYPI
+Sbjct  59  PETGKYFRHKLPDDYPI  75
+
+
+>ref|XP_003245119.1| PREDICTED: SUMO-conjugating enzyme UBC9-A-like [Acyrthosiphon 
+pisum]
+Length=165
+
+ Score = 35.8 bits (81),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 27/46 (59%), Gaps = 3/46 (7%)
+
+Query  16  KEAELVPEKVWALAPKGRKGVKIGLFKDP-ETGKYF-RHKLPDDYP  59
+            E  + PEKV+ ++P+  K +KI  +K P E G YF R    DDYP
+Sbjct  30  HEIVVAPEKVFLISPEKLKMLKIK-WKTPWENGLYFLRMTFKDDYP  74
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.137    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0431    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302307077826
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

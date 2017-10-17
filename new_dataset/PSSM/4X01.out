@@ -1,0 +1,279 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4X01
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|NP_588159.2|  CtIP-related endonuclease [Schizosaccharomyces ...   112    2e-28
+gb|EPY52092.1|  CtIP-like endonuclease [Schizosaccharomyces cryop...  44.3    8e-04
+gb|EPX72106.1|  CtIP-like endonuclease [Schizosaccharomyces octos...  43.9    0.001
+gb|EJK55145.1|  hypothetical protein THAOC_25149 [Thalassiosira o...  37.0    0.43 
+gb|EFX64668.1|  hypothetical protein DAPPUDRAFT_204585 [Daphnia p...  33.9    5.0  
+
+
+>ref|NP_588159.2| CtIP-related endonuclease [Schizosaccharomyces pombe 972h-]
+ sp|O74986.2|COM1_SCHPO RecName: Full=DNA endonuclease ctp1; AltName: Full=Double-strand 
+break repair protein ctp1; AltName: Full=Meiotically up-regulated 
+gene 38 protein; AltName: Full=Nbs1-interacting protein 
+1; AltName: Full=Sporulation in the absence of SPO11 protein 
+2 homolog; Short=SAE2
+ gb|ABX10016.1| double-strand break repair protein [Schizosaccharomyces pombe]
+ dbj|BAG16512.1| Nip1 [Schizosaccharomyces pombe]
+ emb|CAA19339.2| CtIP-related endonuclease [Schizosaccharomyces pombe]
+Length=294
+
+ Score =  112 bits (279),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 55/56 (98%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2   EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQIS  57
+           EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKE+ESVKTKQIS
+Sbjct  5   EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKELESVKTKQIS  60
+
+
+>gb|EPY52092.1| CtIP-like endonuclease [Schizosaccharomyces cryophilus OY26]
+Length=297
+
+ Score = 44.3 bits (103),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  8   HWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+           HWS +Y +LGN +E+ E E  RLK++L  E+++R Q+E+E+ + ++++
+Sbjct  12  HWSSLYHELGNAIERLEEENIRLKTELTYEQRIRAQLEQELSNERSQK  59
+
+
+>gb|EPX72106.1| CtIP-like endonuclease [Schizosaccharomyces octosporus yFS286]
+Length=297
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 34/46 (74%), Gaps = 0/46 (0%)
+
+Query  8   HWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKT  53
+           HWS +Y +LGN +E+ E E  +LK++L  EK +R+Q+E+E+ + ++
+Sbjct  11  HWSNLYHELGNAIERLEEENLQLKTELTYEKSMRLQLEQELANERS  56
+
+
+>gb|EJK55145.1| hypothetical protein THAOC_25149 [Thalassiosira oceanica]
+Length=1423
+
+ Score = 37.0 bits (84),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 16/31 (52%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  5     KSVHWSIVYRQLGNLLEQYEVEIARLKSQLV  35
+             K++ W   Y+Q GN L Q+ +EI+RLKSQL+
+Sbjct  1365  KTMTWEEAYKQQGNDLVQHSIEISRLKSQLL  1395
+
+
+>gb|EFX64668.1| hypothetical protein DAPPUDRAFT_204585 [Daphnia pulex]
+Length=1195
+
+ Score = 33.9 bits (76),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  14   RQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+            R  G+LL Q +  +AR +S    EK++R + E+E E+ +TKQ
+Sbjct  822  RHCGDLLSQAQYHVARARSLAEEEKRMRKKQEEEREAFRTKQ  863
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.127    0.333    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305150142915
+Results from round 2
+
+
+Query= 4X01
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|NP_588159.2|  CtIP-related endonuclease [Schizosaccharomyces ...  89.8    3e-20
+gb|EPX72106.1|  CtIP-like endonuclease [Schizosaccharomyces octos...  74.4    1e-14
+gb|EPY52092.1|  CtIP-like endonuclease [Schizosaccharomyces cryop...  74.0    1e-14
+
+Sequences not found previously or not previously below threshold:
+
+gb|EEB06049.2|  CtIP-like endonuclease [Schizosaccharomyces japon...  35.8    0.72 
+ref|XP_002172342.1|  double-strand break repair protein [Schizosa...  35.5    1.1  
+ref|XP_002533244.1|  zinc finger protein, putative [Ricinus commu...  34.7    2.1  
+ref|XP_004262194.1|  PREDICTED: pleckstrin homology domain-contai...  33.9    4.9  
+ref|XP_003848308.1|  hypothetical protein MYCGRDRAFT_96529 [Zymos...  33.1    7.5  
+ref|XP_003597600.1|  Serine/threonine protein kinase [Medicago tr...  33.1    8.0  
+
+
+>ref|NP_588159.2| CtIP-related endonuclease [Schizosaccharomyces pombe 972h-]
+ sp|O74986.2|COM1_SCHPO RecName: Full=DNA endonuclease ctp1; AltName: Full=Double-strand 
+break repair protein ctp1; AltName: Full=Meiotically up-regulated 
+gene 38 protein; AltName: Full=Nbs1-interacting protein 
+1; AltName: Full=Sporulation in the absence of SPO11 protein 
+2 homolog; Short=SAE2
+ gb|ABX10016.1| double-strand break repair protein [Schizosaccharomyces pombe]
+ dbj|BAG16512.1| Nip1 [Schizosaccharomyces pombe]
+ emb|CAA19339.2| CtIP-related endonuclease [Schizosaccharomyces pombe]
+Length=294
+
+ Score = 89.8 bits (221),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 55/56 (98%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  2   EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQIS  57
+           EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKE+ESVKTKQIS
+Sbjct  5   EHNKSVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKELESVKTKQIS  60
+
+
+>gb|EPX72106.1| CtIP-like endonuclease [Schizosaccharomyces octosporus yFS286]
+Length=297
+
+ Score = 74.4 bits (181),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  8   HWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+           HWS +Y +LGN +E+ E E  +LK++L  EK +R+Q+E+E+ + ++ +
+Sbjct  11  HWSNLYHELGNAIERLEEENLQLKTELTYEKSMRLQLEQELANERSLK  58
+
+
+>gb|EPY52092.1| CtIP-like endonuclease [Schizosaccharomyces cryophilus OY26]
+Length=297
+
+ Score = 74.0 bits (180),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  8   HWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+           HWS +Y +LGN +E+ E E  RLK++L  E+++R Q+E+E+ + ++++
+Sbjct  12  HWSSLYHELGNAIERLEEENIRLKTELTYEQRIRAQLEQELSNERSQK  59
+
+
+>gb|EEB06049.2| CtIP-like endonuclease [Schizosaccharomyces japonicus yFS275]
+Length=257
+
+ Score = 35.8 bits (81),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  6   SVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+           S  W  +  Q G+ +E    EI+ LK+ L  E +LR  +E+E+   K ++
+Sbjct  5   SFDWKQLCAQFGDYVESLHREISSLKTALAFETELRKSLEEEINKAKAER  54
+
+
+>ref|XP_002172342.1| double-strand break repair protein [Schizosaccharomyces japonicus 
+yFS275]
+Length=296
+
+ Score = 35.5 bits (80),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/50 (32%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  6   SVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+           S  W  +  Q G+ +E    EI+ LK+ L  E +LR  +E+E+   K ++
+Sbjct  5   SFDWKQLCAQFGDYVESLHREISSLKTALAFETELRKSLEEEINKAKAER  54
+
+
+>ref|XP_002533244.1| zinc finger protein, putative [Ricinus communis]
+ gb|EEF29145.1| zinc finger protein, putative [Ricinus communis]
+Length=368
+
+ Score = 34.7 bits (78),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  17   GNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQI  56
+            G L+E Y   +  LK+QL   K +  Q+ +E+   +TK++
+Sbjct  119  GALVETYPGMVINLKTQLSYFKNVEKQLNQELGDKETKKL  158
+
+
+>ref|XP_004262194.1| PREDICTED: pleckstrin homology domain-containing family H member 
+1 [Orcinus orca]
+Length=1352
+
+ Score = 33.9 bits (76),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 31/51 (61%), Gaps = 3/51 (6%)
+
+Query  6    SVHWSIVYRQLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQI  56
+            S+HW   Y++L N ++  +  I RL++QL  +KK+R + E ++   K  +I
+Sbjct  84   SLHWK--YQELLNAMQGKDELIGRLEAQLEKQKKMRTE-EAKIVQEKAAKI  131
+
+
+>ref|XP_003848308.1| hypothetical protein MYCGRDRAFT_96529 [Zymoseptoria tritici IPO323]
+ gb|EGP83284.1| hypothetical protein MYCGRDRAFT_96529 [Zymoseptoria tritici IPO323]
+Length=596
+
+ Score = 33.1 bits (74),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15   QLGNLLEQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQ  55
+            QL   L+    E+ RLK  +  EK LR++ E+++   K+KQ
+Sbjct  290  QLETDLQPLREEVERLKEDVEQEKSLRVKAEQDLAKEKSKQ  330
+
+
+>ref|XP_003597600.1| Serine/threonine protein kinase [Medicago truncatula]
+ gb|ABN08386.1| Protein kinase [Medicago truncatula]
+ gb|AES67851.1| Serine/threonine protein kinase [Medicago truncatula]
+Length=518
+
+ Score = 33.1 bits (74),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  21   EQYEVEIARLKSQLVLEKKLRIQVEKEMESVKTKQIS  57
+            E+   EI++L+++L  EKK  +Q+E ++E++K   IS
+Sbjct  474  EKMVQEISKLRTELENEKKKNLQLEMQLENIKLHLIS  510
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.131    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0380    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305150142915
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

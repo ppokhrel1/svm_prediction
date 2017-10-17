@@ -1,0 +1,1458 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3V62C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|3V62|C  Chain C, Structure Of The S. Cerevisiae Srs2 C-termin...   138    1e-40
+gb|EDZ71308.1|  YJL092Wp-like protein [Saccharomyces cerevisiae A...   138    2e-39
+ref|NP_012443.1|  Srs2p [Saccharomyces cerevisiae S288c] >sp|P129...   138    7e-36
+gb|EGA82220.1|  Srs2p [Saccharomyces cerevisiae Lalvin QA23]           137    8e-36
+dbj|GAA24269.1|  K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]      137    9e-36
+gb|EDV12674.1|  DNA helicase [Saccharomyces cerevisiae RM11-1a] >...   137    9e-36
+gb|EDN63486.1|  DNA helicase [Saccharomyces cerevisiae YJM789]         137    9e-36
+ref|XP_003680937.1|  hypothetical protein TDEL_0D01420 [Torulaspo...  90.9    3e-19
+ref|XP_002498642.1|  ZYRO0G15224p [Zygosaccharomyces rouxii] >emb...  89.7    5e-19
+ref|XP_004180556.1|  hypothetical protein TBLA_0D05440 [Tetrapisi...  80.5    9e-16
+ref|XP_003673883.1|  hypothetical protein NCAS_0A09440 [Naumovozy...  80.5    1e-15
+ref|XP_003980209.1|  hypothetical protein NDAI_0G05500 [Naumovozy...  76.6    2e-14
+gb|EGA86261.1|  Srs2p [Saccharomyces cerevisiae VL3]                  73.2    3e-13
+ref|XP_448923.1|  hypothetical protein [Candida glabrata CBS 138]...  71.6    1e-12
+ref|XP_003954718.1|  hypothetical protein KAFR_0A01450 [Kazachsta...  71.6    1e-12
+ref|XP_003684238.1|  hypothetical protein TPHA_0B01310 [Tetrapisi...  65.5    1e-10
+gb|AGO13240.1|  AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya ac...  59.7    1e-08
+ref|NP_985640.2|  AFR093Wp [Ashbya gossypii ATCC 10895] >gb|AAS53...  59.7    1e-08
+ref|XP_002552877.1|  KLTH0D03498p [Lachancea thermotolerans] >emb...  58.2    5e-08
+ref|XP_003647536.1|  hypothetical protein Ecym_6343 [Eremothecium...  52.4    5e-06
+emb|CCK68624.1|  hypothetical protein KNAG_0B01810 [Kazachstania ...  42.4    0.011
+ref|WP_004355547.1|  hypothetical protein [Prevotella disiens] >g...  33.1    4.5  
+ref|XP_455719.1|  hypothetical protein [Kluyveromyces lactis NRRL...  33.9    5.1  
+
+
+>pdb|3V62|C Chain C, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+ pdb|3V62|F Chain F, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+Length=69
+
+ Score =  138 bits (347),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+           SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL
+Sbjct  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+
+Query  61  NNGEIIVID  69
+           NNGEIIVID
+Sbjct  61  NNGEIIVID  69
+
+
+>gb|EDZ71308.1| YJL092Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=180
+
+ Score =  138 bits (347),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+            HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  113  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  172
+
+Query  62   NGEIIVID  69
+            NGEIIVID
+Sbjct  173  NGEIIVID  180
+
+
+>ref|NP_012443.1| Srs2p [Saccharomyces cerevisiae S288c]
+ sp|P12954.2|SRS2_YEAST RecName: Full=ATP-dependent DNA helicase SRS2
+ emb|CAA33706.1| helicase [Saccharomyces cerevisiae]
+ emb|CAA54361.1| RADH [Saccharomyces cerevisiae]
+ emb|CAA89385.1| HPR5 [Saccharomyces cerevisiae]
+ tpg|DAA08708.1| TPA: Srs2p [Saccharomyces cerevisiae S288c]
+ gb|EIW09440.1| Srs2p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=1174
+
+ Score =  138 bits (347),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EGA82220.1| Srs2p [Saccharomyces cerevisiae Lalvin QA23]
+Length=1174
+
+ Score =  137 bits (346),  Expect = 8e-36, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>dbj|GAA24269.1| K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=1174
+
+ Score =  137 bits (346),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EDV12674.1| DNA helicase [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU06720.1| Srs2p [Saccharomyces cerevisiae JAY291]
+ emb|CAY80687.2| Srs2p [Saccharomyces cerevisiae EC1118]
+Length=1174
+
+ Score =  137 bits (346),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EDN63486.1| DNA helicase [Saccharomyces cerevisiae YJM789]
+Length=1174
+
+ Score =  137 bits (346),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>ref|XP_003680937.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+ emb|CCE91726.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+Length=1133
+
+ Score = 90.9 bits (224),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 48/75 (64%), Positives = 59/75 (79%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMK-------KTQKFSKKVKNEPASSQMDIFSQLSRA  54
+             HNPDD  +D RPIISNAK LADAA K       + ++ S+KVK E +SSQ+DIFSQLSRA
+Sbjct  1059  HNPDDMIIDTRPIISNAKTLADAAKKSSRSEEDREKRSSQKVKKENSSSQIDIFSQLSRA  1118
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+KL++GEII+ID
+Sbjct  1119  KKKAKLSDGEIIIID  1133
+
+
+>ref|XP_002498642.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+ emb|CAR29709.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+Length=1161
+
+ Score = 89.7 bits (221),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 3/71 (4%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT---QKFSKKVKNEPASSQMDIFSQLSRAKKKS  58
+             HNPDD  VDNRPII+NAK LADA  + +   QK   KVK EP  SQ DIFSQL+ AKKK+
+Sbjct  1091  HNPDDMIVDNRPIIANAKTLADAVRETSAGSQKGRNKVKKEPTPSQYDIFSQLNNAKKKA  1150
+
+Query  59    KLNNGEIIVID  69
+             K+N+GEIIVID
+Sbjct  1151  KMNDGEIIVID  1161
+
+
+>ref|XP_004180556.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+ emb|CCH61037.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+Length=1172
+
+ Score = 80.5 bits (197),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 45/75 (60%), Positives = 54/75 (72%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQK----FSKK---VKNEPASSQMDIFSQLSRA  54
+             H+P+D  VDNRPII++AK LADA  +K  K    F  K   VK E  SSQ DIFSQLSRA
+Sbjct  1098  HDPNDFHVDNRPIIASAKLLADAVQQKKSKKDDIFPGKKPIVKKEIGSSQFDIFSQLSRA  1157
+
+Query  55    KKKSKLNNGEIIVID  69
+             +KK+K N+GEII+ID
+Sbjct  1158  RKKAKTNDGEIIIID  1172
+
+
+>ref|XP_003673883.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC67502.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+Length=1147
+
+ Score = 80.5 bits (197),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 43/75 (57%), Positives = 55/75 (73%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK-------VKNEPASSQMDIFSQLSRA  54
+             H+P+D T+D+RPI++NAK LADA  K ++K  KK       +K E   +QMDIFSQLSRA
+Sbjct  1073  HDPNDLTIDDRPILTNAKTLADAIRKPSRKNLKKENINNGKLKKEGQPNQMDIFSQLSRA  1132
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+K N GEII+ID
+Sbjct  1133  KKKTKTNKGEIIIID  1147
+
+
+>ref|XP_003980209.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+ emb|CCK73533.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+Length=1191
+
+ Score = 76.6 bits (187),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 45/89 (51%), Positives = 56/89 (63%), Gaps = 21/89 (24%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAA---------MKKTQKFSKKVKNE------------P  40
+             HNPDD  +DNRPI++NAK LADA          +KK +K  ++V +E             
+Sbjct  1103  HNPDDMIIDNRPILTNAKTLADAIRKPRNRAENIKKEKKSEEQVDSENKGKKMIGLKKGV  1162
+
+Query  41    ASSQMDIFSQLSRAKKKSKLNNGEIIVID  69
+              +SQMDIFSQLSRAKKK+K N GEII+ID
+Sbjct  1163  TASQMDIFSQLSRAKKKTKGNTGEIIIID  1191
+
+
+>gb|EGA86261.1| Srs2p [Saccharomyces cerevisiae VL3]
+Length=1143
+
+ Score = 73.2 bits (178),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  1140
+
+
+>ref|XP_448923.1| hypothetical protein [Candida glabrata CBS 138]
+ emb|CAG61893.1| unnamed protein product [Candida glabrata]
+Length=1088
+
+ Score = 71.6 bits (174),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 41/72 (57%), Positives = 52/72 (72%), Gaps = 4/72 (6%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK----VKNEPASSQMDIFSQLSRAKKK  57
+             HNP +  +DNRPII++AK LADAA K ++   K+    VK E    Q DIFSQL+RAKKK
+Sbjct  1017  HNPSELKIDNRPIIASAKILADAARKSSKLPVKQEGIGVKKEMPILQDDIFSQLNRAKKK  1076
+
+Query  58    SKLNNGEIIVID  69
+             +KLN+ +IIVID
+Sbjct  1077  AKLNDSDIIVID  1088
+
+
+>ref|XP_003954718.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+ emb|CCF55583.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+Length=1116
+
+ Score = 71.6 bits (174),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 43/78 (55%), Positives = 54/78 (69%), Gaps = 10/78 (13%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMK--------KTQKFSK-KVKNEPASS-QMDIFSQL  51
+             H+PDD  +DNRPI+++AK L  A  K          + FS+ ++K E ASS Q DI SQL
+Sbjct  1038  HDPDDLIIDNRPILTSAKTLMKAIKKADSKSNQSSQKSFSEHQLKTEEASSSQFDILSQL  1097
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+             SRAKKK+KLN+GEIIVID
+Sbjct  1098  SRAKKKAKLNDGEIIVID  1115
+
+
+>ref|XP_003684238.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+ emb|CCE61804.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+Length=1086
+
+ Score = 65.5 bits (158),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/75 (56%), Positives = 58/75 (77%), Gaps = 8/75 (11%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSK-------KVKNEPASSQMDIFSQLSRA  54
+             HNP+D+++DNRPII++AK LADA +KK++  ++       KVK E  +SQ DIF+QLS+A
+Sbjct  1013  HNPNDSSIDNRPIIASAKILADA-VKKSKSTNEGKSGRKPKVKQELNASQFDIFTQLSKA  1071
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+K NN EII+ID
+Sbjct  1072  KKKAKGNNSEIIIID  1086
+
+
+>gb|AGO13240.1| AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya aceri']
+Length=1131
+
+ Score = 59.7 bits (143),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/73 (49%), Positives = 46/73 (63%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFS---KKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K +   +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>ref|NP_985640.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AAS53464.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AEY97776.1| FAFR093Wp [Ashbya gossypii FDAG1]
+Length=1131
+
+ Score = 59.7 bits (143),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/73 (49%), Positives = 46/73 (63%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFS---KKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K +   +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>ref|XP_002552877.1| KLTH0D03498p [Lachancea thermotolerans]
+ emb|CAR22439.1| KLTH0D03498p [Lachancea thermotolerans CBS 6340]
+Length=1090
+
+ Score = 58.2 bits (139),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 47/76 (62%), Gaps = 8/76 (11%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFS--------KKVKNEPASSQMDIFSQLSR  53
+             HNP D   D+RPI++NAK LAD+   +T K S        KKVK+EP     DI S+LS+
+Sbjct  1015  HNPRDLRNDSRPILTNAKTLADSVRSQTSKRSSAPSEVPKKKVKSEPMDKGYDIMSRLSQ  1074
+
+Query  54    AKKKSKLNNGEIIVID  69
+             A++++  +   +IVID
+Sbjct  1075  ARRRADSDKDTVIVID  1090
+
+
+>ref|XP_003647536.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+ gb|AET40719.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+Length=1185
+
+ Score = 52.4 bits (124),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 46/78 (59%), Gaps = 11/78 (14%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAM----------KKTQKFSKKVKNEPASSQMDIFSQL  51
+             HNP+D  VDNRPI++NAK LADA+            K  +  KK+K E + +  DI  +L
+Sbjct  1109  HNPNDLEVDNRPILTNAKVLADASRIEISKKLNGGTKRNRNRKKIKKE-SENDNDILMRL  1167
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+              RA+K +   + E+IV+D
+Sbjct  1168  KRARKATPTISDEVIVLD  1185
+
+
+>emb|CCK68624.1| hypothetical protein KNAG_0B01810 [Kazachstania naganishii CBS 
+8797]
+Length=1064
+
+ Score = 42.4 bits (98),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDD TVDNRPI + AK LA A  K T+   KK
+Sbjct  1019  HNPDDLTVDNRPIFATAKTLAKAVKKPTRTKVKK  1052
+
+
+>ref|WP_004355547.1| hypothetical protein [Prevotella disiens]
+ gb|EFL46719.1| hypothetical protein HMPREF9296_2523 [Prevotella disiens FB035-09AN]
+Length=142
+
+ Score = 33.1 bits (74),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 22/65 (34%), Positives = 37/65 (57%), Gaps = 7/65 (11%)
+
+Query  6   DTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASS--QMDIFSQLSRAKKKSKLNNG  63
+           DT V+NRP+++  K +   +M++     KK K+  AS   ++D  + L  A++ SKL +G
+Sbjct  8   DTEVENRPLLNGWKVVISLSMER-----KKNKDRKASKPVEIDGITALQWAREISKLPDG  62
+
+Query  64  EIIVI  68
+             IV 
+Sbjct  63  NFIVC  67
+
+
+>ref|XP_455719.1| hypothetical protein [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG98427.1| KLLA0F14234p [Kluyveromyces lactis]
+Length=1064
+
+ Score = 33.9 bits (76),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 17/42 (40%), Positives = 27/42 (64%), Gaps = 3/42 (7%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASS  43
+            HN D++ +DNRPI+++A+ LA A     Q+ S+ + N  A S
+Sbjct  930  HNKDESIIDNRPILTSARILASAI---KQELSQSIPNIDAPS  968
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.123    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+Results from round 2
+
+
+Query= 3V62C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|EDV12674.1|  DNA helicase [Saccharomyces cerevisiae RM11-1a] >...   112    5e-27
+gb|EGA82220.1|  Srs2p [Saccharomyces cerevisiae Lalvin QA23]           112    5e-27
+ref|NP_012443.1|  Srs2p [Saccharomyces cerevisiae S288c] >sp|P129...   112    5e-27
+gb|EDN63486.1|  DNA helicase [Saccharomyces cerevisiae YJM789]         112    6e-27
+dbj|GAA24269.1|  K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]      112    6e-27
+ref|XP_002498642.1|  ZYRO0G15224p [Zygosaccharomyces rouxii] >emb...   112    9e-27
+ref|XP_003680937.1|  hypothetical protein TDEL_0D01420 [Torulaspo...   107    4e-25
+ref|XP_003673883.1|  hypothetical protein NCAS_0A09440 [Naumovozy...   105    2e-24
+ref|XP_448923.1|  hypothetical protein [Candida glabrata CBS 138]...   100    1e-22
+ref|XP_004180556.1|  hypothetical protein TBLA_0D05440 [Tetrapisi...  99.7    2e-22
+ref|XP_002552877.1|  KLTH0D03498p [Lachancea thermotolerans] >emb...  99.7    2e-22
+gb|EDZ71308.1|  YJL092Wp-like protein [Saccharomyces cerevisiae A...  93.6    4e-22
+gb|AGO13240.1|  AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya ac...  97.8    9e-22
+ref|NP_985640.2|  AFR093Wp [Ashbya gossypii ATCC 10895] >gb|AAS53...  97.4    1e-21
+pdb|3V62|C  Chain C, Structure Of The S. Cerevisiae Srs2 C-termin...  89.0    2e-21
+ref|XP_003980209.1|  hypothetical protein NDAI_0G05500 [Naumovozy...  95.1    9e-21
+ref|XP_003647536.1|  hypothetical protein Ecym_6343 [Eremothecium...  92.8    6e-20
+ref|XP_003954718.1|  hypothetical protein KAFR_0A01450 [Kazachsta...  90.1    5e-19
+ref|XP_003684238.1|  hypothetical protein TPHA_0B01310 [Tetrapisi...  85.1    2e-17
+gb|EGA86261.1|  Srs2p [Saccharomyces cerevisiae VL3]                  59.3    2e-08
+
+Sequences not found previously or not previously below threshold:
+
+emb|CCK68624.1|  hypothetical protein KNAG_0B01810 [Kazachstania ...  54.3    1e-06
+ref|XP_455719.1|  hypothetical protein [Kluyveromyces lactis NRRL...  42.3    0.010
+ref|WP_004355547.1|  hypothetical protein [Prevotella disiens] >g...  36.6    0.20 
+ref|WP_022510563.1|  2-isopropylmalate synthase [Prevotella sp. C...  37.7    0.30 
+ref|YP_003772532.1|  biofilm PIA synthesis deacetylase icab precu...  36.6    0.46 
+ref|WP_006565481.1|  molybdopterin oxidoreductase [Anaerostipes] ...  34.6    0.89 
+ref|WP_010381782.1|  biofilm PIA synthesis deacetylase icab precu...  32.7    2.3  
+ref|XP_006287217.1|  hypothetical protein CARUB_v10000394mg [Caps...  33.9    5.8  
+
+
+>gb|EDV12674.1| DNA helicase [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU06720.1| Srs2p [Saccharomyces cerevisiae JAY291]
+ emb|CAY80687.2| Srs2p [Saccharomyces cerevisiae EC1118]
+Length=1174
+
+ Score =  112 bits (281),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EGA82220.1| Srs2p [Saccharomyces cerevisiae Lalvin QA23]
+Length=1174
+
+ Score =  112 bits (281),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>ref|NP_012443.1| Srs2p [Saccharomyces cerevisiae S288c]
+ sp|P12954.2|SRS2_YEAST RecName: Full=ATP-dependent DNA helicase SRS2
+ emb|CAA33706.1| helicase [Saccharomyces cerevisiae]
+ emb|CAA54361.1| RADH [Saccharomyces cerevisiae]
+ emb|CAA89385.1| HPR5 [Saccharomyces cerevisiae]
+ tpg|DAA08708.1| TPA: Srs2p [Saccharomyces cerevisiae S288c]
+ gb|EIW09440.1| Srs2p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=1174
+
+ Score =  112 bits (281),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EDN63486.1| DNA helicase [Saccharomyces cerevisiae YJM789]
+Length=1174
+
+ Score =  112 bits (281),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>dbj|GAA24269.1| K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=1174
+
+ Score =  112 bits (281),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>ref|XP_002498642.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+ emb|CAR29709.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+Length=1161
+
+ Score =  112 bits (279),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 3/71 (4%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT---QKFSKKVKNEPASSQMDIFSQLSRAKKKS  58
+             HNPDD  VDNRPII+NAK LADA  + +   QK   KVK EP  SQ DIFSQL+ AKKK+
+Sbjct  1091  HNPDDMIVDNRPIIANAKTLADAVRETSAGSQKGRNKVKKEPTPSQYDIFSQLNNAKKKA  1150
+
+Query  59    KLNNGEIIVID  69
+             K+N+GEIIVID
+Sbjct  1151  KMNDGEIIVID  1161
+
+
+>ref|XP_003680937.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+ emb|CCE91726.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+Length=1133
+
+ Score =  107 bits (267),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 48/75 (64%), Positives = 59/75 (79%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT-------QKFSKKVKNEPASSQMDIFSQLSRA  54
+             HNPDD  +D RPIISNAK LADAA K +       ++ S+KVK E +SSQ+DIFSQLSRA
+Sbjct  1059  HNPDDMIIDTRPIISNAKTLADAAKKSSRSEEDREKRSSQKVKKENSSSQIDIFSQLSRA  1118
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+KL++GEII+ID
+Sbjct  1119  KKKAKLSDGEIIIID  1133
+
+
+>ref|XP_003673883.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC67502.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+Length=1147
+
+ Score =  105 bits (261),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 43/75 (57%), Positives = 55/75 (73%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK-------VKNEPASSQMDIFSQLSRA  54
+             H+P+D T+D+RPI++NAK LADA  K ++K  KK       +K E   +QMDIFSQLSRA
+Sbjct  1073  HDPNDLTIDDRPILTNAKTLADAIRKPSRKNLKKENINNGKLKKEGQPNQMDIFSQLSRA  1132
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+K N GEII+ID
+Sbjct  1133  KKKTKTNKGEIIIID  1147
+
+
+>ref|XP_448923.1| hypothetical protein [Candida glabrata CBS 138]
+ emb|CAG61893.1| unnamed protein product [Candida glabrata]
+Length=1088
+
+ Score =  100 bits (249),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 52/72 (72%), Gaps = 4/72 (6%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK----VKNEPASSQMDIFSQLSRAKKK  57
+             HNP +  +DNRPII++AK LADAA K ++   K+    VK E    Q DIFSQL+RAKKK
+Sbjct  1017  HNPSELKIDNRPIIASAKILADAARKSSKLPVKQEGIGVKKEMPILQDDIFSQLNRAKKK  1076
+
+Query  58    SKLNNGEIIVID  69
+             +KLN+ +IIVID
+Sbjct  1077  AKLNDSDIIVID  1088
+
+
+>ref|XP_004180556.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+ emb|CCH61037.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+Length=1172
+
+ Score = 99.7 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 45/75 (60%), Positives = 54/75 (72%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQK----FSKK---VKNEPASSQMDIFSQLSRA  54
+             H+P+D  VDNRPII++AK LADA  +K  K    F  K   VK E  SSQ DIFSQLSRA
+Sbjct  1098  HDPNDFHVDNRPIIASAKLLADAVQQKKSKKDDIFPGKKPIVKKEIGSSQFDIFSQLSRA  1157
+
+Query  55    KKKSKLNNGEIIVID  69
+             +KK+K N+GEII+ID
+Sbjct  1158  RKKAKTNDGEIIIID  1172
+
+
+>ref|XP_002552877.1| KLTH0D03498p [Lachancea thermotolerans]
+ emb|CAR22439.1| KLTH0D03498p [Lachancea thermotolerans CBS 6340]
+Length=1090
+
+ Score = 99.7 bits (247),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 47/76 (62%), Gaps = 8/76 (11%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFS--------KKVKNEPASSQMDIFSQLSR  53
+             HNP D   D+RPI++NAK LAD+   +T K S        KKVK+EP     DI S+LS+
+Sbjct  1015  HNPRDLRNDSRPILTNAKTLADSVRSQTSKRSSAPSEVPKKKVKSEPMDKGYDIMSRLSQ  1074
+
+Query  54    AKKKSKLNNGEIIVID  69
+             A++++  +   +IVID
+Sbjct  1075  ARRRADSDKDTVIVID  1090
+
+
+>gb|EDZ71308.1| YJL092Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=180
+
+ Score = 93.6 bits (231),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+            HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  113  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  172
+
+Query  62   NGEIIVID  69
+            NGEIIVID
+Sbjct  173  NGEIIVID  180
+
+
+>gb|AGO13240.1| AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya aceri']
+Length=1131
+
+ Score = 97.8 bits (242),  Expect = 9e-22, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 45/73 (62%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKF---SKKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K     +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>ref|NP_985640.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AAS53464.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AEY97776.1| FAFR093Wp [Ashbya gossypii FDAG1]
+Length=1131
+
+ Score = 97.4 bits (241),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 45/73 (62%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKF---SKKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K     +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>pdb|3V62|C Chain C, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+ pdb|3V62|F Chain F, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+Length=69
+
+ Score = 89.0 bits (219),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+           SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL
+Sbjct  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+
+Query  61  NNGEIIVID  69
+           NNGEIIVID
+Sbjct  61  NNGEIIVID  69
+
+
+>ref|XP_003980209.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+ emb|CCK73533.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+Length=1191
+
+ Score = 95.1 bits (235),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 45/89 (51%), Positives = 54/89 (61%), Gaps = 21/89 (24%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAM---------KKTQKFSKKV------------KNEP  40
+             HNPDD  +DNRPI++NAK LADA           KK +K  ++V            K   
+Sbjct  1103  HNPDDMIIDNRPILTNAKTLADAIRKPRNRAENIKKEKKSEEQVDSENKGKKMIGLKKGV  1162
+
+Query  41    ASSQMDIFSQLSRAKKKSKLNNGEIIVID  69
+              +SQMDIFSQLSRAKKK+K N GEII+ID
+Sbjct  1163  TASQMDIFSQLSRAKKKTKGNTGEIIIID  1191
+
+
+>ref|XP_003647536.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+ gb|AET40719.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+Length=1185
+
+ Score = 92.8 bits (229),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 32/78 (41%), Positives = 46/78 (59%), Gaps = 11/78 (14%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAM----------KKTQKFSKKVKNEPASSQMDIFSQL  51
+             HNP+D  VDNRPI++NAK LADA+            K  +  KK+K E + +  DI  +L
+Sbjct  1109  HNPNDLEVDNRPILTNAKVLADASRIEISKKLNGGTKRNRNRKKIKKE-SENDNDILMRL  1167
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+              RA+K +   + E+IV+D
+Sbjct  1168  KRARKATPTISDEVIVLD  1185
+
+
+>ref|XP_003954718.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+ emb|CCF55583.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+Length=1116
+
+ Score = 90.1 bits (222),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 51/78 (65%), Gaps = 10/78 (13%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQK---------FSKKVKNEP-ASSQMDIFSQL  51
+             H+PDD  +DNRPI+++AK L  A  K   K            ++K E  +SSQ DI SQL
+Sbjct  1038  HDPDDLIIDNRPILTSAKTLMKAIKKADSKSNQSSQKSFSEHQLKTEEASSSQFDILSQL  1097
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+             SRAKKK+KLN+GEIIVID
+Sbjct  1098  SRAKKKAKLNDGEIIVID  1115
+
+
+>ref|XP_003684238.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+ emb|CCE61804.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+Length=1086
+
+ Score = 85.1 bits (209),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 41/74 (55%), Positives = 52/74 (70%), Gaps = 6/74 (8%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK------VKNEPASSQMDIFSQLSRAK  55
+             HNP+D+++DNRPII++AK LADA  K       K      VK E  +SQ DIF+QLS+AK
+Sbjct  1013  HNPNDSSIDNRPIIASAKILADAVKKSKSTNEGKSGRKPKVKQELNASQFDIFTQLSKAK  1072
+
+Query  56    KKSKLNNGEIIVID  69
+             KK+K NN EII+ID
+Sbjct  1073  KKAKGNNSEIIIID  1086
+
+
+>gb|EGA86261.1| Srs2p [Saccharomyces cerevisiae VL3]
+Length=1143
+
+ Score = 59.3 bits (142),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  1140
+
+
+>emb|CCK68624.1| hypothetical protein KNAG_0B01810 [Kazachstania naganishii CBS 
+8797]
+Length=1064
+
+ Score = 54.3 bits (129),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/34 (62%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDD TVDNRPI + AK LA A  K T+   KK
+Sbjct  1019  HNPDDLTVDNRPIFATAKTLAKAVKKPTRTKVKK  1052
+
+
+>ref|XP_455719.1| hypothetical protein [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG98427.1| KLLA0F14234p [Kluyveromyces lactis]
+Length=1064
+
+ Score = 42.3 bits (98),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 12/42 (29%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASS  43
+            HN D++ +DNRPI+++A+ LA A  ++  +    +      +
+Sbjct  930  HNKDESIIDNRPILTSARILASAIKQELSQSIPNIDAPSTET  971
+
+
+>ref|WP_004355547.1| hypothetical protein [Prevotella disiens]
+ gb|EFL46719.1| hypothetical protein HMPREF9296_2523 [Prevotella disiens FB035-09AN]
+Length=142
+
+ Score = 36.6 bits (83),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 34/62 (55%), Gaps = 3/62 (5%)
+
+Query  6   DTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLNNGEI  65
+           DT V+NRP+++  K +   +M++ +   +K        ++D  + L  A++ SKL +G  
+Sbjct  8   DTEVENRPLLNGWKVVISLSMERKKNKDRKASK---PVEIDGITALQWAREISKLPDGNF  64
+
+Query  66  IV  67
+           IV
+Sbjct  65  IV  66
+
+
+>ref|WP_022510563.1| 2-isopropylmalate synthase [Prevotella sp. CAG:617]
+ emb|CDF22320.1| 2-isopropylmalate synthase [Prevotella sp. CAG:617]
+Length=498
+
+ Score = 37.7 bits (86),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 31/66 (47%), Gaps = 2/66 (3%)
+
+Query  3    NPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLNN  62
+            NP D  +D+  II  A+    A   +      KVK E        F +L  A KK ++N+
+Sbjct  314  NPKDVGIDDNAIILTARSGHAALRHRLDVLGVKVKEEKLDKIYQDFLKL--ADKKKEVND  371
+
+Query  63   GEIIVI  68
+             +I+++
+Sbjct  372  DDILML  377
+
+
+>ref|YP_003772532.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+gasicomitatum LMG 18811]
+ ref|WP_013231634.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+gasicomitatum]
+ emb|CBL91713.1| Biofilm PIA synthesis deacetylase icaB precursor [Leuconostoc 
+gasicomitatum LMG 18811]
+Length=280
+
+ Score = 36.6 bits (83),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 15/39 (38%), Positives = 22/39 (56%), Gaps = 2/39 (5%)
+
+Query  5    DDTT--VDNRPIISNAKFLADAAMKKTQKFSKKVKNEPA  41
+            +D    VDN PI+S+ K    A +K  QK  +K+K E +
+Sbjct  174  NDLHYQVDNHPILSSGKLSQKAIIKDYQKSKQKLKKELS  212
+
+
+>ref|WP_006565481.1| molybdopterin oxidoreductase [Anaerostipes]
+ gb|EDR96702.1| hypothetical protein ANACAC_02733 [Anaerostipes caccae DSM 14662]
+ gb|EFV20832.1| hypothetical protein HMPREF1011_03322 [Anaerostipes sp. 3_2_56FAA]
+ emb|CDC35788.1| putative uncharacterized protein [Anaerostipes sp. CAG:276]
+Length=116
+
+ Score = 34.6 bits (78),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 13/64 (20%), Positives = 28/64 (44%), Gaps = 3/64 (5%)
+
+Query  6   DTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLNNGEI  65
+           +     R I S  +  A+ A +   K +  +         DI  +L++   K+ +N G++
+Sbjct  40  ELVNPTRVITSTVRVEAETARRVPVKTNGDIPKG---KIYDIMDELTKVTAKAPVNVGDV  96
+
+Query  66  IVID  69
+           ++ D
+Sbjct  97  VIKD  100
+
+
+>ref|WP_010381782.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+inhae]
+Length=77
+
+ Score = 32.7 bits (73),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 20/36 (56%), Gaps = 2/36 (6%)
+
+Query  5   DDTT--VDNRPIISNAKFLADAAMKKTQKFSKKVKN  38
+           +D    VDN PI+S+ K    A +K  QK  +K+K 
+Sbjct  23  NDLHYQVDNHPILSSGKLSQKAIIKDYQKSKQKLKK  58
+
+
+>ref|XP_006287217.1| hypothetical protein CARUB_v10000394mg [Capsella rubella]
+ gb|EOA20115.1| hypothetical protein CARUB_v10000394mg [Capsella rubella]
+Length=670
+
+ Score = 33.9 bits (76),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 33/57 (58%), Gaps = 1/57 (2%)
+
+Query  13   PIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKK-KSKLNNGEIIVI  68
+            P+ S+   L       + + + + K+ P +S +DIFS+LS   + + +L +G+I+VI
+Sbjct  61   PMTSSGSLLKSVGRSFSSEPAIEEKSSPEASVIDIFSRLSGGDEIRKELESGDIVVI  117
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.135    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+Results from round 3
+
+
+Query= 3V62C
+
+Length=69
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_002498642.1|  ZYRO0G15224p [Zygosaccharomyces rouxii] >emb...   109    8e-26
+gb|EGA82220.1|  Srs2p [Saccharomyces cerevisiae Lalvin QA23]           108    1e-25
+gb|EDV12674.1|  DNA helicase [Saccharomyces cerevisiae RM11-1a] >...   108    1e-25
+ref|NP_012443.1|  Srs2p [Saccharomyces cerevisiae S288c] >sp|P129...   108    1e-25
+gb|EDN63486.1|  DNA helicase [Saccharomyces cerevisiae YJM789]         108    1e-25
+dbj|GAA24269.1|  K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]      108    1e-25
+ref|XP_003680937.1|  hypothetical protein TDEL_0D01420 [Torulaspo...   103    6e-24
+ref|XP_003673883.1|  hypothetical protein NCAS_0A09440 [Naumovozy...   103    1e-23
+ref|XP_004180556.1|  hypothetical protein TBLA_0D05440 [Tetrapisi...  97.8    1e-21
+ref|XP_448923.1|  hypothetical protein [Candida glabrata CBS 138]...  97.8    1e-21
+gb|EDZ71308.1|  YJL092Wp-like protein [Saccharomyces cerevisiae A...  90.8    5e-21
+ref|XP_002552877.1|  KLTH0D03498p [Lachancea thermotolerans] >emb...  95.5    7e-21
+gb|AGO13240.1|  AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya ac...  93.9    2e-20
+pdb|3V62|C  Chain C, Structure Of The S. Cerevisiae Srs2 C-termin...  85.8    3e-20
+ref|NP_985640.2|  AFR093Wp [Ashbya gossypii ATCC 10895] >gb|AAS53...  93.2    4e-20
+ref|XP_003980209.1|  hypothetical protein NDAI_0G05500 [Naumovozy...  91.6    1e-19
+ref|XP_003954718.1|  hypothetical protein KAFR_0A01450 [Kazachsta...  90.8    2e-19
+ref|XP_003647536.1|  hypothetical protein Ecym_6343 [Eremothecium...  88.2    2e-18
+ref|XP_003684238.1|  hypothetical protein TPHA_0B01310 [Tetrapisi...  85.5    2e-17
+emb|CCK68624.1|  hypothetical protein KNAG_0B01810 [Kazachstania ...  58.5    4e-08
+gb|EGA86261.1|  Srs2p [Saccharomyces cerevisiae VL3]                  57.7    8e-08
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_455719.1|  hypothetical protein [Kluyveromyces lactis NRRL...  41.5    0.018
+ref|XP_003055859.1|  predicted protein [Micromonas pusilla CCMP15...  38.5    0.15 
+ref|YP_003772532.1|  biofilm PIA synthesis deacetylase icab precu...  35.8    1.0  
+ref|WP_022510563.1|  2-isopropylmalate synthase [Prevotella sp. C...  35.8    1.1  
+ref|WP_006565481.1|  molybdopterin oxidoreductase [Anaerostipes] ...  33.1    2.9  
+ref|XP_001967022.1|  GF21828 [Drosophila ananassae] >gb|EDV38341....  34.6    2.9  
+ref|WP_003614493.1|  fumarate reductase/succinate dehydrogenase f...  33.5    3.4  
+ref|WP_010381782.1|  biofilm PIA synthesis deacetylase icab precu...  31.9    5.3  
+
+
+>ref|XP_002498642.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+ emb|CAR29709.1| ZYRO0G15224p [Zygosaccharomyces rouxii]
+Length=1161
+
+ Score =  109 bits (272),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 3/71 (4%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT---QKFSKKVKNEPASSQMDIFSQLSRAKKKS  58
+             HNPDD  VDNRPII+NAK LADA  + +   QK   KVK EP  SQ DIFSQL+ AKKK+
+Sbjct  1091  HNPDDMIVDNRPIIANAKTLADAVRETSAGSQKGRNKVKKEPTPSQYDIFSQLNNAKKKA  1150
+
+Query  59    KLNNGEIIVID  69
+             K+N+GEIIVID
+Sbjct  1151  KMNDGEIIVID  1161
+
+
+>gb|EGA82220.1| Srs2p [Saccharomyces cerevisiae Lalvin QA23]
+Length=1174
+
+ Score =  108 bits (271),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EDV12674.1| DNA helicase [Saccharomyces cerevisiae RM11-1a]
+ gb|EEU06720.1| Srs2p [Saccharomyces cerevisiae JAY291]
+ emb|CAY80687.2| Srs2p [Saccharomyces cerevisiae EC1118]
+Length=1174
+
+ Score =  108 bits (271),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>ref|NP_012443.1| Srs2p [Saccharomyces cerevisiae S288c]
+ sp|P12954.2|SRS2_YEAST RecName: Full=ATP-dependent DNA helicase SRS2
+ emb|CAA33706.1| helicase [Saccharomyces cerevisiae]
+ emb|CAA54361.1| RADH [Saccharomyces cerevisiae]
+ emb|CAA89385.1| HPR5 [Saccharomyces cerevisiae]
+ tpg|DAA08708.1| TPA: Srs2p [Saccharomyces cerevisiae S288c]
+ gb|EIW09440.1| Srs2p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=1174
+
+ Score =  108 bits (271),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>gb|EDN63486.1| DNA helicase [Saccharomyces cerevisiae YJM789]
+Length=1174
+
+ Score =  108 bits (271),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>dbj|GAA24269.1| K7_Hpr5p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=1174
+
+ Score =  108 bits (271),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  1166
+
+Query  62    NGEIIVID  69
+             NGEIIVID
+Sbjct  1167  NGEIIVID  1174
+
+
+>ref|XP_003680937.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+ emb|CCE91726.1| hypothetical protein TDEL_0D01420 [Torulaspora delbrueckii]
+Length=1133
+
+ Score =  103 bits (258),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 48/75 (64%), Positives = 59/75 (79%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT-------QKFSKKVKNEPASSQMDIFSQLSRA  54
+             HNPDD  +D RPIISNAK LADAA K +       ++ S+KVK E +SSQ+DIFSQLSRA
+Sbjct  1059  HNPDDMIIDTRPIISNAKTLADAAKKSSRSEEDREKRSSQKVKKENSSSQIDIFSQLSRA  1118
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+KL++GEII+ID
+Sbjct  1119  KKKAKLSDGEIIIID  1133
+
+
+>ref|XP_003673883.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+ emb|CCC67502.1| hypothetical protein NCAS_0A09440 [Naumovozyma castellii CBS 
+4309]
+Length=1147
+
+ Score =  103 bits (256),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 43/75 (57%), Positives = 55/75 (73%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK-------VKNEPASSQMDIFSQLSRA  54
+             H+P+D T+D+RPI++NAK LADA  K ++K  KK       +K E   +QMDIFSQLSRA
+Sbjct  1073  HDPNDLTIDDRPILTNAKTLADAIRKPSRKNLKKENINNGKLKKEGQPNQMDIFSQLSRA  1132
+
+Query  55    KKKSKLNNGEIIVID  69
+             KKK+K N GEII+ID
+Sbjct  1133  KKKTKTNKGEIIIID  1147
+
+
+>ref|XP_004180556.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+ emb|CCH61037.1| hypothetical protein TBLA_0D05440 [Tetrapisispora blattae CBS 
+6284]
+Length=1172
+
+ Score = 97.8 bits (242),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 45/75 (60%), Positives = 54/75 (72%), Gaps = 7/75 (9%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQK----FSKK---VKNEPASSQMDIFSQLSRA  54
+             H+P+D  VDNRPII++AK LADA  +K  K    F  K   VK E  SSQ DIFSQLSRA
+Sbjct  1098  HDPNDFHVDNRPIIASAKLLADAVQQKKSKKDDIFPGKKPIVKKEIGSSQFDIFSQLSRA  1157
+
+Query  55    KKKSKLNNGEIIVID  69
+             +KK+K N+GEII+ID
+Sbjct  1158  RKKAKTNDGEIIIID  1172
+
+
+>ref|XP_448923.1| hypothetical protein [Candida glabrata CBS 138]
+ emb|CAG61893.1| unnamed protein product [Candida glabrata]
+Length=1088
+
+ Score = 97.8 bits (242),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 41/72 (57%), Positives = 52/72 (72%), Gaps = 4/72 (6%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK----VKNEPASSQMDIFSQLSRAKKK  57
+             HNP +  +DNRPII++AK LADAA K ++   K+    VK E    Q DIFSQL+RAKKK
+Sbjct  1017  HNPSELKIDNRPIIASAKILADAARKSSKLPVKQEGIGVKKEMPILQDDIFSQLNRAKKK  1076
+
+Query  58    SKLNNGEIIVID  69
+             +KLN+ +IIVID
+Sbjct  1077  AKLNDSDIIVID  1088
+
+
+>gb|EDZ71308.1| YJL092Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=180
+
+ Score = 90.8 bits (224),  Expect = 5e-21, Method: Composition-based stats.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  61
+            HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN
+Sbjct  113  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLN  172
+
+Query  62   NGEIIVID  69
+            NGEIIVID
+Sbjct  173  NGEIIVID  180
+
+
+>ref|XP_002552877.1| KLTH0D03498p [Lachancea thermotolerans]
+ emb|CAR22439.1| KLTH0D03498p [Lachancea thermotolerans CBS 6340]
+Length=1090
+
+ Score = 95.5 bits (236),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 33/76 (43%), Positives = 47/76 (62%), Gaps = 8/76 (11%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFS--------KKVKNEPASSQMDIFSQLSR  53
+             HNP D   D+RPI++NAK LAD+   +T K S        KKVK+EP     DI S+LS+
+Sbjct  1015  HNPRDLRNDSRPILTNAKTLADSVRSQTSKRSSAPSEVPKKKVKSEPMDKGYDIMSRLSQ  1074
+
+Query  54    AKKKSKLNNGEIIVID  69
+             A++++  +   +IVID
+Sbjct  1075  ARRRADSDKDTVIVID  1090
+
+
+>gb|AGO13240.1| AaceriAFR093Wp [Saccharomycetaceae sp. 'Ashbya aceri']
+Length=1131
+
+ Score = 93.9 bits (232),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 45/73 (62%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKF---SKKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K     +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>pdb|3V62|C Chain C, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+ pdb|3V62|F Chain F, Structure Of The S. Cerevisiae Srs2 C-terminal Domain 
+In Complex With Pcna Conjugated To Sumo On Lysine 164
+Length=69
+
+ Score = 85.8 bits (211),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%), Gaps = 0/69 (0%)
+
+Query  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+           SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL
+Sbjct  1   SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKL  60
+
+Query  61  NNGEIIVID  69
+           NNGEIIVID
+Sbjct  61  NNGEIIVID  69
+
+
+>ref|NP_985640.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AAS53464.2| AFR093Wp [Ashbya gossypii ATCC 10895]
+ gb|AEY97776.1| FAFR093Wp [Ashbya gossypii FDAG1]
+Length=1131
+
+ Score = 93.2 bits (230),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 36/73 (49%), Positives = 45/73 (62%), Gaps = 5/73 (7%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKF---SKKVKNEPASSQ--MDIFSQLSRAKK  56
+             HNPDD  VDNRPI++NAK LADA+  +  K     +KVK      Q   DI S+L RA+K
+Sbjct  1059  HNPDDLRVDNRPILTNAKVLADASRDEAAKRAGSRRKVKKGTDECQPGEDILSRLKRARK  1118
+
+Query  57    KSKLNNGEIIVID  69
+              S   N E+IV+D
+Sbjct  1119  SSPSINDEVIVLD  1131
+
+
+>ref|XP_003980209.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+ emb|CCK73533.1| hypothetical protein NDAI_0G05500 [Naumovozyma dairenensis CBS 
+421]
+Length=1191
+
+ Score = 91.6 bits (226),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 44/89 (49%), Positives = 53/89 (60%), Gaps = 21/89 (24%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKT---------QKFSKKV------------KNEP  40
+             HNPDD  +DNRPI++NAK LADA  K           +K  ++V            K   
+Sbjct  1103  HNPDDMIIDNRPILTNAKTLADAIRKPRNRAENIKKEKKSEEQVDSENKGKKMIGLKKGV  1162
+
+Query  41    ASSQMDIFSQLSRAKKKSKLNNGEIIVID  69
+              +SQMDIFSQLSRAKKK+K N GEII+ID
+Sbjct  1163  TASQMDIFSQLSRAKKKTKGNTGEIIIID  1191
+
+
+>ref|XP_003954718.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+ emb|CCF55583.1| hypothetical protein KAFR_0A01450 [Kazachstania africana CBS 
+2517]
+Length=1116
+
+ Score = 90.8 bits (224),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 41/78 (53%), Positives = 51/78 (65%), Gaps = 10/78 (13%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQK---------FSKKVKNEP-ASSQMDIFSQL  51
+             H+PDD  +DNRPI+++AK L  A  K   K            ++K E  +SSQ DI SQL
+Sbjct  1038  HDPDDLIIDNRPILTSAKTLMKAIKKADSKSNQSSQKSFSEHQLKTEEASSSQFDILSQL  1097
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+             SRAKKK+KLN+GEIIVID
+Sbjct  1098  SRAKKKAKLNDGEIIVID  1115
+
+
+>ref|XP_003647536.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+ gb|AET40719.1| hypothetical protein Ecym_6343 [Eremothecium cymbalariae DBVPG#7215]
+Length=1185
+
+ Score = 88.2 bits (217),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 32/78 (41%), Positives = 46/78 (59%), Gaps = 11/78 (14%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAM----------KKTQKFSKKVKNEPASSQMDIFSQL  51
+             HNP+D  VDNRPI++NAK LADA+            K  +  KK+K E + +  DI  +L
+Sbjct  1109  HNPNDLEVDNRPILTNAKVLADASRIEISKKLNGGTKRNRNRKKIKKE-SENDNDILMRL  1167
+
+Query  52    SRAKKKSKLNNGEIIVID  69
+              RA+K +   + E+IV+D
+Sbjct  1168  KRARKATPTISDEVIVLD  1185
+
+
+>ref|XP_003684238.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+ emb|CCE61804.1| hypothetical protein TPHA_0B01310 [Tetrapisispora phaffii CBS 
+4417]
+Length=1086
+
+ Score = 85.5 bits (210),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 41/74 (55%), Positives = 52/74 (70%), Gaps = 6/74 (8%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK------VKNEPASSQMDIFSQLSRAK  55
+             HNP+D+++DNRPII++AK LADA  K       K      VK E  +SQ DIF+QLS+AK
+Sbjct  1013  HNPNDSSIDNRPIIASAKILADAVKKSKSTNEGKSGRKPKVKQELNASQFDIFTQLSKAK  1072
+
+Query  56    KKSKLNNGEIIVID  69
+             KK+K NN EII+ID
+Sbjct  1073  KKAKGNNSEIIIID  1086
+
+
+>emb|CCK68624.1| hypothetical protein KNAG_0B01810 [Kazachstania naganishii CBS 
+8797]
+Length=1064
+
+ Score = 58.5 bits (140),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 21/34 (62%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDD TVDNRPI + AK LA A  K T+   KK
+Sbjct  1019  HNPDDLTVDNRPIFATAKTLAKAVKKPTRTKVKK  1052
+
+
+>gb|EGA86261.1| Srs2p [Saccharomyces cerevisiae VL3]
+Length=1143
+
+ Score = 57.7 bits (138),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 34/34 (100%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+
+Query  2     HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  35
+             HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK
+Sbjct  1107  HNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKK  1140
+
+
+>ref|XP_455719.1| hypothetical protein [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG98427.1| KLLA0F14234p [Kluyveromyces lactis]
+Length=1064
+
+ Score = 41.5 bits (96),  Expect = 0.018, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  2    HNPDDTTVDNRPIISNAKFLADAAMKKTQKF  32
+            HN D++ +DNRPI+++A+ LA A  ++  + 
+Sbjct  930  HNKDESIIDNRPILTSARILASAIKQELSQS  960
+
+
+>ref|XP_003055859.1| predicted protein [Micromonas pusilla CCMP1545]
+ gb|EEH59235.1| predicted protein [Micromonas pusilla CCMP1545]
+Length=535
+
+ Score = 38.5 bits (88),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 26/48 (54%), Gaps = 2/48 (4%)
+
+Query  13   PIISNAKFLADAAMKKTQKFSK--KVKNEPASSQMDIFSQLSRAKKKS  58
+            P  ++A+ LADA  +  ++  +  +V  E    + D   +L+ AKK++
+Sbjct  366  PTDASARSLADAFREPLKRALELTRVAKETIDLRSDALMRLTTAKKRA  413
+
+
+>ref|YP_003772532.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+gasicomitatum LMG 18811]
+ ref|WP_013231634.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+gasicomitatum]
+ emb|CBL91713.1| Biofilm PIA synthesis deacetylase icaB precursor [Leuconostoc 
+gasicomitatum LMG 18811]
+Length=280
+
+ Score = 35.8 bits (81),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 15/39 (38%), Positives = 22/39 (56%), Gaps = 2/39 (5%)
+
+Query  5    DDTT--VDNRPIISNAKFLADAAMKKTQKFSKKVKNEPA  41
+            +D    VDN PI+S+ K    A +K  QK  +K+K E +
+Sbjct  174  NDLHYQVDNHPILSSGKLSQKAIIKDYQKSKQKLKKELS  212
+
+
+>ref|WP_022510563.1| 2-isopropylmalate synthase [Prevotella sp. CAG:617]
+ emb|CDF22320.1| 2-isopropylmalate synthase [Prevotella sp. CAG:617]
+Length=498
+
+ Score = 35.8 bits (81),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 19/66 (29%), Positives = 31/66 (47%), Gaps = 2/66 (3%)
+
+Query  3    NPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLNN  62
+            NP D  +D+  II  A+    A   +      KVK E        F +L  A KK ++N+
+Sbjct  314  NPKDVGIDDNAIILTARSGHAALRHRLDVLGVKVKEEKLDKIYQDFLKL--ADKKKEVND  371
+
+Query  63   GEIIVI  68
+             +I+++
+Sbjct  372  DDILML  377
+
+
+>ref|WP_006565481.1| molybdopterin oxidoreductase [Anaerostipes]
+ gb|EDR96702.1| hypothetical protein ANACAC_02733 [Anaerostipes caccae DSM 14662]
+ gb|EFV20832.1| hypothetical protein HMPREF1011_03322 [Anaerostipes sp. 3_2_56FAA]
+ emb|CDC35788.1| putative uncharacterized protein [Anaerostipes sp. CAG:276]
+Length=116
+
+ Score = 33.1 bits (74),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 13/64 (20%), Positives = 28/64 (44%), Gaps = 3/64 (5%)
+
+Query  6   DTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLSRAKKKSKLNNGEI  65
+           +     R I S  +  A+ A +   K +  +         DI  +L++   K+ +N G++
+Sbjct  40  ELVNPTRVITSTVRVEAETARRVPVKTNGDIPKG---KIYDIMDELTKVTAKAPVNVGDV  96
+
+Query  66  IVID  69
+           ++ D
+Sbjct  97  VIKD  100
+
+
+>ref|XP_001967022.1| GF21828 [Drosophila ananassae]
+ gb|EDV38341.1| GF21828 [Drosophila ananassae]
+Length=1495
+
+ Score = 34.6 bits (78),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  1    SHNPDDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQMDIFSQLS  52
+            +H+ D+   DN PI+   K   +A   K +   +K       S  DIF  +S
+Sbjct  641  NHSQDEIHKDNPPILKQNKDTKNATKIKRKTKERKRGRPDVGSAFDIFELMS  692
+
+
+>ref|WP_003614493.1| fumarate reductase/succinate dehydrogenase flavoprotein domain 
+protein [Methylosinus trichosporium]
+ gb|EFH01491.1| fumarate reductase/succinate dehydrogenase flavoprotein domain 
+protein [Methylosinus trichosporium OB3b]
+Length=147
+
+ Score = 33.5 bits (75),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 25/51 (49%), Gaps = 1/51 (2%)
+
+Query  5    DDTTVDNRPIISNAKFLADAAMKKTQKFSKKVKNEPASSQ-MDIFSQLSRA  54
+            +D  VD +PI++ A+   D   +  +   + +K+E       +IF  L+ A
+Sbjct  83   NDGIVDQKPILAYAERSFDMIRELDRWGVEFLKDENGDCALFEIFDPLANA  133
+
+
+>ref|WP_010381782.1| biofilm PIA synthesis deacetylase icab precursor [Leuconostoc 
+inhae]
+Length=77
+
+ Score = 31.9 bits (71),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 20/36 (56%), Gaps = 2/36 (6%)
+
+Query  5   DDTT--VDNRPIISNAKFLADAAMKKTQKFSKKVKN  38
+           +D    VDN PI+S+ K    A +K  QK  +K+K 
+Sbjct  23  NDLHYQVDNHPILSSGKLSQKAIIKDYQKSKQKLKK  58
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.138    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305641332808
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

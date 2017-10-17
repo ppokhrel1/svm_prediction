@@ -1,0 +1,2630 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1UFI
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1UFI|A  Chain A, Crystal Structure Of The Dimerization Domain...   134    4e-39
+gb|AAH12297.1|  Unknown (protein for IMAGE:3447254), partial [Hom...   128    5e-36
+ref|XP_530325.2|  PREDICTED: major centromere autoantigen B [Pan ...   128    2e-35
+ref|XP_005688291.1|  PREDICTED: major centromere autoantigen B [C...   133    2e-35
+ref|XP_005974861.1|  PREDICTED: major centromere autoantigen B, p...   132    3e-35
+ref|XP_005672832.1|  PREDICTED: major centromere autoantigen B, p...   127    3e-35
+gb|AAB70166.1|  centromere protein B [Homo sapiens]                    123    4e-35
+ref|XP_004014769.1|  PREDICTED: major centromere autoantigen B [O...   133    5e-35
+dbj|BAE34678.1|  unnamed protein product [Mus musculus]                126    5e-35
+ref|XP_005320674.1|  PREDICTED: major centromere autoantigen B [I...   133    5e-35
+ref|XP_005381189.1|  PREDICTED: major centromere autoantigen B, p...   132    6e-35
+ref|XP_001255461.2|  PREDICTED: major centromere autoantigen B [B...   126    7e-35
+gb|EHB04308.1|  Major centromere autoantigen B [Heterocephalus gl...   127    7e-35
+ref|XP_004661541.1|  PREDICTED: major centromere autoantigen B [J...   132    7e-35
+ref|XP_004398282.1|  PREDICTED: major centromere autoantigen B [O...   130    2e-34
+ref|XP_006187168.1|  PREDICTED: major centromere autoantigen B [C...   129    2e-34
+gb|ELK34526.1|  Major centromere autoantigen B [Myotis davidii]        127    2e-34
+ref|XP_006109837.1|  PREDICTED: LOW QUALITY PROTEIN: centromere p...   128    2e-34
+gb|ERE69764.1|  major centromere autoantigen B [Cricetulus griseus]    128    3e-34
+gb|EHH19884.1|  hypothetical protein EGK_02622, partial [Macaca m...   129    3e-34
+ref|XP_005068701.1|  PREDICTED: major centromere autoantigen B [M...   130    4e-34
+ref|XP_005874813.1|  PREDICTED: major centromere autoantigen B [M...   129    4e-34
+ref|XP_006207476.1|  PREDICTED: major centromere autoantigen B [V...   129    4e-34
+ref|XP_002710933.1|  PREDICTED: centromere protein B-like [Orycto...   129    4e-34
+ref|XP_004840793.1|  PREDICTED: major centromere autoantigen B [H...   130    5e-34
+ref|XP_005604783.1|  PREDICTED: major centromere autoantigen B [E...   130    5e-34
+ref|XP_003941164.1|  PREDICTED: major centromere autoantigen B, p...   129    5e-34
+gb|EDL80228.1|  rCG26705 [Rattus norvegicus]                           129    5e-34
+ref|XP_002692275.2|  PREDICTED: major centromere autoantigen B, p...   130    5e-34
+tpg|DAA23362.1|  TPA: centromere protein B-like [Bos taurus]           130    5e-34
+ref|XP_001111455.1|  PREDICTED: major centromere autoantigen B-li...   129    5e-34
+ref|XP_004433852.1|  PREDICTED: major centromere autoantigen B [C...   129    6e-34
+ref|XP_005894040.1|  PREDICTED: major centromere autoantigen B, p...   130    6e-34
+ref|XP_004772995.1|  PREDICTED: major centromere autoantigen B, p...   130    6e-34
+gb|AAB21673.1|  major centromere protein, CENP-B [human, Peptide,...   130    6e-34
+gb|EDL28308.1|  centromere protein B [Mus musculus]                    129    7e-34
+ref|XP_005365642.1|  PREDICTED: major centromere autoantigen B [M...   130    7e-34
+ref|XP_004634383.1|  PREDICTED: major centromere autoantigen B, p...   130    7e-34
+ref|XP_004065365.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    7e-34
+ref|XP_006235117.1|  PREDICTED: major centromere autoantigen B, p...   130    7e-34
+ref|XP_003905066.1|  PREDICTED: major centromere autoantigen B [P...   130    7e-34
+ref|XP_004792263.1|  PREDICTED: major centromere autoantigen B [M...   130    7e-34
+ref|XP_002918833.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    7e-34
+ref|XP_003846068.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    7e-34
+ref|XP_001081194.1|  PREDICTED: major centromere autoantigen B [R...   130    7e-34
+ref|NP_001801.1|  major centromere autoantigen B [Homo sapiens] >...   130    7e-34
+ref|XP_003983754.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    8e-34
+ref|XP_003780519.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   129    8e-34
+ref|XP_003278053.1|  PREDICTED: major centromere autoantigen B [N...   130    8e-34
+ref|XP_851406.2|  PREDICTED: LOW QUALITY PROTEIN: major centromer...   129    8e-34
+emb|CAA38878.1|  centromere autoantigen B (CENP-B) [Mus musculus]      129    8e-34
+ref|NP_031708.2|  major centromere autoantigen B [Mus musculus] >...   129    9e-34
+ref|XP_004687064.1|  PREDICTED: major centromere autoantigen B, p...   129    9e-34
+gb|EGV92417.1|  Major centromere autoantigen B [Cricetulus griseus]    130    1e-33
+ref|XP_004886862.1|  PREDICTED: major centromere autoantigen B [H...   130    1e-33
+ref|XP_003788261.1|  PREDICTED: major centromere autoantigen B [O...   130    2e-33
+ref|XP_005006810.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   129    2e-33
+ref|XP_004285387.1|  PREDICTED: major centromere autoantigen B [O...   129    3e-33
+sp|P49451.1|CENPB_SHEEP  RecName: Full=Major centromere autoantig...   123    4e-33
+ref|XP_004593387.1|  PREDICTED: major centromere autoantigen B [O...   127    6e-33
+ref|NP_001231328.1|  major centromere autoantigen B [Cricetulus g...   127    6e-33
+ref|XP_006164029.1|  PREDICTED: major centromere autoantigen B [T...   127    8e-33
+ref|XP_004463863.1|  PREDICTED: major centromere autoantigen B, p...   120    1e-31
+gb|EPY79178.1|  major centromere autoantigen B-like protein [Came...   121    2e-31
+emb|CAA28918.1|  CENP-B [Homo sapiens]                                 122    3e-31
+ref|XP_004697917.1|  PREDICTED: major centromere autoantigen B [E...   120    8e-31
+ref|XP_004383130.1|  PREDICTED: major centromere autoantigen B, p...   121    9e-31
+ref|XP_003758733.1|  PREDICTED: major centromere autoantigen B, p...   118    2e-30
+ref|XP_001508728.1|  PREDICTED: major centromere autoantigen B-li...   115    9e-29
+ref|XP_001380458.2|  PREDICTED: major centromere autoantigen B-li...   113    9e-28
+gb|AAH06628.1|  Cenpb protein [Mus musculus]                           103    4e-24
+ref|WP_006916893.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  35.8    1.0  
+ref|XP_006264584.1|  PREDICTED: tigger transposable element-deriv...  33.5    6.7  
+ref|XP_006019217.1|  PREDICTED: tigger transposable element-deriv...  33.5    6.7  
+
+
+>pdb|1UFI|A Chain A, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|B Chain B, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|C Chain C, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|D Chain D, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+Length=64
+
+ Score =  134 bits (336),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1   GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL  60
+           GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL
+Sbjct  1   GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL  60
+
+Query  61  GHQS  64
+           GHQS
+Sbjct  61  GHQS  64
+
+
+>gb|AAH12297.1| Unknown (protein for IMAGE:3447254), partial [Homo sapiens]
+Length=138
+
+ Score =  128 bits (321),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  78   VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  137
+
+Query  64   S  64
+            S
+Sbjct  138  S  138
+
+
+>ref|XP_530325.2| PREDICTED: major centromere autoantigen B [Pan troglodytes]
+Length=189
+
+ Score =  128 bits (321),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  129  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  188
+
+Query  64   S  64
+            S
+Sbjct  189  S  189
+
+
+>ref|XP_005688291.1| PREDICTED: major centromere autoantigen B [Capra hircus]
+Length=524
+
+ Score =  133 bits (335),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  464  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  523
+
+Query  64   S  64
+            S
+Sbjct  524  S  524
+
+
+>ref|XP_005974861.1| PREDICTED: major centromere autoantigen B, partial [Pantholops 
+hodgsonii]
+Length=412
+
+ Score =  132 bits (332),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  352  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  411
+
+Query  64   S  64
+            S
+Sbjct  412  S  412
+
+
+>ref|XP_005672832.1| PREDICTED: major centromere autoantigen B, partial [Sus scrofa]
+Length=184
+
+ Score =  127 bits (319),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  124  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  183
+
+Query  64   S  64
+            S
+Sbjct  184  S  184
+
+
+>gb|AAB70166.1| centromere protein B [Homo sapiens]
+Length=59
+
+ Score =  123 bits (309),  Expect = 4e-35, Method: Compositional matrix adjust.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  6   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  64
+           VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS
+Sbjct  1   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  59
+
+
+>ref|XP_004014769.1| PREDICTED: major centromere autoantigen B [Ovis aries]
+Length=617
+
+ Score =  133 bits (335),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  557  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  616
+
+Query  64   S  64
+            S
+Sbjct  617  S  617
+
+
+>dbj|BAE34678.1| unnamed protein product [Mus musculus]
+Length=174
+
+ Score =  126 bits (317),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  114  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  173
+
+Query  64   S  64
+            S
+Sbjct  174  S  174
+
+
+>ref|XP_005320674.1| PREDICTED: major centromere autoantigen B [Ictidomys tridecemlineatus]
+Length=605
+
+ Score =  133 bits (334),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  545  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  604
+
+Query  64   S  64
+            S
+Sbjct  605  S  605
+
+
+>ref|XP_005381189.1| PREDICTED: major centromere autoantigen B, partial [Chinchilla 
+lanigera]
+Length=599
+
+ Score =  132 bits (333),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_001255461.2| PREDICTED: major centromere autoantigen B [Bos taurus]
+Length=179
+
+ Score =  126 bits (317),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  119  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  178
+
+Query  64   S  64
+            S
+Sbjct  179  S  179
+
+
+>gb|EHB04308.1| Major centromere autoantigen B [Heterocephalus glaber]
+Length=219
+
+ Score =  127 bits (319),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  159  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  218
+
+Query  64   S  64
+            S
+Sbjct  219  S  219
+
+
+>ref|XP_004661541.1| PREDICTED: major centromere autoantigen B [Jaculus jaculus]
+Length=603
+
+ Score =  132 bits (333),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_004398282.1| PREDICTED: major centromere autoantigen B [Odobenus rosmarus 
+divergens]
+Length=493
+
+ Score =  130 bits (328),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  433  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  492
+
+Query  64   S  64
+            S
+Sbjct  493  S  493
+
+
+>ref|XP_006187168.1| PREDICTED: major centromere autoantigen B [Camelus ferus]
+Length=320
+
+ Score =  129 bits (323),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  260  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  319
+
+Query  64   S  64
+            S
+Sbjct  320  S  320
+
+
+>gb|ELK34526.1| Major centromere autoantigen B [Myotis davidii]
+Length=256
+
+ Score =  127 bits (319),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAG RGLGHQ
+Sbjct  196  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGARGLGHQ  255
+
+Query  64   S  64
+            S
+Sbjct  256  S  256
+
+
+>ref|XP_006109837.1| PREDICTED: LOW QUALITY PROTEIN: centromere protein B, 80kDa [Myotis 
+lucifugus]
+Length=320
+
+ Score =  128 bits (322),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  260  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  319
+
+Query  64   S  64
+            S
+Sbjct  320  S  320
+
+
+>gb|ERE69764.1| major centromere autoantigen B [Cricetulus griseus]
+Length=322
+
+ Score =  128 bits (322),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  262  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  321
+
+Query  64   S  64
+            S
+Sbjct  322  S  322
+
+
+>gb|EHH19884.1| hypothetical protein EGK_02622, partial [Macaca mulatta]
+Length=373
+
+ Score =  129 bits (324),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  313  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  372
+
+Query  64   S  64
+            S
+Sbjct  373  S  373
+
+
+>ref|XP_005068701.1| PREDICTED: major centromere autoantigen B [Mesocricetus auratus]
+Length=498
+
+ Score =  130 bits (326),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  438  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  497
+
+Query  64   S  64
+            S
+Sbjct  498  S  498
+
+
+>ref|XP_005874813.1| PREDICTED: major centromere autoantigen B [Myotis brandtii]
+Length=501
+
+ Score =  129 bits (325),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  441  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  500
+
+Query  64   S  64
+            S
+Sbjct  501  S  501
+
+
+>ref|XP_006207476.1| PREDICTED: major centromere autoantigen B [Vicugna pacos]
+Length=437
+
+ Score =  129 bits (324),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  377  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  436
+
+Query  64   S  64
+            S
+Sbjct  437  S  437
+
+
+>ref|XP_002710933.1| PREDICTED: centromere protein B-like [Oryctolagus cuniculus]
+Length=468
+
+ Score =  129 bits (325),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  408  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  467
+
+Query  64   S  64
+            S
+Sbjct  468  S  468
+
+
+>ref|XP_004840793.1| PREDICTED: major centromere autoantigen B [Heterocephalus glaber]
+Length=549
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  489  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  548
+
+Query  64   S  64
+            S
+Sbjct  549  S  549
+
+
+>ref|XP_005604783.1| PREDICTED: major centromere autoantigen B [Equus caballus]
+Length=573
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  513  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  572
+
+Query  64   S  64
+            S
+Sbjct  573  S  573
+
+
+>ref|XP_003941164.1| PREDICTED: major centromere autoantigen B, partial [Saimiri boliviensis 
+boliviensis]
+Length=429
+
+ Score =  129 bits (324),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  369  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  428
+
+Query  64   S  64
+            S
+Sbjct  429  S  429
+
+
+>gb|EDL80228.1| rCG26705 [Rattus norvegicus]
+Length=491
+
+ Score =  129 bits (325),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  431  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  490
+
+Query  64   S  64
+            S
+Sbjct  491  S  491
+
+
+>ref|XP_002692275.2| PREDICTED: major centromere autoantigen B, partial [Bos taurus]
+Length=567
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  507  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  566
+
+Query  64   S  64
+            S
+Sbjct  567  S  567
+
+
+>tpg|DAA23362.1| TPA: centromere protein B-like [Bos taurus]
+Length=570
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  510  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  569
+
+Query  64   S  64
+            S
+Sbjct  570  S  570
+
+
+>ref|XP_001111455.1| PREDICTED: major centromere autoantigen B-like [Macaca mulatta]
+Length=533
+
+ Score =  129 bits (325),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  473  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  532
+
+Query  64   S  64
+            S
+Sbjct  533  S  533
+
+
+>ref|XP_004433852.1| PREDICTED: major centromere autoantigen B [Ceratotherium simum 
+simum]
+Length=496
+
+ Score =  129 bits (324),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  436  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  495
+
+Query  64   S  64
+            S
+Sbjct  496  S  496
+
+
+>ref|XP_005894040.1| PREDICTED: major centromere autoantigen B, partial [Bos mutus]
+Length=588
+
+ Score =  130 bits (326),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  528  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  587
+
+Query  64   S  64
+            S
+Sbjct  588  S  588
+
+
+>ref|XP_004772995.1| PREDICTED: major centromere autoantigen B, partial [Mustela putorius 
+furo]
+Length=596
+
+ Score =  130 bits (326),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  536  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  595
+
+Query  64   S  64
+            S
+Sbjct  596  S  596
+
+
+>gb|AAB21673.1| major centromere protein, CENP-B [human, Peptide, 594 aa]
+Length=594
+
+ Score =  130 bits (326),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  534  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  593
+
+Query  64   S  64
+            S
+Sbjct  594  S  594
+
+
+>gb|EDL28308.1| centromere protein B [Mus musculus]
+Length=574
+
+ Score =  129 bits (325),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  514  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  573
+
+Query  64   S  64
+            S
+Sbjct  574  S  574
+
+
+>ref|XP_005365642.1| PREDICTED: major centromere autoantigen B [Microtus ochrogaster]
+Length=607
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  547  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  606
+
+Query  64   S  64
+            S
+Sbjct  607  S  607
+
+
+>ref|XP_004634383.1| PREDICTED: major centromere autoantigen B, partial [Octodon degus]
+Length=601
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  541  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  600
+
+Query  64   S  64
+            S
+Sbjct  601  S  601
+
+
+>ref|XP_004065365.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Gorilla gorilla gorilla]
+Length=603
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_006235117.1| PREDICTED: major centromere autoantigen B, partial [Rattus norvegicus]
+Length=601
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  541  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  600
+
+Query  64   S  64
+            S
+Sbjct  601  S  601
+
+
+>ref|XP_003905066.1| PREDICTED: major centromere autoantigen B [Papio anubis]
+ ref|XP_005568496.1| PREDICTED: major centromere autoantigen B [Macaca fascicularis]
+Length=603
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_004792263.1| PREDICTED: major centromere autoantigen B [Mustela putorius furo]
+Length=605
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  545  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  604
+
+Query  64   S  64
+            S
+Sbjct  605  S  605
+
+
+>ref|XP_002918833.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B-like, partial [Ailuropoda melanoleuca]
+Length=606
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_003846068.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Pan paniscus]
+Length=600
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  540  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  599
+
+Query  64   S  64
+            S
+Sbjct  600  S  600
+
+
+>ref|XP_001081194.1| PREDICTED: major centromere autoantigen B [Rattus norvegicus]
+Length=603
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|NP_001801.1| major centromere autoantigen B [Homo sapiens]
+ sp|P07199.2|CENPB_HUMAN RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ emb|CAA38879.1| centromere autoantigen B (CENP-B) [Homo sapiens]
+ gb|AAH53847.1| Centromere protein B, 80kDa [Homo sapiens]
+ dbj|BAG73991.1| centromere protein B, 80kDa [synthetic construct]
+Length=599
+
+ Score =  130 bits (326),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_003983754.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Felis catus]
+Length=606
+
+ Score =  130 bits (326),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_003780519.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Pongo abelii]
+Length=584
+
+ Score =  129 bits (325),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  524  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  583
+
+Query  64   S  64
+            S
+Sbjct  584  S  584
+
+
+>ref|XP_003278053.1| PREDICTED: major centromere autoantigen B [Nomascus leucogenys]
+Length=633
+
+ Score =  130 bits (326),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  573  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  632
+
+Query  64   S  64
+            S
+Sbjct  633  S  633
+
+
+>ref|XP_851406.2| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Canis lupus familiaris]
+Length=606
+
+ Score =  129 bits (325),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>emb|CAA38878.1| centromere autoantigen B (CENP-B) [Mus musculus]
+Length=599
+
+ Score =  129 bits (325),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|NP_031708.2| major centromere autoantigen B [Mus musculus]
+ sp|P27790.2|CENPB_MOUSE RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ gb|AAH53333.1| Centromere protein B [Mus musculus]
+ gb|AAH71269.1| Centromere protein B [Mus musculus]
+ gb|AAH75733.1| Centromere protein B [Mus musculus]
+Length=599
+
+ Score =  129 bits (325),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_004687064.1| PREDICTED: major centromere autoantigen B, partial [Condylura 
+cristata]
+Length=603
+
+ Score =  129 bits (325),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 59/61 (97%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDL+HVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLIHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>gb|EGV92417.1| Major centromere autoantigen B [Cricetulus griseus]
+Length=690
+
+ Score =  130 bits (326),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  630  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  689
+
+Query  64   S  64
+            S
+Sbjct  690  S  690
+
+
+>ref|XP_004886862.1| PREDICTED: major centromere autoantigen B [Heterocephalus glaber]
+Length=686
+
+ Score =  130 bits (326),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  626  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  685
+
+Query  64   S  64
+            S
+Sbjct  686  S  686
+
+
+>ref|XP_003788261.1| PREDICTED: major centromere autoantigen B [Otolemur garnettii]
+Length=767
+
+ Score =  130 bits (326),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  707  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  766
+
+Query  64   S  64
+            S
+Sbjct  767  S  767
+
+
+>ref|XP_005006810.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Cavia porcellus]
+Length=702
+
+ Score =  129 bits (325),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  642  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  701
+
+Query  64   S  64
+            S
+Sbjct  702  S  702
+
+
+>ref|XP_004285387.1| PREDICTED: major centromere autoantigen B [Orcinus orca]
+Length=702
+
+ Score =  129 bits (324),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  642  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  701
+
+Query  64   S  64
+            S
+Sbjct  702  S  702
+
+
+>sp|P49451.1|CENPB_SHEEP RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ gb|AAA79098.1| CENP-B protein, partial [Ovis aries]
+Length=239
+
+ Score =  123 bits (309),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 58/61 (95%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTS PIDDRVQSHILHLEHDLVHVTRKNHARQAG RGLGHQ
+Sbjct  179  VPVPSFGEAMAYFAMVKRYLTSSPIDDRVQSHILHLEHDLVHVTRKNHARQAGARGLGHQ  238
+
+Query  64   S  64
+            S
+Sbjct  239  S  239
+
+
+>ref|XP_004593387.1| PREDICTED: major centromere autoantigen B [Ochotona princeps]
+Length=618
+
+ Score =  127 bits (320),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVR LGHQ
+Sbjct  558  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRALGHQ  617
+
+Query  64   S  64
+            S
+Sbjct  618  S  618
+
+
+>ref|NP_001231328.1| major centromere autoantigen B [Cricetulus griseus]
+ sp|P48988.1|CENPB_CRIGR RecName: Full=Major centromere autoantigen B; Short=Centromere 
+protein B; AltName: Full=CENP-B
+ gb|AAB06494.1| centromere autoantigen protein B [Cricetulus griseus]
+Length=606
+
+ Score =  127 bits (319),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHA QAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHAWQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_006164029.1| PREDICTED: major centromere autoantigen B [Tupaia chinensis]
+ gb|ELV12835.1| Major centromere autoantigen B [Tupaia chinensis]
+Length=606
+
+ Score =  127 bits (318),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGV GLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVWGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_004463863.1| PREDICTED: major centromere autoantigen B, partial [Dasypus novemcinctus]
+Length=309
+
+ Score =  120 bits (302),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 57/61 (93%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPID RVQSHILHLEHDLVHVTRK+HARQAGVRGLGH 
+Sbjct  249  VPVPSFGEAMAYFAMVKRYLTSFPIDGRVQSHILHLEHDLVHVTRKSHARQAGVRGLGHP  308
+
+Query  64   S  64
+            S
+Sbjct  309  S  309
+
+
+>gb|EPY79178.1| major centromere autoantigen B-like protein [Camelus ferus]
+Length=399
+
+ Score =  121 bits (304),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  9    FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  64
+            FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS
+Sbjct  344  FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  399
+
+
+>emb|CAA28918.1| CENP-B [Homo sapiens]
+Length=594
+
+ Score =  122 bits (307),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 57/61 (93%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT KNHARQAG+ GLGHQ
+Sbjct  534  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTMKNHARQAGLLGLGHQ  593
+
+Query  64   S  64
+            S
+Sbjct  594  S  594
+
+
+>ref|XP_004697917.1| PREDICTED: major centromere autoantigen B [Echinops telfairi]
+Length=494
+
+ Score =  120 bits (301),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 55/61 (90%), Positives = 58/61 (95%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KNHARQ G+ G GHQ
+Sbjct  434  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKNHARQVGMWGFGHQ  493
+
+Query  64   S  64
+            S
+Sbjct  494  S  494
+
+
+>ref|XP_004383130.1| PREDICTED: major centromere autoantigen B, partial [Trichechus 
+manatus latirostris]
+Length=592
+
+ Score =  121 bits (303),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 55/61 (90%), Positives = 58/61 (95%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KNHARQ GV G GHQ
+Sbjct  532  VPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKNHARQVGVWGFGHQ  591
+
+Query  64   S  64
+            S
+Sbjct  592  S  592
+
+
+>ref|XP_003758733.1| PREDICTED: major centromere autoantigen B, partial [Sarcophilus 
+harrisii]
+Length=336
+
+ Score =  118 bits (295),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 55/61 (90%), Positives = 57/61 (93%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQA  R L HQ
+Sbjct  274  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQASSRALAHQ  333
+
+Query  64   S  64
+            +
+Sbjct  334  N  334
+
+
+>ref|XP_001508728.1| PREDICTED: major centromere autoantigen B-like [Ornithorhynchus 
+anatinus]
+Length=555
+
+ Score =  115 bits (288),  Expect = 9e-29, Method: Composition-based stats.
+ Identities = 51/61 (84%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTR++HAR  G RG  HQ
+Sbjct  495  VPVPSFGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRRSHARLTGARGFSHQ  554
+
+Query  64   S  64
+            +
+Sbjct  555  N  555
+
+
+>ref|XP_001380458.2| PREDICTED: major centromere autoantigen B-like [Monodelphis domestica]
+Length=588
+
+ Score =  113 bits (282),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 54/61 (89%), Positives = 56/61 (92%), Gaps = 1/61 (2%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQ   R L HQ
+Sbjct  527  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQTS-RALAHQ  585
+
+Query  64   S  64
+            +
+Sbjct  586  N  586
+
+
+>gb|AAH06628.1| Cenpb protein [Mus musculus]
+Length=622
+
+ Score =  103 bits (257),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 47/49 (96%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHA  52
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN A
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNRA  587
+
+
+>ref|WP_006916893.1| F0F1 ATP synthase subunit alpha [Lactobacillus coleohominis]
+ gb|EEU30044.1| ATP synthase F1, alpha subunit [Lactobacillus coleohominis 101-4-CHN]
+Length=519
+
+ Score = 35.8 bits (81),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL S P+DD     IL  E +L +  R NH
+Sbjct  423  GLHQPQPVEQQVVTLYALGHGYLDSLPVDD-----ILRFESELANFMRANH  468
+
+
+>ref|XP_006264584.1| PREDICTED: tigger transposable element-derived protein 4 [Alligator 
+mississippiensis]
+Length=514
+
+ Score = 33.5 bits (75),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  2    SHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRK  49
+            +  P+PS  EA+     ++RYL S  ++D + + +  LE+ + HV  K
+Sbjct  467  TEQPLPSKNEALTALDTLRRYLRSQDLNDSLHNSLADLENFIQHVASK  514
+
+
+>ref|XP_006019217.1| PREDICTED: tigger transposable element-derived protein 4 [Alligator 
+sinensis]
+Length=514
+
+ Score = 33.5 bits (75),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  2    SHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRK  49
+            +  P+PS  EA+     ++RYL S  ++D + + +  LE+ + HV  K
+Sbjct  467  TEQPLPSKNEALTALDTLRRYLRSQDLNDSLHNSLADLENFIQHVASK  514
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310555272468
+Results from round 2
+
+
+Query= 1UFI
+
+Length=64
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_005974861.1|  PREDICTED: major centromere autoantigen B, p...   133    1e-35
+ref|XP_005688291.1|  PREDICTED: major centromere autoantigen B [C...   133    2e-35
+ref|XP_005381189.1|  PREDICTED: major centromere autoantigen B, p...   133    4e-35
+ref|XP_005320674.1|  PREDICTED: major centromere autoantigen B [I...   133    4e-35
+ref|XP_004661541.1|  PREDICTED: major centromere autoantigen B [J...   133    4e-35
+ref|XP_004014769.1|  PREDICTED: major centromere autoantigen B [O...   133    4e-35
+ref|XP_004398282.1|  PREDICTED: major centromere autoantigen B [O...   131    1e-34
+ref|XP_002692275.2|  PREDICTED: major centromere autoantigen B, p...   131    2e-34
+tpg|DAA23362.1|  TPA: centromere protein B-like [Bos taurus]           131    2e-34
+ref|XP_005894040.1|  PREDICTED: major centromere autoantigen B, p...   131    2e-34
+ref|XP_002918833.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   131    3e-34
+ref|XP_004772995.1|  PREDICTED: major centromere autoantigen B, p...   130    3e-34
+ref|XP_003846068.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    3e-34
+gb|AAB21673.1|  major centromere protein, CENP-B [human, Peptide,...   130    4e-34
+ref|XP_004792263.1|  PREDICTED: major centromere autoantigen B [M...   130    4e-34
+ref|XP_006164029.1|  PREDICTED: major centromere autoantigen B [T...   130    4e-34
+ref|XP_003905066.1|  PREDICTED: major centromere autoantigen B [P...   130    4e-34
+ref|XP_001081194.1|  PREDICTED: major centromere autoantigen B [R...   130    4e-34
+ref|XP_006235117.1|  PREDICTED: major centromere autoantigen B, p...   130    4e-34
+ref|XP_851406.2|  PREDICTED: LOW QUALITY PROTEIN: major centromer...   130    4e-34
+ref|XP_005874813.1|  PREDICTED: major centromere autoantigen B [M...   130    4e-34
+ref|XP_004065365.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    4e-34
+ref|NP_001801.1|  major centromere autoantigen B [Homo sapiens] >...   130    4e-34
+ref|XP_005365642.1|  PREDICTED: major centromere autoantigen B [M...   130    4e-34
+ref|XP_004840793.1|  PREDICTED: major centromere autoantigen B [H...   130    4e-34
+ref|XP_003278053.1|  PREDICTED: major centromere autoantigen B [N...   130    5e-34
+ref|XP_004634383.1|  PREDICTED: major centromere autoantigen B, p...   130    5e-34
+ref|XP_003780519.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    5e-34
+ref|XP_003983754.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   130    5e-34
+gb|EDL28308.1|  centromere protein B [Mus musculus]                    130    6e-34
+ref|NP_031708.2|  major centromere autoantigen B [Mus musculus] >...   130    6e-34
+ref|XP_006207476.1|  PREDICTED: major centromere autoantigen B [V...   128    8e-34
+gb|EGV92417.1|  Major centromere autoantigen B [Cricetulus griseus]    130    8e-34
+ref|XP_004687064.1|  PREDICTED: major centromere autoantigen B, p...   129    9e-34
+emb|CAA38878.1|  centromere autoantigen B (CENP-B) [Mus musculus]      129    1e-33
+ref|XP_002710933.1|  PREDICTED: centromere protein B-like [Orycto...   128    1e-33
+gb|EDL80228.1|  rCG26705 [Rattus norvegicus]                           128    1e-33
+ref|XP_004886862.1|  PREDICTED: major centromere autoantigen B [H...   130    1e-33
+ref|XP_004383130.1|  PREDICTED: major centromere autoantigen B, p...   128    1e-33
+ref|XP_001111455.1|  PREDICTED: major centromere autoantigen B-li...   128    2e-33
+ref|XP_004433852.1|  PREDICTED: major centromere autoantigen B [C...   128    2e-33
+ref|XP_005068701.1|  PREDICTED: major centromere autoantigen B [M...   127    2e-33
+ref|XP_004697917.1|  PREDICTED: major centromere autoantigen B [E...   127    3e-33
+ref|XP_003941164.1|  PREDICTED: major centromere autoantigen B, p...   127    3e-33
+ref|XP_004593387.1|  PREDICTED: major centromere autoantigen B [O...   128    3e-33
+ref|XP_005604783.1|  PREDICTED: major centromere autoantigen B [E...   127    4e-33
+ref|XP_004285387.1|  PREDICTED: major centromere autoantigen B [O...   128    5e-33
+ref|XP_003788261.1|  PREDICTED: major centromere autoantigen B [O...   128    5e-33
+ref|NP_001231328.1|  major centromere autoantigen B [Cricetulus g...   127    5e-33
+gb|EHH19884.1|  hypothetical protein EGK_02622, partial [Macaca m...   125    8e-33
+gb|ELK34526.1|  Major centromere autoantigen B [Myotis davidii]        122    1e-32
+ref|XP_001508728.1|  PREDICTED: major centromere autoantigen B-li...   126    1e-32
+ref|XP_005006810.1|  PREDICTED: LOW QUALITY PROTEIN: major centro...   127    1e-32
+gb|AAH12297.1|  Unknown (protein for IMAGE:3447254), partial [Hom...   119    1e-32
+ref|XP_530325.2|  PREDICTED: major centromere autoantigen B [Pan ...   120    1e-32
+ref|XP_006187168.1|  PREDICTED: major centromere autoantigen B [C...   123    2e-32
+gb|ERE69764.1|  major centromere autoantigen B [Cricetulus griseus]    122    4e-32
+sp|P49451.1|CENPB_SHEEP  RecName: Full=Major centromere autoantig...   121    4e-32
+ref|XP_006109837.1|  PREDICTED: LOW QUALITY PROTEIN: centromere p...   122    5e-32
+emb|CAA28918.1|  CENP-B [Homo sapiens]                                 124    5e-32
+ref|XP_005672832.1|  PREDICTED: major centromere autoantigen B, p...   118    1e-31
+gb|EPY79178.1|  major centromere autoantigen B-like protein [Came...   121    2e-31
+ref|XP_001255461.2|  PREDICTED: major centromere autoantigen B [B...   116    4e-31
+pdb|1UFI|A  Chain A, Crystal Structure Of The Dimerization Domain...   113    4e-31
+ref|XP_003758733.1|  PREDICTED: major centromere autoantigen B, p...   119    7e-31
+dbj|BAE34678.1|  unnamed protein product [Mus musculus]                115    8e-31
+ref|XP_001380458.2|  PREDICTED: major centromere autoantigen B-li...   120    1e-30
+gb|EHB04308.1|  Major centromere autoantigen B [Heterocephalus gl...   115    4e-30
+ref|XP_004463863.1|  PREDICTED: major centromere autoantigen B, p...   115    1e-29
+gb|AAB70166.1|  centromere protein B [Homo sapiens]                    105    4e-28
+gb|AAH06628.1|  Cenpb protein [Mus musculus]                           108    8e-26
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_006916893.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  35.0    2.0  
+ref|WP_023465651.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  34.2    4.1  
+ref|WP_021350205.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  33.8    4.2  
+ref|YP_005848448.1|  ATP synthase subunit alpha [Lactobacillus fe...  33.8    4.2  
+ref|WP_003685872.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  33.8    4.2  
+ref|WP_003682744.1|  F0F1 ATP synthase subunit alpha [Lactobacill...  33.8    4.2  
+ref|YP_001843255.1|  F1F0-ATPase subunit alpha [Lactobacillus fer...  33.8    4.2  
+ref|YP_003796075.1|  ATP synthase F1 subunit alpha [Candidatus Ni...  33.8    4.5  
+ref|WP_016251815.1|  ATP synthase subunit alpha [Enterococcus cec...  33.8    5.2  
+ref|XP_001936750.1|  predicted protein [Pyrenophora tritici-repen...  33.5    7.3  
+ref|XP_006264584.1|  PREDICTED: tigger transposable element-deriv...  33.1    8.6  
+ref|XP_006019217.1|  PREDICTED: tigger transposable element-deriv...  33.1    8.6  
+
+
+>ref|XP_005974861.1| PREDICTED: major centromere autoantigen B, partial [Pantholops 
+hodgsonii]
+Length=412
+
+ Score =  133 bits (334),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  352  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  411
+
+Query  64   S  64
+            S
+Sbjct  412  S  412
+
+
+>ref|XP_005688291.1| PREDICTED: major centromere autoantigen B [Capra hircus]
+Length=524
+
+ Score =  133 bits (335),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  464  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  523
+
+Query  64   S  64
+            S
+Sbjct  524  S  524
+
+
+>ref|XP_005381189.1| PREDICTED: major centromere autoantigen B, partial [Chinchilla 
+lanigera]
+Length=599
+
+ Score =  133 bits (335),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_005320674.1| PREDICTED: major centromere autoantigen B [Ictidomys tridecemlineatus]
+Length=605
+
+ Score =  133 bits (335),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  545  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  604
+
+Query  64   S  64
+            S
+Sbjct  605  S  605
+
+
+>ref|XP_004661541.1| PREDICTED: major centromere autoantigen B [Jaculus jaculus]
+Length=603
+
+ Score =  133 bits (335),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_004014769.1| PREDICTED: major centromere autoantigen B [Ovis aries]
+Length=617
+
+ Score =  133 bits (335),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  557  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  616
+
+Query  64   S  64
+            S
+Sbjct  617  S  617
+
+
+>ref|XP_004398282.1| PREDICTED: major centromere autoantigen B [Odobenus rosmarus 
+divergens]
+Length=493
+
+ Score =  131 bits (329),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  433  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  492
+
+Query  64   S  64
+            S
+Sbjct  493  S  493
+
+
+>ref|XP_002692275.2| PREDICTED: major centromere autoantigen B, partial [Bos taurus]
+Length=567
+
+ Score =  131 bits (329),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  507  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  566
+
+Query  64   S  64
+            S
+Sbjct  567  S  567
+
+
+>tpg|DAA23362.1| TPA: centromere protein B-like [Bos taurus]
+Length=570
+
+ Score =  131 bits (329),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  510  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  569
+
+Query  64   S  64
+            S
+Sbjct  570  S  570
+
+
+>ref|XP_005894040.1| PREDICTED: major centromere autoantigen B, partial [Bos mutus]
+Length=588
+
+ Score =  131 bits (329),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  528  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  587
+
+Query  64   S  64
+            S
+Sbjct  588  S  588
+
+
+>ref|XP_002918833.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B-like, partial [Ailuropoda melanoleuca]
+Length=606
+
+ Score =  131 bits (329),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_004772995.1| PREDICTED: major centromere autoantigen B, partial [Mustela putorius 
+furo]
+Length=596
+
+ Score =  130 bits (328),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  536  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  595
+
+Query  64   S  64
+            S
+Sbjct  596  S  596
+
+
+>ref|XP_003846068.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Pan paniscus]
+Length=600
+
+ Score =  130 bits (328),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  540  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  599
+
+Query  64   S  64
+            S
+Sbjct  600  S  600
+
+
+>gb|AAB21673.1| major centromere protein, CENP-B [human, Peptide, 594 aa]
+Length=594
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  534  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  593
+
+Query  64   S  64
+            S
+Sbjct  594  S  594
+
+
+>ref|XP_004792263.1| PREDICTED: major centromere autoantigen B [Mustela putorius furo]
+Length=605
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  545  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  604
+
+Query  64   S  64
+            S
+Sbjct  605  S  605
+
+
+>ref|XP_006164029.1| PREDICTED: major centromere autoantigen B [Tupaia chinensis]
+ gb|ELV12835.1| Major centromere autoantigen B [Tupaia chinensis]
+Length=606
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGV GLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVWGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_003905066.1| PREDICTED: major centromere autoantigen B [Papio anubis]
+ ref|XP_005568496.1| PREDICTED: major centromere autoantigen B [Macaca fascicularis]
+Length=603
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_001081194.1| PREDICTED: major centromere autoantigen B [Rattus norvegicus]
+Length=603
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|XP_006235117.1| PREDICTED: major centromere autoantigen B, partial [Rattus norvegicus]
+Length=601
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  541  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  600
+
+Query  64   S  64
+            S
+Sbjct  601  S  601
+
+
+>ref|XP_851406.2| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Canis lupus familiaris]
+Length=606
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>ref|XP_005874813.1| PREDICTED: major centromere autoantigen B [Myotis brandtii]
+Length=501
+
+ Score =  130 bits (326),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  441  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  500
+
+Query  64   S  64
+            S
+Sbjct  501  S  501
+
+
+>ref|XP_004065365.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Gorilla gorilla gorilla]
+Length=603
+
+ Score =  130 bits (328),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>ref|NP_001801.1| major centromere autoantigen B [Homo sapiens]
+ sp|P07199.2|CENPB_HUMAN RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ emb|CAA38879.1| centromere autoantigen B (CENP-B) [Homo sapiens]
+ gb|AAH53847.1| Centromere protein B, 80kDa [Homo sapiens]
+ dbj|BAG73991.1| centromere protein B, 80kDa [synthetic construct]
+Length=599
+
+ Score =  130 bits (327),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_005365642.1| PREDICTED: major centromere autoantigen B [Microtus ochrogaster]
+Length=607
+
+ Score =  130 bits (327),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  547  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  606
+
+Query  64   S  64
+            S
+Sbjct  607  S  607
+
+
+>ref|XP_004840793.1| PREDICTED: major centromere autoantigen B [Heterocephalus glaber]
+Length=549
+
+ Score =  130 bits (326),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  489  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  548
+
+Query  64   S  64
+            S
+Sbjct  549  S  549
+
+
+>ref|XP_003278053.1| PREDICTED: major centromere autoantigen B [Nomascus leucogenys]
+Length=633
+
+ Score =  130 bits (328),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  573  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  632
+
+Query  64   S  64
+            S
+Sbjct  633  S  633
+
+
+>ref|XP_004634383.1| PREDICTED: major centromere autoantigen B, partial [Octodon degus]
+Length=601
+
+ Score =  130 bits (327),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  541  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  600
+
+Query  64   S  64
+            S
+Sbjct  601  S  601
+
+
+>ref|XP_003780519.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Pongo abelii]
+Length=584
+
+ Score =  130 bits (326),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  524  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  583
+
+Query  64   S  64
+            S
+Sbjct  584  S  584
+
+
+>ref|XP_003983754.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Felis catus]
+Length=606
+
+ Score =  130 bits (327),  Expect = 5e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>gb|EDL28308.1| centromere protein B [Mus musculus]
+Length=574
+
+ Score =  130 bits (326),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  514  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  573
+
+Query  64   S  64
+            S
+Sbjct  574  S  574
+
+
+>ref|NP_031708.2| major centromere autoantigen B [Mus musculus]
+ sp|P27790.2|CENPB_MOUSE RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ gb|AAH53333.1| Centromere protein B [Mus musculus]
+ gb|AAH71269.1| Centromere protein B [Mus musculus]
+ gb|AAH75733.1| Centromere protein B [Mus musculus]
+Length=599
+
+ Score =  130 bits (326),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_006207476.1| PREDICTED: major centromere autoantigen B [Vicugna pacos]
+Length=437
+
+ Score =  128 bits (322),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  377  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  436
+
+Query  64   S  64
+            S
+Sbjct  437  S  437
+
+
+>gb|EGV92417.1| Major centromere autoantigen B [Cricetulus griseus]
+Length=690
+
+ Score =  130 bits (327),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  630  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  689
+
+Query  64   S  64
+            S
+Sbjct  690  S  690
+
+
+>ref|XP_004687064.1| PREDICTED: major centromere autoantigen B, partial [Condylura 
+cristata]
+Length=603
+
+ Score =  129 bits (325),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 59/61 (97%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDL+HVTRKNHARQAGVRGLGHQ
+Sbjct  543  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLIHVTRKNHARQAGVRGLGHQ  602
+
+Query  64   S  64
+            S
+Sbjct  603  S  603
+
+
+>emb|CAA38878.1| centromere autoantigen B (CENP-B) [Mus musculus]
+Length=599
+
+ Score =  129 bits (325),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  598
+
+Query  64   S  64
+            S
+Sbjct  599  S  599
+
+
+>ref|XP_002710933.1| PREDICTED: centromere protein B-like [Oryctolagus cuniculus]
+Length=468
+
+ Score =  128 bits (322),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  408  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  467
+
+Query  64   S  64
+            S
+Sbjct  468  S  468
+
+
+>gb|EDL80228.1| rCG26705 [Rattus norvegicus]
+Length=491
+
+ Score =  128 bits (322),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  431  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  490
+
+Query  64   S  64
+            S
+Sbjct  491  S  491
+
+
+>ref|XP_004886862.1| PREDICTED: major centromere autoantigen B [Heterocephalus glaber]
+Length=686
+
+ Score =  130 bits (326),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  626  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  685
+
+Query  64   S  64
+            S
+Sbjct  686  S  686
+
+
+>ref|XP_004383130.1| PREDICTED: major centromere autoantigen B, partial [Trichechus 
+manatus latirostris]
+Length=592
+
+ Score =  128 bits (323),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 55/61 (90%), Positives = 58/61 (95%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVP+FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KNHARQ GV G GHQ
+Sbjct  532  VPVPTFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKNHARQVGVWGFGHQ  591
+
+Query  64   S  64
+            S
+Sbjct  592  S  592
+
+
+>ref|XP_001111455.1| PREDICTED: major centromere autoantigen B-like [Macaca mulatta]
+Length=533
+
+ Score =  128 bits (322),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  473  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  532
+
+Query  64   S  64
+            S
+Sbjct  533  S  533
+
+
+>ref|XP_004433852.1| PREDICTED: major centromere autoantigen B [Ceratotherium simum 
+simum]
+Length=496
+
+ Score =  128 bits (321),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  436  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  495
+
+Query  64   S  64
+            S
+Sbjct  496  S  496
+
+
+>ref|XP_005068701.1| PREDICTED: major centromere autoantigen B [Mesocricetus auratus]
+Length=498
+
+ Score =  127 bits (320),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  438  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  497
+
+Query  64   S  64
+            S
+Sbjct  498  S  498
+
+
+>ref|XP_004697917.1| PREDICTED: major centromere autoantigen B [Echinops telfairi]
+Length=494
+
+ Score =  127 bits (319),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 55/61 (90%), Positives = 58/61 (95%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT+KNHARQ G+ G GHQ
+Sbjct  434  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTKKNHARQVGMWGFGHQ  493
+
+Query  64   S  64
+            S
+Sbjct  494  S  494
+
+
+>ref|XP_003941164.1| PREDICTED: major centromere autoantigen B, partial [Saimiri boliviensis 
+boliviensis]
+Length=429
+
+ Score =  127 bits (318),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  369  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  428
+
+Query  64   S  64
+            S
+Sbjct  429  S  429
+
+
+>ref|XP_004593387.1| PREDICTED: major centromere autoantigen B [Ochotona princeps]
+Length=618
+
+ Score =  128 bits (322),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVR LGHQ
+Sbjct  558  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRALGHQ  617
+
+Query  64   S  64
+            S
+Sbjct  618  S  618
+
+
+>ref|XP_005604783.1| PREDICTED: major centromere autoantigen B [Equus caballus]
+Length=573
+
+ Score =  127 bits (320),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  513  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  572
+
+Query  64   S  64
+            S
+Sbjct  573  S  573
+
+
+>ref|XP_004285387.1| PREDICTED: major centromere autoantigen B [Orcinus orca]
+Length=702
+
+ Score =  128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  642  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  701
+
+Query  64   S  64
+            S
+Sbjct  702  S  702
+
+
+>ref|XP_003788261.1| PREDICTED: major centromere autoantigen B [Otolemur garnettii]
+Length=767
+
+ Score =  128 bits (323),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  707  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  766
+
+Query  64   S  64
+            S
+Sbjct  767  S  767
+
+
+>ref|NP_001231328.1| major centromere autoantigen B [Cricetulus griseus]
+ sp|P48988.1|CENPB_CRIGR RecName: Full=Major centromere autoantigen B; Short=Centromere 
+protein B; AltName: Full=CENP-B
+ gb|AAB06494.1| centromere autoantigen protein B [Cricetulus griseus]
+Length=606
+
+ Score =  127 bits (320),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHA QAGVRGLGHQ
+Sbjct  546  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHAWQAGVRGLGHQ  605
+
+Query  64   S  64
+            S
+Sbjct  606  S  606
+
+
+>gb|EHH19884.1| hypothetical protein EGK_02622, partial [Macaca mulatta]
+Length=373
+
+ Score =  125 bits (314),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  313  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  372
+
+Query  64   S  64
+            S
+Sbjct  373  S  373
+
+
+>gb|ELK34526.1| Major centromere autoantigen B [Myotis davidii]
+Length=256
+
+ Score =  122 bits (307),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 59/61 (97%), Positives = 60/61 (98%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAG RGLGHQ
+Sbjct  196  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGARGLGHQ  255
+
+Query  64   S  64
+            S
+Sbjct  256  S  256
+
+
+>ref|XP_001508728.1| PREDICTED: major centromere autoantigen B-like [Ornithorhynchus 
+anatinus]
+Length=555
+
+ Score =  126 bits (316),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 51/61 (84%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPID+RVQSHILHLEHDLVHVTR++HAR  G RG  HQ
+Sbjct  495  VPVPSFGEAMAYFAMVKRYLTSFPIDERVQSHILHLEHDLVHVTRRSHARLTGARGFSHQ  554
+
+Query  64   S  64
+            +
+Sbjct  555  N  555
+
+
+>ref|XP_005006810.1| PREDICTED: LOW QUALITY PROTEIN: major centromere autoantigen 
+B [Cavia porcellus]
+Length=702
+
+ Score =  127 bits (319),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  642  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  701
+
+Query  64   S  64
+            S
+Sbjct  702  S  702
+
+
+>gb|AAH12297.1| Unknown (protein for IMAGE:3447254), partial [Homo sapiens]
+Length=138
+
+ Score =  119 bits (298),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  78   VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  137
+
+Query  64   S  64
+            S
+Sbjct  138  S  138
+
+
+>ref|XP_530325.2| PREDICTED: major centromere autoantigen B [Pan troglodytes]
+Length=189
+
+ Score =  120 bits (302),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  129  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  188
+
+Query  64   S  64
+            S
+Sbjct  189  S  189
+
+
+>ref|XP_006187168.1| PREDICTED: major centromere autoantigen B [Camelus ferus]
+Length=320
+
+ Score =  123 bits (309),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  260  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  319
+
+Query  64   S  64
+            S
+Sbjct  320  S  320
+
+
+>gb|ERE69764.1| major centromere autoantigen B [Cricetulus griseus]
+Length=322
+
+ Score =  122 bits (307),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  262  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  321
+
+Query  64   S  64
+            S
+Sbjct  322  S  322
+
+
+>sp|P49451.1|CENPB_SHEEP RecName: Full=Major centromere autoantigen B; AltName: Full=Centromere 
+protein B; Short=CENP-B
+ gb|AAA79098.1| CENP-B protein, partial [Ovis aries]
+Length=239
+
+ Score =  121 bits (303),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 58/61 (95%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTS PIDDRVQSHILHLEHDLVHVTRKNHARQAG RGLGHQ
+Sbjct  179  VPVPSFGEAMAYFAMVKRYLTSSPIDDRVQSHILHLEHDLVHVTRKNHARQAGARGLGHQ  238
+
+Query  64   S  64
+            S
+Sbjct  239  S  239
+
+
+>ref|XP_006109837.1| PREDICTED: LOW QUALITY PROTEIN: centromere protein B, 80kDa [Myotis 
+lucifugus]
+Length=320
+
+ Score =  122 bits (306),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  260  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  319
+
+Query  64   S  64
+            S
+Sbjct  320  S  320
+
+
+>emb|CAA28918.1| CENP-B [Homo sapiens]
+Length=594
+
+ Score =  124 bits (312),  Expect = 5e-32, Method: Composition-based stats.
+ Identities = 57/61 (93%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVT KNHARQAG+ GLGHQ
+Sbjct  534  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTMKNHARQAGLLGLGHQ  593
+
+Query  64   S  64
+            S
+Sbjct  594  S  594
+
+
+>ref|XP_005672832.1| PREDICTED: major centromere autoantigen B, partial [Sus scrofa]
+Length=184
+
+ Score =  118 bits (295),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  124  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  183
+
+Query  64   S  64
+            S
+Sbjct  184  S  184
+
+
+>gb|EPY79178.1| major centromere autoantigen B-like protein [Camelus ferus]
+Length=399
+
+ Score =  121 bits (304),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  9    FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  64
+            FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS
+Sbjct  344  FGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  399
+
+
+>ref|XP_001255461.2| PREDICTED: major centromere autoantigen B [Bos taurus]
+Length=179
+
+ Score =  116 bits (291),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  119  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  178
+
+Query  64   S  64
+            S
+Sbjct  179  S  179
+
+
+>pdb|1UFI|A Chain A, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|B Chain B, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|C Chain C, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+ pdb|1UFI|D Chain D, Crystal Structure Of The Dimerization Domain Of Human 
+Cenp-B
+Length=64
+
+ Score =  113 bits (282),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 64/64 (100%), Positives = 64/64 (100%), Gaps = 0/64 (0%)
+
+Query  1   GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL  60
+           GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL
+Sbjct  1   GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGL  60
+
+Query  61  GHQS  64
+           GHQS
+Sbjct  61  GHQS  64
+
+
+>ref|XP_003758733.1| PREDICTED: major centromere autoantigen B, partial [Sarcophilus 
+harrisii]
+Length=336
+
+ Score =  119 bits (299),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 55/61 (90%), Positives = 57/61 (93%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQA  R L HQ
+Sbjct  274  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQASSRALAHQ  333
+
+Query  64   S  64
+            +
+Sbjct  334  N  334
+
+
+>dbj|BAE34678.1| unnamed protein product [Mus musculus]
+Length=174
+
+ Score =  115 bits (289),  Expect = 8e-31, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  114  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  173
+
+Query  64   S  64
+            S
+Sbjct  174  S  174
+
+
+>ref|XP_001380458.2| PREDICTED: major centromere autoantigen B-like [Monodelphis domestica]
+Length=588
+
+ Score =  120 bits (302),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 54/61 (89%), Positives = 56/61 (92%), Gaps = 1/61 (2%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQ   R L HQ
+Sbjct  527  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQTS-RALAHQ  585
+
+Query  64   S  64
+            +
+Sbjct  586  N  586
+
+
+>gb|EHB04308.1| Major centromere autoantigen B [Heterocephalus glaber]
+Length=219
+
+ Score =  115 bits (287),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 60/61 (98%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ
+Sbjct  159  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  218
+
+Query  64   S  64
+            S
+Sbjct  219  S  219
+
+
+>ref|XP_004463863.1| PREDICTED: major centromere autoantigen B, partial [Dasypus novemcinctus]
+Length=309
+
+ Score =  115 bits (289),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 57/61 (93%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQ  63
+            +PVPSFGEAMAYFAMVKRYLTSFPID RVQSHILHLEHDLVHVTRK+HARQAGVRGLGH 
+Sbjct  249  VPVPSFGEAMAYFAMVKRYLTSFPIDGRVQSHILHLEHDLVHVTRKSHARQAGVRGLGHP  308
+
+Query  64   S  64
+            S
+Sbjct  309  S  309
+
+
+>gb|AAB70166.1| centromere protein B [Homo sapiens]
+Length=59
+
+ Score =  105 bits (262),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 59/59 (100%), Positives = 59/59 (100%), Gaps = 0/59 (0%)
+
+Query  6   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  64
+           VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS
+Sbjct  1   VPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGHQS  59
+
+
+>gb|AAH06628.1| Cenpb protein [Mus musculus]
+Length=622
+
+ Score =  108 bits (269),  Expect = 8e-26, Method: Composition-based stats.
+ Identities = 47/49 (96%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
+
+Query  4    MPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNHA  52
+            +PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKN A
+Sbjct  539  VPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNRA  587
+
+
+>ref|WP_006916893.1| F0F1 ATP synthase subunit alpha [Lactobacillus coleohominis]
+ gb|EEU30044.1| ATP synthase F1, alpha subunit [Lactobacillus coleohominis 101-4-CHN]
+Length=519
+
+ Score = 35.0 bits (79),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL S P+DD     IL  E +L +  R NH
+Sbjct  423  GLHQPQPVEQQVVTLYALGHGYLDSLPVDD-----ILRFESELANFMRANH  468
+
+
+>ref|WP_023465651.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ gb|ESS02085.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum NB-22]
+Length=512
+
+ Score = 34.2 bits (77),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GIHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|WP_021350205.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ gb|ERJ50326.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum 3872]
+Length=512
+
+ Score = 33.8 bits (76),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GLHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|YP_005848448.1| ATP synthase subunit alpha [Lactobacillus fermentum CECT 5716]
+ ref|YP_007994671.1| ATP synthase subunit alpha [Lactobacillus fermentum F-6]
+ ref|WP_014562217.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ gb|ADJ40954.1| ATP synthase subunit alpha [Lactobacillus fermentum CECT 5716]
+ gb|AGL88388.1| ATP synthase subunit alpha [Lactobacillus fermentum F-6]
+Length=512
+
+ Score = 33.8 bits (76),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GLHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|WP_003685872.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ gb|EEX25198.1| ATP synthase F1, alpha subunit [Lactobacillus fermentum 28-3-CHN]
+ gb|EQC58844.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum MTCC 
+8711]
+Length=512
+
+ Score = 33.8 bits (76),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GLHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|WP_003682744.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ gb|EEI22477.1| ATP synthase F1, alpha subunit [Lactobacillus fermentum ATCC 
+14931]
+Length=512
+
+ Score = 33.8 bits (76),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GLHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|YP_001843255.1| F1F0-ATPase subunit alpha [Lactobacillus fermentum IFO 3956]
+ ref|WP_012390921.1| F0F1 ATP synthase subunit alpha [Lactobacillus fermentum]
+ sp|B2GAU3.1|ATPA_LACF3 RecName: Full=ATP synthase subunit alpha; AltName: Full=ATP synthase 
+F1 sector subunit alpha; AltName: Full=F-ATPase subunit 
+alpha
+ dbj|BAG26775.1| F1F0-ATPase alpha subunit [Lactobacillus fermentum IFO 3956]
+Length=512
+
+ Score = 33.8 bits (76),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 23/51 (45%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G H P P   + +  +A+   YL   P+DD     +L  E +L    R NH
+Sbjct  423  GLHAPQPVEQQVVTLYALAHNYLDDVPVDD-----VLRFESELATFMRSNH  468
+
+
+>ref|YP_003796075.1| ATP synthase F1 subunit alpha [Candidatus Nitrospira defluvii]
+ ref|WP_013246975.1| F0F1 ATP synthase subunit alpha [Candidatus Nitrospira defluvii]
+ emb|CBK40149.1| ATP synthase F1, alpha subunit [Candidatus Nitrospira defluvii]
+Length=505
+
+ Score = 33.8 bits (76),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 26/51 (51%), Gaps = 5/51 (10%)
+
+Query  1    GSHMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            G + P+P   + ++ +A V  +L   P+D      +L  E DL+H   +NH
+Sbjct  423  GQYKPMPVADQVLSIYAGVNGFLDDVPVDK-----VLQFEADLLHYVAQNH  468
+
+
+>ref|WP_016251815.1| ATP synthase subunit alpha [Enterococcus cecorum]
+ gb|EOX17762.1| ATP synthase subunit alpha [Enterococcus cecorum DSM 20682 = 
+ATCC 43198]
+ gb|ESK62492.1| ATP synthase subunit alpha [Enterococcus cecorum DSM 20682 = 
+ATCC 43198]
+Length=521
+
+ Score = 33.8 bits (76),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 5/49 (10%)
+
+Query  3    HMPVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRKNH  51
+            H P+P   + +  +A+ K +L + P+D     HIL  E +L      NH
+Sbjct  425  HAPLPVEKQVVILYALTKGFLDAIPVD-----HILRFESELFEYMEANH  468
+
+
+>ref|XP_001936750.1| predicted protein [Pyrenophora tritici-repentis Pt-1C-BFP]
+ gb|EDU49337.1| predicted protein [Pyrenophora tritici-repentis Pt-1C-BFP]
+Length=1711
+
+ Score = 33.5 bits (75),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 27/53 (51%), Gaps = 5/53 (9%)
+
+Query  15    YFAMVKRYLTS-----FPIDDRVQSHILHLEHDLVHVTRKNHARQAGVRGLGH  62
+             +F  +K Y  S     FP+++ ++ H L   HD+    +++ AR   +RG  H
+Sbjct  1272  FFPSLKEYYKSGEPAEFPVEEEIEKHALEEIHDIHPTQKRSSARLRPMRGNSH  1324
+
+
+>ref|XP_006264584.1| PREDICTED: tigger transposable element-derived protein 4 [Alligator 
+mississippiensis]
+Length=514
+
+ Score = 33.1 bits (74),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  5    PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRK  49
+            P+PS  EA+     ++RYL S  ++D + + +  LE+ + HV  K
+Sbjct  470  PLPSKNEALTALDTLRRYLRSQDLNDSLHNSLADLENFIQHVASK  514
+
+
+>ref|XP_006019217.1| PREDICTED: tigger transposable element-derived protein 4 [Alligator 
+sinensis]
+Length=514
+
+ Score = 33.1 bits (74),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 26/45 (58%), Gaps = 0/45 (0%)
+
+Query  5    PVPSFGEAMAYFAMVKRYLTSFPIDDRVQSHILHLEHDLVHVTRK  49
+            P+PS  EA+     ++RYL S  ++D + + +  LE+ + HV  K
+Sbjct  470  PLPSKNEALTALDTLRRYLRSQDLNDSLHNSLADLENFIQHVASK  514
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310555272468
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

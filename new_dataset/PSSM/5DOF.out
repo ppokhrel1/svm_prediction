@@ -1,0 +1,573 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 5DOF
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|ACJ61512.1|  telomerase-associated protein 19 [Tetrahymena the...   328    7e-113
+ref|XP_001024077.1|  hypothetical protein TTHERM_00658760 [Tetrah...   329    1e-112
+ref|WP_003000515.1|  HEAT repeat protein [Leptospira weilii] >gb|...  36.6    3.8   
+ref|WP_016404896.1|  cell division protein sepF [Clostridium sp. ...  35.8    4.7   
+ref|WP_023649008.1|  hypothetical protein [Candidatus Pelagibacte...  36.2    5.9   
+ref|WP_021219095.1|  hypothetical protein [Pseudomonas aeruginosa...  36.2    6.5   
+ref|XP_454896.1|  hypothetical protein [Kluyveromyces lactis NRRL...  35.8    7.5   
+ref|WP_007019546.1|  hypothetical protein [Neptuniibacter caesari...  35.4    8.6   
+
+
+>gb|ACJ61512.1| telomerase-associated protein 19 [Tetrahymena thermophila]
+Length=164
+
+ Score =  328 bits (842),  Expect = 7e-113, Method: Compositional matrix adjust.
+ Identities = 163/163 (100%), Positives = 163/163 (100%), Gaps = 0/163 (0%)
+
+Query  1    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  60
+            QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN
+Sbjct  2    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  61
+
+Query  61   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  120
+            LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD
+Sbjct  62   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  121
+
+Query  121  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN
+Sbjct  122  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  164
+
+
+>ref|XP_001024077.1| hypothetical protein TTHERM_00658760 [Tetrahymena thermophila]
+ gb|EAS03832.1| hypothetical protein TTHERM_00658760 [Tetrahymena thermophila 
+SB210]
+Length=174
+
+ Score =  329 bits (843),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 163/163 (100%), Positives = 163/163 (100%), Gaps = 0/163 (0%)
+
+Query  1    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  60
+            QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN
+Sbjct  12   QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  71
+
+Query  61   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  120
+            LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD
+Sbjct  72   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  131
+
+Query  121  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN
+Sbjct  132  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  174
+
+
+>ref|WP_003000515.1| HEAT repeat protein [Leptospira weilii]
+ gb|EMY78236.1| HEAT repeat protein [Leptospira weilii serovar Ranarum str. ICFT]
+Length=410
+
+ Score = 36.6 bits (83),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 18/35 (51%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  35   SVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKN  69
+            SV   G+ K F   STI+E+L+KI+NL +KE  KN
+Sbjct  227  SVSALGKMKSFSSMSTIKEELEKIRNLKNKEEVKN  261
+
+
+>ref|WP_016404896.1| cell division protein sepF [Clostridium sp. CAG:1013]
+ emb|CCX37437.1| cell division protein sepF [Clostridium sp. CAG:1013]
+Length=162
+
+ Score = 35.8 bits (81),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 31/123 (25%), Positives = 56/123 (46%), Gaps = 15/123 (12%)
+
+Query  26   IQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQ  85
+            + D  S   S R    F  F P+S      +++ N+++K   +  +FK +S   +     
+Sbjct  32   VSDRGSYTESRRSSYSFSDFAPRSE-SSGGNRVVNINAKAQLQVVLFKPISFGEETRAVA  90
+
+Query  86   DELSHDYYGYFKVQQHQFILNLENAQREASLAVDDF-----YFINGRIYKTNHDILILQA  140
+            DEL         +++H  +LNLE  ++E S  + DF     Y  NG+I +   +  I+  
+Sbjct  91   DEL---------LKRHTVVLNLEKTEKEVSRRIVDFLSGVAYANNGKIKRIATNTFIITP  141
+
+Query  141  HHV  143
+            ++V
+Sbjct  142  YNV  144
+
+
+>ref|WP_023649008.1| hypothetical protein [Candidatus Pelagibacter ubique]
+Length=302
+
+ Score = 36.2 bits (82),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 34/60 (57%), Gaps = 1/60 (2%)
+
+Query  60   NLSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQR-EASLAV  118
+            NL SK +       F   Y K ++K    S+DYYG +K+  H+ I+ ++N ++ +AS A+
+Sbjct  109  NLRSKLIFAGSSLMFKDTYKKVSEKTTLKSNDYYGNYKIDAHKMIMRMKNEKKIDASTAI  168
+
+
+>ref|WP_021219095.1| hypothetical protein [Pseudomonas aeruginosa group]
+ gb|EQM69646.1| hypothetical protein L682_01590 [Pseudomonas alcaligenes OT 69]
+ gb|ERZ44046.1| hypothetical protein Q001_01490 [Pseudomonas aeruginosa CF127]
+Length=578
+
+ Score = 36.2 bits (82),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 38/78 (49%), Gaps = 12/78 (15%)
+
+Query  43   KCFVPKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFK---VQ  99
+            K  +P+  + E  DK   L++ +L +  I         NNQK+ ++ HD+Y  FK   + 
+Sbjct  488  KTGIPEDQVAEVADKANRLANLQLLEGSI---------NNQKRQKMPHDWYAQFKPDALA  538
+
+Query  100  QHQFILNLENAQREASLA  117
+            + Q++  LE      SLA
+Sbjct  539  RQQYLAGLEITDLPESLA  556
+
+
+>ref|XP_454896.1| hypothetical protein [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG99983.1| KLLA0E20923p [Kluyveromyces lactis]
+Length=436
+
+ Score = 35.8 bits (81),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 30/97 (31%), Positives = 43/97 (44%), Gaps = 9/97 (9%)
+
+Query  47   PKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILN  106
+            P   ++ Q+DK K LS K L     F+FL E NKN   +   SH  + Y +    + +L 
+Sbjct  86   PPIKLKLQVDKNKTLSKKILVVEVYFEFLEELNKNEHPEGRFSHHNHAYTQKVSGKILLG  145
+
+Query  107  LENAQREASLAVDDFYFINGRIYKTNHDILILQAHHV  143
+                    S+ V +F   NG  +   HD  +LQ   V
+Sbjct  146  ------NVSIDVTNFIDQNGTEF---HDRFLLQKSKV  173
+
+
+>ref|WP_007019546.1| hypothetical protein [Neptuniibacter caesariensis]
+ gb|EAR60607.1| hypothetical protein MED92_09391 [Oceanospirillum sp. MED92]
+Length=366
+
+ Score = 35.4 bits (80),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 44/70 (63%), Gaps = 4/70 (6%)
+
+Query  50   TIQEQLDKIKNLSS---KELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILN  106
+            +++++L KIKN SS   ++LAK    + LSE NKN + +D+++       K +Q Q  L+
+Sbjct  259  SLEDELKKIKNDSSGQNRDLAKINT-QLLSESNKNKRLEDKVNELEEELRKARQKQISLS  317
+
+Query  107  LENAQREASL  116
+             E ++REAS+
+Sbjct  318  NEQSRREASI  327
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302761127420
+Results from round 2
+
+
+Query= 5DOF
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_001024077.1|  hypothetical protein TTHERM_00658760 [Tetrah...   285    1e-95
+gb|ACJ61512.1|  telomerase-associated protein 19 [Tetrahymena the...   282    2e-94
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_022105295.1|  putative uncharacterized protein [Dialister ...  40.4    0.23 
+ref|XP_454896.1|  hypothetical protein [Kluyveromyces lactis NRRL...  40.0    0.29 
+ref|YP_007890765.1|  ATP synthase F1 subunit gamma (mitochondrion...  38.5    0.79 
+ref|WP_018592039.1|  cell division protein FtsH [[Clostridium] gl...  38.9    0.80 
+ref|WP_004642847.1|  hypothetical protein [Acinetobacter calcoace...  38.5    0.87 
+ref|WP_003000515.1|  HEAT repeat protein [Leptospira weilii] >gb|...  38.5    1.0  
+ref|YP_754715.1|  hypothetical protein Swol_2050 [Syntrophomonas ...  38.1    1.2  
+ref|WP_020053757.1|  ABC transporter substrate-binding protein [a...  37.7    1.4  
+ref|WP_021219095.1|  hypothetical protein [Pseudomonas aeruginosa...  37.7    1.6  
+ref|WP_016404896.1|  cell division protein sepF [Clostridium sp. ...  37.0    2.3  
+ref|YP_003039268.1|  putative atpase involved in dna repair [Phot...  37.3    2.9  
+ref|WP_023649008.1|  hypothetical protein [Candidatus Pelagibacte...  36.6    4.4  
+ref|YP_002157726.1|  DNA sulfur modification protein DndD [Vibrio...  36.6    4.8  
+ref|WP_007019546.1|  hypothetical protein [Neptuniibacter caesari...  36.2    5.1  
+ref|WP_021713937.1|  hypothetical protein [Vibrio ezurae] >dbj|GA...  36.2    6.4  
+ref|WP_019154323.1|  sporulation protein [Bacillus massiliosenega...  35.8    8.3  
+gb|EJT42635.1|  ZIP1-like protein [Saccharomyces kudriavzevii IFO...  35.8    8.4  
+
+
+>ref|XP_001024077.1| hypothetical protein TTHERM_00658760 [Tetrahymena thermophila]
+ gb|EAS03832.1| hypothetical protein TTHERM_00658760 [Tetrahymena thermophila 
+SB210]
+Length=174
+
+ Score =  285 bits (730),  Expect = 1e-95, Method: Composition-based stats.
+ Identities = 163/163 (100%), Positives = 163/163 (100%), Gaps = 0/163 (0%)
+
+Query  1    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  60
+            QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN
+Sbjct  12   QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  71
+
+Query  61   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  120
+            LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD
+Sbjct  72   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  131
+
+Query  121  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN
+Sbjct  132  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  174
+
+
+>gb|ACJ61512.1| telomerase-associated protein 19 [Tetrahymena thermophila]
+Length=164
+
+ Score =  282 bits (721),  Expect = 2e-94, Method: Composition-based stats.
+ Identities = 163/163 (100%), Positives = 163/163 (100%), Gaps = 0/163 (0%)
+
+Query  1    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  60
+            QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN
+Sbjct  2    QQPKRNFDLYKLITDKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  61
+
+Query  61   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  120
+            LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD
+Sbjct  62   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDD  121
+
+Query  121  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN
+Sbjct  122  FYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  164
+
+
+>ref|WP_022105295.1| putative uncharacterized protein [Dialister sp. CAG:486]
+ emb|CDA50425.1| putative uncharacterized protein [Dialister sp. CAG:486]
+Length=996
+
+ Score = 40.4 bits (93),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 30/101 (30%), Positives = 51/101 (50%), Gaps = 2/101 (2%)
+
+Query  19   DFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKNKIFKFLSEY  78
+            D Q A  + ++        + G  K    K  IQE  +K+   SS+   K KI + +++ 
+Sbjct  119  DLQGASFLANDSIRSRFFMLQGGDKLASAKKDIQENKEKLFVASSQ--GKRKINQLMADL  176
+
+Query  79   NKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVD  119
+            +  NQ+ D LSH    + ++Q+ Q +L  + ++ EASLA D
+Sbjct  177  DTVNQELDHLSHQEKDFAELQKKQELLKKQISELEASLAKD  217
+
+
+>ref|XP_454896.1| hypothetical protein [Kluyveromyces lactis NRRL Y-1140]
+ emb|CAG99983.1| KLLA0E20923p [Kluyveromyces lactis]
+Length=436
+
+ Score = 40.0 bits (92),  Expect = 0.29, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 48/107 (45%), Gaps = 9/107 (8%)
+
+Query  47   PKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILN  106
+            P   ++ Q+DK K LS K L     F+FL E NKN   +   SH  + Y +    + +L 
+Sbjct  86   PPIKLKLQVDKNKTLSKKILVVEVYFEFLEELNKNEHPEGRFSHHNHAYTQKVSGKILLG  145
+
+Query  107  LENAQREASLAVDDFYFINGRIYKTNHDILILQAHHVYQMQKPTLQL  153
+                    S+ V +F   NG  +   HD  +LQ   V  +   ++++
+Sbjct  146  ------NVSIDVTNFIDQNGTEF---HDRFLLQKSKVNSILSMSIKM  183
+
+
+>ref|YP_007890765.1| ATP synthase F1 subunit gamma (mitochondrion) [Seculamonas ecuadoriensis]
+ gb|AGH24460.1| ATP synthase F1 subunit gamma (mitochondrion) [Seculamonas ecuadoriensis]
+Length=280
+
+ Score = 38.5 bits (88),  Expect = 0.79, Method: Composition-based stats.
+ Identities = 34/104 (33%), Positives = 53/104 (51%), Gaps = 12/104 (12%)
+
+Query  13   ITDKQIDFQVADLIQDE--QSSFVSVR-IYGQFKCFVPKSTIQEQLDKIKNLSSKELAKN  69
+            ++ K I F  A LI +E  +  F +   IY +FK  + +S ++EQ      +SS    +N
+Sbjct  135  VSKKSISFGAASLIAEELLKQQFDTYHLIYSKFKSVISQSLVEEQ------ISSANSLEN  188
+
+Query  70   KIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQRE  113
+              F+F + Y  ++ K  EL +D+Y YF +    F   LENA  E
+Sbjct  189  AFFEF-NGYEFDSDKS-ELLYDFYEYF-LGYKIFSALLENATSE  229
+
+
+>ref|WP_018592039.1| cell division protein FtsH [[Clostridium] glycolicum]
+Length=466
+
+ Score = 38.9 bits (89),  Expect = 0.80, Method: Composition-based stats.
+ Identities = 32/116 (28%), Positives = 59/116 (51%), Gaps = 9/116 (8%)
+
+Query  50   TIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQ-----DELSHDY----YGYFKVQQ  100
+            T +E + KIK L + + A+  IF  LS   K++ K+     D++  +Y     G+  ++ 
+Sbjct  344  TKEELIGKIKILLAGKAAEEIIFNHLSTGAKDDLKKVTDIADQMVCEYGMSKLGFMTIEG  403
+
+Query  101  HQFILNLENAQREASLAVDDFYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQA  156
+            +      +  Q+EA+  V+  Y    ++ K N + L L A+H+Y  +  TL+ LQ+
+Sbjct  404  NSKSFMSQQVQKEANQIVEQCYKETLKLLKENINDLHLVANHLYDKETMTLEELQS  459
+
+
+>ref|WP_004642847.1| hypothetical protein [Acinetobacter calcoaceticus]
+ gb|ENU09288.1| hypothetical protein F997_02737 [Acinetobacter calcoaceticus 
+NIPH 13]
+Length=335
+
+ Score = 38.5 bits (88),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 37/144 (26%), Positives = 66/144 (46%), Gaps = 20/144 (14%)
+
+Query  6    NFDLYKLITDKQIDFQVADLIQDEQSSFVSV--RIYGQFKCFVPKS-------TIQEQLD  56
+            NF+LY L  D  ++    DL+++  S ++S   +   +F   +          T +E++D
+Sbjct  20   NFELYMLNHDGSVN---DDLLKNHISLWISQFDKSEQEFMVLIAAKLLEERFITKEEEID  76
+
+Query  57   KIKNL-SSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREAS  115
+             IKNL S+  L+KNK   F  +  KN   Q  L   Y  +     + +         ++ 
+Sbjct  77   FIKNLFSNNILSKNKTMPFPLDIQKNGNSQTRLIGHYNFFMSSFGYSY-------AEDSV  129
+
+Query  116  LAVDDFYFINGRIYKTNHDILILQ  139
+            + +DDF F  GR+++   + + LQ
+Sbjct  130  IYLDDFIFSGGRVFEDLSNWIPLQ  153
+
+
+>ref|WP_003000515.1| HEAT repeat protein [Leptospira weilii]
+ gb|EMY78236.1| HEAT repeat protein [Leptospira weilii serovar Ranarum str. ICFT]
+Length=410
+
+ Score = 38.5 bits (88),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 21/59 (36%), Positives = 34/59 (58%), Gaps = 4/59 (7%)
+
+Query  15   DKQIDFQVADLIQDEQSSFV----SVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKN  69
+            DK+ +  + ++ +D +        SV   G+ K F   STI+E+L+KI+NL +KE  KN
+Sbjct  203  DKKAEGALLEIYKDSKEPVTLRSFSVSALGKMKSFSSMSTIKEELEKIRNLKNKEEVKN  261
+
+
+>ref|YP_754715.1| hypothetical protein Swol_2050 [Syntrophomonas wolfei subsp. 
+wolfei str. Goettingen]
+ ref|WP_011641436.1| hypothetical protein [Syntrophomonas wolfei]
+ gb|ABI69344.1| hypothetical protein Swol_2050 [Syntrophomonas wolfei subsp. 
+wolfei str. Goettingen]
+Length=589
+
+ Score = 38.1 bits (87),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 36/118 (31%), Positives = 61/118 (52%), Gaps = 14/118 (12%)
+
+Query  51   IQEQLDKIKN--LSSKELAKNKIFKFLSEYNKNNQK-QDELSHDYYGYFKVQQ--HQFIL  105
+            ++ +L+ +KN  L  K++  + ++K L    +N ++ + E   +   YF V +   QF L
+Sbjct  186  LKVKLEDLKNTMLREKDIFYDYVYKLLLAQIRNQEEIESEEDFNIEEYFNVNKLGEQFAL  245
+
+Query  106  NLENAQREASLAVDDFYFINGRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            NL+ +    S+A  D     G I     D+  + A  V +MQ  TLQL+ + SEI+QN
+Sbjct  246  NLDKSLETRSMAFQD-----GII----RDMEEVSADIVGKMQNCTLQLMNSFSEIHQN  294
+
+
+>ref|WP_020053757.1| ABC transporter substrate-binding protein [alpha proteobacterium 
+SCGC AAA015-N04]
+Length=327
+
+ Score = 37.7 bits (86),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 36/123 (29%), Positives = 55/123 (45%), Gaps = 21/123 (17%)
+
+Query  31   SSFVSVRIYGQFKCFVP---------------KSTIQEQLDKIKNLSSKELAKNKIFKFL  75
+            SSFVS RIY Q KC+ P                 TI E+L+K +  +  + AK     +L
+Sbjct  206  SSFVSYRIYEQVKCYTPAGKTALWFMYQPLLMNKTIFEKLNKNQQKAIMDGAKKAEAYYL  265
+
+Query  76   SEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQREASLAVDDFYFINGRIYKTNHDI  135
+            +E     +K+D+ S + +    VQ  +   +  NA RE +       F++G  YK    +
+Sbjct  266  AE----AKKEDQASVNVFKKNGVQIKEMSADEFNAWREIAKETSYKKFVSG--YKDGQRL  319
+
+Query  136  LIL  138
+            L L
+Sbjct  320  LDL  322
+
+
+>ref|WP_021219095.1| hypothetical protein [Pseudomonas aeruginosa group]
+ gb|EQM69646.1| hypothetical protein L682_01590 [Pseudomonas alcaligenes OT 69]
+ gb|ERZ44046.1| hypothetical protein Q001_01490 [Pseudomonas aeruginosa CF127]
+Length=578
+
+ Score = 37.7 bits (86),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 33/120 (28%), Positives = 52/120 (43%), Gaps = 20/120 (17%)
+
+Query  4    KRNFDLYKLIT---DKQIDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKN  60
+            KR F L  LI    D    F V  +    + +   +R  G     +P+  + E  DK   
+Sbjct  451  KRTFALLSLIFPGFDLSKHFHVDHIYPQARFTKPQLRKTG-----IPEDQVAEVADKANR  505
+
+Query  61   LSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFK---VQQHQFILNLENAQREASLA  117
+            L++ +L +  I         NNQK+ ++ HD+Y  FK   + + Q++  LE      SLA
+Sbjct  506  LANLQLLEGSI---------NNQKRQKMPHDWYAQFKPDALARQQYLAGLEITDLPESLA  556
+
+
+>ref|WP_016404896.1| cell division protein sepF [Clostridium sp. CAG:1013]
+ emb|CCX37437.1| cell division protein sepF [Clostridium sp. CAG:1013]
+Length=162
+
+ Score = 37.0 bits (84),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 56/123 (46%), Gaps = 15/123 (12%)
+
+Query  26   IQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNNQKQ  85
+            + D  S   S R    F  F P+S      +++ N+++K   +  +FK +S   +     
+Sbjct  32   VSDRGSYTESRRSSYSFSDFAPRSE-SSGGNRVVNINAKAQLQVVLFKPISFGEETRAVA  90
+
+Query  86   DELSHDYYGYFKVQQHQFILNLENAQREASLAVDDF-----YFINGRIYKTNHDILILQA  140
+            DEL         +++H  +LNLE  ++E S  + DF     Y  NG+I +   +  I+  
+Sbjct  91   DEL---------LKRHTVVLNLEKTEKEVSRRIVDFLSGVAYANNGKIKRIATNTFIITP  141
+
+Query  141  HHV  143
+            ++V
+Sbjct  142  YNV  144
+
+
+>ref|YP_003039268.1| putative atpase involved in dna repair [Photorhabdus asymbiotica]
+ ref|WP_012776621.1| DNA repair ATPase [Photorhabdus asymbiotica]
+ emb|CAR67321.1| putative atpase involved in dna repair [Photorhabdus asymbiotica 
+subsp. asymbiotica ATCC 43949]
+ emb|CAQ82523.1| putative atpase involved in dna repair [Photorhabdus asymbiotica]
+Length=1216
+
+ Score = 37.3 bits (85),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 38/148 (26%), Positives = 66/148 (45%), Gaps = 23/148 (16%)
+
+Query  26    IQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKNKIFKFLSEYNKNN---  82
+             ++  +  +V  +I  Q   F  +  +QE L  IK+L +++ A + + K + E N      
+Sbjct  910   LESWEREYVGYQITAQTGQFPGEKAVQEGLQLIKSLLAQKEAFSLVEKVIDESNALEDFA  969
+
+Query  83    QKQDELSHDYYG--YFKVQQHQFILNLENAQREASLAVDDFYFINGRIYKTNHDILILQA  140
+             + +D+LS D+YG      QQ   +LN       ++L  D+           N    + + 
+Sbjct  970   ETRDDLS-DFYGNQLQSWQQLAMVLNGSFKANRSALEKDE-----------NAHQALTKL  1017
+
+Query  141   HHVYQMQKPTLQ------LLQAASEINQ  162
+              H+YQM KP  Q      L++   E+NQ
+Sbjct  1018  CHIYQMAKPYSQLCCIVPLIEQVQEVNQ  1045
+
+
+>ref|WP_023649008.1| hypothetical protein [Candidatus Pelagibacter ubique]
+Length=302
+
+ Score = 36.6 bits (83),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 20/60 (33%), Positives = 34/60 (57%), Gaps = 1/60 (2%)
+
+Query  60   NLSSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQR-EASLAV  118
+            NL SK +       F   Y K ++K    S+DYYG +K+  H+ I+ ++N ++ +AS A+
+Sbjct  109  NLRSKLIFAGSSLMFKDTYKKVSEKTTLKSNDYYGNYKIDAHKMIMRMKNEKKIDASTAI  168
+
+
+>ref|YP_002157726.1| DNA sulfur modification protein DndD [Vibrio fischeri MJ11]
+ ref|WP_012534857.1| DNA repair ATPase [Aliivibrio fischeri]
+ gb|ACH63673.1| DNA sulfur modification protein DndD [Vibrio fischeri MJ11]
+Length=654
+
+ Score = 36.6 bits (83),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 54/103 (52%), Gaps = 11/103 (11%)
+
+Query  13   ITDKQ---IDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKN  69
+            I+D+Q   ID+Q+++L QD  S F   R        V  S ++E++D   N  ++   + 
+Sbjct  365  ISDRQANTIDYQLSNLSQDSFSRFDKAR--------VRLSKVEEEIDNASNNIARAPEQE  416
+
+Query  70   KIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQR  112
+            ++ +  ++    ++K+++L  +Y+   +  + +  L LE A++
+Sbjct  417  QVQELFADVRALDKKKEKLIIEYHDLLEKAKQELRLALETARK  459
+
+
+>ref|WP_007019546.1| hypothetical protein [Neptuniibacter caesariensis]
+ gb|EAR60607.1| hypothetical protein MED92_09391 [Oceanospirillum sp. MED92]
+Length=366
+
+ Score = 36.2 bits (82),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 44/70 (63%), Gaps = 4/70 (6%)
+
+Query  50   TIQEQLDKIKNLSS---KELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILN  106
+            +++++L KIKN SS   ++LAK    + LSE NKN + +D+++       K +Q Q  L+
+Sbjct  259  SLEDELKKIKNDSSGQNRDLAKINT-QLLSESNKNKRLEDKVNELEEELRKARQKQISLS  317
+
+Query  107  LENAQREASL  116
+             E ++REAS+
+Sbjct  318  NEQSRREASI  327
+
+
+>ref|WP_021713937.1| hypothetical protein [Vibrio ezurae]
+ dbj|GAD80229.1| hypothetical protein VEZ01S_28_00120 [Vibrio ezurae NBRC 102218]
+Length=669
+
+ Score = 36.2 bits (82),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 22/102 (22%), Positives = 52/102 (51%), Gaps = 11/102 (11%)
+
+Query  13   ITDKQ---IDFQVADLIQDEQSSFVSVRIYGQFKCFVPKSTIQEQLDKIKNLSSKELAKN  69
+            I+D+Q   ID+Q+  L +D  S F   R+  Q         ++E++D   N  ++   + 
+Sbjct  380  ISDRQANTIDYQITKLSEDSYSRFDKARVRLQ--------KVEEEIDYASNNIARAPEQE  431
+
+Query  70   KIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLENAQ  111
+            ++ +  ++    ++K+++L  +Y+   +  +H+  L L+ A+
+Sbjct  432  QVQELFADVRALDKKKEKLIVEYHSLLEKAKHELRLALDTAR  473
+
+
+>ref|WP_019154323.1| sporulation protein [Bacillus massiliosenegalensis]
+Length=449
+
+ Score = 35.8 bits (81),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 31/98 (32%), Positives = 45/98 (46%), Gaps = 7/98 (7%)
+
+Query  67   AKNKIFKFLSEYNKNNQKQDELS-HDYYGYFKVQQHQFILNLENAQREASLAVDDFYFIN  125
+            A NK  KFL E N  N    E S +D  G F    ++  + +        +A+D     N
+Sbjct  297  ASNKAIKFLKENNFENLDLFESSQYDNIGVFTFVTNENDVRVYPDAIHVKVALD-----N  351
+
+Query  126  GRIYKTNHDILILQAHHVYQMQKPTLQLLQAASEINQN  163
+            G+I   + D   L+AHH  ++ KPT+   +   EIN N
+Sbjct  352  GKIIGFSADDY-LKAHHTREIAKPTMTEDEVKKEINSN  388
+
+
+>gb|EJT42635.1| ZIP1-like protein [Saccharomyces kudriavzevii IFO 1802]
+Length=877
+
+ Score = 35.8 bits (81),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 31/94 (33%), Positives = 50/94 (53%), Gaps = 10/94 (11%)
+
+Query  52   QEQLDKIKNL--SSKELAKNKIFKFLSEYNKNNQKQDELSHDYYGYFKVQQHQFILNLEN  109
+            Q+QLDKI NL  S+K   +NKI       +  N+    L+ +     K + HQ +   EN
+Sbjct  571  QDQLDKINNLNISTKSNYENKI-------SSQNEIVKALTSEN-DTLKQRIHQLVEFKEN  622
+
+Query  110  AQREASLAVDDFYFINGRIYKTNHDILILQAHHV  143
+            AQR+ S  ++ F   N ++ K N +++ L+AH +
+Sbjct  623  AQRDHSTKLEAFQKNNEQLQKLNVEVVQLKAHEL  656
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 302761127420
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

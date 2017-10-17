@@ -1,0 +1,3194 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3ZUIA
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+gb|AAT65682.1|  complement inhibitor precursor [Ornithodoros moub...   317    1e-108
+pdb|3ZUI|A  Chain A, Omci In Complex With Palmitoleic Acid >pdb|3...   315    4e-108
+pdb|2CM4|A  Chain A, The Complement Inhibitor Omci In Complex Wit...   311    2e-106
+gb|ACI46626.1|  complement inhibitor [Rhipicephalus microplus]         309    3e-105
+gb|ACI46628.1|  putative complement inhibitor isoform 2 [Ornithod...   305    5e-104
+gb|ACI46627.1|  complement inhibitor [Dermacentor reticulatus]         303    4e-103
+gb|AAN76829.1|AF452889_1  TSGP2 [Ornithodoros savignyi]                180    1e-54 
+gb|AAN76830.1|AF452890_1  TSGP3 [Ornithodoros savignyi]                179    2e-54 
+sp|Q04669.1|MOUB_ORNMO  RecName: Full=Moubatin; Flags: Precursor ...   143    3e-40 
+gb|ACB70378.1|  moubatin-like lipocalin [Ornithodoros coriaceus]      76.6    8e-15 
+gb|ACB70386.1|  salivary lipocalin [Ornithodoros coriaceus]           74.7    4e-14 
+gb|ACB70332.1|  salivary lipocalin [Ornithodoros coriaceus]           72.8    2e-13 
+gb|ACB70331.1|  salivary lipocalin [Ornithodoros coriaceus]           70.1    2e-12 
+gb|ACB70377.1|  salivary lipocalin [Ornithodoros coriaceus]           64.3    2e-10 
+gb|ABR23385.1|  salivary lipocalin [Ornithodoros parkeri]             63.5    5e-10 
+gb|ACB70392.1|  salivary lipocalin [Ornithodoros coriaceus]           62.4    1e-09 
+gb|ABR23380.1|  moubatin-like 6 [Ornithodoros parkeri]                55.8    2e-07 
+ref|WP_017731288.1|  hypothetical protein [Nafulsella turpanensis]    40.8    0.10  
+ref|WP_010239585.1|  cation antiporter [Pseudonocardia sp. P1]        39.3    0.29  
+ref|WP_022158770.1|  putative uncharacterized protein [Prevotella...  37.4    1.6   
+gb|ABR23399.1|  moubatin 1-like 2 [Ornithodoros parkeri]              35.4    6.1   
+gb|ABR23414.1|  moubatin-like 3 [Ornithodoros parkeri]                35.4    6.1   
+
+
+>gb|AAT65682.1| complement inhibitor precursor [Ornithodoros moubata]
+Length=168
+
+ Score =  317 bits (813),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  139  GLEVEVECCRQKLEELASGRNQMYPHLKDC  168
+
+
+>pdb|3ZUI|A Chain A, Omci In Complex With Palmitoleic Acid
+ pdb|3ZUO|A Chain A, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|B Chain B, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|C Chain C, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|D Chain D, Omci In Complex With Leukotriene B4
+Length=150
+
+ Score =  315 bits (808),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>pdb|2CM4|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+ pdb|2CM9|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+Length=150
+
+ Score =  311 bits (797),  Expect = 2e-106, Method: Compositional matrix adjust.
+ Identities = 148/150 (99%), Positives = 148/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK 
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKQ  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLG LTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGQLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>gb|ACI46626.1| complement inhibitor [Rhipicephalus microplus]
+Length=167
+
+ Score =  309 bits (791),  Expect = 3e-105, Method: Compositional matrix adjust.
+ Identities = 146/148 (99%), Positives = 146/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  13   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  72
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVP YEMWMLDAG
+Sbjct  73   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPXYEMWMLDAG  132
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLK  148
+            GLEVEVECCRQKLEELASGRNQMYPH K
+Sbjct  133  GLEVEVECCRQKLEELASGRNQMYPHFK  160
+
+
+>gb|ACI46628.1| putative complement inhibitor isoform 2 [Ornithodoros moubata]
+Length=159
+
+ Score =  305 bits (782),  Expect = 5e-104, Method: Compositional matrix adjust.
+ Identities = 144/149 (97%), Positives = 147/149 (99%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            D+ESDC+GSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  10   DNESDCSGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  69
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTF+LDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  70   GTDWASTDWTFSLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  129
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVECCRQKLEELASGRNQ YPH KD
+Sbjct  130  GLEVEVECCRQKLEELASGRNQTYPHPKD  158
+
+
+>gb|ACI46627.1| complement inhibitor [Dermacentor reticulatus]
+Length=168
+
+ Score =  303 bits (777),  Expect = 4e-103, Method: Compositional matrix adjust.
+ Identities = 144/149 (97%), Positives = 146/149 (98%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDC+GSEPVDAFQAFSEG+EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCSGSEPVDAFQAFSEGEEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVEC RQKLE LASGRNQ YPHLKD
+Sbjct  139  GLEVEVECRRQKLEGLASGRNQTYPHLKD  167
+
+
+>gb|AAN76829.1|AF452889_1 TSGP2 [Ornithodoros savignyi]
+Length=163
+
+ Score =  180 bits (457),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 86/147 (59%), Positives = 105/147 (71%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P DA+ AF+EG+ AY+LV+STD  ARDCLKG   G+K+ N +PVMM FKN   
+Sbjct  19   ADCPTGKPTDAYVAFNEGQGAYILVKSTDLDARDCLKGSATGKKEGNKVPVMMAFKNEGQ  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T  REVVYD  SHHCHV+K+      YEMWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATDGQRTLKREVVYDVASHHCHVEKLASGA--YEMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC +K +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKKYDELTSGQVVIRPQDKDC  163
+
+
+>gb|AAN76830.1|AF452890_1 TSGP3 [Ornithodoros savignyi]
+Length=163
+
+ Score =  179 bits (455),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 85/147 (58%), Positives = 107/147 (73%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P +A+ AF+EGK AY+LVRST+  ARDCLKGE  G+K+ NTLPVMM FK+   
+Sbjct  19   ADCPTGKPTEAYVAFNEGKGAYILVRSTNLNARDCLKGEATGKKEGNTLPVMMAFKDEGK  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T   EVVYD  SHHCH++K+E     Y+MWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATHGQRTLKGEVVYDVPSHHCHIEKLESGA--YDMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC ++ +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKRYDELTSGQVVIRPQDKDC  163
+
+
+>sp|Q04669.1|MOUB_ORNMO RecName: Full=Moubatin; Flags: Precursor
+ gb|AAA29432.1| moubatin [Ornithodoros moubata]
+Length=171
+
+ Score =  143 bits (361),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 67/150 (45%), Positives = 97/150 (65%), Gaps = 3/150 (2%)
+
+Query  2    SESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+            ++S C+ S+P+DA +AF +G   ++L +STDP+ARDCLKG P G +  NTLPV MT+K+ 
+Sbjct  19   AQSGCSVSDPLDALKAFKDGAGTFLLQKSTDPQARDCLKGTPNGNRDGNTLPVTMTYKDD  78
+
+Query  62   TDWASTDWTFTLDGAKVTATL-GNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            + W S +W FTL+GA + ATL G   Q  E+VYD QSH CH+ K+   V  Y+ W  +  
+Sbjct  79   SKWVSLNWMFTLEGANIVATLEGKRKQRGELVYDVQSHDCHITKLSSGV--YQQWQSNGS  136
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              + +++CC +K +EL SG +   P  K C
+Sbjct  137  ADDKDIKCCDEKFKELTSGIDYTKPQEKGC  166
+
+
+>gb|ACB70378.1| moubatin-like lipocalin [Ornithodoros coriaceus]
+Length=166
+
+ Score = 76.6 bits (187),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 45/140 (32%), Positives = 69/140 (49%), Gaps = 5/140 (4%)
+
+Query  12   VDAFQAFS-EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWT  70
+            +DA++A + E    ++LV ST P A DCLK  P G  Q   + V M FK+G +W +    
+Sbjct  29   IDAWKALAPEKGTTFLLVNSTRPDAEDCLKSTPEGTPQRPQMDVTMKFKSGGEWKTAHRK  88
+
+Query  71   FTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEVECCR  130
+             TL+G K+TA+  +  +   +VY   S  CHV  +     D E+W         ++ CC+
+Sbjct  89   LTLEGPKITASFDSKKEEGRIVYRGPS--CHVTVL--GTGDTEIWRRQGARNRKDMGCCK  144
+
+Query  131  QKLEELASGRNQMYPHLKDC  150
+            +  +E   G+    P  K C
+Sbjct  145  KYFDEERKGKAFKKPQAKGC  164
+
+
+>gb|ACB70386.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=152
+
+ Score = 74.7 bits (182),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 49/152 (32%), Positives = 69/152 (45%), Gaps = 9/152 (6%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V + FK
+Sbjct  7    ESNAQCAAQTDLDAWNLLDPAGHHTFLLVSSTKTSPRDCLKATAQGSPVKPNAQVKLQFK  66
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWML-D  118
+            +   W  T+W F  DG K+TATLGN  +   +VY   +  CHV  +     + E W   D
+Sbjct  67   SDKGWGETNWEFVTDGPKMTATLGNRREEATIVYGDST--CHVKVLGSG--NIEYWKRSD  122
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +        CC++  EE  +GR+   P  KDC
+Sbjct  123  SSNPNT---CCQKVFEEKRAGRDFKEPQQKDC  151
+
+
+>gb|ACB70332.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=163
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 44/146 (30%), Positives = 69/146 (47%), Gaps = 7/146 (5%)
+
+Query  6    CTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDW  64
+            C   E  DA++A   E   A++LV ST     DCLK  P G      + V M  K G  W
+Sbjct  24   CAKIENNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPMGTPSKPDMTVTMKSKEGGSW  83
+
+Query  65   ASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEV  124
+              +     ++G K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  G   
+Sbjct  84   KESQSQLKMEGPKITAVFGDKSEEGTILY--RADGCHVTQLKN--GDIEHWVRD--GSSA  137
+
+Query  125  EVECCRQKLEELASGRNQMYPHLKDC  150
+            +  CC++  EE  +G+    P  K C
+Sbjct  138  DASCCKKDFEERTAGKTATNPQTKGC  163
+
+
+>gb|ACB70331.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=164
+
+ Score = 70.1 bits (170),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 43/146 (29%), Positives = 71/146 (49%), Gaps = 7/146 (5%)
+
+Query  6    CTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDW  64
+            CT  +  DA++A   E   A++LV ST     DCLK  P G      + V M  K G DW
+Sbjct  24   CTKIDNNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPTGTPSKPDMTVTMKSKEGGDW  83
+
+Query  65   ASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEV  124
+              ++    +   K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  G   
+Sbjct  84   KESESKLKMVDDKITAVFGDKSEEGTILY--RADGCHVTQLKN--GDIEHWVRD--GSSA  137
+
+Query  125  EVECCRQKLEELASGRNQMYPHLKDC  150
+            +  CC++   +  +G++   P  KDC
+Sbjct  138  DASCCKEDFAQRTTGKSPTNPQEKDC  163
+
+
+>gb|ACB70377.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score = 64.3 bits (155),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 44/158 (28%), Positives = 67/158 (42%), Gaps = 23/158 (15%)
+
+Query  2    SESDCTGSEPVDAFQAFSEG-KEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            S + C     +DA+          ++L  ST P  +DCL+    G        V + FK 
+Sbjct  19   SNAQCAVQTDLDAWNLLDPAMHHTFLLESSTKPNPKDCLRAIAQGNPVKPNAQVTLRFKT  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+               W +T+W F  DG K+TATLG+  +   +VY  ++  CHV             +L +G
+Sbjct  79   EKGWEATNWKFVTDGPKMTATLGDRKEEGTIVYGDRT--CHVI------------VLGSG  124
+
+Query  121  GLEV--------EVECCRQKLEELASGRNQMYPHLKDC  150
+             +E            CC+Q  +   +GR+   P  KDC
+Sbjct  125  NIEYWKRSDSSDPNPCCQQVFDNKRAGRDFREPQKKDC  162
+
+
+>gb|ABR23385.1| salivary lipocalin [Ornithodoros parkeri]
+Length=169
+
+ Score = 63.5 bits (153),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 41/144 (28%), Positives = 72/144 (50%), Gaps = 6/144 (4%)
+
+Query  9    SEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGT-DWAS  66
+            S   +A++A ++     Y+L +ST    +DCLKGE   +++     V MT+K+ +  W +
+Sbjct  27   STVTEAWEAITQPPNGHYLLQQSTQEDPKDCLKGEVPTDQEKPNAKVKMTYKDSSGQWQT  86
+
+Query  67   TDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEV  126
+             +W F + G  +TATLG  T    V++ +Q   CH+         Y +W   +     + 
+Sbjct  87   NEWQFYMAGPNITATLGEKTLKGTVIFGTQG-TCHITHYWD--GGYGLWTHSSAKGN-DD  142
+
+Query  127  ECCRQKLEELASGRNQMYPHLKDC  150
+             CC++K +E  +G+N      K+C
+Sbjct  143  NCCKKKFDEKTTGQNTQKLQEKNC  166
+
+
+>gb|ACB70392.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 44/159 (28%), Positives = 67/159 (42%), Gaps = 23/159 (14%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V ++FK
+Sbjct  18   ESNAQCAAQADLDAWDLLDPAGHHTFLLVNSTKSSPRDCLKATAQGNPVKPNAQVELSFK  77
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                WA+T+W F  +G K++ATLG+  +   +VY   +  CHV             +L +
+Sbjct  78   IEERWAATNWEFVTNGPKMSATLGDRHEEATIVYGDDT--CHVK------------VLGS  123
+
+Query  120  GGLEV--------EVECCRQKLEELASGRNQMYPHLKDC  150
+            G +E            CC++  +E    R    P  K C
+Sbjct  124  GNIEYWKRSDSSNPNPCCQRVFDEKRGDRAFTEPQTKGC  162
+
+
+>gb|ABR23380.1| moubatin-like 6 [Ornithodoros parkeri]
+Length=169
+
+ Score = 55.8 bits (133),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 61/133 (46%), Gaps = 17/133 (13%)
+
+Query  25   YVLVRSTDPKARDCLKGE-PAGEKQDNTLPVMMTFKNGT-DWASTDWTFTLDGAKVTATL  82
+            Y+L +ST    +DCLKGE P G+ +     V MT+K+    W + +W F + G  +TA+L
+Sbjct  44   YLLQQSTQEDPKDCLKGEVPTGQNKPKA-NVKMTYKDSNGQWQTNEWEFYMAGPNITASL  102
+
+Query  83   GNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA-----GGLEVEVECCRQKLEELA  137
+             + T +  V++  +   CHV +       Y +W   +     GG      CC  K  E  
+Sbjct  103  DSRTLSGTVIFGIKG-KCHVTQYSGG--GYGLWTHSSLSGSDGG------CCESKFGEQT  153
+
+Query  138  SGRNQMYPHLKDC  150
+             G     P  KDC
+Sbjct  154  KGETPKKPQEKDC  166
+
+
+>ref|WP_017731288.1| hypothetical protein [Nafulsella turpanensis]
+Length=317
+
+ Score = 40.8 bits (94),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 29/61 (48%), Gaps = 10/61 (16%)
+
+Query  50   NTLPVMMTFKNGTDWASTDW----------TFTLDGAKVTATLGNLTQNREVVYDSQSHH  99
+            N++PV M +KN       DW          T+TLD AK TA LGN     + V+   +HH
+Sbjct  162  NSIPVEMVYKNFRKGKKADWFADVNKVHSFTYTLDAAKATALLGNTPAAYKQVWHLPTHH  221
+
+Query  100  C  100
+             
+Sbjct  222  A  222
+
+
+>ref|WP_010239585.1| cation antiporter [Pseudonocardia sp. P1]
+Length=251
+
+ Score = 39.3 bits (90),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 25/84 (30%), Positives = 44/84 (52%), Gaps = 7/84 (8%)
+
+Query  65   ASTDWTFTLDGAKVTATLGNLT------QNREVVYDSQSHHC-HVDKVEKEVPDYEMWML  117
+            A++D T T+  A    + G+ T      + R  V+    H    VD++ KE+ + +M ++
+Sbjct  162  ATSDRTVTMIVAACALSPGSFTLQIDRRRGRWYVFALGLHRAGAVDRLRKEMMNLQMRVI  221
+
+Query  118  DAGGLEVEVECCRQKLEELASGRN  141
+            DA G + +VE CR  +  +A GR+
+Sbjct  222  DAVGTDADVEMCRAAVAAVAEGRD  245
+
+
+>ref|WP_022158770.1| putative uncharacterized protein [Prevotella sp. CAG:520]
+ emb|CDB04810.1| putative uncharacterized protein [Prevotella sp. CAG:520]
+Length=324
+
+ Score = 37.4 bits (85),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  8    GSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWAST  67
+            GS  V+ +Q   +G+E YV+    D +A  C +        +  L  + + KN T   + 
+Sbjct  230  GSAAVE-YQELEKGEEYYVVAAYLDSEAAICSEIATVEIDAEGNLTGINSVKNNTTLVA-  287
+
+Query  68   DWTFTLDGAKVTATLGNLTQNREVV-YDSQSH  98
+            D  +TLDG +V  TLG++ +   +V ++ ++H
+Sbjct  288  DGVYTLDGTRVGTTLGDVQRGAYIVKFNGRTH  319
+
+
+>gb|ABR23399.1| moubatin 1-like 2 [Ornithodoros parkeri]
+Length=176
+
+ Score = 35.4 bits (80),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 34/132 (26%), Positives = 49/132 (37%), Gaps = 9/132 (7%)
+
+Query  11   PVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDW  69
+            P+DA ++    G   Y L++ST    + CL  E   +      P    +K G  W S   
+Sbjct  25   PIDATKSIIGPGSGKYYLLKSTYKDEKLCLYVEARPQGTSFPAPYPFGYKEGDQWVSKTG  84
+
+Query  70   TFTLDGAKVTATLGNLTQNREVVYDSQSHHCHV-----DKVEKEVPDYEMWM-LDAGGLE  123
+            T    GA +        +    +  S    C V     DKV    P  E+W   DA    
+Sbjct  85   TVNGQGANIIDNDDEFGETNTTLVYSDYKVCDVGLFRGDKVGG--PHVELWKHSDADENS  142
+
+Query  124  VEVECCRQKLEE  135
+             + +CC  + EE
+Sbjct  143  ADYKCCTHRYEE  154
+
+
+>gb|ABR23414.1| moubatin-like 3 [Ornithodoros parkeri]
+Length=176
+
+ Score = 35.4 bits (80),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 39/143 (27%), Positives = 53/143 (37%), Gaps = 11/143 (8%)
+
+Query  7    TGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF--KNGTD  63
+            TGS  +DA ++    GK  Y L++ST    + CL  E     Q  + P    F  K G  
+Sbjct  23   TGS--IDATKSIIGPGKGKYYLLKSTYEDEKSCLYVE--ARPQGTSFPAQYPFGYKEGDK  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEV---PDYEMWM-LDA  119
+            W S   T    GA +        +    +  S    C V          P  E+W   DA
+Sbjct  79   WVSKTGTVNGQGANIIDKDDEFGETNTTLVYSDYKVCDVGLFHGAKVGGPHVELWKHSDA  138
+
+Query  120  GGLEVEVECCRQKLEELASGRNQ  142
+                 E +CC+   EE   GR +
+Sbjct  139  DENSAEFKCCKDVYEEELKGRKK  161
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310377937966
+Results from round 2
+
+
+Query= 3ZUIA
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AAT65682.1|  complement inhibitor precursor [Ornithodoros moub...   225    2e-72
+gb|AAN76830.1|AF452890_1  TSGP3 [Ornithodoros savignyi]                220    2e-70
+gb|ACI46626.1|  complement inhibitor [Rhipicephalus microplus]         218    2e-69
+gb|AAN76829.1|AF452889_1  TSGP2 [Ornithodoros savignyi]                217    4e-69
+pdb|3ZUI|A  Chain A, Omci In Complex With Palmitoleic Acid >pdb|3...   215    1e-68
+pdb|2CM4|A  Chain A, The Complement Inhibitor Omci In Complex Wit...   214    4e-68
+gb|ACI46627.1|  complement inhibitor [Dermacentor reticulatus]         213    2e-67
+gb|ACI46628.1|  putative complement inhibitor isoform 2 [Ornithod...   210    2e-66
+sp|Q04669.1|MOUB_ORNMO  RecName: Full=Moubatin; Flags: Precursor ...   196    1e-60
+gb|ACB70377.1|  salivary lipocalin [Ornithodoros coriaceus]            189    2e-58
+gb|ACB70392.1|  salivary lipocalin [Ornithodoros coriaceus]            188    1e-57
+gb|ACB70386.1|  salivary lipocalin [Ornithodoros coriaceus]            185    7e-57
+gb|ACB70378.1|  moubatin-like lipocalin [Ornithodoros coriaceus]       178    1e-53
+gb|ACB70332.1|  salivary lipocalin [Ornithodoros coriaceus]            177    1e-53
+gb|ACB70331.1|  salivary lipocalin [Ornithodoros coriaceus]            169    1e-50
+gb|ABR23385.1|  salivary lipocalin [Ornithodoros parkeri]              166    4e-49
+gb|ABR23380.1|  moubatin-like 6 [Ornithodoros parkeri]                 162    2e-47
+
+Sequences not found previously or not previously below threshold:
+
+gb|ABI52654.1|  monotonin [Argas monolakensis]                        63.3    6e-10
+gb|ABR23414.1|  moubatin-like 3 [Ornithodoros parkeri]                62.9    7e-10
+gb|ACB70317.1|  moubatin-like lipocalin [Ornithodoros coriaceus]      59.4    1e-08
+gb|ABR23399.1|  moubatin 1-like 2 [Ornithodoros parkeri]              59.0    2e-08
+pdb|3BRN|A  Chain A, Crystal Structure Of Am182 Serotonin Complex...  56.7    8e-08
+gb|ABR23443.1|  salivary secreted lipocalin [Ornithodoros parkeri]    55.2    3e-07
+gb|ABI52694.1|  lipocalin [Argas monolakensis]                        55.2    4e-07
+gb|ABR23347.1|  moubatin-like 1 [Ornithodoros parkeri]                54.0    9e-07
+gb|ABR23445.1|  salivary lipocalin [Ornithodoros parkeri]             52.9    2e-06
+gb|ACB70352.1|  salivary lipocalin [Ornithodoros coriaceus]           49.0    5e-05
+gb|ACB70314.1|  salivary lipocalin [Ornithodoros coriaceus]           49.0    6e-05
+gb|AAN76828.1|AF452888_1  lipocalin [Ornithodoros savignyi]           48.6    1e-04
+gb|ABR23418.1|  salivary lipocalin [Ornithodoros parkeri]             45.9    8e-04
+sp|Q5GQ85.1|ARGR1_ARGRF  RecName: Full=Allergen Arg r 1; AltName:...  43.6    0.006
+gb|ABR23458.1|  moubatin-like 5 variant [Ornithodoros parkeri]        43.6    0.007
+pdb|2X46|A  Chain A, Crystal Structure Of Semet Arg R 1               40.5    0.059
+gb|ABI52816.1|  lipocalin [Argas monolakensis]                        40.5    0.080
+gb|ABR23457.1|  moubatin-like 5 [Ornithodoros parkeri]                39.8    0.16 
+pdb|2X45|A  Chain A, Crystal Structure Of Arg R 1 In Complex With...  39.0    0.20 
+gb|ABI52693.1|  lipocalin [Argas monolakensis]                        39.4    0.26 
+gb|ACB70320.1|  salivary lipocalin [Ornithodoros coriaceus]           36.7    2.0  
+gb|AGJ90348.1|  TSGP4 [Ornithodoros moubata]                          36.7    2.3  
+
+
+>gb|AAT65682.1| complement inhibitor precursor [Ornithodoros moubata]
+Length=168
+
+ Score =  225 bits (574),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  139  GLEVEVECCRQKLEELASGRNQMYPHLKDC  168
+
+
+>gb|AAN76830.1|AF452890_1 TSGP3 [Ornithodoros savignyi]
+Length=163
+
+ Score =  220 bits (561),  Expect = 2e-70, Method: Composition-based stats.
+ Identities = 85/147 (58%), Positives = 107/147 (73%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P +A+ AF+EGK AY+LVRST+  ARDCLKGE  G+K+ NTLPVMM FK+   
+Sbjct  19   ADCPTGKPTEAYVAFNEGKGAYILVRSTNLNARDCLKGEATGKKEGNTLPVMMAFKDEGK  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T   EVVYD  SHHCH++K+E     Y+MWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATHGQRTLKGEVVYDVPSHHCHIEKLESGA--YDMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC ++ +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKRYDELTSGQVVIRPQDKDC  163
+
+
+>gb|ACI46626.1| complement inhibitor [Rhipicephalus microplus]
+Length=167
+
+ Score =  218 bits (554),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 146/148 (99%), Positives = 146/148 (99%), Gaps = 0/148 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  13   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  72
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVP YEMWMLDAG
+Sbjct  73   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPXYEMWMLDAG  132
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLK  148
+            GLEVEVECCRQKLEELASGRNQMYPH K
+Sbjct  133  GLEVEVECCRQKLEELASGRNQMYPHFK  160
+
+
+>gb|AAN76829.1|AF452889_1 TSGP2 [Ornithodoros savignyi]
+Length=163
+
+ Score =  217 bits (552),  Expect = 4e-69, Method: Composition-based stats.
+ Identities = 86/147 (59%), Positives = 105/147 (71%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P DA+ AF+EG+ AY+LV+STD  ARDCLKG   G+K+ N +PVMM FKN   
+Sbjct  19   ADCPTGKPTDAYVAFNEGQGAYILVKSTDLDARDCLKGSATGKKEGNKVPVMMAFKNEGQ  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T  REVVYD  SHHCHV+K+      YEMWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATDGQRTLKREVVYDVASHHCHVEKLASGA--YEMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC +K +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKKYDELTSGQVVIRPQDKDC  163
+
+
+>pdb|3ZUI|A Chain A, Omci In Complex With Palmitoleic Acid
+ pdb|3ZUO|A Chain A, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|B Chain B, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|C Chain C, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|D Chain D, Omci In Complex With Leukotriene B4
+Length=150
+
+ Score =  215 bits (548),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>pdb|2CM4|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+ pdb|2CM9|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+Length=150
+
+ Score =  214 bits (545),  Expect = 4e-68, Method: Composition-based stats.
+ Identities = 148/150 (99%), Positives = 148/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK 
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKQ  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLG LTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGQLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>gb|ACI46627.1| complement inhibitor [Dermacentor reticulatus]
+Length=168
+
+ Score =  213 bits (541),  Expect = 2e-67, Method: Composition-based stats.
+ Identities = 144/149 (97%), Positives = 146/149 (98%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDC+GSEPVDAFQAFSEG+EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCSGSEPVDAFQAFSEGEEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVEC RQKLE LASGRNQ YPHLKD
+Sbjct  139  GLEVEVECRRQKLEGLASGRNQTYPHLKD  167
+
+
+>gb|ACI46628.1| putative complement inhibitor isoform 2 [Ornithodoros moubata]
+Length=159
+
+ Score =  210 bits (534),  Expect = 2e-66, Method: Composition-based stats.
+ Identities = 144/149 (97%), Positives = 147/149 (99%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            D+ESDC+GSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  10   DNESDCSGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  69
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTF+LDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  70   GTDWASTDWTFSLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  129
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVECCRQKLEELASGRNQ YPH KD
+Sbjct  130  GLEVEVECCRQKLEELASGRNQTYPHPKD  158
+
+
+>sp|Q04669.1|MOUB_ORNMO RecName: Full=Moubatin; Flags: Precursor
+ gb|AAA29432.1| moubatin [Ornithodoros moubata]
+Length=171
+
+ Score =  196 bits (497),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 67/150 (45%), Positives = 97/150 (65%), Gaps = 3/150 (2%)
+
+Query  2    SESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+            ++S C+ S+P+DA +AF +G   ++L +STDP+ARDCLKG P G +  NTLPV MT+K+ 
+Sbjct  19   AQSGCSVSDPLDALKAFKDGAGTFLLQKSTDPQARDCLKGTPNGNRDGNTLPVTMTYKDD  78
+
+Query  62   TDWASTDWTFTLDGAKVTATL-GNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            + W S +W FTL+GA + ATL G   Q  E+VYD QSH CH+ K+   V  Y+ W  +  
+Sbjct  79   SKWVSLNWMFTLEGANIVATLEGKRKQRGELVYDVQSHDCHITKLSSGV--YQQWQSNGS  136
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              + +++CC +K +EL SG +   P  K C
+Sbjct  137  ADDKDIKCCDEKFKELTSGIDYTKPQEKGC  166
+
+
+>gb|ACB70377.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score =  189 bits (481),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 43/151 (28%), Positives = 65/151 (43%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEG-KEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+             S + C     +DA+          ++L  ST P  +DCL+    G        V + FK
+Sbjct  18   KSNAQCAVQTDLDAWNLLDPAMHHTFLLESSTKPNPKDCLRAIAQGNPVKPNAQVTLRFK  77
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                W +T+W F  DG K+TATLG+  +   +VY  ++  CHV  +     + E W    
+Sbjct  78   TEKGWEATNWKFVTDGPKMTATLGDRKEEGTIVYGDRT--CHVIVL--GSGNIEYWKRSD  133
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC+Q  +   +GR+   P  KDC
+Sbjct  134  SSD--PNPCCQQVFDNKRAGRDFREPQKKDC  162
+
+
+>gb|ACB70392.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score =  188 bits (476),  Expect = 1e-57, Method: Composition-based stats.
+ Identities = 43/151 (28%), Positives = 65/151 (43%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V ++FK
+Sbjct  18   ESNAQCAAQADLDAWDLLDPAGHHTFLLVNSTKSSPRDCLKATAQGNPVKPNAQVELSFK  77
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                WA+T+W F  +G K++ATLG+  +   +VY   +  CHV  +     + E W    
+Sbjct  78   IEERWAATNWEFVTNGPKMSATLGDRHEEATIVYGDDT--CHVKVL--GSGNIEYWKRSD  133
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC++  +E    R    P  K C
+Sbjct  134  SSN--PNPCCQRVFDEKRGDRAFTEPQTKGC  162
+
+
+>gb|ACB70386.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=152
+
+ Score =  185 bits (470),  Expect = 7e-57, Method: Composition-based stats.
+ Identities = 48/151 (32%), Positives = 67/151 (44%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V + FK
+Sbjct  7    ESNAQCAAQTDLDAWNLLDPAGHHTFLLVSSTKTSPRDCLKATAQGSPVKPNAQVKLQFK  66
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+            +   W  T+W F  DG K+TATLGN  +   +VY   +  CHV  +     + E W    
+Sbjct  67   SDKGWGETNWEFVTDGPKMTATLGNRREEATIVYGDST--CHVKVL--GSGNIEYWKRSD  122
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC++  EE  +GR+   P  KDC
+Sbjct  123  SSN--PNTCCQKVFEEKRAGRDFKEPQQKDC  151
+
+
+>gb|ACB70378.1| moubatin-like lipocalin [Ornithodoros coriaceus]
+Length=166
+
+ Score =  178 bits (450),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 45/144 (31%), Positives = 70/144 (49%), Gaps = 5/144 (3%)
+
+Query  8    GSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWAS  66
+             ++ +DA++A   E    ++LV ST P A DCLK  P G  Q   + V M FK+G +W +
+Sbjct  25   KNKDIDAWKALAPEKGTTFLLVNSTRPDAEDCLKSTPEGTPQRPQMDVTMKFKSGGEWKT  84
+
+Query  67   TDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEV  126
+                 TL+G K+TA+  +  +   +VY   S  CHV  +     D E+W         ++
+Sbjct  85   AHRKLTLEGPKITASFDSKKEEGRIVYRGPS--CHVTVL--GTGDTEIWRRQGARNRKDM  140
+
+Query  127  ECCRQKLEELASGRNQMYPHLKDC  150
+             CC++  +E   G+    P  K C
+Sbjct  141  GCCKKYFDEERKGKAFKKPQAKGC  164
+
+
+>gb|ACB70332.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=163
+
+ Score =  177 bits (449),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 44/150 (29%), Positives = 70/150 (47%), Gaps = 7/150 (5%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +   C   E  DA++A   E   A++LV ST     DCLK  P G      + V M  K 
+Sbjct  20   ASQSCAKIENNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPMGTPSKPDMTVTMKSKE  79
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            G  W  +     ++G K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  
+Sbjct  80   GGSWKESQSQLKMEGPKITAVFGDKSEEGTILY--RADGCHVTQLKNG--DIEHWVRD--  133
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            G   +  CC++  EE  +G+    P  K C
+Sbjct  134  GSSADASCCKKDFEERTAGKTATNPQTKGC  163
+
+
+>gb|ACB70331.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=164
+
+ Score =  169 bits (429),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 43/146 (29%), Positives = 71/146 (49%), Gaps = 7/146 (5%)
+
+Query  6    CTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDW  64
+            CT  +  DA++A   E   A++LV ST     DCLK  P G      + V M  K G DW
+Sbjct  24   CTKIDNNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPTGTPSKPDMTVTMKSKEGGDW  83
+
+Query  65   ASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEV  124
+              ++    +   K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  G   
+Sbjct  84   KESESKLKMVDDKITAVFGDKSEEGTILY--RADGCHVTQLKNG--DIEHWVRD--GSSA  137
+
+Query  125  EVECCRQKLEELASGRNQMYPHLKDC  150
+            +  CC++   +  +G++   P  KDC
+Sbjct  138  DASCCKEDFAQRTTGKSPTNPQEKDC  163
+
+
+>gb|ABR23385.1| salivary lipocalin [Ornithodoros parkeri]
+Length=169
+
+ Score =  166 bits (420),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 41/144 (28%), Positives = 71/144 (49%), Gaps = 6/144 (4%)
+
+Query  9    SEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN-GTDWAS  66
+            S   +A++A ++     Y+L +ST    +DCLKGE   +++     V MT+K+    W +
+Sbjct  27   STVTEAWEAITQPPNGHYLLQQSTQEDPKDCLKGEVPTDQEKPNAKVKMTYKDSSGQWQT  86
+
+Query  67   TDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEV  126
+             +W F + G  +TATLG  T    V++ +Q   CH+         Y +W   +     + 
+Sbjct  87   NEWQFYMAGPNITATLGEKTLKGTVIFGTQG-TCHITHYWDG--GYGLWTHSSAKGN-DD  142
+
+Query  127  ECCRQKLEELASGRNQMYPHLKDC  150
+             CC++K +E  +G+N      K+C
+Sbjct  143  NCCKKKFDEKTTGQNTQKLQEKNC  166
+
+
+>gb|ABR23380.1| moubatin-like 6 [Ornithodoros parkeri]
+Length=169
+
+ Score =  162 bits (409),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 42/151 (28%), Positives = 67/151 (44%), Gaps = 7/151 (5%)
+
+Query  2    SESDCTGSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +E  C  S   +A+ A ++     Y+L +ST    +DCLKGE    +      V MT+K+
+Sbjct  21   AEEQCA-STVTEAWDAITQPPNGHYLLQQSTQEDPKDCLKGEVPTGQNKPKANVKMTYKD  79
+
+Query  61   G-TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                W + +W F + G  +TA+L + T +  V++  +   CHV +       Y +W   +
+Sbjct  80   SNGQWQTNEWEFYMAGPNITASLDSRTLSGTVIFGIKG-KCHVTQYSGG--GYGLWTHSS  136
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                 +  CC  K  E   G     P  KDC
+Sbjct  137  LSGS-DGGCCESKFGEQTKGETPKKPQEKDC  166
+
+
+>gb|ABI52654.1| monotonin [Argas monolakensis]
+Length=173
+
+ Score = 63.3 bits (152),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 31/153 (20%), Positives = 60/153 (39%), Gaps = 6/153 (4%)
+
+Query  1    DSESDCTGSEPVDAFQAFS-EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            ++ + C  + P  A+++ +  G   Y +V++TDP+  DC        +      V  T+ 
+Sbjct  18   EASAPCNFNGPFQAWRSVNGPGSGGYYMVKTTDPQTPDCPYVLVPRTRLTEGDAVEFTYG  77
+
+Query  60   NGTDWASTDWTFTL--DGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWML  117
+            +  D   T  T T+   G+ +  T G+      +++      C V  V      YE+W+ 
+Sbjct  78   SLEDGELTRRTATVSGQGSNIVVTGGDNPGTTTLIFSDY-QTCDV--VRGPTGGYELWVH  134
+
+Query  118  DAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                 +    CC  K  ++  G      + + C
+Sbjct  135  ADNVHDSSHGCCDTKFYQVTGGNGIRDVYQETC  167
+
+
+>gb|ABR23414.1| moubatin-like 3 [Ornithodoros parkeri]
+Length=176
+
+ Score = 62.9 bits (151),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 38/157 (24%), Positives = 51/157 (32%), Gaps = 11/157 (7%)
+
+Query  3    ESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCL--KGEPAGEKQDNTLPVMMTFKN  60
+             + C              GK  Y L++ST    + CL  +  P G       P    +K 
+Sbjct  18   HAACNTGSIDATKSIIGPGKGKYYLLKSTYEDEKSCLYVEARPQGTSFPAQYP--FGYKE  75
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML  117
+            G  W S   T    GA +        +    +  S    C V          P  E+W  
+Sbjct  76   GDKWVSKTGTVNGQGANIIDKDDEFGETNTTLVYSDYKVCDVGLFHGAKVGGPHVELWKH  135
+
+Query  118  -DAGGLEVEVECCRQKLEELASGR---NQMYPHLKDC  150
+             DA     E +CC+   EE   GR   +Q     KDC
+Sbjct  136  SDADENSAEFKCCKDVYEEELKGRKKQSQDREISKDC  172
+
+
+>gb|ACB70317.1| moubatin-like lipocalin [Ornithodoros coriaceus]
+Length=176
+
+ Score = 59.4 bits (142),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 28/156 (18%), Positives = 57/156 (37%), Gaps = 13/156 (8%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEK--QDNTLPVMMTFK  59
+            E+DCT   P D ++     G   + + +ST      C   +P  +   +         +K
+Sbjct  20   EADCT-QGPFDGWKTIVGTGDGYFYIKKSTSFYENLCTYSQPPTDPTTERKKSAFKSGYK  78
+
+Query  60   N-GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            +   DW            ++    G+  +  +++Y     +C+V     +  + E+W+  
+Sbjct  79   DASGDWQHPSGIAVGIDNRIIYIFGDKKKKYQLLYSDY-RNCYVTY---KPQELELWVHS  134
+
+Query  119  AGGLEVEVECCRQKLE-ELASGR---NQMYPHLKDC  150
+                   +ECC +    EL + +     +    KDC
+Sbjct  135  GETDPDAMECCNKVFGTELRARKLQGTTLRKMDKDC  170
+
+
+>gb|ABR23399.1| moubatin 1-like 2 [Ornithodoros parkeri]
+Length=176
+
+ Score = 59.0 bits (141),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 35/156 (22%), Positives = 54/156 (35%), Gaps = 9/156 (6%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P+DA ++    G   Y L++ST    + CL  E   +      P    +K G
+Sbjct  18   HAACNTG-PIDATKSIIGPGSGKYYLLKSTYKDEKLCLYVEARPQGTSFPAPYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML-  117
+              W S   T    GA +        +    +  S    C V          P  E+W   
+Sbjct  77   DQWVSKTGTVNGQGANIIDNDDEFGETNTTLVYSDYKVCDVGLFRGDKVGGPHVELWKHS  136
+
+Query  118  DAGGLEVEVECCRQKLEEL---ASGRNQMYPHLKDC  150
+            DA     + +CC  + EE       ++Q+    K C
+Sbjct  137  DADENSADYKCCTHRYEEELQAQGKKSQVREIGKGC  172
+
+
+>pdb|3BRN|A Chain A, Crystal Structure Of Am182 Serotonin Complex
+ pdb|3BRN|B Chain B, Crystal Structure Of Am182 Serotonin Complex
+Length=157
+
+ Score = 56.7 bits (135),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 29/143 (20%), Positives = 49/143 (34%), Gaps = 6/143 (4%)
+
+Query  2    SESDCTGSEPVDAFQAFS-EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK-  59
+            S + C    P  A+++ +  G   Y L ++T P   +C                  T+  
+Sbjct  3    SSAQCDFGGPFQAYKSVNGPGNGGYYLRKTTKPGTPECAYVLVPQNTLSEGQSTSFTYGK  62
+
+Query  60   -NGTDWASTDWTFTLDGAKVTATLGNLTQNREV-VYDSQSHHCHVDKVEKEVPDYEMWML  117
+                       T T++G K+  T      +    V  S    C V  +     +YE+W+ 
+Sbjct  63   LQNGQMIQLTATVTVNGDKIEVTGAGQDLSGTTTVLFSDYRSCDV--MRGPDGNYELWVH  120
+
+Query  118  DAGGLEVEVECCRQKLEELASGR  140
+             +        CC  K  ++A GR
+Sbjct  121  SSAINLQSYGCCDTKFAQVAGGR  143
+
+
+>gb|ABR23443.1| salivary secreted lipocalin [Ornithodoros parkeri]
+Length=177
+
+ Score = 55.2 bits (131),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 33/157 (21%), Positives = 52/157 (33%), Gaps = 10/157 (6%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P DA ++    GK  Y L RST  +   CL   P  E  +        +K G
+Sbjct  18   HAACNTG-PFDAKRSIIGPGKGEYYLARSTYEQNISCLYVVPPPEGTEFPAIYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML-  117
+              W   + T   +G  +  +          +  S    C V          P  E+W   
+Sbjct  77   NKWVQKNGTVNGEGPNIIDSDAGFGVTNTTLVYSDYKECDVGLFHGEKVGGPYVELWKHS  136
+
+Query  118  DAGGLEVEVECCRQKL----EELASGRNQMYPHLKDC  150
+            DA      ++CC++      E+    +       K+C
+Sbjct  137  DAKKGSEGLKCCQKYFRKELEKQGKSKTDFKRVDKNC  173
+
+
+>gb|ABI52694.1| lipocalin [Argas monolakensis]
+Length=176
+
+ Score = 55.2 bits (131),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 28/140 (20%), Positives = 47/140 (34%), Gaps = 6/140 (4%)
+
+Query  5    DCTGSEPVDAFQAFS-EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK--NG  61
+             C    P  A+++ +  G   Y L ++T P   +C                  T+     
+Sbjct  23   QCDFGGPFQAYKSVNGPGNGGYYLRKTTKPGTPECAYVLVPQNTLSEGQSTSFTYGKLQN  82
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREV-VYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+                    T T++G K+  T      +    V  S    C V  +     +YE+W+  + 
+Sbjct  83   GQMIQLTATVTVNGDKIEVTGAGQDLSGTTTVLFSDYRSCDV--MRGPDGNYELWVHSSA  140
+
+Query  121  GLEVEVECCRQKLEELASGR  140
+                   CC  K  ++A GR
+Sbjct  141  INLQSYGCCDTKFAQVAGGR  160
+
+
+>gb|ABR23347.1| moubatin-like 1 [Ornithodoros parkeri]
+Length=179
+
+ Score = 54.0 bits (128),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 26/118 (22%), Positives = 39/118 (33%), Gaps = 8/118 (7%)
+
+Query  18   FSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF---KNGTDWASTDWTFTLD  74
+            F  G   Y LV+ST P   DC+   P    + +  P    F   ++   W S      +D
+Sbjct  33   FGPGSGKYYLVKSTYPNENDCVYVVPP--PKGSQFPAKYPFGFKQSDGTWYSGTGEVNVD  90
+
+Query  75   GAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPD--YEMWMLDAGGLEVE-VECC  129
+            G  +        Q    +  S    C V      V     E+W   +     +  +CC
+Sbjct  91   GPNILDKDEKYGQTNTTLVYSDYKDCDVGLFHGSVGGPHVELWRHSSADENGDGFKCC  148
+
+
+>gb|ABR23445.1| salivary lipocalin [Ornithodoros parkeri]
+Length=156
+
+ Score = 52.9 bits (125),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 31/140 (22%), Positives = 48/140 (34%), Gaps = 6/140 (4%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P DA ++    GK  Y L RST  +   CL   P  E  +        +K G
+Sbjct  18   HAACNTG-PFDAKRSIIGPGKGEYYLARSTYEQNISCLYVVPPPEGTEFPAIYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML-  117
+              W   + T   +G  +  +          +  S    C V          P  E+W   
+Sbjct  77   NKWVQKNGTVNGEGPNIIDSDAGFGVTNTTLVYSDYKECDVGLFHGEKVGGPYVELWKHS  136
+
+Query  118  DAGGLEVEVECCRQKLEELA  137
+            DA      ++CC++  +E  
+Sbjct  137  DAKKGSEGLKCCQKYSQEGT  156
+
+
+>gb|ACB70352.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=166
+
+ Score = 49.0 bits (115),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 50/152 (33%), Gaps = 11/152 (7%)
+
+Query  5    DCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF----KN  60
+            DC  +   DA+++       Y LV+ST      C   + A +  +N       +    K 
+Sbjct  18   DCPPA--NDAWRSVKSP-GRYFLVKSTSSSPPQCAYVDSATDIDENAKTGKYVYGQLDKA  74
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHH-CHVDKVEKEVPDYEMWMLDA  119
+                   + T T +G K+  T  +       +     +  C V  V     D E+W+   
+Sbjct  75   TNALTRNEGTVTAEGDKIIVTGESGVVTGTTLLLFSDYGVCDV--VIGPRGDCELWVEQK  132
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYP-HLKDC  150
+                +   CC    E  A G N        +C
+Sbjct  133  NLKSISYGCCDTMFEGCAKGENIKNTYQEDEC  164
+
+
+>gb|ACB70314.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=170
+
+ Score = 49.0 bits (115),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 32/151 (21%), Positives = 51/151 (34%), Gaps = 10/151 (7%)
+
+Query  5    DCTGSEPVDAFQAFSEGK-EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN---  60
+            DC      DA+ +    +   Y L+++T   A  C    P   + D        +     
+Sbjct  22   DC--GSTTDAWTSVKSTELGKYFLMKTTASDAPKCSYAGPLSNRDDGAQTGDYGYGELDA  79
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNRE-VVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                  +      +G K+  T      +   +V  S    C  D V+    D E+W+   
+Sbjct  80   SGKLTKSTAKVKAEGNKIIITGAGPLLDGTSIVLHSAYGTC--DAVKGPKGDCELWVR-V  136
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            G   V   CC +K +E ASG+         C
+Sbjct  137  GNFGVVPFCCTKKFDECASGKPVKDLSPTSC  167
+
+
+>gb|AAN76828.1|AF452888_1 lipocalin [Ornithodoros savignyi]
+Length=190
+
+ Score = 48.6 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 28/138 (20%), Positives = 49/138 (36%), Gaps = 18/138 (13%)
+
+Query  27   LVRSTDPKARDCLKGEPA-GEKQDN-TLPVMMTFKNGT-DWASTDWTFTLDGAKVTATLG  83
+            LV++T P    C+   P  G    +   P  M +K+    W   D     +G+K+   + 
+Sbjct  51   LVKTTYPDEHACVYILPPYGTADASGRYPYRMGYKDSNDQWVKLDGKIKTEGSKI---ID  107
+
+Query  84   NLTQNR----EVVYDSQSHHCHVDKVEKEVPD-------YEMWMLDAGGLEVEVECCRQK  132
+            N  +       V+Y      C V   E +           E+W   +G  E  + CC ++
+Sbjct  108  NDPEYGDTVTTVLYTHLGGGCDVTLFEGQKGQSKVQGPFLELWYH-SGASEESMRCCEEE  166
+
+Query  133  LEELASGRNQMYPHLKDC  150
+              +       +    K+C
+Sbjct  167  FRKNLKEGTAVRKVNKNC  184
+
+
+>gb|ABR23418.1| salivary lipocalin [Ornithodoros parkeri]
+Length=168
+
+ Score = 45.9 bits (107),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 30/152 (20%), Positives = 56/152 (37%), Gaps = 12/152 (8%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF----  58
+            + C   +  DA++     +   Y LV++T     +C   +P G+  + T     +F    
+Sbjct  21   AQCP--DQTDAWKLLQRRQSKRYFLVKTTSVNLGECSYLKP-GKIDEATQSASFSFGLRD  77
+
+Query  59   KNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            K G             G K+  T G+      V++      C V  +     D E+W  +
+Sbjct  78   KPGKSLTKQSAVVKAQGEKLVVT-GDSQGTTTVLFSDYG-SCDV--LRGPDGDCELWADE  133
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            A      + CC  K +  A  +   + + ++C
+Sbjct  134  AVVRSSSLGCCDTKFQACAKNKKVRHTYQENC  165
+
+
+>sp|Q5GQ85.1|ARGR1_ARGRF RecName: Full=Allergen Arg r 1; AltName: Allergen=Arg r 1; Flags: 
+Precursor
+ emb|CAG26895.1| Arg r 1 precursor [Argas reflexus]
+Length=159
+
+ Score = 43.6 bits (101),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 34/152 (22%), Positives = 52/152 (34%), Gaps = 14/152 (9%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDC--LKGEPAGEKQDNTLPVMMTF  58
+            S  DC+G    DA+ +        Y L ++T     +C  +KG    E    T      +
+Sbjct  15   SADDCSGKT--DAWTSIKGPKTGGYWLKQTTKTGENECTYVKGTDFKENTK-TATYTYGY  71
+
+Query  59   KNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            K+ +    T  T T         +G+ T    V+Y +    C V K        E+W+  
+Sbjct  72   KDASG-KLTKTTGTATAKGSDIVVGSDT--STVIY-TDGKTCDVVKHG---GHTELWVHS  124
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +        CC +K  E   G        K C
+Sbjct  125  SKTSGGYNNCCDKKFTE-TRGSTPANEVYKKC  155
+
+
+>gb|ABR23458.1| moubatin-like 5 variant [Ornithodoros parkeri]
+Length=180
+
+ Score = 43.6 bits (101),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 32/162 (20%), Positives = 54/162 (33%), Gaps = 13/162 (8%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPA--GEKQDNTLPVMMT  57
+             +++ C    PVDA ++    G     LV+ST  +   CL   P   G       P    
+Sbjct  16   KAQTTCEDG-PVDARRSIVGPGTGKLYLVKSTYQQDICCLYTIPPPIGTPWPAPYPFGYK  74
+
+Query  58   FKNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEV----PDYE  113
+             K   +W     T   +GA V  +     +    +  S   +C V           P  E
+Sbjct  75   NKETGEWVKRTGTVDGEGANVIDSDSGFGETNTTLLYSDYQNCAVGLFHGGKVTGGPYLE  134
+
+Query  114  MWMLDAGGLEVEV-ECCRQKLEELASGRNQMYPH----LKDC  150
+            ++   + G + +  +CC  +       + +         KDC
+Sbjct  135  LFKYSSAGDDSQALQCCENRFAAELKKQGKEEKDVIQVDKDC  176
+
+
+>pdb|2X46|A Chain A, Crystal Structure Of Semet Arg R 1
+Length=144
+
+ Score = 40.5 bits (93),  Expect = 0.059, Method: Composition-based stats.
+ Identities = 33/159 (21%), Positives = 50/159 (31%), Gaps = 34/159 (21%)
+
+Query  5    DCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDC--LKGEPAGEKQDNTLPVMMTFKNG  61
+            DC+G    DA+ +        Y L ++T     +C  +KG                FK  
+Sbjct  3    DCSGKT--DAWTSIKGPKTGGYWLKQTTKTGENECTYVKGT--------------DFKEN  46
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNR----------EVVYDSQSHHCHVDKVEKEVPD  111
+            T  A+  + +     K+T T G                 V+Y +    C V K       
+Sbjct  47   TKTATYTYGYKDASGKLTKTTGTAXAKGSDIVVGSDTSTVIY-TDGKTCDVVKHG---GH  102
+
+Query  112  YEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+             E+W+  +        CC +K  E   G        K C
+Sbjct  103  TELWVHSSKTSGGYNNCCDKKFTE-TRGSTPANEVYKKC  140
+
+
+>gb|ABI52816.1| lipocalin [Argas monolakensis]
+Length=181
+
+ Score = 40.5 bits (93),  Expect = 0.080, Method: Composition-based stats.
+ Identities = 24/152 (16%), Positives = 48/152 (32%), Gaps = 6/152 (4%)
+
+Query  3    ESDCTGSEPVDAFQAFS-EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF---  58
+            +  C  + P  A ++ +  G   Y L+ +T+    +C        +         T+   
+Sbjct  22   DVQCNFTGPFSALRSVNGRGSGGYYLINTTENNRPNCTYVRAPEVRLTEGSREKFTYGQL  81
+
+Query  59   KNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            K G +              +    G      ++++      C V  +     DY++W+  
+Sbjct  82   KKGQNVMRRHRGRVHVQGDMIIVTGKRAGISQLLFSDY-RTCDV-VLGPSGHDYQLWLHA  139
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                     CC  K +EL   R     + + C
+Sbjct  140  HNVQNGSDPCCDVKFQELVWNRTVFQVYHETC  171
+
+
+>gb|ABR23457.1| moubatin-like 5 [Ornithodoros parkeri]
+Length=181
+
+ Score = 39.8 bits (91),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/155 (22%), Positives = 52/155 (34%), Gaps = 13/155 (8%)
+
+Query  9    SEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGE--PAGEKQDNTLPVMMTFKNGTDW-  64
+              PVDA ++    G     LV+ST  +   CL     P G       P     K   +W 
+Sbjct  23   QGPVDARKSIVGPGTGKLYLVKSTCQQDICCLYTIPPPTGTPWPAPYPFGYKNKATGEWV  82
+
+Query  65   ASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEV----PDYEMWMLDAG  120
+              T  T   +GA V  +     +    +  S   +C V           P  E++   + 
+Sbjct  83   KVTTGTVNGEGANVIDSDSGFGETNTTLLYSDYQNCAVGLFHGGKVTGGPHLELFKYSSA  142
+
+Query  121  GLEVEV-ECCRQKL--EELASGRNQMYPHL--KDC  150
+              + +  +CC Q+   E    G+         KDC
+Sbjct  143  ADDSQALQCCEQRFAAELEKQGKTATDVIEVNKDC  177
+
+
+>pdb|2X45|A Chain A, Crystal Structure Of Arg R 1 In Complex With Histamine
+ pdb|2X45|B Chain B, Crystal Structure Of Arg R 1 In Complex With Histamine
+ pdb|2X45|C Chain C, Crystal Structure Of Arg R 1 In Complex With Histamine
+Length=144
+
+ Score = 39.0 bits (89),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 33/149 (22%), Positives = 51/149 (34%), Gaps = 14/149 (9%)
+
+Query  5    DCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDC--LKGEPAGEKQDNTLPVMMTFKNG  61
+            DC+G    DA+ +        Y L ++T     +C  +KG    E    T      +K+ 
+Sbjct  3    DCSGKT--DAWTSIKGPKTGGYWLKQTTKTGENECTYVKGTDFKENTK-TATYTYGYKDA  59
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGG  121
+            +    T  T T         +G+ T    V+Y +    C V K        E+W+  +  
+Sbjct  60   SG-KLTKTTGTATAKGSDIVVGSDT--STVIY-TDGKTCDVVKHG---GHTELWVHSSKT  112
+
+Query  122  LEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                  CC +K  E   G        K C
+Sbjct  113  SGGYNNCCDKKFTE-TRGSTPANEVYKKC  140
+
+
+>gb|ABI52693.1| lipocalin [Argas monolakensis]
+Length=203
+
+ Score = 39.4 bits (90),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 34/158 (22%), Positives = 52/158 (33%), Gaps = 20/158 (13%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKNG  61
+            S C      DA +A      + YVL ++T      C   +  G ++   T   +      
+Sbjct  32   SGCDRQ--NDALRALKARNSSLYVLQQTTSGAGESCTYVKAQGFDEAQRTALYIYGNATD  89
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLT------QNREVVYDSQSHHCHVDKVEKEVPD--YE  113
+                 + WT  +      + +GN T      +  EV+Y S    C V K         YE
+Sbjct  90   NGTTVSSWTQRVRAEN-DSIVGNKTLTPNVTERWEVIY-SNYKDCDVMKHTTGDEGAVYE  147
+
+Query  114  MWMLDAGGLEVEVECCRQKLEELASG---RNQMYPHLK  148
+            +W   +  +     CC +   E   G        P LK
+Sbjct  148  LW---SQNVTKLNPCCSKMFNETTQGIASHTVKCPELK  182
+
+
+>gb|ACB70320.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=160
+
+ Score = 36.7 bits (83),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 30/154 (19%), Positives = 52/154 (34%), Gaps = 15/154 (10%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            ++   C      DA ++  +G   Y LV++T      C   +P               + 
+Sbjct  15   EAYGACA--SNTDASKSL-QGTARYFLVKTTAGNKLQCAFVDPP-----KGGTYTYGGRA  66
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNR--EVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            G+   +   TF   G K+  + G    N    ++Y      C V  V+    + E+++  
+Sbjct  67   GSTMVTFTATFRASGDKIGVSGGQGDVNGQSTLLYSDY-DTCDV--VKSPTENCELYVRK  123
+
+Query  119  AGGLEVEVECCRQKLE--ELASGRNQMYPHLKDC  150
+                     CC+ K E    A G      +  DC
+Sbjct  124  DKVDGGYDPCCKTKYEGCAKAKGGQSTDLYRADC  157
+
+
+>gb|AGJ90348.1| TSGP4 [Ornithodoros moubata]
+Length=177
+
+ Score = 36.7 bits (83),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 28/161 (17%), Positives = 54/161 (34%), Gaps = 18/161 (11%)
+
+Query  5    DCTGSEPVDAFQAFSEGKEAYVLVRSTDPK-ARDCLKGEPAGEKQDN-TLPVMMTFKNGT  62
+            DC  +   D +     G   + LV+ T P+    C   +   +  D+ TL   M+++   
+Sbjct  16   DCAHAA--DVWNVIGGGDANFFLVKRTYPRGGNQCAYMKRTSKNDDSHTLEAEMSYRRPG  73
+
+Query  63   DWA-STDWTFTLDGA-------KVTATLGNLTQNREVVYD---SQSHHCHVDKVEKE--V  109
+            D +     T+T+           +            + Y    S  ++C++ + +     
+Sbjct  74   DTSFQAPSTYTVTATQEGGTEYNIMTVTAKSGSQGGIQYKLVHSDGNNCNILQAKTGPFA  133
+
+Query  110  PDYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+               E+W  +     V    C       + G  Q  P+  DC
+Sbjct  134  GKCELWAPEGQASGVGNS-CDSHFATYSCGEVQETPYTTDC  173
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.125    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0378    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310377937966
+Results from round 3
+
+
+Query= 3ZUIA
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|AAN76829.1|AF452889_1  TSGP2 [Ornithodoros savignyi]                196    5e-61
+gb|AAT65682.1|  complement inhibitor precursor [Ornithodoros moub...   196    7e-61
+gb|AAN76830.1|AF452890_1  TSGP3 [Ornithodoros savignyi]                194    4e-60
+gb|ACI46626.1|  complement inhibitor [Rhipicephalus microplus]         190    2e-58
+pdb|3ZUI|A  Chain A, Omci In Complex With Palmitoleic Acid >pdb|3...   188    7e-58
+pdb|2CM4|A  Chain A, The Complement Inhibitor Omci In Complex Wit...   186    2e-57
+gb|ACI46627.1|  complement inhibitor [Dermacentor reticulatus]         184    5e-56
+gb|ACI46628.1|  putative complement inhibitor isoform 2 [Ornithod...   183    5e-56
+sp|Q04669.1|MOUB_ORNMO  RecName: Full=Moubatin; Flags: Precursor ...   176    6e-53
+gb|ACB70377.1|  salivary lipocalin [Ornithodoros coriaceus]            172    2e-51
+gb|ACB70392.1|  salivary lipocalin [Ornithodoros coriaceus]            171    3e-51
+gb|ACB70386.1|  salivary lipocalin [Ornithodoros coriaceus]            169    1e-50
+gb|ABI52654.1|  monotonin [Argas monolakensis]                         164    3e-48
+gb|ACB70378.1|  moubatin-like lipocalin [Ornithodoros coriaceus]       164    3e-48
+gb|ACB70332.1|  salivary lipocalin [Ornithodoros coriaceus]            162    1e-47
+gb|ABR23443.1|  salivary secreted lipocalin [Ornithodoros parkeri]     162    2e-47
+gb|ABR23414.1|  moubatin-like 3 [Ornithodoros parkeri]                 161    6e-47
+gb|ABR23399.1|  moubatin 1-like 2 [Ornithodoros parkeri]               160    1e-46
+gb|ABR23380.1|  moubatin-like 6 [Ornithodoros parkeri]                 156    4e-45
+gb|ABR23445.1|  salivary lipocalin [Ornithodoros parkeri]              154    1e-44
+gb|ACB70331.1|  salivary lipocalin [Ornithodoros coriaceus]            154    2e-44
+gb|ABR23385.1|  salivary lipocalin [Ornithodoros parkeri]              154    2e-44
+pdb|3BRN|A  Chain A, Crystal Structure Of Am182 Serotonin Complex...   152    1e-43
+gb|ABI52694.1|  lipocalin [Argas monolakensis]                         151    3e-43
+gb|ACB70352.1|  salivary lipocalin [Ornithodoros coriaceus]            138    3e-38
+gb|ACB70317.1|  moubatin-like lipocalin [Ornithodoros coriaceus]       135    6e-37
+gb|ABR23347.1|  moubatin-like 1 [Ornithodoros parkeri]                 134    2e-36
+gb|ABR23418.1|  salivary lipocalin [Ornithodoros parkeri]              130    4e-35
+gb|ACB70314.1|  salivary lipocalin [Ornithodoros coriaceus]            128    2e-34
+gb|AAN76828.1|AF452888_1  lipocalin [Ornithodoros savignyi]            115    5e-29
+
+Sequences not found previously or not previously below threshold:
+
+gb|ABR23458.1|  moubatin-like 5 variant [Ornithodoros parkeri]         118    2e-30
+gb|ABR23457.1|  moubatin-like 5 [Ornithodoros parkeri]                 114    7e-29
+gb|ABI52816.1|  lipocalin [Argas monolakensis]                         110    3e-27
+gb|ADK94457.1|  salivary lipocalin [Ornithodoros moubata]              105    3e-25
+gb|ACB70320.1|  salivary lipocalin [Ornithodoros coriaceus]           87.5    9e-19
+gb|ACB70333.1|  salivary lipocalin [Ornithodoros coriaceus]           86.4    2e-18
+gb|ABI52634.1|  monomine [Argas monolakensis]                         84.8    9e-18
+pdb|2X46|A  Chain A, Crystal Structure Of Semet Arg R 1               79.8    5e-16
+pdb|3BS2|A  Chain A, Crystal Structure Of Monomine                    79.8    5e-16
+pdb|3BU1|A  Chain A, Crystal Structure Of Monomine-Histamine Complex  79.4    6e-16
+sp|Q5GQ85.1|ARGR1_ARGRF  RecName: Full=Allergen Arg r 1; AltName:...  79.4    9e-16
+pdb|3BU9|A  Chain A, Selenomethionine Derivative Of Monomine L57,...  73.7    9e-14
+pdb|2X45|A  Chain A, Crystal Structure Of Arg R 1 In Complex With...  73.3    1e-13
+gb|ABR23415.1|  short salivary moubatin [Ornithodoros parkeri]        71.7    3e-13
+gb|AGJ90348.1|  TSGP4 [Ornithodoros moubata]                          61.3    3e-09
+gb|ABI52693.1|  lipocalin [Argas monolakensis]                        60.2    7e-09
+gb|AAN76831.1|AF452891_1  TSGP4 [Ornithodoros savignyi]               55.2    4e-07
+gb|ABR23403.1|  salivary lipocalin [Ornithodoros parkeri]             54.4    8e-07
+gb|ABR23455.1|  salivary secreted lipocalin [Ornithodoros parkeri]    54.0    1e-06
+gb|ABR23462.1|  moubatin-like 4 [Ornithodoros parkeri]                53.6    1e-06
+gb|ABR23484.1|  moubatin-like 7 [Ornithodoros parkeri]                52.5    3e-06
+gb|ACB70380.1|  salivary lipocalin [Ornithodoros coriaceus]           52.9    3e-06
+gb|AAS59160.1|  lipocalin-like protein [Rhipicephalus microplus]      52.5    4e-06
+gb|AAL56644.1|AF217101_1  serotonin and histamine binding protein...  52.5    6e-06
+gb|ABI52646.1|  lipocalin [Argas monolakensis]                        51.3    8e-06
+gb|ABI52645.1|  lipocalin [Argas monolakensis]                        49.4    5e-05
+gb|ABI52665.1|  lipocalin [Argas monolakensis]                        49.0    7e-05
+gb|AAY66806.1|  nymphal histamine binding protein B [Ixodes scapu...  49.0    1e-04
+gb|AAY66754.1|  putative secreted protein [Ixodes scapularis]         48.2    1e-04
+gb|ABI52765.1|  lipocalin [Argas monolakensis]                        46.7    2e-04
+sp|O77420.1|HBP1_RHIAP  RecName: Full=Female-specific histamine-b...  47.5    3e-04
+gb|ABR23441.1|  salivary lipocalin [Ornithodoros parkeri]             46.3    5e-04
+gb|AAY66569.1|  salivary serotonin-binding protein [Ixodes scapul...  46.7    7e-04
+sp|O77422.1|HBPM_RHIAP  RecName: Full=Male-specific histamine-bin...  46.3    9e-04
+gb|ACB70306.1|  salivary lipocalin [Ornithodoros coriaceus]           45.5    0.001
+gb|ACB70359.1|  salivary lipocalin [Ornithodoros coriaceus]           45.2    0.002
+emb|CAJ20729.1|  lipocalin [Ixodes ricinus]                           45.2    0.003
+gb|AAY66639.1|  putative salivary HBP family member [Ixodes scapu...  43.6    0.007
+gb|AAK97821.1|AF209918_1  25 kDa salivary gland protein B [Ixodes...  41.7    0.049
+ref|XP_002405947.1|  secreted protein, putative [Ixodes scapulari...  41.3    0.053
+gb|EMR90954.1|  putative chlorogenic acid esterase precursor prot...  41.7    0.058
+gb|AAY66803.1|  putative secreted protein with HBP domain, partia...  41.3    0.063
+gb|AAY66644.1|  histamine binding protein [Ixodes scapularis]         40.9    0.070
+gb|AAY66805.1|  nymphal histamine binding protein [Ixodes scapula...  40.9    0.087
+gb|AAY66819.1|  putative secreted protein [Ixodes scapularis]         40.5    0.092
+gb|AAY66600.1|  salivary serotonin-binding protein [Ixodes scapul...  40.5    0.11 
+gb|ABI52749.1|  lipocalin [Argas monolakensis]                        39.4    0.11 
+ref|XP_004935999.1|  PREDICTED: tudor domain-containing protein 1...  40.9    0.11 
+gb|AAT92158.1|  truncated histamine binding protein [Ixodes pacif...  39.8    0.12 
+gb|ABI52661.1|  lipocalin [Argas monolakensis]                        39.8    0.18 
+gb|AAY66770.1|  putative secreted salivary protein [Ixodes scapul...  39.8    0.20 
+ref|WP_010511781.1|  lipoprotein, partial [SAR324 cluster bacteri...  40.1    0.21 
+gb|AAK97816.1|AF209913_1  histamine binding protein [Ixodes scapu...  39.8    0.22 
+gb|AAY66794.1|  salivary histamine binding protein [Ixodes scapul...  39.4    0.26 
+gb|AAM93643.1|AF483721_1  putative protein [Ixodes scapularis]        39.4    0.26 
+gb|AAY66709.1|  putative secreted salivary protein [Ixodes scapul...  39.4    0.31 
+gb|AAY66655.1|  putative salivary secreted protein, partial [Ixod...  39.0    0.39 
+gb|AAK97825.1|AF209922_1  25 kDa salivary gland protein A [Ixodes...  39.0    0.40 
+emb|CAJ20731.1|  lipocalin [Ixodes ricinus]                           38.2    0.78 
+gb|ABR23375.1|  golgi-destined protein [Ornithodoros parkeri]         37.4    0.89 
+ref|WP_010511853.1|  lipoprotein, partial [SAR324 cluster bacteri...  37.8    1.2  
+gb|AAY66747.1|  putative secreted protein [Ixodes scapularis]         37.1    1.7  
+gb|ABV02568.1|  AMA-1 S4, partial [Plasmodium falciparum]             37.1    2.4  
+gb|ABI52807.1|  lipocalin [Argas monolakensis]                        35.5    3.5  
+
+
+>gb|AAN76829.1|AF452889_1 TSGP2 [Ornithodoros savignyi]
+Length=163
+
+ Score =  196 bits (499),  Expect = 5e-61, Method: Composition-based stats.
+ Identities = 86/147 (59%), Positives = 105/147 (71%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P DA+ AF+EG+ AY+LV+STD  ARDCLKG   G+K+ N +PVMM FKN   
+Sbjct  19   ADCPTGKPTDAYVAFNEGQGAYILVKSTDLDARDCLKGSATGKKEGNKVPVMMAFKNEGQ  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T  REVVYD  SHHCHV+K+      YEMWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATDGQRTLKREVVYDVASHHCHVEKLASGA--YEMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC +K +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKKYDELTSGQVVIRPQDKDC  163
+
+
+>gb|AAT65682.1| complement inhibitor precursor [Ornithodoros moubata]
+Length=168
+
+ Score =  196 bits (498),  Expect = 7e-61, Method: Composition-based stats.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  139  GLEVEVECCRQKLEELASGRNQMYPHLKDC  168
+
+
+>gb|AAN76830.1|AF452890_1 TSGP3 [Ornithodoros savignyi]
+Length=163
+
+ Score =  194 bits (492),  Expect = 4e-60, Method: Composition-based stats.
+ Identities = 85/147 (58%), Positives = 107/147 (73%), Gaps = 2/147 (1%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+            +DC   +P +A+ AF+EGK AY+LVRST+  ARDCLKGE  G+K+ NTLPVMM FK+   
+Sbjct  19   ADCPTGKPTEAYVAFNEGKGAYILVRSTNLNARDCLKGEATGKKEGNTLPVMMAFKDEGK  78
+
+Query  64   WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLE  123
+            W S  WTFTLDG KVTAT G  T   EVVYD  SHHCH++K+E     Y+MWML+AGGLE
+Sbjct  79   WVSLPWTFTLDGPKVTATHGQRTLKGEVVYDVPSHHCHIEKLESGA--YDMWMLEAGGLE  136
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+            V++ECC ++ +EL SG+  + P  KDC
+Sbjct  137  VDIECCNKRYDELTSGQVVIRPQDKDC  163
+
+
+>gb|ACI46626.1| complement inhibitor [Rhipicephalus microplus]
+Length=167
+
+ Score =  190 bits (482),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 146/149 (98%), Positives = 146/149 (98%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  13   DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  72
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVP YEMWMLDAG
+Sbjct  73   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPXYEMWMLDAG  132
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVECCRQKLEELASGRNQMYPH K 
+Sbjct  133  GLEVEVECCRQKLEELASGRNQMYPHFKT  161
+
+
+>pdb|3ZUI|A Chain A, Omci In Complex With Palmitoleic Acid
+ pdb|3ZUO|A Chain A, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|B Chain B, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|C Chain C, Omci In Complex With Leukotriene B4
+ pdb|3ZUO|D Chain D, Omci In Complex With Leukotriene B4
+Length=150
+
+ Score =  188 bits (476),  Expect = 7e-58, Method: Composition-based stats.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>pdb|2CM4|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+ pdb|2CM9|A Chain A, The Complement Inhibitor Omci In Complex With Ricinoleic 
+Acid
+Length=150
+
+ Score =  186 bits (473),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 148/150 (99%), Positives = 148/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK 
+Sbjct  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKQ  60
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLG LTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  61   GTDWASTDWTFTLDGAKVTATLGQLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            GLEVEVECCRQKLEELASGRNQMYPHLKDC
+Sbjct  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+
+
+>gb|ACI46627.1| complement inhibitor [Dermacentor reticulatus]
+Length=168
+
+ Score =  184 bits (466),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 144/149 (97%), Positives = 146/149 (98%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            DSESDC+GSEPVDAFQAFSEG+EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  19   DSESDCSGSEPVDAFQAFSEGEEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  78
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  79   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  138
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVEC RQKLE LASGRNQ YPHLKD
+Sbjct  139  GLEVEVECRRQKLEGLASGRNQTYPHLKD  167
+
+
+>gb|ACI46628.1| putative complement inhibitor isoform 2 [Ornithodoros moubata]
+Length=159
+
+ Score =  183 bits (465),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 144/149 (97%), Positives = 147/149 (99%), Gaps = 0/149 (0%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            D+ESDC+GSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN
+Sbjct  10   DNESDCSGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  69
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            GTDWASTDWTF+LDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG
+Sbjct  70   GTDWASTDWTFSLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  129
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKD  149
+            GLEVEVECCRQKLEELASGRNQ YPH KD
+Sbjct  130  GLEVEVECCRQKLEELASGRNQTYPHPKD  158
+
+
+>sp|Q04669.1|MOUB_ORNMO RecName: Full=Moubatin; Flags: Precursor
+ gb|AAA29432.1| moubatin [Ornithodoros moubata]
+Length=171
+
+ Score =  176 bits (446),  Expect = 6e-53, Method: Composition-based stats.
+ Identities = 67/150 (45%), Positives = 97/150 (65%), Gaps = 3/150 (2%)
+
+Query  2    SESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+            ++S C+ S+P+DA +AF +G   ++L +STDP+ARDCLKG P G +  NTLPV MT+K+ 
+Sbjct  19   AQSGCSVSDPLDALKAFKDGAGTFLLQKSTDPQARDCLKGTPNGNRDGNTLPVTMTYKDD  78
+
+Query  62   TDWASTDWTFTLDGAKVTATL-GNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            + W S +W FTL+GA + ATL G   Q  E+VYD QSH CH+ K+   V  Y+ W  +  
+Sbjct  79   SKWVSLNWMFTLEGANIVATLEGKRKQRGELVYDVQSHDCHITKLSSGV--YQQWQSNGS  136
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              + +++CC +K +EL SG +   P  K C
+Sbjct  137  ADDKDIKCCDEKFKELTSGIDYTKPQEKGC  166
+
+
+>gb|ACB70377.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score =  172 bits (436),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 43/151 (28%), Positives = 63/151 (42%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEG-KEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+             S + C     +DA+          ++L  ST P  +DCL+    G        V + FK
+Sbjct  18   KSNAQCAVQTDLDAWNLLDPAMHHTFLLESSTKPNPKDCLRAIAQGNPVKPNAQVTLRFK  77
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                W +T+W F  DG K+TATLG+  +   +VY      CHV  +     + E W    
+Sbjct  78   TEKGWEATNWKFVTDGPKMTATLGDRKEEGTIVYGD--RTCHVIVL--GSGNIEYWKRSD  133
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC+Q  +   +GR+   P  KDC
+Sbjct  134  S--SDPNPCCQQVFDNKRAGRDFREPQKKDC  162
+
+
+>gb|ACB70392.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=165
+
+ Score =  171 bits (434),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 43/151 (28%), Positives = 64/151 (42%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAFSE-GKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V ++FK
+Sbjct  18   ESNAQCAAQADLDAWDLLDPAGHHTFLLVNSTKSSPRDCLKATAQGNPVKPNAQVELSFK  77
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                WA+T+W F  +G K++ATLG+  +   +VY      CHV  +     + E W    
+Sbjct  78   IEERWAATNWEFVTNGPKMSATLGDRHEEATIVYGDD--TCHVKVL--GSGNIEYWKRSD  133
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC++  +E    R    P  K C
+Sbjct  134  SSN--PNPCCQRVFDEKRGDRAFTEPQTKGC  162
+
+
+>gb|ACB70386.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=152
+
+ Score =  169 bits (429),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 48/151 (32%), Positives = 66/151 (44%), Gaps = 7/151 (5%)
+
+Query  1    DSESDCTGSEPVDAFQAFSE-GKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            +S + C     +DA+      G   ++LV ST    RDCLK    G        V + FK
+Sbjct  7    ESNAQCAAQTDLDAWNLLDPAGHHTFLLVSSTKTSPRDCLKATAQGSPVKPNAQVKLQFK  66
+
+Query  60   NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+            +   W  T+W F  DG K+TATLGN  +   +VY      CHV  +     + E W    
+Sbjct  67   SDKGWGETNWEFVTDGPKMTATLGNRREEATIVYGDS--TCHVKVL--GSGNIEYWKRSD  122
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    CC++  EE  +GR+   P  KDC
+Sbjct  123  SSN--PNTCCQKVFEEKRAGRDFKEPQQKDC  151
+
+
+>gb|ABI52654.1| monotonin [Argas monolakensis]
+Length=173
+
+ Score =  164 bits (415),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 29/153 (19%), Positives = 57/153 (37%), Gaps = 6/153 (4%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+            ++ + C  + P  A+++    G   Y +V++TDP+  DC        +      V  T+ 
+Sbjct  18   EASAPCNFNGPFQAWRSVNGPGSGGYYMVKTTDPQTPDCPYVLVPRTRLTEGDAVEFTYG  77
+
+Query  60   --NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWML  117
+                 +      T +  G+ +  T G+      +++ S    C V  V      YE+W+ 
+Sbjct  78   SLEDGELTRRTATVSGQGSNIVVTGGDNPGTTTLIF-SDYQTCDV--VRGPTGGYELWVH  134
+
+Query  118  DAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                 +    CC  K  ++  G      + + C
+Sbjct  135  ADNVHDSSHGCCDTKFYQVTGGNGIRDVYQETC  167
+
+
+>gb|ACB70378.1| moubatin-like lipocalin [Ornithodoros coriaceus]
+Length=166
+
+ Score =  164 bits (414),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 44/144 (31%), Positives = 71/144 (49%), Gaps = 5/144 (3%)
+
+Query  8    GSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWAS  66
+             ++ +DA++A +  K   ++LV ST P A DCLK  P G  Q   + V M FK+G +W +
+Sbjct  25   KNKDIDAWKALAPEKGTTFLLVNSTRPDAEDCLKSTPEGTPQRPQMDVTMKFKSGGEWKT  84
+
+Query  67   TDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEV  126
+                 TL+G K+TA+  +  +   +VY  +   CHV  +     D E+W         ++
+Sbjct  85   AHRKLTLEGPKITASFDSKKEEGRIVY--RGPSCHVTVL--GTGDTEIWRRQGARNRKDM  140
+
+Query  127  ECCRQKLEELASGRNQMYPHLKDC  150
+             CC++  +E   G+    P  K C
+Sbjct  141  GCCKKYFDEERKGKAFKKPQAKGC  164
+
+
+>gb|ACB70332.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=163
+
+ Score =  162 bits (409),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 43/150 (29%), Positives = 69/150 (46%), Gaps = 7/150 (5%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +   C   E  DA++A   E   A++LV ST     DCLK  P G      + V M  K 
+Sbjct  20   ASQSCAKIENNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPMGTPSKPDMTVTMKSKE  79
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            G  W  +     ++G K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  
+Sbjct  80   GGSWKESQSQLKMEGPKITAVFGDKSEEGTILY--RADGCHVTQLKN--GDIEHWVRDGS  135
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                +  CC++  EE  +G+    P  K C
+Sbjct  136  --SADASCCKKDFEERTAGKTATNPQTKGC  163
+
+
+>gb|ABR23443.1| salivary secreted lipocalin [Ornithodoros parkeri]
+Length=177
+
+ Score =  162 bits (410),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 31/157 (20%), Positives = 50/157 (32%), Gaps = 10/157 (6%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P DA ++    GK  Y L RST  +   CL   P  E  +        +K G
+Sbjct  18   HAACNTG-PFDAKRSIIGPGKGEYYLARSTYEQNISCLYVVPPPEGTEFPAIYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWMLD  118
+              W   + T   +G  +  +          +  S    C V          P  E+W   
+Sbjct  77   NKWVQKNGTVNGEGPNIIDSDAGFGVTNTTLVYSDYKECDVGLFHGEKVGGPYVELWKHS  136
+
+Query  119  AG-GLEVEVECCRQKL----EELASGRNQMYPHLKDC  150
+                    ++CC++      E+    +       K+C
+Sbjct  137  DAKKGSEGLKCCQKYFRKELEKQGKSKTDFKRVDKNC  173
+
+
+>gb|ABR23414.1| moubatin-like 3 [Ornithodoros parkeri]
+Length=176
+
+ Score =  161 bits (406),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 36/155 (23%), Positives = 49/155 (32%), Gaps = 7/155 (5%)
+
+Query  3    ESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGT  62
+             + C              GK  Y L++ST    + CL  E   +           +K G 
+Sbjct  18   HAACNTGSIDATKSIIGPGKGKYYLLKSTYEDEKSCLYVEARPQGTSFPAQYPFGYKEGD  77
+
+Query  63   DWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML-D  118
+             W S   T    GA +        +    +  S    C V          P  E+W   D
+Sbjct  78   KWVSKTGTVNGQGANIIDKDDEFGETNTTLVYSDYKVCDVGLFHGAKVGGPHVELWKHSD  137
+
+Query  119  AGGLEVEVECCRQKLEELASGR---NQMYPHLKDC  150
+            A     E +CC+   EE   GR   +Q     KDC
+Sbjct  138  ADENSAEFKCCKDVYEEELKGRKKQSQDREISKDC  172
+
+
+>gb|ABR23399.1| moubatin 1-like 2 [Ornithodoros parkeri]
+Length=176
+
+ Score =  160 bits (404),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 35/156 (22%), Positives = 54/156 (35%), Gaps = 9/156 (6%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P+DA ++    G   Y L++ST    + CL  E   +      P    +K G
+Sbjct  18   HAACNTG-PIDATKSIIGPGSGKYYLLKSTYKDEKLCLYVEARPQGTSFPAPYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWML-  117
+              W S   T    GA +        +    +  S    C V          P  E+W   
+Sbjct  77   DQWVSKTGTVNGQGANIIDNDDEFGETNTTLVYSDYKVCDVGLFRGDKVGGPHVELWKHS  136
+
+Query  118  DAGGLEVEVECCRQKLEEL---ASGRNQMYPHLKDC  150
+            DA     + +CC  + EE       ++Q+    K C
+Sbjct  137  DADENSADYKCCTHRYEEELQAQGKKSQVREIGKGC  172
+
+
+>gb|ABR23380.1| moubatin-like 6 [Ornithodoros parkeri]
+Length=169
+
+ Score =  156 bits (394),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 42/151 (28%), Positives = 65/151 (43%), Gaps = 7/151 (5%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +E  C  S   +A+ A        Y+L +ST    +DCLKGE    +      V MT+K+
+Sbjct  21   AEEQCA-STVTEAWDAITQPPNGHYLLQQSTQEDPKDCLKGEVPTGQNKPKANVKMTYKD  79
+
+Query  61   G-TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                W + +W F + G  +TA+L + T +  V++  +   CHV +       Y +W   +
+Sbjct  80   SNGQWQTNEWEFYMAGPNITASLDSRTLSGTVIFGIKGK-CHVTQYSGG--GYGLWTHSS  136
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                 +  CC  K  E   G     P  KDC
+Sbjct  137  LSGS-DGGCCESKFGEQTKGETPKKPQEKDC  166
+
+
+>gb|ABR23445.1| salivary lipocalin [Ornithodoros parkeri]
+Length=156
+
+ Score =  154 bits (389),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 29/140 (21%), Positives = 46/140 (33%), Gaps = 6/140 (4%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+             + C    P DA ++    GK  Y L RST  +   CL   P  E  +        +K G
+Sbjct  18   HAACNTG-PFDAKRSIIGPGKGEYYLARSTYEQNISCLYVVPPPEGTEFPAIYPFGYKEG  76
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK---EVPDYEMWMLD  118
+              W   + T   +G  +  +          +  S    C V          P  E+W   
+Sbjct  77   NKWVQKNGTVNGEGPNIIDSDAGFGVTNTTLVYSDYKECDVGLFHGEKVGGPYVELWKHS  136
+
+Query  119  AG-GLEVEVECCRQKLEELA  137
+                    ++CC++  +E  
+Sbjct  137  DAKKGSEGLKCCQKYSQEGT  156
+
+
+>gb|ACB70331.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=164
+
+ Score =  154 bits (388),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 42/150 (28%), Positives = 71/150 (47%), Gaps = 7/150 (5%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +   CT  +  DA++A   E   A++LV ST     DCLK  P G      + V M  K 
+Sbjct  20   AAQSCTKIDNNDAWEALEGEKMTAFLLVGSTRSDVEDCLKSTPTGTPSKPDMTVTMKSKE  79
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+            G DW  ++    +   K+TA  G+ ++   ++Y  ++  CHV +++    D E W+ D  
+Sbjct  80   GGDWKESESKLKMVDDKITAVFGDKSEEGTILY--RADGCHVTQLKNG--DIEHWVRDGS  135
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                +  CC++   +  +G++   P  KDC
+Sbjct  136  --SADASCCKEDFAQRTTGKSPTNPQEKDC  163
+
+
+>gb|ABR23385.1| salivary lipocalin [Ornithodoros parkeri]
+Length=169
+
+ Score =  154 bits (388),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 42/151 (28%), Positives = 72/151 (48%), Gaps = 7/151 (5%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            +  +C  S   +A++A        Y+L +ST    +DCLKGE   +++     V MT+K+
+Sbjct  21   AAEEC-ESTVTEAWEAITQPPNGHYLLQQSTQEDPKDCLKGEVPTDQEKPNAKVKMTYKD  79
+
+Query  61   -GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                W + +W F + G  +TATLG  T    V++ +Q   CH+         Y +W   +
+Sbjct  80   SSGQWQTNEWQFYMAGPNITATLGEKTLKGTVIFGTQG-TCHITHYW--DGGYGLWTHSS  136
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                 +  CC++K +E  +G+N      K+C
+Sbjct  137  AKGNDDN-CCKKKFDEKTTGQNTQKLQEKNC  166
+
+
+>pdb|3BRN|A Chain A, Crystal Structure Of Am182 Serotonin Complex
+ pdb|3BRN|B Chain B, Crystal Structure Of Am182 Serotonin Complex
+Length=157
+
+ Score =  152 bits (383),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 30/153 (20%), Positives = 50/153 (33%), Gaps = 6/153 (4%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK-  59
+            S + C    P  A+++    G   Y L ++T P   +C                  T+  
+Sbjct  3    SSAQCDFGGPFQAYKSVNGPGNGGYYLRKTTKPGTPECAYVLVPQNTLSEGQSTSFTYGK  62
+
+Query  60   -NGTDWASTDWTFTLDGAKVTATLGNLTQNREV-VYDSQSHHCHVDKVEKEVPDYEMWML  117
+                       T T++G K+  T      +    V  S    C V  +     +YE+W+ 
+Sbjct  63   LQNGQMIQLTATVTVNGDKIEVTGAGQDLSGTTTVLFSDYRSCDV--MRGPDGNYELWVH  120
+
+Query  118  DAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+             +        CC  K  ++A GR   +     C
+Sbjct  121  SSAINLQSYGCCDTKFAQVAGGRPIHHTWQTYC  153
+
+
+>gb|ABI52694.1| lipocalin [Argas monolakensis]
+Length=176
+
+ Score =  151 bits (382),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 29/150 (19%), Positives = 48/150 (32%), Gaps = 6/150 (4%)
+
+Query  5    DCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK--NG  61
+             C    P  A+++    G   Y L ++T P   +C                  T+     
+Sbjct  23   QCDFGGPFQAYKSVNGPGNGGYYLRKTTKPGTPECAYVLVPQNTLSEGQSTSFTYGKLQN  82
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREV-VYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+                    T T++G K+  T      +    V  S    C V  +     +YE+W+  + 
+Sbjct  83   GQMIQLTATVTVNGDKIEVTGAGQDLSGTTTVLFSDYRSCDV--MRGPDGNYELWVHSSA  140
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                   CC  K  ++A GR   +     C
+Sbjct  141  INLQSYGCCDTKFAQVAGGRPIHHTWQTYC  170
+
+
+>gb|ACB70352.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=166
+
+ Score =  138 bits (348),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 32/153 (21%), Positives = 52/153 (34%), Gaps = 10/153 (7%)
+
+Query  2    SESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF---  58
+            +  DC  +   DA+++       Y LV+ST      C   + A +  +N       +   
+Sbjct  15   AYGDCPPA--NDAWRSVKSP-GRYFLVKSTSSSPPQCAYVDSATDIDENAKTGKYVYGQL  71
+
+Query  59   -KNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVY-DSQSHHCHVDKVEKEVPDYEMWM  116
+             K        + T T +G K+  T  +       +   S    C V  V     D E+W+
+Sbjct  72   DKATNALTRNEGTVTAEGDKIIVTGESGVVTGTTLLLFSDYGVCDV--VIGPRGDCELWV  129
+
+Query  117  LDAGGLEVEVECCRQKLEELASGRNQMYPHLKD  149
+                   +   CC    E  A G N    + +D
+Sbjct  130  EQKNLKSISYGCCDTMFEGCAKGENIKNTYQED  162
+
+
+>gb|ACB70317.1| moubatin-like lipocalin [Ornithodoros coriaceus]
+Length=176
+
+ Score =  135 bits (340),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 28/156 (18%), Positives = 57/156 (37%), Gaps = 13/156 (8%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEK--QDNTLPVMMTFK  59
+            E+DC    P D ++     G   + + +ST      C   +P  +   +         +K
+Sbjct  20   EADC-TQGPFDGWKTIVGTGDGYFYIKKSTSFYENLCTYSQPPTDPTTERKKSAFKSGYK  78
+
+Query  60   N-GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            +   DW            ++    G+  +  +++Y S   +C+V     +  + E+W+  
+Sbjct  79   DASGDWQHPSGIAVGIDNRIIYIFGDKKKKYQLLY-SDYRNCYVTY---KPQELELWVHS  134
+
+Query  119  AGGLEVEVECCRQKLE-ELASGR---NQMYPHLKDC  150
+                   +ECC +    EL + +     +    KDC
+Sbjct  135  GETDPDAMECCNKVFGTELRARKLQGTTLRKMDKDC  170
+
+
+>gb|ABR23347.1| moubatin-like 1 [Ornithodoros parkeri]
+Length=179
+
+ Score =  134 bits (336),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 27/131 (21%), Positives = 39/131 (30%), Gaps = 4/131 (3%)
+
+Query  3    ESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK-NG  61
+             + C           F  G   Y LV+ST P   DC+   P  +           FK + 
+Sbjct  18   HAACVDGPYSAEKSVFGPGSGKYYLVKSTYPNENDCVYVVPPPKGSQFPAKYPFGFKQSD  77
+
+Query  62   TDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK--EVPDYEMWMLDA  119
+              W S      +DG  +        Q    +  S    C V         P  E+W   +
+Sbjct  78   GTWYSGTGEVNVDGPNILDKDEKYGQTNTTLVYSDYKDCDVGLFHGSVGGPHVELWRHSS  137
+
+Query  120  GGLEVE-VECC  129
+                 +  +CC
+Sbjct  138  ADENGDGFKCC  148
+
+
+>gb|ABR23418.1| salivary lipocalin [Ornithodoros parkeri]
+Length=168
+
+ Score =  130 bits (326),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 30/152 (20%), Positives = 54/152 (36%), Gaps = 12/152 (8%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTF----  58
+            + C   +  DA++     +   Y LV++T     +C   +P G+  + T     +F    
+Sbjct  21   AQCP--DQTDAWKLLQRRQSKRYFLVKTTSVNLGECSYLKP-GKIDEATQSASFSFGLRD  77
+
+Query  59   KNGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            K G             G K+  T  +       V  S    C V  +     D E+W  +
+Sbjct  78   KPGKSLTKQSAVVKAQGEKLVVTGDSQG--TTTVLFSDYGSCDV--LRGPDGDCELWADE  133
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            A      + CC  K +  A  +   + + ++C
+Sbjct  134  AVVRSSSLGCCDTKFQACAKNKKVRHTYQENC  165
+
+
+>gb|ACB70314.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=170
+
+ Score =  128 bits (322),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 31/151 (21%), Positives = 50/151 (33%), Gaps = 10/151 (7%)
+
+Query  5    DCTGSEPVDAFQAFSEGK-EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN---  60
+            DC      DA+ +    +   Y L+++T   A  C    P   + D        +     
+Sbjct  22   DC--GSTTDAWTSVKSTELGKYFLMKTTASDAPKCSYAGPLSNRDDGAQTGDYGYGELDA  79
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNRE-VVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                  +      +G K+  T      +   +V  S    C    V+    D E+W+   
+Sbjct  80   SGKLTKSTAKVKAEGNKIIITGAGPLLDGTSIVLHSAYGTCD--AVKGPKGDCELWVR-V  136
+
+Query  120  GGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            G   V   CC +K +E ASG+         C
+Sbjct  137  GNFGVVPFCCTKKFDECASGKPVKDLSPTSC  167
+
+
+>gb|ABR23458.1| moubatin-like 5 variant [Ornithodoros parkeri]
+Length=180
+
+ Score =  118 bits (296),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 53/162 (33%), Gaps = 13/162 (8%)
+
+Query  1    DSESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFK  59
+             +++ C    PVDA ++    G     LV+ST  +   CL   P         P    +K
+Sbjct  16   KAQTTCEDG-PVDARRSIVGPGTGKLYLVKSTYQQDICCLYTIPPPIGTPWPAPYPFGYK  74
+
+Query  60   --NGTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK----EVPDYE  113
+                 +W     T   +GA V  +     +    +  S   +C V           P  E
+Sbjct  75   NKETGEWVKRTGTVDGEGANVIDSDSGFGETNTTLLYSDYQNCAVGLFHGGKVTGGPYLE  134
+
+Query  114  MWMLDAGG-LEVEVECCRQKLEELASGRNQMYP----HLKDC  150
+            ++   + G     ++CC  +       + +         KDC
+Sbjct  135  LFKYSSAGDDSQALQCCENRFAAELKKQGKEEKDVIQVDKDC  176
+
+
+>gb|AAN76828.1|AF452888_1 lipocalin [Ornithodoros savignyi]
+Length=190
+
+ Score =  115 bits (287),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 27/143 (19%), Positives = 45/143 (31%), Gaps = 12/143 (8%)
+
+Query  19   SEGKEAYVLVRSTDPKARDCLKGEPA-GEKQDNT-LPVMMTFKNGT-DWASTDWTFTLDG  75
+            S       LV++T P    C+   P  G    +   P  M +K+    W   D     +G
+Sbjct  43   SPTIGYSYLVKTTYPDEHACVYILPPYGTADASGRYPYRMGYKDSNDQWVKLDGKIKTEG  102
+
+Query  76   AKVTATLGNLTQN-REVVYDSQSHHCHVDKVEKEVPD-------YEMWMLDAGGLEVEVE  127
+            +K+             V+Y      C V   E +           E+W       E  + 
+Sbjct  103  SKIIDNDPEYGDTVTTVLYTHLGGGCDVTLFEGQKGQSKVQGPFLELWYHSGAS-EESMR  161
+
+Query  128  CCRQKLEELASGRNQMYPHLKDC  150
+            CC ++  +       +    K+C
+Sbjct  162  CCEEEFRKNLKEGTAVRKVNKNC  184
+
+
+>gb|ABR23457.1| moubatin-like 5 [Ornithodoros parkeri]
+Length=181
+
+ Score =  114 bits (285),  Expect = 7e-29, Method: Composition-based stats.
+ Identities = 33/155 (21%), Positives = 51/155 (33%), Gaps = 13/155 (8%)
+
+Query  9    SEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN--GTDWA  65
+              PVDA ++    G     LV+ST  +   CL   P         P    +KN    +W 
+Sbjct  23   QGPVDARKSIVGPGTGKLYLVKSTCQQDICCLYTIPPPTGTPWPAPYPFGYKNKATGEWV  82
+
+Query  66   S-TDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK----EVPDYEMWMLDAG  120
+              T  T   +GA V  +     +    +  S   +C V           P  E++   + 
+Sbjct  83   KVTTGTVNGEGANVIDSDSGFGETNTTLLYSDYQNCAVGLFHGGKVTGGPHLELFKYSSA  142
+
+Query  121  G-LEVEVECCRQKLEELA--SGRNQMYPHL--KDC  150
+                  ++CC Q+        G+         KDC
+Sbjct  143  ADDSQALQCCEQRFAAELEKQGKTATDVIEVNKDC  177
+
+
+>gb|ABI52816.1| lipocalin [Argas monolakensis]
+Length=181
+
+ Score =  110 bits (274),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 26/152 (17%), Positives = 47/152 (31%), Gaps = 10/152 (7%)
+
+Query  5    DCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTD  63
+             C  + P  A ++    G   Y L+ +T+    +C        +         T+     
+Sbjct  24   QCNFTGPFSALRSVNGRGSGGYYLINTTENNRPNCTYVRAPEVRLTEGSREKFTYGQLKK  83
+
+Query  64   WA----STDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVP-DYEMWMLD  118
+                         + G  +  T G      ++++ S    C V  V      DY++W+  
+Sbjct  84   GQNVMRRHRGRVHVQGDMIIVT-GKRAGISQLLF-SDYRTCDV--VLGPSGHDYQLWLHA  139
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                     CC  K +EL   R     + + C
+Sbjct  140  HNVQNGSDPCCDVKFQELVWNRTVFQVYHETC  171
+
+
+>gb|ADK94457.1| salivary lipocalin [Ornithodoros moubata]
+Length=198
+
+ Score =  105 bits (262),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 28/141 (20%), Positives = 51/141 (36%), Gaps = 14/141 (10%)
+
+Query  23   EAYVLVRSTDPKARDCLKGEPAGEKQDN--TLPVMMTFKN-GTDWASTDWTFTLDGAKVT  79
+                LV++T      C+   P   ++DN    P  M +K+ G  W   + T T+ G+ ++
+Sbjct  49   GYSYLVKTTYTDEHSCVYILPPHGQKDNEGRYPYYMGYKDEGNQWKKINGTITIQGSNIS  108
+
+Query  80   ATLGNLTQN-REVVYDSQSHHCHVDKVEK-------EVPDYEMWMLDAGGLEVEVECCRQ  131
+                +  Q    V+Y      C V   +          P  E+W       +  +ECC+ 
+Sbjct  109  DNDPDYGQTVTTVLYTHLDGGCDVTTFQGATGNNNVGGPYLELWYHSGAS-QFALECCKG  167
+
+Query  132  KLEELASG--RNQMYPHLKDC  150
+            + E+         +    + C
+Sbjct  168  EFEKQLKNFKSTDVREINQGC  188
+
+
+>gb|ACB70320.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=160
+
+ Score = 87.5 bits (215),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 30/153 (20%), Positives = 52/153 (34%), Gaps = 13/153 (8%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            ++   C      DA ++  +G   Y LV++T      C   +P               + 
+Sbjct  15   EAYGACA--SNTDASKSL-QGTARYFLVKTTAGNKLQCAFVDPP-----KGGTYTYGGRA  66
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNRE-VVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+            G+   +   TF   G K+  + G    N +  +  S    C V  V+    + E+++   
+Sbjct  67   GSTMVTFTATFRASGDKIGVSGGQGDVNGQSTLLYSDYDTCDV--VKSPTENCELYVRKD  124
+
+Query  120  GGLEVEVECCRQKLEEL--ASGRNQMYPHLKDC  150
+                    CC+ K E    A G      +  DC
+Sbjct  125  KVDGGYDPCCKTKYEGCAKAKGGQSTDLYRADC  157
+
+
+>gb|ACB70333.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=159
+
+ Score = 86.4 bits (212),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 51/142 (36%), Gaps = 11/142 (8%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            ++   C      DA ++  +G   Y LV++T      C   +P               + 
+Sbjct  14   EAYGACA--SNTDASKSL-QGTARYFLVKTTAGNKLQCAFVDPP-----KGGTYTYGGRA  65
+
+Query  61   GTDWASTDWTFTLDGAKVTATLGNLTQNRE-VVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+            G+   +   TF+  G K+  + G    N +  +  S  + C V  V     + E+++   
+Sbjct  66   GSTMVTFTATFSASGDKIGVSGGQGDVNGQSTLLHSDYNTCDV--VRSPTENCELYVRKD  123
+
+Query  120  GGLEVEVECCRQKLEELASGRN  141
+                    CC  K +E AS + 
+Sbjct  124  KVGGGYDACCTTKYDECASSKG  145
+
+
+>gb|ABI52634.1| monomine [Argas monolakensis]
+Length=163
+
+ Score = 84.8 bits (208),  Expect = 9e-18, Method: Composition-based stats.
+ Identities = 26/155 (17%), Positives = 48/155 (31%), Gaps = 18/155 (12%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+            ++  C     V A+Q+    G   Y L ++T+    DC   +      D       T+ N
+Sbjct  16   AQQQCDT---VSAWQSLRGPGTGGYYLFKTTEGGKTDCTYVK-GSNFNDAAQTATYTYGN  71
+
+Query  61   ---GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWML  117
+               G        + ++ G  +         +   V  S    C V ++       E+W+ 
+Sbjct  72   LGSGNQLTQQTASASISGNAIVV-----GTDHSEVLYSDGSTCDVVRLNG---QIELWIH  123
+
+Query  118  DAGGLEVE--VECCRQKLEELASGRNQMYPHLKDC  150
+             +          CC  K  +    R +   +   C
+Sbjct  124  SSATSNTGNLNSCCTDKFNQEKGSRPEHVVYRSTC  158
+
+
+>pdb|2X46|A Chain A, Crystal Structure Of Semet Arg R 1
+Length=144
+
+ Score = 79.8 bits (195),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 25/145 (17%), Positives = 43/145 (30%), Gaps = 12/145 (8%)
+
+Query  9    SEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKN-GTDWA  65
+            S   DA+ +        Y L ++T     +C   +    ++   T      +K+      
+Sbjct  5    SGKTDAWTSIKGPKTGGYWLKQTTKTGENECTYVKGTDFKENTKTATYTYGYKDASGKLT  64
+
+Query  66   STDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVE  125
+             T  T    G+ +         +   V  +    C V K        E+W+  +      
+Sbjct  65   KTTGTAXAKGSDIVV-----GSDTSTVIYTDGKTCDVVKH---GGHTELWVHSSKTSGGY  116
+
+Query  126  VECCRQKLEELASGRNQMYPHLKDC  150
+              CC +K  E   G        K C
+Sbjct  117  NNCCDKKFTE-TRGSTPANEVYKKC  140
+
+
+>pdb|3BS2|A Chain A, Crystal Structure Of Monomine
+Length=148
+
+ Score = 79.8 bits (195),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 47/154 (31%), Gaps = 18/154 (12%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN-  60
+            +  C     V A+Q+    G   Y L ++T+    DC   +      D       T+ N 
+Sbjct  2    QQQCDT---VSAWQSLRGPGTGGYYLFKTTEGGKTDCTYVK-GSNFNDAAQTATYTYGNL  57
+
+Query  61   --GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+              G        + ++ G  +         +   V  S    C V ++       E+W+  
+Sbjct  58   GSGNQLTQQTASASISGNAIVV-----GTDHSEVLYSDGSTCDVVRLNG---QIELWIHS  109
+
+Query  119  AGGLEVE--VECCRQKLEELASGRNQMYPHLKDC  150
+            +          CC  K  +    R +   +   C
+Sbjct  110  SATSNTGNLNSCCTDKFNQEKGSRPEHVVYRSTC  143
+
+
+>pdb|3BU1|A Chain A, Crystal Structure Of Monomine-Histamine Complex
+Length=148
+
+ Score = 79.4 bits (194),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 47/154 (31%), Gaps = 18/154 (12%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN-  60
+            +  C     V A+Q+    G   Y L ++T+    DC   +      D       T+ N 
+Sbjct  2    QQQCDT---VSAWQSLRGPGTGGYYLFKTTEGGKTDCTYVK-GSNFNDAAQTATYTYGNL  57
+
+Query  61   --GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+              G        + ++ G  +         +   V  S    C V ++       E+W+  
+Sbjct  58   GSGNQLTQQTASASISGNAIVV-----GTDHSEVLYSDGSTCDVVRLNG---QIELWIHS  109
+
+Query  119  AGGLEVE--VECCRQKLEELASGRNQMYPHLKDC  150
+            +          CC  K  +    R +   +   C
+Sbjct  110  SATSNTGNLNSCCTDKFNQEKGSRPEHVVYRSTC  143
+
+
+>sp|Q5GQ85.1|ARGR1_ARGRF RecName: Full=Allergen Arg r 1; AltName: Allergen=Arg r 1; Flags: 
+Precursor
+ emb|CAG26895.1| Arg r 1 precursor [Argas reflexus]
+Length=159
+
+ Score = 79.4 bits (194),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 47/152 (31%), Gaps = 14/152 (9%)
+
+Query  2    SESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFK  59
+            S  DC  S   DA+ +        Y L ++T     +C   +    ++   T      +K
+Sbjct  15   SADDC--SGKTDAWTSIKGPKTGGYWLKQTTKTGENECTYVKGTDFKENTKTATYTYGYK  72
+
+Query  60   N-GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+            +       T  T T  G+ +         +   V  +    C V K        E+W+  
+Sbjct  73   DASGKLTKTTGTATAKGSDIVV-----GSDTSTVIYTDGKTCDVVKH---GGHTELWVHS  124
+
+Query  119  AGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +        CC +K  E   G        K C
+Sbjct  125  SKTSGGYNNCCDKKFTE-TRGSTPANEVYKKC  155
+
+
+>pdb|3BU9|A Chain A, Selenomethionine Derivative Of Monomine L57,63,87,146m 
+Mutant
+Length=148
+
+ Score = 73.7 bits (179),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 26/154 (17%), Positives = 47/154 (31%), Gaps = 18/154 (12%)
+
+Query  3    ESDCTGSEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN-  60
+            +  C     V A+Q+    G   Y L ++T+    DC   +      D       T+ N 
+Sbjct  2    QQQCDT---VSAWQSLRGPGTGGYYLFKTTEGGKTDCTYVK-GSNFNDAAQTATYTYGNX  57
+
+Query  61   --GTDWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLD  118
+              G        + ++ G  +         +   V  S    C V ++       E+W+  
+Sbjct  58   GSGNQXTQQTASASISGNAIVV-----GTDHSEVXYSDGSTCDVVRLNG---QIELWIHS  109
+
+Query  119  AGGLEVE--VECCRQKLEELASGRNQMYPHLKDC  150
+            +          CC  K  +    R +   +   C
+Sbjct  110  SATSNTGNLNSCCTDKFNQEKGSRPEHVVYRSTC  143
+
+
+>pdb|2X45|A Chain A, Crystal Structure Of Arg R 1 In Complex With Histamine
+ pdb|2X45|B Chain B, Crystal Structure Of Arg R 1 In Complex With Histamine
+ pdb|2X45|C Chain C, Crystal Structure Of Arg R 1 In Complex With Histamine
+Length=144
+
+ Score = 73.3 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 26/145 (18%), Positives = 44/145 (30%), Gaps = 12/145 (8%)
+
+Query  9    SEPVDAFQAF-SEGKEAYVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKN-GTDWA  65
+            S   DA+ +        Y L ++T     +C   +    ++   T      +K+      
+Sbjct  5    SGKTDAWTSIKGPKTGGYWLKQTTKTGENECTYVKGTDFKENTKTATYTYGYKDASGKLT  64
+
+Query  66   STDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVE  125
+             T  T T  G+ +         +   V  +    C V K        E+W+  +      
+Sbjct  65   KTTGTATAKGSDIVV-----GSDTSTVIYTDGKTCDVVKH---GGHTELWVHSSKTSGGY  116
+
+Query  126  VECCRQKLEELASGRNQMYPHLKDC  150
+              CC +K  E   G        K C
+Sbjct  117  NNCCDKKFTE-TRGSTPANEVYKKC  140
+
+
+>gb|ABR23415.1| short salivary moubatin [Ornithodoros parkeri]
+Length=116
+
+ Score = 71.7 bits (174),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 12/68 (18%), Positives = 19/68 (28%), Gaps = 3/68 (4%)
+
+Query  65   ASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEK--EVPDYEMWMLDAGGL  122
+             S      +DG  +        Q    +  S    C V         P  E+W   +   
+Sbjct  18   YSGTGEVNVDGPNILDKDEKYGQTNTTLVYSDYKDCDVGLFHGSVGGPHVELWRHSSADE  77
+
+Query  123  EVE-VECC  129
+              +  +CC
+Sbjct  78   NGDGFKCC  85
+
+
+>gb|AGJ90348.1| TSGP4 [Ornithodoros moubata]
+Length=177
+
+ Score = 61.3 bits (147),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 58/161 (36%), Gaps = 18/161 (11%)
+
+Query  5    DCTGSEPVDAFQAFSEGKEAYVLVRSTDP-KARDCLKGEPAGEKQDN-TLPVMMTFKNGT  62
+            DC  +   D +     G   + LV+ T P     C   +   +  D+ TL   M+++   
+Sbjct  16   DCAHAA--DVWNVIGGGDANFFLVKRTYPRGGNQCAYMKRTSKNDDSHTLEAEMSYRRPG  73
+
+Query  63   DW-----ASTDWTFTLDGA------KVTATLGNLTQNREVVYDSQSHHCHVDKVEKEV--  109
+            D      ++   T T +G        VTA  G+    +  +  S  ++C++ + +     
+Sbjct  74   DTSFQAPSTYTVTATQEGGTEYNIMTVTAKSGSQGGIQYKLVHSDGNNCNILQAKTGPFA  133
+
+Query  110  PDYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+               E+W  +     V    C       + G  Q  P+  DC
+Sbjct  134  GKCELWAPEGQASGVGNS-CDSHFATYSCGEVQETPYTTDC  173
+
+
+>gb|ABI52693.1| lipocalin [Argas monolakensis]
+Length=203
+
+ Score = 60.2 bits (144),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 31/147 (21%), Positives = 45/147 (31%), Gaps = 19/147 (13%)
+
+Query  4    SDCTGSEPVDAFQAFSEGKEA-YVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKNG  61
+            S C      DA +A      + YVL ++T      C   +  G ++   T   +      
+Sbjct  32   SGCDRQ--NDALRALKARNSSLYVLQQTTSGAGESCTYVKAQGFDEAQRTALYIYGNATD  89
+
+Query  62   TDWASTDWT--FTLDGAKVTATLGNLTQNREV-----VYDSQSHHCHVDKVEKEVPD--Y  112
+                 + WT     +   +    GN T    V     V  S    C V K         Y
+Sbjct  90   NGTTVSSWTQRVRAENDSIV---GNKTLTPNVTERWEVIYSNYKDCDVMKHTTGDEGAVY  146
+
+Query  113  EMWMLDAGGLEVEVECCRQKLEELASG  139
+            E+W  +   L     CC +   E   G
+Sbjct  147  ELWSQNVTKLN---PCCSKMFNETTQG  170
+
+
+>gb|AAN76831.1|AF452891_1 TSGP4 [Ornithodoros savignyi]
+Length=176
+
+ Score = 55.2 bits (131),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 30/155 (19%), Positives = 56/155 (36%), Gaps = 19/155 (12%)
+
+Query  12   VDAFQAFSEGKEAYVLVRSTDP-KARDCLKGEPAG-EKQDNTLPVMMTFKNGTDWA----  65
+             D +         +++V+ T    A  C+  +    ++  +TL V+M +           
+Sbjct  22   NDVWNVLKGSDSKFLMVKRTYERGANKCVYMKRTSMDESSHTLEVLMGYSKAGTTTDFVE  81
+
+Query  66   --STDWTFTLDGAK----VTATLG--NLTQNREVVYDSQSHHCHVDKVEKE--VPDYEMW  115
+                  T T +GA     +T   G  +     E+VY      C++ +++        E+W
+Sbjct  82   PSKYTVTATSEGASTYNMMTVRRGPASHGVKFELVYSDD-QGCNILQMKTSPFPGKCELW  140
+
+Query  116  MLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              +     VE   C  K +EL  G     P+ + C
+Sbjct  141  APEGKAKNVESS-CSGKFKELC-GDAVETPYAEGC  173
+
+
+>gb|ABR23403.1| salivary lipocalin [Ornithodoros parkeri]
+Length=184
+
+ Score = 54.4 bits (129),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 27/161 (17%), Positives = 56/161 (35%), Gaps = 20/161 (12%)
+
+Query  7    TGSEPVDAFQAFSEGKEAYVLVRSTDPKAR---DCLKGEPAGEKQ-DNTLPVMMTFK--N  60
+              +   D ++    G E + ++  T  +     +C   +   +    + L   M ++  +
+Sbjct  20   AATTTYDVWKVL-SGNEEFFMLNRTYVRPPGGNECAYMKRKSKDDSKHELTTQMGYRKND  78
+
+Query  61   GTDWASTDWTFT---LDG----AKVTATLGNLTQNREV--VYDSQSHHCHVDKVEKEV--  109
+              ++ S  +T T    +G    +++T   G L        +  S    C+V +V+     
+Sbjct  79   TKEFRSGTYTVTASQGEGESVYSEMTVKGGQLPGTGVKYRLVFSNGDGCNVLQVKGGGLD  138
+
+Query  110  PDYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+               E+W   +       +C     E    G  Q  P+  DC
+Sbjct  139  GHCELWAPVSQAPAQATQCSNSMPESC--GSIQESPYKGDC  177
+
+
+>gb|ABR23455.1| salivary secreted lipocalin [Ornithodoros parkeri]
+Length=174
+
+ Score = 54.0 bits (128),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 32/147 (22%), Positives = 62/147 (42%), Gaps = 11/147 (7%)
+
+Query  13   DAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKNGTDWAST---D  68
+            D ++  S   +  ++ R+    A +C   +    ++  +TL  +M F++GT    +    
+Sbjct  24   DLWKLLSASDKFQLISRTYSLGASECAYMKVESRDQSTHTLNTLMGFRDGTTKQYSQPGS  83
+
+Query  69   WTFTLDGAKVTA--TLGNLTQNREVVYDSQSHHCHVDKVEKEVP---DYEMWMLDAGGLE  123
+            +T T++G +VT     G+   +  +VY S    C++ K EK      + E+W        
+Sbjct  84   FTITVNGDQVTVRRASGSTGVSYNLVY-SDGQGCNILKGEKGGQRGDECELWAPLGQEAH  142
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+             +   C  K  E  +     +P+  DC
+Sbjct  143  AQGSTCTAKFGEHCAA-AVQHPYKADC  168
+
+
+>gb|ABR23462.1| moubatin-like 4 [Ornithodoros parkeri]
+Length=176
+
+ Score = 53.6 bits (127),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 26/157 (17%), Positives = 56/157 (36%), Gaps = 18/157 (11%)
+
+Query  9    SEPVDAFQAFSEGKEAYVLVRSTD---PKARDCLKGEPAGEKQDN-TLPVMMTFKNGTD-  63
+            +   DA+     G+  + +V  +        +C   +   + +   TL  +M +++G+  
+Sbjct  20   AADNDAWSVL-SGEMEFFMVTRSYRRGDGTNECPYMKQQSKDESARTLTTLMGYRDGSTK  78
+
+Query  64   --------WASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKE--VPDYE  113
+                      +     T     VT T G    + E+V  +  + C++ K ++       E
+Sbjct  79   QFIGPVTYTVTAQADATGAYNVVTVTGGPSPLDYELV-HTDGNGCNILKGKEGLFDGKCE  137
+
+Query  114  MWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +W         + + C ++  E   G     P+  DC
+Sbjct  138  LWAPPGQVANAQEDACSKQF-ETLCGEVLETPYKSDC  173
+
+
+>gb|ABR23484.1| moubatin-like 7 [Ornithodoros parkeri]
+Length=172
+
+ Score = 52.5 bits (124),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 23/147 (16%), Positives = 57/147 (39%), Gaps = 10/147 (7%)
+
+Query  13   DAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAG-EKQDNTLPVMMTFKNGTD---WASTD  68
+            D +   S   +  ++ R+      +C   +    ++  +TL  +M F++G+         
+Sbjct  24   DLWTLLSASDKFQLISRTYMLGDSECAYMKVESRDQSTHTLNTLMGFRDGSTKQYMGPAP  83
+
+Query  69   WTFTLDGAKVTATLGNLTQNREV--VYDSQSHHCHVDK-VEKEV--PDYEMWMLDAGGLE  123
+            +T T+ G ++T    + + +     +  S    C++ K V       + E+W  +     
+Sbjct  84   FTVTVSGDQMTVRQASGSGSGVTYNLEYSDGQGCNILKGVAGGPRGGECELWAPEGQETH  143
+
+Query  124  VEVECCRQKLEELASGRNQMYPHLKDC  150
+             +   C+++ +   +      P+  DC
+Sbjct  144  AQGTSCKEQFKSKCAA-PVQQPYKSDC  169
+
+
+>gb|ACB70380.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=185
+
+ Score = 52.9 bits (125),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 29/154 (19%), Positives = 60/154 (39%), Gaps = 13/154 (8%)
+
+Query  5    DC-TGSEPVDAFQAFSE-GKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGT  62
+            DC   ++  DA+Q  +   K+ + + RST  ++  C   +   E  +      +  ++G 
+Sbjct  23   DCQPEAKDRDAWQVVNAMKKDTFYIFRSTILQSPSCSYMKVN-EADEQQKKGTLIVRSGL  81
+
+Query  63   DWASTDWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPD-YEMWMLDA--  119
+                   + + DG K+  T+GN+      V  +    C V  +     D   ++  ++  
+Sbjct  82   AANEDATSVSADGEKL--TIGNVEDGAYPVLYTDGVTCSV--LASPDVDEIILFAAESVA  137
+
+Query  120  -GGLEVEVECCRQKLEELASG--RNQMYPHLKDC  150
+              G +   ECC +  E+ A     +      ++C
+Sbjct  138  RQGKQSLHECCNEVFEKRARDMKADVSDIFNQNC  171
+
+
+>gb|AAS59160.1| lipocalin-like protein [Rhipicephalus microplus]
+Length=201
+
+ Score = 52.5 bits (124),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 24/133 (18%), Positives = 47/133 (35%), Gaps = 17/133 (13%)
+
+Query  13   DAFQAFSEGKEAYVLVRSTDPKA-----RDCLKGEPAGEKQDNTLPV-MMTFKNGTDWAS  66
+            DA++A +     Y+ +RS   +      R C+  E     ++    V  M   +  D   
+Sbjct  40   DAWKALTVPGRYYLYMRSYKDEPFYGEDRKCVYNELISVNEEEKYTVNTMGSISVKDGTE  99
+
+Query  67   TD-----WTFTLDG---AKVTATLGNLTQNREVVY---DSQSHHCHVDKVEKEVPDYEMW  115
+                   WT T +G     V     +  +   + +    S+  +C + +V       E+W
+Sbjct  100  KTQTIYAWTSTSEGYTEPNVIHASDSKDKVFSLEFPIAFSEYENCDILRVPHRNNACELW  159
+
+Query  116  MLDAGGLEVEVEC  128
+              +    E++  C
+Sbjct  160  AKEGRIHEIKSLC  172
+
+
+>gb|AAL56644.1|AF217101_1 serotonin and histamine binding protein [Dermacentor reticulatus]
+Length=209
+
+ Score = 52.5 bits (124),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 29/159 (18%), Positives = 55/159 (35%), Gaps = 22/159 (14%)
+
+Query  13   DAFQAFSEGKE-AYVLVRSTDPKAR-------DCLKG-EPAGEKQDNTLPVMMTFKNGT-  62
+            DA+++  +G    YVL ++T             CL+  E   +++D T+  + TF+N + 
+Sbjct  44   DAWKSIDQGVSVTYVLAKTTYENDTGSWGSQFKCLQVQEIERKEEDYTVTSVFTFRNASS  103
+
+Query  63   --DWASTDWTFTLD---GAK-----VTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDY  112
+               + +   T       G K     +   +G      + +  +    C V  V       
+Sbjct  104  PIKYYNVTETVKAVFQYGYKNIRNAIEYQVGGGLNITDTLIFTDGELCDVFYVPNADQGC  163
+
+Query  113  EMWMLDAGGLEVEVECCRQKLEE-LASGRNQMYPHLKDC  150
+            E+W+  +    V    C        A  R       ++C
+Sbjct  164  ELWVKKSHYKHVPDY-CTFVFNVFCAKDRKTYDIFNEEC  201
+
+
+>gb|ABI52646.1| lipocalin [Argas monolakensis]
+Length=183
+
+ Score = 51.3 bits (121),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 26/166 (16%), Positives = 55/166 (33%), Gaps = 22/166 (13%)
+
+Query  4    SDCTGS----EPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPA-GEKQDNTLPVMMTF  58
+            + C       +  D ++A +     Y++ RS +   +DC+       +  + T   +  +
+Sbjct  9    AACLVGVSHADTNDVWEAMTTSTNFYLIQRSFNKSGKDCVYASVNYTDNSEYTYQFLSGY  68
+
+Query  59   K-NGTDWASTD----WTFTLDGAK----VTATLGNLTQNREVVYDSQSHHCHVDKVEKEV  109
+            +     W  T           GA+    V+ T G   Q  ++V+   +  C + KV    
+Sbjct  69   RFPNNSWFQTSYWGRAENDATGARTRFVVSRTRGAQGQQHDLVFSDNT-TCTILKVYNPA  127
+
+Query  110  P-----DYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    E+W        + V C     +  ++     + +   C
+Sbjct  128  NPSQALGCELWATLQSASSLPVVCNSTYTQNCSA--IVEHNYQSTC  171
+
+
+>gb|ABI52645.1| lipocalin [Argas monolakensis]
+Length=183
+
+ Score = 49.4 bits (116),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 24/166 (14%), Positives = 51/166 (31%), Gaps = 22/166 (13%)
+
+Query  4    SDCTGS----EPVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEP-AGEKQDNTLPVMMTF  58
+            + C          D ++A       Y++ RS     R C+       +    T   +  +
+Sbjct  9    AACLVGVSHANTNDVWEAMRTSTNFYLMQRSFSKAERQCVYASINQTDSASYTYQFISGY  68
+
+Query  59   K-NGTDWASTDWTFTLDGAK--------VTATLGNLTQNREVVYDSQSHHCHVDKVEKEV  109
+            +   + W  T +    +  +        V+ T G   Q  ++V+   +  C + KV    
+Sbjct  69   RFPNSTWFRTAYWARAENDETGTRTRFIVSRTRGAQGQQHDLVFSDNT-TCTILKVYNPA  127
+
+Query  110  P-----DYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                    E+W        + V C     +  ++     + +   C
+Sbjct  128  NPSQALGCELWATLQSASSLPVVCNSTYTQNCSA--IVEHNYQSTC  171
+
+
+>gb|ABI52665.1| lipocalin [Argas monolakensis]
+Length=185
+
+ Score = 49.0 bits (115),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 23/155 (15%), Positives = 44/155 (28%), Gaps = 18/155 (12%)
+
+Query  12   VDAFQAFSEGKEAYVLVRSTDPKARDCLKGEP-AGEKQDNTLPVMMTFK-NGTDWASTD-  68
+             D ++A + G++ Y+  RS       C         +  ++  +   +K     W     
+Sbjct  21   TDIWRAVTTGRDFYLYKRSYAKLNASCSYVSVNQTNETIHSYQLKSGYKLPNGTWMGPMY  80
+
+Query  69   -WTFTLDG-----AKVTATL--GNLTQNREVVYDSQSHHCHVDKVEKEVP-----DYEMW  115
+             W   ++G      +V  +   GN T  +  +  +    C + K             EMW
+Sbjct  81   FWGTVINGTSGYWNRVINSGTPGNTTGQQSDLLYTDGETCTILKAYNASNPSQELGCEMW  140
+
+Query  116  MLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +          EC                 +   C
+Sbjct  141  VKVQNATNPSQECSSTYTSNCT--EAVENNYDTTC  173
+
+
+>gb|AAY66806.1| nymphal histamine binding protein B [Ixodes scapularis]
+Length=217
+
+ Score = 49.0 bits (115),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 19/130 (15%), Positives = 37/130 (28%), Gaps = 17/130 (13%)
+
+Query  16   QAFSEGKEAYVLVRSTDPKA-----RDCLKGEPAGEKQDN-TLPVMMTFKNGTDWASTDW  69
+            +    G+   +L RS            C    P   +  + +  + + +KN         
+Sbjct  55   KVLFTGEPTNILYRSYQEDPLFGMNGQCPYLMPKSTQVPSLSFILELGYKNDGKQVKVTK  114
+
+Query  70   ---TFTLDG---AKVT----ATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDA  119
+                 T +G     +      T  +    R  +  S   +C V +        E+W   +
+Sbjct  115  HADLITYEGYPAPNILSIKPITPDSPEDRRYTLIFSDYSNCSVVRSSYMSG-CEIWAPTS  173
+
+Query  120  GGLEVEVECC  129
+               +    CC
+Sbjct  174  TAGQEPTPCC  183
+
+
+>gb|AAY66754.1| putative secreted protein [Ixodes scapularis]
+Length=198
+
+ Score = 48.2 bits (113),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 24/160 (15%), Positives = 55/160 (34%), Gaps = 17/160 (11%)
+
+Query  7    TGSEPVDAFQAFSEGKEAYVLVRSTDP-----KARDCLKGEPAGEKQDNTLPVMMTFKNG  61
+              + P    +  +E    + + R T           C   +   + +++   + +  K G
+Sbjct  32   PKNFPYQDARKLAELGGTHWVKRRTYEVTTLQGKPTCEYAKILDKVKEDVYNLELGAKLG  91
+
+Query  62   TDWASTDWTFTLD------GAKVT--ATLGNLTQNREVVYDSQSHHCHVDKVEKEVPD--  111
+            + W S   T +L+         V     L    +    +  S   +CH+ +++K+  +  
+Sbjct  92   SKWTSKQQTLSLETTDSHPAPNVLKFTRLRADGRLGHPLLYSDYKNCHIVRIKKKDSEEY  151
+
+Query  112  -YEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              ++ + +    +     C  K +E  SG      +  DC
+Sbjct  152  RCDLLLTNGAAKQNPPPECETKFQEYCSGIPV-EVYSDDC  190
+
+
+>gb|ABI52765.1| lipocalin [Argas monolakensis]
+Length=123
+
+ Score = 46.7 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/83 (19%), Positives = 27/83 (33%), Gaps = 1/83 (1%)
+
+Query  68   DWTFTLDGAKVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEVE  127
+              T +    ++        Q    V+ +    C V  +E     YE+W+ +A  L     
+Sbjct  27   SSTRSTTANQIVLHSEGGQQLIYTVFYADYKTCIVLGLEGVDGAYELWVKEA-KLSGAKA  85
+
+Query  128  CCRQKLEELASGRNQMYPHLKDC  150
+            CC    +EL+            C
+Sbjct  86   CCTIVYDELSKNNKSTVISNYTC  108
+
+
+>sp|O77420.1|HBP1_RHIAP RecName: Full=Female-specific histamine-binding protein 1; Short=FS-HBP1; 
+Flags: Precursor
+ gb|AAC63106.1| female-specific histamine-binding protein 1 [Rhipicephalus appendiculatus]
+Length=190
+
+ Score = 47.5 bits (111),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 26/163 (16%), Positives = 46/163 (28%), Gaps = 22/163 (13%)
+
+Query  7    TGSEPVDAFQAFSE-GKEAYVLVRSTDPKAR------DCLKGEPAG-EKQDNTLPVMMTF  58
+               E  DA++   +  +E Y L+++T            C+        + +  +     F
+Sbjct  28   ANGEHQDAWKHLQKLVEENYDLIKATYKNDPVWGNDFTCVGTAAQNLNEDEKNVEAWFMF  87
+
+Query  59   KNGTDWASTDWTFTLDGAKVTATLGNLTQNREV--------VYDSQSHHCHVDKVEKEVP  110
+             N  D             K+           +         V      +C+V        
+Sbjct  88   MNNADTVYQHTFEKATPDKMYGYNKENAITYQTEDGQVLTDVLAFSDDNCYVIYALGPDG  147
+
+Query  111  ---DYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                YE+W  D   +      C +K  E A+G      +  DC
+Sbjct  148  SGAGYELWATDYTDVPAS---CLEKFNEYAAGLPVRDVYTSDC  187
+
+
+>gb|ABR23441.1| salivary lipocalin [Ornithodoros parkeri]
+Length=163
+
+ Score = 46.3 bits (108),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 20/129 (16%), Positives = 42/129 (33%), Gaps = 9/129 (7%)
+
+Query  24   AYVLVRSTDPKARDCLKGEPAGEKQD--NTLPVMMTFKNGTDWASTDWTF-TLDGAKVTA  80
+             Y L  +T+     C      G  +D  +  PV   +KNG +W +               
+Sbjct  39   TYFLTGTTNKSRETCSFLSGIGLTEDCASGTPVTYGYKNGREWVNNTDVVEETAKPNRFP  98
+
+Query  81   TLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEVECCRQKLEELASGR  140
+            +  +       V  ++  +C      ++  D E+W+  +        CC++ L++     
+Sbjct  99   SRLSGPLKGMRVV-ARGENC---FTLRKQNDTELWVAVSAVDSS--TCCKETLKKKVKDN  152
+
+Query  141  NQMYPHLKD  149
+                 +   
+Sbjct  153  TYATTYEHG  161
+
+
+>gb|AAY66569.1| salivary serotonin-binding protein [Ixodes scapularis]
+Length=204
+
+ Score = 46.7 bits (109),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/129 (16%), Positives = 39/129 (30%), Gaps = 17/129 (13%)
+
+Query  7    TGSEPVDAFQAFSEGKEAYVLVRSTDPKA----RDCLKGEPAGEKQDNTLPVMMTFKN--  60
+            +   PVDA++  S     Y++ RS           C+  +   +  +       T K+  
+Sbjct  25   SSGTPVDAWRTVSLPDAFYLVYRSIKYDPYIGTGICVSIQS-TKPNEAAKTTESTIKSMD  83
+
+Query  61   --GTDWASTD---WTFTLDGAKVTATLGNLTQNREV----VYDSQSHHCH-VDKVEKEVP  110
+               ++          F+  G  +  +                 S    C  V  +E + P
+Sbjct  84   PKTSEMTEKTVRVKVFSTPGDTIQMSNAEEGGTSATTSVQFVYSDYGTCDVVKVLETDEP  143
+
+Query  111  DYEMWMLDA  119
+              E+W+   
+Sbjct  144  QCELWVKQD  152
+
+
+>sp|O77422.1|HBPM_RHIAP RecName: Full=Male-specific histamine-binding salivary protein; 
+Short=MS-HBP; Flags: Precursor
+ gb|AAC63108.1| male-specific histamine-binding salivary protein [Rhipicephalus 
+appendiculatus]
+Length=200
+
+ Score = 46.3 bits (108),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 59/162 (36%), Gaps = 28/162 (17%)
+
+Query  13   DAFQAFSEGKEA-YVLVRSTDP------KARDCLKGEPAGEKQDN-TLPVMMTFKNGTDW  64
+            DA+++  + +   Y L ++T        +   C+        +      ++   K+ TD 
+Sbjct  33   DAWKSLQQDQNKRYYLAQATQTTDGVWGEEFTCVSVTAEKIGKKKLNATILYKNKHLTDL  92
+
+Query  65   ASTDWTFTL---------DGAKVTATLGNLTQNREVVY-DSQSHHCHVDKVEKEVP----  110
+              +  T T+         +G K   T G  TQ  E V+  S   +C V  V KE      
+Sbjct  93   KESHETITVWKAYDYTTENGIKYE-TQGTRTQTFEDVFVFSDYKNCDVIFVPKERGSDEG  151
+
+Query  111  DYEMWMLDAGGLEVEVECCR---QKLEELASGRNQMYPHLKD  149
+            DYE+W+ +    ++  +CC+       +    +     +   
+Sbjct  152  DYELWVSEDKIDKIP-DCCKFTMAYFAQQQ-EKTVRNVYTDS  191
+
+
+>gb|ACB70306.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=179
+
+ Score = 45.5 bits (106),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 23/143 (16%), Positives = 40/143 (28%), Gaps = 23/143 (16%)
+
+Query  25   YVLVRSTDPKARDCLKGEPAGEKQD---NTLPVMMTFKNGTDWASTDWTFTLDGAKVTA-  80
+            Y L  +TD     C         +        V    K G+ W S        G   +A 
+Sbjct  40   YFLTGTTDLGQPPCRYMTANDTGEGCESGATKVTYGHKKGSSWVSFIQVVNATGDTFSAS  99
+
+Query  81   TLGNLTQ-NRE-------------VVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEV  126
+            T G  ++                 +    Q  +C V K   +    E+W+          
+Sbjct  100  TFGETSESTGTRDSGERPEGPLNGMAVLVQGKNCFVLK---KDDVTELWVTKDSADGA--  154
+
+Query  127  ECCRQKLEELASGRNQMYPHLKD  149
+             CC+   E+  + ++    +   
+Sbjct  155  TCCKWSFEKDLNEKHYQTTYEPG  177
+
+
+>gb|ACB70359.1| salivary lipocalin [Ornithodoros coriaceus]
+Length=183
+
+ Score = 45.2 bits (105),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 22/149 (15%), Positives = 46/149 (31%), Gaps = 12/149 (8%)
+
+Query  3    ESDCTGSEPVD-AFQAFSEGK-EAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKN  60
+               C        A++     K   + + +ST+     C+      +  + +    +  K 
+Sbjct  21   NGHCEAQAKDQVAWEVVKAAKANRFYVAKSTNKYTPSCV-SMVVNQADEASHASTVLVKC  79
+
+Query  61   GTDWASTDWTFTLDGA--KVTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMW---  115
+            G + A        DG   +VT +          V  +    C V     E  D  +W   
+Sbjct  80   GKNVAPVAVKAVADGHELRVTNSGEAAGLAGGYVLFTXHSTCAVFASXYET-DLLLWGSG  138
+
+Query  116  ---MLDAGGLEVEVECCRQKLEELASGRN  141
+                ++   L++   CC +  ++     +
+Sbjct  139  SAVKVNGSRLKLSSPCCEKVFDKKPKNHS  167
+
+
+>emb|CAJ20729.1| lipocalin [Ixodes ricinus]
+Length=213
+
+ Score = 45.2 bits (105),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 18/129 (14%), Positives = 44/129 (34%), Gaps = 12/129 (9%)
+
+Query  34   KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFT---LDGAKVTATLGNLTQ---  87
+                C   +  G++      +  T+++G  W + + T     LDG ++        +   
+Sbjct  78   NPLQCENFKVMGKRTPFNYSLQYTYRSGGSWFARNETLVLGYLDGLRLPPNDMFFARTPI  137
+
+Query  88   ---NREVVYDSQSHHCHVDKVEKEVP---DYEMWMLDAGGLEVEVECCRQKLEELASGRN  141
+                   V  S   +C + ++          ++WM +    +   + C +K  E  +   
+Sbjct  138  GIPTNNFVLYSNYVNCTILRIPMPGQGENHCDLWMANMTASQDPPKLCLRKYNEYCNTTQ  197
+
+Query  142  QMYPHLKDC  150
+            +   +  +C
+Sbjct  198  KFTVYFPNC  206
+
+
+>gb|AAY66639.1| putative salivary HBP family member [Ixodes scapularis]
+Length=198
+
+ Score = 43.6 bits (101),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 21/132 (16%), Positives = 44/132 (33%), Gaps = 12/132 (9%)
+
+Query  30   STDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLD------GAKVT--AT  81
+            +T   A  C   +  G+ ++N   + +  K G+ W S + T  L+         V     
+Sbjct  60   TTKMGAPTCEYAQINGKVKENEYTLELGAKFGSGWTSKNQTMFLETTGQHPAPNVLNFTR  119
+
+Query  82   LGNLTQNREVVYDSQSHHCHVDKVEKEVPD---YEMWMLDAGGLEVEVECCRQKLEELAS  138
+            L    +    +  S    C + ++ K+       +M +L+          C  +     +
+Sbjct  120  LSADGRLGHPLLYSDYEKCSIVRIMKKDSSEYRCDMLLLNEAAKNDPPTECETRFTTYCT  179
+
+Query  139  GRNQMYPHLKDC  150
+            G   +  +   C
+Sbjct  180  G-TPVEVYSSGC  190
+
+
+>gb|AAK97821.1|AF209918_1 25 kDa salivary gland protein B [Ixodes scapularis]
+Length=222
+
+ Score = 41.7 bits (96),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 19/157 (12%), Positives = 44/157 (28%), Gaps = 36/157 (23%)
+
+Query  15   FQAFS---EGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTF  71
+            ++ F+     +  Y L          C   +   ++      +   +++G  W +   T 
+Sbjct  75   WRTFNVTDPFRGNYPLQ---------CENFKVMEKRTPFNYSLQYKYRSGYSWVTLTETL  125
+
+Query  72   TLDGAKVTATLGNLTQ---------------NREVVYDSQSHHCHVDKVEKEVP---DYE  113
+             L        LG                       V  S   +C + ++          +
+Sbjct  126  VL------GILGEQRLPPNDMFFQRTPIGIPTNNYVLYSNYVNCTILRIPMPGQGRNHCD  179
+
+Query  114  MWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            +WM +    +   + C  K  E  +   +   +  +C
+Sbjct  180  LWMANMTVSQEPPKICSDKFYEYCNTTQKFTVYFPNC  216
+
+
+>ref|XP_002405947.1| secreted protein, putative [Ixodes scapularis]
+ gb|EEC01472.1| secreted protein, putative [Ixodes scapularis]
+Length=214
+
+ Score = 41.3 bits (95),  Expect = 0.053, Method: Composition-based stats.
+ Identities = 19/143 (13%), Positives = 35/143 (24%), Gaps = 20/143 (14%)
+
+Query  25   YVLVRSTDPKARDCLKGEPAGE-KQDNTLPVMMTFKNGTDWASTDWTFTL----------  73
+            Y     T      C+  + +      N    +  F+ G +  S + T TL          
+Sbjct  58   YYASAETVGSEHTCVYAKVSENQPNGNVYEFVQKFRLGKEKTSPEQTVTLYATPYKTEMH  117
+
+Query  74   -----DGAKVTATL--GNLTQNREVVYDSQSHHCHVDKVEKEVPDY--EMWMLDAGGLEV  124
+                 +   +  +      T     +  S    C + +V  E   Y  E+++        
+Sbjct  118  ATERQNDNAMLVSQKKDAQTGKGYQLIYSDYTQCDILRVLDESNGYACELYLHSNAVDGD  177
+
+Query  125  EVECCRQKLEELASGRNQMYPHL  147
+                C              Y   
+Sbjct  178  VPRKCESVYGNACGKDEASYKQQ  200
+
+
+>gb|EMR90954.1| putative chlorogenic acid esterase precursor protein [Botryotinia 
+fuckeliana BcDW1]
+Length=1141
+
+ Score = 41.7 bits (96),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 20/54 (37%), Gaps = 0/54 (0%)
+
+Query  28   VRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDGAKVTAT  81
+            V+S     RDC  GE +              K+ TDW  T+  F   G K   T
+Sbjct  524  VKSASMDGRDCEMGERSPSISSPLKSGSKIDKDSTDWIETEGEFETSGPKTEDT  577
+
+
+>gb|AAY66803.1| putative secreted protein with HBP domain, partial [Ixodes scapularis]
+Length=217
+
+ Score = 41.3 bits (95),  Expect = 0.063, Method: Composition-based stats.
+ Identities = 15/130 (12%), Positives = 45/130 (35%), Gaps = 16/130 (12%)
+
+Query  35   ARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFT---LDGAKVTATLGNL------  85
+               C   +   ++      +   +K+G  W + + +     L+G ++  +          
+Sbjct  80   PLQCENFKVGEKRTPFNYSLQYKYKSGGSWKTINESLILGDLEG-QILPSNDMFFARTPI  138
+
+Query  86   -TQNREVVYDSQSHHCHVDKV---EKEVPDYEMWMLDAGGLEVEVE-CCRQKLEELASGR  140
+                   V  S   +C + ++   ++     ++WM +    +   + C  +  E   + +
+Sbjct  139  GPATHNFVLYSNYVNCTILRIPMPKQGEKHCDLWMANMTVSQEPPKLCLNKYYEYCNTTQ  198
+
+Query  141  NQMYPHLKDC  150
+            N    ++ +C
+Sbjct  199  NFT-VYVPNC  207
+
+
+>gb|AAY66644.1| histamine binding protein [Ixodes scapularis]
+Length=191
+
+ Score = 40.9 bits (94),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 32/168 (19%), Positives = 55/168 (33%), Gaps = 24/168 (14%)
+
+Query  1    DSESDCTGSEPVDAFQAFSEG-KEAYVLV-RSTDPKAR-----DC---LKGEPAGEKQDN  50
+            D++S  T     DA +  SE   E Y LV RS     +      C   LK  P   +   
+Sbjct  21   DAQSRTTQPTRYDAARELSEKFDEKYYLVQRSHYTDRKMGDSASCVSVLKLSPLHGQSGI  80
+
+Query  51   TLPVMMT---FKN---GTDWASTDWTFTLDGAKVTATLGNLTQNREVVY-----DSQSHH  99
+            T+ V +    +++     +W    +T    G K      +L    E++Y      S    
+Sbjct  81   TVQVSIKANSYRDPVTNKEWKMVAYTPAGSGTKYMIKTTDL-VTAELLYNQELAFSDHIS  139
+
+Query  100  CHV-DKVEKEVPDYEMWMLDAGGLEVEVECCRQKLEE-LASGRNQMYP  145
+            C V   +       ++W+            C+Q  ++   +       
+Sbjct  140  CRVLVHIADGDNHCQLWVNYRAVTGSVPRGCQQAYDKYCQTKHTIFRR  187
+
+
+>gb|AAY66805.1| nymphal histamine binding protein [Ixodes scapularis]
+Length=226
+
+ Score = 40.9 bits (94),  Expect = 0.087, Method: Composition-based stats.
+ Identities = 23/150 (15%), Positives = 43/150 (29%), Gaps = 17/150 (11%)
+
+Query  16   QAFSEGKEAYVLVRSTDPKA-----RDCLKGEPAGEKQDNTLPVMMTF-KNGTDWASTDW  69
+                 G + Y+  RS +        R C       EK    L ++M + +          
+Sbjct  48   DLIETGGKQYIYYRSYERDPLFGNDRMCPYLMRRQEKTVQPLRLIMGYLRPNGSELRFRR  107
+
+Query  70   TFTLDG------AKVTATLGNLTQNRE---VVYDSQSHHCHVDKVEKEVPDYEMWMLDAG  120
+                        A +    G    N      +  + +  C V + +      E+W+ ++ 
+Sbjct  108  QAEYQMSENYSVANMLWIKGGNHHNTTRRYTLVFTDNSTCSVVRSDLRDG-CEVWVQESA  166
+
+Query  121  GLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+                   CC     +L  G+ Q   +   C
+Sbjct  167  LSLGPSPCCNFLY-QLLCGKEQYQMYNASC  195
+
+
+>gb|AAY66819.1| putative secreted protein [Ixodes scapularis]
+Length=176
+
+ Score = 40.5 bits (93),  Expect = 0.092, Method: Composition-based stats.
+ Identities = 17/141 (12%), Positives = 40/141 (28%), Gaps = 22/141 (16%)
+
+Query  13   DAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGE-KQDNTLPVMMTFKNGTDWASTDWTF  71
+            D  +A +       L   T  +   C+  + +     +N    +  ++ G    ST  T 
+Sbjct  37   DIQKALNNPDRESWLYYRTYTRENTCVYAKVSENKPAENVYEFVQEYRKGNQSTSTKQTV  96
+
+Query  72   TL---------------DGAKVTAT---LGNLTQNREVVYDSQSHHCHV--DKVEKEVPD  111
+            TL                   +  +        +  +++Y   +  C +     E     
+Sbjct  97   TLYAAPYKTEAHAKEREKDNAMLVSKRKDAQTGKRYQLIYSDYAR-CDILRVLYESYGHA  155
+
+Query  112  YEMWMLDAGGLEVEVECCRQK  132
+             E+++          + C + 
+Sbjct  156  CELYLHSNAVDGGVPQECERV  176
+
+
+>gb|AAY66600.1| salivary serotonin-binding protein [Ixodes scapularis]
+Length=209
+
+ Score = 40.5 bits (93),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 24/170 (14%), Positives = 55/170 (32%), Gaps = 32/170 (19%)
+
+Query  11   PVDAFQAFSEGKEAYVLVRSTDPKA-----RDCLKGEPA-GEKQDNTLPVMMTF--KNGT  62
+            PV+A++     +  Y++ RS +          C+  +     +   T   +M +      
+Sbjct  29   PVEAWRTVILPQAFYLVYRSFENDPALGGNGRCVSIQLTHANEATKTTESIMKYWDPETN  88
+
+Query  63   DWASTDWTFTLD---GAKVT---ATLGNLTQNREVVYDSQSHHCH-VDKVEKEVPDYEMW  115
+                 +    +D   G  +    A  G+  +       S  + C  V  +E +    E+W
+Sbjct  89   QMRENNVRGKVDPPDGDTIQMSNAEGGDPWKTDHKFVYSDYNTCDVVVVLETKEKKCELW  148
+
+Query  116  M-----------------LDAGGLEVEVECCRQKLEELASGRNQMYPHLK  148
+            +                  D   +   +  C+++ E+   G+ +   + K
+Sbjct  149  VKDGYQQLAEVNTEAVASRDDPSVSHNIAKCKEEYEKQCRGQKKYQIYEK  198
+
+
+>gb|ABI52749.1| lipocalin [Argas monolakensis]
+Length=128
+
+ Score = 39.4 bits (90),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 12/58 (21%), Positives = 16/58 (28%), Gaps = 0/58 (0%)
+
+Query  93   YDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              S    C + + E      E+WM      E    CC    +    G  Q       C
+Sbjct  34   LYSDGKGCIIVRAEHWGGKCELWMRSGWTTEELDPCCEYIYDMWCEGETQKVFDNSTC  91
+
+
+>ref|XP_004935999.1| PREDICTED: tudor domain-containing protein 15-like [Gallus gallus]
+Length=2149
+
+ Score = 40.9 bits (94),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 18/100 (18%), Positives = 30/100 (30%), Gaps = 11/100 (11%)
+
+Query  57   TFKNGTDWASTDWTF--TLDGAKVTA--TLGNLTQNREV--VYDSQSHHCHVDKVEKEVP  110
+            TF     W   +  F   +   KV     +G       V  +Y+  S  C V  +  +  
+Sbjct  771  TFPVDDMWVKKENDFFKKVVSNKVLMFQVIGKHGNKYTVNALYNIASQKCSVAALMVQAG  830
+
+Query  111  DYEMWMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+              E W      L V      +K +     +++       C
+Sbjct  831  YAEYWERSDSALNVS-----KKFQARNQSKSRQKHVNARC  865
+
+
+>gb|AAT92158.1| truncated histamine binding protein [Ixodes pacificus]
+Length=160
+
+ Score = 39.8 bits (91),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 20/132 (15%), Positives = 45/132 (34%), Gaps = 12/132 (9%)
+
+Query  30   STDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLD------GAKVT--AT  81
+            +T      C   +  G  ++N   + +  K G+ W S + T  L+         V   + 
+Sbjct  22   TTTQVEPTCEYAKIHGMVKENEYNLELGAKVGSRWQSQNQTLDLETTGSHPAPNVLKFSR  81
+
+Query  82   LGNLTQNREVVYDSQSHHCHVDKVEKEVPD---YEMWMLDAGGLEVEVECCRQKLEELAS  138
+            L    +    +  S    C + ++ K+       +M +L+          C ++ +   +
+Sbjct  82   LQADGRLGHPLLYSDYEKCSIVRIMKKDSSEYRCDMLLLNEAAKNDPPTECEERFKTYCT  141
+
+Query  139  GRNQMYPHLKDC  150
+            G   +  +   C
+Sbjct  142  G-TPVEVYRSSC  152
+
+
+>gb|ABI52661.1| lipocalin [Argas monolakensis]
+Length=203
+
+ Score = 39.8 bits (91),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 26/156 (17%), Positives = 51/156 (33%), Gaps = 20/156 (13%)
+
+Query  13   DAFQAFSEGKEAYVLVRSTDPKAR-----DCLKGEPAGEKQDNT-LPVMMTFKNGTDWAS  66
+            D ++  + GKE Y+  RS     +      C+K +    K++   +   ++F +     S
+Sbjct  48   DGWKFLTTGKEMYLYQRSFQEDPKYGNKCKCVKSKHLTVKEEAQTVAADLSFLHEN-LTS  106
+
+Query  67   TDWTFTLDGAK-------VTATLG-NLTQNREVVYDSQSHHCHVDKV----EKEVPDYEM  114
+              +T      K       + A+           V  +    C V +V    + +    E+
+Sbjct  107  VHFTVYFSVNKTGKESRVIYASYEPEKPGFPFPVAFADYESCAVVRVPHRDKGKNQACEL  166
+
+Query  115  WMLDAGGLEVEVECCRQKLEELASGRNQMYPHLKDC  150
+            W+       V+  CC    + L           + C
+Sbjct  167  WVYKDHVKRVK-SCCFFIFDLLCGPNKYKVYDEEKC  201
+
+
+>gb|AAY66770.1| putative secreted salivary protein [Ixodes scapularis]
+Length=210
+
+ Score = 39.8 bits (91),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 20/140 (14%), Positives = 37/140 (26%), Gaps = 21/140 (15%)
+
+Query  28   VRSTDPKARDCLKGEPAGE-KQDNTLPVMMTFKNGTDWASTDWTFTL-------------  73
+             R T      C+  + +      N    +  FK G +    + T TL             
+Sbjct  57   KRETGGSEHTCVYAKVSENQPNGNVYEFVQKFKLGKEKTGPEQTVTLYATPYKTETHANE  116
+
+Query  74   -DGAK---VTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPD--YEMWMLDAGGLEVEVE  127
+             +      V+ T    T     +  S  H C + +V  E      E+++          +
+Sbjct  117  REKDNAMLVSQTKDAETGKGYQLIYSDYHKCDILRVLDESNGHACELYLHSNIVDGGVPQ  176
+
+Query  128  CCRQKLEE-LASGRNQMYPH  146
+             C +  +             
+Sbjct  177  NCERVYDNACGKDEASYKKQ  196
+
+
+>ref|WP_010511781.1| lipoprotein, partial [SAR324 cluster bacterium SCGC AAA001-C10]
+Length=846
+
+ Score = 40.1 bits (92),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 19/108 (18%), Positives = 34/108 (31%), Gaps = 10/108 (9%)
+
+Query  11   PVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWT  70
+            P D     + G  A +L+     +     +         +  P   TFK+        + 
+Sbjct  409  PSDIKDGITTGSNAGILM-----QPPMVKEITAVTTPTKDNTP-SYTFKSSKAGI-ISYR  461
+
+Query  71   FTLDGAKVTATLGNLTQNREVVYDSQSHHC--HVDKVEKEVPDYEMWM  116
+                     AT+GN T     + D    +C  +V        + E+W+
+Sbjct  462  GNCRSDNTNATIGNNTITFTTLSDGTYSNCSLYVTSSTGVKGN-ELWV  508
+
+
+>gb|AAK97816.1|AF209913_1 histamine binding protein [Ixodes scapularis]
+Length=221
+
+ Score = 39.8 bits (91),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 17/128 (13%), Positives = 34/128 (27%), Gaps = 11/128 (9%)
+
+Query  34   KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDG------AKVTATLGNLTQ  87
+                C       ++          +K+   W + D T  L          V         
+Sbjct  92   NPVQCENFRVMEKRTPTNYSFQYRYKSKNSWETIDETLILKDIGEHGFPNVMNFQRTPIG  151
+
+Query  88   NRE--VVYDSQSHHCHVDKV---EKEVPDYEMWMLDAGGLEVEVECCRQKLEELASGRNQ  142
+                 +V  S   +C V ++    +     ++WM +    +   + C  K  E  +    
+Sbjct  152  IATDNLVLYSNYVNCTVLRIPFTNQGERHCDLWMANLTLSQETPDDCLNKFFEYCNTTQI  211
+
+Query  143  MYPHLKDC  150
+               +   C
+Sbjct  212  YRVYYPSC  219
+
+
+>gb|AAY66794.1| salivary histamine binding protein [Ixodes scapularis]
+Length=230
+
+ Score = 39.4 bits (90),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 17/130 (13%), Positives = 43/130 (33%), Gaps = 13/130 (10%)
+
+Query  33   PKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDGAKVTATLGNLTQNRE--  90
+              + +C   +  G++      +   +++   W + + T  L   K      ++   R   
+Sbjct  92   SNSLECENFKVMGKRTPTNYSLQYRYRSENRWKTINETLILKDFKRRGFYNDMNFARTPI  151
+
+Query  91   ------VVYDSQSHHCHVDKV---EKEVPDYEMWMLD-AGGLEVEVECCRQKLEELASGR  140
+                  +V  S    C + ++    +     ++WM +     E   EC  +  E   + +
+Sbjct  152  GIPTDNLVLYSNYMSCTILRIPFTNQGERHCDLWMANMTLSQETPDECLNRFFEYCNTTK  211
+
+Query  141  NQMYPHLKDC  150
+                 +  +C
+Sbjct  212  IYRVFYP-NC  220
+
+
+>gb|AAM93643.1|AF483721_1 putative protein [Ixodes scapularis]
+Length=222
+
+ Score = 39.4 bits (90),  Expect = 0.26, Method: Composition-based stats.
+ Identities = 18/138 (13%), Positives = 39/138 (28%), Gaps = 20/138 (14%)
+
+Query  31   TDP----KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLD-------GAKVT  79
+            TDP        C   +   ++      +   +++G  W +   T  L             
+Sbjct  81   TDPFRGNYPLQCENFKVMEKRTPFNYSLQYKYRSGYSWVTLTETLVLGFLGVQPLPPN--  138
+
+Query  80   ATLGNLTQ----NREVVYDSQSHHCHVDKVEKEVP---DYEMWMLDAGGLEVEVECCRQK  132
+                  T         V  S   +C + ++          ++WM +    +   + C  K
+Sbjct  139  DMFFQRTPIGIPTNNYVLYSNYVNCTILRIPMPGQGQKHCDLWMANMAVSQEPPKICSDK  198
+
+Query  133  LEELASGRNQMYPHLKDC  150
+              E  +   +   +  +C
+Sbjct  199  FYEYCNTTQKFTVYFPNC  216
+
+
+>gb|AAY66709.1| putative secreted salivary protein [Ixodes scapularis]
+Length=222
+
+ Score = 39.4 bits (90),  Expect = 0.31, Method: Composition-based stats.
+ Identities = 19/142 (13%), Positives = 40/142 (28%), Gaps = 28/142 (20%)
+
+Query  31   TDP----KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDGAKVTATLGNLT  86
+            TDP        C   +   ++      +   +++G  W +   T  L        LG   
+Sbjct  81   TDPFRGNYPLQCENFKVMEKRTPFNYSLQYKYRSGYSWVTLTETLVL------GILGVQP  134
+
+Query  87   Q---------------NREVVYDSQSHHCHVDKVEKEVP---DYEMWMLDAGGLEVEVEC  128
+                                V  S   +C + ++          ++WM +    +   + 
+Sbjct  135  LPPNDMFFQRTPIGIPTNNYVLYSNYVNCTILRIPMPGQGQKHCDLWMANMTVSQEPPKI  194
+
+Query  129  CRQKLEELASGRNQMYPHLKDC  150
+            C  K  E  +   +   +  +C
+Sbjct  195  CSDKFYEYCNTTQKFTVYFPNC  216
+
+
+>gb|AAY66655.1| putative salivary secreted protein, partial [Ixodes scapularis]
+Length=218
+
+ Score = 39.0 bits (89),  Expect = 0.39, Method: Composition-based stats.
+ Identities = 15/130 (12%), Positives = 46/130 (35%), Gaps = 16/130 (12%)
+
+Query  35   ARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTL---DGAKVTATLGNL------  85
+               C   +   ++      +   +++G  W + + +  L   +G ++  +          
+Sbjct  81   PLQCENFKVGEKRTPFNYSLQYKYRSGGSWKTINESLILGDLEG-QILPSNDMFFARTPI  139
+
+Query  86   -TQNREVVYDSQSHHCHVDKV---EKEVPDYEMWMLDAGGLEVEVE-CCRQKLEELASGR  140
+             T     V  S   +C + ++   ++     ++WM +    +   + C  +  E   + +
+Sbjct  140  GTATHNFVLYSNYVNCTILRIPMPKQGEKHCDLWMANMTVSQEPPKLCLNKYYEYCNTTQ  199
+
+Query  141  NQMYPHLKDC  150
+            N    ++ +C
+Sbjct  200  NFT-VYVPNC  208
+
+
+>gb|AAK97825.1|AF209922_1 25 kDa salivary gland protein A [Ixodes scapularis]
+Length=222
+
+ Score = 39.0 bits (89),  Expect = 0.40, Method: Composition-based stats.
+ Identities = 19/142 (13%), Positives = 40/142 (28%), Gaps = 28/142 (20%)
+
+Query  31   TDP----KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDGAKVTATLGNLT  86
+            TDP        C   +   ++      +   +++G  W +   T  L        LG   
+Sbjct  81   TDPLRGNYPLQCENFKVMEKRTPFNYSLQYKYRSGYSWVTRTETLVL------GILGLQP  134
+
+Query  87   Q---------------NREVVYDSQSHHCHVDKVEKEVP---DYEMWMLDAGGLEVEVEC  128
+                                V  S   +C + ++          ++WM +    +   + 
+Sbjct  135  LPPNDMFFQRTPIGIPTNNYVLYSNYVNCTILRIPMPGQGQNHCDLWMANMTVSQEPPKI  194
+
+Query  129  CRQKLEELASGRNQMYPHLKDC  150
+            C  K  E  +   +   +  +C
+Sbjct  195  CSDKFYEYCNTTQKFTVYFPNC  216
+
+
+>emb|CAJ20731.1| lipocalin [Ixodes ricinus]
+Length=224
+
+ Score = 38.2 bits (87),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 17/128 (13%), Positives = 41/128 (32%), Gaps = 11/128 (9%)
+
+Query  34   KARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWTFTLDGAKVTATLGNLTQNRE---  90
+               +C        +  N   +  T+++G +W + + T  L    +     ++   R    
+Sbjct  87   NPLECESFNITKTRIPNNYSLQYTYRSGFNWTTMNKTLILKDFGLHHFRNDMYFQRTPVG  146
+
+Query  91   -----VVYDSQSHHCHV---DKVEKEVPDYEMWMLDAGGLEVEVECCRQKLEELASGRNQ  142
+                  V  S   +C V       +     ++WM +    +   + C  +  E  +  + 
+Sbjct  147  IATDNFVLYSNYVNCTVLRITMTGQGEGHCDLWMANLTLSQETPDDCLNRFFEYCNTTHI  206
+
+Query  143  MYPHLKDC  150
+               +  +C
+Sbjct  207  YRVYYPNC  214
+
+
+>gb|ABR23375.1| golgi-destined protein [Ornithodoros parkeri]
+Length=156
+
+ Score = 37.4 bits (85),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 11/84 (13%), Positives = 26/84 (31%), Gaps = 8/84 (10%)
+
+Query  73   LDGAKVTATLGNLTQNREV-------VYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVE  125
+             +G  V+  L +      +       +  +    C V +  +     ++WM        +
+Sbjct  58   TNGYNVSNVLDSRLAENTITGGTPFLIAFTDYKTCAVVRYPQAKGGCQVWMYADSMASAD  117
+
+Query  126  VECCRQKLEELASGRNQMYPHLKD  149
+               C      +  G+ +   + KD
+Sbjct  118  TSPCNFVC-NILCGKEKHKVYDKD  140
+
+
+>ref|WP_010511853.1| lipoprotein, partial [SAR324 cluster bacterium SCGC AAA001-C10]
+Length=307
+
+ Score = 37.8 bits (86),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 19/108 (18%), Positives = 34/108 (31%), Gaps = 10/108 (9%)
+
+Query  11   PVDAFQAFSEGKEAYVLVRSTDPKARDCLKGEPAGEKQDNTLPVMMTFKNGTDWASTDWT  70
+            P D     + G  A +L+     +     +         +  P   TFK+        + 
+Sbjct  13   PSDIKDGITTGSNAGILM-----QPPMVKEITAVTTPTKDNTP-SYTFKSSKAGI-ISYR  65
+
+Query  71   FTLDGAKVTATLGNLTQNREVVYDSQSHHC--HVDKVEKEVPDYEMWM  116
+                     AT+GN T     + D    +C  +V        + E+W+
+Sbjct  66   GNCRSDNTNATIGNNTITFTTLSDGTYSNCSLYVTSSTGVKGN-ELWV  112
+
+
+>gb|AAY66747.1| putative secreted protein [Ixodes scapularis]
+Length=210
+
+ Score = 37.1 bits (84),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 21/140 (15%), Positives = 36/140 (26%), Gaps = 20/140 (14%)
+
+Query  28   VRSTDPKARDCLKGEPAGE-KQDNTLPVMMTFKNGTDWASTDWTFTL-------------  73
+             R TD     C+  + +      N    +  F+ G +  S     TL             
+Sbjct  57   KRETDGSEHTCVYAKVSENQPNGNVYEFVQKFRLGKETTSQQRAVTLYATPYKTEMHANE  116
+
+Query  74   -DGAK---VTATLGNLTQNREVVYDSQSHHCHVDKVEKEVPD--YEMWMLDAGGLEVEVE  127
+             +      V+ T G  T  +  +  S    C + +V  E      E+++           
+Sbjct  117  REKDNAMLVSQTKGAQTGKKYQLIYSDYTKCDILRVLDESNGHACELYLHSTAVDGDVPA  176
+
+Query  128  CCRQKLEELASGRNQMYPHL  147
+             C              Y   
+Sbjct  177  ECESVYGNACGKDETSYKQQ  196
+
+
+>gb|ABV02568.1| AMA-1 S4, partial [Plasmodium falciparum]
+Length=567
+
+ Score = 37.1 bits (84),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 18/134 (13%), Positives = 38/134 (28%), Gaps = 11/134 (8%)
+
+Query  28   VRSTDPKARDCLKGEPAGEKQDNTLPV--MMTFKNGTDWASTDWTFTL----DGAKVTAT  81
+            V + +   +D     P      + + +  M  F    ++       TL     G  +   
+Sbjct  136  VATGNQDLKDGGFAFPPTNPLMSPMTLDDMRRFYKDNEYVKNLDELTLCSRHAGNMIPDN  195
+
+Query  82   LGNLTQNREVVYDSQSHHCHVDKVEKEVPDYEMWMLDAGGLEVEVECC----RQKLEELA  137
+              N       VYD +   CH+  +  +  +   +          + C      +  +   
+Sbjct  196  DKNSNYKYPAVYDDKDKKCHILYIAAQENNGPRYCNKDQSKRTSMFCFRPAKDKSFQNCT  255
+
+Query  138  S-GRNQMYPHLKDC  150
+               +N +    K C
+Sbjct  256  YLSKNVVDNWEKVC  269
+
+
+>gb|ABI52807.1| lipocalin [Argas monolakensis]
+Length=124
+
+ Score = 35.5 bits (80),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 12/84 (14%), Positives = 19/84 (23%), Gaps = 11/84 (13%)
+
+Query  61   GTDWASTD--WTFTLDG----AKVTATLGNLTQNR--EVVYDSQSHHCHVDKV--EKEVP  110
+               W S         +G      V               +  S    C V +        
+Sbjct  18   SEKWVSYTVPAKVVTEGKYSKPNVIRAGNETIGRYADSPIMFSDYKTCDVVRAPHTGNES  77
+
+Query  111  DYEMWMLDAGGLEVEVECCRQKLE  134
+            D E+W+ +         CC    +
+Sbjct  78   DCELWVAENYVDNYP-SCCDFIYD  100
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.125    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 310377937966
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1362 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1Q88
+
+Length=221
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|1Q87|A  Chain A, Crystal Structure Of The C-Domain Of The T.V...   466    4e-165
+ref|XP_001306668.1|  39 kDa initiator binding protein [Trichomona...   451    2e-157
+ref|XP_001303060.1|  39 kDa initiator binding protein [Trichomona...   131    4e-33 
+ref|XP_001580872.1|  39 kDa initiator binding protein [Trichomona...   107    3e-24 
+ref|XP_001324877.1|  39 kDa initiator binding protein [Trichomona...  77.8    5e-14 
+ref|XP_001322448.1|  hypothetical protein [Trichomonas vaginalis ...  54.7    7e-06 
+ref|XP_001302525.1|  hypothetical protein [Trichomonas vaginalis ...  47.4    0.002 
+ref|XP_001307691.1|  hypothetical protein [Trichomonas vaginalis ...  47.0    0.003 
+gb|EMD38825.1|  hypothetical protein CERSUDRAFT_112556 [Ceriporio...  37.0    5.9   
+
+
+>pdb|1Q87|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q87|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q88|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q88|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q89|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Cubic Crystal Form)
+Length=221
+
+ Score =  466 bits (1199),  Expect = 4e-165, Method: Compositional matrix adjust.
+ Identities = 221/221 (100%), Positives = 221/221 (100%), Gaps = 0/221 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH
+Sbjct  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+
+
+>ref|XP_001306668.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|AAK97660.1|AF409099_1 39 kDa initiator binding protein [Trichomonas vaginalis]
+ gb|EAX93738.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+Length=341
+
+ Score =  451 bits (1160),  Expect = 2e-157, Method: Compositional matrix adjust.
+ Identities = 215/215 (100%), Positives = 215/215 (100%), Gaps = 0/215 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  127  PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  186
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  187  EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  246
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  247  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  306
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  215
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM
+Sbjct  307  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  341
+
+
+>ref|XP_001303060.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAX90130.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=327
+
+ Score =  131 bits (330),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 78/199 (39%), Positives = 117/199 (59%), Gaps = 10/199 (5%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            P    R + TK +   T  K   IG+ +  E   F+  V   +  +TQ  +  +  +  I
+Sbjct  134  PGKIARLSDTKTINIATMLK---IGHVSAQEDLNFQEIVKSDFLEITQ-NEIDMPAEMFI  189
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            + AA YFKQPEQ  +NAI+VI+ I+ PQE    +  DL++FLAMFGP  T+M+KI SLL 
+Sbjct  190  KNAANYFKQPEQTLENAIDVITPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLR  248
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATG  179
+             +N    WL  DP A+K  +      +G FD+  PNCL+LK   G + +++N PLI+A G
+Sbjct  249  SNNEDTSWLYLDP-AQKPLDK---DFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFG  304
+
+Query  180  QYLMDENGEKYDSWDKYFE  198
+             Y++DEN  ++ SW+++F+
+Sbjct  305  TYVVDENNHQFASWEEFFQ  323
+
+
+>ref|XP_001580872.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY19886.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=353
+
+ Score =  107 bits (267),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 63/190 (33%), Positives = 101/190 (53%), Gaps = 10/190 (5%)
+
+Query  20   KSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLIEKAAEYFKQPEQPKQNA  77
+            + + I    P  Q+ FR     IW  L + + G  T   D  I  AA  F+  +Q  +NA
+Sbjct  155  RDVMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFIFLAARRFRISKQSLKNA  214
+
+Query  78   IEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWL--TFDPQA  135
+             ++I  I    +    + +D  KF+A FGP ET+M K+  +L  SN+ G+WL  T DP  
+Sbjct  215  TQLIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLSSSNHHGNWLNVTTDPSG  274
+
+Query  136  EKNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEAT-GQYLMDENGEKYDSW  193
+              N     D + G+FD  E NC+I         K+WN+  + ++ G+YL+D+N  +YDSW
+Sbjct  275  LSNP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVASSDGKYLVDQNDNEYDSW  330
+
+Query  194  DKYFEMKPIE  203
+            +++F++ P++
+Sbjct  331  EQFFQINPMK  340
+
+
+>ref|XP_001324877.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY12654.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=326
+
+ Score = 77.8 bits (190),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 57/190 (30%), Positives = 88/190 (46%), Gaps = 9/190 (5%)
+
+Query  13   VEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTD-GTVMRDFLIEKAAEYFKQPE  71
+            VE      S+ IG      +    +    IW ++ +     +V  +F I K A+ +    
+Sbjct  137  VESIRKADSITIGALDQTNKNEILSNAINIWQQIVEVIGIDSVRSEFFILKLAKRYNLHG  196
+
+Query  72   QPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTF  131
+            Q  +N++ VI +I+AP      +  D YKF   FGP  TIM+KI SLL ++ N   WL F
+Sbjct  197  QSFENSLSVIKSILAPTNAPLITFLDFYKFYLAFGPEPTIMIKIHSLLEVAVNDKPWLYF  256
+
+Query  132  D--PQAEKNANNQRDSISGWFD-QNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGE  188
+               P   K  +        +FD +NEPNCL++       K +N P + +   Y++ E G 
+Sbjct  257  GYLPDEIKKVSENF----AYFDTENEPNCLVIVWNGMTHKGYNLPNVSSDSSYVVAEAG-  311
+
+Query  189  KYDSWDKYFE  198
+             + SW  Y +
+Sbjct  312  TFKSWTDYIQ  321
+
+
+>ref|XP_001322448.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAY10225.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=384
+
+ Score = 54.7 bits (130),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 31/124 (25%), Positives = 59/124 (48%), Gaps = 5/124 (4%)
+
+Query  77   AIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAE  136
+            A ++++ ++  +     +  +   F A FGP ++++ KI  LL  S     W  F P  +
+Sbjct  239  ARKMLTYVLTHKNTYCITIPEFCTFFARFGPDDSVLEKIHQLLCCSKAYNDW--FKPVEQ  296
+
+Query  137  KNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEATGQYLMDENGEKYDSWDK  195
+                +    I+G +     NC I+K   GI   ++N+P  +    +L DE+ + +++W  
+Sbjct  297  --TFDLHKPITGCYSNTFANCFIIKRSQGITFHVYNQPFFQGPVGFLFDESDKNFNTWHA  354
+
+Query  196  YFEM  199
+             FEM
+Sbjct  355  VFEM  358
+
+
+>ref|XP_001302525.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX89595.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=313
+
+ Score = 47.4 bits (111),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 46/97 (47%), Gaps = 11/97 (11%)
+
+Query  97   DLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPN  156
+            D   F+A F P+E I+ K+        +K   L  D + +     Q  SIS +F +   N
+Sbjct  210  DFAIFMARFDPFENIIFKL--------DKFQQLIPDLRVKMT---QIGSISSFFAKTYHN  258
+
+Query  157  CLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSW  193
+            C   +   G    +N P + +T  YL +E+GE++ SW
+Sbjct  259  CFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSW  295
+
+
+>ref|XP_001307691.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX94761.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=328
+
+ Score = 47.0 bits (110),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 33/121 (27%), Positives = 53/121 (44%), Gaps = 14/121 (12%)
+
+Query  81   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASL--LLISNNKGHWLTFDPQAEKN  138
+            I  ++  +     +  D   FLA FGP++ +  KI     +L      +++   P     
+Sbjct  210  IQQVLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAP-----  264
+
+Query  139  ANNQRDSISGWFDQNEPNCLILK-TPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  197
+                  S+  +F     NC   K + TG    +N PLI ++  YL+DE+G  Y SW+K  
+Sbjct  265  ------SLINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWEKMV  318
+
+Query  198  E  198
+            E
+Sbjct  319  E  319
+
+
+>gb|EMD38825.1| hypothetical protein CERSUDRAFT_112556 [Ceriporiopsis subvermispora 
+B]
+Length=432
+
+ Score = 37.0 bits (84),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 44/98 (45%), Gaps = 10/98 (10%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGW--FDQNEPN-----CLILKTPTGIRKIWNKPLIEATG  179
+            +WL    +  K  N   D +  W  +++ EP+      +I K  TG+   W +PL++ T 
+Sbjct  144  NWLKIGSRKRKYDNTNDDYLRSWVLYEKPEPHDSNTIAMITKEGTGVMMEWERPLMKETA  203
+
+Query  180  QYLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHH  217
+            + L  + GE     +  F +  I++Y   Y    P +H
+Sbjct  204  RLLCKDMGEGISILNIGFGLGIIDSYFQEY---GPANH  238
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 602713268955
+Results from round 2
+
+
+Query= 1Q88
+
+Length=221
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1Q87|A  Chain A, Crystal Structure Of The C-Domain Of The T.V...   331    8e-112
+ref|XP_001306668.1|  39 kDa initiator binding protein [Trichomona...   319    2e-105
+ref|XP_001580872.1|  39 kDa initiator binding protein [Trichomona...   237    3e-73 
+ref|XP_001303060.1|  39 kDa initiator binding protein [Trichomona...   235    1e-72 
+ref|XP_001324877.1|  39 kDa initiator binding protein [Trichomona...   220    6e-67 
+ref|XP_001322448.1|  hypothetical protein [Trichomonas vaginalis ...   161    7e-44 
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_001307691.1|  hypothetical protein [Trichomonas vaginalis ...  70.2    3e-11
+ref|XP_001302525.1|  hypothetical protein [Trichomonas vaginalis ...  64.4    3e-09
+ref|WP_018076550.1|  hypothetical protein [Thiobacillus denitrifi...  44.4    0.032
+ref|WP_018243085.1|  hypothetical protein [Rhizobium leguminosarum]   42.5    0.11 
+ref|WP_018446712.1|  hypothetical protein [Rhizobium gallicum]        42.5    0.11 
+ref|WP_018517001.1|  hypothetical protein [Rhizobium leguminosarum]   42.5    0.12 
+ref|WP_018327341.1|  hypothetical protein [Rhizobium giardinii]       42.1    0.18 
+ref|WP_006632232.1|  hypothetical protein [Microcoleus vaginatus]...  41.7    0.18 
+ref|WP_017957884.1|  hypothetical protein [Rhizobium leguminosarum]   41.7    0.19 
+ref|WP_008839180.1|  hypothetical protein [Mesorhizobium alhagi] ...  40.1    0.64 
+ref|WP_018238661.1|  hypothetical protein [Rhizobium sp. BR816]       39.8    0.84 
+ref|WP_020050335.1|  hypothetical protein [Rhizobium leguminosarum]   39.4    1.0  
+ref|WP_000089899.1|  serine protease [Bacillus cereus] >gb|EJP855...  39.0    1.6  
+ref|WP_009817576.1|  hypothetical protein [Roseovarius sp. 217] >...  38.6    1.9  
+gb|ELK02478.1|  Nuclear pore complex protein Nup107 [Pteropus ale...  38.6    2.6  
+ref|YP_001787804.1|  sensory box sigma-54 dependent transcription...  36.7    8.0  
+
+
+>pdb|1Q87|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q87|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q88|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q88|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q89|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Cubic Crystal Form)
+Length=221
+
+ Score =  331 bits (848),  Expect = 8e-112, Method: Composition-based stats.
+ Identities = 221/221 (100%), Positives = 221/221 (100%), Gaps = 0/221 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH
+Sbjct  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+
+
+>ref|XP_001306668.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|AAK97660.1|AF409099_1 39 kDa initiator binding protein [Trichomonas vaginalis]
+ gb|EAX93738.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+Length=341
+
+ Score =  319 bits (817),  Expect = 2e-105, Method: Composition-based stats.
+ Identities = 215/215 (100%), Positives = 215/215 (100%), Gaps = 0/215 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  127  PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  186
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  187  EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  246
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  247  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  306
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  215
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM
+Sbjct  307  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  341
+
+
+>ref|XP_001580872.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY19886.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=353
+
+ Score =  237 bits (604),  Expect = 3e-73, Method: Composition-based stats.
+ Identities = 66/219 (30%), Positives = 110/219 (50%), Gaps = 14/219 (6%)
+
+Query  3    NTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLI  60
+             +   + ++  +F    + + I    P  Q+ FR     IW  L + + G  T   D  I
+Sbjct  139  KSSNIDDSQSSKFV-ILRDVMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFI  197
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+              AA  F+  +Q  +NA ++I  I    +    + +D  KF+A FGP ET+M K+  +L 
+Sbjct  198  FLAARRFRISKQSLKNATQLIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLS  257
+
+Query  121  ISNNKGHWL--TFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLI-E  176
+             SN+ G+WL  T DP    N     D + G+FD  E NC+I         K+WN+  +  
+Sbjct  258  SSNHHGNWLNVTTDPSGLSNP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVAS  313
+
+Query  177  ATGQYLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  215
+            + G+YL+D+N  +YDSW+++F++ P++      P+  P+
+Sbjct  314  SDGKYLVDQNDNEYDSWEQFFQINPMK---IQEPSLNPL  349
+
+
+>ref|XP_001303060.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAX90130.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=327
+
+ Score =  235 bits (598),  Expect = 1e-72, Method: Composition-based stats.
+ Identities = 78/199 (39%), Positives = 117/199 (59%), Gaps = 10/199 (5%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            P    R + TK +   T  K   IG+ +  E   F+  V   +  +TQ  +  +  +  I
+Sbjct  134  PGKIARLSDTKTINIATMLK---IGHVSAQEDLNFQEIVKSDFLEITQ-NEIDMPAEMFI  189
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            + AA YFKQPEQ  +NAI+VI+ I+ PQE    +  DL++FLAMFGP  T+M+KI SLL 
+Sbjct  190  KNAANYFKQPEQTLENAIDVITPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLR  248
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATG  179
+             +N    WL  DP A+K  +      +G FD+  PNCL+LK   G + +++N PLI+A G
+Sbjct  249  SNNEDTSWLYLDP-AQKPLD---KDFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFG  304
+
+Query  180  QYLMDENGEKYDSWDKYFE  198
+             Y++DEN  ++ SW+++F+
+Sbjct  305  TYVVDENNHQFASWEEFFQ  323
+
+
+>ref|XP_001324877.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY12654.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=326
+
+ Score =  220 bits (560),  Expect = 6e-67, Method: Composition-based stats.
+ Identities = 57/190 (30%), Positives = 88/190 (46%), Gaps = 9/190 (5%)
+
+Query  13   VEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTD-GTVMRDFLIEKAAEYFKQPE  71
+            VE      S+ IG      +    +    IW ++ +     +V  +F I K A+ +    
+Sbjct  137  VESIRKADSITIGALDQTNKNEILSNAINIWQQIVEVIGIDSVRSEFFILKLAKRYNLHG  196
+
+Query  72   QPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTF  131
+            Q  +N++ VI +I+AP      +  D YKF   FGP  TIM+KI SLL ++ N   WL F
+Sbjct  197  QSFENSLSVIKSILAPTNAPLITFLDFYKFYLAFGPEPTIMIKIHSLLEVAVNDKPWLYF  256
+
+Query  132  D--PQAEKNANNQRDSISGWFD-QNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGE  188
+               P   K  +        +FD +NEPNCL++       K +N P + +   Y++ E G 
+Sbjct  257  GYLPDEIKKVSENF----AYFDTENEPNCLVIVWNGMTHKGYNLPNVSSDSSYVVAEAG-  311
+
+Query  189  KYDSWDKYFE  198
+             + SW  Y +
+Sbjct  312  TFKSWTDYIQ  321
+
+
+>ref|XP_001322448.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAY10225.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=384
+
+ Score =  161 bits (407),  Expect = 7e-44, Method: Composition-based stats.
+ Identities = 41/200 (21%), Positives = 74/200 (37%), Gaps = 33/200 (17%)
+
+Query  29   PNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYF-------------------K  68
+            P     F+ +   +W  +              IE A   F                    
+Sbjct  163  PENNNRFKNEAIFLWEEIVPNHCIWAYSLTQFIEAATMKFCASYSKSSSGETFTYDAQQT  222
+
+Query  69   QPEQPKQN--------AIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            Q  Q  +N        A ++++ ++  +     +  +   F A FGP ++++ KI  LL 
+Sbjct  223  QFSQYLKNYNLDLHDTARKMLTYVLTHKNTYCITIPEFCTFFARFGPDDSVLEKIHQLLC  282
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLIEATG  179
+             S     W  F P  +    +    I+G +     NC I+K   GI   ++N+P  +   
+Sbjct  283  CSKAYNDW--FKPVEQ--TFDLHKPITGCYSNTFANCFIIKRSQGITFHVYNQPFFQGPV  338
+
+Query  180  QYLMDENGEKYDSWDKYFEM  199
+             +L DE+ + +++W   FEM
+Sbjct  339  GFLFDESDKNFNTWHAVFEM  358
+
+
+>ref|XP_001307691.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX94761.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=328
+
+ Score = 70.2 bits (170),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 32/123 (26%), Positives = 51/123 (41%), Gaps = 14/123 (11%)
+
+Query  81   ISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGH--WLTFDPQAEKN  138
+            I  ++  +     +  D   FLA FGP++ +  KI     I +      ++   P     
+Sbjct  210  IQQVLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAPS----  265
+
+Query  139  ANNQRDSISGWFDQNEPNCLILK-TPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  197
+                   +  +F     NC   K + TG    +N PLI ++  YL+DE+G  Y SW+K  
+Sbjct  266  -------LINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWEKMV  318
+
+Query  198  EMK  200
+            E  
+Sbjct  319  EAN  321
+
+
+>ref|XP_001302525.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX89595.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=313
+
+ Score = 64.4 bits (155),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 39/192 (20%), Positives = 68/192 (35%), Gaps = 17/192 (9%)
+
+Query  19   KKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP-KQNA  77
+              ++ +   T NE   F+  V   W ++ +         F + K         Q    N 
+Sbjct  136  LNNITLFGMTENEIVAFKRNVITTWEKIIKPNHV-----FAVSKKELTDSFGGQAGFCND  190
+
+Query  78   IEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEK  137
+               +   +  +        D   F+A F P+E I+ K+            +    P   +
+Sbjct  191  PYALQEALTTKVTAVIDINDFAIFMARFDPFENIIFKL----------DKFQQLIPD-LR  239
+
+Query  138  NANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKYF  197
+                Q  SIS +F +   NC   +   G    +N P + +T  YL +E+GE++ SW    
+Sbjct  240  VKMTQIGSISSFFAKTYHNCFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSWTMAL  299
+
+Query  198  EMKPIETYLTAY  209
+            +   I    T +
+Sbjct  300  QSTSILQSQTGF  311
+
+
+>ref|WP_018076550.1| hypothetical protein [Thiobacillus denitrificans]
+Length=1165
+
+ Score = 44.4 bits (103),  Expect = 0.032, Method: Composition-based stats.
+ Identities = 21/97 (22%), Positives = 40/97 (41%), Gaps = 5/97 (5%)
+
+Query  102  LAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDS---ISGWFDQNEPNCL  158
+            L  FG     +L +  L+ +++  G+ L F   A        D    I  +      N +
+Sbjct  44   LDAFGSPTLAVLSVGQLIRVTDATGNVLNFGYDALSRIIKLTDPSGGIYAYVYDTNGNLV  103
+
+Query  159  ILKTPTGIRK--IWNKPLIEATGQYLMDENGEKYDSW  193
+             ++ P G  K  ++  P        ++DENG++Y ++
+Sbjct  104  SVQYPDGKSKTYLYENPTFPHALTGIVDENGDRYATY  140
+
+
+>ref|WP_018243085.1| hypothetical protein [Rhizobium leguminosarum]
+Length=655
+
+ Score = 42.5 bits (98),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  246  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  305
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  306  YVEERAKWERLYETSQTKGTGEAHPTLSP  334
+
+
+>ref|WP_018446712.1| hypothetical protein [Rhizobium gallicum]
+Length=655
+
+ Score = 42.5 bits (98),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  246  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  305
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  306  YVEERAKWERLYETSQTKGTGEAHPTLSP  334
+
+
+>ref|WP_018517001.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 42.5 bits (98),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  297  YVEERAKWERLYETSQTKGTGEAHPTLSP  325
+
+
+>ref|WP_018327341.1| hypothetical protein [Rhizobium giardinii]
+Length=646
+
+ Score = 42.1 bits (97),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + D+   N L +     +      PLIE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGNVLAIAHNGNLSNGRMFPLIESFTGKPVDNE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|WP_006632232.1| hypothetical protein [Microcoleus vaginatus]
+ gb|EGK89546.1| hypothetical protein MicvaDRAFT_2046 [Microcoleus vaginatus FGP-2]
+Length=606
+
+ Score = 41.7 bits (96),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 23/101 (23%), Positives = 38/101 (38%), Gaps = 4/101 (4%)
+
+Query  114  KIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPN--CLILKTPTGIRKIWN  171
+            KI S LL +   G    FD   +      R  + GW    E N  C+ +     + + + 
+Sbjct  490  KIDSNLLSAPKDGLPGYFDTVTKLAPAASR--VIGWVGDPENNVKCIAILNQENVVRGFA  547
+
+Query  172  KPLIEATGQYLMDENGEKYDSWDKYFEMKPIETYLTAYPTF  212
+             P         +     ++ +W  Y +  P +  LTAY +F
+Sbjct  548  MPGFPRPDLVKLFGPSYEFAAWRGYIQTWPTDKLLTAYASF  588
+
+
+>ref|WP_017957884.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 41.7 bits (96),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + D+   N L +     +      PLIE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGNVLAIAHNGNLSNGRMFPLIESFTGKPVDKE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|WP_008839180.1| hypothetical protein [Mesorhizobium alhagi]
+ gb|EHK53888.1| hypothetical protein MAXJ12_28048 [Mesorhizobium alhagi CCNWXJ12-2]
+Length=646
+
+ Score = 40.1 bits (92),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 16/88 (18%), Positives = 34/88 (39%), Gaps = 0/88 (0%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDEN  186
+             +  + P    N  +    +  + D+   + L +     +      P +EA G+ L  E 
+Sbjct  236  PFTVYPPNGSDNPADLWKWMQAYEDKTGGDVLAIAHNGNLSSGLMFPTVEAFGKKLDAEY  295
+
+Query  187  GEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+             +  D W++ +E    +    A+P  +P
+Sbjct  296  VQTRDKWERLYEATQTKGDGEAHPFLSP  323
+
+
+>ref|WP_018238661.1| hypothetical protein [Rhizobium sp. BR816]
+Length=644
+
+ Score = 39.8 bits (91),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 16/88 (18%), Positives = 32/88 (36%), Gaps = 0/88 (0%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDEN  186
+             +  + P    N       +  +  +   N L +     +      P++EA G+ L  E 
+Sbjct  234  PFTVYPPYGSDNPAELWKWMQAYETKTGGNVLAIAHNGNLSNGLMFPVVEAFGKKLDSEY  293
+
+Query  187  GEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+             E    W++ +E    +    A+P  +P
+Sbjct  294  AETRAKWERLYEATQTKGTGEAHPFLSP  321
+
+
+>ref|WP_020050335.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 39.4 bits (90),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + D+   + L +     +      PLIE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGSVLAIAHNGNLSNGRMFPLIESFTGKPVDKE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|WP_000089899.1| serine protease [Bacillus cereus]
+ gb|EJP85569.1| hypothetical protein IC1_04607 [Bacillus cereus VD022]
+ gb|EOQ58116.1| hypothetical protein IAY_04139 [Bacillus cereus TIAC219]
+Length=455
+
+ Score = 39.0 bits (89),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 28/144 (19%), Positives = 49/144 (34%), Gaps = 6/144 (4%)
+
+Query  45   RLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAM  104
+            +L   +  +   D  I   A    Q +   +   E I  I     E      D  K+  +
+Sbjct  17   QLGTSSSDSQKTDDFIGLLAAQDVQIQPLFEK--EQIQPIKTVSLESDIEPPDFSKYYKV  74
+
+Query  105  FGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSIS--GWFDQNEPNCLILKT  162
+              P E +   +A     S  +  ++   P+  K A   +  ++     D +     +   
+Sbjct  75   IAPDEKLEELVAQFRNSSVVEDAYIKPAPELAKLAVEPKTDVTIRATPDLSFRQGYLNAA  134
+
+Query  163  PTGI--RKIWNKPLIEATGQYLMD  184
+            P GI  R  WN P  +  G  ++D
+Sbjct  135  PVGIDARHAWNFPGGKGNGVNIVD  158
+
+
+>ref|WP_009817576.1| hypothetical protein [Roseovarius sp. 217]
+ gb|EAQ26241.1| hypothetical protein ROS217_13731 [Roseovarius sp. 217]
+Length=649
+
+ Score = 38.6 bits (88),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 14/93 (15%), Positives = 32/93 (34%), Gaps = 0/93 (0%)
+
+Query  122  SNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+            +      +T  P   +N  +    +  + ++   N L +     +      P IE  G  
+Sbjct  234  AVQMDPMVTLPPHGSQNPVDLWKWMGAYEEKTGGNVLAIAHNGNLSNGLMFPTIEQFGAP  293
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+            +      +   W++ +EM   +     +P  +P
+Sbjct  294  VDANYASERAKWERLYEMTQTKGTSETHPNLSP  326
+
+
+>gb|ELK02478.1| Nuclear pore complex protein Nup107 [Pteropus alecto]
+Length=1040
+
+ Score = 38.6 bits (88),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 23/99 (23%), Positives = 35/99 (35%), Gaps = 11/99 (11%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWF-----DQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+             WL FDP     A  Q ++I   F      +      +      I +I+N+   +     
+Sbjct  813  DWLVFDPAQRAEALKQGNAIMRKFLASKKHEAAKEVFVKIPQDSIAEIYNQWEEQGM---  869
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHH  220
+               E  E ++ W K+    P +  L   PTF     H H
+Sbjct  870  ---ETHETFNEWFKHMNSAPQKPTLIPQPTFTEKVAHEH  905
+
+
+>ref|YP_001787804.1| sensory box sigma-54 dependent transcriptional regulator [Clostridium 
+botulinum A3 str. Loch Maree]
+ ref|WP_012342187.1| ATPase AAA [Clostridium botulinum]
+ gb|ACA54033.1| sensory box sigma-54 dependent transcriptional regulator [Clostridium 
+botulinum A3 str. Loch Maree]
+Length=584
+
+ Score = 36.7 bits (83),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 32/194 (16%), Positives = 69/194 (36%), Gaps = 14/194 (7%)
+
+Query  9    GTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFK  68
+                +   T      + N      +     +      ++++      R+ +++   E   
+Sbjct  49   DDNIIGIFTKNDLYKLENQGKEFSDNLEDYIKRDVITISEEKSIISARNIMVKNKIERL-  107
+
+Query  69   QPEQPKQNAIEVISAIMAP--QEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKG  126
+                P  +  ++I  +       E   +  +LY         + I+  +   + I+NNKG
+Sbjct  108  ----PIVHNKKIIGIVHLDDLNNELYINVEELYAL------QDRILENMHEAVCITNNKG  157
+
+Query  127  HWLTFDPQAEKNANNQRDSISG-WFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDE  185
+              + ++  +E     +R  I G +     PN LILK     RKI N     + G+ ++  
+Sbjct  158  VVIYWNKSSEDLYGVRRQEIIGKYLGSFFPNALILKVLKKPRKITNVNNEPSPGKTVILS  217
+
+Query  186  NGEKYDSWDKYFEM  199
+                ++S +K   +
+Sbjct  218  AVPIFNSKNKLIAV  231
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.125    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 602713268955
+Results from round 3
+
+
+Query= 1Q88
+
+Length=221
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|1Q87|A  Chain A, Crystal Structure Of The C-Domain Of The T.V...   291    2e-96
+ref|XP_001306668.1|  39 kDa initiator binding protein [Trichomona...   280    4e-90
+ref|XP_001580872.1|  39 kDa initiator binding protein [Trichomona...   229    4e-70
+ref|XP_001303060.1|  39 kDa initiator binding protein [Trichomona...   207    5e-62
+ref|XP_001324877.1|  39 kDa initiator binding protein [Trichomona...   198    2e-58
+ref|XP_001302525.1|  hypothetical protein [Trichomonas vaginalis ...   189    3e-55
+ref|XP_001322448.1|  hypothetical protein [Trichomonas vaginalis ...   178    2e-50
+ref|XP_001307691.1|  hypothetical protein [Trichomonas vaginalis ...   142    4e-37
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_017957884.1|  hypothetical protein [Rhizobium leguminosarum]   42.1    0.18 
+ref|WP_018238661.1|  hypothetical protein [Rhizobium sp. BR816]       41.7    0.18 
+ref|WP_008839180.1|  hypothetical protein [Mesorhizobium alhagi] ...  41.7    0.19 
+ref|WP_018327341.1|  hypothetical protein [Rhizobium giardinii]       41.7    0.21 
+ref|WP_018446712.1|  hypothetical protein [Rhizobium gallicum]        41.0    0.36 
+ref|WP_018076550.1|  hypothetical protein [Thiobacillus denitrifi...  41.0    0.36 
+ref|WP_018243085.1|  hypothetical protein [Rhizobium leguminosarum]   41.0    0.36 
+ref|WP_018517001.1|  hypothetical protein [Rhizobium leguminosarum]   41.0    0.38 
+ref|WP_000089898.1|  serine protease [Bacillus cereus] >gb|EJR833...  40.2    0.62 
+ref|WP_000089899.1|  serine protease [Bacillus cereus] >gb|EJP855...  39.8    0.69 
+ref|WP_009817576.1|  hypothetical protein [Roseovarius sp. 217] >...  39.8    0.98 
+ref|WP_020050335.1|  hypothetical protein [Rhizobium leguminosarum]   39.4    1.1  
+ref|YP_007482846.1|  putative serine protease [Bacillus thuringie...  39.4    1.1  
+ref|WP_022712580.1|  hypothetical protein [Rhizobium mongolense]      39.4    1.3  
+ref|WP_007536894.1|  hypothetical protein [Rhizobium mesoamerican...  38.7    1.8  
+emb|CCE32461.1|  uncharacterized protein CPUR_06321 [Claviceps pu...  38.3    1.9  
+ref|XP_003101868.1|  hypothetical protein CRE_12025 [Caenorhabdit...  37.9    2.8  
+ref|YP_004062935.1|  hypothetical protein CKC_03490 [Candidatus L...  37.5    4.1  
+ref|WP_007228206.1|  hypothetical protein [marine gamma proteobac...  37.5    4.4  
+ref|NP_860127.1|  organic solvent tolerance protein [Helicobacter...  36.7    9.1  
+
+
+>pdb|1Q87|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q87|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Tetragonal Form)
+ pdb|1Q88|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q88|B Chain B, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Monoclinic Form)
+ pdb|1Q89|A Chain A, Crystal Structure Of The C-Domain Of The T.Vaginalis 
+Inr Binding Protein, Ibp39 (Cubic Crystal Form)
+Length=221
+
+ Score =  291 bits (745),  Expect = 2e-96, Method: Composition-based stats.
+ Identities = 221/221 (100%), Positives = 221/221 (100%), Gaps = 0/221 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH
+Sbjct  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHHH  221
+
+
+>ref|XP_001306668.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|AAK97660.1|AF409099_1 39 kDa initiator binding protein [Trichomonas vaginalis]
+ gb|EAX93738.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+Length=341
+
+ Score =  280 bits (715),  Expect = 4e-90, Method: Composition-based stats.
+ Identities = 215/215 (100%), Positives = 215/215 (100%), Gaps = 0/215 (0%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI
+Sbjct  127  PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  186
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL
+Sbjct  187  EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  246
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  180
+            ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ
+Sbjct  247  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQ  306
+
+Query  181  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  215
+            YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM
+Sbjct  307  YLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  341
+
+
+>ref|XP_001580872.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY19886.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=353
+
+ Score =  229 bits (583),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 66/219 (30%), Positives = 110/219 (50%), Gaps = 14/219 (6%)
+
+Query  3    NTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDG--TVMRDFLI  60
+             +   + ++  +F    + + I    P  Q+ FR     IW  L + + G  T   D  I
+Sbjct  139  KSSNIDDSQSSKFV-ILRDVMISKCDPEIQQQFRRFTVSIWDELIEASGGKTTFTLDDFI  197
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+              AA  F+  +Q  +NA ++I  I    +    + +D  KF+A FGP ET+M K+  +L 
+Sbjct  198  FLAARRFRISKQSLKNATQLIRVIFLCADTTQVTLSDFTKFMAKFGPEETLMEKVGGMLS  257
+
+Query  121  ISNNKGHWL--TFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR-KIWNKPLI-E  176
+             SN+ G+WL  T DP    N     D + G+FD  E NC+I         K+WN+  +  
+Sbjct  258  SSNHHGNWLNVTTDPSGLSNP----DGLYGYFDNTEQNCIIFVYQNIFTFKVWNRVNVAS  313
+
+Query  177  ATGQYLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPM  215
+            + G+YL+D+N  +YDSW+++F++ P++      P+  P+
+Sbjct  314  SDGKYLVDQNDNEYDSWEQFFQINPMK---IQEPSLNPL  349
+
+
+>ref|XP_001303060.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAX90130.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=327
+
+ Score =  207 bits (527),  Expect = 5e-62, Method: Composition-based stats.
+ Identities = 78/200 (39%), Positives = 117/200 (59%), Gaps = 10/200 (5%)
+
+Query  1    PVNTKRSNGTKRVEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLI  60
+            P    R + TK +   T  K   IG+ +  E   F+  V   +  +TQ  +  +  +  I
+Sbjct  134  PGKIARLSDTKTINIATMLK---IGHVSAQEDLNFQEIVKSDFLEITQ-NEIDMPAEMFI  189
+
+Query  61   EKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLL  120
+            + AA YFKQPEQ  +NAI+VI+ I+ PQE    +  DL++FLAMFGP  T+M+KI SLL 
+Sbjct  190  KNAANYFKQPEQTLENAIDVITPILRPQE-NIVTYDDLFRFLAMFGPKNTVMIKIVSLLR  248
+
+Query  121  ISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTG-IRKIWNKPLIEATG  179
+             +N    WL  DP A+K  +      +G FD+  PNCL+LK   G + +++N PLI+A G
+Sbjct  249  SNNEDTSWLYLDP-AQKPLD---KDFTGTFDKYLPNCLVLKFKDGNVIRVFNHPLIDAFG  304
+
+Query  180  QYLMDENGEKYDSWDKYFEM  199
+             Y++DEN  ++ SW+++F+ 
+Sbjct  305  TYVVDENNHQFASWEEFFQS  324
+
+
+>ref|XP_001324877.1| 39 kDa initiator binding protein [Trichomonas vaginalis G3]
+ gb|EAY12654.1| 39 kDa initiator binding protein, putative [Trichomonas vaginalis 
+G3]
+Length=326
+
+ Score =  198 bits (502),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 57/191 (30%), Positives = 87/191 (46%), Gaps = 9/191 (5%)
+
+Query  13   VEFPTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGT-VMRDFLIEKAAEYFKQPE  71
+            VE      S+ IG      +    +    IW ++ +      V  +F I K A+ +    
+Sbjct  137  VESIRKADSITIGALDQTNKNEILSNAINIWQQIVEVIGIDSVRSEFFILKLAKRYNLHG  196
+
+Query  72   QPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTF  131
+            Q  +N++ VI +I+AP      +  D YKF   FGP  TIM+KI SLL ++ N   WL F
+Sbjct  197  QSFENSLSVIKSILAPTNAPLITFLDFYKFYLAFGPEPTIMIKIHSLLEVAVNDKPWLYF  256
+
+Query  132  D--PQAEKNANNQRDSISGWFD-QNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGE  188
+               P   K  +        +FD +NEPNCL++       K +N P + +   Y++ E G 
+Sbjct  257  GYLPDEIKKVSENF----AYFDTENEPNCLVIVWNGMTHKGYNLPNVSSDSSYVVAEAG-  311
+
+Query  189  KYDSWDKYFEM  199
+             + SW  Y + 
+Sbjct  312  TFKSWTDYIQS  322
+
+
+>ref|XP_001302525.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX89595.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=313
+
+ Score =  189 bits (480),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 39/193 (20%), Positives = 68/193 (35%), Gaps = 17/193 (9%)
+
+Query  18   TKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQP-KQN  76
+               ++ +   T NE   F+  V   W ++ +         F + K         Q    N
+Sbjct  135  LLNNITLFGMTENEIVAFKRNVITTWEKIIKPNHV-----FAVSKKELTDSFGGQAGFCN  189
+
+Query  77   AIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAE  136
+                +   +  +        D   F+A F P+E I+ K+            +    P   
+Sbjct  190  DPYALQEALTTKVTAVIDINDFAIFMARFDPFENIIFKL----------DKFQQLIPD-L  238
+
+Query  137  KNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDENGEKYDSWDKY  196
+            +    Q  SIS +F +   NC   +   G    +N P + +T  YL +E+GE++ SW   
+Sbjct  239  RVKMTQIGSISSFFAKTYHNCFSFQMSGGEYHCYNLPHVGSTANYLQNEDGERFQSWTMA  298
+
+Query  197  FEMKPIETYLTAY  209
+             +   I    T +
+Sbjct  299  LQSTSILQSQTGF  311
+
+
+>ref|XP_001322448.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAY10225.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=384
+
+ Score =  178 bits (452),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 42/222 (19%), Positives = 79/222 (36%), Gaps = 33/222 (15%)
+
+Query  16   PTTKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDG-TVMRDFLIEKAAEYF-------  67
+                +++ I    P     F+ +   +W  +              IE A   F       
+Sbjct  150  IPLLETVRIYPPIPENNNRFKNEAIFLWEEIVPNHCIWAYSLTQFIEAATMKFCASYSKS  209
+
+Query  68   ------------KQPEQPKQN--------AIEVISAIMAPQEEQTKSKADLYKFLAMFGP  107
+                         Q  Q  +N        A ++++ ++  +     +  +   F A FGP
+Sbjct  210  SSGETFTYDAQQTQFSQYLKNYNLDLHDTARKMLTYVLTHKNTYCITIPEFCTFFARFGP  269
+
+Query  108  YETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIR  167
+             ++++ KI  LL  S     W  F P  +    +    I+G +     NC I+K   GI 
+Sbjct  270  DDSVLEKIHQLLCCSKAYNDW--FKPVEQ--TFDLHKPITGCYSNTFANCFIIKRSQGIT  325
+
+Query  168  -KIWNKPLIEATGQYLMDENGEKYDSWDKYFEMKPIETYLTA  208
+              ++N+P  +    +L DE+ + +++W   FEM   +     
+Sbjct  326  FHVYNQPFFQGPVGFLFDESDKNFNTWHAVFEMMSCQQIQYQ  367
+
+
+>ref|XP_001307691.1| hypothetical protein [Trichomonas vaginalis G3]
+ gb|EAX94761.1| conserved hypothetical protein [Trichomonas vaginalis G3]
+Length=328
+
+ Score =  142 bits (358),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 40/190 (21%), Positives = 69/190 (36%), Gaps = 14/190 (7%)
+
+Query  18   TKKSMCIGNSTPNEQETFRAKVDEIWFRLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNA  77
+              + + +          F+ +V + W +L        +   +  K      Q      + 
+Sbjct  147  LLEHIQLFMMDEKAISMFKKEVIQKWEKLVGSPLIFAVSIPVFTKYLLNSIQDSLGYHDE  206
+
+Query  78   IEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLLLISNNKGH--WLTFDPQA  135
+               I  ++  +     +  D   FLA FGP++ +  KI     I +      ++   P  
+Sbjct  207  NNTIQQVLVGKTPNVVTIFDFAVFLARFGPFDNVPYKIMQYQQILHIIQPDYFMFTAP--  264
+
+Query  136  EKNANNQRDSISGWFDQNEPNCLILK-TPTGIRKIWNKPLIEATGQYLMDENGEKYDSWD  194
+                     S+  +F     NC   K + TG    +N PLI ++  YL+DE+G  Y SW+
+Sbjct  265  ---------SLINYFSSTFHNCFSFKISQTGEYHCYNLPLISSSAAYLVDEDGVYYKSWE  315
+
+Query  195  KYFEMKPIET  204
+            K  E     T
+Sbjct  316  KMVEANHFLT  325
+
+
+>ref|WP_017957884.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 42.1 bits (97),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDEN  186
+             + T  P    N  +    +  + D+   N L +     +      PLIE+     +D+ 
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGNVLAIAHNGNLSNGRMFPLIESFTGKPVDKE  296
+
+Query  187  GEKYDS-WDKYFEMKPIETYLTAYPTFAP  214
+              +  S W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|WP_018238661.1| hypothetical protein [Rhizobium sp. BR816]
+Length=644
+
+ Score = 41.7 bits (96),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 16/93 (17%), Positives = 34/93 (37%), Gaps = 0/93 (0%)
+
+Query  122  SNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+            ++    +  + P    N       +  +  +   N L +     +      P++EA G+ 
+Sbjct  229  ASQVEPFTVYPPYGSDNPAELWKWMQAYETKTGGNVLAIAHNGNLSNGLMFPVVEAFGKK  288
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+            L  E  E    W++ +E    +    A+P  +P
+Sbjct  289  LDSEYAETRAKWERLYEATQTKGTGEAHPFLSP  321
+
+
+>ref|WP_008839180.1| hypothetical protein [Mesorhizobium alhagi]
+ gb|EHK53888.1| hypothetical protein MAXJ12_28048 [Mesorhizobium alhagi CCNWXJ12-2]
+Length=646
+
+ Score = 41.7 bits (96),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 16/93 (17%), Positives = 36/93 (39%), Gaps = 0/93 (0%)
+
+Query  122  SNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+            ++    +  + P    N  +    +  + D+   + L +     +      P +EA G+ 
+Sbjct  231  ASQVDPFTVYPPNGSDNPADLWKWMQAYEDKTGGDVLAIAHNGNLSSGLMFPTVEAFGKK  290
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+            L  E  +  D W++ +E    +    A+P  +P
+Sbjct  291  LDAEYVQTRDKWERLYEATQTKGDGEAHPFLSP  323
+
+
+>ref|WP_018327341.1| hypothetical protein [Rhizobium giardinii]
+Length=646
+
+ Score = 41.7 bits (96),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 18/89 (20%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + D+   N L +     +      PLIE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGNVLAIAHNGNLSNGRMFPLIESFTGKPVDNE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|WP_018446712.1| hypothetical protein [Rhizobium gallicum]
+Length=655
+
+ Score = 41.0 bits (94),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  246  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  305
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  306  YVEERAKWERLYETSQTKGTGEAHPTLSP  334
+
+
+>ref|WP_018076550.1| hypothetical protein [Thiobacillus denitrificans]
+Length=1165
+
+ Score = 41.0 bits (94),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 20/97 (21%), Positives = 40/97 (41%), Gaps = 5/97 (5%)
+
+Query  102  LAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEK---NANNQRDSISGWFDQNEPNCL  158
+            L  FG     +L +  L+ +++  G+ L F   A        +    I  +      N +
+Sbjct  44   LDAFGSPTLAVLSVGQLIRVTDATGNVLNFGYDALSRIIKLTDPSGGIYAYVYDTNGNLV  103
+
+Query  159  ILKTPTGIRK--IWNKPLIEATGQYLMDENGEKYDSW  193
+             ++ P G  K  ++  P        ++DENG++Y ++
+Sbjct  104  SVQYPDGKSKTYLYENPTFPHALTGIVDENGDRYATY  140
+
+
+>ref|WP_018243085.1| hypothetical protein [Rhizobium leguminosarum]
+Length=655
+
+ Score = 41.0 bits (94),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  246  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  305
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  306  YVEERAKWERLYETSQTKGTGEAHPTLSP  334
+
+
+>ref|WP_018517001.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 41.0 bits (94),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 17/89 (19%), Positives = 35/89 (39%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMD-E  185
+             + T  P    N  +    +  + ++   N L +     +      P+IE+     +D E
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEEKTGGNVLAIAHNGNLSNGRMFPMIESFTGKPVDKE  296
+
+Query  186  NGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+              E+   W++ +E    +    A+PT +P
+Sbjct  297  YVEERAKWERLYETSQTKGTGEAHPTLSP  325
+
+
+>ref|WP_000089898.1| serine protease [Bacillus cereus]
+ gb|EJR83335.1| hypothetical protein IKA_05259 [Bacillus cereus VD169]
+Length=455
+
+ Score = 40.2 bits (92),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 29/147 (20%), Positives = 50/147 (34%), Gaps = 6/147 (4%)
+
+Query  45   RLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAM  104
+            +L   +  +   D  I   A    Q +   +   E I  I     E      D  K+  +
+Sbjct  17   KLGTSSSDSQETDDFIGLLAAQDVQIQPLFEK--EQIQPIKTVSLESDIEPPDFSKYYKV  74
+
+Query  105  FGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSIS--GWFDQNEPNCLILKT  162
+              P E +   +A     S  +  ++   P+  K A   +  ++     D +     +   
+Sbjct  75   IAPDEKLEELVAQFRNSSVVEDAYIKPAPELAKLAVEPKTDVTIQATPDLSFRQGYLNAA  134
+
+Query  163  PTGI--RKIWNKPLIEATGQYLMDENG  187
+            P GI  R  WN P  +  G  ++D  G
+Sbjct  135  PAGIDARHAWNFPGGKGNGVNIVDIEG  161
+
+
+>ref|WP_000089899.1| serine protease [Bacillus cereus]
+ gb|EJP85569.1| hypothetical protein IC1_04607 [Bacillus cereus VD022]
+ gb|EOQ58116.1| hypothetical protein IAY_04139 [Bacillus cereus TIAC219]
+Length=455
+
+ Score = 39.8 bits (91),  Expect = 0.69, Method: Composition-based stats.
+ Identities = 29/147 (20%), Positives = 50/147 (34%), Gaps = 6/147 (4%)
+
+Query  45   RLTQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAM  104
+            +L   +  +   D  I   A    Q +   +   E I  I     E      D  K+  +
+Sbjct  17   QLGTSSSDSQKTDDFIGLLAAQDVQIQPLFEK--EQIQPIKTVSLESDIEPPDFSKYYKV  74
+
+Query  105  FGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSIS--GWFDQNEPNCLILKT  162
+              P E +   +A     S  +  ++   P+  K A   +  ++     D +     +   
+Sbjct  75   IAPDEKLEELVAQFRNSSVVEDAYIKPAPELAKLAVEPKTDVTIRATPDLSFRQGYLNAA  134
+
+Query  163  PTGI--RKIWNKPLIEATGQYLMDENG  187
+            P GI  R  WN P  +  G  ++D  G
+Sbjct  135  PVGIDARHAWNFPGGKGNGVNIVDIEG  161
+
+
+>ref|WP_009817576.1| hypothetical protein [Roseovarius sp. 217]
+ gb|EAQ26241.1| hypothetical protein ROS217_13731 [Roseovarius sp. 217]
+Length=649
+
+ Score = 39.8 bits (91),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 15/105 (14%), Positives = 36/105 (34%), Gaps = 2/105 (2%)
+
+Query  110  TIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKI  169
+             ++ +    L  +      +T  P   +N  +    +  + ++   N L +     +   
+Sbjct  224  NVIYRDGGDL--AVQMDPMVTLPPHGSQNPVDLWKWMGAYEEKTGGNVLAIAHNGNLSNG  281
+
+Query  170  WNKPLIEATGQYLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+               P IE  G  +      +   W++ +EM   +     +P  +P
+Sbjct  282  LMFPTIEQFGAPVDANYASERAKWERLYEMTQTKGTSETHPNLSP  326
+
+
+>ref|WP_020050335.1| hypothetical protein [Rhizobium leguminosarum]
+Length=646
+
+ Score = 39.4 bits (90),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/89 (18%), Positives = 34/89 (38%), Gaps = 1/89 (1%)
+
+Query  127  HWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQYLMDEN  186
+             + T  P    N  +    +  + D+   + L +     +      PLIE+     +D+ 
+Sbjct  237  PYTTLKPLGSDNPRDLWKWMQAYEDKTGGSVLAIAHNGNLSNGRMFPLIESFTGKPVDKE  296
+
+Query  187  GEKYDS-WDKYFEMKPIETYLTAYPTFAP  214
+              +  S W++ +E    +    A+P  +P
+Sbjct  297  YVEQRSRWERLYETTQTKGDGEAHPVLSP  325
+
+
+>ref|YP_007482846.1| putative serine protease [Bacillus thuringiensis serovar thuringiensis 
+str. IS5056]
+ ref|WP_000089897.1| serine protease [Bacillus thuringiensis]
+ gb|EEM31492.1| serine protease [Bacillus thuringiensis serovar thuringiensis 
+str. T01001]
+ gb|EEM62894.1| serine protease [Bacillus thuringiensis serovar berliner ATCC 
+10792]
+ gb|AGG05504.1| putative serine protease [Bacillus thuringiensis serovar thuringiensis 
+str. IS5056]
+ gb|ERH96462.1| Intracellular serine protease [Bacillus thuringiensis T01-328]
+Length=455
+
+ Score = 39.4 bits (90),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 28/142 (20%), Positives = 49/142 (35%), Gaps = 6/142 (4%)
+
+Query  50   TDGTVMRDFLIEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYE  109
+            +  +  +D  I   A    Q +   +   E I  I     E      D  K+  +  P E
+Sbjct  22   SSDSQEKDDFIGLLATQDIQIQPLFEK--EQIQPIKTVSLESDIEPPDFSKYYKVIAPDE  79
+
+Query  110  TIMLKIASLLLISNNKGHWLTFDPQAEKNANNQRDSIS--GWFDQNEPNCLILKTPTGI-  166
+             +   +A     S  +  ++   P+  K A   +  ++     D +     +   P GI 
+Sbjct  80   KLEELVAQFRNSSVVEDAYIKPAPELAKLAVEPKTDVTIQATPDLSFRQGYLNAAPAGID  139
+
+Query  167  -RKIWNKPLIEATGQYLMDENG  187
+             R  WN P  +  G  ++D  G
+Sbjct  140  ARHAWNFPGGKGNGINIVDIEG  161
+
+
+>ref|WP_022712580.1| hypothetical protein [Rhizobium mongolense]
+Length=683
+
+ Score = 39.4 bits (90),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 15/93 (16%), Positives = 35/93 (38%), Gaps = 0/93 (0%)
+
+Query  122  SNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+            ++    +  + P    N  +    +  +  +   N L +     +      P++EA G+ 
+Sbjct  268  ASQVEPFTVYPPMGSDNPVDLWKWMEAYESKTGGNVLAIAHNGNLSNGTMFPIVEALGKR  327
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+            L  +  E    W++ +E    +    A+P  +P
+Sbjct  328  LDSQYAETRLKWERLYEATQTKGDSEAHPFLSP  360
+
+
+>ref|WP_007536894.1| hypothetical protein [Rhizobium mesoamericanum]
+ emb|CCM79529.1| conserved exported hypothetical protein [Rhizobium mesoamericanum 
+STM3625]
+Length=642
+
+ Score = 38.7 bits (88),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 14/93 (15%), Positives = 35/93 (38%), Gaps = 0/93 (0%)
+
+Query  122  SNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATGQY  181
+            ++    +  + P    N  +    +  +  +   + L +     +      P++EA G+ 
+Sbjct  229  ASQVDPFTVYPPYGSDNPVDLWKWMDSYEKKTGGSVLAIAHNGNLSNGLMFPMVEAFGKK  288
+
+Query  182  LMDENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+            L  E  +    W++ +E    +    A+P  +P
+Sbjct  289  LDSEYAQTRAKWERLYETTQTKGTGEAHPFLSP  321
+
+
+>emb|CCE32461.1| uncharacterized protein CPUR_06321 [Claviceps purpurea 20.1]
+Length=302
+
+ Score = 38.3 bits (87),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 25/129 (19%), Positives = 45/129 (35%), Gaps = 6/129 (5%)
+
+Query  95   KADLYKFLAMFGPYETIMLKIASLLLISN--NKGHWLTFDPQAEKNANNQRDSISGWFDQ  152
+             AD +  +  F P     +K   +  + N  N    +   P  E  A      + G  ++
+Sbjct  6    YADFFANIPSFSPTVFEPIKAMGITNVINAMNSTSKMKASPYEEIIAFKPFKFVVGKEEK  65
+
+Query  153  --NEPNCLILKTPTGIRKIWNKPLIEATGQY--LMDENGEKYDSWDKYFEMKPIETYLTA  208
+                 + L+ K    + K+ N P IE    Y  L DE+ +   ++ ++            
+Sbjct  66   EIYMHSALVAKWSKVLDKMMNSPFIEGQQGYAVLADEDVKTIAAFAEFVYTGDYHLSSEE  125
+
+Query  209  YPTFAPMHH  217
+             P  +P  H
+Sbjct  126  SPPDSPKPH  134
+
+
+>ref|XP_003101868.1| hypothetical protein CRE_12025 [Caenorhabditis remanei]
+ gb|EFP06731.1| hypothetical protein CRE_12025 [Caenorhabditis remanei]
+Length=431
+
+ Score = 37.9 bits (86),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 17/146 (12%), Positives = 46/146 (32%), Gaps = 16/146 (11%)
+
+Query  27   STPNEQETFRAKVDEI--WFRL----TQKTDGTVMRDFLIEKAAEYFKQPEQPKQNAIEV  80
+               +E   F  ++ E+  W  +     +    T+  +  + K+    + P    ++   +
+Sbjct  285  CDEDED-QFLDEIVELDGWECIQELSIKNFHVTIPLERFLHKSHLNIRIPTISMEDV--L  341
+
+Query  81   ISAIMAPQEEQTKSKADLYK-FLAMFGPYETIMLKIASLLLISNNKGHWLTFDPQAEKNA  139
+            +  +   Q  +T   +  Y  F       + +   +    +  + + HW    P  ++  
+Sbjct  342  LLKMRLCQFSRTSPVSQYYTIFYDNLKDMDRLFSVLGRFEIDEDQEKHWYFRIPNTKQVI  401
+
+Query  140  NNQRDSISGWFDQNEPNCLILKTPTG  165
+            +       G+F+           P  
+Sbjct  402  DIGHKHFYGYFN------FSFVWPDI  421
+
+
+>ref|YP_004062935.1| hypothetical protein CKC_03490 [Candidatus Liberibacter solanacearum 
+CLso-ZC1]
+ ref|WP_013462103.1| hypothetical protein [Candidatus Liberibacter solanacearum]
+ gb|ADR52447.1| hypothetical protein CKC_03490 [Candidatus Liberibacter solanacearum 
+CLso-ZC1]
+Length=536
+
+ Score = 37.5 bits (85),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 24/151 (16%), Positives = 46/151 (30%), Gaps = 14/151 (9%)
+
+Query  60   IEKAAEYFKQPEQPKQNAIEVISAIMAPQEEQTKSKADLYKFLAMFGPYETIMLKIASLL  119
+            +EK     K      +N++               S  D+Y  LA F    TI   + S  
+Sbjct  60   VEKVNVNLKLVSSRLKNSLSGFWHEFYCFYIPLISFDDMYLDLAKFSSDSTI-NNVDSYC  118
+
+Query  120  LISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEATG  179
+                +      +             S++  + +   N + +       K      +++ G
+Sbjct  119  ESVESGKKLNYYHRSGINYIKRCLKSVTETYFRPRENNVAVSWDKYTYKGLPICHVQSKG  178
+
+Query  180  ---QYLMDE----------NGEKYDSWDKYF  197
+                +L DE            E+Y +W+K +
+Sbjct  179  YIQDFLPDEEIEQSVEETAESEQYKTWEKLY  209
+
+
+>ref|WP_007228206.1| hypothetical protein [marine gamma proteobacterium HTCC2148]
+ gb|EEB79384.1| hypothetical protein GPB2148_2314 [marine gamma proteobacterium 
+HTCC2148]
+Length=652
+
+ Score = 37.5 bits (85),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 19/109 (17%), Positives = 37/109 (34%), Gaps = 7/109 (6%)
+
+Query  113  LKIASLLLISNNKGHWLTFDPQAEKNANNQRDS--ISGWFDQNEPN----CLILKTPTGI  166
+              +   ++  +N    L  DP   +      D   +  W +  E               +
+Sbjct  224  FNLHRNVIFRDNADKALQVDPATTQPPTGSTDPKYLYNWLENYESKTGGRVFAFAHNGNL  283
+
+Query  167  RKIWNKPLIEATGQYLMD-ENGEKYDSWDKYFEMKPIETYLTAYPTFAP  214
+               W  P  E     ++D E   +   W+ ++E+  I+    A+PT +P
+Sbjct  284  SNGWMFPTEETYHGGVVDKEYVTQRAKWEPHYEITQIKGDGEAHPTLSP  332
+
+
+>ref|NP_860127.1| organic solvent tolerance protein [Helicobacter hepaticus ATCC 
+51449]
+ ref|WP_011115438.1| organic solvent tolerance protein [Helicobacter hepaticus]
+ gb|AAP77193.1| organic solvent tolerance protein [Helicobacter hepaticus ATCC 
+51449]
+Length=710
+
+ Score = 36.7 bits (83),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 19/102 (19%), Positives = 42/102 (41%), Gaps = 0/102 (0%)
+
+Query  119  LLISNNKGHWLTFDPQAEKNANNQRDSISGWFDQNEPNCLILKTPTGIRKIWNKPLIEAT  178
+            L   +  G    ++ Q    +NN+  +   + D    N L       +   +N  L E+ 
+Sbjct  243  LKNQHIYGGTFQYETQDIFVSNNEYANDGFYTDITYMNDLEYMRLKSLNAAFNTRLYESR  302
+
+Query  179  GQYLMDENGEKYDSWDKYFEMKPIETYLTAYPTFAPMHHHHH  220
+              Y ++ N   + ++ KY+     E+ +  + +   +H+HH+
+Sbjct  303  INYFVNTNKHYFGTYFKYYLDLSKESNVNTFQSLPQIHYHHY  344
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.120    0.316    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 602713268955
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

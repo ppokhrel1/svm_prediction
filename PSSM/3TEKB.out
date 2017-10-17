@@ -1,0 +1,797 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 3TEKB
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|YP_004893281.1|  hypothetical protein TTX_1576 [Thermoproteus...   296    7e-100
+pdb|3TEK|A  Chain A, Thermodbp: A Non-Canonical Single-Stranded D...   293    4e-99 
+ref|YP_004338732.1|  hypothetical protein TUZN_1962 [Thermoproteu...   246    4e-80 
+ref|YP_005084185.1|  hypothetical protein P186_0480 [Pyrobaculum ...   206    2e-64 
+ref|YP_001154105.1|  hypothetical protein Pars_1902 [Pyrobaculum ...   198    2e-61 
+ref|YP_001055854.1|  conserved hypothetical protein [Pyrobaculum ...   197    4e-61 
+ref|YP_005258858.1|  hypothetical protein Pogu_0224 [Pyrobaculum ...   196    1e-60 
+ref|YP_930288.1|  hypothetical protein Pisl_0769 [Pyrobaculum isl...   195    2e-60 
+ref|NP_559881.1|  hypothetical protein PAE2254 [Pyrobaculum aerop...   195    2e-60 
+ref|YP_001794784.1|  hypothetical protein Tneu_1413 [Pyrobaculum ...   194    8e-60 
+ref|YP_004244085.1|  hypothetical protein VMUT_0370 [Vulcanisaeta...   165    5e-48 
+ref|YP_003902380.1|  transcription factor bZIP_1 [Vulcanisaeta di...   160    2e-46 
+ref|YP_001541442.1|  hypothetical protein Cmaq_1629 [Caldivirga m...   151    6e-43 
+ref|WP_021911022.1|  aTPases with chaperone activity ATP-binding ...  35.4    7.7   
+
+
+>ref|YP_004893281.1| hypothetical protein TTX_1576 [Thermoproteus tenax Kra 1]
+ ref|WP_014127457.1| transcription factor [Thermoproteus tenax]
+ emb|CCC82203.1| hypothetical protein TTX_1576 [Thermoproteus tenax Kra 1]
+Length=196
+
+ Score =  296 bits (758),  Expect = 7e-100, Method: Compositional matrix adjust.
+ Identities = 148/148 (100%), Positives = 148/148 (100%), Gaps = 0/148 (0%)
+
+Query  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+            MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV
+Sbjct  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+
+Query  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+            AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST
+Sbjct  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+
+Query  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+            ELVLDPDTGELLWNRDKTQLIYWIRSDR
+Sbjct  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+
+
+>pdb|3TEK|A Chain A, Thermodbp: A Non-Canonical Single-Stranded Dna Binding 
+Protein With A Novel Structure And Mechanism
+ pdb|3TEK|B Chain B, Thermodbp: A Non-Canonical Single-Stranded Dna Binding 
+Protein With A Novel Structure And Mechanism
+Length=148
+
+ Score =  293 bits (749),  Expect = 4e-99, Method: Compositional matrix adjust.
+ Identities = 148/148 (100%), Positives = 148/148 (100%), Gaps = 0/148 (0%)
+
+Query  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+            MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV
+Sbjct  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+
+Query  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+            AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST
+Sbjct  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+
+Query  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+            ELVLDPDTGELLWNRDKTQLIYWIRSDR
+Sbjct  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+
+
+>ref|YP_004338732.1| hypothetical protein TUZN_1962 [Thermoproteus uzoniensis 768-20]
+ ref|WP_013680755.1| transcription factor [Thermoproteus uzoniensis]
+ gb|AEA13420.1| hypothetical protein TUZN_1962 [Thermoproteus uzoniensis 768-20]
+Length=199
+
+ Score =  246 bits (628),  Expect = 4e-80, Method: Compositional matrix adjust.
+ Identities = 117/134 (87%), Positives = 129/134 (96%), Gaps = 0/134 (0%)
+
+Query  15   SELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN  74
+            SEL+T+  K+L+LIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN
+Sbjct  15   SELVTREGKRLLLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN  74
+
+Query  75   IFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLWN  134
+            IF RIRDSEKFRETSRELFDGLKKWFFEEAVP++ LERGDIFMISTEL++DPDTGE+ WN
+Sbjct  75   IFARIRDSEKFRETSRELFDGLKKWFFEEAVPKHKLERGDIFMISTELLVDPDTGEITWN  134
+
+Query  135  RDKTQLIYWIRSDR  148
+            +DKT+LIYW+RSDR
+Sbjct  135  KDKTELIYWVRSDR  148
+
+
+>ref|YP_005084185.1| hypothetical protein P186_0480 [Pyrobaculum sp. 1860]
+ ref|WP_014287761.1| transcription factor [Pyrobaculum sp. 1860]
+ gb|AET31933.1| hypothetical protein P186_0480 [Pyrobaculum sp. 1860]
+Length=187
+
+ Score =  206 bits (523),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 96/144 (67%), Positives = 119/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R  +  +  K++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTVERIHVEERAGKQILVIRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE IFN+IRDSE+FR TSRE+FD +K+WFF E  PR+ L++GDIFM+ TE+ L
+Sbjct  61   REKFGPQGEEIFNKIRDSEEFRRTSREIFDEMKEWFFNEQAPRHGLDKGDIFMVITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            DP TGEL W +DKT+L YW+RSDR
+Sbjct  121  DPSTGELRWRKDKTELYYWVRSDR  144
+
+
+>ref|YP_001154105.1| hypothetical protein Pars_1902 [Pyrobaculum arsenaticum DSM 13514]
+ ref|WP_011901358.1| transcription factor [Pyrobaculum arsenaticum]
+ gb|ABP51453.1| conserved hypothetical protein [Pyrobaculum arsenaticum DSM 13514]
+Length=187
+
+ Score =  198 bits (504),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 90/144 (63%), Positives = 121/144 (84%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L+ +G +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTIERAHLVERGGRQILVIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE++FN+IRDS++FR ++RE+FD +K+WFF E  P+Y L++GDIFM+ TE+ +
+Sbjct  61   REKFGPQGEDLFNKIRDSDEFRRSTREMFDAMKEWFFNELSPKYGLDKGDIFMLITEVEV  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W +DKT+  YW+RSDR
+Sbjct  121  DLATGELRWLKDKTEFYYWVRSDR  144
+
+
+>ref|YP_001055854.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+ ref|WP_011849646.1| transcription factor [Pyrobaculum calidifontis]
+ gb|ABO08388.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+Length=193
+
+ Score =  197 bits (502),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 91/145 (63%), Positives = 117/145 (81%), Gaps = 0/145 (0%)
+
+Query  4    ELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGS  63
+             + EEER   R+ +  +G +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGS
+Sbjct  6    HMAEEERTVERAHVEERGGRQILIIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAIAGS  65
+
+Query  64   LREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELV  123
+            LRE+FGP GE IF +IRDSE FR +SRE+FD LK+WFF E  PRY L++GDIFMI TE+ 
+Sbjct  66   LREKFGPQGEEIFGKIRDSEGFRRSSREMFDALKEWFFNEVAPRYGLDKGDIFMIITEVE  125
+
+Query  124  LDPDTGELLWNRDKTQLIYWIRSDR  148
+            +D  +GEL W +DKT+  YW+RSD+
+Sbjct  126  VDLASGELKWQKDKTEFYYWVRSDK  150
+
+
+>ref|YP_005258858.1| hypothetical protein Pogu_0224 [Pyrobaculum oguniense TE7]
+ ref|WP_014345826.1| transcription factor [Pyrobaculum oguniense]
+ gb|AFA38251.1| hypothetical protein Pogu_0224 [Pyrobaculum oguniense TE7]
+Length=187
+
+ Score =  196 bits (498),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 90/144 (63%), Positives = 120/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L+ +  +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTIERAHLVEREGRQILVIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE++FN+IRDS++FR ++RE+FD +K+WFF E  P+Y L++GDIFMI TE+ +
+Sbjct  61   REKFGPQGEDLFNKIRDSDEFRRSTREVFDAMKEWFFNELSPKYGLDKGDIFMIITEVEV  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W +DKT+  YW+RSDR
+Sbjct  121  DLATGELRWLKDKTEFYYWVRSDR  144
+
+
+>ref|YP_930288.1| hypothetical protein Pisl_0769 [Pyrobaculum islandicum DSM 4184]
+ ref|WP_011762521.1| transcription factor [Pyrobaculum islandicum]
+ gb|ABL87945.1| conserved hypothetical protein [Pyrobaculum islandicum DSM 4184]
+Length=187
+
+ Score =  195 bits (496),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 88/144 (61%), Positives = 119/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEE+   R+ +  +G ++++++RWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGSL
+Sbjct  1    MAEEEKTVERAHVEERGGRQVLVLRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAIAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            +E+FGP G+ IFN+IRDS +FR++SRE+FD LK WFF E  P+Y L++GDIFMI TE+ L
+Sbjct  61   KEKFGPQGDEIFNKIRDSSEFRKSSREIFDALKDWFFNELAPKYGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W++D+T+  YW+RSDR
+Sbjct  121  DITTGELKWHKDRTEFYYWVRSDR  144
+
+
+>ref|NP_559881.1| hypothetical protein PAE2254 [Pyrobaculum aerophilum str. IM2]
+ ref|WP_011008531.1| transcription factor [Pyrobaculum aerophilum]
+ gb|AAL64063.1| hypothetical protein PAE2254 [Pyrobaculum aerophilum str. IM2]
+Length=187
+
+ Score =  195 bits (496),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 89/144 (62%), Positives = 120/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L  +  +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGSL
+Sbjct  1    MAEEERTVERAHLEEREGRQVLVIRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGALAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            R +FGP GE +FN+IRDS++F+++S+E+FD +K+WFF E  P+Y L++GDIFMI TE+ L
+Sbjct  61   RGKFGPQGEELFNKIRDSDEFKKSSKEMFDAIKEWFFNEQAPKYGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D +TGEL W +DKT+L YW+RSDR
+Sbjct  121  DINTGELRWRKDKTELYYWVRSDR  144
+
+
+>ref|YP_001794784.1| hypothetical protein Tneu_1413 [Pyrobaculum neutrophilum V24Sta]
+ ref|WP_012350757.1| transcription factor [Pyrobaculum neutrophilum]
+ gb|ACB40338.1| conserved hypothetical protein [Pyrobaculum neutrophilum V24Sta]
+Length=187
+
+ Score =  194 bits (493),  Expect = 8e-60, Method: Compositional matrix adjust.
+ Identities = 90/144 (63%), Positives = 117/144 (81%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ +  +  ++++++RWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTVERAHVEEREGRQILVLRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE +F++IRDSE+FR +SRE+FD  K+WFF E  P++ L++GDIFMI TE+ L
+Sbjct  61   REKFGPQGEELFSKIRDSEEFRRSSREIFDAAKEWFFNELAPKHGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W RDKT+  YW+RSDR
+Sbjct  121  DLTTGELRWRRDKTEFYYWVRSDR  144
+
+
+>ref|YP_004244085.1| hypothetical protein VMUT_0370 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603746.1| transcription factor [Vulcanisaeta moutnovskia]
+ gb|ADY00583.1| hypothetical protein VMUT_0370 [Vulcanisaeta moutnovskia 768-28]
+Length=218
+
+ Score =  165 bits (417),  Expect = 5e-48, Method: Compositional matrix adjust.
+ Identities = 79/137 (58%), Positives = 108/137 (79%), Gaps = 4/137 (3%)
+
+Query  13   VRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDG  72
+            V +EL+ KG   ++ I+W TGKTSA RLFG+YG  GRP+FF+LLFGA+ GSLR QF  D 
+Sbjct  21   VSAELV-KG--NILKIKWVTGKTSAARLFGKYGREGRPDFFRLLFGAIGGSLRSQFPEDK  77
+
+Query  73   EN-IFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGEL  131
+             N +FN IR+S+ F+++  E+F+ +K+WFF+E VP+Y LERGD+F++ST L L+ +TGEL
+Sbjct  78   ANELFNNIRNSQGFKDSLNEVFESMKRWFFDEVVPKYQLERGDVFVVSTTLELNINTGEL  137
+
+Query  132  LWNRDKTQLIYWIRSDR  148
+             WN++ TQ+IYWIRSDR
+Sbjct  138  KWNKESTQVIYWIRSDR  154
+
+
+>ref|YP_003902380.1| transcription factor bZIP_1 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337054.1| transcription factor [Vulcanisaeta distributa]
+ gb|ADN51329.1| transcription factor bZIP_1 [Vulcanisaeta distributa DSM 14429]
+Length=225
+
+ Score =  160 bits (406),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 79/140 (56%), Positives = 108/140 (77%), Gaps = 4/140 (3%)
+
+Query  10   RGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFG  69
+            RG   +EL+ KG   ++ I+W TGKTSA RLFG+YG  GRP+FF+LLFGA+ GSLR QF 
+Sbjct  18   RGGATAELV-KG--NILKIKWVTGKTSAARLFGKYGREGRPDFFRLLFGAIGGSLRSQFP  74
+
+Query  70   PDGEN-IFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDT  128
+             D  N +FN IR+S+ F+++  E+F+ +K+WFF+E VP+Y LERGD+F+IST L L+ +T
+Sbjct  75   EDKANELFNNIRNSQGFKDSLDEVFESMKRWFFDEIVPKYKLERGDVFVISTTLELNIET  134
+
+Query  129  GELLWNRDKTQLIYWIRSDR  148
+            GEL W++  TQ+IYW+RSDR
+Sbjct  135  GELKWDKGSTQVIYWVRSDR  154
+
+
+>ref|YP_001541442.1| hypothetical protein Cmaq_1629 [Caldivirga maquilingensis IC-167]
+ ref|WP_012186671.1| hypothetical protein [Caldivirga maquilingensis]
+ gb|ABW02452.1| conserved hypothetical protein [Caldivirga maquilingensis IC-167]
+Length=214
+
+ Score =  151 bits (382),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 68/135 (50%), Positives = 104/135 (77%), Gaps = 1/135 (1%)
+
+Query  15   SELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFG-PDGE  73
+            SEL+T+  K+++ I+ +TGKTSAG+LFG++G GGRP+FF+++FGAVA  LR   G  +GE
+Sbjct  18   SELVTEAGKRIIKIKLSTGKTSAGKLFGKHGRGGRPDFFRIVFGAVANGLRTSLGNEEGE  77
+
+Query  74   NIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLW  133
+              FN +R+  +F+++  ++F+ +K WFF EA+ +YN+ +GD+F I TEL LD +TGEL W
+Sbjct  78   AKFNELRNKSEFKKSLNQVFNNIKDWFFNEAIKQYNIGKGDVFAIITELDLDLETGELKW  137
+
+Query  134  NRDKTQLIYWIRSDR  148
+             R+ +Q+IYW+RSD+
+Sbjct  138  VREGSQVIYWVRSDK  152
+
+
+>ref|WP_021911022.1| aTPases with chaperone activity ATP-binding subunit [Eubacterium 
+sp. CAG:786]
+ emb|CCY16895.1| aTPases with chaperone activity ATP-binding subunit [Eubacterium 
+sp. CAG:786]
+Length=792
+
+ Score = 35.4 bits (80),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  36   SAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDG  72
+            S   LF + G G  PEFFK LFG+  GS  E+   DG
+Sbjct  103  SGDELFQKGGAGTMPEFFKKLFGSADGSRSEEKSSDG  139
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.142    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303252929532
+Results from round 2
+
+
+Query= 3TEKB
+
+Length=148
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_930288.1|  hypothetical protein Pisl_0769 [Pyrobaculum isl...   243    4e-79
+ref|YP_001055854.1|  conserved hypothetical protein [Pyrobaculum ...   243    5e-79
+ref|YP_001154105.1|  hypothetical protein Pars_1902 [Pyrobaculum ...   243    5e-79
+ref|YP_005258858.1|  hypothetical protein Pogu_0224 [Pyrobaculum ...   242    8e-79
+ref|NP_559881.1|  hypothetical protein PAE2254 [Pyrobaculum aerop...   240    9e-78
+ref|YP_001794784.1|  hypothetical protein Tneu_1413 [Pyrobaculum ...   239    1e-77
+ref|YP_005084185.1|  hypothetical protein P186_0480 [Pyrobaculum ...   239    2e-77
+pdb|3TEK|A  Chain A, Thermodbp: A Non-Canonical Single-Stranded D...   229    6e-74
+ref|YP_004893281.1|  hypothetical protein TTX_1576 [Thermoproteus...   228    4e-73
+ref|YP_004338732.1|  hypothetical protein TUZN_1962 [Thermoproteu...   212    6e-67
+ref|YP_004244085.1|  hypothetical protein VMUT_0370 [Vulcanisaeta...   194    2e-59
+ref|YP_003902380.1|  transcription factor bZIP_1 [Vulcanisaeta di...   192    2e-58
+ref|YP_001541442.1|  hypothetical protein Cmaq_1629 [Caldivirga m...   190    4e-58
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_020396777.1|  hypothetical protein [Thiothrix disciformis]     39.6    0.33 
+ref|WP_023538078.1|  hypothetical protein [Streptomyces niveus] >...  38.8    0.58 
+ref|YP_003669303.1|  hypothetical protein Shell_1311 [Staphylothe...  36.9    2.2  
+ref|WP_010373770.1|  TonB-denpendent receptor [Pseudoalteromonas ...  36.9    2.6  
+ref|WP_010605296.1|  TonB-denpendent receptor [Pseudoalteromonas ...  36.9    2.7  
+gb|EKE10866.1|  exopolysaccharide biosynthesis polyprenyl glycosy...  35.7    6.2  
+ref|WP_017216678.1|  TonB-denpendent receptor [Pseudoalteromonas ...  35.7    7.3  
+
+
+>ref|YP_930288.1| hypothetical protein Pisl_0769 [Pyrobaculum islandicum DSM 4184]
+ ref|WP_011762521.1| transcription factor [Pyrobaculum islandicum]
+ gb|ABL87945.1| conserved hypothetical protein [Pyrobaculum islandicum DSM 4184]
+Length=187
+
+ Score =  243 bits (621),  Expect = 4e-79, Method: Composition-based stats.
+ Identities = 88/144 (61%), Positives = 119/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEE+   R+ +  +G ++++++RWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGSL
+Sbjct  1    MAEEEKTVERAHVEERGGRQVLVLRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAIAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            +E+FGP G+ IFN+IRDS +FR++SRE+FD LK WFF E  P+Y L++GDIFMI TE+ L
+Sbjct  61   KEKFGPQGDEIFNKIRDSSEFRKSSREIFDALKDWFFNELAPKYGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W++D+T+  YW+RSDR
+Sbjct  121  DITTGELKWHKDRTEFYYWVRSDR  144
+
+
+>ref|YP_001055854.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+ ref|WP_011849646.1| transcription factor [Pyrobaculum calidifontis]
+ gb|ABO08388.1| conserved hypothetical protein [Pyrobaculum calidifontis JCM 
+11548]
+Length=193
+
+ Score =  243 bits (620),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 91/145 (63%), Positives = 117/145 (81%), Gaps = 0/145 (0%)
+
+Query  4    ELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGS  63
+             + EEER   R+ +  +G +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGS
+Sbjct  6    HMAEEERTVERAHVEERGGRQILIIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAIAGS  65
+
+Query  64   LREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELV  123
+            LRE+FGP GE IF +IRDSE FR +SRE+FD LK+WFF E  PRY L++GDIFMI TE+ 
+Sbjct  66   LREKFGPQGEEIFGKIRDSEGFRRSSREMFDALKEWFFNEVAPRYGLDKGDIFMIITEVE  125
+
+Query  124  LDPDTGELLWNRDKTQLIYWIRSDR  148
+            +D  +GEL W +DKT+  YW+RSD+
+Sbjct  126  VDLASGELKWQKDKTEFYYWVRSDK  150
+
+
+>ref|YP_001154105.1| hypothetical protein Pars_1902 [Pyrobaculum arsenaticum DSM 13514]
+ ref|WP_011901358.1| transcription factor [Pyrobaculum arsenaticum]
+ gb|ABP51453.1| conserved hypothetical protein [Pyrobaculum arsenaticum DSM 13514]
+Length=187
+
+ Score =  243 bits (620),  Expect = 5e-79, Method: Composition-based stats.
+ Identities = 90/144 (63%), Positives = 121/144 (84%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L+ +G +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTIERAHLVERGGRQILVIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE++FN+IRDS++FR ++RE+FD +K+WFF E  P+Y L++GDIFM+ TE+ +
+Sbjct  61   REKFGPQGEDLFNKIRDSDEFRRSTREMFDAMKEWFFNELSPKYGLDKGDIFMLITEVEV  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W +DKT+  YW+RSDR
+Sbjct  121  DLATGELRWLKDKTEFYYWVRSDR  144
+
+
+>ref|YP_005258858.1| hypothetical protein Pogu_0224 [Pyrobaculum oguniense TE7]
+ ref|WP_014345826.1| transcription factor [Pyrobaculum oguniense]
+ gb|AFA38251.1| hypothetical protein Pogu_0224 [Pyrobaculum oguniense TE7]
+Length=187
+
+ Score =  242 bits (618),  Expect = 8e-79, Method: Composition-based stats.
+ Identities = 90/144 (63%), Positives = 120/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L+ +  +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTIERAHLVEREGRQILVIRWNTGKTSAGRLFGRYGVGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE++FN+IRDS++FR ++RE+FD +K+WFF E  P+Y L++GDIFMI TE+ +
+Sbjct  61   REKFGPQGEDLFNKIRDSDEFRRSTREVFDAMKEWFFNELSPKYGLDKGDIFMIITEVEV  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W +DKT+  YW+RSDR
+Sbjct  121  DLATGELRWLKDKTEFYYWVRSDR  144
+
+
+>ref|NP_559881.1| hypothetical protein PAE2254 [Pyrobaculum aerophilum str. IM2]
+ ref|WP_011008531.1| transcription factor [Pyrobaculum aerophilum]
+ gb|AAL64063.1| hypothetical protein PAE2254 [Pyrobaculum aerophilum str. IM2]
+Length=187
+
+ Score =  240 bits (612),  Expect = 9e-78, Method: Composition-based stats.
+ Identities = 89/144 (62%), Positives = 120/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ L  +  +++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGA+AGSL
+Sbjct  1    MAEEERTVERAHLEEREGRQVLVIRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGALAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            R +FGP GE +FN+IRDS++F+++S+E+FD +K+WFF E  P+Y L++GDIFMI TE+ L
+Sbjct  61   RGKFGPQGEELFNKIRDSDEFKKSSKEMFDAIKEWFFNEQAPKYGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D +TGEL W +DKT+L YW+RSDR
+Sbjct  121  DINTGELRWRKDKTELYYWVRSDR  144
+
+
+>ref|YP_001794784.1| hypothetical protein Tneu_1413 [Pyrobaculum neutrophilum V24Sta]
+ ref|WP_012350757.1| transcription factor [Pyrobaculum neutrophilum]
+ gb|ACB40338.1| conserved hypothetical protein [Pyrobaculum neutrophilum V24Sta]
+Length=187
+
+ Score =  239 bits (610),  Expect = 1e-77, Method: Composition-based stats.
+ Identities = 90/144 (63%), Positives = 117/144 (81%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R+ +  +  ++++++RWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTVERAHVEEREGRQILVLRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE +F++IRDSE+FR +SRE+FD  K+WFF E  P++ L++GDIFMI TE+ L
+Sbjct  61   REKFGPQGEELFSKIRDSEEFRRSSREIFDAAKEWFFNELAPKHGLDKGDIFMIITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            D  TGEL W RDKT+  YW+RSDR
+Sbjct  121  DLTTGELRWRRDKTEFYYWVRSDR  144
+
+
+>ref|YP_005084185.1| hypothetical protein P186_0480 [Pyrobaculum sp. 1860]
+ ref|WP_014287761.1| transcription factor [Pyrobaculum sp. 1860]
+ gb|AET31933.1| hypothetical protein P186_0480 [Pyrobaculum sp. 1860]
+Length=187
+
+ Score =  239 bits (610),  Expect = 2e-77, Method: Composition-based stats.
+ Identities = 96/144 (67%), Positives = 119/144 (83%), Gaps = 0/144 (0%)
+
+Query  5    LREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSL  64
+            + EEER   R  +  +  K++++IRWNTGKTSAGRLFGRYG GGRP+FF+LLFGAVAGSL
+Sbjct  1    MAEEERTVERIHVEERAGKQILVIRWNTGKTSAGRLFGRYGAGGRPDFFRLLFGAVAGSL  60
+
+Query  65   REQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVL  124
+            RE+FGP GE IFN+IRDSE+FR TSRE+FD +K+WFF E  PR+ L++GDIFM+ TE+ L
+Sbjct  61   REKFGPQGEEIFNKIRDSEEFRRTSREIFDEMKEWFFNEQAPRHGLDKGDIFMVITEIEL  120
+
+Query  125  DPDTGELLWNRDKTQLIYWIRSDR  148
+            DP TGEL W +DKT+L YW+RSDR
+Sbjct  121  DPSTGELRWRKDKTELYYWVRSDR  144
+
+
+>pdb|3TEK|A Chain A, Thermodbp: A Non-Canonical Single-Stranded Dna Binding 
+Protein With A Novel Structure And Mechanism
+ pdb|3TEK|B Chain B, Thermodbp: A Non-Canonical Single-Stranded Dna Binding 
+Protein With A Novel Structure And Mechanism
+Length=148
+
+ Score =  229 bits (583),  Expect = 6e-74, Method: Composition-based stats.
+ Identities = 148/148 (100%), Positives = 148/148 (100%), Gaps = 0/148 (0%)
+
+Query  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+            MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV
+Sbjct  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+
+Query  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+            AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST
+Sbjct  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+
+Query  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+            ELVLDPDTGELLWNRDKTQLIYWIRSDR
+Sbjct  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+
+
+>ref|YP_004893281.1| hypothetical protein TTX_1576 [Thermoproteus tenax Kra 1]
+ ref|WP_014127457.1| transcription factor [Thermoproteus tenax]
+ emb|CCC82203.1| hypothetical protein TTX_1576 [Thermoproteus tenax Kra 1]
+Length=196
+
+ Score =  228 bits (581),  Expect = 4e-73, Method: Composition-based stats.
+ Identities = 148/148 (100%), Positives = 148/148 (100%), Gaps = 0/148 (0%)
+
+Query  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+            MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV
+Sbjct  1    MGEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAV  60
+
+Query  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+            AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST
+Sbjct  61   AGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMIST  120
+
+Query  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+            ELVLDPDTGELLWNRDKTQLIYWIRSDR
+Sbjct  121  ELVLDPDTGELLWNRDKTQLIYWIRSDR  148
+
+
+>ref|YP_004338732.1| hypothetical protein TUZN_1962 [Thermoproteus uzoniensis 768-20]
+ ref|WP_013680755.1| transcription factor [Thermoproteus uzoniensis]
+ gb|AEA13420.1| hypothetical protein TUZN_1962 [Thermoproteus uzoniensis 768-20]
+Length=199
+
+ Score =  212 bits (541),  Expect = 6e-67, Method: Composition-based stats.
+ Identities = 117/134 (87%), Positives = 129/134 (96%), Gaps = 0/134 (0%)
+
+Query  15   SELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN  74
+            SEL+T+  K+L+LIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN
+Sbjct  15   SELVTREGKRLLLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN  74
+
+Query  75   IFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLWN  134
+            IF RIRDSEKFRETSRELFDGLKKWFFEEAVP++ LERGDIFMISTEL++DPDTGE+ WN
+Sbjct  75   IFARIRDSEKFRETSRELFDGLKKWFFEEAVPKHKLERGDIFMISTELLVDPDTGEITWN  134
+
+Query  135  RDKTQLIYWIRSDR  148
+            +DKT+LIYW+RSDR
+Sbjct  135  KDKTELIYWVRSDR  148
+
+
+>ref|YP_004244085.1| hypothetical protein VMUT_0370 [Vulcanisaeta moutnovskia 768-28]
+ ref|WP_013603746.1| transcription factor [Vulcanisaeta moutnovskia]
+ gb|ADY00583.1| hypothetical protein VMUT_0370 [Vulcanisaeta moutnovskia 768-28]
+Length=218
+
+ Score =  194 bits (493),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 74/126 (59%), Positives = 101/126 (80%), Gaps = 1/126 (1%)
+
+Query  24   KLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFGPDGEN-IFNRIRDS  82
+             ++ I+W TGKTSA RLFG+YG  GRP+FF+LLFGA+ GSLR QF  D  N +FN IR+S
+Sbjct  29   NILKIKWVTGKTSAARLFGKYGREGRPDFFRLLFGAIGGSLRSQFPEDKANELFNNIRNS  88
+
+Query  83   EKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLWNRDKTQLIY  142
+            + F+++  E+F+ +K+WFF+E VP+Y LERGD+F++ST L L+ +TGEL WN++ TQ+IY
+Sbjct  89   QGFKDSLNEVFESMKRWFFDEVVPKYQLERGDVFVVSTTLELNINTGELKWNKESTQVIY  148
+
+Query  143  WIRSDR  148
+            WIRSDR
+Sbjct  149  WIRSDR  154
+
+
+>ref|YP_003902380.1| transcription factor bZIP_1 [Vulcanisaeta distributa DSM 14429]
+ ref|WP_013337054.1| transcription factor [Vulcanisaeta distributa]
+ gb|ADN51329.1| transcription factor bZIP_1 [Vulcanisaeta distributa DSM 14429]
+Length=225
+
+ Score =  192 bits (487),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 77/140 (55%), Positives = 106/140 (76%), Gaps = 4/140 (3%)
+
+Query  10   RGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFG  69
+            RG   +EL+      ++ I+W TGKTSA RLFG+YG  GRP+FF+LLFGA+ GSLR QF 
+Sbjct  18   RGGATAELVK---GNILKIKWVTGKTSAARLFGKYGREGRPDFFRLLFGAIGGSLRSQFP  74
+
+Query  70   PDGEN-IFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDT  128
+             D  N +FN IR+S+ F+++  E+F+ +K+WFF+E VP+Y LERGD+F+IST L L+ +T
+Sbjct  75   EDKANELFNNIRNSQGFKDSLDEVFESMKRWFFDEIVPKYKLERGDVFVISTTLELNIET  134
+
+Query  129  GELLWNRDKTQLIYWIRSDR  148
+            GEL W++  TQ+IYW+RSDR
+Sbjct  135  GELKWDKGSTQVIYWVRSDR  154
+
+
+>ref|YP_001541442.1| hypothetical protein Cmaq_1629 [Caldivirga maquilingensis IC-167]
+ ref|WP_012186671.1| hypothetical protein [Caldivirga maquilingensis]
+ gb|ABW02452.1| conserved hypothetical protein [Caldivirga maquilingensis IC-167]
+Length=214
+
+ Score =  190 bits (484),  Expect = 4e-58, Method: Composition-based stats.
+ Identities = 68/136 (50%), Positives = 104/136 (76%), Gaps = 1/136 (1%)
+
+Query  14   RSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVAGSLREQFG-PDG  72
+             SEL+T+  K+++ I+ +TGKTSAG+LFG++G GGRP+FF+++FGAVA  LR   G  +G
+Sbjct  17   TSELVTEAGKRIIKIKLSTGKTSAGKLFGKHGRGGRPDFFRIVFGAVANGLRTSLGNEEG  76
+
+Query  73   ENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELL  132
+            E  FN +R+  +F+++  ++F+ +K WFF EA+ +YN+ +GD+F I TEL LD +TGEL 
+Sbjct  77   EAKFNELRNKSEFKKSLNQVFNNIKDWFFNEAIKQYNIGKGDVFAIITELDLDLETGELK  136
+
+Query  133  WNRDKTQLIYWIRSDR  148
+            W R+ +Q+IYW+RSD+
+Sbjct  137  WVREGSQVIYWVRSDK  152
+
+
+>ref|WP_020396777.1| hypothetical protein [Thiothrix disciformis]
+Length=1136
+
+ Score = 39.6 bits (91),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 48/107 (45%), Gaps = 13/107 (12%)
+
+Query  43    RYGPGGRPEFFK--LLFGAVAGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWF  100
+              Y P GR  + +  +L GA+ GS+R Q G  G+  F ++ D      +  E ++ L    
+Sbjct  957   EYNPSGRQAYQRETVLVGALVGSVRSQSGDRGKRYFIKLED-----RSVGE-YEVL---I  1007
+
+Query  101   FEEAVPRYN--LERGDIFMISTELVLDPDTGELLWNRDKTQLIYWIR  145
+             F +   +Y   LE+  + ++   +  D  TG   +  +K   +  +R
+Sbjct  1008  FNDVFEQYGHLLEKEAVIVLEGNVSFDQRTGSSRFRIEKIHDLQSVR  1054
+
+
+>ref|WP_023538078.1| hypothetical protein [Streptomyces niveus]
+ gb|EST30825.1| hypothetical protein M877_08950 [Streptomyces niveus NCIMB 11891]
+Length=914
+
+ Score = 38.8 bits (89),  Expect = 0.58, Method: Composition-based stats.
+ Identities = 26/84 (31%), Positives = 34/84 (40%), Gaps = 5/84 (6%)
+
+Query  2    GEELREEERGEVRSELITKGEKKLVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVA  61
+            G  L  +E      EL T+   +LV+    TG    GRLFG    G  P+   L   A+ 
+Sbjct  241  GIHLASQEFLLAARELCTRYGARLVIDEVQTGLGRTGRLFGCEHSGVVPDIMPLA-KALG  299
+
+Query  62   GSLREQFGPDGENIFNRIRDSEKF  85
+            G +     P G  +F     SE F
+Sbjct  300  GGMV----PIGAVLFGESSLSEDF  319
+
+
+>ref|YP_003669303.1| hypothetical protein Shell_1311 [Staphylothermus hellenicus DSM 
+12710]
+ ref|WP_013143602.1| hypothetical protein [Staphylothermus hellenicus]
+ gb|ADI32404.1| Uncharacterized conserved protein UCP037214 [Staphylothermus 
+hellenicus DSM 12710]
+Length=287
+
+ Score = 36.9 bits (84),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 18/91 (20%), Positives = 39/91 (43%), Gaps = 3/91 (3%)
+
+Query  55   LLFGAVAGSLREQFGPDGENIFNRIRDSEKFRETSRELFDGLKKWFFEEAVPRYNLERGD  114
+            ++ GA A  LR        ++   ++ +++F          + +  +   V     ++GD
+Sbjct  17   VIAGAYANKLRRTLFAQLRDL---VKKNKEFAREVARASGEINRLLYIILVENLGCDKGD  73
+
+Query  115  IFMISTELVLDPDTGELLWNRDKTQLIYWIR  145
+            +  I  + V+DP    + WN D  ++ Y+ R
+Sbjct  74   VVRIRVKYVVDPSEWRIKWNYDTLRIEYFKR  104
+
+
+>ref|WP_010373770.1| TonB-denpendent receptor [Pseudoalteromonas piscicida]
+ gb|ERG35175.1| TonB-dependent receptor [Pseudoalteromonas piscicida JCM 20779]
+Length=796
+
+ Score = 36.9 bits (84),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 48/111 (43%), Gaps = 16/111 (14%)
+
+Query  35   TSAGRLFGRYGPGGRPEFFKLLFGAVA--GSLRE----------QFGPDGENIFNRIRDS  82
+            TS+  +FGR+  GGR    +LLFG V   GS+ +          +FG   +    R+  +
+Sbjct  565  TSSSAIFGRFSEGGRANADRLLFGKVNIDGSVADEDAVDEVTQYEFGLKQKFEQGRLFAT  624
+
+Query  83   EKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLW  133
+              + ET  + F+   + FF+       +E   ++ I +    D   G L W
+Sbjct  625  LFYAETEEQNFEATSQKFFDRQYEAQGIELEGVYFIGS---FDLR-GSLTW  671
+
+
+>ref|WP_010605296.1| TonB-denpendent receptor [Pseudoalteromonas flavipulchra]
+Length=796
+
+ Score = 36.9 bits (84),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 48/111 (43%), Gaps = 16/111 (14%)
+
+Query  35   TSAGRLFGRYGPGGRPEFFKLLFGAVA--GSLRE----------QFGPDGENIFNRIRDS  82
+            TS+  +FGR+  GGR    +LLFG V   GS+ +          +FG   +    R+  +
+Sbjct  565  TSSSAIFGRFSEGGRANADRLLFGKVNIDGSVADEDAVDEVTQYEFGIKQKFEQGRLFAT  624
+
+Query  83   EKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLW  133
+              + ET  + F+   + FF+       +E   ++ I +    D   G L W
+Sbjct  625  LFYAETEEQNFEATSQKFFDRQYEAQGIELEGVYFIGS---FDLR-GSLTW  671
+
+
+>gb|EKE10866.1| exopolysaccharide biosynthesis polyprenyl glycosylphosphotransferase 
+[uncultured bacterium]
+Length=475
+
+ Score = 35.7 bits (81),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 28/49 (57%), Gaps = 3/49 (6%)
+
+Query  16   ELITKGEKK---LVLIRWNTGKTSAGRLFGRYGPGGRPEFFKLLFGAVA  61
+            ELI K   +   L  I+ +  KTS GR+  +Y     P+FF +LFG+++
+Sbjct  347  ELIEKQSVRKGPLYKIKADPRKTSVGRIIEKYSIDELPQFFNVLFGSMS  395
+
+
+>ref|WP_017216678.1| TonB-denpendent receptor [Pseudoalteromonas sp. NJ631]
+Length=796
+
+ Score = 35.7 bits (81),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 47/111 (42%), Gaps = 16/111 (14%)
+
+Query  35   TSAGRLFGRYGPGGRPEFFKLLFGAVA--GSLRE----------QFGPDGENIFNRIRDS  82
+            TS   +FGR+  GGR    +LLFG V   GS+ +          +FG   +    R+  +
+Sbjct  565  TSDSAIFGRFSEGGRANADRLLFGKVNIDGSVADEDTVDEVTQYEFGLKQKFEQGRLFAT  624
+
+Query  83   EKFRETSRELFDGLKKWFFEEAVPRYNLERGDIFMISTELVLDPDTGELLW  133
+              + ET  + F+   + FF+       +E   ++ I +    D   G L W
+Sbjct  625  LFYAETEEQNFEATSQKFFDRQYEAQGIELEGVYFIGS---FDLR-GSLTW  671
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.142    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0438    0.140     1.90     42.6     43.6 
+
+Effective search space used: 303252929532
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

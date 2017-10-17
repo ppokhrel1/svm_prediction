@@ -1,0 +1,3473 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2BNZA
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2BNW|A  Chain A, Structural Basis For Cooperative Binding Of ...   108    3e-29
+ref|WP_002326824.1|  hypothetical protein, partial [Enterococcus ...   106    1e-28
+ref|WP_000260238.1|  omega protein [Streptococcus agalactiae] >gb...   106    2e-28
+ref|YP_005704794.1|  omega Transcriptional Repressor family prote...   106    2e-28
+ref|YP_232757.1|  transcriptional repressor [Streptococcus pyogen...   106    2e-28
+ref|WP_010726399.1|  hypothetical protein, partial [Enterococcus]...   106    2e-28
+ref|WP_010717791.1|  hypothetical protein [Enterococcus] >gb|EOF4...   106    2e-28
+ref|WP_010776966.1|  hypothetical protein, partial [Enterococcus ...   105    2e-28
+ref|WP_007209312.1|  peptide-binding protein [Enterococcus italic...   104    9e-28
+ref|YP_003305355.1|  AM11 [Enterococcus faecalis] >ref|YP_0047120...   104    1e-27
+ref|WP_010724790.1|  hypothetical protein, partial [Enterococcus ...   104    1e-27
+ref|WP_000527317.1|  peptide-binding protein [Firmicutes] >gb|EEU...   104    1e-27
+ref|WP_002295735.1|  peptide-binding protein [Enterococcus] >dbj|...   104    1e-27
+ref|WP_010711113.1|  hypothetical protein [Enterococcus faecalis]...   104    1e-27
+ref|WP_002401482.1|  peptide-binding protein [Enterococcus faecal...   104    1e-27
+ref|YP_005704842.1|  omega Transcriptional Repressor family prote...   103    2e-27
+ref|WP_002355411.1|  peptide-binding protein [Enterococcus faecal...   103    2e-27
+ref|YP_007152158.1|  transcriptional repressor, omega family [Ent...   102    4e-27
+ref|WP_010822042.1|  hypothetical protein [Enterococcus faecalis]...   102    5e-27
+ref|WP_016177607.1|  hypothetical protein [Enterococcus durans] >...   102    9e-27
+ref|WP_002364919.1|  peptide-binding protein [Enterococcus faecal...   100    5e-26
+ref|WP_002363035.1|  peptide-binding protein [Enterococcus faecal...  99.8    6e-26
+ref|YP_006539255.1|  omega Transcriptional Repressor family prote...  97.4    3e-25
+ref|WP_007215977.1|  Cro/Cl family transcriptional regulator [Bac...  95.5    2e-24
+ref|WP_002415430.1|  omega transcriptional repressor, partial [En...  95.1    2e-24
+ref|WP_010774372.1|  hypothetical protein, partial [Enterococcus ...  90.9    1e-22
+ref|WP_010744372.1|  hypothetical protein [Enterococcus raffinosu...  82.8    2e-19
+ref|WP_023042546.1|  hypothetical protein, partial [Enterococcus ...  76.6    7e-17
+ref|WP_010724674.1|  hypothetical protein [Enterococcus faecium] ...  76.6    1e-16
+ref|WP_020220349.1|  peptide-binding protein [Staphylococcus pseu...  76.3    1e-16
+ref|YP_006015891.1|  hypothetical protein SPSE_1801 [Staphylococc...  76.3    1e-16
+ref|YP_006377411.1|  omega transcriptional repressor [Enterococcu...  76.6    1e-16
+ref|WP_008787626.1|  peptide-binding protein [Erysipelotrichaceae...  76.3    1e-16
+ref|WP_002425012.1|  peptide-binding protein [Enterococcus faecal...  76.3    1e-16
+ref|YP_003305351.1|  AM6 [Enterococcus faecalis] >ref|YP_00386411...  76.3    1e-16
+ref|WP_010717801.1|  hypothetical protein, partial [Enterococcus]...  75.9    1e-16
+ref|WP_010711805.1|  hypothetical protein [Enterococcus faecalis]...  75.9    2e-16
+ref|WP_010717764.1|  hypothetical protein, partial [Enterococcus ...  75.9    2e-16
+ref|YP_001836043.1|  omega2 protein [Streptococcus pneumoniae CGS...  75.9    2e-16
+ref|WP_000527319.1|  peptide-binding protein [Bacilli] >gb|EIK279...  75.9    2e-16
+ref|YP_004293200.1|  omega transcriptional repressor [Streptococc...  74.7    3e-16
+ref|YP_008731004.1|  peptide-binding protein [Streptococcus pneum...  74.3    5e-16
+ref|WP_010717196.1|  hypothetical protein, partial [Enterococcus ...  73.2    9e-16
+ref|WP_010815278.1|  hypothetical protein [Enterococcus faecalis]...  72.8    2e-15
+dbj|BAG12518.1|  hypothetical protein [Streptococcus pneumoniae] ...  74.3    6e-15
+emb|CAL92505.1|  hypothetical protein [Streptococcus pneumoniae] ...  74.3    3e-14
+ref|WP_001830490.1|  Cro/Cl family transcriptional regulator [Str...  73.9    3e-14
+ref|WP_001823402.1|  Cro/Cl family transcriptional regulator [Str...  74.3    3e-14
+ref|YP_007923810.1|  Cro/CI family transcriptional regulator [Str...  74.3    3e-14
+ref|WP_001841469.1|  Cro/Cl family transcriptional regulator [Str...  74.3    3e-14
+ref|WP_001860235.1|  Cro/Cl family transcriptional regulator [Str...  74.3    3e-14
+ref|YP_001836039.1|  hypothetical protein SPCG_1322 [Streptococcu...  74.3    3e-14
+ref|WP_002989385.1|  Cro/Cl family transcriptional regulator [Str...  74.3    3e-14
+ref|WP_001841741.1|  Cro/Cl family transcriptional regulator [Str...  74.3    4e-14
+emb|CBJ57220.1|  hypothetical protein [Streptococcus pneumoniae]      72.8    1e-13
+ref|WP_021406950.1|  omega Transcriptional Repressor family prote...  67.8    1e-13
+ref|WP_002343795.1|  hypothetical protein [Enterococcus faecium] ...  67.8    1e-13
+ref|WP_002295953.1|  transcriptional repressor, partial [Enteroco...  67.8    1e-13
+ref|WP_001838040.1|  Cro/Cl family transcriptional regulator [Str...  72.4    2e-13
+ref|YP_001965491.1|  hypothetical protein [Pediococcus acidilacti...  67.4    2e-13
+ref|NP_783846.1|  hypothetical protein [Lactobacillus fermentum] ...  67.0    2e-13
+emb|CBW39428.1|  Omega transcriptional repressor protein [Strepto...  67.4    3e-13
+ref|WP_002322271.1|  conserved domain protein, partial [Enterococ...  54.3    1e-08
+ref|WP_001284805.1|  hypothetical protein [Staphylococcus aureus]...  48.5    4e-06
+ref|WP_002343793.1|  hypothetical protein, partial [Enterococcus ...  47.8    4e-06
+ref|WP_002935077.1|  peptide-binding protein [Lactobacillales] >g...  46.6    1e-05
+ref|YP_006083090.1|  Omega transcriptional repressor [Streptococc...  46.6    2e-05
+ref|WP_010722284.1|  hypothetical protein, partial [Enterococcus]...  46.2    2e-05
+emb|CBW38879.1|  Omega transcriptional regulator [Streptococcus p...  44.3    1e-04
+ref|WP_022621513.1|  hypothetical protein [[Clostridium] difficil...  43.1    3e-04
+ref|YP_004516320.1|  hypothetical protein Desku_0920 [Desulfotoma...  37.4    0.034
+ref|WP_002321554.1|  omega Transcriptional Repressor, partial [En...  36.2    0.079
+ref|YP_796520.1|  hypothetical protein LACR_C56 [Lactococcus lact...  35.4    0.18 
+ref|WP_023189865.1|  Transcriptional repressor [Lactococcus lacti...  35.0    0.20 
+ref|NP_923576.1|  hypothetical protein gsr0630 [Gloeobacter viola...  34.7    0.33 
+gb|EKE05104.1|  hypothetical protein ACD_19C00426G0126 [unculture...  32.7    1.6  
+ref|WP_018023048.1|  hypothetical protein [Corynebacterium doosan...  32.3    2.1  
+ref|WP_002381023.1|  conserved hypothetical protein, partial [Ent...  32.0    2.1  
+ref|WP_002380045.1|  conserved hypothetical protein, partial [Ent...  32.0    2.2  
+ref|WP_003377836.1|  CopG family transcriptional regulator [Clost...  32.0    2.6  
+ref|YP_003569737.1|  hypothetical protein PSR_61023 [Salinibacter...  32.0    2.6  
+ref|YP_003034152.1|  transcriptional regulator, CopG family [Clos...  31.6    3.4  
+ref|WP_008868726.1|  CopG domain protein DNA-binding domain prote...  31.6    3.6  
+ref|YP_006262895.1|  hypothetical protein DGo_PD0028 [Deinococcus...  31.6    4.3  
+ref|WP_023031160.1|  hypothetical protein [Corynebacterium sp. KP...  31.2    5.6  
+ref|WP_016310877.1|  peptide/nickel transport system substrate-bi...  33.1    6.5  
+
+
+>pdb|2BNW|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNZ|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2CAX|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+Length=53
+
+ Score =  108 bits (269),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+
+
+>ref|WP_002326824.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|ELA56447.1| hypothetical protein OGG_05454, partial [Enterococcus faecium 
+EnGen0013]
+Length=67
+
+ Score =  106 bits (265),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  16  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  67
+
+
+>ref|WP_000260238.1| omega protein [Streptococcus agalactiae]
+ gb|EPU28321.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-211]
+ gb|EPU31908.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-212]
+ gb|EPX00293.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-209]
+Length=71
+
+ Score =  106 bits (265),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+>ref|YP_005704794.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ ref|WP_000527318.1| peptide-binding protein [Firmicutes]
+ gb|ADX79061.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ gb|EJY36594.1| omega transcriptional repressor [Enterococcus faecium 510]
+ gb|ELA74203.1| hypothetical protein OGU_05518 [Enterococcus faecium EnGen0011]
+ gb|ELA81365.1| hypothetical protein OI1_06320 [Enterococcus faecium EnGen0016]
+ gb|ELA83150.1| hypothetical protein OI3_05063 [Enterococcus faecium EnGen0021]
+ gb|ELA99273.1| hypothetical protein OIE_05926 [Enterococcus faecium EnGen0003]
+ gb|ELB18011.1| hypothetical protein OIS_05206 [Enterococcus faecium EnGen0035]
+ gb|ELB22838.1| hypothetical protein OIU_04897 [Enterococcus faecium EnGen0039]
+ gb|ELB62326.1| hypothetical protein OKY_05117 [Enterococcus faecium EnGen0048]
+ gb|ELB68400.1| hypothetical protein OM3_05774 [Enterococcus faecium EnGen0051]
+ gb|ELB68765.1| hypothetical protein OM5_02838 [Enterococcus faecium EnGen0050]
+ gb|ELB73859.1| hypothetical protein OM7_06005 [Enterococcus faecium EnGen0046]
+ gb|ELB79942.1| hypothetical protein OMA_05893 [Enterococcus faecium EnGen0045]
+ gb|ELB80148.1| hypothetical protein OMC_05902 [Enterococcus faecium EnGen0049]
+ gb|EOD81997.1| hypothetical protein Q93_03329 [Enterococcus faecalis EnGen0065]
+ gb|EOF22860.1| hypothetical protein SC7_02997 [Enterococcus faecalis EnGen0115]
+ gb|EOF31407.1| hypothetical protein SC9_03257 [Enterococcus faecalis EnGen0101]
+ gb|EOF35115.1| hypothetical protein SCK_01010 [Enterococcus faecalis EnGen0103]
+ gb|EOF35279.1| hypothetical protein SCG_01004 [Enterococcus faecalis EnGen0102]
+ gb|EOF43182.1| hypothetical protein SCO_00996 [Enterococcus faecalis EnGen0105]
+ gb|EOF47291.1| hypothetical protein SCQ_00958 [Enterococcus faecalis EnGen0116]
+ gb|EOF50602.1| hypothetical protein SCU_00997 [Enterococcus faecalis EnGen0118]
+ gb|EOF52722.1| hypothetical protein SCS_00978 [Enterococcus faecalis EnGen0117]
+ gb|EOF70852.1| hypothetical protein SEU_00780 [Enterococcus faecium EnGen0130]
+ gb|EOF74205.1| hypothetical protein SGC_02583 [Enterococcus faecium EnGen0136]
+ gb|EOF90966.1| hypothetical protein SK5_00473 [Enterococcus faecium EnGen0161]
+ gb|EOF91180.1| hypothetical protein SK7_00563 [Enterococcus faecium EnGen0162]
+ gb|EOG04694.1| hypothetical protein SKQ_00901 [Enterococcus faecium EnGen0171]
+ gb|EOG14603.1| hypothetical protein SMC_02975 [Enterococcus faecium EnGen0179]
+ gb|EOG15591.1| hypothetical protein SM7_02617 [Enterococcus faecium EnGen0178]
+ gb|EOG27405.1| hypothetical protein SMG_01321 [Enterococcus faecium EnGen0180]
+ gb|EOG39255.1| hypothetical protein SMS_00630 [Enterococcus faecium EnGen0184]
+ gb|EOH32870.1| hypothetical protein SQW_02740 [Enterococcus faecium EnGen0185]
+ gb|EOH41414.1| hypothetical protein SSG_02792 [Enterococcus faecium EnGen0190]
+ gb|EOH43347.1| hypothetical protein SSI_02932 [Enterococcus faecium EnGen0191]
+ gb|EOI17850.1| hypothetical protein UCY_03169 [Enterococcus faecalis EnGen0252]
+ gb|EOI26465.1| hypothetical protein UE1_00501 [Enterococcus faecalis EnGen0251]
+ gb|EOI35217.1| hypothetical protein UE9_02653 [Enterococcus faecium EnGen0267]
+ gb|EOI77597.1| hypothetical protein UKU_02918 [Enterococcus faecalis EnGen0297]
+ gb|EOI95404.1| hypothetical protein UMC_02527 [Enterococcus faecalis EnGen0302]
+ gb|EOI96357.1| hypothetical protein UM9_00494 [Enterococcus faecalis EnGen0298]
+ gb|EOJ05859.1| hypothetical protein UME_00544 [Enterococcus faecalis EnGen0306]
+ gb|EOJ21315.1| hypothetical protein UMU_03173 [Enterococcus faecalis EnGen0300]
+ gb|EOJ66292.1| hypothetical protein WMQ_00437 [Enterococcus faecalis EnGen0350]
+ gb|EOK14652.1| hypothetical protein WQ1_02102 [Enterococcus faecium EnGen0371]
+ gb|EOK18188.1| hypothetical protein WQ3_03087 [Enterococcus faecalis EnGen0338]
+ gb|EOK45486.1| hypothetical protein Q99_03389 [Enterococcus faecalis EnGen0064]
+ gb|EOK45580.1| hypothetical protein Q97_03390 [Enterococcus faecalis EnGen0061]
+ gb|EOL09027.1| hypothetical protein SIW_00775 [Enterococcus faecium EnGen0158]
+ gb|EOL09576.1| hypothetical protein SIY_01182 [Enterococcus faecium EnGen0159]
+ gb|EOL33829.1| hypothetical protein WME_02862 [Enterococcus faecalis EnGen0362]
+ gb|EOL60722.1| hypothetical protein UCS_02502 [Enterococcus faecalis EnGen0246]
+ gb|EOL60768.1| hypothetical protein UCU_03200 [Enterococcus faecalis EnGen0247]
+ gb|EOL72598.1| hypothetical protein UM5_03191 [Enterococcus faecalis EnGen0280]
+ gb|EOM00015.1| hypothetical protein U9O_00597 [Enterococcus faecalis EnGen0233]
+ gb|EOM01549.1| hypothetical protein U9S_02449 [Enterococcus faecium EnGen0259]
+ gb|EOM18861.1| hypothetical protein SSM_02960 [Enterococcus faecium EnGen0192]
+ gb|EOM41192.1| hypothetical protein SKS_00499 [Enterococcus faecium EnGen0172]
+ gb|EOM69106.1| hypothetical protein SKC_00531 [Enterococcus faecium EnGen0164]
+ gb|EOW75114.1| hypothetical protein I591_02849 [Enterococcus villorum ATCC 700913]
+ gb|EQC76577.1| transcriptional regulator, putative [Enterococcus sp. HSIEG1]
+ gb|EQC77003.1| transcriptional regulator, putative [Enterococcus sp. HSIEG1]
+ gb|EQI83511.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+Y384]
+ gb|ERK33164.1| peptide-binding protein [Enterococcus faecium CRL1879]
+Length=69
+
+ Score =  106 bits (264),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|YP_232757.1| transcriptional repressor [Streptococcus pyogenes]
+ ref|YP_232764.1| transcriptional repressor [Streptococcus pyogenes]
+ ref|YP_783901.1| hypothetical protein pRE25p17 [Enterococcus faecalis]
+ ref|YP_976071.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_976094.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_001019030.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001019051.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001965496.1| putative omega protein [Pediococcus acidilactici]
+ ref|YP_001974791.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001974810.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_002128404.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_003024051.1| omega protein [Streptococcus suis BM407]
+ ref|YP_004033016.1| transcription repressor [Enterococcus faecalis]
+ ref|YP_008390860.1| Omega Transcriptional Repressor [Enterococcus faecium Aus0085]
+ ref|WP_001835296.1| peptide-binding protein [Bacilli]
+ pdb|1IRQ|A Chain A, Crystal Structure Of Omega Transcriptional Repressor 
+At 1.5a Resolution
+ pdb|1IRQ|B Chain B, Crystal Structure Of Omega Transcriptional Repressor 
+At 1.5a Resolution
+ emb|CAA47088.1| unnamed protein product [Streptococcus pyogenes]
+ emb|CAA47087.1| unnamed protein product [Streptococcus pyogenes]
+ emb|CAC29172.1| hypothetical protein [Enterococcus faecalis]
+ emb|CAD70609.1| omega protein [Plasmid pIlo1]
+ emb|CAD70617.1| omega protein [Plasmid pIlo8]
+ gb|AAR27197.1| transcriptional repressor [Streptococcus pyogenes]
+ gb|AAR27202.1| transcriptional repressor [Streptococcus pyogenes]
+ gb|ABB59542.1| putative omega protein [Pediococcus acidilactici]
+ emb|CAL36528.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAL36551.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAL90934.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAL90957.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAP62625.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAP62647.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAP70020.1| putative transcriptional repressor [Enterococcus faecium]
+ gb|EEI55827.1| omega transcriptional repressor [Enterococcus faecalis EnGen0297]
+ emb|CAZ55653.1| omega protein [Streptococcus suis BM407]
+ gb|EEV42430.1| transcriptional repressor [Enterococcus faecium 1,230,933]
+ emb|CAZ67077.1| transcriptional repressor Omega [Enterococcus faecium]
+ gb|EFF27264.1| putative transcriptional repressor [Enterococcus faecium E1679]
+ gb|EFF28588.1| omega, transcriptional repressor [Enterococcus faecium U0317]
+ gb|EFF60300.1| omega Transcriptional Repressor [Enterococcus faecium PC4.1]
+ dbj|BAJ34907.1| transcription repressor [Enterococcus faecalis]
+ gb|EGC67887.1| omega transcriptional repressor [Enterococcus casseliflavus ATCC 
+12755]
+ gb|EHC01726.1| transcriptional repressor [Streptococcus suis R61]
+ gb|AET37229.1| omega [Staphylococcus aureus]
+ gb|EJU82515.1| omega transcriptional repressor [Staphylococcus aureus subsp. 
+aureus CM05]
+ gb|EJX38291.1| omega transcriptional repressor [Enterococcus faecium S447]
+ gb|EJX51489.1| omega transcriptional repressor [Enterococcus faecium R496]
+ gb|EJX60381.1| omega transcriptional repressor [Enterococcus faecium R446]
+ gb|EJY00861.1| omega transcriptional repressor [Enterococcus faecium ERV161]
+ gb|EJY04117.1| omega transcriptional repressor [Enterococcus faecium ERV102]
+ gb|EJY06979.1| omega transcriptional repressor [Enterococcus faecium E422]
+ gb|EJY14449.1| omega transcriptional repressor [Enterococcus faecium C621]
+ gb|EJY24422.1| omega transcriptional repressor [Enterococcus faecium 515]
+ emb|CCH26388.1| omega transcriptional repressor [Streptococcus pyogenes]
+ gb|EPI16759.1| omega transcriptional repressor [Enterococcus faecium SD2A-2]
+ gb|AGS77126.1| Omega Transcriptional Repressor [Enterococcus faecium Aus0085]
+Length=71
+
+ Score =  106 bits (265),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+>ref|WP_010726399.1| hypothetical protein, partial [Enterococcus]
+ gb|EOH83244.1| hypothetical protein UAO_02904, partial [Enterococcus villorum 
+ATCC 700913]
+ gb|EOM64320.1| hypothetical protein SKE_02526, partial [Enterococcus faecium 
+EnGen0165]
+Length=60
+
+ Score =  106 bits (264),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  60
+
+
+>ref|WP_010717791.1| hypothetical protein [Enterococcus]
+ gb|EOF41421.1| hypothetical protein SCM_00996 [Enterococcus faecalis EnGen0104]
+ gb|EOG08841.1| hypothetical protein SKY_01121 [Enterococcus faecium EnGen0175]
+ gb|EOG11920.1| hypothetical protein SM3_01091 [Enterococcus faecium EnGen0176]
+ gb|EOM17367.1| hypothetical protein UA1_00096 [Enterococcus faecalis EnGen0234]
+ gb|EOM41629.1| hypothetical protein SKU_00828 [Enterococcus faecium EnGen0173]
+Length=69
+
+ Score =  106 bits (264),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_010776966.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOI41519.1| hypothetical protein UIU_00003, partial [Enterococcus faecalis 
+EnGen0299]
+Length=52
+
+ Score =  105 bits (263),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  52
+
+
+>ref|WP_007209312.1| peptide-binding protein [Enterococcus italicus]
+ gb|EFU72889.1| omega transcriptional repressor [Enterococcus italicus DSM 15952]
+Length=71
+
+ Score =  104 bits (260),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK+VMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKKVMDQALEEYIRKYLPDKL  71
+
+
+>ref|YP_003305355.1| AM11 [Enterococcus faecalis]
+ ref|YP_004712081.1| protein chain release factor B [Eggerthella sp. YY7918]
+ ref|YP_006078308.1| hypothetical protein SSU12_0877 [Streptococcus suis SS12]
+ ref|YP_006080498.1| hypothetical protein SSUD9_1047 [Streptococcus suis D9]
+ ref|YP_006960573.1| omega [Enterococcus faecalis]
+ ref|YP_006961934.1| omega [Enterococcus faecalis]
+ ref|WP_002321610.1| peptide-binding protein [Bacteria]
+ gb|AAQ94629.1| unknown [Trueperella pyogenes]
+ gb|ABP57328.1| hypothetical protein bst066 [Bacteroides uniformis]
+ emb|CAJ21498.1| hypothetical protein [[Clostridium] difficile]
+ gb|EEO61274.1| omega transcriptional repressor [Bacteroides sp. 9_1_42FAA]
+ gb|EEU72713.1| conserved hypothetical protein [Enterococcus faecalis HIP11704]
+ gb|ACY79537.1| AM11 [Enterococcus faecalis]
+ gb|EFH07113.1| omega transcriptional repressor [Clostridium difficile NAP08]
+ gb|EFH16274.1| omega transcriptional repressor [Clostridium difficile NAP07]
+ gb|EFI05279.1| omega Transcriptional Repressor superfamily [Bacteroides sp. 
+1_1_14]
+ gb|ADM24831.1| omega [Enterococcus faecalis]
+ gb|ADM24872.1| omega [Enterococcus faecalis]
+ gb|EFR67535.1| omega transcriptional repressor [Enterococcus faecium TX0133a01]
+ gb|EFR76903.1| omega transcriptional repressor [Enterococcus faecium TX0133C]
+ gb|EFS05077.1| omega transcriptional repressor [Enterococcus faecium TX0133a04]
+ gb|EFV31436.1| omega Transcriptional Repressor [Bacteroides eggerthii 1_2_48FAA]
+ dbj|BAK45680.1| protein chain release factor B [Eggerthella sp. YY7918]
+ gb|AER15060.1| conserved hypothetical protein [Streptococcus suis SS12]
+ gb|AER17250.1| conserved hypothetical protein [Streptococcus suis D9]
+ gb|EJX61812.1| omega transcriptional repressor [Enterococcus faecium P1986]
+ gb|EJX68721.1| omega transcriptional repressor [Enterococcus faecium P1190]
+ gb|EJX80889.1| omega transcriptional repressor [Enterococcus faecium P1123]
+ gb|EJY35753.1| omega transcriptional repressor [Enterococcus faecium 511]
+ gb|EKN09106.1| hypothetical protein HMPREF1077_02323 [Parabacteroides johnsonii 
+CL02T12C29]
+ emb|CCT61368.1| putative omega transcriptional repressor [[Clostridium] difficile]
+ gb|AGM38227.1| putative omega transcriptional repressor [[Clostridium] difficile]
+Length=71
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|WP_010724790.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|EOK94928.1| hypothetical protein SIQ_02480, partial [Enterococcus faecium 
+EnGen0155]
+Length=60
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  60
+
+
+>ref|WP_000527317.1| peptide-binding protein [Firmicutes]
+ gb|EEU66474.1| omega Transcriptional Repressor [Enterococcus faecalis DS5]
+ gb|EHO28270.1| hypothetical protein HMPREF0982_01438 [Erysipelotrichaceae bacterium 
+21_3]
+ gb|EIK10370.1| hypothetical protein MQG_02235 [Staphylococcus aureus subsp. 
+aureus VRS4]
+ gb|EIK11930.1| hypothetical protein MQI_01726 [Staphylococcus aureus subsp. 
+aureus VRS5]
+ gb|EIK20093.1| hypothetical protein MQM_02537 [Staphylococcus aureus subsp. 
+aureus VRS7]
+ gb|EIK27972.1| hypothetical protein MQS_02414 [Staphylococcus aureus subsp. 
+aureus VRS10]
+ gb|ELA51208.1| hypothetical protein OGA_05487 [Enterococcus faecium EnGen0012]
+ gb|ELA89346.1| hypothetical protein OI7_05289 [Enterococcus faecium EnGen0020]
+ gb|ELA92765.1| hypothetical protein OI9_05370 [Enterococcus faecium EnGen0001]
+ gb|ELB42287.1| hypothetical protein OKE_05309 [Enterococcus faecium EnGen0043]
+ gb|EMG24380.1| Omega protein [Streptococcus parauberis KRS-02083]
+ gb|EOD92581.1| hypothetical protein Q9I_02844 [Enterococcus faecalis EnGen0074]
+ gb|EOE00754.1| hypothetical protein Q9O_02833 [Enterococcus faecalis EnGen0073]
+ gb|EOE01346.1| hypothetical protein Q9M_02875 [Enterococcus faecalis EnGen0058]
+ gb|EOE23500.1| hypothetical protein QA5_00928 [Enterococcus faecalis EnGen0083]
+ gb|EOE25864.1| hypothetical protein Q9Y_00533 [Enterococcus faecalis EnGen0081]
+ gb|EOE26965.1| hypothetical protein QA3_00533 [Enterococcus faecalis EnGen0082]
+ gb|EOF76893.1| hypothetical protein SGG_02477 [Enterococcus faecium EnGen0138]
+ gb|EOF96638.1| hypothetical protein SKK_01875 [Enterococcus faecium EnGen0168]
+ gb|EOH65880.1| hypothetical protein UA9_00331 [Enterococcus faecalis EnGen0235]
+ gb|EOH67651.1| hypothetical protein UA7_00614 [Enterococcus faecium EnGen0265]
+ gb|EOI52615.1| hypothetical protein UKC_04068 [Enterococcus gilvus ATCC BAA-350]
+ gb|EOK78375.1| hypothetical protein SI1_02094 [Enterococcus faecium EnGen0146]
+ gb|EOK87132.1| hypothetical protein SI7_01569 [Enterococcus faecium EnGen0149]
+ gb|EOK90013.1| hypothetical protein SI9_01770 [Enterococcus faecium EnGen0150]
+ gb|EOL72241.1| hypothetical protein UK3_00012 [Enterococcus faecalis EnGen0305]
+ gb|EOM10479.1| hypothetical protein U9Y_02939 [Enterococcus faecium EnGen0262]
+ gb|EOM17637.1| hypothetical protein U9Y_00730 [Enterococcus faecium EnGen0262]
+ gb|EOW77548.1| hypothetical protein I592_04068 [Enterococcus gilvus ATCC BAA-350]
+ gb|EQE46892.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD42]
+ gb|EQF32843.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD159]
+ gb|EQF34095.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD165]
+ gb|EQF53985.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD181]
+ gb|EQF91194.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+824]
+ gb|EQG14123.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00044]
+ gb|EQG70419.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00154]
+ gb|EQG72874.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00160]
+ gb|EQG86417.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00183]
+ gb|EQH14780.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00203]
+ gb|EQH57122.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00261]
+ gb|EQH63153.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00275]
+ gb|EQH96141.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F249]
+ gb|EQI43221.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+Y231]
+ gb|EQI80465.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P1]
+ gb|EQI98694.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P6]
+ gb|EQJ30459.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P19]
+ gb|EQJ36704.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P20]
+ gb|EQJ56510.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P29]
+ gb|EQK58988.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+ gb|ERL10470.1| omega transcriptional repressor [Enterococcus faecalis E12]
+ emb|CCL04188.1| conserved hypothetical protein [Clostridium difficile E13]
+ emb|CCL61027.1| conserved hypothetical protein [Clostridium difficile E9]
+ emb|CCL64963.1| conserved hypothetical protein [Clostridium difficile E7]
+ emb|CCL87725.1| conserved hypothetical protein [Clostridium difficile T10]
+Length=69
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  69
+
+
+>ref|WP_002295735.1| peptide-binding protein [Enterococcus]
+ dbj|BAE98122.1| hypothetical protein [Enterococcus faecalis]
+ gb|EFF19602.1| hypothetical protein EfmE1071_2297 [Enterococcus faecium E1071]
+ gb|EFM69449.1| omega transcriptional repressor [Enterococcus faecalis TX0109]
+ gb|AFW17847.1| omega transcriptional repressor [Enterococcus thailandicus]
+ gb|AFW17895.1| omega transcriptional repressor [Enterococcus faecalis]
+ gb|EPI15919.1| omega transcriptional repressor [Enterococcus faecium SD1C-2]
+Length=71
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|WP_010711113.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOD99367.1| hypothetical protein Q9K_02205 [Enterococcus faecalis EnGen0075]
+ gb|EOE30272.1| hypothetical protein QA9_01539 [Enterococcus faecalis EnGen0071]
+ gb|EOE32548.1| hypothetical protein QAA_00942 [Enterococcus faecalis EnGen0072]
+ gb|EOF28579.1| hypothetical protein SC5_01571 [Enterococcus faecalis EnGen0086]
+ gb|EOF31935.1| hypothetical protein SC9_03211 [Enterococcus faecalis EnGen0101]
+ gb|ERT26493.1| hypothetical protein O995_01635 [Enterococcus faecalis BM4539]
+Length=69
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  69
+
+
+>ref|WP_002401482.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EFT39464.1| omega transcriptional repressor [Enterococcus faecalis TX2137]
+Length=71
+
+ Score =  104 bits (259),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|YP_005704842.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ ref|YP_006536784.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|YP_007152232.1| omega transcriptional repressor family protein [Enterococcus 
+faecalis str. Symbioflor 1]
+ ref|WP_010709002.1| peptide-binding protein [Enterococcus faecalis]
+ gb|ADX79109.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ gb|AFO43307.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ emb|CCO71518.1| omega transcriptional repressor family protein [Enterococcus 
+faecalis str. Symbioflor 1]
+ gb|EOE09854.1| hypothetical protein Q9Q_01022 [Enterococcus faecalis EnGen0078]
+ gb|EOI16208.1| hypothetical protein UCO_00595 [Enterococcus faecalis EnGen0244]
+ gb|EOI94954.1| hypothetical protein UMA_00514 [Enterococcus faecalis EnGen0311]
+ gb|EOI98450.1| hypothetical protein UMC_00580 [Enterococcus faecalis EnGen0302]
+ gb|EOJ26648.1| hypothetical protein UO3_00429 [Enterococcus faecalis EnGen0286]
+ gb|EOJ35265.1| hypothetical protein UO5_00447 [Enterococcus faecalis EnGen0293]
+ gb|EOJ35703.1| hypothetical protein UO7_00169 [Enterococcus faecalis EnGen0290]
+ gb|EOJ39717.1| hypothetical protein UO9_00443 [Enterococcus faecalis ATCC 27275]
+ gb|EOJ43333.1| hypothetical protein UOA_00161 [Enterococcus faecalis ATCC 27959]
+ gb|EOJ50963.1| hypothetical protein UOE_00455 [Enterococcus faecalis EnGen0285]
+ gb|EOJ66316.1| hypothetical protein WMQ_00461 [Enterococcus faecalis EnGen0350]
+ gb|EOJ80020.1| hypothetical protein WO7_00409 [Enterococcus faecalis EnGen0355]
+ gb|EOJ84006.1| hypothetical protein WO9_00528 [Enterococcus faecalis EnGen0369]
+ gb|EOJ93076.1| hypothetical protein WOI_00448 [Enterococcus faecalis EnGen0368]
+ gb|EOJ94116.1| hypothetical protein WOG_00604 [Enterococcus faecalis EnGen0370]
+ gb|EOK10256.1| hypothetical protein WOW_00434 [Enterococcus faecalis ATCC 10100]
+ gb|EOK24665.1| hypothetical protein WU7_00447 [Enterococcus faecalis EnGen0326]
+ gb|EOK34566.1| hypothetical protein WU9_00423 [Enterococcus faecalis EnGen0334]
+ gb|EOK52226.1| hypothetical protein Q9A_01807 [Enterococcus faecalis EnGen0066]
+ gb|EOL19610.1| hypothetical protein WU1_00406 [Enterococcus faecalis EnGen0327]
+ gb|EOL20955.1| hypothetical protein WU3_00453 [Enterococcus faecalis EnGen0331]
+ gb|EOL24890.1| hypothetical protein WO3_00493 [Enterococcus faecalis EnGen0342]
+ gb|EOL27758.1| hypothetical protein WO1_00560 [Enterococcus faecalis EnGen0365]
+ gb|EOL56443.1| hypothetical protein UCG_00533 [Enterococcus faecalis EnGen0240]
+ gb|EOL59800.1| hypothetical protein UCQ_00529 [Enterococcus faecalis EnGen0245]
+ gb|EOL63839.1| hypothetical protein UCS_00555 [Enterococcus faecalis EnGen0246]
+ gb|EOL66793.1| hypothetical protein UCU_00451 [Enterococcus faecalis EnGen0247]
+ gb|EOL85861.1| hypothetical protein UM7_00507 [Enterococcus faecalis EnGen0303]
+ gb|EOM15967.1| hypothetical protein UA1_00360 [Enterococcus faecalis EnGen0234]
+ gb|EOM26204.1| hypothetical protein U9C_00435 [Enterococcus faecium EnGen0253]
+ gb|EOM31624.1| hypothetical protein U9G_00637 [Enterococcus faecalis EnGen0232]
+Length=69
+
+ Score =  103 bits (257),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  69
+
+
+>ref|WP_002355411.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EET94555.1| transcriptional repressor [Enterococcus faecalis T1]
+ gb|EEU75478.1| transcriptional repressor [Enterococcus faecalis JH1]
+ gb|EFK76600.1| omega transcriptional repressor [Enterococcus faecalis TUSoD 
+Ef11]
+ gb|EFM83836.1| omega transcriptional repressor [Enterococcus faecalis TX4248]
+ gb|EFQ13186.1| omega transcriptional repressor [Enterococcus faecalis TX0102]
+ gb|EFU90438.1| omega transcriptional repressor [Enterococcus faecalis TX0630]
+Length=71
+
+ Score =  103 bits (257),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  71
+
+
+>ref|YP_007152158.1| transcriptional repressor, omega family [Enterococcus faecalis 
+str. Symbioflor 1]
+ ref|WP_002389526.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EFK76597.1| omega transcriptional repressor [Enterococcus faecalis TUSoD 
+Ef11]
+ emb|CCO71444.1| transcriptional repressor, omega family [Enterococcus faecalis 
+str. Symbioflor 1]
+ gb|EOJ84330.1| hypothetical protein WO9_00494 [Enterococcus faecalis EnGen0369]
+ gb|EOK37320.1| hypothetical protein WUI_02763 [Enterococcus faecalis EnGen0335]
+ gb|EOL92761.1| hypothetical protein WM1_02733 [Enterococcus faecalis EnGen0341]
+Length=69
+
+ Score =  102 bits (255),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_010822042.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOL24850.1| hypothetical protein WO3_00453 [Enterococcus faecalis EnGen0342]
+Length=69
+
+ Score =  102 bits (255),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_016177607.1| hypothetical protein [Enterococcus durans]
+ gb|EOT30842.1| hypothetical protein OMS_02357 [Enterococcus durans ATCC 6056]
+ gb|EOU15454.1| hypothetical protein I571_02899 [Enterococcus durans ATCC 6056]
+Length=69
+
+ Score =  102 bits (253),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL DKL
+Sbjct  18  TKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLSDKL  69
+
+
+>ref|WP_002364919.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEN74505.1| omega transcriptional repressor [Enterococcus faecalis TX1322]
+ gb|EEU25224.1| transcriptional repressor [Enterococcus faecalis T8]
+ gb|EEU64743.1| transcriptional Cro/CI family transcriptional regulator [Enterococcus 
+faecalis DS5]
+ gb|EFT41150.1| omega transcriptional repressor [Enterococcus faecalis TX4000]
+ gb|EFT47448.1| omega transcriptional repressor [Enterococcus faecalis TX0027]
+Length=71
+
+ Score =  100 bits (248),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  20  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  71
+
+
+>ref|WP_002363035.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEN72400.1| omega transcriptional repressor [Enterococcus faecalis ATCC 29200]
+ gb|EEU16130.1| transcriptional Cro/CI family transcriptional regulator [Enterococcus 
+faecalis ATCC 4200]
+ gb|EEU92569.1| transcriptional repressor [Enterococcus faecalis X98]
+ gb|EFM68732.1| omega transcriptional repressor [Enterococcus faecalis TX0411]
+ gb|EFT89917.1| omega transcriptional repressor [Enterococcus faecalis TX2141]
+ gb|EFU00805.1| omega transcriptional repressor [Enterococcus faecalis TX0043]
+ gb|EFU03791.1| omega transcriptional repressor [Enterococcus faecalis TX0312]
+ gb|EOI05912.1| hypothetical protein UCI_00836 [Enterococcus faecalis EnGen0241]
+ gb|EOI40739.1| hypothetical protein UIU_00341 [Enterococcus faecalis EnGen0299]
+ gb|EOJ02617.1| hypothetical protein UMG_00464 [Enterococcus faecalis EnGen0291]
+ gb|EOJ10842.1| hypothetical protein UMK_00473 [Enterococcus faecalis ATCC 29200]
+ gb|EOJ18885.1| hypothetical protein UMQ_00547 [Enterococcus faecalis EnGen0281]
+ gb|EOJ49074.1| hypothetical protein WM7_00906 [Enterococcus faecalis EnGen0361]
+ gb|EOK06563.1| hypothetical protein WOS_00473 [Enterococcus faecalis EnGen0367]
+ gb|EOK33148.1| hypothetical protein WUC_00474 [Enterococcus faecalis EnGen0328]
+ gb|EOK34391.1| hypothetical protein WUA_00456 [Enterococcus faecalis EnGen0333]
+ gb|EOK43365.1| hypothetical protein WUG_00912 [Enterococcus faecalis EnGen0332]
+ gb|EOK52187.1| hypothetical protein Q9A_01768 [Enterococcus faecalis EnGen0066]
+ gb|EOL30969.1| hypothetical protein WO5_00478 [Enterococcus faecalis EnGen0354]
+ gb|EOL36514.1| hypothetical protein WMC_00461 [Enterococcus faecalis ATCC 19433]
+ gb|EOL86500.1| hypothetical protein UMW_00451 [Enterococcus faecalis EnGen0295]
+ gb|EOL91667.1| hypothetical protein WM3_00878 [Enterococcus faecalis EnGen0366]
+ gb|EOL95023.1| hypothetical protein WM5_00913 [Enterococcus faecalis EnGen0344]
+ gb|EOL99971.1| hypothetical protein U9O_00558 [Enterococcus faecalis EnGen0233]
+ gb|EOM16754.1| hypothetical protein UA1_00320 [Enterococcus faecalis EnGen0234]
+ gb|ERT25304.1| hypothetical protein O994_00326 [Enterococcus faecalis JH2-2]
+Length=69
+
+ Score = 99.8 bits (247),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  69
+
+
+>ref|YP_006539255.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|WP_010728645.1| Cro/Cl family transcriptional regulator [Enterococcus]
+ gb|AFO45778.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ gb|EOM48414.1| hypothetical protein SKW_00547 [Enterococcus faecium EnGen0174]
+Length=47
+
+ Score = 97.4 bits (241),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  47
+
+
+>ref|WP_007215977.1| Cro/Cl family transcriptional regulator [Bacteria]
+ gb|EEO45581.2| omega transcriptional repressor [Bacteroides dorei 5_1_36/D4]
+ gb|EIY23036.1| hypothetical protein HMPREF1063_03415 [Bacteroides dorei CL02T00C15]
+ gb|EIY28365.1| hypothetical protein HMPREF1064_04125 [Bacteroides dorei CL02T12C06]
+ gb|EIY36084.1| hypothetical protein HMPREF1062_01083 [Bacteroides cellulosilyticus 
+CL02T12C19]
+ gb|EIY42809.1| hypothetical protein HMPREF1068_04412 [Bacteroides nordii CL02T12C05]
+ gb|EOD93486.1| hypothetical protein Q9G_01568 [Enterococcus faecalis EnGen0076]
+ gb|EOE27766.1| hypothetical protein QA7_02610 [Enterococcus faecalis EnGen0084]
+ gb|EOF23771.1| hypothetical protein SC7_02953 [Enterococcus faecalis EnGen0115]
+Length=47
+
+ Score = 95.5 bits (236),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  47
+
+
+>ref|WP_002415430.1| omega transcriptional repressor, partial [Enterococcus faecalis]
+ gb|EJU90367.1| omega transcriptional repressor, partial [Enterococcus faecalis 
+599]
+Length=46
+
+ Score = 95.1 bits (235),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 46/46 (100%), Positives = 46/46 (100%), Gaps = 0/46 (0%)
+
+Query  8   GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  46
+
+
+>ref|WP_010774372.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOI07628.1| hypothetical protein UCM_03197, partial [Enterococcus faecalis 
+EnGen0243]
+Length=45
+
+ Score = 90.9 bits (224),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  9   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           DKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   DKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  45
+
+
+>ref|WP_010744372.1| hypothetical protein [Enterococcus raffinosus]
+ gb|EOH79910.1| hypothetical protein UAK_01062 [Enterococcus raffinosus ATCC 
+49464]
+ gb|EOT74217.1| hypothetical protein I590_03077 [Enterococcus raffinosus ATCC 
+49464]
+Length=69
+
+ Score = 82.8 bits (203),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 41/52 (79%), Positives = 45/52 (87%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+            KK  + DKTVRVR DLH IIKI+TA+NGGNVKEVMD+ALEEYIRKYLP KL
+Sbjct  18  TKKPNVEDKTVRVRGDLHQIIKIDTAQNGGNVKEVMDRALEEYIRKYLPGKL  69
+
+
+>ref|WP_023042546.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|ERT20851.1| hypothetical protein O996_03457, partial [Enterococcus faecalis 
+BM4654]
+Length=67
+
+ Score = 76.6 bits (187),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010724674.1| hypothetical protein [Enterococcus faecium]
+ gb|EOK94931.1| hypothetical protein SIE_02595 [Enterococcus faecium EnGen0153]
+Length=87
+
+ Score = 76.6 bits (187),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_020220349.1| peptide-binding protein [Staphylococcus pseudintermedius]
+Length=77
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|YP_006015891.1| hypothetical protein SPSE_1801 [Staphylococcus pseudintermedius 
+ED99]
+ ref|WP_002311901.1| peptide-binding protein [Bacilli]
+ gb|EAN10534.1| hypothetical protein EfaeDRAFT_2459 [Enterococcus faecium DO]
+ gb|EEV55132.1| omega transcriptional repressor [Enterococcus faecium 1,231,410]
+ gb|EEW63665.1| hypothetical protein EFXG_02764 [Enterococcus faecium C68]
+ gb|ADX77052.1| hypothetical protein SPSE_1801 [Staphylococcus pseudintermedius 
+ED99]
+ gb|EHM32223.1| Hypothetical protein EfmE4452_0979 [Enterococcus faecium E4452]
+ gb|ELA74223.1| hypothetical protein OGS_03144 [Enterococcus faecium EnGen0002]
+ gb|ELA81362.1| hypothetical protein OI1_06323 [Enterococcus faecium EnGen0016]
+ gb|ELB27141.1| hypothetical protein OK3_05860 [Enterococcus faecium EnGen0036]
+ gb|ELB63868.1| hypothetical protein OM1_05388 [Enterococcus faecium EnGen0054]
+ gb|EMG24396.1| hypothetical protein SPJ1_2242 [Streptococcus parauberis KRS-02083]
+ gb|EOF94091.1| hypothetical protein SKK_02745 [Enterococcus faecium EnGen0168]
+ gb|EOG22814.1| hypothetical protein SMK_02758 [Enterococcus faecium EnGen0181]
+ gb|EOG31169.1| hypothetical protein SMQ_02703 [Enterococcus faecium EnGen0183]
+ gb|EOH52418.1| hypothetical protein UA5_02346 [Enterococcus faecium EnGen0264]
+ gb|EOJ23802.1| hypothetical protein UMU_03058 [Enterococcus faecalis EnGen0300]
+ gb|EOK18249.1| hypothetical protein WQ3_03065 [Enterococcus faecalis EnGen0338]
+ gb|EOK37288.1| hypothetical protein WUI_02731 [Enterococcus faecalis EnGen0335]
+ gb|EOK46158.1| hypothetical protein Q99_03311 [Enterococcus faecalis EnGen0064]
+ gb|EOL93985.1| hypothetical protein WM1_02705 [Enterococcus faecalis EnGen0341]
+ gb|EOM02468.1| hypothetical protein U9O_00102 [Enterococcus faecalis EnGen0233]
+ gb|EOT39901.1| hypothetical protein OMW_01690 [Enterococcus columbae DSM 7374 
+= ATCC 51263]
+ gb|EOW83886.1| hypothetical protein I568_01333 [Enterococcus columbae DSM 7374 
+= ATCC 51263]
+ gb|ERT29854.1| hypothetical protein O993_02459 [Enterococcus faecium BM4538]
+ gb|ERT29859.1| hypothetical protein O993_02456 [Enterococcus faecium BM4538]
+Length=87
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|YP_006377411.1| omega transcriptional repressor [Enterococcus faecium DO]
+ ref|YP_006539252.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|WP_002368882.1| peptide-binding protein [Enterococcus]
+ gb|EFM83919.1| omega transcriptional repressor [Enterococcus faecalis TX4248]
+ emb|CBW38875.1| Omega transcriptional repressor [Streptococcus pneumoniae]
+ emb|CBW39432.1| Omega transcriptional repressor protein [Streptococcus pneumoniae]
+ gb|AFK60429.1| omega transcriptional repressor [Enterococcus faecium DO]
+ gb|AFO45775.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ gb|EJY38426.1| omega transcriptional repressor [Enterococcus faecium 510]
+Length=89
+
+ Score = 76.6 bits (187),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>ref|WP_008787626.1| peptide-binding protein [Erysipelotrichaceae]
+ gb|EFP62595.1| omega transcriptional repressor [Erysipelotrichaceae bacterium 
+3_1_53]
+ gb|EFW06277.1| omega transcriptional repressor [Coprobacillus sp. 29_1]
+Length=87
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_002425012.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEU66470.1| omega Transcriptional Repressor [Enterococcus faecalis DS5]
+ gb|AGM38224.1| putative omega transcriptional repressor [[Clostridium] difficile]
+Length=79
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>ref|YP_003305351.1| AM6 [Enterococcus faecalis]
+ ref|YP_003864116.1| omega2-like protein [Enterococcus faecalis]
+ ref|YP_006960570.1| omega2-like protein [Enterococcus faecalis]
+ ref|YP_006961931.1| omega2-like protein [Enterococcus faecalis]
+ ref|WP_000527320.1| peptide-binding protein [Firmicutes]
+ gb|EEU72717.1| omega2 protein [Enterococcus faecalis HIP11704]
+ gb|ACY79533.1| AM6 [Enterococcus faecalis]
+ gb|ADM24828.1| omega2-like protein [Enterococcus faecalis]
+ gb|ADM24869.1| omega2-like protein [Enterococcus faecalis]
+ gb|ADM24910.1| omega2-like protein [Enterococcus faecalis]
+ gb|EIK10328.1| hypothetical protein MQG_02193 [Staphylococcus aureus subsp. 
+aureus VRS4]
+ gb|EIK11925.1| hypothetical protein MQI_01721 [Staphylococcus aureus subsp. 
+aureus VRS5]
+ gb|EIK20098.1| hypothetical protein MQM_02542 [Staphylococcus aureus subsp. 
+aureus VRS7]
+ gb|EIK27977.1| hypothetical protein MQS_02419 [Staphylococcus aureus subsp. 
+aureus VRS10]
+ gb|AFW17843.1| omega transcriptional repressor [Enterococcus thailandicus]
+ gb|EMC14919.1| AM6 protein [Streptococcus mutans NV1996]
+ gb|EOL03435.1| hypothetical protein SIW_02742 [Enterococcus faecium EnGen0158]
+ emb|CCT61365.1| putative omega transcriptional repressor [[Clostridium] difficile]
+ gb|EQF91195.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+824]
+ gb|EQK59289.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+ gb|EQK59291.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+Length=77
+
+ Score = 76.3 bits (186),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010717801.1| hypothetical protein, partial [Enterococcus]
+ gb|EOF37872.1| hypothetical protein SCM_02724, partial [Enterococcus faecalis 
+EnGen0104]
+ gb|EOF96292.1| hypothetical protein SKM_02574, partial [Enterococcus faecium 
+EnGen0169]
+ gb|EOL72104.1| hypothetical protein UK5_00006, partial [Enterococcus faecalis 
+EnGen0308]
+ gb|EOM12070.1| hypothetical protein UA1_02962, partial [Enterococcus faecalis 
+EnGen0234]
+ gb|EOM64298.1| hypothetical protein SKE_02536, partial [Enterococcus faecium 
+EnGen0165]
+Length=68
+
+ Score = 75.9 bits (185),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  56
+
+
+>ref|WP_010711805.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOE09426.1| hypothetical protein Q9S_02873 [Enterococcus faecalis EnGen0080]
+Length=77
+
+ Score = 75.9 bits (185),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010717764.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOF31430.1| hypothetical protein SCG_02730, partial [Enterococcus faecalis 
+EnGen0102]
+Length=75
+
+ Score = 75.9 bits (185),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  16  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  63
+
+
+>ref|YP_001836043.1| omega2 protein [Streptococcus pneumoniae CGSP14]
+ ref|YP_004033000.1| hypothetical protein pTW9_p64 [Enterococcus faecalis]
+ ref|WP_000635249.1| peptide-binding protein [Lactobacillales]
+ emb|CAD70612.1| omega2 protein [Plasmid pIlo8]
+ gb|ACB90578.1| omega2 protein [Streptococcus pneumoniae CGSP14]
+ gb|EEU82272.1| omega2 protein [Enterococcus faecalis D6]
+ dbj|BAJ34891.1| hypothetical protein [Enterococcus faecalis]
+ gb|EFR76574.1| omega transcriptional repressor [Enterococcus faecium TX0133C]
+Length=79
+
+ Score = 75.9 bits (185),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>ref|WP_000527319.1| peptide-binding protein [Bacilli]
+ gb|EIK27934.1| hypothetical protein MQU_02789 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK28359.1| hypothetical protein MQW_02780 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|ELA51195.1| hypothetical protein OGA_05494 [Enterococcus faecium EnGen0012]
+ gb|ELA56357.1| hypothetical protein OGE_05183 [Enterococcus faecium EnGen0022]
+ gb|ELA56615.1| hypothetical protein OGG_05385 [Enterococcus faecium EnGen0013]
+ gb|ELA74250.1| hypothetical protein OGU_05506 [Enterococcus faecium EnGen0011]
+ gb|ELA89008.1| hypothetical protein OI7_05294 [Enterococcus faecium EnGen0020]
+ gb|ELA92758.1| hypothetical protein OI9_05376 [Enterococcus faecium EnGen0001]
+ gb|ELA99269.1| hypothetical protein OIE_05931 [Enterococcus faecium EnGen0003]
+ gb|EOE32544.1| hypothetical protein QA7_01346 [Enterococcus faecalis EnGen0084]
+ gb|EOF35111.1| hypothetical protein SCK_01006 [Enterococcus faecalis EnGen0103]
+ gb|EOF47287.1| hypothetical protein SCQ_00954 [Enterococcus faecalis EnGen0116]
+ gb|EOF51619.1| hypothetical protein SCW_02396 [Enterococcus faecium EnGen0131]
+ gb|EOF77620.1| hypothetical protein SGE_02163 [Enterococcus faecium EnGen0137]
+ gb|EOH50646.1| hypothetical protein UA3_03001 [Enterococcus faecium EnGen0263]
+ gb|EOI18538.1| hypothetical protein UCY_03046 [Enterococcus faecalis EnGen0252]
+ gb|EOK89224.1| hypothetical protein SI9_01919 [Enterococcus faecium EnGen0150]
+ gb|EOL72956.1| hypothetical protein UM5_03163 [Enterococcus faecalis EnGen0280]
+ gb|EOM18911.1| hypothetical protein SSM_02948 [Enterococcus faecium EnGen0192]
+ gb|ERT34062.1| hypothetical protein O992_01904 [Enterococcus faecium NEF1]
+Length=77
+
+ Score = 75.9 bits (185),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|YP_004293200.1| omega transcriptional repressor [Streptococcus gallolyticus subsp. 
+gallolyticus ATCC BAA-2069]
+ ref|WP_013646120.1| peptide-binding protein [Streptococcus gallolyticus]
+ emb|CBZ49487.1| omega transcriptional repressor [Streptococcus gallolyticus subsp. 
+gallolyticus ATCC BAA-2069]
+Length=68
+
+ Score = 74.7 bits (182),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 37/44 (84%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYI  45
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   +
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRRVL  63
+
+
+>ref|YP_008731004.1| peptide-binding protein [Streptococcus pneumoniae A026]
+ ref|WP_023357022.1| peptide-binding protein [Streptococcus pneumoniae]
+ gb|AGZ48441.1| peptide-binding protein [Streptococcus pneumoniae A026]
+Length=64
+
+ Score = 74.3 bits (181),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           + KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  4   IQKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  52
+
+
+>ref|WP_010717196.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOF23740.1| hypothetical protein SC7_02954, partial [Enterococcus faecalis 
+EnGen0115]
+Length=53
+
+ Score = 73.2 bits (178),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM  37
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM  53
+
+
+>ref|WP_010815278.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOK42428.1| hypothetical protein WUI_00571 [Enterococcus faecalis EnGen0335]
+ gb|EOL94361.1| hypothetical protein WM1_02698 [Enterococcus faecalis EnGen0341]
+Length=63
+
+ Score = 72.8 bits (177),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 1/46 (2%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKE-VMDQALEEYIR  46
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKE V+ Q+ +  I+
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVVLLQSFKSTIK  63
+
+
+>dbj|BAG12518.1| hypothetical protein [Streptococcus pneumoniae]
+ dbj|BAG12524.1| hypothetical protein [Streptococcus pneumoniae]
+Length=211
+
+ Score = 74.3 bits (181),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 37/48 (77%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  2    AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+             KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  152  PKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  199
+
+
+>emb|CAL92505.1| hypothetical protein [Streptococcus pneumoniae]
+ emb|CAM32745.1| hypothetical protein [Streptococcus pneumoniae]
+Length=400
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  377
+
+
+>ref|WP_001830490.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|AAY63930.1| hypothetical protein [Streptococcus cristatus]
+ gb|EHD96247.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA16121]
+Length=400
+
+ Score = 73.9 bits (180),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  377
+
+
+>ref|WP_001823402.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHD49985.1| helix-turn-helix family protein [Streptococcus pneumoniae 7286-06]
+ gb|EHZ77580.1| replication initiation factor family protein [Streptococcus pneumoniae 
+7879-04]
+ gb|EHZ82284.1| replication initiation factor family protein [Streptococcus pneumoniae 
+7533-05]
+Length=472
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  449
+
+
+>ref|YP_007923810.1| Cro/CI family transcriptional regulator [Streptococcus oligofermentans 
+AS 1.3089]
+ ref|WP_000323283.1| Cro/CI family transcriptional regulator [Streptococcus]
+ gb|AGK71658.1| Cro/CI family transcriptional regulator [Streptococcus oligofermentans 
+AS 1.3089]
+ gb|EPR95651.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae 
+1779n23_04]
+Length=453
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  395  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  430
+
+
+>ref|WP_001841469.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHZ36123.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA19101]
+Length=472
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  449
+
+
+>ref|WP_001860235.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EJH22364.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA58981]
+Length=472
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  449
+
+
+>ref|YP_001836039.1| hypothetical protein SPCG_1322 [Streptococcus pneumoniae CGSP14]
+ ref|YP_002037950.1| Tn5251 transcriptional regulator Cro/CI family [Streptococcus 
+pneumoniae G54]
+ ref|YP_003879330.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+670-6B]
+ ref|YP_008496822.1| transcriptional regulator protein [Streptococcus intermedius 
+C270]
+ ref|WP_001815707.1| Cro/Cl family transcriptional regulator [Streptococcus]
+ gb|ACB90574.1| hypothetical protein SPCG_1322 [Streptococcus pneumoniae CGSP14]
+ gb|ACF55955.1| Tn5251 transcriptional regulator Cro/CI family [Streptococcus 
+pneumoniae G54]
+ emb|CAV31169.1| hypothetical protein [Streptococcus pneumoniae]
+ gb|ADM91230.1| transcriptional regulator, Cro/CI family [Streptococcus pneumoniae 
+670-6B]
+ gb|EFX36393.1| DNA-binding helix-turn-helix protein [Streptococcus infantis 
+ATCC 700779]
+ emb|CBW38817.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39343.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39362.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39386.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ gb|EHD73659.1| helix-turn-helix family protein [Streptococcus pneumoniae GA44194]
+ gb|EHD85456.1| helix-turn-helix family protein [Streptococcus pneumoniae GA11304]
+ gb|EHZ57409.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA47179]
+ gb|EHZ69809.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA47794]
+ gb|EIC50971.1| helix-turn-helix family protein [Streptococcus pneumoniae SV36]
+ gb|EIC58773.1| helix-turn-helix family protein [Streptococcus pneumoniae SV35]
+ gb|EIG39910.1| replication initiation factor [Streptococcus infantis ATCC 700779]
+ gb|EJG82677.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA52612]
+ gb|EJG89428.1| replication initiation factor/omega transcriptional repressor 
+domain protein [Streptococcus mitis SPAR10]
+ gb|EJH18928.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA60132]
+ gb|EOB23601.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+1488]
+ gb|EOB28608.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+1542]
+ gb|EOB28904.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+357]
+ gb|EOB34662.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+845]
+ gb|AGU77827.1| transcriptional regulator protein [Streptococcus intermedius 
+C270]
+Length=472
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  449
+
+
+>ref|WP_002989385.1| Cro/Cl family transcriptional regulator [Streptococcus pyogenes]
+ gb|EIK41766.1| Cro/CI family transcriptional regulator [Streptococcus pyogenes 
+HKU QMH11M0907901]
+Length=453
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  395  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  430
+
+
+>ref|WP_001841741.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHZ44584.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA40563]
+Length=472
+
+ Score = 74.3 bits (181),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 35/36 (97%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD  38
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVME  449
+
+
+>emb|CBJ57220.1| hypothetical protein [Streptococcus pneumoniae]
+Length=429
+
+ Score = 72.8 bits (177),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+>ref|WP_021406950.1| omega Transcriptional Repressor family protein [[Clostridium] 
+difficile]
+ gb|EQI14584.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F253]
+Length=65
+
+ Score = 67.8 bits (164),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_002343795.1| hypothetical protein [Enterococcus faecium]
+ gb|AAM77889.1|AF516335_9 unknown [Enterococcus faecium]
+ gb|ELB42042.1| hypothetical protein OKE_05396 [Enterococcus faecium EnGen0043]
+ gb|EOD82270.1| hypothetical protein OKM_02605 [Enterococcus faecium EnGen0041]
+Length=65
+
+ Score = 67.8 bits (164),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_002295953.1| transcriptional repressor, partial [Enterococcus faecium]
+ gb|EFF19383.1| transcriptional repressor [Enterococcus faecium E1071]
+Length=52
+
+ Score = 67.8 bits (164),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK  34
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK  52
+
+
+>ref|WP_001838040.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHE57933.1| helix-turn-helix family protein [Streptococcus pneumoniae 5185-06]
+Length=472
+
+ Score = 72.4 bits (176),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 37/49 (76%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1    MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            + KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  412  IQKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|YP_001965491.1| hypothetical protein [Pediococcus acidilactici]
+ ref|WP_012477195.1| hypothetical protein [Pediococcus acidilactici]
+ gb|ABB59537.1| hypothetical protein [Pediococcus acidilactici]
+ emb|CAN99689.1| MLS leader peptide [Streptococcus pneumoniae]
+ emb|CAZ39285.1| hypothetical protein [Streptococcus suis]
+Length=55
+
+ Score = 67.4 bits (163),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|NP_783846.1| hypothetical protein [Lactobacillus fermentum]
+ ref|YP_003725638.1| hypothetical protein HMPREF0837_12196, partial [Streptococcus 
+pneumoniae TCH8431/19A]
+ ref|WP_000502600.1| Cro/Cl family transcriptional regulator, partial [Lactobacillales]
+ emb|CAD59907.1| hypothetical protein [Lactobacillus fermentum]
+ gb|ABL76174.1| MLS leader peptide [Streptococcus cristatus]
+ dbj|BAG12483.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12512.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12519.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12525.1| MLS leader peptide [Streptococcus pneumoniae]
+ gb|ADI70424.1| omega transcriptional repressor [Streptococcus pneumoniae TCH8431/19A]
+ gb|EHE14451.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA19451]
+ gb|EHE39776.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA47688]
+ emb|CBZ42065.1| transcriptional regulator Cro/CI family [Streptococcus suis]
+ gb|EHZ14123.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA11856]
+ gb|ELA63778.1| hypothetical protein OGK_05311 [Enterococcus faecium EnGen0019]
+ gb|EOG24818.1| hypothetical protein SMO_02692 [Enterococcus faecium EnGen0182]
+ gb|EOI35893.1| hypothetical protein UIS_02808 [Enterococcus faecium EnGen0313]
+ gb|EOI42597.1| hypothetical protein UIW_02569 [Enterococcus faecium EnGen0315]
+ gb|EOM43496.1| hypothetical protein SKW_02728 [Enterococcus faecium EnGen0174]
+ gb|EPD20476.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+MNZ14]
+ gb|EPT70006.1| Cro/Cl family transcriptional regulator [Streptococcus agalactiae 
+CCUG 38383]
+Length=55
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>emb|CBW39428.1| Omega transcriptional repressor protein [Streptococcus pneumoniae]
+Length=84
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_002322271.1| conserved domain protein, partial [Enterococcus faecium]
+ gb|EFR71877.1| hypothetical protein HMPREF9526_01089, partial [Enterococcus 
+faecium TX0133B]
+ gb|EFR74257.1| hypothetical protein HMPREF9523_01834, partial [Enterococcus 
+faecium TX0133A]
+ gb|EJX76969.1| hypothetical protein HMPREF1372_01575, partial [Enterococcus 
+faecium P1139]
+ gb|EJY30379.1| hypothetical protein HMPREF1354_01634, partial [Enterococcus 
+faecium 514]
+ gb|EJY37731.1| hypothetical protein HMPREF1350_02412, partial [Enterococcus 
+faecium 509]
+Length=26
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  28  KNGGNVKEVMDQALEEYIRKYLPDKL  53
+           KNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   KNGGNVKEVMDKALEEYIRKYLPDKL  26
+
+
+>ref|WP_001284805.1| hypothetical protein [Staphylococcus aureus]
+ gb|EIK28176.1| hypothetical protein MQU_02720 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK28699.1| hypothetical protein MQW_02721 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+Length=75
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+           K V++R + H+++K  TAKNGG++++++D+A+EEYI KY
+Sbjct  34  KPVKLRGEYHYLLKNYTAKNGGSIRDIVDKAVEEYIDKY  72
+
+
+>ref|WP_002343793.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|ELB42039.1| hypothetical protein OKE_05393, partial [Enterococcus faecium 
+EnGen0043]
+Length=40
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIKI
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKI  40
+
+
+>ref|WP_002935077.1| peptide-binding protein [Lactobacillales]
+ gb|EEF65522.1| Omega transcriptional repressor [Streptococcus suis 89/1591]
+ gb|EMG24384.1| hypothetical protein SPJ1_2230 [Streptococcus parauberis KRS-02083]
+ gb|EOE26970.1| hypothetical protein QA3_00538 [Enterococcus faecalis EnGen0082]
+ gb|EOF76898.1| hypothetical protein SGG_02482 [Enterococcus faecium EnGen0138]
+ gb|EOH57551.1| hypothetical protein UA7_02991 [Enterococcus faecium EnGen0265]
+ gb|EOK87128.1| hypothetical protein SI7_01565 [Enterococcus faecium EnGen0149]
+ gb|EOL72338.1| hypothetical protein UK3_00002 [Enterococcus faecalis EnGen0305]
+ gb|EOW75109.1| hypothetical protein I591_02844 [Enterococcus villorum ATCC 700913]
+Length=54
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKF  40
+
+
+>ref|YP_006083090.1| Omega transcriptional repressor [Streptococcus suis D12]
+ ref|WP_014638415.1| peptide-binding protein [Streptococcus suis]
+ gb|AER19842.1| Omega transcriptional repressor [Streptococcus suis D12]
+Length=56
+
+ Score = 46.6 bits (109),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKF  42
+
+
+>ref|WP_010722284.1| hypothetical protein, partial [Enterococcus]
+ gb|EOH85415.1| hypothetical protein UAO_02861, partial [Enterococcus villorum 
+ATCC 700913]
+ gb|EOK78388.1| hypothetical protein SI1_02091, partial [Enterococcus faecium 
+EnGen0146]
+Length=45
+
+ Score = 46.2 bits (108),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKF  31
+
+
+>emb|CBW38879.1| Omega transcriptional regulator [Streptococcus pneumoniae]
+Length=73
+
+ Score = 44.3 bits (103),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  18  LHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           +HHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  32
+
+
+>ref|WP_022621513.1| hypothetical protein [[Clostridium] difficile]
+ emb|CCL68885.1| hypothetical protein BN184_1560022 [Clostridium difficile T3]
+Length=59
+
+ Score = 43.1 bits (100),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKN  29
+           AKKDIMGDKTVRVRADLHH   ++ A +
+Sbjct  18  AKKDIMGDKTVRVRADLHHSHPLQMATS  45
+
+
+>ref|YP_004516320.1| hypothetical protein Desku_0920 [Desulfotomaculum kuznetsovii 
+DSM 6115]
+ ref|WP_013822034.1| hypothetical protein [Desulfotomaculum kuznetsovii]
+ gb|AEG14519.1| hypothetical protein Desku_0920 [Desulfotomaculum kuznetsovii 
+DSM 6115]
+Length=55
+
+ Score = 37.4 bits (85),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 16/38 (42%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+            VR+ ADLH  IKI + + G ++++++ QALE+Y+R++
+Sbjct  10  AVRIPADLHRRIKILSVETGISLQDLVRQALEDYLRQH  47
+
+
+>ref|WP_002321554.1| omega Transcriptional Repressor, partial [Enterococcus faecium]
+ gb|EFS05304.1| omega transcriptional repressor, partial [Enterococcus faecium 
+TX0133a04]
+Length=40
+
+ Score = 36.2 bits (82),  Expect = 0.079, Method: Compositional matrix adjust.
+ Identities = 18/28 (64%), Positives = 21/28 (75%), Gaps = 0/28 (0%)
+
+Query  22  IKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           IKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   IKIETAKNGGNVKEVMEIRLRSKLKSVL  28
+
+
+>ref|YP_796520.1| hypothetical protein LACR_C56 [Lactococcus lactis subsp. cremoris 
+SK11]
+ ref|YP_005877589.1| transcriptional repressor [Lactococcus lactis]
+ ref|WP_011669089.1| hypothetical protein [Lactococcus lactis]
+ gb|ABA47423.1| transcriptional repressor [Lactococcus lactis]
+ gb|ABJ74089.1| hypothetical protein LACR_C56 [Lactococcus lactis subsp. cremoris 
+SK11]
+ gb|EQC57074.1| hypothetical protein LLT6_12390 [Lactococcus lactis subsp. cremoris 
+TIFN6]
+Length=67
+
+ Score = 35.4 bits (80),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRK  47
+           K ++V  D+H  +KI +A+ G N+KE  +QA+ E++ +
+Sbjct  28  KLIKVDEDIHKDLKIYSARTGKNIKETAEQAIREFLER  65
+
+
+>ref|WP_023189865.1| Transcriptional repressor [Lactococcus lactis]
+ emb|CDI47609.1| Transcriptional repressor [Lactococcus lactis subsp. lactis Dephy 
+1]
+Length=67
+
+ Score = 35.0 bits (79),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRK  47
+           K ++V  D+H  +KI +A+ G N+KE  +QA+ E++ +
+Sbjct  28  KLIKVDEDIHKDLKIYSARTGKNIKETAEQAIREFLER  65
+
+
+>ref|NP_923576.1| hypothetical protein gsr0630 [Gloeobacter violaceus PCC 7421]
+ ref|WP_011140632.1| hypothetical protein [Gloeobacter violaceus]
+ dbj|BAC88571.1| gsr0630 [Gloeobacter violaceus PCC 7421]
+Length=83
+
+ Score = 34.7 bits (78),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIR  46
+           M   TVR+ A  H  +K   A++G +++ V+D+A+EEY R
+Sbjct  1   MQGPTVRISASAHRTLKELAARSGESMQTVLDRAVEEYRR  40
+
+
+>gb|EKE05104.1| hypothetical protein ACD_19C00426G0126 [uncultured bacterium]
+Length=52
+
+ Score = 32.7 bits (73),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 25/41 (61%), Gaps = 0/41 (0%)
+
+Query  5   DIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYI  45
+           DI   K VR+    H ++KI   ++G  +KEV+++ L +Y+
+Sbjct  7   DIKTTKQVRIDYGWHRLLKIRAVEDGKTIKEVLEELLSKYL  47
+
+
+>ref|WP_018023048.1| hypothetical protein [Corynebacterium doosanense]
+Length=55
+
+ Score = 32.3 bits (72),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 27/42 (64%), Gaps = 4/42 (10%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDK  52
+           T+R+ ++LH  +K++ A  G ++KE+    LEE +R YL  K
+Sbjct  16  TLRMNSELHRQLKVQAANEGRSMKEI----LEELLRGYLDKK  53
+
+
+>ref|WP_002381023.1| conserved hypothetical protein, partial [Enterococcus faecalis]
+ gb|EEU86835.1| conserved hypothetical protein [Enterococcus faecalis CH188]
+ gb|EOI97741.1| hypothetical protein UME_03099, partial [Enterococcus faecalis 
+EnGen0306]
+Length=32
+
+ Score = 32.0 bits (71),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  2   AKKDIMGDKTVRVRA  16
+           AKKDIMGDKTVRVRA
+Sbjct  18  AKKDIMGDKTVRVRA  32
+
+
+>ref|WP_002380045.1| conserved hypothetical protein, partial [Enterococcus faecalis]
+ gb|EEU84309.1| conserved hypothetical protein [Enterococcus faecalis CH188]
+Length=34
+
+ Score = 32.0 bits (71),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/15 (100%), Positives = 15/15 (100%), Gaps = 0/15 (0%)
+
+Query  2   AKKDIMGDKTVRVRA  16
+           AKKDIMGDKTVRVRA
+Sbjct  20  AKKDIMGDKTVRVRA  34
+
+
+>ref|WP_003377836.1| CopG family transcriptional regulator [Clostridium botulinum]
+ gb|EGO89283.1| transcriptional regulator, CopG family protein [Clostridium botulinum 
+C str. Stockholm]
+Length=54
+
+ Score = 32.0 bits (71),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 15/42 (36%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDK  52
+            +RV ++L   +     KNG N+ E++ + LEEYI+ +  DK
+Sbjct  11  NIRVESELKEKVSKIAFKNGTNLSELIRRFLEEYIKAHCKDK  52
+
+
+>ref|YP_003569737.1| hypothetical protein PSR_61023 [Salinibacter ruber M8]
+ ref|WP_013060379.1| hypothetical protein [Salinibacter ruber]
+ emb|CBH22779.1| Hypothetical protein SRM_p61023 [Salinibacter ruber M8]
+Length=77
+
+ Score = 32.0 bits (71),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 28/44 (64%), Gaps = 4/44 (9%)
+
+Query  9   DKTVRVRAD----LHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+           ++T R+ A+    LH  +++E A+ G  +K+VM +AL EY+  Y
+Sbjct  31  EETKRLNANVPESLHQAVRMEAARRGVEMKQVMVEALTEYLPNY  74
+
+
+>ref|YP_003034152.1| transcriptional regulator, CopG family [Clostridium botulinum 
+D str. 1873]
+ ref|WP_012775945.1| CopG family transcriptional regulator [Clostridium botulinum]
+ gb|ACT33596.1| transcriptional regulator, CopG family [Clostridium botulinum 
+D str. 1873]
+Length=54
+
+ Score = 31.6 bits (70),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/42 (36%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDK  52
+            +RV ++L   +     KNG N+ E++ + LEEYI+ +  DK
+Sbjct  11  NIRVESELKEKVSKIAFKNGTNLSELIRRFLEEYIKAHCGDK  52
+
+
+>ref|WP_008868726.1| CopG domain protein DNA-binding domain protein [Desulfonatronospira 
+thiodismutans]
+ gb|EFI35597.1| CopG domain protein DNA-binding domain protein [Desulfonatronospira 
+thiodismutans ASO3-1]
+Length=76
+
+ Score = 31.6 bits (70),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 22/39 (56%), Gaps = 0/39 (0%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           T+ V ++ +H  +   A+N     E++  A+EEY R YL
+Sbjct  5   TINVSSETYHAFQEYAAQNNRTASELIRNAMEEYRRSYL  43
+
+
+>ref|YP_006262895.1| hypothetical protein DGo_PD0028 [Deinococcus gobiensis I-0]
+ ref|WP_014686912.1| hypothetical protein [Deinococcus gobiensis]
+ gb|AFD28102.1| hypothetical protein DGo_PD0028 [Deinococcus gobiensis I-0]
+Length=92
+
+ Score = 31.6 bits (70),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 24/37 (65%), Gaps = 0/37 (0%)
+
+Query  12  VRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+            R+   LH  +K+  A  G  +++V+ +AL+EY+RK+
+Sbjct  54  TRLPRSLHKRLKVHVAVEGRKIQDVVQKALDEYLRKF  90
+
+
+>ref|WP_023031160.1| hypothetical protein [Corynebacterium sp. KPL1818]
+ gb|ERS56472.1| hypothetical protein HMPREF1261_02477 [Corynebacterium sp. KPL1818]
+Length=88
+
+ Score = 31.2 bits (69),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  4   KDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIR  46
+           +D +   TV +  +LH  +K+  A+ G  ++E++   LEEY+R
+Sbjct  43  RDYVKKMTVEIDRELHSELKVIAAQKGVTIREIVSNYLEEYVR  85
+
+
+>ref|WP_016310877.1| peptide/nickel transport system substrate-binding protein [Paenibacillus 
+barengoltzii]
+ gb|EOS58658.1| peptide/nickel transport system substrate-binding protein [Paenibacillus 
+barengoltzii G22]
+Length=610
+
+ Score = 33.1 bits (74),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  10   KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDK  52
+            K V +  DL  + KI+ A  GG+V+E ++  LE  I++ + DK
+Sbjct  330  KNVEIVTDLSSLDKIQRAGGGGSVREALEAGLETKIKELVADK  372
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308940896367
+Results from round 2
+
+
+Query= 2BNZA
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|YP_232757.1|  transcriptional repressor [Streptococcus pyogen...  81.2    1e-18
+ref|WP_000260238.1|  omega protein [Streptococcus agalactiae] >gb...  81.2    1e-18
+ref|YP_005704794.1|  omega Transcriptional Repressor family prote...  80.8    2e-18
+pdb|2BNW|A  Chain A, Structural Basis For Cooperative Binding Of ...  80.1    2e-18
+ref|WP_010717791.1|  hypothetical protein [Enterococcus] >gb|EOF4...  80.5    2e-18
+ref|WP_002326824.1|  hypothetical protein, partial [Enterococcus ...  80.1    3e-18
+ref|WP_002295735.1|  peptide-binding protein [Enterococcus] >dbj|...  80.1    3e-18
+ref|YP_003305355.1|  AM11 [Enterococcus faecalis] >ref|YP_0047120...  80.1    4e-18
+ref|WP_000527317.1|  peptide-binding protein [Firmicutes] >gb|EEU...  79.7    5e-18
+ref|WP_002401482.1|  peptide-binding protein [Enterococcus faecal...  79.3    5e-18
+ref|WP_007209312.1|  peptide-binding protein [Enterococcus italic...  79.3    7e-18
+ref|WP_010711113.1|  hypothetical protein [Enterococcus faecalis]...  78.9    8e-18
+ref|WP_010726399.1|  hypothetical protein, partial [Enterococcus]...  78.9    8e-18
+ref|WP_002355411.1|  peptide-binding protein [Enterococcus faecal...  78.9    8e-18
+ref|WP_010776966.1|  hypothetical protein, partial [Enterococcus ...  78.5    1e-17
+ref|YP_005704842.1|  omega Transcriptional Repressor family prote...  78.5    1e-17
+ref|WP_010724790.1|  hypothetical protein, partial [Enterococcus ...  77.4    3e-17
+ref|YP_007152158.1|  transcriptional repressor, omega family [Ent...  77.8    3e-17
+ref|WP_010822042.1|  hypothetical protein [Enterococcus faecalis]...  77.4    3e-17
+ref|WP_016177607.1|  hypothetical protein [Enterococcus durans] >...  77.0    5e-17
+ref|WP_002364919.1|  peptide-binding protein [Enterococcus faecal...  75.8    1e-16
+ref|WP_002363035.1|  peptide-binding protein [Enterococcus faecal...  75.5    2e-16
+ref|YP_006539255.1|  omega Transcriptional Repressor family prote...  73.5    6e-16
+ref|WP_010744372.1|  hypothetical protein [Enterococcus raffinosu...  73.9    7e-16
+emb|CBJ57220.1|  hypothetical protein [Streptococcus pneumoniae]      78.2    1e-15
+ref|WP_001838040.1|  Cro/Cl family transcriptional regulator [Str...  77.8    2e-15
+ref|YP_007923810.1|  Cro/CI family transcriptional regulator [Str...  77.4    2e-15
+ref|WP_002415430.1|  omega transcriptional repressor, partial [En...  72.0    2e-15
+ref|WP_001860235.1|  Cro/Cl family transcriptional regulator [Str...  77.4    2e-15
+ref|YP_001836039.1|  hypothetical protein SPCG_1322 [Streptococcu...  77.4    2e-15
+ref|WP_001823402.1|  Cro/Cl family transcriptional regulator [Str...  77.4    2e-15
+ref|WP_002989385.1|  Cro/Cl family transcriptional regulator [Str...  77.4    3e-15
+ref|WP_001841741.1|  Cro/Cl family transcriptional regulator [Str...  77.4    3e-15
+ref|WP_007215977.1|  Cro/Cl family transcriptional regulator [Bac...  72.0    3e-15
+ref|WP_001841469.1|  Cro/Cl family transcriptional regulator [Str...  77.4    3e-15
+emb|CAL92505.1|  hypothetical protein [Streptococcus pneumoniae] ...  77.0    3e-15
+ref|WP_001830490.1|  Cro/Cl family transcriptional regulator [Str...  77.0    3e-15
+dbj|BAG12518.1|  hypothetical protein [Streptococcus pneumoniae] ...  72.0    4e-14
+ref|WP_010724674.1|  hypothetical protein [Enterococcus faecium] ...  69.3    6e-14
+ref|YP_006377411.1|  omega transcriptional repressor [Enterococcu...  69.3    7e-14
+emb|CBW39428.1|  Omega transcriptional repressor protein [Strepto...  68.9    7e-14
+ref|WP_008787626.1|  peptide-binding protein [Erysipelotrichaceae...  69.3    7e-14
+ref|YP_006015891.1|  hypothetical protein SPSE_1801 [Staphylococc...  68.9    8e-14
+ref|WP_010774372.1|  hypothetical protein, partial [Enterococcus ...  67.7    1e-13
+ref|WP_020220349.1|  peptide-binding protein [Staphylococcus pseu...  68.5    1e-13
+ref|WP_010711805.1|  hypothetical protein [Enterococcus faecalis]...  68.1    1e-13
+ref|WP_002425012.1|  peptide-binding protein [Enterococcus faecal...  68.1    1e-13
+ref|YP_001836043.1|  omega2 protein [Streptococcus pneumoniae CGS...  68.1    1e-13
+ref|YP_003305351.1|  AM6 [Enterococcus faecalis] >ref|YP_00386411...  67.7    2e-13
+ref|WP_000527319.1|  peptide-binding protein [Bacilli] >gb|EIK279...  67.7    2e-13
+ref|WP_010717764.1|  hypothetical protein, partial [Enterococcus ...  67.4    3e-13
+ref|WP_023042546.1|  hypothetical protein, partial [Enterococcus ...  67.0    4e-13
+ref|WP_010717801.1|  hypothetical protein, partial [Enterococcus]...  67.0    4e-13
+ref|YP_008731004.1|  peptide-binding protein [Streptococcus pneum...  65.4    1e-12
+ref|YP_004293200.1|  omega transcriptional repressor [Streptococc...  63.9    5e-12
+ref|WP_021406950.1|  omega Transcriptional Repressor family prote...  62.7    2e-11
+ref|WP_002343795.1|  hypothetical protein [Enterococcus faecium] ...  62.4    2e-11
+ref|YP_001965491.1|  hypothetical protein [Pediococcus acidilacti...  61.2    4e-11
+ref|NP_783846.1|  hypothetical protein [Lactobacillus fermentum] ...  61.2    5e-11
+ref|WP_010815278.1|  hypothetical protein [Enterococcus faecalis]...  59.3    2e-10
+ref|WP_010717196.1|  hypothetical protein, partial [Enterococcus ...  57.3    1e-09
+ref|WP_002295953.1|  transcriptional repressor, partial [Enteroco...  53.5    4e-08
+ref|WP_001284805.1|  hypothetical protein [Staphylococcus aureus]...  52.7    1e-07
+emb|CBW38879.1|  Omega transcriptional regulator [Streptococcus p...  50.0    1e-06
+ref|WP_022621513.1|  hypothetical protein [[Clostridium] difficil...  46.9    1e-05
+ref|WP_002322271.1|  conserved domain protein, partial [Enterococ...  40.8    0.001
+ref|YP_006083090.1|  Omega transcriptional repressor [Streptococc...  40.0    0.003
+ref|WP_002935077.1|  peptide-binding protein [Lactobacillales] >g...  40.0    0.004
+ref|WP_010722284.1|  hypothetical protein, partial [Enterococcus]...  39.2    0.006
+ref|WP_002343793.1|  hypothetical protein, partial [Enterococcus ...  38.5    0.011
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_002321554.1|  omega Transcriptional Repressor, partial [En...  36.9    0.041
+ref|WP_018023048.1|  hypothetical protein [Corynebacterium doosan...  33.1    0.96 
+ref|NP_923576.1|  hypothetical protein gsr0630 [Gloeobacter viola...  33.1    1.1  
+ref|WP_023189865.1|  Transcriptional repressor [Lactococcus lacti...  32.3    2.1  
+ref|WP_016310877.1|  peptide/nickel transport system substrate-bi...  34.6    2.2  
+ref|YP_796520.1|  hypothetical protein LACR_C56 [Lactococcus lact...  31.9    3.3  
+ref|YP_004516320.1|  hypothetical protein Desku_0920 [Desulfotoma...  31.2    5.7  
+ref|YP_538497.1|  HicB-like protein [Rickettsia bellii RML369-C] ...  31.5    7.5  
+
+
+>ref|YP_232757.1| transcriptional repressor [Streptococcus pyogenes]
+ ref|YP_232764.1| transcriptional repressor [Streptococcus pyogenes]
+ ref|YP_783901.1| hypothetical protein pRE25p17 [Enterococcus faecalis]
+ ref|YP_976071.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_976094.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_001019030.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001019051.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001965496.1| putative omega protein [Pediococcus acidilactici]
+ ref|YP_001974791.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_001974810.1| transcriptional repressor [Enterococcus faecium]
+ ref|YP_002128404.1| putative transcriptional repressor [Enterococcus faecium]
+ ref|YP_003024051.1| omega protein [Streptococcus suis BM407]
+ ref|YP_004033016.1| transcription repressor [Enterococcus faecalis]
+ ref|YP_008390860.1| Omega Transcriptional Repressor [Enterococcus faecium Aus0085]
+ ref|WP_001835296.1| peptide-binding protein [Bacilli]
+ pdb|1IRQ|A Chain A, Crystal Structure Of Omega Transcriptional Repressor 
+At 1.5a Resolution
+ pdb|1IRQ|B Chain B, Crystal Structure Of Omega Transcriptional Repressor 
+At 1.5a Resolution
+ emb|CAA47088.1| unnamed protein product [Streptococcus pyogenes]
+ emb|CAA47087.1| unnamed protein product [Streptococcus pyogenes]
+ emb|CAC29172.1| hypothetical protein [Enterococcus faecalis]
+ emb|CAD70609.1| omega protein [Plasmid pIlo1]
+ emb|CAD70617.1| omega protein [Plasmid pIlo8]
+ gb|AAR27197.1| transcriptional repressor [Streptococcus pyogenes]
+ gb|AAR27202.1| transcriptional repressor [Streptococcus pyogenes]
+ gb|ABB59542.1| putative omega protein [Pediococcus acidilactici]
+ emb|CAL36528.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAL36551.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAL90934.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAL90957.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAP62625.1| putative transcriptional repressor [Enterococcus faecium]
+ emb|CAP62647.1| transcriptional repressor [Enterococcus faecium]
+ emb|CAP70020.1| putative transcriptional repressor [Enterococcus faecium]
+ gb|EEI55827.1| omega transcriptional repressor [Enterococcus faecalis EnGen0297]
+ emb|CAZ55653.1| omega protein [Streptococcus suis BM407]
+ gb|EEV42430.1| transcriptional repressor [Enterococcus faecium 1,230,933]
+ emb|CAZ67077.1| transcriptional repressor Omega [Enterococcus faecium]
+ gb|EFF27264.1| putative transcriptional repressor [Enterococcus faecium E1679]
+ gb|EFF28588.1| omega, transcriptional repressor [Enterococcus faecium U0317]
+ gb|EFF60300.1| omega Transcriptional Repressor [Enterococcus faecium PC4.1]
+ dbj|BAJ34907.1| transcription repressor [Enterococcus faecalis]
+ gb|EGC67887.1| omega transcriptional repressor [Enterococcus casseliflavus ATCC 
+12755]
+ gb|EHC01726.1| transcriptional repressor [Streptococcus suis R61]
+ gb|AET37229.1| omega [Staphylococcus aureus]
+ gb|EJU82515.1| omega transcriptional repressor [Staphylococcus aureus subsp. 
+aureus CM05]
+ gb|EJX38291.1| omega transcriptional repressor [Enterococcus faecium S447]
+ gb|EJX51489.1| omega transcriptional repressor [Enterococcus faecium R496]
+ gb|EJX60381.1| omega transcriptional repressor [Enterococcus faecium R446]
+ gb|EJY00861.1| omega transcriptional repressor [Enterococcus faecium ERV161]
+ gb|EJY04117.1| omega transcriptional repressor [Enterococcus faecium ERV102]
+ gb|EJY06979.1| omega transcriptional repressor [Enterococcus faecium E422]
+ gb|EJY14449.1| omega transcriptional repressor [Enterococcus faecium C621]
+ gb|EJY24422.1| omega transcriptional repressor [Enterococcus faecium 515]
+ emb|CCH26388.1| omega transcriptional repressor [Streptococcus pyogenes]
+ gb|EPI16759.1| omega transcriptional repressor [Enterococcus faecium SD2A-2]
+ gb|AGS77126.1| Omega Transcriptional Repressor [Enterococcus faecium Aus0085]
+Length=71
+
+ Score = 81.2 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+>ref|WP_000260238.1| omega protein [Streptococcus agalactiae]
+ gb|EPU28321.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-211]
+ gb|EPU31908.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-212]
+ gb|EPX00293.1| peptide-binding protein [Streptococcus agalactiae MRI Z1-209]
+Length=71
+
+ Score = 81.2 bits (199),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  71
+
+
+>ref|YP_005704794.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ ref|WP_000527318.1| peptide-binding protein [Firmicutes]
+ gb|ADX79061.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ gb|EJY36594.1| omega transcriptional repressor [Enterococcus faecium 510]
+ gb|ELA74203.1| hypothetical protein OGU_05518 [Enterococcus faecium EnGen0011]
+ gb|ELA81365.1| hypothetical protein OI1_06320 [Enterococcus faecium EnGen0016]
+ gb|ELA83150.1| hypothetical protein OI3_05063 [Enterococcus faecium EnGen0021]
+ gb|ELA99273.1| hypothetical protein OIE_05926 [Enterococcus faecium EnGen0003]
+ gb|ELB18011.1| hypothetical protein OIS_05206 [Enterococcus faecium EnGen0035]
+ gb|ELB22838.1| hypothetical protein OIU_04897 [Enterococcus faecium EnGen0039]
+ gb|ELB62326.1| hypothetical protein OKY_05117 [Enterococcus faecium EnGen0048]
+ gb|ELB68400.1| hypothetical protein OM3_05774 [Enterococcus faecium EnGen0051]
+ gb|ELB68765.1| hypothetical protein OM5_02838 [Enterococcus faecium EnGen0050]
+ gb|ELB73859.1| hypothetical protein OM7_06005 [Enterococcus faecium EnGen0046]
+ gb|ELB79942.1| hypothetical protein OMA_05893 [Enterococcus faecium EnGen0045]
+ gb|ELB80148.1| hypothetical protein OMC_05902 [Enterococcus faecium EnGen0049]
+ gb|EOD81997.1| hypothetical protein Q93_03329 [Enterococcus faecalis EnGen0065]
+ gb|EOF22860.1| hypothetical protein SC7_02997 [Enterococcus faecalis EnGen0115]
+ gb|EOF31407.1| hypothetical protein SC9_03257 [Enterococcus faecalis EnGen0101]
+ gb|EOF35115.1| hypothetical protein SCK_01010 [Enterococcus faecalis EnGen0103]
+ gb|EOF35279.1| hypothetical protein SCG_01004 [Enterococcus faecalis EnGen0102]
+ gb|EOF43182.1| hypothetical protein SCO_00996 [Enterococcus faecalis EnGen0105]
+ gb|EOF47291.1| hypothetical protein SCQ_00958 [Enterococcus faecalis EnGen0116]
+ gb|EOF50602.1| hypothetical protein SCU_00997 [Enterococcus faecalis EnGen0118]
+ gb|EOF52722.1| hypothetical protein SCS_00978 [Enterococcus faecalis EnGen0117]
+ gb|EOF70852.1| hypothetical protein SEU_00780 [Enterococcus faecium EnGen0130]
+ gb|EOF74205.1| hypothetical protein SGC_02583 [Enterococcus faecium EnGen0136]
+ gb|EOF90966.1| hypothetical protein SK5_00473 [Enterococcus faecium EnGen0161]
+ gb|EOF91180.1| hypothetical protein SK7_00563 [Enterococcus faecium EnGen0162]
+ gb|EOG04694.1| hypothetical protein SKQ_00901 [Enterococcus faecium EnGen0171]
+ gb|EOG14603.1| hypothetical protein SMC_02975 [Enterococcus faecium EnGen0179]
+ gb|EOG15591.1| hypothetical protein SM7_02617 [Enterococcus faecium EnGen0178]
+ gb|EOG27405.1| hypothetical protein SMG_01321 [Enterococcus faecium EnGen0180]
+ gb|EOG39255.1| hypothetical protein SMS_00630 [Enterococcus faecium EnGen0184]
+ gb|EOH32870.1| hypothetical protein SQW_02740 [Enterococcus faecium EnGen0185]
+ gb|EOH41414.1| hypothetical protein SSG_02792 [Enterococcus faecium EnGen0190]
+ gb|EOH43347.1| hypothetical protein SSI_02932 [Enterococcus faecium EnGen0191]
+ gb|EOI17850.1| hypothetical protein UCY_03169 [Enterococcus faecalis EnGen0252]
+ gb|EOI26465.1| hypothetical protein UE1_00501 [Enterococcus faecalis EnGen0251]
+ gb|EOI35217.1| hypothetical protein UE9_02653 [Enterococcus faecium EnGen0267]
+ gb|EOI77597.1| hypothetical protein UKU_02918 [Enterococcus faecalis EnGen0297]
+ gb|EOI95404.1| hypothetical protein UMC_02527 [Enterococcus faecalis EnGen0302]
+ gb|EOI96357.1| hypothetical protein UM9_00494 [Enterococcus faecalis EnGen0298]
+ gb|EOJ05859.1| hypothetical protein UME_00544 [Enterococcus faecalis EnGen0306]
+ gb|EOJ21315.1| hypothetical protein UMU_03173 [Enterococcus faecalis EnGen0300]
+ gb|EOJ66292.1| hypothetical protein WMQ_00437 [Enterococcus faecalis EnGen0350]
+ gb|EOK14652.1| hypothetical protein WQ1_02102 [Enterococcus faecium EnGen0371]
+ gb|EOK18188.1| hypothetical protein WQ3_03087 [Enterococcus faecalis EnGen0338]
+ gb|EOK45486.1| hypothetical protein Q99_03389 [Enterococcus faecalis EnGen0064]
+ gb|EOK45580.1| hypothetical protein Q97_03390 [Enterococcus faecalis EnGen0061]
+ gb|EOL09027.1| hypothetical protein SIW_00775 [Enterococcus faecium EnGen0158]
+ gb|EOL09576.1| hypothetical protein SIY_01182 [Enterococcus faecium EnGen0159]
+ gb|EOL33829.1| hypothetical protein WME_02862 [Enterococcus faecalis EnGen0362]
+ gb|EOL60722.1| hypothetical protein UCS_02502 [Enterococcus faecalis EnGen0246]
+ gb|EOL60768.1| hypothetical protein UCU_03200 [Enterococcus faecalis EnGen0247]
+ gb|EOL72598.1| hypothetical protein UM5_03191 [Enterococcus faecalis EnGen0280]
+ gb|EOM00015.1| hypothetical protein U9O_00597 [Enterococcus faecalis EnGen0233]
+ gb|EOM01549.1| hypothetical protein U9S_02449 [Enterococcus faecium EnGen0259]
+ gb|EOM18861.1| hypothetical protein SSM_02960 [Enterococcus faecium EnGen0192]
+ gb|EOM41192.1| hypothetical protein SKS_00499 [Enterococcus faecium EnGen0172]
+ gb|EOM69106.1| hypothetical protein SKC_00531 [Enterococcus faecium EnGen0164]
+ gb|EOW75114.1| hypothetical protein I591_02849 [Enterococcus villorum ATCC 700913]
+ gb|EQC76577.1| transcriptional regulator, putative [Enterococcus sp. HSIEG1]
+ gb|EQC77003.1| transcriptional regulator, putative [Enterococcus sp. HSIEG1]
+ gb|EQI83511.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+Y384]
+ gb|ERK33164.1| peptide-binding protein [Enterococcus faecium CRL1879]
+Length=69
+
+ Score = 80.8 bits (198),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>pdb|2BNW|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNW|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Direct Dna Heptad Repeats
+ pdb|2BNZ|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2BNZ|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Omega Repressor To Inverted Dna Heptad Repeats
+ pdb|2CAX|A Chain A, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|B Chain B, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|C Chain C, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+ pdb|2CAX|D Chain D, Structural Basis For Cooperative Binding Of Ribbon-Helix- 
+Helix Repressor Omega To Mutated Direct Dna Heptad Repeats
+Length=53
+
+ Score = 80.1 bits (196),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+
+
+>ref|WP_010717791.1| hypothetical protein [Enterococcus]
+ gb|EOF41421.1| hypothetical protein SCM_00996 [Enterococcus faecalis EnGen0104]
+ gb|EOG08841.1| hypothetical protein SKY_01121 [Enterococcus faecium EnGen0175]
+ gb|EOG11920.1| hypothetical protein SM3_01091 [Enterococcus faecium EnGen0176]
+ gb|EOM17367.1| hypothetical protein UA1_00096 [Enterococcus faecalis EnGen0234]
+ gb|EOM41629.1| hypothetical protein SKU_00828 [Enterococcus faecium EnGen0173]
+Length=69
+
+ Score = 80.5 bits (197),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_002326824.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|ELA56447.1| hypothetical protein OGG_05454, partial [Enterococcus faecium 
+EnGen0013]
+Length=67
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  16  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  67
+
+
+>ref|WP_002295735.1| peptide-binding protein [Enterococcus]
+ dbj|BAE98122.1| hypothetical protein [Enterococcus faecalis]
+ gb|EFF19602.1| hypothetical protein EfmE1071_2297 [Enterococcus faecium E1071]
+ gb|EFM69449.1| omega transcriptional repressor [Enterococcus faecalis TX0109]
+ gb|AFW17847.1| omega transcriptional repressor [Enterococcus thailandicus]
+ gb|AFW17895.1| omega transcriptional repressor [Enterococcus faecalis]
+ gb|EPI15919.1| omega transcriptional repressor [Enterococcus faecium SD1C-2]
+Length=71
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|YP_003305355.1| AM11 [Enterococcus faecalis]
+ ref|YP_004712081.1| protein chain release factor B [Eggerthella sp. YY7918]
+ ref|YP_006078308.1| hypothetical protein SSU12_0877 [Streptococcus suis SS12]
+ ref|YP_006080498.1| hypothetical protein SSUD9_1047 [Streptococcus suis D9]
+ ref|YP_006960573.1| omega [Enterococcus faecalis]
+ ref|YP_006961934.1| omega [Enterococcus faecalis]
+ ref|WP_002321610.1| peptide-binding protein [Bacteria]
+ gb|AAQ94629.1| unknown [Trueperella pyogenes]
+ gb|ABP57328.1| hypothetical protein bst066 [Bacteroides uniformis]
+ emb|CAJ21498.1| hypothetical protein [[Clostridium] difficile]
+ gb|EEO61274.1| omega transcriptional repressor [Bacteroides sp. 9_1_42FAA]
+ gb|EEU72713.1| conserved hypothetical protein [Enterococcus faecalis HIP11704]
+ gb|ACY79537.1| AM11 [Enterococcus faecalis]
+ gb|EFH07113.1| omega transcriptional repressor [Clostridium difficile NAP08]
+ gb|EFH16274.1| omega transcriptional repressor [Clostridium difficile NAP07]
+ gb|EFI05279.1| omega Transcriptional Repressor superfamily [Bacteroides sp. 
+1_1_14]
+ gb|ADM24831.1| omega [Enterococcus faecalis]
+ gb|ADM24872.1| omega [Enterococcus faecalis]
+ gb|EFR67535.1| omega transcriptional repressor [Enterococcus faecium TX0133a01]
+ gb|EFR76903.1| omega transcriptional repressor [Enterococcus faecium TX0133C]
+ gb|EFS05077.1| omega transcriptional repressor [Enterococcus faecium TX0133a04]
+ gb|EFV31436.1| omega Transcriptional Repressor [Bacteroides eggerthii 1_2_48FAA]
+ dbj|BAK45680.1| protein chain release factor B [Eggerthella sp. YY7918]
+ gb|AER15060.1| conserved hypothetical protein [Streptococcus suis SS12]
+ gb|AER17250.1| conserved hypothetical protein [Streptococcus suis D9]
+ gb|EJX61812.1| omega transcriptional repressor [Enterococcus faecium P1986]
+ gb|EJX68721.1| omega transcriptional repressor [Enterococcus faecium P1190]
+ gb|EJX80889.1| omega transcriptional repressor [Enterococcus faecium P1123]
+ gb|EJY35753.1| omega transcriptional repressor [Enterococcus faecium 511]
+ gb|EKN09106.1| hypothetical protein HMPREF1077_02323 [Parabacteroides johnsonii 
+CL02T12C29]
+ emb|CCT61368.1| putative omega transcriptional repressor [[Clostridium] difficile]
+ gb|AGM38227.1| putative omega transcriptional repressor [[Clostridium] difficile]
+Length=71
+
+ Score = 80.1 bits (196),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|WP_000527317.1| peptide-binding protein [Firmicutes]
+ gb|EEU66474.1| omega Transcriptional Repressor [Enterococcus faecalis DS5]
+ gb|EHO28270.1| hypothetical protein HMPREF0982_01438 [Erysipelotrichaceae bacterium 
+21_3]
+ gb|EIK10370.1| hypothetical protein MQG_02235 [Staphylococcus aureus subsp. 
+aureus VRS4]
+ gb|EIK11930.1| hypothetical protein MQI_01726 [Staphylococcus aureus subsp. 
+aureus VRS5]
+ gb|EIK20093.1| hypothetical protein MQM_02537 [Staphylococcus aureus subsp. 
+aureus VRS7]
+ gb|EIK27972.1| hypothetical protein MQS_02414 [Staphylococcus aureus subsp. 
+aureus VRS10]
+ gb|ELA51208.1| hypothetical protein OGA_05487 [Enterococcus faecium EnGen0012]
+ gb|ELA89346.1| hypothetical protein OI7_05289 [Enterococcus faecium EnGen0020]
+ gb|ELA92765.1| hypothetical protein OI9_05370 [Enterococcus faecium EnGen0001]
+ gb|ELB42287.1| hypothetical protein OKE_05309 [Enterococcus faecium EnGen0043]
+ gb|EMG24380.1| Omega protein [Streptococcus parauberis KRS-02083]
+ gb|EOD92581.1| hypothetical protein Q9I_02844 [Enterococcus faecalis EnGen0074]
+ gb|EOE00754.1| hypothetical protein Q9O_02833 [Enterococcus faecalis EnGen0073]
+ gb|EOE01346.1| hypothetical protein Q9M_02875 [Enterococcus faecalis EnGen0058]
+ gb|EOE23500.1| hypothetical protein QA5_00928 [Enterococcus faecalis EnGen0083]
+ gb|EOE25864.1| hypothetical protein Q9Y_00533 [Enterococcus faecalis EnGen0081]
+ gb|EOE26965.1| hypothetical protein QA3_00533 [Enterococcus faecalis EnGen0082]
+ gb|EOF76893.1| hypothetical protein SGG_02477 [Enterococcus faecium EnGen0138]
+ gb|EOF96638.1| hypothetical protein SKK_01875 [Enterococcus faecium EnGen0168]
+ gb|EOH65880.1| hypothetical protein UA9_00331 [Enterococcus faecalis EnGen0235]
+ gb|EOH67651.1| hypothetical protein UA7_00614 [Enterococcus faecium EnGen0265]
+ gb|EOI52615.1| hypothetical protein UKC_04068 [Enterococcus gilvus ATCC BAA-350]
+ gb|EOK78375.1| hypothetical protein SI1_02094 [Enterococcus faecium EnGen0146]
+ gb|EOK87132.1| hypothetical protein SI7_01569 [Enterococcus faecium EnGen0149]
+ gb|EOK90013.1| hypothetical protein SI9_01770 [Enterococcus faecium EnGen0150]
+ gb|EOL72241.1| hypothetical protein UK3_00012 [Enterococcus faecalis EnGen0305]
+ gb|EOM10479.1| hypothetical protein U9Y_02939 [Enterococcus faecium EnGen0262]
+ gb|EOM17637.1| hypothetical protein U9Y_00730 [Enterococcus faecium EnGen0262]
+ gb|EOW77548.1| hypothetical protein I592_04068 [Enterococcus gilvus ATCC BAA-350]
+ gb|EQE46892.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD42]
+ gb|EQF32843.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD159]
+ gb|EQF34095.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD165]
+ gb|EQF53985.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+CD181]
+ gb|EQF91194.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+824]
+ gb|EQG14123.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00044]
+ gb|EQG70419.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00154]
+ gb|EQG72874.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00160]
+ gb|EQG86417.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00183]
+ gb|EQH14780.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00203]
+ gb|EQH57122.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00261]
+ gb|EQH63153.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+DA00275]
+ gb|EQH96141.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F249]
+ gb|EQI43221.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+Y231]
+ gb|EQI80465.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P1]
+ gb|EQI98694.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P6]
+ gb|EQJ30459.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P19]
+ gb|EQJ36704.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P20]
+ gb|EQJ56510.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+P29]
+ gb|EQK58988.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+ gb|ERL10470.1| omega transcriptional repressor [Enterococcus faecalis E12]
+ emb|CCL04188.1| conserved hypothetical protein [Clostridium difficile E13]
+ emb|CCL61027.1| conserved hypothetical protein [Clostridium difficile E9]
+ emb|CCL64963.1| conserved hypothetical protein [Clostridium difficile E7]
+ emb|CCL87725.1| conserved hypothetical protein [Clostridium difficile T10]
+Length=69
+
+ Score = 79.7 bits (195),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  69
+
+
+>ref|WP_002401482.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EFT39464.1| omega transcriptional repressor [Enterococcus faecalis TX2137]
+Length=71
+
+ Score = 79.3 bits (194),  Expect = 5e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  71
+
+
+>ref|WP_007209312.1| peptide-binding protein [Enterococcus italicus]
+ gb|EFU72889.1| omega transcriptional repressor [Enterococcus italicus DSM 15952]
+Length=71
+
+ Score = 79.3 bits (194),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK+VMDQALEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKKVMDQALEEYIRKYLPDKL  71
+
+
+>ref|WP_010711113.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOD99367.1| hypothetical protein Q9K_02205 [Enterococcus faecalis EnGen0075]
+ gb|EOE30272.1| hypothetical protein QA9_01539 [Enterococcus faecalis EnGen0071]
+ gb|EOE32548.1| hypothetical protein QAA_00942 [Enterococcus faecalis EnGen0072]
+ gb|EOF28579.1| hypothetical protein SC5_01571 [Enterococcus faecalis EnGen0086]
+ gb|EOF31935.1| hypothetical protein SC9_03211 [Enterococcus faecalis EnGen0101]
+ gb|ERT26493.1| hypothetical protein O995_01635 [Enterococcus faecalis BM4539]
+Length=69
+
+ Score = 78.9 bits (193),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  69
+
+
+>ref|WP_010726399.1| hypothetical protein, partial [Enterococcus]
+ gb|EOH83244.1| hypothetical protein UAO_02904, partial [Enterococcus villorum 
+ATCC 700913]
+ gb|EOM64320.1| hypothetical protein SKE_02526, partial [Enterococcus faecium 
+EnGen0165]
+Length=60
+
+ Score = 78.9 bits (193),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  60
+
+
+>ref|WP_002355411.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EET94555.1| transcriptional repressor [Enterococcus faecalis T1]
+ gb|EEU75478.1| transcriptional repressor [Enterococcus faecalis JH1]
+ gb|EFK76600.1| omega transcriptional repressor [Enterococcus faecalis TUSoD 
+Ef11]
+ gb|EFM83836.1| omega transcriptional repressor [Enterococcus faecalis TX4248]
+ gb|EFQ13186.1| omega transcriptional repressor [Enterococcus faecalis TX0102]
+ gb|EFU90438.1| omega transcriptional repressor [Enterococcus faecalis TX0630]
+Length=71
+
+ Score = 78.9 bits (193),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  71
+
+
+>ref|WP_010776966.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOI41519.1| hypothetical protein UIU_00003, partial [Enterococcus faecalis 
+EnGen0299]
+Length=52
+
+ Score = 78.5 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  52
+
+
+>ref|YP_005704842.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ ref|YP_006536784.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|YP_007152232.1| omega transcriptional repressor family protein [Enterococcus 
+faecalis str. Symbioflor 1]
+ ref|WP_010709002.1| peptide-binding protein [Enterococcus faecalis]
+ gb|ADX79109.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis 62]
+ gb|AFO43307.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ emb|CCO71518.1| omega transcriptional repressor family protein [Enterococcus 
+faecalis str. Symbioflor 1]
+ gb|EOE09854.1| hypothetical protein Q9Q_01022 [Enterococcus faecalis EnGen0078]
+ gb|EOI16208.1| hypothetical protein UCO_00595 [Enterococcus faecalis EnGen0244]
+ gb|EOI94954.1| hypothetical protein UMA_00514 [Enterococcus faecalis EnGen0311]
+ gb|EOI98450.1| hypothetical protein UMC_00580 [Enterococcus faecalis EnGen0302]
+ gb|EOJ26648.1| hypothetical protein UO3_00429 [Enterococcus faecalis EnGen0286]
+ gb|EOJ35265.1| hypothetical protein UO5_00447 [Enterococcus faecalis EnGen0293]
+ gb|EOJ35703.1| hypothetical protein UO7_00169 [Enterococcus faecalis EnGen0290]
+ gb|EOJ39717.1| hypothetical protein UO9_00443 [Enterococcus faecalis ATCC 27275]
+ gb|EOJ43333.1| hypothetical protein UOA_00161 [Enterococcus faecalis ATCC 27959]
+ gb|EOJ50963.1| hypothetical protein UOE_00455 [Enterococcus faecalis EnGen0285]
+ gb|EOJ66316.1| hypothetical protein WMQ_00461 [Enterococcus faecalis EnGen0350]
+ gb|EOJ80020.1| hypothetical protein WO7_00409 [Enterococcus faecalis EnGen0355]
+ gb|EOJ84006.1| hypothetical protein WO9_00528 [Enterococcus faecalis EnGen0369]
+ gb|EOJ93076.1| hypothetical protein WOI_00448 [Enterococcus faecalis EnGen0368]
+ gb|EOJ94116.1| hypothetical protein WOG_00604 [Enterococcus faecalis EnGen0370]
+ gb|EOK10256.1| hypothetical protein WOW_00434 [Enterococcus faecalis ATCC 10100]
+ gb|EOK24665.1| hypothetical protein WU7_00447 [Enterococcus faecalis EnGen0326]
+ gb|EOK34566.1| hypothetical protein WU9_00423 [Enterococcus faecalis EnGen0334]
+ gb|EOK52226.1| hypothetical protein Q9A_01807 [Enterococcus faecalis EnGen0066]
+ gb|EOL19610.1| hypothetical protein WU1_00406 [Enterococcus faecalis EnGen0327]
+ gb|EOL20955.1| hypothetical protein WU3_00453 [Enterococcus faecalis EnGen0331]
+ gb|EOL24890.1| hypothetical protein WO3_00493 [Enterococcus faecalis EnGen0342]
+ gb|EOL27758.1| hypothetical protein WO1_00560 [Enterococcus faecalis EnGen0365]
+ gb|EOL56443.1| hypothetical protein UCG_00533 [Enterococcus faecalis EnGen0240]
+ gb|EOL59800.1| hypothetical protein UCQ_00529 [Enterococcus faecalis EnGen0245]
+ gb|EOL63839.1| hypothetical protein UCS_00555 [Enterococcus faecalis EnGen0246]
+ gb|EOL66793.1| hypothetical protein UCU_00451 [Enterococcus faecalis EnGen0247]
+ gb|EOL85861.1| hypothetical protein UM7_00507 [Enterococcus faecalis EnGen0303]
+ gb|EOM15967.1| hypothetical protein UA1_00360 [Enterococcus faecalis EnGen0234]
+ gb|EOM26204.1| hypothetical protein U9C_00435 [Enterococcus faecium EnGen0253]
+ gb|EOM31624.1| hypothetical protein U9G_00637 [Enterococcus faecalis EnGen0232]
+Length=69
+
+ Score = 78.5 bits (192),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  69
+
+
+>ref|WP_010724790.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|EOK94928.1| hypothetical protein SIQ_02480, partial [Enterococcus faecium 
+EnGen0155]
+Length=60
+
+ Score = 77.4 bits (189),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  60
+
+
+>ref|YP_007152158.1| transcriptional repressor, omega family [Enterococcus faecalis 
+str. Symbioflor 1]
+ ref|WP_002389526.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EFK76597.1| omega transcriptional repressor [Enterococcus faecalis TUSoD 
+Ef11]
+ emb|CCO71444.1| transcriptional repressor, omega family [Enterococcus faecalis 
+str. Symbioflor 1]
+ gb|EOJ84330.1| hypothetical protein WO9_00494 [Enterococcus faecalis EnGen0369]
+ gb|EOK37320.1| hypothetical protein WUI_02763 [Enterococcus faecalis EnGen0335]
+ gb|EOL92761.1| hypothetical protein WM1_02733 [Enterococcus faecalis EnGen0341]
+Length=69
+
+ Score = 77.8 bits (190),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_010822042.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOL24850.1| hypothetical protein WO3_00453 [Enterococcus faecalis EnGen0342]
+Length=69
+
+ Score = 77.4 bits (189),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 51/52 (98%), Positives = 51/52 (98%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  69
+
+
+>ref|WP_016177607.1| hypothetical protein [Enterococcus durans]
+ gb|EOT30842.1| hypothetical protein OMS_02357 [Enterococcus durans ATCC 6056]
+ gb|EOU15454.1| hypothetical protein I571_02899 [Enterococcus durans ATCC 6056]
+Length=69
+
+ Score = 77.0 bits (188),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL DKL
+Sbjct  18  TKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLSDKL  69
+
+
+>ref|WP_002364919.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEN74505.1| omega transcriptional repressor [Enterococcus faecalis TX1322]
+ gb|EEU25224.1| transcriptional repressor [Enterococcus faecalis T8]
+ gb|EEU64743.1| transcriptional Cro/CI family transcriptional regulator [Enterococcus 
+faecalis DS5]
+ gb|EFT41150.1| omega transcriptional repressor [Enterococcus faecalis TX4000]
+ gb|EFT47448.1| omega transcriptional repressor [Enterococcus faecalis TX0027]
+Length=71
+
+ Score = 75.8 bits (185),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  20  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  71
+
+
+>ref|WP_002363035.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEN72400.1| omega transcriptional repressor [Enterococcus faecalis ATCC 29200]
+ gb|EEU16130.1| transcriptional Cro/CI family transcriptional regulator [Enterococcus 
+faecalis ATCC 4200]
+ gb|EEU92569.1| transcriptional repressor [Enterococcus faecalis X98]
+ gb|EFM68732.1| omega transcriptional repressor [Enterococcus faecalis TX0411]
+ gb|EFT89917.1| omega transcriptional repressor [Enterococcus faecalis TX2141]
+ gb|EFU00805.1| omega transcriptional repressor [Enterococcus faecalis TX0043]
+ gb|EFU03791.1| omega transcriptional repressor [Enterococcus faecalis TX0312]
+ gb|EOI05912.1| hypothetical protein UCI_00836 [Enterococcus faecalis EnGen0241]
+ gb|EOI40739.1| hypothetical protein UIU_00341 [Enterococcus faecalis EnGen0299]
+ gb|EOJ02617.1| hypothetical protein UMG_00464 [Enterococcus faecalis EnGen0291]
+ gb|EOJ10842.1| hypothetical protein UMK_00473 [Enterococcus faecalis ATCC 29200]
+ gb|EOJ18885.1| hypothetical protein UMQ_00547 [Enterococcus faecalis EnGen0281]
+ gb|EOJ49074.1| hypothetical protein WM7_00906 [Enterococcus faecalis EnGen0361]
+ gb|EOK06563.1| hypothetical protein WOS_00473 [Enterococcus faecalis EnGen0367]
+ gb|EOK33148.1| hypothetical protein WUC_00474 [Enterococcus faecalis EnGen0328]
+ gb|EOK34391.1| hypothetical protein WUA_00456 [Enterococcus faecalis EnGen0333]
+ gb|EOK43365.1| hypothetical protein WUG_00912 [Enterococcus faecalis EnGen0332]
+ gb|EOK52187.1| hypothetical protein Q9A_01768 [Enterococcus faecalis EnGen0066]
+ gb|EOL30969.1| hypothetical protein WO5_00478 [Enterococcus faecalis EnGen0354]
+ gb|EOL36514.1| hypothetical protein WMC_00461 [Enterococcus faecalis ATCC 19433]
+ gb|EOL86500.1| hypothetical protein UMW_00451 [Enterococcus faecalis EnGen0295]
+ gb|EOL91667.1| hypothetical protein WM3_00878 [Enterococcus faecalis EnGen0366]
+ gb|EOL95023.1| hypothetical protein WM5_00913 [Enterococcus faecalis EnGen0344]
+ gb|EOL99971.1| hypothetical protein U9O_00558 [Enterococcus faecalis EnGen0233]
+ gb|EOM16754.1| hypothetical protein UA1_00320 [Enterococcus faecalis EnGen0234]
+ gb|ERT25304.1| hypothetical protein O994_00326 [Enterococcus faecalis JH2-2]
+Length=69
+
+ Score = 75.5 bits (184),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 50/52 (96%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           AKKDIM DKTVRVRADLHHIIKIETAKNGGNVKEVMDQ LEEYIRKYLPDKL
+Sbjct  18  AKKDIMVDKTVRVRADLHHIIKIETAKNGGNVKEVMDQDLEEYIRKYLPDKL  69
+
+
+>ref|YP_006539255.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|WP_010728645.1| Cro/Cl family transcriptional regulator [Enterococcus]
+ gb|AFO45778.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ gb|EOM48414.1| hypothetical protein SKW_00547 [Enterococcus faecium EnGen0174]
+Length=47
+
+ Score = 73.5 bits (179),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 47/47 (100%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  47
+
+
+>ref|WP_010744372.1| hypothetical protein [Enterococcus raffinosus]
+ gb|EOH79910.1| hypothetical protein UAK_01062 [Enterococcus raffinosus ATCC 
+49464]
+ gb|EOT74217.1| hypothetical protein I590_03077 [Enterococcus raffinosus ATCC 
+49464]
+Length=69
+
+ Score = 73.9 bits (180),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 41/52 (79%), Positives = 45/52 (87%), Gaps = 0/52 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+            KK  + DKTVRVR DLH IIKI+TA+NGGNVKEVMD+ALEEYIRKYLP KL
+Sbjct  18  TKKPNVEDKTVRVRGDLHQIIKIDTAQNGGNVKEVMDRALEEYIRKYLPGKL  69
+
+
+>emb|CBJ57220.1| hypothetical protein [Streptococcus pneumoniae]
+Length=429
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+>ref|WP_001838040.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHE57933.1| helix-turn-helix family protein [Streptococcus pneumoniae 5185-06]
+Length=472
+
+ Score = 77.8 bits (190),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 37/49 (76%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1    MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            + KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  412  IQKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|YP_007923810.1| Cro/CI family transcriptional regulator [Streptococcus oligofermentans 
+AS 1.3089]
+ ref|WP_000323283.1| Cro/CI family transcriptional regulator [Streptococcus]
+ gb|AGK71658.1| Cro/CI family transcriptional regulator [Streptococcus oligofermentans 
+AS 1.3089]
+ gb|EPR95651.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae 
+1779n23_04]
+Length=453
+
+ Score = 77.4 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  395  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  441
+
+
+>ref|WP_002415430.1| omega transcriptional repressor, partial [Enterococcus faecalis]
+ gb|EJU90367.1| omega transcriptional repressor, partial [Enterococcus faecalis 
+599]
+Length=46
+
+ Score = 72.0 bits (175),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 46/46 (100%), Positives = 46/46 (100%), Gaps = 0/46 (0%)
+
+Query  8   GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL
+Sbjct  1   GDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  46
+
+
+>ref|WP_001860235.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EJH22364.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA58981]
+Length=472
+
+ Score = 77.4 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|YP_001836039.1| hypothetical protein SPCG_1322 [Streptococcus pneumoniae CGSP14]
+ ref|YP_002037950.1| Tn5251 transcriptional regulator Cro/CI family [Streptococcus 
+pneumoniae G54]
+ ref|YP_003879330.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+670-6B]
+ ref|YP_008496822.1| transcriptional regulator protein [Streptococcus intermedius 
+C270]
+ ref|WP_001815707.1| Cro/Cl family transcriptional regulator [Streptococcus]
+ gb|ACB90574.1| hypothetical protein SPCG_1322 [Streptococcus pneumoniae CGSP14]
+ gb|ACF55955.1| Tn5251 transcriptional regulator Cro/CI family [Streptococcus 
+pneumoniae G54]
+ emb|CAV31169.1| hypothetical protein [Streptococcus pneumoniae]
+ gb|ADM91230.1| transcriptional regulator, Cro/CI family [Streptococcus pneumoniae 
+670-6B]
+ gb|EFX36393.1| DNA-binding helix-turn-helix protein [Streptococcus infantis 
+ATCC 700779]
+ emb|CBW38817.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39343.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39362.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ emb|CBW39386.1| putative conjugative transposon replication initiation factor 
+[Streptococcus pneumoniae]
+ gb|EHD73659.1| helix-turn-helix family protein [Streptococcus pneumoniae GA44194]
+ gb|EHD85456.1| helix-turn-helix family protein [Streptococcus pneumoniae GA11304]
+ gb|EHZ57409.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA47179]
+ gb|EHZ69809.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA47794]
+ gb|EIC50971.1| helix-turn-helix family protein [Streptococcus pneumoniae SV36]
+ gb|EIC58773.1| helix-turn-helix family protein [Streptococcus pneumoniae SV35]
+ gb|EIG39910.1| replication initiation factor [Streptococcus infantis ATCC 700779]
+ gb|EJG82677.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA52612]
+ gb|EJG89428.1| replication initiation factor/omega transcriptional repressor 
+domain protein [Streptococcus mitis SPAR10]
+ gb|EJH18928.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA60132]
+ gb|EOB23601.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+1488]
+ gb|EOB28608.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+1542]
+ gb|EOB28904.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+357]
+ gb|EOB34662.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+845]
+ gb|AGU77827.1| transcriptional regulator protein [Streptococcus intermedius 
+C270]
+Length=472
+
+ Score = 77.4 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|WP_001823402.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHD49985.1| helix-turn-helix family protein [Streptococcus pneumoniae 7286-06]
+ gb|EHZ77580.1| replication initiation factor family protein [Streptococcus pneumoniae 
+7879-04]
+ gb|EHZ82284.1| replication initiation factor family protein [Streptococcus pneumoniae 
+7533-05]
+Length=472
+
+ Score = 77.4 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|WP_002989385.1| Cro/Cl family transcriptional regulator [Streptococcus pyogenes]
+ gb|EIK41766.1| Cro/CI family transcriptional regulator [Streptococcus pyogenes 
+HKU QMH11M0907901]
+Length=453
+
+ Score = 77.4 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  395  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  441
+
+
+>ref|WP_001841741.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHZ44584.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA40563]
+Length=472
+
+ Score = 77.4 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>ref|WP_007215977.1| Cro/Cl family transcriptional regulator [Bacteria]
+ gb|EEO45581.2| omega transcriptional repressor [Bacteroides dorei 5_1_36/D4]
+ gb|EIY23036.1| hypothetical protein HMPREF1063_03415 [Bacteroides dorei CL02T00C15]
+ gb|EIY28365.1| hypothetical protein HMPREF1064_04125 [Bacteroides dorei CL02T12C06]
+ gb|EIY36084.1| hypothetical protein HMPREF1062_01083 [Bacteroides cellulosilyticus 
+CL02T12C19]
+ gb|EIY42809.1| hypothetical protein HMPREF1068_04412 [Bacteroides nordii CL02T12C05]
+ gb|EOD93486.1| hypothetical protein Q9G_01568 [Enterococcus faecalis EnGen0076]
+ gb|EOE27766.1| hypothetical protein QA7_02610 [Enterococcus faecalis EnGen0084]
+ gb|EOF23771.1| hypothetical protein SC7_02953 [Enterococcus faecalis EnGen0115]
+Length=47
+
+ Score = 72.0 bits (175),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  47
+
+
+>ref|WP_001841469.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|EHZ36123.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA19101]
+Length=472
+
+ Score = 77.4 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  414  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  460
+
+
+>emb|CAL92505.1| hypothetical protein [Streptococcus pneumoniae]
+ emb|CAM32745.1| hypothetical protein [Streptococcus pneumoniae]
+Length=400
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+>ref|WP_001830490.1| Cro/Cl family transcriptional regulator [Streptococcus pneumoniae]
+ gb|AAY63930.1| hypothetical protein [Streptococcus cristatus]
+ gb|EHD96247.1| replication initiation factor family protein [Streptococcus pneumoniae 
+GA16121]
+Length=400
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  342  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  388
+
+
+>dbj|BAG12518.1| hypothetical protein [Streptococcus pneumoniae]
+ dbj|BAG12524.1| hypothetical protein [Streptococcus pneumoniae]
+Length=211
+
+ Score = 72.0 bits (175),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 37/47 (79%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  3    KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+            KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  153  KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  199
+
+
+>ref|WP_010724674.1| hypothetical protein [Enterococcus faecium]
+ gb|EOK94931.1| hypothetical protein SIE_02595 [Enterococcus faecium EnGen0153]
+Length=87
+
+ Score = 69.3 bits (168),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|YP_006377411.1| omega transcriptional repressor [Enterococcus faecium DO]
+ ref|YP_006539252.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ ref|WP_002368882.1| peptide-binding protein [Enterococcus]
+ gb|EFM83919.1| omega transcriptional repressor [Enterococcus faecalis TX4248]
+ emb|CBW38875.1| Omega transcriptional repressor [Streptococcus pneumoniae]
+ emb|CBW39432.1| Omega transcriptional repressor protein [Streptococcus pneumoniae]
+ gb|AFK60429.1| omega transcriptional repressor [Enterococcus faecium DO]
+ gb|AFO45775.1| omega Transcriptional Repressor family protein [Enterococcus 
+faecalis D32]
+ gb|EJY38426.1| omega transcriptional repressor [Enterococcus faecium 510]
+Length=89
+
+ Score = 69.3 bits (168),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>emb|CBW39428.1| Omega transcriptional repressor protein [Streptococcus pneumoniae]
+Length=84
+
+ Score = 68.9 bits (167),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_008787626.1| peptide-binding protein [Erysipelotrichaceae]
+ gb|EFP62595.1| omega transcriptional repressor [Erysipelotrichaceae bacterium 
+3_1_53]
+ gb|EFW06277.1| omega transcriptional repressor [Coprobacillus sp. 29_1]
+Length=87
+
+ Score = 69.3 bits (168),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|YP_006015891.1| hypothetical protein SPSE_1801 [Staphylococcus pseudintermedius 
+ED99]
+ ref|WP_002311901.1| peptide-binding protein [Bacilli]
+ gb|EAN10534.1| hypothetical protein EfaeDRAFT_2459 [Enterococcus faecium DO]
+ gb|EEV55132.1| omega transcriptional repressor [Enterococcus faecium 1,231,410]
+ gb|EEW63665.1| hypothetical protein EFXG_02764 [Enterococcus faecium C68]
+ gb|ADX77052.1| hypothetical protein SPSE_1801 [Staphylococcus pseudintermedius 
+ED99]
+ gb|EHM32223.1| Hypothetical protein EfmE4452_0979 [Enterococcus faecium E4452]
+ gb|ELA74223.1| hypothetical protein OGS_03144 [Enterococcus faecium EnGen0002]
+ gb|ELA81362.1| hypothetical protein OI1_06323 [Enterococcus faecium EnGen0016]
+ gb|ELB27141.1| hypothetical protein OK3_05860 [Enterococcus faecium EnGen0036]
+ gb|ELB63868.1| hypothetical protein OM1_05388 [Enterococcus faecium EnGen0054]
+ gb|EMG24396.1| hypothetical protein SPJ1_2242 [Streptococcus parauberis KRS-02083]
+ gb|EOF94091.1| hypothetical protein SKK_02745 [Enterococcus faecium EnGen0168]
+ gb|EOG22814.1| hypothetical protein SMK_02758 [Enterococcus faecium EnGen0181]
+ gb|EOG31169.1| hypothetical protein SMQ_02703 [Enterococcus faecium EnGen0183]
+ gb|EOH52418.1| hypothetical protein UA5_02346 [Enterococcus faecium EnGen0264]
+ gb|EOJ23802.1| hypothetical protein UMU_03058 [Enterococcus faecalis EnGen0300]
+ gb|EOK18249.1| hypothetical protein WQ3_03065 [Enterococcus faecalis EnGen0338]
+ gb|EOK37288.1| hypothetical protein WUI_02731 [Enterococcus faecalis EnGen0335]
+ gb|EOK46158.1| hypothetical protein Q99_03311 [Enterococcus faecalis EnGen0064]
+ gb|EOL93985.1| hypothetical protein WM1_02705 [Enterococcus faecalis EnGen0341]
+ gb|EOM02468.1| hypothetical protein U9O_00102 [Enterococcus faecalis EnGen0233]
+ gb|EOT39901.1| hypothetical protein OMW_01690 [Enterococcus columbae DSM 7374 
+= ATCC 51263]
+ gb|EOW83886.1| hypothetical protein I568_01333 [Enterococcus columbae DSM 7374 
+= ATCC 51263]
+ gb|ERT29854.1| hypothetical protein O993_02459 [Enterococcus faecium BM4538]
+ gb|ERT29859.1| hypothetical protein O993_02456 [Enterococcus faecium BM4538]
+Length=87
+
+ Score = 68.9 bits (167),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010774372.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOI07628.1| hypothetical protein UCM_03197, partial [Enterococcus faecalis 
+EnGen0243]
+Length=45
+
+ Score = 67.7 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 44/45 (98%), Positives = 45/45 (100%), Gaps = 0/45 (0%)
+
+Query  9   DKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDKL  53
+           DKTVRVRADLHHIIKIETAKNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   DKTVRVRADLHHIIKIETAKNGGNVKEVMDKALEEYIRKYLPDKL  45
+
+
+>ref|WP_020220349.1| peptide-binding protein [Staphylococcus pseudintermedius]
+Length=77
+
+ Score = 68.5 bits (166),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010711805.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOE09426.1| hypothetical protein Q9S_02873 [Enterococcus faecalis EnGen0080]
+Length=77
+
+ Score = 68.1 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_002425012.1| peptide-binding protein [Enterococcus faecalis]
+ gb|EEU66470.1| omega Transcriptional Repressor [Enterococcus faecalis DS5]
+ gb|AGM38224.1| putative omega transcriptional repressor [[Clostridium] difficile]
+Length=79
+
+ Score = 68.1 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>ref|YP_001836043.1| omega2 protein [Streptococcus pneumoniae CGSP14]
+ ref|YP_004033000.1| hypothetical protein pTW9_p64 [Enterococcus faecalis]
+ ref|WP_000635249.1| peptide-binding protein [Lactobacillales]
+ emb|CAD70612.1| omega2 protein [Plasmid pIlo8]
+ gb|ACB90578.1| omega2 protein [Streptococcus pneumoniae CGSP14]
+ gb|EEU82272.1| omega2 protein [Enterococcus faecalis D6]
+ dbj|BAJ34891.1| hypothetical protein [Enterococcus faecalis]
+ gb|EFR76574.1| omega transcriptional repressor [Enterococcus faecium TX0133C]
+Length=79
+
+ Score = 68.1 bits (165),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  67
+
+
+>ref|YP_003305351.1| AM6 [Enterococcus faecalis]
+ ref|YP_003864116.1| omega2-like protein [Enterococcus faecalis]
+ ref|YP_006960570.1| omega2-like protein [Enterococcus faecalis]
+ ref|YP_006961931.1| omega2-like protein [Enterococcus faecalis]
+ ref|WP_000527320.1| peptide-binding protein [Firmicutes]
+ gb|EEU72717.1| omega2 protein [Enterococcus faecalis HIP11704]
+ gb|ACY79533.1| AM6 [Enterococcus faecalis]
+ gb|ADM24828.1| omega2-like protein [Enterococcus faecalis]
+ gb|ADM24869.1| omega2-like protein [Enterococcus faecalis]
+ gb|ADM24910.1| omega2-like protein [Enterococcus faecalis]
+ gb|EIK10328.1| hypothetical protein MQG_02193 [Staphylococcus aureus subsp. 
+aureus VRS4]
+ gb|EIK11925.1| hypothetical protein MQI_01721 [Staphylococcus aureus subsp. 
+aureus VRS5]
+ gb|EIK20098.1| hypothetical protein MQM_02542 [Staphylococcus aureus subsp. 
+aureus VRS7]
+ gb|EIK27977.1| hypothetical protein MQS_02419 [Staphylococcus aureus subsp. 
+aureus VRS10]
+ gb|AFW17843.1| omega transcriptional repressor [Enterococcus thailandicus]
+ gb|EMC14919.1| AM6 protein [Streptococcus mutans NV1996]
+ gb|EOL03435.1| hypothetical protein SIW_02742 [Enterococcus faecium EnGen0158]
+ emb|CCT61365.1| putative omega transcriptional repressor [[Clostridium] difficile]
+ gb|EQF91195.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+824]
+ gb|EQK59289.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+ gb|EQK59291.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F548]
+Length=77
+
+ Score = 67.7 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_000527319.1| peptide-binding protein [Bacilli]
+ gb|EIK27934.1| hypothetical protein MQU_02789 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK28359.1| hypothetical protein MQW_02780 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+ gb|ELA51195.1| hypothetical protein OGA_05494 [Enterococcus faecium EnGen0012]
+ gb|ELA56357.1| hypothetical protein OGE_05183 [Enterococcus faecium EnGen0022]
+ gb|ELA56615.1| hypothetical protein OGG_05385 [Enterococcus faecium EnGen0013]
+ gb|ELA74250.1| hypothetical protein OGU_05506 [Enterococcus faecium EnGen0011]
+ gb|ELA89008.1| hypothetical protein OI7_05294 [Enterococcus faecium EnGen0020]
+ gb|ELA92758.1| hypothetical protein OI9_05376 [Enterococcus faecium EnGen0001]
+ gb|ELA99269.1| hypothetical protein OIE_05931 [Enterococcus faecium EnGen0003]
+ gb|EOE32544.1| hypothetical protein QA7_01346 [Enterococcus faecalis EnGen0084]
+ gb|EOF35111.1| hypothetical protein SCK_01006 [Enterococcus faecalis EnGen0103]
+ gb|EOF47287.1| hypothetical protein SCQ_00954 [Enterococcus faecalis EnGen0116]
+ gb|EOF51619.1| hypothetical protein SCW_02396 [Enterococcus faecium EnGen0131]
+ gb|EOF77620.1| hypothetical protein SGE_02163 [Enterococcus faecium EnGen0137]
+ gb|EOH50646.1| hypothetical protein UA3_03001 [Enterococcus faecium EnGen0263]
+ gb|EOI18538.1| hypothetical protein UCY_03046 [Enterococcus faecalis EnGen0252]
+ gb|EOK89224.1| hypothetical protein SI9_01919 [Enterococcus faecium EnGen0150]
+ gb|EOL72956.1| hypothetical protein UM5_03163 [Enterococcus faecalis EnGen0280]
+ gb|EOM18911.1| hypothetical protein SSM_02948 [Enterococcus faecium EnGen0192]
+ gb|ERT34062.1| hypothetical protein O992_01904 [Enterococcus faecium NEF1]
+Length=77
+
+ Score = 67.7 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010717764.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOF31430.1| hypothetical protein SCG_02730, partial [Enterococcus faecalis 
+EnGen0102]
+Length=75
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  16  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  63
+
+
+>ref|WP_023042546.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|ERT20851.1| hypothetical protein O996_03457, partial [Enterococcus faecalis 
+BM4654]
+Length=67
+
+ Score = 67.0 bits (162),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  65
+
+
+>ref|WP_010717801.1| hypothetical protein, partial [Enterococcus]
+ gb|EOF37872.1| hypothetical protein SCM_02724, partial [Enterococcus faecalis 
+EnGen0104]
+ gb|EOF96292.1| hypothetical protein SKM_02574, partial [Enterococcus faecium 
+EnGen0169]
+ gb|EOL72104.1| hypothetical protein UK5_00006, partial [Enterococcus faecalis 
+EnGen0308]
+ gb|EOM12070.1| hypothetical protein UA1_02962, partial [Enterococcus faecalis 
+EnGen0234]
+ gb|EOM64298.1| hypothetical protein SKE_02536, partial [Enterococcus faecium 
+EnGen0165]
+Length=68
+
+ Score = 67.0 bits (162),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 38/48 (79%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  56
+
+
+>ref|YP_008731004.1| peptide-binding protein [Streptococcus pneumoniae A026]
+ ref|WP_023357022.1| peptide-binding protein [Streptococcus pneumoniae]
+ gb|AGZ48441.1| peptide-binding protein [Streptococcus pneumoniae A026]
+Length=64
+
+ Score = 65.4 bits (158),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 37/49 (76%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MAKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           + KKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  4   IQKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  52
+
+
+>ref|YP_004293200.1| omega transcriptional repressor [Streptococcus gallolyticus subsp. 
+gallolyticus ATCC BAA-2069]
+ ref|WP_013646120.1| peptide-binding protein [Streptococcus gallolyticus]
+ emb|CBZ49487.1| omega transcriptional repressor [Streptococcus gallolyticus subsp. 
+gallolyticus ATCC BAA-2069]
+Length=68
+
+ Score = 63.9 bits (154),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 37/44 (84%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYI  45
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   +
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRRVL  63
+
+
+>ref|WP_021406950.1| omega Transcriptional Repressor family protein [[Clostridium] 
+difficile]
+ gb|EQI14584.1| omega Transcriptional Repressor family protein [Clostridium difficile 
+F253]
+Length=65
+
+ Score = 62.7 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_002343795.1| hypothetical protein [Enterococcus faecium]
+ gb|AAM77889.1|AF516335_9 unknown [Enterococcus faecium]
+ gb|ELB42042.1| hypothetical protein OKE_05396 [Enterococcus faecium EnGen0043]
+ gb|EOD82270.1| hypothetical protein OKM_02605 [Enterococcus faecium EnGen0041]
+Length=65
+
+ Score = 62.4 bits (150),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|YP_001965491.1| hypothetical protein [Pediococcus acidilactici]
+ ref|WP_012477195.1| hypothetical protein [Pediococcus acidilactici]
+ gb|ABB59537.1| hypothetical protein [Pediococcus acidilactici]
+ emb|CAN99689.1| MLS leader peptide [Streptococcus pneumoniae]
+ emb|CAZ39285.1| hypothetical protein [Streptococcus suis]
+Length=55
+
+ Score = 61.2 bits (147),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|NP_783846.1| hypothetical protein [Lactobacillus fermentum]
+ ref|YP_003725638.1| hypothetical protein HMPREF0837_12196, partial [Streptococcus 
+pneumoniae TCH8431/19A]
+ ref|WP_000502600.1| Cro/Cl family transcriptional regulator, partial [Lactobacillales]
+ emb|CAD59907.1| hypothetical protein [Lactobacillus fermentum]
+ gb|ABL76174.1| MLS leader peptide [Streptococcus cristatus]
+ dbj|BAG12483.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12512.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12519.1| MLS leader peptide [Streptococcus pneumoniae]
+ dbj|BAG12525.1| MLS leader peptide [Streptococcus pneumoniae]
+ gb|ADI70424.1| omega transcriptional repressor [Streptococcus pneumoniae TCH8431/19A]
+ gb|EHE14451.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA19451]
+ gb|EHE39776.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA47688]
+ emb|CBZ42065.1| transcriptional regulator Cro/CI family [Streptococcus suis]
+ gb|EHZ14123.1| omega Transcriptional Repressor family protein [Streptococcus 
+pneumoniae GA11856]
+ gb|ELA63778.1| hypothetical protein OGK_05311 [Enterococcus faecium EnGen0019]
+ gb|EOG24818.1| hypothetical protein SMO_02692 [Enterococcus faecium EnGen0182]
+ gb|EOI35893.1| hypothetical protein UIS_02808 [Enterococcus faecium EnGen0313]
+ gb|EOI42597.1| hypothetical protein UIW_02569 [Enterococcus faecium EnGen0315]
+ gb|EOM43496.1| hypothetical protein SKW_02728 [Enterococcus faecium EnGen0174]
+ gb|EPD20476.1| Cro/CI family transcriptional regulator [Streptococcus pneumoniae 
+MNZ14]
+ gb|EPT70006.1| Cro/Cl family transcriptional regulator [Streptococcus agalactiae 
+CCUG 38383]
+Length=55
+
+ Score = 61.2 bits (147),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 33/43 (77%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           MGDKTVRVRADLHHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  43
+
+
+>ref|WP_010815278.1| hypothetical protein [Enterococcus faecalis]
+ gb|EOK42428.1| hypothetical protein WUI_00571 [Enterococcus faecalis EnGen0335]
+ gb|EOL94361.1| hypothetical protein WM1_02698 [Enterococcus faecalis EnGen0341]
+Length=63
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 1/46 (2%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKE-VMDQALEEYIR  46
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKE V+ Q+ +  I+
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVVLLQSFKSTIK  63
+
+
+>ref|WP_010717196.1| hypothetical protein, partial [Enterococcus faecalis]
+ gb|EOF23740.1| hypothetical protein SC7_02954, partial [Enterococcus faecalis 
+EnGen0115]
+Length=53
+
+ Score = 57.3 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM  37
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVM  53
+
+
+>ref|WP_002295953.1| transcriptional repressor, partial [Enterococcus faecium]
+ gb|EFF19383.1| transcriptional repressor [Enterococcus faecium E1071]
+Length=52
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK  34
+           AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKIETAKNGGNVK  52
+
+
+>ref|WP_001284805.1| hypothetical protein [Staphylococcus aureus]
+ gb|EIK28176.1| hypothetical protein MQU_02720 [Staphylococcus aureus subsp. 
+aureus VRS11a]
+ gb|EIK28699.1| hypothetical protein MQW_02721 [Staphylococcus aureus subsp. 
+aureus VRS11b]
+Length=75
+
+ Score = 52.7 bits (125),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+           K V++R + H+++K  TAKNGG++++++D+A+EEYI KY
+Sbjct  34  KPVKLRGEYHYLLKNYTAKNGGSIRDIVDKAVEEYIDKY  72
+
+
+>emb|CBW38879.1| Omega transcriptional regulator [Streptococcus pneumoniae]
+Length=73
+
+ Score = 50.0 bits (118),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  18  LHHIIKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           +HHIIKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   MHHIIKIETAKNGGNVKEVMEIRLRSKLKSVL  32
+
+
+>ref|WP_022621513.1| hypothetical protein [[Clostridium] difficile]
+ emb|CCL68885.1| hypothetical protein BN184_1560022 [Clostridium difficile T3]
+Length=59
+
+ Score = 46.9 bits (110),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/28 (71%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKIETAKN  29
+           AKKDIMGDKTVRVRADLHH   ++ A +
+Sbjct  18  AKKDIMGDKTVRVRADLHHSHPLQMATS  45
+
+
+>ref|WP_002322271.1| conserved domain protein, partial [Enterococcus faecium]
+ gb|EFR71877.1| hypothetical protein HMPREF9526_01089, partial [Enterococcus 
+faecium TX0133B]
+ gb|EFR74257.1| hypothetical protein HMPREF9523_01834, partial [Enterococcus 
+faecium TX0133A]
+ gb|EJX76969.1| hypothetical protein HMPREF1372_01575, partial [Enterococcus 
+faecium P1139]
+ gb|EJY30379.1| hypothetical protein HMPREF1354_01634, partial [Enterococcus 
+faecium 514]
+ gb|EJY37731.1| hypothetical protein HMPREF1350_02412, partial [Enterococcus 
+faecium 509]
+Length=26
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  28  KNGGNVKEVMDQALEEYIRKYLPDKL  53
+           KNGGNVKEVMD+ALEEYIRKYLPDKL
+Sbjct  1   KNGGNVKEVMDKALEEYIRKYLPDKL  26
+
+
+>ref|YP_006083090.1| Omega transcriptional repressor [Streptococcus suis D12]
+ ref|WP_014638415.1| peptide-binding protein [Streptococcus suis]
+ gb|AER19842.1| Omega transcriptional repressor [Streptococcus suis D12]
+Length=56
+
+ Score = 40.0 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  20  AKKDIMGDKTVRVRADLHHIIKF  42
+
+
+>ref|WP_002935077.1| peptide-binding protein [Lactobacillales]
+ gb|EEF65522.1| Omega transcriptional repressor [Streptococcus suis 89/1591]
+ gb|EMG24384.1| hypothetical protein SPJ1_2230 [Streptococcus parauberis KRS-02083]
+ gb|EOE26970.1| hypothetical protein QA3_00538 [Enterococcus faecalis EnGen0082]
+ gb|EOF76898.1| hypothetical protein SGG_02482 [Enterococcus faecium EnGen0138]
+ gb|EOH57551.1| hypothetical protein UA7_02991 [Enterococcus faecium EnGen0265]
+ gb|EOK87128.1| hypothetical protein SI7_01565 [Enterococcus faecium EnGen0149]
+ gb|EOL72338.1| hypothetical protein UK3_00002 [Enterococcus faecalis EnGen0305]
+ gb|EOW75109.1| hypothetical protein I591_02844 [Enterococcus villorum ATCC 700913]
+Length=54
+
+ Score = 40.0 bits (92),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKF  40
+
+
+>ref|WP_010722284.1| hypothetical protein, partial [Enterococcus]
+ gb|EOH85415.1| hypothetical protein UAO_02861, partial [Enterococcus villorum 
+ATCC 700913]
+ gb|EOK78388.1| hypothetical protein SI1_02091, partial [Enterococcus faecium 
+EnGen0146]
+Length=45
+
+ Score = 39.2 bits (90),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 22/23 (96%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIK 
+Sbjct  9   AKKDIMGDKTVRVRADLHHIIKF  31
+
+
+>ref|WP_002343793.1| hypothetical protein, partial [Enterococcus faecium]
+ gb|ELB42039.1| hypothetical protein OKE_05393, partial [Enterococcus faecium 
+EnGen0043]
+Length=40
+
+ Score = 38.5 bits (88),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  2   AKKDIMGDKTVRVRADLHHIIKI  24
+           AKKDIMGDKTVRVRADLHHIIKI
+Sbjct  18  AKKDIMGDKTVRVRADLHHIIKI  40
+
+
+>ref|WP_002321554.1| omega Transcriptional Repressor, partial [Enterococcus faecium]
+ gb|EFS05304.1| omega transcriptional repressor, partial [Enterococcus faecium 
+TX0133a04]
+Length=40
+
+ Score = 36.9 bits (84),  Expect = 0.041, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 21/28 (75%), Gaps = 0/28 (0%)
+
+Query  22  IKIETAKNGGNVKEVMDQALEEYIRKYL  49
+           IKIETAKNGGNVKEVM+  L   ++  L
+Sbjct  1   IKIETAKNGGNVKEVMEIRLRSKLKSVL  28
+
+
+>ref|WP_018023048.1| hypothetical protein [Corynebacterium doosanense]
+Length=55
+
+ Score = 33.1 bits (74),  Expect = 0.96, Method: Composition-based stats.
+ Identities = 12/37 (32%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  11  TVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRK  47
+           T+R+ ++LH  +K++ A  G ++KE++++ L  Y+ K
+Sbjct  16  TLRMNSELHRQLKVQAANEGRSMKEILEELLRGYLDK  52
+
+
+>ref|NP_923576.1| hypothetical protein gsr0630 [Gloeobacter violaceus PCC 7421]
+ ref|WP_011140632.1| hypothetical protein [Gloeobacter violaceus]
+ dbj|BAC88571.1| gsr0630 [Gloeobacter violaceus PCC 7421]
+Length=83
+
+ Score = 33.1 bits (74),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  7   MGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIR  46
+           M   TVR+ A  H  +K   A++G +++ V+D+A+EEY R
+Sbjct  1   MQGPTVRISASAHRTLKELAARSGESMQTVLDRAVEEYRR  40
+
+
+>ref|WP_023189865.1| Transcriptional repressor [Lactococcus lactis]
+ emb|CDI47609.1| Transcriptional repressor [Lactococcus lactis subsp. lactis Dephy 
+1]
+Length=67
+
+ Score = 32.3 bits (72),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRK  47
+           K ++V  D+H  +KI +A+ G N+KE  +QA+ E++ +
+Sbjct  28  KLIKVDEDIHKDLKIYSARTGKNIKETAEQAIREFLER  65
+
+
+>ref|WP_016310877.1| peptide/nickel transport system substrate-binding protein [Paenibacillus 
+barengoltzii]
+ gb|EOS58658.1| peptide/nickel transport system substrate-binding protein [Paenibacillus 
+barengoltzii G22]
+Length=610
+
+ Score = 34.6 bits (78),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  10   KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPDK  52
+            K V +  DL  + KI+ A  GG+V+E ++  LE  I++ + DK
+Sbjct  330  KNVEIVTDLSSLDKIQRAGGGGSVREALEAGLETKIKELVADK  372
+
+
+>ref|YP_796520.1| hypothetical protein LACR_C56 [Lactococcus lactis subsp. cremoris 
+SK11]
+ ref|YP_005877589.1| transcriptional repressor [Lactococcus lactis]
+ ref|WP_011669089.1| hypothetical protein [Lactococcus lactis]
+ gb|ABA47423.1| transcriptional repressor [Lactococcus lactis]
+ gb|ABJ74089.1| hypothetical protein LACR_C56 [Lactococcus lactis subsp. cremoris 
+SK11]
+ gb|EQC57074.1| hypothetical protein LLT6_12390 [Lactococcus lactis subsp. cremoris 
+TIFN6]
+Length=67
+
+ Score = 31.9 bits (71),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  10  KTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRK  47
+           K ++V  D+H  +KI +A+ G N+KE  +QA+ E++ +
+Sbjct  28  KLIKVDEDIHKDLKIYSARTGKNIKETAEQAIREFLER  65
+
+
+>ref|YP_004516320.1| hypothetical protein Desku_0920 [Desulfotomaculum kuznetsovii 
+DSM 6115]
+ ref|WP_013822034.1| hypothetical protein [Desulfotomaculum kuznetsovii]
+ gb|AEG14519.1| hypothetical protein Desku_0920 [Desulfotomaculum kuznetsovii 
+DSM 6115]
+Length=55
+
+ Score = 31.2 bits (69),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 16/37 (43%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  12  VRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIRKY  48
+           VR+ ADLH  IKI + + G ++++++ QALE+Y+R++
+Sbjct  11  VRIPADLHRRIKILSVETGISLQDLVRQALEDYLRQH  47
+
+
+>ref|YP_538497.1| HicB-like protein [Rickettsia bellii RML369-C]
+ ref|WP_011477978.1| DNA repair protein HhH-GPD [Rickettsia bellii]
+ gb|ABE05408.1| HicB-like protein [Rickettsia bellii RML369-C]
+Length=113
+
+ Score = 31.5 bits (70),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 24/43 (56%), Gaps = 0/43 (0%)
+
+Query  4    KDIMGDKTVRVRADLHHIIKIETAKNGGNVKEVMDQALEEYIR  46
+            K   G   VR+  +LH  + +   ++G ++  ++ +AL EYI+
+Sbjct  70   KPFKGSFNVRIDPELHKEVSLYAMQHGDSLNGIVKKALNEYIK  112
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.137    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 308940896367
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

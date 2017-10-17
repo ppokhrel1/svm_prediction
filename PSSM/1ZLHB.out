@@ -1,0 +1,540 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 1ZLHB
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q5EPH2.1|TCI1_RHIBU  RecName: Full=Carboxypeptidase inhibitor;...   153    4e-46
+pdb|1ZLH|B  Chain B, Crystal Structure Of The Tick Carboxypeptida...   149    7e-45
+pdb|3D4U|B  Chain B, Bovine Thrombin-Activatable Fibrinolysis Inh...   146    1e-43
+gb|ABO93460.1|  carboxypeptidase inhibitor [Haemaphysalis longico...   101    5e-26
+pdb|2K2Y|A  Chain A, Solution Structure Of The Folded Domain Of I...  80.5    3e-18
+pdb|2K2Z|A  Chain A, Solution Structure Of The Folded Domain Of I...  79.7    5e-18
+ref|XP_002408813.1|  carboxypeptidase inhibitor precursor, putati...  79.0    3e-17
+ref|XP_004337090.1|  hypothetical protein ACA1_215080 [Acanthamoe...  34.7    3.9  
+
+
+>sp|Q5EPH2.1|TCI1_RHIBU RecName: Full=Carboxypeptidase inhibitor; AltName: Full=TCI; 
+Flags: Precursor
+ gb|AAW72225.1| carboxypeptidase inhibitor precursor [Rhipicephalus bursa]
+Length=97
+
+ Score =  153 bits (386),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 75/75 (100%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  23  NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  82
+
+Query  61  SASCGKGQKCCVWLH  75
+           SASCGKGQKCCVWLH
+Sbjct  83  SASCGKGQKCCVWLH  97
+
+
+>pdb|1ZLH|B Chain B, Crystal Structure Of The Tick Carboxypeptidase Inhibitor 
+In Complex With Bovine Carboxypeptidase A
+ pdb|1ZLI|B Chain B, Crystal Structure Of The Tick Carboxypeptidase Inhibitor 
+In Complex With Human Carboxypeptidase B
+ pdb|2JTO|A Chain A, Solution Structure Of Tick Carboxypeptidase Inhibitor
+ pdb|2K2X|A Chain A, Solution Structure Of Tick Carboxypeptidase Inhibitor 
+At Ph 3.5
+Length=75
+
+ Score =  149 bits (376),  Expect = 7e-45, Method: Compositional matrix adjust.
+ Identities = 75/75 (100%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+
+Query  61  SASCGKGQKCCVWLH  75
+           SASCGKGQKCCVWLH
+Sbjct  61  SASCGKGQKCCVWLH  75
+
+
+>pdb|3D4U|B Chain B, Bovine Thrombin-Activatable Fibrinolysis Inhibitor (Tafia) 
+In Complex With Tick-Derived Carboxypeptidase Inhibitor.
+ pdb|3LMS|B Chain B, Structure Of Human Activated Thrombin-Activatable Fibrinolys 
+Inhibitor, Tafia, In Complex With Tick-Derived Funnelin 
+Inh Tci.
+ pdb|3OSL|B Chain B, Structure Of Bovine Thrombin-Activatable Fibrinolysis 
+Inhibitor In Complex With Tick Carboxypeptidase Inhibitor
+ pdb|3OSL|D Chain D, Structure Of Bovine Thrombin-Activatable Fibrinolysis 
+Inhibitor In Complex With Tick Carboxypeptidase Inhibitor
+Length=74
+
+ Score =  146 bits (368),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+
+Query  61  SASCGKGQKCCVWL  74
+           SASCGKGQKCCVWL
+Sbjct  61  SASCGKGQKCCVWL  74
+
+
+>gb|ABO93460.1| carboxypeptidase inhibitor [Haemaphysalis longicornis]
+Length=96
+
+ Score =  101 bits (252),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 47/75 (63%), Positives = 58/75 (77%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           N+CVS GFGC P+S CP E RLSY GC TVCCD+S+LTGC+ KGGEC P ++ C+EL +E
+Sbjct  22  NDCVSHGFGCTPESRCPPELRLSYTGCDTVCCDISRLTGCENKGGECQPREKPCRELPSE  81
+
+Query  61  SASCGKGQKCCVWLH  75
+           + SC + QKCCV L 
+Sbjct  82  NVSCSEEQKCCVLLE  96
+
+
+>pdb|2K2Y|A Chain A, Solution Structure Of The Folded Domain Of Intermediate 
+Iiia Of Tick Carboxypeptidase Inhibitor
+Length=39
+
+ Score = 80.5 bits (197),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG  39
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG  39
+
+
+>pdb|2K2Z|A Chain A, Solution Structure Of The Folded Domain Of Intermediate 
+Iiib Of Tick Carboxypeptidase Inhibitor
+Length=39
+
+ Score = 79.7 bits (195),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  37  LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH  75
+           LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH
+Sbjct  1   LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH  39
+
+
+>ref|XP_002408813.1| carboxypeptidase inhibitor precursor, putative [Ixodes scapularis]
+ gb|EEC06899.1| carboxypeptidase inhibitor precursor, putative [Ixodes scapularis]
+Length=82
+
+ Score = 79.0 bits (193),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 50/74 (68%), Gaps = 0/74 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECV+ G+GC+P+  CP++      GCSTVCCDL+ +  C  +GGEC+P    CKE    
+Sbjct  9   NECVAAGYGCVPERVCPRQHIKRKSGCSTVCCDLANVKTCAARGGECSPAQTNCKEAPEL  68
+
+Query  61  SASCGKGQKCCVWL  74
+           +A+CG  QKCC+++
+Sbjct  69  AATCGPRQKCCIYV  82
+
+
+>ref|XP_004337090.1| hypothetical protein ACA1_215080 [Acanthamoeba castellanii str. 
+Neff]
+ gb|ELR15077.1| hypothetical protein ACA1_215080 [Acanthamoeba castellanii str. 
+Neff]
+Length=1933
+
+ Score = 34.7 bits (78),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 28/70 (40%), Gaps = 9/70 (13%)
+
+Query  9    GCLPQSDCPQEARLSYGGCSTVCCD---LSKLTGCKGKGGECNPLDRQCKELQAESASCG  65
+             C+P   CP    + Y G   VCC    +S  T C G        D     L+ E+    
+Sbjct  550  ACIPDLHCPLMCTVDYRGFRLVCCSVLPISSSTLCYGSN------DGGLTVLKKEAELSR  603
+
+Query  66   KGQKCCVWLH  75
+            K ++ C WLH
+Sbjct  604  KVEQACKWLH  613
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.483    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311467657189
+Results from round 2
+
+
+Query= 1ZLHB
+
+Length=75
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+sp|Q5EPH2.1|TCI1_RHIBU  RecName: Full=Carboxypeptidase inhibitor;...   107    2e-28
+gb|ABO93460.1|  carboxypeptidase inhibitor [Haemaphysalis longico...   105    2e-27
+pdb|1ZLH|B  Chain B, Crystal Structure Of The Tick Carboxypeptida...  94.8    1e-23
+pdb|3D4U|B  Chain B, Bovine Thrombin-Activatable Fibrinolysis Inh...  92.5    1e-22
+ref|XP_002408813.1|  carboxypeptidase inhibitor precursor, putati...  92.1    2e-22
+pdb|2K2Y|A  Chain A, Solution Structure Of The Folded Domain Of I...  53.6    6e-08
+pdb|2K2Z|A  Chain A, Solution Structure Of The Folded Domain Of I...  50.9    6e-07
+
+Sequences not found previously or not previously below threshold:
+
+ref|XP_006002353.1|  PREDICTED: alanine--glyoxylate aminotransfer...  37.4    0.41 
+ref|XP_006002352.1|  PREDICTED: alanine--glyoxylate aminotransfer...  37.4    0.43 
+gb|EKC42403.1|  hypothetical protein CGI_10015703 [Crassostrea gi...  35.9    0.93 
+ref|XP_006146440.1|  PREDICTED: LOW QUALITY PROTEIN: c-Jun-amino-...  35.5    1.7  
+ref|XP_001897373.1|  B-box zinc finger family protein [Brugia mal...  35.5    2.0  
+ref|XP_004636182.1|  PREDICTED: WAP four-disulfide core domain pr...  34.3    2.7  
+ref|XP_967595.1|  PREDICTED: similar to conserved hypothetical pr...  34.7    3.2  
+ref|XP_004586134.1|  PREDICTED: WAP four-disulfide core domain pr...  34.0    4.5  
+ref|XP_001655702.1|  serine protease, putative [Aedes aegypti] >g...  33.6    5.9  
+gb|ELW67797.1|  C-Jun-amino-terminal kinase-interacting protein 3...  34.0    6.2  
+ref|XP_003400502.1|  PREDICTED: hypothetical protein LOC100642703...  33.6    7.1  
+ref|XP_003492616.1|  PREDICTED: zinc finger CCCH domain-containin...  33.2    8.5  
+
+
+>sp|Q5EPH2.1|TCI1_RHIBU RecName: Full=Carboxypeptidase inhibitor; AltName: Full=TCI; 
+Flags: Precursor
+ gb|AAW72225.1| carboxypeptidase inhibitor precursor [Rhipicephalus bursa]
+Length=97
+
+ Score =  107 bits (268),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 75/75 (100%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  23  NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  82
+
+Query  61  SASCGKGQKCCVWLH  75
+           SASCGKGQKCCVWLH
+Sbjct  83  SASCGKGQKCCVWLH  97
+
+
+>gb|ABO93460.1| carboxypeptidase inhibitor [Haemaphysalis longicornis]
+Length=96
+
+ Score =  105 bits (262),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 47/75 (63%), Positives = 58/75 (77%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           N+CVS GFGC P+S CP E RLSY GC TVCCD+S+LTGC+ KGGEC P ++ C+EL +E
+Sbjct  22  NDCVSHGFGCTPESRCPPELRLSYTGCDTVCCDISRLTGCENKGGECQPREKPCRELPSE  81
+
+Query  61  SASCGKGQKCCVWLH  75
+           + SC + QKCCV L 
+Sbjct  82  NVSCSEEQKCCVLLE  96
+
+
+>pdb|1ZLH|B Chain B, Crystal Structure Of The Tick Carboxypeptidase Inhibitor 
+In Complex With Bovine Carboxypeptidase A
+ pdb|1ZLI|B Chain B, Crystal Structure Of The Tick Carboxypeptidase Inhibitor 
+In Complex With Human Carboxypeptidase B
+ pdb|2JTO|A Chain A, Solution Structure Of Tick Carboxypeptidase Inhibitor
+ pdb|2K2X|A Chain A, Solution Structure Of Tick Carboxypeptidase Inhibitor 
+At Ph 3.5
+Length=75
+
+ Score = 94.8 bits (234),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 75/75 (100%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+
+Query  61  SASCGKGQKCCVWLH  75
+           SASCGKGQKCCVWLH
+Sbjct  61  SASCGKGQKCCVWLH  75
+
+
+>pdb|3D4U|B Chain B, Bovine Thrombin-Activatable Fibrinolysis Inhibitor (Tafia) 
+In Complex With Tick-Derived Carboxypeptidase Inhibitor.
+ pdb|3LMS|B Chain B, Structure Of Human Activated Thrombin-Activatable Fibrinolys 
+Inhibitor, Tafia, In Complex With Tick-Derived Funnelin 
+Inh Tci.
+ pdb|3OSL|B Chain B, Structure Of Bovine Thrombin-Activatable Fibrinolysis 
+Inhibitor In Complex With Tick Carboxypeptidase Inhibitor
+ pdb|3OSL|D Chain D, Structure Of Bovine Thrombin-Activatable Fibrinolysis 
+Inhibitor In Complex With Tick Carboxypeptidase Inhibitor
+Length=74
+
+ Score = 92.5 bits (228),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+
+Query  61  SASCGKGQKCCVWL  74
+           SASCGKGQKCCVWL
+Sbjct  61  SASCGKGQKCCVWL  74
+
+
+>ref|XP_002408813.1| carboxypeptidase inhibitor precursor, putative [Ixodes scapularis]
+ gb|EEC06899.1| carboxypeptidase inhibitor precursor, putative [Ixodes scapularis]
+Length=82
+
+ Score = 92.1 bits (227),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 35/74 (47%), Positives = 50/74 (68%), Gaps = 0/74 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAE  60
+           NECV+ G+GC+P+  CP++      GCSTVCCDL+ +  C  +GGEC+P    CKE    
+Sbjct  9   NECVAAGYGCVPERVCPRQHIKRKSGCSTVCCDLANVKTCAARGGECSPAQTNCKEAPEL  68
+
+Query  61  SASCGKGQKCCVWL  74
+           +A+CG  QKCC+++
+Sbjct  69  AATCGPRQKCCIYV  82
+
+
+>pdb|2K2Y|A Chain A, Solution Structure Of The Folded Domain Of Intermediate 
+Iiia Of Tick Carboxypeptidase Inhibitor
+Length=39
+
+ Score = 53.6 bits (127),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG  39
+           NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG
+Sbjct  1   NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTG  39
+
+
+>pdb|2K2Z|A Chain A, Solution Structure Of The Folded Domain Of Intermediate 
+Iiib Of Tick Carboxypeptidase Inhibitor
+Length=39
+
+ Score = 50.9 bits (120),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  37  LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH  75
+           LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH
+Sbjct  1   LTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH  39
+
+
+>ref|XP_006002353.1| PREDICTED: alanine--glyoxylate aminotransferase 2, mitochondrial 
+isoform X2 [Latimeria chalumnae]
+Length=483
+
+ Score = 37.4 bits (85),  Expect = 0.41, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 30/67 (45%), Gaps = 1/67 (1%)
+
+Query  2    ECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAES  61
+            + ++ GFGC P + CP   R  +GG       +  +  C    G C+  D+   +L+   
+Sbjct  216  QSMANGFGCHP-TMCPDVFRGPWGGSHCRDSPVQTIRTCNCCPGSCDAKDKYILQLKDVL  274
+
+Query  62   ASCGKGQ  68
+            ++C   Q
+Sbjct  275  STCVPKQ  281
+
+
+>ref|XP_006002352.1| PREDICTED: alanine--glyoxylate aminotransferase 2, mitochondrial 
+isoform X1 [Latimeria chalumnae]
+Length=516
+
+ Score = 37.4 bits (85),  Expect = 0.43, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 30/67 (45%), Gaps = 1/67 (1%)
+
+Query  2    ECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAES  61
+            + ++ GFGC P + CP   R  +GG       +  +  C    G C+  D+   +L+   
+Sbjct  216  QSMANGFGCHP-TMCPDVFRGPWGGSHCRDSPVQTIRTCNCCPGSCDAKDKYILQLKDVL  274
+
+Query  62   ASCGKGQ  68
+            ++C   Q
+Sbjct  275  STCVPKQ  281
+
+
+>gb|EKC42403.1| hypothetical protein CGI_10015703 [Crassostrea gigas]
+Length=327
+
+ Score = 35.9 bits (81),  Expect = 0.93, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 21/47 (45%), Gaps = 2/47 (4%)
+
+Query  1    NECVSKGFGCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGEC  47
+            +EC + G  C+P   C    + +Y G     CDL +   C   GG C
+Sbjct  133  SECNATGRLCVPGYKCRPSHKNNYTGICYHICDL-ETRVCYN-GGHC  177
+
+
+>ref|XP_006146440.1| PREDICTED: LOW QUALITY PROTEIN: c-Jun-amino-terminal kinase-interacting 
+protein 3 [Tupaia chinensis]
+Length=1270
+
+ Score = 35.5 bits (80),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 25/58 (43%), Gaps = 1/58 (2%)
+
+Query  9    GCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGK  66
+            G  P  D P  +     GC  + CD  ++ G + K    +P  ++ KEL    A+  +
+Sbjct  650  GWKPGDDAPGNSIKPTPGCDPLTCD-REVEGSEPKSTHTSPEKKKAKELAEADATSSR  706
+
+
+>ref|XP_001897373.1| B-box zinc finger family protein [Brugia malayi]
+ gb|EDP33769.1| B-box zinc finger family protein [Brugia malayi]
+Length=3853
+
+ Score = 35.5 bits (80),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 28/64 (44%), Gaps = 4/64 (6%)
+
+Query  9    GCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQ  68
+            G    S C     L     +++C    +   C  +G  C P+  + ++ +    +CG+G+
+Sbjct  589  GVEQSSYCLPSEHLWVKDFASICLKCGR---CSARGSRCAPIRTE-RDTKGTPCTCGEGE  644
+
+Query  69   KCCV  72
+             CC+
+Sbjct  645  TCCL  648
+
+
+>ref|XP_004636182.1| PREDICTED: WAP four-disulfide core domain protein 3 [Octodon 
+degus]
+Length=251
+
+ Score = 34.3 bits (77),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 24/62 (39%), Positives = 28/62 (45%), Gaps = 4/62 (6%)
+
+Query  10  CLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQK  69
+           C     CP   +    GC  VC    +    KG GGEC      C+EL    ASC +GQK
+Sbjct  43  CQGDESCPAGQKCCSTGCGRVC----QGDIPKGFGGECPADPLPCEELCDGDASCPQGQK  98
+
+Query  70  CC  71
+           CC
+Sbjct  99  CC  100
+
+
+>ref|XP_967595.1| PREDICTED: similar to conserved hypothetical protein [Tribolium 
+castaneum]
+ gb|EFA07109.1| hypothetical protein TcasGA2_TC010099 [Tribolium castaneum]
+Length=1093
+
+ Score = 34.7 bits (78),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 26/51 (51%), Gaps = 1/51 (2%)
+
+Query  26   GCSTVC-CDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQKCCVWLH  75
+            GC  VC C+++  T CK +    N  + +C E+Q  + SC K   C V L 
+Sbjct  191  GCDEVCTCEIAGKTSCKPRCPPVNKTNDKCVEVQDPNDSCCKKLLCDVTLD  241
+
+
+>ref|XP_004586134.1| PREDICTED: WAP four-disulfide core domain protein 3 [Ochotona 
+princeps]
+Length=274
+
+ Score = 34.0 bits (76),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 24/62 (39%), Gaps = 0/62 (0%)
+
+Query  10   CLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGKGQK  69
+            C+    CP E +    GC   C            GGEC      C+EL     SC +G K
+Sbjct  89   CVNDESCPGEKKCCTFGCEKSCVVPKSAQSLAEVGGECPADPLPCEELCDGDLSCPQGHK  148
+
+Query  70   CC  71
+            CC
+Sbjct  149  CC  150
+
+
+>ref|XP_001655702.1| serine protease, putative [Aedes aegypti]
+ gb|EAT46187.1| AAEL002601-PA [Aedes aegypti]
+Length=428
+
+ Score = 33.6 bits (75),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 32/78 (41%), Gaps = 9/78 (12%)
+
+Query  3    CVSKGFGCLPQSDCP-QEARLSYGGCS-TVCC------DLSKLTGCKGKGGECNPLDRQC  54
+            C++    C  +++C  +        C   VCC      D S  + C   GG C   ++ C
+Sbjct  49   CLNNKGVCTEENECDGKMYNDRRNECGGLVCCSLPQDTDTSSESTCDSLGGTCK-AEQHC  107
+
+Query  55   KELQAESASCGKGQKCCV  72
+            +E+    A C +   CC+
+Sbjct  108  REIADRIADCAEDTVCCL  125
+
+
+>gb|ELW67797.1| C-Jun-amino-terminal kinase-interacting protein 3 [Tupaia chinensis]
+Length=1761
+
+ Score = 34.0 bits (76),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 15/58 (26%), Positives = 25/58 (43%), Gaps = 1/58 (2%)
+
+Query  9     GCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQCKELQAESASCGK  66
+             G  P  D P  +     GC  + CD  ++ G + K    +P  ++ KEL    A+  +
+Sbjct  1141  GWKPGDDAPGNSIKPTPGCDPLTCD-REVEGSEPKSTHTSPEKKKAKELAEADATSSR  1197
+
+
+>ref|XP_003400502.1| PREDICTED: hypothetical protein LOC100642703 [Bombus terrestris]
+Length=586
+
+ Score = 33.6 bits (75),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 24/63 (38%), Gaps = 5/63 (8%)
+
+Query  9    GCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQ-CKELQAESASCGKG  67
+            GC  +  CP          + +C D   L G   KG EC       C E   ++  C KG
+Sbjct  404  GCCTRDACPYRHIK-VSSSTPICIDF--LQGYCAKGSECKQRHENLCPEF-EKTEKCSKG  459
+
+Query  68   QKC  70
+            + C
+Sbjct  460  EYC  462
+
+
+>ref|XP_003492616.1| PREDICTED: zinc finger CCCH domain-containing protein 3-like 
+[Bombus impatiens]
+Length=580
+
+ Score = 33.2 bits (74),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 18/63 (29%), Positives = 24/63 (38%), Gaps = 5/63 (8%)
+
+Query  9    GCLPQSDCPQEARLSYGGCSTVCCDLSKLTGCKGKGGECNPLDRQ-CKELQAESASCGKG  67
+            GC  +  CP          + +C D   L G   KG EC       C E   ++  C KG
+Sbjct  398  GCCTRDACPYRHIK-VSSSTPICIDF--LQGYCAKGSECKQRHENLCPEF-EKTEKCSKG  453
+
+Query  68   QKC  70
+            + C
+Sbjct  454  EYC  456
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.128    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0417    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311467657189
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,643 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 4EMCC
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|4EMC|C  Chain C, Structure Of A Complex Between S. Cerevisiae...   137    2e-40
+gb|EGA62640.1|  Mam1p [Saccharomyces cerevisiae FostersO]              135    7e-39
+dbj|GAA22960.1|  K7_Mam1p [Saccharomyces cerevisiae Kyokai no. 7]      140    8e-39
+ref|NP_011032.1|  Mam1p [Saccharomyces cerevisiae S288c] >sp|P400...   140    9e-39
+gb|EDN63082.1|  Monopolin [Saccharomyces cerevisiae YJM789] >emb|...   140    9e-39
+gb|EHN07625.1|  Mam1p [Saccharomyces cerevisiae x Saccharomyces k...   140    9e-39
+gb|EGA83152.1|  Mam1p [Saccharomyces cerevisiae Lalvin QA23]           140    9e-39
+gb|AAT92900.1|  YER106W [Saccharomyces cerevisiae]                     140    9e-39
+gb|EDV08936.1|  monopolin [Saccharomyces cerevisiae RM11-1a] >gb|...   139    2e-38
+gb|EIW10901.1|  Mam1p [Saccharomyces cerevisiae CEN.PK113-7D]          137    1e-37
+gb|EEU06341.1|  Mam1p [Saccharomyces cerevisiae JAY291]                137    1e-37
+gb|EGA59017.1|  Mam1p [Saccharomyces cerevisiae FostersB]              125    2e-33
+gb|EGA87125.1|  Mam1p [Saccharomyces cerevisiae VL3]                   117    3e-30
+gb|EGA79228.1|  Mam1p [Saccharomyces cerevisiae Vin13]                 115    2e-29
+gb|EGA75172.1|  Mam1p [Saccharomyces cerevisiae AWRI796]               101    2e-24
+gb|EHN02774.1|  Mam1p [Saccharomyces cerevisiae x Saccharomyces k...  95.5    4e-22
+gb|EJT43355.1|  MAM1-like protein [Saccharomyces kudriavzevii IFO...  87.0    5e-19
+
+
+>pdb|4EMC|C Chain C, Structure Of A Complex Between S. Cerevisiae Csm1 And 
+Mam1
+Length=70
+
+ Score =  137 bits (345),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+           QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  1   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+
+Query  61  VPKKKNKKII  70
+           VPKKKNKKII
+Sbjct  61  VPKKKNKKII  70
+
+
+>gb|EGA62640.1| Mam1p [Saccharomyces cerevisiae FostersO]
+Length=137
+
+ Score =  135 bits (341),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  55   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  114
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  115  VPKKKNKKII  124
+
+
+>dbj|GAA22960.1| K7_Mam1p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=303
+
+ Score =  140 bits (352),  Expect = 8e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>ref|NP_011032.1| Mam1p [Saccharomyces cerevisiae S288c]
+ sp|P40065.1|MAM1_YEAST RecName: Full=Monopolin complex subunit MAM1; AltName: Full=Monopolar 
+microtubule attachment during meiosis 1 protein 1
+ gb|AAB64661.1| Yer106wp [Saccharomyces cerevisiae]
+ tpg|DAA07767.1| TPA: Mam1p [Saccharomyces cerevisiae S288c]
+Length=302
+
+ Score =  140 bits (352),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EDN63082.1| Monopolin [Saccharomyces cerevisiae YJM789]
+ emb|CAY79290.1| Mam1p [Saccharomyces cerevisiae EC1118]
+Length=302
+
+ Score =  140 bits (352),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EHN07625.1| Mam1p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=302
+
+ Score =  140 bits (352),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EGA83152.1| Mam1p [Saccharomyces cerevisiae Lalvin QA23]
+Length=302
+
+ Score =  140 bits (352),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|AAT92900.1| YER106W [Saccharomyces cerevisiae]
+Length=302
+
+ Score =  140 bits (352),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EDV08936.1| monopolin [Saccharomyces cerevisiae RM11-1a]
+ gb|EDZ72562.1| YER106Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=302
+
+ Score =  139 bits (349),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 69/70 (99%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q+KRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QQKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EIW10901.1| Mam1p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=303
+
+ Score =  137 bits (344),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EEU06341.1| Mam1p [Saccharomyces cerevisiae JAY291]
+Length=303
+
+ Score =  137 bits (344),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EGA59017.1| Mam1p [Saccharomyces cerevisiae FostersB]
+Length=290
+
+ Score =  125 bits (315),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 63/68 (93%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKK KSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKXKSKGKPLEV  280
+
+Query  61   VPKKKNKK  68
+            VPKK+ +K
+Sbjct  281  VPKKEKQK  288
+
+
+>gb|EGA87125.1| Mam1p [Saccharomyces cerevisiae VL3]
+Length=290
+
+ Score =  117 bits (293),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 1/69 (1%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTL-E  59
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIK KGK L  
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKXKGKNLGS  280
+
+Query  60   VVPKKKNKK  68
+              PK+K K+
+Sbjct  281  GYPKRKTKR  289
+
+
+>gb|EGA79228.1| Mam1p [Saccharomyces cerevisiae Vin13]
+Length=300
+
+ Score =  115 bits (287),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 58/68 (85%), Positives = 61/68 (90%), Gaps = 0/68 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQS LIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK L  
+Sbjct  221  QKKRFLPQSXLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKNLGS  280
+
+Query  61   VPKKKNKK  68
+              +K+ +K
+Sbjct  281  GSQKEKQK  288
+
+
+>gb|EGA75172.1| Mam1p [Saccharomyces cerevisiae AWRI796]
+Length=271
+
+ Score =  101 bits (252),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 48/50 (96%), Positives = 49/50 (98%), Gaps = 0/50 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKK  50
+            Q+KRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPN KK
+Sbjct  221  QQKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNNKK  270
+
+
+>gb|EHN02774.1| Mam1p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=311
+
+ Score = 95.5 bits (236),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q +RFLP+S+LIKRE++IAFDDF LDA+K+LNDLSATSENPF SSP TKK ++     + 
+Sbjct  228  QAERFLPESILIKRENDIAFDDFQLDAKKILNDLSATSENPFGSSPCTKKPETNENNKDT  287
+
+Query  61   VPKKKNKKII  70
+            +PKKKN+K I
+Sbjct  288  IPKKKNEKRI  297
+
+
+>gb|EJT43355.1| MAM1-like protein [Saccharomyces kudriavzevii IFO 1802]
+Length=347
+
+ Score = 87.0 bits (214),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 40/62 (65%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q +RFLP+S+LIKRE++IAFDDF LDA+K+LNDLSATSENPF SSP TKK ++     + 
+Sbjct  264  QAERFLPESILIKRENDIAFDDFQLDAKKILNDLSATSENPFGSSPCTKKPETNENNKDT  323
+
+Query  61   VP  62
+            +P
+Sbjct  324  IP  325
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.129    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+Results from round 2
+
+
+Query= 4EMCC
+
+Length=70
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+gb|EEU06341.1|  Mam1p [Saccharomyces cerevisiae JAY291]                112    2e-28
+gb|EIW10901.1|  Mam1p [Saccharomyces cerevisiae CEN.PK113-7D]          112    2e-28
+dbj|GAA22960.1|  K7_Mam1p [Saccharomyces cerevisiae Kyokai no. 7]      112    4e-28
+gb|AAT92900.1|  YER106W [Saccharomyces cerevisiae]                     111    6e-28
+gb|EGA62640.1|  Mam1p [Saccharomyces cerevisiae FostersO]              107    6e-28
+ref|NP_011032.1|  Mam1p [Saccharomyces cerevisiae S288c] >sp|P400...   111    6e-28
+gb|EGA83152.1|  Mam1p [Saccharomyces cerevisiae Lalvin QA23]           111    7e-28
+gb|EHN07625.1|  Mam1p [Saccharomyces cerevisiae x Saccharomyces k...   111    8e-28
+gb|EDN63082.1|  Monopolin [Saccharomyces cerevisiae YJM789] >emb|...   110    9e-28
+gb|EDV08936.1|  monopolin [Saccharomyces cerevisiae RM11-1a] >gb|...   110    1e-27
+gb|EHN02774.1|  Mam1p [Saccharomyces cerevisiae x Saccharomyces k...   109    6e-27
+gb|EGA59017.1|  Mam1p [Saccharomyces cerevisiae FostersB]              107    2e-26
+gb|EGA79228.1|  Mam1p [Saccharomyces cerevisiae Vin13]                 103    5e-25
+pdb|4EMC|C  Chain C, Structure Of A Complex Between S. Cerevisiae...  97.1    2e-24
+gb|EGA87125.1|  Mam1p [Saccharomyces cerevisiae VL3]                   101    2e-24
+gb|EJT43355.1|  MAM1-like protein [Saccharomyces kudriavzevii IFO...   101    3e-24
+gb|EGA75172.1|  Mam1p [Saccharomyces cerevisiae AWRI796]              87.1    4e-19
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>gb|EEU06341.1| Mam1p [Saccharomyces cerevisiae JAY291]
+Length=303
+
+ Score =  112 bits (281),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EIW10901.1| Mam1p [Saccharomyces cerevisiae CEN.PK113-7D]
+Length=303
+
+ Score =  112 bits (281),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>dbj|GAA22960.1| K7_Mam1p [Saccharomyces cerevisiae Kyokai no. 7]
+Length=303
+
+ Score =  112 bits (279),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|AAT92900.1| YER106W [Saccharomyces cerevisiae]
+Length=302
+
+ Score =  111 bits (278),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EGA62640.1| Mam1p [Saccharomyces cerevisiae FostersO]
+Length=137
+
+ Score =  107 bits (268),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK LEV
+Sbjct  55   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKPLEV  114
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  115  VPKKKNKKII  124
+
+
+>ref|NP_011032.1| Mam1p [Saccharomyces cerevisiae S288c]
+ sp|P40065.1|MAM1_YEAST RecName: Full=Monopolin complex subunit MAM1; AltName: Full=Monopolar 
+microtubule attachment during meiosis 1 protein 1
+ gb|AAB64661.1| Yer106wp [Saccharomyces cerevisiae]
+ tpg|DAA07767.1| TPA: Mam1p [Saccharomyces cerevisiae S288c]
+Length=302
+
+ Score =  111 bits (277),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EGA83152.1| Mam1p [Saccharomyces cerevisiae Lalvin QA23]
+Length=302
+
+ Score =  111 bits (277),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EHN07625.1| Mam1p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=302
+
+ Score =  111 bits (277),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EDN63082.1| Monopolin [Saccharomyces cerevisiae YJM789]
+ emb|CAY79290.1| Mam1p [Saccharomyces cerevisiae EC1118]
+Length=302
+
+ Score =  110 bits (276),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EDV08936.1| monopolin [Saccharomyces cerevisiae RM11-1a]
+ gb|EDZ72562.1| YER106Wp-like protein [Saccharomyces cerevisiae AWRI1631]
+Length=302
+
+ Score =  110 bits (276),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 69/70 (99%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q+KRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  221  QQKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  280
+
+Query  61   VPKKKNKKII  70
+            VPKKKNKKII
+Sbjct  281  VPKKKNKKII  290
+
+
+>gb|EHN02774.1| Mam1p [Saccharomyces cerevisiae x Saccharomyces kudriavzevii 
+VIN7]
+Length=311
+
+ Score =  109 bits (271),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q +RFLP+S+LIKRE++IAFDDF LDA+K+LNDLSATSENPF SSP TKK ++     + 
+Sbjct  228  QAERFLPESILIKRENDIAFDDFQLDAKKILNDLSATSENPFGSSPCTKKPETNENNKDT  287
+
+Query  61   VPKKKNKKII  70
+            +PKKKN+K I
+Sbjct  288  IPKKKNEKRI  297
+
+
+>gb|EGA59017.1| Mam1p [Saccharomyces cerevisiae FostersB]
+Length=290
+
+ Score =  107 bits (266),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 63/68 (93%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKK KSKGK LEV
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKXKSKGKPLEV  280
+
+Query  61   VPKKKNKK  68
+            VPKK+ +K
+Sbjct  281  VPKKEKQK  288
+
+
+>gb|EGA79228.1| Mam1p [Saccharomyces cerevisiae Vin13]
+Length=300
+
+ Score =  103 bits (257),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 58/68 (85%), Positives = 61/68 (90%), Gaps = 0/68 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQS LIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGK L  
+Sbjct  221  QKKRFLPQSXLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKNLGS  280
+
+Query  61   VPKKKNKK  68
+              +K+ +K
+Sbjct  281  GSQKEKQK  288
+
+
+>pdb|4EMC|C Chain C, Structure Of A Complex Between S. Cerevisiae Csm1 And 
+Mam1
+Length=70
+
+ Score = 97.1 bits (240),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 70/70 (100%), Positives = 70/70 (100%), Gaps = 0/70 (0%)
+
+Query  1   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+           QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV
+Sbjct  1   QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+
+Query  61  VPKKKNKKII  70
+           VPKKKNKKII
+Sbjct  61  VPKKKNKKII  70
+
+
+>gb|EGA87125.1| Mam1p [Saccharomyces cerevisiae VL3]
+Length=290
+
+ Score =  101 bits (252),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 1/69 (1%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIK KGK L  
+Sbjct  221  QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKXKGKNLGS  280
+
+Query  61   -VPKKKNKK  68
+              PK+K K+
+Sbjct  281  GYPKRKTKR  289
+
+
+>gb|EJT43355.1| MAM1-like protein [Saccharomyces kudriavzevii IFO 1802]
+Length=347
+
+ Score =  101 bits (252),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 45/70 (64%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKKIKSKGKTLEV  60
+            Q +RFLP+S+LIKRE++IAFDDF LDA+K+LNDLSATSENPF SSP TKK ++     + 
+Sbjct  264  QAERFLPESILIKRENDIAFDDFQLDAKKILNDLSATSENPFGSSPCTKKPETNENNKDT  323
+
+Query  61   VPKKKNKKII  70
+            +PKKK +K I
+Sbjct  324  IPKKKKEKKI  333
+
+
+>gb|EGA75172.1| Mam1p [Saccharomyces cerevisiae AWRI796]
+Length=271
+
+ Score = 87.1 bits (214),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 48/50 (96%), Positives = 49/50 (98%), Gaps = 0/50 (0%)
+
+Query  1    QKKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNTKK  50
+            Q+KRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPN KK
+Sbjct  221  QQKRFLPQSVLIKREDEIAFDDFHLDARKVLNDLSATSENPFSSSPNNKK  270
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.131    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 304658544876
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

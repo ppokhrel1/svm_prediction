@@ -1,0 +1,745 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2RH3A
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2RH3|A  Chain A, Crystal Structure Of Plasmid Ptic58 Virc2         248    3e-82
+ref|NP_053393.1|  hypothetical protein pTi-SAKURA_p155 [Agrobacte...   249    1e-81
+sp|P13460.1|VIRC2_AGRRH  RecName: Full=Protein virC2 >emb|CAA3134...   222    5e-71
+ref|YP_001967543.1|  VirC2 [Agrobacterium tumefaciens] >ref|WP_01...   201    5e-63
+ref|WP_007538689.1|  Crp/Fnr family transcriptional regulator [Rh...   201    9e-63
+ref|NP_059811.1|  hypothetical protein pTi_139 [Agrobacterium tum...   198    9e-62
+ref|YP_002540100.1|  virA/G regulated protein [Agrobacterium viti...   193    7e-60
+ref|NP_066746.1|  riorf165 [Agrobacterium rhizogenes] >ref|YP_001...   192    3e-59
+gb|AAL57021.1|AF329849_15  VirC2 [Agrobacterium tumefaciens]           187    3e-57
+ref|YP_471650.1|  virulence VirC2 protein [Rhizobium etli CFN 42]...   171    3e-51
+ref|YP_770850.1|  crown gall tumor protein VirC2 [Rhizobium legum...   107    2e-26
+ref|WP_018009310.1|  hypothetical protein [Sinorhizobium medicae]      103    7e-25
+ref|WP_009469691.1|  piccolo isoform 3 [Roseibium sp. TrichSKD4] ...  63.9    2e-10
+ref|WP_001895096.1|  transposase IS1381, partial [Streptococcus a...  35.0    3.2  
+ref|NP_111617.1|  ATPase [Thermoplasma volcanium GSS1] >ref|WP_01...  35.8    3.2  
+
+
+>pdb|2RH3|A Chain A, Crystal Structure Of Plasmid Ptic58 Virc2
+Length=121
+
+ Score =  248 bits (632),  Expect = 3e-82, Method: Compositional matrix adjust.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI
+Sbjct  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN
+Sbjct  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+
+Query  121  S  121
+            S
+Sbjct  121  S  121
+
+
+>ref|NP_053393.1| hypothetical protein pTi-SAKURA_p155 [Agrobacterium tumefaciens]
+ ref|NP_396500.2| putative crown gall tumor protein VirC2 [Agrobacterium fabrum 
+str. C58]
+ ref|WP_010891491.1| Crp/Fnr family transcriptional regulator [Agrobacterium tumefaciens 
+complex]
+ sp|P07166.1|VIRC2_AGRT5 RecName: Full=Protein virC2
+ emb|CAA68596.1| virC2 [Agrobacterium tumefaciens]
+ gb|AAA98387.1| virulence protein [Plasmid pTiC58]
+ dbj|BAA87778.1| tiorf153 [Agrobacterium tumefaciens]
+ gb|AAK90941.2| virA/G regulated protein [Agrobacterium fabrum str. C58]
+Length=202
+
+ Score =  249 bits (636),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI
+Sbjct  82   IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN
+Sbjct  142  PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  201
+
+Query  121  S  121
+            S
+Sbjct  202  S  202
+
+
+>sp|P13460.1|VIRC2_AGRRH RecName: Full=Protein virC2
+ emb|CAA31348.1| virC2 (AA 1-202) [Agrobacterium rhizogenes]
+Length=202
+
+ Score =  222 bits (565),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 108/120 (90%), Positives = 110/120 (92%), Gaps = 0/120 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAP+VSKIYDNLILQYSPSKSLQMILRRALGDFE MLADGSFR APKSYPI
+Sbjct  82   IQVFLSARPPAPQVSKIYDNLILQYSPSKSLQMILRRALGDFEKMLADGSFRTAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P TA EKSIIVQTSRMFPV L+E ARNHFDPLGLETARAFGHKLATAALA FFA EK T 
+Sbjct  142  PQTASEKSIIVQTSRMFPVPLLEVARNHFDPLGLETARAFGHKLATAALASFFAGEKTTK  201
+
+
+>ref|YP_001967543.1| VirC2 [Agrobacterium tumefaciens]
+ ref|WP_012478083.1| putative crown gall tumor protein VirC2 [Agrobacterium tumefaciens]
+ gb|AAZ50530.1| VirC2 [Agrobacterium tumefaciens]
+ gb|ABK01305.1| VirC2 [Cloning vector pCAMBIA5105]
+Length=202
+
+ Score =  201 bits (512),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 98/121 (81%), Positives = 110/121 (91%), Gaps = 1/121 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP+VSK YDNL+ QYSPSKSLQMILRRAL DFE+MLADGSFR APKSYPI
+Sbjct  82   LQVFLSARPPAPQVSKTYDNLVRQYSPSKSLQMILRRALDDFESMLADGSFRVAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P T  EKS++VQTSRMFPV+L+E AR+HFDPLGLETARAFGHKLATAALA FFA EK ++
+Sbjct  142  PSTT-EKSVLVQTSRMFPVALLEVARSHFDPLGLETARAFGHKLATAALASFFAGEKPSS  200
+
+Query  121  S  121
+            +
+Sbjct  201  N  201
+
+
+>ref|WP_007538689.1| Crp/Fnr family transcriptional regulator [Rhizobium mesoamericanum]
+ emb|CCM79719.1| Protein virC2 [Rhizobium mesoamericanum STM3625]
+Length=204
+
+ Score =  201 bits (511),  Expect = 9e-63, Method: Compositional matrix adjust.
+ Identities = 100/118 (85%), Positives = 104/118 (88%), Gaps = 0/118 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRAL DFENMLA+GSF  APKSY I
+Sbjct  80   IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALDDFENMLANGSFCTAPKSYLI  139
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKA  118
+            P     KSIIVQTSRMFP  L+E ARNHFDPLGL++ARAFGHKLATAALA FFA EKA
+Sbjct  140  PQRTSGKSIIVQTSRMFPALLLEIARNHFDPLGLDSARAFGHKLATAALASFFAGEKA  197
+
+
+>ref|NP_059811.1| hypothetical protein pTi_139 [Agrobacterium tumefaciens]
+ ref|WP_010892499.1| putative crown gall tumor protein VirC2 [Agrobacterium tumefaciens]
+ sp|P06666.1|VIRC2_RHIRD RecName: Full=Protein virC2
+ gb|AAA27408.1| virC2 [Agrobacterium tumefaciens]
+ emb|CAC15167.1| VirC2 protein [Agrobacterium tumefaciens]
+Length=202
+
+ Score =  198 bits (504),  Expect = 9e-62, Method: Compositional matrix adjust.
+ Identities = 97/121 (80%), Positives = 108/121 (89%), Gaps = 1/121 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP+VSK YDNL+ QYSPSKSLQMILRRAL DFE+MLADGSFR A KSYPI
+Sbjct  82   LQVFLSARPPAPQVSKTYDNLVRQYSPSKSLQMILRRALDDFESMLADGSFRVALKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P T  EKS++VQTSRMFPV+L+E AR+HFDPLGLET RAFGHKLATAALA FFAREK + 
+Sbjct  142  PLTT-EKSVLVQTSRMFPVALLEVARSHFDPLGLETTRAFGHKLATAALASFFAREKPSR  200
+
+Query  121  S  121
+            +
+Sbjct  201  N  201
+
+
+>ref|YP_002540100.1| virA/G regulated protein [Agrobacterium vitis S4]
+ ref|WP_012649023.1| Crp/Fnr family transcriptional regulator [Agrobacterium vitis]
+ gb|ACM39661.1| virA/G regulated protein [Agrobacterium vitis S4]
+Length=204
+
+ Score =  193 bits (491),  Expect = 7e-60, Method: Compositional matrix adjust.
+ Identities = 98/117 (84%), Positives = 101/117 (86%), Gaps = 1/117 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQ+FLSARPPAPEVSKIYD LILQYS SKSLQMILRRAL DFE+ML DGSF  APKSYPI
+Sbjct  83   IQIFLSARPPAPEVSKIYDTLILQYSASKSLQMILRRALADFESMLEDGSFSTAPKSYPI  142
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+             H    K IIVQTSRMFPVSL+E ARNHFDPL LETARAFGHKLATAALA FFA EK
+Sbjct  143  SHV-VNKPIIVQTSRMFPVSLLELARNHFDPLRLETARAFGHKLATAALASFFATEK  198
+
+
+>ref|NP_066746.1| riorf165 [Agrobacterium rhizogenes]
+ ref|YP_001961110.1| rcorf135 [Agrobacterium rhizogenes]
+ ref|WP_010900354.1| hypothetical protein [Agrobacterium rhizogenes]
+ dbj|BAB16284.1| riorf165 [Agrobacterium rhizogenes]
+ gb|ABW33692.1| rcorf135 [Agrobacterium rhizogenes]
+Length=201
+
+ Score =  192 bits (487),  Expect = 3e-59, Method: Compositional matrix adjust.
+ Identities = 95/117 (81%), Positives = 101/117 (86%), Gaps = 1/117 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAPEVSKIYDNLILQYS +K+LQMILRRAL DFENMLADGSF   P+SYPI
+Sbjct  81   VQVFLSARPPAPEVSKIYDNLILQYSATKALQMILRRALADFENMLADGSFSTGPQSYPI  140
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+                 EK I+V TSRMFPVSL+E ARNHFDPL LETARAFGHKLATAALA FFA EK
+Sbjct  141  -SKVVEKPIVVLTSRMFPVSLLEVARNHFDPLRLETARAFGHKLATAALASFFAEEK  196
+
+
+>gb|AAL57021.1|AF329849_15 VirC2 [Agrobacterium tumefaciens]
+Length=200
+
+ Score =  187 bits (474),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 94/120 (78%), Positives = 100/120 (83%), Gaps = 1/120 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSK+YD L+LQYS SKSLQMILRRAL DFE MLADGSF  APK+YPI
+Sbjct  80   IQVFLSARPPAPEVSKMYDTLVLQYSDSKSLQMILRRALADFEAMLADGSFSTAPKTYPI  139
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+                  K +IVQTSRMFPV L+E ARNHFDPL LE+ARAFGHKLATAALA FFA EK T 
+Sbjct  140  SQV-VGKPVIVQTSRMFPVPLLEVARNHFDPLRLESARAFGHKLATAALASFFAGEKMTK  198
+
+
+>ref|YP_471650.1| virulence VirC2 protein [Rhizobium etli CFN 42]
+ ref|WP_011427358.1| Crp/Fnr family transcriptional regulator [Rhizobium etli]
+ gb|AAD55072.1|AF176227_6 VirC2 [Rhizobium etli]
+ gb|ABC92923.1| virulence VirC2 protein [Rhizobium etli CFN 42]
+Length=205
+
+ Score =  171 bits (434),  Expect = 3e-51, Method: Compositional matrix adjust.
+ Identities = 86/118 (73%), Positives = 95/118 (81%), Gaps = 0/118 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP VS+IYD+LILQYS SKSLQMILRRAL DF  ML DGSF  A +SYPI
+Sbjct  81   VQVFLSARPPAPGVSEIYDSLILQYSASKSLQMILRRALDDFVTMLMDGSFSKASQSYPI  140
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKA  118
+            P    EK +IVQTSRM PVS ++ AR+HFDP GLET+RAFG KLATAALA FF   KA
+Sbjct  141  PQETSEKRVIVQTSRMLPVSALKIARDHFDPSGLETSRAFGLKLATAALASFFDAAKA  198
+
+
+>ref|YP_770850.1| crown gall tumor protein VirC2 [Rhizobium leguminosarum bv. viciae 
+3841]
+ ref|WP_011654591.1| crown gall tumor protein VirC2 [Rhizobium leguminosarum]
+ emb|CAK11647.1| putative crown-gall tumour like protein [Rhizobium leguminosarum 
+bv. viciae 3841]
+Length=197
+
+ Score =  107 bits (268),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 58/117 (50%), Positives = 77/117 (66%), Gaps = 4/117 (3%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSA  PA  +S  +D L  +  P+++LQ+ILRRAL D+E ML++GSF    ++Y +
+Sbjct  78   VQVFLSAALPARGISATFDALSAESRPARALQLILRRALDDYELMLSNGSFAEIAQAYSV  137
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+                 E   IV TSRM P  L++ A  HFDPLG  +ARAFG KLA++AL  FF  EK
+Sbjct  138  E----EPLSIVATSRMMPRRLVDIALAHFDPLGFNSARAFGRKLASSALCIFFNNEK  190
+
+
+>ref|WP_018009310.1| hypothetical protein [Sinorhizobium medicae]
+Length=197
+
+ Score =  103 bits (256),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 58/117 (50%), Positives = 75/117 (64%), Gaps = 4/117 (3%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSA  PA  +S  +D L  +  P+++LQMIL+RAL D+E ML+ GSF     +Y +
+Sbjct  78   VQVFLSAALPARGISATFDALSAESRPARALQMILQRALDDYELMLSTGSFAEIAPAYSV  137
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+                 E   IV TSRM P  L++ A  HFDPLG  +ARAFG KLA++AL  FF  EK
+Sbjct  138  E----EPLSIVATSRMMPRRLVDIALAHFDPLGFNSARAFGRKLASSALFIFFNNEK  190
+
+
+>ref|WP_009469691.1| piccolo isoform 3 [Roseibium sp. TrichSKD4]
+ gb|EFO28782.1| piccolo isoform 3 [Roseibium sp. TrichSKD4]
+Length=204
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 41/109 (38%), Positives = 53/109 (49%), Gaps = 6/109 (6%)
+
+Query  10   PAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHTAFEKSI  69
+            P   VS  +D L+  YS  ++L+ IL  AL  +E +L  G F+  PK YP   T      
+Sbjct  101  PQKGVSPFFDALVEDYSEQEALRYILNEALPAYEALLLGGKFKKLPKDYPATTT------  154
+
+Query  70   IVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKA  118
+            IV T R F     EAAR  FD  G+ +       +A AALA +F  E A
+Sbjct  155  IVSTRRTFSGEAFEAARKAFDRFGVLSQFKISKMIAQAALASYFKNENA  203
+
+
+>ref|WP_001895096.1| transposase IS1381, partial [Streptococcus agalactiae]
+ gb|EPU50767.1| transposase IS1381, partial [Streptococcus agalactiae str. Gottschalk 
+992B]
+Length=131
+
+ Score = 35.0 bits (79),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 36/74 (49%), Gaps = 6/74 (8%)
+
+Query  15  SKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHTAFEKSIIVQTS  74
+           +KI+ N  + Y  SK L  + RR +G    +LAD  ++   K Y    T        ++S
+Sbjct  14  NKIWYNSSMNYEASKQLTKMSRRNIGQAAKILADSGYQGIMKMYSQAQTP------RKSS  67
+
+Query  75  RMFPVSLIEAARNH  88
+           ++ P++L +   NH
+Sbjct  68  KLKPLTLEDKTYNH  81
+
+
+>ref|NP_111617.1| ATPase [Thermoplasma volcanium GSS1]
+ ref|WP_010917356.1| ATPase [Thermoplasma volcanium]
+ dbj|BAB60264.1| hypothetical protein [Thermoplasma volcanium GSS1]
+Length=475
+
+ Score = 35.8 bits (81),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 23/88 (26%), Positives = 42/88 (48%), Gaps = 12/88 (14%)
+
+Query  4    FLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHT  63
+            ++S+R     + + Y  +  +Y    S++ +   AL +FE M+ +G F            
+Sbjct  51   YISSRSSDASILETYPWIKNEYEIKGSVEKVKTSALRNFEKMVEEGKF----------GD  100
+
+Query  64   AFEKSIIVQTSRMFPV--SLIEAARNHF  89
+            A    +IV+TS++ P+  +L E   NHF
+Sbjct  101  ALRDGLIVETSKIVPIIQALYEFVDNHF  128
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305780710719
+Results from round 2
+
+
+Query= 2RH3A
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2RH3|A  Chain A, Crystal Structure Of Plasmid Ptic58 Virc2         189    3e-59
+ref|NP_053393.1|  hypothetical protein pTi-SAKURA_p155 [Agrobacte...   187    2e-57
+sp|P13460.1|VIRC2_AGRRH  RecName: Full=Protein virC2 >emb|CAA3134...   184    4e-56
+ref|YP_001967543.1|  VirC2 [Agrobacterium tumefaciens] >ref|WP_01...   180    9e-55
+ref|WP_007538689.1|  Crp/Fnr family transcriptional regulator [Rh...   180    2e-54
+gb|AAL57021.1|AF329849_15  VirC2 [Agrobacterium tumefaciens]           174    4e-52
+ref|NP_059811.1|  hypothetical protein pTi_139 [Agrobacterium tum...   172    1e-51
+ref|YP_002540100.1|  virA/G regulated protein [Agrobacterium viti...   171    5e-51
+ref|NP_066746.1|  riorf165 [Agrobacterium rhizogenes] >ref|YP_001...   167    1e-49
+ref|YP_471650.1|  virulence VirC2 protein [Rhizobium etli CFN 42]...   166    4e-49
+ref|YP_770850.1|  crown gall tumor protein VirC2 [Rhizobium legum...   139    2e-38
+ref|WP_018009310.1|  hypothetical protein [Sinorhizobium medicae]      131    2e-35
+ref|WP_009469691.1|  piccolo isoform 3 [Roseibium sp. TrichSKD4] ...   121    7e-32
+
+Sequences not found previously or not previously below threshold:
+
+ref|YP_771812.1|  hypothetical protein RD1_A0108 [Roseobacter den...  42.8    0.010
+ref|WP_009283357.1|  DNA damage-inducible protein DinB [Fibrisoma...  39.3    0.14 
+ref|NP_111617.1|  ATPase [Thermoplasma volcanium GSS1] >ref|WP_01...  37.8    0.59 
+ref|NP_069000.1|  molybdenum cofactor biosynthesis protein A [Arc...  35.9    2.8  
+gb|ERF68057.1|  hypothetical protein EPUS_09457 [Endocarpon pusil...  35.5    3.0  
+ref|WP_009539764.1|  hypothetical protein [Caenispirillum salinar...  35.1    4.4  
+
+
+>pdb|2RH3|A Chain A, Crystal Structure Of Plasmid Ptic58 Virc2
+Length=121
+
+ Score =  189 bits (480),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI
+Sbjct  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN
+Sbjct  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+
+Query  121  S  121
+            S
+Sbjct  121  S  121
+
+
+>ref|NP_053393.1| hypothetical protein pTi-SAKURA_p155 [Agrobacterium tumefaciens]
+ ref|NP_396500.2| putative crown gall tumor protein VirC2 [Agrobacterium fabrum 
+str. C58]
+ ref|WP_010891491.1| Crp/Fnr family transcriptional regulator [Agrobacterium tumefaciens 
+complex]
+ sp|P07166.1|VIRC2_AGRT5 RecName: Full=Protein virC2
+ emb|CAA68596.1| virC2 [Agrobacterium tumefaciens]
+ gb|AAA98387.1| virulence protein [Plasmid pTiC58]
+ dbj|BAA87778.1| tiorf153 [Agrobacterium tumefaciens]
+ gb|AAK90941.2| virA/G regulated protein [Agrobacterium fabrum str. C58]
+Length=202
+
+ Score =  187 bits (475),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI
+Sbjct  82   IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN
+Sbjct  142  PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  201
+
+Query  121  S  121
+            S
+Sbjct  202  S  202
+
+
+>sp|P13460.1|VIRC2_AGRRH RecName: Full=Protein virC2
+ emb|CAA31348.1| virC2 (AA 1-202) [Agrobacterium rhizogenes]
+Length=202
+
+ Score =  184 bits (466),  Expect = 4e-56, Method: Composition-based stats.
+ Identities = 108/120 (90%), Positives = 110/120 (92%), Gaps = 0/120 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAP+VSKIYDNLILQYSPSKSLQMILRRALGDFE MLADGSFR APKSYPI
+Sbjct  82   IQVFLSARPPAPQVSKIYDNLILQYSPSKSLQMILRRALGDFEKMLADGSFRTAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P TA EKSIIVQTSRMFPV L+E ARNHFDPLGLETARAFGHKLATAALA FFA EK T 
+Sbjct  142  PQTASEKSIIVQTSRMFPVPLLEVARNHFDPLGLETARAFGHKLATAALASFFAGEKTTK  201
+
+
+>ref|YP_001967543.1| VirC2 [Agrobacterium tumefaciens]
+ ref|WP_012478083.1| putative crown gall tumor protein VirC2 [Agrobacterium tumefaciens]
+ gb|AAZ50530.1| VirC2 [Agrobacterium tumefaciens]
+ gb|ABK01305.1| VirC2 [Cloning vector pCAMBIA5105]
+Length=202
+
+ Score =  180 bits (457),  Expect = 9e-55, Method: Composition-based stats.
+ Identities = 98/121 (81%), Positives = 110/121 (91%), Gaps = 1/121 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP+VSK YDNL+ QYSPSKSLQMILRRAL DFE+MLADGSFR APKSYPI
+Sbjct  82   LQVFLSARPPAPQVSKTYDNLVRQYSPSKSLQMILRRALDDFESMLADGSFRVAPKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P T  EKS++VQTSRMFPV+L+E AR+HFDPLGLETARAFGHKLATAALA FFA EK ++
+Sbjct  142  PSTT-EKSVLVQTSRMFPVALLEVARSHFDPLGLETARAFGHKLATAALASFFAGEKPSS  200
+
+Query  121  S  121
+            +
+Sbjct  201  N  201
+
+
+>ref|WP_007538689.1| Crp/Fnr family transcriptional regulator [Rhizobium mesoamericanum]
+ emb|CCM79719.1| Protein virC2 [Rhizobium mesoamericanum STM3625]
+Length=204
+
+ Score =  180 bits (456),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 100/118 (85%), Positives = 104/118 (88%), Gaps = 0/118 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRAL DFENMLA+GSF  APKSY I
+Sbjct  80   IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALDDFENMLANGSFCTAPKSYLI  139
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKA  118
+            P     KSIIVQTSRMFP  L+E ARNHFDPLGL++ARAFGHKLATAALA FFA EKA
+Sbjct  140  PQRTSGKSIIVQTSRMFPALLLEIARNHFDPLGLDSARAFGHKLATAALASFFAGEKA  197
+
+
+>gb|AAL57021.1|AF329849_15 VirC2 [Agrobacterium tumefaciens]
+Length=200
+
+ Score =  174 bits (440),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 94/120 (78%), Positives = 100/120 (83%), Gaps = 1/120 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQVFLSARPPAPEVSK+YD L+LQYS SKSLQMILRRAL DFE MLADGSF  APK+YPI
+Sbjct  80   IQVFLSARPPAPEVSKMYDTLVLQYSDSKSLQMILRRALADFEAMLADGSFSTAPKTYPI  139
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+                  K +IVQTSRMFPV L+E ARNHFDPL LE+ARAFGHKLATAALA FFA EK T 
+Sbjct  140  SQV-VGKPVIVQTSRMFPVPLLEVARNHFDPLRLESARAFGHKLATAALASFFAGEKMTK  198
+
+
+>ref|NP_059811.1| hypothetical protein pTi_139 [Agrobacterium tumefaciens]
+ ref|WP_010892499.1| putative crown gall tumor protein VirC2 [Agrobacterium tumefaciens]
+ sp|P06666.1|VIRC2_RHIRD RecName: Full=Protein virC2
+ gb|AAA27408.1| virC2 [Agrobacterium tumefaciens]
+ emb|CAC15167.1| VirC2 protein [Agrobacterium tumefaciens]
+Length=202
+
+ Score =  172 bits (436),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 97/121 (80%), Positives = 108/121 (89%), Gaps = 1/121 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP+VSK YDNL+ QYSPSKSLQMILRRAL DFE+MLADGSFR A KSYPI
+Sbjct  82   LQVFLSARPPAPQVSKTYDNLVRQYSPSKSLQMILRRALDDFESMLADGSFRVALKSYPI  141
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+            P T  EKS++VQTSRMFPV+L+E AR+HFDPLGLET RAFGHKLATAALA FFAREK + 
+Sbjct  142  PLTT-EKSVLVQTSRMFPVALLEVARSHFDPLGLETTRAFGHKLATAALASFFAREKPSR  200
+
+Query  121  S  121
+            +
+Sbjct  201  N  201
+
+
+>ref|YP_002540100.1| virA/G regulated protein [Agrobacterium vitis S4]
+ ref|WP_012649023.1| Crp/Fnr family transcriptional regulator [Agrobacterium vitis]
+ gb|ACM39661.1| virA/G regulated protein [Agrobacterium vitis S4]
+Length=204
+
+ Score =  171 bits (433),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 98/120 (82%), Positives = 101/120 (84%), Gaps = 1/120 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            IQ+FLSARPPAPEVSKIYD LILQYS SKSLQMILRRAL DFE+ML DGSF  APKSYPI
+Sbjct  83   IQIFLSARPPAPEVSKIYDTLILQYSASKSLQMILRRALADFESMLEDGSFSTAPKSYPI  142
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+             H    K IIVQTSRMFPVSL+E ARNHFDPL LETARAFGHKLATAALA FFA EK   
+Sbjct  143  SHV-VNKPIIVQTSRMFPVSLLELARNHFDPLRLETARAFGHKLATAALASFFATEKTRK  201
+
+
+>ref|NP_066746.1| riorf165 [Agrobacterium rhizogenes]
+ ref|YP_001961110.1| rcorf135 [Agrobacterium rhizogenes]
+ ref|WP_010900354.1| hypothetical protein [Agrobacterium rhizogenes]
+ dbj|BAB16284.1| riorf165 [Agrobacterium rhizogenes]
+ gb|ABW33692.1| rcorf135 [Agrobacterium rhizogenes]
+Length=201
+
+ Score =  167 bits (424),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 95/120 (79%), Positives = 101/120 (84%), Gaps = 1/120 (1%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAPEVSKIYDNLILQYS +K+LQMILRRAL DFENMLADGSF   P+SYPI
+Sbjct  81   VQVFLSARPPAPEVSKIYDNLILQYSATKALQMILRRALADFENMLADGSFSTGPQSYPI  140
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKATN  120
+                 EK I+V TSRMFPVSL+E ARNHFDPL LETARAFGHKLATAALA FFA EK   
+Sbjct  141  -SKVVEKPIVVLTSRMFPVSLLEVARNHFDPLRLETARAFGHKLATAALASFFAEEKIRK  199
+
+
+>ref|YP_471650.1| virulence VirC2 protein [Rhizobium etli CFN 42]
+ ref|WP_011427358.1| Crp/Fnr family transcriptional regulator [Rhizobium etli]
+ gb|AAD55072.1|AF176227_6 VirC2 [Rhizobium etli]
+ gb|ABC92923.1| virulence VirC2 protein [Rhizobium etli CFN 42]
+Length=205
+
+ Score =  166 bits (420),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 86/118 (73%), Positives = 95/118 (81%), Gaps = 0/118 (0%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSARPPAP VS+IYD+LILQYS SKSLQMILRRAL DF  ML DGSF  A +SYPI
+Sbjct  81   VQVFLSARPPAPGVSEIYDSLILQYSASKSLQMILRRALDDFVTMLMDGSFSKASQSYPI  140
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKA  118
+            P    EK +IVQTSRM PVS ++ AR+HFDP GLET+RAFG KLATAALA FF   KA
+Sbjct  141  PQETSEKRVIVQTSRMLPVSALKIARDHFDPSGLETSRAFGLKLATAALASFFDAAKA  198
+
+
+>ref|YP_770850.1| crown gall tumor protein VirC2 [Rhizobium leguminosarum bv. viciae 
+3841]
+ ref|WP_011654591.1| crown gall tumor protein VirC2 [Rhizobium leguminosarum]
+ emb|CAK11647.1| putative crown-gall tumour like protein [Rhizobium leguminosarum 
+bv. viciae 3841]
+Length=197
+
+ Score =  139 bits (349),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 77/117 (66%), Gaps = 4/117 (3%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSA  PA  +S  +D L  +  P+++LQ+ILRRAL D+E ML++GSF    ++Y +
+Sbjct  78   VQVFLSAALPARGISATFDALSAESRPARALQLILRRALDDYELMLSNGSFAEIAQAYSV  137
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+                 E   IV TSRM P  L++ A  HFDPLG  +ARAFG KLA++AL  FF  EK
+Sbjct  138  E----EPLSIVATSRMMPRRLVDIALAHFDPLGFNSARAFGRKLASSALCIFFNNEK  190
+
+
+>ref|WP_018009310.1| hypothetical protein [Sinorhizobium medicae]
+Length=197
+
+ Score =  131 bits (328),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 75/117 (64%), Gaps = 4/117 (3%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            +QVFLSA  PA  +S  +D L  +  P+++LQMIL+RAL D+E ML+ GSF     +Y +
+Sbjct  78   VQVFLSAALPARGISATFDALSAESRPARALQMILQRALDDYELMLSTGSFAEIAPAYSV  137
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREK  117
+                 E   IV TSRM P  L++ A  HFDPLG  +ARAFG KLA++AL  FF  EK
+Sbjct  138  E----EPLSIVATSRMMPRRLVDIALAHFDPLGFNSARAFGRKLASSALFIFFNNEK  190
+
+
+>ref|WP_009469691.1| piccolo isoform 3 [Roseibium sp. TrichSKD4]
+ gb|EFO28782.1| piccolo isoform 3 [Roseibium sp. TrichSKD4]
+Length=204
+
+ Score =  121 bits (304),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 42/119 (35%), Positives = 57/119 (48%), Gaps = 6/119 (5%)
+
+Query  1    IQVFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPI  60
+            + + +S   P   VS  +D L+  YS  ++L+ IL  AL  +E +L  G F+  PK YP 
+Sbjct  92   MTISVSVPIPQKGVSPFFDALVEDYSEQEALRYILNEALPAYEALLLGGKFKKLPKDYPA  151
+
+Query  61   PHTAFEKSIIVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFAREKAT  119
+              T      IV T R F     EAAR  FD  G+ +       +A AALA +F  E A 
+Sbjct  152  TTT------IVSTRRTFSGEAFEAARKAFDRFGVLSQFKISKMIAQAALASYFKNENAN  204
+
+
+>ref|YP_771812.1| hypothetical protein RD1_A0108 [Roseobacter denitrificans OCh 
+114]
+ ref|WP_011655460.1| hypothetical protein [Roseobacter denitrificans]
+ gb|ABI93404.1| hypothetical protein RD1_A0108 [Roseobacter denitrificans OCh 
+114]
+Length=215
+
+ Score = 42.8 bits (99),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 24/107 (22%), Positives = 45/107 (42%), Gaps = 6/107 (6%)
+
+Query  10   PAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHTAFEKSI  69
+            P P VSK YD +        +L+ ++  A+     +         P +      A +KS 
+Sbjct  111  PKPGVSKTYDQVAAAMGRDIALKALVTDAIAALAEV---DHLTVTPDT---DLFANDKSN  164
+
+Query  70   IVQTSRMFPVSLIEAARNHFDPLGLETARAFGHKLATAALACFFARE  116
+             ++T+R+   +L++  R   DP  + +  + G KL    LA +   +
+Sbjct  165  RLRTNRLLNRALVDELRQELDPYNVLSDYSIGIKLGQLILANYLGGK  211
+
+
+>ref|WP_009283357.1| DNA damage-inducible protein DinB [Fibrisoma limi]
+ emb|CCH54781.1| hypothetical protein BN8_03986 [Fibrisoma limi BUZ 3]
+Length=177
+
+ Score = 39.3 bits (90),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 23/91 (25%), Positives = 39/91 (43%), Gaps = 8/91 (9%)
+
+Query  7   ARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLAD-----GSFRAAPKSYPIP  61
+           ARP A E +  Y+  +      +   ++LRR   + + ML++     G FR AP  + I 
+Sbjct  6   ARPAASEYNPYYNTYVSLIPDHEDPLILLRRQPDELKAMLSNLTDEQGLFRYAPGKWSIK  65
+
+Query  62  HTAFEKSIIVQTSRMFPVSLIEAARNHFDPL  92
+            +      ++ T R+F    +   R    PL
+Sbjct  66  ESLVH---MIDTERIFAYRALRIGRGDQTPL  93
+
+
+>ref|NP_111617.1| ATPase [Thermoplasma volcanium GSS1]
+ ref|WP_010917356.1| ATPase [Thermoplasma volcanium]
+ dbj|BAB60264.1| hypothetical protein [Thermoplasma volcanium GSS1]
+Length=475
+
+ Score = 37.8 bits (86),  Expect = 0.59, Method: Composition-based stats.
+ Identities = 23/88 (26%), Positives = 43/88 (49%), Gaps = 12/88 (14%)
+
+Query  4    FLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHT  63
+            ++S+R     + + Y  +  +Y    S++ +   AL +FE M+ +G F  A +       
+Sbjct  51   YISSRSSDASILETYPWIKNEYEIKGSVEKVKTSALRNFEKMVEEGKFGDALRD------  104
+
+Query  64   AFEKSIIVQTSRMFPV--SLIEAARNHF  89
+                 +IV+TS++ P+  +L E   NHF
+Sbjct  105  ----GLIVETSKIVPIIQALYEFVDNHF  128
+
+
+>ref|NP_069000.1| molybdenum cofactor biosynthesis protein A [Archaeoglobus fulgidus 
+DSM 4304]
+ ref|WP_010877673.1| molybdenum cofactor biosynthesis protein A [Archaeoglobus fulgidus]
+ gb|AAB91068.1| molybdenum cofactor biosynthesis protein (moeA-3) [Archaeoglobus 
+fulgidus DSM 4304]
+Length=400
+
+ Score = 35.9 bits (81),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 16/92 (17%), Positives = 37/92 (40%), Gaps = 0/92 (0%)
+
+Query  27   PSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPHTAFEKSIIVQTSRMFPVSLIEAAR  86
+             ++ ++ ++ + + D++ +L  G      K Y +        +++   R  P   +  A 
+Sbjct  223  DAEEVREMVEKGVRDYDAVLTSGGVSVGEKDYVVKALKEMGEVLIYKVRQRPGKPMVVAV  282
+
+Query  87   NHFDPLGLETARAFGHKLATAALACFFAREKA  118
+             +  P+     +  G   A  +L  FFA +K 
+Sbjct  283  VNEKPVFALPGKPAGCFTAMLSLRRFFAGDKP  314
+
+
+>gb|ERF68057.1| hypothetical protein EPUS_09457 [Endocarpon pusillum Z07020]
+Length=217
+
+ Score = 35.5 bits (80),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 19/70 (27%), Positives = 32/70 (46%), Gaps = 2/70 (3%)
+
+Query  7    ARPPAPEVSKIYDNLILQYSPSKSLQMI--LRRALGDFENMLADGSFRAAPKSYPIPHTA  64
+            ARPPAP VS  +  L  Q S  +  Q    + R +G +     DG    +P  +P+  + 
+Sbjct  75   ARPPAPNVSDAFSYLANQNSTDRHPQFTASVDRGMGSYPTHYVDGPNDESPLGFPLSSSG  134
+
+Query  65   FEKSIIVQTS  74
+               +++  T+
+Sbjct  135  SPLTLLSPTN  144
+
+
+>ref|WP_009539764.1| hypothetical protein [Caenispirillum salinarum]
+ gb|EKV31283.1| hypothetical protein C882_3656 [Caenispirillum salinarum AK4]
+Length=214
+
+ Score = 35.1 bits (79),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 26/109 (24%), Positives = 43/109 (39%), Gaps = 13/109 (12%)
+
+Query  3    VFLSARPPAPEVSKIYDNLILQYSPSKSLQMILRRALGDFENMLADGSFRAAPKSYPIPH  62
+            V +  R P  E +     +   ++P+  + +   +A+ D   +   G     PK+ P P 
+Sbjct  48   VIMDLRMPGVEGAACLTRVTKAFAPAPVVVLSASQAVDDILAVARAGLAAYLPKTMPGPA  107
+
+Query  63   TAFEKSIIVQTSRMFPVSLIEAA-------------RNHFDPLGLETAR  98
+                  +++   R FP S IEAA                 +PLGL +AR
+Sbjct  108  MVAALRLVLLGERYFPASAIEAAGGSGESILLREAPPKKPNPLGLLSAR  156
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.129    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305780710719
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

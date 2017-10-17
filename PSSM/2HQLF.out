@@ -1,0 +1,973 @@
+PSIBLAST 2.2.28+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           35,099,569 sequences; 12,354,844,215 total letters
+
+Results from round 1
+
+
+Query= 2HQLF
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+pdb|2HQL|A  Chain A, Crystal Structure Of A Small Single-Stranded...   221    5e-72
+ref|NP_110243.1|  hypothetical protein MPN554 [Mycoplasma pneumon...   209    2e-67
+ref|NP_073048.1|  hypothetical protein MG_376 [Mycoplasma genital...   157    4e-47
+ref|YP_006601422.1|  hypothetical protein CM5_02230 [Mycoplasma g...   147    2e-43
+ref|YP_005880466.1|  single-stranded DNA binding protein [Mycopla...  97.4    8e-24
+ref|NP_852956.2|  single-stranded DNA binding protein [Mycoplasma...  97.1    1e-23
+ref|WP_022091582.1|  putative uncharacterized protein [Lachnospir...  39.3    0.11 
+ref|WP_009265923.1|  hypothetical protein [Lachnospiraceae bacter...  38.5    0.24 
+gb|EIM81145.1|  alpha/beta-hydrolase [Stereum hirsutum FP-91666 SS1]  37.0    1.2  
+gb|EGG06792.1|  hormone-sensitive lipase [Melampsora larici-popul...  35.8    2.6  
+ref|YP_007789891.1|  hypothetical protein CL2_20130 [butyrate-pro...  35.4    3.0  
+ref|WP_007841222.1|  chemotaxis protein CheY [Bacteroides dorei] ...  35.4    3.9  
+ref|XP_001310849.1|  Dynein heavy chain family protein [Trichomon...  35.4    4.0  
+ref|WP_022185277.1|  two-component system sensor histidine kinase...  35.0    4.2  
+ref|WP_022126830.1|  hypothetical protein [Ruminococcus sp. CAG:5...  33.9    4.5  
+ref|WP_009203750.1|  hypothetical protein [Anaerostipes hadrus] >...  34.3    6.3  
+ref|WP_002464821.1|  single-stranded DNA-binding protein [Staphyl...  33.9    7.4  
+
+
+>pdb|2HQL|A Chain A, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|B Chain B, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|C Chain C, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|D Chain D, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|E Chain E, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|F Chain F, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+Length=110
+
+ Score =  221 bits (562),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL  60
+            GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL
+Sbjct  1    GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL  60
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+            EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI
+Sbjct  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+
+
+>ref|NP_110243.1| hypothetical protein MPN554 [Mycoplasma pneumoniae M129]
+ ref|YP_005175796.1| hypothetical protein MPNA5540 [Mycoplasma pneumoniae 309]
+ ref|YP_005881554.1| hypothetical protein MPNE_0652 [Mycoplasma pneumoniae FH]
+ ref|YP_007348127.1| Single-stranded DNA-binding protein [Mycoplasma pneumoniae M129-B7]
+ ref|WP_010874911.1| hypothetical protein [Mycoplasma pneumoniae]
+ sp|P75224.1|Y554_MYCPN RecName: Full=Uncharacterized protein MG376 homolog
+ gb|AAB95936.1| conserved hypothetical protein [Mycoplasma pneumoniae M129]
+ gb|ADK86915.1| conserved hypothetical protein [Mycoplasma pneumoniae FH]
+ dbj|BAL22132.1| hypothetical protein MPNA5540 [Mycoplasma pneumoniae 309]
+ gb|AGC04440.1| Single-stranded DNA-binding protein [Mycoplasma pneumoniae M129-B7]
+Length=104
+
+ Score =  209 bits (532),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  7    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+            MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK
+Sbjct  1    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  60
+
+Query  67   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+            YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI
+Sbjct  61   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  104
+
+
+>ref|NP_073048.1| hypothetical protein MG_376 [Mycoplasma genitalium G37]
+ ref|YP_006599928.1| hypothetical protein CM9_02260 [Mycoplasma genitalium M2321]
+ ref|YP_006600412.1| hypothetical protein CM3_02370 [Mycoplasma genitalium M6282]
+ ref|YP_006600920.1| hypothetical protein CM1_02290 [Mycoplasma genitalium M6320]
+ ref|WP_009885939.1| hypothetical protein [Mycoplasma genitalium]
+ sp|P47616.1|Y376_MYCGE RecName: Full=Uncharacterized protein MG376
+ gb|AAC71603.1| conserved hypothetical protein [Mycoplasma genitalium G37]
+ gb|ABY79471.1| conserved hypothetical protein [synthetic Mycoplasma genitalium 
+JCVI-1.0]
+ gb|AFQ03220.1| hypothetical protein CM9_02260 [Mycoplasma genitalium M2321]
+ gb|AFQ03704.1| hypothetical protein CM3_02370 [Mycoplasma genitalium M6282]
+ gb|AFQ04212.1| hypothetical protein CM1_02290 [Mycoplasma genitalium M6320]
+Length=104
+
+ Score =  157 bits (397),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 76/103 (74%), Positives = 91/103 (88%), Gaps = 0/103 (0%)
+
+Query  7    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+            MLN VFLEGEIES+ WS KKTGFLVTIKQ R FGER FTD++V YANGQLA+ELE +T+K
+Sbjct  1    MLNCVFLEGEIESTKWSHKKTGFLVTIKQKRLFGERSFTDFFVFYANGQLAFELEAYTQK  60
+
+Query  67   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            +KTISIEGILRTYLE++S IWKTTIE+VKI  P ++++IDY+E
+Sbjct  61   FKTISIEGILRTYLEKRSGIWKTTIEVVKIMKPNSKVMIDYQE  103
+
+
+>ref|YP_006601422.1| hypothetical protein CM5_02230 [Mycoplasma genitalium M2288]
+ ref|WP_014894683.1| hypothetical protein [Mycoplasma genitalium]
+ gb|AFQ04714.1| hypothetical protein CM5_02230 [Mycoplasma genitalium M2288]
+Length=98
+
+ Score =  147 bits (372),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 70/97 (72%), Positives = 86/97 (89%), Gaps = 0/97 (0%)
+
+Query  13   LEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISI  72
+            +EGEIES+ WS KKTGFLVTIKQ R FGER FTD++V YANGQLA+ELE +T+K+KTISI
+Sbjct  1    MEGEIESTKWSHKKTGFLVTIKQKRLFGERSFTDFFVFYANGQLAFELEAYTQKFKTISI  60
+
+Query  73   EGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            EGILRTYLE++S IWKTTIE+VKI  P ++++IDY+E
+Sbjct  61   EGILRTYLEKRSGIWKTTIEVVKIMKPNSKVMIDYQE  97
+
+
+>ref|YP_005880466.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. F]
+ ref|YP_008894111.1| hypothetical protein GCW_01015 [Mycoplasma gallisepticum S6]
+ ref|WP_011883924.1| hypothetical protein [Mycoplasma gallisepticum]
+ gb|ADC31123.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. F]
+ gb|AHB99485.1| hypothetical protein GCW_01015 [Mycoplasma gallisepticum S6]
+Length=94
+
+ Score = 97.4 bits (241),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 51/91 (56%), Positives = 64/91 (70%), Gaps = 0/91 (0%)
+
+Query  7   MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+           MLN V LEG I+S  WS  KTGF VTI Q R FG + FTDYYVIYAN QL  ELEK+  +
+Sbjct  1   MLNTVLLEGLIDSYKWSKNKTGFYVTITQKRKFGNQTFTDYYVIYANDQLGLELEKYVLE  60
+
+Query  67  YKTISIEGILRTYLERKSEIWKTTIEIVKIF  97
+           ++ ++I+G L TY ++KS++WKT I   KI 
+Sbjct  61  HEYLAIKGSLTTYQDKKSKVWKTQILAEKIL  91
+
+
+>ref|NP_852956.2| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(low)]
+ ref|YP_005879702.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(high)]
+ ref|YP_006581070.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+VA94_7994-1-7P]
+ ref|YP_006581825.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC95_13295-2-2P]
+ ref|YP_006582579.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC96_1596-4-2P]
+ ref|YP_006583350.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NY01_2001.047-5-1P]
+ ref|YP_006584104.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+WI01_2001.043-13-2P]
+ ref|YP_006584850.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC06_2006.080-5-2P]
+ ref|YP_006585594.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+CA06_2006.052-5-2P]
+ ref|YP_006586356.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC08_2008.031-4-3P]
+ ref|WP_011113406.1| hypothetical protein [Mycoplasma gallisepticum]
+ gb|AAP56524.2| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(low)]
+ gb|ADC30359.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(high)]
+ gb|AFP75804.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+VA94_7994-1-7P]
+ gb|AFP76571.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC95_13295-2-2P]
+ gb|AFP77325.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC96_1596-4-2P]
+ gb|AFP78096.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NY01_2001.047-5-1P]
+ gb|AFP78856.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+WI01_2001.043-13-2P]
+ gb|AFP79602.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC06_2006.080-5-2P]
+ gb|AFP80346.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+CA06_2006.052-5-2P]
+ gb|AFP81109.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC08_2008.031-4-3P]
+Length=94
+
+ Score = 97.1 bits (240),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 50/91 (55%), Positives = 64/91 (70%), Gaps = 0/91 (0%)
+
+Query  7   MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+           MLN V LEG I+S  WS  KTGF VTI Q R FG + FTDYYVIYAN QL  ELEK+  +
+Sbjct  1   MLNTVLLEGLIDSYKWSKNKTGFYVTITQKRKFGNQTFTDYYVIYANDQLGLELEKYVLE  60
+
+Query  67  YKTISIEGILRTYLERKSEIWKTTIEIVKIF  97
+           ++ ++++G L TY ++KS++WKT I   KI 
+Sbjct  61  HEYLAVKGSLTTYQDKKSKVWKTQILAEKIL  91
+
+
+>ref|WP_022091582.1| putative uncharacterized protein [Lachnospiraceae bacterium CAG:25]
+ emb|CDA33437.1| putative uncharacterized protein [Lachnospiraceae bacterium CAG:25]
+Length=242
+
+ Score = 39.3 bits (90),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            GG G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+   +
+Sbjct  49   GGNGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIGV  108
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+                K  KT S +   +     K+   KTT++++K  NP  +IV+D K+
+Sbjct  109  ----KLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIVVDGKD  153
+
+
+>ref|WP_009265923.1| hypothetical protein [Lachnospiraceae bacterium 5_1_63FAA]
+ gb|EFV15204.1| hypothetical protein HMPREF0996_02970 [Lachnospiraceae bacterium 
+5_1_63FAA]
+Length=242
+
+ Score = 38.5 bits (88),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            GG G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+   +
+Sbjct  49   GGNGFYTNVIYIKGTNRSNSESILRNGMKVKSSNRKVISTKTFGKDYYLIADNNQVGIGV  108
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+                K  KT S +   +     K+   KTT++++K  NP  +IV+D ++
+Sbjct  109  ----KLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIVVDGRD  153
+
+
+>gb|EIM81145.1| alpha/beta-hydrolase [Stereum hirsutum FP-91666 SS1]
+Length=1089
+
+ Score = 37.0 bits (84),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 23/82 (28%), Positives = 39/82 (48%), Gaps = 11/82 (13%)
+
+Query  27   TGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISIEGILRTYLERKSEI  86
+            T   V  K MR     LF+ YY+IYAN     E ++  ++++ +    +LR   E     
+Sbjct  107  TAMAVRPKWMRDICSVLFSAYYIIYAN-----EADEKLRRFRAVPTVEMLRVTWE-----  156
+
+Query  87   WKTTIEIVKIFNPKNEIVIDYK  108
+             KTT   +++F P+  + +  K
+Sbjct  157  -KTTNPYIRLFTPRASVSLHRK  177
+
+
+>gb|EGG06792.1| hormone-sensitive lipase [Melampsora larici-populina 98AG31]
+Length=903
+
+ Score = 35.8 bits (81),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 24/71 (34%), Positives = 35/71 (49%), Gaps = 11/71 (15%)
+
+Query  31   VTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISIEGILRTYLERKSEIWKTT  90
+            V IK MR     LF+ YY++YAN     E ++  ++Y+ +    ILR   E      KT+
+Sbjct  109  VRIKWMRDVLSLLFSGYYLVYAN-----EADEKLRQYRAVPTVEILRVTWE------KTS  157
+
+Query  91   IEIVKIFNPKN  101
+               V+ F  KN
+Sbjct  158  NPFVQFFTRKN  168
+
+
+>ref|YP_007789891.1| hypothetical protein CL2_20130 [butyrate-producing bacterium 
+SSC/2]
+ ref|WP_008392371.1| hypothetical protein [Clostridiales]
+ gb|EDS22816.1| hypothetical protein CLOSS21_00651 [Clostridium sp. SS2/1]
+ emb|CBL38896.1| hypothetical protein CL2_20130 [butyrate-producing bacterium 
+SSC/2]
+Length=242
+
+ Score = 35.4 bits (80),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 53/109 (49%), Gaps = 5/109 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            G  G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+   +
+Sbjct  49   GENGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIGV  108
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+                K  KT S +   +   + K+   KTT++++K  NP  +IV+D ++
+Sbjct  109  ----KLKKTGSTKITAKFKYKGKTYSVKTTVKVIKYSNPFKKIVVDGRD  153
+
+
+>ref|WP_007841222.1| chemotaxis protein CheY [Bacteroides dorei]
+ gb|EEO45807.1| ATPase/histidine kinase/DNA gyrase B/HSP90 domain protein [Bacteroides 
+dorei 5_1_36/D4]
+Length=1344
+
+ Score = 35.4 bits (80),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 40/91 (44%), Gaps = 6/91 (7%)
+
+Query  19   SSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISIEGILRT  78
+            ++ WSV   G          +    F  + +I    + A     +     ++  +G++  
+Sbjct  175  NNVWSVVDGG------DGNLYVAHAFHGFSIISIKDKKAKNFRHNPNDPNSLPGDGVVCI  228
+
+Query  79   YLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            Y +R + IW  T E + +FNP++E  I +KE
+Sbjct  229  YKDRNNNIWLGTSEGLALFNPESESFIHFKE  259
+
+
+>ref|XP_001310849.1| Dynein heavy chain family protein [Trichomonas vaginalis G3]
+ gb|EAX97919.1| Dynein heavy chain family protein [Trichomonas vaginalis G3]
+Length=4275
+
+ Score = 35.4 bits (80),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 39/78 (50%), Gaps = 2/78 (3%)
+
+Query  31   VTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK--YKTISIEGILRTYLERKSEIWK  88
+            V ++   F  +R+  +    + + QL   L K   K   K IS   +LR  ++    I  
+Sbjct  290  VIVRSTEFLSDRILGESLFDFRSLQLFSLLNKEIMKNLLKVISKSDLLRKNIDDFQLIAM  349
+
+Query  89   TTIEIVKIFNPKNEIVID  106
+             T EI+KI+N +N+I+ID
+Sbjct  350  NTHEIIKIWNEQNKIIID  367
+
+
+>ref|WP_022185277.1| two-component system sensor histidine kinase/response regulator 
+[Bacteroides dorei CAG:222]
+ emb|CDB39058.1| two-component system sensor histidine kinase/response regulator 
+[Bacteroides dorei CAG:222]
+Length=1344
+
+ Score = 35.0 bits (79),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 21/91 (23%), Positives = 40/91 (44%), Gaps = 6/91 (7%)
+
+Query  19   SSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISIEGILRT  78
+            ++ WSV   G          +    F  + +I    + A     +     ++  +G++  
+Sbjct  175  NNVWSVVDGG------DGNLYVAHAFHGFSIISIKDKKAKNFRHNPNDPNSLPGDGVVCI  228
+
+Query  79   YLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            Y +R + IW  T E + +FNP++E  I +KE
+Sbjct  229  YKDRNNNIWLGTSEGLALFNPESESFIHFKE  259
+
+
+>ref|WP_022126830.1| hypothetical protein [Ruminococcus sp. CAG:579]
+ emb|CDA74302.1| unknown [Ruminococcus sp. CAG:579]
+Length=100
+
+ Score = 33.9 bits (76),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 27/94 (29%), Positives = 45/94 (48%), Gaps = 9/94 (10%)
+
+Query  9   NRVFLEGEIES-----SCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEK-  62
+           NRV + G I S     S +S++   F + + +    GE+ F D + +YAN        K 
+Sbjct  8   NRVRVTGFISSDITSQSAYSIE---FKLAVPRKAKRGEQSFNDVFTVYANESSTITFAKN  64
+
+Query  63  HTKKYKTISIEGILRTYLERKSEIWKTTIEIVKI  96
+           H KK   + ++G LRT+ +   +I  + I I  +
+Sbjct  65  HLKKGSVVIVKGELRTFNKGTIKICSSDITITSV  98
+
+
+>ref|WP_009203750.1| hypothetical protein [Anaerostipes hadrus]
+ gb|EKY22545.1| hypothetical protein HMPREF0369_01479 [Anaerostipes hadrus DSM 
+3319]
+Length=242
+
+ Score = 34.3 bits (77),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 52/110 (47%), Gaps = 5/110 (5%)
+
+Query  1    GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYE  59
+             G  G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+   
+Sbjct  48   NGENGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIG  107
+
+Query  60   LEKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            +    K  KT S +   +     K+   KTT++++K  NP  +I++D ++
+Sbjct  108  V----KLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIIVDGRD  153
+
+
+>ref|WP_002464821.1| single-stranded DNA-binding protein [Staphylococcus simiae]
+ gb|EHJ07175.1| single strand DNA binding protein [Staphylococcus simiae CCM 
+7213]
+Length=131
+
+ Score = 33.9 bits (76),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 29/113 (26%), Positives = 51/113 (45%), Gaps = 13/113 (12%)
+
+Query  7    MLNRVFLEGEIESSCWSVKKTG------FLVTIKQMRFFGERLFTDYYVIYANGQLAYEL  60
+            MLN++ + G +        K G       + T +  +   +   +DY    A G+LA  +
+Sbjct  1    MLNKIVIVGRLTKDVQIFDKEGSKIATFCVATQRNYKDENDEFVSDYIFCKAFGKLAVNI  60
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSE----IWKTTIEIVKIFNPK---NEIVID  106
+            EK+T +   + I G +R+    K E    + +  +E +K  +PK   NEI+ D
+Sbjct  61   EKYTNQGSLVGITGQMRSRKYVKDEQTHFVTELYVETIKFMSPKSKNNEILSD  113
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.141    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307746490656
+Results from round 2
+
+
+Query= 2HQLF
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+pdb|2HQL|A  Chain A, Crystal Structure Of A Small Single-Stranded...   174    1e-53
+ref|NP_073048.1|  hypothetical protein MG_376 [Mycoplasma genital...   170    3e-52
+ref|NP_110243.1|  hypothetical protein MPN554 [Mycoplasma pneumon...   162    5e-49
+ref|YP_006601422.1|  hypothetical protein CM5_02230 [Mycoplasma g...   156    8e-47
+ref|YP_005880466.1|  single-stranded DNA binding protein [Mycopla...   133    1e-37
+ref|NP_852956.2|  single-stranded DNA binding protein [Mycoplasma...   132    1e-37
+
+Sequences not found previously or not previously below threshold:
+
+ref|WP_022126830.1|  hypothetical protein [Ruminococcus sp. CAG:5...  38.8    0.051
+ref|YP_006613836.1|  single-strand binding protein family [Bacill...  38.4    0.22 
+ref|WP_022091582.1|  putative uncharacterized protein [Lachnospir...  37.7    0.52 
+ref|WP_009265923.1|  hypothetical protein [Lachnospiraceae bacter...  36.9    0.84 
+ref|YP_300877.1|  single strand DNA binding protein [Staphylococc...  35.0    2.9  
+ref|WP_006969082.1|  nuclease (SNase-like) protein [Plesiocystis ...  35.4    3.8  
+ref|YP_007789891.1|  hypothetical protein CL2_20130 [butyrate-pro...  35.0    3.9  
+ref|YP_008311391.1|  single-strand DNA-binding protein [Spiroplas...  34.2    4.0  
+ref|WP_003086820.1|  single-stranded DNA-binding protein [Strepto...  34.2    4.0  
+ref|YP_007859481.1|  putative single-strand DNA-binding protein [...  34.6    4.1  
+ref|YP_004925129.1|  ssDNA-binding protein [Streptomyces flavogri...  34.6    4.1  
+ref|WP_009203750.1|  hypothetical protein [Anaerostipes hadrus] >...  34.6    6.0  
+ref|WP_021154298.1|  Single-stranded DNA-binding protein [Strepto...  33.8    6.8  
+ref|YP_007836578.1|  single-strand binding protein [Faecalibacter...  34.2    6.8  
+ref|WP_003004675.1|  single-stranded DNA-binding protein [Strepto...  33.8    7.4  
+ref|YP_006309136.1|  ssDNA-binding protein [Streptococcus parasan...  33.8    7.4  
+ref|YP_004622633.1|  single-strand binding protein [Streptococcus...  33.4    9.6  
+ref|WP_003019117.1|  single-stranded DNA-binding protein [Strepto...  33.4    9.7  
+
+
+>pdb|2HQL|A Chain A, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|B Chain B, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|C Chain C, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|D Chain D, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|E Chain E, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+ pdb|2HQL|F Chain F, Crystal Structure Of A Small Single-Stranded Dna Binding 
+Protein From Mycoplasma Pneumoniae
+Length=110
+
+ Score =  174 bits (441),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL  60
+            GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL
+Sbjct  1    GGGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYEL  60
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+            EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI
+Sbjct  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+
+
+>ref|NP_073048.1| hypothetical protein MG_376 [Mycoplasma genitalium G37]
+ ref|YP_006599928.1| hypothetical protein CM9_02260 [Mycoplasma genitalium M2321]
+ ref|YP_006600412.1| hypothetical protein CM3_02370 [Mycoplasma genitalium M6282]
+ ref|YP_006600920.1| hypothetical protein CM1_02290 [Mycoplasma genitalium M6320]
+ ref|WP_009885939.1| hypothetical protein [Mycoplasma genitalium]
+ sp|P47616.1|Y376_MYCGE RecName: Full=Uncharacterized protein MG376
+ gb|AAC71603.1| conserved hypothetical protein [Mycoplasma genitalium G37]
+ gb|ABY79471.1| conserved hypothetical protein [synthetic Mycoplasma genitalium 
+JCVI-1.0]
+ gb|AFQ03220.1| hypothetical protein CM9_02260 [Mycoplasma genitalium M2321]
+ gb|AFQ03704.1| hypothetical protein CM3_02370 [Mycoplasma genitalium M6282]
+ gb|AFQ04212.1| hypothetical protein CM1_02290 [Mycoplasma genitalium M6320]
+Length=104
+
+ Score =  170 bits (431),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 76/103 (74%), Positives = 91/103 (88%), Gaps = 0/103 (0%)
+
+Query  7    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+            MLN VFLEGEIES+ WS KKTGFLVTIKQ R FGER FTD++V YANGQLA+ELE +T+K
+Sbjct  1    MLNCVFLEGEIESTKWSHKKTGFLVTIKQKRLFGERSFTDFFVFYANGQLAFELEAYTQK  60
+
+Query  67   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            +KTISIEGILRTYLE++S IWKTTIE+VKI  P ++++IDY+E
+Sbjct  61   FKTISIEGILRTYLEKRSGIWKTTIEVVKIMKPNSKVMIDYQE  103
+
+
+>ref|NP_110243.1| hypothetical protein MPN554 [Mycoplasma pneumoniae M129]
+ ref|YP_005175796.1| hypothetical protein MPNA5540 [Mycoplasma pneumoniae 309]
+ ref|YP_005881554.1| hypothetical protein MPNE_0652 [Mycoplasma pneumoniae FH]
+ ref|YP_007348127.1| Single-stranded DNA-binding protein [Mycoplasma pneumoniae M129-B7]
+ ref|WP_010874911.1| hypothetical protein [Mycoplasma pneumoniae]
+ sp|P75224.1|Y554_MYCPN RecName: Full=Uncharacterized protein MG376 homolog
+ gb|AAB95936.1| conserved hypothetical protein [Mycoplasma pneumoniae M129]
+ gb|ADK86915.1| conserved hypothetical protein [Mycoplasma pneumoniae FH]
+ dbj|BAL22132.1| hypothetical protein MPNA5540 [Mycoplasma pneumoniae 309]
+ gb|AGC04440.1| Single-stranded DNA-binding protein [Mycoplasma pneumoniae M129-B7]
+Length=104
+
+ Score =  162 bits (410),  Expect = 5e-49, Method: Composition-based stats.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  7    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+            MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK
+Sbjct  1    MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  60
+
+Query  67   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  110
+            YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI
+Sbjct  61   YKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKEI  104
+
+
+>ref|YP_006601422.1| hypothetical protein CM5_02230 [Mycoplasma genitalium M2288]
+ ref|WP_014894683.1| hypothetical protein [Mycoplasma genitalium]
+ gb|AFQ04714.1| hypothetical protein CM5_02230 [Mycoplasma genitalium M2288]
+Length=98
+
+ Score =  156 bits (395),  Expect = 8e-47, Method: Composition-based stats.
+ Identities = 70/97 (72%), Positives = 86/97 (89%), Gaps = 0/97 (0%)
+
+Query  13   LEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKKYKTISI  72
+            +EGEIES+ WS KKTGFLVTIKQ R FGER FTD++V YANGQLA+ELE +T+K+KTISI
+Sbjct  1    MEGEIESTKWSHKKTGFLVTIKQKRLFGERSFTDFFVFYANGQLAFELEAYTQKFKTISI  60
+
+Query  73   EGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+            EGILRTYLE++S IWKTTIE+VKI  P ++++IDY+E
+Sbjct  61   EGILRTYLEKRSGIWKTTIEVVKIMKPNSKVMIDYQE  97
+
+
+>ref|YP_005880466.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. F]
+ ref|YP_008894111.1| hypothetical protein GCW_01015 [Mycoplasma gallisepticum S6]
+ ref|WP_011883924.1| hypothetical protein [Mycoplasma gallisepticum]
+ gb|ADC31123.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. F]
+ gb|AHB99485.1| hypothetical protein GCW_01015 [Mycoplasma gallisepticum S6]
+Length=94
+
+ Score =  133 bits (334),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 51/91 (56%), Positives = 64/91 (70%), Gaps = 0/91 (0%)
+
+Query  7   MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+           MLN V LEG I+S  WS  KTGF VTI Q R FG + FTDYYVIYAN QL  ELEK+  +
+Sbjct  1   MLNTVLLEGLIDSYKWSKNKTGFYVTITQKRKFGNQTFTDYYVIYANDQLGLELEKYVLE  60
+
+Query  67  YKTISIEGILRTYLERKSEIWKTTIEIVKIF  97
+           ++ ++I+G L TY ++KS++WKT I   KI 
+Sbjct  61  HEYLAIKGSLTTYQDKKSKVWKTQILAEKIL  91
+
+
+>ref|NP_852956.2| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(low)]
+ ref|YP_005879702.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(high)]
+ ref|YP_006581070.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+VA94_7994-1-7P]
+ ref|YP_006581825.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC95_13295-2-2P]
+ ref|YP_006582579.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC96_1596-4-2P]
+ ref|YP_006583350.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NY01_2001.047-5-1P]
+ ref|YP_006584104.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+WI01_2001.043-13-2P]
+ ref|YP_006584850.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC06_2006.080-5-2P]
+ ref|YP_006585594.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+CA06_2006.052-5-2P]
+ ref|YP_006586356.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC08_2008.031-4-3P]
+ ref|WP_011113406.1| hypothetical protein [Mycoplasma gallisepticum]
+ gb|AAP56524.2| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(low)]
+ gb|ADC30359.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+str. R(high)]
+ gb|AFP75804.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+VA94_7994-1-7P]
+ gb|AFP76571.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC95_13295-2-2P]
+ gb|AFP77325.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC96_1596-4-2P]
+ gb|AFP78096.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NY01_2001.047-5-1P]
+ gb|AFP78856.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+WI01_2001.043-13-2P]
+ gb|AFP79602.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC06_2006.080-5-2P]
+ gb|AFP80346.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+CA06_2006.052-5-2P]
+ gb|AFP81109.1| single-stranded DNA binding protein [Mycoplasma gallisepticum 
+NC08_2008.031-4-3P]
+Length=94
+
+ Score =  132 bits (333),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 50/91 (55%), Positives = 64/91 (70%), Gaps = 0/91 (0%)
+
+Query  7   MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+           MLN V LEG I+S  WS  KTGF VTI Q R FG + FTDYYVIYAN QL  ELEK+  +
+Sbjct  1   MLNTVLLEGLIDSYKWSKNKTGFYVTITQKRKFGNQTFTDYYVIYANDQLGLELEKYVLE  60
+
+Query  67  YKTISIEGILRTYLERKSEIWKTTIEIVKIF  97
+           ++ ++++G L TY ++KS++WKT I   KI 
+Sbjct  61  HEYLAVKGSLTTYQDKKSKVWKTQILAEKIL  91
+
+
+>ref|WP_022126830.1| hypothetical protein [Ruminococcus sp. CAG:579]
+ emb|CDA74302.1| unknown [Ruminococcus sp. CAG:579]
+Length=100
+
+ Score = 38.8 bits (89),  Expect = 0.051, Method: Composition-based stats.
+ Identities = 26/93 (28%), Positives = 42/93 (45%), Gaps = 3/93 (3%)
+
+Query  9   NRVFLEGEIES--SCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEK-HTK  65
+           NRV + G I S  +  S     F + + +    GE+ F D + +YAN        K H K
+Sbjct  8   NRVRVTGFISSDITSQSAYSIEFKLAVPRKAKRGEQSFNDVFTVYANESSTITFAKNHLK  67
+
+Query  66  KYKTISIEGILRTYLERKSEIWKTTIEIVKIFN  98
+           K   + ++G LRT+ +   +I  + I I  +  
+Sbjct  68  KGSVVIVKGELRTFNKGTIKICSSDITITSVSK  100
+
+
+>ref|YP_006613836.1| single-strand binding protein family [Bacillus thuringiensis 
+HD-789]
+ ref|WP_000284404.1| single-stranded DNA-binding protein [Bacillus thuringiensis]
+ gb|EAO57215.1| Single-strand DNA binding protein [Bacillus thuringiensis serovar 
+israelensis ATCC 35646]
+ gb|EEM99383.1| Single-stranded DNA-binding protein [Bacillus thuringiensis IBL 
+4222]
+ gb|AFQ30350.1| single-strand binding protein family [Bacillus thuringiensis 
+HD-789]
+Length=178
+
+ Score = 38.4 bits (88),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 14/64 (22%), Positives = 36/64 (56%), Gaps = 0/64 (0%)
+
+Query  39   FGERLFTDYYVIYANGQLAYELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFN  98
+            +G++  TD++ + A G+L   ++++TKK   + +EG +++  +     W+   + +K  +
+Sbjct  36   YGDKKTTDFFNVSAWGKLGANVQQYTKKGSVVLVEGKMKSSKKENITYWELRADNIKFLS  95
+
+Query  99   PKNE  102
+              N+
+Sbjct  96   SNND  99
+
+
+>ref|WP_022091582.1| putative uncharacterized protein [Lachnospiraceae bacterium CAG:25]
+ emb|CDA33437.1| putative uncharacterized protein [Lachnospiraceae bacterium CAG:25]
+Length=242
+
+ Score = 37.7 bits (86),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 31/109 (28%), Positives = 52/109 (48%), Gaps = 5/109 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            GG G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+    
+Sbjct  49   GGNGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIG-  107
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVIDYKE  109
+                K  KT S +   +     K+   KTT++++K  NP  +IV+D K+
+Sbjct  108  ---VKLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIVVDGKD  153
+
+
+>ref|WP_009265923.1| hypothetical protein [Lachnospiraceae bacterium 5_1_63FAA]
+ gb|EFV15204.1| hypothetical protein HMPREF0996_02970 [Lachnospiraceae bacterium 
+5_1_63FAA]
+Length=242
+
+ Score = 36.9 bits (84),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 30/106 (28%), Positives = 50/106 (47%), Gaps = 5/106 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            GG G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+    
+Sbjct  49   GGNGFYTNVIYIKGTNRSNSESILRNGMKVKSSNRKVISTKTFGKDYYLIADNNQVGIG-  107
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVID  106
+                K  KT S +   +     K+   KTT++++K  NP  +IV+D
+Sbjct  108  ---VKLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIVVD  150
+
+
+>ref|YP_300877.1| single strand DNA binding protein [Staphylococcus saprophyticus 
+subsp. saprophyticus ATCC 15305]
+ ref|WP_011302684.1| single-stranded DNA-binding protein [Staphylococcus saprophyticus]
+ dbj|BAE17932.1| putative single strand DNA binding protein [Staphylococcus saprophyticus 
+subsp. saprophyticus ATCC 15305]
+Length=139
+
+ Score = 35.0 bits (79),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/106 (22%), Positives = 46/106 (43%), Gaps = 10/106 (9%)
+
+Query  7    MLNRVFLEGEIESS-----CWSVKKTGFLVTIKQMRFFGERL-FTDYYVIYANGQLAYEL  60
+            M+N + + G +            K   F V + +      +    DY    A G++A  +
+Sbjct  1    MINNIVIVGRLTKDPKIYDKEEKKLATFCVAVSRNYKDKNQTPVCDYLFCKAFGKMATNI  60
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSE----IWKTTIEIVKIFNPKNE  102
+            EK+TK+   + I G ++++   K      + +  IE +K  +P+N+
+Sbjct  61   EKYTKQGSLVGITGQMQSHKYEKEGQTHFVSEILIESIKFMSPQNK  106
+
+
+>ref|WP_006969082.1| nuclease (SNase-like) protein [Plesiocystis pacifica]
+ gb|EDM81907.1| nuclease (SNase-like) protein [Plesiocystis pacifica SIR-1]
+Length=455
+
+ Score = 35.4 bits (80),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 14/71 (20%), Positives = 36/71 (51%), Gaps = 7/71 (10%)
+
+Query  35   QMRFFGERLFTDYYVIYANGQL--AYELEKHTKKYKTISIEGILRTYLERKSEIWKTTIE  92
+            +      R+F D+ +I+ +  +  A  ++ +  + + I + G++ +Y +R+S   +  IE
+Sbjct  278  KRVLLSRRMFNDFPLIFWDDDIYEASGIDAY--RGEYIRVRGVVTSYTDRRSGERQLQIE  335
+
+Query  93   I---VKIFNPK  100
+            +    +I  P+
+Sbjct  336  VQVPEQIVTPR  346
+
+
+>ref|YP_007789891.1| hypothetical protein CL2_20130 [butyrate-producing bacterium 
+SSC/2]
+ ref|WP_008392371.1| hypothetical protein [Clostridiales]
+ gb|EDS22816.1| hypothetical protein CLOSS21_00651 [Clostridium sp. SS2/1]
+ emb|CBL38896.1| hypothetical protein CL2_20130 [butyrate-producing bacterium 
+SSC/2]
+Length=242
+
+ Score = 35.0 bits (79),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 29/106 (27%), Positives = 50/106 (47%), Gaps = 5/106 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            G  G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+    
+Sbjct  49   GENGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIG-  107
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVID  106
+                K  KT S +   +   + K+   KTT++++K  NP  +IV+D
+Sbjct  108  ---VKLKKTGSTKITAKFKYKGKTYSVKTTVKVIKYSNPFKKIVVD  150
+
+
+>ref|YP_008311391.1| single-strand DNA-binding protein [Spiroplasma taiwanense CT-1]
+ ref|WP_020834233.1| single-strand DNA-binding protein [Spiroplasma taiwanense]
+ gb|AGR41094.1| single-strand DNA-binding protein [Spiroplasma taiwanense CT-1]
+Length=129
+
+ Score = 34.2 bits (77),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 20/87 (23%), Positives = 38/87 (44%), Gaps = 2/87 (2%)
+
+Query  7   MLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLFTDYYVIYANGQLAYELEKHTKK  66
+           ++ R+  + E+  S        F V + +  F G   FT +   +A  + A  + K+ KK
+Sbjct  6   LIGRITKDPELRKSSGGKDYVAFTVAVNE--FSGGNQFTQFVPCFAWEKTAENMAKYVKK  63
+
+Query  67  YKTISIEGILRTYLERKSEIWKTTIEI  93
+              I++EG L    +  +  + T I +
+Sbjct  64  GAQIAVEGNLNVRQDNNNGQFSTVISV  90
+
+
+>ref|WP_003086820.1| single-stranded DNA-binding protein [Streptococcus ratti]
+ gb|EJN95011.1| single-stranded DNA-binding protein [Streptococcus ratti FA-1 
+= DSM 20564]
+ gb|EMP69596.1| single-stranded DNA-binding protein [Streptococcus ratti FA-1 
+= DSM 20564]
+Length=131
+
+ Score = 34.2 bits (77),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 29/88 (33%), Positives = 41/88 (47%), Gaps = 9/88 (10%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFF----GERLFTDYYVIYANGQLAY  58
+           M N+V L G +    E+   +  KT   VTI   R F    GER   D+  I   G+LA 
+Sbjct  1   MYNKVILIGRLTAVPEAVKTANDKTVSRVTIAVNRRFKGQDGERQ-ADFIQIVFWGKLAE  59
+
+Query  59  ELEKHTKKYKTISIEGILRTYLERKSEI  86
+            L  ++ K   +S++G LRT    K  +
+Sbjct  60  TLVSYSSKGSLLSLDGELRTRRYEKDGV  87
+
+
+>ref|YP_007859481.1| putative single-strand DNA-binding protein [Streptomyces sp. 
+PAMC26508]
+ ref|WP_015577187.1| putative single-strand DNA-binding protein [Streptomyces sp. 
+PAMC26508]
+ gb|AGJ54997.1| putative single-strand DNA-binding protein [Streptomyces sp. 
+PAMC26508]
+Length=141
+
+ Score = 34.6 bits (78),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 12/52 (23%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  45   TDYYVIYANGQLAYELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKI  96
+            T +Y ++A   LA  L       + + + G L+   E +  +W+T+++I  +
+Sbjct  50   TGFYTVWARRTLAANLSGSVSVGEPLVVHGRLKVREEERDGVWRTSVDIDAV  101
+
+
+>ref|YP_004925129.1| ssDNA-binding protein [Streptomyces flavogriseus ATCC 33331]
+ ref|WP_014156226.1| single-stranded DNA-binding protein [Streptomyces flavogriseus]
+ gb|ADW05612.1| single-strand binding protein/Primosomal replication protein 
+n [Streptomyces flavogriseus ATCC 33331]
+Length=141
+
+ Score = 34.6 bits (78),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 12/52 (23%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  45   TDYYVIYANGQLAYELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKI  96
+            T +Y ++A   LA  L       + + + G L+   E +  +W+T+++I  +
+Sbjct  50   TGFYTVWARRTLAANLSGSVSVGEPLVVHGRLKVREEERDGVWRTSVDIDAV  101
+
+
+>ref|WP_009203750.1| hypothetical protein [Anaerostipes hadrus]
+ gb|EKY22545.1| hypothetical protein HMPREF0369_01479 [Anaerostipes hadrus DSM 
+3319]
+Length=242
+
+ Score = 34.6 bits (78),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 28/106 (26%), Positives = 49/106 (46%), Gaps = 5/106 (5%)
+
+Query  2    GGGGGMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFFGERLF-TDYYVIYANGQLAYEL  60
+            G  G   N ++++G   S+  S+ + G  V     +    + F  DYY+I  N Q+    
+Sbjct  49   GENGFYTNVIYIKGTNRSNSESILRNGMKVKSSNKKVISTKTFGKDYYLIADNNQVGIG-  107
+
+Query  61   EKHTKKYKTISIEGILRTYLERKSEIWKTTIEIVKIFNPKNEIVID  106
+                K  KT S +   +     K+   KTT++++K  NP  +I++D
+Sbjct  108  ---VKLKKTGSTKITAKFKYRGKTYSVKTTVKVIKYSNPFKKIIVD  150
+
+
+>ref|WP_021154298.1| Single-stranded DNA-binding protein [Streptococcus sp. HSISM1]
+ gb|EQC74492.1| Single-stranded DNA-binding protein [Streptococcus sp. HSISM1]
+ gb|ETD11994.1| single-stranded DNA-binding protein 1 [Streptococcus parasanguinis 
+CC87K]
+Length=131
+
+ Score = 33.8 bits (76),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 28/95 (29%), Positives = 44/95 (46%), Gaps = 9/95 (9%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFF----GERLFTDYYVIYANGQLAY  58
+           M N+V L G +    E    S  K+   VT+   R +    GER  TD+  +   G+LA 
+Sbjct  1   MYNKVILIGRLVAAPELHKTSTDKSVARVTVAVNRRYKDQNGERE-TDFVNVVVWGKLAE  59
+
+Query  59  ELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEI  93
+            +  +  K   IS++G +RT    K+ I +   E+
+Sbjct  60  TMASYASKGSLISLDGEIRTRRYEKNGIMQYVTEV  94
+
+
+>ref|YP_007836578.1| single-strand binding protein [Faecalibacterium prausnitzii L2-6]
+ ref|WP_015564033.1| single-strand binding protein [Faecalibacterium prausnitzii]
+ emb|CBK98294.1| single-strand binding protein [Faecalibacterium prausnitzii L2-6]
+Length=162
+
+ Score = 34.2 bits (77),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 26/94 (28%), Positives = 47/94 (50%), Gaps = 8/94 (9%)
+
+Query  6   GMLNRVFLEGEIESSCWSVKKTGFLVTIKQMRFF---GERLFTDYYVIYANGQLAYELEK  62
+            ++ R+  E E++++   +    F V +   R F   GE    D+  I A  Q A  + K
+Sbjct  6   ALMGRLVYEPELKTTPSGINVCSFRVAVD--RSFTRQGEERKADFIDIVAWRQTAEFVCK  63
+
+Query  63  HTKKYKTISIEGILRT--YLERKSEIWKTTIEIV  94
+           + +K   I+IEG L+T  Y ++ +   +T +E+V
+Sbjct  64  YFQKGSVIAIEGSLQTTSYQDK-NGNNRTKVEVV  96
+
+
+>ref|WP_003004675.1| single-stranded DNA-binding protein [Streptococcus]
+ gb|EFQ54768.1| single-strand binding family protein [Streptococcus parasanguinis 
+F0405]
+ gb|EGU62699.1| single-stranded DNA-binding protein [Streptococcus parasanguinis 
+SK236]
+ gb|EKS17672.1| single-stranded DNA-binding protein 1 [Streptococcus sp. F0442]
+Length=131
+
+ Score = 33.8 bits (76),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 27/95 (28%), Positives = 44/95 (46%), Gaps = 9/95 (9%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFF----GERLFTDYYVIYANGQLAY  58
+           M N+V L G +    E    S  K+   VT+   R +    GER  TD+  +   G+LA 
+Sbjct  1   MYNKVILIGRLVAAPELHKTSTDKSVARVTVAVNRRYKDQNGERE-TDFVNVVVWGKLAE  59
+
+Query  59  ELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEI  93
+            +  +  K   IS++G +RT    K+ + +   E+
+Sbjct  60  TMASYASKGSLISLDGEIRTRRYEKNGVMQYVTEV  94
+
+
+>ref|YP_006309136.1| ssDNA-binding protein [Streptococcus parasanguinis FW213]
+ ref|WP_003009803.1| single-stranded DNA-binding protein [Streptococcus parasanguinis]
+ gb|EFX38045.1| single-strand binding family protein [Streptococcus parasanguinis 
+ATCC 903]
+ gb|AFJ25325.1| Single-strand DNA-binding protein [Streptococcus parasanguinis 
+FW213]
+Length=132
+
+ Score = 33.8 bits (76),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 27/95 (28%), Positives = 44/95 (46%), Gaps = 9/95 (9%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFF----GERLFTDYYVIYANGQLAY  58
+           M N+V L G +    E    S  K+   VT+   R +    GER  TD+  +   G+LA 
+Sbjct  2   MYNKVILIGRLVAAPELHKTSTDKSVARVTVAVNRRYKDQNGERE-TDFVNVVVWGKLAE  60
+
+Query  59  ELEKHTKKYKTISIEGILRTYLERKSEIWKTTIEI  93
+            +  +  K   IS++G +RT    K+ + +   E+
+Sbjct  61  TMASYASKGSLISLDGEIRTRRYEKNGVMQYVTEV  95
+
+
+>ref|YP_004622633.1| single-strand binding protein [Streptococcus parasanguinis ATCC 
+15912]
+ ref|WP_013904501.1| single-stranded DNA-binding protein [Streptococcus parasanguinis]
+ gb|AEH56705.1| single-strand binding family protein [Streptococcus parasanguinis 
+ATCC 15912]
+Length=132
+
+ Score = 33.4 bits (75),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 24/94 (26%), Positives = 43/94 (46%), Gaps = 7/94 (7%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFFGERLF---TDYYVIYANGQLAYE  59
+           M N+V L G +    E    S  K+   VT+   R + ++     TD+  +   G+LA  
+Sbjct  2   MYNKVILIGRLVAAPELHKTSTDKSVARVTVAVNRRYKDQNGDRETDFVNVVVWGKLAET  61
+
+Query  60  LEKHTKKYKTISIEGILRTYLERKSEIWKTTIEI  93
+           +  +  K   IS++G +RT    K+ + +   E+
+Sbjct  62  MASYASKGSLISLDGEIRTRRYEKNGVMQYVTEV  95
+
+
+>ref|WP_003019117.1| single-stranded DNA-binding protein [Streptococcus parasanguinis]
+ gb|EIG23563.1| single-stranded DNA-binding protein [Streptococcus parasanguinis 
+F0449]
+Length=131
+
+ Score = 33.4 bits (75),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 24/94 (26%), Positives = 43/94 (46%), Gaps = 7/94 (7%)
+
+Query  7   MLNRVFLEGEI----ESSCWSVKKTGFLVTIKQMRFFGERLF---TDYYVIYANGQLAYE  59
+           M N+V L G +    E    S  K+   VT+   R + ++     TD+  +   G+LA  
+Sbjct  1   MYNKVILIGRLVAAPELHKTSTDKSVARVTVAVNRRYKDQNGDRETDFVNVVVWGKLAET  60
+
+Query  60  LEKHTKKYKTISIEGILRTYLERKSEIWKTTIEI  93
+           +  +  K   IS++G +RT    K+ + +   E+
+Sbjct  61  MASYASKGSLISLDGEIRTRRYEKNGVMQYVTEV  94
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.140    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0427    0.140     1.90     42.6     43.6 
+
+Effective search space used: 307746490656
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 13, 2013  8:13 AM
+  Number of letters in database: 12,354,844,215
+  Number of sequences in database:  35,099,569
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
